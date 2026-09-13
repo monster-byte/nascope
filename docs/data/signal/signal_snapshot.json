@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T13:46:03.373357+00:00",
+  "generated_at": "2026-09-13T14:01:20.986581+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,10 +85,56 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.0,
+      "score": 52.15,
       "status": "yellow",
       "details": {
-        "error": "news_fetch_failed: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+        "overall_sentiment": "NEUTRAL",
+        "avg_compound": 0.043,
+        "articles_analyzed": 25,
+        "top_headlines": [
+          {
+            "title": "Meet Wall Street’s 3 Safest High-Yield Dividend Stocks",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-12T14:00:44Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "Apple and Taiwan Semiconductor Manufacturing Just Announced a Cutting-Edge Chip. 1 Stock Offers Far Greater Upside",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-12T14:00:21Z",
+            "sentiment": "Positive",
+            "compound": 0.361
+          },
+          {
+            "title": "Will Midterm Elections Cause the Stock Market to Plunge? 75 Years of History Offer an Unexpected Answer",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-12T13:59:49Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "The Fed Faces A Huge Credibility Test",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-12T13:58:41Z",
+            "sentiment": "Positive",
+            "compound": 0.318
+          },
+          {
+            "title": "Bridgewater Founder Dalio Urges Investors to Dump Bonds for Gold Allocation",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-12T13:48:26Z",
+            "sentiment": "Negative",
+            "compound": -0.382
+          },
+          {
+            "title": "If a Stock Market Crash Is Coming, History Says This 1 Move Protects Investors Every Single Time",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-12T13:45:30Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          }
+        ]
       }
     },
     "patent_momentum": {
@@ -100,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 35.87,
-  "trade_probability": 41.52,
+  "confirmation_score": 36.06,
+  "trade_probability": 41.64,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
