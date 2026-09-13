@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T19:31:09.675526+00:00",
+  "generated_at": "2026-09-13T19:45:49.321196+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.41,
+      "score": 51.44,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.068,
+        "avg_compound": 0.029,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "US District Court Strips Away Insane JH Campbell Fake Emergency Order",
+            "source": "CleanTechnica",
+            "publishedAt": "2026-09-12T19:41:36Z",
+            "sentiment": "Negative",
+            "compound": -0.813
+          },
+          {
+            "title": "QBTS Investor Reminder: Kessler Topaz Meltzer & Check, LLP Encourages QBTS Investors with Losses to Contact the Firm",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-12T19:35:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.052
+          },
           {
             "title": "‘It is important to allow markets to give their natural signal’",
             "source": "BusinessLine",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-09-12T19:06:12Z",
             "sentiment": "Positive",
             "compound": 0.499
-          },
-          {
-            "title": "Dow Jones Futures: Fed Rate Hike Seen As Oil, Yields Pressure Stocks; Apple, Moderna Are New Buys",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-12T18:59:16Z",
-            "sentiment": "Negative",
-            "compound": -0.296
-          },
-          {
-            "title": "Coinbase’s SPCXc tokenized SpaceX stock hits $6.6M in DEX volume",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-12T18:51:28Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 36.18,
-  "trade_probability": 41.71,
+  "confirmation_score": 36.0,
+  "trade_probability": 41.6,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
