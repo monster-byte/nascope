@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T13:31:09.576107+00:00",
+  "generated_at": "2026-09-13T13:46:03.373357+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,56 +85,10 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.02,
+      "score": 50.0,
       "status": "yellow",
       "details": {
-        "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.0,
-        "articles_analyzed": 25,
-        "top_headlines": [
-          {
-            "title": "College sticker prices keep rising. Why many schools are still under financial strain",
-            "source": "CNBC",
-            "publishedAt": "2026-09-12T13:30:01Z",
-            "sentiment": "Neutral",
-            "compound": -0.052
-          },
-          {
-            "title": "Fear and Delusion in Dallas: Inside Trump’s Midterm Convention Flop",
-            "source": "Rolling Stone",
-            "publishedAt": "2026-09-12T13:30:00Z",
-            "sentiment": "Negative",
-            "compound": -0.681
-          },
-          {
-            "title": "Scott Bessent dismisses 'Bloomberg Terminal bros' as 10-year Treasury yield hits 4.94% despite $5.2B buyback",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-12T13:30:00Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "Fed rate-hike odds surge as Warsh faces inflation-weary markets",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-12T13:28:51Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Inflation is outpacing wage growth again, squeezing Americans’ paychecks",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-12T13:28:34Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "Iran Says It’s No Longer Bound by the Nuclear Treaty. What That Does to Oil, Gold, and Bitcoin",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-12T13:20:26Z",
-            "sentiment": "Negative",
-            "compound": -0.296
-          }
-        ]
+        "error": "news_fetch_failed: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
       }
     },
     "patent_momentum": {
