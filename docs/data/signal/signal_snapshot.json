@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T21:01:17.977897+00:00",
+  "generated_at": "2026-09-13T21:15:48.920639+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.81,
+      "score": 49.55,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.024,
+        "avg_compound": -0.009,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Anthropic CEO Dario Amodei says AI industry needs to slow down for safety",
+            "source": "WSB Radio",
+            "publishedAt": "2026-09-12T21:09:45Z",
+            "sentiment": "Positive",
+            "compound": 0.421
+          },
           {
             "title": "Is RLUSD Actually Regulated? What Ripple’s Trust Charter Means Versus Tether and USDC",
             "source": "24/7 Wall St.",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-09-12T20:31:38Z",
             "sentiment": "Negative",
             "compound": -0.273
-          },
-          {
-            "title": "US grocery bills may surge by mid-2027 after corn, wheat, and sugar see biggest jump since 2012",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-12T20:30:19Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 35.76,
-  "trade_probability": 41.46,
+  "confirmation_score": 35.83,
+  "trade_probability": 41.5,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
