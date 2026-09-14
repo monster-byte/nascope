@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T16:45:54.356934+00:00",
+  "generated_at": "2026-09-14T17:01:22.475509+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 0.0,
+      "score": 25.0,
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.0403,
+          "change_pct": -0.0552,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.0434,
+          "change_pct": -0.0453,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.033,
+          "change_pct": -0.0047,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.0039,
-          "up": false
+          "change_pct": 0.0294,
+          "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 70.0,
+      "score": 70.44,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29194.87,
-        "sma50": 29194.86,
-        "sma200": 27150.91
+        "last_price": 29238.34,
+        "sma50": 29195.73,
+        "sma200": 27151.13
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 40.0,
+      "score": 45.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.89,
-        "percentile_vs_20d": 60.0
+        "current_vxn": 21.86,
+        "percentile_vs_20d": 55.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 22.07,
+      "score": 22.41,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.951,
-        "change_5d_pct": 3.491
+        "current_yield_pct": 4.949,
+        "change_5d_pct": 3.449
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.42,
+      "score": 48.21,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.48,
-        "change_5d_pct": 0.323
+        "current_dxy": 99.38,
+        "change_5d_pct": 0.224
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.49,
+      "score": 46.6,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.01,
+        "avg_compound": -0.068,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Up 3,600%, this freight fund has posted the biggest gains of all on Iran war oil shock",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-13T16:45:50Z",
+            "title": "GDP Preview: Iran conflict stalled growth but how badly?",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-09-13T17:00:00Z",
             "sentiment": "Negative",
-            "compound": -0.625
+            "compound": -0.66
           },
           {
-            "title": "Anthropic said to have picked Nasdaq for IPO",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-13T16:45:44Z",
+            "title": "Analysis-Houthis' Yemen advance leaves Gulf states with uncomfortable choice",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-13T16:57:16Z",
+            "sentiment": "Negative",
+            "compound": -0.382
+          },
+          {
+            "title": "Speaker Johnson Tip-Toes Around Trump’s $5,000 Giveaway Pledge Under Pointed Questioning from NBC’s Welker",
+            "source": "Mediaite",
+            "publishedAt": "2026-09-13T16:55:17Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
+          {
+            "title": "Federal Reserve faces scrutiny over potential rate hike based on soon-to-be-revised PCE data",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-13T16:55:07Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Being a millionaire isn’t enough to join America’s top 10% — here’s the net worth it actually takes to be in the top",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-13T16:45:00Z",
-            "sentiment": "Positive",
-            "compound": 0.691
-          },
-          {
-            "title": "Chamath Palihapitiya: Anthropic Employee’s “Human Extinction” AI Warning Risks $2.3 Trillion IPO",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-13T16:44:23Z",
-            "sentiment": "Negative",
-            "compound": -0.542
-          },
-          {
-            "title": "BZAI Investors Have Opportunity to Lead Blaize Holdings, Inc. Securities Fraud Lawsuit Filed by The Rosen Law Firm",
+            "title": "MVST Deadline: MVST Investors with Losses in Excess of $100K Have Opportunity to Lead Microvast Holdings, Inc. Securities Fraud Lawsuit",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-13T16:42:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.178
+            "publishedAt": "2026-09-13T16:50:00Z",
+            "sentiment": "Negative",
+            "compound": -0.527
           },
           {
-            "title": "Altria’s Dividend Paradox: Raising Payouts While Cigarette Sales Plummet",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-13T16:41:00Z",
+            "title": "Will Micron Technology Stock Soar to $1,500 After Sept. 30?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-13T16:47:22Z",
             "sentiment": "Neutral",
-            "compound": -0.103
+            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 34.25,
-  "trade_probability": 40.55,
+  "confirmation_score": 41.37,
+  "trade_probability": 44.82,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
