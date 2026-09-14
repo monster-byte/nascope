@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T17:01:22.475509+00:00",
+  "generated_at": "2026-09-14T17:15:54.572159+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,36 +13,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
-      "status": "red",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.0552,
+          "change_pct": -0.106,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.0453,
-          "up": false
+          "change_pct": 0.0138,
+          "up": true
         },
         "NVDA": {
-          "change_pct": -0.0047,
-          "up": false
+          "change_pct": 0.0042,
+          "up": true
         },
         "AMZN": {
-          "change_pct": 0.0294,
+          "change_pct": 0.0196,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 70.44,
+      "score": 70.42,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29238.34,
-        "sma50": 29195.73,
-        "sma200": 27151.13
+        "last_price": 29236.55,
+        "sma50": 29195.7,
+        "sma200": 27151.12
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 45.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.86,
+        "current_vxn": 21.87,
         "percentile_vs_20d": 55.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 22.41,
+      "score": 22.74,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.949,
-        "change_5d_pct": 3.449
+        "current_yield_pct": 4.947,
+        "change_5d_pct": 3.407
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.21,
+      "score": 48.04,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.38,
-        "change_5d_pct": 0.224
+        "current_dxy": 99.4,
+        "change_5d_pct": 0.245
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.6,
+      "score": 45.78,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.068,
+        "avg_compound": -0.084,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "GDP Preview: Iran conflict stalled growth but how badly?",
-            "source": "New Zealand Herald",
-            "publishedAt": "2026-09-13T17:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.66
-          },
-          {
-            "title": "Analysis-Houthis' Yemen advance leaves Gulf states with uncomfortable choice",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-13T16:57:16Z",
-            "sentiment": "Negative",
-            "compound": -0.382
-          },
-          {
-            "title": "Speaker Johnson Tip-Toes Around Trump’s $5,000 Giveaway Pledge Under Pointed Questioning from NBC’s Welker",
-            "source": "Mediaite",
-            "publishedAt": "2026-09-13T16:55:17Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
-          },
-          {
-            "title": "Federal Reserve faces scrutiny over potential rate hike based on soon-to-be-revised PCE data",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-13T16:55:07Z",
+            "title": "Anthropic has chosen Nasdaq for its October IPO, in the week OpenAI ruled one out",
+            "source": "The Next Web",
+            "publishedAt": "2026-09-13T17:14:33Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "MVST Deadline: MVST Investors with Losses in Excess of $100K Have Opportunity to Lead Microvast Holdings, Inc. Securities Fraud Lawsuit",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-13T16:50:00Z",
+            "title": "Houthis' Yemen Advance Leaves Gulf States With Uncomfortable Choice",
+            "source": "HuffPost",
+            "publishedAt": "2026-09-13T17:13:29Z",
             "sentiment": "Negative",
-            "compound": -0.527
+            "compound": -0.382
           },
           {
-            "title": "Will Micron Technology Stock Soar to $1,500 After Sept. 30?",
+            "title": "Dear SpaceX Stock Fans, Mark Your Calendars for September 21",
+            "source": "Barchart.com",
+            "publishedAt": "2026-09-13T17:08:26Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "Jim Cramer Called This Stock “Terrific” and Said “No Thank You” to APLD Stock. Here’s Why",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-13T17:05:09Z",
+            "sentiment": "Positive",
+            "compound": 0.361
+          },
+          {
+            "title": "Billionaire Bill Ackman Trimmed This Big Tech Position to Back These 2 AI Contenders",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-13T16:47:22Z",
+            "publishedAt": "2026-09-13T17:02:01Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Two Telecom Giants, Two Big Dividends. Which One Can Investors Actually Count On?",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-13T17:01:58Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.37,
-  "trade_probability": 44.82,
+  "confirmation_score": 54.82,
+  "trade_probability": 52.89,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
