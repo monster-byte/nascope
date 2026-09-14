@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T00:45:47.005198+00:00",
+  "generated_at": "2026-09-14T01:01:26.860783+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.85,
+      "score": 49.8,
       "status": "yellow",
       "details": {
         "current_dxy": 99.18,
-        "change_5d_pct": 0.018
+        "change_5d_pct": 0.025
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.56,
+      "score": 52.09,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.071,
+        "avg_compound": 0.042,
         "articles_analyzed": 22,
         "top_headlines": [
+          {
+            "title": "Jim Cramer sends strong message to stock market investors",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-13T01:01:06Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
+          {
+            "title": "Tilray Trades Below $5 With Record Fiscal Revenue on the Books. What's Holding the Stock Back?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-13T01:00:48Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Roxy Jacenko cuts ties with Australia for good as she settles into Singapore - as husband Oliver Curtis builds $1.25 billion AI fortune",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-09-13T00:53:31Z",
+            "sentiment": "Neutral",
+            "compound": 0.178
+          },
           {
             "title": "Social Security recipients may see a handy pay raise in 2027",
             "source": "Biztoc.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-09-13T00:03:08Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Get Andy Burnham to pay YOU 5.9% on your savings for years: Here's exactly how to cash in on the bond market mayhem - even if you're a beginner",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-09-13T00:00:52Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
-          },
-          {
-            "title": "Get Andy Burnham to pay YOU 5.9% on your savings for years: Here's exactly how to cash in on the bond market mayhem - even if you're a beginner",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-09-13T00:00:52Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
-          },
-          {
-            "title": "166-Mile 2005 Ford GT",
-            "source": "Bringatrailer.com",
-            "publishedAt": "2026-09-13T00:00:11Z",
-            "sentiment": "Positive",
-            "compound": 0.428
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 36.26,
-  "trade_probability": 41.76,
+  "confirmation_score": 36.13,
+  "trade_probability": 41.68,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
