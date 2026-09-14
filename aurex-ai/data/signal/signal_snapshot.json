@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T23:20:02.850028+00:00",
+  "generated_at": "2026-09-14T23:31:02.826509+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.23,
+      "score": 50.68,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.005,
+        "avg_compound": 0.014,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "They Skipped Long-Term Care Insurance Because Dad Was Only 58. At 76, After a Stroke, No Carrier Would Write It at All",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-13T23:23:03Z",
+            "sentiment": "Positive",
+            "compound": 0.25
+          },
           {
             "title": "Fed’s Warsh on Collision Course With Trump as Rate Hike Looms - Bloomberg.com",
             "source": "Slashdot.org",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-09-13T23:01:29Z",
             "sentiment": "Neutral",
             "compound": -0.026
-          },
-          {
-            "title": "Stocks are in a late-stage bubble and poised to crash 21% next year, while Treasury yields above 5% will signal a new era of tight money, analysts say",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-13T23:01:20Z",
-            "sentiment": "Neutral",
-            "compound": 0.026
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 36.8,
-  "trade_probability": 42.08,
+  "confirmation_score": 36.84,
+  "trade_probability": 42.1,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
