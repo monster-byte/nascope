@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T15:31:09.535159+00:00",
+  "generated_at": "2026-09-14T15:45:51.476928+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
-      "status": "red",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.0391,
+          "change_pct": 0.0269,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.1082,
+          "change_pct": -0.0329,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.0189,
-          "up": false
+          "change_pct": 0.0141,
+          "up": true
         },
         "AMZN": {
-          "change_pct": -0.0257,
+          "change_pct": -0.053,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29066.17,
-        "sma50": 29192.29,
-        "sma200": 27150.27
+        "last_price": 29179.63,
+        "sma50": 29194.56,
+        "sma200": 27150.84
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 20.0,
+      "score": 25.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.48,
-        "percentile_vs_20d": 80.0
+        "current_vxn": 22.36,
+        "percentile_vs_20d": 75.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 17.39,
+      "score": 20.07,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.979,
-        "change_5d_pct": 4.076
+        "current_yield_pct": 4.963,
+        "change_5d_pct": 3.742
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.6,
+      "score": 47.11,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.58,
-        "change_5d_pct": 0.425
+        "current_dxy": 99.52,
+        "change_5d_pct": 0.361
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.54,
+      "score": 49.43,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.049,
+        "avg_compound": -0.011,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Elon Musk’s quietest investor has built a $40B SpaceX stake",
+            "source": "The Next Web",
+            "publishedAt": "2026-09-13T15:44:54Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "HSBC Raises 2026 S&P 500 Target to 8,100 on Earnings Outlook",
+            "source": "Advfn.com",
+            "publishedAt": "2026-09-13T15:43:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Anthropic Locks Down $517 Billion in Compute Ahead of IPO — and It’s Still Not Enough",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-13T15:36:09Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Jim Cramer says big tech stock could double in 3–5 years",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-13T15:31:08Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Five Dividend Stocks Crushing Inflation With Consistent Dividend Payout Growth",
             "source": "Biztoc.com",
@@ -103,34 +131,6 @@
             "title": "Trump Urges Federal Reserve To Cut Rates As Market Bets On Warsh Hike",
             "source": "Biztoc.com",
             "publishedAt": "2026-09-13T15:30:26Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "Five Dividend Stocks Crushing Inflation With Consistent Dividend Payout Growth",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-13T15:26:35Z",
-            "sentiment": "Neutral",
-            "compound": 0.026
-          },
-          {
-            "title": "Stock market holiday: Are NSE, BSE closed for trading on Ganesh Chaturthi?",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-13T15:22:22Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "Bitcoin’s slide below $77,000 sets up a Monday tech test as AI leaders sound warning",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-09-13T15:20:10Z",
-            "sentiment": "Negative",
-            "compound": -0.34
-          },
-          {
-            "title": "Trump Urges Federal Reserve To Cut Rates As Market Bets On Warsh Hike",
-            "source": "Investor's Business Daily",
-            "publishedAt": "2026-09-13T15:19:52Z",
             "sentiment": "Negative",
             "compound": -0.273
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 35.62,
-  "trade_probability": 41.37,
+  "confirmation_score": 43.4,
+  "trade_probability": 46.04,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
