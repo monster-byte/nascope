@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T01:31:01.843320+00:00",
+  "generated_at": "2026-09-14T01:45:47.416874+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.56,
+      "score": 49.81,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.21,
-        "change_5d_pct": 0.055
+        "current_dxy": 99.18,
+        "change_5d_pct": 0.023
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.0,
+      "score": 54.18,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.06,
-        "articles_analyzed": 22,
+        "avg_compound": 0.084,
+        "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "In 1903, a mining engineer staked a claim on Arizona’s Meteor Crater, convinced a fortune in iron lay beneath the floor, and spent 26 years drilling for a meteorite that had mostly vaporized on impact — his family still owns the crater today, and science later proved him right about everything except the treasure",
+            "source": "Space Daily",
+            "publishedAt": "2026-09-13T01:44:29Z",
+            "sentiment": "Positive",
+            "compound": 0.599
+          },
           {
             "title": "Indian investors are overpaying for foreign ETFs. Beware the risks.u",
             "source": "Livemint",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-09-13T01:06:24Z",
             "sentiment": "Positive",
             "compound": 0.459
-          },
-          {
-            "title": "Jim Cramer sends strong message to stock market investors",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-13T01:01:06Z",
-            "sentiment": "Positive",
-            "compound": 0.511
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 36.19,
-  "trade_probability": 41.71,
+  "confirmation_score": 36.32,
+  "trade_probability": 41.79,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
