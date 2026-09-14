@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T15:01:24.904124+00:00",
+  "generated_at": "2026-09-14T15:15:57.850585+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
-      "status": "red",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.067,
-          "up": false
+          "change_pct": 0.0391,
+          "up": true
         },
         "MSFT": {
-          "change_pct": -0.0319,
+          "change_pct": -0.0536,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.0,
-          "up": false
+          "change_pct": 0.0579,
+          "up": true
         },
         "AMZN": {
-          "change_pct": 0.002,
-          "up": true
+          "change_pct": -0.0376,
+          "up": false
         }
       }
     },
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28988.93,
-        "sma50": 29190.75,
-        "sma200": 27149.88
+        "last_price": 29018.59,
+        "sma50": 29191.34,
+        "sma200": 27150.03
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 15.0,
+      "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.65,
-        "percentile_vs_20d": 85.0
+        "current_vxn": 22.6,
+        "percentile_vs_20d": 80.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 14.55,
+      "score": 15.22,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.996,
-        "change_5d_pct": 4.431
+        "current_yield_pct": 4.992,
+        "change_5d_pct": 4.348
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.52,
+      "score": 46.73,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.59,
-        "change_5d_pct": 0.435
+        "current_dxy": 99.57,
+        "change_5d_pct": 0.408
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.09,
+      "score": 47.58,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.018,
+        "avg_compound": -0.048,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Bank of America sends strong warning to stock market investors",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-13T15:15:38Z",
+            "sentiment": "Positive",
+            "compound": 0.226
+          },
+          {
+            "title": "5 Dividend Stocks Hiding in Boring Businesses Customers Cannot Live Without",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-13T15:01:31Z",
+            "sentiment": "Negative",
+            "compound": -0.542
+          },
           {
             "title": "Dow Jones Futures: Fed Meeting Ahead; Anthropic's Amodei, OpenAI's Altman, SpaceX's Musk Call For AI Slowdown",
             "source": "Biztoc.com",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-09-13T14:57:52Z",
             "sentiment": "Neutral",
             "compound": -0.052
-          },
-          {
-            "title": "Bitcoin’s oil risk stretches into 2027 as IEA cuts supply outlook again",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-09-13T14:50:15Z",
-            "sentiment": "Negative",
-            "compound": -0.511
-          },
-          {
-            "title": "Citi Says Global Equity Flows Weaken as Investor Positioning Remains Relatively Stable",
-            "source": "Advfn.com",
-            "publishedAt": "2026-09-13T14:40:46Z",
-            "sentiment": "Neutral",
-            "compound": -0.153
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 34.92,
-  "trade_probability": 40.95,
+  "confirmation_score": 42.09,
+  "trade_probability": 45.25,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
