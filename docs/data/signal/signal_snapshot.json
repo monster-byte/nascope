@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T13:46:03.050918+00:00",
+  "generated_at": "2026-09-14T14:01:30.197765+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.0286,
+          "change_pct": -0.0449,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.144,
+          "change_pct": 0.012,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.193,
+          "change_pct": 0.0442,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.2966,
+          "change_pct": -0.075,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28956.77,
-        "sma50": 29190.1,
-        "sma200": 27149.72
+        "last_price": 29014.84,
+        "sma50": 29191.26,
+        "sma200": 27150.01
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 70.0,
-      "status": "green",
+      "score": 0.0,
+      "status": "red",
       "details": {
-        "current_vxn": 21.05,
-        "percentile_vs_20d": 30.0
+        "current_vxn": 23.33,
+        "percentile_vs_20d": 100.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 16.39,
+      "score": 15.72,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.985,
-        "change_5d_pct": 4.201
+        "current_yield_pct": 4.989,
+        "change_5d_pct": 4.285
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.04,
+      "score": 45.69,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.65,
-        "change_5d_pct": 0.495
+        "current_dxy": 99.69,
+        "change_5d_pct": 0.539
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.25,
+      "score": 48.28,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.005,
+        "avg_compound": -0.034,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Up 3,600%, this freight fund has posted the biggest gains of all on Iran war oil shock",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-13T14:00:25Z",
+            "sentiment": "Negative",
+            "compound": -0.625
+          },
+          {
+            "title": "Oklo vs. NuScale vs. TMC: 3 Speculative Bets, Ranked By Which One Pays Off First",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-13T14:00:25Z",
+            "sentiment": "Neutral",
+            "compound": 0.103
+          },
+          {
+            "title": "US faces $7.5T Treasury debt refinancing challenge this year amid rate hikes",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-13T13:56:15Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
+          {
+            "title": "Up 3,600%, this freight fund has posted the biggest gains of all on Iran war oil shock",
+            "source": "CNBC",
+            "publishedAt": "2026-09-13T13:50:00Z",
+            "sentiment": "Negative",
+            "compound": -0.625
+          },
           {
             "title": "Broadcom CEO Hock Tan Says Demand Already Exceeds Broadcom's $115 Billion AI Forecast. Here's What That Means for the Stock",
             "source": "Biztoc.com",
@@ -103,34 +131,6 @@
             "title": "Why 90% of your DeFi trades are quietly being routed back to Wall Street market makers",
             "source": "CryptoSlate",
             "publishedAt": "2026-09-13T13:45:40Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "The price of almost everything on your dinner table is climbing at once — and Wall Street is taking notice",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-13T13:45:14Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "WATCH: Only half of traditional Republicans are excited to vote. That’s the ballgame.",
-            "source": "Wnd.com",
-            "publishedAt": "2026-09-13T13:31:22Z",
-            "sentiment": "Positive",
-            "compound": 0.34
-          },
-          {
-            "title": "Stock Market Sell-Offs Are Painful. But History Shows Why Investors Should Hope for One",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-13T13:30:40Z",
-            "sentiment": "Positive",
-            "compound": 0.44
-          },
-          {
-            "title": "Fed rate hike is about Wall Street, not inflation, says economist",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-13T13:30:28Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 46.93,
-  "trade_probability": 48.16,
+  "confirmation_score": 40.33,
+  "trade_probability": 44.2,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
