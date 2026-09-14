@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T11:31:11.810177+00:00",
+  "generated_at": "2026-09-14T11:45:49.774218+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.18,
+      "score": 47.26,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.51,
-        "change_5d_pct": 0.353
+        "current_dxy": 99.5,
+        "change_5d_pct": 0.343
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.89,
+      "score": 49.7,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.002,
+        "avg_compound": -0.006,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Got $1,000? An Investment in SpaceX Could Be Worth This Much by the End of 2027",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-13T11:45:45Z",
+            "sentiment": "Positive",
+            "compound": 0.226
+          },
+          {
+            "title": "A dignified life is a ‘distant dream’ for many Iranian families amid US war",
+            "source": "Al Jazeera English",
+            "publishedAt": "2026-09-13T11:45:24Z",
+            "sentiment": "Neutral",
+            "compound": -0.178
+          },
           {
             "title": "The tab is coming due for America's borrowing binge",
             "source": "Biztoc.com",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-09-13T11:07:45Z",
             "sentiment": "Positive",
             "compound": 0.703
-          },
-          {
-            "title": "1974 Corvette Comes With 78,000 Miles, And It's Packing A 4-Speed And Final-Year 454 Big Block",
-            "source": "Jalopnik",
-            "publishedAt": "2026-09-13T11:05:00Z",
-            "sentiment": "Negative",
-            "compound": -0.44
-          },
-          {
-            "title": "I almost spent $200 on an NVMe SSD, but this one motherboard port let me upgrade my storage for half the price",
-            "source": "XDA Developers",
-            "publishedAt": "2026-09-13T11:00:16Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,7 +146,7 @@
       }
     }
   },
-  "confirmation_score": 35.69,
+  "confirmation_score": 35.68,
   "trade_probability": 41.41,
   "market_regime": "BULLISH",
   "final_decision": {
