@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T14:01:30.197765+00:00",
+  "generated_at": "2026-09-14T14:15:58.167301+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.0449,
-          "up": false
-        },
-        "MSFT": {
           "change_pct": 0.012,
           "up": true
         },
+        "MSFT": {
+          "change_pct": -0.1306,
+          "up": false
+        },
         "NVDA": {
-          "change_pct": 0.0442,
+          "change_pct": 0.0189,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.075,
+          "change_pct": -0.1055,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29014.84,
-        "sma50": 29191.26,
-        "sma200": 27150.01
+        "last_price": 29062.66,
+        "sma50": 29192.22,
+        "sma200": 27150.25
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 0.0,
+      "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 23.33,
-        "percentile_vs_20d": 100.0
+        "current_vxn": 23.06,
+        "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 15.72,
+      "score": 15.22,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.989,
-        "change_5d_pct": 4.285
+        "current_yield_pct": 4.992,
+        "change_5d_pct": 4.348
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.69,
+      "score": 45.59,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.69,
-        "change_5d_pct": 0.539
+        "current_dxy": 99.71,
+        "change_5d_pct": 0.552
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.28,
+      "score": 47.27,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.034,
+        "avg_compound": -0.054,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Replace Your $6,000 Grocery Budget With Dividends Alone: The Math",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-13T14:11:28Z",
+            "sentiment": "Negative",
+            "compound": -0.25
+          },
+          {
+            "title": "Trump Again Pushes Fed to Lower Rates",
+            "source": "Politicalwire.com",
+            "publishedAt": "2026-09-13T14:05:00Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
           {
             "title": "Up 3,600%, this freight fund has posted the biggest gains of all on Iran war oil shock",
             "source": "Biztoc.com",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-09-13T13:50:00Z",
             "sentiment": "Negative",
             "compound": -0.625
-          },
-          {
-            "title": "Broadcom CEO Hock Tan Says Demand Already Exceeds Broadcom's $115 Billion AI Forecast. Here's What That Means for the Stock",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-13T13:45:45Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
-          },
-          {
-            "title": "Why 90% of your DeFi trades are quietly being routed back to Wall Street market makers",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-09-13T13:45:40Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.33,
-  "trade_probability": 44.2,
+  "confirmation_score": 41.06,
+  "trade_probability": 44.64,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
