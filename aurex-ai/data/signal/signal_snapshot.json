@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T14:15:58.167301+00:00",
+  "generated_at": "2026-09-14T14:31:15.699508+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.012,
-          "up": true
+          "change_pct": -0.1156,
+          "up": false
         },
         "MSFT": {
-          "change_pct": -0.1306,
+          "change_pct": -0.0651,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.0189,
+          "change_pct": 0.0546,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.1055,
+          "change_pct": -0.1072,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29062.66,
-        "sma50": 29192.22,
-        "sma200": 27150.25
+        "last_price": 28979.49,
+        "sma50": 29190.56,
+        "sma200": 27149.84
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 10.0,
+      "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 23.06,
-        "percentile_vs_20d": 90.0
+        "current_vxn": 22.7,
+        "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 15.22,
+      "score": 13.88,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.992,
-        "change_5d_pct": 4.348
+        "current_yield_pct": 5.0,
+        "change_5d_pct": 4.515
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.59,
+      "score": 46.22,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.71,
-        "change_5d_pct": 0.552
+        "current_dxy": 99.63,
+        "change_5d_pct": 0.473
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.27,
+      "score": 47.7,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.054,
+        "avg_compound": -0.046,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Dow Jones Futures: Fed Meeting Ahead; Anthropic's Amodei, OpenAI's Altman, SpaceX's Musk Call For AI Slowdown",
+            "source": "Investor's Business Daily",
+            "publishedAt": "2026-09-13T14:27:34Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Man Sues OpenAI After Claiming ChatGPT Fueled Belief He Was Jesus and Encouraged Suicide Attempt Last Year",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-09-13T14:18:04Z",
+            "sentiment": "Negative",
+            "compound": -0.459
+          },
+          {
+            "title": "Bank of America sends strong warning to stock market investors",
+            "source": "TheStreet",
+            "publishedAt": "2026-09-13T14:17:00Z",
+            "sentiment": "Positive",
+            "compound": 0.226
+          },
+          {
+            "title": "Surging inflation puts interest rates back in focus as policymakers meet in Japan, US and UK",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-13T14:16:16Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "Costco Stock Price Forecast: Here's What a $10,000 Investment Today Could Be Worth by September 2027",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-13T14:16:12Z",
+            "sentiment": "Positive",
+            "compound": 0.226
+          },
           {
             "title": "Replace Your $6,000 Grocery Budget With Dividends Alone: The Math",
             "source": "24/7 Wall St.",
             "publishedAt": "2026-09-13T14:11:28Z",
             "sentiment": "Negative",
             "compound": -0.25
-          },
-          {
-            "title": "Trump Again Pushes Fed to Lower Rates",
-            "source": "Politicalwire.com",
-            "publishedAt": "2026-09-13T14:05:00Z",
-            "sentiment": "Negative",
-            "compound": -0.296
-          },
-          {
-            "title": "Up 3,600%, this freight fund has posted the biggest gains of all on Iran war oil shock",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-13T14:00:25Z",
-            "sentiment": "Negative",
-            "compound": -0.625
-          },
-          {
-            "title": "Oklo vs. NuScale vs. TMC: 3 Speculative Bets, Ranked By Which One Pays Off First",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-13T14:00:25Z",
-            "sentiment": "Neutral",
-            "compound": 0.103
-          },
-          {
-            "title": "US faces $7.5T Treasury debt refinancing challenge this year amid rate hikes",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-13T13:56:15Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
-          },
-          {
-            "title": "Up 3,600%, this freight fund has posted the biggest gains of all on Iran war oil shock",
-            "source": "CNBC",
-            "publishedAt": "2026-09-13T13:50:00Z",
-            "sentiment": "Negative",
-            "compound": -0.625
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.06,
-  "trade_probability": 44.64,
+  "confirmation_score": 34.68,
+  "trade_probability": 40.81,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
