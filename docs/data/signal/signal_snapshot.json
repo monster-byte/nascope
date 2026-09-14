@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T19:01:38.885961+00:00",
+  "generated_at": "2026-09-14T19:15:55.213595+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.0373,
-          "up": false
-        },
-        "MSFT": {
-          "change_pct": 0.0297,
+          "change_pct": 0.0388,
           "up": true
         },
+        "MSFT": {
+          "change_pct": -0.0385,
+          "up": false
+        },
         "NVDA": {
-          "change_pct": -0.0282,
+          "change_pct": -0.0495,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.2818,
+          "change_pct": -0.0324,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 70.35,
+      "score": 70.1,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29230.1,
-        "sma50": 29195.57,
-        "sma200": 27151.09
+        "last_price": 29204.31,
+        "sma50": 29195.05,
+        "sma200": 27150.96
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 40.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.83,
+        "current_vxn": 21.88,
         "percentile_vs_20d": 60.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 20.74,
+      "score": 20.4,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.959,
-        "change_5d_pct": 3.658
+        "current_yield_pct": 4.961,
+        "change_5d_pct": 3.7
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.93,
+      "score": 48.08,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.42,
-        "change_5d_pct": 0.258
+        "current_dxy": 99.4,
+        "change_5d_pct": 0.24
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.76,
+      "score": 52.8,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.015,
+        "avg_compound": 0.056,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "WEEKLY PREVIEW: Central banks, inflation data and G20 meeting",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-13T19:01:06Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "metrics-mexico added to PyPI",
-            "source": "Pypi.org",
-            "publishedAt": "2026-09-13T18:59:25Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "House Speaker Mike Johnson says Trump's $5,000 'dividend' needs congressional approval",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-09-13T18:53:38Z",
-            "sentiment": "Positive",
-            "compound": 0.477
-          },
-          {
-            "title": "Saudi pipeline outage threatens loss of 4% of global oil supply",
-            "source": "Livemint",
-            "publishedAt": "2026-09-13T18:47:41Z",
+            "title": "Trump Urges Federal Reserve To Cut Rates As Market Bets On Warsh Hike - Investor's Business Daily",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-09-13T19:13:13Z",
             "sentiment": "Negative",
-            "compound": -0.599
+            "compound": -0.273
           },
           {
-            "title": "House Speaker Mike Johnson says Trump's $5,000 'dividend' needs congressional approval",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-13T18:45:40Z",
-            "sentiment": "Positive",
-            "compound": 0.477
-          },
-          {
-            "title": "Chorus of concern over AI is growing louder",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-09-13T18:41:46Z",
+            "title": "Coinbase gives community banks a stablecoin bridge while supplying infrastructure underneath",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-09-13T19:10:30Z",
             "sentiment": "Neutral",
-            "compound": 0.178
+            "compound": 0.0
+          },
+          {
+            "title": "Bond market pushes for Fed rate hikes despite limited impact on gas prices",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-13T19:06:27Z",
+            "sentiment": "Neutral",
+            "compound": 0.17
+          },
+          {
+            "title": "Federal Reserve faces 90% chance of rate hike by year-end, CME FedWatch shows",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-13T19:05:02Z",
+            "sentiment": "Positive",
+            "compound": 0.25
+          },
+          {
+            "title": "Fed expected to implement two rate hikes by year-end: BMO economist",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-13T19:02:22Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "T-Mobile US CEO Maps 5G, Broadband and AI Growth Strategy at Goldman Sachs Conference",
+            "source": "MarketBeat",
+            "publishedAt": "2026-09-13T19:02:00Z",
+            "sentiment": "Positive",
+            "compound": 0.382
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.03,
-  "trade_probability": 44.62,
+  "confirmation_score": 41.15,
+  "trade_probability": 44.69,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
