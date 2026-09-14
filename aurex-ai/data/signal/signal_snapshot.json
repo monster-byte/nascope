@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T17:45:59.839690+00:00",
+  "generated_at": "2026-09-14T18:01:22.825876+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,50 +17,50 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.0568,
+          "change_pct": -0.0419,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.0442,
-          "up": false
+          "change_pct": 0.0118,
+          "up": true
         },
         "NVDA": {
-          "change_pct": 0.0537,
+          "change_pct": 0.0564,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.0059,
-          "up": true
+          "change_pct": -0.0274,
+          "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 70.71,
+      "score": 70.7,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29265.59,
-        "sma50": 29196.28,
-        "sma200": 27151.27
+        "last_price": 29264.31,
+        "sma50": 29196.25,
+        "sma200": 27151.26
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 50.0,
+      "score": 45.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.78,
-        "percentile_vs_20d": 50.0
+        "current_vxn": 21.87,
+        "percentile_vs_20d": 55.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 21.4,
+      "score": 20.74,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.955,
-        "change_5d_pct": 3.574
+        "current_yield_pct": 4.959,
+        "change_5d_pct": 3.658
       }
     },
     "dxy": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.3,
+      "score": 47.58,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.094,
+        "avg_compound": -0.048,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "OpenAI Just Came for Wall Street’s Junior Bankers. Morgan Stanley Helped Build the Thing.",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-13T17:45:21Z",
+            "title": "Dow Jones Futures: Fed Meeting Ahead; Anthropic's Amodei, OpenAI's Altman, SpaceX's Musk Call For AI Slowdown",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-13T18:01:17Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Trump chastises Zelenskyy over Russian refinery strikes during Ireland visit",
-            "source": "CNA",
-            "publishedAt": "2026-09-13T17:35:00Z",
+            "title": "Goldman Sachs Says AI Is Driving Half of S&P 500 Earnings Growth. That Number Cuts Both Ways.",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-13T18:00:24Z",
+            "sentiment": "Neutral",
+            "compound": 0.178
+          },
+          {
+            "title": "Ross Gerber Trashes Trump's $5,000 Dividend Plan, Justin Wolfers Says 'You Accidentally Started Another Trade War, Mr President'",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-13T18:00:21Z",
             "sentiment": "Negative",
-            "compound": -0.637
+            "compound": -0.743
           },
           {
-            "title": "A 72-Year-Old Can Still Move Up to $210,000 Into a QLAC and Cut Next Year’s RMD by About $7,900. The Check Doesn’t Start Until 85, and Neither Does the Tax",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-13T17:34:57Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "Nvidia may bankroll Anthropic's massive IPO - Mashable",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-09-13T17:32:19Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "This Doctor Paid Off $585K in 24 Months While Building a $300K Portfolio",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-13T17:32:15Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "What Will 10,000 XRP Be Worth in 2030?",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-13T17:31:23Z",
+            "title": "Mayor Brown and I may not agree on everything, but we agree on this – David Seymour",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-09-13T18:00:00Z",
             "sentiment": "Positive",
-            "compound": 0.226
+            "compound": 0.401
+          },
+          {
+            "title": "From Fashion to Concrete: J.P. Morgan Says Buy These 2 Stocks",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-13T18:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Why Diesel Is Breaking the Economy – A Refining Crisis",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-09-13T17:58:14Z",
+            "sentiment": "Negative",
+            "compound": -0.625
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 48.31,
-  "trade_probability": 48.99,
+  "confirmation_score": 47.98,
+  "trade_probability": 48.79,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
