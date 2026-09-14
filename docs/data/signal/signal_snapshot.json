@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T18:45:54.574015+00:00",
+  "generated_at": "2026-09-14T19:01:38.885961+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,36 +13,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.008,
-          "up": true
-        },
-        "MSFT": {
-          "change_pct": -0.013,
+          "change_pct": -0.0373,
           "up": false
         },
-        "NVDA": {
-          "change_pct": 0.0235,
+        "MSFT": {
+          "change_pct": 0.0297,
           "up": true
         },
+        "NVDA": {
+          "change_pct": -0.0282,
+          "up": false
+        },
         "AMZN": {
-          "change_pct": -0.0725,
+          "change_pct": -0.2818,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 70.57,
+      "score": 70.35,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29251.08,
-        "sma50": 29195.99,
-        "sma200": 27151.2
+        "last_price": 29230.1,
+        "sma50": 29195.57,
+        "sma200": 27151.09
       }
     },
     "vxn": {
@@ -50,7 +50,7 @@
       "score": 40.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.9,
+        "current_vxn": 21.83,
         "percentile_vs_20d": 60.0
       }
     },
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.09,
+      "score": 47.93,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.4,
-        "change_5d_pct": 0.239
+        "current_dxy": 99.42,
+        "change_5d_pct": 0.258
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.18,
+      "score": 50.76,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.044,
+        "avg_compound": 0.015,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "WEEKLY PREVIEW: Central banks, inflation data and G20 meeting",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-13T19:01:06Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "metrics-mexico added to PyPI",
+            "source": "Pypi.org",
+            "publishedAt": "2026-09-13T18:59:25Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "House Speaker Mike Johnson says Trump's $5,000 'dividend' needs congressional approval",
+            "source": "Abcnews.com",
+            "publishedAt": "2026-09-13T18:53:38Z",
+            "sentiment": "Positive",
+            "compound": 0.477
+          },
+          {
+            "title": "Saudi pipeline outage threatens loss of 4% of global oil supply",
+            "source": "Livemint",
+            "publishedAt": "2026-09-13T18:47:41Z",
+            "sentiment": "Negative",
+            "compound": -0.599
+          },
           {
             "title": "House Speaker Mike Johnson says Trump's $5,000 'dividend' needs congressional approval",
             "source": "Yahoo Entertainment",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-09-13T18:41:46Z",
             "sentiment": "Neutral",
             "compound": 0.178
-          },
-          {
-            "title": "Saudi Arabia pipeline outage threatens loss of 4% of global oil supply",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-13T18:39:58Z",
-            "sentiment": "Negative",
-            "compound": -0.599
-          },
-          {
-            "title": "The Dividend Streak Lives, But Target’s Raise Size Tells the Real Story",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-13T18:39:47Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "fred-loader 0.1.0",
-            "source": "Pypi.org",
-            "publishedAt": "2026-09-13T18:38:04Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "fred-loader added to PyPI",
-            "source": "Pypi.org",
-            "publishedAt": "2026-09-13T18:38:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 47.95,
-  "trade_probability": 48.77,
+  "confirmation_score": 41.03,
+  "trade_probability": 44.62,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
