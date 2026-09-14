@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T20:16:46.451750+00:00",
+  "generated_at": "2026-09-14T20:31:10.775889+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.19,
+      "score": 47.28,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.51,
-        "change_5d_pct": 0.351
+        "current_dxy": 99.5,
+        "change_5d_pct": 0.34
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.44,
+      "score": 49.4,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.029,
+        "avg_compound": -0.012,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "California Gas Station With $9.99 Diesel Exemplifies Fuel Crisis",
+            "source": "gcaptain.com",
+            "publishedAt": "2026-09-13T20:29:29Z",
+            "sentiment": "Negative",
+            "compound": -0.625
+          },
+          {
+            "title": "Trump Guarantees the $5,000 Giveaway He Floated is ‘100%’ Happening — But Adds ‘I Don’t Want to Do Now",
+            "source": "Mediaite",
+            "publishedAt": "2026-09-13T20:22:22Z",
+            "sentiment": "Neutral",
+            "compound": 0.115
+          },
+          {
+            "title": "Viral AI Dommer Tweet: Engineered Panic?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-13T20:18:39Z",
+            "sentiment": "Negative",
+            "compound": -0.511
+          },
+          {
+            "title": "Apple Bought Back More Than $880 Billion of Its Own Stock During Tim Cook's 15 Years as CEO. Here's How That Reshaped Shareholder Returns",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-13T20:18:32Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Data centres in Australia: your questions answered",
             "source": "The Conversation Africa",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-09-13T20:08:20Z",
             "sentiment": "Positive",
             "compound": 0.202
-          },
-          {
-            "title": "AI CEO Warns It Could Kill Everyone.! OpenAI, Anthropic, Google & xAI Suddenly Wants to Slow Down",
-            "source": "Offgridsurvival.com",
-            "publishedAt": "2026-09-13T20:06:40Z",
-            "sentiment": "Negative",
-            "compound": -0.75
-          },
-          {
-            "title": "Jim Cramer Says a 25% Surtax Just Got Added to Everything You Buy. Congress Never Voted on It.",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-13T20:00:18Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Bond selloff drives Treasury yield near 5%, raising fresh concerns about US borrowing costs",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-13T19:59:09Z",
-            "sentiment": "Positive",
-            "compound": 0.477
-          },
-          {
-            "title": "Guyana’s oil boom and challenges",
-            "source": "Al Jazeera English",
-            "publishedAt": "2026-09-13T19:55:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.077
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 36.88,
-  "trade_probability": 42.13,
+  "confirmation_score": 36.71,
+  "trade_probability": 42.03,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
