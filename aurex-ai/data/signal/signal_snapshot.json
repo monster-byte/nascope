@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T19:45:51.095817+00:00",
+  "generated_at": "2026-09-14T20:01:22.512622+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,45 +13,45 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.0051,
+          "change_pct": -0.2934,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.001,
-          "up": true
+          "change_pct": -0.2783,
+          "up": false
         },
         "NVDA": {
-          "change_pct": -0.0047,
+          "change_pct": -0.392,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.0237,
+          "change_pct": 0.0039,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 70.0,
-      "status": "green",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
-        "regime": "BULLISH",
-        "last_price": 29195.24,
-        "sma50": 29194.87,
-        "sma200": 27150.92
+        "regime": "NEUTRAL / TRANSITIONAL",
+        "last_price": 29127.16,
+        "sma50": 29193.51,
+        "sma200": 27150.58
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 40.0,
+      "score": 45.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.9,
-        "percentile_vs_20d": 60.0
+        "current_vxn": 21.89,
+        "percentile_vs_20d": 55.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.64,
+      "score": 47.43,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.45,
-        "change_5d_pct": 0.294
+        "current_dxy": 99.48,
+        "change_5d_pct": 0.321
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.6,
+      "score": 52.65,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.052,
+        "avg_compound": 0.053,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Airbnb’s CEO Says AI Is the Best Thing That Ever Happened to His Company. Here’s Why",
+            "title": "Jim Cramer Says a 25% Surtax Just Got Added to Everything You Buy. Congress Never Voted on It.",
             "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-13T19:40:29Z",
+            "publishedAt": "2026-09-13T20:00:18Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Bond selloff drives Treasury yield near 5%, raising fresh concerns about US borrowing costs",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-13T19:59:09Z",
             "sentiment": "Positive",
-            "compound": 0.637
+            "compound": 0.477
           },
           {
-            "title": "How a 62-Year-Old Who Just Got Laid Off Turned $990,000 Into a $6,900 Monthly Paycheck",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-13T19:39:13Z",
+            "title": "Guyana’s oil boom and challenges",
+            "source": "Al Jazeera English",
+            "publishedAt": "2026-09-13T19:55:00Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": 0.077
           },
           {
-            "title": "After Trump says he doesn’t need Congress for his $5,000 ‘dividend,’ House Speaker Mike Johnson says not so fast but vows to try to make it happen",
-            "source": "Fortune",
-            "publishedAt": "2026-09-13T19:36:22Z",
+            "title": "Capricor Deadline: CAPR Investors Have Opportunity to Lead Capricor Therapeutics, Inc. Securities Fraud Lawsuit",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-13T19:53:00Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": -0.178
           },
           {
-            "title": "Fund manager's Fed interest rate outlook will frustrate consumers",
-            "source": "TheStreet",
-            "publishedAt": "2026-09-13T19:33:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Jags fans show up to home opener game despite climbing prices amid construction",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-13T19:32:15Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Trump Urges Federal Reserve To Cut Rates As Market Bets On Warsh Hike",
+            "title": "Insiders Trim Positions in Five Below Stock After 39% Run-Up",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-13T19:16:12Z",
-            "sentiment": "Negative",
-            "compound": -0.273
+            "publishedAt": "2026-09-13T19:47:25Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Anthropic Said to Choose Nasdaq for Much-Anticipated IPO Listing",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-13T19:47:22Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
@@ -146,9 +146,9 @@
       }
     }
   },
-  "confirmation_score": 47.83,
-  "trade_probability": 48.7,
-  "market_regime": "BULLISH",
+  "confirmation_score": 38.81,
+  "trade_probability": 43.29,
+  "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
     "directional_bias": "NEUTRAL"
