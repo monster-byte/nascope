@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T19:31:08.842493+00:00",
+  "generated_at": "2026-09-14T19:45:51.095817+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.0,
+          "change_pct": -0.0051,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.071,
-          "up": false
-        },
-        "NVDA": {
-          "change_pct": 0.0071,
+          "change_pct": 0.001,
           "up": true
         },
+        "NVDA": {
+          "change_pct": -0.0047,
+          "up": false
+        },
         "AMZN": {
-          "change_pct": 0.0887,
+          "change_pct": 0.0237,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 70.13,
+      "score": 70.0,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29208.12,
-        "sma50": 29195.13,
-        "sma200": 27150.98
+        "last_price": 29195.24,
+        "sma50": 29194.87,
+        "sma200": 27150.92
       }
     },
     "vxn": {
@@ -50,7 +50,7 @@
       "score": 40.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.88,
+        "current_vxn": 21.9,
         "percentile_vs_20d": 60.0
       }
     },
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.85,
+      "score": 47.64,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.43,
-        "change_5d_pct": 0.268
+        "current_dxy": 99.45,
+        "change_5d_pct": 0.294
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.25,
+      "score": 52.6,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.045,
+        "avg_compound": 0.052,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Airbnb’s CEO Says AI Is the Best Thing That Ever Happened to His Company. Here’s Why",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-13T19:40:29Z",
+            "sentiment": "Positive",
+            "compound": 0.637
+          },
+          {
+            "title": "How a 62-Year-Old Who Just Got Laid Off Turned $990,000 Into a $6,900 Monthly Paycheck",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-13T19:39:13Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "After Trump says he doesn’t need Congress for his $5,000 ‘dividend,’ House Speaker Mike Johnson says not so fast but vows to try to make it happen",
+            "source": "Fortune",
+            "publishedAt": "2026-09-13T19:36:22Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Fund manager's Fed interest rate outlook will frustrate consumers",
+            "source": "TheStreet",
+            "publishedAt": "2026-09-13T19:33:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Jags fans show up to home opener game despite climbing prices amid construction",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-13T19:32:15Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Trump Urges Federal Reserve To Cut Rates As Market Bets On Warsh Hike",
             "source": "Biztoc.com",
             "publishedAt": "2026-09-13T19:16:12Z",
             "sentiment": "Negative",
             "compound": -0.273
-          },
-          {
-            "title": "Trump Urges Federal Reserve To Cut Rates As Market Bets On Warsh Hike - Investor's Business Daily",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-09-13T19:13:13Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "Coinbase gives community banks a stablecoin bridge while supplying infrastructure underneath",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-09-13T19:10:30Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Bond market pushes for Fed rate hikes despite limited impact on gas prices",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-13T19:06:27Z",
-            "sentiment": "Neutral",
-            "compound": 0.17
-          },
-          {
-            "title": "Federal Reserve faces 90% chance of rate hike by year-end, CME FedWatch shows",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-13T19:05:02Z",
-            "sentiment": "Positive",
-            "compound": 0.25
-          },
-          {
-            "title": "Fed expected to implement two rate hikes by year-end: BMO economist",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-13T19:02:22Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
