@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T21:15:50.309962+00:00",
+  "generated_at": "2026-09-14T21:31:08.841872+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.56,
+      "score": 47.65,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.46,
-        "change_5d_pct": 0.305
+        "current_dxy": 99.45,
+        "change_5d_pct": 0.293
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 39.08,
+      "score": 39.43,
       "status": "red",
       "details": {
         "overall_sentiment": "BEARISH",
-        "avg_compound": -0.218,
+        "avg_compound": -0.211,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "'Culture shift' needed in how UK does business, PM urges",
+            "source": "BBC News",
+            "publishedAt": "2026-09-13T21:30:21Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Coca-Cola vs. Pepsi: Five Years, Two Completely Different Outcomes",
             "source": "24/7 Wall St.",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-09-13T21:02:45Z",
             "sentiment": "Negative",
             "compound": -0.226
-          },
-          {
-            "title": "2027: Four major hurdles threaten Obi–Makinde alliance – Presidential aide",
-            "source": "Vanguard",
-            "publishedAt": "2026-09-13T21:01:06Z",
-            "sentiment": "Negative",
-            "compound": -0.436
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 35.8,
-  "trade_probability": 41.48,
+  "confirmation_score": 35.84,
+  "trade_probability": 41.5,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
