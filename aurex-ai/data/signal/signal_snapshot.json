@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T15:45:51.476928+00:00",
+  "generated_at": "2026-09-14T15:59:54.418650+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.0269,
+          "change_pct": 0.0672,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.0329,
+          "change_pct": -0.2128,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.0141,
+          "change_pct": 0.1167,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.053,
+          "change_pct": -0.1207,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29179.63,
-        "sma50": 29194.56,
-        "sma200": 27150.84
+        "last_price": 29152.83,
+        "sma50": 29194.02,
+        "sma200": 27150.7
       }
     },
     "vxn": {
@@ -50,17 +50,17 @@
       "score": 25.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.36,
+        "current_vxn": 22.15,
         "percentile_vs_20d": 75.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 20.07,
+      "score": 22.74,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.963,
-        "change_5d_pct": 3.742
+        "current_yield_pct": 4.947,
+        "change_5d_pct": 3.407
       }
     },
     "dxy": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.43,
+      "score": 52.44,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.011,
+        "avg_compound": 0.049,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Cummins Returned 512% in a Decade. Its Dividend Did Something Even More Impressive",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-13T15:55:25Z",
+            "sentiment": "Positive",
+            "compound": 0.556
+          },
+          {
+            "title": "Deion Sanders Gets $0 for Joining Nick Saban in $10 Million Push to Save College Sports",
+            "source": "Essentially Sports",
+            "publishedAt": "2026-09-13T15:52:55Z",
+            "sentiment": "Positive",
+            "compound": 0.494
+          },
+          {
+            "title": "‘Practical Magic 2’ Kicks Off Fall Box Office With $30 Million Opening",
+            "source": "TheWrap",
+            "publishedAt": "2026-09-13T15:51:04Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Central Bank of AI: Analyst Says NVIDIA Could Sit on $1.4 Trillion — Dwarfing Hyperscalers and Wall Street",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-13T15:50:03Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Rivian vs. Lucid: This Stock Is Clearly the Better Buy",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-13T15:46:47Z",
+            "sentiment": "Positive",
+            "compound": 0.681
+          },
           {
             "title": "Elon Musk’s quietest investor has built a $40B SpaceX stake",
             "source": "The Next Web",
             "publishedAt": "2026-09-13T15:44:54Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "HSBC Raises 2026 S&P 500 Target to 8,100 on Earnings Outlook",
-            "source": "Advfn.com",
-            "publishedAt": "2026-09-13T15:43:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Anthropic Locks Down $517 Billion in Compute Ahead of IPO — and It’s Still Not Enough",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-13T15:36:09Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Jim Cramer says big tech stock could double in 3–5 years",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-13T15:31:08Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Five Dividend Stocks Crushing Inflation With Consistent Dividend Payout Growth",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-13T15:30:32Z",
-            "sentiment": "Neutral",
-            "compound": 0.026
-          },
-          {
-            "title": "Trump Urges Federal Reserve To Cut Rates As Market Bets On Warsh Hike",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-13T15:30:26Z",
-            "sentiment": "Negative",
-            "compound": -0.273
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 43.4,
-  "trade_probability": 46.04,
+  "confirmation_score": 44.03,
+  "trade_probability": 46.42,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
