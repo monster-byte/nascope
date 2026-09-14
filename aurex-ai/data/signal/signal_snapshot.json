@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T14:45:53.175659+00:00",
+  "generated_at": "2026-09-14T15:01:24.904124+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
-      "status": "green",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.033,
+          "change_pct": -0.067,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.027,
-          "up": true
+          "change_pct": -0.0319,
+          "up": false
         },
         "NVDA": {
-          "change_pct": 0.0712,
-          "up": true
+          "change_pct": 0.0,
+          "up": false
         },
         "AMZN": {
-          "change_pct": 0.0317,
+          "change_pct": 0.002,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28993.35,
-        "sma50": 29190.83,
-        "sma200": 27149.91
+        "last_price": 28988.93,
+        "sma50": 29190.75,
+        "sma200": 27149.88
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 10.0,
+      "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.97,
-        "percentile_vs_20d": 90.0
+        "current_vxn": 22.65,
+        "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 12.88,
+      "score": 14.55,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.006,
-        "change_5d_pct": 4.64
+        "current_yield_pct": 4.996,
+        "change_5d_pct": 4.431
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.23,
+      "score": 46.52,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.63,
-        "change_5d_pct": 0.471
+        "current_dxy": 99.59,
+        "change_5d_pct": 0.435
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.84,
+      "score": 49.09,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.003,
+        "avg_compound": -0.018,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Dow Jones Futures: Fed Meeting Ahead; Anthropic's Amodei, OpenAI's Altman, SpaceX's Musk Call For AI Slowdown",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-13T15:00:28Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Predicting Intel's Value by 2030 Could Make It Worth a Look Right Now",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-13T15:00:26Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
+          {
+            "title": "The whole point of single-board computers is disappearing",
+            "source": "MakeUseOf",
+            "publishedAt": "2026-09-13T15:00:13Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "The uphill battle to revive Calcutta Stock Exchange",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-13T14:57:52Z",
+            "sentiment": "Neutral",
+            "compound": -0.052
+          },
+          {
+            "title": "Bitcoin’s oil risk stretches into 2027 as IEA cuts supply outlook again",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-09-13T14:50:15Z",
+            "sentiment": "Negative",
+            "compound": -0.511
+          },
           {
             "title": "Citi Says Global Equity Flows Weaken as Investor Positioning Remains Relatively Stable",
             "source": "Advfn.com",
             "publishedAt": "2026-09-13T14:40:46Z",
             "sentiment": "Neutral",
             "compound": -0.153
-          },
-          {
-            "title": "Two Medical Device Dividend Giants, One Better Buy: Medtronic vs. Abbott",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-13T14:36:22Z",
-            "sentiment": "Positive",
-            "compound": 0.44
-          },
-          {
-            "title": "If That Grocery Store Receipt Was Already Making Your Eyes Water … Just Wait",
-            "source": "The Daily Caller",
-            "publishedAt": "2026-09-13T14:34:49Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Dow Jones Futures: Fed Meeting Ahead; Anthropic's Amodei, OpenAI's Altman, SpaceX's Musk Call For AI Slowdown",
-            "source": "Investor's Business Daily",
-            "publishedAt": "2026-09-13T14:27:34Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Man Sues OpenAI After Claiming ChatGPT Fueled Belief He Was Jesus and Encouraged Suicide Attempt Last Year",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-09-13T14:18:04Z",
-            "sentiment": "Negative",
-            "compound": -0.459
-          },
-          {
-            "title": "Bank of America sends strong warning to stock market investors",
-            "source": "TheStreet",
-            "publishedAt": "2026-09-13T14:17:00Z",
-            "sentiment": "Positive",
-            "compound": 0.226
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 47.79,
-  "trade_probability": 48.67,
+  "confirmation_score": 34.92,
+  "trade_probability": 40.95,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
