@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T22:01:25.099330+00:00",
+  "generated_at": "2026-09-14T22:15:49.946119+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.57,
+      "score": 47.52,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.46,
-        "change_5d_pct": 0.304
+        "current_dxy": 99.47,
+        "change_5d_pct": 0.31
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 38.78,
-      "status": "red",
+      "score": 40.32,
+      "status": "yellow",
       "details": {
-        "overall_sentiment": "BEARISH",
-        "avg_compound": -0.224,
+        "overall_sentiment": "NEUTRAL",
+        "avg_compound": -0.194,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "The US is not a serious country",
+            "source": "Crookedtimber.org",
+            "publishedAt": "2026-09-13T22:11:20Z",
+            "sentiment": "Neutral",
+            "compound": 0.057
+          },
+          {
+            "title": "Trump Demands Ukraine Halt Refinery Strikes As Diesel Surges",
+            "source": "gcaptain.com",
+            "publishedAt": "2026-09-13T22:11:16Z",
+            "sentiment": "Negative",
+            "compound": -0.361
+          },
+          {
+            "title": "Stocks are in a late-stage bubble and poised to crash 21% next year, while Treasury yields above 5% will signal a new era of tight money, analysts say",
+            "source": "Fortune",
+            "publishedAt": "2026-09-13T22:06:20Z",
+            "sentiment": "Neutral",
+            "compound": 0.026
+          },
+          {
+            "title": "Stocks are in a late-stage bubble and poised to crash 21% next year, while Treasury yields above 5% will signal a new era of tight money, analysts say",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-13T22:06:20Z",
+            "sentiment": "Neutral",
+            "compound": 0.026
+          },
+          {
+            "title": "Anthropic has chosen the Nasdaq for its IPO listing",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-13T22:01:57Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "How XRP Is Filling the Cash Gap: South Korea Debuts Stock Market on the XRP Ledger as Ripple Expands",
             "source": "ZyCrypto",
             "publishedAt": "2026-09-13T21:57:56Z",
             "sentiment": "Neutral",
             "compound": 0.103
-          },
-          {
-            "title": "Anthropic has chosen the Nasdaq for its IPO listing - Business Insider",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-09-13T21:52:36Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Sam Altman says OpenAI will not go public this year as AI fears grow",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-13T21:47:43Z",
-            "sentiment": "Negative",
-            "compound": -0.421
-          },
-          {
-            "title": "America Is Running Out of Doctors",
-            "source": "Thehealthcareblog.com",
-            "publishedAt": "2026-09-13T21:43:26Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "'This is the test': All eyes on US Fed to tackle high inflation - finance.yahoo.com",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-09-13T21:32:35Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "'Culture shift' needed in how UK does business, PM urges",
-            "source": "BBC News",
-            "publishedAt": "2026-09-13T21:30:21Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 35.78,
-  "trade_probability": 41.47,
+  "confirmation_score": 35.91,
+  "trade_probability": 41.55,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
