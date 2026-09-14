@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T01:45:47.416874+00:00",
+  "generated_at": "2026-09-14T02:01:17.472476+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.81,
+      "score": 49.78,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.18,
-        "change_5d_pct": 0.023
+        "current_dxy": 99.19,
+        "change_5d_pct": 0.027
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.18,
+      "score": 53.79,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.084,
+        "avg_compound": 0.076,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "'This is the test': All eyes on US Fed to tackle high inflation",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-13T02:00:52Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Ex-Trump rival rips $5,000 check promise: ‘More debt and more inflation’",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-13T02:00:50Z",
+            "sentiment": "Neutral",
+            "compound": -0.052
+          },
           {
             "title": "In 1903, a mining engineer staked a claim on Arizona’s Meteor Crater, convinced a fortune in iron lay beneath the floor, and spent 26 years drilling for a meteorite that had mostly vaporized on impact — his family still owns the crater today, and science later proved him right about everything except the treasure",
             "source": "Space Daily",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-09-13T01:27:29Z",
             "sentiment": "Positive",
             "compound": 0.273
-          },
-          {
-            "title": "AI staff 'genuinely frightened' for humanity's future, ex-Anthropic researcher tells BBC",
-            "source": "BBC News",
-            "publishedAt": "2026-09-13T01:15:04Z",
-            "sentiment": "Negative",
-            "compound": -0.44
-          },
-          {
-            "title": "Korea Exchange extends trading hours to attract global investors",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-13T01:06:24Z",
-            "sentiment": "Positive",
-            "compound": 0.459
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 36.32,
-  "trade_probability": 41.79,
+  "confirmation_score": 36.28,
+  "trade_probability": 41.77,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
