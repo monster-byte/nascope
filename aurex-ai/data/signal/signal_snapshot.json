@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T20:31:10.775889+00:00",
+  "generated_at": "2026-09-14T20:45:53.053391+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.28,
+      "score": 47.25,
       "status": "yellow",
       "details": {
         "current_dxy": 99.5,
-        "change_5d_pct": 0.34
+        "change_5d_pct": 0.344
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.4,
+      "score": 47.41,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.012,
+        "avg_compound": -0.052,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "How to Build a $1,000-a-Month Paycheck From Weekly Income ETFs. Here’s the Exact Mix and What It Costs",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-13T20:41:25Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Liquidation Threat Looms as Bathla Must Find Longer-Term Funds",
+            "source": "Livemint",
+            "publishedAt": "2026-09-13T20:37:29Z",
+            "sentiment": "Negative",
+            "compound": -0.612
+          },
           {
             "title": "California Gas Station With $9.99 Diesel Exemplifies Fuel Crisis",
             "source": "gcaptain.com",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-09-13T20:18:32Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Data centres in Australia: your questions answered",
-            "source": "The Conversation Africa",
-            "publishedAt": "2026-09-13T20:10:56Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Corporate America is racing to raise capital as Treasury yields flirt with 5%",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-13T20:08:20Z",
-            "sentiment": "Positive",
-            "compound": 0.202
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 36.71,
-  "trade_probability": 42.03,
+  "confirmation_score": 36.52,
+  "trade_probability": 41.91,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
