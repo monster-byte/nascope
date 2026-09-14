@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T09:15:51.211221+00:00",
+  "generated_at": "2026-09-14T09:31:09.837877+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.78,
+      "score": 46.55,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.56,
-        "change_5d_pct": 0.402
+        "current_dxy": 99.59,
+        "change_5d_pct": 0.432
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.73,
+      "score": 51.73,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.015,
+        "avg_compound": 0.035,
         "articles_analyzed": 22,
         "top_headlines": [
+          {
+            "title": "Prediction: A Stock Market Crash Is Coming. This Is the Best Move Investors Can Make",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-13T09:31:01Z",
+            "sentiment": "Positive",
+            "compound": 0.361
+          },
+          {
+            "title": "Investors Just Got a Reality Check From Fed Chair Kevin Warsh. History Says This 1 Move Is Crucial Right Now",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-13T09:30:50Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Wall Street Thinks SpaceX Stock Has 50% Upside. Here's Why I Don't Care",
             "source": "Biztoc.com",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-09-13T08:44:54Z",
             "sentiment": "Neutral",
             "compound": 0.026
-          },
-          {
-            "title": "Anthropic’s AI warning may weigh on chips, but trade seen intact",
-            "source": "Bloomberg",
-            "publishedAt": "2026-09-13T08:37:03Z",
-            "sentiment": "Neutral",
-            "compound": 0.128
-          },
-          {
-            "title": "The new American retirement fear: working until you die",
-            "source": "Fortune",
-            "publishedAt": "2026-09-13T08:37:00Z",
-            "sentiment": "Negative",
-            "compound": -0.796
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 35.73,
-  "trade_probability": 41.44,
+  "confirmation_score": 35.8,
+  "trade_probability": 41.48,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
