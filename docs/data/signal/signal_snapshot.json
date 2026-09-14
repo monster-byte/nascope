@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T13:31:10.758918+00:00",
+  "generated_at": "2026-09-14T13:46:03.050918+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.3401,
-          "up": true
+          "change_pct": -0.0286,
+          "up": false
         },
         "MSFT": {
-          "change_pct": 0.4137,
+          "change_pct": 0.144,
           "up": true
         },
         "NVDA": {
-          "change_pct": -3.4562,
-          "up": false
+          "change_pct": 0.193,
+          "up": true
         },
         "AMZN": {
-          "change_pct": -2.0698,
+          "change_pct": -0.2966,
           "up": false
         }
       }
@@ -40,18 +40,18 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28871.14,
-        "sma50": 29188.39,
-        "sma200": 27149.3
+        "last_price": 28956.77,
+        "sma50": 29190.1,
+        "sma200": 27149.72
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 65.0,
+      "score": 70.0,
       "status": "green",
       "details": {
         "current_vxn": 21.05,
-        "percentile_vs_20d": 35.0
+        "percentile_vs_20d": 30.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.2,
+      "score": 46.04,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.63,
-        "change_5d_pct": 0.475
+        "current_dxy": 99.65,
+        "change_5d_pct": 0.495
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.06,
+      "score": 50.25,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.001,
+        "avg_compound": 0.005,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Broadcom CEO Hock Tan Says Demand Already Exceeds Broadcom's $115 Billion AI Forecast. Here's What That Means for the Stock",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-13T13:45:45Z",
+            "sentiment": "Neutral",
+            "compound": -0.128
+          },
+          {
+            "title": "Why 90% of your DeFi trades are quietly being routed back to Wall Street market makers",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-09-13T13:45:40Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "The price of almost everything on your dinner table is climbing at once — and Wall Street is taking notice",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-13T13:45:14Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "WATCH: Only half of traditional Republicans are excited to vote. That’s the ballgame.",
+            "source": "Wnd.com",
+            "publishedAt": "2026-09-13T13:31:22Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
           {
             "title": "Stock Market Sell-Offs Are Painful. But History Shows Why Investors Should Hope for One",
             "source": "Biztoc.com",
@@ -103,34 +131,6 @@
             "title": "Fed rate hike is about Wall Street, not inflation, says economist",
             "source": "Biztoc.com",
             "publishedAt": "2026-09-13T13:30:28Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Stark warnings from Anthropic and OpenAI CEOs are set to disrupt the AI stock trade they built up",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-13T13:27:47Z",
-            "sentiment": "Negative",
-            "compound": -0.296
-          },
-          {
-            "title": "Johnson says Congress would work with to deliver $5,000 checks Trump promised to Americans",
-            "source": "NBC News",
-            "publishedAt": "2026-09-13T13:23:59Z",
-            "sentiment": "Positive",
-            "compound": 0.361
-          },
-          {
-            "title": "Gold and silver prices: Analysts warn of volatility ahead",
-            "source": "BusinessLine",
-            "publishedAt": "2026-09-13T13:21:14Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
-          },
-          {
-            "title": "REGN INVESTOR DEADLINE TOMORROW: Regeneron Pharmaceuticals, Inc. Investors with Substantial Losses Have Opportunity to Lead Class Action Lawsuit, Robbins Geller Rudman & Dowd LLP Announces",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-13T13:20:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 46.48,
-  "trade_probability": 47.89,
+  "confirmation_score": 46.93,
+  "trade_probability": 48.16,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
