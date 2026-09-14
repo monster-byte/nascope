@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T18:31:09.321264+00:00",
+  "generated_at": "2026-09-14T18:45:54.574015+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.006,
-          "up": false
+          "change_pct": 0.008,
+          "up": true
         },
         "MSFT": {
-          "change_pct": -0.0273,
+          "change_pct": -0.013,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.0024,
+          "change_pct": 0.0235,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.0157,
-          "up": true
+          "change_pct": -0.0725,
+          "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 70.5,
+      "score": 70.57,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29244.13,
-        "sma50": 29195.85,
-        "sma200": 27151.16
+        "last_price": 29251.08,
+        "sma50": 29195.99,
+        "sma200": 27151.2
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 45.0,
+      "score": 40.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.85,
-        "percentile_vs_20d": 55.0
+        "current_vxn": 21.9,
+        "percentile_vs_20d": 60.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 21.4,
+      "score": 20.74,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.955,
-        "change_5d_pct": 3.574
+        "current_yield_pct": 4.959,
+        "change_5d_pct": 3.658
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.93,
+      "score": 48.09,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.42,
-        "change_5d_pct": 0.258
+        "current_dxy": 99.4,
+        "change_5d_pct": 0.239
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.78,
+      "score": 52.18,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.044,
+        "avg_compound": 0.044,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Questions mount over what an AI 'slowdown' would look like",
-            "source": "BBC News",
-            "publishedAt": "2026-09-13T18:20:22Z",
+            "title": "House Speaker Mike Johnson says Trump's $5,000 'dividend' needs congressional approval",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-13T18:45:40Z",
             "sentiment": "Positive",
-            "compound": 0.361
+            "compound": 0.477
           },
           {
-            "title": "Bessent is doubling down with weekly bank sanctions",
-            "source": "TheStreet",
-            "publishedAt": "2026-09-13T18:17:00Z",
+            "title": "Chorus of concern over AI is growing louder",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-09-13T18:41:46Z",
+            "sentiment": "Neutral",
+            "compound": 0.178
+          },
+          {
+            "title": "Saudi Arabia pipeline outage threatens loss of 4% of global oil supply",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-13T18:39:58Z",
+            "sentiment": "Negative",
+            "compound": -0.599
+          },
+          {
+            "title": "The Dividend Streak Lives, But Target’s Raise Size Tells the Real Story",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-13T18:39:47Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Ahead of Fed meeting, Trump says US should have world's lowest interest rate",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-13T18:13:57Z",
-            "sentiment": "Neutral",
-            "compound": 0.103
-          },
-          {
-            "title": "Japan’s rate hike is a foregone conclusion, but the yen may not get the memo",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-13T18:09:48Z",
+            "title": "fred-loader 0.1.0",
+            "source": "Pypi.org",
+            "publishedAt": "2026-09-13T18:38:04Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Anthropic Said to Choose Nasdaq for Much-Anticipated IPO Listing",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-13T18:03:59Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Dow Jones Futures: Fed Meeting Ahead; Anthropic's Amodei, OpenAI's Altman, SpaceX's Musk Call For AI Slowdown",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-13T18:01:17Z",
+            "title": "fred-loader added to PyPI",
+            "source": "Pypi.org",
+            "publishedAt": "2026-09-13T18:38:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 48.07,
-  "trade_probability": 48.84,
+  "confirmation_score": 47.95,
+  "trade_probability": 48.77,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
