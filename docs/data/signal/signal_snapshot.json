@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T16:15:59.789757+00:00",
+  "generated_at": "2026-09-14T16:31:11.816632+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
-      "status": "green",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.0547,
+          "change_pct": -0.0687,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.0436,
+          "change_pct": 0.0103,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.2244,
-          "up": true
+          "change_pct": -0.0047,
+          "up": false
         },
         "AMZN": {
-          "change_pct": 0.0789,
-          "up": true
+          "change_pct": -0.0395,
+          "up": false
         }
       }
     },
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29182.47,
-        "sma50": 29194.62,
-        "sma200": 27150.85
+        "last_price": 29172.44,
+        "sma50": 29194.42,
+        "sma200": 27150.8
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 30.0,
+      "score": 35.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.1,
-        "percentile_vs_20d": 70.0
+        "current_vxn": 22.04,
+        "percentile_vs_20d": 65.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 22.07,
+      "score": 22.74,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.951,
-        "change_5d_pct": 3.491
+        "current_yield_pct": 4.947,
+        "change_5d_pct": 3.407
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.3,
+      "score": 47.51,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.5,
-        "change_5d_pct": 0.338
+        "current_dxy": 99.47,
+        "change_5d_pct": 0.312
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.79,
+      "score": 53.21,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.036,
+        "avg_compound": 0.064,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Anthropic has chosen the Nasdaq for its IPO listing",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-13T16:15:31Z",
+            "title": "Fed, crude, dollar and Iran war: 4 factors that could move gold next week",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-13T16:29:17Z",
+            "sentiment": "Negative",
+            "compound": -0.823
+          },
+          {
+            "title": "Weekend Box Office: 'Practical Magic 2' Takes the Weekend with $30 Million",
+            "source": "Livejournal.com",
+            "publishedAt": "2026-09-13T16:27:26Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Zcash Price Prediction: Bearish RSI Divergence Sets Stage for Pullback to $850",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-13T16:08:48Z",
+            "title": "WATCH: How 9/11 heroism led to a 25-year friendship",
+            "source": "Abcnews.com",
+            "publishedAt": "2026-09-13T16:24:26Z",
+            "sentiment": "Positive",
+            "compound": 0.772
+          },
+          {
+            "title": "Anthropic selects Nasdaq for IPO, Business Insider reports",
+            "source": "CNA",
+            "publishedAt": "2026-09-13T16:23:27Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Fed reaffirms 2% inflation target amid speculation of rate hikes",
+            "title": "OpenAI boss and Elon Musk back calls to put brakes on ‘reckless’ AI development",
+            "source": "The Irish Times",
+            "publishedAt": "2026-09-13T16:22:29Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Anthropic selects Nasdaq for IPO listing, targeting $2 trillion valuation",
             "source": "Crypto Briefing",
-            "publishedAt": "2026-09-13T16:07:04Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Anthropic has chosen the Nasdaq for its IPO listing",
-            "source": "Business Insider",
-            "publishedAt": "2026-09-13T16:05:56Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "A $93 trillion trading boom puts CME in an unusual spot",
-            "source": "TheStreet",
-            "publishedAt": "2026-09-13T16:03:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Box Office: ‘Practical Magic 2’ Fizzles With $30 Million Debut",
-            "source": "Variety",
-            "publishedAt": "2026-09-13T16:02:37Z",
+            "publishedAt": "2026-09-13T16:20:37Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 51.1,
-  "trade_probability": 50.66,
+  "confirmation_score": 38.28,
+  "trade_probability": 42.97,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
