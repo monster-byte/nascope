@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T06:15:55.438044+00:00",
+  "generated_at": "2026-09-14T06:31:09.710449+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.43,
+      "score": 47.67,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.35,
-        "change_5d_pct": 0.196
+        "current_dxy": 99.45,
+        "change_5d_pct": 0.291
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.4,
+      "score": 47.54,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.052,
+        "avg_compound": -0.049,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Rural pubs: We need to save them, but not for the sake of the alcohol industry",
+            "source": "TheJournal.ie",
+            "publishedAt": "2026-09-13T06:30:25Z",
+            "sentiment": "Positive",
+            "compound": 0.273
+          },
           {
             "title": "LA Mayor Karen Bass bristles after being asked if she would endorse Gavin Newsom for president on MS NOW - months after HE endorsed her",
             "source": "Dailymail.com",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-09-13T06:00:00Z",
             "sentiment": "Neutral",
             "compound": -0.052
-          },
-          {
-            "title": "SML Ltd weighing IPO within 2 to 3 years, eyes new chemical entity pipeline",
-            "source": "BusinessLine",
-            "publishedAt": "2026-09-13T05:54:23Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 35.58,
-  "trade_probability": 41.35,
+  "confirmation_score": 35.53,
+  "trade_probability": 41.32,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
