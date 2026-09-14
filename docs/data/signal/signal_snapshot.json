@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T17:31:12.398262+00:00",
+  "generated_at": "2026-09-14T17:45:59.839690+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,45 +13,45 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
-      "status": "red",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.0149,
+          "change_pct": -0.0568,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.0295,
+          "change_pct": -0.0442,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.0724,
-          "up": false
+          "change_pct": 0.0537,
+          "up": true
         },
         "AMZN": {
-          "change_pct": 0.0902,
+          "change_pct": 0.0059,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 70.66,
+      "score": 70.71,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29259.98,
-        "sma50": 29196.17,
-        "sma200": 27151.24
+        "last_price": 29265.59,
+        "sma50": 29196.28,
+        "sma200": 27151.27
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 40.0,
+      "score": 50.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.8,
-        "percentile_vs_20d": 60.0
+        "current_vxn": 21.78,
+        "percentile_vs_20d": 50.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.94,
+      "score": 47.78,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.42,
-        "change_5d_pct": 0.257
+        "current_dxy": 99.43,
+        "change_5d_pct": 0.277
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.41,
+      "score": 45.3,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.072,
+        "avg_compound": -0.094,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Here are the 2 big things we're watching in this week's stock market",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-13T17:30:45Z",
+            "title": "OpenAI Just Came for Wall Street’s Junior Bankers. Morgan Stanley Helped Build the Thing.",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-13T17:45:21Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "NYT: Power struggle rocks Iran as leaders clash over war with US",
-            "source": "Israelnationalnews.com",
-            "publishedAt": "2026-09-13T17:23:00Z",
+            "title": "Trump chastises Zelenskyy over Russian refinery strikes during Ireland visit",
+            "source": "CNA",
+            "publishedAt": "2026-09-13T17:35:00Z",
             "sentiment": "Negative",
-            "compound": -0.735
+            "compound": -0.637
           },
           {
-            "title": "What Will XRP Be Worth by 2028?",
+            "title": "A 72-Year-Old Can Still Move Up to $210,000 Into a QLAC and Cut Next Year’s RMD by About $7,900. The Check Doesn’t Start Until 85, and Neither Does the Tax",
             "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-13T17:20:27Z",
+            "publishedAt": "2026-09-13T17:34:57Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "Nvidia may bankroll Anthropic's massive IPO - Mashable",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-09-13T17:32:19Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "This Doctor Paid Off $585K in 24 Months While Building a $300K Portfolio",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-13T17:32:15Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "What Will 10,000 XRP Be Worth in 2030?",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-13T17:31:23Z",
             "sentiment": "Positive",
             "compound": 0.226
-          },
-          {
-            "title": "Anthropic has chosen Nasdaq for its October IPO, in the week OpenAI ruled one out",
-            "source": "The Next Web",
-            "publishedAt": "2026-09-13T17:14:33Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Houthis' Yemen Advance Leaves Gulf States With Uncomfortable Choice",
-            "source": "HuffPost",
-            "publishedAt": "2026-09-13T17:13:29Z",
-            "sentiment": "Negative",
-            "compound": -0.382
-          },
-          {
-            "title": "Dear SpaceX Stock Fans, Mark Your Calendars for September 21",
-            "source": "Barchart.com",
-            "publishedAt": "2026-09-13T17:08:26Z",
-            "sentiment": "Positive",
-            "compound": 0.382
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.77,
-  "trade_probability": 44.46,
+  "confirmation_score": 48.31,
+  "trade_probability": 48.99,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
