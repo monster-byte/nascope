@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T14:31:15.699508+00:00",
+  "generated_at": "2026-09-14T14:45:53.175659+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
-      "status": "red",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.1156,
+          "change_pct": -0.033,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.0651,
-          "up": false
+          "change_pct": 0.027,
+          "up": true
         },
         "NVDA": {
-          "change_pct": 0.0546,
+          "change_pct": 0.0712,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.1072,
-          "up": false
+          "change_pct": 0.0317,
+          "up": true
         }
       }
     },
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28979.49,
-        "sma50": 29190.56,
-        "sma200": 27149.84
+        "last_price": 28993.35,
+        "sma50": 29190.83,
+        "sma200": 27149.91
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 15.0,
+      "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.7,
-        "percentile_vs_20d": 85.0
+        "current_vxn": 22.97,
+        "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 13.88,
+      "score": 12.88,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.0,
-        "change_5d_pct": 4.515
+        "current_yield_pct": 5.006,
+        "change_5d_pct": 4.64
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.22,
+      "score": 46.23,
       "status": "yellow",
       "details": {
         "current_dxy": 99.63,
-        "change_5d_pct": 0.473
+        "change_5d_pct": 0.471
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.7,
+      "score": 49.84,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.046,
+        "avg_compound": -0.003,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Citi Says Global Equity Flows Weaken as Investor Positioning Remains Relatively Stable",
+            "source": "Advfn.com",
+            "publishedAt": "2026-09-13T14:40:46Z",
+            "sentiment": "Neutral",
+            "compound": -0.153
+          },
+          {
+            "title": "Two Medical Device Dividend Giants, One Better Buy: Medtronic vs. Abbott",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-13T14:36:22Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
+          {
+            "title": "If That Grocery Store Receipt Was Already Making Your Eyes Water … Just Wait",
+            "source": "The Daily Caller",
+            "publishedAt": "2026-09-13T14:34:49Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Dow Jones Futures: Fed Meeting Ahead; Anthropic's Amodei, OpenAI's Altman, SpaceX's Musk Call For AI Slowdown",
             "source": "Investor's Business Daily",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-09-13T14:17:00Z",
             "sentiment": "Positive",
             "compound": 0.226
-          },
-          {
-            "title": "Surging inflation puts interest rates back in focus as policymakers meet in Japan, US and UK",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-13T14:16:16Z",
-            "sentiment": "Positive",
-            "compound": 0.459
-          },
-          {
-            "title": "Costco Stock Price Forecast: Here's What a $10,000 Investment Today Could Be Worth by September 2027",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-13T14:16:12Z",
-            "sentiment": "Positive",
-            "compound": 0.226
-          },
-          {
-            "title": "Replace Your $6,000 Grocery Budget With Dividends Alone: The Math",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-13T14:11:28Z",
-            "sentiment": "Negative",
-            "compound": -0.25
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 34.68,
-  "trade_probability": 40.81,
+  "confirmation_score": 47.79,
+  "trade_probability": 48.67,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
