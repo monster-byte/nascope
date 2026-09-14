@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T16:01:27.986111+00:00",
+  "generated_at": "2026-09-14T16:15:59.789757+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.0238,
-          "up": true
+          "change_pct": -0.0547,
+          "up": false
         },
         "MSFT": {
-          "change_pct": 0.0609,
+          "change_pct": 0.0436,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.0252,
-          "up": false
+          "change_pct": 0.2244,
+          "up": true
         },
         "AMZN": {
-          "change_pct": -0.0059,
-          "up": false
+          "change_pct": 0.0789,
+          "up": true
         }
       }
     },
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29146.51,
-        "sma50": 29193.9,
-        "sma200": 27150.67
+        "last_price": 29182.47,
+        "sma50": 29194.62,
+        "sma200": 27150.85
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 25.0,
+      "score": 30.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.15,
-        "percentile_vs_20d": 75.0
+        "current_vxn": 22.1,
+        "percentile_vs_20d": 70.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 22.41,
+      "score": 22.07,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.949,
-        "change_5d_pct": 3.449
+        "current_yield_pct": 4.951,
+        "change_5d_pct": 3.491
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.08,
+      "score": 47.3,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.52,
-        "change_5d_pct": 0.365
+        "current_dxy": 99.5,
+        "change_5d_pct": 0.338
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.44,
+      "score": 51.79,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.049,
+        "avg_compound": 0.036,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Cummins Returned 512% in a Decade. Its Dividend Did Something Even More Impressive",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-13T15:55:25Z",
-            "sentiment": "Positive",
-            "compound": 0.556
-          },
-          {
-            "title": "Deion Sanders Gets $0 for Joining Nick Saban in $10 Million Push to Save College Sports",
-            "source": "Essentially Sports",
-            "publishedAt": "2026-09-13T15:52:55Z",
-            "sentiment": "Positive",
-            "compound": 0.494
-          },
-          {
-            "title": "‘Practical Magic 2’ Kicks Off Fall Box Office With $30 Million Opening",
-            "source": "TheWrap",
-            "publishedAt": "2026-09-13T15:51:04Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Central Bank of AI: Analyst Says NVIDIA Could Sit on $1.4 Trillion — Dwarfing Hyperscalers and Wall Street",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-13T15:50:03Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Rivian vs. Lucid: This Stock Is Clearly the Better Buy",
+            "title": "Anthropic has chosen the Nasdaq for its IPO listing",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-13T15:46:47Z",
-            "sentiment": "Positive",
-            "compound": 0.681
+            "publishedAt": "2026-09-13T16:15:31Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Elon Musk’s quietest investor has built a $40B SpaceX stake",
-            "source": "The Next Web",
-            "publishedAt": "2026-09-13T15:44:54Z",
+            "title": "Zcash Price Prediction: Bearish RSI Divergence Sets Stage for Pullback to $850",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-13T16:08:48Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Fed reaffirms 2% inflation target amid speculation of rate hikes",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-13T16:07:04Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Anthropic has chosen the Nasdaq for its IPO listing",
+            "source": "Business Insider",
+            "publishedAt": "2026-09-13T16:05:56Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "A $93 trillion trading boom puts CME in an unusual spot",
+            "source": "TheStreet",
+            "publishedAt": "2026-09-13T16:03:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Box Office: ‘Practical Magic 2’ Fizzles With $30 Million Debut",
+            "source": "Variety",
+            "publishedAt": "2026-09-13T16:02:37Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 43.98,
-  "trade_probability": 46.39,
+  "confirmation_score": 51.1,
+  "trade_probability": 50.66,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
