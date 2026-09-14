@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T21:01:26.195170+00:00",
+  "generated_at": "2026-09-14T21:15:50.309962+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.43,
+      "score": 47.56,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.48,
-        "change_5d_pct": 0.321
+        "current_dxy": 99.46,
+        "change_5d_pct": 0.305
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 43.49,
-      "status": "yellow",
+      "score": 39.08,
+      "status": "red",
       "details": {
-        "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.13,
+        "overall_sentiment": "BEARISH",
+        "avg_compound": -0.218,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Coca-Cola vs. Pepsi: Five Years, Two Completely Different Outcomes",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-13T21:10:51Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Cathie Wood Sees an Economic Boom Wall Street Isn’t Pricing In",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-13T21:10:05Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Pipeline Damage, Houthi Attack Pressure Global Oil Supply",
+            "source": "Newser",
+            "publishedAt": "2026-09-13T21:10:00Z",
+            "sentiment": "Negative",
+            "compound": -0.818
+          },
+          {
+            "title": "Definium Therapeutics to Discuss Topline Results from Phase 3 Panorama Study in Generalized Anxiety Disorder on September 14, 2026",
+            "source": "Financial Post",
+            "publishedAt": "2026-09-13T21:03:09Z",
+            "sentiment": "Negative",
+            "compound": -0.527
+          },
+          {
+            "title": "Forget Intel. Buy This Tech Stock in September Instead",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-13T21:02:45Z",
+            "sentiment": "Negative",
+            "compound": -0.226
+          },
           {
             "title": "2027: Four major hurdles threaten Obi–Makinde alliance – Presidential aide",
             "source": "Vanguard",
             "publishedAt": "2026-09-13T21:01:06Z",
             "sentiment": "Negative",
             "compound": -0.436
-          },
-          {
-            "title": "BOJ and Fed face critical test as market pressure rises on rates",
-            "source": "Nikkei.com",
-            "publishedAt": "2026-09-13T21:00:55Z",
-            "sentiment": "Negative",
-            "compound": -0.542
-          },
-          {
-            "title": "Further Oil Price Spikes Could Rekindle Recession Fears",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-13T21:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.681
-          },
-          {
-            "title": "Further Oil Price Spikes Could Rekindle Recession Fears",
-            "source": "OilPrice.com",
-            "publishedAt": "2026-09-13T21:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.681
-          },
-          {
-            "title": "Live: Wall Street rises despite hot inflation likely to trigger a Fed rate hike this week",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-09-13T20:59:12Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Amazon, Alphabet, and Microsoft: Which 2 to Buy and Which 1 to Avoid",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-13T20:47:39Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 36.19,
-  "trade_probability": 41.71,
+  "confirmation_score": 35.8,
+  "trade_probability": 41.48,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
