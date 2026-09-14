@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T16:31:11.816632+00:00",
+  "generated_at": "2026-09-14T16:45:54.356934+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
+      "score": 0.0,
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.0687,
+          "change_pct": -0.0403,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.0103,
-          "up": true
+          "change_pct": -0.0434,
+          "up": false
         },
         "NVDA": {
-          "change_pct": -0.0047,
+          "change_pct": -0.033,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.0395,
+          "change_pct": -0.0039,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 70.0,
+      "status": "green",
       "details": {
-        "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29172.44,
-        "sma50": 29194.42,
-        "sma200": 27150.8
+        "regime": "BULLISH",
+        "last_price": 29194.87,
+        "sma50": 29194.86,
+        "sma200": 27150.91
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 35.0,
-      "status": "red",
+      "score": 40.0,
+      "status": "yellow",
       "details": {
-        "current_vxn": 22.04,
-        "percentile_vs_20d": 65.0
+        "current_vxn": 21.89,
+        "percentile_vs_20d": 60.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 22.74,
+      "score": 22.07,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.947,
-        "change_5d_pct": 3.407
+        "current_yield_pct": 4.951,
+        "change_5d_pct": 3.491
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.51,
+      "score": 47.42,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.47,
-        "change_5d_pct": 0.312
+        "current_dxy": 99.48,
+        "change_5d_pct": 0.323
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.21,
+      "score": 49.49,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.064,
+        "avg_compound": -0.01,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Fed, crude, dollar and Iran war: 4 factors that could move gold next week",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-13T16:29:17Z",
+            "title": "Up 3,600%, this freight fund has posted the biggest gains of all on Iran war oil shock",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-13T16:45:50Z",
             "sentiment": "Negative",
-            "compound": -0.823
+            "compound": -0.625
           },
           {
-            "title": "Weekend Box Office: 'Practical Magic 2' Takes the Weekend with $30 Million",
-            "source": "Livejournal.com",
-            "publishedAt": "2026-09-13T16:27:26Z",
+            "title": "Anthropic said to have picked Nasdaq for IPO",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-13T16:45:44Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "WATCH: How 9/11 heroism led to a 25-year friendship",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-09-13T16:24:26Z",
+            "title": "Being a millionaire isn’t enough to join America’s top 10% — here’s the net worth it actually takes to be in the top",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-13T16:45:00Z",
             "sentiment": "Positive",
-            "compound": 0.772
+            "compound": 0.691
           },
           {
-            "title": "Anthropic selects Nasdaq for IPO, Business Insider reports",
-            "source": "CNA",
-            "publishedAt": "2026-09-13T16:23:27Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Chamath Palihapitiya: Anthropic Employee’s “Human Extinction” AI Warning Risks $2.3 Trillion IPO",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-13T16:44:23Z",
+            "sentiment": "Negative",
+            "compound": -0.542
           },
           {
-            "title": "OpenAI boss and Elon Musk back calls to put brakes on ‘reckless’ AI development",
-            "source": "The Irish Times",
-            "publishedAt": "2026-09-13T16:22:29Z",
+            "title": "BZAI Investors Have Opportunity to Lead Blaize Holdings, Inc. Securities Fraud Lawsuit Filed by The Rosen Law Firm",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-13T16:42:00Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": -0.178
           },
           {
-            "title": "Anthropic selects Nasdaq for IPO listing, targeting $2 trillion valuation",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-13T16:20:37Z",
+            "title": "Altria’s Dividend Paradox: Raising Payouts While Cigarette Sales Plummet",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-13T16:41:00Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": -0.103
           }
         ]
       }
@@ -146,9 +146,9 @@
       }
     }
   },
-  "confirmation_score": 38.28,
-  "trade_probability": 42.97,
-  "market_regime": "NEUTRAL / TRANSITIONAL",
+  "confirmation_score": 34.25,
+  "trade_probability": 40.55,
+  "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
     "directional_bias": "NEUTRAL"
