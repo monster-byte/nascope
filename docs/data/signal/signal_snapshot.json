@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T18:45:59.305780+00:00",
+  "generated_at": "2026-09-15T19:01:19.963459+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -21,15 +21,15 @@
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.0211,
-          "up": false
-        },
-        "NVDA": {
-          "change_pct": 0.0059,
+          "change_pct": 0.01,
           "up": true
         },
+        "NVDA": {
+          "change_pct": -0.0472,
+          "up": false
+        },
         "AMZN": {
-          "change_pct": -0.0463,
+          "change_pct": -0.0323,
           "up": false
         }
       }
@@ -40,18 +40,18 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28938.41,
-        "sma50": 29178.32,
-        "sma200": 27170.18
+        "last_price": 28948.69,
+        "sma50": 29178.53,
+        "sma200": 27170.23
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 20.0,
+      "score": 25.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.46,
-        "percentile_vs_20d": 80.0
+        "current_vxn": 22.44,
+        "percentile_vs_20d": 75.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.56,
+      "score": 43.72,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.64,
-        "change_5d_pct": 0.805
+        "current_dxy": 99.62,
+        "change_5d_pct": 0.785
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.26,
+      "score": 51.92,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.045,
+        "avg_compound": 0.038,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Anthropic tells investors it will be profitable for second straight quarter",
-            "source": "The Irish Times",
-            "publishedAt": "2026-09-14T18:42:41Z",
-            "sentiment": "Positive",
-            "compound": 0.586
-          },
-          {
-            "title": "First-time borrowers deepen credit reach: Credit uptake among eligible Indians more than doubled to 74% in March from 35% in 2017",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-14T18:42:14Z",
-            "sentiment": "Positive",
-            "compound": 0.649
-          },
-          {
-            "title": "NATO pledges increased Ukraine support as Russia strikes near border",
-            "source": "Al Jazeera English",
-            "publishedAt": "2026-09-14T18:40:23Z",
-            "sentiment": "Positive",
-            "compound": 0.318
-          },
-          {
-            "title": "Georgia ranked among best U.S. states for teachers. Here's why",
-            "source": "USA Today",
-            "publishedAt": "2026-09-14T18:36:54Z",
-            "sentiment": "Positive",
-            "compound": 0.637
-          },
-          {
-            "title": "Where the AI trade goes from here as apocalyptic warnings hit a fever pitch",
-            "source": "Business Insider",
-            "publishedAt": "2026-09-14T18:34:16Z",
-            "sentiment": "Negative",
-            "compound": -0.765
-          },
-          {
-            "title": "Guest Contribution: “Do Traditional Models or the Dominant Currency Paradigm Explain China’s Export Behavior?”",
-            "source": "Econbrowser.com",
-            "publishedAt": "2026-09-14T18:34:09Z",
+            "title": "Deion Sanders Takes $0 Role in Saban’s $10 Million College Sports Initiative",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-14T19:00:44Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "The Rarest Asset in a Fourth Turning: The Freedom to Act",
+            "source": "Activistpost.com",
+            "publishedAt": "2026-09-14T19:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.772
+          },
+          {
+            "title": "Bitcoin tops $79K, oil falls as Trump says Iran war could end",
+            "source": "Cointelegraph",
+            "publishedAt": "2026-09-14T18:56:28Z",
+            "sentiment": "Neutral",
+            "compound": -0.153
+          },
+          {
+            "title": "‘Off a Cliff’: AI Devours Entry-Level Tech Jobs, As Experienced Workers Hold On",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-14T18:54:32Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "SBI Research, IDFC First expect rate hike in October as crude prices climb: Higher oil prices & inflation raise likelihood of policy tightening",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-14T18:53:30Z",
+            "sentiment": "Negative",
+            "compound": -0.572
+          },
+          {
+            "title": "SBI Research, IDFC First expect rate hike in October as crude prices climb: Higher oil prices & inflation raise likelihood of policy tightening",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-14T18:53:30Z",
+            "sentiment": "Negative",
+            "compound": -0.572
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 35.72,
-  "trade_probability": 41.43,
+  "confirmation_score": 36.16,
+  "trade_probability": 41.7,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
