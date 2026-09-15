@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T16:01:22.603259+00:00",
+  "generated_at": "2026-09-15T16:15:55.929263+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
-      "status": "red",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.0,
-          "up": false
-        },
-        "MSFT": {
-          "change_pct": -0.046,
-          "up": false
-        },
-        "NVDA": {
-          "change_pct": 0.0283,
+          "change_pct": 0.0076,
           "up": true
         },
+        "MSFT": {
+          "change_pct": 0.021,
+          "up": true
+        },
+        "NVDA": {
+          "change_pct": -0.0033,
+          "up": false
+        },
         "AMZN": {
-          "change_pct": -0.0481,
+          "change_pct": -0.0081,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28976.29,
-        "sma50": 29179.08,
-        "sma200": 27170.37
+        "last_price": 28943.09,
+        "sma50": 29178.41,
+        "sma200": 27170.2
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.74,
+        "current_vxn": 22.73,
         "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 19.37,
+      "score": 18.37,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.99,
-        "change_5d_pct": 3.829
+        "current_yield_pct": 4.996,
+        "change_5d_pct": 3.953
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.55,
+      "score": 43.57,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.64,
-        "change_5d_pct": 0.806
+        "current_dxy": 99.63,
+        "change_5d_pct": 0.803
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.91,
+      "score": 54.34,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.118,
+        "avg_compound": 0.087,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Solowin targets 100 megawatts of AI power by 2028 as Congress stalls on crypto",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-14T16:00:37Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Prediction: Meta Stock Has More Upside Than Its Valuation Suggests",
+            "title": "Forget the Magnificent 7. This Duo Says Broadcom, Not Nvidia, Wins the Next Leg of AI.",
             "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-14T16:00:11Z",
+            "publishedAt": "2026-09-14T16:15:19Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": 0.001
           },
           {
-            "title": "Netflix to Announce Third Quarter 2026 Financial Results",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-14T16:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Nasdaq falls as AI slowdown fears weigh on Nvidia, chipmakers",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-14T16:15:07Z",
+            "sentiment": "Negative",
+            "compound": -0.421
           },
           {
-            "title": "JLL Income Property Trust Acquires Sacramento Area Medical Center",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-14T16:00:00Z",
+            "title": "Community Banks’ Biggest Third-Party Risk Is the Vendor They Can’t Replace",
+            "source": "pymnts.com",
+            "publishedAt": "2026-09-14T16:15:04Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "'Big Short' Michael Burry says AI leaders' calls for slowdown are 'self-serving' and he's not worried - Business Insider",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-09-14T16:13:42Z",
             "sentiment": "Positive",
-            "compound": 0.511
+            "compound": 0.224
           },
           {
-            "title": "TRAVEL + LEISURE BRINGS WORLD'S BEST SUMMIT TO LONDON FOR FIRST INTERNATIONAL EDITION",
+            "title": "BWIN SHAREHOLDER ALERT: Ademi LLP Investigates Whether Buyout Fairly Values The Baldwin Group, Inc.",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-14T16:00:00Z",
+            "publishedAt": "2026-09-14T16:13:00Z",
             "sentiment": "Positive",
-            "compound": 0.713
+            "compound": 0.684
           },
           {
-            "title": "Record reserves",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-14T15:58:01Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Intel Is Stuck in Neutral. There Is Exactly One Thing That Should Change Your Mind.",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-14T16:12:18Z",
+            "sentiment": "Negative",
+            "compound": -0.25
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 35.47,
-  "trade_probability": 41.28,
+  "confirmation_score": 41.94,
+  "trade_probability": 45.16,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
