@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T00:31:04.052879+00:00",
+  "generated_at": "2026-09-15T00:45:53.132548+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.06,
+      "score": 46.95,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.52,
-        "change_5d_pct": 0.367
+        "current_dxy": 99.54,
+        "change_5d_pct": 0.381
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.48,
+      "score": 52.47,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.07,
+        "avg_compound": 0.049,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "IPO rush continues: Rs 24,500 crore worth of issues to hit primary market this week",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-14T00:43:50Z",
+            "sentiment": "Positive",
+            "compound": 0.226
+          },
+          {
+            "title": "Franco-Nevada Announces A$200 Million Follow-on Financing Package with Minerals 260 for the Bullabulling Gold Project",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-14T00:38:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Gold edges lower as hot US inflation bolsters Fed rate-hike bets",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-14T00:37:48Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
           {
             "title": "Stock Market Holiday today: NSE, BSE to remain shut for Ganesh Chaturthi. Check upcoming market holidays",
             "source": "The Times of India",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-09-14T00:17:16Z",
             "sentiment": "Positive",
             "compound": 0.226
-          },
-          {
-            "title": "2027 budget: FG gives MDAs September 18 deadline",
-            "source": "The Punch",
-            "publishedAt": "2026-09-14T00:15:59Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Crypto’s biggest week ever? Swarm fears prompt AI slowdown: Hodler’s Digest",
-            "source": "Cointelegraph",
-            "publishedAt": "2026-09-14T00:15:37Z",
-            "sentiment": "Negative",
-            "compound": -0.421
-          },
-          {
-            "title": "New Jersey Devils Pipeline Shows Promise & Pleasant Surprises",
-            "source": "The Hockey News",
-            "publishedAt": "2026-09-14T00:12:46Z",
-            "sentiment": "Positive",
-            "compound": 0.421
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 37.05,
-  "trade_probability": 42.23,
+  "confirmation_score": 36.95,
+  "trade_probability": 42.17,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
