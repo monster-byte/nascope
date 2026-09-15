@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T13:45:50.783814+00:00",
+  "generated_at": "2026-09-15T14:01:28.919975+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
+      "score": 0.0,
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.0015,
+          "change_pct": -0.121,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.1814,
+          "change_pct": -0.1037,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.1571,
-          "up": true
+          "change_pct": -0.2837,
+          "up": false
         },
         "AMZN": {
-          "change_pct": -0.1079,
+          "change_pct": -0.3251,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29131.09,
-        "sma50": 29182.17,
-        "sma200": 27171.14
+        "last_price": 29114.08,
+        "sma50": 29181.83,
+        "sma200": 27171.05
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 25.0,
+      "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.14,
-        "percentile_vs_20d": 75.0
+        "current_vxn": 22.39,
+        "percentile_vs_20d": 80.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 16.71,
+      "score": 16.38,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.006,
-        "change_5d_pct": 4.161
+        "current_yield_pct": 5.008,
+        "change_5d_pct": 4.203
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.66,
+      "score": 44.2,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.62,
-        "change_5d_pct": 0.792
+        "current_dxy": 99.56,
+        "change_5d_pct": 0.724
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.19,
+      "score": 48.13,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.044,
-        "articles_analyzed": 24,
+        "avg_compound": -0.037,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Satsuma Technology sells all 669 BTC and returns £31.9M to shareholders as corporate Bitcoin experiment ends",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-14T13:45:34Z",
+            "title": "Strategy Again Leaves Bitcoin Holdings Unchanged",
+            "source": "Cryptoprowl.com",
+            "publishedAt": "2026-09-14T14:01:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Chip stocks fall as oil prices gain, Treasury yields stay elevated: AlphaCheck",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-14T13:45:19Z",
+            "title": "Oil surges on report Saudi pipeline will take weeks to reopen",
+            "source": "Bloomberg",
+            "publishedAt": "2026-09-14T14:00:49Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "AMD Is Sitting at $515. Here Is What Most U.S. Investors Should Actually Do About It.",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-14T14:00:30Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Prediction: Arm Could Be the Picks-and-Shovels Winner of the AI Boom",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-14T14:00:29Z",
             "sentiment": "Positive",
-            "compound": 0.637
+            "compound": 0.586
           },
           {
-            "title": "Federal Reserve faces risk of bond market turmoil by holding rates steady",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-14T13:44:12Z",
-            "sentiment": "Negative",
-            "compound": -0.557
-          },
-          {
-            "title": "Dow Slips as AI Slowdown Calls and Surging Oil Prices Test Wall Street's Nerve Ahead of the Fed Meeting",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-09-14T13:43:25Z",
+            "title": "U. Delaware Faces ‘Backlash’ for Wanting Employees to Return to In-Office Work",
+            "source": "Legalinsurrection.com",
+            "publishedAt": "2026-09-14T14:00:12Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "SciBase publishes information document regarding the rights issue",
+            "title": "Grange Insurance CEO John Ammendola to retire Mar. 1, 2027, following 12 years of leadership; Ryan Michel named the company's next CEO following Ammendola's retirement",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-14T13:42:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Stock Market Today (Sept. 14, 2026): S&P 500 falls on rising oil prices, sagging AI stocks",
-            "source": "TheStreet",
-            "publishedAt": "2026-09-14T13:38:32Z",
+            "publishedAt": "2026-09-14T14:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,11 +146,11 @@
       }
     }
   },
-  "confirmation_score": 36.13,
-  "trade_probability": 41.68,
+  "confirmation_score": 28.57,
+  "trade_probability": 37.14,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
-    "ai_status": "HOLD / MONITOR",
-    "directional_bias": "NEUTRAL"
+    "ai_status": "REJECT",
+    "directional_bias": "AVOID"
   }
 }
