@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T19:01:19.963459+00:00",
+  "generated_at": "2026-09-15T19:15:51.420902+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
+      "score": 0.0,
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.0121,
+          "change_pct": -0.0242,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.01,
-          "up": true
+          "change_pct": -0.0392,
+          "up": false
         },
         "NVDA": {
-          "change_pct": -0.0472,
+          "change_pct": -0.0566,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.0323,
+          "change_pct": -0.0081,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28948.69,
-        "sma50": 29178.53,
-        "sma200": 27170.23
+        "last_price": 28929.38,
+        "sma50": 29178.14,
+        "sma200": 27170.13
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 25.0,
+      "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.44,
-        "percentile_vs_20d": 75.0
+        "current_vxn": 22.56,
+        "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 17.04,
+      "score": 18.37,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.004,
-        "change_5d_pct": 4.12
+        "current_yield_pct": 4.996,
+        "change_5d_pct": 3.953
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.72,
+      "score": 43.65,
       "status": "yellow",
       "details": {
         "current_dxy": 99.62,
-        "change_5d_pct": 0.785
+        "change_5d_pct": 0.794
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.92,
+      "score": 47.7,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.038,
+        "avg_compound": -0.046,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Deion Sanders Takes $0 Role in Saban’s $10 Million College Sports Initiative",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-14T19:00:44Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "AI-linked stocks plunge as industry leaders warn of risks from unchecked development",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-14T19:13:12Z",
+            "sentiment": "Negative",
+            "compound": -0.361
           },
           {
-            "title": "The Rarest Asset in a Fourth Turning: The Freedom to Act",
-            "source": "Activistpost.com",
-            "publishedAt": "2026-09-14T19:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.772
-          },
-          {
-            "title": "Bitcoin tops $79K, oil falls as Trump says Iran war could end",
-            "source": "Cointelegraph",
-            "publishedAt": "2026-09-14T18:56:28Z",
-            "sentiment": "Neutral",
-            "compound": -0.153
-          },
-          {
-            "title": "‘Off a Cliff’: AI Devours Entry-Level Tech Jobs, As Experienced Workers Hold On",
+            "title": "CrowdStrike, Palo Alto Networks surging today as AI doomsday fears jolt cybersecurity stocks",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-14T18:54:32Z",
+            "publishedAt": "2026-09-14T19:07:55Z",
+            "sentiment": "Negative",
+            "compound": -0.765
+          },
+          {
+            "title": "Counting the votes: Warsh faces a tough battle as the Fed girds for expected interest rate hike",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-14T19:07:44Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": -0.026
           },
           {
-            "title": "SBI Research, IDFC First expect rate hike in October as crude prices climb: Higher oil prices & inflation raise likelihood of policy tightening",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-14T18:53:30Z",
+            "title": "Bessent's 'Furious' Reaction To Fraud Claim Poses 'Real Risk' To Economy: Experts",
+            "source": "Crooksandliars.com",
+            "publishedAt": "2026-09-14T19:05:17Z",
             "sentiment": "Negative",
-            "compound": -0.572
+            "compound": -0.863
           },
           {
-            "title": "SBI Research, IDFC First expect rate hike in October as crude prices climb: Higher oil prices & inflation raise likelihood of policy tightening",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-14T18:53:30Z",
+            "title": "Fed prepares for potential interest rate hike under Kevin Warsh’s leadership",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-14T19:02:20Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "Who Owns The Customer When Autonomous Agents Go Wrong?",
+            "source": "CMSWire",
+            "publishedAt": "2026-09-14T19:01:20Z",
             "sentiment": "Negative",
-            "compound": -0.572
+            "compound": -0.477
           }
         ]
       }
@@ -146,11 +146,11 @@
       }
     }
   },
-  "confirmation_score": 36.16,
-  "trade_probability": 41.7,
+  "confirmation_score": 28.3,
+  "trade_probability": 36.98,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
-    "ai_status": "HOLD / MONITOR",
-    "directional_bias": "NEUTRAL"
+    "ai_status": "REJECT",
+    "directional_bias": "AVOID"
   }
 }
