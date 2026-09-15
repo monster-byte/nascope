@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T17:31:16.940064+00:00",
+  "generated_at": "2026-09-15T17:45:54.538956+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 100.0,
-      "status": "green",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.0515,
-          "up": true
+          "change_pct": -0.0106,
+          "up": false
         },
         "MSFT": {
-          "change_pct": 0.0331,
+          "change_pct": 0.014,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.0473,
-          "up": true
+          "change_pct": -0.0094,
+          "up": false
         },
         "AMZN": {
-          "change_pct": 0.0121,
-          "up": true
+          "change_pct": -0.0563,
+          "up": false
         }
       }
     },
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28952.15,
-        "sma50": 29178.6,
-        "sma200": 27170.24
+        "last_price": 28948.92,
+        "sma50": 29178.53,
+        "sma200": 27170.23
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 20.0,
+      "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.6,
-        "percentile_vs_20d": 80.0
+        "current_vxn": 22.64,
+        "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 17.04,
+      "score": 15.71,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.004,
-        "change_5d_pct": 4.12
+        "current_yield_pct": 5.012,
+        "change_5d_pct": 4.286
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.44,
+      "score": 43.55,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.65,
-        "change_5d_pct": 0.821
+        "current_dxy": 99.64,
+        "change_5d_pct": 0.806
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.58,
+      "score": 50.77,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.012,
-        "articles_analyzed": 24,
+        "avg_compound": 0.015,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Spiking oil prices jolt U.S. bond yields past 5%, threatening to set off a vicious cycle of debt just as the Fed is expected to hike rates",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-14T17:30:53Z",
-            "sentiment": "Negative",
-            "compound": -0.813
-          },
-          {
-            "title": "Spiking oil prices jolt U.S. bond yields past 5%, threatening to set off a vicious cycle of debt just as the Fed is expected to hike rates",
-            "source": "Fortune",
-            "publishedAt": "2026-09-14T17:30:53Z",
-            "sentiment": "Negative",
-            "compound": -0.813
-          },
-          {
-            "title": "Warsh's credibility is on the line this week as Trump policies put pressure on Fed to hike",
-            "source": "CNBC",
-            "publishedAt": "2026-09-14T17:26:21Z",
-            "sentiment": "Negative",
-            "compound": -0.296
-          },
-          {
-            "title": "Syria fuel price hikes test public patience with economic recovery",
-            "source": "Al Jazeera English",
-            "publishedAt": "2026-09-14T17:25:13Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "DeFi Development Expands Solana Treasury to 2.39M SOL",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-14T17:25:06Z",
+            "title": "You Really Should Book Your Holiday Flights Right Now",
+            "source": "Gizmodo.com",
+            "publishedAt": "2026-09-14T17:45:43Z",
             "sentiment": "Positive",
-            "compound": 0.296
+            "compound": 0.402
           },
           {
-            "title": "Why CrowdStrike Stock Rocketed Higher Today",
+            "title": "Copper price hits three-week low as inventories rise and dollar strengthens",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-14T17:42:25Z",
+            "sentiment": "Positive",
+            "compound": 0.226
+          },
+          {
+            "title": "Trump Vows To Send Every American One Million Dollars To Combat Inflation",
+            "source": "Babylonbee.com",
+            "publishedAt": "2026-09-14T17:41:10Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
+          {
+            "title": "Fed rate hike expected this week after hot inflation data",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-14T17:25:04Z",
+            "publishedAt": "2026-09-14T17:40:13Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "Bitcoin Climbs as AI Slowdown Calls Sink Nvidia, Intel and Other Chip Stocks",
+            "source": "Decrypt",
+            "publishedAt": "2026-09-14T17:40:04Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Market Indexes Drop as Chip Stocks Take the Weekend's News Badly",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-14T17:39:51Z",
+            "sentiment": "Negative",
+            "compound": -0.637
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 55.81,
-  "trade_probability": 53.49,
+  "confirmation_score": 34.96,
+  "trade_probability": 40.98,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
