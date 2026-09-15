@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T15:45:50.625452+00:00",
+  "generated_at": "2026-09-15T16:01:22.603259+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.0046,
-          "up": true
+          "change_pct": 0.0,
+          "up": false
         },
         "MSFT": {
-          "change_pct": -0.055,
+          "change_pct": -0.046,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.0059,
-          "up": false
+          "change_pct": 0.0283,
+          "up": true
         },
         "AMZN": {
-          "change_pct": 0.0,
+          "change_pct": -0.0481,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28978.33,
-        "sma50": 29179.12,
-        "sma200": 27170.38
+        "last_price": 28976.29,
+        "sma50": 29179.08,
+        "sma200": 27170.37
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 15.0,
+      "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.77,
-        "percentile_vs_20d": 85.0
+        "current_vxn": 22.74,
+        "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 18.37,
+      "score": 19.37,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.996,
-        "change_5d_pct": 3.953
+        "current_yield_pct": 4.99,
+        "change_5d_pct": 3.829
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.6,
+      "score": 43.55,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.63,
-        "change_5d_pct": 0.8
+        "current_dxy": 99.64,
+        "change_5d_pct": 0.806
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.69,
+      "score": 55.91,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.094,
-        "articles_analyzed": 25,
+        "avg_compound": 0.118,
+        "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Ahead of Market: 10 things that will decide stock market action on Tuesday",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-14T15:45:43Z",
+            "title": "Solowin targets 100 megawatts of AI power by 2028 as Congress stalls on crypto",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-14T16:00:37Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Elon Musk Says AI Data Centers Are Lowering Electricity Prices for Consumers. Here’s What We Found When We Ran the Numbers.",
+            "title": "Prediction: Meta Stock Has More Upside Than Its Valuation Suggests",
             "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-14T15:45:30Z",
-            "sentiment": "Negative",
-            "compound": -0.25
+            "publishedAt": "2026-09-14T16:00:11Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Homebuyers, Consumers About To Pay Even More As Key Indicator Reaches Grim Milestone",
-            "source": "The Daily Caller",
-            "publishedAt": "2026-09-14T15:44:46Z",
-            "sentiment": "Negative",
-            "compound": -0.599
+            "title": "Netflix to Announce Third Quarter 2026 Financial Results",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-14T16:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "JEPQ and QYLD Both Sell Nasdaq Calls for Income, Yet Only One Has Protected Its Share Price",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-14T15:41:32Z",
+            "title": "JLL Income Property Trust Acquires Sacramento Area Medical Center",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-14T16:00:00Z",
             "sentiment": "Positive",
-            "compound": 0.625
+            "compound": 0.511
           },
           {
-            "title": "Silver Miners Are Sitting on Record Cash Hoard — More Than Double the 2011 Rally",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-14T15:41:23Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "TRAVEL + LEISURE BRINGS WORLD'S BEST SUMMIT TO LONDON FOR FIRST INTERNATIONAL EDITION",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-14T16:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.713
           },
           {
-            "title": "Caterpillar Falls 4% While Deere Edges Higher: Is the Data Center Power Trade Unwinding?",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-14T15:40:49Z",
+            "title": "Record reserves",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-14T15:58:01Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 35.68,
-  "trade_probability": 41.41,
+  "confirmation_score": 35.47,
+  "trade_probability": 41.28,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
