@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T16:45:49.089811+00:00",
+  "generated_at": "2026-09-15T17:01:24.109900+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 100.0,
-      "status": "green",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.0477,
+          "change_pct": 0.0546,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.0674,
+          "change_pct": 0.0469,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.0283,
-          "up": true
+          "change_pct": 0.0,
+          "up": false
         },
         "AMZN": {
-          "change_pct": 0.0261,
-          "up": true
+          "change_pct": -0.0343,
+          "up": false
         }
       }
     },
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28975.96,
-        "sma50": 29179.07,
-        "sma200": 27170.36
+        "last_price": 28973.69,
+        "sma50": 29179.03,
+        "sma200": 27170.35
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 20.0,
+      "score": 15.0,
       "status": "red",
       "details": {
         "current_vxn": 22.56,
-        "percentile_vs_20d": 80.0
+        "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 18.37,
+      "score": 17.71,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.996,
-        "change_5d_pct": 3.953
+        "current_yield_pct": 5.0,
+        "change_5d_pct": 4.037
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.6,
+      "score": 43.65,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.63,
-        "change_5d_pct": 0.8
+        "current_dxy": 99.62,
+        "change_5d_pct": 0.793
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.13,
+      "score": 51.27,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.083,
+        "avg_compound": 0.025,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Whoever Spends Smarter Wins the Microsoft-Alphabet Cloud Fight. Here Is Who Is Ahead.",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-14T16:45:31Z",
-            "sentiment": "Positive",
-            "compound": 0.625
+            "title": "This Bull Call Spread In Oil Provides A Hedge Against Stocks And Bonds",
+            "source": "Investor's Business Daily",
+            "publishedAt": "2026-09-14T17:01:11Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Travel Together, Stay Together? Booking.com Invites Travelers to Test Compatibility Through Curated Trips - \"Turbulence Tests\" - at Partner Hotels Across the U.S.",
+            "title": "Odds of a Bank of Canada rate hike in December rise with oil in the inflation ‘driver’s seat,’ say economists",
+            "source": "Financial Post",
+            "publishedAt": "2026-09-14T17:00:56Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "City Primer — Part 1 – What Is Municipal Government?",
+            "source": "spacing.ca",
+            "publishedAt": "2026-09-14T17:00:49Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Oracle Stock Falls After Ellison Scraps Plan To Sell Up To $7.5 Billion In Stock",
+            "source": "Investor's Business Daily",
+            "publishedAt": "2026-09-14T17:00:17Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "WallachBeth Capital Announces Closing of Tenon Medical Warrant Inducement Offering for Aggregate Gross Proceeds of Approximately $2,872,338",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-14T16:45:00Z",
+            "publishedAt": "2026-09-14T17:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.477
+          },
+          {
+            "title": "Thomson Reuters Named a Leader in IDC MarketScape for Compliant e-Invoicing",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-14T17:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Marvell Falls 7% as AI Pacing Debate Collides With Fed Week; Broadcom Drops 4%, NVIDIA Pulls Back",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-14T16:43:30Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "GE Vernova Sinks 9% as GLJ Research Starts at Sell With $470 Target; Eaton Drops 7%, Quanta Services Falls 4%",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-14T16:41:02Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Shred on with these favorite tubeless tire tools and accessories",
-            "source": "Singletracks.com",
-            "publishedAt": "2026-09-14T16:39:43Z",
-            "sentiment": "Positive",
-            "compound": 0.459
-          },
-          {
-            "title": "The S&P 500 Is Flashing a Rare Historical Warning Signal Not Seen in 27 Years, and What It Could Mean for Investors",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-14T16:38:32Z",
-            "sentiment": "Negative",
-            "compound": -0.34
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.33,
-  "trade_probability": 53.8,
+  "confirmation_score": 42.03,
+  "trade_probability": 45.22,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
