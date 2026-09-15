@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T14:45:58.533930+00:00",
+  "generated_at": "2026-09-15T15:01:25.175824+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.003,
-          "up": false
-        },
-        "MSFT": {
-          "change_pct": 0.022,
+          "change_pct": 0.0182,
           "up": true
         },
+        "MSFT": {
+          "change_pct": -0.052,
+          "up": false
+        },
         "NVDA": {
-          "change_pct": 0.0188,
+          "change_pct": 0.0259,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.0016,
-          "up": false
+          "change_pct": 0.0201,
+          "up": true
         }
       }
     },
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28981.72,
-        "sma50": 29179.19,
-        "sma200": 27170.39
+        "last_price": 28942.22,
+        "sma50": 29178.4,
+        "sma200": 27170.2
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.77,
+        "current_vxn": 22.85,
         "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 16.04,
+      "score": 17.37,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.01,
-        "change_5d_pct": 4.245
+        "current_yield_pct": 5.002,
+        "change_5d_pct": 4.078
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.02,
+      "score": 43.78,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.58,
-        "change_5d_pct": 0.748
+        "current_dxy": 99.61,
+        "change_5d_pct": 0.778
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.31,
+      "score": 54.79,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.006,
-        "articles_analyzed": 25,
+        "avg_compound": 0.096,
+        "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Another state-owned entity reports profit: Here's how many schools DBSA built | The Citizen",
-            "source": "Auburn Citizen",
-            "publishedAt": "2026-09-14T14:44:10Z",
-            "sentiment": "Positive",
-            "compound": 0.44
-          },
-          {
-            "title": "SanDisk Shares Sink 5.18% as DeepSeek's Leaner AI Model Rattles Memory Chip Stocks Worldwide Once Again",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-09-14T14:42:38Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "What Anthropic's AI Slowdown Call Could Mean For Cloud Giants Amazon, Microsoft, Google",
-            "source": "Investor's Business Daily",
-            "publishedAt": "2026-09-14T14:41:24Z",
-            "sentiment": "Neutral",
-            "compound": 0.178
-          },
-          {
-            "title": "Trump Blasts Anthropic CEO As “Perfect Little Angel,” Says AI Only Needs One “Guardrail.” You Can Probably Guess What It Is",
+            "title": "Coinbase Jumps 6% on Compass Point Upgrade Ahead of Senate CLARITY Act Vote; Strategy Climbs 3%, MARA Slips",
             "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-14T14:40:40Z",
+            "publishedAt": "2026-09-14T15:00:53Z",
+            "sentiment": "Positive",
+            "compound": 0.532
+          },
+          {
+            "title": "Forget Nvidia. Apple Could Be the AI Stock to Watch Next.",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-14T15:00:35Z",
+            "sentiment": "Negative",
+            "compound": -0.226
+          },
+          {
+            "title": "Diesel Just Passed $6 a Gallon for the First Time Ever. Bond Investors Should Be Paying Attention.",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-14T15:00:16Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "History Suggests That You'll Regret Not Buying This Struggling Tech Stock",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-14T14:38:23Z",
+            "title": "Half of Gen X expects to outlive their savings — 5 toxic habits that could quietly wreck your retirement",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-14T15:00:00Z",
             "sentiment": "Negative",
-            "compound": -0.723
+            "compound": -0.44
           },
           {
-            "title": "Morning Minute: Clarity Act Odds Soar as Trump Agrees to Ethics Provisions",
-            "source": "Decrypt",
-            "publishedAt": "2026-09-14T14:37:21Z",
+            "title": "Procare Solutions Acquires Playground, Combining Industry Leading Expertise with Innovative, AI-Powered Child Care Technology",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-14T15:00:00Z",
             "sentiment": "Positive",
-            "compound": 0.542
+            "compound": 0.778
+          },
+          {
+            "title": "Michael Dell is now the fifth richest person in the world—his worth has nearly doubled to $262 billion in the last year alone thanks to AI",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-14T14:58:36Z",
+            "sentiment": "Positive",
+            "compound": 0.735
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.76,
-  "trade_probability": 45.06,
+  "confirmation_score": 49.07,
+  "trade_probability": 49.44,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
