@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T21:31:02.846424+00:00",
+  "generated_at": "2026-09-15T21:45:50.586152+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.46,
+      "score": 43.45,
       "status": "yellow",
       "details": {
         "current_dxy": 99.65,
-        "change_5d_pct": 0.817
+        "change_5d_pct": 0.819
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.47,
+      "score": 49.76,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.031,
+        "avg_compound": -0.005,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "TORM plc announces secondary public offering of its class A common shares by a selling shareholder",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-14T21:40:00Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
           {
             "title": "News of the day: TD and Scotiabank join spending spree, inflation rate stays steady, economists’ reaction, too many apartments, stagflation risks and more",
             "source": "Financial Post",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-09-14T21:19:26Z",
             "sentiment": "Negative",
             "compound": -0.361
-          },
-          {
-            "title": "Breitbart Business Digest: The Fed Might Be Hiking at the Wrong Moment",
-            "source": "Breitbart News",
-            "publishedAt": "2026-09-14T21:17:29Z",
-            "sentiment": "Negative",
-            "compound": -0.477
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 35.1,
-  "trade_probability": 41.06,
+  "confirmation_score": 35.22,
+  "trade_probability": 41.13,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
