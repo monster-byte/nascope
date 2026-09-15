@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T07:15:51.208423+00:00",
+  "generated_at": "2026-09-15T07:21:32.042850+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.48,
+      "score": 43.75,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.65,
-        "change_5d_pct": 0.815
+        "current_dxy": 99.61,
+        "change_5d_pct": 0.781
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.6,
+      "score": 54.4,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.052,
+        "avg_compound": 0.088,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Against backdrop of conflict and tough working conditions, seafarer happiness falls",
+            "source": "Christiantoday.com",
+            "publishedAt": "2026-09-14T07:20:00Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
           {
             "title": "European Central Bank’s Kazaks signals more rate hikes ahead as inflation lingers at 3.3%",
             "source": "Crypto Briefing",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-09-14T07:04:39Z",
             "sentiment": "Positive",
             "compound": 0.226
-          },
-          {
-            "title": "India has drawn dollars in bulk but faces a policy quadrilemma—one that involves asset values too",
-            "source": "Livemint",
-            "publishedAt": "2026-09-14T07:00:28Z",
-            "sentiment": "Positive",
-            "compound": 0.778
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 36.65,
-  "trade_probability": 41.99,
+  "confirmation_score": 36.84,
+  "trade_probability": 42.1,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
