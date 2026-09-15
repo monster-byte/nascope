@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T16:31:11.715149+00:00",
+  "generated_at": "2026-09-15T16:45:49.089811+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
-      "status": "red",
+      "score": 100.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.033,
-          "up": false
+          "change_pct": 0.0477,
+          "up": true
         },
         "MSFT": {
-          "change_pct": 0.007,
+          "change_pct": 0.0674,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.0755,
-          "up": false
+          "change_pct": 0.0283,
+          "up": true
         },
         "AMZN": {
-          "change_pct": -0.008,
-          "up": false
+          "change_pct": 0.0261,
+          "up": true
         }
       }
     },
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28963.61,
-        "sma50": 29178.82,
-        "sma200": 27170.3
+        "last_price": 28975.96,
+        "sma50": 29179.07,
+        "sma200": 27170.36
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 10.0,
+      "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.82,
-        "percentile_vs_20d": 90.0
+        "current_vxn": 22.56,
+        "percentile_vs_20d": 80.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 17.71,
+      "score": 18.37,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.0,
-        "change_5d_pct": 4.037
+        "current_yield_pct": 4.996,
+        "change_5d_pct": 3.953
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.48,
+      "score": 43.6,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.64,
-        "change_5d_pct": 0.814
+        "current_dxy": 99.63,
+        "change_5d_pct": 0.8
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.77,
+      "score": 54.13,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.075,
+        "avg_compound": 0.083,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Mexico-Based Energy Leader Vista Eyes Buy Point As Oil Prices Surge On Middle East Conflict",
-            "source": "Investor's Business Daily",
-            "publishedAt": "2026-09-14T16:30:10Z",
-            "sentiment": "Neutral",
-            "compound": -0.052
-          },
-          {
-            "title": "How gold IRAs fit into a diversified retirement portfolio",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-14T16:28:15Z",
+            "title": "Whoever Spends Smarter Wins the Microsoft-Alphabet Cloud Fight. Here Is Who Is Ahead.",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-14T16:45:31Z",
             "sentiment": "Positive",
-            "compound": 0.361
+            "compound": 0.625
           },
           {
-            "title": "Here’s the investing playbook if the Federal Reserve hikes rates on Wednesday",
+            "title": "Travel Together, Stay Together? Booking.com Invites Travelers to Test Compatibility Through Curated Trips - \"Turbulence Tests\" - at Partner Hotels Across the U.S.",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-14T16:45:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Marvell Falls 7% as AI Pacing Debate Collides With Fed Week; Broadcom Drops 4%, NVIDIA Pulls Back",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-14T16:43:30Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "GE Vernova Sinks 9% as GLJ Research Starts at Sell With $470 Target; Eaton Drops 7%, Quanta Services Falls 4%",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-14T16:41:02Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Shred on with these favorite tubeless tire tools and accessories",
+            "source": "Singletracks.com",
+            "publishedAt": "2026-09-14T16:39:43Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "The S&P 500 Is Flashing a Rare Historical Warning Signal Not Seen in 27 Years, and What It Could Mean for Investors",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-14T16:26:10Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "FactCheck: Four claims made by Donald Trump during his trip to Ireland",
-            "source": "TheJournal.ie",
-            "publishedAt": "2026-09-14T16:25:28Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Why Okta Stock Rocketed Higher Today",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-14T16:23:44Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Trump blasts Anthropic CEO Dario Amodei over AI warning: ‘SICK conspiracy’",
-            "source": "New York Post",
-            "publishedAt": "2026-09-14T16:23:01Z",
+            "publishedAt": "2026-09-14T16:38:32Z",
             "sentiment": "Negative",
             "compound": -0.34
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 35.04,
-  "trade_probability": 41.02,
+  "confirmation_score": 56.33,
+  "trade_probability": 53.8,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
