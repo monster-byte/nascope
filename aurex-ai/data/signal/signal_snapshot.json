@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T01:01:17.421622+00:00",
+  "generated_at": "2026-09-15T01:15:45.883114+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.06,
+      "score": 46.93,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.53,
-        "change_5d_pct": 0.368
+        "current_dxy": 99.54,
+        "change_5d_pct": 0.384
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.6,
+      "score": 55.75,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.072,
+        "avg_compound": 0.115,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Anthropic's AI warning may weigh on chips, but trade seen intact",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-14T01:10:58Z",
+            "sentiment": "Neutral",
+            "compound": 0.128
+          },
+          {
+            "title": "Real World Economics: In praise of the value of information",
+            "source": "TwinCities.com-Pioneer Press",
+            "publishedAt": "2026-09-14T01:02:42Z",
+            "sentiment": "Positive",
+            "compound": 0.718
+          },
           {
             "title": "Houthis' Yemen advance leaves Gulf states with uncomfortable choice",
             "source": "The Times of India",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-09-14T01:00:00Z",
             "sentiment": "Positive",
             "compound": 0.226
-          },
-          {
-            "title": "RBI system liquidity surplus at record high: What it means for loans, FDs and investments",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-14T01:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Anthropic selects Nasdaq for IPO, Business Insider reports - Reuters",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-09-14T00:52:36Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 37.06,
-  "trade_probability": 42.24,
+  "confirmation_score": 37.25,
+  "trade_probability": 42.35,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
