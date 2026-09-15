@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T01:15:45.883114+00:00",
+  "generated_at": "2026-09-15T01:31:03.789839+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.93,
+      "score": 46.81,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.54,
-        "change_5d_pct": 0.384
+        "current_dxy": 99.56,
+        "change_5d_pct": 0.399
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.75,
+      "score": 53.8,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.115,
+        "avg_compound": 0.076,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Whitehawk Therapeutics Presents Real-World Analyses Supporting PTK7 as a Durable ADC Target in EGFR Wild-Type Non-Small Cell Lung Cancer at WCLC 2026",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-14T01:30:00Z",
+            "sentiment": "Negative",
+            "compound": -0.361
+          },
           {
             "title": "Anthropic's AI warning may weigh on chips, but trade seen intact",
             "source": "The Times of India",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-09-14T01:00:00Z",
             "sentiment": "Positive",
             "compound": 0.34
-          },
-          {
-            "title": "Is senior living worth the cost? Financial trade-offs seniors and families need to consider before making the move",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-14T01:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.226
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 37.25,
-  "trade_probability": 42.35,
+  "confirmation_score": 37.06,
+  "trade_probability": 42.24,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
