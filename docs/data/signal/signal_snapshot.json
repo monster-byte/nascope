@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T17:45:54.538956+00:00",
+  "generated_at": "2026-09-15T18:01:20.276254+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
-      "status": "red",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.0106,
+          "change_pct": -0.0061,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.014,
-          "up": true
+          "change_pct": -0.1023,
+          "up": false
         },
         "NVDA": {
-          "change_pct": -0.0094,
-          "up": false
+          "change_pct": 0.0048,
+          "up": true
         },
         "AMZN": {
-          "change_pct": -0.0563,
-          "up": false
+          "change_pct": 0.003,
+          "up": true
         }
       }
     },
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28948.92,
-        "sma50": 29178.53,
-        "sma200": 27170.23
+        "last_price": 28950.78,
+        "sma50": 29178.57,
+        "sma200": 27170.24
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.64,
+        "current_vxn": 22.65,
         "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 15.71,
+      "score": 16.38,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.012,
-        "change_5d_pct": 4.286
+        "current_yield_pct": 5.008,
+        "change_5d_pct": 4.203
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.55,
+      "score": 43.37,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.64,
-        "change_5d_pct": 0.806
+        "current_dxy": 99.66,
+        "change_5d_pct": 0.829
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.77,
+      "score": 47.34,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.015,
+        "avg_compound": -0.053,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "You Really Should Book Your Holiday Flights Right Now",
-            "source": "Gizmodo.com",
-            "publishedAt": "2026-09-14T17:45:43Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "Copper price hits three-week low as inventories rise and dollar strengthens",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-14T17:42:25Z",
-            "sentiment": "Positive",
-            "compound": 0.226
-          },
-          {
-            "title": "Trump Vows To Send Every American One Million Dollars To Combat Inflation",
-            "source": "Babylonbee.com",
-            "publishedAt": "2026-09-14T17:41:10Z",
-            "sentiment": "Negative",
-            "compound": -0.34
-          },
-          {
-            "title": "Fed rate hike expected this week after hot inflation data",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-14T17:40:13Z",
+            "title": "Global stocks ‌fall amid surge in oil prices and rising government bond yields",
+            "source": "The Irish Times",
+            "publishedAt": "2026-09-14T18:00:46Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Bitcoin Climbs as AI Slowdown Calls Sink Nvidia, Intel and Other Chip Stocks",
-            "source": "Decrypt",
-            "publishedAt": "2026-09-14T17:40:04Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "The Queue: I’m just so happy",
+            "source": "Blizzardwatch.com",
+            "publishedAt": "2026-09-14T18:00:07Z",
+            "sentiment": "Positive",
+            "compound": 0.695
           },
           {
-            "title": "Market Indexes Drop as Chip Stocks Take the Weekend's News Badly",
+            "title": "‘All of us are going to pay’: 30% of Americans are taking out BNPL loans to pay for groceries, and it’s probably going to cost you",
+            "source": "Fortune",
+            "publishedAt": "2026-09-14T17:54:01Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
+          {
+            "title": "Understanding double deflation: What it does and why it matters",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-14T17:53:55Z",
+            "sentiment": "Neutral",
+            "compound": 0.026
+          },
+          {
+            "title": "Stocks tumble after AI leaders warn that the industry should slow down",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-14T17:39:51Z",
-            "sentiment": "Negative",
-            "compound": -0.637
+            "publishedAt": "2026-09-14T17:53:21Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
+          {
+            "title": "The U.S. economy faces mounting headwinds. Here are the top risks",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-14T17:51:36Z",
+            "sentiment": "Neutral",
+            "compound": -0.077
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 34.96,
-  "trade_probability": 40.98,
+  "confirmation_score": 41.48,
+  "trade_probability": 44.89,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
