@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T14:31:09.595906+00:00",
+  "generated_at": "2026-09-15T14:45:58.533930+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 0.0,
-      "status": "red",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.129,
+          "change_pct": -0.003,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.015,
-          "up": false
+          "change_pct": 0.022,
+          "up": true
         },
         "NVDA": {
-          "change_pct": -0.0494,
-          "up": false
+          "change_pct": 0.0188,
+          "up": true
         },
         "AMZN": {
-          "change_pct": -0.0641,
+          "change_pct": -0.0016,
           "up": false
         }
       }
@@ -40,18 +40,18 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29006.03,
-        "sma50": 29179.67,
-        "sma200": 27170.51
+        "last_price": 28981.72,
+        "sma50": 29179.19,
+        "sma200": 27170.39
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 20.0,
+      "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.62,
-        "percentile_vs_20d": 80.0
+        "current_vxn": 22.77,
+        "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.07,
+      "score": 44.02,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.57,
-        "change_5d_pct": 0.742
+        "current_dxy": 99.58,
+        "change_5d_pct": 0.748
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.18,
+      "score": 50.31,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.056,
+        "avg_compound": 0.006,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "SK Hynix ADRs Fall More Than 6% as Memory Rally Breaks on Fears of Slower AI Spending",
+            "title": "Another state-owned entity reports profit: Here's how many schools DBSA built | The Citizen",
+            "source": "Auburn Citizen",
+            "publishedAt": "2026-09-14T14:44:10Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
+          {
+            "title": "SanDisk Shares Sink 5.18% as DeepSeek's Leaner AI Model Rattles Memory Chip Stocks Worldwide Once Again",
             "source": "Ibtimes.com.au",
-            "publishedAt": "2026-09-14T14:30:48Z",
-            "sentiment": "Negative",
-            "compound": -0.421
+            "publishedAt": "2026-09-14T14:42:38Z",
+            "sentiment": "Positive",
+            "compound": 0.296
           },
           {
-            "title": "Prediction: This Could Be One of the Best Stocks to Own Through 2030",
+            "title": "What Anthropic's AI Slowdown Call Could Mean For Cloud Giants Amazon, Microsoft, Google",
+            "source": "Investor's Business Daily",
+            "publishedAt": "2026-09-14T14:41:24Z",
+            "sentiment": "Neutral",
+            "compound": 0.178
+          },
+          {
+            "title": "Trump Blasts Anthropic CEO As “Perfect Little Angel,” Says AI Only Needs One “Guardrail.” You Can Probably Guess What It Is",
             "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-14T14:30:24Z",
-            "sentiment": "Positive",
-            "compound": 0.637
-          },
-          {
-            "title": "10-year Treasury yield tops 5% for first time since October 2023",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-14T14:27:04Z",
-            "sentiment": "Positive",
-            "compound": 0.625
-          },
-          {
-            "title": "Hub Group warns of Nasdaq delisting notice; flags H1 operating loss",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-14T14:26:43Z",
-            "sentiment": "Negative",
-            "compound": -0.402
-          },
-          {
-            "title": "Anthropic remains on track for 2026 IPO",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-14T14:24:48Z",
+            "publishedAt": "2026-09-14T14:40:40Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Meta, Alphabet and Microsoft Rise While Nvidia Falls After Three AI Chiefs Call For Slowing Down Frontier Models",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-14T14:24:44Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "History Suggests That You'll Regret Not Buying This Struggling Tech Stock",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-14T14:38:23Z",
+            "sentiment": "Negative",
+            "compound": -0.723
+          },
+          {
+            "title": "Morning Minute: Clarity Act Odds Soar as Trump Agrees to Ethics Provisions",
+            "source": "Decrypt",
+            "publishedAt": "2026-09-14T14:37:21Z",
+            "sentiment": "Positive",
+            "compound": 0.542
           }
         ]
       }
@@ -146,11 +146,11 @@
       }
     }
   },
-  "confirmation_score": 28.43,
-  "trade_probability": 37.06,
+  "confirmation_score": 41.76,
+  "trade_probability": 45.06,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
-    "ai_status": "REJECT",
-    "directional_bias": "AVOID"
+    "ai_status": "HOLD / MONITOR",
+    "directional_bias": "NEUTRAL"
   }
 }
