@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T18:01:20.276254+00:00",
+  "generated_at": "2026-09-15T18:15:53.034204+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.0061,
+          "change_pct": -0.003,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.1023,
+          "change_pct": -0.0221,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.0048,
+          "change_pct": 0.0118,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.003,
-          "up": true
+          "change_pct": -0.0404,
+          "up": false
         }
       }
     },
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28950.78,
-        "sma50": 29178.57,
-        "sma200": 27170.24
+        "last_price": 28968.83,
+        "sma50": 29178.93,
+        "sma200": 27170.33
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.65,
+        "current_vxn": 22.57,
         "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 16.38,
+      "score": 16.04,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.008,
-        "change_5d_pct": 4.203
+        "current_yield_pct": 5.01,
+        "change_5d_pct": 4.245
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.37,
+      "score": 43.36,
       "status": "yellow",
       "details": {
         "current_dxy": 99.66,
-        "change_5d_pct": 0.829
+        "change_5d_pct": 0.83
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.34,
+      "score": 51.55,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.053,
+        "avg_compound": 0.031,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Global stocks ‌fall amid surge in oil prices and rising government bond yields",
-            "source": "The Irish Times",
-            "publishedAt": "2026-09-14T18:00:46Z",
+            "title": "Aurora Cannabis Refutes Curaleaf's Latest Attempt To Distract Shareholders From The Facts",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-14T18:12:00Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "2027: ‘No vacancy in Aso Rock’ — Akiolu",
+            "source": "Vanguard",
+            "publishedAt": "2026-09-14T18:11:35Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "The Queue: I’m just so happy",
-            "source": "Blizzardwatch.com",
-            "publishedAt": "2026-09-14T18:00:07Z",
+            "title": "'Proven Leaders and Voices of Clarity': Progressives Urge Ocasio-Cortez and Khanna to Enter 2028 Presidential Race",
+            "source": "Common Dreams",
+            "publishedAt": "2026-09-14T18:10:34Z",
             "sentiment": "Positive",
-            "compound": 0.695
+            "compound": 0.402
           },
           {
-            "title": "‘All of us are going to pay’: 30% of Americans are taking out BNPL loans to pay for groceries, and it’s probably going to cost you",
-            "source": "Fortune",
-            "publishedAt": "2026-09-14T17:54:01Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
+            "title": "Market veteran predicts bearish outlook for US Treasury yields",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-14T18:09:34Z",
+            "sentiment": "Positive",
+            "compound": 0.202
           },
           {
-            "title": "Understanding double deflation: What it does and why it matters",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-14T17:53:55Z",
-            "sentiment": "Neutral",
-            "compound": 0.026
-          },
-          {
-            "title": "Stocks tumble after AI leaders warn that the industry should slow down",
+            "title": "Benchmark Yield Hits 5%. How Will Stocks Respond To A Fed Rate Hike?",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-14T17:53:21Z",
+            "publishedAt": "2026-09-14T18:07:13Z",
             "sentiment": "Neutral",
-            "compound": -0.103
+            "compound": 0.0
           },
           {
-            "title": "The U.S. economy faces mounting headwinds. Here are the top risks",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-14T17:51:36Z",
+            "title": "Here We Go Again: Costco Starts Rationing Motor Oil as Supply Chain Cracks",
+            "source": "Offgridsurvival.com",
+            "publishedAt": "2026-09-14T18:05:52Z",
             "sentiment": "Neutral",
-            "compound": -0.077
+            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.48,
-  "trade_probability": 44.89,
+  "confirmation_score": 35.06,
+  "trade_probability": 41.04,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
