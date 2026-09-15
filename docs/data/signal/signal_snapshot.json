@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T07:31:13.663895+00:00",
+  "generated_at": "2026-09-15T07:45:53.570180+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.69,
+      "score": 43.81,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.62,
-        "change_5d_pct": 0.788
+        "current_dxy": 99.61,
+        "change_5d_pct": 0.774
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.45,
+      "score": 51.3,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.089,
+        "avg_compound": 0.026,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "KOSPI Sinks 3.26% as Rate Fears, Oil Prices and AI Slowdown Worries Rattle South Korea's Chip Stocks",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-09-14T07:38:49Z",
+            "sentiment": "Negative",
+            "compound": -0.681
+          },
+          {
+            "title": "Anthropic expects profit this quarter ahead of potential $2 trillion IPO",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-14T07:36:57Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
+          {
+            "title": "Oil prices surge amid fears Saudi Arabia will run out of export stocks in days if it does not repair bombed pipeline",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-09-14T07:36:01Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
+          {
+            "title": "Global Market: Yen speculators turn net long for first time since February",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-14T07:32:46Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Motilal Oswal Nasdaq Q50 ETF jumps 41% in a week even as underlying US stocks fall. What is happening?",
             "source": "Livemint",
@@ -103,34 +131,6 @@
             "title": "Dollar firms, yen wobbles ahead of Fed and BOJ decisions",
             "source": "Crypto Briefing",
             "publishedAt": "2026-09-14T07:23:40Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Στρατηγική ασάφεια: Η Τουρκία του Ερντογάν στον νέο πολυπολικό κόσμο",
-            "source": "Blogspot.com",
-            "publishedAt": "2026-09-14T07:21:36Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Dubai, Abu Dhabi residents return to a new normal: ‘Neither war, nor peace’",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-14T07:21:33Z",
-            "sentiment": "Negative",
-            "compound": -0.599
-          },
-          {
-            "title": "Against backdrop of conflict and tough working conditions, seafarer happiness falls",
-            "source": "Christiantoday.com",
-            "publishedAt": "2026-09-14T07:20:00Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "European Central Bank’s Kazaks signals more rate hikes ahead as inflation lingers at 3.3%",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-14T07:14:34Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 36.84,
-  "trade_probability": 42.1,
+  "confirmation_score": 36.56,
+  "trade_probability": 41.94,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
