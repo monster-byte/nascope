@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T14:15:59.449209+00:00",
+  "generated_at": "2026-09-15T14:31:09.595906+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
+      "score": 0.0,
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.0472,
+          "change_pct": -0.129,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.1611,
+          "change_pct": -0.015,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.0141,
+          "change_pct": -0.0494,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.084,
-          "up": true
+          "change_pct": -0.0641,
+          "up": false
         }
       }
     },
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29042.65,
-        "sma50": 29180.41,
-        "sma200": 27170.7
+        "last_price": 29006.03,
+        "sma50": 29179.67,
+        "sma200": 27170.51
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 30.0,
+      "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.28,
-        "percentile_vs_20d": 70.0
+        "current_vxn": 22.62,
+        "percentile_vs_20d": 80.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 16.71,
+      "score": 16.04,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.006,
-        "change_5d_pct": 4.161
+        "current_yield_pct": 5.01,
+        "change_5d_pct": 4.245
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.99,
+      "score": 44.07,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.58,
-        "change_5d_pct": 0.752
+        "current_dxy": 99.57,
+        "change_5d_pct": 0.742
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.03,
+      "score": 47.18,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.041,
+        "avg_compound": -0.056,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Larry Ellison Cancels Plan To Sell $7.5 Billion In Oracle Stock After His Net Worth Dropped $200 Billion In A Year",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-14T14:15:54Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Stocks Struggling on AI Jitters, Oil Prices",
-            "source": "Newser",
-            "publishedAt": "2026-09-14T14:15:49Z",
+            "title": "SK Hynix ADRs Fall More Than 6% as Memory Rally Breaks on Fears of Slower AI Spending",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-09-14T14:30:48Z",
             "sentiment": "Negative",
             "compound": -0.421
           },
           {
-            "title": "Doomsday fears are coming at exactly the wrong time for the AI-led bull market",
-            "source": "Business Insider",
-            "publishedAt": "2026-09-14T14:15:36Z",
+            "title": "Prediction: This Could Be One of the Best Stocks to Own Through 2030",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-14T14:30:24Z",
+            "sentiment": "Positive",
+            "compound": 0.637
+          },
+          {
+            "title": "10-year Treasury yield tops 5% for first time since October 2023",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-14T14:27:04Z",
+            "sentiment": "Positive",
+            "compound": 0.625
+          },
+          {
+            "title": "Hub Group warns of Nasdaq delisting notice; flags H1 operating loss",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-14T14:26:43Z",
             "sentiment": "Negative",
-            "compound": -0.866
+            "compound": -0.402
           },
           {
-            "title": "10-year Treasury yield nears 5% ahead of Fed decision",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-14T14:15:07Z",
-            "sentiment": "Positive",
-            "compound": 0.202
+            "title": "Anthropic remains on track for 2026 IPO",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-14T14:24:48Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Bond market shock: 10-year US Treasury yield tops 5% as oil spike puts Federal Reserve on rate-hike path",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-14T14:15:07Z",
-            "sentiment": "Positive",
-            "compound": 0.361
-          },
-          {
-            "title": "Tokenized Stocks Are Moving From Crypto Experiments to Wall Street Infrastructure",
-            "source": "Bitcoinfoundation.org",
-            "publishedAt": "2026-09-14T14:14:03Z",
+            "title": "Meta, Alphabet and Microsoft Rise While Nvidia Falls After Three AI Chiefs Call For Slowing Down Frontier Models",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-14T14:24:44Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,11 +146,11 @@
       }
     }
   },
-  "confirmation_score": 36.6,
-  "trade_probability": 41.96,
+  "confirmation_score": 28.43,
+  "trade_probability": 37.06,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
-    "ai_status": "HOLD / MONITOR",
-    "directional_bias": "NEUTRAL"
+    "ai_status": "REJECT",
+    "directional_bias": "AVOID"
   }
 }
