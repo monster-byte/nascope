@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T17:15:49.512807+00:00",
+  "generated_at": "2026-09-15T17:31:16.940064+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
-      "status": "red",
+      "score": 100.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.0091,
+          "change_pct": 0.0515,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.01,
-          "up": false
+          "change_pct": 0.0331,
+          "up": true
         },
         "NVDA": {
-          "change_pct": -0.0071,
-          "up": false
+          "change_pct": 0.0473,
+          "up": true
         },
         "AMZN": {
-          "change_pct": -0.0004,
-          "up": false
+          "change_pct": 0.0121,
+          "up": true
         }
       }
     },
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28950.87,
-        "sma50": 29178.57,
+        "last_price": 28952.15,
+        "sma50": 29178.6,
         "sma200": 27170.24
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 25.0,
+      "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.54,
-        "percentile_vs_20d": 75.0
+        "current_vxn": 22.6,
+        "percentile_vs_20d": 80.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 18.37,
+      "score": 17.04,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.996,
-        "change_5d_pct": 3.953
+        "current_yield_pct": 5.004,
+        "change_5d_pct": 4.12
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.65,
+      "score": 43.44,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.62,
-        "change_5d_pct": 0.793
+        "current_dxy": 99.65,
+        "change_5d_pct": 0.821
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.38,
+      "score": 50.58,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.052,
+        "avg_compound": 0.012,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Distilleries cautiously welcome Trump tariff announcement",
-            "source": "RTE",
-            "publishedAt": "2026-09-14T17:14:56Z",
-            "sentiment": "Positive",
-            "compound": 0.459
+            "title": "Spiking oil prices jolt U.S. bond yields past 5%, threatening to set off a vicious cycle of debt just as the Fed is expected to hike rates",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-14T17:30:53Z",
+            "sentiment": "Negative",
+            "compound": -0.813
           },
           {
-            "title": "Venezuela’s dollarization proposal gains traction as inflation tops 500%",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-14T17:14:25Z",
-            "sentiment": "Positive",
-            "compound": 0.691
+            "title": "Spiking oil prices jolt U.S. bond yields past 5%, threatening to set off a vicious cycle of debt just as the Fed is expected to hike rates",
+            "source": "Fortune",
+            "publishedAt": "2026-09-14T17:30:53Z",
+            "sentiment": "Negative",
+            "compound": -0.813
           },
           {
-            "title": "10-year Treasury yield tops 5% as oil surges and diesel hits all-time high - NBC News",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-09-14T17:13:21Z",
-            "sentiment": "Positive",
-            "compound": 0.625
+            "title": "Warsh's credibility is on the line this week as Trump policies put pressure on Fed to hike",
+            "source": "CNBC",
+            "publishedAt": "2026-09-14T17:26:21Z",
+            "sentiment": "Negative",
+            "compound": -0.296
           },
           {
-            "title": "Slow the AI race? Investors weigh the potential cost",
-            "source": "Digital Journal",
-            "publishedAt": "2026-09-14T17:12:11Z",
+            "title": "Syria fuel price hikes test public patience with economic recovery",
+            "source": "Al Jazeera English",
+            "publishedAt": "2026-09-14T17:25:13Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Should You Buy Coinbase Stock While Its Revenue Is Shrinking?",
-            "source": "Trefis",
-            "publishedAt": "2026-09-14T17:11:08Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "DeFi Development Expands Solana Treasury to 2.39M SOL",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-14T17:25:06Z",
+            "sentiment": "Positive",
+            "compound": 0.296
           },
           {
-            "title": "Trump backs crypto bill, faces bank opposition over stablecoin provisions",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-14T17:07:55Z",
+            "title": "Why CrowdStrike Stock Rocketed Higher Today",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-14T17:25:04Z",
             "sentiment": "Neutral",
-            "compound": -0.052
+            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 35.92,
-  "trade_probability": 41.55,
+  "confirmation_score": 55.81,
+  "trade_probability": 53.49,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
