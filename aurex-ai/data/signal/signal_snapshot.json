@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T15:31:07.115771+00:00",
+  "generated_at": "2026-09-15T15:45:50.625452+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,20 +17,20 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.0106,
-          "up": false
+          "change_pct": 0.0046,
+          "up": true
         },
         "MSFT": {
-          "change_pct": -0.012,
+          "change_pct": -0.055,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.0612,
+          "change_pct": -0.0059,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.0141,
-          "up": true
+          "change_pct": 0.0,
+          "up": false
         }
       }
     },
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28977.56,
-        "sma50": 29179.1,
-        "sma200": 27170.37
+        "last_price": 28978.33,
+        "sma50": 29179.12,
+        "sma200": 27170.38
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.93,
+        "current_vxn": 22.77,
         "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 17.71,
+      "score": 18.37,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.0,
-        "change_5d_pct": 4.037
+        "current_yield_pct": 4.996,
+        "change_5d_pct": 3.953
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.69,
+      "score": 43.6,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.62,
-        "change_5d_pct": 0.788
+        "current_dxy": 99.63,
+        "change_5d_pct": 0.8
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 58.0,
+      "score": 54.69,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.16,
+        "avg_compound": 0.094,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "ServiceNow vs. Palantir: I’d Rather Own This AI Stock",
+            "title": "Ahead of Market: 10 things that will decide stock market action on Tuesday",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-14T15:45:43Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Elon Musk Says AI Data Centers Are Lowering Electricity Prices for Consumers. Here’s What We Found When We Ran the Numbers.",
             "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-14T15:30:50Z",
+            "publishedAt": "2026-09-14T15:45:30Z",
+            "sentiment": "Negative",
+            "compound": -0.25
+          },
+          {
+            "title": "Homebuyers, Consumers About To Pay Even More As Key Indicator Reaches Grim Milestone",
+            "source": "The Daily Caller",
+            "publishedAt": "2026-09-14T15:44:46Z",
+            "sentiment": "Negative",
+            "compound": -0.599
+          },
+          {
+            "title": "JEPQ and QYLD Both Sell Nasdaq Calls for Income, Yet Only One Has Protected Its Share Price",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-14T15:41:32Z",
+            "sentiment": "Positive",
+            "compound": 0.625
+          },
+          {
+            "title": "Silver Miners Are Sitting on Record Cash Hoard — More Than Double the 2011 Rally",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-14T15:41:23Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Tom Holland Is Now The Highest-Grossing Actor Of All Time As Spider-Man: Brand New Day Crosses $2.4 Billion Mark",
-            "source": "Kotaku",
-            "publishedAt": "2026-09-14T15:30:45Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Wall Street’s AI doomsday trade is here: chipmakers sink while hyperscalers gain",
-            "source": "Fortune",
-            "publishedAt": "2026-09-14T15:26:48Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
-          },
-          {
-            "title": "OpenAI boss Sam Altman warns of two ways AI could go ‘very badly’ for humans — as China alleges ‘fear mongering’",
-            "source": "New York Post",
-            "publishedAt": "2026-09-14T15:24:59Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
-          },
-          {
-            "title": "AI stocks dip as tech leaders call for slowdown of development",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-14T15:24:32Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "CoinShares Q2 Earnings Call Highlights",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-14T15:24:11Z",
+            "title": "Caterpillar Falls 4% While Deere Edges Higher: Is the Data Center Power Trade Unwinding?",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-14T15:40:49Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 35.89,
-  "trade_probability": 41.53,
+  "confirmation_score": 35.68,
+  "trade_probability": 41.41,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
