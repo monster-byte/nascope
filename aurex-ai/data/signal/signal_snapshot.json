@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T03:01:15.029378+00:00",
+  "generated_at": "2026-09-15T03:15:48.053559+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.5,
+      "score": 46.58,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.59,
-        "change_5d_pct": 0.438
+        "current_dxy": 99.58,
+        "change_5d_pct": 0.428
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.97,
+      "score": 49.72,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.021,
+        "avg_compound": -0.006,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Copper edges lower as US inflation data raises bets on Fed rate hike",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-14T03:11:45Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
           {
             "title": "ETMarkets Smart Talk | AI, defence, power: Investors need to be selective as valuations turn expensive, says Aditya Khemani",
             "source": "The Times of India",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-09-14T02:50:37Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "$100 crude is an irritant, not a deal-breaker for India: Harsh Gupta Madhusudan",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-14T02:49:44Z",
-            "sentiment": "Negative",
-            "compound": -0.872
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 36.6,
-  "trade_probability": 41.96,
+  "confirmation_score": 36.67,
+  "trade_probability": 42.0,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
