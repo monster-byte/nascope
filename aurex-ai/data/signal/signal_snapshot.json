@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T21:45:50.586152+00:00",
+  "generated_at": "2026-09-15T22:01:16.142121+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.45,
+      "score": 43.44,
       "status": "yellow",
       "details": {
         "current_dxy": 99.65,
-        "change_5d_pct": 0.819
+        "change_5d_pct": 0.82
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.76,
+      "score": 47.61,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.005,
+        "avg_compound": -0.048,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Anthropic resignation prompts AI risk discussion at CalPERS",
+            "source": "CALmatters",
+            "publishedAt": "2026-09-14T22:00:50Z",
+            "sentiment": "Negative",
+            "compound": -0.511
+          },
+          {
+            "title": "White House may impose ‘limited safeguards’ on AI to prevent apocalypse, mass extinction: source",
+            "source": "New York Post",
+            "publishedAt": "2026-09-14T21:57:22Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
           {
             "title": "TORM plc announces secondary public offering of its class A common shares by a selling shareholder",
             "source": "PRNewswire",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-09-14T21:23:20Z",
             "sentiment": "Positive",
             "compound": 0.25
-          },
-          {
-            "title": "Wall Street ends down, calls for AI slowdown pummel chipmakers",
-            "source": "Lufkindailynews.com",
-            "publishedAt": "2026-09-14T21:22:34Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "The timing of AI leaders' calls for a slowdown is too convenient to ignore",
-            "source": "Business Insider",
-            "publishedAt": "2026-09-14T21:19:26Z",
-            "sentiment": "Negative",
-            "compound": -0.361
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 35.22,
-  "trade_probability": 41.13,
+  "confirmation_score": 35.02,
+  "trade_probability": 41.01,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
