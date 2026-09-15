@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T23:45:50.425572+00:00",
+  "generated_at": "2026-09-15T00:01:20.626989+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.52,
+      "score": 47.4,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.47,
-        "change_5d_pct": 0.31
+        "current_dxy": 99.48,
+        "change_5d_pct": 0.325
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.85,
+      "score": 52.38,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.037,
+        "avg_compound": 0.048,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Tanker rates for India-bound tankers double as West Asia crisis deepens",
+            "source": "Livemint",
+            "publishedAt": "2026-09-14T00:01:02Z",
+            "sentiment": "Negative",
+            "compound": -0.625
+          },
+          {
+            "title": "CFM: confinement force microscopy—a dynamic, precise and stable microconfiner for traction force microscopy in spatial confinement",
+            "source": "Nature.com",
+            "publishedAt": "2026-09-14T00:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.586
+          },
+          {
+            "title": "Anthropic Could Land Nvidia as $10 Billion IPO Investor",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-13T23:46:33Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Bitcoin Faces 87% Fed Hike Odds Wednesday: Will Treasury Save the Rally?",
             "source": "Biztoc.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-09-13T23:13:18Z",
             "sentiment": "Negative",
             "compound": -0.477
-          },
-          {
-            "title": "Shares skid in Asia as oil rises, rate hikes loom",
-            "source": "CNA",
-            "publishedAt": "2026-09-13T23:10:39Z",
-            "sentiment": "Neutral",
-            "compound": 0.077
-          },
-          {
-            "title": "Anthropic Could Land Nvidia as $10 Billion IPO Investor",
-            "source": "pymnts.com",
-            "publishedAt": "2026-09-13T23:09:08Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "SpaceX vs. Apple: Wall Street Sees Strong Upside for One of These Stocks and Remains Neutral On the Other",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-13T23:03:10Z",
-            "sentiment": "Positive",
-            "compound": 0.511
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 36.95,
-  "trade_probability": 42.17,
+  "confirmation_score": 36.98,
+  "trade_probability": 42.19,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
