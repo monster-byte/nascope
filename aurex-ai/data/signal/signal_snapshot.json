@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T17:01:24.109900+00:00",
+  "generated_at": "2026-09-15T17:15:49.512807+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.0546,
+          "change_pct": 0.0091,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.0469,
-          "up": true
+          "change_pct": -0.01,
+          "up": false
         },
         "NVDA": {
-          "change_pct": 0.0,
+          "change_pct": -0.0071,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.0343,
+          "change_pct": -0.0004,
           "up": false
         }
       }
@@ -40,27 +40,27 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28973.69,
-        "sma50": 29179.03,
-        "sma200": 27170.35
+        "last_price": 28950.87,
+        "sma50": 29178.57,
+        "sma200": 27170.24
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 15.0,
+      "score": 25.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.56,
-        "percentile_vs_20d": 85.0
+        "current_vxn": 22.54,
+        "percentile_vs_20d": 75.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 17.71,
+      "score": 18.37,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.0,
-        "change_5d_pct": 4.037
+        "current_yield_pct": 4.996,
+        "change_5d_pct": 3.953
       }
     },
     "dxy": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.27,
+      "score": 47.38,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.025,
-        "articles_analyzed": 25,
+        "avg_compound": -0.052,
+        "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "This Bull Call Spread In Oil Provides A Hedge Against Stocks And Bonds",
-            "source": "Investor's Business Daily",
-            "publishedAt": "2026-09-14T17:01:11Z",
+            "title": "Distilleries cautiously welcome Trump tariff announcement",
+            "source": "RTE",
+            "publishedAt": "2026-09-14T17:14:56Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "Venezuela’s dollarization proposal gains traction as inflation tops 500%",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-14T17:14:25Z",
+            "sentiment": "Positive",
+            "compound": 0.691
+          },
+          {
+            "title": "10-year Treasury yield tops 5% as oil surges and diesel hits all-time high - NBC News",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-09-14T17:13:21Z",
+            "sentiment": "Positive",
+            "compound": 0.625
+          },
+          {
+            "title": "Slow the AI race? Investors weigh the potential cost",
+            "source": "Digital Journal",
+            "publishedAt": "2026-09-14T17:12:11Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Odds of a Bank of Canada rate hike in December rise with oil in the inflation ‘driver’s seat,’ say economists",
-            "source": "Financial Post",
-            "publishedAt": "2026-09-14T17:00:56Z",
+            "title": "Should You Buy Coinbase Stock While Its Revenue Is Shrinking?",
+            "source": "Trefis",
+            "publishedAt": "2026-09-14T17:11:08Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "City Primer — Part 1 – What Is Municipal Government?",
-            "source": "spacing.ca",
-            "publishedAt": "2026-09-14T17:00:49Z",
+            "title": "Trump backs crypto bill, faces bank opposition over stablecoin provisions",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-14T17:07:55Z",
             "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Oracle Stock Falls After Ellison Scraps Plan To Sell Up To $7.5 Billion In Stock",
-            "source": "Investor's Business Daily",
-            "publishedAt": "2026-09-14T17:00:17Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "WallachBeth Capital Announces Closing of Tenon Medical Warrant Inducement Offering for Aggregate Gross Proceeds of Approximately $2,872,338",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-14T17:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.477
-          },
-          {
-            "title": "Thomson Reuters Named a Leader in IDC MarketScape for Compliant e-Invoicing",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-14T17:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": -0.052
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 42.03,
-  "trade_probability": 45.22,
+  "confirmation_score": 35.92,
+  "trade_probability": 41.55,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
