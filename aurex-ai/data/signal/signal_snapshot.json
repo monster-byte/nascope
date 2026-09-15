@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T04:15:48.713145+00:00",
+  "generated_at": "2026-09-15T04:31:08.964289+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.83,
+      "score": 43.76,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.6,
-        "change_5d_pct": 0.771
+        "current_dxy": 99.61,
+        "change_5d_pct": 0.78
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.78,
+      "score": 43.8,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.084,
+        "avg_compound": -0.124,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "US Market: Goldman Sachs expects Fed to hike rates amid inflation fears",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-14T04:25:12Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
+          {
+            "title": "Kevin Warsh faces a rates trap as Fed chair navigates inflation pressure and political crosswinds",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-14T04:24:23Z",
+            "sentiment": "Negative",
+            "compound": -0.542
+          },
           {
             "title": "Trump terrified of Impact on Midterms of $6 / gal. Diesel as his War Spirals out of Control",
             "source": "Juancole.com",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-09-14T04:03:42Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Viral AI Doomer Tweet: Engineered Panic?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-14T04:03:28Z",
-            "sentiment": "Negative",
-            "compound": -0.511
-          },
-          {
-            "title": "Anthropic walks tightrope to Nasdaq, pushing for a slowdown while pursuing $2 trillion valuation",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-14T04:03:27Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 36.07,
-  "trade_probability": 41.64,
+  "confirmation_score": 35.88,
+  "trade_probability": 41.53,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
