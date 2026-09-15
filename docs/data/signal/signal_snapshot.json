@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T15:01:25.175824+00:00",
+  "generated_at": "2026-09-15T15:15:48.736296+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
-      "status": "green",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.0182,
-          "up": true
+          "change_pct": -0.0061,
+          "up": false
         },
         "MSFT": {
-          "change_pct": -0.052,
+          "change_pct": -0.0499,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.0259,
+          "change_pct": 0.0472,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.0201,
+          "change_pct": 0.0147,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28942.22,
-        "sma50": 29178.4,
-        "sma200": 27170.2
+        "last_price": 28968.58,
+        "sma50": 29178.92,
+        "sma200": 27170.33
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.85,
+        "current_vxn": 23.01,
         "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 17.37,
+      "score": 17.04,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.002,
-        "change_5d_pct": 4.078
+        "current_yield_pct": 5.004,
+        "change_5d_pct": 4.12
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.78,
+      "score": 43.79,
       "status": "yellow",
       "details": {
         "current_dxy": 99.61,
-        "change_5d_pct": 0.778
+        "change_5d_pct": 0.776
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.79,
+      "score": 55.58,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.096,
+        "avg_compound": 0.112,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Coinbase Jumps 6% on Compass Point Upgrade Ahead of Senate CLARITY Act Vote; Strategy Climbs 3%, MARA Slips",
+            "title": "‘Whoever Wins, AI Wins’: Trump Brushes Aside Slowdown Calls as Ex-Senator Demands an AI IPO Freeze",
             "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-14T15:00:53Z",
+            "publishedAt": "2026-09-14T15:13:43Z",
             "sentiment": "Positive",
-            "compound": 0.532
+            "compound": 0.599
           },
           {
-            "title": "Forget Nvidia. Apple Could Be the AI Stock to Watch Next.",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-14T15:00:35Z",
+            "title": "FO Exclusive: The Looming Global Food Crisis — How Hunger and Famine Will Trigger Instability",
+            "source": "Fair Observer",
+            "publishedAt": "2026-09-14T15:11:17Z",
             "sentiment": "Negative",
-            "compound": -0.226
+            "compound": -0.727
           },
           {
-            "title": "Diesel Just Passed $6 a Gallon for the First Time Ever. Bond Investors Should Be Paying Attention.",
+            "title": "Only 1 of These 2 Data Center REITs Keeps Raising Its Dividend. Here’s Which Belongs in Your Roth IRA.",
             "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-14T15:00:16Z",
+            "publishedAt": "2026-09-14T15:10:59Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Half of Gen X expects to outlive their savings — 5 toxic habits that could quietly wreck your retirement",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-14T15:00:00Z",
+            "title": "Oil surges on report Saudi pipeline will take weeks to reopen",
+            "source": "Financial Post",
+            "publishedAt": "2026-09-14T15:08:34Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Hub Group warns of Nasdaq delisting notice; flags H1 operating loss",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-14T15:08:13Z",
             "sentiment": "Negative",
-            "compound": -0.44
+            "compound": -0.402
           },
           {
-            "title": "Procare Solutions Acquires Playground, Combining Industry Leading Expertise with Innovative, AI-Powered Child Care Technology",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-14T15:00:00Z",
+            "title": "Cybersecurity Stocks Surge as AI Safety Warnings Spark Security Bid: CrowdStrike and Zscaler Jump 12%, Palo Alto Rallies 11%",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-14T15:08:07Z",
             "sentiment": "Positive",
-            "compound": 0.778
-          },
-          {
-            "title": "Michael Dell is now the fifth richest person in the world—his worth has nearly doubled to $262 billion in the last year alone thanks to AI",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-14T14:58:36Z",
-            "sentiment": "Positive",
-            "compound": 0.735
+            "compound": 0.599
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 49.07,
-  "trade_probability": 49.44,
+  "confirmation_score": 42.34,
+  "trade_probability": 45.4,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
