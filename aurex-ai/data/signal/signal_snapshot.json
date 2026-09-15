@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T15:15:48.736296+00:00",
+  "generated_at": "2026-09-15T15:31:07.115771+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.0061,
+          "change_pct": -0.0106,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.0499,
+          "change_pct": -0.012,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.0472,
-          "up": true
+          "change_pct": -0.0612,
+          "up": false
         },
         "AMZN": {
-          "change_pct": 0.0147,
+          "change_pct": 0.0141,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28968.58,
-        "sma50": 29178.92,
-        "sma200": 27170.33
+        "last_price": 28977.56,
+        "sma50": 29179.1,
+        "sma200": 27170.37
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 23.01,
+        "current_vxn": 22.93,
         "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 17.04,
+      "score": 17.71,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.004,
-        "change_5d_pct": 4.12
+        "current_yield_pct": 5.0,
+        "change_5d_pct": 4.037
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.79,
+      "score": 43.69,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.61,
-        "change_5d_pct": 0.776
+        "current_dxy": 99.62,
+        "change_5d_pct": 0.788
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.58,
+      "score": 58.0,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.112,
-        "articles_analyzed": 24,
+        "avg_compound": 0.16,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "‘Whoever Wins, AI Wins’: Trump Brushes Aside Slowdown Calls as Ex-Senator Demands an AI IPO Freeze",
+            "title": "ServiceNow vs. Palantir: I’d Rather Own This AI Stock",
             "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-14T15:13:43Z",
-            "sentiment": "Positive",
-            "compound": 0.599
-          },
-          {
-            "title": "FO Exclusive: The Looming Global Food Crisis — How Hunger and Famine Will Trigger Instability",
-            "source": "Fair Observer",
-            "publishedAt": "2026-09-14T15:11:17Z",
-            "sentiment": "Negative",
-            "compound": -0.727
-          },
-          {
-            "title": "Only 1 of These 2 Data Center REITs Keeps Raising Its Dividend. Here’s Which Belongs in Your Roth IRA.",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-14T15:10:59Z",
+            "publishedAt": "2026-09-14T15:30:50Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Oil surges on report Saudi pipeline will take weeks to reopen",
-            "source": "Financial Post",
-            "publishedAt": "2026-09-14T15:08:34Z",
+            "title": "Tom Holland Is Now The Highest-Grossing Actor Of All Time As Spider-Man: Brand New Day Crosses $2.4 Billion Mark",
+            "source": "Kotaku",
+            "publishedAt": "2026-09-14T15:30:45Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Hub Group warns of Nasdaq delisting notice; flags H1 operating loss",
+            "title": "Wall Street’s AI doomsday trade is here: chipmakers sink while hyperscalers gain",
+            "source": "Fortune",
+            "publishedAt": "2026-09-14T15:26:48Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
+          {
+            "title": "OpenAI boss Sam Altman warns of two ways AI could go ‘very badly’ for humans — as China alleges ‘fear mongering’",
+            "source": "New York Post",
+            "publishedAt": "2026-09-14T15:24:59Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
+          {
+            "title": "AI stocks dip as tech leaders call for slowdown of development",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-14T15:08:13Z",
-            "sentiment": "Negative",
-            "compound": -0.402
+            "publishedAt": "2026-09-14T15:24:32Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Cybersecurity Stocks Surge as AI Safety Warnings Spark Security Bid: CrowdStrike and Zscaler Jump 12%, Palo Alto Rallies 11%",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-14T15:08:07Z",
-            "sentiment": "Positive",
-            "compound": 0.599
+            "title": "CoinShares Q2 Earnings Call Highlights",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-14T15:24:11Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 42.34,
-  "trade_probability": 45.4,
+  "confirmation_score": 35.89,
+  "trade_probability": 41.53,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
