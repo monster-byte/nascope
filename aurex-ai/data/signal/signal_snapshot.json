@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T13:15:52.063628+00:00",
+  "generated_at": "2026-09-15T13:31:09.868922+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,20 +17,20 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.2934,
+          "change_pct": -0.5378,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.2783,
+          "change_pct": -0.6056,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.392,
-          "up": false
+          "change_pct": 0.9199,
+          "up": true
         },
         "AMZN": {
-          "change_pct": 0.0039,
-          "up": true
+          "change_pct": -0.3904,
+          "up": false
         }
       }
     },
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29127.16,
-        "sma50": 29193.51,
-        "sma200": 27150.58
+        "last_price": 29103.92,
+        "sma50": 29181.63,
+        "sma200": 27171.0
       }
     },
     "vxn": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.06,
+      "score": 43.86,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.57,
-        "change_5d_pct": 0.743
+        "current_dxy": 99.6,
+        "change_5d_pct": 0.767
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 57.45,
+      "score": 54.55,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.149,
+        "avg_compound": 0.091,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Flight to Quality Continues Across Canada’s Office Sector",
-            "source": "Financial Post",
-            "publishedAt": "2026-09-14T13:14:58Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Backblaze to Present at AI Infra Summit 2026: Architecting the AI Data Plane",
-            "source": "Financial Post",
-            "publishedAt": "2026-09-14T13:14:41Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Fed rate hike on Wednesday now likely, say economists, and at least one more to follow - Reuters",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-09-14T13:13:08Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Canada's August inflation holds steady at 3% as crude stays firm; food prices ease",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-14T13:08:17Z",
-            "sentiment": "Negative",
-            "compound": -0.296
-          },
-          {
-            "title": "VIDEO: I don’t want to be called the richest man in Africa — Dangote",
-            "source": "The Punch",
-            "publishedAt": "2026-09-14T13:07:25Z",
-            "sentiment": "Positive",
-            "compound": 0.572
-          },
-          {
-            "title": "Microsoft publishes humanist AI code of conduct amid safety concerns",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-14T13:05:58Z",
+            "title": "Tesla Could Be Building Its Next Trillion-Dollar Opportunity. Here’s Where Its Headed",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-14T13:30:59Z",
             "sentiment": "Positive",
             "compound": 0.421
+          },
+          {
+            "title": "This Analyst Says A Full Reversion to the Mean Would Take the S&P 500 From 7,000 to 2,500",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-14T13:30:14Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Ahead of Fed meeting, Trump says US should have world's lowest interest rate",
+            "source": "Roanoke Times",
+            "publishedAt": "2026-09-14T13:30:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.103
+          },
+          {
+            "title": "Ahead of Fed meeting, Trump says US should have world's lowest interest rate",
+            "source": "Richmond.com",
+            "publishedAt": "2026-09-14T13:30:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.103
+          },
+          {
+            "title": "Rumble Soars 10% on Report Anthropic Is the $13.7B Compute Customer; CoreWeave and Nebius Drop 9%",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-14T13:27:51Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "Chip Stocks Tumble as AI Pacing Call Reaches Beyond Memory: Intel Drops 7%, AMD Sinks 6%, NVIDIA Pulls Back",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-14T13:23:34Z",
+            "sentiment": "Neutral",
+            "compound": 0.052
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 36.87,
-  "trade_probability": 42.12,
+  "confirmation_score": 36.59,
+  "trade_probability": 41.95,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
