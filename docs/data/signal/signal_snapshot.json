@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T16:01:24.690209+00:00",
+  "generated_at": "2026-09-16T16:15:49.410875+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 100.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.003,
-          "up": false
+          "change_pct": 0.0195,
+          "up": true
         },
         "MSFT": {
-          "change_pct": 0.0283,
+          "change_pct": 0.0324,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.037,
-          "up": false
+          "change_pct": 0.0301,
+          "up": true
         },
         "AMZN": {
-          "change_pct": 0.0605,
+          "change_pct": 0.0404,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 70.08,
+      "score": 70.01,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29186.05,
-        "sma50": 29178.57,
-        "sma200": 27189.92
+        "last_price": 29179.35,
+        "sma50": 29178.44,
+        "sma200": 27189.89
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 50.0,
+      "score": 55.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.71,
-        "percentile_vs_20d": 50.0
+        "current_vxn": 21.75,
+        "percentile_vs_20d": 45.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 29.49,
+      "score": 30.48,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.961,
-        "change_5d_pct": 2.564
+        "current_yield_pct": 4.955,
+        "change_5d_pct": 2.44
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.56,
+      "score": 42.33,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.69,
-        "change_5d_pct": 0.929
+        "current_dxy": 99.72,
+        "change_5d_pct": 0.959
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.64,
+      "score": 47.64,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.013,
-        "articles_analyzed": 25,
+        "avg_compound": -0.047,
+        "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Autodesk Advances Agentic AI in Its Three Industry Clouds",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-15T16:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Roundtable Shareholder Call Scheduled. Anticipated, Transformative Transaction Signed, CEO Heckman to Share Details, Economics",
+            "source": "TheStreet",
+            "publishedAt": "2026-09-15T16:14:54Z",
+            "sentiment": "Positive",
+            "compound": 0.296
           },
           {
-            "title": "Nvidia, AI Chip Stocks Look To Stem The Bleeding After Sell-Off",
-            "source": "Investor's Business Daily",
-            "publishedAt": "2026-09-15T15:59:59Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Money-Supply Growth Accelerated In July To A 59-Month High",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-15T16:14:51Z",
+            "sentiment": "Positive",
+            "compound": 0.382
           },
           {
-            "title": "Perk Brings Its Spend Platform to U.S.: NYSE Content Update",
-            "source": "Businessnewsthisweek.com",
-            "publishedAt": "2026-09-15T15:59:14Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Global selloff in stocks as bond market enters ‘new era’ of risk",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-15T16:14:49Z",
+            "sentiment": "Negative",
+            "compound": -0.273
           },
           {
-            "title": "The Oil Crisis Has Reached Costco’s Motor Oil Aisle",
-            "source": "Moby.co",
-            "publishedAt": "2026-09-15T15:56:26Z",
+            "title": "Oil prices tick up as conflict widens, disruptions grow in Middle East",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-15T16:11:21Z",
             "sentiment": "Negative",
             "compound": -0.572
           },
           {
-            "title": "Trump’s dividend card",
-            "source": "BusinessLine",
-            "publishedAt": "2026-09-15T15:56:16Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "AARP Predicts Significant Social Security Payment Increase",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-09-15T16:10:14Z",
+            "sentiment": "Positive",
+            "compound": 0.67
           },
           {
-            "title": "Smartphone Chip Stocks Rally While Large-Cap Technology Slips: Skyworks Jumps 11%, Qorvo Rises 7%, Qualcomm Climbs 4%",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-15T15:55:13Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Telangana tops India's inflation table for eighth consecutive month",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-15T16:09:42Z",
+            "sentiment": "Positive",
+            "compound": 0.511
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 49.33,
-  "trade_probability": 49.6,
+  "confirmation_score": 63.11,
+  "trade_probability": 57.87,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
