@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T14:31:11.664842+00:00",
+  "generated_at": "2026-09-16T14:45:49.215058+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.0559,
-          "up": true
+          "change_pct": -0.1048,
+          "up": false
         },
         "MSFT": {
-          "change_pct": 0.0416,
+          "change_pct": 0.002,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.0023,
-          "up": false
+          "change_pct": 0.0371,
+          "up": true
         },
         "AMZN": {
-          "change_pct": 0.0162,
+          "change_pct": 0.0121,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29145.9,
-        "sma50": 29177.77,
-        "sma200": 27189.72
+        "last_price": 29161.04,
+        "sma50": 29178.07,
+        "sma200": 27189.79
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 55.0,
+      "score": 50.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.77,
-        "percentile_vs_20d": 45.0
+        "current_vxn": 21.86,
+        "percentile_vs_20d": 50.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 28.17,
+      "score": 28.5,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.969,
-        "change_5d_pct": 2.729
+        "current_yield_pct": 4.967,
+        "change_5d_pct": 2.688
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.41,
+      "score": 42.61,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.71,
-        "change_5d_pct": 0.949
+        "current_dxy": 99.68,
+        "change_5d_pct": 0.923
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.99,
+      "score": 54.4,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.04,
+        "avg_compound": 0.088,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "President Trump Dismisses AI Doomsday Warnings as Hoax, Says Strong President Provides Enough Oversight",
-            "source": "The Daily Hodl",
-            "publishedAt": "2026-09-15T14:30:26Z",
-            "sentiment": "Negative",
-            "compound": -0.586
-          },
-          {
-            "title": "Land Rover And Stellantis Will Team Up To Build A Defender Pickup In The U.S.",
-            "source": "Jalopnik",
-            "publishedAt": "2026-09-15T14:30:22Z",
-            "sentiment": "Neutral",
-            "compound": 0.103
-          },
-          {
-            "title": "Cisco Delivers Trusted AI at Scale Through New Splunk Advancements",
-            "source": "Cisco.com",
-            "publishedAt": "2026-09-15T14:30:00Z",
-            "sentiment": "Positive",
-            "compound": 0.477
-          },
-          {
-            "title": "Cisco Delivers Trusted AI at Scale Through New Splunk Advancements",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-15T14:30:00Z",
-            "sentiment": "Positive",
-            "compound": 0.477
-          },
-          {
-            "title": "Wall Street deepens losses, Dow plunges 450 pts",
+            "title": "Warren Buffett sends stark warning to stock market investors",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-15T14:29:32Z",
+            "publishedAt": "2026-09-15T14:44:43Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
+          {
+            "title": "10-year Treasury yield hits highest level since 2007 as traders bet a Fed rate hike is coming",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-09-15T14:44:26Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "Citi’s 11%+ RoTCE Target Signals Stronger Capital Efficiency",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-15T14:44:15Z",
+            "sentiment": "Positive",
+            "compound": 0.625
+          },
+          {
+            "title": "NASDAQ: CAPR LAWSUIT ALERT: Investors who lost money with shares of Capricor Therapeutics, Inc.should contact the Shareholders Foundation",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-15T14:44:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.052
+          },
+          {
+            "title": "Brazil’s Election Won’t Fix Its Biggest Problems",
+            "source": "Foreign Policy",
+            "publishedAt": "2026-09-15T14:43:42Z",
             "sentiment": "Negative",
             "compound": -0.402
           },
           {
-            "title": "An AI bubble is no longer Wall Street’s biggest fear. This stock-market risk just took its place",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-15T14:29:18Z",
-            "sentiment": "Negative",
-            "compound": -0.758
+            "title": "Top Business & Market Headlines Today — BL Morning Report, September 16, 2026",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-15T14:43:17Z",
+            "sentiment": "Positive",
+            "compound": 0.703
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 53.39,
-  "trade_probability": 52.03,
+  "confirmation_score": 53.58,
+  "trade_probability": 52.15,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
