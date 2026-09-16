@@ -1,0 +1,53 @@
+name: AUREX Pulse - Intraday Engine
+
+# محرك منفصل تماماً عن "AUREX AI - Fetch Data" — جدولة أسرع (كل 5 دقايق)
+# مخصص لمحرك Pulse الاستشاري فقط (Volume Profile + Catalyst Watcher + Fusion)
+# لا يلمس ولا يؤثر على signal_snapshot.json ولا القرار الرسمي بأي شكل
+
+on:
+  schedule:
+    - cron: "*/5 * * * 1-5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  pulse:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r aurex-ai/requirements.txt
+
+      - name: Run data layer (أسعار طازجة كل 5 دقايق)
+        working-directory: aurex-ai
+        continue-on-error: true
+        run: python -m src.data.run
+
+      - name: Run Pulse engine
+        working-directory: aurex-ai
+        env:
+          NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
+        run: python -m src.pulse.engine
+
+      - name: Copy intraday data for dashboard
+        run: |
+          mkdir -p docs/data/intraday
+          cp aurex-ai/data/intraday/intraday_snapshot.json docs/data/intraday/ || true
+
+      - name: Commit updated intraday data
+        run: |
+          git config user.name "aurex-pulse-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add aurex-ai/data/intraday/ docs/data/intraday/
+          git diff --quiet --cached || git commit -m "chore: auto-update pulse intraday snapshot [skip ci]"
+          git pull --rebase
+          git push
