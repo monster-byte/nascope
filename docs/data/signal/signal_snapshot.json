@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T21:31:09.862936+00:00",
+  "generated_at": "2026-09-16T21:45:51.135784+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 37.35,
+      "score": 37.41,
       "status": "red",
       "details": {
-        "current_dxy": 100.33,
-        "change_5d_pct": 1.581
+        "current_dxy": 100.32,
+        "change_5d_pct": 1.573
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.94,
+      "score": 50.43,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.041,
+        "avg_compound": 0.009,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Tuesday’s Mini-Report, 9.15.26",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-15T21:32:44Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Three Lions Acquisition Corp. Announces the Separate Trading of Its Ordinary Shares and Warrants, Commencing on or About September 17, 2026",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-15T21:32:00Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
           {
             "title": "FCEL Stockholder Alert: Shareholder Rights Law Firm Robbins LLP Reminds Investors of the Class Action Lawsuit Filed Against FuelCell Energy, Inc.",
             "source": "PRNewswire",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-09-15T21:22:00Z",
             "sentiment": "Negative",
             "compound": -0.459
-          },
-          {
-            "title": "Wix.com Ltd Investors Have Until September 22, 2026 to Seek Lead Plaintiff Status in the Securities Class Action Lawsuit Filed Against WIX Following the Company's Stock Decline",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-15T21:20:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.077
-          },
-          {
-            "title": "SpaceX or Tesla: Which Elon Musk Stock Should Investors Buy?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-15T21:19:59Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 48.5,
-  "trade_probability": 49.1,
+  "confirmation_score": 48.73,
+  "trade_probability": 49.24,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
