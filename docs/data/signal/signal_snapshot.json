@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T18:45:48.004854+00:00",
+  "generated_at": "2026-09-16T19:01:20.240652+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
+      "score": 100.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.0749,
+          "change_pct": 0.0497,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.0324,
+          "change_pct": 0.1203,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.007,
-          "up": false
+          "change_pct": 0.2034,
+          "up": true
         },
         "AMZN": {
-          "change_pct": 0.0768,
+          "change_pct": 0.1933,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29151.71,
-        "sma50": 29177.88,
-        "sma200": 27189.75
+        "last_price": 28976.61,
+        "sma50": 29174.38,
+        "sma200": 27188.87
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 60.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.61,
+        "current_vxn": 21.56,
         "percentile_vs_20d": 40.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 30.15,
+      "score": 28.83,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.957,
-        "change_5d_pct": 2.481
+        "current_yield_pct": 4.965,
+        "change_5d_pct": 2.646
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 38.57,
+      "score": 38.81,
       "status": "red",
       "details": {
-        "current_dxy": 100.18,
-        "change_5d_pct": 1.429
+        "current_dxy": 100.15,
+        "change_5d_pct": 1.398
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.95,
+      "score": 47.82,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.061,
+        "avg_compound": -0.044,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Why Is Waystar Holdings Stock Gaining Tuesday?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-15T18:45:41Z",
+            "title": "Even The Mainstream Media Is Admitting That “The Great Fuel Crisis” Is Here",
+            "source": "Theeconomiccollapseblog.com",
+            "publishedAt": "2026-09-15T19:00:56Z",
             "sentiment": "Positive",
-            "compound": 0.421
+            "compound": 0.625
           },
           {
-            "title": "Nasdaq Verafin and Stablecore Help Banks Spot Financial Crime Across Cash and Crypto",
-            "source": "pymnts.com",
-            "publishedAt": "2026-09-15T18:44:42Z",
+            "title": "Next few decades will be 'very difficult', influential economist warns",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-09-15T18:56:43Z",
+            "sentiment": "Neutral",
+            "compound": -0.004
+          },
+          {
+            "title": "Senate rejects Clarity Act as crypto market slides after failed vote",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-15T18:55:56Z",
             "sentiment": "Negative",
-            "compound": -0.202
+            "compound": -0.586
           },
           {
-            "title": "Trump’s tariffs slashed jobs and wage growth. Now companies are funneling their chunk of the $100 billion in refunds to supplement workers’ retirement",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-15T18:44:40Z",
+            "title": "Shareholders who lost money in shares of acquired Papa John's International, Inc. (NASDAQ: PZZA) should contact Wolf Haldenstein Immediately",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-15T18:54:00Z",
             "sentiment": "Neutral",
-            "compound": 0.153
+            "compound": -0.026
           },
           {
-            "title": "Trump’s tariffs slashed jobs and wage growth. Now companies are funneling their chunk of the $100 billion in refunds to supplement workers’ retirement",
-            "source": "Fortune",
-            "publishedAt": "2026-09-15T18:44:40Z",
-            "sentiment": "Neutral",
-            "compound": 0.153
+            "title": "Iranian Strikes On US Military Bases Took Massive Toll, Pentagon Watchdog Reveals",
+            "source": "The Daily Caller",
+            "publishedAt": "2026-09-15T18:53:00Z",
+            "sentiment": "Negative",
+            "compound": -0.361
           },
           {
-            "title": "68% of physicists don’t think the time started at the big bang",
-            "source": "Popular Science",
-            "publishedAt": "2026-09-15T18:37:09Z",
+            "title": "US borrowing costs hit highest level since 2007",
+            "source": "BBC News",
+            "publishedAt": "2026-09-15T18:51:43Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "New York Fed probes risks as hedge funds fill void left by pension funds in Treasurys",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-15T18:36:36Z",
-            "sentiment": "Negative",
-            "compound": -0.273
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 53.67,
-  "trade_probability": 52.2,
+  "confirmation_score": 60.34,
+  "trade_probability": 56.2,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
