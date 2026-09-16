@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T15:01:27.465495+00:00",
+  "generated_at": "2026-09-16T15:16:12.169960+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.0509,
-          "up": false
+          "change_pct": 0.015,
+          "up": true
         },
         "MSFT": {
-          "change_pct": -0.0243,
+          "change_pct": -0.0933,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.0882,
-          "up": true
+          "change_pct": -0.0625,
+          "up": false
         },
         "AMZN": {
-          "change_pct": -0.0081,
+          "change_pct": -0.0222,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 70.21,
+      "score": 70.23,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29198.85,
-        "sma50": 29178.83,
-        "sma200": 27189.98
+        "last_price": 29201.34,
+        "sma50": 29178.88,
+        "sma200": 27190.0
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 55.0,
+      "score": 60.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.79,
-        "percentile_vs_20d": 45.0
+        "current_vxn": 21.68,
+        "percentile_vs_20d": 40.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 29.16,
+      "score": 30.48,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.963,
-        "change_5d_pct": 2.605
+        "current_yield_pct": 4.955,
+        "change_5d_pct": 2.44
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.7,
+      "score": 42.73,
       "status": "yellow",
       "details": {
         "current_dxy": 99.67,
-        "change_5d_pct": 0.912
+        "change_5d_pct": 0.909
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 58.03,
+      "score": 55.17,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.161,
-        "articles_analyzed": 25,
+        "avg_compound": 0.103,
+        "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Bank Director's 2026 Technology Survey: Banks Feel Heat From Growing Field of Competitors",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-15T15:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.178
-          },
-          {
-            "title": "American Household Income Reaches Highest Level On Record",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-15T14:59:34Z",
-            "sentiment": "Neutral",
-            "compound": 0.052
-          },
-          {
-            "title": "Bitcoin Sinks as the Senate's Clarity Act Showdown Looms",
-            "source": "Decrypt",
-            "publishedAt": "2026-09-15T14:58:57Z",
-            "sentiment": "Positive",
-            "compound": 0.273
-          },
-          {
-            "title": "US Treasury yield highest since 2007 ahead of Fed’s interest-rate decision",
-            "source": "RT",
-            "publishedAt": "2026-09-15T14:58:27Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "Disney Trades Well Below Wall Street’s Target. Here’s What Closes the Gap.",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-15T14:55:29Z",
-            "sentiment": "Positive",
-            "compound": 0.273
-          },
-          {
-            "title": "China’s bond yields hover near record lows as UK gilts surge past levels not seen since 1998",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-15T14:55:10Z",
+            "title": "Trump's $5,000 'bribe' to Americans backfires in brutal new poll as shock number of Republicans reject it",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-09-15T15:15:33Z",
             "sentiment": "Negative",
-            "compound": -0.202
+            "compound": -0.872
+          },
+          {
+            "title": "Why a 10-year bond at a 5% yield is a pretty big deal",
+            "source": "Marketplace.org",
+            "publishedAt": "2026-09-15T15:15:00Z",
+            "sentiment": "Positive",
+            "compound": 0.494
+          },
+          {
+            "title": "N.S. launches call for more onshore wind in final push to meet 2030 renewable target",
+            "source": "CBC News",
+            "publishedAt": "2026-09-15T15:14:01Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Carlyle CEO Harvey Schwartz doubts Federal Reserve will raise rates repeatedly",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-15T15:13:51Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "Bitcoin falls 2% as Senate’s Clarity Act vote approaches",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-15T15:09:02Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "Here’s your Social Security COLA 2027 forecast —how much will you get?",
+            "source": "New York Post",
+            "publishedAt": "2026-09-15T15:06:30Z",
+            "sentiment": "Positive",
+            "compound": 0.34
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 43.68,
-  "trade_probability": 46.21,
+  "confirmation_score": 44.06,
+  "trade_probability": 46.44,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
