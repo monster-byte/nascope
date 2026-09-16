@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T14:01:22.215565+00:00",
+  "generated_at": "2026-09-16T14:15:49.823858+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
-      "status": "red",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.1591,
+          "change_pct": -0.0002,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.1675,
-          "up": false
+          "change_pct": 0.0355,
+          "up": true
         },
         "NVDA": {
-          "change_pct": -0.0605,
-          "up": false
+          "change_pct": 0.0277,
+          "up": true
         },
         "AMZN": {
-          "change_pct": 0.0141,
-          "up": true
+          "change_pct": -0.0747,
+          "up": false
         }
       }
     },
@@ -40,18 +40,18 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29160.61,
-        "sma50": 29178.06,
-        "sma200": 27189.79
+        "last_price": 29143.58,
+        "sma50": 29177.72,
+        "sma200": 27189.71
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 55.0,
+      "score": 60.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.65,
-        "percentile_vs_20d": 45.0
+        "current_vxn": 21.66,
+        "percentile_vs_20d": 40.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.38,
+      "score": 42.13,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.71,
-        "change_5d_pct": 0.953
+        "current_dxy": 99.74,
+        "change_5d_pct": 0.984
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.37,
+      "score": 52.82,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.027,
+        "avg_compound": 0.056,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "KCCI urges govt to address key industrial infrastructure issues along coast",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-15T14:01:03Z",
+            "title": "AMD Shares Rebound 3.48% as Chip Stocks Recover From Monday's Sharp AI-Driven Slowdown Selloff Across Sector",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-09-15T14:15:19Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "'Extraordinarily dire' signs spark fears of imminent US crash: 'This could be it'",
+            "source": "Raw Story",
+            "publishedAt": "2026-09-15T14:15:09Z",
+            "sentiment": "Negative",
+            "compound": -0.765
+          },
+          {
+            "title": "Logitech & Aspire For Her Set New Guinness World Record Title For Largest Women-Only Generative AI Hackathon",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-15T14:14:43Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "10-year Treasury hits 2007 high as oil stays above $100: AlphaCheck",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-15T14:00:49Z",
-            "sentiment": "Positive",
-            "compound": 0.202
+            "title": "Stock Market Today: Dow Falls On Rising Yields, Oil Prices; Nvidia To Rebound",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-15T14:14:35Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
             "title": "What to expect from stocks and bonds if interest rates remain higher for longer, according to investing pros",
-            "source": "CNBC",
-            "publishedAt": "2026-09-15T14:00:02Z",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-15T14:14:22Z",
             "sentiment": "Positive",
             "compound": 0.459
           },
           {
-            "title": "Exploring systemic erythropoietin in diabetic retinopathy: Longitudinal associations and biomarker potential in the LANDMark cohort",
-            "source": "Plos.org",
-            "publishedAt": "2026-09-15T14:00:00Z",
+            "title": "The Trump administration keeps promising lower gas prices. They have yet to come",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-15T14:14:19Z",
             "sentiment": "Neutral",
-            "compound": 0.077
-          },
-          {
-            "title": "Predicting bacterial vaginosis incidence using artificial neural networks",
-            "source": "Plos.org",
-            "publishedAt": "2026-09-15T14:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Career awareness as a mediator between communication skills and entrepreneurial tendencies in prospective sport managers",
-            "source": "Plos.org",
-            "publishedAt": "2026-09-15T14:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": 0.128
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.23,
-  "trade_probability": 44.14,
+  "confirmation_score": 47.54,
+  "trade_probability": 48.52,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
