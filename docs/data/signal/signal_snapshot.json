@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T05:45:46.987697+00:00",
+  "generated_at": "2026-09-16T06:01:20.200024+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.29,
+      "score": 43.33,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.6,
-        "change_5d_pct": 0.839
+        "current_dxy": 99.59,
+        "change_5d_pct": 0.833
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.75,
+      "score": 47.71,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.015,
-        "articles_analyzed": 25,
+        "avg_compound": -0.046,
+        "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "The secret trick lower-paid American workers are using to get their biggest pay raises in YEARS",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-09-15T06:01:11Z",
+            "sentiment": "Neutral",
+            "compound": -0.153
+          },
+          {
+            "title": "Trump weighs emergency powers as diesel tops $6, threatening economy ahead of midterms",
+            "source": "Naturalnews.com",
+            "publishedAt": "2026-09-15T06:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
+          {
+            "title": "'The bond market has taken down more governments than howitzers': Scott Bessent cuts Kevin Warsh some slack ahead of anticipated rate meeting - Fortune",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-09-15T05:52:26Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "Indian IT stocks rally as AI caution eases disruption fears",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-15T05:46:11Z",
+            "sentiment": "Negative",
+            "compound": -0.459
+          },
           {
             "title": "Hong Kong-based crypto exchange CoinEx to cease operations amid prolonged market downturn",
             "source": "CNA",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-09-15T05:37:26Z",
             "sentiment": "Positive",
             "compound": 0.361
-          },
-          {
-            "title": "Thai official points to surging investment as stability returns",
-            "source": "The Straits Times",
-            "publishedAt": "2026-09-15T05:30:44Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "wealth-dashboard added to PyPI",
-            "source": "Pypi.org",
-            "publishedAt": "2026-09-15T05:27:47Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Karnataka CM DK Shivkumar says 'Donald Trump is copying us' as US president announces $5000 to every adult if Republicans win mid-terms",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-15T05:26:43Z",
-            "sentiment": "Positive",
-            "compound": 0.586
-          },
-          {
-            "title": "From onions, ginger to cooking oil: Why food prices are rising in India",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-15T05:26:34Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 35.29,
-  "trade_probability": 41.17,
+  "confirmation_score": 35.02,
+  "trade_probability": 41.01,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
