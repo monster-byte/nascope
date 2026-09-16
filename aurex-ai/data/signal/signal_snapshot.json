@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T17:01:20.668886+00:00",
+  "generated_at": "2026-09-16T17:15:54.029311+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.028,
+          "change_pct": -0.009,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.002,
+          "change_pct": 0.001,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.1144,
+          "change_pct": -0.0232,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.0444,
+          "change_pct": -0.0222,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29146.32,
-        "sma50": 29177.78,
-        "sma200": 27189.72
+        "last_price": 29150.85,
+        "sma50": 29177.87,
+        "sma200": 27189.74
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 60.0,
-      "status": "yellow",
+      "score": 65.0,
+      "status": "green",
       "details": {
-        "current_vxn": 21.59,
-        "percentile_vs_20d": 40.0
+        "current_vxn": 21.42,
+        "percentile_vs_20d": 35.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 30.15,
+      "score": 30.48,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.957,
-        "change_5d_pct": 2.481
+        "current_yield_pct": 4.955,
+        "change_5d_pct": 2.44
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.51,
+      "score": 42.35,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.69,
-        "change_5d_pct": 0.937
+        "current_dxy": 99.71,
+        "change_5d_pct": 0.956
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.25,
+      "score": 52.51,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.025,
+        "avg_compound": 0.05,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "European shares fall as rising oil prices trigger rise in global borrowing costs",
-            "source": "The Irish Times",
-            "publishedAt": "2026-09-15T16:56:46Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "Hospitality Veteran Releases an Insider's Guide to Hotel Operations, Management, and Industry Trends",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-15T16:56:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Beaten-up bond market may be nearing 'escape velocity.' Here's what that means",
-            "source": "CNBC",
-            "publishedAt": "2026-09-15T16:53:56Z",
-            "sentiment": "Neutral",
-            "compound": 0.178
-          },
-          {
-            "title": "American incomes finally top pre-pandemic levels, fighting against inflation all the way",
-            "source": "Associated Press",
-            "publishedAt": "2026-09-15T16:52:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.178
-          },
-          {
-            "title": "India bond yields above 7%: Why debt fund investors may find a sweet spot in the 3–5 year segment",
-            "source": "Livemint",
-            "publishedAt": "2026-09-15T16:50:51Z",
-            "sentiment": "Neutral",
-            "compound": 0.128
-          },
-          {
-            "title": "This Is the No. 1 Reason I'm Buying and Holding the Vanguard Total Stock Market ETF (VTI) Right Now",
+            "title": "Federal Reserve is expected to raise its benchmark rate, defying Trump's demands - ABC News",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-15T16:48:17Z",
+            "publishedAt": "2026-09-15T17:15:20Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "LAWSUIT NOTICE: NASDAQ: PRCT Investors who lost money with PROCEPT BioRobotics Corporation shares should contact the Shareholders Foundation",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-15T17:15:00Z",
+            "sentiment": "Negative",
+            "compound": -0.408
+          },
+          {
+            "title": "Johnson Fistel Investigates VenHub Global, Inc. (NASDAQ: VHUB) on Behalf of Investors",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-15T17:15:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Gold is starting to move on something a lot bigger than inflation",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-15T17:14:55Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Johnson Fistel Investigates Astrotech Corporation (NASDAQ: ASTC) on Behalf of Investors",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-15T17:12:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "EXCLUSIVE: Inside Vance's intimate Capitol Hill huddle as Republicans confront tough midterm terrain",
+            "source": "Fox News",
+            "publishedAt": "2026-09-15T17:04:25Z",
+            "sentiment": "Neutral",
+            "compound": 0.009
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.91,
-  "trade_probability": 44.55,
+  "confirmation_score": 41.5,
+  "trade_probability": 44.9,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
