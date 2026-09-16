@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T18:15:49.039443+00:00",
+  "generated_at": "2026-09-16T18:31:16.829059+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 0.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.0605,
-          "up": true
+          "change_pct": -0.003,
+          "up": false
         },
         "MSFT": {
-          "change_pct": 0.0284,
-          "up": true
+          "change_pct": -0.0415,
+          "up": false
         },
         "NVDA": {
-          "change_pct": -0.058,
+          "change_pct": -0.1208,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.0182,
+          "change_pct": -0.0627,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29156.71,
-        "sma50": 29177.98,
-        "sma200": 27189.77
+        "last_price": 29125.52,
+        "sma50": 29177.36,
+        "sma200": 27189.62
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 65.0,
-      "status": "green",
+      "score": 60.0,
+      "status": "yellow",
       "details": {
-        "current_vxn": 21.29,
-        "percentile_vs_20d": 35.0
+        "current_vxn": 21.51,
+        "percentile_vs_20d": 40.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 33.13,
+      "score": 30.15,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.939,
-        "change_5d_pct": 2.109
+        "current_yield_pct": 4.957,
+        "change_5d_pct": 2.481
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.22,
+      "score": 40.3,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.85,
-        "change_5d_pct": 1.097
+        "current_dxy": 99.97,
+        "change_5d_pct": 1.213
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 44.02,
+      "score": 47.94,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.12,
+        "avg_compound": -0.041,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Did crypto’s $20 Billion DeFi surge just get stolen by price inflation?",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-09-15T18:15:37Z",
-            "sentiment": "Negative",
-            "compound": -0.494
-          },
-          {
-            "title": "Cheap eats in Dallas for every day of the week",
-            "source": "Dallas Observer",
-            "publishedAt": "2026-09-15T18:15:21Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Fed rate hike expected on Wednesday. See what it means for your money.",
-            "source": "CBS News",
-            "publishedAt": "2026-09-15T18:15:09Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Iran war expected to cause a spike in US inflation, according to budget watchdog | CNN Politics",
-            "source": "CNN",
-            "publishedAt": "2026-09-15T18:06:48Z",
-            "sentiment": "Negative",
-            "compound": -0.599
-          },
-          {
-            "title": "Crude oil spike drags rupee to nearly 96 per dollar; Nifty dips 1.2%",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-15T18:02:58Z",
-            "sentiment": "Negative",
-            "compound": -0.402
-          },
-          {
-            "title": "Nvidia Will Still Beat AMD Through 2028. Here's the Data Behind My Conviction",
+            "title": "Stubborn inflation sets stage for Federal Reserve to hike interest rates",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-15T18:02:56Z",
+            "publishedAt": "2026-09-15T18:30:42Z",
+            "sentiment": "Neutral",
+            "compound": 0.077
+          },
+          {
+            "title": "Fed rate hike expected on Wednesday. See what it means for your money",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-15T18:30:37Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "Family income rose and poverty fell in 2025 — but safety net cuts could erase gains",
+            "source": "NPR",
+            "publishedAt": "2026-09-15T18:29:49Z",
+            "sentiment": "Positive",
+            "compound": 0.431
+          },
+          {
+            "title": "Chipotle stock falls amid rising oil prices, Treasury yields, inflation concerns",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-15T18:29:17Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "Enova Scraps Grasshopper Bank Acquisition After Pressure From State AGs",
+            "source": "pymnts.com",
+            "publishedAt": "2026-09-15T18:23:00Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "Federal Reserve hikes interest rates for first time since 2023, signals more to come",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-15T18:18:27Z",
+            "sentiment": "Positive",
+            "compound": 0.459
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 47.74,
-  "trade_probability": 48.64,
+  "confirmation_score": 33.66,
+  "trade_probability": 40.2,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
