@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T19:15:50.379813+00:00",
+  "generated_at": "2026-09-16T19:31:06.281747+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.0997,
+          "change_pct": 0.0844,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.0204,
+          "change_pct": 0.002,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.0329,
+          "change_pct": 0.0225,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.0204,
+          "change_pct": 0.0654,
           "up": true
         }
       }
@@ -40,18 +40,18 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28840.5,
-        "sma50": 29171.66,
+        "last_price": 28840.08,
+        "sma50": 29171.65,
         "sma200": 27188.19
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 15.0,
+      "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.57,
-        "percentile_vs_20d": 85.0
+        "current_vxn": 23.14,
+        "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 38.6,
+      "score": 37.66,
       "status": "red",
       "details": {
-        "current_dxy": 100.18,
-        "change_5d_pct": 1.426
+        "current_dxy": 100.29,
+        "change_5d_pct": 1.542
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.05,
+      "score": 49.51,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.039,
+        "avg_compound": -0.01,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Manhattan Associates, Inc. Investor News: Rosen Law Firm Announces Investigation of Breaches of Fiduciary Duties by the Directors and Officers of Manhattan Associates, Inc. - MANH",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-15T19:25:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Cogent Communications Deadline: CCOI Investors Have Opportunity to Lead Cogent Communications Holdings, Inc. Securities Fraud Lawsuit",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-15T19:21:00Z",
+            "sentiment": "Neutral",
+            "compound": -0.178
+          },
+          {
+            "title": "Rosen Law Firm Encourages The Ensign Group, Inc. Investors to Inquire About Securities Class Action Investigation - ENSG",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-15T19:21:00Z",
+            "sentiment": "Positive",
+            "compound": 0.625
+          },
+          {
+            "title": "Markets on edge as US Fed meets to tackle high inflation",
+            "source": "CNA",
+            "publishedAt": "2026-09-15T19:20:56Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Teachers union sues California over $3.9B in delayed education funds",
+            "source": "New York Post",
+            "publishedAt": "2026-09-15T19:15:57Z",
+            "sentiment": "Negative",
+            "compound": -0.226
+          },
           {
             "title": "/C O R R E C T I O N -- Crock-Pot/",
             "source": "PRNewswire",
             "publishedAt": "2026-09-15T19:09:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "EQPT Deadline: EQPT Investors Have Opportunity to Lead EquipmentShare.com Inc Securities Lawsuit",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-15T19:07:00Z",
-            "sentiment": "Positive",
-            "compound": 0.477
-          },
-          {
-            "title": "US borrowing costs hit highest level since 2007",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-15T19:03:23Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Even The Mainstream Media Is Admitting That “The Great Fuel Crisis” Is Here",
-            "source": "Theeconomiccollapseblog.com",
-            "publishedAt": "2026-09-15T19:00:56Z",
-            "sentiment": "Positive",
-            "compound": 0.625
-          },
-          {
-            "title": "Next few decades will be 'very difficult', influential economist warns",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-09-15T18:56:43Z",
-            "sentiment": "Neutral",
-            "compound": -0.004
-          },
-          {
-            "title": "Senate rejects Clarity Act as crypto market slides after failed vote",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-15T18:55:56Z",
-            "sentiment": "Negative",
-            "compound": -0.586
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 55.38,
-  "trade_probability": 53.23,
+  "confirmation_score": 54.97,
+  "trade_probability": 52.98,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
