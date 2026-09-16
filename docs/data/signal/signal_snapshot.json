@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T13:45:51.389716+00:00",
+  "generated_at": "2026-09-16T14:01:22.215565+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
-      "status": "green",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.0479,
-          "up": true
+          "change_pct": -0.1591,
+          "up": false
         },
         "MSFT": {
-          "change_pct": -0.0061,
+          "change_pct": -0.1675,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.075,
-          "up": true
+          "change_pct": -0.0605,
+          "up": false
         },
         "AMZN": {
-          "change_pct": 0.0303,
+          "change_pct": 0.0141,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29098.23,
-        "sma50": 29176.81,
-        "sma200": 27189.48
+        "last_price": 29160.61,
+        "sma50": 29178.06,
+        "sma200": 27189.79
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 15.0,
-      "status": "red",
+      "score": 55.0,
+      "status": "yellow",
       "details": {
-        "current_vxn": 22.61,
-        "percentile_vs_20d": 85.0
+        "current_vxn": 21.65,
+        "percentile_vs_20d": 45.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 26.85,
+      "score": 28.5,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.977,
-        "change_5d_pct": 2.894
+        "current_yield_pct": 4.967,
+        "change_5d_pct": 2.688
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.51,
+      "score": 42.38,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.69,
-        "change_5d_pct": 0.937
+        "current_dxy": 99.71,
+        "change_5d_pct": 0.953
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.63,
+      "score": 51.37,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.067,
+        "avg_compound": 0.027,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "The ARTnews Accord: Collectors J. Tomilson Hill and Lonti Ebers On What It Means to Support Art Today",
-            "source": "ARTnews",
-            "publishedAt": "2026-09-15T13:45:00Z",
+            "title": "KCCI urges govt to address key industrial infrastructure issues along coast",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-15T14:01:03Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "10-year Treasury hits 2007 high as oil stays above $100: AlphaCheck",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-15T14:00:49Z",
             "sentiment": "Positive",
-            "compound": 0.402
+            "compound": 0.202
           },
           {
-            "title": "Tesla Takes Back America",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-15T13:44:15Z",
+            "title": "What to expect from stocks and bonds if interest rates remain higher for longer, according to investing pros",
+            "source": "CNBC",
+            "publishedAt": "2026-09-15T14:00:02Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "Exploring systemic erythropoietin in diabetic retinopathy: Longitudinal associations and biomarker potential in the LANDMark cohort",
+            "source": "Plos.org",
+            "publishedAt": "2026-09-15T14:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.077
+          },
+          {
+            "title": "Predicting bacterial vaginosis incidence using artificial neural networks",
+            "source": "Plos.org",
+            "publishedAt": "2026-09-15T14:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Dry waste vehicle caught dumping garbage into Lokhandwala nullah, BMC threatens contract cancellation",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-15T13:44:03Z",
-            "sentiment": "Negative",
-            "compound": -0.772
-          },
-          {
-            "title": "Bigg Boss Tamil 10 Preview: Jason and Shama clash during ‘Oru Kadhai Sollattuma’ task",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-15T13:43:01Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Dow, Nasdaq, S&P 500 open slightly lower ahead of Fed decision",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-15T13:39:58Z",
-            "sentiment": "Negative",
-            "compound": -0.228
-          },
-          {
-            "title": "Installation of rooftop solar panels increases four-fold in 8 months: Govt",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-15T13:39:18Z",
+            "title": "Career awareness as a mediator between communication skills and entrepreneurial tendencies in prospective sport managers",
+            "source": "Plos.org",
+            "publishedAt": "2026-09-15T14:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 49.5,
-  "trade_probability": 49.7,
+  "confirmation_score": 40.23,
+  "trade_probability": 44.14,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
