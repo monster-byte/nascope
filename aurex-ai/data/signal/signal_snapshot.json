@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T19:01:20.240652+00:00",
+  "generated_at": "2026-09-16T19:15:50.379813+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.0497,
+          "change_pct": 0.0997,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.1203,
+          "change_pct": 0.0204,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.2034,
+          "change_pct": 0.0329,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.1933,
+          "change_pct": 0.0204,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28976.61,
-        "sma50": 29174.38,
-        "sma200": 27188.87
+        "last_price": 28840.5,
+        "sma50": 29171.66,
+        "sma200": 27188.19
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 60.0,
-      "status": "yellow",
+      "score": 15.0,
+      "status": "red",
       "details": {
-        "current_vxn": 21.56,
-        "percentile_vs_20d": 40.0
+        "current_vxn": 22.57,
+        "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 28.83,
+      "score": 22.05,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.965,
-        "change_5d_pct": 2.646
+        "current_yield_pct": 5.006,
+        "change_5d_pct": 3.494
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 38.81,
+      "score": 38.6,
       "status": "red",
       "details": {
-        "current_dxy": 100.15,
-        "change_5d_pct": 1.398
+        "current_dxy": 100.18,
+        "change_5d_pct": 1.426
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.82,
+      "score": 48.05,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.044,
+        "avg_compound": -0.039,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "/C O R R E C T I O N -- Crock-Pot/",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-15T19:09:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "EQPT Deadline: EQPT Investors Have Opportunity to Lead EquipmentShare.com Inc Securities Lawsuit",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-15T19:07:00Z",
+            "sentiment": "Positive",
+            "compound": 0.477
+          },
+          {
+            "title": "US borrowing costs hit highest level since 2007",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-15T19:03:23Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Even The Mainstream Media Is Admitting That “The Great Fuel Crisis” Is Here",
             "source": "Theeconomiccollapseblog.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-09-15T18:55:56Z",
             "sentiment": "Negative",
             "compound": -0.586
-          },
-          {
-            "title": "Shareholders who lost money in shares of acquired Papa John's International, Inc. (NASDAQ: PZZA) should contact Wolf Haldenstein Immediately",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-15T18:54:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.026
-          },
-          {
-            "title": "Iranian Strikes On US Military Bases Took Massive Toll, Pentagon Watchdog Reveals",
-            "source": "The Daily Caller",
-            "publishedAt": "2026-09-15T18:53:00Z",
-            "sentiment": "Negative",
-            "compound": -0.361
-          },
-          {
-            "title": "US borrowing costs hit highest level since 2007",
-            "source": "BBC News",
-            "publishedAt": "2026-09-15T18:51:43Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 60.34,
-  "trade_probability": 56.2,
+  "confirmation_score": 55.38,
+  "trade_probability": 53.23,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
