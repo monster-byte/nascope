@@ -242,6 +242,43 @@
     </div>
 </div>
 
+<!-- AUREX Pulse — محرك استشاري منفصل تماماً، لا يدخل بالقرار الرسمي أعلاه -->
+<div class="mt-6 bg-white p-5 rounded-2xl border-2 border-dashed border-indigo-200 shadow-sm">
+    <div class="flex items-center justify-between mb-1">
+        <div class="flex items-center gap-2">
+            <span class="text-lg">⚡</span>
+            <h3 class="text-base font-bold text-indigo-900">Pulse — Intraday Assistant</h3>
+        </div>
+        <span id="pulse-alert-badge" class="text-xs font-bold px-2.5 py-0.5 rounded-full bg-slate-100 text-slate-500">--</span>
+    </div>
+    <p class="text-[11px] text-indigo-400 mb-4">استشاري فقط — مو جزء من قرار Nascope الرسمي أعلاه، بس سياق إضافي للتوقيت اللحظي (فريم 5 دقايق)</p>
+
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-4 text-center">
+        <div class="bg-indigo-50/60 rounded-lg p-2.5">
+            <div class="text-[10px] text-slate-400">VAH</div>
+            <div id="pulse-vah" class="text-sm font-bold text-slate-800">--</div>
+        </div>
+        <div class="bg-indigo-50/60 rounded-lg p-2.5">
+            <div class="text-[10px] text-slate-400">POC</div>
+            <div id="pulse-poc" class="text-sm font-bold text-slate-800">--</div>
+        </div>
+        <div class="bg-indigo-50/60 rounded-lg p-2.5">
+            <div class="text-[10px] text-slate-400">VAL</div>
+            <div id="pulse-val" class="text-sm font-bold text-slate-800">--</div>
+        </div>
+        <div class="bg-indigo-50/60 rounded-lg p-2.5">
+            <div class="text-[10px] text-slate-400">Rel. Volume</div>
+            <div id="pulse-relvol" class="text-sm font-bold text-slate-800">--</div>
+        </div>
+    </div>
+
+    <div class="flex items-center gap-2 mb-2">
+        <span id="pulse-location-badge" class="text-[11px] font-semibold px-2 py-0.5 rounded bg-slate-100 text-slate-500">--</span>
+        <span id="pulse-direction-badge" class="text-[11px] font-semibold px-2 py-0.5 rounded bg-slate-100 text-slate-500">--</span>
+    </div>
+    <p id="pulse-reason" class="text-xs text-slate-600 leading-relaxed">--</p>
+</div>
+
 <footer class="text-center text-[10px] text-slate-400 mt-8 pb-2">
     <span id="footer-generated">--</span>
 </footer>
@@ -687,13 +724,58 @@ function renderLatestSignals(track) {
     lucide.createIcons();
 }
 
-// ---------- Main load ----------
+// ---------- Pulse (advisory only — منفصل تماماً عن القرار الرسمي) ----------
+const PULSE_ALERT_CFG = {
+    HIGH_ATTENTION: { text: 'انتباه عالي', cls: 'bg-orange-100 text-orange-700' },
+    MODERATE_ATTENTION: { text: 'انتباه متوسط', cls: 'bg-amber-100 text-amber-700' },
+    LOW_ATTENTION: { text: 'هادئ', cls: 'bg-slate-100 text-slate-500' },
+};
+const PULSE_LOCATION_LABELS = {
+    NEAR_VAH: 'قريب من VAH', NEAR_VAL: 'قريب من VAL', NEAR_POC: 'قريب من POC',
+    ABOVE_VALUE_AREA: 'فوق منطقة القيمة', BELOW_VALUE_AREA: 'تحت منطقة القيمة',
+    INSIDE_VALUE_AREA: 'داخل منطقة القيمة', UNKNOWN: '--',
+};
+const PULSE_DIRECTION_CFG = {
+    BULLISH_LEAN: { text: 'ميل صعودي', cls: 'bg-emerald-100 text-emerald-700' },
+    BEARISH_LEAN: { text: 'ميل هبوطي', cls: 'bg-rose-100 text-rose-700' },
+    MIXED: { text: 'إشارات متضاربة', cls: 'bg-slate-100 text-slate-500' },
+    NEUTRAL: { text: 'محايد', cls: 'bg-slate-100 text-slate-500' },
+};
+
+function renderPulse(pulse) {
+    const vp = pulse ? pulse.volume_profile : null;
+    const fusion = pulse ? pulse.fusion : null;
+
+    document.getElementById('pulse-vah').innerText = vp && vp.vah != null ? fmtNum(vp.vah, 1) : '--';
+    document.getElementById('pulse-poc').innerText = vp && vp.poc != null ? fmtNum(vp.poc, 1) : '--';
+    document.getElementById('pulse-val').innerText = vp && vp.val != null ? fmtNum(vp.val, 1) : '--';
+    document.getElementById('pulse-relvol').innerText = vp && vp.relative_volume_pct != null ? `${vp.relative_volume_pct}%` : '--';
+
+    const locBadge = document.getElementById('pulse-location-badge');
+    const loc = vp ? vp.price_location : 'UNKNOWN';
+    locBadge.innerText = PULSE_LOCATION_LABELS[loc] || loc || '--';
+
+    const alertBadge = document.getElementById('pulse-alert-badge');
+    const alertCfg = PULSE_ALERT_CFG[fusion ? fusion.alert_level : null] || { text: '--', cls: 'bg-slate-100 text-slate-500' };
+    alertBadge.innerText = alertCfg.text;
+    alertBadge.className = `text-xs font-bold px-2.5 py-0.5 rounded-full ${alertCfg.cls}`;
+
+    const dirBadge = document.getElementById('pulse-direction-badge');
+    const dirCfg = PULSE_DIRECTION_CFG[fusion ? fusion.directional_hint : null] || PULSE_DIRECTION_CFG.NEUTRAL;
+    dirBadge.innerText = dirCfg.text;
+    dirBadge.className = `text-[11px] font-semibold px-2 py-0.5 rounded ${dirCfg.cls}`;
+
+    document.getElementById('pulse-reason').innerText = fusion && fusion.reason ? fusion.reason : 'لا توجد بيانات Pulse متوفرة بعد.';
+}
+
+
 async function init() {
-    const [prices, signal, risk, track] = await Promise.all([
+    const [prices, signal, risk, track, pulse] = await Promise.all([
         loadJSON('prices/snapshot_1D.json'),
         loadJSON('signal/signal_snapshot.json'),
         loadJSON('risk/risk_snapshot.json'),
         loadJSON('track_record/summary.json'),
+        loadJSON('intraday/intraday_snapshot.json'),
     ]);
 
     if (!prices && !signal && !risk && !track) {
@@ -712,6 +794,7 @@ async function init() {
     renderSentiment(signal);
     renderMarketOverview(prices);
     renderLatestSignals(track);
+    renderPulse(pulse);
 
     const genAt = signal ? signal.generated_at : (prices ? prices.generated_at : null);
     document.getElementById('footer-generated').innerText = genAt
