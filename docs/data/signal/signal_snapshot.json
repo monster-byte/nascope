@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T15:45:51.414948+00:00",
+  "generated_at": "2026-09-16T16:01:24.690209+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
-      "status": "red",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.0255,
+          "change_pct": -0.003,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.0051,
-          "up": false
-        },
-        "NVDA": {
-          "change_pct": 0.0601,
+          "change_pct": 0.0283,
           "up": true
         },
-        "AMZN": {
-          "change_pct": -0.0445,
+        "NVDA": {
+          "change_pct": -0.037,
           "up": false
+        },
+        "AMZN": {
+          "change_pct": 0.0605,
+          "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 70.09,
+      "score": 70.08,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29187.0,
-        "sma50": 29178.59,
+        "last_price": 29186.05,
+        "sma50": 29178.57,
         "sma200": 27189.92
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 55.0,
+      "score": 50.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.58,
-        "percentile_vs_20d": 45.0
+        "current_vxn": 21.71,
+        "percentile_vs_20d": 50.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 29.82,
+      "score": 29.49,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.959,
-        "change_5d_pct": 2.522
+        "current_yield_pct": 4.961,
+        "change_5d_pct": 2.564
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.44,
+      "score": 42.56,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.7,
-        "change_5d_pct": 0.945
+        "current_dxy": 99.69,
+        "change_5d_pct": 0.929
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.98,
+      "score": 50.64,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.06,
+        "avg_compound": 0.013,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Why JPMorgan says the US economy can withstand surging oil prices",
-            "source": "Business Insider",
-            "publishedAt": "2026-09-15T15:45:38Z",
+            "title": "Autodesk Advances Agentic AI in Its Three Industry Clouds",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-15T16:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Europe closes mostly lower after economic reports",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-15T15:45:08Z",
+            "title": "Nvidia, AI Chip Stocks Look To Stem The Bleeding After Sell-Off",
+            "source": "Investor's Business Daily",
+            "publishedAt": "2026-09-15T15:59:59Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Perk Brings Its Spend Platform to U.S.: NYSE Content Update",
+            "source": "Businessnewsthisweek.com",
+            "publishedAt": "2026-09-15T15:59:14Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "The Oil Crisis Has Reached Costco’s Motor Oil Aisle",
+            "source": "Moby.co",
+            "publishedAt": "2026-09-15T15:56:26Z",
             "sentiment": "Negative",
-            "compound": -0.296
+            "compound": -0.572
           },
           {
-            "title": "How Fed Rate Hike Could Hit Millions of Homeowners",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-15T15:44:58Z",
+            "title": "Trump’s dividend card",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-15T15:56:16Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Bitcoin’s Correlation With Gold Just Hit a Six-Year High. Is BTC Finally Digital Gold?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-15T15:44:53Z",
+            "title": "Smartphone Chip Stocks Rally While Large-Cap Technology Slips: Skyworks Jumps 11%, Qorvo Rises 7%, Qualcomm Climbs 4%",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-15T15:55:13Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "'You're not making sense!' Explosion as Scott Bessent deflects on inflation at hearing",
-            "source": "Raw Story",
-            "publishedAt": "2026-09-15T15:43:04Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Treasury yields approach inflection point, signaling volatility shift",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-15T15:42:27Z",
-            "sentiment": "Positive",
-            "compound": 0.202
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 43.28,
-  "trade_probability": 45.97,
+  "confirmation_score": 49.33,
+  "trade_probability": 49.6,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
