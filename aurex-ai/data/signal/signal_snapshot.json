@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T01:01:18.377254+00:00",
+  "generated_at": "2026-09-16T01:15:46.324138+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.98,
+      "score": 42.94,
       "status": "yellow",
       "details": {
         "current_dxy": 99.71,
-        "change_5d_pct": 0.877
+        "change_5d_pct": 0.882
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.97,
+      "score": 51.61,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.039,
+        "avg_compound": 0.032,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Indonesia Replaces Finance Minister Amid Growing Investor Skepticism",
+            "source": "The Diplomat",
+            "publishedAt": "2026-09-15T01:06:00Z",
+            "sentiment": "Neutral",
+            "compound": -0.077
+          },
+          {
+            "title": "New iPhone could help trigger another Australian interest rate hike, warns RBA",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-09-15T01:02:36Z",
+            "sentiment": "Positive",
+            "compound": 0.649
+          },
+          {
+            "title": "Sensex today | Stock Market Live: Stock to buy today: Max Healthcare Institute (₹1,037.20)",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-15T01:02:27Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Global Market Today: Asian stocks edge lower on AI concerns, oil gains",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-15T01:01:45Z",
+            "sentiment": "Neutral",
+            "compound": 0.052
+          },
           {
             "title": "US Fed rate hike looms, impacting NSE IPO and global markets; 10-year yields near 5%",
             "source": "The Times of India",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-09-15T00:59:32Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Trump’s See-No-Evil AI Policy",
-            "source": "The Atlantic",
-            "publishedAt": "2026-09-15T00:53:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "What Saudi Arabia’s East-West pipeline closure means for global energy markets",
-            "source": "BusinessLine",
-            "publishedAt": "2026-09-15T00:51:05Z",
-            "sentiment": "Positive",
-            "compound": 0.273
-          },
-          {
-            "title": "US 10-year yields reach 5%, highest since October 2023",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-15T00:50:06Z",
-            "sentiment": "Neutral",
-            "compound": 0.026
-          },
-          {
-            "title": "Best of BS Opinion: Maturity lies in managing risks that progress creates",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-15T00:45:43Z",
-            "sentiment": "Positive",
-            "compound": 0.637
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 35.38,
-  "trade_probability": 41.23,
+  "confirmation_score": 35.34,
+  "trade_probability": 41.2,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
