@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T01:15:46.324138+00:00",
+  "generated_at": "2026-09-16T01:26:23.050187+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.94,
+      "score": 43.06,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.71,
-        "change_5d_pct": 0.882
+        "current_dxy": 99.7,
+        "change_5d_pct": 0.868
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.61,
+      "score": 50.61,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.032,
+        "avg_compound": 0.012,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Telix Pharmaceuticals Shares Soar 11.26% as FDA Approves Its Novel Pixclara Brain Cancer Imaging Drug",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-09-15T01:25:14Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "ASX 200 Slides to Its Lowest Level Since July as Wall Street Selloff and Surging Oil Prices Weigh on Sentiment",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-09-15T01:20:49Z",
+            "sentiment": "Negative",
+            "compound": -0.382
+          },
+          {
+            "title": "AI restraint debate lifts outlook for India tech services stocks",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-15T01:16:27Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Indonesia Replaces Finance Minister Amid Growing Investor Skepticism",
             "source": "The Diplomat",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-09-15T01:02:27Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Global Market Today: Asian stocks edge lower on AI concerns, oil gains",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-15T01:01:45Z",
-            "sentiment": "Neutral",
-            "compound": 0.052
-          },
-          {
-            "title": "US Fed rate hike looms, impacting NSE IPO and global markets; 10-year yields near 5%",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-15T00:59:54Z",
-            "sentiment": "Neutral",
-            "compound": -0.153
-          },
-          {
-            "title": "SpaceX Spent $15.8 Billion on AI in a Quarter. Here's What Happens to the Stock if Orbital Data Centers Don't Work",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-15T00:59:32Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 35.34,
-  "trade_probability": 41.2,
+  "confirmation_score": 35.26,
+  "trade_probability": 41.16,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
