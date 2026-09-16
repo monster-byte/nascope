@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T14:45:49.215058+00:00",
+  "generated_at": "2026-09-16T15:01:27.465495+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
-      "status": "green",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.1048,
+          "change_pct": -0.0509,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.002,
-          "up": true
+          "change_pct": -0.0243,
+          "up": false
         },
         "NVDA": {
-          "change_pct": 0.0371,
+          "change_pct": 0.0882,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.0121,
-          "up": true
+          "change_pct": -0.0081,
+          "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 70.21,
+      "status": "green",
       "details": {
-        "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29161.04,
-        "sma50": 29178.07,
-        "sma200": 27189.79
+        "regime": "BULLISH",
+        "last_price": 29198.85,
+        "sma50": 29178.83,
+        "sma200": 27189.98
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 50.0,
+      "score": 55.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.86,
-        "percentile_vs_20d": 50.0
+        "current_vxn": 21.79,
+        "percentile_vs_20d": 45.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 28.5,
+      "score": 29.16,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.967,
-        "change_5d_pct": 2.688
+        "current_yield_pct": 4.963,
+        "change_5d_pct": 2.605
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.61,
+      "score": 42.7,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.68,
-        "change_5d_pct": 0.923
+        "current_dxy": 99.67,
+        "change_5d_pct": 0.912
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.4,
+      "score": 58.03,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.088,
+        "avg_compound": 0.161,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Warren Buffett sends stark warning to stock market investors",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-15T14:44:43Z",
-            "sentiment": "Negative",
-            "compound": -0.34
-          },
-          {
-            "title": "10-year Treasury yield hits highest level since 2007 as traders bet a Fed rate hike is coming",
-            "source": "Freerepublic.com",
-            "publishedAt": "2026-09-15T14:44:26Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "Citi’s 11%+ RoTCE Target Signals Stronger Capital Efficiency",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-15T14:44:15Z",
-            "sentiment": "Positive",
-            "compound": 0.625
-          },
-          {
-            "title": "NASDAQ: CAPR LAWSUIT ALERT: Investors who lost money with shares of Capricor Therapeutics, Inc.should contact the Shareholders Foundation",
+            "title": "Bank Director's 2026 Technology Survey: Banks Feel Heat From Growing Field of Competitors",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-15T14:44:00Z",
+            "publishedAt": "2026-09-15T15:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.178
+          },
+          {
+            "title": "American Household Income Reaches Highest Level On Record",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-15T14:59:34Z",
             "sentiment": "Neutral",
             "compound": 0.052
           },
           {
-            "title": "Brazil’s Election Won’t Fix Its Biggest Problems",
-            "source": "Foreign Policy",
-            "publishedAt": "2026-09-15T14:43:42Z",
-            "sentiment": "Negative",
-            "compound": -0.402
+            "title": "Bitcoin Sinks as the Senate's Clarity Act Showdown Looms",
+            "source": "Decrypt",
+            "publishedAt": "2026-09-15T14:58:57Z",
+            "sentiment": "Positive",
+            "compound": 0.273
           },
           {
-            "title": "Top Business & Market Headlines Today — BL Morning Report, September 16, 2026",
-            "source": "BusinessLine",
-            "publishedAt": "2026-09-15T14:43:17Z",
+            "title": "US Treasury yield highest since 2007 ahead of Fed’s interest-rate decision",
+            "source": "RT",
+            "publishedAt": "2026-09-15T14:58:27Z",
             "sentiment": "Positive",
-            "compound": 0.703
+            "compound": 0.202
+          },
+          {
+            "title": "Disney Trades Well Below Wall Street’s Target. Here’s What Closes the Gap.",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-15T14:55:29Z",
+            "sentiment": "Positive",
+            "compound": 0.273
+          },
+          {
+            "title": "China’s bond yields hover near record lows as UK gilts surge past levels not seen since 1998",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-15T14:55:10Z",
+            "sentiment": "Negative",
+            "compound": -0.202
           }
         ]
       }
@@ -146,9 +146,9 @@
       }
     }
   },
-  "confirmation_score": 53.58,
-  "trade_probability": 52.15,
-  "market_regime": "NEUTRAL / TRANSITIONAL",
+  "confirmation_score": 43.68,
+  "trade_probability": 46.21,
+  "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
     "directional_bias": "NEUTRAL"
