@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T13:15:54.075852+00:00",
+  "generated_at": "2026-09-16T13:31:12.206495+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
-      "status": "red",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.0694,
-          "up": false
+          "change_pct": 0.5961,
+          "up": true
         },
         "MSFT": {
-          "change_pct": -0.0121,
+          "change_pct": -0.8449,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.0137,
-          "up": false
+          "change_pct": 0.6504,
+          "up": true
         },
         "AMZN": {
-          "change_pct": 0.1088,
+          "change_pct": 0.2496,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28937.84,
-        "sma50": 29178.31,
-        "sma200": 27170.17
+        "last_price": 29094.43,
+        "sma50": 29176.74,
+        "sma200": 27189.46
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 26.85,
+      "score": 27.84,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.977,
-        "change_5d_pct": 2.894
+        "current_yield_pct": 4.971,
+        "change_5d_pct": 2.77
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.24,
+      "score": 42.31,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.73,
-        "change_5d_pct": 0.97
+        "current_dxy": 99.72,
+        "change_5d_pct": 0.962
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.07,
+      "score": 48.51,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.041,
+        "avg_compound": -0.03,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Leonardo DiCaprio invested in Beyond Meat in 2017 before its IPO; 2 years later, the plant-based company briefly soared to a $10 billion valuation",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-15T13:15:03Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "More than FOUR MILLION people now getting disability benefits after PIP claims surge by almost 500,000 to record high under Labour",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-09-15T13:14:23Z",
+            "title": "XOVR Outperforms Growth Benchmarks Since SpaceX IPO",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-15T13:31:00Z",
             "sentiment": "Positive",
             "compound": 0.382
           },
           {
-            "title": "Air Force Says 38 Days of Combat Changed How It Will Fight",
-            "source": "Military.com",
-            "publishedAt": "2026-09-15T13:13:45Z",
+            "title": "Orris, Godrej Properties reach settlement over Gurgaon project dispute; Bombay HC quashes FIR",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-15T13:30:55Z",
             "sentiment": "Negative",
-            "compound": -0.612
+            "compound": -0.382
           },
           {
-            "title": "Federal Reserve is expected to raise its benchmark rate, defying Trump's demands",
-            "source": "Newsday",
-            "publishedAt": "2026-09-15T13:12:22Z",
+            "title": "Kabaddi player chases biker in car, knocks her down on Golf Course Road",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-15T13:30:32Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Vikings Crush Packers: Flores’ Blitz, Wentz’s Relief, and the Murray Question",
-            "source": "Daily Norseman",
-            "publishedAt": "2026-09-15T13:09:48Z",
-            "sentiment": "Positive",
-            "compound": 0.361
+            "title": "Anthropic is Rum Group’s $13.7bn compute customer, The Information reports",
+            "source": "The Next Web",
+            "publishedAt": "2026-09-15T13:29:53Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Bitcoin’s Kimchi Premium Is Back: Is South Korean FOMO Driving BTC Higher?",
-            "source": "Bitcoinfoundation.org",
-            "publishedAt": "2026-09-15T13:08:29Z",
+            "title": "August home sales down 6.9% as economic headwinds threaten market momentum: CREA",
+            "source": "CBC News",
+            "publishedAt": "2026-09-15T13:29:47Z",
+            "sentiment": "Negative",
+            "compound": -0.382
+          },
+          {
+            "title": "He Depreciated the Duplex for 27 Years and Would Have Owed the IRS $180,000 in Recapture the Day He Sold. He Never Sold. His Kids Did, and Owed Nothing",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-15T13:25:38Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 36.46,
-  "trade_probability": 41.88,
+  "confirmation_score": 49.78,
+  "trade_probability": 49.87,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
