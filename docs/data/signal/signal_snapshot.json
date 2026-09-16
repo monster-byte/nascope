@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T17:31:07.043249+00:00",
+  "generated_at": "2026-09-16T17:45:49.840291+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 0.0,
-      "status": "red",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.012,
+          "change_pct": -0.006,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.0344,
-          "up": false
+          "change_pct": 0.0142,
+          "up": true
         },
         "NVDA": {
-          "change_pct": -0.0278,
-          "up": false
+          "change_pct": 0.0116,
+          "up": true
         },
         "AMZN": {
-          "change_pct": -0.0161,
-          "up": false
+          "change_pct": 0.0163,
+          "up": true
         }
       }
     },
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29148.58,
-        "sma50": 29177.82,
-        "sma200": 27189.73
+        "last_price": 29119.85,
+        "sma50": 29177.25,
+        "sma200": 27189.59
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 60.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.45,
+        "current_vxn": 21.41,
         "percentile_vs_20d": 40.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 30.48,
+      "score": 31.15,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.955,
-        "change_5d_pct": 2.44
+        "current_yield_pct": 4.951,
+        "change_5d_pct": 2.357
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.28,
+      "score": 42.31,
       "status": "yellow",
       "details": {
         "current_dxy": 99.72,
-        "change_5d_pct": 0.965
+        "change_5d_pct": 0.961
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.5,
+      "score": 50.46,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.01,
+        "avg_compound": 0.009,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Over 70% of New Solar Power Is Going Up in States That Voted for Trump",
+            "source": "Gizmodo.com",
+            "publishedAt": "2026-09-15T17:40:27Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "US Treasury’s 20-year auction hits highest yield since 2020 as foreign demand craters to record low",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-15T17:37:21Z",
+            "sentiment": "Negative",
+            "compound": -0.382
+          },
+          {
+            "title": "Great News for Social Security Retirees: The 2027 COLA Will Most Likely Be the Highest in 4 Years",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-15T17:33:01Z",
+            "sentiment": "Positive",
+            "compound": 0.758
+          },
+          {
+            "title": "Warren Buffett sends stark warning to stock market investors",
+            "source": "TheStreet",
+            "publishedAt": "2026-09-15T17:33:00Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
+          {
+            "title": "The Fastest-Growing AI Stock Looks Like a Brilliant Buy (It's Also a Nvidia Investment)",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-15T17:32:16Z",
+            "sentiment": "Positive",
+            "compound": 0.743
+          },
           {
             "title": "Anthropic Boasts They Will Kill Off Humanity Way Before OpenAI",
             "source": "Freerepublic.com",
             "publishedAt": "2026-09-15T17:27:30Z",
             "sentiment": "Negative",
             "compound": -0.691
-          },
-          {
-            "title": "Rich Dad Poor Dad author warns biggest crash in history has started",
-            "source": "TheStreet",
-            "publishedAt": "2026-09-15T17:26:03Z",
-            "sentiment": "Negative",
-            "compound": -0.382
-          },
-          {
-            "title": "Cloudflare Hits Highs Amid Agentic AI Boom; Nears Pivot",
-            "source": "Investor's Business Daily",
-            "publishedAt": "2026-09-15T17:24:12Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "What history says about how stocks will react to the Fed's long-awaited rate hike",
-            "source": "Business Insider",
-            "publishedAt": "2026-09-15T17:18:25Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "What history says about how stocks will react to the Fed's long-awaited rate hike",
-            "source": "Business Insider",
-            "publishedAt": "2026-09-15T17:18:25Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Stock Market Midday, Sept. 15: Stocks Slide on AI and Bond Jitters",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-15T17:17:46Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 34.02,
-  "trade_probability": 40.41,
+  "confirmation_score": 54.45,
+  "trade_probability": 52.67,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
