@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T17:15:54.029311+00:00",
+  "generated_at": "2026-09-16T17:31:07.043249+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
+      "score": 0.0,
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.009,
+          "change_pct": -0.012,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.001,
-          "up": true
+          "change_pct": -0.0344,
+          "up": false
         },
         "NVDA": {
-          "change_pct": -0.0232,
+          "change_pct": -0.0278,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.0222,
+          "change_pct": -0.0161,
           "up": false
         }
       }
@@ -40,18 +40,18 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29150.85,
-        "sma50": 29177.87,
-        "sma200": 27189.74
+        "last_price": 29148.58,
+        "sma50": 29177.82,
+        "sma200": 27189.73
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 65.0,
-      "status": "green",
+      "score": 60.0,
+      "status": "yellow",
       "details": {
-        "current_vxn": 21.42,
-        "percentile_vs_20d": 35.0
+        "current_vxn": 21.45,
+        "percentile_vs_20d": 40.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.35,
+      "score": 42.28,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.71,
-        "change_5d_pct": 0.956
+        "current_dxy": 99.72,
+        "change_5d_pct": 0.965
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.51,
+      "score": 49.5,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.05,
+        "avg_compound": -0.01,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Federal Reserve is expected to raise its benchmark rate, defying Trump's demands - ABC News",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-15T17:15:20Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "LAWSUIT NOTICE: NASDAQ: PRCT Investors who lost money with PROCEPT BioRobotics Corporation shares should contact the Shareholders Foundation",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-15T17:15:00Z",
+            "title": "Anthropic Boasts They Will Kill Off Humanity Way Before OpenAI",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-09-15T17:27:30Z",
             "sentiment": "Negative",
-            "compound": -0.408
+            "compound": -0.691
           },
           {
-            "title": "Johnson Fistel Investigates VenHub Global, Inc. (NASDAQ: VHUB) on Behalf of Investors",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-15T17:15:00Z",
+            "title": "Rich Dad Poor Dad author warns biggest crash in history has started",
+            "source": "TheStreet",
+            "publishedAt": "2026-09-15T17:26:03Z",
+            "sentiment": "Negative",
+            "compound": -0.382
+          },
+          {
+            "title": "Cloudflare Hits Highs Amid Agentic AI Boom; Nears Pivot",
+            "source": "Investor's Business Daily",
+            "publishedAt": "2026-09-15T17:24:12Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Gold is starting to move on something a lot bigger than inflation",
+            "title": "What history says about how stocks will react to the Fed's long-awaited rate hike",
+            "source": "Business Insider",
+            "publishedAt": "2026-09-15T17:18:25Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "What history says about how stocks will react to the Fed's long-awaited rate hike",
+            "source": "Business Insider",
+            "publishedAt": "2026-09-15T17:18:25Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Stock Market Midday, Sept. 15: Stocks Slide on AI and Bond Jitters",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-15T17:14:55Z",
+            "publishedAt": "2026-09-15T17:17:46Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Johnson Fistel Investigates Astrotech Corporation (NASDAQ: ASTC) on Behalf of Investors",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-15T17:12:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "EXCLUSIVE: Inside Vance's intimate Capitol Hill huddle as Republicans confront tough midterm terrain",
-            "source": "Fox News",
-            "publishedAt": "2026-09-15T17:04:25Z",
-            "sentiment": "Neutral",
-            "compound": 0.009
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.5,
-  "trade_probability": 44.9,
+  "confirmation_score": 34.02,
+  "trade_probability": 40.41,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
