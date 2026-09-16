@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T07:01:27.867647+00:00",
+  "generated_at": "2026-09-16T07:15:50.291263+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.13,
+      "score": 43.3,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.62,
-        "change_5d_pct": 0.859
+        "current_dxy": 99.6,
+        "change_5d_pct": 0.837
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.7,
+      "score": 46.24,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.046,
+        "avg_compound": -0.075,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Federal Reserve is expected to raise its benchmark rate, defying Trump’s demands - AP News",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-09-15T07:13:28Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Europe opens lower with data in focus",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-15T07:12:35Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "Spain's inflation confirmed at 4.3% in August, up from 3.6%",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-15T07:12:27Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Tata Sons: To list or not to list may no longer be a question—but whether it’s for the better still is",
             "source": "Livemint",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-09-15T07:00:00Z",
             "sentiment": "Negative",
             "compound": -0.382
-          },
-          {
-            "title": "State pension likely to rise by 3.9% next April",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-15T06:58:33Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "French inflation confirmed at 2.4% in August, up from 2.1%",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-15T06:57:43Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Institutional Betrayal: HHS’s Failure to Decarbonize the Healthcare Industry (Part 2)",
-            "source": "Thehealthcareblog.com",
-            "publishedAt": "2026-09-15T06:57:00Z",
-            "sentiment": "Negative",
-            "compound": -0.796
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 35.0,
-  "trade_probability": 41.0,
+  "confirmation_score": 34.89,
+  "trade_probability": 40.93,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
