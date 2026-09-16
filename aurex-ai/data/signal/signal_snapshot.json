@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T03:31:03.619630+00:00",
+  "generated_at": "2026-09-16T03:45:47.130186+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.55,
+      "score": 43.37,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.64,
-        "change_5d_pct": 0.806
+        "current_dxy": 99.66,
+        "change_5d_pct": 0.829
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.28,
+      "score": 52.68,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.046,
+        "avg_compound": 0.054,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Hong Kong’s AI listings glut drags stock market lower",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-15T03:41:29Z",
+            "sentiment": "Negative",
+            "compound": -0.44
+          },
+          {
+            "title": "Nifty seen opening mildly higher despite global weakness; inflation and FPI flows in focus",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-15T03:34:02Z",
+            "sentiment": "Positive",
+            "compound": 0.616
+          },
+          {
+            "title": "Spike on 10-year bond yields renews concerns over U.S. debt - The Washington Post",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-09-15T03:32:55Z",
+            "sentiment": "Negative",
+            "compound": -0.361
+          },
           {
             "title": "Most markets drop as oil extends gains ahead of expected US rate hike",
             "source": "Biztoc.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-09-15T03:10:08Z",
             "sentiment": "Positive",
             "compound": 0.44
-          },
-          {
-            "title": "Rupee, bonds under pressure as oil stays above $100 and Fed hike looms",
-            "source": "BusinessLine",
-            "publishedAt": "2026-09-15T03:09:53Z",
-            "sentiment": "Negative",
-            "compound": -0.421
-          },
-          {
-            "title": "The Meltdown In Employer-Sponsored Health Insurance » PharmaTech News",
-            "source": "Pharmatechnews.com",
-            "publishedAt": "2026-09-15T03:08:39Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Top stocks to buy: Stock recommendations for September 15, 2026 week - check list",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-15T03:03:40Z",
-            "sentiment": "Positive",
-            "compound": 0.202
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 35.45,
-  "trade_probability": 41.27,
+  "confirmation_score": 35.47,
+  "trade_probability": 41.28,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
