@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T16:45:51.155201+00:00",
+  "generated_at": "2026-09-16T16:56:52.252320+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 100.0,
-      "status": "green",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.024,
-          "up": true
+          "change_pct": -0.0351,
+          "up": false
         },
         "MSFT": {
-          "change_pct": 0.0456,
+          "change_pct": 0.001,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.051,
-          "up": true
+          "change_pct": -0.0347,
+          "up": false
         },
         "AMZN": {
-          "change_pct": 0.0525,
+          "change_pct": 0.0071,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29170.97,
-        "sma50": 29178.27,
-        "sma200": 27189.84
+        "last_price": 29165.69,
+        "sma50": 29178.16,
+        "sma200": 27189.82
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 55.0,
+      "score": 60.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.63,
-        "percentile_vs_20d": 45.0
+        "current_vxn": 21.61,
+        "percentile_vs_20d": 40.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 29.49,
+      "score": 30.15,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.961,
-        "change_5d_pct": 2.564
+        "current_yield_pct": 4.957,
+        "change_5d_pct": 2.481
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.49,
+      "score": 42.54,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.7,
-        "change_5d_pct": 0.939
+        "current_dxy": 99.69,
+        "change_5d_pct": 0.932
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.15,
+      "score": 51.25,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.023,
+        "avg_compound": 0.025,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Livestock feed makers see rising competition for maize from ethanol producers",
-            "source": "BusinessLine",
-            "publishedAt": "2026-09-15T16:43:55Z",
+            "title": "European shares fall as rising oil prices trigger rise in global borrowing costs",
+            "source": "The Irish Times",
+            "publishedAt": "2026-09-15T16:56:46Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "Hospitality Veteran Releases an Insider's Guide to Hotel Operations, Management, and Industry Trends",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-15T16:56:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Iowa DIFS Names Pearce as Acting Deputy Insurance Commissioner for Market Regulation",
-            "source": "Insurance Journal",
-            "publishedAt": "2026-09-15T16:43:09Z",
+            "title": "Beaten-up bond market may be nearing 'escape velocity.' Here's what that means",
+            "source": "CNBC",
+            "publishedAt": "2026-09-15T16:53:56Z",
+            "sentiment": "Neutral",
+            "compound": 0.178
+          },
+          {
+            "title": "American incomes finally top pre-pandemic levels, fighting against inflation all the way",
+            "source": "Associated Press",
+            "publishedAt": "2026-09-15T16:52:00Z",
+            "sentiment": "Neutral",
+            "compound": -0.178
+          },
+          {
+            "title": "India bond yields above 7%: Why debt fund investors may find a sweet spot in the 3–5 year segment",
+            "source": "Livemint",
+            "publishedAt": "2026-09-15T16:50:51Z",
+            "sentiment": "Neutral",
+            "compound": 0.128
+          },
+          {
+            "title": "This Is the No. 1 Reason I'm Buying and Holding the Vanguard Total Stock Market ETF (VTI) Right Now",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-15T16:48:17Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Lidl and Einride put a driverless truck into daily service in Germany",
-            "source": "The Next Web",
-            "publishedAt": "2026-09-15T16:41:58Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Why Leave Cash in a Money Market Fund When SGOV Pays About the Same and Skips State Income Tax?",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-15T16:40:43Z",
-            "sentiment": "Neutral",
-            "compound": -0.052
-          },
-          {
-            "title": "Kitchen pinch deepens as Odisha inflation hits 5.52%",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-15T16:40:43Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Circle Internet Sinks 8% as ARK Trims Its Stake Before the Senate Clarity Act Vote; Coinbase and Bitmine Drop 5%",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-15T16:39:20Z",
-            "sentiment": "Neutral",
-            "compound": 0.153
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 60.61,
-  "trade_probability": 56.37,
+  "confirmation_score": 47.66,
+  "trade_probability": 48.6,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
