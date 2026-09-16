@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T16:31:05.181365+00:00",
+  "generated_at": "2026-09-16T16:45:51.155201+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 100.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.0571,
-          "up": false
+          "change_pct": 0.024,
+          "up": true
         },
         "MSFT": {
-          "change_pct": -0.0268,
-          "up": false
+          "change_pct": 0.0456,
+          "up": true
         },
         "NVDA": {
-          "change_pct": 0.0162,
+          "change_pct": 0.051,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.0484,
+          "change_pct": 0.0525,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29176.4,
-        "sma50": 29178.38,
-        "sma200": 27189.87
+        "last_price": 29170.97,
+        "sma50": 29178.27,
+        "sma200": 27189.84
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 50.0,
+      "score": 55.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.75,
-        "percentile_vs_20d": 50.0
+        "current_vxn": 21.63,
+        "percentile_vs_20d": 45.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 30.15,
+      "score": 29.49,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.957,
-        "change_5d_pct": 2.481
+        "current_yield_pct": 4.961,
+        "change_5d_pct": 2.564
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.54,
+      "score": 42.49,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.69,
-        "change_5d_pct": 0.932
+        "current_dxy": 99.7,
+        "change_5d_pct": 0.939
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.92,
+      "score": 51.15,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.058,
-        "articles_analyzed": 23,
+        "avg_compound": 0.023,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Is Ethereum a Good Investment Right Now? It’s Down 16% This Year and Up 33% This Month",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-15T16:30:50Z",
-            "sentiment": "Positive",
-            "compound": 0.44
-          },
-          {
-            "title": "White House signals softer stance on Fed’s potential rate hike",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-15T16:30:24Z",
+            "title": "Livestock feed makers see rising competition for maize from ethanol producers",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-15T16:43:55Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "US household income top pre-pandemic levels for the 1st time as Americans struggle with inflation",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-15T16:29:51Z",
+            "title": "Iowa DIFS Names Pearce as Acting Deputy Insurance Commissioner for Market Regulation",
+            "source": "Insurance Journal",
+            "publishedAt": "2026-09-15T16:43:09Z",
             "sentiment": "Neutral",
-            "compound": -0.128
+            "compound": 0.0
           },
           {
-            "title": "Transient.AI secures investment from Nasdaq Ventures",
+            "title": "Lidl and Einride put a driverless truck into daily service in Germany",
+            "source": "The Next Web",
+            "publishedAt": "2026-09-15T16:41:58Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Why Leave Cash in a Money Market Fund When SGOV Pays About the Same and Skips State Income Tax?",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-15T16:40:43Z",
+            "sentiment": "Neutral",
+            "compound": -0.052
+          },
+          {
+            "title": "Kitchen pinch deepens as Odisha inflation hits 5.52%",
             "source": "The Times of India",
-            "publishedAt": "2026-09-15T16:29:35Z",
-            "sentiment": "Positive",
-            "compound": 0.318
+            "publishedAt": "2026-09-15T16:40:43Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Anthropic Still Plans 2026 IPO Despite Dario Amodei's AI Doomer Warning",
-            "source": "Breitbart News",
-            "publishedAt": "2026-09-15T16:29:17Z",
-            "sentiment": "Negative",
-            "compound": -0.34
-          },
-          {
-            "title": "Stablecoin Yield Ban Would Boost Bank Lending by Just 0.02%: White House",
-            "source": "Cryptoprowl.com",
-            "publishedAt": "2026-09-15T16:29:00Z",
-            "sentiment": "Negative",
-            "compound": -0.226
+            "title": "Circle Internet Sinks 8% as ARK Trims Its Stake Before the Senate Clarity Act Vote; Coinbase and Bitmine Drop 5%",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-15T16:39:20Z",
+            "sentiment": "Neutral",
+            "compound": 0.153
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 46.91,
-  "trade_probability": 48.15,
+  "confirmation_score": 60.61,
+  "trade_probability": 56.37,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
