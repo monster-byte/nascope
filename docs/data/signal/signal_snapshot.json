@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T14:15:49.823858+00:00",
+  "generated_at": "2026-09-16T14:31:11.664842+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.0002,
-          "up": false
+          "change_pct": 0.0559,
+          "up": true
         },
         "MSFT": {
-          "change_pct": 0.0355,
+          "change_pct": 0.0416,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.0277,
-          "up": true
+          "change_pct": -0.0023,
+          "up": false
         },
         "AMZN": {
-          "change_pct": -0.0747,
-          "up": false
+          "change_pct": 0.0162,
+          "up": true
         }
       }
     },
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29143.58,
-        "sma50": 29177.72,
-        "sma200": 27189.71
+        "last_price": 29145.9,
+        "sma50": 29177.77,
+        "sma200": 27189.72
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 60.0,
+      "score": 55.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.66,
-        "percentile_vs_20d": 40.0
+        "current_vxn": 21.77,
+        "percentile_vs_20d": 45.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 28.5,
+      "score": 28.17,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.967,
-        "change_5d_pct": 2.688
+        "current_yield_pct": 4.969,
+        "change_5d_pct": 2.729
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.13,
+      "score": 42.41,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.74,
-        "change_5d_pct": 0.984
+        "current_dxy": 99.71,
+        "change_5d_pct": 0.949
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.82,
+      "score": 47.99,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.056,
+        "avg_compound": -0.04,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "AMD Shares Rebound 3.48% as Chip Stocks Recover From Monday's Sharp AI-Driven Slowdown Selloff Across Sector",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-09-15T14:15:19Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "'Extraordinarily dire' signs spark fears of imminent US crash: 'This could be it'",
-            "source": "Raw Story",
-            "publishedAt": "2026-09-15T14:15:09Z",
+            "title": "President Trump Dismisses AI Doomsday Warnings as Hoax, Says Strong President Provides Enough Oversight",
+            "source": "The Daily Hodl",
+            "publishedAt": "2026-09-15T14:30:26Z",
             "sentiment": "Negative",
-            "compound": -0.765
+            "compound": -0.586
           },
           {
-            "title": "Logitech & Aspire For Her Set New Guinness World Record Title For Largest Women-Only Generative AI Hackathon",
-            "source": "BusinessLine",
-            "publishedAt": "2026-09-15T14:14:43Z",
+            "title": "Land Rover And Stellantis Will Team Up To Build A Defender Pickup In The U.S.",
+            "source": "Jalopnik",
+            "publishedAt": "2026-09-15T14:30:22Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": 0.103
           },
           {
-            "title": "Stock Market Today: Dow Falls On Rising Yields, Oil Prices; Nvidia To Rebound",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-15T14:14:35Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "What to expect from stocks and bonds if interest rates remain higher for longer, according to investing pros",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-15T14:14:22Z",
+            "title": "Cisco Delivers Trusted AI at Scale Through New Splunk Advancements",
+            "source": "Cisco.com",
+            "publishedAt": "2026-09-15T14:30:00Z",
             "sentiment": "Positive",
-            "compound": 0.459
+            "compound": 0.477
           },
           {
-            "title": "The Trump administration keeps promising lower gas prices. They have yet to come",
+            "title": "Cisco Delivers Trusted AI at Scale Through New Splunk Advancements",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-15T14:30:00Z",
+            "sentiment": "Positive",
+            "compound": 0.477
+          },
+          {
+            "title": "Wall Street deepens losses, Dow plunges 450 pts",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-15T14:14:19Z",
-            "sentiment": "Neutral",
-            "compound": 0.128
+            "publishedAt": "2026-09-15T14:29:32Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
+          {
+            "title": "An AI bubble is no longer Wall Street’s biggest fear. This stock-market risk just took its place",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-15T14:29:18Z",
+            "sentiment": "Negative",
+            "compound": -0.758
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 47.54,
-  "trade_probability": 48.52,
+  "confirmation_score": 53.39,
+  "trade_probability": 52.03,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
