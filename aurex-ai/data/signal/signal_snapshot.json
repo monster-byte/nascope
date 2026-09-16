@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T18:01:19.756280+00:00",
+  "generated_at": "2026-09-16T18:15:49.039443+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.045,
+          "change_pct": 0.0605,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.0547,
-          "up": false
-        },
-        "NVDA": {
-          "change_pct": 0.0381,
+          "change_pct": 0.0284,
           "up": true
         },
+        "NVDA": {
+          "change_pct": -0.058,
+          "up": false
+        },
         "AMZN": {
-          "change_pct": -0.0242,
+          "change_pct": -0.0182,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29138.66,
-        "sma50": 29177.62,
-        "sma200": 27189.68
+        "last_price": 29156.71,
+        "sma50": 29177.98,
+        "sma200": 27189.77
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 60.0,
-      "status": "yellow",
+      "score": 65.0,
+      "status": "green",
       "details": {
-        "current_vxn": 21.61,
-        "percentile_vs_20d": 40.0
+        "current_vxn": 21.29,
+        "percentile_vs_20d": 35.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 31.48,
+      "score": 33.13,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.949,
-        "change_5d_pct": 2.315
+        "current_yield_pct": 4.939,
+        "change_5d_pct": 2.109
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.36,
+      "score": 41.22,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.71,
-        "change_5d_pct": 0.955
+        "current_dxy": 99.85,
+        "change_5d_pct": 1.097
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.79,
+      "score": 44.02,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.084,
+        "avg_compound": -0.12,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Time for a rate hike",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-15T18:00:58Z",
+            "title": "Did crypto’s $20 Billion DeFi surge just get stolen by price inflation?",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-09-15T18:15:37Z",
+            "sentiment": "Negative",
+            "compound": -0.494
+          },
+          {
+            "title": "Cheap eats in Dallas for every day of the week",
+            "source": "Dallas Observer",
+            "publishedAt": "2026-09-15T18:15:21Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Iran War Has Cost U.S. Nearly $40 Billion and Fueled Inflation, CBO Finds",
-            "source": "Time",
-            "publishedAt": "2026-09-15T18:00:41Z",
+            "title": "Fed rate hike expected on Wednesday. See what it means for your money.",
+            "source": "CBS News",
+            "publishedAt": "2026-09-15T18:15:09Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Iran war expected to cause a spike in US inflation, according to budget watchdog | CNN Politics",
+            "source": "CNN",
+            "publishedAt": "2026-09-15T18:06:48Z",
             "sentiment": "Negative",
             "compound": -0.599
           },
           {
-            "title": "Sloppy: Find AI slop before it reaches production",
-            "source": "Github.com",
-            "publishedAt": "2026-09-15T18:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.052
-          },
-          {
-            "title": "Inside Economics: Consumer gloom masks a recovery in the economy’s engine room",
-            "source": "New Zealand Herald",
-            "publishedAt": "2026-09-15T18:00:00Z",
+            "title": "Crude oil spike drags rupee to nearly 96 per dollar; Nifty dips 1.2%",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-15T18:02:58Z",
             "sentiment": "Negative",
-            "compound": -0.557
+            "compound": -0.402
           },
           {
-            "title": "Election 2026: Wellington Bays candidates scrap over the cost of living in debate",
-            "source": "New Zealand Herald",
-            "publishedAt": "2026-09-15T17:59:09Z",
+            "title": "Nvidia Will Still Beat AMD Through 2028. Here's the Data Behind My Conviction",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-15T18:02:56Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Milk Launches milkXP with Top Creators and Real Educators to Help Close the Teen Relevance Gap",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-15T17:59:00Z",
-            "sentiment": "Positive",
-            "compound": 0.542
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 47.33,
-  "trade_probability": 48.4,
+  "confirmation_score": 47.74,
+  "trade_probability": 48.64,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
