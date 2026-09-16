@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T19:31:06.281747+00:00",
+  "generated_at": "2026-09-16T19:45:50.928487+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.0844,
+          "change_pct": 0.0784,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.002,
+          "change_pct": 0.0307,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.0225,
+          "change_pct": 0.1924,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.0654,
+          "change_pct": 0.0693,
           "up": true
         }
       }
@@ -40,18 +40,18 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28840.08,
-        "sma50": 29171.65,
-        "sma200": 27188.19
+        "last_price": 28896.24,
+        "sma50": 29172.77,
+        "sma200": 27188.47
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 10.0,
+      "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 23.14,
-        "percentile_vs_20d": 90.0
+        "current_vxn": 23.12,
+        "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 37.66,
+      "score": 37.98,
       "status": "red",
       "details": {
-        "current_dxy": 100.29,
-        "change_5d_pct": 1.542
+        "current_dxy": 100.25,
+        "change_5d_pct": 1.502
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.51,
+      "score": 52.02,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.01,
+        "avg_compound": 0.04,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Manhattan Associates, Inc. Investor News: Rosen Law Firm Announces Investigation of Breaches of Fiduciary Duties by the Directors and Officers of Manhattan Associates, Inc. - MANH",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-15T19:25:00Z",
+            "title": "Okinawa Voted for a New Governor",
+            "source": "The Diplomat",
+            "publishedAt": "2026-09-15T19:43:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Cogent Communications Deadline: CCOI Investors Have Opportunity to Lead Cogent Communications Holdings, Inc. Securities Fraud Lawsuit",
+            "title": "LINC Investors Have Opportunity to Lead Lincoln Educational Services Corporation Securities Fraud Lawsuit",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-15T19:21:00Z",
+            "publishedAt": "2026-09-15T19:41:00Z",
             "sentiment": "Neutral",
             "compound": -0.178
           },
           {
-            "title": "Rosen Law Firm Encourages The Ensign Group, Inc. Investors to Inquire About Securities Class Action Investigation - ENSG",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-15T19:21:00Z",
+            "title": "Here's why a high-yield savings account is worth opening this week",
+            "source": "CBS News",
+            "publishedAt": "2026-09-15T19:40:40Z",
             "sentiment": "Positive",
-            "compound": 0.625
+            "compound": 0.226
           },
           {
-            "title": "Markets on edge as US Fed meets to tackle high inflation",
-            "source": "CNA",
-            "publishedAt": "2026-09-15T19:20:56Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Teachers union sues California over $3.9B in delayed education funds",
-            "source": "New York Post",
-            "publishedAt": "2026-09-15T19:15:57Z",
-            "sentiment": "Negative",
-            "compound": -0.226
-          },
-          {
-            "title": "/C O R R E C T I O N -- Crock-Pot/",
+            "title": "Alarum Deadline: ALAR Investors Have Opportunity to Lead Alarum Technologies Ltd. Securities Fraud Lawsuit Filed by The Rosen Law Firm",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-15T19:09:00Z",
+            "publishedAt": "2026-09-15T19:40:00Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": -0.178
+          },
+          {
+            "title": "FCEL Investors Have Opportunity to Lead FuelCell Energy, Inc. Securities Fraud Lawsuit",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-15T19:39:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.103
+          },
+          {
+            "title": "Datavault AI Inc. Deadline: DVLT Investors Have Opportunity to Lead Datavault AI Inc. Securities Fraud Lawsuit",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-15T19:38:00Z",
+            "sentiment": "Neutral",
+            "compound": -0.178
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.97,
-  "trade_probability": 52.98,
+  "confirmation_score": 55.68,
+  "trade_probability": 53.41,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
