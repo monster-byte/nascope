@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T00:15:48.288720+00:00",
+  "generated_at": "2026-09-16T00:31:06.350901+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.3,
+      "score": 43.4,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.67,
-        "change_5d_pct": 0.838
+        "current_dxy": 99.66,
+        "change_5d_pct": 0.826
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.63,
+      "score": 52.67,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.073,
+        "avg_compound": 0.053,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "'It's unsustainable': Doctors abandon posts in first-ever US hospital walkout",
+            "source": "Raw Story",
+            "publishedAt": "2026-09-15T00:28:34Z",
+            "sentiment": "Negative",
+            "compound": -0.637
+          },
+          {
+            "title": "BofA turns bullish on Nifty, forecasts 12% upside by December",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-15T00:21:50Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "Volkswagen Unveils Ridiculously Efficient “Mission Efficiency” — But Why?",
+            "source": "CleanTechnica",
+            "publishedAt": "2026-09-15T00:18:56Z",
+            "sentiment": "Neutral",
+            "compound": 0.052
+          },
           {
             "title": "PayPal takes No. 1 in tech power ranking",
             "source": "Biztoc.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-09-15T00:06:32Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "The Crippling Effects of Unnecessary War",
-            "source": "Antiwar.com",
-            "publishedAt": "2026-09-15T00:00:26Z",
-            "sentiment": "Negative",
-            "compound": -0.599
-          },
-          {
-            "title": "Retail inflation in August rises to 4.8%, wholesale print up 9.9%",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-15T00:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Treasury Department announces even bigger bond buyback; market shrugs",
-            "source": "Freerepublic.com",
-            "publishedAt": "2026-09-14T23:59:18Z",
-            "sentiment": "Positive",
-            "compound": 0.202
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 35.55,
-  "trade_probability": 41.33,
+  "confirmation_score": 35.48,
+  "trade_probability": 41.29,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
