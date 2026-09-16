@@ -38,16 +38,17 @@ jobs:
           NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
         run: python -m src.pulse.engine
 
-      - name: Copy intraday data for dashboard
+      - name: Copy data for dashboard
         run: |
-          mkdir -p docs/data/intraday
+          mkdir -p docs/data/prices docs/data/intraday
+          cp aurex-ai/data/prices/snapshot_1D.json docs/data/prices/ || true
           cp aurex-ai/data/intraday/intraday_snapshot.json docs/data/intraday/ || true
 
-      - name: Commit updated intraday data
+      - name: Commit updated data
         run: |
           git config user.name "aurex-pulse-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add aurex-ai/data/intraday/ docs/data/intraday/
+          git add -A
           git diff --quiet --cached || git commit -m "chore: auto-update pulse intraday snapshot [skip ci]"
           git pull --rebase
           git push
