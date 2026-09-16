@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T17:45:49.840291+00:00",
+  "generated_at": "2026-09-16T18:01:19.756280+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
-      "status": "green",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.006,
-          "up": false
-        },
-        "MSFT": {
-          "change_pct": 0.0142,
+          "change_pct": 0.045,
           "up": true
         },
+        "MSFT": {
+          "change_pct": -0.0547,
+          "up": false
+        },
         "NVDA": {
-          "change_pct": 0.0116,
+          "change_pct": 0.0381,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.0163,
-          "up": true
+          "change_pct": -0.0242,
+          "up": false
         }
       }
     },
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29119.85,
-        "sma50": 29177.25,
-        "sma200": 27189.59
+        "last_price": 29138.66,
+        "sma50": 29177.62,
+        "sma200": 27189.68
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 60.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.41,
+        "current_vxn": 21.61,
         "percentile_vs_20d": 40.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 31.15,
+      "score": 31.48,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.951,
-        "change_5d_pct": 2.357
+        "current_yield_pct": 4.949,
+        "change_5d_pct": 2.315
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.31,
+      "score": 42.36,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.72,
-        "change_5d_pct": 0.961
+        "current_dxy": 99.71,
+        "change_5d_pct": 0.955
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.46,
+      "score": 45.79,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.009,
+        "avg_compound": -0.084,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Over 70% of New Solar Power Is Going Up in States That Voted for Trump",
-            "source": "Gizmodo.com",
-            "publishedAt": "2026-09-15T17:40:27Z",
+            "title": "Time for a rate hike",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-15T18:00:58Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "US Treasury’s 20-year auction hits highest yield since 2020 as foreign demand craters to record low",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-15T17:37:21Z",
+            "title": "Iran War Has Cost U.S. Nearly $40 Billion and Fueled Inflation, CBO Finds",
+            "source": "Time",
+            "publishedAt": "2026-09-15T18:00:41Z",
             "sentiment": "Negative",
-            "compound": -0.382
+            "compound": -0.599
           },
           {
-            "title": "Great News for Social Security Retirees: The 2027 COLA Will Most Likely Be the Highest in 4 Years",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-15T17:33:01Z",
+            "title": "Sloppy: Find AI slop before it reaches production",
+            "source": "Github.com",
+            "publishedAt": "2026-09-15T18:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.052
+          },
+          {
+            "title": "Inside Economics: Consumer gloom masks a recovery in the economy’s engine room",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-09-15T18:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.557
+          },
+          {
+            "title": "Election 2026: Wellington Bays candidates scrap over the cost of living in debate",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-09-15T17:59:09Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Milk Launches milkXP with Top Creators and Real Educators to Help Close the Teen Relevance Gap",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-15T17:59:00Z",
             "sentiment": "Positive",
-            "compound": 0.758
-          },
-          {
-            "title": "Warren Buffett sends stark warning to stock market investors",
-            "source": "TheStreet",
-            "publishedAt": "2026-09-15T17:33:00Z",
-            "sentiment": "Negative",
-            "compound": -0.34
-          },
-          {
-            "title": "The Fastest-Growing AI Stock Looks Like a Brilliant Buy (It's Also a Nvidia Investment)",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-15T17:32:16Z",
-            "sentiment": "Positive",
-            "compound": 0.743
-          },
-          {
-            "title": "Anthropic Boasts They Will Kill Off Humanity Way Before OpenAI",
-            "source": "Freerepublic.com",
-            "publishedAt": "2026-09-15T17:27:30Z",
-            "sentiment": "Negative",
-            "compound": -0.691
+            "compound": 0.542
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.45,
-  "trade_probability": 52.67,
+  "confirmation_score": 47.33,
+  "trade_probability": 48.4,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
