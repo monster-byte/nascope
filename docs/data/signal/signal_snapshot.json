@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T19:56:43.007072+00:00",
+  "generated_at": "2026-09-16T20:01:16.172829+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
-      "status": "red",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.0572,
-          "up": false
+          "change_pct": 0.0361,
+          "up": true
         },
         "MSFT": {
-          "change_pct": -0.1234,
-          "up": false
+          "change_pct": 0.0092,
+          "up": true
         },
         "NVDA": {
-          "change_pct": -0.2207,
+          "change_pct": -0.0034,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.1873,
+          "change_pct": 0.0977,
           "up": true
         }
       }
@@ -40,18 +40,18 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28923.61,
-        "sma50": 29173.32,
-        "sma200": 27188.61
+        "last_price": 28945.06,
+        "sma50": 29173.75,
+        "sma200": 27188.71
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 20.0,
+      "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.67,
-        "percentile_vs_20d": 80.0
+        "current_vxn": 22.75,
+        "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 38.09,
+      "score": 38.01,
       "status": "red",
       "details": {
-        "current_dxy": 100.24,
-        "change_5d_pct": 1.489
+        "current_dxy": 100.25,
+        "change_5d_pct": 1.498
       }
     },
     "macro": {
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 35.61,
-  "trade_probability": 41.37,
+  "confirmation_score": 48.21,
+  "trade_probability": 48.93,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
