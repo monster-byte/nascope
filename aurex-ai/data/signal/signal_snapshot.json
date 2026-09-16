@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T15:31:09.028251+00:00",
+  "generated_at": "2026-09-16T15:45:51.414948+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,35 +13,35 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.0015,
-          "up": true
+          "change_pct": -0.0255,
+          "up": false
         },
         "MSFT": {
-          "change_pct": -0.0384,
+          "change_pct": -0.0051,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.0278,
+          "change_pct": 0.0601,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.0162,
+          "change_pct": -0.0445,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 70.08,
+      "score": 70.09,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29186.17,
-        "sma50": 29178.57,
+        "last_price": 29187.0,
+        "sma50": 29178.59,
         "sma200": 27189.92
       }
     },
@@ -50,26 +50,26 @@
       "score": 55.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.65,
+        "current_vxn": 21.58,
         "percentile_vs_20d": 45.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 30.48,
+      "score": 29.82,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.955,
-        "change_5d_pct": 2.44
+        "current_yield_pct": 4.959,
+        "change_5d_pct": 2.522
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.71,
+      "score": 42.44,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.67,
-        "change_5d_pct": 0.911
+        "current_dxy": 99.7,
+        "change_5d_pct": 0.945
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.57,
+      "score": 52.98,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.071,
-        "articles_analyzed": 24,
+        "avg_compound": 0.06,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "TeraWulf Falls 5% as AI Infrastructure Names Extend a Month-Long Slide; IREN Drops 4%, Applied Digital Declines 3%",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-15T15:30:49Z",
-            "sentiment": "Neutral",
-            "compound": 0.178
-          },
-          {
-            "title": "Venezuela considers official dollarization of its economy",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-15T15:27:17Z",
+            "title": "Why JPMorgan says the US economy can withstand surging oil prices",
+            "source": "Business Insider",
+            "publishedAt": "2026-09-15T15:45:38Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Are ARX, FULC, EFSI Obtaining Fair Deals for their Shareholders?",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-15T15:27:00Z",
-            "sentiment": "Positive",
-            "compound": 0.318
-          },
-          {
-            "title": "Andy Burnham wants to run a ‘cost of living government’ – here’s what he can learn from families living through the crisis",
-            "source": "The Conversation Africa",
-            "publishedAt": "2026-09-15T15:23:03Z",
+            "title": "Europe closes mostly lower after economic reports",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-15T15:45:08Z",
             "sentiment": "Negative",
-            "compound": -0.625
+            "compound": -0.296
           },
           {
-            "title": "ED chief orders action against IBC frauds, large haircuts to promoters",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-15T15:19:54Z",
-            "sentiment": "Negative",
-            "compound": -0.511
+            "title": "How Fed Rate Hike Could Hit Millions of Homeowners",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-15T15:44:58Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Home Buying Becomes a Luxury as 10-Year Treasuries Push Mortgage Rates to 7.17%",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-15T15:19:42Z",
+            "title": "Bitcoin’s Correlation With Gold Just Hit a Six-Year High. Is BTC Finally Digital Gold?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-15T15:44:53Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "'You're not making sense!' Explosion as Scott Bessent deflects on inflation at hearing",
+            "source": "Raw Story",
+            "publishedAt": "2026-09-15T15:43:04Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Treasury yields approach inflection point, signaling volatility shift",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-15T15:42:27Z",
             "sentiment": "Positive",
-            "compound": 0.226
+            "compound": 0.202
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 50.19,
-  "trade_probability": 50.11,
+  "confirmation_score": 43.28,
+  "trade_probability": 45.97,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
