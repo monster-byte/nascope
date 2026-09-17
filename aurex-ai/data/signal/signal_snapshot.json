@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T14:15:47.291953+00:00",
+  "generated_at": "2026-09-17T14:31:07.494780+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,36 +13,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.042,
+          "change_pct": 0.0705,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.003,
-          "up": false
+          "change_pct": 0.1174,
+          "up": true
         },
         "NVDA": {
-          "change_pct": -0.0661,
+          "change_pct": -0.0068,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.038,
+          "change_pct": 0.125,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.37,
+      "score": 72.48,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29407.17,
-        "sma50": 29176.84,
-        "sma200": 27208.58
+        "last_price": 29418.54,
+        "sma50": 29177.07,
+        "sma200": 27208.63
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 70.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.48,
+        "current_vxn": 20.38,
         "percentile_vs_20d": 30.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 48.87,
+      "score": 49.51,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.951,
-        "change_5d_pct": 0.142
+        "current_yield_pct": 4.947,
+        "change_5d_pct": 0.061
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.18,
+      "score": 41.9,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.06,
-        "change_5d_pct": 0.977
+        "current_dxy": 100.09,
+        "change_5d_pct": 1.012
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.39,
+      "score": 54.27,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.108,
+        "avg_compound": 0.085,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "J.B. Hunt flags Q3 cost pressures, shares sink 12%",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-16T14:13:53Z",
-            "sentiment": "Neutral",
-            "compound": -0.026
+            "title": "SOUTHERN LIVING'S 2026 IDEA HOUSE CELEBRATES HILL COUNTRY LIVING IN FREDERICKSBURG, TEXAS",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-16T14:29:00Z",
+            "sentiment": "Positive",
+            "compound": 0.663
           },
           {
-            "title": "Forget the Rate Hike! The Fed’s Dot Plot Could Trigger a Massive Crypto Shock Today",
-            "source": "Crypto Coins News",
-            "publishedAt": "2026-09-16T14:13:52Z",
-            "sentiment": "Negative",
-            "compound": -0.585
-          },
-          {
-            "title": "Don't freak out says Jim Cramer as he sends scary 2026 market verdict",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-16T14:11:45Z",
-            "sentiment": "Neutral",
-            "compound": -0.05
-          },
-          {
-            "title": "Fed seen hiking rates in defiance of Trump",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-16T14:11:16Z",
+            "title": "‘Visible construction’ for MetroLink expected in Dublin by end of year",
+            "source": "The Irish Times",
+            "publishedAt": "2026-09-16T14:28:43Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Levi & Korsinsky Reminds EquipmentShare.com Investors of the Pending Class Action Lawsuit With a Lead Plaintiff Deadline of September 21, 2026 - EQPT",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-16T14:09:00Z",
-            "sentiment": "Negative",
-            "compound": -0.226
+            "title": "At 23, Ben Bell became New Zealand's youngest mayor by just 8 votes; after a no-confidence fight, he won re-election in 2025",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-16T14:27:01Z",
+            "sentiment": "Positive",
+            "compound": 0.273
           },
           {
-            "title": "HTZ Shareholder Alert: Investors With Losses May Seek to Lead the Class Action in Hertz Global Holdings Securities Lawsuit - Contact Levi & Korsinsky",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-16T14:09:00Z",
+            "title": "Intel Stock Rises On Talk Of Fab Deal With SK Hynix",
+            "source": "Investor's Business Daily",
+            "publishedAt": "2026-09-16T14:26:31Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "What’s up with… Transatlantic networks, AI in Europe, EC rules",
+            "source": "TelecomTV",
+            "publishedAt": "2026-09-16T14:25:15Z",
             "sentiment": "Neutral",
-            "compound": -0.052
+            "compound": 0.0
+          },
+          {
+            "title": "ProCap Financial sells 50 Bitcoin to repurchase shares, boosting per-share BTC exposure",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-16T14:23:22Z",
+            "sentiment": "Positive",
+            "compound": 0.557
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.45,
-  "trade_probability": 52.67,
+  "confirmation_score": 61.17,
+  "trade_probability": 56.7,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
