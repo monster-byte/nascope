@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T06:45:54.501406+00:00",
+  "generated_at": "2026-09-17T07:01:15.911797+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.37,
+      "score": 41.6,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.16,
-        "change_5d_pct": 1.079
+        "current_dxy": 100.13,
+        "change_5d_pct": 1.051
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.5,
+      "score": 55.27,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.13,
+        "avg_compound": 0.105,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "‘People just do not want the world to change so much’: The war over the future of work being fought by Gen Z",
+            "source": "Fortune",
+            "publishedAt": "2026-09-16T07:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.771
+          },
+          {
+            "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-16T06:53:14Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Chipotle stock slides 6%: What’s behind the selloff?",
             "source": "Economictimes.com",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-09-16T06:42:22Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "UK inflation speeds up to 3.1% in August",
-            "source": "RTE",
-            "publishedAt": "2026-09-16T06:39:53Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "CNA Explains: Saudi Arabia's East-West pipeline is down. With its oil 'insurance policy' offline, what comes next?",
-            "source": "CNA",
-            "publishedAt": "2026-09-16T06:39:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 49.64,
-  "trade_probability": 49.78,
+  "confirmation_score": 49.55,
+  "trade_probability": 49.73,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
