@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T17:45:48.547640+00:00",
+  "generated_at": "2026-09-17T18:01:23.218208+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
-      "status": "green",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.0223,
+          "change_pct": 0.0281,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.0081,
-          "up": true
+          "change_pct": -0.0645,
+          "up": false
         },
         "NVDA": {
-          "change_pct": 0.0113,
-          "up": true
+          "change_pct": -0.0251,
+          "up": false
         },
         "AMZN": {
-          "change_pct": -0.0067,
+          "change_pct": -0.0835,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.64,
+      "score": 72.65,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29434.24,
-        "sma50": 29177.38,
-        "sma200": 27208.71
+        "last_price": 29435.49,
+        "sma50": 29177.41,
+        "sma200": 27208.72
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 95.0,
+      "score": 85.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.01,
-        "percentile_vs_20d": 5.0
+        "current_vxn": 20.05,
+        "percentile_vs_20d": 15.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 48.22,
+      "score": 48.87,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.955,
-        "change_5d_pct": 0.222
+        "current_yield_pct": 4.951,
+        "change_5d_pct": 0.142
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 40.76,
+      "score": 40.67,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.24,
-        "change_5d_pct": 1.156
+        "current_dxy": 100.25,
+        "change_5d_pct": 1.167
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.97,
+      "score": 52.56,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.099,
-        "articles_analyzed": 24,
+        "avg_compound": 0.051,
+        "articles_analyzed": 23,
         "top_headlines": [
           {
-            "title": "The Dow, S&P 500, and Nasdaq Split Ahead of a Near-Certain Rate Hike",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-16T17:44:21Z",
+            "title": "At The Money: Investing in Founder-Led Companies",
+            "source": "Ritholtz.com",
+            "publishedAt": "2026-09-16T18:00:43Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Bank of Canada eyes rate hikes as gas prices fuel inflation concerns",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-16T17:38:02Z",
+            "title": "Fed Raises Rates For First Time In Over 3 Years",
+            "source": "The Daily Caller",
+            "publishedAt": "2026-09-16T18:00:27Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Gender Wage Gap Narrows Amid Affordability Crisis, but Black and Latina Women Still Left Behind",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-16T17:38:00Z",
-            "sentiment": "Negative",
-            "compound": -0.372
-          },
-          {
-            "title": "Modi's governance model: Scaling trust, efficiency and growth",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-16T17:36:55Z",
+            "title": "Fed raises interest rates for first time since 2023, defying Trump as inflation mounts",
+            "source": "NBC News",
+            "publishedAt": "2026-09-16T18:00:25Z",
             "sentiment": "Positive",
-            "compound": 0.813
+            "compound": 0.459
           },
           {
-            "title": "Mortgage Demand Drops as Rate Climbs Toward 7 Percent",
-            "source": "Theepochtimes.com",
-            "publishedAt": "2026-09-16T17:34:00Z",
+            "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
+            "source": "Federalreserve.gov",
+            "publishedAt": "2026-09-16T18:00:00Z",
             "sentiment": "Neutral",
-            "compound": -0.128
+            "compound": 0.0
           },
           {
-            "title": "European shares rise as oil pauses in advance of Fed rate decision",
-            "source": "The Irish Times",
-            "publishedAt": "2026-09-16T17:33:45Z",
+            "title": "Lionsgate, Neon, FilmNation Commit to Career Producer Asks for Healthcare and Development Fees (EXCLUSIVE)",
+            "source": "Variety",
+            "publishedAt": "2026-09-16T18:00:00Z",
             "sentiment": "Positive",
-            "compound": 0.296
+            "compound": 0.532
+          },
+          {
+            "title": "Federal Reserve issues FOMC statement",
+            "source": "Federalreserve.gov",
+            "publishedAt": "2026-09-16T18:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 63.23,
-  "trade_probability": 57.94,
+  "confirmation_score": 48.7,
+  "trade_probability": 49.22,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
