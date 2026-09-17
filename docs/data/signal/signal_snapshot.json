@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T13:15:49.941681+00:00",
+  "generated_at": "2026-09-17T13:31:10.004230+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,36 +13,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
+      "score": 100.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.0361,
+          "change_pct": 0.3444,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.0092,
+          "change_pct": 1.9231,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.0034,
-          "up": false
+          "change_pct": 1.8699,
+          "up": true
         },
         "AMZN": {
-          "change_pct": 0.0977,
+          "change_pct": 2.4365,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 72.37,
+      "status": "green",
       "details": {
-        "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28945.06,
-        "sma50": 29173.75,
-        "sma200": 27188.71
+        "regime": "BULLISH",
+        "last_price": 29407.51,
+        "sma50": 29176.85,
+        "sma200": 27208.58
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 48.87,
+      "score": 49.51,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.951,
-        "change_5d_pct": 0.142
+        "current_yield_pct": 4.947,
+        "change_5d_pct": 0.061
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.92,
+      "score": 41.85,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.09,
-        "change_5d_pct": 1.01
+        "current_dxy": 100.1,
+        "change_5d_pct": 1.018
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.79,
+      "score": 47.87,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.084,
+        "avg_compound": -0.043,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Think Nvidia Is Overpriced? The Irony Keeps Me Buying Again and Again",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-16T13:15:32Z",
-            "sentiment": "Neutral",
-            "compound": -0.052
-          },
-          {
-            "title": "May Mobility to list on Nasdaq via $1.4 billion SPAC deal",
-            "source": "CNA",
-            "publishedAt": "2026-09-16T13:12:55Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Petrol could hit ₦5,000 under Tinubu, SDP’s Adebayo warns",
-            "source": "Vanguard",
-            "publishedAt": "2026-09-16T13:12:03Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
-          },
-          {
-            "title": "Rate Hike Shock: Can the S&P Hold?",
-            "source": "Trefis",
-            "publishedAt": "2026-09-16T13:11:12Z",
+            "title": "The Tax-Saving Trap: Why Deductions Should Never Dictate Your Portfolio",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-16T13:30:10Z",
             "sentiment": "Negative",
-            "compound": -0.382
+            "compound": -0.318
           },
           {
-            "title": "US retail sales rebound sharply in August",
-            "source": "The Straits Times",
-            "publishedAt": "2026-09-16T13:11:09Z",
+            "title": "Country Profile – Argentina 2026",
+            "source": "Music Ally",
+            "publishedAt": "2026-09-16T13:30:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Cathie Wood Projects $10 Trillion In SpaceX Starship Revenue By 2030",
-            "source": "Investor's Business Daily",
-            "publishedAt": "2026-09-16T13:10:47Z",
+            "title": "Broker’s call: Avenue Supermarts (Sell)",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-16T13:29:31Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "Iran: Activists sound alarm as regime seizes Baha'i assets",
+            "source": "DW (English)",
+            "publishedAt": "2026-09-16T13:28:00Z",
+            "sentiment": "Neutral",
+            "compound": -0.178
+          },
+          {
+            "title": "Datasea Expands into China's Trillion-RMB Silver Economy Through Strategic Cooperation in AI Elderly Care Robots",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-16T13:28:00Z",
+            "sentiment": "Positive",
+            "compound": 0.557
+          },
+          {
+            "title": "Praj and Gevo Enter Development & Commercialization Agreement for Bio-IBA in India",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-16T13:27:20Z",
+            "sentiment": "Positive",
+            "compound": 0.494
           }
         ]
       }
@@ -146,9 +146,9 @@
       }
     }
   },
-  "confirmation_score": 52.34,
-  "trade_probability": 51.4,
-  "market_regime": "NEUTRAL / TRANSITIONAL",
+  "confirmation_score": 62.38,
+  "trade_probability": 57.43,
+  "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
     "directional_bias": "NEUTRAL"
