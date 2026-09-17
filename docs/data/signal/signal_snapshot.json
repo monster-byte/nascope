@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T15:40:27.508201+00:00",
+  "generated_at": "2026-09-17T15:45:49.586047+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.015,
+          "change_pct": 0.063,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.007,
-          "up": false
+          "change_pct": 0.0271,
+          "up": true
         },
         "NVDA": {
-          "change_pct": -0.0068,
+          "change_pct": -0.0178,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.0134,
-          "up": true
+          "change_pct": -0.004,
+          "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.47,
+      "score": 72.62,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29417.25,
-        "sma50": 29177.04,
-        "sma200": 27208.63
+        "last_price": 29432.55,
+        "sma50": 29177.35,
+        "sma200": 27208.7
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 75.0,
+      "score": 70.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.36,
-        "percentile_vs_20d": 25.0
+        "current_vxn": 20.32,
+        "percentile_vs_20d": 30.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 49.19,
+      "score": 49.51,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.949,
-        "change_5d_pct": 0.101
+        "current_yield_pct": 4.947,
+        "change_5d_pct": 0.061
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.03,
+      "score": 40.93,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.2,
-        "change_5d_pct": 1.121
+        "current_dxy": 100.21,
+        "change_5d_pct": 1.133
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.77,
+      "score": 51.73,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.015,
+        "avg_compound": 0.035,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "World's top-performing sovereign wealth fund warns of looming pullback in U.S. stock market",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-16T15:45:29Z",
+            "sentiment": "Positive",
+            "compound": 0.318
+          },
+          {
+            "title": "Europe closes higher with eyes on Fed's rate call",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-16T15:44:10Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Credo’s $236 Million Adjusted Profit Came With Just $83 Million in Free Cash Flow",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-16T15:42:39Z",
+            "sentiment": "Positive",
+            "compound": 0.735
+          },
+          {
+            "title": "NASDAQ 100 put-to-call skew drops to historic low as investors turn bullish",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-16T15:40:59Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
           {
             "title": "Top Business & Market Headlines Today — BL Morning Report, September 17, 2026",
             "source": "BusinessLine",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-09-16T15:36:29Z",
             "sentiment": "Negative",
             "compound": -0.541
-          },
-          {
-            "title": "Monthly Paydays vs. Compound Growth: Why JNJ Beats O for Long-Term Retirees",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-16T15:36:16Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "Bitcoin Price Prediction: What Could Bitcoin Be Worth Before Q4?",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-16T15:34:11Z",
-            "sentiment": "Positive",
-            "compound": 0.226
-          },
-          {
-            "title": "Bitcoin awaits Fed rate decision below $76K as analysis discounts ‘dovish surprise’ odds",
-            "source": "Cointelegraph",
-            "publishedAt": "2026-09-16T15:30:49Z",
-            "sentiment": "Neutral",
-            "compound": 0.077
-          },
-          {
-            "title": "The Next Phase of Webull Could Be the One That Matters Most",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-16T15:30:12Z",
-            "sentiment": "Neutral",
-            "compound": 0.026
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.44,
-  "trade_probability": 52.66,
+  "confirmation_score": 54.13,
+  "trade_probability": 52.48,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
