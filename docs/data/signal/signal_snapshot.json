@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T19:01:56.712463+00:00",
+  "generated_at": "2026-09-17T19:15:50.804542+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
-      "status": "green",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.0526,
-          "up": true
+          "change_pct": -0.0133,
+          "up": false
         },
         "MSFT": {
-          "change_pct": 0.0364,
-          "up": true
+          "change_pct": -0.0063,
+          "up": false
         },
         "NVDA": {
-          "change_pct": 0.0501,
+          "change_pct": 0.0205,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.0,
+          "change_pct": -0.0119,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.58,
+      "score": 72.72,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29428.16,
-        "sma50": 29177.26,
-        "sma200": 27208.68
+        "last_price": 29441.76,
+        "sma50": 29177.53,
+        "sma200": 27208.75
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 95.0,
+      "score": 90.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.03,
-        "percentile_vs_20d": 5.0
+        "current_vxn": 20.09,
+        "percentile_vs_20d": 10.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 48.87,
+      "score": 49.51,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.951,
-        "change_5d_pct": 0.142
+        "current_yield_pct": 4.947,
+        "change_5d_pct": 0.061
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 40.74,
+      "score": 40.75,
       "status": "yellow",
       "details": {
         "current_dxy": 100.24,
-        "change_5d_pct": 1.158
+        "change_5d_pct": 1.157
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 44.26,
+      "score": 49.11,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.115,
+        "avg_compound": -0.018,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "11th India Food Expo likely to generate opportunities worth Rs 750 crore: IIA",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-16T19:01:49Z",
+            "title": "US Fed hikes interest rates to curb inflation in move likely to rile Trump",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-09-16T19:15:28Z",
             "sentiment": "Positive",
-            "compound": 0.542
+            "compound": 0.459
           },
           {
-            "title": "Goons thrash elderly couple in food stall row",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-16T19:01:35Z",
-            "sentiment": "Negative",
-            "compound": -0.202
+            "title": "US Fed hikes interests rates to curb inflation in move likely to rile Trump",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-09-16T19:15:28Z",
+            "sentiment": "Positive",
+            "compound": 0.25
           },
           {
-            "title": "NIA arrests PNB currency chest driver in ₹17.29cr fake notes case in Saharanpur",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-16T19:01:26Z",
-            "sentiment": "Negative",
-            "compound": -0.718
-          },
-          {
-            "title": "Ram Rahim returns to Sunaria jail after 21-day furlough",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-16T19:01:13Z",
+            "title": "Fed Hikes Rate for the First Time Since 2023",
+            "source": "NerdWallet",
+            "publishedAt": "2026-09-16T19:15:13Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "UP power supply likely to improve as 2,550 MW set to return in two days",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-16T19:00:50Z",
-            "sentiment": "Positive",
-            "compound": 0.44
+            "title": "Warsh: Trends matter, data points are noisy",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-16T19:14:53Z",
+            "sentiment": "Neutral",
+            "compound": -0.153
           },
           {
-            "title": "UP sanctions ₹52.6 lakh for sniper rifles, bomb detection gear for UPSSF",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-16T19:00:41Z",
-            "sentiment": "Negative",
-            "compound": -0.494
+            "title": "2-year US Treasury yield rises as Fed tightens policy",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-16T19:14:47Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "Warsh: Higher long-term yields driven by economic strength",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-16T19:14:46Z",
+            "sentiment": "Positive",
+            "compound": 0.494
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 62.35,
-  "trade_probability": 57.41,
+  "confirmation_score": 48.94,
+  "trade_probability": 49.36,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
