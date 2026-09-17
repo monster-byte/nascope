@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T18:15:52.652102+00:00",
+  "generated_at": "2026-09-17T18:31:10.952176+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 100.0,
+      "score": 75.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.0089,
+          "change_pct": 0.0387,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.0091,
+          "change_pct": 0.0283,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.0365,
+          "change_pct": 0.0114,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.0159,
-          "up": true
+          "change_pct": -0.004,
+          "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.61,
+      "score": 72.57,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29430.7,
-        "sma50": 29177.31,
-        "sma200": 27208.69
+        "last_price": 29427.61,
+        "sma50": 29177.25,
+        "sma200": 27208.68
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 85.0,
+      "score": 95.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.05,
-        "percentile_vs_20d": 15.0
+        "current_vxn": 20.02,
+        "percentile_vs_20d": 5.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 49.51,
+      "score": 50.16,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.947,
-        "change_5d_pct": 0.061
+        "current_yield_pct": 4.943,
+        "change_5d_pct": -0.02
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 40.84,
+      "score": 40.72,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.22,
-        "change_5d_pct": 1.144
+        "current_dxy": 100.24,
+        "change_5d_pct": 1.161
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 60.2,
+      "score": 46.76,
       "status": "yellow",
       "details": {
-        "overall_sentiment": "BULLISH",
-        "avg_compound": 0.204,
+        "overall_sentiment": "NEUTRAL",
+        "avg_compound": -0.065,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Fed Hikes Rates for the First Time Since 2023, Bitcoin Spikes",
-            "source": "Decrypt",
-            "publishedAt": "2026-09-16T18:15:38Z",
+            "title": "Day after ‘trespasser’ notice, Jadavpur University registrar drives students out of campus after 8pm",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-16T18:31:02Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Fed Interest Meeting: Warsh Raises Rates Despite Trump's Desires",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-16T18:15:05Z",
-            "sentiment": "Positive",
-            "compound": 0.459
-          },
-          {
-            "title": "U.S. Money Reserve Marks 25 Years of Growth, Serving More Than 1 Million Clients",
+            "title": "TCA Named Media Agency of Record for Accredited Debt Relief",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-16T18:15:00Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "Starbucks Is Building a $100 Million Nashville Hub for 2,000 Workers. Moving There at 63 Could Turn a Relocation Check Into Social Security Wages",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-16T18:14:34Z",
-            "sentiment": "Positive",
-            "compound": 0.34
-          },
-          {
-            "title": "Fed raises interest rates by 25bps, first hike since 2023",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-16T18:13:50Z",
-            "sentiment": "Positive",
-            "compound": 0.459
-          },
-          {
-            "title": "Federal Reserve hikes interest rates for first time since 2023 amid stubborn inflation",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-16T18:13:37Z",
+            "publishedAt": "2026-09-16T18:31:00Z",
             "sentiment": "Neutral",
-            "compound": 0.077
+            "compound": 0.153
+          },
+          {
+            "title": "No fixing, just listening: Bengaluru’s sharing circles make room for difficult conversations",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-16T18:30:00Z",
+            "sentiment": "Negative",
+            "compound": -0.226
+          },
+          {
+            "title": "Theatre Review: Witness for the Prosecution - A gripping courtroom thriller where nothing is as it seems at first",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-16T18:30:00Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
+          {
+            "title": "Theatre always renews my energy: Rajesh Nataranga on returning to stage after 20 years",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-16T18:30:00Z",
+            "sentiment": "Positive",
+            "compound": 0.273
+          },
+          {
+            "title": "Govt taps states, agencies for long-term power supply",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-16T18:29:59Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 69.73,
-  "trade_probability": 61.84,
+  "confirmation_score": 62.74,
+  "trade_probability": 57.64,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
