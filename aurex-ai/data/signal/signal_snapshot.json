@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T00:15:47.698296+00:00",
+  "generated_at": "2026-09-17T00:31:03.014020+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 38.11,
+      "score": 37.85,
       "status": "red",
       "details": {
-        "current_dxy": 100.24,
-        "change_5d_pct": 1.486
+        "current_dxy": 100.27,
+        "change_5d_pct": 1.519
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 42.67,
+      "score": 44.6,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.147,
-        "articles_analyzed": 24,
+        "avg_compound": -0.108,
+        "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Stocks in news: Yes Bank, Vedanta, Groww, BHEL, Bharat Forge and NBCC",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-16T00:30:00Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "Pre-market action: Here's the trade setup for today's session",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-16T00:30:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "BOJ expected to hike rates by 25 basis points to fresh three-decade high: CNBC survey",
+            "source": "CNBC",
+            "publishedAt": "2026-09-16T00:22:11Z",
+            "sentiment": "Positive",
+            "compound": 0.318
+          },
           {
             "title": "ASX 200 Edges Higher After 11-Week Low as Markets Await Crucial Wednesday US Fed Interest Rate Decision",
             "source": "Ibtimes.com.au",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-09-16T00:00:31Z",
             "sentiment": "Negative",
             "compound": -0.494
-          },
-          {
-            "title": "Gold Steadies Below $4,300 as Markets Await Fed Rate Decision",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-16T00:00:15Z",
-            "sentiment": "Neutral",
-            "compound": 0.103
-          },
-          {
-            "title": "Nvidia RTX 5090 GPU prices skyrocket to $9,000 — as fresh RTX 6000 rumor suggests a 2027 launch that fills me with dread",
-            "source": "TechRadar",
-            "publishedAt": "2026-09-16T00:00:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.178
-          },
-          {
-            "title": "MySize Announces $2.5 Million Private Placement Priced At-the-Market Under Nasdaq Rules",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-16T00:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 48.1,
-  "trade_probability": 48.86,
+  "confirmation_score": 48.25,
+  "trade_probability": 48.95,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
