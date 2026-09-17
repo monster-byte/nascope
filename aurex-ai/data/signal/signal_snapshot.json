@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T13:31:10.004230+00:00",
+  "generated_at": "2026-09-17T13:45:52.823325+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,36 +13,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 100.0,
-      "status": "green",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.3444,
+          "change_pct": 0.0075,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.9231,
-          "up": true
+          "change_pct": -0.149,
+          "up": false
         },
         "NVDA": {
-          "change_pct": 1.8699,
+          "change_pct": 0.0482,
           "up": true
         },
         "AMZN": {
-          "change_pct": 2.4365,
-          "up": true
+          "change_pct": -0.1856,
+          "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.37,
+      "score": 71.63,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29407.51,
-        "sma50": 29176.85,
-        "sma200": 27208.58
+        "last_price": 29333.71,
+        "sma50": 29175.37,
+        "sma200": 27208.21
       }
     },
     "vxn": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.85,
+      "score": 41.84,
       "status": "yellow",
       "details": {
         "current_dxy": 100.1,
-        "change_5d_pct": 1.018
+        "change_5d_pct": 1.02
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.87,
+      "score": 51.33,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.043,
+        "avg_compound": 0.027,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "The Tax-Saving Trap: Why Deductions Should Never Dictate Your Portfolio",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-16T13:30:10Z",
-            "sentiment": "Negative",
-            "compound": -0.318
+            "title": "Jim Cramer Says Brinker (EAT) “Never Fails to Wow Me”",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-16T13:43:44Z",
+            "sentiment": "Positive",
+            "compound": 0.25
           },
           {
-            "title": "Country Profile – Argentina 2026",
-            "source": "Music Ally",
-            "publishedAt": "2026-09-16T13:30:00Z",
+            "title": "Rising diesel and heating oil prices strain swing state voters ahead of midterms",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-16T13:42:38Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": -0.052
           },
           {
-            "title": "Broker’s call: Avenue Supermarts (Sell)",
-            "source": "BusinessLine",
-            "publishedAt": "2026-09-16T13:29:31Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Iran: Activists sound alarm as regime seizes Baha'i assets",
-            "source": "DW (English)",
-            "publishedAt": "2026-09-16T13:28:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.178
-          },
-          {
-            "title": "Datasea Expands into China's Trillion-RMB Silver Economy Through Strategic Cooperation in AI Elderly Care Robots",
+            "title": "WSE SHAREHOLDER NOTICE: Faruqi & Faruqi, LLP Reminds Wise Group plc (WSE) Investors of Securities Class Action Lawsuit Deadline on September 29, 2026",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-16T13:28:00Z",
+            "publishedAt": "2026-09-16T13:42:00Z",
             "sentiment": "Positive",
-            "compound": 0.557
+            "compound": 0.527
           },
           {
-            "title": "Praj and Gevo Enter Development & Commercialization Agreement for Bio-IBA in India",
+            "title": "Stanley Druckenmiller sees a Fed problem Wall Street can't ignore",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-16T13:41:37Z",
+            "sentiment": "Neutral",
+            "compound": -0.151
+          },
+          {
+            "title": "US retail sales rise 1.2% as motor vehicle purchases increase",
             "source": "BusinessLine",
-            "publishedAt": "2026-09-16T13:27:20Z",
+            "publishedAt": "2026-09-16T13:41:36Z",
             "sentiment": "Positive",
-            "compound": 0.494
+            "compound": 0.318
+          },
+          {
+            "title": "Jackie O's manager gives cryptic response to relapse rumours... plus, an update on the Silvagnis' marriage - and an insider reveals moment Karl turned on Keshnee Kemp: INSIDE MAIL",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-09-16T13:41:15Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 62.38,
-  "trade_probability": 57.43,
+  "confirmation_score": 49.09,
+  "trade_probability": 49.45,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
