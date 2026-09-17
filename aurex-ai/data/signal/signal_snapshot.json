@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T14:45:50.278560+00:00",
+  "generated_at": "2026-09-17T15:01:35.627011+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
-      "status": "red",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.0361,
+          "change_pct": -0.006,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.008,
-          "up": true
+          "change_pct": -0.0292,
+          "up": false
         },
         "NVDA": {
-          "change_pct": -0.0752,
-          "up": false
+          "change_pct": 0.0639,
+          "up": true
         },
         "AMZN": {
-          "change_pct": -0.0714,
-          "up": false
+          "change_pct": 0.0358,
+          "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.35,
+      "score": 72.03,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29404.96,
-        "sma50": 29176.8,
-        "sma200": 27208.56
+        "last_price": 29373.47,
+        "sma50": 29176.17,
+        "sma200": 27208.41
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 70.0,
+      "score": 75.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.3,
-        "percentile_vs_20d": 30.0
+        "current_vxn": 20.21,
+        "percentile_vs_20d": 25.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 48.87,
+      "score": 49.51,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.951,
-        "change_5d_pct": 0.142
+        "current_yield_pct": 4.947,
+        "change_5d_pct": 0.061
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.85,
+      "score": 41.68,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.1,
-        "change_5d_pct": 1.019
+        "current_dxy": 100.12,
+        "change_5d_pct": 1.039
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.37,
+      "score": 48.76,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.007,
+        "avg_compound": -0.025,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "New ETF Coverage: KCHP",
+            "title": "America Is Aging Faster Than Its Housing Supply Can Keep Up. 3 REITs Are Positioned for the Gap",
             "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-16T14:40:57Z",
+            "publishedAt": "2026-09-16T15:00:02Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "NIGCOMSAT Selects Hughes JUPITER Scalable Gateway to Support Nigeria’s Next-Generation Satellite Program",
-            "source": "Financial Post",
-            "publishedAt": "2026-09-16T14:40:23Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "Commanders mailbag: Discussing Dan Quinn, Jayden Daniels, Mike Sainristil and more",
-            "source": "Hogs Haven",
-            "publishedAt": "2026-09-16T14:39:38Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Apple Watch Rival Garmin Traverses Rocky Road Toward Buy Range",
-            "source": "Investor's Business Daily",
-            "publishedAt": "2026-09-16T14:37:33Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "SpaceX Rises 5% as Starship’s First Orbital Attempt Gets Launch Date; Rocket Lab and AST SpaceMobile Hold Steady",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-16T14:36:18Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "The case for a 'bullish shock' to stocks if the Fed hikes rates",
-            "source": "Business Insider",
-            "publishedAt": "2026-09-16T14:32:30Z",
+            "title": "Russia sanctions Bill, Saudi pipeline closure push India’s crude oil import price to 5-month high",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-16T14:53:58Z",
             "sentiment": "Negative",
-            "compound": -0.382
+            "compound": -0.572
+          },
+          {
+            "title": "Iran war has cost the US $38bn: How will it impact US economy, politics?",
+            "source": "Al Jazeera English",
+            "publishedAt": "2026-09-16T14:53:51Z",
+            "sentiment": "Negative",
+            "compound": -0.599
+          },
+          {
+            "title": "Why Is XRP Dropping Today?",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-16T14:53:26Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Retail Sales Rise as Consumers Make Room for Bigger Purchases",
+            "source": "pymnts.com",
+            "publishedAt": "2026-09-16T14:52:06Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Hot or not? The economy’s fate rests on Kevin Warsh’s answer to one key question",
+            "source": "Fortune",
+            "publishedAt": "2026-09-16T14:47:50Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 47.21,
-  "trade_probability": 48.33,
+  "confirmation_score": 54.3,
+  "trade_probability": 52.58,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
