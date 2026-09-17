@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T16:31:10.431532+00:00",
+  "generated_at": "2026-09-17T16:45:50.060080+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,45 +13,45 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
-      "status": "green",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.003,
-          "up": true
-        },
-        "MSFT": {
-          "change_pct": -0.004,
+          "change_pct": -0.006,
           "up": false
         },
+        "MSFT": {
+          "change_pct": 0.0111,
+          "up": true
+        },
         "NVDA": {
-          "change_pct": 0.032,
+          "change_pct": 0.0137,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.01,
-          "up": true
+          "change_pct": -0.006,
+          "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.73,
+      "score": 72.72,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29442.7,
-        "sma50": 29177.55,
+        "last_price": 29441.66,
+        "sma50": 29177.53,
         "sma200": 27208.75
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 85.0,
+      "score": 90.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.17,
-        "percentile_vs_20d": 15.0
+        "current_vxn": 20.12,
+        "percentile_vs_20d": 10.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 40.79,
+      "score": 40.76,
       "status": "yellow",
       "details": {
         "current_dxy": 100.23,
-        "change_5d_pct": 1.151
+        "change_5d_pct": 1.155
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.35,
+      "score": 53.74,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.087,
+        "avg_compound": 0.075,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "IBM Shares Slide More Than 3% as Investors Weigh Mainframe Slowdown Against AI Deals",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-09-16T16:31:00Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "‘Spider-Man’ Beats ‘Star Wars’ to Become Highest Grossing Movie in U.S. History",
-            "source": "Gizmodo.com",
-            "publishedAt": "2026-09-16T16:30:43Z",
-            "sentiment": "Neutral",
-            "compound": -0.077
-          },
-          {
-            "title": "The Crypto Industry Wasn’t Able to Buy Congress After All",
-            "source": "Gizmodo.com",
-            "publishedAt": "2026-09-16T16:30:27Z",
+            "title": "California home sales and prices rise in August despite higher mortgage rates, housing costs, C.A.R. reports",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-16T16:44:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "‘People Are Very Unhappy’: Podcaster Presses JD Vance on Trump Launching Iran War and Not Getting Inflation ‘Under Control’",
-            "source": "Mediaite",
-            "publishedAt": "2026-09-16T16:29:42Z",
-            "sentiment": "Negative",
-            "compound": -0.599
-          },
-          {
-            "title": "Fed Traders See More Than 90% Chance Of Rate Hike",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-16T16:27:14Z",
+            "title": "US Federal Reserve raises interest rates for first time since 2023 - follow live",
+            "source": "BBC News",
+            "publishedAt": "2026-09-16T16:43:34Z",
             "sentiment": "Positive",
-            "compound": 0.31
+            "compound": 0.459
           },
           {
-            "title": "A top economist says pressure is mounting for consumers, and the Fed may be about to make a 'serious' mistake",
-            "source": "Business Insider",
-            "publishedAt": "2026-09-16T16:26:15Z",
+            "title": "Prominent Dem’s fatal error prompts Republican to predict ‘red tidal wave’ in blue stronghold",
+            "source": "Fox News",
+            "publishedAt": "2026-09-16T16:42:50Z",
             "sentiment": "Negative",
-            "compound": -0.477
+            "compound": -0.527
+          },
+          {
+            "title": "Large-scale investment to enter Indonesia in coming weeks: Prabowo",
+            "source": "Antaranews.com",
+            "publishedAt": "2026-09-16T16:41:47Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Patriotic LA gas station draws lines with stunning fuel price chop",
+            "source": "New York Post",
+            "publishedAt": "2026-09-16T16:39:54Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "Guardant Health Nears Buy Point As Sales Outlook Brightens",
+            "source": "Investor's Business Daily",
+            "publishedAt": "2026-09-16T16:39:37Z",
+            "sentiment": "Positive",
+            "compound": 0.361
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 62.51,
-  "trade_probability": 57.51,
+  "confirmation_score": 56.15,
+  "trade_probability": 53.69,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
