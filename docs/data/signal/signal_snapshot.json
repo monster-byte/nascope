@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T16:45:50.060080+00:00",
+  "generated_at": "2026-09-17T17:01:22.197853+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.006,
-          "up": false
-        },
-        "MSFT": {
-          "change_pct": 0.0111,
+          "change_pct": 0.0446,
           "up": true
         },
+        "MSFT": {
+          "change_pct": -0.0222,
+          "up": false
+        },
         "NVDA": {
-          "change_pct": 0.0137,
+          "change_pct": 0.0549,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.006,
-          "up": false
+          "change_pct": 0.0875,
+          "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.72,
+      "score": 72.76,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29441.66,
-        "sma50": 29177.53,
-        "sma200": 27208.75
+        "last_price": 29446.43,
+        "sma50": 29177.63,
+        "sma200": 27208.77
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 90.0,
+      "score": 85.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.12,
-        "percentile_vs_20d": 10.0
+        "current_vxn": 20.13,
+        "percentile_vs_20d": 15.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 49.84,
+      "score": 49.51,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.945,
-        "change_5d_pct": 0.02
+        "current_yield_pct": 4.947,
+        "change_5d_pct": 0.061
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 40.76,
+      "score": 40.7,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.23,
-        "change_5d_pct": 1.155
+        "current_dxy": 100.24,
+        "change_5d_pct": 1.163
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.74,
+      "score": 54.55,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.075,
+        "avg_compound": 0.091,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "California home sales and prices rise in August despite higher mortgage rates, housing costs, C.A.R. reports",
+            "title": "Chief Economist Stephen Stanley of Santander US wins second Blue Chip Forecasting Award",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-16T16:44:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "US Federal Reserve raises interest rates for first time since 2023 - follow live",
-            "source": "BBC News",
-            "publishedAt": "2026-09-16T16:43:34Z",
+            "publishedAt": "2026-09-16T17:00:00Z",
             "sentiment": "Positive",
-            "compound": 0.459
+            "compound": 0.802
           },
           {
-            "title": "Prominent Dem’s fatal error prompts Republican to predict ‘red tidal wave’ in blue stronghold",
-            "source": "Fox News",
-            "publishedAt": "2026-09-16T16:42:50Z",
+            "title": "Analyst distrusts major AI firms’ calls for a slowdown – but has other answers to AI woes",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-09-16T17:00:00Z",
             "sentiment": "Negative",
-            "compound": -0.527
+            "compound": -0.67
           },
           {
-            "title": "Large-scale investment to enter Indonesia in coming weeks: Prabowo",
-            "source": "Antaranews.com",
-            "publishedAt": "2026-09-16T16:41:47Z",
+            "title": "Retail sales rise better-than-expected 1.2% in August",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-16T16:57:43Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Patriotic LA gas station draws lines with stunning fuel price chop",
-            "source": "New York Post",
-            "publishedAt": "2026-09-16T16:39:54Z",
-            "sentiment": "Positive",
-            "compound": 0.382
+            "title": "Price Inflation Has Been above the Two-Percent Target for 65 Months in a Row",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-16T16:57:38Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Guardant Health Nears Buy Point As Sales Outlook Brightens",
+            "title": "Bloom Energy Stock Jumps On 'Meaningful' Data-Center Catalyst",
             "source": "Investor's Business Daily",
-            "publishedAt": "2026-09-16T16:39:37Z",
+            "publishedAt": "2026-09-16T16:55:19Z",
             "sentiment": "Positive",
-            "compound": 0.361
+            "compound": 0.527
+          },
+          {
+            "title": "Ultra-Rich Americans Widen Wealth Gap as Top 0.1% Gains Average $9,600,000 Per Household: Report",
+            "source": "The Daily Hodl",
+            "publishedAt": "2026-09-16T16:55:05Z",
+            "sentiment": "Positive",
+            "compound": 0.751
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.15,
-  "trade_probability": 53.69,
+  "confirmation_score": 62.48,
+  "trade_probability": 57.49,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
