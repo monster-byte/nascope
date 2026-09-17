@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T13:45:52.823325+00:00",
+  "generated_at": "2026-09-17T14:01:22.926621+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.0075,
+          "change_pct": 0.1769,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.149,
+          "change_pct": -0.1743,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.0482,
-          "up": true
+          "change_pct": -0.105,
+          "up": false
         },
         "AMZN": {
-          "change_pct": -0.1856,
+          "change_pct": -0.2916,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 71.63,
+      "score": 71.81,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29333.71,
-        "sma50": 29175.37,
-        "sma200": 27208.21
+        "last_price": 29351.88,
+        "sma50": 29175.74,
+        "sma200": 27208.3
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 15.0,
-      "status": "red",
+      "score": 75.0,
+      "status": "green",
       "details": {
-        "current_vxn": 22.48,
-        "percentile_vs_20d": 85.0
+        "current_vxn": 20.45,
+        "percentile_vs_20d": 25.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 49.51,
+      "score": 48.22,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.947,
-        "change_5d_pct": 0.061
+        "current_yield_pct": 4.955,
+        "change_5d_pct": 0.222
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.84,
+      "score": 41.82,
       "status": "yellow",
       "details": {
         "current_dxy": 100.1,
-        "change_5d_pct": 1.02
+        "change_5d_pct": 1.022
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.33,
+      "score": 56.63,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.027,
+        "avg_compound": 0.133,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Jim Cramer Says Brinker (EAT) “Never Fails to Wow Me”",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-16T13:43:44Z",
-            "sentiment": "Positive",
-            "compound": 0.25
-          },
-          {
-            "title": "Rising diesel and heating oil prices strain swing state voters ahead of midterms",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-16T13:42:38Z",
+            "title": "Cipher Digital Surges 9% on Conditional ERCOT Status for 3.2 GW of Texas Capacity; Core Scientific Rises 4%, IREN Nudges Higher",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-16T14:00:43Z",
             "sentiment": "Neutral",
-            "compound": -0.052
+            "compound": 0.0
           },
           {
-            "title": "WSE SHAREHOLDER NOTICE: Faruqi & Faruqi, LLP Reminds Wise Group plc (WSE) Investors of Securities Class Action Lawsuit Deadline on September 29, 2026",
+            "title": "Parking costs at major California airport set to soar ahead of holiday season",
+            "source": "New York Post",
+            "publishedAt": "2026-09-16T14:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "Alkami to Host Webinar on How Financial Wellness Can be a Strategic Growth Initiative",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-16T13:42:00Z",
+            "publishedAt": "2026-09-16T14:00:00Z",
             "sentiment": "Positive",
-            "compound": 0.527
+            "compound": 0.67
           },
           {
-            "title": "Stanley Druckenmiller sees a Fed problem Wall Street can't ignore",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-16T13:41:37Z",
+            "title": "Endothelial and platelet dysfunction in systemic sclerosis with pulmonary hypertension",
+            "source": "Plos.org",
+            "publishedAt": "2026-09-16T14:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
+          {
+            "title": "See If Your Household Income Beats the US Median",
+            "source": "Newser",
+            "publishedAt": "2026-09-16T14:00:00Z",
             "sentiment": "Neutral",
-            "compound": -0.151
+            "compound": 0.0
           },
           {
-            "title": "US retail sales rise 1.2% as motor vehicle purchases increase",
-            "source": "BusinessLine",
-            "publishedAt": "2026-09-16T13:41:36Z",
-            "sentiment": "Positive",
-            "compound": 0.318
-          },
-          {
-            "title": "Jackie O's manager gives cryptic response to relapse rumours... plus, an update on the Silvagnis' marriage - and an insider reveals moment Karl turned on Keshnee Kemp: INSIDE MAIL",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-09-16T13:41:15Z",
+            "title": "How are rising prices affecting you? NPR wants to know",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-16T13:55:54Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 49.09,
-  "trade_probability": 49.45,
+  "confirmation_score": 48.06,
+  "trade_probability": 48.84,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
