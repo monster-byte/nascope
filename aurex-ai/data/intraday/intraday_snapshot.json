@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-17T15:39:23.063026+00:00",
+  "generated_at": "2026-09-17T19:15:02.423511+00:00",
   "engine": "AUREX Pulse (advisory only — لا يدخل بالقرار الرسمي)",
   "volume_profile": {
     "session_start": "2026-09-16T18:00:00-04:00",
-    "current_price": 29711.0,
-    "poc": 29687.5,
-    "val": 29575.0,
+    "current_price": 29736.0,
+    "poc": 29737.5,
+    "val": 29625.0,
     "vah": 29750.0,
-    "price_location": "INSIDE_VALUE_AREA",
+    "price_location": "NEAR_POC",
     "bin_size_points": 25.0,
     "value_area_pct_target": 0.7,
-    "candles_in_session": 209,
-    "relative_volume_pct": 109.2,
+    "candles_in_session": 252,
+    "relative_volume_pct": 95.7,
     "sessions_compared": 3,
     "methodology_note": "POC/VAH/VAL مبنية بتقريب توزيع متساوٍ للحجم على نطاق كل شمعة 5 دقايق (لا تتوفر بيانات Tick). الدقة تقل مع اتساع نطاق الشمعة."
   },
@@ -30,9 +30,9 @@
     }
   },
   "fusion": {
-    "alert_level": "LOW_ATTENTION",
+    "alert_level": "MODERATE_ATTENTION",
     "directional_hint": "NEUTRAL",
-    "reason": "السعر حالياً داخل منطقة القيمة (منطقة توازن) — بدون أي كاتاليست جديد بآخر دقائق.",
+    "reason": "السعر حالياً قريب من نقطة التحكم (POC) — بدون أي كاتاليست جديد بآخر دقائق.",
     "is_advisory_only": true
   }
 }
