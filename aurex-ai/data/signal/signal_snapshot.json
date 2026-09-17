@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T00:01:21.685706+00:00",
+  "generated_at": "2026-09-17T00:15:47.698296+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 37.91,
+      "score": 38.11,
       "status": "red",
       "details": {
-        "current_dxy": 100.26,
-        "change_5d_pct": 1.512
+        "current_dxy": 100.24,
+        "change_5d_pct": 1.486
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 40.74,
+      "score": 42.67,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.185,
+        "avg_compound": -0.147,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "ASX 200 Edges Higher After 11-Week Low as Markets Await Crucial Wednesday US Fed Interest Rate Decision",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-09-16T00:15:08Z",
+            "sentiment": "Positive",
+            "compound": 0.318
+          },
+          {
+            "title": "Mental Health Research Topics in 2026: 50+ Ideas for Student",
+            "source": "Valueassignmenthelp.com",
+            "publishedAt": "2026-09-16T00:09:10Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "DAILY MAIL COMMENT: Labour's shameful welfare milestone as more than four million people are now claiming PIPs",
             "source": "Dailymail.com",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-09-16T00:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "before-deploy added to PyPI",
-            "source": "Pypi.org",
-            "publishedAt": "2026-09-15T23:53:16Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "CBO Ties Iran War to Rising Inflation",
-            "source": "Newser",
-            "publishedAt": "2026-09-15T23:53:04Z",
-            "sentiment": "Negative",
-            "compound": -0.599
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 47.91,
-  "trade_probability": 48.75,
+  "confirmation_score": 48.1,
+  "trade_probability": 48.86,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
