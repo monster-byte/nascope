@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T17:01:22.197853+00:00",
+  "generated_at": "2026-09-17T17:15:53.222579+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
-      "status": "green",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.0446,
+          "change_pct": 0.0619,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.0222,
+          "change_pct": -0.0323,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.0549,
-          "up": true
+          "change_pct": -0.0089,
+          "up": false
         },
         "AMZN": {
-          "change_pct": 0.0875,
+          "change_pct": 0.0066,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.76,
+      "score": 72.61,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29446.43,
-        "sma50": 29177.63,
-        "sma200": 27208.77
+        "last_price": 29430.97,
+        "sma50": 29177.32,
+        "sma200": 27208.69
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 85.0,
+      "score": 90.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.13,
-        "percentile_vs_20d": 15.0
+        "current_vxn": 20.12,
+        "percentile_vs_20d": 10.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 49.51,
+      "score": 48.87,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.947,
-        "change_5d_pct": 0.061
+        "current_yield_pct": 4.951,
+        "change_5d_pct": 0.142
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 40.7,
+      "score": 40.74,
       "status": "yellow",
       "details": {
         "current_dxy": 100.24,
-        "change_5d_pct": 1.163
+        "change_5d_pct": 1.158
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.55,
+      "score": 54.96,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.091,
+        "avg_compound": 0.099,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Chief Economist Stephen Stanley of Santander US wins second Blue Chip Forecasting Award",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-16T17:00:00Z",
+            "title": "Solana Price Prediction: What Could SOL Be Worth Before Q4?",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-16T17:14:52Z",
             "sentiment": "Positive",
-            "compound": 0.802
+            "compound": 0.226
           },
           {
-            "title": "Analyst distrusts major AI firms’ calls for a slowdown – but has other answers to AI woes",
-            "source": "New Zealand Herald",
-            "publishedAt": "2026-09-16T17:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.67
-          },
-          {
-            "title": "Retail sales rise better-than-expected 1.2% in August",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-16T16:57:43Z",
+            "title": "Wall Street bets on a rate hike, but the Fed decision could be a close call",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-16T17:12:12Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Price Inflation Has Been above the Two-Percent Target for 65 Months in a Row",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-16T16:57:38Z",
+            "title": "Ndamukong Suh Says He Almost Invested in the Seahawks",
+            "source": "Frontofficesports.com",
+            "publishedAt": "2026-09-16T17:12:03Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Bloom Energy Stock Jumps On 'Meaningful' Data-Center Catalyst",
-            "source": "Investor's Business Daily",
-            "publishedAt": "2026-09-16T16:55:19Z",
-            "sentiment": "Positive",
-            "compound": 0.527
+            "title": "NLC demands emergency palliatives, wage awards as petrol hits ₦1,430/litre",
+            "source": "The Punch",
+            "publishedAt": "2026-09-16T17:07:07Z",
+            "sentiment": "Neutral",
+            "compound": 0.103
           },
           {
-            "title": "Ultra-Rich Americans Widen Wealth Gap as Top 0.1% Gains Average $9,600,000 Per Household: Report",
-            "source": "The Daily Hodl",
-            "publishedAt": "2026-09-16T16:55:05Z",
+            "title": "Don't freak out says Jim Cramer as he sends scary 2026 market verdict",
+            "source": "TheStreet",
+            "publishedAt": "2026-09-16T17:07:00Z",
+            "sentiment": "Neutral",
+            "compound": -0.05
+          },
+          {
+            "title": "Strategy buys back nearly $1B in preferred stock STRC to stabilize price near par value",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-16T17:05:41Z",
             "sentiment": "Positive",
-            "compound": 0.751
+            "compound": 0.34
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 62.48,
-  "trade_probability": 57.49,
+  "confirmation_score": 56.11,
+  "trade_probability": 53.67,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
