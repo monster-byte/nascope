@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T15:31:21.848049+00:00",
+  "generated_at": "2026-09-17T15:40:27.508201+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.0673,
-          "up": false
-        },
-        "MSFT": {
-          "change_pct": 0.0686,
+          "change_pct": 0.015,
           "up": true
         },
+        "MSFT": {
+          "change_pct": -0.007,
+          "up": false
+        },
         "NVDA": {
-          "change_pct": -0.0411,
+          "change_pct": -0.0068,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.0517,
+          "change_pct": 0.0134,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.31,
+      "score": 72.47,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29401.67,
-        "sma50": 29176.73,
-        "sma200": 27208.55
+        "last_price": 29417.25,
+        "sma50": 29177.04,
+        "sma200": 27208.63
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 75.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.34,
+        "current_vxn": 20.36,
         "percentile_vs_20d": 25.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 49.84,
+      "score": 49.19,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.945,
-        "change_5d_pct": 0.02
+        "current_yield_pct": 4.949,
+        "change_5d_pct": 0.101
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.28,
+      "score": 41.03,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.17,
-        "change_5d_pct": 1.09
+        "current_dxy": 100.2,
+        "change_5d_pct": 1.121
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.43,
+      "score": 50.77,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.011,
+        "avg_compound": 0.015,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Top Business & Market Headlines Today — BL Morning Report, September 17, 2026",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-16T15:39:21Z",
+            "sentiment": "Positive",
+            "compound": 0.703
+          },
+          {
+            "title": "Household Income Soars to Record $87,460 — So Why Is Everyone Feeling So Poor?",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-16T15:36:29Z",
+            "sentiment": "Negative",
+            "compound": -0.541
+          },
+          {
+            "title": "Monthly Paydays vs. Compound Growth: Why JNJ Beats O for Long-Term Retirees",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-16T15:36:16Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "Bitcoin Price Prediction: What Could Bitcoin Be Worth Before Q4?",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-16T15:34:11Z",
+            "sentiment": "Positive",
+            "compound": 0.226
+          },
           {
             "title": "Bitcoin awaits Fed rate decision below $76K as analysis discounts ‘dovish surprise’ odds",
             "source": "Cointelegraph",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-09-16T15:30:12Z",
             "sentiment": "Neutral",
             "compound": 0.026
-          },
-          {
-            "title": "Zelensky Attempts to Sell Grain Export Collapse as Economic Benefit",
-            "source": "Globalresearch.ca",
-            "publishedAt": "2026-09-16T15:29:49Z",
-            "sentiment": "Neutral",
-            "compound": -0.052
-          },
-          {
-            "title": "“An ill-advised moment to go public”: OpenAI eyes a $1.5tn private round",
-            "source": "The Next Web",
-            "publishedAt": "2026-09-16T15:29:26Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "What If Warsh Shocks The Market And Keeps Rates On Hold",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-16T15:27:09Z",
-            "sentiment": "Negative",
-            "compound": -0.382
-          },
-          {
-            "title": "Arista Stock Holds Up Well Amid Weakness. Here's How To Capitalize.",
-            "source": "Investor's Business Daily",
-            "publishedAt": "2026-09-16T15:26:07Z",
-            "sentiment": "Neutral",
-            "compound": -0.178
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.4,
-  "trade_probability": 52.64,
+  "confirmation_score": 54.44,
+  "trade_probability": 52.66,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
