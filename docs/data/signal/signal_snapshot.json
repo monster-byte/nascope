@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T15:15:54.728115+00:00",
+  "generated_at": "2026-09-17T15:31:21.848049+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.0407,
-          "up": true
-        },
-        "MSFT": {
-          "change_pct": -0.0655,
+          "change_pct": -0.0673,
           "up": false
         },
+        "MSFT": {
+          "change_pct": 0.0686,
+          "up": true
+        },
         "NVDA": {
-          "change_pct": -0.0089,
+          "change_pct": -0.0411,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.0119,
+          "change_pct": 0.0517,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.02,
+      "score": 72.31,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29372.63,
-        "sma50": 29176.15,
-        "sma200": 27208.4
+        "last_price": 29401.67,
+        "sma50": 29176.73,
+        "sma200": 27208.55
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 70.0,
+      "score": 75.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.32,
-        "percentile_vs_20d": 30.0
+        "current_vxn": 20.34,
+        "percentile_vs_20d": 25.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 47.57,
+      "score": 49.84,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.959,
-        "change_5d_pct": 0.303
+        "current_yield_pct": 4.945,
+        "change_5d_pct": 0.02
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.51,
+      "score": 41.28,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.14,
-        "change_5d_pct": 1.061
+        "current_dxy": 100.17,
+        "change_5d_pct": 1.09
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.65,
+      "score": 49.43,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.047,
+        "avg_compound": -0.011,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "The 2027 Social Security Raise Is Tracking at 3.6%. On the Average Check That’s About $75 a Month. What Medicare Takes Back Won’t Be Known Until November",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-16T15:13:40Z",
-            "sentiment": "Positive",
-            "compound": 0.34
+            "title": "Bitcoin awaits Fed rate decision below $76K as analysis discounts ‘dovish surprise’ odds",
+            "source": "Cointelegraph",
+            "publishedAt": "2026-09-16T15:30:49Z",
+            "sentiment": "Neutral",
+            "compound": 0.077
           },
           {
-            "title": "Cost-Push Inflation",
-            "source": "Eschatonblog.com",
-            "publishedAt": "2026-09-16T15:12:50Z",
+            "title": "The Next Phase of Webull Could Be the One That Matters Most",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-16T15:30:12Z",
+            "sentiment": "Neutral",
+            "compound": 0.026
+          },
+          {
+            "title": "Zelensky Attempts to Sell Grain Export Collapse as Economic Benefit",
+            "source": "Globalresearch.ca",
+            "publishedAt": "2026-09-16T15:29:49Z",
+            "sentiment": "Neutral",
+            "compound": -0.052
+          },
+          {
+            "title": "“An ill-advised moment to go public”: OpenAI eyes a $1.5tn private round",
+            "source": "The Next Web",
+            "publishedAt": "2026-09-16T15:29:26Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "OpenAI’s CFO Just Explained Why Nvidia Is No Longer the Only Option",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-16T15:11:39Z",
-            "sentiment": "Negative",
-            "compound": -0.296
-          },
-          {
-            "title": "Henry Zeffman: Andy Burnham and his chancellor have a battle on their hands",
+            "title": "What If Warsh Shocks The Market And Keeps Rates On Hold",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-16T15:11:35Z",
+            "publishedAt": "2026-09-16T15:27:09Z",
             "sentiment": "Negative",
             "compound": -0.382
           },
           {
-            "title": "5 Dividend Stocks Delivering Rock Solid Fourth-Quarter Income",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-16T15:11:19Z",
+            "title": "Arista Stock Holds Up Well Amid Weakness. Here's How To Capitalize.",
+            "source": "Investor's Business Daily",
+            "publishedAt": "2026-09-16T15:26:07Z",
             "sentiment": "Neutral",
-            "compound": 0.153
-          },
-          {
-            "title": "HUBLOT - CLASSIC FUSION BALLOON DOG BY JEFF KOONS: TIME, INFLATED INTO ART",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-16T15:11:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": -0.178
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 53.47,
-  "trade_probability": 52.08,
+  "confirmation_score": 54.4,
+  "trade_probability": 52.64,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
