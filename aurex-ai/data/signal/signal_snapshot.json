@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T17:31:09.828912+00:00",
+  "generated_at": "2026-09-17T17:45:48.547640+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,45 +13,45 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
-      "status": "red",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.0224,
+          "change_pct": 0.0223,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.0252,
-          "up": false
+          "change_pct": 0.0081,
+          "up": true
         },
         "NVDA": {
-          "change_pct": -0.0525,
-          "up": false
+          "change_pct": 0.0113,
+          "up": true
         },
         "AMZN": {
-          "change_pct": -0.0617,
+          "change_pct": -0.0067,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.46,
+      "score": 72.64,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29415.82,
-        "sma50": 29177.02,
-        "sma200": 27208.62
+        "last_price": 29434.24,
+        "sma50": 29177.38,
+        "sma200": 27208.71
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 85.0,
+      "score": 95.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.13,
-        "percentile_vs_20d": 15.0
+        "current_vxn": 20.01,
+        "percentile_vs_20d": 5.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 40.7,
+      "score": 40.76,
       "status": "yellow",
       "details": {
         "current_dxy": 100.24,
-        "change_5d_pct": 1.163
+        "change_5d_pct": 1.156
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.5,
+      "score": 54.97,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.11,
-        "articles_analyzed": 25,
+        "avg_compound": 0.099,
+        "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Why You Shouldn’t Worry About the Latest AI Panic",
-            "source": "Freerepublic.com",
-            "publishedAt": "2026-09-16T17:30:17Z",
-            "sentiment": "Negative",
-            "compound": -0.735
+            "title": "The Dow, S&P 500, and Nasdaq Split Ahead of a Near-Certain Rate Hike",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-16T17:44:21Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "T. ROWE PRICE STUDY FINDS DC CONSULTANTS AND ADVISORS ARE MOVING FROM AI EXPLORATION TO EXECUTION, WHILE PRIVATE ASSETS AND PERSONALIZATION GAIN MOMENTUM",
+            "title": "Bank of Canada eyes rate hikes as gas prices fuel inflation concerns",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-16T17:38:02Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Gender Wage Gap Narrows Amid Affordability Crisis, but Black and Latina Women Still Left Behind",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-16T17:30:00Z",
-            "sentiment": "Positive",
-            "compound": 0.718
+            "publishedAt": "2026-09-16T17:38:00Z",
+            "sentiment": "Negative",
+            "compound": -0.372
           },
           {
-            "title": "'Goldilocks is breaking down': Why one bank says potential for the market's best-case scenario is fading",
-            "source": "Business Insider",
-            "publishedAt": "2026-09-16T17:29:05Z",
+            "title": "Modi's governance model: Scaling trust, efficiency and growth",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-16T17:36:55Z",
+            "sentiment": "Positive",
+            "compound": 0.813
+          },
+          {
+            "title": "Mortgage Demand Drops as Rate Climbs Toward 7 Percent",
+            "source": "Theepochtimes.com",
+            "publishedAt": "2026-09-16T17:34:00Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": -0.128
           },
           {
-            "title": "Bitcoin ETF Outflows Hit $450mn as CLARITY Act Stalls in Senate",
-            "source": "TheStreet",
-            "publishedAt": "2026-09-16T17:22:52Z",
+            "title": "European shares rise as oil pauses in advance of Fed rate decision",
+            "source": "The Irish Times",
+            "publishedAt": "2026-09-16T17:33:45Z",
             "sentiment": "Positive",
-            "compound": 0.532
-          },
-          {
-            "title": "U.S. retail sales beat expectations with 1.2% gain in August",
-            "source": "Quartz India",
-            "publishedAt": "2026-09-16T17:22:49Z",
-            "sentiment": "Positive",
-            "compound": 0.527
-          },
-          {
-            "title": "Pakistan Gold & Silver Prices Surge; Gold Tola Hits Rs457k | BolNews",
-            "source": "BOL News",
-            "publishedAt": "2026-09-16T17:22:40Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": 0.296
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 48.85,
-  "trade_probability": 49.31,
+  "confirmation_score": 63.23,
+  "trade_probability": 57.94,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
