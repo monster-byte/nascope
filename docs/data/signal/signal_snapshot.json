@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T16:01:29.381046+00:00",
+  "generated_at": "2026-09-17T16:15:52.958734+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.1971,
-          "up": true
+          "change_pct": -0.0119,
+          "up": false
         },
         "MSFT": {
-          "change_pct": -0.1006,
+          "change_pct": -0.0302,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.032,
+          "change_pct": -0.0069,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.0911,
-          "up": false
+          "change_pct": 0.0199,
+          "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.62,
+      "score": 72.59,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29432.05,
-        "sma50": 29177.34,
-        "sma200": 27208.7
+        "last_price": 29429.53,
+        "sma50": 29177.29,
+        "sma200": 27208.69
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 50.16,
+      "score": 49.84,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.943,
-        "change_5d_pct": -0.02
+        "current_yield_pct": 4.945,
+        "change_5d_pct": 0.02
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 40.73,
+      "score": 40.78,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.24,
-        "change_5d_pct": 1.159
+        "current_dxy": 100.23,
+        "change_5d_pct": 1.152
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.37,
+      "score": 49.19,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.013,
+        "avg_compound": -0.016,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "The Bitcoin Price That Could Completely Change the MSTR Story, We See 97% Upside",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-16T16:00:10Z",
+            "title": "India considers cutting vegetable oil import taxes as prices climb",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-16T16:13:57Z",
+            "sentiment": "Neutral",
+            "compound": -0.128
+          },
+          {
+            "title": "The Federal Reserve is expected to hike rates for the first time in three years: Live updates - CNBC",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-09-16T16:13:48Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Fed meeting live updates: Rate hike expected for the first time in three years",
+            "title": "How the Fed’s move affects your finances",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-16T16:00:00Z",
+            "publishedAt": "2026-09-16T16:12:39Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "The Atrocities That Shaped the Modern Middle East",
-            "source": "The Atlantic",
-            "publishedAt": "2026-09-16T16:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Energy Shock Puts Bank of England Under Pressure to Raise Rates",
-            "source": "OilPrice.com",
-            "publishedAt": "2026-09-16T16:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.402
-          },
-          {
-            "title": "Markets price 93% chance of Fed rate hike today, first since 2023",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-16T15:59:55Z",
-            "sentiment": "Positive",
-            "compound": 0.25
-          },
-          {
-            "title": "Yields on US Treasuries fall ahead of Fed rate call",
+            "title": "The Fed Will Be Hawkish. The S&P 500 May Prefer It (Live Coverage)",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-16T15:58:56Z",
-            "sentiment": "Positive",
-            "compound": 0.226
+            "publishedAt": "2026-09-16T16:12:36Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Trump’s Latest Threats Loom Over Fed’s Interest Rate Decision",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-16T16:12:30Z",
+            "sentiment": "Neutral",
+            "compound": -0.178
+          },
+          {
+            "title": "Trump vs Carney: The dealmaker meets his match in a central banker",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-16T16:12:17Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 47.68,
-  "trade_probability": 48.61,
+  "confirmation_score": 47.63,
+  "trade_probability": 48.58,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
