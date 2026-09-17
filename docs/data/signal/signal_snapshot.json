@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T18:31:10.952176+00:00",
+  "generated_at": "2026-09-17T18:45:53.576792+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.0387,
-          "up": true
+          "change_pct": -0.0342,
+          "up": false
         },
         "MSFT": {
-          "change_pct": 0.0283,
+          "change_pct": 0.0061,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.0114,
+          "change_pct": 0.0091,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.004,
-          "up": false
+          "change_pct": 0.004,
+          "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.57,
+      "score": 72.48,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29427.61,
-        "sma50": 29177.25,
-        "sma200": 27208.68
+        "last_price": 29418.11,
+        "sma50": 29177.06,
+        "sma200": 27208.63
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 95.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.02,
+        "current_vxn": 20.0,
         "percentile_vs_20d": 5.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 50.16,
+      "score": 49.19,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.943,
-        "change_5d_pct": -0.02
+        "current_yield_pct": 4.949,
+        "change_5d_pct": 0.101
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 40.72,
+      "score": 40.6,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.24,
-        "change_5d_pct": 1.161
+        "current_dxy": 100.25,
+        "change_5d_pct": 1.175
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.76,
+      "score": 46.19,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.065,
+        "avg_compound": -0.076,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Day after ‘trespasser’ notice, Jadavpur University registrar drives students out of campus after 8pm",
+            "title": "City traders oppose 0.4% UPI MDR, large retailers absorb fee",
             "source": "The Times of India",
-            "publishedAt": "2026-09-16T18:31:02Z",
+            "publishedAt": "2026-09-16T18:45:40Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "TCA Named Media Agency of Record for Accredited Debt Relief",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-16T18:31:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.153
-          },
-          {
-            "title": "No fixing, just listening: Bengaluru’s sharing circles make room for difficult conversations",
+            "title": "Quote of the day by Nikola Tesla: “Life is and will ever remain an equation incapable of solution, but it contains certain known factors”",
             "source": "The Times of India",
-            "publishedAt": "2026-09-16T18:30:00Z",
-            "sentiment": "Negative",
-            "compound": -0.226
-          },
-          {
-            "title": "Theatre Review: Witness for the Prosecution - A gripping courtroom thriller where nothing is as it seems at first",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-16T18:30:00Z",
-            "sentiment": "Negative",
-            "compound": -0.421
-          },
-          {
-            "title": "Theatre always renews my energy: Rajesh Nataranga on returning to stage after 20 years",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-16T18:30:00Z",
+            "publishedAt": "2026-09-16T18:45:30Z",
             "sentiment": "Positive",
-            "compound": 0.273
+            "compound": 0.361
           },
           {
-            "title": "Govt taps states, agencies for long-term power supply",
+            "title": "LG Hospital gets modern postmortem unit, 18-body mortuary",
             "source": "The Times of India",
-            "publishedAt": "2026-09-16T18:29:59Z",
+            "publishedAt": "2026-09-16T18:45:28Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "NA permission: HC flags revenue officials’ reliance on govt resolutions",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-16T18:45:12Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Fake recruitment ad exposes breach of school data secrecy",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-16T18:45:06Z",
+            "sentiment": "Negative",
+            "compound": -0.557
+          },
+          {
+            "title": "Passport fraud: Police get custody of ex-PAAS member till Saturday",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-16T18:45:03Z",
+            "sentiment": "Negative",
+            "compound": -0.586
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 62.74,
-  "trade_probability": 57.64,
+  "confirmation_score": 62.54,
+  "trade_probability": 57.52,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
