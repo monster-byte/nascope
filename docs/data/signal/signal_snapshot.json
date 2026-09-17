@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T14:31:07.494780+00:00",
+  "generated_at": "2026-09-17T14:45:50.278560+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,36 +13,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
-      "status": "green",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.0705,
-          "up": true
+          "change_pct": -0.0361,
+          "up": false
         },
         "MSFT": {
-          "change_pct": 0.1174,
+          "change_pct": 0.008,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.0068,
+          "change_pct": -0.0752,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.125,
-          "up": true
+          "change_pct": -0.0714,
+          "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.48,
+      "score": 72.35,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29418.54,
-        "sma50": 29177.07,
-        "sma200": 27208.63
+        "last_price": 29404.96,
+        "sma50": 29176.8,
+        "sma200": 27208.56
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 70.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.38,
+        "current_vxn": 20.3,
         "percentile_vs_20d": 30.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 49.51,
+      "score": 48.87,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.947,
-        "change_5d_pct": 0.061
+        "current_yield_pct": 4.951,
+        "change_5d_pct": 0.142
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.9,
+      "score": 41.85,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.09,
-        "change_5d_pct": 1.012
+        "current_dxy": 100.1,
+        "change_5d_pct": 1.019
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.27,
+      "score": 50.37,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.085,
+        "avg_compound": 0.007,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "SOUTHERN LIVING'S 2026 IDEA HOUSE CELEBRATES HILL COUNTRY LIVING IN FREDERICKSBURG, TEXAS",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-16T14:29:00Z",
-            "sentiment": "Positive",
-            "compound": 0.663
-          },
-          {
-            "title": "‘Visible construction’ for MetroLink expected in Dublin by end of year",
-            "source": "The Irish Times",
-            "publishedAt": "2026-09-16T14:28:43Z",
+            "title": "New ETF Coverage: KCHP",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-16T14:40:57Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "At 23, Ben Bell became New Zealand's youngest mayor by just 8 votes; after a no-confidence fight, he won re-election in 2025",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-16T14:27:01Z",
+            "title": "NIGCOMSAT Selects Hughes JUPITER Scalable Gateway to Support Nigeria’s Next-Generation Satellite Program",
+            "source": "Financial Post",
+            "publishedAt": "2026-09-16T14:40:23Z",
             "sentiment": "Positive",
-            "compound": 0.273
+            "compound": 0.402
           },
           {
-            "title": "Intel Stock Rises On Talk Of Fab Deal With SK Hynix",
+            "title": "Commanders mailbag: Discussing Dan Quinn, Jayden Daniels, Mike Sainristil and more",
+            "source": "Hogs Haven",
+            "publishedAt": "2026-09-16T14:39:38Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Apple Watch Rival Garmin Traverses Rocky Road Toward Buy Range",
             "source": "Investor's Business Daily",
-            "publishedAt": "2026-09-16T14:26:31Z",
-            "sentiment": "Positive",
-            "compound": 0.459
-          },
-          {
-            "title": "What’s up with… Transatlantic networks, AI in Europe, EC rules",
-            "source": "TelecomTV",
-            "publishedAt": "2026-09-16T14:25:15Z",
+            "publishedAt": "2026-09-16T14:37:33Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "ProCap Financial sells 50 Bitcoin to repurchase shares, boosting per-share BTC exposure",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-16T14:23:22Z",
-            "sentiment": "Positive",
-            "compound": 0.557
+            "title": "SpaceX Rises 5% as Starship’s First Orbital Attempt Gets Launch Date; Rocket Lab and AST SpaceMobile Hold Steady",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-16T14:36:18Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "The case for a 'bullish shock' to stocks if the Fed hikes rates",
+            "source": "Business Insider",
+            "publishedAt": "2026-09-16T14:32:30Z",
+            "sentiment": "Negative",
+            "compound": -0.382
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 61.17,
-  "trade_probability": 56.7,
+  "confirmation_score": 47.21,
+  "trade_probability": 48.33,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
