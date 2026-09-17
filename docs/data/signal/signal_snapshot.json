@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T15:45:49.586047+00:00",
+  "generated_at": "2026-09-17T16:01:29.381046+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.063,
+          "change_pct": 0.1971,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.0271,
-          "up": true
+          "change_pct": -0.1006,
+          "up": false
         },
         "NVDA": {
-          "change_pct": -0.0178,
+          "change_pct": -0.032,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.004,
+          "change_pct": -0.0911,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29432.55,
-        "sma50": 29177.35,
+        "last_price": 29432.05,
+        "sma50": 29177.34,
         "sma200": 27208.7
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 70.0,
+      "score": 75.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.32,
-        "percentile_vs_20d": 30.0
+        "current_vxn": 20.26,
+        "percentile_vs_20d": 25.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 49.51,
+      "score": 50.16,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.947,
-        "change_5d_pct": 0.061
+        "current_yield_pct": 4.943,
+        "change_5d_pct": -0.02
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 40.93,
+      "score": 40.73,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.21,
-        "change_5d_pct": 1.133
+        "current_dxy": 100.24,
+        "change_5d_pct": 1.159
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.73,
+      "score": 49.37,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.035,
+        "avg_compound": -0.013,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "World's top-performing sovereign wealth fund warns of looming pullback in U.S. stock market",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-16T15:45:29Z",
-            "sentiment": "Positive",
-            "compound": 0.318
-          },
-          {
-            "title": "Europe closes higher with eyes on Fed's rate call",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-16T15:44:10Z",
+            "title": "The Bitcoin Price That Could Completely Change the MSTR Story, We See 97% Upside",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-16T16:00:10Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Credo’s $236 Million Adjusted Profit Came With Just $83 Million in Free Cash Flow",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-16T15:42:39Z",
-            "sentiment": "Positive",
-            "compound": 0.735
+            "title": "Fed meeting live updates: Rate hike expected for the first time in three years",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-16T16:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "NASDAQ 100 put-to-call skew drops to historic low as investors turn bullish",
+            "title": "The Atrocities That Shaped the Modern Middle East",
+            "source": "The Atlantic",
+            "publishedAt": "2026-09-16T16:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Energy Shock Puts Bank of England Under Pressure to Raise Rates",
+            "source": "OilPrice.com",
+            "publishedAt": "2026-09-16T16:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
+          {
+            "title": "Markets price 93% chance of Fed rate hike today, first since 2023",
             "source": "Crypto Briefing",
-            "publishedAt": "2026-09-16T15:40:59Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "Top Business & Market Headlines Today — BL Morning Report, September 17, 2026",
-            "source": "BusinessLine",
-            "publishedAt": "2026-09-16T15:39:21Z",
+            "publishedAt": "2026-09-16T15:59:55Z",
             "sentiment": "Positive",
-            "compound": 0.703
+            "compound": 0.25
           },
           {
-            "title": "Household Income Soars to Record $87,460 — So Why Is Everyone Feeling So Poor?",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-16T15:36:29Z",
-            "sentiment": "Negative",
-            "compound": -0.541
+            "title": "Yields on US Treasuries fall ahead of Fed rate call",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-16T15:58:56Z",
+            "sentiment": "Positive",
+            "compound": 0.226
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.13,
-  "trade_probability": 52.48,
+  "confirmation_score": 47.68,
+  "trade_probability": 48.61,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
