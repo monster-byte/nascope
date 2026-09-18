@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T15:45:55.269897+00:00",
+  "generated_at": "2026-09-18T16:01:22.463769+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
+      "score": 0.0,
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.0284,
-          "up": true
+          "change_pct": -0.0418,
+          "up": false
         },
         "MSFT": {
-          "change_pct": -0.0334,
+          "change_pct": -0.0152,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.0137,
+          "change_pct": -0.0721,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.0198,
+          "change_pct": 0.0,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.66,
+      "score": 72.52,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29430.18,
-        "sma50": 29171.7,
-        "sma200": 27229.21
+        "last_price": 29416.56,
+        "sma50": 29171.43,
+        "sma200": 27229.14
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 85.0,
+      "score": 75.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.1,
-        "percentile_vs_20d": 15.0
+        "current_vxn": 20.19,
+        "percentile_vs_20d": 25.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 45.98,
+      "score": 46.62,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.0,
-        "change_5d_pct": 0.503
+        "current_yield_pct": 4.996,
+        "change_5d_pct": 0.422
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 40.09,
-      "status": "yellow",
+      "score": 39.72,
+      "status": "red",
       "details": {
-        "current_dxy": 100.35,
-        "change_5d_pct": 1.239
+        "current_dxy": 100.39,
+        "change_5d_pct": 1.285
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.54,
+      "score": 51.13,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.049,
+        "avg_compound": 0.023,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "What to Watch: TRXS",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-17T15:40:56Z",
+            "title": "Ethos Technologies Highlights Why Key Sell Rules Also Apply To New IPOs",
+            "source": "Investor's Business Daily",
+            "publishedAt": "2026-09-17T16:01:13Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "$40T US debt neither bullish nor bearish for Bitcoin",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-17T15:39:54Z",
+            "title": "Struggling Coinbase Stock Sets Itself Up For This Bearish Trade",
+            "source": "Investor's Business Daily",
+            "publishedAt": "2026-09-17T16:01:06Z",
             "sentiment": "Negative",
-            "compound": -0.361
+            "compound": -0.421
           },
           {
-            "title": "Ahead of Market: 10 things that will decide stock market action on Friday",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-17T15:39:44Z",
+            "title": "Zillow Preview℠ listings are now live on Realtor.com®, offering the same early access on the two most-visited real estate platforms in the country",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-17T16:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Europe closes higher with CPI data, BoE in spotlight",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-17T15:38:32Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "JPMorgan CEO doubles down on his inflation and economy verdict",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-17T15:38:17Z",
-            "sentiment": "Neutral",
-            "compound": 0.153
-          },
-          {
-            "title": "Trump Wants Interest Rates at 1%: What It Would Mean for Americans",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-17T15:38:17Z",
+            "title": "Washington Trust Bancorp, Inc. Announces Quarterly Dividend",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-17T16:00:00Z",
             "sentiment": "Positive",
-            "compound": 0.459
+            "compound": 0.511
+          },
+          {
+            "title": "$300M+ Founder: What Nobody Tells You Before Selling Your Business | 146",
+            "source": "Nathanbarry.com",
+            "publishedAt": "2026-09-17T16:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Bronstein, Gewirtz & Grossman LLC Urges FuelCell Energy, Inc. Investors to Act: Class Action Filed Alleging Investor Harm",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-17T16:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.34
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 47.8,
-  "trade_probability": 48.68,
+  "confirmation_score": 40.51,
+  "trade_probability": 44.31,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
