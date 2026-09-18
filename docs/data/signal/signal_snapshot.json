@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T15:15:53.717531+00:00",
+  "generated_at": "2026-09-18T15:31:11.643398+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,36 +13,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
-      "status": "green",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.0943,
+          "change_pct": 0.0448,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.0264,
-          "up": true
+          "change_pct": -0.0445,
+          "up": false
         },
         "NVDA": {
-          "change_pct": -0.0068,
+          "change_pct": -0.0364,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.0217,
-          "up": true
+          "change_pct": -0.083,
+          "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.79,
+      "score": 72.85,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29443.11,
-        "sma50": 29171.96,
-        "sma200": 27229.28
+        "last_price": 29449.66,
+        "sma50": 29172.09,
+        "sma200": 27229.31
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 80.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.08,
+        "current_vxn": 20.13,
         "percentile_vs_20d": 20.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 45.02,
+      "score": 45.98,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.006,
-        "change_5d_pct": 0.623
+        "current_yield_pct": 5.0,
+        "change_5d_pct": 0.503
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 39.22,
+      "score": 39.8,
       "status": "red",
       "details": {
-        "current_dxy": 100.46,
-        "change_5d_pct": 1.348
+        "current_dxy": 100.38,
+        "change_5d_pct": 1.275
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.78,
+      "score": 46.77,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.076,
+        "avg_compound": -0.065,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Meta Stock Climbs On Muse AI Excitement. Here's The Next Potential Catalyst.",
-            "source": "Investor's Business Daily",
-            "publishedAt": "2026-09-17T15:14:28Z",
-            "sentiment": "Positive",
-            "compound": 0.494
-          },
-          {
-            "title": "Trump’s $5K checks could join stack of past unfulfilled promises, former Congress budget chief warns",
-            "source": "Fox News",
-            "publishedAt": "2026-09-17T15:14:18Z",
+            "title": "Eightco Holdings (NASDAQ: ORBS) Reports Total Holdings of Approximately $380 Million, Includes OpenAI, Beast Industries, More Than 16,000 ETH and Nearly 302 Million WLD Tokens",
+            "source": "Businessnewsthisweek.com",
+            "publishedAt": "2026-09-17T15:31:01Z",
             "sentiment": "Neutral",
-            "compound": 0.153
+            "compound": 0.0
           },
           {
-            "title": "Congress is so dysfunctional and irresponsible it’s only done its job four times since World War II",
-            "source": "Fortune",
-            "publishedAt": "2026-09-17T15:09:36Z",
+            "title": "Workday Named a Leader in Inaugural 2026 Gartner® Magic Quadrant™ for Workforce Management Technology",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-17T15:30:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Investing pros see the bond market headed for a recovery after yields hit 'maximum pain'",
+            "source": "Business Insider",
+            "publishedAt": "2026-09-17T15:27:23Z",
             "sentiment": "Negative",
-            "compound": -0.794
+            "compound": -0.511
           },
           {
-            "title": "READERS’ FORUM: It has become difficult for ordinary citizens to survive",
-            "source": "Peoplesreview.com.np",
-            "publishedAt": "2026-09-17T15:08:00Z",
+            "title": "Supermarket Income REIT H2 Earnings Call Highlights",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-17T15:26:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "The Strategist Who Wanted 8,400 on the S&P 500 Just Cut His Number, and It Is Not Because Earnings Got Worse",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-17T15:22:48Z",
             "sentiment": "Negative",
-            "compound": -0.361
+            "compound": -0.599
           },
           {
-            "title": "Sebi bars Kore Digital, three top execs from capital markets over alleged fraud",
-            "source": "Livemint",
-            "publishedAt": "2026-09-17T15:06:38Z",
-            "sentiment": "Negative",
-            "compound": -0.459
-          },
-          {
-            "title": "Top Business & Market Headlines Today — BL Morning Report, September 18, 2026",
-            "source": "BusinessLine",
-            "publishedAt": "2026-09-17T15:05:02Z",
-            "sentiment": "Positive",
-            "compound": 0.703
+            "title": "Apple iPhone 18 Pro Sales Helped By Carrier Promotions",
+            "source": "Investor's Business Daily",
+            "publishedAt": "2026-09-17T15:22:15Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 61.22,
-  "trade_probability": 56.73,
+  "confirmation_score": 47.28,
+  "trade_probability": 48.37,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
