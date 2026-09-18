@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T17:31:12.906988+00:00",
+  "generated_at": "2026-09-18T17:41:49.823439+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 0.0,
+      "score": 25.0,
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.0373,
+          "change_pct": -0.0492,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.0506,
-          "up": false
+          "change_pct": 0.0232,
+          "up": true
         },
         "NVDA": {
-          "change_pct": -0.0295,
+          "change_pct": -0.017,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.0217,
+          "change_pct": -0.0119,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.84,
+      "score": 73.05,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29448.67,
-        "sma50": 29172.07,
-        "sma200": 27229.3
+        "last_price": 29469.27,
+        "sma50": 29172.48,
+        "sma200": 27229.41
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 95.0,
+      "score": 100.0,
       "status": "green",
       "details": {
-        "current_vxn": 19.89,
-        "percentile_vs_20d": 5.0
+        "current_vxn": 19.86,
+        "percentile_vs_20d": 0.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 46.62,
+      "score": 45.98,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.996,
-        "change_5d_pct": 0.422
+        "current_yield_pct": 5.0,
+        "change_5d_pct": 0.503
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.13,
+      "score": 41.15,
       "status": "yellow",
       "details": {
         "current_dxy": 100.22,
-        "change_5d_pct": 1.109
+        "change_5d_pct": 1.106
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.59,
+      "score": 52.81,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.092,
+        "avg_compound": 0.056,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Trump Says He’s Weighing Whether or Not to ‘Annihilate’ Iran: ‘Anything Could Happen’",
-            "source": "Mediaite",
-            "publishedAt": "2026-09-17T17:29:12Z",
+            "title": "Rupee settles 2 paise up at 95.89 against dollar after breaching 96 level",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-17T17:41:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "'Historic FUMBLE': Economic adviser says Trump has 'no one to blame but himself' for rate hike",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-17T17:27:59Z",
-            "sentiment": "Neutral",
-            "compound": -0.178
-          },
-          {
-            "title": "Roundtable Secures 10-Year, $1 Billion Agreement, Bringing its AI/DeFi Media Operating System to Global Scale and Profitability",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-17T17:27:15Z",
+            "title": "George Will Endorses Dem Candidate Over Trump-Backed Nepo-Sister",
+            "source": "HuffPost",
+            "publishedAt": "2026-09-17T17:39:54Z",
             "sentiment": "Positive",
-            "compound": 0.765
+            "compound": 0.34
           },
           {
-            "title": "Stock Market Midday, Sept. 17: Stocks Rebound From Post Fed Sell-off, Generac soars 20%",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-17T17:27:07Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Kevin Warsh-led Federal Reserve starts US war on inflation",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-17T17:39:37Z",
+            "sentiment": "Negative",
+            "compound": -0.599
           },
           {
-            "title": "New Fed chair committed to independence amid rate hike speculation",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-17T17:26:56Z",
+            "title": "Takaichi Reshuffles Cabinet To Steady Markets And Party",
+            "source": "Newsonjapan.com",
+            "publishedAt": "2026-09-17T17:39:05Z",
             "sentiment": "Positive",
-            "compound": 0.273
+            "compound": 0.402
           },
           {
-            "title": "Why IonQ Stock Popped Today",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-17T17:26:47Z",
+            "title": "Troubled Multifamily Loans Face A Refinancing Problem: Who Puts In New Equity?",
+            "source": "Bisnow",
+            "publishedAt": "2026-09-17T17:37:08Z",
+            "sentiment": "Negative",
+            "compound": -0.691
+          },
+          {
+            "title": "AMD Jumps 7% as Semiconductor Rebound Reaches a Third Session; Broadcom Rises 3%, NVIDIA Edges Higher",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-17T17:37:07Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": 0.052
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 42.79,
-  "trade_probability": 45.67,
+  "confirmation_score": 49.78,
+  "trade_probability": 49.87,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
