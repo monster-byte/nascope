@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T17:15:51.875217+00:00",
+  "generated_at": "2026-09-18T17:31:12.906988+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,20 +13,20 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 0.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.006,
+          "change_pct": -0.0373,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.0283,
-          "up": true
+          "change_pct": -0.0506,
+          "up": false
         },
         "NVDA": {
-          "change_pct": 0.0023,
-          "up": true
+          "change_pct": -0.0295,
+          "up": false
         },
         "AMZN": {
           "change_pct": -0.0217,
@@ -36,40 +36,40 @@
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.92,
+      "score": 72.84,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29455.94,
-        "sma50": 29172.22,
-        "sma200": 27229.34
+        "last_price": 29448.67,
+        "sma50": 29172.07,
+        "sma200": 27229.3
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 75.0,
+      "score": 95.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.16,
-        "percentile_vs_20d": 25.0
+        "current_vxn": 19.89,
+        "percentile_vs_20d": 5.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 45.98,
+      "score": 46.62,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.0,
-        "change_5d_pct": 0.503
+        "current_yield_pct": 4.996,
+        "change_5d_pct": 0.422
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 40.74,
+      "score": 41.13,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.27,
-        "change_5d_pct": 1.157
+        "current_dxy": 100.22,
+        "change_5d_pct": 1.109
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.38,
+      "score": 54.59,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.108,
+        "avg_compound": 0.092,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Club Offers for Travel Enthusiasts in the UK",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-17T17:13:00Z",
-            "sentiment": "Positive",
-            "compound": 0.34
-          },
-          {
-            "title": "A Treasurer’s Playbook Following a Fed Rate Hike: Ask Banks to Pay Up for Deposits - WSJ",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-09-17T17:12:47Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
-          },
-          {
-            "title": "Goldman Reversed Its Fed Call Twice in Four Days. What an October Hike Does to Bitcoin and XRP.",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-17T17:12:42Z",
+            "title": "Trump Says He’s Weighing Whether or Not to ‘Annihilate’ Iran: ‘Anything Could Happen’",
+            "source": "Mediaite",
+            "publishedAt": "2026-09-17T17:29:12Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Stock Market Sell-Off: Is It Really Safe to Invest Right Now? Here's What History Says",
+            "title": "'Historic FUMBLE': Economic adviser says Trump has 'no one to blame but himself' for rate hike",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-17T17:11:53Z",
-            "sentiment": "Positive",
-            "compound": 0.493
-          },
-          {
-            "title": "Gold, US Treasuries surge as crude oil slide eases inflation concerns",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-17T17:10:20Z",
+            "publishedAt": "2026-09-17T17:27:59Z",
             "sentiment": "Neutral",
-            "compound": -0.128
+            "compound": -0.178
           },
           {
-            "title": "US government sells $19B in 10-year TIPS at 2.653% real yield",
+            "title": "Roundtable Secures 10-Year, $1 Billion Agreement, Bringing its AI/DeFi Media Operating System to Global Scale and Profitability",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-17T17:27:15Z",
+            "sentiment": "Positive",
+            "compound": 0.765
+          },
+          {
+            "title": "Stock Market Midday, Sept. 17: Stocks Rebound From Post Fed Sell-off, Generac soars 20%",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-17T17:27:07Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "New Fed chair committed to independence amid rate hike speculation",
             "source": "Crypto Briefing",
-            "publishedAt": "2026-09-17T17:09:33Z",
+            "publishedAt": "2026-09-17T17:26:56Z",
+            "sentiment": "Positive",
+            "compound": 0.273
+          },
+          {
+            "title": "Why IonQ Stock Popped Today",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-17T17:26:47Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.45,
-  "trade_probability": 52.67,
+  "confirmation_score": 42.79,
+  "trade_probability": 45.67,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
