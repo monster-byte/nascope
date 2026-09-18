@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T16:15:52.951242+00:00",
+  "generated_at": "2026-09-18T16:31:08.771936+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.0164,
+          "change_pct": 0.006,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.0547,
+          "change_pct": -0.0436,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.0319,
-          "up": false
+          "change_pct": 0.0139,
+          "up": true
         },
         "AMZN": {
-          "change_pct": 0.0237,
-          "up": true
+          "change_pct": -0.0177,
+          "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.56,
+      "score": 72.54,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29420.83,
-        "sma50": 29171.51,
-        "sma200": 27229.16
+        "last_price": 29418.4,
+        "sma50": 29171.46,
+        "sma200": 27229.15
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 70.0,
+      "score": 80.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.23,
-        "percentile_vs_20d": 30.0
+        "current_vxn": 20.18,
+        "percentile_vs_20d": 20.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 45.66,
+      "score": 45.34,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.002,
-        "change_5d_pct": 0.543
+        "current_yield_pct": 5.004,
+        "change_5d_pct": 0.583
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 39.82,
-      "status": "red",
+      "score": 40.14,
+      "status": "yellow",
       "details": {
-        "current_dxy": 100.38,
-        "change_5d_pct": 1.272
+        "current_dxy": 100.34,
+        "change_5d_pct": 1.233
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.1,
+      "score": 52.62,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.038,
+        "avg_compound": 0.052,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Powerus and Pakistan: The optics problem with a Trump-linked deal",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-17T16:15:37Z",
+            "title": "FirstService Declares Quarterly Cash Dividend on Common Shares",
+            "source": "Financial Post",
+            "publishedAt": "2026-09-17T16:30:15Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "SoFi Could Be Building Something Wall Street Hasn’t Fully Priced In",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-17T16:30:15Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Mortgage rates jump to nearly 7% after Fed rate hike — highest in nearly two years",
+            "source": "New York Post",
+            "publishedAt": "2026-09-17T16:29:57Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Iran's parliamentary speaker is taunting the Fed for its inability to bring down oil prices",
+            "source": "Business Insider",
+            "publishedAt": "2026-09-17T16:29:30Z",
             "sentiment": "Negative",
             "compound": -0.402
           },
           {
-            "title": "The Fed Rate Hike Is Making Corporate Cash Too Expensive to Ignore",
-            "source": "pymnts.com",
-            "publishedAt": "2026-09-17T16:14:37Z",
-            "sentiment": "Negative",
-            "compound": -0.361
-          },
-          {
-            "title": "Is America's $40 Trillion Debt Load Bullish or Bearish For Bitcoin? The Answer Might Surprise You",
+            "title": "Why Magnite Stock Rocketed Higher Today",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-17T16:11:43Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
-          },
-          {
-            "title": "Why Goldgroup Mining Stock Popped, Then Dropped",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-17T16:11:37Z",
+            "publishedAt": "2026-09-17T16:26:23Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Columbia Bank Names Chris Orr to Lead Trust Sales and Strategic Partnerships for Columbia Private Trust",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-17T16:10:00Z",
+            "title": "How much interest can a $50,000 5-year CD account earn now?",
+            "source": "CBS News",
+            "publishedAt": "2026-09-17T16:25:25Z",
             "sentiment": "Positive",
-            "compound": 0.765
-          },
-          {
-            "title": "'It's a raise against Trump:' Despite inflation being ahead of target for five years, Trump brands latest hike as political",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-17T16:09:37Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": 0.459
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 53.17,
-  "trade_probability": 51.9,
+  "confirmation_score": 54.46,
+  "trade_probability": 52.68,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
