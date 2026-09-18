@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T19:45:53.081369+00:00",
+  "generated_at": "2026-09-18T19:58:56.527850+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,36 +13,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.0119,
-          "up": true
+          "change_pct": -0.0313,
+          "up": false
         },
         "MSFT": {
-          "change_pct": -0.002,
+          "change_pct": -0.0931,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.0114,
-          "up": false
+          "change_pct": 0.6055,
+          "up": true
         },
         "AMZN": {
-          "change_pct": 0.0315,
-          "up": true
+          "change_pct": -0.0729,
+          "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 73.97,
+      "score": 74.67,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29560.81,
-        "sma50": 29174.31,
-        "sma200": 27229.86
+        "last_price": 29630.14,
+        "sma50": 29175.7,
+        "sma200": 27230.21
       }
     },
     "vxn": {
@@ -50,7 +50,7 @@
       "score": 100.0,
       "status": "green",
       "details": {
-        "current_vxn": 19.53,
+        "current_vxn": 19.45,
         "percentile_vs_20d": 0.0
       }
     },
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.29,
+      "score": 41.28,
       "status": "yellow",
       "details": {
         "current_dxy": 100.2,
-        "change_5d_pct": 1.089
+        "change_5d_pct": 1.091
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.27,
+      "score": 50.28,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.025,
+        "avg_compound": 0.006,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "In Case It Wasn't Already Clear, Trump Couldn't Care Less About Your Suffering",
+            "source": "Crooksandliars.com",
+            "publishedAt": "2026-09-17T19:57:40Z",
+            "sentiment": "Negative",
+            "compound": -0.768
+          },
+          {
+            "title": "Sweden’s Right-Wing Reckoning",
+            "source": "Foreign Policy",
+            "publishedAt": "2026-09-17T19:51:11Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "The Fed Can't Fight Inflation Alone. Will Congress Do Its Part?",
             "source": "Reason",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-09-17T19:44:55Z",
             "sentiment": "Positive",
             "compound": 0.772
-          },
-          {
-            "title": "(PR) CORSAIR Launches Updated Nautilus II AIO CPU Coolers and Upgraded RS II Fans",
-            "source": "Techpowerup.com",
-            "publishedAt": "2026-09-17T19:42:07Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Oil is back above $100—but economists say that number isn’t the real threat to the U.S. economy",
-            "source": "Fortune",
-            "publishedAt": "2026-09-17T19:39:51Z",
-            "sentiment": "Negative",
-            "compound": -0.477
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.57,
-  "trade_probability": 53.94,
+  "confirmation_score": 49.82,
+  "trade_probability": 49.89,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
