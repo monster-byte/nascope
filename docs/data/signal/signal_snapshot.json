@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T17:45:52.990630+00:00",
+  "generated_at": "2026-09-18T18:01:37.962414+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.0358,
+          "change_pct": 0.0343,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.0061,
-          "up": false
+          "change_pct": 0.0435,
+          "up": true
         },
         "NVDA": {
-          "change_pct": -0.0046,
+          "change_pct": 0.0,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.002,
-          "up": true
+          "change_pct": -0.0349,
+          "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 73.11,
+      "score": 73.12,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29474.57,
-        "sma50": 29172.59,
-        "sma200": 27229.43
+        "last_price": 29476.37,
+        "sma50": 29172.62,
+        "sma200": 27229.44
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 100.0,
       "status": "green",
       "details": {
-        "current_vxn": 19.87,
+        "current_vxn": 19.78,
         "percentile_vs_20d": 0.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 45.98,
+      "score": 45.66,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.0,
-        "change_5d_pct": 0.503
+        "current_yield_pct": 5.002,
+        "change_5d_pct": 0.543
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.15,
+      "score": 41.01,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.22,
-        "change_5d_pct": 1.106
+        "current_dxy": 100.23,
+        "change_5d_pct": 1.124
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.81,
+      "score": 50.03,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.056,
+        "avg_compound": 0.001,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Rupee settles 2 paise up at 95.89 against dollar after breaching 96 level",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-17T17:41:00Z",
+            "title": "The Many Hypotheses of Why There Is an Avoidable Energy Crisis",
+            "source": "Nakedcapitalism.com",
+            "publishedAt": "2026-09-17T18:00:07Z",
+            "sentiment": "Negative",
+            "compound": -0.459
+          },
+          {
+            "title": "Material World: Celium Branches Out, Spent Grain Gets Rolling",
+            "source": "WWD",
+            "publishedAt": "2026-09-17T18:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "George Will Endorses Dem Candidate Over Trump-Backed Nepo-Sister",
-            "source": "HuffPost",
-            "publishedAt": "2026-09-17T17:39:54Z",
-            "sentiment": "Positive",
-            "compound": 0.34
-          },
-          {
-            "title": "Kevin Warsh-led Federal Reserve starts US war on inflation",
+            "title": "Chef Curtis Stone bought a 60-acre California farm after outgrowing his kitchen; it now has vineyards, centuries old oak trees and a live-fire setup",
             "source": "The Times of India",
-            "publishedAt": "2026-09-17T17:39:37Z",
-            "sentiment": "Negative",
-            "compound": -0.599
-          },
-          {
-            "title": "Takaichi Reshuffles Cabinet To Steady Markets And Party",
-            "source": "Newsonjapan.com",
-            "publishedAt": "2026-09-17T17:39:05Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "Troubled Multifamily Loans Face A Refinancing Problem: Who Puts In New Equity?",
-            "source": "Bisnow",
-            "publishedAt": "2026-09-17T17:37:08Z",
-            "sentiment": "Negative",
-            "compound": -0.691
-          },
-          {
-            "title": "AMD Jumps 7% as Semiconductor Rebound Reaches a Third Session; Broadcom Rises 3%, NVIDIA Edges Higher",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-17T17:37:07Z",
+            "publishedAt": "2026-09-17T17:59:49Z",
             "sentiment": "Neutral",
-            "compound": 0.052
+            "compound": 0.0
+          },
+          {
+            "title": "Oracle vs. Broadcom: Which \"Picks and Shovels\" AI Stock Has the Bigger Growth Runway From Here?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-17T17:57:01Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "Why D-Wave Quantum Stock Popped Today",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-17T17:56:51Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Jersey City Loew’s Wonder Theater to reopen following a $130M renovation — and decades of neglect",
+            "source": "New York Post",
+            "publishedAt": "2026-09-17T17:56:42Z",
+            "sentiment": "Negative",
+            "compound": -0.459
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.53,
-  "trade_probability": 53.92,
+  "confirmation_score": 56.23,
+  "trade_probability": 53.74,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
