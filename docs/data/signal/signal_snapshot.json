@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T15:31:11.643398+00:00",
+  "generated_at": "2026-09-18T15:45:55.269897+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,41 +17,41 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.0448,
+          "change_pct": 0.0284,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.0445,
+          "change_pct": -0.0334,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.0364,
+          "change_pct": -0.0137,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.083,
+          "change_pct": -0.0198,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.85,
+      "score": 72.66,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29449.66,
-        "sma50": 29172.09,
-        "sma200": 27229.31
+        "last_price": 29430.18,
+        "sma50": 29171.7,
+        "sma200": 27229.21
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 80.0,
+      "score": 85.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.13,
-        "percentile_vs_20d": 20.0
+        "current_vxn": 20.1,
+        "percentile_vs_20d": 15.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 39.8,
-      "status": "red",
+      "score": 40.09,
+      "status": "yellow",
       "details": {
-        "current_dxy": 100.38,
-        "change_5d_pct": 1.275
+        "current_dxy": 100.35,
+        "change_5d_pct": 1.239
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.77,
+      "score": 47.54,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.065,
-        "articles_analyzed": 24,
+        "avg_compound": -0.049,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Eightco Holdings (NASDAQ: ORBS) Reports Total Holdings of Approximately $380 Million, Includes OpenAI, Beast Industries, More Than 16,000 ETH and Nearly 302 Million WLD Tokens",
-            "source": "Businessnewsthisweek.com",
-            "publishedAt": "2026-09-17T15:31:01Z",
+            "title": "What to Watch: TRXS",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-17T15:40:56Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Workday Named a Leader in Inaugural 2026 Gartner® Magic Quadrant™ for Workforce Management Technology",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-17T15:30:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Investing pros see the bond market headed for a recovery after yields hit 'maximum pain'",
-            "source": "Business Insider",
-            "publishedAt": "2026-09-17T15:27:23Z",
+            "title": "$40T US debt neither bullish nor bearish for Bitcoin",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-17T15:39:54Z",
             "sentiment": "Negative",
-            "compound": -0.511
+            "compound": -0.361
           },
           {
-            "title": "Supermarket Income REIT H2 Earnings Call Highlights",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-17T15:26:00Z",
+            "title": "Ahead of Market: 10 things that will decide stock market action on Friday",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-17T15:39:44Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "The Strategist Who Wanted 8,400 on the S&P 500 Just Cut His Number, and It Is Not Because Earnings Got Worse",
+            "title": "Europe closes higher with CPI data, BoE in spotlight",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-17T15:22:48Z",
-            "sentiment": "Negative",
-            "compound": -0.599
-          },
-          {
-            "title": "Apple iPhone 18 Pro Sales Helped By Carrier Promotions",
-            "source": "Investor's Business Daily",
-            "publishedAt": "2026-09-17T15:22:15Z",
+            "publishedAt": "2026-09-17T15:38:32Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "JPMorgan CEO doubles down on his inflation and economy verdict",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-17T15:38:17Z",
+            "sentiment": "Neutral",
+            "compound": 0.153
+          },
+          {
+            "title": "Trump Wants Interest Rates at 1%: What It Would Mean for Americans",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-17T15:38:17Z",
+            "sentiment": "Positive",
+            "compound": 0.459
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 47.28,
-  "trade_probability": 48.37,
+  "confirmation_score": 47.8,
+  "trade_probability": 48.68,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
