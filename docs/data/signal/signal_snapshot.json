@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T13:15:55.423338+00:00",
+  "generated_at": "2026-09-18T13:31:10.738185+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,36 +13,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
-      "status": "red",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.1111,
-          "up": false
-        },
-        "MSFT": {
-          "change_pct": 0.0693,
+          "change_pct": 0.0116,
           "up": true
         },
+        "MSFT": {
+          "change_pct": -0.3862,
+          "up": false
+        },
         "NVDA": {
-          "change_pct": -0.0911,
+          "change_pct": -0.4907,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.159,
-          "up": false
+          "change_pct": 0.8958,
+          "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.77,
+      "score": 73.7,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29446.98,
-        "sma50": 29177.64,
-        "sma200": 27208.77
+        "last_price": 29533.88,
+        "sma50": 29173.77,
+        "sma200": 27229.73
       }
     },
     "vxn": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 39.23,
+      "score": 39.0,
       "status": "red",
       "details": {
-        "current_dxy": 100.45,
-        "change_5d_pct": 1.346
+        "current_dxy": 100.48,
+        "change_5d_pct": 1.375
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.53,
+      "score": 53.36,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.031,
+        "avg_compound": 0.067,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Satellites Built Today Must Outlive the Encryption Protecting Them",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-17T13:15:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "The Drone Arms Race Is Here: Military UAV Market Projected to Triple by 2032",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-17T13:15:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Fed interest rate hike adds to midterm tremors for GOP - The Hill",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-09-17T13:13:58Z",
-            "sentiment": "Positive",
-            "compound": 0.459
-          },
-          {
-            "title": "T LOunge for September 17th 2026",
-            "source": "tomandlorenzo.com",
-            "publishedAt": "2026-09-17T13:13:22Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "IREN Climbs 6%, Nebius Jumps 10% as GPU Rental Rates Head Higher; CoreWeave Slips",
+            "title": "Can SpaceX Really Turn Starlink Into a $1 Trillion Business? Ron Baron Has $25 Billion Riding on Yes",
             "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-17T13:11:42Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "publishedAt": "2026-09-17T13:30:26Z",
+            "sentiment": "Positive",
+            "compound": 0.402
           },
           {
-            "title": "Mission, Margin, and the Tradeoffs Facing Hospitals with Omar Lateef",
-            "source": "Yale.edu",
-            "publishedAt": "2026-09-17T13:11:00Z",
+            "title": "telMAX Secures $215 Million in Growth Financing through Structured Investment from Hamilton Lane and Upsized PSIC Credit Facility",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-17T13:30:00Z",
+            "sentiment": "Positive",
+            "compound": 0.758
+          },
+          {
+            "title": "Are Mexicans Really Better Off Under Claudia Sheinbaum?",
+            "source": "Project Syndicate",
+            "publishedAt": "2026-09-17T13:27:53Z",
+            "sentiment": "Positive",
+            "compound": 0.493
+          },
+          {
+            "title": "Wall Street warns trading boom is losing steam",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-17T13:27:13Z",
+            "sentiment": "Negative",
+            "compound": -0.459
+          },
+          {
+            "title": "Strategy’s Preferred Stock Nears Par Value After Buybacks",
+            "source": "Cryptoprowl.com",
+            "publishedAt": "2026-09-17T13:27:00Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
+          {
+            "title": "SK Hynix and Intel explore US memory chip partnership",
+            "source": "Verdict",
+            "publishedAt": "2026-09-17T13:25:53Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 48.45,
-  "trade_probability": 49.07,
+  "confirmation_score": 55.47,
+  "trade_probability": 53.28,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
