@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T18:31:08.132548+00:00",
+  "generated_at": "2026-09-18T18:45:50.388031+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,45 +13,45 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
+      "score": 100.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.0283,
-          "up": false
+          "change_pct": 0.0149,
+          "up": true
         },
         "MSFT": {
-          "change_pct": 0.0141,
+          "change_pct": 0.0434,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.0023,
+          "change_pct": 0.016,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.0099,
+          "change_pct": 0.0651,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 73.25,
+      "score": 73.44,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29488.45,
-        "sma50": 29172.87,
-        "sma200": 27229.5
+        "last_price": 29507.8,
+        "sma50": 29173.25,
+        "sma200": 27229.6
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 95.0,
+      "score": 100.0,
       "status": "green",
       "details": {
-        "current_vxn": 19.64,
-        "percentile_vs_20d": 5.0
+        "current_vxn": 19.62,
+        "percentile_vs_20d": 0.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 40.95,
+      "score": 41.05,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.24,
-        "change_5d_pct": 1.131
+        "current_dxy": 100.23,
+        "change_5d_pct": 1.119
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.6,
+      "score": 53.63,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.012,
+        "avg_compound": 0.073,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Mortgage preapproval vs. prequalification: Which should you choose?",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-17T18:29:27Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Iran war pushes diesel – the economy’s lifeblood – to record high prices, with no relief on the horizon",
+            "source": "The Conversation Africa",
+            "publishedAt": "2026-09-17T18:45:40Z",
+            "sentiment": "Negative",
+            "compound": -0.755
           },
           {
-            "title": "College grads shut out of AI-exposed majors since 2022 are ending up in retail and food service instead of the white-collar jobs they studied for",
+            "title": "Goldman’s top strategist just added hard numbers to his earnings-bubble warning",
             "source": "Fortune",
-            "publishedAt": "2026-09-17T18:28:45Z",
+            "publishedAt": "2026-09-17T18:45:02Z",
+            "sentiment": "Negative",
+            "compound": -0.25
+          },
+          {
+            "title": "Cong observes Modi’s b’day as ‘unemployment day’",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-17T18:44:26Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "What the Fed's rate hike reveals about Warsh, Trump and inflation",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-17T18:24:30Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "A 1-Point Rise in Bond Yields Could Swamp BND’s 4.7% Yield",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-17T18:24:28Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Brazil’s Lula announces 15% increase in flagship welfare payments ahead of key election",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-09-17T18:22:13Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "Opposition’s Budget 2026 proposals would have triggered larger income gains for households",
+            "title": "The Irish Times view on Artificial Intelligence: time for a pause",
             "source": "The Irish Times",
-            "publishedAt": "2026-09-17T18:21:43Z",
+            "publishedAt": "2026-09-17T18:39:00Z",
             "sentiment": "Positive",
-            "compound": 0.34
+            "compound": 0.477
+          },
+          {
+            "title": "Why the Federal Reserve is lifting rates now, and what it means",
+            "source": "Abcnews.com",
+            "publishedAt": "2026-09-17T18:36:26Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Trump says AI needs only one guardrail: a strong, smart president",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-17T18:35:20Z",
+            "sentiment": "Positive",
+            "compound": 0.718
           }
         ]
       }
@@ -146,11 +146,11 @@
       }
     }
   },
-  "confirmation_score": 62.64,
-  "trade_probability": 57.58,
+  "confirmation_score": 70.14,
+  "trade_probability": 62.08,
   "market_regime": "BULLISH",
   "final_decision": {
-    "ai_status": "HOLD / MONITOR",
-    "directional_bias": "NEUTRAL"
+    "ai_status": "APPROVED",
+    "directional_bias": "LONG"
   }
 }
