@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T18:01:37.962414+00:00",
+  "generated_at": "2026-09-18T18:15:53.235935+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.0343,
-          "up": true
+          "change_pct": -0.0015,
+          "up": false
         },
         "MSFT": {
-          "change_pct": 0.0435,
+          "change_pct": 0.0162,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.0,
+          "change_pct": -0.0032,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.0349,
-          "up": false
+          "change_pct": 0.0308,
+          "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 73.12,
+      "score": 73.04,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29476.37,
-        "sma50": 29172.62,
-        "sma200": 27229.44
+        "last_price": 29467.74,
+        "sma50": 29172.45,
+        "sma200": 27229.4
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 100.0,
       "status": "green",
       "details": {
-        "current_vxn": 19.78,
+        "current_vxn": 19.67,
         "percentile_vs_20d": 0.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 45.66,
+      "score": 45.98,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.002,
-        "change_5d_pct": 0.543
+        "current_yield_pct": 5.0,
+        "change_5d_pct": 0.503
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.01,
+      "score": 41.03,
       "status": "yellow",
       "details": {
         "current_dxy": 100.23,
-        "change_5d_pct": 1.124
+        "change_5d_pct": 1.122
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.03,
+      "score": 48.88,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.001,
+        "avg_compound": -0.022,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "The Many Hypotheses of Why There Is an Avoidable Energy Crisis",
-            "source": "Nakedcapitalism.com",
-            "publishedAt": "2026-09-17T18:00:07Z",
-            "sentiment": "Negative",
-            "compound": -0.459
-          },
-          {
-            "title": "Material World: Celium Branches Out, Spent Grain Gets Rolling",
-            "source": "WWD",
-            "publishedAt": "2026-09-17T18:00:00Z",
+            "title": "Zcash climbs 18% in 24 hours as governance vote and Grayscale inflows fuel rally past $1,500",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-17T18:12:49Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Chef Curtis Stone bought a 60-acre California farm after outgrowing his kitchen; it now has vineyards, centuries old oak trees and a live-fire setup",
+            "title": "US mortgage rates brush 7%, weighing on buyers, sellers and further straining a bleak housing market",
             "source": "The Times of India",
-            "publishedAt": "2026-09-17T17:59:49Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Oracle vs. Broadcom: Which \"Picks and Shovels\" AI Stock Has the Bigger Growth Runway From Here?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-17T17:57:01Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "Why D-Wave Quantum Stock Popped Today",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-17T17:56:51Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Jersey City Loew’s Wonder Theater to reopen following a $130M renovation — and decades of neglect",
-            "source": "New York Post",
-            "publishedAt": "2026-09-17T17:56:42Z",
+            "publishedAt": "2026-09-17T18:12:39Z",
             "sentiment": "Negative",
-            "compound": -0.459
+            "compound": -0.318
+          },
+          {
+            "title": "What the Fed's rate hike reveals about Warsh, Trump and inflation",
+            "source": "CBS News",
+            "publishedAt": "2026-09-17T18:12:31Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "How an interest rate hike impacts farmers, middle America",
+            "source": "CBS News",
+            "publishedAt": "2026-09-17T18:11:44Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "Trump Is Demanding 1% Interest Rates Again. Here Is What That Would Actually Do to Your Money",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-17T18:09:23Z",
+            "sentiment": "Positive",
+            "compound": 0.273
+          },
+          {
+            "title": "Brazil’s Lula announces welfare increases ahead of presidential election",
+            "source": "Al Jazeera English",
+            "publishedAt": "2026-09-17T18:07:05Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.23,
-  "trade_probability": 53.74,
+  "confirmation_score": 56.16,
+  "trade_probability": 53.7,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
