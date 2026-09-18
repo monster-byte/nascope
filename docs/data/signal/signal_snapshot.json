@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T00:15:54.385184+00:00",
+  "generated_at": "2026-09-18T00:31:09.792503+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 40.71,
+      "score": 40.84,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.24,
-        "change_5d_pct": 1.162
+        "current_dxy": 100.22,
+        "change_5d_pct": 1.144
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.7,
+      "score": 47.95,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.006,
+        "avg_compound": -0.041,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Stocks in news: Infosys, Mazagon Dock, Fortis Healthcare, JSW Energy and Kalpataru Projects",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-17T00:30:00Z",
+            "sentiment": "Positive",
+            "compound": 0.273
+          },
+          {
+            "title": "Pre-market action: Here's the trade setup for today's session",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-17T00:30:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Trump criticises Fed chief Kevin Warsh after US interest rate hike",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-17T00:25:27Z",
+            "sentiment": "Neutral",
+            "compound": 0.178
+          },
+          {
+            "title": "US lawmakers advance bill to lock Trump’s Bitcoin reserve into law",
+            "source": "Cointelegraph",
+            "publishedAt": "2026-09-17T00:23:44Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Fed Rate Hike Raises Costs of Funding Global Commerce",
             "source": "pymnts.com",
@@ -103,34 +131,6 @@
             "title": "US-Iran crisis: NLC demands action as petrol sells N1,500/litre",
             "source": "The Punch",
             "publishedAt": "2026-09-17T00:07:19Z",
-            "sentiment": "Negative",
-            "compound": -0.625
-          },
-          {
-            "title": "US rate increase should only have short-term impact on Hong Kong stocks: CICC",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-17T00:02:16Z",
-            "sentiment": "Positive",
-            "compound": 0.318
-          },
-          {
-            "title": "Fed Hike Changes AI Funding Story",
-            "source": "The Information",
-            "publishedAt": "2026-09-17T00:01:24Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "The Misunderstood Trump Foreign Policy",
-            "source": "Hoover.org",
-            "publishedAt": "2026-09-17T00:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.34
-          },
-          {
-            "title": "StanChart Sees Higher Oil Floor as Hormuz Crisis Spreads to Saudi Export Routes",
-            "source": "OilPrice.com",
-            "publishedAt": "2026-09-17T00:00:00Z",
             "sentiment": "Negative",
             "compound": -0.625
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 48.54,
-  "trade_probability": 49.12,
+  "confirmation_score": 48.4,
+  "trade_probability": 49.04,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
