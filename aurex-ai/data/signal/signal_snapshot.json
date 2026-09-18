@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T09:45:49.277229+00:00",
+  "generated_at": "2026-09-18T09:51:56.545701+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 40.05,
-      "status": "yellow",
+      "score": 39.99,
+      "status": "red",
       "details": {
-        "current_dxy": 100.35,
-        "change_5d_pct": 1.244
+        "current_dxy": 100.36,
+        "change_5d_pct": 1.251
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 42.17,
+      "score": 40.62,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.157,
-        "articles_analyzed": 24,
+        "avg_compound": -0.188,
+        "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Brits face interest rates pain in Labour's 'winter of discontent' as pressure mounts on BoE to curb surging inflation... but will it act today?",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-09-17T09:51:21Z",
+            "sentiment": "Neutral",
+            "compound": -0.19
+          },
+          {
+            "title": "Retail fail: The market’s consumer worries are coming to a head",
+            "source": "Business Insider",
+            "publishedAt": "2026-09-17T09:50:02Z",
+            "sentiment": "Negative",
+            "compound": -0.743
+          },
           {
             "title": "OOOF! CNN Rolls Brutal Trump Economy Supercut",
             "source": "HuffPost",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-09-17T09:24:35Z",
             "sentiment": "Negative",
             "compound": -0.557
-          },
-          {
-            "title": "Modinomics at 76: The birthday cake, the candles and the numbers",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-17T09:21:39Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Ethereum reclaims $2,431 as buyers absorb rate hike and regulatory setback",
-            "source": "Coinjournal.net",
-            "publishedAt": "2026-09-17T09:20:32Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 47.81,
-  "trade_probability": 48.69,
+  "confirmation_score": 47.66,
+  "trade_probability": 48.6,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
