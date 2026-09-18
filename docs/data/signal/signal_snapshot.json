@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T14:01:33.362986+00:00",
+  "generated_at": "2026-09-18T14:10:33.008623+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,36 +13,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.003,
+          "change_pct": 0.0628,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.0081,
-          "up": false
-        },
-        "NVDA": {
-          "change_pct": 0.153,
+          "change_pct": 0.0558,
           "up": true
         },
-        "AMZN": {
-          "change_pct": -0.0198,
+        "NVDA": {
+          "change_pct": -0.0021,
           "up": false
+        },
+        "AMZN": {
+          "change_pct": 0.1141,
+          "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 73.15,
+      "score": 72.95,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29478.66,
-        "sma50": 29172.67,
-        "sma200": 27229.45
+        "last_price": 29459.59,
+        "sma50": 29172.29,
+        "sma200": 27229.36
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 95.0,
       "status": "green",
       "details": {
-        "current_vxn": 19.63,
+        "current_vxn": 19.83,
         "percentile_vs_20d": 5.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 47.27,
+      "score": 46.62,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.992,
-        "change_5d_pct": 0.342
+        "current_yield_pct": 4.996,
+        "change_5d_pct": 0.422
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 38.93,
+      "score": 38.67,
       "status": "red",
       "details": {
-        "current_dxy": 100.49,
-        "change_5d_pct": 1.384
+        "current_dxy": 100.52,
+        "change_5d_pct": 1.416
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.79,
+      "score": 59.35,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.076,
-        "articles_analyzed": 23,
+        "avg_compound": 0.187,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Six companies make record stock market debut in a day, five end higher",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-17T14:00:52Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "How to Get Rich Slowly",
-            "source": "Ritholtz.com",
-            "publishedAt": "2026-09-17T14:00:38Z",
+            "title": "10-year Treasury yield eases, oil falls to $100: AlphaCheck",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-17T14:09:23Z",
             "sentiment": "Positive",
-            "compound": 0.557
+            "compound": 0.477
           },
           {
-            "title": "Mitochondrial genome-derived microsatellites reveal genetic diversity and population structure in Callery pear populations",
-            "source": "Plos.org",
-            "publishedAt": "2026-09-17T14:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "MANTL In-Branch Account Opening Emerges as the Platform's Top Growth Channel in 2026",
+            "title": "PZZA Shareholder Alert: Papa John's International, Inc. Securities Class Action Lawsuit - Investors Should Contact SueWallSt",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-17T14:00:00Z",
+            "publishedAt": "2026-09-17T14:09:00Z",
+            "sentiment": "Positive",
+            "compound": 0.361
+          },
+          {
+            "title": "ENVA SHAREHOLDER INVESTIGATION: SueWallSt Notifies Investors of Potential Securities Claims Involving Enova International",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-17T14:09:00Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "SueWallSt Reminds Hertz Global Holdings Investors of the Pending Class Action Lawsuit With a Lead Plaintiff Deadline of September 22, 2026 - HTZ",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-17T14:09:00Z",
+            "sentiment": "Negative",
+            "compound": -0.226
+          },
+          {
+            "title": "AARD Deadline Alert: SueWallSt Reminds Aardvark Therapeutics, Inc. (AARD) Investors of Securities Class Action Deadline on October 13, 2026",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-17T14:09:00Z",
             "sentiment": "Positive",
             "compound": 0.527
           },
           {
-            "title": "Machine learning and deep learning–based prediction of hypertension and analysis of its major risk factors in Bangladesh",
-            "source": "Plos.org",
-            "publishedAt": "2026-09-17T14:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.338
-          },
-          {
-            "title": "Beyond years of schooling: Genetic associations across educational milestones in two Norwegian cohorts",
-            "source": "Plos.org",
-            "publishedAt": "2026-09-17T14:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "UNCY Shareholder Alert: Unicycive Therapeutics, Inc. Securities Class Action Lawsuit - Investors Should Contact SueWallSt",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-17T14:09:00Z",
+            "sentiment": "Positive",
+            "compound": 0.361
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.15,
-  "trade_probability": 53.69,
+  "confirmation_score": 63.26,
+  "trade_probability": 57.96,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
