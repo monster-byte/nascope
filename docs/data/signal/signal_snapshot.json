@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T15:01:25.711178+00:00",
+  "generated_at": "2026-09-18T15:15:53.717531+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,36 +13,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 100.0,
+      "score": 75.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.012,
+          "change_pct": 0.0943,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.0304,
+          "change_pct": 0.0264,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.1005,
-          "up": true
+          "change_pct": -0.0068,
+          "up": false
         },
         "AMZN": {
-          "change_pct": 0.0709,
+          "change_pct": 0.0217,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 73.03,
+      "score": 72.79,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29466.97,
-        "sma50": 29172.44,
-        "sma200": 27229.39
+        "last_price": 29443.11,
+        "sma50": 29171.96,
+        "sma200": 27229.28
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 46.62,
+      "score": 45.02,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.996,
-        "change_5d_pct": 0.422
+        "current_yield_pct": 5.006,
+        "change_5d_pct": 0.623
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 39.6,
+      "score": 39.22,
       "status": "red",
       "details": {
-        "current_dxy": 100.41,
-        "change_5d_pct": 1.299
+        "current_dxy": 100.46,
+        "change_5d_pct": 1.348
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.67,
+      "score": 53.78,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.053,
-        "articles_analyzed": 25,
+        "avg_compound": 0.076,
+        "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "The Palantir Question Nobody Can Answer Yet: How Big Can This Get?",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-17T15:00:21Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Top 10 Real Estate News: America's Most Interesting Real Estate News",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-17T15:00:00Z",
+            "title": "Meta Stock Climbs On Muse AI Excitement. Here's The Next Potential Catalyst.",
+            "source": "Investor's Business Daily",
+            "publishedAt": "2026-09-17T15:14:28Z",
             "sentiment": "Positive",
-            "compound": 0.585
+            "compound": 0.494
           },
           {
-            "title": "コアインフレのコミュニケーションの実務",
-            "source": "Hatenablog.com",
-            "publishedAt": "2026-09-17T14:59:00Z",
+            "title": "Trump’s $5K checks could join stack of past unfulfilled promises, former Congress budget chief warns",
+            "source": "Fox News",
+            "publishedAt": "2026-09-17T15:14:18Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": 0.153
           },
           {
-            "title": "From UAE Gold Hub to Nasdaq: Metra and GoldCoin Labs Open New Chapter in Digital Gold Finance",
-            "source": "Financial Post",
-            "publishedAt": "2026-09-17T14:58:48Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Congress is so dysfunctional and irresponsible it’s only done its job four times since World War II",
+            "source": "Fortune",
+            "publishedAt": "2026-09-17T15:09:36Z",
+            "sentiment": "Negative",
+            "compound": -0.794
           },
           {
-            "title": "French PM Lecornu warns interest rate hikes will add €10B to debt costs",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-17T14:56:42Z",
-            "sentiment": "Neutral",
-            "compound": 0.026
+            "title": "READERS’ FORUM: It has become difficult for ordinary citizens to survive",
+            "source": "Peoplesreview.com.np",
+            "publishedAt": "2026-09-17T15:08:00Z",
+            "sentiment": "Negative",
+            "compound": -0.361
           },
           {
-            "title": "How much will a $750,000 annuity pay each month in 2026?",
-            "source": "CBS News",
-            "publishedAt": "2026-09-17T14:55:54Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
+            "title": "Sebi bars Kore Digital, three top execs from capital markets over alleged fraud",
+            "source": "Livemint",
+            "publishedAt": "2026-09-17T15:06:38Z",
+            "sentiment": "Negative",
+            "compound": -0.459
+          },
+          {
+            "title": "Top Business & Market Headlines Today — BL Morning Report, September 18, 2026",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-17T15:05:02Z",
+            "sentiment": "Positive",
+            "compound": 0.703
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 68.16,
-  "trade_probability": 60.9,
+  "confirmation_score": 61.22,
+  "trade_probability": 56.73,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
