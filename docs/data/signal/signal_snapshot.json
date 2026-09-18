@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T19:31:10.053246+00:00",
+  "generated_at": "2026-09-18T19:45:53.081369+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.0297,
+          "change_pct": 0.0119,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.0464,
+          "change_pct": -0.002,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.0137,
-          "up": true
+          "change_pct": -0.0114,
+          "up": false
         },
         "AMZN": {
-          "change_pct": -0.0295,
-          "up": false
+          "change_pct": 0.0315,
+          "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 73.73,
+      "score": 73.97,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29536.23,
-        "sma50": 29173.82,
-        "sma200": 27229.74
+        "last_price": 29560.81,
+        "sma50": 29174.31,
+        "sma200": 27229.86
       }
     },
     "vxn": {
@@ -50,7 +50,7 @@
       "score": 100.0,
       "status": "green",
       "details": {
-        "current_vxn": 19.51,
+        "current_vxn": 19.53,
         "percentile_vs_20d": 0.0
       }
     },
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.47,
+      "score": 41.29,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.18,
-        "change_5d_pct": 1.066
+        "current_dxy": 100.2,
+        "change_5d_pct": 1.089
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.0,
+      "score": 51.27,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.06,
+        "avg_compound": 0.025,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Americans are richer than ever — and poverty hits an all-time low",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-17T19:26:34Z",
-            "sentiment": "Negative",
-            "compound": -0.25
-          },
-          {
-            "title": "Google ordered to overhaul global ad empire after judge finds it abused illegal monopoly",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-09-17T19:26:27Z",
-            "sentiment": "Negative",
-            "compound": -0.784
-          },
-          {
-            "title": "New polls show that Americans finally agree on 1 thing: Opposing AI",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-17T19:23:34Z",
+            "title": "The Fed Can't Fight Inflation Alone. Will Congress Do Its Part?",
+            "source": "Reason",
+            "publishedAt": "2026-09-17T19:45:16Z",
             "sentiment": "Positive",
-            "compound": 0.361
+            "compound": 0.445
           },
           {
-            "title": "APP Investors Have Opportunity to Lead AppLovin Corporation Securities Fraud Lawsuit",
+            "title": "Brand Engagement Network (NASDAQ: BNAI) Reports Filing of Cataneo Financial Statements and Provides Business Update",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-17T19:22:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.178
+            "publishedAt": "2026-09-17T19:45:00Z",
+            "sentiment": "Positive",
+            "compound": 0.459
           },
           {
-            "title": "Revolut Chief Says FinTech Could Go Public in NY and London",
-            "source": "pymnts.com",
-            "publishedAt": "2026-09-17T19:20:31Z",
+            "title": "Healthcare Triangle (Nasdaq: HCTI) Joins Kanzun-ARCB Growth Fund to Build Malaysia-to-US Corridor for AI and Healthcare Companies",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-17T19:45:00Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "US economy notches remarkable new record, sparking cheers: ‘Good job everyone’",
+            "source": "Fox News",
+            "publishedAt": "2026-09-17T19:44:55Z",
+            "sentiment": "Positive",
+            "compound": 0.772
+          },
+          {
+            "title": "(PR) CORSAIR Launches Updated Nautilus II AIO CPU Coolers and Upgraded RS II Fans",
+            "source": "Techpowerup.com",
+            "publishedAt": "2026-09-17T19:42:07Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "As AI CEOs clash over regulation, a new culture war is brewing",
+            "title": "Oil is back above $100—but economists say that number isn’t the real threat to the U.S. economy",
             "source": "Fortune",
-            "publishedAt": "2026-09-17T19:20:05Z",
+            "publishedAt": "2026-09-17T19:39:51Z",
             "sentiment": "Negative",
-            "compound": -0.599
+            "compound": -0.477
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.17,
-  "trade_probability": 53.7,
+  "confirmation_score": 56.57,
+  "trade_probability": 53.94,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
