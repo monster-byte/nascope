@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T14:10:33.008623+00:00",
+  "generated_at": "2026-09-18T14:15:50.629336+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.0628,
+          "change_pct": 0.017,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.0558,
-          "up": true
-        },
-        "NVDA": {
-          "change_pct": -0.0021,
+          "change_pct": -0.0234,
           "up": false
         },
+        "NVDA": {
+          "change_pct": 0.0385,
+          "up": true
+        },
         "AMZN": {
-          "change_pct": 0.1141,
+          "change_pct": 0.0056,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.95,
+      "score": 72.67,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29459.59,
-        "sma50": 29172.29,
-        "sma200": 27229.36
+        "last_price": 29431.1,
+        "sma50": 29171.72,
+        "sma200": 27229.22
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 95.0,
       "status": "green",
       "details": {
-        "current_vxn": 19.83,
+        "current_vxn": 19.86,
         "percentile_vs_20d": 5.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 46.62,
+      "score": 46.3,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.996,
-        "change_5d_pct": 0.422
+        "current_yield_pct": 4.998,
+        "change_5d_pct": 0.462
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 38.67,
+      "score": 38.83,
       "status": "red",
       "details": {
-        "current_dxy": 100.52,
-        "change_5d_pct": 1.416
+        "current_dxy": 100.5,
+        "change_5d_pct": 1.396
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 59.35,
+      "score": 57.28,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.187,
+        "avg_compound": 0.146,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "10-year Treasury yield eases, oil falls to $100: AlphaCheck",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-17T14:09:23Z",
-            "sentiment": "Positive",
-            "compound": 0.477
-          },
-          {
-            "title": "PZZA Shareholder Alert: Papa John's International, Inc. Securities Class Action Lawsuit - Investors Should Contact SueWallSt",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-17T14:09:00Z",
-            "sentiment": "Positive",
-            "compound": 0.361
-          },
-          {
-            "title": "ENVA SHAREHOLDER INVESTIGATION: SueWallSt Notifies Investors of Potential Securities Claims Involving Enova International",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-17T14:09:00Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "SueWallSt Reminds Hertz Global Holdings Investors of the Pending Class Action Lawsuit With a Lead Plaintiff Deadline of September 22, 2026 - HTZ",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-17T14:09:00Z",
-            "sentiment": "Negative",
-            "compound": -0.226
-          },
-          {
-            "title": "AARD Deadline Alert: SueWallSt Reminds Aardvark Therapeutics, Inc. (AARD) Investors of Securities Class Action Deadline on October 13, 2026",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-17T14:09:00Z",
+            "title": "The Waltons Are Getting Richer",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-17T14:14:10Z",
             "sentiment": "Positive",
             "compound": 0.527
           },
           {
-            "title": "UNCY Shareholder Alert: Unicycive Therapeutics, Inc. Securities Class Action Lawsuit - Investors Should Contact SueWallSt",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-17T14:09:00Z",
+            "title": "This Goldman Sachs Indicator Hit 0 Only 4 Other Times in the  Last 20 Years. History Says Big Tech Rallies Followed",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-17T14:14:05Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Investors fear food prices may trigger next inflation spike for bond markets",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-17T14:13:58Z",
+            "sentiment": "Negative",
+            "compound": -0.494
+          },
+          {
+            "title": "Apple’s most valuable product isn’t the iPhone",
+            "source": "Financial Post",
+            "publishedAt": "2026-09-17T14:13:53Z",
             "sentiment": "Positive",
-            "compound": 0.361
+            "compound": 0.526
+          },
+          {
+            "title": "Ghalibaf’s maths missile at Trump decoded: Is Iran fixing US interest rates?",
+            "source": "Al Jazeera English",
+            "publishedAt": "2026-09-17T14:10:41Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "Stock markets close flat after US Fed rate hike; NSE IPO in focus - The Tribune",
+            "source": "The Tribune India",
+            "publishedAt": "2026-09-17T14:10:28Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 63.26,
-  "trade_probability": 57.96,
+  "confirmation_score": 63.01,
+  "trade_probability": 57.81,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
