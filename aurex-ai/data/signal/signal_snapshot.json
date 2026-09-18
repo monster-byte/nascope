@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T14:45:57.716382+00:00",
+  "generated_at": "2026-09-18T15:01:25.711178+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,36 +13,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 100.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.1398,
+          "change_pct": 0.012,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.0071,
-          "up": false
+          "change_pct": 0.0304,
+          "up": true
         },
         "NVDA": {
-          "change_pct": 0.0023,
+          "change_pct": 0.1005,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.0656,
-          "up": false
+          "change_pct": 0.0709,
+          "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.61,
+      "score": 73.03,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29425.68,
-        "sma50": 29171.61,
-        "sma200": 27229.19
+        "last_price": 29466.97,
+        "sma50": 29172.44,
+        "sma200": 27229.39
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 80.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.18,
+        "current_vxn": 20.08,
         "percentile_vs_20d": 20.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 45.34,
+      "score": 46.62,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.004,
-        "change_5d_pct": 0.583
+        "current_yield_pct": 4.996,
+        "change_5d_pct": 0.422
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 38.86,
+      "score": 39.6,
       "status": "red",
       "details": {
-        "current_dxy": 100.5,
-        "change_5d_pct": 1.392
+        "current_dxy": 100.41,
+        "change_5d_pct": 1.299
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.06,
+      "score": 52.67,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.081,
+        "avg_compound": 0.053,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Political insider turns anti-incumbent table on 8-year Dem in key Senate race: 'Hasn't delivered'",
-            "source": "Fox News",
-            "publishedAt": "2026-09-17T14:42:25Z",
+            "title": "The Palantir Question Nobody Can Answer Yet: How Big Can This Get?",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-17T15:00:21Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Looking for a Good Deal on an AI Stock? This Leading Chipmaker Is Cheaper Than Broadcom and AMD",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-17T14:40:02Z",
-            "sentiment": "Positive",
-            "compound": 0.44
-          },
-          {
-            "title": "WiMi Studies Quantum Encoding Circuit Adaptation Optimization Architecture Based on Reinforcement Learning",
+            "title": "Top 10 Real Estate News: America's Most Interesting Real Estate News",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-17T14:40:00Z",
+            "publishedAt": "2026-09-17T15:00:00Z",
             "sentiment": "Positive",
-            "compound": 0.382
+            "compound": 0.585
           },
           {
-            "title": "Sony RX10 V review",
-            "source": "Cameralabs.com",
-            "publishedAt": "2026-09-17T14:39:24Z",
+            "title": "コアインフレのコミュニケーションの実務",
+            "source": "Hatenablog.com",
+            "publishedAt": "2026-09-17T14:59:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Avalanche Treasury CEO warns AI agents may strain blockchain capacity",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-17T14:39:00Z",
+            "title": "From UAE Gold Hub to Nasdaq: Metra and GoldCoin Labs Open New Chapter in Digital Gold Finance",
+            "source": "Financial Post",
+            "publishedAt": "2026-09-17T14:58:48Z",
             "sentiment": "Neutral",
-            "compound": 0.052
+            "compound": 0.0
           },
           {
-            "title": "Money Creation Does Not Cause Inflation",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-17T14:37:33Z",
-            "sentiment": "Positive",
-            "compound": 0.273
+            "title": "French PM Lecornu warns interest rate hikes will add €10B to debt costs",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-17T14:56:42Z",
+            "sentiment": "Neutral",
+            "compound": 0.026
+          },
+          {
+            "title": "How much will a $750,000 annuity pay each month in 2026?",
+            "source": "CBS News",
+            "publishedAt": "2026-09-17T14:55:54Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.49,
-  "trade_probability": 52.69,
+  "confirmation_score": 68.16,
+  "trade_probability": 60.9,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
