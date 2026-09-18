@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T17:41:49.823439+00:00",
+  "generated_at": "2026-09-18T17:45:52.990630+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,36 +13,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
-      "status": "red",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.0492,
-          "up": false
-        },
-        "MSFT": {
-          "change_pct": 0.0232,
+          "change_pct": 0.0358,
           "up": true
         },
+        "MSFT": {
+          "change_pct": -0.0061,
+          "up": false
+        },
         "NVDA": {
-          "change_pct": -0.017,
+          "change_pct": -0.0046,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.0119,
-          "up": false
+          "change_pct": 0.002,
+          "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 73.05,
+      "score": 73.11,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29469.27,
-        "sma50": 29172.48,
-        "sma200": 27229.41
+        "last_price": 29474.57,
+        "sma50": 29172.59,
+        "sma200": 27229.43
       }
     },
     "vxn": {
@@ -50,7 +50,7 @@
       "score": 100.0,
       "status": "green",
       "details": {
-        "current_vxn": 19.86,
+        "current_vxn": 19.87,
         "percentile_vs_20d": 0.0
       }
     },
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 49.78,
-  "trade_probability": 49.87,
+  "confirmation_score": 56.53,
+  "trade_probability": 53.92,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
