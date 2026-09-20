@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T20:31:43.051173+00:00",
+  "generated_at": "2026-09-20T20:45:48.793294+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 42.83,
+      "score": 41.87,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.143,
+        "avg_compound": -0.163,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Trump show hits Dallas, but now comes the hard part",
+            "source": "Wnd.com",
+            "publishedAt": "2026-09-19T20:42:24Z",
+            "sentiment": "Neutral",
+            "compound": -0.153
+          },
+          {
+            "title": "Iran sets seven terms for renewed US talks, says ready for escalation",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-09-19T20:36:16Z",
+            "sentiment": "Positive",
+            "compound": 0.361
+          },
           {
             "title": "The GENIUS Act Clock Is Ticking. The Rules Are Not Ready.",
             "source": "Forkast.news",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-09-19T19:40:47Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "ibkr-core-mcp added to PyPI",
-            "source": "Pypi.org",
-            "publishedAt": "2026-09-19T19:34:02Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Treasury yields are already blowing up the CBO’s long-term forecasts, and experts who previously downplayed U.S. debt fears are now starting to worry",
-            "source": "Fortune",
-            "publishedAt": "2026-09-19T19:31:57Z",
-            "sentiment": "Negative",
-            "compound": -0.751
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 48.71,
-  "trade_probability": 49.23,
+  "confirmation_score": 48.62,
+  "trade_probability": 49.17,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
