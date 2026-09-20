@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T22:15:54.900889+00:00",
+  "generated_at": "2026-09-20T22:31:10.474362+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.02,
+      "score": 43.81,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.2,
-        "change_5d_pct": 0.748
+        "current_dxy": 100.23,
+        "change_5d_pct": 0.773
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 39.36,
-      "status": "red",
+      "score": 41.82,
+      "status": "yellow",
       "details": {
-        "overall_sentiment": "BEARISH",
-        "avg_compound": -0.213,
+        "overall_sentiment": "NEUTRAL",
+        "avg_compound": -0.164,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "America has more 401(k) millionaires than ever before. But if you've been left behind, these are the secrets to transforming your wealth",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-09-19T22:25:16Z",
+            "sentiment": "Positive",
+            "compound": 0.649
+          },
+          {
+            "title": "Where You Hold SCHD and JEPI Matters More Than You Think: The Taxable vs. IRA Math",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-19T22:23:58Z",
+            "sentiment": "Neutral",
+            "compound": 0.026
+          },
+          {
+            "title": "If a Stock Market Crash Is Coming, I'm Buying This 1 Vanguard ETF Without Hesitation",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-19T22:18:40Z",
+            "sentiment": "Negative",
+            "compound": -0.223
+          },
           {
             "title": "Bacolod: Bacolod inflation climbs to 7.8% in August, beating national rate",
             "source": "Rpnradio.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-09-19T22:01:57Z",
             "sentiment": "Positive",
             "compound": 0.382
-          },
-          {
-            "title": "Japan's Return to Higher Rates Squeezes Households and Firms",
-            "source": "Newsonjapan.com",
-            "publishedAt": "2026-09-19T21:43:09Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Treasury yields are blowing up CBO forecasts, and experts who downplayed US debt fears are worried - Fortune",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-09-19T21:33:04Z",
-            "sentiment": "Negative",
-            "compound": -0.691
-          },
-          {
-            "title": "Iran faces production cuts as oil loadings drop sharply amid US blockade",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-19T21:20:43Z",
-            "sentiment": "Negative",
-            "compound": -0.511
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 48.65,
-  "trade_probability": 49.19,
+  "confirmation_score": 48.86,
+  "trade_probability": 49.32,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
