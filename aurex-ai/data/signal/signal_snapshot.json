@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T21:01:22.241721+00:00",
+  "generated_at": "2026-09-21T21:15:51.319534+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.28,
+      "score": 42.46,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.42,
-        "change_5d_pct": 0.965
+        "current_dxy": 100.4,
+        "change_5d_pct": 0.943
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.85,
+      "score": 52.96,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.077,
+        "avg_compound": 0.059,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "They Gave the Kids the Lake House and Filed a Gift-Tax Return Showing Nothing Owed. Three Years Later the IRS Lost the Right to Ever Argue About What the House Was Worth",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-20T21:07:34Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
           {
             "title": "NFL ‘Sunday Night Football’ betting promos: Earn nearly $4k in sportsbook, prediction market bonuses for Colts vs. Chiefs",
             "source": "New York Post",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-09-20T20:15:24Z",
             "sentiment": "Neutral",
             "compound": -0.077
-          },
-          {
-            "title": "EQPT Deadline: EQPT Investors Have Opportunity to Lead EquipmentShare.com Inc Securities Lawsuit",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-20T20:15:00Z",
-            "sentiment": "Positive",
-            "compound": 0.477
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 55.0,
-  "trade_probability": 53.0,
+  "confirmation_score": 54.94,
+  "trade_probability": 52.96,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
