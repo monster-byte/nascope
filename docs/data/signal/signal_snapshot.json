@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T15:46:06.169088+00:00",
+  "generated_at": "2026-09-21T16:01:41.065164+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
-      "status": "green",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.037,
+          "change_pct": 0.0059,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.0904,
+          "change_pct": 0.0506,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.0022,
+          "change_pct": -0.1022,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.0742,
-          "up": true
+          "change_pct": -0.0567,
+          "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 81.66,
+      "score": 81.5,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30319.9,
-        "sma50": 29185.88,
-        "sma200": 27254.1
+        "last_price": 30304.44,
+        "sma50": 29185.57,
+        "sma200": 27254.02
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 80.0,
+      "score": 65.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.1,
-        "percentile_vs_20d": 20.0
+        "current_vxn": 20.22,
+        "percentile_vs_20d": 35.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 49.35,
+      "score": 50.0,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.965,
-        "change_5d_pct": 0.081
+        "current_yield_pct": 4.961,
+        "change_5d_pct": 0.0
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.5,
+      "score": 42.42,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.39,
-        "change_5d_pct": 0.938
+        "current_dxy": 100.4,
+        "change_5d_pct": 0.947
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.23,
+      "score": 49.95,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.015,
+        "avg_compound": -0.001,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "The Fed Rate-Hike Won't Fix The Inflation It Targets",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-20T15:38:57Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Five-Day Holiday Puts Japan's Cost-of-Living Pressures in Focus",
-            "source": "Newsonjapan.com",
-            "publishedAt": "2026-09-20T15:35:55Z",
-            "sentiment": "Neutral",
-            "compound": 0.103
-          },
-          {
-            "title": "BMO Capital Bets on a Rebound for Enbridge (ENB)",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-20T15:29:40Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Russell Crowe's New Historical Epic Ends 35-Year Box Office Streak",
-            "source": "Screen Rant",
-            "publishedAt": "2026-09-20T15:22:58Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Jakarta Governor highlights 5.52 pct growth at U20 forum in New York",
-            "source": "Antaranews.com",
-            "publishedAt": "2026-09-20T15:18:11Z",
+            "title": "New Zealand bond yields near 5% as higher rates revive fixed-income returns",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-09-20T16:00:00Z",
             "sentiment": "Positive",
-            "compound": 0.382
+            "compound": 0.34
           },
           {
-            "title": "Dollar General CEO raises major red flag about consumers",
-            "source": "TheStreet",
-            "publishedAt": "2026-09-20T15:17:00Z",
+            "title": "Bronstein, Gewirtz & Grossman LLC Urges Baidu, Inc. Investors to Act: Class Action Filed Alleging Investor Harm",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-20T16:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.542
+          },
+          {
+            "title": "Bronstein, Gewirtz & Grossman LLC Urges AST SpaceMobile, Inc. Investors to Act: Class Action Filed Alleging Investor Harm",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-20T16:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.542
+          },
+          {
+            "title": "Bronstein, Gewirtz & Grossman LLC Urges AppLovin Corporation Investors to Act: Class Action Filed Alleging Investor Harm",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-20T16:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.542
+          },
+          {
+            "title": "Elon Musk Predicts Starlink Satellites Could Rewrite the Rules of Global Connectivity",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-20T15:59:11Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "This Analyst Has a $450 Price Target on SpaceX Stock. Does That Make it a Buy?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-20T15:54:56Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 62.89,
-  "trade_probability": 57.73,
+  "confirmation_score": 54.92,
+  "trade_probability": 52.95,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
