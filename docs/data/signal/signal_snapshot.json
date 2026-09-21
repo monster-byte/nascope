@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T14:31:09.865050+00:00",
+  "generated_at": "2026-09-21T14:45:50.635830+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 0.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.0771,
+          "change_pct": -0.1009,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.0669,
-          "up": true
+          "change_pct": -0.0381,
+          "up": false
         },
         "NVDA": {
-          "change_pct": -0.0313,
+          "change_pct": -0.0527,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.0039,
-          "up": true
+          "change_pct": -0.0508,
+          "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 80.72,
+      "score": 80.55,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30226.58,
-        "sma50": 29184.01,
-        "sma200": 27253.63
+        "last_price": 30209.9,
+        "sma50": 29183.68,
+        "sma200": 27253.55
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 90.0,
+      "score": 75.0,
       "status": "green",
       "details": {
-        "current_vxn": 19.95,
-        "percentile_vs_20d": 10.0
+        "current_vxn": 20.08,
+        "percentile_vs_20d": 25.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 49.68,
+      "score": 50.32,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.963,
-        "change_5d_pct": 0.04
+        "current_yield_pct": 4.959,
+        "change_5d_pct": -0.04
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.41,
+      "score": 42.9,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.4,
-        "change_5d_pct": 0.949
+        "current_dxy": 100.34,
+        "change_5d_pct": 0.888
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.78,
+      "score": 47.88,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.004,
+        "avg_compound": -0.042,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "‘Resident Evil’ Scores a Bloody Good $60 Million Box Office Opening",
+            "source": "TheWrap",
+            "publishedAt": "2026-09-20T14:44:24Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Box Office: ‘Resident Evil’ Breaks Franchise Records With $60 Million Opening Weekend",
+            "source": "Variety",
+            "publishedAt": "2026-09-20T14:42:27Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Kraft Heinz Stock’s Dividend Held at $0.40 While Its Payout Ratio Turned Negative Again.",
+            "source": "Tikr.com",
+            "publishedAt": "2026-09-20T14:35:40Z",
+            "sentiment": "Negative",
+            "compound": -0.572
+          },
+          {
+            "title": "Poll: Most voters say Trump has hurt the economy as competitive midterm election looms - NBC News",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-09-20T14:33:00Z",
+            "sentiment": "Negative",
+            "compound": -0.511
+          },
           {
             "title": "ASTS INVESTOR ALERT: AST SpaceMobile, Inc. Investors With Substantial Losses May Seek to Lead Class Action Lawsuit, Robbins Geller Rudman & Dowd LLP Announces",
             "source": "PRNewswire",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-09-20T14:24:34Z",
             "sentiment": "Negative",
             "compound": -0.599
-          },
-          {
-            "title": "Okta Stock Is Up 132% Since March. Is the Stock Already Priced In?",
-            "source": "Tikr.com",
-            "publishedAt": "2026-09-20T14:16:36Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Don’t even think about retiring if this is you in 2026 — 5 red flags to watch (especially with Trump in the White House)",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-20T14:15:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "How Large Does Your Portfolio Need to Be to Generate $15,500 a Month?",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-20T14:11:17Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Why Holding Anything But Bitcoin Has Been a Losing Bet for Two Years",
-            "source": "Decrypt",
-            "publishedAt": "2026-09-20T14:01:03Z",
-            "sentiment": "Negative",
-            "compound": -0.527
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.0,
-  "trade_probability": 54.2,
+  "confirmation_score": 42.09,
+  "trade_probability": 45.25,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
