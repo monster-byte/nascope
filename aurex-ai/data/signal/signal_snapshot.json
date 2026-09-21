@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T15:15:53.724571+00:00",
+  "generated_at": "2026-09-21T15:31:15.186132+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.0444,
-          "up": true
+          "change_pct": 0.0,
+          "up": false
         },
         "MSFT": {
-          "change_pct": -0.0335,
+          "change_pct": -0.0315,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.0399,
-          "up": false
+          "change_pct": 0.0289,
+          "up": true
         },
         "AMZN": {
-          "change_pct": 0.0961,
-          "up": true
+          "change_pct": -0.0626,
+          "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 81.21,
+      "score": 81.42,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30275.87,
-        "sma50": 29185.0,
-        "sma200": 27253.88
+        "last_price": 30296.07,
+        "sma50": 29185.4,
+        "sma200": 27253.98
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 85.0,
+      "score": 75.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.02,
-        "percentile_vs_20d": 15.0
+        "current_vxn": 20.07,
+        "percentile_vs_20d": 25.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 49.68,
+      "score": 50.32,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.963,
-        "change_5d_pct": 0.04
+        "current_yield_pct": 4.959,
+        "change_5d_pct": -0.04
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.71,
+      "score": 42.53,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.37,
-        "change_5d_pct": 0.911
+        "current_dxy": 100.39,
+        "change_5d_pct": 0.934
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.86,
+      "score": 47.97,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.043,
+        "avg_compound": -0.041,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "BMO Capital Bets on a Rebound for Enbridge (ENB)",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-20T15:29:40Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Russell Crowe's New Historical Epic Ends 35-Year Box Office Streak",
+            "source": "Screen Rant",
+            "publishedAt": "2026-09-20T15:22:58Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Jakarta Governor highlights 5.52 pct growth at U20 forum in New York",
+            "source": "Antaranews.com",
+            "publishedAt": "2026-09-20T15:18:11Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "Dollar General CEO raises major red flag about consumers",
+            "source": "TheStreet",
+            "publishedAt": "2026-09-20T15:17:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "PZZA Investors Have Opportunity to Lead Papa John's International, Inc. Securities Fraud Lawsuit",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-20T15:16:00Z",
+            "sentiment": "Neutral",
+            "compound": -0.178
+          },
           {
             "title": "You Can Soon Get Pre-IPO Exposure on Binance Wallet, But There's A Catch",
             "source": "BeInCrypto",
             "publishedAt": "2026-09-20T15:10:28Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "OpenAI Just Beat Google, Meta, and Amazon To This Key Milestone. Is It Bullish for AI Stocks",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-20T15:09:36Z",
-            "sentiment": "Neutral",
-            "compound": 0.178
-          },
-          {
-            "title": "The Bond Market Is Rattled, and History Says That Could Be a Warning Signal to Investors",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-20T15:09:00Z",
-            "sentiment": "Negative",
-            "compound": -0.34
-          },
-          {
-            "title": "The economy has undergone a structural transformation that ended the low-cost era. ‘The regime change in inflation and interest rates is the outcome’",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-20T15:08:56Z",
-            "sentiment": "Positive",
-            "compound": 0.459
-          },
-          {
-            "title": "Top Wall Street analysts find these 3 stocks attractive as long-term investments",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-20T15:08:47Z",
-            "sentiment": "Positive",
-            "compound": 0.572
-          },
-          {
-            "title": "Is American Express Stock a Buy, Sell, or Hold With Shares Trading 20% Below Their 52-Week High?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-20T15:08:46Z",
-            "sentiment": "Positive",
-            "compound": 0.296
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.47,
-  "trade_probability": 53.88,
+  "confirmation_score": 48.93,
+  "trade_probability": 49.36,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
