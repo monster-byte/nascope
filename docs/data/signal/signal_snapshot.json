@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T12:01:19.518033+00:00",
+  "generated_at": "2026-09-21T12:15:57.388166+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.77,
+      "score": 44.19,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.23,
-        "change_5d_pct": 0.778
+        "current_dxy": 100.18,
+        "change_5d_pct": 0.726
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.11,
+      "score": 54.18,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.062,
+        "avg_compound": 0.084,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Australia begins campaign for seat at world's most powerful table",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-09-20T12:02:49Z",
+            "sentiment": "Positive",
+            "compound": 0.475
+          },
+          {
+            "title": "Top Wall Street analysts find these 3 stocks attractive as long-term investments",
+            "source": "CNBC",
+            "publishedAt": "2026-09-20T12:01:35Z",
+            "sentiment": "Positive",
+            "compound": 0.572
+          },
           {
             "title": "How We Destroyed Community College Education for Generations of Students – and Why We Need a Reset",
             "source": "Joehoft.com",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-09-20T11:57:53Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Rising gas prices frustrate voters. Trump says it's an 'inexpensive price to pay' for the Iran war",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-09-20T11:51:33Z",
-            "sentiment": "Negative",
-            "compound": -0.807
-          },
-          {
-            "title": "Tata Trusts says Chandrasekaran reappointment resolution was invalid, rejects casting-vote argument",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-20T11:43:35Z",
-            "sentiment": "Negative",
-            "compound": -0.382
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 49.87,
-  "trade_probability": 49.92,
+  "confirmation_score": 50.0,
+  "trade_probability": 50.0,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
