@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T17:15:53.866429+00:00",
+  "generated_at": "2026-09-21T17:31:10.837638+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.0027,
+          "change_pct": 0.0059,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.0714,
-          "up": true
+          "change_pct": -0.002,
+          "up": false
         },
         "NVDA": {
-          "change_pct": -0.0683,
-          "up": false
+          "change_pct": 0.0682,
+          "up": true
         },
         "AMZN": {
-          "change_pct": -0.0058,
-          "up": false
+          "change_pct": 0.065,
+          "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 82.3,
+      "score": 82.35,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30383.92,
-        "sma50": 29187.16,
-        "sma200": 27254.42
+        "last_price": 30389.29,
+        "sma50": 29187.26,
+        "sma200": 27254.45
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 65.0,
-      "status": "green",
+      "score": 60.0,
+      "status": "yellow",
       "details": {
-        "current_vxn": 20.42,
-        "percentile_vs_20d": 35.0
+        "current_vxn": 20.41,
+        "percentile_vs_20d": 40.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 50.32,
+      "score": 49.68,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.959,
-        "change_5d_pct": -0.04
+        "current_yield_pct": 4.963,
+        "change_5d_pct": 0.04
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.48,
+      "score": 42.43,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.39,
-        "change_5d_pct": 0.94
+        "current_dxy": 100.4,
+        "change_5d_pct": 0.946
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.26,
+      "score": 46.82,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.095,
+        "avg_compound": -0.064,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Dollars no longer buy happiness",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-20T17:24:38Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
+          {
+            "title": "Resident Evil 2026 Box Office Outgrosses Two Previous Franchise Installments In Just 3 Days",
+            "source": "Screen Rant",
+            "publishedAt": "2026-09-20T17:23:30Z",
+            "sentiment": "Negative",
+            "compound": -0.66
+          },
+          {
+            "title": "Trump’s Monumental Obsession",
+            "source": "The Atlantic",
+            "publishedAt": "2026-09-20T17:17:14Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
+          {
+            "title": "More Asyad Shipping shares heading to market",
+            "source": "Omanobserver.om",
+            "publishedAt": "2026-09-20T17:16:05Z",
+            "sentiment": "Positive",
+            "compound": 0.353
+          },
           {
             "title": "A seven-year standoff over Venezuelan gold nears its end",
             "source": "TheStreet",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-09-20T17:04:54Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Why AI Fears Are Rising Among Retirees",
-            "source": "Moneylion.com",
-            "publishedAt": "2026-09-20T17:00:24Z",
-            "sentiment": "Negative",
-            "compound": -0.421
-          },
-          {
-            "title": "5 Signs You've Made It Based on Net Worth Data",
-            "source": "Moneylion.com",
-            "publishedAt": "2026-09-20T17:00:23Z",
-            "sentiment": "Positive",
-            "compound": 0.226
-          },
-          {
-            "title": "Chevron CEO warns of rising oil prices amid supply disruptions",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-20T16:59:33Z",
-            "sentiment": "Negative",
-            "compound": -0.421
-          },
-          {
-            "title": "Prediction: Even With the $1,999 Price Tag, Apple's Foldable iPhone Duo Will Be a Hit and Apple Will Join Nvidia in the $5 Trillion Club",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-20T16:55:34Z",
-            "sentiment": "Positive",
-            "compound": 0.296
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.65,
-  "trade_probability": 52.79,
+  "confirmation_score": 61.01,
+  "trade_probability": 56.61,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
