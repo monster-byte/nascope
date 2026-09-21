@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T06:45:48.358669+00:00",
+  "generated_at": "2026-09-21T07:01:18.964245+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.99,
+      "score": 43.22,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.33,
-        "change_5d_pct": 0.877
+        "current_dxy": 100.3,
+        "change_5d_pct": 0.848
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 42.68,
+      "score": 42.01,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.146,
+        "avg_compound": -0.16,
         "articles_analyzed": 22,
         "top_headlines": [
+          {
+            "title": "The ₹1-lakh question: When does a small UPI merchant stop being 'small'?",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-20T06:48:30Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
           {
             "title": "Crude oil, West Asia situation likely to drive stock market this week",
             "source": "Business Standard",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-09-20T06:00:00Z",
             "sentiment": "Negative",
             "compound": -0.802
-          },
-          {
-            "title": "Acquired Memories: The boom in pop culture collectables",
-            "source": "RTE",
-            "publishedAt": "2026-09-20T06:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 48.86,
-  "trade_probability": 49.32,
+  "confirmation_score": 48.82,
+  "trade_probability": 49.29,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
