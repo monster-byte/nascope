@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T17:01:21.079250+00:00",
+  "generated_at": "2026-09-21T17:15:53.866429+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 100.0,
-      "status": "green",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.0766,
+          "change_pct": 0.0027,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.0332,
+          "change_pct": 0.0714,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.011,
-          "up": true
+          "change_pct": -0.0683,
+          "up": false
         },
         "AMZN": {
-          "change_pct": 0.0272,
-          "up": true
+          "change_pct": -0.0058,
+          "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 82.31,
+      "score": 82.3,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30384.54,
-        "sma50": 29187.17,
+        "last_price": 30383.92,
+        "sma50": 29187.16,
         "sma200": 27254.42
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 60.0,
-      "status": "yellow",
+      "score": 65.0,
+      "status": "green",
       "details": {
-        "current_vxn": 20.58,
-        "percentile_vs_20d": 40.0
+        "current_vxn": 20.42,
+        "percentile_vs_20d": 35.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 50.97,
+      "score": 50.32,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.955,
-        "change_5d_pct": -0.121
+        "current_yield_pct": 4.959,
+        "change_5d_pct": -0.04
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.49,
+      "score": 42.48,
       "status": "yellow",
       "details": {
         "current_dxy": 100.39,
-        "change_5d_pct": 0.939
+        "change_5d_pct": 0.94
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.47,
+      "score": 45.26,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.091,
+        "avg_compound": -0.095,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "A seven-year standoff over Venezuelan gold nears its end",
+            "source": "TheStreet",
+            "publishedAt": "2026-09-20T17:07:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Fed's Kashkari reportedly says inflation is still too high",
+            "source": "CNBC",
+            "publishedAt": "2026-09-20T17:04:54Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Why AI Fears Are Rising Among Retirees",
             "source": "Moneylion.com",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-09-20T16:55:34Z",
             "sentiment": "Positive",
             "compound": 0.296
-          },
-          {
-            "title": "'Resident Evil' tops box office with franchise best debut of $60 million",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-09-20T16:55:28Z",
-            "sentiment": "Positive",
-            "compound": 0.477
-          },
-          {
-            "title": "Transcript: IBM vice chairman Gary Cohn on \"Face the Nation with Margaret Brennan,\" Sept. 20, 2026",
-            "source": "CBS News",
-            "publishedAt": "2026-09-20T16:51:14Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 67.81,
-  "trade_probability": 60.69,
+  "confirmation_score": 54.65,
+  "trade_probability": 52.79,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
