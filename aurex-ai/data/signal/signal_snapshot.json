@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T18:45:51.593521+00:00",
+  "generated_at": "2026-09-21T19:01:25.479202+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,36 +13,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
-      "status": "green",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.0266,
-          "up": true
+          "change_pct": -0.065,
+          "up": false
         },
         "MSFT": {
-          "change_pct": 0.009,
-          "up": true
+          "change_pct": -0.004,
+          "up": false
         },
         "NVDA": {
-          "change_pct": 0.0264,
-          "up": true
+          "change_pct": -0.0527,
+          "up": false
         },
         "AMZN": {
-          "change_pct": -0.0039,
-          "up": false
+          "change_pct": 0.0329,
+          "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 83.1,
+      "score": 83.29,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30463.06,
-        "sma50": 29188.74,
-        "sma200": 27254.82
+        "last_price": 30481.88,
+        "sma50": 29189.12,
+        "sma200": 27254.91
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 65.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.44,
+        "current_vxn": 20.5,
         "percentile_vs_20d": 35.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 48.55,
+      "score": 49.35,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.97,
-        "change_5d_pct": 0.181
+        "current_yield_pct": 4.965,
+        "change_5d_pct": 0.081
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.14,
+      "score": 42.17,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.44,
-        "change_5d_pct": 0.982
+        "current_dxy": 100.43,
+        "change_5d_pct": 0.979
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.63,
+      "score": 47.67,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.067,
+        "avg_compound": -0.047,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "‘They Poll Way Too Many Democrats’: Trump’s Economic Council Director Challenges Fox News Polling On Air",
-            "source": "TheWrap",
-            "publishedAt": "2026-09-20T18:44:43Z",
-            "sentiment": "Neutral",
-            "compound": 0.077
+            "title": "US, China open final trade talks in New York to keep tariff truce alive ahead of Trump-Xi summit",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-20T19:00:49Z",
+            "sentiment": "Positive",
+            "compound": 0.382
           },
           {
-            "title": "Zach Cregger’s ‘Resident Evil’ Grossed More in Its Opening Weekend Than the First Film Made in Its Entire Run",
-            "source": "IndieWire",
-            "publishedAt": "2026-09-20T18:43:55Z",
+            "title": "Trump's AI Stance Could Use More Empathy, GOP Donors Say",
+            "source": "Newser",
+            "publishedAt": "2026-09-20T19:00:00Z",
             "sentiment": "Neutral",
-            "compound": -0.103
+            "compound": 0.0
           },
           {
-            "title": "The politics of migration hides Australia's real problem",
+            "title": "Man duped of ₹51L in stock market investment scam",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-20T18:58:56Z",
+            "sentiment": "Negative",
+            "compound": -0.758
+          },
+          {
+            "title": "Oil prices key external risk, but yet to derail growth outlook: Radhika Rao, Executive Director & Senior Economist, DBS Bank",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-20T18:58:04Z",
+            "sentiment": "Neutral",
+            "compound": 0.013
+          },
+          {
+            "title": "Labor's dilemma is that Australia needs two things voters fear",
             "source": "ABC News (AU)",
-            "publishedAt": "2026-09-20T18:41:02Z",
+            "publishedAt": "2026-09-20T18:49:03Z",
             "sentiment": "Negative",
-            "compound": -0.527
+            "compound": -0.599
           },
           {
-            "title": "Morgan Stanley questions Federal Reserve’s approach to price stability under Warsh",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-20T18:35:11Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "PSBs see rate repricing as margin reprieve amid RBI rate hike expectations",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-20T18:33:52Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Polymarket Bug Reportedly Let Identity Thieves Into Existing Accounts",
-            "source": "Gizmodo.com",
-            "publishedAt": "2026-09-20T18:23:50Z",
-            "sentiment": "Negative",
-            "compound": -0.511
+            "title": "Govt support, benign inflation helped in Q1: Sonal Varma, Chief Economist, India & Asia (excl. Japan), Nomura",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-20T18:48:47Z",
+            "sentiment": "Positive",
+            "compound": 0.612
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 61.36,
-  "trade_probability": 56.82,
+  "confirmation_score": 48.09,
+  "trade_probability": 48.85,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
