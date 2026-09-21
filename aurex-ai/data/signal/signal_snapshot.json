@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T19:31:05.974644+00:00",
+  "generated_at": "2026-09-21T19:45:50.369715+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,36 +13,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.0879,
-          "up": false
+          "change_pct": 0.0221,
+          "up": true
         },
         "MSFT": {
-          "change_pct": 0.002,
+          "change_pct": 0.0441,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.0066,
+          "change_pct": 0.0154,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.0328,
+          "change_pct": -0.0464,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 83.54,
+      "score": 83.78,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30506.68,
-        "sma50": 29189.61,
-        "sma200": 27255.04
+        "last_price": 30531.25,
+        "sma50": 29190.1,
+        "sma200": 27255.16
       }
     },
     "vxn": {
@@ -50,7 +50,7 @@
       "score": 60.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 20.48,
+        "current_vxn": 20.41,
         "percentile_vs_20d": 40.0
       }
     },
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.46,
+      "score": 42.47,
       "status": "yellow",
       "details": {
         "current_dxy": 100.4,
-        "change_5d_pct": 0.942
+        "change_5d_pct": 0.941
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.17,
+      "score": 49.37,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.003,
+        "avg_compound": -0.013,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Brookfield Business (BBUC) Joins Reliance Deal. What Returns Can it Capture?",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-20T19:40:39Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Modern communications satellites receive and retransmit signals, but NASA’s first successful one carried no communications transponder. Echo 1A, launched in 1960, was a 30-metre-wide aluminized balloon that relayed radio signals simply by reflecting them between ground stations.",
             "source": "Space Daily",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-09-20T19:03:28Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Insta360 spent $298m on memory chips in six months. GoPro’s shareholders are getting $285m in cash for the entire company.",
-            "source": "The Next Web",
-            "publishedAt": "2026-09-20T19:02:20Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.72,
-  "trade_probability": 52.83,
+  "confirmation_score": 61.43,
+  "trade_probability": 56.86,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
