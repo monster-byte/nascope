@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T10:31:09.228136+00:00",
+  "generated_at": "2026-09-21T10:45:49.924992+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.18,
+      "score": 43.2,
       "status": "yellow",
       "details": {
         "current_dxy": 100.31,
-        "change_5d_pct": 0.853
+        "change_5d_pct": 0.851
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.47,
+      "score": 55.85,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.109,
+        "avg_compound": 0.117,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "ZKpilse 4000A Portable Car Jump Starter w/ 150 PSI Air Compressor & Flashlight $29.70 + Free S&H",
+            "source": "Slickdeals.net",
+            "publishedAt": "2026-09-20T10:44:37Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
+          {
+            "title": "India plans to release back-series GDP data for years before FY23 by year-end, says MoSPI Secretary Garg",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-20T10:32:32Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Tessolve in talks to acquire two firms, eyes $500 mn revenue in 3-4 years",
             "source": "Business Standard",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-09-20T10:07:14Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "How Trump 2.0's stock market stacks up with predecessors",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-20T10:06:51Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Trump 2.0 stock market performance lags behind predecessors",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-20T10:06:46Z",
-            "sentiment": "Negative",
-            "compound": -0.361
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 50.03,
-  "trade_probability": 50.02,
+  "confirmation_score": 50.06,
+  "trade_probability": 50.04,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
