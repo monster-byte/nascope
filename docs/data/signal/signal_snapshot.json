@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T08:15:49.205006+00:00",
+  "generated_at": "2026-09-21T08:31:08.962916+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.99,
+      "score": 43.2,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.33,
-        "change_5d_pct": 0.876
+        "current_dxy": 100.31,
+        "change_5d_pct": 0.851
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 43.74,
+      "score": 42.64,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.125,
+        "avg_compound": -0.147,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Rs 23,000 crore outflows! Is the September FII rout indicating a worse end to 2026?",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-20T08:30:13Z",
+            "sentiment": "Negative",
+            "compound": -0.525
+          },
           {
             "title": "Oscar Health (OSCR) Revenue Just Soared 70%!",
             "source": "Biotechhealthx.com",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-09-20T07:35:55Z",
             "sentiment": "Positive",
             "compound": 0.34
-          },
-          {
-            "title": "A manager's guide to surviving a world in which business is impacted by economic statecraft",
-            "source": "Livemint",
-            "publishedAt": "2026-09-20T07:30:19Z",
-            "sentiment": "Positive",
-            "compound": 0.296
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 48.96,
-  "trade_probability": 49.38,
+  "confirmation_score": 48.88,
+  "trade_probability": 49.33,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
