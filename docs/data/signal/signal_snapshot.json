@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T17:31:10.837638+00:00",
+  "generated_at": "2026-09-21T17:45:52.954458+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,41 +17,41 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.0059,
+          "change_pct": 0.0329,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.002,
-          "up": false
+          "change_pct": 0.065,
+          "up": true
         },
         "NVDA": {
-          "change_pct": 0.0682,
+          "change_pct": 0.0044,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.065,
-          "up": true
+          "change_pct": 0.0,
+          "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 82.35,
+      "score": 82.63,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30389.29,
-        "sma50": 29187.26,
-        "sma200": 27254.45
+        "last_price": 30416.54,
+        "sma50": 29187.81,
+        "sma200": 27254.58
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 60.0,
-      "status": "yellow",
+      "score": 65.0,
+      "status": "green",
       "details": {
-        "current_vxn": 20.41,
-        "percentile_vs_20d": 40.0
+        "current_vxn": 20.44,
+        "percentile_vs_20d": 35.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.43,
+      "score": 42.38,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.4,
-        "change_5d_pct": 0.946
+        "current_dxy": 100.41,
+        "change_5d_pct": 0.952
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.82,
+      "score": 47.9,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.064,
+        "avg_compound": -0.042,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "China Is Doing About 30 Times More Agricultural Drone Work Than The U.S.",
+            "source": "CleanTechnica",
+            "publishedAt": "2026-09-20T17:31:58Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Dollars no longer buy happiness",
             "source": "The Times of India",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-09-20T17:07:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Fed's Kashkari reportedly says inflation is still too high",
-            "source": "CNBC",
-            "publishedAt": "2026-09-20T17:04:54Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 61.01,
-  "trade_probability": 56.61,
+  "confirmation_score": 61.59,
+  "trade_probability": 56.95,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
