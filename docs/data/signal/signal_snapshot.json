@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T15:01:39.799411+00:00",
+  "generated_at": "2026-09-21T15:15:53.724571+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
-      "status": "red",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.0015,
-          "up": false
+          "change_pct": 0.0444,
+          "up": true
         },
         "MSFT": {
-          "change_pct": -0.0446,
+          "change_pct": -0.0335,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.0281,
-          "up": true
+          "change_pct": -0.0399,
+          "up": false
         },
         "AMZN": {
-          "change_pct": -0.1056,
-          "up": false
+          "change_pct": 0.0961,
+          "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 81.02,
+      "score": 81.21,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30256.22,
-        "sma50": 29184.6,
-        "sma200": 27253.78
+        "last_price": 30275.87,
+        "sma50": 29185.0,
+        "sma200": 27253.88
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 80.0,
+      "score": 85.0,
       "status": "green",
       "details": {
-        "current_vxn": 19.99,
-        "percentile_vs_20d": 20.0
+        "current_vxn": 20.02,
+        "percentile_vs_20d": 15.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 50.32,
+      "score": 49.68,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.959,
-        "change_5d_pct": -0.04
+        "current_yield_pct": 4.963,
+        "change_5d_pct": 0.04
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.58,
+      "score": 42.71,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.38,
-        "change_5d_pct": 0.927
+        "current_dxy": 100.37,
+        "change_5d_pct": 0.911
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.59,
+      "score": 47.86,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.008,
+        "avg_compound": -0.043,
         "articles_analyzed": 25,
         "top_headlines": [
           {
+            "title": "You Can Soon Get Pre-IPO Exposure on Binance Wallet, But There's A Catch",
+            "source": "BeInCrypto",
+            "publishedAt": "2026-09-20T15:10:28Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "OpenAI Just Beat Google, Meta, and Amazon To This Key Milestone. Is It Bullish for AI Stocks",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-20T15:09:36Z",
+            "sentiment": "Neutral",
+            "compound": 0.178
+          },
+          {
+            "title": "The Bond Market Is Rattled, and History Says That Could Be a Warning Signal to Investors",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-20T15:09:00Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
+          {
             "title": "The economy has undergone a structural transformation that ended the low-cost era. ‘The regime change in inflation and interest rates is the outcome’",
-            "source": "Fortune",
-            "publishedAt": "2026-09-20T14:59:47Z",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-20T15:08:56Z",
             "sentiment": "Positive",
             "compound": 0.459
           },
           {
-            "title": "Iran’s Plan to Shut Down AI in the Persian Gulf. Trump’s Reaction: “Do I Want to Go in and Eliminate Them or Not?”",
-            "source": "Globalresearch.ca",
-            "publishedAt": "2026-09-20T14:55:44Z",
-            "sentiment": "Neutral",
-            "compound": 0.077
+            "title": "Top Wall Street analysts find these 3 stocks attractive as long-term investments",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-20T15:08:47Z",
+            "sentiment": "Positive",
+            "compound": 0.572
           },
           {
-            "title": "‘Resident Evil’ Scores a Bloody Good $60 Million Box Office Opening",
-            "source": "TheWrap",
-            "publishedAt": "2026-09-20T14:44:24Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Box Office: ‘Resident Evil’ Breaks Franchise Records With $60 Million Opening Weekend",
-            "source": "Variety",
-            "publishedAt": "2026-09-20T14:42:27Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Kraft Heinz Stock’s Dividend Held at $0.40 While Its Payout Ratio Turned Negative Again.",
-            "source": "Tikr.com",
-            "publishedAt": "2026-09-20T14:35:40Z",
-            "sentiment": "Negative",
-            "compound": -0.572
-          },
-          {
-            "title": "Poll: Most voters say Trump has hurt the economy as competitive midterm election looms - NBC News",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-09-20T14:33:00Z",
-            "sentiment": "Negative",
-            "compound": -0.511
+            "title": "Is American Express Stock a Buy, Sell, or Hold With Shares Trading 20% Below Their 52-Week High?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-20T15:08:46Z",
+            "sentiment": "Positive",
+            "compound": 0.296
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 49.48,
-  "trade_probability": 49.69,
+  "confirmation_score": 56.47,
+  "trade_probability": 53.88,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
