@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T14:01:27.048522+00:00",
+  "generated_at": "2026-09-21T14:15:55.668077+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.0908,
-          "up": true
-        },
-        "MSFT": {
-          "change_pct": -0.0343,
+          "change_pct": -0.0059,
           "up": false
         },
+        "MSFT": {
+          "change_pct": 0.003,
+          "up": true
+        },
         "NVDA": {
-          "change_pct": -0.0402,
+          "change_pct": -0.0112,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.0216,
-          "up": true
+          "change_pct": -0.0253,
+          "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 79.84,
+      "score": 79.96,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30139.77,
-        "sma50": 29182.27,
-        "sma200": 27253.2
+        "last_price": 30151.82,
+        "sma50": 29182.51,
+        "sma200": 27253.26
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 95.0,
+      "score": 75.0,
       "status": "green",
       "details": {
-        "current_vxn": 19.77,
-        "percentile_vs_20d": 5.0
+        "current_vxn": 20.18,
+        "percentile_vs_20d": 25.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 48.55,
+      "score": 48.39,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.97,
-        "change_5d_pct": 0.181
+        "current_yield_pct": 4.971,
+        "change_5d_pct": 0.202
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.99,
+      "score": 42.36,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.33,
-        "change_5d_pct": 0.876
+        "current_dxy": 100.41,
+        "change_5d_pct": 0.955
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.43,
+      "score": 49.89,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.009,
+        "avg_compound": -0.002,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Don’t even think about retiring if this is you in 2026 — 5 red flags to watch (especially with Trump in the White House)",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-20T14:15:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "How Large Does Your Portfolio Need to Be to Generate $15,500 a Month?",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-20T14:11:17Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Why Holding Anything But Bitcoin Has Been a Losing Bet for Two Years",
             "source": "Decrypt",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-09-20T14:00:00Z",
             "sentiment": "Positive",
             "compound": 0.447
-          },
-          {
-            "title": "Federal Reserve rate hike reflects new world of sticky inflation and faster growth - AP News",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-09-20T13:53:38Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "Record diesel prices are exposing pain points in the stock market and economy",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-20T13:53:08Z",
-            "sentiment": "Negative",
-            "compound": -0.66
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.29,
-  "trade_probability": 54.37,
+  "confirmation_score": 48.63,
+  "trade_probability": 49.18,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
