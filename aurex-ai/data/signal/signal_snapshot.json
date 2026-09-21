@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T03:15:47.287662+00:00",
+  "generated_at": "2026-09-21T03:31:09.555461+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.23,
+      "score": 43.35,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.3,
-        "change_5d_pct": 0.847
+        "current_dxy": 100.29,
+        "change_5d_pct": 0.831
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.3,
+      "score": 51.0,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.046,
+        "avg_compound": 0.02,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Retiring With Rental Properties: Using a “Real Estate Meltdown” to Fund Retiremen",
+            "source": "Milliondollarjourney.com",
+            "publishedAt": "2026-09-20T03:28:54Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Coalition vows to cut $15 off tank of petrol when global prices spike",
             "source": "ABC News (AU)",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-09-20T02:25:44Z",
             "sentiment": "Positive",
             "compound": 0.459
-          },
-          {
-            "title": "Companies avoid selling long-term bonds investors are clamoring for",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-20T02:25:40Z",
-            "sentiment": "Negative",
-            "compound": -0.296
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 49.75,
-  "trade_probability": 49.85,
+  "confirmation_score": 49.64,
+  "trade_probability": 49.78,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
