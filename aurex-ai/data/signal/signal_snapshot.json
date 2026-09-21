@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T15:31:15.186132+00:00",
+  "generated_at": "2026-09-21T15:46:06.169088+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
-      "status": "red",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.0,
-          "up": false
-        },
-        "MSFT": {
-          "change_pct": -0.0315,
-          "up": false
-        },
-        "NVDA": {
-          "change_pct": 0.0289,
+          "change_pct": 0.037,
           "up": true
         },
-        "AMZN": {
-          "change_pct": -0.0626,
+        "MSFT": {
+          "change_pct": 0.0904,
+          "up": true
+        },
+        "NVDA": {
+          "change_pct": -0.0022,
           "up": false
+        },
+        "AMZN": {
+          "change_pct": 0.0742,
+          "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 81.42,
+      "score": 81.66,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30296.07,
-        "sma50": 29185.4,
-        "sma200": 27253.98
+        "last_price": 30319.9,
+        "sma50": 29185.88,
+        "sma200": 27254.1
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 75.0,
+      "score": 80.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.07,
-        "percentile_vs_20d": 25.0
+        "current_vxn": 20.1,
+        "percentile_vs_20d": 20.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 50.32,
+      "score": 49.35,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.959,
-        "change_5d_pct": -0.04
+        "current_yield_pct": 4.965,
+        "change_5d_pct": 0.081
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.53,
+      "score": 42.5,
       "status": "yellow",
       "details": {
         "current_dxy": 100.39,
-        "change_5d_pct": 0.934
+        "change_5d_pct": 0.938
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.97,
+      "score": 49.23,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.041,
+        "avg_compound": -0.015,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "The Fed Rate-Hike Won't Fix The Inflation It Targets",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-20T15:38:57Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Five-Day Holiday Puts Japan's Cost-of-Living Pressures in Focus",
+            "source": "Newsonjapan.com",
+            "publishedAt": "2026-09-20T15:35:55Z",
+            "sentiment": "Neutral",
+            "compound": 0.103
+          },
           {
             "title": "BMO Capital Bets on a Rebound for Enbridge (ENB)",
             "source": "Yahoo Entertainment",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-09-20T15:17:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "PZZA Investors Have Opportunity to Lead Papa John's International, Inc. Securities Fraud Lawsuit",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-20T15:16:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.178
-          },
-          {
-            "title": "You Can Soon Get Pre-IPO Exposure on Binance Wallet, But There's A Catch",
-            "source": "BeInCrypto",
-            "publishedAt": "2026-09-20T15:10:28Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 48.93,
-  "trade_probability": 49.36,
+  "confirmation_score": 62.89,
+  "trade_probability": 57.73,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
