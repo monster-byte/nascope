@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T19:01:25.479202+00:00",
+  "generated_at": "2026-09-21T19:15:50.862704+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.065,
+          "change_pct": -0.0413,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.004,
-          "up": false
+          "change_pct": 0.015,
+          "up": true
         },
         "NVDA": {
-          "change_pct": -0.0527,
+          "change_pct": -0.0374,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.0329,
-          "up": true
+          "change_pct": -0.0127,
+          "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 83.29,
+      "score": 83.41,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30481.88,
-        "sma50": 29189.12,
-        "sma200": 27254.91
+        "last_price": 30494.19,
+        "sma50": 29189.36,
+        "sma200": 27254.97
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 65.0,
-      "status": "green",
+      "score": 60.0,
+      "status": "yellow",
       "details": {
-        "current_vxn": 20.5,
-        "percentile_vs_20d": 35.0
+        "current_vxn": 20.56,
+        "percentile_vs_20d": 40.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 49.35,
+      "score": 49.68,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.965,
-        "change_5d_pct": 0.081
+        "current_yield_pct": 4.963,
+        "change_5d_pct": 0.04
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.17,
+      "score": 42.23,
       "status": "yellow",
       "details": {
         "current_dxy": 100.43,
-        "change_5d_pct": 0.979
+        "change_5d_pct": 0.971
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.67,
+      "score": 47.85,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.047,
+        "avg_compound": -0.043,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "I Own Constellation for the Nuclear Fleet, Not the AI Headlines. Here's Why That Matters Now",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-20T19:10:59Z",
+            "sentiment": "Neutral",
+            "compound": 0.026
+          },
+          {
+            "title": "Bloomberg’s Jonathan Levin warns of blurred lines in monetary policy",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-20T19:09:06Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
+          {
+            "title": "Explainer: What Labour’s capital gains tax means for properties worth less than they were bought for",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-09-20T19:07:48Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
+          {
+            "title": "x402-agent-gateway added to PyPI",
+            "source": "Pypi.org",
+            "publishedAt": "2026-09-20T19:03:28Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Insta360 spent $298m on memory chips in six months. GoPro’s shareholders are getting $285m in cash for the entire company.",
+            "source": "The Next Web",
+            "publishedAt": "2026-09-20T19:02:20Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "US, China open final trade talks in New York to keep tariff truce alive ahead of Trump-Xi summit",
             "source": "The Times of India",
             "publishedAt": "2026-09-20T19:00:49Z",
             "sentiment": "Positive",
             "compound": 0.382
-          },
-          {
-            "title": "Trump's AI Stance Could Use More Empathy, GOP Donors Say",
-            "source": "Newser",
-            "publishedAt": "2026-09-20T19:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Man duped of ₹51L in stock market investment scam",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-20T18:58:56Z",
-            "sentiment": "Negative",
-            "compound": -0.758
-          },
-          {
-            "title": "Oil prices key external risk, but yet to derail growth outlook: Radhika Rao, Executive Director & Senior Economist, DBS Bank",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-20T18:58:04Z",
-            "sentiment": "Neutral",
-            "compound": 0.013
-          },
-          {
-            "title": "Labor's dilemma is that Australia needs two things voters fear",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-09-20T18:49:03Z",
-            "sentiment": "Negative",
-            "compound": -0.599
-          },
-          {
-            "title": "Govt support, benign inflation helped in Q1: Sonal Varma, Chief Economist, India & Asia (excl. Japan), Nomura",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-20T18:48:47Z",
-            "sentiment": "Positive",
-            "compound": 0.612
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 48.09,
-  "trade_probability": 48.85,
+  "confirmation_score": 47.72,
+  "trade_probability": 48.63,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
