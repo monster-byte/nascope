@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T18:31:15.622870+00:00",
+  "generated_at": "2026-09-21T18:45:51.593521+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,41 +17,41 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.0974,
-          "up": false
+          "change_pct": 0.0266,
+          "up": true
         },
         "MSFT": {
-          "change_pct": 0.0261,
+          "change_pct": 0.009,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.022,
+          "change_pct": 0.0264,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.0252,
-          "up": true
+          "change_pct": -0.0039,
+          "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 82.94,
+      "score": 83.1,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30447.82,
-        "sma50": 29188.43,
-        "sma200": 27254.74
+        "last_price": 30463.06,
+        "sma50": 29188.74,
+        "sma200": 27254.82
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 60.0,
-      "status": "yellow",
+      "score": 65.0,
+      "status": "green",
       "details": {
-        "current_vxn": 20.49,
-        "percentile_vs_20d": 40.0
+        "current_vxn": 20.44,
+        "percentile_vs_20d": 35.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.39,
+      "score": 42.14,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.41,
-        "change_5d_pct": 0.951
+        "current_dxy": 100.44,
+        "change_5d_pct": 0.982
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.46,
+      "score": 46.63,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.011,
+        "avg_compound": -0.067,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "‘They Poll Way Too Many Democrats’: Trump’s Economic Council Director Challenges Fox News Polling On Air",
+            "source": "TheWrap",
+            "publishedAt": "2026-09-20T18:44:43Z",
+            "sentiment": "Neutral",
+            "compound": 0.077
+          },
+          {
+            "title": "Zach Cregger’s ‘Resident Evil’ Grossed More in Its Opening Weekend Than the First Film Made in Its Entire Run",
+            "source": "IndieWire",
+            "publishedAt": "2026-09-20T18:43:55Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
+          {
+            "title": "The politics of migration hides Australia's real problem",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-09-20T18:41:02Z",
+            "sentiment": "Negative",
+            "compound": -0.527
+          },
+          {
+            "title": "Morgan Stanley questions Federal Reserve’s approach to price stability under Warsh",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-20T18:35:11Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "PSBs see rate repricing as margin reprieve amid RBI rate hike expectations",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-20T18:33:52Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Polymarket Bug Reportedly Let Identity Thieves Into Existing Accounts",
             "source": "Gizmodo.com",
             "publishedAt": "2026-09-20T18:23:50Z",
             "sentiment": "Negative",
             "compound": -0.511
-          },
-          {
-            "title": "Exim Matters: Russian oil, American tariffs and Indian exporters",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-20T18:09:33Z",
-            "sentiment": "Neutral",
-            "compound": 0.026
-          },
-          {
-            "title": "What to Expect From US Stock Markets In the Fourth Week of September",
-            "source": "BeInCrypto",
-            "publishedAt": "2026-09-20T18:06:44Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "U.S. economy hits pivotal milestone: Spending on data centers and other information-processing hardware now exceeds housing investment",
-            "source": "Fortune",
-            "publishedAt": "2026-09-20T18:04:24Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Synchrony Financial Sees Resilient Spending, Reaffirms Receivables Growth Outlook",
-            "source": "MarketBeat",
-            "publishedAt": "2026-09-20T18:02:19Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "Billionaire Bill Ackman Dumps Alphabet and Loads Up On a Mega-Cap Stock Down 15% From Its Peak",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-20T17:56:30Z",
-            "sentiment": "Negative",
-            "compound": -0.402
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 61.17,
-  "trade_probability": 56.7,
+  "confirmation_score": 61.36,
+  "trade_probability": 56.82,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
