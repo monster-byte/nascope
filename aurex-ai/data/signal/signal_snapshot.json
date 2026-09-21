@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T13:45:58.217558+00:00",
+  "generated_at": "2026-09-21T14:01:27.048522+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.003,
+          "change_pct": 0.0908,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.0081,
+          "change_pct": -0.0343,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.2967,
-          "up": true
+          "change_pct": -0.0402,
+          "up": false
         },
         "AMZN": {
-          "change_pct": -0.4186,
-          "up": false
+          "change_pct": 0.0216,
+          "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 79.19,
+      "score": 79.84,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30074.78,
-        "sma50": 29180.97,
-        "sma200": 27252.88
+        "last_price": 30139.77,
+        "sma50": 29182.27,
+        "sma200": 27253.2
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 95.0,
       "status": "green",
       "details": {
-        "current_vxn": 19.31,
+        "current_vxn": 19.77,
         "percentile_vs_20d": 5.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 49.68,
+      "score": 48.55,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.963,
-        "change_5d_pct": 0.04
+        "current_yield_pct": 4.97,
+        "change_5d_pct": 0.181
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.24,
+      "score": 42.99,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.3,
-        "change_5d_pct": 0.845
+        "current_dxy": 100.33,
+        "change_5d_pct": 0.876
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.43,
+      "score": 50.43,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.089,
+        "avg_compound": 0.009,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Tata Trusts calls Chandrasekaran reappointment invalid, cites Mistry case",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-20T13:42:56Z",
-            "sentiment": "Positive",
-            "compound": 0.477
-          },
-          {
-            "title": "2026 Subaru WRX",
-            "source": "Netcarshow.com",
-            "publishedAt": "2026-09-20T13:35:13Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Rosen Law Firm Encourages America's Car-Mart, Inc. Investors to Inquire About Securities Class Action Investigation - CRMT",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-20T13:33:00Z",
-            "sentiment": "Positive",
-            "compound": 0.625
-          },
-          {
-            "title": "Truck driver with decades on the road sounds the alarm on the freight industry as fuel prices spike around Australia again: 'Never seen it like this'",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-09-20T13:31:54Z",
+            "title": "Why Holding Anything But Bitcoin Has Been a Losing Bet for Two Years",
+            "source": "Decrypt",
+            "publishedAt": "2026-09-20T14:01:03Z",
             "sentiment": "Negative",
-            "compound": -0.544
+            "compound": -0.527
           },
           {
-            "title": "Trump says he agreed to convert triumphal arch into \"top grade Military Complex\"",
-            "source": "Freerepublic.com",
-            "publishedAt": "2026-09-20T13:30:07Z",
+            "title": "History and Future of Fluid Dynamics",
+            "source": "Proofsandprompts.com",
+            "publishedAt": "2026-09-20T14:00:00Z",
             "sentiment": "Positive",
-            "compound": 0.71
+            "compound": 0.273
           },
           {
-            "title": "Housing costs rise as 30-year mortgage rates jump before midterms",
+            "title": "GOP donors say Trump missed the mark with latest AI comments",
             "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-20T13:30:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "publishedAt": "2026-09-20T14:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "INVESTOR ALERT: AST SpaceMobile, Inc. (NASDAQ: ASTS) Investors with Substantial Losses Have Opportunity to Lead Class Action Lawsuit and Should Contact Kessler Topaz Meltzer & Check, LLP",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-20T14:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.447
+          },
+          {
+            "title": "Federal Reserve rate hike reflects new world of sticky inflation and faster growth - AP News",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-09-20T13:53:38Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "Record diesel prices are exposing pain points in the stock market and economy",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-20T13:53:08Z",
+            "sentiment": "Negative",
+            "compound": -0.66
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.74,
-  "trade_probability": 54.64,
+  "confirmation_score": 57.29,
+  "trade_probability": 54.37,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
