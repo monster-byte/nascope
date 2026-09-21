@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T18:01:25.409978+00:00",
+  "generated_at": "2026-09-21T18:16:03.842332+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.0503,
+          "change_pct": 0.0355,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.008,
+          "change_pct": -0.0321,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.0218,
-          "up": true
+          "change_pct": -0.0025,
+          "up": false
         },
         "AMZN": {
-          "change_pct": -0.0589,
-          "up": false
+          "change_pct": 0.0116,
+          "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 82.59,
+      "score": 82.8,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30413.04,
-        "sma50": 29187.74,
-        "sma200": 27254.57
+        "last_price": 30433.16,
+        "sma50": 29188.14,
+        "sma200": 27254.67
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 65.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.53,
+        "current_vxn": 20.52,
         "percentile_vs_20d": 35.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 48.55,
+      "score": 49.03,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.97,
-        "change_5d_pct": 0.181
+        "current_yield_pct": 4.967,
+        "change_5d_pct": 0.121
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.33,
+      "score": 42.29,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.41,
-        "change_5d_pct": 0.959
+        "current_dxy": 100.42,
+        "change_5d_pct": 0.963
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.0,
+      "score": 50.48,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.0,
+        "avg_compound": 0.01,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Exim Matters: Russian oil, American tariffs and Indian exporters",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-20T18:09:33Z",
+            "sentiment": "Neutral",
+            "compound": 0.026
+          },
+          {
+            "title": "What to Expect From US Stock Markets In the Fourth Week of September",
+            "source": "BeInCrypto",
+            "publishedAt": "2026-09-20T18:06:44Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "U.S. economy hits pivotal milestone: Spending on data centers and other information-processing hardware now exceeds housing investment",
+            "source": "Fortune",
+            "publishedAt": "2026-09-20T18:04:24Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Synchrony Financial Sees Resilient Spending, Reaffirms Receivables Growth Outlook",
+            "source": "MarketBeat",
+            "publishedAt": "2026-09-20T18:02:19Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
           {
             "title": "Billionaire Bill Ackman Dumps Alphabet and Loads Up On a Mega-Cap Stock Down 15% From Its Peak",
             "source": "Biztoc.com",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-09-20T17:56:25Z",
             "sentiment": "Positive",
             "compound": 0.402
-          },
-          {
-            "title": "ASTS Investors with Losses in Excess of $100K Have Opportunity to Lead AST SpaceMobile, Inc. Securities Fraud Lawsuit",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-20T17:56:00Z",
-            "sentiment": "Negative",
-            "compound": -0.527
-          },
-          {
-            "title": "Kashkari: Inflation too high across entire US economy",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-20T17:54:49Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "‘When?!’ Fox’s Peter Doocy Presses Econ Chief on Trump’s Claim Prices Will Fall ‘Like a Rocket Ship in Reverse’",
-            "source": "Mediaite",
-            "publishedAt": "2026-09-20T17:54:18Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Full transcript of \"Face the Nation with Margaret Brennan,\" Sept. 20, 2026",
-            "source": "CBS News",
-            "publishedAt": "2026-09-20T17:52:35Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.86,
-  "trade_probability": 52.92,
+  "confirmation_score": 55.0,
+  "trade_probability": 53.0,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
