@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T13:15:52.623507+00:00",
+  "generated_at": "2026-09-21T13:31:12.032348+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,36 +13,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
-      "status": "red",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.1681,
+          "change_pct": -0.4202,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.1113,
-          "up": false
-        },
-        "NVDA": {
-          "change_pct": 0.696,
+          "change_pct": 0.2412,
           "up": true
         },
-        "AMZN": {
-          "change_pct": -0.1379,
+        "NVDA": {
+          "change_pct": -0.0372,
           "up": false
+        },
+        "AMZN": {
+          "change_pct": 1.0769,
+          "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 74.81,
+      "score": 78.15,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29644.17,
-        "sma50": 29175.98,
-        "sma200": 27230.28
+        "last_price": 29971.81,
+        "sma50": 29178.91,
+        "sma200": 27252.36
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 49.03,
+      "score": 49.35,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.967,
-        "change_5d_pct": 0.121
+        "current_yield_pct": 4.965,
+        "change_5d_pct": 0.081
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.5,
+      "score": 43.44,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.27,
-        "change_5d_pct": 0.812
+        "current_dxy": 100.28,
+        "change_5d_pct": 0.82
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.72,
+      "score": 54.52,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.014,
+        "avg_compound": 0.09,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Trump says he agreed to convert triumphal arch into \"top grade Military Complex\"",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-09-20T13:30:07Z",
+            "sentiment": "Positive",
+            "compound": 0.71
+          },
+          {
+            "title": "Housing costs rise as 30-year mortgage rates jump before midterms",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-20T13:30:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Fed Chair Kevin Warsh and the FOMC Just Hiked Interest Rates, and 36 Years of History Make Clear What Comes Next for Stocks - fool.com",
             "source": "Slashdot.org",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-09-20T13:08:08Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Fed rate hike reflects new world of sticky inflation, faster growth",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-20T13:07:59Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "The Biggest Risk to the Economy",
-            "source": "Awealthofcommonsense.com",
-            "publishedAt": "2026-09-20T13:07:42Z",
-            "sentiment": "Negative",
-            "compound": -0.273
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 50.0,
-  "trade_probability": 50.0,
+  "confirmation_score": 57.58,
+  "trade_probability": 54.55,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
