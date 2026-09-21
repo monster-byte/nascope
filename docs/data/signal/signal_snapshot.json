@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T16:02:09.857618+00:00",
+  "generated_at": "2026-09-21T16:15:54.005399+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.0141,
-          "up": true
+          "change_pct": -0.0222,
+          "up": false
         },
         "MSFT": {
-          "change_pct": 0.0496,
+          "change_pct": 0.0385,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.0666,
-          "up": false
+          "change_pct": 0.0177,
+          "up": true
         },
         "AMZN": {
-          "change_pct": 0.0078,
+          "change_pct": 0.0585,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 81.55,
+      "score": 82.01,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30309.71,
-        "sma50": 29185.67,
-        "sma200": 27254.05
+        "last_price": 30355.15,
+        "sma50": 29186.58,
+        "sma200": 27254.28
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 65.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.21,
+        "current_vxn": 20.26,
         "percentile_vs_20d": 35.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 50.0,
+      "score": 48.55,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.961,
-        "change_5d_pct": 0.0
+        "current_yield_pct": 4.97,
+        "change_5d_pct": 0.181
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.37,
+      "score": 42.42,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.41,
-        "change_5d_pct": 0.954
+        "current_dxy": 100.4,
+        "change_5d_pct": 0.948
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.95,
+      "score": 45.77,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.001,
+        "avg_compound": -0.085,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "The AI Agent Wars Just Got Personal: Google’s CC vs. Meta’s Muse",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-20T16:14:57Z",
+            "sentiment": "Negative",
+            "compound": -0.557
+          },
+          {
+            "title": "Keeping Score: Texas GOP Candidate Brandon Herrera’s Vile Attack on Mothers and Children; Rest in Power Gloria, Dolly, Robin Morgan, Annie Dillard and More",
+            "source": "Ms. Magazine",
+            "publishedAt": "2026-09-20T16:11:52Z",
+            "sentiment": "Negative",
+            "compound": -0.802
+          },
+          {
+            "title": "Trump adviser sinks on Fox in attempt to dismiss economic pain: ‘No far-left media here!’",
+            "source": "Raw Story",
+            "publishedAt": "2026-09-20T16:11:36Z",
+            "sentiment": "Negative",
+            "compound": -0.556
+          },
+          {
+            "title": "Streisand Effect Goes to Work on New Elon Musk Documentary",
+            "source": "CleanTechnica",
+            "publishedAt": "2026-09-20T16:10:18Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Analyst: Meta Needs Just 115 Million Users to Ignite a $28 Billion AI Gold Rush — But It’s Not Likely to Happen",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-20T16:03:03Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "New Zealand bond yields near 5% as higher rates revive fixed-income returns",
             "source": "New Zealand Herald",
             "publishedAt": "2026-09-20T16:00:00Z",
             "sentiment": "Positive",
             "compound": 0.34
-          },
-          {
-            "title": "Bronstein, Gewirtz & Grossman LLC Urges Baidu, Inc. Investors to Act: Class Action Filed Alleging Investor Harm",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-20T16:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.542
-          },
-          {
-            "title": "Bronstein, Gewirtz & Grossman LLC Urges AST SpaceMobile, Inc. Investors to Act: Class Action Filed Alleging Investor Harm",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-20T16:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.542
-          },
-          {
-            "title": "Bronstein, Gewirtz & Grossman LLC Urges AppLovin Corporation Investors to Act: Class Action Filed Alleging Investor Harm",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-20T16:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.542
-          },
-          {
-            "title": "Elon Musk Predicts Starlink Satellites Could Rewrite the Rules of Global Connectivity",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-20T15:59:11Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "This Analyst Has a $450 Price Target on SpaceX Stock. Does That Make it a Buy?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-20T15:54:56Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 61.67,
-  "trade_probability": 57.0,
+  "confirmation_score": 61.16,
+  "trade_probability": 56.7,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
