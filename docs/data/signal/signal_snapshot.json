@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T16:31:23.941949+00:00",
+  "generated_at": "2026-09-21T16:45:55.173483+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 100.0,
-      "status": "green",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.096,
-          "up": true
+          "change_pct": -0.01,
+          "up": false
         },
         "MSFT": {
-          "change_pct": 0.1031,
+          "change_pct": 0.0558,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.1596,
+          "change_pct": 0.0376,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.0213,
-          "up": true
+          "change_pct": -0.0058,
+          "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 82.29,
+      "score": 82.23,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30383.21,
-        "sma50": 29187.14,
-        "sma200": 27254.42
+        "last_price": 30376.97,
+        "sma50": 29187.02,
+        "sma200": 27254.39
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 65.0,
-      "status": "green",
+      "score": 60.0,
+      "status": "yellow",
       "details": {
-        "current_vxn": 20.45,
-        "percentile_vs_20d": 35.0
+        "current_vxn": 20.63,
+        "percentile_vs_20d": 40.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 50.97,
+      "score": 50.65,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.955,
-        "change_5d_pct": -0.121
+        "current_yield_pct": 4.957,
+        "change_5d_pct": -0.081
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.75,
+      "score": 42.65,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.36,
-        "change_5d_pct": 0.906
+        "current_dxy": 100.37,
+        "change_5d_pct": 0.919
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.77,
+      "score": 44.9,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.085,
+        "avg_compound": -0.102,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "h1news-mcp added to PyPI",
+            "source": "Pypi.org",
+            "publishedAt": "2026-09-20T16:43:35Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Tariffs don't decide wars",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-20T16:41:31Z",
+            "sentiment": "Positive",
+            "compound": 0.445
+          },
+          {
+            "title": "3 Reasons CRISPR Therapeutics Stock Is Still a Buy After a Rocky 2026",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-20T16:40:07Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Federal Reserve rate hike reflects new world of sticky inflation and faster growth",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-20T16:39:16Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "Resident Evil Outdoes Predecessors in Debut",
+            "source": "Newser",
+            "publishedAt": "2026-09-20T16:35:00Z",
+            "sentiment": "Negative",
+            "compound": -0.66
+          },
           {
             "title": "The AI Agent Wars Just Got Personal: Google’s CC vs. Meta’s Muse",
             "source": "24/7 Wall St.",
             "publishedAt": "2026-09-20T16:14:57Z",
             "sentiment": "Negative",
             "compound": -0.557
-          },
-          {
-            "title": "Keeping Score: Texas GOP Candidate Brandon Herrera’s Vile Attack on Mothers and Children; Rest in Power Gloria, Dolly, Robin Morgan, Annie Dillard and More",
-            "source": "Ms. Magazine",
-            "publishedAt": "2026-09-20T16:11:52Z",
-            "sentiment": "Negative",
-            "compound": -0.802
-          },
-          {
-            "title": "Trump adviser sinks on Fox in attempt to dismiss economic pain: ‘No far-left media here!’",
-            "source": "Raw Story",
-            "publishedAt": "2026-09-20T16:11:36Z",
-            "sentiment": "Negative",
-            "compound": -0.556
-          },
-          {
-            "title": "Streisand Effect Goes to Work on New Elon Musk Documentary",
-            "source": "CleanTechnica",
-            "publishedAt": "2026-09-20T16:10:18Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Analyst: Meta Needs Just 115 Million Users to Ignite a $28 Billion AI Gold Rush — But It’s Not Likely to Happen",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-20T16:03:03Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "New Zealand bond yields near 5% as higher rates revive fixed-income returns",
-            "source": "New Zealand Herald",
-            "publishedAt": "2026-09-20T16:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.34
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 68.31,
-  "trade_probability": 60.99,
+  "confirmation_score": 54.22,
+  "trade_probability": 52.53,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
