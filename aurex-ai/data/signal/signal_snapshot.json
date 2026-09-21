@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T20:15:52.597072+00:00",
+  "generated_at": "2026-09-21T20:26:06.781619+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -69,7 +69,7 @@
       "status": "yellow",
       "details": {
         "current_dxy": 100.43,
-        "change_5d_pct": 0.979
+        "change_5d_pct": 0.978
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.43,
+      "score": 51.63,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.029,
+        "avg_compound": 0.033,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Federal Reserve raises rates for first time since 2023, putting corporate treasurers back to work",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-20T20:19:51Z",
+            "sentiment": "Neutral",
+            "compound": 0.103
+          },
           {
             "title": "Fast Takes: Buried good economic news, AI hastens colleges’ collapse, and other commentary",
             "source": "New York Post",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-09-20T20:02:00Z",
             "sentiment": "Neutral",
             "compound": -0.178
-          },
-          {
-            "title": "Both Parties Aiming to Lose the Midterm Election",
-            "source": "Daily Signal",
-            "publishedAt": "2026-09-20T20:01:59Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.77,
-  "trade_probability": 52.86,
+  "confirmation_score": 54.79,
+  "trade_probability": 52.87,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
