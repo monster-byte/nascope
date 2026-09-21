@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T03:01:25.889268+00:00",
+  "generated_at": "2026-09-21T03:15:47.287662+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.44,
+      "score": 43.23,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.28,
-        "change_5d_pct": 0.819
+        "current_dxy": 100.3,
+        "change_5d_pct": 0.847
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.72,
+      "score": 52.3,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.074,
+        "avg_compound": 0.046,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Coalition vows to cut $15 off tank of petrol when global prices spike",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-09-20T03:15:26Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
           {
             "title": "Should you buy health insurance riders or increase your sum insured? Experts explain what to prioritise",
             "source": "Livemint",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-09-20T02:25:40Z",
             "sentiment": "Negative",
             "compound": -0.296
-          },
-          {
-            "title": "Prudential benefits from 30-year Treasury yield hitting 19-year high",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-20T02:20:08Z",
-            "sentiment": "Positive",
-            "compound": 0.527
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 49.89,
-  "trade_probability": 49.93,
+  "confirmation_score": 49.75,
+  "trade_probability": 49.85,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
