@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T17:45:52.954458+00:00",
+  "generated_at": "2026-09-21T18:01:25.409978+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,36 +13,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
-      "status": "green",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.0329,
+          "change_pct": 0.0503,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.065,
-          "up": true
+          "change_pct": -0.008,
+          "up": false
         },
         "NVDA": {
-          "change_pct": 0.0044,
+          "change_pct": 0.0218,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.0,
+          "change_pct": -0.0589,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 82.63,
+      "score": 82.59,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30416.54,
-        "sma50": 29187.81,
-        "sma200": 27254.58
+        "last_price": 30413.04,
+        "sma50": 29187.74,
+        "sma200": 27254.57
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 65.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.44,
+        "current_vxn": 20.53,
         "percentile_vs_20d": 35.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 49.68,
+      "score": 48.55,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.963,
-        "change_5d_pct": 0.04
+        "current_yield_pct": 4.97,
+        "change_5d_pct": 0.181
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.38,
+      "score": 42.33,
       "status": "yellow",
       "details": {
         "current_dxy": 100.41,
-        "change_5d_pct": 0.952
+        "change_5d_pct": 0.959
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.9,
+      "score": 50.0,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.042,
+        "avg_compound": 0.0,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "China Is Doing About 30 Times More Agricultural Drone Work Than The U.S.",
-            "source": "CleanTechnica",
-            "publishedAt": "2026-09-20T17:31:58Z",
+            "title": "Billionaire Bill Ackman Dumps Alphabet and Loads Up On a Mega-Cap Stock Down 15% From Its Peak",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-20T17:56:30Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
+          {
+            "title": "Can Your Retirement Plan Stand Up to Inflation? These 2 Tweaks Might Help",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-20T17:56:25Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "ASTS Investors with Losses in Excess of $100K Have Opportunity to Lead AST SpaceMobile, Inc. Securities Fraud Lawsuit",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-20T17:56:00Z",
+            "sentiment": "Negative",
+            "compound": -0.527
+          },
+          {
+            "title": "Kashkari: Inflation too high across entire US economy",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-20T17:54:49Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Dollars no longer buy happiness",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-20T17:24:38Z",
-            "sentiment": "Positive",
-            "compound": 0.34
+            "title": "‘When?!’ Fox’s Peter Doocy Presses Econ Chief on Trump’s Claim Prices Will Fall ‘Like a Rocket Ship in Reverse’",
+            "source": "Mediaite",
+            "publishedAt": "2026-09-20T17:54:18Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Resident Evil 2026 Box Office Outgrosses Two Previous Franchise Installments In Just 3 Days",
-            "source": "Screen Rant",
-            "publishedAt": "2026-09-20T17:23:30Z",
-            "sentiment": "Negative",
-            "compound": -0.66
-          },
-          {
-            "title": "Trump’s Monumental Obsession",
-            "source": "The Atlantic",
-            "publishedAt": "2026-09-20T17:17:14Z",
-            "sentiment": "Negative",
-            "compound": -0.34
-          },
-          {
-            "title": "More Asyad Shipping shares heading to market",
-            "source": "Omanobserver.om",
-            "publishedAt": "2026-09-20T17:16:05Z",
-            "sentiment": "Positive",
-            "compound": 0.353
-          },
-          {
-            "title": "A seven-year standoff over Venezuelan gold nears its end",
-            "source": "TheStreet",
-            "publishedAt": "2026-09-20T17:07:00Z",
+            "title": "Full transcript of \"Face the Nation with Margaret Brennan,\" Sept. 20, 2026",
+            "source": "CBS News",
+            "publishedAt": "2026-09-20T17:52:35Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 61.59,
-  "trade_probability": 56.95,
+  "confirmation_score": 54.86,
+  "trade_probability": 52.92,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
