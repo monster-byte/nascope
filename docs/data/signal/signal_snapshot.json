@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T17:45:56.775780+00:00",
+  "generated_at": "2026-09-22T18:01:28.221133+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.0014,
+          "change_pct": -0.015,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.0153,
-          "up": false
-        },
-        "NVDA": {
-          "change_pct": 0.0175,
+          "change_pct": 0.0347,
           "up": true
         },
+        "NVDA": {
+          "change_pct": -0.0874,
+          "up": false
+        },
         "AMZN": {
-          "change_pct": 0.059,
+          "change_pct": 0.0645,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 84.75,
+      "score": 84.83,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30653.28,
-        "sma50": 29216.91,
-        "sma200": 27280.15
+        "last_price": 30661.5,
+        "sma50": 29217.07,
+        "sma200": 27280.19
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 90.0,
       "status": "green",
       "details": {
-        "current_vxn": 19.9,
+        "current_vxn": 19.8,
         "percentile_vs_20d": 10.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 53.2,
+      "score": 53.84,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.976,
-        "change_5d_pct": -0.4
+        "current_yield_pct": 4.972,
+        "change_5d_pct": -0.48
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.92,
+      "score": 41.99,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.66,
-        "change_5d_pct": 1.011
+        "current_dxy": 100.65,
+        "change_5d_pct": 1.002
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.89,
+      "score": 51.73,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.018,
+        "avg_compound": 0.035,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "FCNR(B): Has RBI bought forex stability at too high a cost?",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-21T17:45:23Z",
+            "title": "MoSPI explains changes in India's new national accounts methodology",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-21T18:00:13Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Uranium Stocks Are Rallying. Why NXE Got Initiated At Overweight.",
-            "source": "Investor's Business Daily",
-            "publishedAt": "2026-09-21T17:44:11Z",
-            "sentiment": "Negative",
-            "compound": -0.361
+            "title": "Coffee Break: Western Ruling Elites & Their Vassals Re-Confirm Fealty to Unreality",
+            "source": "Nakedcapitalism.com",
+            "publishedAt": "2026-09-21T18:00:04Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Fighting inflation likely to be 'painful,' Chicago Fed president says",
+            "title": "NFL ‘Monday Night Football’ betting promos: Earn nearly $4k in sportsbook, prediction market bonuses for Giants vs. Rams",
+            "source": "New York Post",
+            "publishedAt": "2026-09-21T18:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.557
+          },
+          {
+            "title": "Federal Reserve will need to be ‘aggressive’ on inflation, says top official",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-21T17:43:38Z",
-            "sentiment": "Negative",
-            "compound": -0.66
+            "publishedAt": "2026-09-21T17:59:22Z",
+            "sentiment": "Positive",
+            "compound": 0.202
           },
           {
-            "title": "Behind the Ticker: Crossmark's Values-Based ETFs",
-            "source": "Etf.com",
-            "publishedAt": "2026-09-21T17:40:55Z",
+            "title": "Fears of runaway AI spur Australia to join global call for guardrails",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-09-21T17:56:49Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": -0.153
           },
           {
-            "title": "Report: GOP Senators Worry as Battleground Map Widens Ahead of Midterms",
-            "source": "Breitbart News",
-            "publishedAt": "2026-09-21T17:39:24Z",
-            "sentiment": "Negative",
-            "compound": -0.681
-          },
-          {
-            "title": "Seattle Bans Rental Junk Fees",
-            "source": "Multifamilydive.com",
-            "publishedAt": "2026-09-21T17:36:48Z",
+            "title": "AI-Fueled Precision Oncology Firm Guardant Health Is In Focus. Here's Why.",
+            "source": "Investor's Business Daily",
+            "publishedAt": "2026-09-21T17:49:50Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 58.08,
-  "trade_probability": 54.85,
+  "confirmation_score": 58.26,
+  "trade_probability": 54.96,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
