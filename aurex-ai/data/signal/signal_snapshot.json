@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T13:45:52.531284+00:00",
+  "generated_at": "2026-09-22T14:01:27.550201+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
-      "status": "green",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.1406,
-          "up": true
+          "change_pct": -0.0455,
+          "up": false
         },
         "MSFT": {
-          "change_pct": 0.0261,
+          "change_pct": 0.006,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.182,
+          "change_pct": -0.1516,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.1182,
+          "change_pct": 0.0505,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 84.27,
+      "score": 84.5,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30606.04,
-        "sma50": 29215.96,
-        "sma200": 27279.91
+        "last_price": 30628.35,
+        "sma50": 29216.41,
+        "sma200": 27280.02
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 60.0,
-      "status": "yellow",
+      "score": 75.0,
+      "status": "green",
       "details": {
-        "current_vxn": 20.4,
-        "percentile_vs_20d": 40.0
+        "current_vxn": 20.14,
+        "percentile_vs_20d": 25.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 57.21,
+      "score": 57.85,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.951,
-        "change_5d_pct": -0.901
+        "current_yield_pct": 4.947,
+        "change_5d_pct": -0.981
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.41,
+      "score": 43.57,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.47,
-        "change_5d_pct": 0.824
+        "current_dxy": 100.45,
+        "change_5d_pct": 0.804
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.55,
+      "score": 56.45,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.091,
+        "avg_compound": 0.129,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Telix Beefs Up Radioisotopes Supply With $2.35 Billion Deal; Shares Crash",
-            "source": "Investor's Business Daily",
-            "publishedAt": "2026-09-21T13:45:44Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
-          },
-          {
-            "title": "Novo Nordisk Falls 7% as Post-Wegovy Growth Plan Fails to Ease Competition Fears; Eli Lilly Slips, Viking Therapeutics Edges Higher",
+            "title": "Price Prediction: One Bank Sees Netflix at $57. We See Triple That.",
             "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-21T13:45:22Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
-          },
-          {
-            "title": "Jane Street's US$15 billion loss prompts Fed, BoE scrutiny of banks' trading-firm exposure: FT",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-21T13:43:58Z",
-            "sentiment": "Negative",
-            "compound": -0.318
-          },
-          {
-            "title": "Strategy Buys $75 Million of Bitcoin As Price Rallies",
-            "source": "Cryptoprowl.com",
-            "publishedAt": "2026-09-21T13:43:00Z",
+            "publishedAt": "2026-09-21T14:00:43Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Paramount, Warner Bros. shares rally on report of merger settlement agreement",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-21T13:42:33Z",
-            "sentiment": "Positive",
-            "compound": 0.66
+            "title": "At $336 Apple Is Expensive, or Is It?",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-21T14:00:37Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Paramount, Warner Bros. shares rally on reports of merger settlement agreement",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-21T13:42:33Z",
+            "title": "The 2024 World Economic Forum report that put the space economy on track for $1.8 trillion by 2035 also framed the coming decade as the most transformative the industry has ever seen, with UC San Diego labs already building for the medical and climate applications it forecasts",
+            "source": "Space Daily",
+            "publishedAt": "2026-09-21T14:00:34Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Tech stocks rise, Bitcoin rallied as Treasury yields ease: AlphaCheck",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-21T14:00:11Z",
             "sentiment": "Positive",
-            "compound": 0.66
+            "compound": 0.511
+          },
+          {
+            "title": "The functional impact of myofiber macroscopic organization and disarray in computational models of the murine heart",
+            "source": "Plos.org",
+            "publishedAt": "2026-09-21T14:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.637
+          },
+          {
+            "title": "Mental health in academia: A national survey on risk and protective factors in the Indonesian context",
+            "source": "Plos.org",
+            "publishedAt": "2026-09-21T14:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.273
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 63.07,
-  "trade_probability": 57.84,
+  "confirmation_score": 57.97,
+  "trade_probability": 54.78,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
