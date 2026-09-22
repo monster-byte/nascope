@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T16:31:14.699345+00:00",
+  "generated_at": "2026-09-22T16:45:53.304528+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,15 +13,15 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
-      "status": "green",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.035,
+          "change_pct": -0.0277,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.002,
+          "change_pct": 0.0051,
           "up": true
         },
         "NVDA": {
@@ -29,29 +29,29 @@
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.0865,
-          "up": true
+          "change_pct": -0.0137,
+          "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 84.24,
+      "score": 84.35,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30603.15,
-        "sma50": 29215.91,
-        "sma200": 27279.9
+        "last_price": 30613.57,
+        "sma50": 29216.11,
+        "sma200": 27279.95
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 90.0,
+      "score": 95.0,
       "status": "green",
       "details": {
-        "current_vxn": 19.88,
-        "percentile_vs_20d": 10.0
+        "current_vxn": 19.87,
+        "percentile_vs_20d": 5.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.72,
+      "score": 41.77,
       "status": "yellow",
       "details": {
         "current_dxy": 100.68,
-        "change_5d_pct": 1.036
+        "change_5d_pct": 1.029
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.41,
+      "score": 56.62,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.048,
+        "avg_compound": 0.132,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "AppLovin (NASDAQ: APP) Faces Securities Class Action Amid Concerns Over Model Improvements -- HBSS",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-21T16:31:00Z",
-            "sentiment": "Positive",
-            "compound": 0.542
-          },
-          {
-            "title": "What Will $5,000 Invested in Amazon Stock Be Worth in 5 Years?",
+            "title": "We Think Meta Could Keep Soaring Higher and Wells Fargo Agrees",
             "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-21T16:30:32Z",
+            "publishedAt": "2026-09-21T16:45:35Z",
             "sentiment": "Positive",
-            "compound": 0.382
+            "compound": 0.421
           },
           {
-            "title": "Warren Buffett's Simple S&P 500 Strategy for Building Wealth Over Time",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-21T16:30:21Z",
-            "sentiment": "Positive",
-            "compound": 0.494
-          },
-          {
-            "title": "HAGENS BERMAN, NATIONAL TRIAL ATTORNEYS, Encourages FuelCell Energy, Inc. (NASDAQ: FCEL) Investors with Substantial Losses to Contact Firm",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-21T16:30:00Z",
-            "sentiment": "Positive",
-            "compound": 0.477
-          },
-          {
-            "title": "Dollar General CEO drops hot take on inflation and $100,000 earners",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-21T16:28:11Z",
+            "title": "The 2026 midterms are 6 weeks away. What the latest polls say.",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-21T16:43:19Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "LINCOLN EDUCATIONAL SERVICES CORP. (NASDAQ: LINC) INVESTORS: Hagens Berman Alerts Investors to Securities Class Action Lawsuit, Encourages LINC Shareholders with Losses to Contact the Firm",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-21T16:28:00Z",
+            "title": "Can US Consumers Afford Another Fed Rate Hike? | Presented by CME Group",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-21T16:42:50Z",
             "sentiment": "Neutral",
-            "compound": 0.128
+            "compound": 0.0
+          },
+          {
+            "title": "Bitcoin price tags $86K as analysis sees crypto in ‘new bull market’",
+            "source": "Cointelegraph",
+            "publishedAt": "2026-09-21T16:39:40Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Why is crypto market up today? Bitcoin (BTC USD) hits $85K for the first time since January, ETH USD, XRP, SOL and altcoins rally amid falling oil prices, lower yields, short liquidations",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-21T16:36:09Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
+          {
+            "title": "Canada OAS payment increase: Seniors to get more money from October 28 as 2026 benefit rises 1.4% — new monthly amounts, GIS, payment dates and tax rules explained",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-21T16:34:34Z",
+            "sentiment": "Positive",
+            "compound": 0.649
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 64.88,
-  "trade_probability": 58.93,
+  "confirmation_score": 58.97,
+  "trade_probability": 55.38,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
