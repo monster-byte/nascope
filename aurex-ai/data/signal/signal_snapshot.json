@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T17:15:56.062392+00:00",
+  "generated_at": "2026-09-22T17:31:11.916757+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.0507,
+          "change_pct": -0.0234,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.0091,
+          "change_pct": 0.002,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.0043,
+          "change_pct": -0.0153,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.0059,
+          "change_pct": -0.0957,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 84.66,
+      "score": 84.7,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30644.18,
-        "sma50": 29216.73,
-        "sma200": 27280.1
+        "last_price": 30648.78,
+        "sma50": 29216.82,
+        "sma200": 27280.12
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 95.0,
+      "score": 90.0,
       "status": "green",
       "details": {
-        "current_vxn": 19.92,
-        "percentile_vs_20d": 5.0
+        "current_vxn": 19.93,
+        "percentile_vs_20d": 10.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 53.2,
+      "score": 52.88,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.976,
-        "change_5d_pct": -0.4
+        "current_yield_pct": 4.978,
+        "change_5d_pct": -0.36
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.96,
+      "score": 41.74,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.65,
-        "change_5d_pct": 1.006
+        "current_dxy": 100.68,
+        "change_5d_pct": 1.033
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.24,
+      "score": 54.3,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.055,
+        "avg_compound": 0.086,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Stock Market Signals a Rare Historical Pattern: Are Investors Prepared for What Comes Next?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-21T17:15:37Z",
+            "title": "Loren Finegold, Ed Comber Join Vinson & Elkins NY Practice, Finance & Infrastructure Growth",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-21T17:30:54Z",
             "sentiment": "Positive",
-            "compound": 0.226
+            "compound": 0.586
           },
           {
-            "title": "Stock boom is fueling a ‘retirement party,’ economists say — what it means for workers",
-            "source": "CNBC",
-            "publishedAt": "2026-09-21T17:14:25Z",
+            "title": "The Next Chapter of Eli Lilly Could Be Bigger Than Investors Expect",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-21T17:30:17Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Why Indonesians Feel Increasingly Bitter Today",
-            "source": "The Diplomat",
-            "publishedAt": "2026-09-21T17:14:00Z",
-            "sentiment": "Negative",
-            "compound": -0.421
-          },
-          {
-            "title": "Dangote speaks on plans to list all group businesses",
-            "source": "The Punch",
-            "publishedAt": "2026-09-21T17:07:14Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Musk's SpaceX $100B day reveals a volatile baseline",
-            "source": "TheStreet",
-            "publishedAt": "2026-09-21T17:07:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Michael Saylor’s Strategy buys Bitcoin again as surprise rally pushes price above $85,000",
-            "source": "Fortune",
-            "publishedAt": "2026-09-21T17:05:09Z",
+            "title": "Only 1 Nasdaq-100 Stock Yields More Than 10-Year Treasuries at 5%. Here's My Top Pick to Buy Now.",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-21T17:29:00Z",
             "sentiment": "Positive",
-            "compound": 0.273
+            "compound": 0.452
+          },
+          {
+            "title": "Oura smart ring IPO roadshow launches, targets $2.2 billion",
+            "source": "Quartz India",
+            "publishedAt": "2026-09-21T17:27:11Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "BRICS+ and the fallout from Trump's energy shocks",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-21T17:21:44Z",
+            "sentiment": "Neutral",
+            "compound": -0.128
+          },
+          {
+            "title": "10 of the US' youngest billionaires in 2026 — and how they got their fortunes",
+            "source": "Business Insider",
+            "publishedAt": "2026-09-21T17:20:37Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 51.44,
-  "trade_probability": 50.86,
+  "confirmation_score": 51.57,
+  "trade_probability": 50.94,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
