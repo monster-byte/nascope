@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T08:45:57.496264+00:00",
+  "generated_at": "2026-09-22T09:01:24.536356+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.04,
+      "score": 43.78,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.64,
-        "change_5d_pct": 0.995
+        "current_dxy": 100.43,
+        "change_5d_pct": 0.778
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.32,
+      "score": 51.96,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.026,
+        "avg_compound": 0.039,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Socialists are helping GOP campaigns heading into November",
+            "source": "Fox News",
+            "publishedAt": "2026-09-21T09:00:31Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "Wisconsin GOP Candidate Is Exploiting the Data Center Backlash to Hit Solar, Wind",
+            "source": "The American Prospect",
+            "publishedAt": "2026-09-21T09:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.44
+          },
+          {
+            "title": "Stock Market Today: Stock Futures Tick Up as Oil Falls",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-21T08:56:28Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Global Market: European shares rise as oil slide boosts risk appetite",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-21T08:47:17Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
           {
             "title": "PENDLE achieves 93% emission reduction, boosts liquidity depth by 40%",
             "source": "Crypto Briefing",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-09-21T08:41:56Z",
             "sentiment": "Negative",
             "compound": -0.296
-          },
-          {
-            "title": "Live updates: Bitcoin rockets above $83,500 as falling oil lifts risk assets",
-            "source": "CoinDesk",
-            "publishedAt": "2026-09-21T08:39:26Z",
-            "sentiment": "Negative",
-            "compound": -0.25
-          },
-          {
-            "title": "US Market: Equity funds see fourth straight week of outflows as oil, rate hike concerns mount",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-21T08:35:38Z",
-            "sentiment": "Positive",
-            "compound": 0.226
-          },
-          {
-            "title": "Unimech soars 7%, up 144% from Mar low; what's driving this defence stock?",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-21T08:31:26Z",
-            "sentiment": "Neutral",
-            "compound": -0.153
-          },
-          {
-            "title": "JPM Analysts No Longer Have USA-Iran Conflict Baseline",
-            "source": "Rigzone",
-            "publishedAt": "2026-09-21T08:28:48Z",
-            "sentiment": "Negative",
-            "compound": -0.542
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.75,
-  "trade_probability": 52.85,
+  "confirmation_score": 54.97,
+  "trade_probability": 52.98,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
