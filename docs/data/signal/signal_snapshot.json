@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T18:45:52.117455+00:00",
+  "generated_at": "2026-09-22T19:01:27.271866+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 100.0,
-      "status": "green",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.0118,
-          "up": true
+          "change_pct": -0.0573,
+          "up": false
         },
         "MSFT": {
-          "change_pct": 0.0266,
-          "up": true
+          "change_pct": -0.004,
+          "up": false
         },
         "NVDA": {
-          "change_pct": 0.017,
-          "up": true
+          "change_pct": -0.0327,
+          "up": false
         },
         "AMZN": {
-          "change_pct": 0.0216,
+          "change_pct": 0.0608,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 85.14,
+      "score": 85.04,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30692.21,
-        "sma50": 29217.69,
-        "sma200": 27280.34
+        "last_price": 30681.88,
+        "sma50": 29217.48,
+        "sma200": 27280.29
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 95.0,
+      "score": 90.0,
       "status": "green",
       "details": {
-        "current_vxn": 19.92,
-        "percentile_vs_20d": 5.0
+        "current_vxn": 19.95,
+        "percentile_vs_20d": 10.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 55.28,
+      "score": 54.96,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.963,
-        "change_5d_pct": -0.661
+        "current_yield_pct": 4.965,
+        "change_5d_pct": -0.62
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.3,
+      "score": 42.41,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.61,
-        "change_5d_pct": 0.962
+        "current_dxy": 100.6,
+        "change_5d_pct": 0.948
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.24,
+      "score": 48.33,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.005,
+        "avg_compound": -0.033,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Intel surges 12% as CPU stocks rally. Here's what's driving the move",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-21T18:43:55Z",
+            "title": "Federal Court Rules Cancellation Of Solar For All Program Was Unlawful",
+            "source": "CleanTechnica",
+            "publishedAt": "2026-09-21T19:00:31Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "SB Energy delays IPO amid investor skepticism over valuation",
+            "title": "CoreWeave raises 2026 forecast to $12.4B–$13.2B after $5.1B in 2025 revenue",
             "source": "Crypto Briefing",
-            "publishedAt": "2026-09-21T18:43:01Z",
-            "sentiment": "Neutral",
-            "compound": 0.026
-          },
-          {
-            "title": "Coping with the jump in home heating costs",
-            "source": "Omny.fm",
-            "publishedAt": "2026-09-21T18:42:51Z",
+            "publishedAt": "2026-09-21T18:55:20Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Central bank may bring clarity on Tata Sons listing amid recast talk",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-21T18:35:56Z",
-            "sentiment": "Positive",
-            "compound": 0.402
+            "title": "IBEC opposes inflation-related deal",
+            "source": "Omny.fm",
+            "publishedAt": "2026-09-21T18:50:08Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "The Hidden Chessboard & US Sovereignty: Trade wars, proxy wars, and inflation are all hitting at once. Some say it's no accident, and American sovereignty is what's on the table. Globalism vs Nationalism, the American System vs the British System",
-            "source": "Freerepublic.com",
-            "publishedAt": "2026-09-21T18:31:51Z",
+            "title": "US crude oil futures settle 4.5% lower at $95.78 per barrel as Middle East tensions ease",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-21T18:48:03Z",
             "sentiment": "Negative",
-            "compound": -0.685
+            "compound": -0.727
           },
           {
-            "title": "The Irish Times view on the INTO vote: a sign of things to come",
-            "source": "The Irish Times",
-            "publishedAt": "2026-09-21T18:31:00Z",
+            "title": "Gold price today: Why gold fell to $4,350 as stronger dollar and 88% Fed rate hike odds weigh on bullion",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-21T18:46:01Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "Omagh inquiry resumes",
+            "source": "Omny.fm",
+            "publishedAt": "2026-09-21T18:45:48Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,11 +146,11 @@
       }
     }
   },
-  "confirmation_score": 72.34,
-  "trade_probability": 63.4,
+  "confirmation_score": 51.42,
+  "trade_probability": 50.85,
   "market_regime": "BULLISH",
   "final_decision": {
-    "ai_status": "APPROVED",
-    "directional_bias": "LONG"
+    "ai_status": "HOLD / MONITOR",
+    "directional_bias": "NEUTRAL"
   }
 }
