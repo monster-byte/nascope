@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T14:31:16.062298+00:00",
+  "generated_at": "2026-09-22T14:45:51.856401+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.0603,
-          "up": false
-        },
-        "MSFT": {
-          "change_pct": -0.0804,
-          "up": false
-        },
-        "NVDA": {
-          "change_pct": 0.0038,
+          "change_pct": 0.022,
           "up": true
         },
+        "MSFT": {
+          "change_pct": 0.0438,
+          "up": true
+        },
+        "NVDA": {
+          "change_pct": -0.0461,
+          "up": false
+        },
         "AMZN": {
-          "change_pct": 0.0234,
+          "change_pct": 0.0132,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 84.84,
+      "score": 84.33,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30662.0,
-        "sma50": 29217.08,
-        "sma200": 27280.19
+        "last_price": 30611.47,
+        "sma50": 29216.07,
+        "sma200": 27279.94
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 80.0,
+      "score": 85.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.09,
-        "percentile_vs_20d": 20.0
+        "current_vxn": 20.01,
+        "percentile_vs_20d": 15.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 57.53,
+      "score": 57.21,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.949,
-        "change_5d_pct": -0.941
+        "current_yield_pct": 4.951,
+        "change_5d_pct": -0.901
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.99,
+      "score": 42.94,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.52,
-        "change_5d_pct": 0.876
+        "current_dxy": 100.53,
+        "change_5d_pct": 0.882
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.85,
+      "score": 53.07,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.097,
+        "avg_compound": 0.061,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Tech stocks rise, Bitcoin rallies as Treasury yields ease: AlphaCheck",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-21T14:30:16Z",
+            "title": "New Era Energy & Digital jumps 30% after signing 20-year power deal with Vistra",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-21T14:45:41Z",
             "sentiment": "Positive",
-            "compound": 0.511
-          },
-          {
-            "title": "Nvidia vs. Eli Lilly: I’d Choose This Stock for the Next Decade",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-21T14:30:10Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Wholesale Gas Prices Are Reaching Consumers Faster, ECB Says",
-            "source": "OilPrice.com",
-            "publishedAt": "2026-09-21T14:30:00Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "Super Micro Rises 6% as AI Server Bid Concentrates in One Name; Dell and Hewlett Packard Enterprise Tick Up",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-21T14:28:52Z",
-            "sentiment": "Positive",
-            "compound": 0.599
-          },
-          {
-            "title": "Rivian’s Remarkable Three Month Stock Collapse",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-21T14:27:16Z",
-            "sentiment": "Neutral",
-            "compound": 0.103
+            "compound": 0.273
           },
           {
             "title": "New Era jumps 30% after signing 207 MW Vistra PPA",
-            "source": "Blockspace.media",
-            "publishedAt": "2026-09-21T14:27:04Z",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-21T14:45:04Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "Nvidia vs. Eli Lilly: I’d Choose This Stock for the Next Decade",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-21T14:42:20Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "GST 2.0 softens inflation blow as FMCG firms gear up for festive season",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-21T14:40:33Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "GST 2.0 softens inflation blow as FMCG firms gear up for festive season",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-21T14:40:31Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "GST 2.0 softens inflation blow as FMCG firms gear up for festive season",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-21T14:40:11Z",
+            "sentiment": "Positive",
+            "compound": 0.459
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 58.23,
-  "trade_probability": 54.94,
+  "confirmation_score": 65.15,
+  "trade_probability": 59.09,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
