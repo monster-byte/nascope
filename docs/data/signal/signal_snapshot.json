@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T18:15:52.979819+00:00",
+  "generated_at": "2026-09-22T18:31:11.946674+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.0234,
-          "up": false
-        },
-        "MSFT": {
-          "change_pct": -0.0121,
-          "up": false
-        },
-        "NVDA": {
-          "change_pct": 0.0074,
+          "change_pct": 0.011,
           "up": true
         },
+        "MSFT": {
+          "change_pct": 0.0643,
+          "up": true
+        },
+        "NVDA": {
+          "change_pct": 0.0,
+          "up": false
+        },
         "AMZN": {
-          "change_pct": 0.0194,
+          "change_pct": 0.0431,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 85.12,
+      "score": 85.2,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30690.44,
-        "sma50": 29217.65,
-        "sma200": 27280.33
+        "last_price": 30698.09,
+        "sma50": 29217.8,
+        "sma200": 27280.37
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 90.0,
+      "score": 95.0,
       "status": "green",
       "details": {
-        "current_vxn": 19.82,
-        "percentile_vs_20d": 10.0
+        "current_vxn": 19.87,
+        "percentile_vs_20d": 5.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 56.25,
+      "score": 57.21,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.957,
-        "change_5d_pct": -0.781
+        "current_yield_pct": 4.951,
+        "change_5d_pct": -0.901
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.34,
+      "score": 42.42,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.6,
-        "change_5d_pct": 0.957
+        "current_dxy": 100.59,
+        "change_5d_pct": 0.947
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.41,
+      "score": 51.93,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.012,
-        "articles_analyzed": 24,
+        "avg_compound": 0.039,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Prediction: Micron Stock Will Go Parabolic After Sept. 30. Here Are 31.6 Trillion Reasons Why",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-21T18:14:25Z",
+            "title": "The Irish Times view on the INTO vote: a sign of things to come",
+            "source": "The Irish Times",
+            "publishedAt": "2026-09-21T18:31:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "WSE Deadline: WSE Investors with Losses in Excess of $100K Have Opportunity to Lead Wise Group plc Securities Fraud Lawsuit Filed by The Rosen Law Firm",
+            "title": "Are PRTH, MG, AEMD Obtaining Fair Deals for their Shareholders?",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-21T18:13:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.077
+            "publishedAt": "2026-09-21T18:30:00Z",
+            "sentiment": "Positive",
+            "compound": 0.318
           },
           {
-            "title": "Kamala Harris steps up midterm campaigning as 2028 ambitions remain in focus",
+            "title": "Rosen Law Firm Encourages The Ensign Group, Inc. Investors to Inquire About Securities Class Action Investigation - ENSG",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-21T18:24:00Z",
+            "sentiment": "Positive",
+            "compound": 0.625
+          },
+          {
+            "title": "Investors upbeat on hawkish Fed fighting inflation but remain wary of crude oil prices and AI risks",
             "source": "The Times of India",
-            "publishedAt": "2026-09-21T18:12:53Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "publishedAt": "2026-09-21T18:23:44Z",
+            "sentiment": "Negative",
+            "compound": -0.857
           },
           {
-            "title": "Fed Data Show Consumers Shift Spending Toward Homes and Vacations",
-            "source": "pymnts.com",
-            "publishedAt": "2026-09-21T18:03:52Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "$1.99 | Invested: How I Learned to Master My Mind, My Fears, and My Money to Achieve Financial Freedom and Live a More Authentic Life (eBook) by Danielle Town, Phil Town",
+            "source": "Slickdeals.net",
+            "publishedAt": "2026-09-21T18:22:17Z",
+            "sentiment": "Positive",
+            "compound": 0.34
           },
           {
-            "title": "Down 53%, Should You Still Buy CoreWeave's (CRWV) Stock?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-21T18:01:35Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "MoSPI explains changes in India's new national accounts methodology",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-21T18:00:13Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Trump 'will lose' case over banning media - Scaramucci",
+            "source": "RTE",
+            "publishedAt": "2026-09-21T18:17:57Z",
+            "sentiment": "Negative",
+            "compound": -0.402
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 58.44,
-  "trade_probability": 55.06,
+  "confirmation_score": 66.02,
+  "trade_probability": 59.61,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
