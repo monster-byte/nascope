@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T16:01:38.846326+00:00",
+  "generated_at": "2026-09-22T16:15:56.426350+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
-      "status": "red",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.0745,
+          "change_pct": -0.0846,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.0243,
+          "change_pct": 0.004,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.0219,
+          "change_pct": -0.0656,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.1176,
-          "up": false
+          "change_pct": 0.0413,
+          "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 84.22,
+      "score": 84.4,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30600.9,
-        "sma50": 29215.86,
-        "sma200": 27279.89
+        "last_price": 30618.84,
+        "sma50": 29216.22,
+        "sma200": 27279.97
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 95.0,
+      "score": 90.0,
       "status": "green",
       "details": {
-        "current_vxn": 19.77,
-        "percentile_vs_20d": 5.0
+        "current_vxn": 19.81,
+        "percentile_vs_20d": 10.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 53.2,
+      "score": 53.52,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.976,
-        "change_5d_pct": -0.4
+        "current_yield_pct": 4.974,
+        "change_5d_pct": -0.44
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.8,
+      "score": 41.65,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.67,
-        "change_5d_pct": 1.026
+        "current_dxy": 100.69,
+        "change_5d_pct": 1.044
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.19,
+      "score": 47.97,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.064,
+        "avg_compound": -0.041,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Micron Walks Into the Biggest Earnings Setup of the AI Memory Cycle",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-21T16:00:53Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Ahead of Market: 10 things that will decide stock market action on Tuesday",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-21T16:00:21Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Trump demands 1% rates because the US has the ‘Best Credit in the World’ — the Fed hiked rates anyway. So who’s right?",
+            "title": "Why Critical Metals Stock Is Rocketing Higher Today",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-21T16:00:09Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "Old Dominion pulls forward 4.9% GRI as LTL carriers accelerate rate hikes",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-21T15:58:54Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Why oil prices are sliding again after their latest $100-a-barrel spike",
-            "source": "Business Insider",
-            "publishedAt": "2026-09-21T15:58:47Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "41 Money Leaks Hiding in Plain Sight Around Your House",
-            "source": "Zacjohnson.com",
-            "publishedAt": "2026-09-21T15:57:38Z",
+            "publishedAt": "2026-09-21T16:15:09Z",
             "sentiment": "Negative",
-            "compound": -0.296
+            "compound": -0.318
+          },
+          {
+            "title": "Why Direxion Daily Semiconductor Bull 3X ETF Just Popped",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-21T16:15:09Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "The AI-flation problem",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-21T16:15:03Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
+          {
+            "title": "Why Meta Platforms Stock Skyrocketed Today",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-21T16:15:01Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Pentair plc (PNR) Investors: Securities Fraud Class Action Filed, Contact Hagens Berman Before October 2, 2026 Lead Plaintiff Deadline",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-21T16:15:00Z",
+            "sentiment": "Negative",
+            "compound": -0.382
+          },
+          {
+            "title": "Nasdaq just put SpaceX stock investors on notice",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-21T16:13:04Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 51.9,
-  "trade_probability": 51.14,
+  "confirmation_score": 57.78,
+  "trade_probability": 54.67,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
