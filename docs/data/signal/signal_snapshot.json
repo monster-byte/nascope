@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T14:01:27.550201+00:00",
+  "generated_at": "2026-09-22T14:15:56.089392+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 100.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.0455,
-          "up": false
+          "change_pct": 0.0619,
+          "up": true
         },
         "MSFT": {
-          "change_pct": 0.006,
+          "change_pct": 0.2357,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.1516,
-          "up": false
+          "change_pct": 0.114,
+          "up": true
         },
         "AMZN": {
-          "change_pct": 0.0505,
+          "change_pct": 0.0078,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 84.5,
+      "score": 84.93,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30628.35,
-        "sma50": 29216.41,
-        "sma200": 27280.02
+        "last_price": 30671.1,
+        "sma50": 29217.26,
+        "sma200": 27280.24
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 75.0,
+      "score": 70.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.14,
-        "percentile_vs_20d": 25.0
+        "current_vxn": 20.2,
+        "percentile_vs_20d": 30.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 57.85,
+      "score": 57.53,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.947,
-        "change_5d_pct": -0.981
+        "current_yield_pct": 4.949,
+        "change_5d_pct": -0.941
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.57,
+      "score": 43.29,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.45,
-        "change_5d_pct": 0.804
+        "current_dxy": 100.49,
+        "change_5d_pct": 0.839
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.45,
+      "score": 55.77,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.129,
+        "avg_compound": 0.115,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Price Prediction: One Bank Sees Netflix at $57. We See Triple That.",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-21T14:00:43Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "At $336 Apple Is Expensive, or Is It?",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-21T14:00:37Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "The 2024 World Economic Forum report that put the space economy on track for $1.8 trillion by 2035 also framed the coming decade as the most transformative the industry has ever seen, with UC San Diego labs already building for the medical and climate applications it forecasts",
-            "source": "Space Daily",
-            "publishedAt": "2026-09-21T14:00:34Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Tech stocks rise, Bitcoin rallied as Treasury yields ease: AlphaCheck",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-21T14:00:11Z",
-            "sentiment": "Positive",
-            "compound": 0.511
-          },
-          {
-            "title": "The functional impact of myofiber macroscopic organization and disarray in computational models of the murine heart",
-            "source": "Plos.org",
-            "publishedAt": "2026-09-21T14:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.637
-          },
-          {
-            "title": "Mental health in academia: A national survey on risk and protective factors in the Indonesian context",
-            "source": "Plos.org",
-            "publishedAt": "2026-09-21T14:00:00Z",
+            "title": "Chicago Fed President Goolsbee rejects calls for Fed rate cuts to ease US debt burden",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-21T14:15:45Z",
             "sentiment": "Negative",
-            "compound": -0.273
+            "compound": -0.807
+          },
+          {
+            "title": "Oura publicly files for initial public offering, looks to raise $2.2 billion",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-21T14:15:01Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Prediction: Micron Stock Will Go Parabolic After Sept. 30. Here Are 31.6 Trillion Reasons Why",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-21T14:14:53Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Apple And Google Hire Crypto Developers",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-21T14:14:35Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Record global debt requires urgent fiscal action, IMF chief says",
+            "source": "Financial Post",
+            "publishedAt": "2026-09-21T14:14:27Z",
+            "sentiment": "Neutral",
+            "compound": -0.178
+          },
+          {
+            "title": "Oklo Climbs 5% as Nuclear Names Bounce Back From Last Week’s Selloff; NuScale Power Gains 4%, Uranium Energy Rises 3%",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-21T14:14:18Z",
+            "sentiment": "Positive",
+            "compound": 0.542
           }
         ]
       }
@@ -146,11 +146,11 @@
       }
     }
   },
-  "confirmation_score": 57.97,
-  "trade_probability": 54.78,
+  "confirmation_score": 70.95,
+  "trade_probability": 62.57,
   "market_regime": "BULLISH",
   "final_decision": {
-    "ai_status": "HOLD / MONITOR",
-    "directional_bias": "NEUTRAL"
+    "ai_status": "APPROVED",
+    "directional_bias": "LONG"
   }
 }
