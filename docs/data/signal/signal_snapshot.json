@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T14:45:51.856401+00:00",
+  "generated_at": "2026-09-22T15:01:35.410869+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
-      "status": "green",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.022,
+          "change_pct": 0.019,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.0438,
+          "change_pct": 0.0352,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.0461,
+          "change_pct": -0.0329,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.0132,
-          "up": true
+          "change_pct": -0.0936,
+          "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 84.33,
+      "score": 84.4,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30611.47,
-        "sma50": 29216.07,
-        "sma200": 27279.94
+        "last_price": 30618.95,
+        "sma50": 29216.22,
+        "sma200": 27279.98
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 85.0,
+      "score": 90.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.01,
-        "percentile_vs_20d": 15.0
+        "current_vxn": 19.93,
+        "percentile_vs_20d": 10.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 57.21,
+      "score": 55.92,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.951,
-        "change_5d_pct": -0.901
+        "current_yield_pct": 4.959,
+        "change_5d_pct": -0.741
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.94,
+      "score": 42.61,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.53,
-        "change_5d_pct": 0.882
+        "current_dxy": 100.57,
+        "change_5d_pct": 0.924
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.07,
+      "score": 54.25,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.061,
+        "avg_compound": 0.085,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "New Era Energy & Digital jumps 30% after signing 20-year power deal with Vistra",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-21T14:45:41Z",
+            "title": "Super Micro Computer Looks Very Intriguing Right Now",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-21T15:00:40Z",
             "sentiment": "Positive",
-            "compound": 0.273
+            "compound": 0.599
           },
           {
-            "title": "New Era jumps 30% after signing 207 MW Vistra PPA",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-21T14:45:04Z",
+            "title": "If You Invest $500 a Month in Apple Starting Now, This is What You’d Have in 2030",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-21T15:00:39Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Nvidia vs. Eli Lilly: I’d Choose This Stock for the Next Decade",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-21T14:42:20Z",
+            "title": "I Understand Meta’s Problems But I’m Going to Keep On Accumulating For One Reason",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-21T15:00:38Z",
+            "sentiment": "Negative",
+            "compound": -0.214
+          },
+          {
+            "title": "IDC External Storage Tracker: $10.3 Billion in Q2 2026 as Server Market Tops $166 Billion on AI Demand",
+            "source": "Storagereview.com",
+            "publishedAt": "2026-09-21T15:00:25Z",
+            "sentiment": "Positive",
+            "compound": 0.421
+          },
+          {
+            "title": "PRTH SHAREHOLDER ALERT: Ademi LLP Investigates Whether Buyout Fairly Values Priority Technology Holdings, Inc.",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-21T15:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.684
+          },
+          {
+            "title": "財政ポピュリズムと金融政策ルール",
+            "source": "Hatenablog.com",
+            "publishedAt": "2026-09-21T14:59:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "GST 2.0 softens inflation blow as FMCG firms gear up for festive season",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-21T14:40:33Z",
-            "sentiment": "Positive",
-            "compound": 0.459
-          },
-          {
-            "title": "GST 2.0 softens inflation blow as FMCG firms gear up for festive season",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-21T14:40:31Z",
-            "sentiment": "Positive",
-            "compound": 0.459
-          },
-          {
-            "title": "GST 2.0 softens inflation blow as FMCG firms gear up for festive season",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-21T14:40:11Z",
-            "sentiment": "Positive",
-            "compound": 0.459
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 65.15,
-  "trade_probability": 59.09,
+  "confirmation_score": 58.76,
+  "trade_probability": 55.26,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
