@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T15:45:50.640245+00:00",
+  "generated_at": "2026-09-22T16:01:38.846326+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.1254,
-          "up": true
+          "change_pct": -0.0745,
+          "up": false
         },
         "MSFT": {
-          "change_pct": 0.004,
+          "change_pct": 0.0243,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.0207,
+          "change_pct": -0.0219,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.0412,
+          "change_pct": -0.1176,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 84.25,
+      "score": 84.22,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30603.62,
-        "sma50": 29215.92,
-        "sma200": 27279.9
+        "last_price": 30600.9,
+        "sma50": 29215.86,
+        "sma200": 27279.89
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 90.0,
+      "score": 95.0,
       "status": "green",
       "details": {
-        "current_vxn": 19.8,
-        "percentile_vs_20d": 10.0
+        "current_vxn": 19.77,
+        "percentile_vs_20d": 5.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 54.96,
+      "score": 53.2,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.965,
-        "change_5d_pct": -0.62
+        "current_yield_pct": 4.976,
+        "change_5d_pct": -0.4
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.12,
+      "score": 41.8,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.63,
-        "change_5d_pct": 0.985
+        "current_dxy": 100.67,
+        "change_5d_pct": 1.026
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.65,
+      "score": 53.19,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.033,
+        "avg_compound": 0.064,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Bitcoin Is Rallying Again—What Happens Next?",
-            "source": "Decrypt",
-            "publishedAt": "2026-09-21T15:45:35Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "2 Financial Stocks to Buy That Pay a Dividend Every Month",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-21T15:44:58Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
-          },
-          {
-            "title": "Why AMD Stock Is Rising Fast Today",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-21T15:44:51Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Macklemore, Sheeran, Kraft",
-            "source": "Artsjournal.com",
-            "publishedAt": "2026-09-21T15:43:03Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Europe closes higher as investors track US stocks",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-21T15:42:52Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "U.S. Oil Imports From Venezuela Just Exploded to a 9-Year High — Chevron Could Be the Biggest Winner",
+            "title": "Micron Walks Into the Biggest Earnings Setup of the AI Memory Cycle",
             "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-21T15:40:41Z",
+            "publishedAt": "2026-09-21T16:00:53Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Ahead of Market: 10 things that will decide stock market action on Tuesday",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-21T16:00:21Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Trump demands 1% rates because the US has the ‘Best Credit in the World’ — the Fed hiked rates anyway. So who’s right?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-21T16:00:09Z",
             "sentiment": "Positive",
-            "compound": 0.586
+            "compound": 0.382
+          },
+          {
+            "title": "Old Dominion pulls forward 4.9% GRI as LTL carriers accelerate rate hikes",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-21T15:58:54Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Why oil prices are sliding again after their latest $100-a-barrel spike",
+            "source": "Business Insider",
+            "publishedAt": "2026-09-21T15:58:47Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "41 Money Leaks Hiding in Plain Sight Around Your House",
+            "source": "Zacjohnson.com",
+            "publishedAt": "2026-09-21T15:57:38Z",
+            "sentiment": "Negative",
+            "compound": -0.296
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 58.33,
-  "trade_probability": 55.0,
+  "confirmation_score": 51.9,
+  "trade_probability": 51.14,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
