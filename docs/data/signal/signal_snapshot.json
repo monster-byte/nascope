@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T15:01:35.410869+00:00",
+  "generated_at": "2026-09-22T15:15:52.268958+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.019,
+          "change_pct": 0.0859,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.0352,
+          "change_pct": 0.0283,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.0329,
+          "change_pct": -0.0415,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.0936,
-          "up": false
+          "change_pct": 0.0097,
+          "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 84.4,
+      "score": 84.56,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30618.95,
-        "sma50": 29216.22,
-        "sma200": 27279.98
+        "last_price": 30634.57,
+        "sma50": 29216.53,
+        "sma200": 27280.05
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 90.0,
+      "score": 80.0,
       "status": "green",
       "details": {
-        "current_vxn": 19.93,
-        "percentile_vs_20d": 10.0
+        "current_vxn": 19.99,
+        "percentile_vs_20d": 20.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 55.92,
+      "score": 56.57,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.959,
-        "change_5d_pct": -0.741
+        "current_yield_pct": 4.955,
+        "change_5d_pct": -0.821
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.61,
+      "score": 42.4,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.57,
-        "change_5d_pct": 0.924
+        "current_dxy": 100.6,
+        "change_5d_pct": 0.95
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.25,
+      "score": 52.41,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.085,
+        "avg_compound": 0.048,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Super Micro Computer Looks Very Intriguing Right Now",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-21T15:00:40Z",
-            "sentiment": "Positive",
-            "compound": 0.599
-          },
-          {
-            "title": "If You Invest $500 a Month in Apple Starting Now, This is What You’d Have in 2030",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-21T15:00:39Z",
+            "title": "Why Micron Stock Popped This Morning",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-21T15:15:31Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "I Understand Meta’s Problems But I’m Going to Keep On Accumulating For One Reason",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-21T15:00:38Z",
+            "title": "History Says You Should Know These 3 Things Before Buying the Vanguard S&P 500 ETF (VOO) in September",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-21T15:14:53Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Federal Reserve official says fighting inflation likely to be 'painful'",
+            "source": "Abcnews.com",
+            "publishedAt": "2026-09-21T15:14:29Z",
             "sentiment": "Negative",
-            "compound": -0.214
+            "compound": -0.66
           },
           {
-            "title": "IDC External Storage Tracker: $10.3 Billion in Q2 2026 as Server Market Tops $166 Billion on AI Demand",
-            "source": "Storagereview.com",
-            "publishedAt": "2026-09-21T15:00:25Z",
+            "title": "Bank of Canada warns Q4 growth could be halved by US tariffs",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-21T15:14:08Z",
             "sentiment": "Positive",
-            "compound": 0.421
+            "compound": 0.296
           },
           {
-            "title": "PRTH SHAREHOLDER ALERT: Ademi LLP Investigates Whether Buyout Fairly Values Priority Technology Holdings, Inc.",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-21T15:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.684
-          },
-          {
-            "title": "財政ポピュリズムと金融政策ルール",
-            "source": "Hatenablog.com",
-            "publishedAt": "2026-09-21T14:59:00Z",
+            "title": "Why is Bitcoin up today? BTC price surges above $85,000 in biggest move since January as $648 million shorts unwind, Ethereum and XRP rally",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-21T15:13:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "ARDX Investors Have Opportunity to Lead Ardelyx, Inc. Securities Fraud Lawsuit",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-21T15:12:00Z",
+            "sentiment": "Neutral",
+            "compound": -0.178
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 58.76,
-  "trade_probability": 55.26,
+  "confirmation_score": 64.54,
+  "trade_probability": 58.72,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
