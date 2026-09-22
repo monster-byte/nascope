@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T13:15:58.482480+00:00",
+  "generated_at": "2026-09-22T13:31:18.788102+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,36 +13,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.1282,
-          "up": false
+          "change_pct": 1.1228,
+          "up": true
         },
         "MSFT": {
-          "change_pct": 0.1637,
+          "change_pct": 0.7615,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.0881,
+          "change_pct": 0.462,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.031,
+          "change_pct": -1.482,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 83.29,
+      "score": 83.52,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30482.35,
-        "sma50": 29189.12,
-        "sma200": 27254.91
+        "last_price": 30531.08,
+        "sma50": 29214.46,
+        "sma200": 27279.54
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 58.49,
+      "score": 60.09,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.943,
-        "change_5d_pct": -1.061
+        "current_yield_pct": 4.933,
+        "change_5d_pct": -1.261
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.54,
+      "score": 43.58,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.46,
-        "change_5d_pct": 0.808
+        "current_dxy": 100.45,
+        "change_5d_pct": 0.803
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.29,
+      "score": 54.78,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.046,
+        "avg_compound": 0.096,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "The resilient stock market is flashing warning signs",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-21T13:15:25Z",
-            "sentiment": "Negative",
-            "compound": -0.34
-          },
-          {
-            "title": "History Says This 1 Bear Market Move Is the Costliest Mistake Investors Can Make",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-21T13:15:19Z",
-            "sentiment": "Negative",
-            "compound": -0.34
-          },
-          {
-            "title": "Lion Group Holding Ltd. Reaffirms Long-Term Commitment to Hyperliquid (HYPE) Holdings",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-21T13:15:00Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "Q32 Bio Announces Upcoming Late-Breaking Presentation of Results from Part B of the SIGNAL-AA Clinical Trial of Bempikibart in Alopecia Areata at the European Academy of Dermatology and Venereology Congress 2026",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-21T13:15:00Z",
+            "title": "Oura targets $15.62 billion valuation in US IPO, setting stage for fall listings",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-21T13:31:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Our top 10 things to watch in the stock market Monday",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-21T13:11:45Z",
+            "title": "Markets can handle a hawkish Fed, but not uncertainty",
+            "source": "Financial Post",
+            "publishedAt": "2026-09-21T13:29:42Z",
             "sentiment": "Positive",
-            "compound": 0.202
+            "compound": 0.372
           },
           {
-            "title": "Azure, AI Capex, and What to Expect Out of Microsoft Through The End of 2026",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-21T13:10:51Z",
+            "title": "Bitcoin Is Back Above $85,000. Why Is BTC Rallying Despite the Fed and CLARITY Act?",
+            "source": "Bitcoinfoundation.org",
+            "publishedAt": "2026-09-21T13:28:36Z",
+            "sentiment": "Positive",
+            "compound": 0.532
+          },
+          {
+            "title": "Tech stocks haven't been this cheap since OpenAI launched ChatGPT",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-21T13:28:00Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": 0.128
+          },
+          {
+            "title": "Record diesel prices hit transport stocks, threaten U.S. inflation",
+            "source": "Quartz India",
+            "publishedAt": "2026-09-21T13:27:12Z",
+            "sentiment": "Negative",
+            "compound": -0.382
+          },
+          {
+            "title": "Fed Rate Hike Fails to Lift Bank Stocks as Market Reprices the Rally",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-21T13:26:55Z",
+            "sentiment": "Negative",
+            "compound": -0.421
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.16,
-  "trade_probability": 53.7,
+  "confirmation_score": 63.39,
+  "trade_probability": 58.03,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
