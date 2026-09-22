@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T18:31:11.946674+00:00",
+  "generated_at": "2026-09-22T18:45:52.117455+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,36 +13,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
+      "score": 100.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.011,
+          "change_pct": 0.0118,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.0643,
+          "change_pct": 0.0266,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.0,
-          "up": false
+          "change_pct": 0.017,
+          "up": true
         },
         "AMZN": {
-          "change_pct": 0.0431,
+          "change_pct": 0.0216,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 85.2,
+      "score": 85.14,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30698.09,
-        "sma50": 29217.8,
-        "sma200": 27280.37
+        "last_price": 30692.21,
+        "sma50": 29217.69,
+        "sma200": 27280.34
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 95.0,
       "status": "green",
       "details": {
-        "current_vxn": 19.87,
+        "current_vxn": 19.92,
         "percentile_vs_20d": 5.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 57.21,
+      "score": 55.28,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.951,
-        "change_5d_pct": -0.901
+        "current_yield_pct": 4.963,
+        "change_5d_pct": -0.661
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.42,
+      "score": 42.3,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.59,
-        "change_5d_pct": 0.947
+        "current_dxy": 100.61,
+        "change_5d_pct": 0.962
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.93,
+      "score": 50.24,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.039,
+        "avg_compound": 0.005,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Intel surges 12% as CPU stocks rally. Here's what's driving the move",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-21T18:43:55Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "SB Energy delays IPO amid investor skepticism over valuation",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-21T18:43:01Z",
+            "sentiment": "Neutral",
+            "compound": 0.026
+          },
+          {
+            "title": "Coping with the jump in home heating costs",
+            "source": "Omny.fm",
+            "publishedAt": "2026-09-21T18:42:51Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Central bank may bring clarity on Tata Sons listing amid recast talk",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-21T18:35:56Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "The Hidden Chessboard & US Sovereignty: Trade wars, proxy wars, and inflation are all hitting at once. Some say it's no accident, and American sovereignty is what's on the table. Globalism vs Nationalism, the American System vs the British System",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-09-21T18:31:51Z",
+            "sentiment": "Negative",
+            "compound": -0.685
+          },
           {
             "title": "The Irish Times view on the INTO vote: a sign of things to come",
             "source": "The Irish Times",
             "publishedAt": "2026-09-21T18:31:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Are PRTH, MG, AEMD Obtaining Fair Deals for their Shareholders?",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-21T18:30:00Z",
-            "sentiment": "Positive",
-            "compound": 0.318
-          },
-          {
-            "title": "Rosen Law Firm Encourages The Ensign Group, Inc. Investors to Inquire About Securities Class Action Investigation - ENSG",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-21T18:24:00Z",
-            "sentiment": "Positive",
-            "compound": 0.625
-          },
-          {
-            "title": "Investors upbeat on hawkish Fed fighting inflation but remain wary of crude oil prices and AI risks",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-21T18:23:44Z",
-            "sentiment": "Negative",
-            "compound": -0.857
-          },
-          {
-            "title": "$1.99 | Invested: How I Learned to Master My Mind, My Fears, and My Money to Achieve Financial Freedom and Live a More Authentic Life (eBook) by Danielle Town, Phil Town",
-            "source": "Slickdeals.net",
-            "publishedAt": "2026-09-21T18:22:17Z",
-            "sentiment": "Positive",
-            "compound": 0.34
-          },
-          {
-            "title": "Trump 'will lose' case over banning media - Scaramucci",
-            "source": "RTE",
-            "publishedAt": "2026-09-21T18:17:57Z",
-            "sentiment": "Negative",
-            "compound": -0.402
           }
         ]
       }
@@ -146,11 +146,11 @@
       }
     }
   },
-  "confirmation_score": 66.02,
-  "trade_probability": 59.61,
+  "confirmation_score": 72.34,
+  "trade_probability": 63.4,
   "market_regime": "BULLISH",
   "final_decision": {
-    "ai_status": "HOLD / MONITOR",
-    "directional_bias": "NEUTRAL"
+    "ai_status": "APPROVED",
+    "directional_bias": "LONG"
   }
 }
