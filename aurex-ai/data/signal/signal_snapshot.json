@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T17:31:11.916757+00:00",
+  "generated_at": "2026-09-22T17:33:05.247855+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,19 +13,19 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
+      "score": 0.0,
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.0234,
+          "change_pct": -0.06,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.002,
-          "up": true
+          "change_pct": -0.1409,
+          "up": false
         },
         "NVDA": {
-          "change_pct": -0.0153,
+          "change_pct": -0.0915,
           "up": false
         },
         "AMZN": {
@@ -36,22 +36,22 @@
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 84.7,
+      "score": 84.61,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30648.78,
-        "sma50": 29216.82,
-        "sma200": 27280.12
+        "last_price": 30639.28,
+        "sma50": 29216.63,
+        "sma200": 27280.08
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 90.0,
+      "score": 95.0,
       "status": "green",
       "details": {
-        "current_vxn": 19.93,
-        "percentile_vs_20d": 10.0
+        "current_vxn": 19.92,
+        "percentile_vs_20d": 5.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.74,
+      "score": 41.67,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.68,
-        "change_5d_pct": 1.033
+        "current_dxy": 100.69,
+        "change_5d_pct": 1.042
       }
     },
     "macro": {
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 51.57,
-  "trade_probability": 50.94,
+  "confirmation_score": 45.25,
+  "trade_probability": 47.15,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
