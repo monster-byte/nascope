@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T14:15:56.089392+00:00",
+  "generated_at": "2026-09-22T14:31:16.062298+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,45 +13,45 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 100.0,
-      "status": "green",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.0619,
-          "up": true
+          "change_pct": -0.0603,
+          "up": false
         },
         "MSFT": {
-          "change_pct": 0.2357,
-          "up": true
+          "change_pct": -0.0804,
+          "up": false
         },
         "NVDA": {
-          "change_pct": 0.114,
+          "change_pct": 0.0038,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.0078,
+          "change_pct": 0.0234,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 84.93,
+      "score": 84.84,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30671.1,
-        "sma50": 29217.26,
-        "sma200": 27280.24
+        "last_price": 30662.0,
+        "sma50": 29217.08,
+        "sma200": 27280.19
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 70.0,
+      "score": 80.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.2,
-        "percentile_vs_20d": 30.0
+        "current_vxn": 20.09,
+        "percentile_vs_20d": 20.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.29,
+      "score": 42.99,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.49,
-        "change_5d_pct": 0.839
+        "current_dxy": 100.52,
+        "change_5d_pct": 0.876
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.77,
+      "score": 54.85,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.115,
+        "avg_compound": 0.097,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Chicago Fed President Goolsbee rejects calls for Fed rate cuts to ease US debt burden",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-21T14:15:45Z",
-            "sentiment": "Negative",
-            "compound": -0.807
-          },
-          {
-            "title": "Oura publicly files for initial public offering, looks to raise $2.2 billion",
+            "title": "Tech stocks rise, Bitcoin rallies as Treasury yields ease: AlphaCheck",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-21T14:15:01Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Prediction: Micron Stock Will Go Parabolic After Sept. 30. Here Are 31.6 Trillion Reasons Why",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-21T14:14:53Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Apple And Google Hire Crypto Developers",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-21T14:14:35Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Record global debt requires urgent fiscal action, IMF chief says",
-            "source": "Financial Post",
-            "publishedAt": "2026-09-21T14:14:27Z",
-            "sentiment": "Neutral",
-            "compound": -0.178
-          },
-          {
-            "title": "Oklo Climbs 5% as Nuclear Names Bounce Back From Last Week’s Selloff; NuScale Power Gains 4%, Uranium Energy Rises 3%",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-21T14:14:18Z",
+            "publishedAt": "2026-09-21T14:30:16Z",
             "sentiment": "Positive",
-            "compound": 0.542
+            "compound": 0.511
+          },
+          {
+            "title": "Nvidia vs. Eli Lilly: I’d Choose This Stock for the Next Decade",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-21T14:30:10Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Wholesale Gas Prices Are Reaching Consumers Faster, ECB Says",
+            "source": "OilPrice.com",
+            "publishedAt": "2026-09-21T14:30:00Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "Super Micro Rises 6% as AI Server Bid Concentrates in One Name; Dell and Hewlett Packard Enterprise Tick Up",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-21T14:28:52Z",
+            "sentiment": "Positive",
+            "compound": 0.599
+          },
+          {
+            "title": "Rivian’s Remarkable Three Month Stock Collapse",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-21T14:27:16Z",
+            "sentiment": "Neutral",
+            "compound": 0.103
+          },
+          {
+            "title": "New Era jumps 30% after signing 207 MW Vistra PPA",
+            "source": "Blockspace.media",
+            "publishedAt": "2026-09-21T14:27:04Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
@@ -146,11 +146,11 @@
       }
     }
   },
-  "confirmation_score": 70.95,
-  "trade_probability": 62.57,
+  "confirmation_score": 58.23,
+  "trade_probability": 54.94,
   "market_regime": "BULLISH",
   "final_decision": {
-    "ai_status": "APPROVED",
-    "directional_bias": "LONG"
+    "ai_status": "HOLD / MONITOR",
+    "directional_bias": "NEUTRAL"
   }
 }
