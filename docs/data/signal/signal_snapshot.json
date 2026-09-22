@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T19:15:54.423609+00:00",
+  "generated_at": "2026-09-22T19:31:10.011296+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,45 +13,45 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
-      "status": "red",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.0382,
-          "up": false
-        },
-        "MSFT": {
-          "change_pct": -0.0237,
-          "up": false
-        },
-        "NVDA": {
-          "change_pct": 0.0392,
+          "change_pct": 0.05,
           "up": true
         },
-        "AMZN": {
-          "change_pct": -0.0529,
+        "MSFT": {
+          "change_pct": 0.0305,
+          "up": true
+        },
+        "NVDA": {
+          "change_pct": -0.0538,
           "up": false
+        },
+        "AMZN": {
+          "change_pct": 0.0684,
+          "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 85.28,
+      "score": 85.49,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30706.57,
-        "sma50": 29217.97,
-        "sma200": 27280.41
+        "last_price": 30726.68,
+        "sma50": 29218.38,
+        "sma200": 27280.51
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 90.0,
+      "score": 95.0,
       "status": "green",
       "details": {
-        "current_vxn": 19.89,
-        "percentile_vs_20d": 10.0
+        "current_vxn": 19.84,
+        "percentile_vs_20d": 5.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.38,
+      "score": 42.49,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.6,
-        "change_5d_pct": 0.952
+        "current_dxy": 100.59,
+        "change_5d_pct": 0.939
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.29,
+      "score": 46.93,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.034,
+        "avg_compound": -0.061,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "LINC Investors Have Opportunity to Lead Lincoln Educational Services Corporation Securities Fraud Lawsuit",
+            "title": "Nvidia buys $2B in SB Energy shares ahead of US IPO",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-21T19:29:13Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
+          {
+            "title": "ALAR Stockholder Reminder - Investors with Significant Losses in Alarum Technologies Ltd. Should Contact Robbins LLP for Information on Recovering Their Losses Before the October 5, 2026 Lead Plaintiff Deadline",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-21T19:14:00Z",
+            "publishedAt": "2026-09-21T19:27:00Z",
+            "sentiment": "Negative",
+            "compound": -0.557
+          },
+          {
+            "title": "Coinbase Brings IPO Shares to US Retail Traders, With Oura Up First",
+            "source": "Decrypt",
+            "publishedAt": "2026-09-21T19:26:49Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "INV Investors Have Opportunity to Lead Innventure, Inc. Securities Fraud Lawsuit",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-21T19:25:00Z",
             "sentiment": "Neutral",
             "compound": -0.178
           },
           {
-            "title": "Fed official says inflation fight will likely be ‘painful’",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-21T19:13:39Z",
-            "sentiment": "Negative",
-            "compound": -0.382
-          },
-          {
-            "title": "ARDX Stockholder Notice: Shareholder Rights Law Firm Robbins LLP Reminds Investors of the Class Action Lawsuit Against Ardelyx, Inc.",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-21T19:13:00Z",
-            "sentiment": "Negative",
-            "compound": -0.226
-          },
-          {
-            "title": "PHH, BYAH Deadline: PHH, BYAH Investors with Losses in Excess of $100K Have Opportunity to Lead Park Ha Biological Technology Co., Ltd. Securities Lawsuit",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-21T19:13:00Z",
-            "sentiment": "Positive",
-            "compound": 0.421
-          },
-          {
-            "title": "Trump’s approval rating hits record low amid Iran war, economy fallout",
-            "source": "Al Jazeera English",
-            "publishedAt": "2026-09-21T19:10:52Z",
-            "sentiment": "Negative",
-            "compound": -0.44
-          },
-          {
-            "title": "Why this investment bank expects little demand for tokenized stocks despite SEC’s new trading rules",
-            "source": "CoinDesk",
-            "publishedAt": "2026-09-21T19:08:40Z",
+            "title": "How Much A Set Of New Tires Cost In The 1960s",
+            "source": "SlashGear",
+            "publishedAt": "2026-09-21T19:23:45Z",
             "sentiment": "Neutral",
-            "compound": -0.053
+            "compound": 0.0
+          },
+          {
+            "title": "SPRY Stockholders with Large Losses Should Contact Robbins LLP About Leading the ARS Pharmaceuticals Inc. Class Action Before the October 5, 2026 Deadline",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-21T19:23:00Z",
+            "sentiment": "Negative",
+            "compound": -0.402
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 51.38,
-  "trade_probability": 50.83,
+  "confirmation_score": 65.24,
+  "trade_probability": 59.14,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
