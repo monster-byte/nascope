@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T13:15:54.596192+00:00",
+  "generated_at": "2026-09-23T13:31:08.447596+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,36 +13,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
-      "status": "red",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.0474,
+          "change_pct": -0.015,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.5175,
-          "up": false
+          "change_pct": 0.0859,
+          "up": true
         },
         "NVDA": {
-          "change_pct": 0.1181,
+          "change_pct": 0.0119,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.2231,
+          "change_pct": -1.3154,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 84.95,
+      "status": "green",
       "details": {
-        "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": NaN,
-        "sma50": NaN,
-        "sma200": NaN
+        "regime": "BULLISH",
+        "last_price": 30673.65,
+        "sma50": 29217.32,
+        "sma200": 27280.25
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 50.64,
+      "score": 51.28,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.992,
-        "change_5d_pct": -0.08
+        "current_yield_pct": 4.988,
+        "change_5d_pct": -0.16
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 39.92,
+      "score": 39.65,
       "status": "red",
       "details": {
-        "current_dxy": 100.9,
-        "change_5d_pct": 1.259
+        "current_dxy": 100.94,
+        "change_5d_pct": 1.294
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 59.55,
+      "score": 58.96,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.191,
+        "avg_compound": 0.179,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Sensex, Nifty snap winning streak despite easing crude as IT, financials drag",
-            "source": "BusinessLine",
-            "publishedAt": "2026-09-22T13:14:26Z",
+            "title": "Goldman Sachs says 'lower happiness' — not the economy — explains why consumer confidence hit its second-lowest level",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-22T13:30:00Z",
             "sentiment": "Positive",
-            "compound": 0.755
+            "compound": 0.691
           },
           {
-            "title": "Central Bank of Nigeria cuts interest rates by 350 basis points to 23%",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-22T13:12:53Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "Our top 10 things to watch in the stock market Tuesday",
+            "title": "Santoli: The S&P 500 is within striking distance of record as bull relies on familiar leadership",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-22T13:12:40Z",
-            "sentiment": "Positive",
-            "compound": 0.202
+            "publishedAt": "2026-09-22T13:27:54Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
             "title": "5 Beaten-Down Dividend Kings Ready to Roar Back in 2027 (One Yields Over 5%)",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-22T13:12:16Z",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-22T13:27:27Z",
             "sentiment": "Positive",
             "compound": 0.361
           },
           {
-            "title": "Self-Storage Could Be Entering a New Growth Cycle — Baron Capital Re-Initiated Public Storage (PSA)",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-22T13:11:01Z",
+            "title": "Brand Engagement Network Secures $1.05 Million Private Placement at a Premium to Market",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-22T13:27:00Z",
             "sentiment": "Positive",
-            "compound": 0.382
+            "compound": 0.649
           },
           {
-            "title": "From $2 billion to $112 billion in annual profit: How Apple transformed its business",
-            "source": "Fortune",
-            "publishedAt": "2026-09-22T13:09:29Z",
-            "sentiment": "Positive",
-            "compound": 0.44
+            "title": "Archer-Daniels Midland Vs. Bunge: These Two U.S. Agribusinesses Soar If the Trump-Xi Summit Yields Concessions",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-22T13:22:12Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Santoli: The S&P 500 is within striking distance of record as bull relies on familiar leadership",
+            "source": "CNBC",
+            "publishedAt": "2026-09-22T13:21:55Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
@@ -146,9 +146,9 @@
       }
     }
   },
-  "confirmation_score": 46.89,
-  "trade_probability": 48.13,
-  "market_regime": "NEUTRAL / TRANSITIONAL",
+  "confirmation_score": 58.37,
+  "trade_probability": 55.02,
+  "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
     "directional_bias": "NEUTRAL"
