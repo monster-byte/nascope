@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T17:31:11.651088+00:00",
+  "generated_at": "2026-09-23T17:46:27.166317+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.8747,
+          "change_pct": -0.7128,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.2483,
+          "change_pct": -0.1579,
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.8332,
+          "change_pct": -1.4176,
           "up": false
         },
         "AMZN": {
-          "change_pct": -2.9751,
+          "change_pct": -2.6287,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 82.03,
+      "score": 82.84,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30383.05,
-        "sma50": 29211.5,
-        "sma200": 27278.8
+        "last_price": 30463.18,
+        "sma50": 29213.11,
+        "sma200": 27279.2
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 60.0,
+      "score": 55.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 20.69,
-        "percentile_vs_20d": 40.0
+        "current_vxn": 20.74,
+        "percentile_vs_20d": 45.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 28.7,
+      "score": 29.34,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.129,
-        "change_5d_pct": 2.662
+        "current_yield_pct": 5.125,
+        "change_5d_pct": 2.582
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 37.56,
+      "score": 37.58,
       "status": "red",
       "details": {
         "current_dxy": 101.2,
-        "change_5d_pct": 1.554
+        "change_5d_pct": 1.552
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.26,
+      "score": 53.69,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.035,
+        "avg_compound": 0.074,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Dow Jones Tech Titan Amazon Eyes Buy Point Amid Battle With Key Support Level",
-            "source": "Investor's Business Daily",
-            "publishedAt": "2026-09-22T17:26:43Z",
+            "title": "No, Banning Diesel Exports Won't Lower Gas Prices",
+            "source": "Reason",
+            "publishedAt": "2026-09-22T17:45:02Z",
             "sentiment": "Positive",
-            "compound": 0.202
+            "compound": 0.224
           },
           {
-            "title": "The Nasdaq Set a Record and the Dow Lost 270 Points on the Same Morning",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-22T17:26:37Z",
-            "sentiment": "Negative",
-            "compound": -0.318
-          },
-          {
-            "title": "Wise Group plc (WSE) Shareholders Who Lost Money Have Opportunity to Lead Securities Fraud Lawsuit",
+            "title": "Revenue Optics Names Prat Patibandla Director of Growth Marketing",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-22T17:25:00Z",
+            "publishedAt": "2026-09-22T17:45:00Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "No new stock highs, no problem: Options traders bet they're coming in these names",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-22T17:43:44Z",
             "sentiment": "Neutral",
-            "compound": 0.026
+            "compound": 0.015
           },
           {
-            "title": "Donald Trump at U.N.: Stopping Iran Regime from Sponsoring Terror and Getting Nuclear Weapons 'a Reality We Had to Confront'",
-            "source": "Breitbart News",
-            "publishedAt": "2026-09-22T17:24:40Z",
+            "title": "Trump administration to remove 760,000 ACA enrollees over fraud claims",
+            "source": "WSB Radio",
+            "publishedAt": "2026-09-22T17:42:52Z",
             "sentiment": "Negative",
-            "compound": -0.823
+            "compound": -0.586
           },
           {
-            "title": "Anthropic’s cheaper Opus arrives weeks before its IPO",
-            "source": "The Next Web",
-            "publishedAt": "2026-09-22T17:24:01Z",
+            "title": "“The State of Working Wisconsin, 2026”",
+            "source": "Econbrowser.com",
+            "publishedAt": "2026-09-22T17:42:12Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "No new stock highs, no problem: Options traders bet they're coming in these names",
-            "source": "CNBC",
-            "publishedAt": "2026-09-22T17:22:27Z",
+            "title": "Federal Reserve Chair Treats Inflation With Quack ‘Cure’",
+            "source": "Daily Signal",
+            "publishedAt": "2026-09-22T17:37:26Z",
             "sentiment": "Neutral",
-            "compound": 0.015
+            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 37.57,
-  "trade_probability": 42.54,
+  "confirmation_score": 37.81,
+  "trade_probability": 42.69,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
