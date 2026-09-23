@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T17:46:27.166317+00:00",
+  "generated_at": "2026-09-23T18:01:30.501121+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.7128,
+          "change_pct": -0.6843,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.1579,
+          "change_pct": -0.1638,
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.4176,
+          "change_pct": -1.4,
           "up": false
         },
         "AMZN": {
-          "change_pct": -2.6287,
+          "change_pct": -2.4467,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 82.84,
+      "score": 82.93,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30463.18,
-        "sma50": 29213.11,
-        "sma200": 27279.2
+        "last_price": 30472.39,
+        "sma50": 29213.29,
+        "sma200": 27279.24
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 55.0,
+      "score": 60.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 20.74,
-        "percentile_vs_20d": 45.0
+        "current_vxn": 20.5,
+        "percentile_vs_20d": 40.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 29.34,
+      "score": 30.78,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.125,
-        "change_5d_pct": 2.582
+        "current_yield_pct": 5.116,
+        "change_5d_pct": 2.402
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 37.58,
+      "score": 38.66,
       "status": "red",
       "details": {
-        "current_dxy": 101.2,
-        "change_5d_pct": 1.552
+        "current_dxy": 101.06,
+        "change_5d_pct": 1.417
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.69,
+      "score": 56.27,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.074,
+        "avg_compound": 0.125,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "No, Banning Diesel Exports Won't Lower Gas Prices",
-            "source": "Reason",
-            "publishedAt": "2026-09-22T17:45:02Z",
-            "sentiment": "Positive",
-            "compound": 0.224
-          },
-          {
-            "title": "Revenue Optics Names Prat Patibandla Director of Growth Marketing",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-22T17:45:00Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "No new stock highs, no problem: Options traders bet they're coming in these names",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-22T17:43:44Z",
+            "title": "Trump says U.S.-Iran ties are 'developing' as Tehran offers path to reopen Hormuz",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-22T18:00:04Z",
             "sentiment": "Neutral",
-            "compound": 0.015
+            "compound": 0.0
           },
           {
-            "title": "Trump administration to remove 760,000 ACA enrollees over fraud claims",
-            "source": "WSB Radio",
-            "publishedAt": "2026-09-22T17:42:52Z",
+            "title": "Inside Economics: If the economy still sucks, why is the RBNZ hiking rates?",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-09-22T18:00:00Z",
             "sentiment": "Negative",
-            "compound": -0.586
+            "compound": -0.361
           },
           {
-            "title": "“The State of Working Wisconsin, 2026”",
-            "source": "Econbrowser.com",
-            "publishedAt": "2026-09-22T17:42:12Z",
+            "title": "This 2X ETF Was Made for Higher Interest Rates. Should You Buy Before the Next Fed Hike?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-22T17:58:58Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "Physicians’ ‘health-xiety’ is on the rise — but their trust with patients hasn’t wavered",
+            "source": "Swns.live",
+            "publishedAt": "2026-09-22T17:57:19Z",
+            "sentiment": "Positive",
+            "compound": 0.665
+          },
+          {
+            "title": "Avalanche activates Helicon upgrade, enhancing staking and execution",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-22T17:55:56Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Federal Reserve Chair Treats Inflation With Quack ‘Cure’",
-            "source": "Daily Signal",
-            "publishedAt": "2026-09-22T17:37:26Z",
+            "title": "These are the stock market's winners and losers in the AI agent economy",
+            "source": "Business Insider",
+            "publishedAt": "2026-09-22T17:50:01Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": -0.077
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 37.81,
-  "trade_probability": 42.69,
+  "confirmation_score": 38.79,
+  "trade_probability": 43.27,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
