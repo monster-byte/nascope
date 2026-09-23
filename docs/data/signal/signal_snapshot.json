@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T04:31:08.454861+00:00",
+  "generated_at": "2026-09-23T04:45:51.554320+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.64,
+      "score": 41.63,
       "status": "yellow",
       "details": {
         "current_dxy": 100.69,
-        "change_5d_pct": 1.045
+        "change_5d_pct": 1.046
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 57.3,
+      "score": 56.13,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.146,
+        "avg_compound": 0.123,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "₹1 crore accidental death claim rejected over alleged income inflation; here’s why wife won against insurer",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-22T04:41:54Z",
+            "sentiment": "Negative",
+            "compound": -0.586
+          },
+          {
+            "title": "Global Market: Bank of Korea signals data-driven approach to further rate hikes",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-22T04:33:04Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Hong Kong stocks eye fresh inflows from mainland China’s insurers sitting on US$6 trillion",
             "source": "Biztoc.com",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-09-22T04:22:59Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "China's robot dancers limber up for America's Got Talent final",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-22T04:20:54Z",
-            "sentiment": "Positive",
-            "compound": 0.421
-          },
-          {
-            "title": "Nifty trade above 23,400 in early trade; breadth strong",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-22T04:20:02Z",
-            "sentiment": "Positive",
-            "compound": 0.718
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.61,
-  "trade_probability": 44.37,
+  "confirmation_score": 40.5,
+  "trade_probability": 44.3,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
