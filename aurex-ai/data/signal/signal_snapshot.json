@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T15:31:11.594995+00:00",
+  "generated_at": "2026-09-23T15:46:00.189048+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.0403,
+          "change_pct": -1.008,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.5115,
+          "change_pct": -0.4296,
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.3913,
+          "change_pct": -1.3891,
           "up": false
         },
         "AMZN": {
-          "change_pct": -2.0239,
+          "change_pct": -2.1276,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 83.01,
+      "score": 83.09,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30479.98,
-        "sma50": 29213.44,
-        "sma200": 27279.28
+        "last_price": 30488.1,
+        "sma50": 29213.6,
+        "sma200": 27279.32
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 75.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.05,
+        "current_vxn": 20.13,
         "percentile_vs_20d": 25.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 38.79,
+      "score": 36.71,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.066,
-        "change_5d_pct": 1.401
+        "current_yield_pct": 5.079,
+        "change_5d_pct": 1.661
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 38.91,
+      "score": 38.67,
       "status": "red",
       "details": {
-        "current_dxy": 101.03,
-        "change_5d_pct": 1.386
+        "current_dxy": 101.06,
+        "change_5d_pct": 1.416
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.59,
+      "score": 46.93,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.048,
+        "avg_compound": -0.061,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Analyst Says Sandisk to Hit $2,400 as NAND Flash Becomes Critical AI Infrastructure",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-22T15:41:11Z",
+            "sentiment": "Negative",
+            "compound": -0.318
+          },
+          {
+            "title": "“Market Has to Chew Through Indigestion”: Analyst Warns of 7000 Dip Before 8150 Target",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-22T15:37:16Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
+          {
+            "title": "Former SpaceX Engineer: ‘We All Rolled Our Eyes’ When Elon Musk Proposed Catching a Rocket With Chopsticks",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-22T15:31:09Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Billionaire Harsh Goenka uses a baby monkey to explain Nifty's performance and investors' frustration",
             "source": "The Times of India",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-09-22T15:29:44Z",
             "sentiment": "Neutral",
             "compound": -0.103
-          },
-          {
-            "title": "Official Statistics: Producer price inflation, UK: December 2027, including services, October to December 2027",
-            "source": "Www.gov.uk",
-            "publishedAt": "2026-09-22T15:27:38Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Micron Has Jumped Back Above $1,000: Here’s What I’m Doing",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-22T15:26:42Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Circle Stock Spikes As Binance Takes $100 Million Slice",
-            "source": "Investor's Business Daily",
-            "publishedAt": "2026-09-22T15:26:27Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.48,
-  "trade_probability": 44.29,
+  "confirmation_score": 40.13,
+  "trade_probability": 44.08,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
