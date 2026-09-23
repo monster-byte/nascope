@@ -1,74 +1,75 @@
 {
-  "generated_at": "2026-09-12T13:31:07.380228+00:00",
+  "generated_at": "2026-09-23T08:01:16.005432+00:00",
   "weights": {
-    "mega_cap_alignment": 0.3,
-    "market_regime": 0.15,
-    "vxn": 0.1,
-    "us10y": 0.15,
-    "dxy": 0.1,
-    "macro": 0.1,
-    "news_sentiment": 0.1
+    "mega_cap_alignment": 0.27,
+    "market_regime": 0.135,
+    "vxn": 0.09,
+    "us10y": 0.135,
+    "dxy": 0.09,
+    "macro": 0.09,
+    "news_sentiment": 0.09,
+    "patent_momentum": 0.1
   },
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 0.0,
+      "score": 25.0,
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.0587,
+          "change_pct": -0.0474,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.2375,
+          "change_pct": -0.5175,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.2377,
-          "up": false
+          "change_pct": 0.1181,
+          "up": true
         },
         "AMZN": {
-          "change_pct": -0.1905,
+          "change_pct": -0.2231,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 71.76,
-      "status": "green",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
-        "regime": "BULLISH",
-        "last_price": 29368.44,
-        "sma50": 29197.55,
-        "sma200": 27129.31
+        "regime": "NEUTRAL / TRANSITIONAL",
+        "last_price": NaN,
+        "sma50": NaN,
+        "sma200": NaN
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 65.0,
+      "score": 90.0,
       "status": "green",
       "details": {
-        "current_vxn": 21.05,
-        "percentile_vs_20d": 35.0
+        "current_vxn": 19.95,
+        "percentile_vs_20d": 10.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 14.22,
-      "status": "red",
+      "score": 49.68,
+      "status": "yellow",
       "details": {
-        "current_yield_pct": 4.975,
-        "change_5d_pct": 4.473
+        "current_yield_pct": 4.963,
+        "change_5d_pct": 0.04
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.03,
+      "score": 41.05,
       "status": "yellow",
       "details": {
-        "current_dxy": 99.12,
-        "change_5d_pct": 0.121
+        "current_dxy": 100.76,
+        "change_5d_pct": 1.119
       }
     },
     "macro": {
@@ -84,64 +85,72 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.13,
+      "score": 48.07,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.063,
+        "avg_compound": -0.039,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "In Memoriam",
-            "source": "Reason",
-            "publishedAt": "2026-09-11T13:30:52Z",
+            "title": "Tech stocks power market surge as bond yields and oil prices tumble",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-22T08:00:35Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Trading stocks against BONER is the latest trend for DeFi degens",
-            "source": "Cointelegraph",
-            "publishedAt": "2026-09-11T13:30:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Soaring Oil and Gas Prices Push Europe’s Inflation Fight Into 2027",
+            "source": "OilPrice.com",
+            "publishedAt": "2026-09-22T08:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.382
           },
           {
-            "title": "Rupee falls 5 paise to close at 95.57 against US dollar on Friday",
+            "title": "Soaring Oil and Gas Prices Push Europe’s Inflation Fight Into 2027",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-22T08:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.382
+          },
+          {
+            "title": "CNN Fact-Checker Finds 3 Glaring Problems With Trump White House’s News App",
+            "source": "HuffPost",
+            "publishedAt": "2026-09-22T07:58:16Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
+          {
+            "title": "Eternal rallies 8% in five straight days; stock zooms 60% from March low",
             "source": "Business Standard",
-            "publishedAt": "2026-09-11T13:27:22Z",
+            "publishedAt": "2026-09-22T07:57:10Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": -0.052
           },
           {
-            "title": "Instant View: August core inflation reading boosts rate-hike expectations",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-11T13:25:58Z",
-            "sentiment": "Positive",
-            "compound": 0.318
-          },
-          {
-            "title": "CPI rose at 3.4% pace in August, raising odds of Fed rate hike this month",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-11T13:25:57Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Fed rate hike odds surge to 90% on monthly jump in core prices",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-11T13:25:48Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Republicans have a billion-dollar answer to Trump's weak midterm polling",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-22T07:56:53Z",
+            "sentiment": "Negative",
+            "compound": -0.44
           }
         ]
       }
+    },
+    "patent_momentum": {
+      "factor": "patent_momentum",
+      "score": 50.0,
+      "status": "yellow",
+      "details": {
+        "error": "USPTO_API_KEY not set — تم استخدام قيمة محايدة افتراضية. احصل على مفتاح مجاني من https://data.uspto.gov/myodp"
+      }
     }
   },
-  "confirmation_score": 34.61,
-  "trade_probability": 40.77,
-  "market_regime": "BULLISH",
+  "confirmation_score": 45.83,
+  "trade_probability": 47.5,
+  "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
-    "ai_status": "REJECT",
-    "directional_bias": "AVOID"
+    "ai_status": "HOLD / MONITOR",
+    "directional_bias": "NEUTRAL"
   }
 }

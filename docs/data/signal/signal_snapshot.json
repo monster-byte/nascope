@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T07:46:03.535383+00:00",
+  "generated_at": "2026-09-23T08:01:16.005432+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 0.0,
+      "score": 25.0,
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.0544,
+          "change_pct": -0.0474,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.1204,
+          "change_pct": -0.5175,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.1179,
-          "up": false
+          "change_pct": 0.1181,
+          "up": true
         },
         "AMZN": {
-          "change_pct": -0.2719,
+          "change_pct": -0.2231,
           "up": false
         }
       }
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.11,
+      "score": 48.07,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.042,
+        "avg_compound": -0.039,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Profits dip at Origin amid restructuring costs",
-            "source": "The Irish Times",
-            "publishedAt": "2026-09-22T07:34:17Z",
-            "sentiment": "Positive",
-            "compound": 0.44
-          },
-          {
-            "title": "Lavish runway shows target wealthiest shoppers as others spend less on luxury",
+            "title": "Tech stocks power market surge as bond yields and oil prices tumble",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-22T07:30:52Z",
-            "sentiment": "Positive",
-            "compound": 0.494
-          },
-          {
-            "title": "CAPR Investors Have Opportunity to Lead Capricor Therapeutics, Inc. Securities Fraud Lawsuit with SBS Law",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-22T07:30:00Z",
+            "publishedAt": "2026-09-22T08:00:35Z",
             "sentiment": "Neutral",
-            "compound": -0.178
+            "compound": 0.0
           },
           {
-            "title": "India growth seen moderating in second half of FY27 as inflation, liquidity pose risks: DBS",
+            "title": "Soaring Oil and Gas Prices Push Europe’s Inflation Fight Into 2027",
+            "source": "OilPrice.com",
+            "publishedAt": "2026-09-22T08:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.382
+          },
+          {
+            "title": "Soaring Oil and Gas Prices Push Europe’s Inflation Fight Into 2027",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-22T08:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.382
+          },
+          {
+            "title": "CNN Fact-Checker Finds 3 Glaring Problems With Trump White House’s News App",
+            "source": "HuffPost",
+            "publishedAt": "2026-09-22T07:58:16Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
+          {
+            "title": "Eternal rallies 8% in five straight days; stock zooms 60% from March low",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-22T07:57:10Z",
+            "sentiment": "Neutral",
+            "compound": -0.052
+          },
+          {
+            "title": "Republicans have a billion-dollar answer to Trump's weak midterm polling",
             "source": "The Times of India",
-            "publishedAt": "2026-09-22T07:22:20Z",
-            "sentiment": "Neutral",
-            "compound": 0.128
-          },
-          {
-            "title": "Vice President, Investor Relations - Northern Trust - Chicago, IL",
-            "source": "Caia.org",
-            "publishedAt": "2026-09-22T07:22:04Z",
-            "sentiment": "Positive",
-            "compound": 0.511
-          },
-          {
-            "title": "Vice President, Investor Relations - Northern Trust - Chicago, IL",
-            "source": "Caia.org",
-            "publishedAt": "2026-09-22T07:19:21Z",
-            "sentiment": "Positive",
-            "compound": 0.511
+            "publishedAt": "2026-09-22T07:56:53Z",
+            "sentiment": "Negative",
+            "compound": -0.44
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 39.44,
-  "trade_probability": 43.66,
+  "confirmation_score": 45.83,
+  "trade_probability": 47.5,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
