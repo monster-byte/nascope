@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T16:15:56.829016+00:00",
+  "generated_at": "2026-09-23T16:31:15.035668+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.8859,
+          "change_pct": -0.9094,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.3766,
+          "change_pct": -0.3496,
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.6101,
+          "change_pct": -1.7283,
           "up": false
         },
         "AMZN": {
-          "change_pct": -2.02,
+          "change_pct": -2.2353,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 82.81,
+      "score": 82.69,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30460.44,
-        "sma50": 29213.05,
-        "sma200": 27279.18
+        "last_price": 30448.18,
+        "sma50": 29212.81,
+        "sma200": 27279.12
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 70.0,
+      "score": 80.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.16,
-        "percentile_vs_20d": 30.0
+        "current_vxn": 20.09,
+        "percentile_vs_20d": 20.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 36.07,
+      "score": 35.43,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.083,
-        "change_5d_pct": 1.741
+        "current_yield_pct": 5.087,
+        "change_5d_pct": 1.821
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 38.61,
+      "score": 38.82,
       "status": "red",
       "details": {
-        "current_dxy": 101.07,
-        "change_5d_pct": 1.424
+        "current_dxy": 101.04,
+        "change_5d_pct": 1.397
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.12,
+      "score": 55.88,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.122,
+        "avg_compound": 0.118,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "CoreWeave Has the Ingredients for a Monster Rally. Here’s Our Price Target",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-22T16:30:26Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Berkshire Hathaway Raises Stake In This Ramshackle Homebuilder",
+            "source": "Investor's Business Daily",
+            "publishedAt": "2026-09-22T16:30:09Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "BlackRock, Vanguard muni ETFs see record inflows after bond rout",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-22T16:27:42Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "US tariff threat poses challenge, but India’s interests come first: FM Sitharaman",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-22T16:22:42Z",
+            "sentiment": "Neutral",
+            "compound": 0.115
+          },
+          {
+            "title": "New Study: Gen Z Debt Is Rising Faster Than Any Other Generation, Delaying Homeownership and Family Planning",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-22T16:21:00Z",
+            "sentiment": "Negative",
+            "compound": -0.361
+          },
           {
             "title": "Dan Niles: Meta’s Boring 12% Year Is Exactly Why It’s Set to Re-Rate",
             "source": "24/7 Wall St.",
             "publishedAt": "2026-09-22T16:13:18Z",
             "sentiment": "Negative",
             "compound": -0.318
-          },
-          {
-            "title": "McDonald’s Is Bringing Back Monopoly, With a $1 Million Grand Prize, as Its Stock Sits at a Two-Year Low",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-22T16:12:16Z",
-            "sentiment": "Positive",
-            "compound": 0.637
-          },
-          {
-            "title": "Microsoft Scores Positive Reviews On AI Momentum",
-            "source": "Investor's Business Daily",
-            "publishedAt": "2026-09-22T16:06:04Z",
-            "sentiment": "Positive",
-            "compound": 0.557
-          },
-          {
-            "title": "Sullivan: Wall Street admits it doesn't know where oil is headed. There's one stock they do agree on",
-            "source": "CNBC",
-            "publishedAt": "2026-09-22T16:05:57Z",
-            "sentiment": "Positive",
-            "compound": 0.572
-          },
-          {
-            "title": "AutoZone Q4 Earnings Call Highlights",
-            "source": "MarketBeat",
-            "publishedAt": "2026-09-22T16:02:54Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Greenland Mines Applauds Formal Signing of U.S.-Denmark-Greenland Security Agreement at United Nations",
-            "source": "Financial Post",
-            "publishedAt": "2026-09-22T16:01:59Z",
-            "sentiment": "Positive",
-            "compound": 0.869
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.37,
-  "trade_probability": 44.22,
+  "confirmation_score": 41.17,
+  "trade_probability": 44.7,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
