@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T13:45:53.984342+00:00",
+  "generated_at": "2026-09-23T14:01:29.322031+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,36 +13,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.6402,
+          "change_pct": -0.5652,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.6972,
+          "change_pct": 0.4655,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.0613,
-          "up": true
+          "change_pct": -0.2756,
+          "up": false
         },
         "AMZN": {
-          "change_pct": -1.4839,
+          "change_pct": -2.0904,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 84.39,
+      "score": 83.93,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30617.44,
-        "sma50": 29216.19,
-        "sma200": 27279.97
+        "last_price": 30571.59,
+        "sma50": 29215.27,
+        "sma200": 27279.74
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 90.0,
       "status": "green",
       "details": {
-        "current_vxn": 19.95,
+        "current_vxn": 19.9,
         "percentile_vs_20d": 10.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 51.6,
+      "score": 46.64,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.986,
-        "change_5d_pct": -0.2
+        "current_yield_pct": 5.017,
+        "change_5d_pct": 0.42
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 40.15,
-      "status": "yellow",
+      "score": 39.09,
+      "status": "red",
       "details": {
-        "current_dxy": 100.88,
-        "change_5d_pct": 1.231
+        "current_dxy": 101.01,
+        "change_5d_pct": 1.364
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 59.25,
+      "score": 50.47,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.185,
+        "avg_compound": 0.009,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Tesla’s active robotaxi fleet in Austin crashes back to 8 vehicles after Cybercab pump",
-            "source": "Electrek",
-            "publishedAt": "2026-09-22T13:45:22Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "One of These Growth ETFs Has a 10-Year Record. The Other Is Beating It Anyway.",
+            "title": "What Will $5,000 Invested in Apple Stock Be Worth in 5 Years?",
             "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-22T13:45:12Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
-          },
-          {
-            "title": "Federal Reserve’s Collins warns of persistent inflation risks above 2%",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-22T13:42:12Z",
-            "sentiment": "Negative",
-            "compound": -0.361
-          },
-          {
-            "title": "Treasury yields ease, oil falls as Trump-Xi meeting looms: AlphaCheck",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-22T13:41:37Z",
+            "publishedAt": "2026-09-22T14:00:49Z",
             "sentiment": "Positive",
-            "compound": 0.402
+            "compound": 0.226
           },
           {
-            "title": "The World Has Oil, but Not Enough Refining",
-            "source": "Dailyreckoning.com",
-            "publishedAt": "2026-09-22T13:40:35Z",
+            "title": "Index Funds Are Being Forced to Buy SpaceX Whether They Want It or Not",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-22T14:00:15Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
+          {
+            "title": "The relationship between digital literacy and employment quality: Evidence from a Chinese Household Survey",
+            "source": "Plos.org",
+            "publishedAt": "2026-09-22T14:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Here’s What Nebius’ Top Line AI Compute Expansion Means for Prices",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-22T13:40:03Z",
-            "sentiment": "Positive",
-            "compound": 0.202
+            "title": "Psaros Center for Financial Markets and Policy at Georgetown University Receives $25 Million Investment",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-22T14:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Caesarean deliveries and their impact on financial burden and quality of life among post-partum mothers in Tamil Nadu, India",
+            "source": "Plos.org",
+            "publishedAt": "2026-09-22T14:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.44
+          },
+          {
+            "title": "Professional quality of life, sleep quality, occupational stress, and turnover intention among emergency department nurses: A cross-sectional study",
+            "source": "Plos.org",
+            "publishedAt": "2026-09-22T14:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.66
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 58.4,
-  "trade_probability": 55.04,
+  "confirmation_score": 50.04,
+  "trade_probability": 50.02,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
