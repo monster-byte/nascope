@@ -50,6 +50,11 @@ def compute_confirmation_score(factors: dict) -> float:
 
 
 def estimate_trade_probability(confirmation_score: float) -> float:
+    """
+    تقدير مبدئي (heuristic) لاحتمالية نجاح الصفقة بالاعتماد على Confirmation Score.
+    ⚠️ هاي معايرة أولية بس — رح تُضبط بدقة أكبر لاحقاً بمرحلة الـ Backtest
+    (بمقارنة توقعات المحرك بنتائج فعلية تاريخية).
+    """
     probability = 50 + (confirmation_score - 50) * 0.6
     return round(max(5.0, min(95.0, probability)), 2)
 
@@ -60,11 +65,22 @@ def determine_market_regime_label(factors: dict) -> str:
 
 
 def determine_final_decision(confirmation_score: float, regime_label: str) -> dict:
+    """
+    عتبات متناظرة حول نقطة الحياد (50): البيع يحتاج نفس درجة القناعة اللي يحتاجها
+    الشراء بالضبط (مرآة العتبة)، مو بس "أي شي تحت 50". هذا يمنع تنفيذ صفقات بيع
+    بثقة ضعيفة بينما الشراء يحتاج ثقة عالية.
+
+    مثال بالعتبات الافتراضية (approve_min_score=70):
+    - score >= 70 وسياق صاعد        → APPROVED LONG
+    - score <= 30 وسياق هابط        → APPROVED SHORT (30 = مرآة الـ70 حول نقطة الحياد 50)
+    - 30 < score < 70                → HOLD / MONITOR (منطقة عدم يقين، بلا اتجاه واضح بالاتجاهين)
+    - أي تعارض (score متطرف لكن اتجاه السعر يخالفه) → REJECT / AVOID احترازياً
+    """
     thresholds = DECISION_THRESHOLDS
     is_bearish = "BEARISH" in regime_label
 
-    approve_min_long = thresholds["approve_min_score"]
-    approve_max_short = 100 - approve_min_long
+    approve_min_long = thresholds["approve_min_score"]      # مثلاً 70
+    approve_max_short = 100 - approve_min_long               # المرآة حول 50 → 30
 
     if confirmation_score >= approve_min_long and not is_bearish:
         status, bias = "APPROVED", "LONG"
@@ -73,6 +89,7 @@ def determine_final_decision(confirmation_score: float, regime_label: str) -> di
     elif approve_max_short < confirmation_score < approve_min_long:
         status, bias = "HOLD / MONITOR", "NEUTRAL"
     else:
+        # حالات تعارض: score متطرف بس اتجاه السعر يخالفه → نتجنب التنفيذ احترازياً
         status, bias = "REJECT", "AVOID"
 
     return {"ai_status": status, "directional_bias": bias}
@@ -109,9 +126,9 @@ def run():
     print("[3/3] حفظ النتيجة...")
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
-        json.dump(result, f, ensure_ascii=False, indent=2)
+                json.dump(result, f, ensure_ascii=False, indent=2)
 
-    print(f"\nConfirmation Score : {confirmation_score}%")
+    print(f"\nConfirmation Score : {confirmation_score}%")  
     print(f"Trade Probability  : {trade_probability}%")
     print(f"Market Regime      : {regime_label}")
     print(f"Final Decision     : {decision['ai_status']} ({decision['directional_bias']})")

@@ -38,7 +38,28 @@ def fetch_ohlcv(symbol: str, timeframe: str = "1D"):
     ]
 
     last = hist.iloc[-1]
-    prev_close = hist.iloc[-2]["Close"] if len(hist) > 1 else last["Open"]
+
+    # نجيب إغلاق الجلسة السابقة الرسمي من yfinance مباشرة (مو الشمعة قبل الأخيرة بـ5 دقايق فقط)
+    # لأن بيانات "1D" فعلياً شموع كل 5 دقايق، وإغلاق الشمعة السابقة مباشرة لا يمثّل "تغيّر اليوم"
+    prev_close = None
+    try:
+        fast = ticker.fast_info
+        prev_close = fast.get("previousClose") or fast.get("previous_close")
+    except Exception:
+        prev_close = None
+
+    if not prev_close:
+        try:
+            prev_close = ticker.info.get("previousClose")
+        except Exception:
+            prev_close = None
+
+    if not prev_close:
+        # حل احتياطي أخير لو yfinance ما رجّع إغلاق رسمي: أقرب شمعة من يوم تداول مختلف عن آخر شمعة
+        last_date = pd_to_date(hist.index[-1])
+        prior_rows = [row for idx, row in hist.iterrows() if pd_to_date(idx) != last_date]
+        prev_close = float(prior_rows[-1]["Close"]) if prior_rows else float(last["Open"])
+
     change = float(last["Close"] - prev_close)
     change_pct = float((change / prev_close) * 100) if prev_close else 0.0
 
@@ -61,6 +82,14 @@ def pd_isna(value) -> bool:
         return value != value  # NaN check بدون استيراد pandas مباشرة هون
     except Exception:
         return False
+
+
+def pd_to_date(idx):
+    """يرجع تاريخ (بدون وقت) من index الشمعة، يشتغل مع أي كائن فيه .date()."""
+    try:
+        return idx.date()
+    except Exception:
+        return str(idx)[:10]
 
 
 def fetch_all(timeframe: str = "1D"):

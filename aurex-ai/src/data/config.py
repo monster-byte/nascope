@@ -42,6 +42,10 @@ TIMEFRAME_MAP = {
     "6M": {"period": "6mo", "interval": "1d"},
     "YTD": {"period": "ytd", "interval": "1d"},
     "1Y": {"period": "1y", "interval": "1d"},
+    # مخصص لمحرك Pulse (Micro Volume Profile) — دقة 1 دقيقة، آخر يومين بس
+    # (yfinance يحدد بيانات الدقيقة الواحدة بحد أقصى 7 أيام، فترة يومين كافية
+    # ومنخفضة المخاطر لأغراض السكالب اللي محتاجة بس آخر ساعة تقريباً)
+    "1m": {"period": "2d", "interval": "1m"},
 }
 
 OUTPUT_DIR = "data"

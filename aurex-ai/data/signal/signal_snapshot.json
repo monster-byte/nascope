@@ -1,14 +1,13 @@
 {
-  "generated_at": "2026-09-23T07:46:03.535383+00:00",
+  "generated_at": "2026-09-12T13:31:07.380228+00:00",
   "weights": {
-    "mega_cap_alignment": 0.27,
-    "market_regime": 0.135,
-    "vxn": 0.09,
-    "us10y": 0.135,
-    "dxy": 0.09,
-    "macro": 0.09,
-    "news_sentiment": 0.09,
-    "patent_momentum": 0.1
+    "mega_cap_alignment": 0.3,
+    "market_regime": 0.15,
+    "vxn": 0.1,
+    "us10y": 0.15,
+    "dxy": 0.1,
+    "macro": 0.1,
+    "news_sentiment": 0.1
   },
   "factors": {
     "mega_cap_alignment": {
@@ -17,59 +16,59 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.0544,
+          "change_pct": -0.0587,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.1204,
+          "change_pct": -0.2375,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.1179,
+          "change_pct": -0.2377,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.2719,
+          "change_pct": -0.1905,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 71.76,
+      "status": "green",
       "details": {
-        "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": NaN,
-        "sma50": NaN,
-        "sma200": NaN
+        "regime": "BULLISH",
+        "last_price": 29368.44,
+        "sma50": 29197.55,
+        "sma200": 27129.31
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 90.0,
+      "score": 65.0,
       "status": "green",
       "details": {
-        "current_vxn": 19.95,
-        "percentile_vs_20d": 10.0
+        "current_vxn": 21.05,
+        "percentile_vs_20d": 35.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 49.68,
-      "status": "yellow",
+      "score": 14.22,
+      "status": "red",
       "details": {
-        "current_yield_pct": 4.963,
-        "change_5d_pct": 0.04
+        "current_yield_pct": 4.975,
+        "change_5d_pct": 4.473
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.05,
+      "score": 49.03,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.76,
-        "change_5d_pct": 1.119
+        "current_dxy": 99.12,
+        "change_5d_pct": 0.121
       }
     },
     "macro": {
@@ -85,72 +84,64 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.11,
+      "score": 53.13,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.042,
+        "avg_compound": 0.063,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Profits dip at Origin amid restructuring costs",
-            "source": "The Irish Times",
-            "publishedAt": "2026-09-22T07:34:17Z",
-            "sentiment": "Positive",
-            "compound": 0.44
+            "title": "In Memoriam",
+            "source": "Reason",
+            "publishedAt": "2026-09-11T13:30:52Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Lavish runway shows target wealthiest shoppers as others spend less on luxury",
+            "title": "Trading stocks against BONER is the latest trend for DeFi degens",
+            "source": "Cointelegraph",
+            "publishedAt": "2026-09-11T13:30:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Rupee falls 5 paise to close at 95.57 against US dollar on Friday",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-11T13:27:22Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Instant View: August core inflation reading boosts rate-hike expectations",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-22T07:30:52Z",
+            "publishedAt": "2026-09-11T13:25:58Z",
             "sentiment": "Positive",
-            "compound": 0.494
+            "compound": 0.318
           },
           {
-            "title": "CAPR Investors Have Opportunity to Lead Capricor Therapeutics, Inc. Securities Fraud Lawsuit with SBS Law",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-22T07:30:00Z",
+            "title": "CPI rose at 3.4% pace in August, raising odds of Fed rate hike this month",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-11T13:25:57Z",
             "sentiment": "Neutral",
-            "compound": -0.178
+            "compound": 0.0
           },
           {
-            "title": "India growth seen moderating in second half of FY27 as inflation, liquidity pose risks: DBS",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-22T07:22:20Z",
+            "title": "Fed rate hike odds surge to 90% on monthly jump in core prices",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-11T13:25:48Z",
             "sentiment": "Neutral",
-            "compound": 0.128
-          },
-          {
-            "title": "Vice President, Investor Relations - Northern Trust - Chicago, IL",
-            "source": "Caia.org",
-            "publishedAt": "2026-09-22T07:22:04Z",
-            "sentiment": "Positive",
-            "compound": 0.511
-          },
-          {
-            "title": "Vice President, Investor Relations - Northern Trust - Chicago, IL",
-            "source": "Caia.org",
-            "publishedAt": "2026-09-22T07:19:21Z",
-            "sentiment": "Positive",
-            "compound": 0.511
+            "compound": 0.0
           }
         ]
       }
-    },
-    "patent_momentum": {
-      "factor": "patent_momentum",
-      "score": 50.0,
-      "status": "yellow",
-      "details": {
-        "error": "USPTO_API_KEY not set — تم استخدام قيمة محايدة افتراضية. احصل على مفتاح مجاني من https://data.uspto.gov/myodp"
-      }
     }
   },
-  "confirmation_score": 39.44,
-  "trade_probability": 43.66,
-  "market_regime": "NEUTRAL / TRANSITIONAL",
+  "confirmation_score": 34.61,
+  "trade_probability": 40.77,
+  "market_regime": "BULLISH",
   "final_decision": {
-    "ai_status": "HOLD / MONITOR",
-    "directional_bias": "NEUTRAL"
+    "ai_status": "REJECT",
+    "directional_bias": "AVOID"
   }
 }

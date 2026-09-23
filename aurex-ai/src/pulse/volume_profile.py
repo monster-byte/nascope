@@ -16,10 +16,15 @@ AUREX Pulse - Developing Volume Profile
 import math
 from datetime import datetime, timedelta
 
-BIN_SIZE_DEFAULT = 25.0        # حجم الصندوق السعري بنقاط NQ (قابل للتعديل)
+BIN_SIZE_DEFAULT = 6.0         # حجم الصندوق السعري بنقاط NQ — مضبوط لدقة السكالب (كان 25)
 VALUE_AREA_PCT = 0.70          # النسبة القياسية لـValue Area (70% من الحجم)
 SESSION_CUTOFF_HOUR = 18       # بداية يوم تداول CME: 6:00م بتوقيت نيويورك
-NEAR_TOLERANCE_POINTS = 10.0   # هامش اعتبار السعر "قريب" من مستوى معيّن
+NEAR_TOLERANCE_POINTS = 4.0    # هامش اعتبار السعر "قريب" من مستوى معيّن — مضبوط للسكالب (كان 10)
+
+# --- إعدادات Micro Profile (نافذة قريبة، مخصصة للسكالب اللحظي) ---
+MICRO_BIN_SIZE_DEFAULT = 6.0
+MICRO_LOOKBACK_MINUTES = 60    # آخر ساعة بس، مو الجلسة كاملة
+MICRO_MIN_CANDLES = 3          # أقل عدد شموع مقبول لحساب micro profile موثوق
 
 
 def _parse(ts: str) -> datetime:
@@ -46,22 +51,55 @@ def _bin_floor(price: float, bin_size: float) -> float:
     return math.floor(price / bin_size) * bin_size
 
 
-def build_volume_profile(session_candles: list, bin_size: float = BIN_SIZE_DEFAULT) -> dict:
-    """يوزّع حجم كل شمعة بالتساوي على الصناديق السعرية اللي يتقاطع معها نطاقها."""
+def build_volume_profile(session_candles: list, bin_size: float = BIN_SIZE_DEFAULT):
+    """يوزّع حجم كل شمعة بالتساوي على الصناديق السعرية اللي يتقاطع معها نطاقها،
+    مع فصل الحجم لـ"شرائي" (شمعة خضراء: close >= open) و"بيعي" (شمعة حمراء) —
+    نفس التقريب المعياري اللي تستخدمه منصات زي TradingView لتلوين الهيستوغرام
+    بدون بيانات Tick حقيقية (bid/ask). يرجّع 3 قواميس: كلي، شرائي، بيعي."""
     volume_by_bin = {}
+    buy_volume_by_bin = {}
+    sell_volume_by_bin = {}
+
     for _, c in session_candles:
         low, high, vol = c["low"], c["high"], c.get("volume", 0)
         if vol <= 0 or high < low:
             continue
+        is_buy_candle = c["close"] >= c["open"]
+
         bin_low = _bin_floor(low, bin_size)
         bin_high = _bin_floor(high, bin_size)
         bins_touched = int(round((bin_high - bin_low) / bin_size)) + 1
         vol_per_bin = vol / bins_touched
+
         b = bin_low
         for _ in range(bins_touched):
             volume_by_bin[b] = volume_by_bin.get(b, 0.0) + vol_per_bin
+            if is_buy_candle:
+                buy_volume_by_bin[b] = buy_volume_by_bin.get(b, 0.0) + vol_per_bin
+            else:
+                sell_volume_by_bin[b] = sell_volume_by_bin.get(b, 0.0) + vol_per_bin
             b += bin_size
-    return volume_by_bin
+
+    return volume_by_bin, buy_volume_by_bin, sell_volume_by_bin
+
+
+def build_histogram(volume_by_bin: dict, buy_volume_by_bin: dict, sell_volume_by_bin: dict,
+                     bin_size: float = BIN_SIZE_DEFAULT) -> list:
+    """يحوّل قواميس الحجم لمصفوفة مرتبة (من الأسفل للأعلى) — هذا هو المصدر
+    اللي الـfrontend لاحقاً يرسم منه الهيستوغرام الأفقي (زي شارت TradingView)."""
+    histogram = []
+    for price_bin in sorted(volume_by_bin.keys()):
+        total = volume_by_bin[price_bin]
+        buy = buy_volume_by_bin.get(price_bin, 0.0)
+        sell = sell_volume_by_bin.get(price_bin, 0.0)
+        histogram.append({
+            "price_low": round(price_bin, 2),
+            "price_high": round(price_bin + bin_size, 2),
+            "total_volume": round(total, 1),
+            "buy_volume": round(buy, 1),
+            "sell_volume": round(sell, 1),
+        })
+    return histogram
 
 
 def compute_poc_value_area(volume_by_bin: dict, bin_size: float = BIN_SIZE_DEFAULT,
@@ -154,10 +192,60 @@ def classify_price_location(current_price: float, poc: float, val: float, vah: f
     return "INSIDE_VALUE_AREA"
 
 
+def compute_micro_profile(candles: list, lookback_minutes: int = MICRO_LOOKBACK_MINUTES,
+                           bin_size: float = MICRO_BIN_SIZE_DEFAULT) -> dict:
+    """نسخة "مصغّرة" من Volume Profile، تحسب POC/VAH/VAL بس من آخر X دقيقة
+    (مو الجلسة كاملة) — هاي البؤرة اللحظية اللي السكالبر فعلياً يحتاجها،
+    بجانب Session Profile الأوسع كسياق عام. تشتغل مع أي دقة شموع متوفرة
+    (1 دقيقة مفضّل للسكالب، وتتراجع تلقائياً لشموع 5 دقايق لو ما توفرت
+    بيانات 1 دقيقة بهالتشغيل)."""
+    if not candles:
+        return {"available": False, "reason": "no_candles"}
+
+    parsed = sorted(((_parse(c["time"]), c) for c in candles), key=lambda x: x[0])
+    if not parsed:
+        return {"available": False, "reason": "no_candles"}
+
+    last_dt = parsed[-1][0]
+    cutoff = last_dt - timedelta(minutes=lookback_minutes)
+    recent = [(dt, c) for dt, c in parsed if dt >= cutoff]
+
+    if len(recent) < MICRO_MIN_CANDLES:
+        return {
+            "available": False,
+            "reason": "insufficient_recent_candles",
+            "candles_found": len(recent),
+        }
+
+    volume_by_bin, buy_by_bin, sell_by_bin = build_volume_profile(recent, bin_size)
+    poc, val, vah = compute_poc_value_area(volume_by_bin, bin_size)
+    current_price = float(recent[-1][1]["close"])
+    location = classify_price_location(current_price, poc, val, vah)
+    histogram = build_histogram(volume_by_bin, buy_by_bin, sell_by_bin, bin_size)
+
+    return {
+        "available": True,
+        "lookback_minutes": lookback_minutes,
+        "candles_used": len(recent),
+        "bin_size_points": bin_size,
+        "poc": poc,
+        "val": val,
+        "vah": vah,
+        "price_location": location,
+        "histogram": histogram,
+    }
+
+
 def compute_volume_profile(price_snapshot: dict, symbol_key: str = "NASDAQ_FUTURES",
-                            bin_size: float = BIN_SIZE_DEFAULT) -> dict:
+                            bin_size: float = BIN_SIZE_DEFAULT,
+                            micro_candles: list = None) -> dict:
     """نقطة الدخول الرئيسية: تاخد نفس snapshot الأسعار المستخدم بالمحرك الأساسي،
-    وترجع Developing POC/VAH/VAL + الحجم النسبي + موقع السعر الحالي."""
+    وترجع Developing POC/VAH/VAL + الحجم النسبي + موقع السعر الحالي + Micro Profile.
+
+    micro_candles (اختياري): شموع دقيقة واحدة طازجة (لو توفرت من تشغيل منفصل)
+    لحساب Micro Profile بدقة أعلى مخصصة للسكالب. لو ما انبعتت، يتراجع
+    تلقائياً لاستخدام نفس شموع الجلسة (5 دقايق) — النظام يشتغل بأي الحالتين،
+    بس بدقة أعلى لو توفرت بيانات الدقيقة."""
     symbol_data = price_snapshot.get(symbol_key) if price_snapshot else None
     if not symbol_data or not symbol_data.get("candles"):
         return {
@@ -165,6 +253,7 @@ def compute_volume_profile(price_snapshot: dict, symbol_key: str = "NASDAQ_FUTUR
             "poc": None, "val": None, "vah": None,
             "price_location": "UNKNOWN",
             "relative_volume_pct": None,
+            "micro_profile": {"available": False, "reason": "no_session_data"},
         }
 
     all_candles = symbol_data["candles"]
@@ -175,17 +264,25 @@ def compute_volume_profile(price_snapshot: dict, symbol_key: str = "NASDAQ_FUTUR
             "poc": None, "val": None, "vah": None,
             "price_location": "UNKNOWN",
             "relative_volume_pct": None,
+            "micro_profile": {"available": False, "reason": "no_session_data"},
         }
 
     current_key = sorted(sessions.keys())[-1]
     current_session = sessions[current_key]
 
-    volume_by_bin = build_volume_profile(current_session, bin_size)
+    volume_by_bin, buy_volume_by_bin, sell_volume_by_bin = build_volume_profile(current_session, bin_size)
     poc, val, vah = compute_poc_value_area(volume_by_bin, bin_size)
+    histogram = build_histogram(volume_by_bin, buy_volume_by_bin, sell_volume_by_bin, bin_size)
 
     current_price = float(current_session[-1][1]["close"])
     location = classify_price_location(current_price, poc, val, vah)
     rel_volume = compute_relative_volume(all_candles)
+
+    # Micro Profile: نفضّل شموع 1 دقيقة الطازجة لو توفرت، وإلا نتراجع لشموع الجلسة نفسها
+    micro_source = micro_candles if micro_candles else all_candles
+    micro_source_label = "1m" if micro_candles else symbol_data.get("timeframe", "unknown")
+    micro = compute_micro_profile(micro_source)
+    micro["source_timeframe"] = micro_source_label
 
     return {
         "session_start": current_key.isoformat(),
@@ -197,9 +294,12 @@ def compute_volume_profile(price_snapshot: dict, symbol_key: str = "NASDAQ_FUTUR
         "bin_size_points": bin_size,
         "value_area_pct_target": VALUE_AREA_PCT,
         "candles_in_session": len(current_session),
+        "histogram": histogram,
+        "micro_profile": micro,
         **rel_volume,
         "methodology_note": (
-            "POC/VAH/VAL مبنية بتقريب توزيع متساوٍ للحجم على نطاق كل شمعة 5 دقايق "
-            "(لا تتوفر بيانات Tick). الدقة تقل مع اتساع نطاق الشمعة."
+            "POC/VAH/VAL والهيستوغرام مبنية بتقريب توزيع متساوٍ للحجم على نطاق كل شمعة "
+            "5 دقايق (لا تتوفر بيانات Tick). تلوين شرائي/بيعي بالهيستوغرام مبني على اتجاه "
+            "إغلاق كل شمعة (تقريب معياري)، مو بيانات Order Flow حقيقية. الدقة تقل مع اتساع نطاق الشمعة."
         ),
     }

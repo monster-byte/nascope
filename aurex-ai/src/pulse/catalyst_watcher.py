@@ -17,7 +17,7 @@ from ..signal.config import NEWS_QUERY
 from ..signal.macro_factor import _classify_event_direction, _parse_number
 from ..signal.news_factor import fetch_headlines
 
-FRESH_WINDOW_MINUTES = 15   # أي شي أقدم من هذا يعتبر "مو طازج"
+FRESH_WINDOW_MINUTES = 6    # مضبوط للسكالب (كان 15) — أي شي أقدم من هذا يعتبر "مو طازج"
 NEWS_FRESH_QUERY = NEWS_QUERY
 _analyzer = SentimentIntensityAnalyzer()
 
