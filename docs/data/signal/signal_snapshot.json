@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T18:31:11.073787+00:00",
+  "generated_at": "2026-09-23T18:45:50.748956+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,36 +13,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 0.0,
+      "score": 25.0,
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.8476,
+          "change_pct": -0.8535,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.054,
-          "up": false
+          "change_pct": 0.0219,
+          "up": true
         },
         "NVDA": {
-          "change_pct": -1.3693,
+          "change_pct": -1.3913,
           "up": false
         },
         "AMZN": {
-          "change_pct": -2.3527,
+          "change_pct": -2.2764,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 82.74,
+      "score": 82.72,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30453.81,
-        "sma50": 29212.92,
-        "sma200": 27279.15
+        "last_price": 30451.7,
+        "sma50": 29212.88,
+        "sma200": 27279.14
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 65.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.37,
+        "current_vxn": 20.35,
         "percentile_vs_20d": 35.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 29.82,
+      "score": 29.34,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.122,
-        "change_5d_pct": 2.522
+        "current_yield_pct": 5.125,
+        "change_5d_pct": 2.582
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 38.5,
+      "score": 38.3,
       "status": "red",
       "details": {
-        "current_dxy": 101.08,
-        "change_5d_pct": 1.438
+        "current_dxy": 101.11,
+        "change_5d_pct": 1.463
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.1,
+      "score": 48.17,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.002,
+        "avg_compound": -0.037,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "AI data centre funding surges to record $35 billion",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-09-22T18:43:10Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Gen Z Is Hitting a Critical Wealth Milestone the Average Boomer Didn’t Reach Until Age 32",
+            "source": "Entrepreneur",
+            "publishedAt": "2026-09-22T18:41:24Z",
+            "sentiment": "Positive",
+            "compound": 0.25
+          },
+          {
+            "title": "Terry Savage: Why the national debt should concern us",
+            "source": "Arcamax.com",
+            "publishedAt": "2026-09-22T18:38:31Z",
+            "sentiment": "Negative",
+            "compound": -0.67
+          },
+          {
+            "title": "CVE-2026-17613: Penpot cross-team file takeover via import-binfile (unpatched in 2.17.2)",
+            "source": "Seclists.org",
+            "publishedAt": "2026-09-22T18:32:22Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Trump Says He’s Changing Artificial Intelligence to ‘Super Intelligence’ on Government Documents",
             "source": "Gizmodo.com",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-09-22T18:30:17Z",
             "sentiment": "Positive",
             "compound": 0.34
-          },
-          {
-            "title": "Fox News admits midterms are shaping up as a 'rejection of Trump's agenda'",
-            "source": "Raw Story",
-            "publishedAt": "2026-09-22T18:29:01Z",
-            "sentiment": "Negative",
-            "compound": -0.318
-          },
-          {
-            "title": "Kentucky Mom Thought a Caramel Apple Would Cost $7. Then She Saw the Receipt",
-            "source": "TODAY",
-            "publishedAt": "2026-09-22T18:28:47Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Accelevation targets up to $5.4 billion valuation in US IPO",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-22T18:25:21Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "US economy firming as inflation risks persist, says Richmond Fed’s Tom Barkin",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-22T18:21:41Z",
-            "sentiment": "Negative",
-            "compound": -0.273
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 38.52,
-  "trade_probability": 43.11,
+  "confirmation_score": 45.01,
+  "trade_probability": 47.01,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
