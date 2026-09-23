@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T16:01:26.554986+00:00",
+  "generated_at": "2026-09-23T16:15:56.829016+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.8461,
+          "change_pct": -0.8859,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.3397,
+          "change_pct": -0.3766,
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.6451,
+          "change_pct": -1.6101,
           "up": false
         },
         "AMZN": {
-          "change_pct": -2.0435,
+          "change_pct": -2.02,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 82.64,
+      "score": 82.81,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30443.96,
-        "sma50": 29212.72,
-        "sma200": 27279.1
+        "last_price": 30460.44,
+        "sma50": 29213.05,
+        "sma200": 27279.18
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 75.0,
+      "score": 70.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.05,
-        "percentile_vs_20d": 25.0
+        "current_vxn": 20.16,
+        "percentile_vs_20d": 30.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 37.35,
+      "score": 36.07,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.075,
-        "change_5d_pct": 1.581
+        "current_yield_pct": 5.083,
+        "change_5d_pct": 1.741
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 38.42,
+      "score": 38.61,
       "status": "red",
       "details": {
-        "current_dxy": 101.09,
-        "change_5d_pct": 1.447
+        "current_dxy": 101.07,
+        "change_5d_pct": 1.424
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.99,
+      "score": 56.12,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.02,
+        "avg_compound": 0.122,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Why Utility Profits Could Be the Next Target",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-22T16:01:03Z",
-            "sentiment": "Positive",
-            "compound": 0.44
-          },
-          {
-            "title": "Prediction: Here's What a $5,000 Investment in Palantir Today Could Be Worth by 2031",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-22T16:00:31Z",
-            "sentiment": "Positive",
-            "compound": 0.226
-          },
-          {
-            "title": "Price Prediction: Marvell, AMD & Broadcom- Our Bold Price Predictions for 2027",
+            "title": "Dan Niles: Meta’s Boring 12% Year Is Exactly Why It’s Set to Re-Rate",
             "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-22T16:00:09Z",
+            "publishedAt": "2026-09-22T16:13:18Z",
+            "sentiment": "Negative",
+            "compound": -0.318
+          },
+          {
+            "title": "McDonald’s Is Bringing Back Monopoly, With a $1 Million Grand Prize, as Its Stock Sits at a Two-Year Low",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-22T16:12:16Z",
             "sentiment": "Positive",
-            "compound": 0.382
+            "compound": 0.637
           },
           {
-            "title": "OpenSearch Software Foundation Expands Enterprise Ecosystem with New Members",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-22T16:00:00Z",
+            "title": "Microsoft Scores Positive Reviews On AI Momentum",
+            "source": "Investor's Business Daily",
+            "publishedAt": "2026-09-22T16:06:04Z",
+            "sentiment": "Positive",
+            "compound": 0.557
+          },
+          {
+            "title": "Sullivan: Wall Street admits it doesn't know where oil is headed. There's one stock they do agree on",
+            "source": "CNBC",
+            "publishedAt": "2026-09-22T16:05:57Z",
+            "sentiment": "Positive",
+            "compound": 0.572
+          },
+          {
+            "title": "AutoZone Q4 Earnings Call Highlights",
+            "source": "MarketBeat",
+            "publishedAt": "2026-09-22T16:02:54Z",
             "sentiment": "Neutral",
-            "compound": 0.103
+            "compound": 0.0
           },
           {
-            "title": "GOOLOO Launches A9 Ultra, a 4-in-1 Emergency Power System for Road, RV and Off-Road Travel",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-22T16:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.382
-          },
-          {
-            "title": "Bronstein, Gewirtz & Grossman LLC Urges Ardelyx, Inc. Investors to Act: Class Action Filed Alleging Investor Harm",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-22T16:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.542
+            "title": "Greenland Mines Applauds Formal Signing of U.S.-Denmark-Greenland Security Agreement at United Nations",
+            "source": "Financial Post",
+            "publishedAt": "2026-09-22T16:01:59Z",
+            "sentiment": "Positive",
+            "compound": 0.869
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.32,
-  "trade_probability": 44.19,
+  "confirmation_score": 40.37,
+  "trade_probability": 44.22,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
