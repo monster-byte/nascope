@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T19:01:20.630892+00:00",
+  "generated_at": "2026-09-23T19:15:51.311711+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,36 +13,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
+      "score": 0.0,
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.8143,
+          "change_pct": -0.9947,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.0329,
-          "up": true
+          "change_pct": -0.052,
+          "up": false
         },
         "NVDA": {
-          "change_pct": -1.3957,
+          "change_pct": -1.4395,
           "up": false
         },
         "AMZN": {
-          "change_pct": -2.1766,
+          "change_pct": -2.1726,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 82.91,
+      "score": 82.78,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30470.57,
-        "sma50": 29213.25,
-        "sma200": 27279.23
+        "last_price": 30457.57,
+        "sma50": 29212.99,
+        "sma200": 27279.17
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 55.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 20.48,
+        "current_vxn": 20.39,
         "percentile_vs_20d": 45.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 28.7,
+      "score": 31.1,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.129,
-        "change_5d_pct": 2.662
+        "current_yield_pct": 5.114,
+        "change_5d_pct": 2.362
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 38.32,
+      "score": 38.36,
       "status": "red",
       "details": {
-        "current_dxy": 101.11,
-        "change_5d_pct": 1.46
+        "current_dxy": 101.1,
+        "change_5d_pct": 1.455
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.93,
+      "score": 48.49,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.021,
+        "avg_compound": -0.03,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Trump admin says it will save $2.2 billion by kicking off 760,000 Affordable Care Act enrollees over fraud claims",
+            "source": "Fortune",
+            "publishedAt": "2026-09-22T19:10:44Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "Trump administration to remove 760,000 Affordable Care Act enrollees over fraud claims",
+            "source": "Abcnews.com",
+            "publishedAt": "2026-09-22T19:10:29Z",
+            "sentiment": "Neutral",
+            "compound": -0.153
+          },
+          {
+            "title": "Sangoma Announces Date of Fourth Quarter Fiscal 2026 Financial Results and Conference Call",
+            "source": "Financial Post",
+            "publishedAt": "2026-09-22T19:09:55Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Anthropic IPO faces uncertainty amid market delays, eyes $2T valuation",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-22T19:06:27Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
+          {
+            "title": "Trump floats banning U.S. diesel exports as prices hit a record $6.52",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-22T19:01:58Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Why Affordability Politics Breed Economic Illiteracy",
             "source": "The Atlantic",
             "publishedAt": "2026-09-22T19:00:00Z",
             "sentiment": "Negative",
             "compound": -0.44
-          },
-          {
-            "title": "$6.53 Diesel US Average, $8.25 in California, Worsens Already Hot Inflation, amid Record US Diesel Exports. Gasoline & Jet Fuel Prices also Spike",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-22T18:59:10Z",
-            "sentiment": "Negative",
-            "compound": -0.477
-          },
-          {
-            "title": "Ramp Debuts AR Tool to Keep Finance Teams From Chasing Payments",
-            "source": "pymnts.com",
-            "publishedAt": "2026-09-22T18:58:39Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "US midterm elections 2026: A new Congress could change Trump's legislative agenda; what house control means for Washington",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-22T18:58:38Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Wise Group plc (WSE) Shareholders Who Lost Money Have Opportunity to Lead Securities Fraud Lawsuit",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-22T18:55:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.026
-          },
-          {
-            "title": "'Inflated medicine prices are daylight robbery': SC pulls up pharma companies over huge MRP-PTR gap",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-22T18:51:19Z",
-            "sentiment": "Positive",
-            "compound": 0.318
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.12,
-  "trade_probability": 46.47,
+  "confirmation_score": 37.64,
+  "trade_probability": 42.58,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
