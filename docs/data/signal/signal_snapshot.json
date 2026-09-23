@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T15:01:30.511762+00:00",
+  "generated_at": "2026-09-23T15:15:52.803186+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.5593,
+          "change_pct": -0.5431,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.1159,
+          "change_pct": -0.6034,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.98,
+          "change_pct": -1.1594,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.9338,
+          "change_pct": -1.9358,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 83.48,
+      "score": 83.25,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30527.56,
-        "sma50": 29214.39,
-        "sma200": 27279.52
+        "last_price": 30504.51,
+        "sma50": 29213.93,
+        "sma200": 27279.4
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 65.0,
+      "score": 90.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.35,
-        "percentile_vs_20d": 35.0
+        "current_vxn": 19.8,
+        "percentile_vs_20d": 10.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 38.31,
+      "score": 39.43,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.069,
-        "change_5d_pct": 1.461
+        "current_yield_pct": 5.062,
+        "change_5d_pct": 1.321
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 38.54,
+      "score": 38.83,
       "status": "red",
       "details": {
-        "current_dxy": 101.08,
-        "change_5d_pct": 1.432
+        "current_dxy": 101.04,
+        "change_5d_pct": 1.396
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.24,
+      "score": 51.0,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.065,
+        "avg_compound": 0.02,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "SpaceX’s AI business projected to generate $322B by 2030 as company prepares for Nasdaq IPO",
+            "title": "Official Statistics: Producer price inflation, UK: July 2027",
+            "source": "Www.gov.uk",
+            "publishedAt": "2026-09-22T15:15:44Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Federal Reserve Bank of New York’s John Williams says Treasury central clearing transition is ahead of schedule",
             "source": "Crypto Briefing",
-            "publishedAt": "2026-09-22T15:01:22Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Should You Buy Moderna Stock? Why Many Wall Street Analysts Say \"No.\"",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-22T15:01:10Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "How Kevin Warsh’s rate hike exposed a 2-speed U.S. economy, with AI and housing at the poles",
-            "source": "Fortune",
-            "publishedAt": "2026-09-22T15:01:05Z",
-            "sentiment": "Neutral",
-            "compound": -0.077
-          },
-          {
-            "title": "Roundtable Files 8-K: Projects $90-$100 Million in 2027 Revenue and Annualized Adjusted EBITDA-Positive Operations",
-            "source": "TheStreet",
-            "publishedAt": "2026-09-22T15:01:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "The More Complicated Chips Become, the More Interesting Synopsys Gets",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-22T15:00:58Z",
+            "publishedAt": "2026-09-22T15:15:27Z",
             "sentiment": "Positive",
-            "compound": 0.458
+            "compound": 0.202
           },
           {
-            "title": "India among just two regions where incomes rising, says WEF survey",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-22T15:00:38Z",
+            "title": "Investors Snub Wall Street, Build $5.1 Trillion Cash Fortress as Fed Pushes Rates Toward 4.75%",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-22T15:13:35Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
+          {
+            "title": "Nick Clegg could make £30m windfall from datacentre startup Nscale flotation",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-22T15:13:21Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "Foreign Capitals, K.M. and the Pressure at the Ballot Box, Nikos A.’s Airport Transfers and Alexis’ Bench — Let’s All Go to Katerina for Psychotherapy",
+            "source": "Protothema.gr",
+            "publishedAt": "2026-09-22T15:12:30Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "Intel stock up 25% in last 5 days, on CPU demand as AI agents gain traction",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-22T15:12:17Z",
+            "sentiment": "Positive",
+            "compound": 0.44
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.05,
-  "trade_probability": 44.03,
+  "confirmation_score": 42.25,
+  "trade_probability": 45.35,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
