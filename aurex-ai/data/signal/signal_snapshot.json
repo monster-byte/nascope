@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T18:45:50.748956+00:00",
+  "generated_at": "2026-09-23T19:01:20.630892+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.8535,
+          "change_pct": -0.8143,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.0219,
+          "change_pct": 0.0329,
           "up": true
         },
         "NVDA": {
-          "change_pct": -1.3913,
+          "change_pct": -1.3957,
           "up": false
         },
         "AMZN": {
-          "change_pct": -2.2764,
+          "change_pct": -2.1766,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 82.72,
+      "score": 82.91,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30451.7,
-        "sma50": 29212.88,
-        "sma200": 27279.14
+        "last_price": 30470.57,
+        "sma50": 29213.25,
+        "sma200": 27279.23
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 65.0,
-      "status": "green",
+      "score": 55.0,
+      "status": "yellow",
       "details": {
-        "current_vxn": 20.35,
-        "percentile_vs_20d": 35.0
+        "current_vxn": 20.48,
+        "percentile_vs_20d": 45.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 29.34,
+      "score": 28.7,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.125,
-        "change_5d_pct": 2.582
+        "current_yield_pct": 5.129,
+        "change_5d_pct": 2.662
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 38.3,
+      "score": 38.32,
       "status": "red",
       "details": {
         "current_dxy": 101.11,
-        "change_5d_pct": 1.463
+        "change_5d_pct": 1.46
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.17,
+      "score": 48.93,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.037,
+        "avg_compound": -0.021,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "AI data centre funding surges to record $35 billion",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-09-22T18:43:10Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Gen Z Is Hitting a Critical Wealth Milestone the Average Boomer Didn’t Reach Until Age 32",
-            "source": "Entrepreneur",
-            "publishedAt": "2026-09-22T18:41:24Z",
-            "sentiment": "Positive",
-            "compound": 0.25
-          },
-          {
-            "title": "Terry Savage: Why the national debt should concern us",
-            "source": "Arcamax.com",
-            "publishedAt": "2026-09-22T18:38:31Z",
+            "title": "Why Affordability Politics Breed Economic Illiteracy",
+            "source": "The Atlantic",
+            "publishedAt": "2026-09-22T19:00:00Z",
             "sentiment": "Negative",
-            "compound": -0.67
+            "compound": -0.44
           },
           {
-            "title": "CVE-2026-17613: Penpot cross-team file takeover via import-binfile (unpatched in 2.17.2)",
-            "source": "Seclists.org",
-            "publishedAt": "2026-09-22T18:32:22Z",
+            "title": "$6.53 Diesel US Average, $8.25 in California, Worsens Already Hot Inflation, amid Record US Diesel Exports. Gasoline & Jet Fuel Prices also Spike",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-22T18:59:10Z",
+            "sentiment": "Negative",
+            "compound": -0.477
+          },
+          {
+            "title": "Ramp Debuts AR Tool to Keep Finance Teams From Chasing Payments",
+            "source": "pymnts.com",
+            "publishedAt": "2026-09-22T18:58:39Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Trump Says He’s Changing Artificial Intelligence to ‘Super Intelligence’ on Government Documents",
-            "source": "Gizmodo.com",
-            "publishedAt": "2026-09-22T18:30:32Z",
-            "sentiment": "Positive",
-            "compound": 0.477
+            "title": "US midterm elections 2026: A new Congress could change Trump's legislative agenda; what house control means for Washington",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-22T18:58:38Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Social Security October 2026 payments: Why SSI gets two checks, the calendar twist behind the second deposit and what the 2027 COLA could change",
+            "title": "Wise Group plc (WSE) Shareholders Who Lost Money Have Opportunity to Lead Securities Fraud Lawsuit",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-22T18:55:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.026
+          },
+          {
+            "title": "'Inflated medicine prices are daylight robbery': SC pulls up pharma companies over huge MRP-PTR gap",
             "source": "The Times of India",
-            "publishedAt": "2026-09-22T18:30:17Z",
+            "publishedAt": "2026-09-22T18:51:19Z",
             "sentiment": "Positive",
-            "compound": 0.34
+            "compound": 0.318
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 45.01,
-  "trade_probability": 47.01,
+  "confirmation_score": 44.12,
+  "trade_probability": 46.47,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
