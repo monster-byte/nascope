@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T20:36:47.395419+00:00",
+  "generated_at": "2026-09-23T20:45:59.326522+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 38.25,
+      "score": 38.16,
       "status": "red",
       "details": {
-        "current_dxy": 101.11,
-        "change_5d_pct": 1.469
+        "current_dxy": 101.12,
+        "change_5d_pct": 1.48
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.49,
+      "score": 46.86,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.05,
+        "avg_compound": -0.063,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Trump’s focus on the press distracts Republicans from pocketbook issues ahead of Election Day",
+            "source": "NBC News",
+            "publishedAt": "2026-09-22T20:45:17Z",
+            "sentiment": "Negative",
+            "compound": -0.318
+          },
+          {
+            "title": "SPYx leads tokenized ETF market cap growth by $8M in seven days",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-22T20:37:50Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
           {
             "title": "Simmons First National Corporation to Host Investor Day",
             "source": "PRNewswire",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-09-22T20:20:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Will investors be better or worse off under new housing tax changes? See what 18 years of data reveals",
-            "source": "The Conversation Africa",
-            "publishedAt": "2026-09-22T20:16:46Z",
-            "sentiment": "Neutral",
-            "compound": -0.052
-          },
-          {
-            "title": "The Coalition plans to halve the fuel excise when global prices spike. How will Australians respond?",
-            "source": "The Conversation Africa",
-            "publishedAt": "2026-09-22T20:16:23Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.76,
-  "trade_probability": 46.86,
+  "confirmation_score": 44.69,
+  "trade_probability": 46.81,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
