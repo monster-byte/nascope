@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T19:15:51.311711+00:00",
+  "generated_at": "2026-09-23T19:31:11.475252+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.9947,
+          "change_pct": -1.1006,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.052,
+          "change_pct": -0.061,
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.4395,
+          "change_pct": -1.4941,
           "up": false
         },
         "AMZN": {
-          "change_pct": -2.1726,
+          "change_pct": -2.0415,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 82.78,
+      "score": 82.76,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30457.57,
-        "sma50": 29212.99,
-        "sma200": 27279.17
+        "last_price": 30455.86,
+        "sma50": 29212.96,
+        "sma200": 27279.16
       }
     },
     "vxn": {
@@ -50,7 +50,7 @@
       "score": 55.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 20.39,
+        "current_vxn": 20.49,
         "percentile_vs_20d": 45.0
       }
     },
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 38.36,
+      "score": 38.19,
       "status": "red",
       "details": {
-        "current_dxy": 101.1,
-        "change_5d_pct": 1.455
+        "current_dxy": 101.12,
+        "change_5d_pct": 1.476
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.49,
+      "score": 49.7,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.03,
+        "avg_compound": -0.006,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "What Democrats Won’t Tell Voters About ‘Affordability’: A $47 Trillion Health Plan and a Tax Hike on Every Working Family",
+            "source": "Lizpeek.com",
+            "publishedAt": "2026-09-22T19:26:31Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Disillusioned conservatives lose faith in Trump as issues pile up: 'Can't listen to him'",
+            "source": "Raw Story",
+            "publishedAt": "2026-09-22T19:25:13Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
+          {
+            "title": "1992 GMC Typhoon For Sale With 146,000 Miles Will Show You What The Cool Dads Drove In The '90s",
+            "source": "Jalopnik",
+            "publishedAt": "2026-09-22T19:25:00Z",
+            "sentiment": "Positive",
+            "compound": 0.318
+          },
+          {
+            "title": "Disruptive Technology & the Generational Skills Gap – Epi-3906",
+            "source": "Thesurvivalpodcast.com",
+            "publishedAt": "2026-09-22T19:22:06Z",
+            "sentiment": "Negative",
+            "compound": -0.318
+          },
+          {
+            "title": "Animoca Brands suspends Currenc deal that would have taken it public",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-09-22T19:20:31Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Trump admin says it will save $2.2 billion by kicking off 760,000 Affordable Care Act enrollees over fraud claims",
             "source": "Fortune",
             "publishedAt": "2026-09-22T19:10:44Z",
             "sentiment": "Positive",
             "compound": 0.382
-          },
-          {
-            "title": "Trump administration to remove 760,000 Affordable Care Act enrollees over fraud claims",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-09-22T19:10:29Z",
-            "sentiment": "Neutral",
-            "compound": -0.153
-          },
-          {
-            "title": "Sangoma Announces Date of Fourth Quarter Fiscal 2026 Financial Results and Conference Call",
-            "source": "Financial Post",
-            "publishedAt": "2026-09-22T19:09:55Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Anthropic IPO faces uncertainty amid market delays, eyes $2T valuation",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-22T19:06:27Z",
-            "sentiment": "Negative",
-            "compound": -0.34
-          },
-          {
-            "title": "Trump floats banning U.S. diesel exports as prices hit a record $6.52",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-22T19:01:58Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Why Affordability Politics Breed Economic Illiteracy",
-            "source": "The Atlantic",
-            "publishedAt": "2026-09-22T19:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.44
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 37.64,
-  "trade_probability": 42.58,
+  "confirmation_score": 37.73,
+  "trade_probability": 42.64,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
