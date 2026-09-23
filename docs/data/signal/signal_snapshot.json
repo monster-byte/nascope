@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T08:31:14.718360+00:00",
+  "generated_at": "2026-09-23T08:45:53.423071+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 40.62,
+      "score": 40.98,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.82,
-        "change_5d_pct": 1.172
+        "current_dxy": 100.77,
+        "change_5d_pct": 1.128
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.09,
+      "score": 45.09,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.058,
+        "avg_compound": -0.098,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Global Market: Eurozone bond yields rise as oil prices rebound above $100",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-22T08:39:45Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "US set to open lower ahead of Trump's UNGA speech",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-22T08:36:58Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "Benchmarks hit fresh intraday low; Europe opens in the green",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-22T08:34:02Z",
+            "sentiment": "Neutral",
+            "compound": 0.052
+          },
           {
             "title": "Politics with Michelle Grattan: Jim Chalmers warns rising debt bills are set to hit the budget",
             "source": "The Conversation Africa",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-09-22T08:25:39Z",
             "sentiment": "Positive",
             "compound": 0.296
-          },
-          {
-            "title": "Hauliers warn they ‘cannot sustain’ fuel prices ahead of meeting with Harris",
-            "source": "The Irish Times",
-            "publishedAt": "2026-09-22T08:24:20Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
-          },
-          {
-            "title": "Nasdaq hits record high as AI stocks rally; AMD crosses $1 trillion valuation",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-22T08:18:11Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Gold rate today (September 22, 2026): Check 24k, 22k, 20k and 18k gold jewellery prices from Malabar Gold & Diamonds, Joyalukkas, Kalyan Jewellers, Tanishq & IBJA in Delhi, Mumbai, Hyderabad & more cities",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-22T08:16:34Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 45.7,
-  "trade_probability": 47.42,
+  "confirmation_score": 45.55,
+  "trade_probability": 47.33,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
