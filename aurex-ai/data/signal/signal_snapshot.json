@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T03:31:05.317154+00:00",
+  "generated_at": "2026-09-23T03:45:53.747235+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.56,
+      "score": 41.69,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.7,
-        "change_5d_pct": 1.055
+        "current_dxy": 100.68,
+        "change_5d_pct": 1.039
       }
     },
     "macro": {
@@ -85,10 +85,56 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.0,
+      "score": 55.7,
       "status": "yellow",
       "details": {
-        "error": "news_fetch_failed: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?q=Nasdaq+OR+%22Federal+Reserve%22+OR+%22stock+market%22+OR+inflation&language=en&sortBy=publishedAt&pageSize=25&apiKey=280ea038bd7e4ccb91d87f9d115484d4"
+        "overall_sentiment": "NEUTRAL",
+        "avg_compound": 0.114,
+        "articles_analyzed": 25,
+        "top_headlines": [
+          {
+            "title": "GIFT Nifty points to lower start; oil prices, FII flows in focus",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-22T03:34:01Z",
+            "sentiment": "Positive",
+            "compound": 0.629
+          },
+          {
+            "title": "Taiwan benchmark Taiex rises to record intraday high as tech stocks advance",
+            "source": "CNBC",
+            "publishedAt": "2026-09-22T03:33:20Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Rupee to edge higher as oil slips; inflow haul caps bearish bets",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-22T03:26:11Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "David Kochie's blunt letter to the RBA calling out the Albanese government - as millions of Aussies brace for another mortgage shock",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-09-22T03:24:27Z",
+            "sentiment": "Negative",
+            "compound": -0.382
+          },
+          {
+            "title": "Breaking Down the Philippines’ 2027 Budget",
+            "source": "The Diplomat",
+            "publishedAt": "2026-09-22T03:24:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "RRB NTPC UG recruitment 2026 notification out for 1688 posts: Check dates and eligibility",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-22T03:21:40Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          }
+        ]
       }
     },
     "patent_momentum": {
@@ -100,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.74,
-  "trade_probability": 46.84,
+  "confirmation_score": 45.27,
+  "trade_probability": 47.16,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
