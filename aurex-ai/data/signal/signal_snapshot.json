@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T17:15:56.010746+00:00",
+  "generated_at": "2026-09-23T17:22:39.356208+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,15 +17,15 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.6946,
+          "change_pct": -0.6417,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.1683,
+          "change_pct": -0.0979,
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.8157,
+          "change_pct": -1.7278,
           "up": false
         },
         "AMZN": {
@@ -36,40 +36,40 @@
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 82.03,
+      "score": 82.44,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30382.84,
-        "sma50": 29211.5,
-        "sma200": 27278.79
+        "last_price": 30423.98,
+        "sma50": 29212.32,
+        "sma200": 27279.0
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 60.0,
+      "score": 55.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 20.42,
-        "percentile_vs_20d": 40.0
+        "current_vxn": 20.65,
+        "percentile_vs_20d": 45.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 32.39,
+      "score": 29.34,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.106,
-        "change_5d_pct": 2.202
+        "current_yield_pct": 5.125,
+        "change_5d_pct": 2.582
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 37.51,
+      "score": 37.4,
       "status": "red",
       "details": {
-        "current_dxy": 101.21,
-        "change_5d_pct": 1.561
+        "current_dxy": 101.22,
+        "change_5d_pct": 1.575
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.43,
+      "score": 48.56,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.031,
+        "avg_compound": -0.029,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "No new stock highs, no problem: Options traders bet they're coming in these names",
+            "source": "CNBC",
+            "publishedAt": "2026-09-22T17:22:27Z",
+            "sentiment": "Neutral",
+            "compound": 0.015
+          },
+          {
+            "title": "Micron, IBD Stock Of The Day, Surges Past Early Buy Point With Earnings Ahead",
+            "source": "Investor's Business Daily",
+            "publishedAt": "2026-09-22T17:20:49Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Viking Soars Alone as Obesity Complex Shrugs at Strong GLP-1 Results",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-22T17:20:27Z",
+            "sentiment": "Positive",
+            "compound": 0.318
+          },
           {
             "title": "AMD is the latest tech company to hit a $1 trillion market cap. Here’s why",
             "source": "Biztoc.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-09-22T17:10:48Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Shares advance as falling oil prices relieve pressure",
-            "source": "The Irish Times",
-            "publishedAt": "2026-09-22T17:10:39Z",
-            "sentiment": "Positive",
-            "compound": 0.226
-          },
-          {
-            "title": "Cisco Sinks 6% While the Tech Sector Rises; Arista and Ciena Hold Flat",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-22T17:06:44Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "The 10-year Treasury yield just hit 5% for the first time since 2007 — is a 1970s-style ‘stagflation’ on the return?",
-            "source": "Fortune",
-            "publishedAt": "2026-09-22T17:06:38Z",
-            "sentiment": "Positive",
-            "compound": 0.202
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 38.08,
-  "trade_probability": 42.85,
+  "confirmation_score": 37.28,
+  "trade_probability": 42.37,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
