@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T18:15:51.652369+00:00",
+  "generated_at": "2026-09-23T18:31:11.073787+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.8197,
+          "change_pct": -0.8476,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.2057,
+          "change_pct": -0.054,
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.3919,
+          "change_pct": -1.3693,
           "up": false
         },
         "AMZN": {
-          "change_pct": -2.3096,
+          "change_pct": -2.3527,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 82.79,
+      "score": 82.74,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30458.57,
-        "sma50": 29213.01,
-        "sma200": 27279.17
+        "last_price": 30453.81,
+        "sma50": 29212.92,
+        "sma200": 27279.15
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 60.0,
-      "status": "yellow",
+      "score": 65.0,
+      "status": "green",
       "details": {
-        "current_vxn": 20.42,
-        "percentile_vs_20d": 40.0
+        "current_vxn": 20.37,
+        "percentile_vs_20d": 35.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 30.14,
+      "score": 29.82,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.12,
-        "change_5d_pct": 2.482
+        "current_yield_pct": 5.122,
+        "change_5d_pct": 2.522
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 38.59,
+      "score": 38.5,
       "status": "red",
       "details": {
-        "current_dxy": 101.07,
-        "change_5d_pct": 1.426
+        "current_dxy": 101.08,
+        "change_5d_pct": 1.438
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.01,
+      "score": 50.1,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.0,
+        "avg_compound": 0.002,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "S&P 500 sends unsettling signal last seen before a crash",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-22T18:14:19Z",
-            "sentiment": "Negative",
-            "compound": -0.402
-          },
-          {
-            "title": "Nasdaq hits intraday record high on tech boost, Mideast negotiation hopes - Reuters",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-09-22T18:13:08Z",
+            "title": "Trump Says He’s Changing Artificial Intelligence to ‘Super Intelligence’ on Government Documents",
+            "source": "Gizmodo.com",
+            "publishedAt": "2026-09-22T18:30:32Z",
             "sentiment": "Positive",
-            "compound": 0.67
+            "compound": 0.477
           },
           {
-            "title": "Binance distributes $0.75 QQQB dividends to spot wallets",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-22T18:11:03Z",
+            "title": "Social Security October 2026 payments: Why SSI gets two checks, the calendar twist behind the second deposit and what the 2027 COLA could change",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-22T18:30:17Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
+          {
+            "title": "Fox News admits midterms are shaping up as a 'rejection of Trump's agenda'",
+            "source": "Raw Story",
+            "publishedAt": "2026-09-22T18:29:01Z",
+            "sentiment": "Negative",
+            "compound": -0.318
+          },
+          {
+            "title": "Kentucky Mom Thought a Caramel Apple Would Cost $7. Then She Saw the Receipt",
+            "source": "TODAY",
+            "publishedAt": "2026-09-22T18:28:47Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Why Bitcoin’s rally is dangerous according to new Fed data",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-09-22T18:05:59Z",
-            "sentiment": "Negative",
-            "compound": -0.477
+            "title": "Accelevation targets up to $5.4 billion valuation in US IPO",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-22T18:25:21Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Wall Street Thinks Rocket Lab Is a Buy. Here's Why I'm Not So Sure",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-22T18:02:09Z",
+            "title": "US economy firming as inflation risks persist, says Richmond Fed’s Tom Barkin",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-22T18:21:41Z",
             "sentiment": "Negative",
-            "compound": -0.356
-          },
-          {
-            "title": "If a Stock Market Crash Happens, History Says This Is How Long It Could Take Investors to Recover",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-22T18:02:04Z",
-            "sentiment": "Negative",
-            "compound": -0.402
+            "compound": -0.273
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 38.12,
-  "trade_probability": 42.87,
+  "confirmation_score": 38.52,
+  "trade_probability": 43.11,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
