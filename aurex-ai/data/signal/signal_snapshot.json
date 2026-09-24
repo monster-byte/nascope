@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T17:01:23.973355+00:00",
+  "generated_at": "2026-09-24T17:15:52.958158+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.4552,
+          "change_pct": 0.4345,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.818,
+          "change_pct": -0.769,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.3648,
+          "change_pct": -0.2981,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.4438,
+          "change_pct": 0.6736,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 82.87,
+      "score": 82.83,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30485.4,
-        "sma50": 29231.23,
-        "sma200": 27303.75
+        "last_price": 30481.14,
+        "sma50": 29231.15,
+        "sma200": 27303.73
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 50.0,
+      "score": 45.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 20.98,
-        "percentile_vs_20d": 50.0
+        "current_vxn": 21.05,
+        "percentile_vs_20d": 55.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 29.07,
+      "score": 28.11,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.137,
-        "change_5d_pct": 2.617
+        "current_yield_pct": 5.143,
+        "change_5d_pct": 2.737
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.89,
+      "score": 42.87,
       "status": "yellow",
       "details": {
         "current_dxy": 101.2,
-        "change_5d_pct": 0.888
+        "change_5d_pct": 0.891
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.48,
+      "score": 54.87,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.11,
+        "avg_compound": 0.097,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Gold falls as traders weigh U.S.-Iran talk progress",
-            "source": "Financial Post",
-            "publishedAt": "2026-09-23T17:00:54Z",
-            "sentiment": "Positive",
-            "compound": 0.421
-          },
-          {
-            "title": "Nvidia Scores Winning Streak: Trump-Xi Meeting, China Sales Outlook In Focus",
-            "source": "Investor's Business Daily",
-            "publishedAt": "2026-09-23T17:00:17Z",
-            "sentiment": "Positive",
-            "compound": 0.527
-          },
-          {
-            "title": "Shopify Price Prediction: Wall Street Sees More Upside Than We Do",
+            "title": "Micron Price Target Raised to $1,300 by Citi on Stronger DRAM Pricing, Undersupply",
             "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-23T17:00:02Z",
+            "publishedAt": "2026-09-23T17:15:25Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "Fed's Michael Barr backs more rate hikes as PMI hits 5-year high",
+            "source": "Quartz India",
+            "publishedAt": "2026-09-23T17:14:50Z",
+            "sentiment": "Neutral",
+            "compound": -0.052
+          },
+          {
+            "title": "Official Statistics: Producer price inflation, UK: December 2027, including services, October to December 2027 time series",
+            "source": "Www.gov.uk",
+            "publishedAt": "2026-09-23T17:12:10Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "U.S. Energy Secretary: Blunt Tool of Banning Diesel Exports Doesn't Work",
-            "source": "OilPrice.com",
-            "publishedAt": "2026-09-23T17:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.273
-          },
-          {
-            "title": "Letters: Sorry Winston, but staying silent is not a sign of an independent foreign policy",
-            "source": "New Zealand Herald",
-            "publishedAt": "2026-09-23T17:00:00Z",
+            "title": "Creatio commits $300m to scale financial AI",
+            "source": "Retailbankerinternational.com",
+            "publishedAt": "2026-09-23T17:11:14Z",
             "sentiment": "Neutral",
-            "compound": -0.039
+            "compound": 0.026
           },
           {
-            "title": "CNN Fact Checker Calls Out Trump’s ‘Single Most Politically Damaging Category of Lie’",
-            "source": "Mediaite",
-            "publishedAt": "2026-09-23T16:58:20Z",
-            "sentiment": "Negative",
-            "compound": -0.554
+            "title": "Why Paychex Stock Dropped Today",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-23T17:10:12Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Stock Market Midday, Sept. 23: Stocks Slip as Treasury Yields Hit 19-Year High",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-23T17:10:01Z",
+            "sentiment": "Positive",
+            "compound": 0.202
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 51.47,
-  "trade_probability": 50.88,
+  "confirmation_score": 50.82,
+  "trade_probability": 50.49,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
