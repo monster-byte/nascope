@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T16:15:51.297530+00:00",
+  "generated_at": "2026-09-24T16:31:09.036205+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.3217,
+          "change_pct": 0.2994,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.948,
+          "change_pct": -0.93,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.9869,
+          "change_pct": -0.7558,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.2324,
+          "change_pct": -0.0081,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 81.18,
+      "score": 82.08,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30317.22,
-        "sma50": 29227.87,
-        "sma200": 27302.91
+        "last_price": 30406.78,
+        "sma50": 29229.66,
+        "sma200": 27303.36
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 35.0,
-      "status": "red",
+      "score": 45.0,
+      "status": "yellow",
       "details": {
-        "current_vxn": 21.47,
-        "percentile_vs_20d": 65.0
+        "current_vxn": 21.27,
+        "percentile_vs_20d": 55.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 24.43,
+      "score": 27.63,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.166,
-        "change_5d_pct": 3.196
+        "current_yield_pct": 5.146,
+        "change_5d_pct": 2.797
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.2,
+      "score": 42.83,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.29,
-        "change_5d_pct": 0.975
+        "current_dxy": 101.21,
+        "change_5d_pct": 0.896
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.22,
+      "score": 54.45,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.084,
+        "avg_compound": 0.089,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "More lower-income households feel financially vulnerable",
-            "source": "Retail Dive",
-            "publishedAt": "2026-09-23T16:13:00Z",
-            "sentiment": "Negative",
-            "compound": -0.226
-          },
-          {
-            "title": "Telecom Dividends Get Taxed Hard: Here’s How Much More You Keep With a Roth Strategy",
+            "title": "PayPal Just Got a Meta Partnership. Here’s What It Could Mean for the Stock",
             "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-23T16:12:43Z",
+            "publishedAt": "2026-09-23T16:30:00Z",
             "sentiment": "Neutral",
-            "compound": -0.103
+            "compound": 0.0
           },
           {
-            "title": "Here's A Way To Cut Risk On This Top-Performing Stock",
-            "source": "Investor's Business Daily",
-            "publishedAt": "2026-09-23T16:11:44Z",
-            "sentiment": "Negative",
-            "compound": -0.494
+            "title": "Scientists warn super El Nino could cause 450,000 deaths: Should we worry?",
+            "source": "Al Jazeera English",
+            "publishedAt": "2026-09-23T16:29:55Z",
+            "sentiment": "Neutral",
+            "compound": 0.153
           },
           {
-            "title": "Trump reveals millions of dollars' worth of share deals in big tech and AI",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-23T16:08:31Z",
+            "title": "McDonald’s shares drop after CEO reveals lackluster growth forecast as inflation accelerates",
+            "source": "New York Post",
+            "publishedAt": "2026-09-23T16:27:59Z",
             "sentiment": "Positive",
-            "compound": 0.477
+            "compound": 0.402
           },
           {
-            "title": "Iran “Offered” to Reopen the Strait of Hormuz. These Stocks Could Be the Biggest Winners",
+            "title": "What Would It Take for Ethereum to Hit $5,000?",
             "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-23T16:07:57Z",
-            "sentiment": "Positive",
-            "compound": 0.477
+            "publishedAt": "2026-09-23T16:26:37Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Peloton’s Collapse Continues",
+            "title": "D.C.’s affordability headache has a silver bullet, new study shows: Tackling $40 trillion national debt would boost household income by $36,000",
+            "source": "Fortune",
+            "publishedAt": "2026-09-23T16:25:02Z",
+            "sentiment": "Neutral",
+            "compound": 0.052
+          },
+          {
+            "title": "Treasury yields surge to nearly 20-year high as oil jumps back above $100",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-23T16:06:03Z",
-            "sentiment": "Negative",
-            "compound": -0.494
+            "publishedAt": "2026-09-23T16:21:01Z",
+            "sentiment": "Positive",
+            "compound": 0.202
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 42.34,
-  "trade_probability": 45.4,
+  "confirmation_score": 43.87,
+  "trade_probability": 46.32,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
