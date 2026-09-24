@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T13:45:54.635546+00:00",
+  "generated_at": "2026-09-24T14:01:24.685025+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,15 +13,15 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 0.0,
+      "score": 25.0,
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.6102,
-          "up": false
+          "change_pct": 0.1377,
+          "up": true
         },
         "MSFT": {
-          "change_pct": -1.451,
+          "change_pct": -1.46,
           "up": false
         },
         "NVDA": {
@@ -29,47 +29,47 @@
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.5669,
+          "change_pct": -0.7908,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 81.02,
+      "score": 81.11,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30300.88,
-        "sma50": 29227.54,
-        "sma200": 27302.83
+        "last_price": 30310.04,
+        "sma50": 29227.72,
+        "sma200": 27302.87
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 60.0,
+      "score": 50.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 20.71,
-        "percentile_vs_20d": 40.0
+        "current_vxn": 21.03,
+        "percentile_vs_20d": 50.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 34.98,
+      "score": 35.62,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.1,
-        "change_5d_pct": 1.878
+        "current_yield_pct": 5.096,
+        "change_5d_pct": 1.798
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.91,
+      "score": 42.38,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.32,
-        "change_5d_pct": 1.011
+        "current_dxy": 101.26,
+        "change_5d_pct": 0.952
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.1,
+      "score": 53.88,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.022,
+        "avg_compound": 0.078,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "'We've simplified it': Education Dept. rolls out FAFSA form earlier than ever before",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-09-23T13:44:35Z",
+            "title": "Half of young Australian adults now living with parents, up from 39 per cent in 2001, survey shows",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-09-23T14:01:05Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Intel Skyrocketed 30% Higher in 1 Month: Here’s What to Do Now",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-23T13:42:57Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "These are the 7 money habits 'quietly wealthy' Americans follow - how to put their playbook to work",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-23T14:00:56Z",
+            "sentiment": "Positive",
+            "compound": 0.361
           },
           {
-            "title": "US stocks drift near their all time high as crude oil prices turn higher",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-09-23T13:42:04Z",
+            "title": "Prevalence and predictors of artificial intelligence chatbots use for caregiving: Evidence from the Understanding America Study",
+            "source": "Plos.org",
+            "publishedAt": "2026-09-23T14:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.477
+          },
+          {
+            "title": "Identification of rs28362336 as a risk SNP for generalized myasthenia gravis and its impact on HCG27 regulation",
+            "source": "Plos.org",
+            "publishedAt": "2026-09-23T14:00:00Z",
             "sentiment": "Negative",
-            "compound": -0.572
+            "compound": -0.273
           },
           {
-            "title": "Base’s 24/7 stock market offers three-digit APRs for liquidity providers",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-23T13:42:02Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Use of faricimab for refractory diabetic macular edema in real-world clinical practice: When anatomical success meets functional limits",
+            "source": "Plos.org",
+            "publishedAt": "2026-09-23T14:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.572
           },
           {
-            "title": "Gold will likely be under pressure in Q4 on hawkish US Fed policy",
-            "source": "BusinessLine",
-            "publishedAt": "2026-09-23T13:41:40Z",
-            "sentiment": "Negative",
-            "compound": -0.296
-          },
-          {
-            "title": "MYRECIPES LAUNCHES THE ULTIMATE APP FOR HOME COOKS",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-23T13:40:00Z",
+            "title": "Using a Stifneck Select CollarTM for hands-free semiautomatic blood flow measurements: A user study",
+            "source": "Plos.org",
+            "publishedAt": "2026-09-23T14:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 38.93,
-  "trade_probability": 43.36,
+  "confirmation_score": 45.17,
+  "trade_probability": 47.1,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
