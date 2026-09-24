@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T17:45:51.933067+00:00",
+  "generated_at": "2026-09-24T18:01:27.535097+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
-      "status": "red",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.0671,
-          "up": false
+          "change_pct": 0.0665,
+          "up": true
         },
         "MSFT": {
-          "change_pct": -1.002,
+          "change_pct": -0.893,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.6314,
+          "change_pct": -0.6136,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.2945,
+          "change_pct": 0.6505,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 81.85,
+      "score": 81.78,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30383.29,
-        "sma50": 29229.19,
-        "sma200": 27303.24
+        "last_price": 30376.74,
+        "sma50": 29229.06,
+        "sma200": 27303.21
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 40.0,
+      "score": 45.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.22,
-        "percentile_vs_20d": 60.0
+        "current_vxn": 21.36,
+        "percentile_vs_20d": 55.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 27.31,
+      "score": 25.71,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.148,
-        "change_5d_pct": 2.837
+        "current_yield_pct": 5.158,
+        "change_5d_pct": 3.036
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.08,
+      "score": 41.83,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.3,
-        "change_5d_pct": 0.99
+        "current_dxy": 101.33,
+        "change_5d_pct": 1.022
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.33,
+      "score": 52.75,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.067,
+        "avg_compound": 0.055,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "ON Semiconductor targets $213B AI power market amid strategic shift",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-23T17:44:58Z",
+            "title": "MERCANTILE BANK HELPS DELIVER $150,000 FOR AFFORDABLE HOUSING INITIATIVES ACROSS MICHIGAN",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-23T18:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.516
+          },
+          {
+            "title": "Autonomy Adds ID.4 EVs To Easy-Access Subscription Service Lineup",
+            "source": "CleanTechnica",
+            "publishedAt": "2026-09-23T17:59:04Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "How to Build $5,350 a Month in Tax-Free Dividend Income Inside a Roth IRA",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-23T17:42:56Z",
+            "title": "AI skeptics surrender again as traders eye path forward for tech",
+            "source": "Financial Post",
+            "publishedAt": "2026-09-23T17:58:59Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": -0.103
           },
           {
-            "title": "A Hawkish Fed Is Bad News for Borrowers. It’s Good News for This Bank.",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-23T17:42:01Z",
-            "sentiment": "Neutral",
-            "compound": -0.153
+            "title": "Apple Mac mini 2024 vs. 2026: Yes, It's Already Time to Upgrade Your Mac Desktop",
+            "source": "PCMag.com",
+            "publishedAt": "2026-09-23T17:58:38Z",
+            "sentiment": "Positive",
+            "compound": 0.402
           },
           {
-            "title": "Federal Reserve’s Warsh faces challenge in tightening financial conditions without tanking stocks",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-23T17:41:52Z",
-            "sentiment": "Neutral",
-            "compound": 0.077
-          },
-          {
-            "title": "$1 billion in trading volume masks hidden liquidity risks for Coinbase stock token holders",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-09-23T17:40:08Z",
+            "title": "Another Huge Burst Of Inflation Is Ahead, And That Is Really Bad News For An Economy That Is Already Coming Apart At The Seams",
+            "source": "Theeconomiccollapseblog.com",
+            "publishedAt": "2026-09-23T17:55:04Z",
             "sentiment": "Negative",
-            "compound": -0.273
+            "compound": -0.36
           },
           {
-            "title": "Fed's Michael Barr backs more rate hikes as PMI hits 5-year high",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-23T17:39:08Z",
-            "sentiment": "Neutral",
-            "compound": -0.052
+            "title": "ALHC ALERT: Hagens Berman Updates Investigation of Alignment Healthcare (NASDAQ: ALHC) Following Baird Conference Disclosures",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-23T17:55:00Z",
+            "sentiment": "Positive",
+            "compound": 0.447
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 43.17,
-  "trade_probability": 45.9,
+  "confirmation_score": 50.07,
+  "trade_probability": 50.04,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
