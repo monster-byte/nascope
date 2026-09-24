@@ -253,7 +253,7 @@
     </div>
     <p class="text-[11px] text-indigo-400 mb-4">استشاري فقط — مو جزء من قرار Nascope الرسمي أعلاه، بس سياق إضافي للتوقيت اللحظي (فريم 5 دقايق)</p>
 
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-4 text-center">
+    <div class="grid grid-cols-2 md:grid-cols-5 gap-3 mb-4 text-center">
         <div class="bg-indigo-50/60 rounded-lg p-2.5">
             <div class="text-[10px] text-slate-400">VAH</div>
             <div id="pulse-vah" class="text-sm font-bold text-slate-800">--</div>
@@ -270,6 +270,39 @@
             <div class="text-[10px] text-slate-400">Rel. Volume</div>
             <div id="pulse-relvol" class="text-sm font-bold text-slate-800">--</div>
         </div>
+        <div class="bg-indigo-50/60 rounded-lg p-2.5">
+            <div class="text-[10px] text-slate-400">VXN (Fear)</div>
+            <div id="pulse-vxn" class="text-sm font-bold text-slate-800">--</div>
+        </div>
+    </div>
+
+    <div class="mb-4">
+        <div class="text-[11px] font-semibold text-indigo-400 mb-1.5">Session Volume Profile (من بداية الجلسة لحد الآن)</div>
+        <div id="pulse-histogram" class="space-y-[2px] max-h-56 overflow-y-auto bg-slate-50/50 rounded-lg p-2"></div>
+        <div class="flex items-center gap-3 mt-1.5 text-[10px] text-slate-400">
+            <span class="flex items-center gap-1"><span class="w-2 h-2 rounded-sm bg-emerald-400 inline-block"></span> حجم شرائي</span>
+            <span class="flex items-center gap-1"><span class="w-2 h-2 rounded-sm bg-rose-400 inline-block"></span> حجم بيعي</span>
+            <span class="flex items-center gap-1"><span class="w-2 h-2 rounded-sm bg-amber-300 inline-block"></span> POC</span>
+        </div>
+    </div>
+
+    <div id="pulse-micro-section" class="mb-4 hidden bg-purple-50/40 rounded-lg p-3 border border-purple-100">
+        <div class="text-[11px] font-bold text-purple-700 mb-2">⚡ Micro Profile — آخر ساعة (خاص بالسكالب)</div>
+        <div class="grid grid-cols-3 gap-2 text-center mb-2">
+            <div>
+                <div class="text-[9px] text-slate-400">VAH</div>
+                <div id="pulse-micro-vah" class="text-xs font-bold text-slate-800">--</div>
+            </div>
+            <div>
+                <div class="text-[9px] text-slate-400">POC</div>
+                <div id="pulse-micro-poc" class="text-xs font-bold text-slate-800">--</div>
+            </div>
+            <div>
+                <div class="text-[9px] text-slate-400">VAL</div>
+                <div id="pulse-micro-val" class="text-xs font-bold text-slate-800">--</div>
+            </div>
+        </div>
+        <div class="text-[10px] text-slate-500">موقع السعر لحظياً: <span id="pulse-micro-location" class="font-semibold text-purple-700">--</span></div>
     </div>
 
     <div class="flex items-center gap-2 mb-2">
@@ -277,6 +310,36 @@
         <span id="pulse-direction-badge" class="text-[11px] font-semibold px-2 py-0.5 rounded bg-slate-100 text-slate-500">--</span>
     </div>
     <p id="pulse-reason" class="text-xs text-slate-600 leading-relaxed">--</p>
+</div>
+
+<!-- Track Record — الأداء التاريخي الفعلي، مقيّم تلقائياً بعد 24 ساعة من كل قرار -->
+<div class="mt-6 bg-white p-5 rounded-2xl border border-slate-200/80 shadow-sm">
+    <div class="flex items-center justify-between mb-4">
+        <h3 class="text-base font-bold text-slate-900">📊 Track Record — الأداء الفعلي الموثّق</h3>
+        <span class="text-[10px] text-slate-400">تقييم آلي بعد 24 ساعة من كل قرار — بدون تدخل بشري</span>
+    </div>
+
+    <div class="grid grid-cols-3 gap-4 mb-4">
+        <div class="text-center">
+            <div id="tr-winrate" class="text-2xl md:text-3xl font-bold text-slate-400">--%</div>
+            <div class="text-[11px] text-slate-400 mt-0.5">نسبة النجاح</div>
+        </div>
+        <div class="text-center">
+            <div id="tr-graded" class="text-2xl md:text-3xl font-bold text-slate-900">--</div>
+            <div class="text-[11px] text-slate-400 mt-0.5">قرارات مُقيّمة</div>
+        </div>
+        <div class="text-center">
+            <div id="tr-total" class="text-2xl md:text-3xl font-bold text-slate-900">--</div>
+            <div class="text-[11px] text-slate-400 mt-0.5">إجمالي القرارات المسجّلة</div>
+        </div>
+    </div>
+
+    <div class="w-full bg-slate-100 h-2.5 rounded-full mb-5 overflow-hidden">
+        <div id="tr-winrate-bar" class="bg-slate-300 h-full transition-all" style="width:0%"></div>
+    </div>
+
+    <div class="text-[11px] font-semibold text-slate-500 mb-2">آخر القرارات المسجّلة</div>
+    <div id="tr-entries" class="space-y-1 text-xs max-h-64 overflow-y-auto"></div>
 </div>
 
 <footer class="text-center text-[10px] text-slate-400 mt-8 pb-2">
@@ -745,11 +808,20 @@ const PULSE_DIRECTION_CFG = {
 function renderPulse(pulse) {
     const vp = pulse ? pulse.volume_profile : null;
     const fusion = pulse ? pulse.fusion : null;
+    const vxn = pulse ? pulse.vxn : null;
 
     document.getElementById('pulse-vah').innerText = vp && vp.vah != null ? fmtNum(vp.vah, 1) : '--';
     document.getElementById('pulse-poc').innerText = vp && vp.poc != null ? fmtNum(vp.poc, 1) : '--';
     document.getElementById('pulse-val').innerText = vp && vp.val != null ? fmtNum(vp.val, 1) : '--';
     document.getElementById('pulse-relvol').innerText = vp && vp.relative_volume_pct != null ? `${vp.relative_volume_pct}%` : '--';
+
+    const vxnEl = document.getElementById('pulse-vxn');
+    const currentVxn = vxn && vxn.details ? vxn.details.current_vxn : null;
+    vxnEl.innerText = currentVxn != null ? fmtNum(currentVxn, 1) : '--';
+    vxnEl.className = 'text-sm font-bold ' + (
+        vxn && vxn.status === 'red' ? 'text-rose-600' :
+        vxn && vxn.status === 'green' ? 'text-emerald-600' : 'text-slate-800'
+    );
 
     const locBadge = document.getElementById('pulse-location-badge');
     const loc = vp ? vp.price_location : 'UNKNOWN';
@@ -766,8 +838,105 @@ function renderPulse(pulse) {
     dirBadge.className = `text-[11px] font-semibold px-2 py-0.5 rounded ${dirCfg.cls}`;
 
     document.getElementById('pulse-reason').innerText = fusion && fusion.reason ? fusion.reason : 'لا توجد بيانات Pulse متوفرة بعد.';
+
+    renderPulseHistogram(vp);
+    renderPulseMicro(vp);
 }
 
+
+// ---------- Pulse histogram + micro profile ----------
+function renderPulseHistogram(vp) {
+    const container = document.getElementById('pulse-histogram');
+    const histogram = vp && vp.histogram ? vp.histogram : [];
+    if (!histogram.length) {
+        container.innerHTML = '<p class="text-slate-400 text-[10px] p-2">لا توجد بيانات هيستوغرام متوفرة بعد (استنى أول تشغيل لمحرك Pulse).</p>';
+        return;
+    }
+    const maxVol = Math.max(...histogram.map(h => h.total_volume), 1);
+    const binSize = vp.bin_size_points || 6;
+    const pocBinLow = vp.poc != null ? vp.poc - binSize / 2 : null;
+    const rows = [...histogram].reverse(); // أعلى سعر فوق
+
+    container.innerHTML = rows.map(h => {
+        const buyPct = (h.buy_volume / maxVol) * 100;
+        const sellPct = (h.sell_volume / maxVol) * 100;
+        const isPoc = pocBinLow != null && Math.abs(h.price_low - pocBinLow) < 0.01;
+        return `<div class="flex items-center gap-1.5 text-[10px] ${isPoc ? 'bg-amber-50 rounded' : ''}">
+            <span class="w-14 text-right text-slate-500 font-mono shrink-0">${fmtNum(h.price_low, 0)}</span>
+            <div class="flex-1 flex h-3 rounded-sm overflow-hidden bg-slate-100">
+                <div class="bg-emerald-400" style="width:${buyPct}%"></div>
+                <div class="bg-rose-400" style="width:${sellPct}%"></div>
+            </div>
+            ${isPoc ? '<span class="text-amber-600 font-bold shrink-0 w-7">POC</span>' : '<span class="w-7 shrink-0"></span>'}
+        </div>`;
+    }).join('');
+}
+
+function renderPulseMicro(vp) {
+    const section = document.getElementById('pulse-micro-section');
+    const micro = vp && vp.micro_profile ? vp.micro_profile : null;
+    if (!micro || !micro.available) {
+        section.classList.add('hidden');
+        return;
+    }
+    section.classList.remove('hidden');
+    document.getElementById('pulse-micro-vah').innerText = micro.vah != null ? fmtNum(micro.vah, 1) : '--';
+    document.getElementById('pulse-micro-poc').innerText = micro.poc != null ? fmtNum(micro.poc, 1) : '--';
+    document.getElementById('pulse-micro-val').innerText = micro.val != null ? fmtNum(micro.val, 1) : '--';
+    document.getElementById('pulse-micro-location').innerText = micro.price_location || '--';
+}
+
+// ---------- Track Record (الأداء الفعلي الموثّق) ----------
+const TR_OUTCOME_BADGE = {
+    correct: (e) => `<span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-emerald-100 text-emerald-700">✓ صحيح (${e.price_change_pct >= 0 ? '+' : ''}${e.price_change_pct}%)</span>`,
+    incorrect: (e) => `<span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-rose-100 text-rose-700">✗ خطأ (${e.price_change_pct >= 0 ? '+' : ''}${e.price_change_pct}%)</span>`,
+    not_graded: () => `<span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-slate-100 text-slate-400">محايد — غير مقيّم</span>`,
+};
+
+function renderTrackRecord(track) {
+    const winrateEl = document.getElementById('tr-winrate');
+    const gradedEl = document.getElementById('tr-graded');
+    const totalEl = document.getElementById('tr-total');
+    const barEl = document.getElementById('tr-winrate-bar');
+    const entriesEl = document.getElementById('tr-entries');
+
+    if (!track) {
+        entriesEl.innerHTML = '<p class="text-slate-400">لا توجد بيانات Track Record متوفرة بعد.</p>';
+        return;
+    }
+
+    const winRate = track.win_rate_pct;
+    winrateEl.innerText = winRate != null ? `${winRate}%` : '--%';
+    winrateEl.className = `text-2xl md:text-3xl font-bold ${winRate == null ? 'text-slate-400' : winRate >= 50 ? 'text-emerald-600' : 'text-rose-600'}`;
+    gradedEl.innerText = track.graded_signals ?? '--';
+    totalEl.innerText = track.total_signals_logged ?? '--';
+    barEl.style.width = `${winRate ?? 0}%`;
+    barEl.className = `h-full transition-all ${winRate == null ? 'bg-slate-300' : winRate >= 50 ? 'bg-emerald-500' : 'bg-rose-500'}`;
+
+    const entries = track.recent_entries || [];
+    if (!entries.length) {
+        entriesEl.innerHTML = '<p class="text-slate-400">لا توجد قرارات مسجّلة بعد.</p>';
+        return;
+    }
+
+    entriesEl.innerHTML = entries.map(e => {
+        const badgeFn = !e.verified ? null : TR_OUTCOME_BADGE[e.outcome];
+        const outcomeBadge = !e.verified
+            ? '<span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-slate-100 text-slate-400">قيد التقييم (24 ساعة)</span>'
+            : (badgeFn ? badgeFn(e) : TR_OUTCOME_BADGE.not_graded());
+        const biasColor = e.directional_bias === 'LONG' ? 'text-emerald-600' : e.directional_bias === 'SHORT' ? 'text-rose-600' : 'text-slate-500';
+        return `<div class="flex items-center justify-between py-1.5 border-b border-slate-50 last:border-0">
+            <div class="flex items-center gap-2">
+                <span class="font-semibold ${biasColor}">${e.directional_bias}</span>
+                <span class="text-slate-400">@ ${fmtNum(e.entry_price)}</span>
+            </div>
+            <div class="flex items-center gap-2">
+                ${outcomeBadge}
+                <span class="text-slate-400 text-[10px]">${timeAgo(e.timestamp)}</span>
+            </div>
+        </div>`;
+    }).join('');
+}
 
 async function init() {
     const [prices, signal, risk, track, pulse] = await Promise.all([
@@ -794,6 +963,7 @@ async function init() {
     renderSentiment(signal);
     renderMarketOverview(prices);
     renderLatestSignals(track);
+    renderTrackRecord(track);
     renderPulse(pulse);
 
     const genAt = signal ? signal.generated_at : (prices ? prices.generated_at : null);
