@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T05:01:18.806977+00:00",
+  "generated_at": "2026-09-24T05:15:50.564174+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.82,
+      "score": 43.95,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.08,
-        "change_5d_pct": 0.773
+        "current_dxy": 101.07,
+        "change_5d_pct": 0.756
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 61.24,
+      "score": 59.26,
       "status": "yellow",
       "details": {
-        "overall_sentiment": "BULLISH",
-        "avg_compound": 0.225,
+        "overall_sentiment": "NEUTRAL",
+        "avg_compound": 0.185,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "India flash PMI rises to 56.5 in September as manufacturing strengthens",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-23T05:07:27Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "Where should your emergency fund go? What to know before choosing an FD, savings account or debt fund",
+            "source": "Livemint",
+            "publishedAt": "2026-09-23T05:01:16Z",
+            "sentiment": "Negative",
+            "compound": -0.625
+          },
           {
             "title": "4.9% Workers’ Comp Rate Increase Proposed in Washington",
             "source": "Insurance Journal",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-09-23T05:00:00Z",
             "sentiment": "Positive",
             "compound": 0.382
-          },
-          {
-            "title": "Singapore's core inflation rises to nearly two-year high of 2.2% in August",
-            "source": "CNA",
-            "publishedAt": "2026-09-23T05:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Fitch raises India's FY27 GDP growth projections to 6.9% on strong growth",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-23T04:57:47Z",
-            "sentiment": "Positive",
-            "compound": 0.818
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 46.5,
-  "trade_probability": 47.9,
+  "confirmation_score": 46.33,
+  "trade_probability": 47.8,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
