@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T02:16:14.152676+00:00",
+  "generated_at": "2026-09-24T02:31:10.551907+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 37.73,
+      "score": 37.82,
       "status": "red",
       "details": {
-        "current_dxy": 101.18,
-        "change_5d_pct": 1.533
+        "current_dxy": 101.17,
+        "change_5d_pct": 1.522
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.91,
+      "score": 57.82,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.138,
+        "avg_compound": 0.156,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Stocks to watch: Adani Group stocks, Coforge, Aditya Infotech, Innovision",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-23T02:28:36Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Hero Motors shares to list today. Check GMP ahead of debut",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-23T02:26:16Z",
+            "sentiment": "Positive",
+            "compound": 0.7
+          },
+          {
+            "title": "Stock Market LIVE: GIFT Nifty signals tepid open; Brent crude falls on progress in US-Iran talks",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-23T02:16:39Z",
+            "sentiment": "Positive",
+            "compound": 0.663
+          },
           {
             "title": "Economic Digest: A Snapshot of Nepal’s Business News",
             "source": "Khabarhub.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-09-23T02:13:09Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Frontiers | AI-assisted hierarchical primary care and health equity among older adults with chronic diseases: a matched observational mixed-methods study in China",
-            "source": "Frontiersin.org",
-            "publishedAt": "2026-09-23T02:06:59Z",
-            "sentiment": "Positive",
-            "compound": 0.494
-          },
-          {
-            "title": "Dollar holds near 2-month high as markets weigh rate hikes, Iran diplomacy",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-23T02:00:13Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Gold lacklustre as higher-for-longer rate outlook weighs on sentiment",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-23T01:56:14Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 45.56,
-  "trade_probability": 47.34,
+  "confirmation_score": 45.65,
+  "trade_probability": 47.39,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
