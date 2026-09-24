@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T17:31:14.844484+00:00",
+  "generated_at": "2026-09-24T17:45:51.933067+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.3395,
-          "up": true
+          "change_pct": -0.0671,
+          "up": false
         },
         "MSFT": {
-          "change_pct": -0.756,
+          "change_pct": -1.002,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.3233,
+          "change_pct": -0.6314,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.5588,
+          "change_pct": 0.2945,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 82.58,
+      "score": 81.85,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30456.03,
-        "sma50": 29230.64,
-        "sma200": 27303.6
+        "last_price": 30383.29,
+        "sma50": 29229.19,
+        "sma200": 27303.24
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 45.0,
+      "score": 40.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.12,
-        "percentile_vs_20d": 55.0
+        "current_vxn": 21.22,
+        "percentile_vs_20d": 60.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 27.63,
+      "score": 27.31,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.146,
-        "change_5d_pct": 2.797
+        "current_yield_pct": 5.148,
+        "change_5d_pct": 2.837
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.28,
+      "score": 42.08,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.28,
-        "change_5d_pct": 0.965
+        "current_dxy": 101.3,
+        "change_5d_pct": 0.99
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 57.33,
+      "score": 53.33,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.147,
+        "avg_compound": 0.067,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "What Will $5,000 Invested in Alphabet Stock Be Worth in 5 Years?",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-23T17:30:18Z",
-            "sentiment": "Positive",
-            "compound": 0.226
-          },
-          {
-            "title": "Iran's president rules out surrender as indirect talks with U.S. resume in New York",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-23T17:29:38Z",
+            "title": "ON Semiconductor targets $213B AI power market amid strategic shift",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-23T17:44:58Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Creatio commits $300M to scale Bank.AI through 2028",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-23T17:28:25Z",
+            "title": "How to Build $5,350 a Month in Tax-Free Dividend Income Inside a Roth IRA",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-23T17:42:56Z",
             "sentiment": "Neutral",
-            "compound": 0.026
+            "compound": 0.0
           },
           {
-            "title": "Higher Interest Rates Divide Japan's Young and Old",
-            "source": "Newsonjapan.com",
-            "publishedAt": "2026-09-23T17:27:36Z",
-            "sentiment": "Positive",
-            "compound": 0.459
+            "title": "A Hawkish Fed Is Bad News for Borrowers. It’s Good News for This Bank.",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-23T17:42:01Z",
+            "sentiment": "Neutral",
+            "compound": -0.153
           },
           {
-            "title": "Bitcoin price today: Why did BTC USD reverse from $87,000 and drop to $84,000? Here's what crypto traders are watching now",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-23T17:27:06Z",
+            "title": "Federal Reserve’s Warsh faces challenge in tightening financial conditions without tanking stocks",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-23T17:41:52Z",
+            "sentiment": "Neutral",
+            "compound": 0.077
+          },
+          {
+            "title": "$1 billion in trading volume masks hidden liquidity risks for Coinbase stock token holders",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-09-23T17:40:08Z",
             "sentiment": "Negative",
             "compound": -0.273
           },
           {
-            "title": "These 6 High-Yield Dividends May Be Too Good to Be True",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-23T17:25:42Z",
-            "sentiment": "Positive",
-            "compound": 0.691
+            "title": "Fed's Michael Barr backs more rate hikes as PMI hits 5-year high",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-23T17:39:08Z",
+            "sentiment": "Neutral",
+            "compound": -0.052
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 50.89,
-  "trade_probability": 50.53,
+  "confirmation_score": 43.17,
+  "trade_probability": 45.9,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
