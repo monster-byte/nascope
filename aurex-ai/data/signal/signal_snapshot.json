@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T18:31:10.721018+00:00",
+  "generated_at": "2026-09-24T18:46:06.618184+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,41 +17,41 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.1703,
+          "change_pct": 0.1525,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.656,
+          "change_pct": -0.615,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.4981,
+          "change_pct": -0.4625,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.8069,
+          "change_pct": 0.8735,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 82.49,
+      "score": 82.55,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30447.23,
-        "sma50": 29230.47,
-        "sma200": 27303.56
+        "last_price": 30453.57,
+        "sma50": 29230.59,
+        "sma200": 27303.59
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 40.0,
+      "score": 45.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.13,
-        "percentile_vs_20d": 60.0
+        "current_vxn": 21.06,
+        "percentile_vs_20d": 55.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.98,
+      "score": 42.02,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.32,
-        "change_5d_pct": 1.003
+        "current_dxy": 101.31,
+        "change_5d_pct": 0.997
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.44,
+      "score": 52.78,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.029,
+        "avg_compound": 0.056,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "CCB Investor Notice: Johnson Fistel Investigates Coastal Financial Corporation Following $68.8 Million Credit Expense",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-23T18:42:00Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "How to Turn a Rising Property Tax Bill Into a Smarter Money Move",
+            "source": "Addicted2success.com",
+            "publishedAt": "2026-09-23T18:37:56Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "Public Pension Funds Commit $100B to Private Equity Strategies in 2025",
+            "source": "Ai-cio.com",
+            "publishedAt": "2026-09-23T18:37:46Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "'Just a disaster!' Free-falling Trump approval astounds expert as 'very bad sign' emerges",
+            "source": "Raw Story",
+            "publishedAt": "2026-09-23T18:36:56Z",
+            "sentiment": "Negative",
+            "compound": -0.456
+          },
+          {
+            "title": "EFCC urges pastors, imams to preach against corruption",
+            "source": "The Punch",
+            "publishedAt": "2026-09-23T18:36:41Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "After Trump's annihilation threat, Pezeshkian says Iran won't surrender",
             "source": "Business Standard",
             "publishedAt": "2026-09-23T18:25:18Z",
             "sentiment": "Negative",
             "compound": -0.527
-          },
-          {
-            "title": "Market sees next Fed hike in October, following Barr comments and hot inflation reading",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-23T18:23:29Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Disney+ and Hulu add to the growing trend of streaming inflation",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-23T18:21:33Z",
-            "sentiment": "Neutral",
-            "compound": 0.178
-          },
-          {
-            "title": "Recurrent Energy Achieves ISO 14001 Certification for Operations and Maintenance Services",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-23T18:21:00Z",
-            "sentiment": "Positive",
-            "compound": 0.273
-          },
-          {
-            "title": "Food Festival Scams, Meta Muse, Data Center Public Opinion, More: ResearchBuzz AI Update, September 23, 2026",
-            "source": "Researchbuzz.me",
-            "publishedAt": "2026-09-23T18:19:29Z",
-            "sentiment": "Neutral",
-            "compound": -0.153
-          },
-          {
-            "title": "Poor ignored, HP govt spending crores on lavish offices: BJP",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-23T18:18:20Z",
-            "sentiment": "Negative",
-            "compound": -0.66
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 49.7,
-  "trade_probability": 49.82,
+  "confirmation_score": 50.28,
+  "trade_probability": 50.17,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
