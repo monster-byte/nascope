@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T16:31:09.036205+00:00",
+  "generated_at": "2026-09-24T16:45:52.885976+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
-      "status": "red",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.2994,
+          "change_pct": 0.3959,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.93,
+          "change_pct": -0.907,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.7558,
+          "change_pct": -0.5245,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.0081,
-          "up": false
+          "change_pct": 0.2905,
+          "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 82.08,
+      "score": 82.53,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30406.78,
-        "sma50": 29229.66,
-        "sma200": 27303.36
+        "last_price": 30451.09,
+        "sma50": 29230.54,
+        "sma200": 27303.58
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 45.0,
+      "score": 40.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.27,
-        "percentile_vs_20d": 55.0
+        "current_vxn": 21.14,
+        "percentile_vs_20d": 60.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 27.63,
+      "score": 28.43,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.146,
-        "change_5d_pct": 2.797
+        "current_yield_pct": 5.141,
+        "change_5d_pct": 2.697
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.83,
+      "score": 42.88,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.21,
-        "change_5d_pct": 0.896
+        "current_dxy": 101.2,
+        "change_5d_pct": 0.89
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.45,
+      "score": 53.13,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.089,
+        "avg_compound": 0.063,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "PayPal Just Got a Meta Partnership. Here’s What It Could Mean for the Stock",
+            "title": "Meta Price Targets Hiked to $900 as Analyst Cite AI Momentum, Revenue Growth Paths",
             "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-23T16:30:00Z",
+            "publishedAt": "2026-09-23T16:45:09Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "What is the proposed $2,400 Social Security increase? Is it separate from the annual COLA, and when could beneficiaries actually receive the extra $200 each month?",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-23T16:44:41Z",
+            "sentiment": "Positive",
+            "compound": 0.782
+          },
+          {
+            "title": "Fed Governor Michael Barr signals more rate hikes needed to tame inflation",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-23T16:44:32Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Scientists warn super El Nino could cause 450,000 deaths: Should we worry?",
-            "source": "Al Jazeera English",
-            "publishedAt": "2026-09-23T16:29:55Z",
+            "title": "Why are gold prices falling today, and will it continue to drop or rise again?",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-23T16:42:40Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
+          {
+            "title": "Wall Street falls as oil rebounds amid Middle East tensions",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-23T16:42:33Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
+          {
+            "title": "Stablecoins hold nearly $200 billion in US debt, but money funds bought the surge",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-09-23T16:40:50Z",
             "sentiment": "Neutral",
-            "compound": 0.153
-          },
-          {
-            "title": "McDonald’s shares drop after CEO reveals lackluster growth forecast as inflation accelerates",
-            "source": "New York Post",
-            "publishedAt": "2026-09-23T16:27:59Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "What Would It Take for Ethereum to Hit $5,000?",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-23T16:26:37Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "D.C.’s affordability headache has a silver bullet, new study shows: Tackling $40 trillion national debt would boost household income by $36,000",
-            "source": "Fortune",
-            "publishedAt": "2026-09-23T16:25:02Z",
-            "sentiment": "Neutral",
-            "compound": 0.052
-          },
-          {
-            "title": "Treasury yields surge to nearly 20-year high as oil jumps back above $100",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-23T16:21:01Z",
-            "sentiment": "Positive",
-            "compound": 0.202
+            "compound": -0.19
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 43.87,
-  "trade_probability": 46.32,
+  "confirmation_score": 50.22,
+  "trade_probability": 50.13,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
