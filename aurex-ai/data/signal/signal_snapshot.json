@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T15:31:21.020046+00:00",
+  "generated_at": "2026-09-24T15:45:56.280655+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.1992,
+          "change_pct": -0.1932,
           "up": false
         },
         "MSFT": {
-          "change_pct": -1.098,
+          "change_pct": -0.941,
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.4579,
+          "change_pct": -1.3024,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.6859,
+          "change_pct": -0.5023,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 80.2,
+      "score": 80.57,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30219.29,
-        "sma50": 29225.91,
-        "sma200": 27302.42
+        "last_price": 30256.7,
+        "sma50": 29226.66,
+        "sma200": 27302.61
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 40.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.41,
+        "current_vxn": 21.53,
         "percentile_vs_20d": 60.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 26.99,
+      "score": 25.07,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.15,
-        "change_5d_pct": 2.877
+        "current_yield_pct": 5.162,
+        "change_5d_pct": 3.116
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.72,
+      "score": 41.61,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.35,
-        "change_5d_pct": 1.035
+        "current_dxy": 101.36,
+        "change_5d_pct": 1.049
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 59.2,
+      "score": 53.61,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.184,
+        "avg_compound": 0.072,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "ARM Vs. AMD: Who Is Going to Win the Agentic AI CPU Revival War?",
+            "title": "Broadcom Just Made a Move That Further Solidifies My Decision to Buy on Repeat",
             "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-23T15:30:58Z",
+            "publishedAt": "2026-09-23T15:45:48Z",
             "sentiment": "Neutral",
-            "compound": -0.026
+            "compound": 0.0
           },
           {
-            "title": "Prediction: This Out-of-Favor Dividend Stock Could Have Significant Upside",
+            "title": "SpaceX, OpenAI, and Anthropic Are Woth More Than Every Single IPO in the Last 45 Years",
             "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-23T15:30:23Z",
-            "sentiment": "Positive",
-            "compound": 0.202
+            "publishedAt": "2026-09-23T15:40:34Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Tom Cruise Is the Last Great Movie Star Still Chasing His Oscar. Can He Overcome ‘Digger’ Reviews to Get Him There?",
-            "source": "Variety",
-            "publishedAt": "2026-09-23T15:30:00Z",
-            "sentiment": "Positive",
-            "compound": 0.625
-          },
-          {
-            "title": "S&P 500 index funds increasingly resemble tech funds, warns analyst",
+            "title": "Federal Reserve’s Goolsbee warns supply shocks can cause lasting inflation that must not be ignored",
             "source": "Crypto Briefing",
-            "publishedAt": "2026-09-23T15:28:52Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
+            "publishedAt": "2026-09-23T15:40:20Z",
+            "sentiment": "Negative",
+            "compound": -0.259
           },
           {
             "title": "10-year Treasury yield hits highest level since 2007 as market prices in another Fed rate hike",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-23T15:27:44Z",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-23T15:38:48Z",
             "sentiment": "Positive",
             "compound": 0.202
           },
           {
-            "title": "AMD Just Cracked $1 Trillion and One Strategist Says $750 Is Next",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-23T15:26:28Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "The hidden opportunity beyond the S&P 500’s mega-caps",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-23T15:38:35Z",
+            "sentiment": "Positive",
+            "compound": 0.421
+          },
+          {
+            "title": "Japan's steep yield curve opens 'reverse carry' trade opportunity, Eastspring says",
+            "source": "CNA",
+            "publishedAt": "2026-09-23T15:38:34Z",
+            "sentiment": "Positive",
+            "compound": 0.421
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 36.65,
-  "trade_probability": 41.99,
+  "confirmation_score": 35.93,
+  "trade_probability": 41.56,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
