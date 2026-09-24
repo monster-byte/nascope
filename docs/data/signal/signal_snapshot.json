@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T23:31:09.265734+00:00",
+  "generated_at": "2026-09-24T23:45:56.314628+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 61.6,
+      "score": 62.28,
       "status": "yellow",
       "details": {
         "overall_sentiment": "BULLISH",
-        "avg_compound": 0.232,
+        "avg_compound": 0.246,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Bitcoin slips below $85,000 as 5% Treasury yield returns to haunt risk assets",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-09-23T23:40:38Z",
+            "sentiment": "Negative",
+            "compound": -0.318
+          },
           {
             "title": "WhiteOak Capital plans D-Street foray with Rs 1,500 crore IPO",
             "source": "The Times of India",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-09-23T23:03:31Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Banks Put Transaction Data to Work in Commerce Media",
-            "source": "pymnts.com",
-            "publishedAt": "2026-09-23T23:03:14Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 45.13,
-  "trade_probability": 47.08,
+  "confirmation_score": 45.2,
+  "trade_probability": 47.12,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
