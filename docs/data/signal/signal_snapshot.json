@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T03:31:03.636013+00:00",
+  "generated_at": "2026-09-24T03:45:50.806237+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 38.38,
+      "score": 38.13,
       "status": "red",
       "details": {
-        "current_dxy": 101.1,
-        "change_5d_pct": 1.452
+        "current_dxy": 101.13,
+        "change_5d_pct": 1.483
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 59.98,
+      "score": 62.21,
       "status": "yellow",
       "details": {
-        "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.2,
+        "overall_sentiment": "BULLISH",
+        "avg_compound": 0.244,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Trump, Good Economic News and the Midterm Elections",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-09-23T03:39:42Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
+          {
+            "title": "ETMarkets Smart Talk | 2-year bonds attractive, long end risky: Apoorva Javadekar’s fixed-income playbook",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-23T03:37:09Z",
+            "sentiment": "Positive",
+            "compound": 0.586
+          },
+          {
+            "title": "Nifty set for muted opening as US-China Summit in focus",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-23T03:34:46Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "India bond rally likely to extend marginally as Brent slips below $100/barrel",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-23T03:33:51Z",
+            "sentiment": "Neutral",
+            "compound": 0.178
+          },
           {
             "title": "Gold lacklustre as higher-for-longer rate outlook weighs on sentiment",
             "source": "BusinessLine",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-09-23T03:26:35Z",
             "sentiment": "Positive",
             "compound": 0.649
-          },
-          {
-            "title": "8th Pay Commission: 25 FAQs on latest updates, salary, pension, fitment factor and key dates",
-            "source": "Livemint",
-            "publishedAt": "2026-09-23T03:20:22Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
-          },
-          {
-            "title": "Stock Market Today Live Updates: GIFT Nifty signals flat opening for NSE Nifty50, BSE Sensex",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-23T03:18:54Z",
-            "sentiment": "Positive",
-            "compound": 0.746
-          },
-          {
-            "title": "Asia to face sustained inflation pressure through 2027, warns ADB",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-23T03:17:00Z",
-            "sentiment": "Negative",
-            "compound": -0.382
-          },
-          {
-            "title": "Dow Jones Futures: Nasdaq Hits New High; Sandisk, Micron Trigger Buy Signals",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-23T03:16:15Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 45.89,
-  "trade_probability": 47.53,
+  "confirmation_score": 46.07,
+  "trade_probability": 47.64,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
