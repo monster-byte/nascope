@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T18:01:27.535097+00:00",
+  "generated_at": "2026-09-24T18:15:51.097689+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.0665,
+          "change_pct": 0.0813,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.893,
+          "change_pct": -0.775,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.6136,
+          "change_pct": -0.5736,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.6505,
+          "change_pct": 0.7646,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 81.78,
+      "score": 82.05,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30376.74,
-        "sma50": 29229.06,
-        "sma200": 27303.21
+        "last_price": 30403.99,
+        "sma50": 29229.6,
+        "sma200": 27303.34
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 45.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.36,
+        "current_vxn": 21.29,
         "percentile_vs_20d": 55.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 25.71,
+      "score": 25.39,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.158,
-        "change_5d_pct": 3.036
+        "current_yield_pct": 5.16,
+        "change_5d_pct": 3.076
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.83,
+      "score": 41.52,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.33,
-        "change_5d_pct": 1.022
+        "current_dxy": 101.37,
+        "change_5d_pct": 1.06
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.75,
+      "score": 52.19,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.055,
+        "avg_compound": 0.044,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "‘Momentum may be going their way’: Poll shows which party voters dislike more",
+            "source": "Wnd.com",
+            "publishedAt": "2026-09-23T18:11:10Z",
+            "sentiment": "Neutral",
+            "compound": 0.026
+          },
+          {
+            "title": "Disney+ and Hulu add to the growing trend of streaming inflation | TechCrunch",
+            "source": "TechCrunch",
+            "publishedAt": "2026-09-23T18:08:30Z",
+            "sentiment": "Neutral",
+            "compound": 0.178
+          },
+          {
+            "title": "Consultation opens on west London Overground plan",
+            "source": "BBC News",
+            "publishedAt": "2026-09-23T18:02:50Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "MERCANTILE BANK HELPS DELIVER $150,000 FOR AFFORDABLE HOUSING INITIATIVES ACROSS MICHIGAN",
             "source": "PRNewswire",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-09-23T17:58:59Z",
             "sentiment": "Neutral",
             "compound": -0.103
-          },
-          {
-            "title": "Apple Mac mini 2024 vs. 2026: Yes, It's Already Time to Upgrade Your Mac Desktop",
-            "source": "PCMag.com",
-            "publishedAt": "2026-09-23T17:58:38Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "Another Huge Burst Of Inflation Is Ahead, And That Is Really Bad News For An Economy That Is Already Coming Apart At The Seams",
-            "source": "Theeconomiccollapseblog.com",
-            "publishedAt": "2026-09-23T17:55:04Z",
-            "sentiment": "Negative",
-            "compound": -0.36
-          },
-          {
-            "title": "ALHC ALERT: Hagens Berman Updates Investigation of Alignment Healthcare (NASDAQ: ALHC) Following Baird Conference Disclosures",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-23T17:55:00Z",
-            "sentiment": "Positive",
-            "compound": 0.447
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 50.07,
-  "trade_probability": 50.04,
+  "confirmation_score": 49.99,
+  "trade_probability": 49.99,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
