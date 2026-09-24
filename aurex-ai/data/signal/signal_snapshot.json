@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T16:45:52.885976+00:00",
+  "generated_at": "2026-09-24T17:01:23.973355+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.3959,
+          "change_pct": 0.4552,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.907,
+          "change_pct": -0.818,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.5245,
+          "change_pct": -0.3648,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.2905,
+          "change_pct": 0.4438,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 82.53,
+      "score": 82.87,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30451.09,
-        "sma50": 29230.54,
-        "sma200": 27303.58
+        "last_price": 30485.4,
+        "sma50": 29231.23,
+        "sma200": 27303.75
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 40.0,
+      "score": 50.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.14,
-        "percentile_vs_20d": 60.0
+        "current_vxn": 20.98,
+        "percentile_vs_20d": 50.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 28.43,
+      "score": 29.07,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.141,
-        "change_5d_pct": 2.697
+        "current_yield_pct": 5.137,
+        "change_5d_pct": 2.617
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.88,
+      "score": 42.89,
       "status": "yellow",
       "details": {
         "current_dxy": 101.2,
-        "change_5d_pct": 0.89
+        "change_5d_pct": 0.888
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.13,
+      "score": 55.48,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.063,
+        "avg_compound": 0.11,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Meta Price Targets Hiked to $900 as Analyst Cite AI Momentum, Revenue Growth Paths",
+            "title": "Gold falls as traders weigh U.S.-Iran talk progress",
+            "source": "Financial Post",
+            "publishedAt": "2026-09-23T17:00:54Z",
+            "sentiment": "Positive",
+            "compound": 0.421
+          },
+          {
+            "title": "Nvidia Scores Winning Streak: Trump-Xi Meeting, China Sales Outlook In Focus",
+            "source": "Investor's Business Daily",
+            "publishedAt": "2026-09-23T17:00:17Z",
+            "sentiment": "Positive",
+            "compound": 0.527
+          },
+          {
+            "title": "Shopify Price Prediction: Wall Street Sees More Upside Than We Do",
             "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-23T16:45:09Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "What is the proposed $2,400 Social Security increase? Is it separate from the annual COLA, and when could beneficiaries actually receive the extra $200 each month?",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-23T16:44:41Z",
-            "sentiment": "Positive",
-            "compound": 0.782
-          },
-          {
-            "title": "Fed Governor Michael Barr signals more rate hikes needed to tame inflation",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-23T16:44:32Z",
+            "publishedAt": "2026-09-23T17:00:02Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Why are gold prices falling today, and will it continue to drop or rise again?",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-23T16:42:40Z",
-            "sentiment": "Negative",
-            "compound": -0.402
+            "title": "U.S. Energy Secretary: Blunt Tool of Banning Diesel Exports Doesn't Work",
+            "source": "OilPrice.com",
+            "publishedAt": "2026-09-23T17:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.273
           },
           {
-            "title": "Wall Street falls as oil rebounds amid Middle East tensions",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-23T16:42:33Z",
-            "sentiment": "Negative",
-            "compound": -0.402
-          },
-          {
-            "title": "Stablecoins hold nearly $200 billion in US debt, but money funds bought the surge",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-09-23T16:40:50Z",
+            "title": "Letters: Sorry Winston, but staying silent is not a sign of an independent foreign policy",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-09-23T17:00:00Z",
             "sentiment": "Neutral",
-            "compound": -0.19
+            "compound": -0.039
+          },
+          {
+            "title": "CNN Fact Checker Calls Out Trump’s ‘Single Most Politically Damaging Category of Lie’",
+            "source": "Mediaite",
+            "publishedAt": "2026-09-23T16:58:20Z",
+            "sentiment": "Negative",
+            "compound": -0.554
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 50.22,
-  "trade_probability": 50.13,
+  "confirmation_score": 51.47,
+  "trade_probability": 50.88,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
