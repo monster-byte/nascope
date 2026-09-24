@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T16:01:28.761206+00:00",
+  "generated_at": "2026-09-24T16:15:51.297530+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,36 +13,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 0.0,
+      "score": 25.0,
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.0597,
-          "up": false
+          "change_pct": 0.3217,
+          "up": true
         },
         "MSFT": {
-          "change_pct": -1.008,
+          "change_pct": -0.948,
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.2267,
+          "change_pct": -0.9869,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.4862,
+          "change_pct": -0.2324,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 80.43,
+      "score": 81.18,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30242.88,
-        "sma50": 29226.38,
-        "sma200": 27302.54
+        "last_price": 30317.22,
+        "sma50": 29227.87,
+        "sma200": 27302.91
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 35.0,
       "status": "red",
       "details": {
-        "current_vxn": 21.55,
+        "current_vxn": 21.47,
         "percentile_vs_20d": 65.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 25.71,
+      "score": 24.43,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.158,
-        "change_5d_pct": 3.036
+        "current_yield_pct": 5.166,
+        "change_5d_pct": 3.196
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.98,
+      "score": 42.2,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.32,
-        "change_5d_pct": 1.003
+        "current_dxy": 101.29,
+        "change_5d_pct": 0.975
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.78,
+      "score": 54.22,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.096,
+        "avg_compound": 0.084,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "As NY phases out Regents exams, parents and educators wonder what’s next for students",
-            "source": "Gothamist",
-            "publishedAt": "2026-09-23T16:00:53Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Apple Card Savings interest rate increases — here’s why",
-            "source": "Cult of Mac",
-            "publishedAt": "2026-09-23T16:00:42Z",
-            "sentiment": "Positive",
-            "compound": 0.459
-          },
-          {
-            "title": "Prediction: This Magnificent Seven Stock Could Soar 50% by 2027",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-23T16:00:11Z",
-            "sentiment": "Positive",
-            "compound": 0.599
-          },
-          {
-            "title": "Slow Horses Season 6 Pays Homage To One Of The Greatest HBO Shows Ever Made",
-            "source": "/FILM",
-            "publishedAt": "2026-09-23T16:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.637
-          },
-          {
-            "title": "Micheál Martin rejects Binyamin Netanyahu’s criticism of New York mayor Mamdani",
-            "source": "The Irish Times",
-            "publishedAt": "2026-09-23T15:59:52Z",
+            "title": "More lower-income households feel financially vulnerable",
+            "source": "Retail Dive",
+            "publishedAt": "2026-09-23T16:13:00Z",
             "sentiment": "Negative",
-            "compound": -0.727
+            "compound": -0.226
           },
           {
-            "title": "What Would It Take for Solana to Hit $295 Again?",
+            "title": "Telecom Dividends Get Taxed Hard: Here’s How Much More You Keep With a Roth Strategy",
             "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-23T15:59:13Z",
+            "publishedAt": "2026-09-23T16:12:43Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": -0.103
+          },
+          {
+            "title": "Here's A Way To Cut Risk On This Top-Performing Stock",
+            "source": "Investor's Business Daily",
+            "publishedAt": "2026-09-23T16:11:44Z",
+            "sentiment": "Negative",
+            "compound": -0.494
+          },
+          {
+            "title": "Trump reveals millions of dollars' worth of share deals in big tech and AI",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-23T16:08:31Z",
+            "sentiment": "Positive",
+            "compound": 0.477
+          },
+          {
+            "title": "Iran “Offered” to Reopen the Strait of Hormuz. These Stocks Could Be the Biggest Winners",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-23T16:07:57Z",
+            "sentiment": "Positive",
+            "compound": 0.477
+          },
+          {
+            "title": "Peloton’s Collapse Continues",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-23T16:06:03Z",
+            "sentiment": "Negative",
+            "compound": -0.494
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 35.69,
-  "trade_probability": 41.41,
+  "confirmation_score": 42.34,
+  "trade_probability": 45.4,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
