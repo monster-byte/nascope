@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T06:32:43.204282+00:00",
+  "generated_at": "2026-09-24T06:45:50.121641+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.77,
+      "score": 43.81,
       "status": "yellow",
       "details": {
         "current_dxy": 101.09,
-        "change_5d_pct": 0.779
+        "change_5d_pct": 0.774
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.41,
+      "score": 49.6,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.032,
+        "avg_compound": -0.008,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Nifty Metal index up over 1%; SAIL, Welpsun Corp soar up to 4%; here's why",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-23T06:43:52Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "BJP wants to turn 2027 UP polls into Hindu-Muslim contest: Shivpal Yadav",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-23T06:38:22Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "It's all Part 1 of the Process",
             "source": "Thedailywtf.com",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-09-23T06:20:01Z",
             "sentiment": "Positive",
             "compound": 0.599
-          },
-          {
-            "title": "Karahan says disinflation continues despite challenging conditions",
-            "source": "Hurriyet Daily News",
-            "publishedAt": "2026-09-23T06:17:13Z",
-            "sentiment": "Neutral",
-            "compound": -0.114
-          },
-          {
-            "title": "Less tax for many investors after CGT, negative gearing changes, study finds",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-09-23T06:12:03Z",
-            "sentiment": "Negative",
-            "compound": -0.572
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 45.34,
-  "trade_probability": 47.2,
+  "confirmation_score": 45.45,
+  "trade_probability": 47.27,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
