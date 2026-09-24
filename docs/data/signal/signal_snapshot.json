@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T13:31:23.779225+00:00",
+  "generated_at": "2026-09-24T13:45:54.635546+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.409,
+          "change_pct": -0.6102,
           "up": false
         },
         "MSFT": {
-          "change_pct": -1.418,
+          "change_pct": -1.451,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.9336,
+          "change_pct": -1.0002,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.7222,
+          "change_pct": -0.5669,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 80.11,
+      "score": 81.02,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30211.11,
-        "sma50": 29225.74,
-        "sma200": 27302.38
+        "last_price": 30300.88,
+        "sma50": 29227.54,
+        "sma200": 27302.83
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 35.3,
+      "score": 34.98,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.098,
-        "change_5d_pct": 1.838
+        "current_yield_pct": 5.1,
+        "change_5d_pct": 1.878
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.38,
+      "score": 41.91,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.26,
-        "change_5d_pct": 0.952
+        "current_dxy": 101.32,
+        "change_5d_pct": 1.011
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.81,
+      "score": 51.1,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.116,
+        "avg_compound": 0.022,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "More and more middle-income Americans are struggling to make rent",
-            "source": "Business Insider",
-            "publishedAt": "2026-09-23T13:31:01Z",
+            "title": "'We've simplified it': Education Dept. rolls out FAFSA form earlier than ever before",
+            "source": "Abcnews.com",
+            "publishedAt": "2026-09-23T13:44:35Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Intel Skyrocketed 30% Higher in 1 Month: Here’s What to Do Now",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-23T13:42:57Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "US stocks drift near their all time high as crude oil prices turn higher",
+            "source": "Abcnews.com",
+            "publishedAt": "2026-09-23T13:42:04Z",
             "sentiment": "Negative",
-            "compound": -0.421
+            "compound": -0.572
           },
           {
-            "title": "Prediction: The Cheapest Mega Cap in the AI Trade, Alphabet Could Hit $600 in 2027",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-23T13:30:31Z",
+            "title": "Base’s 24/7 stock market offers three-digit APRs for liquidity providers",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-23T13:42:02Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Railways notifies UPS rules for employees covered by NPS: ₹10,000 minimum pension, 25-year full pension",
-            "source": "Livemint",
-            "publishedAt": "2026-09-23T13:28:21Z",
+            "title": "Gold will likely be under pressure in Q4 on hawkish US Fed policy",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-23T13:41:40Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "MYRECIPES LAUNCHES THE ULTIMATE APP FOR HOME COOKS",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-23T13:40:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "MCD vs. SBUX: Which Payout Will Still Be Growing in 20 Years?",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-23T13:27:37Z",
-            "sentiment": "Neutral",
-            "compound": 0.178
-          },
-          {
-            "title": "(PR) Supermicro Now Shipping NVIDIA Vera Rubin NVL72 Racks",
-            "source": "Techpowerup.com",
-            "publishedAt": "2026-09-23T13:26:38Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Germany’s largest union seeks 5 percent pay rises despite industry woes",
-            "source": "The Local Germany",
-            "publishedAt": "2026-09-23T13:26:23Z",
-            "sentiment": "Positive",
-            "compound": 0.251
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 39.32,
-  "trade_probability": 43.59,
+  "confirmation_score": 38.93,
+  "trade_probability": 43.36,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
