@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T14:01:24.685025+00:00",
+  "generated_at": "2026-09-24T14:46:04.801297+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
+      "score": 0.0,
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.1377,
-          "up": true
+          "change_pct": -0.1918,
+          "up": false
         },
         "MSFT": {
-          "change_pct": -1.46,
+          "change_pct": -1.182,
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.0002,
+          "change_pct": -1.3062,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.7908,
+          "change_pct": -0.698,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 81.11,
+      "score": 80.94,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30310.04,
-        "sma50": 29227.72,
-        "sma200": 27302.87
+        "last_price": 30292.79,
+        "sma50": 29227.38,
+        "sma200": 27302.79
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 50.0,
+      "score": 40.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.03,
-        "percentile_vs_20d": 50.0
+        "current_vxn": 21.08,
+        "percentile_vs_20d": 60.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 35.62,
+      "score": 33.06,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.096,
-        "change_5d_pct": 1.798
+        "current_yield_pct": 5.112,
+        "change_5d_pct": 2.117
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.38,
+      "score": 42.35,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.26,
-        "change_5d_pct": 0.952
+        "current_dxy": 101.27,
+        "change_5d_pct": 0.956
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.88,
+      "score": 53.08,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.078,
+        "avg_compound": 0.062,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Half of young Australian adults now living with parents, up from 39 per cent in 2001, survey shows",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-09-23T14:01:05Z",
+            "title": "How Meta's Muse, Vanguard AI Threat Triggered Schwab Sell Signal",
+            "source": "Investor's Business Daily",
+            "publishedAt": "2026-09-23T14:45:57Z",
+            "sentiment": "Negative",
+            "compound": -0.527
+          },
+          {
+            "title": "The Street is Finally Going Bullish on Salesforce and I Keep Buying",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-23T14:45:49Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "These are the 7 money habits 'quietly wealthy' Americans follow - how to put their playbook to work",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-23T14:00:56Z",
+            "title": "Vuzix Broadens Enterprise Smart Glasses Distribution Across Australia, New Zealand and the Pacific Markets Through CommsPlus",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-23T14:45:00Z",
             "sentiment": "Positive",
-            "compound": 0.361
+            "compound": 0.402
           },
           {
-            "title": "Prevalence and predictors of artificial intelligence chatbots use for caregiving: Evidence from the Understanding America Study",
-            "source": "Plos.org",
-            "publishedAt": "2026-09-23T14:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.477
-          },
-          {
-            "title": "Identification of rs28362336 as a risk SNP for generalized myasthenia gravis and its impact on HCG27 regulation",
-            "source": "Plos.org",
-            "publishedAt": "2026-09-23T14:00:00Z",
+            "title": "INGERSOLL: Is American Exceptionalism Real? Obviously. That’s Why They’re So Mad",
+            "source": "The Daily Caller",
+            "publishedAt": "2026-09-23T14:41:43Z",
             "sentiment": "Negative",
-            "compound": -0.273
+            "compound": -0.627
           },
           {
-            "title": "Use of faricimab for refractory diabetic macular edema in real-world clinical practice: When anatomical success meets functional limits",
-            "source": "Plos.org",
-            "publishedAt": "2026-09-23T14:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.572
+            "title": "Solana moves Alpenglow into testnet as SOL nears January highs",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-09-23T14:40:54Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Using a Stifneck Select CollarTM for hands-free semiautomatic blood flow measurements: A user study",
-            "source": "Plos.org",
-            "publishedAt": "2026-09-23T14:00:00Z",
+            "title": "Official Statistics: Producer price inflation, UK: August 2027 time series",
+            "source": "Www.gov.uk",
+            "publishedAt": "2026-09-23T14:39:38Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 45.17,
-  "trade_probability": 47.1,
+  "confirmation_score": 37.08,
+  "trade_probability": 42.25,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
