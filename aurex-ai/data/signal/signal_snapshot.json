@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T13:15:50.632056+00:00",
+  "generated_at": "2026-09-24T13:31:23.779225+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,36 +13,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 100.0,
-      "status": "green",
+      "score": 0.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.0041,
-          "up": true
+          "change_pct": -0.409,
+          "up": false
         },
         "MSFT": {
-          "change_pct": 0.156,
-          "up": true
+          "change_pct": -1.418,
+          "up": false
         },
         "NVDA": {
-          "change_pct": 0.2084,
-          "up": true
+          "change_pct": -0.9336,
+          "up": false
         },
         "AMZN": {
-          "change_pct": 0.6052,
-          "up": true
+          "change_pct": -0.7222,
+          "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 82.91,
+      "score": 80.11,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30470.29,
-        "sma50": 29213.25,
-        "sma200": 27279.23
+        "last_price": 30211.11,
+        "sma50": 29225.74,
+        "sma200": 27302.38
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 34.98,
+      "score": 35.3,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.1,
-        "change_5d_pct": 1.878
+        "current_yield_pct": 5.098,
+        "change_5d_pct": 1.838
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.46,
+      "score": 42.38,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.25,
-        "change_5d_pct": 0.942
+        "current_dxy": 101.26,
+        "change_5d_pct": 0.952
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.61,
+      "score": 55.81,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.092,
+        "avg_compound": 0.116,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Trump Hails \"Very Good\" Talks with Iran, Xi to Visit Washington",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-23T13:15:30Z",
-            "sentiment": "Positive",
-            "compound": 0.493
+            "title": "More and more middle-income Americans are struggling to make rent",
+            "source": "Business Insider",
+            "publishedAt": "2026-09-23T13:31:01Z",
+            "sentiment": "Negative",
+            "compound": -0.421
           },
           {
-            "title": "Lion Group Notes Progress on Proposed Restructuring of Skyfame Realty (Holdings) Limited (In Liquidation)",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-23T13:15:00Z",
-            "sentiment": "Positive",
-            "compound": 0.226
-          },
-          {
-            "title": "Capitol agenda: Republicans riddled by stay-or-go dilemma - Politico",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-09-23T13:14:11Z",
-            "sentiment": "Neutral",
-            "compound": -0.178
-          },
-          {
-            "title": "OpenText Announces Senior Secured Notes Offering to Redeem its Outstanding 2027 Notes and Fund Tender Offer for a Portion of its Outstanding 2028 Notes",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-23T13:14:00Z",
-            "sentiment": "Positive",
-            "compound": 0.893
-          },
-          {
-            "title": "Sky Protocol and Galaxy Digital Announce Strategic Partnership Across Lending and Capital Markets",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-23T13:13:00Z",
+            "title": "Prediction: The Cheapest Mega Cap in the AI Trade, Alphabet Could Hit $600 in 2027",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-23T13:30:31Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "OpenText Announces Cash Tender Offer for a Portion of its Outstanding 2028 Notes",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-23T13:12:00Z",
+            "title": "Railways notifies UPS rules for employees covered by NPS: ₹10,000 minimum pension, 25-year full pension",
+            "source": "Livemint",
+            "publishedAt": "2026-09-23T13:28:21Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "MCD vs. SBUX: Which Payout Will Still Be Growing in 20 Years?",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-23T13:27:37Z",
+            "sentiment": "Neutral",
+            "compound": 0.178
+          },
+          {
+            "title": "(PR) Supermicro Now Shipping NVIDIA Vera Rubin NVL72 Racks",
+            "source": "Techpowerup.com",
+            "publishedAt": "2026-09-23T13:26:38Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Germany’s largest union seeks 5 percent pay rises despite industry woes",
+            "source": "The Local Germany",
+            "publishedAt": "2026-09-23T13:26:23Z",
             "sentiment": "Positive",
-            "compound": 0.612
+            "compound": 0.251
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 66.55,
-  "trade_probability": 59.93,
+  "confirmation_score": 39.32,
+  "trade_probability": 43.59,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
