@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T15:45:56.280655+00:00",
+  "generated_at": "2026-09-24T16:01:28.761206+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.1932,
+          "change_pct": -0.0597,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.941,
+          "change_pct": -1.008,
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.3024,
+          "change_pct": -1.2267,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.5023,
+          "change_pct": -0.4862,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 80.57,
+      "score": 80.43,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30256.7,
-        "sma50": 29226.66,
-        "sma200": 27302.61
+        "last_price": 30242.88,
+        "sma50": 29226.38,
+        "sma200": 27302.54
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 40.0,
-      "status": "yellow",
+      "score": 35.0,
+      "status": "red",
       "details": {
-        "current_vxn": 21.53,
-        "percentile_vs_20d": 60.0
+        "current_vxn": 21.55,
+        "percentile_vs_20d": 65.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 25.07,
+      "score": 25.71,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.162,
-        "change_5d_pct": 3.116
+        "current_yield_pct": 5.158,
+        "change_5d_pct": 3.036
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.61,
+      "score": 41.98,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.36,
-        "change_5d_pct": 1.049
+        "current_dxy": 101.32,
+        "change_5d_pct": 1.003
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.61,
+      "score": 54.78,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.072,
+        "avg_compound": 0.096,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Broadcom Just Made a Move That Further Solidifies My Decision to Buy on Repeat",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-23T15:45:48Z",
+            "title": "As NY phases out Regents exams, parents and educators wonder what’s next for students",
+            "source": "Gothamist",
+            "publishedAt": "2026-09-23T16:00:53Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "SpaceX, OpenAI, and Anthropic Are Woth More Than Every Single IPO in the Last 45 Years",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-09-23T15:40:34Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Apple Card Savings interest rate increases — here’s why",
+            "source": "Cult of Mac",
+            "publishedAt": "2026-09-23T16:00:42Z",
+            "sentiment": "Positive",
+            "compound": 0.459
           },
           {
-            "title": "Federal Reserve’s Goolsbee warns supply shocks can cause lasting inflation that must not be ignored",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-23T15:40:20Z",
+            "title": "Prediction: This Magnificent Seven Stock Could Soar 50% by 2027",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-23T16:00:11Z",
+            "sentiment": "Positive",
+            "compound": 0.599
+          },
+          {
+            "title": "Slow Horses Season 6 Pays Homage To One Of The Greatest HBO Shows Ever Made",
+            "source": "/FILM",
+            "publishedAt": "2026-09-23T16:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.637
+          },
+          {
+            "title": "Micheál Martin rejects Binyamin Netanyahu’s criticism of New York mayor Mamdani",
+            "source": "The Irish Times",
+            "publishedAt": "2026-09-23T15:59:52Z",
             "sentiment": "Negative",
-            "compound": -0.259
+            "compound": -0.727
           },
           {
-            "title": "10-year Treasury yield hits highest level since 2007 as market prices in another Fed rate hike",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-23T15:38:48Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "The hidden opportunity beyond the S&P 500’s mega-caps",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-23T15:38:35Z",
-            "sentiment": "Positive",
-            "compound": 0.421
-          },
-          {
-            "title": "Japan's steep yield curve opens 'reverse carry' trade opportunity, Eastspring says",
-            "source": "CNA",
-            "publishedAt": "2026-09-23T15:38:34Z",
-            "sentiment": "Positive",
-            "compound": 0.421
+            "title": "What Would It Take for Solana to Hit $295 Again?",
+            "source": "24/7 Wall St.",
+            "publishedAt": "2026-09-23T15:59:13Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 35.93,
-  "trade_probability": 41.56,
+  "confirmation_score": 35.69,
+  "trade_probability": 41.41,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
