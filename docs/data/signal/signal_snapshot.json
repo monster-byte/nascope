@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T18:15:57.780564+00:00",
+  "generated_at": "2026-09-25T18:31:14.173926+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.2593,
+          "change_pct": 1.2295,
           "up": true
         },
         "MSFT": {
-          "change_pct": 4.4347,
+          "change_pct": 4.5305,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.5272,
+          "change_pct": 0.2792,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.4118,
+          "change_pct": 0.4189,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 83.9,
+      "score": 83.72,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30645.31,
-        "sma50": 29288.09,
-        "sma200": 27354.01
+        "last_price": 30626.97,
+        "sma50": 29287.72,
+        "sma200": 27353.91
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 55.0,
+      "score": 50.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 20.92,
-        "percentile_vs_20d": 45.0
+        "current_vxn": 20.91,
+        "percentile_vs_20d": 50.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 17.99,
+      "score": 17.67,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.198,
-        "change_5d_pct": 4.002
+        "current_yield_pct": 5.2,
+        "change_5d_pct": 4.042
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.4,
+      "score": 43.5,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.05,
-        "change_5d_pct": 0.825
+        "current_dxy": 101.03,
+        "change_5d_pct": 0.812
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.56,
+      "score": 48.36,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.029,
+        "avg_compound": -0.033,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
+            "source": "Federalreserve.gov",
+            "publishedAt": "2026-09-24T18:30:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Research: The AI Boom Has Reshaped the American Economy",
+            "source": "Breitbart News",
+            "publishedAt": "2026-09-24T18:25:06Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Bond liquidation wrecks small caps. Here's how bad some traders see it getting",
+            "source": "CNBC",
+            "publishedAt": "2026-09-24T18:22:51Z",
+            "sentiment": "Negative",
+            "compound": -0.542
+          },
           {
             "title": "U.S. Fed officials see rates likely rising to curb high inflation",
             "source": "Biztoc.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-09-24T18:04:00Z",
             "sentiment": "Positive",
             "compound": 0.447
-          },
-          {
-            "title": "Why Are Diesel Prices So High?",
-            "source": "OilPrice.com",
-            "publishedAt": "2026-09-24T18:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "S&T BANK RECOGNIZED WITH AMERICAN BANKERS ASSOCIATION MARKETING EXCELLENCE AWARD",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-24T18:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.823
-          },
-          {
-            "title": "Funding cuts and low roll force closure of Whanganui’s Durie Hill Kindergarten",
-            "source": "New Zealand Herald",
-            "publishedAt": "2026-09-24T18:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.511
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 63.48,
-  "trade_probability": 58.09,
+  "confirmation_score": 62.96,
+  "trade_probability": 57.78,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
