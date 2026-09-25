@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T14:45:58.202619+00:00",
+  "generated_at": "2026-09-25T15:01:25.874528+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.3111,
+          "change_pct": 0.5076,
           "up": true
         },
         "MSFT": {
-          "change_pct": 3.7226,
+          "change_pct": 4.262,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.1567,
-          "up": false
+          "change_pct": 0.2882,
+          "up": true
         },
         "AMZN": {
-          "change_pct": -0.3295,
+          "change_pct": -0.0141,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 82.28,
+      "score": 82.99,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30483.91,
-        "sma50": 29284.86,
-        "sma200": 27353.2
+        "last_price": 30554.18,
+        "sma50": 29286.26,
+        "sma200": 27353.55
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 40.0,
-      "status": "yellow",
+      "score": 35.0,
+      "status": "red",
       "details": {
-        "current_vxn": 21.43,
-        "percentile_vs_20d": 60.0
+        "current_vxn": 21.49,
+        "percentile_vs_20d": 65.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 14.63,
+      "score": 12.87,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.219,
-        "change_5d_pct": 4.422
+        "current_yield_pct": 5.23,
+        "change_5d_pct": 4.642
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.76,
+      "score": 44.09,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.0,
-        "change_5d_pct": 0.78
+        "current_dxy": 100.96,
+        "change_5d_pct": 0.739
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.55,
+      "score": 45.22,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.009,
+        "avg_compound": -0.096,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "NFL ‘Thursday Night Football’ betting promos: Earn nearly $4k in sportsbook, prediction market bonuses for Packers vs. Falcons",
-            "source": "New York Post",
-            "publishedAt": "2026-09-24T14:45:00Z",
-            "sentiment": "Positive",
-            "compound": 0.557
-          },
-          {
-            "title": "Ontario's health-care, education sectors need to spend more or service levels will drop: FAO reports",
-            "source": "CBC News",
-            "publishedAt": "2026-09-24T14:43:29Z",
+            "title": "The economic squeeze is pushing up poverty rates for older adults",
+            "source": "NPR",
+            "publishedAt": "2026-09-24T15:00:00Z",
             "sentiment": "Negative",
-            "compound": -0.273
+            "compound": -0.511
           },
           {
-            "title": "What the bond market is telling us as yields spike to 2-decade highs",
-            "source": "Business Insider",
-            "publishedAt": "2026-09-24T14:41:16Z",
+            "title": "Federal Reserve Board issues enforcement action with former employee of Sandy Spring Bank",
+            "source": "Federalreserve.gov",
+            "publishedAt": "2026-09-24T15:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "US 30-year Treasury yield hits 5.44%, highest level since 2004",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-24T14:40:42Z",
+            "title": "ミルトン・フリードマン後のマネタリズムの未来",
+            "source": "Hatenablog.com",
+            "publishedAt": "2026-09-24T14:59:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Users Crush Disney, Hulu for Raising Prices Again: 'Producing Dogs**t Content and Making You Pay Double for It'",
+            "source": "Breitbart News",
+            "publishedAt": "2026-09-24T14:57:39Z",
+            "sentiment": "Negative",
+            "compound": -0.25
+          },
+          {
+            "title": "Farmers consider backing other politicians as they struggle to make a living",
+            "source": "CBS News",
+            "publishedAt": "2026-09-24T14:56:19Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "Economists raise concerns as India's growth increasingly becomes credit expansion-led",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-24T14:49:12Z",
             "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "Federal Reserve Bank of Cleveland president warns of inflationary mindset risks",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-24T14:39:42Z",
-            "sentiment": "Negative",
-            "compound": -0.361
-          },
-          {
-            "title": "Rupee, bonds witness sell-off as crude oil, US Treasury yields rise",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-24T14:39:27Z",
-            "sentiment": "Negative",
-            "compound": -0.44
+            "compound": 0.637
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 48.08,
-  "trade_probability": 48.85,
+  "confirmation_score": 53.88,
+  "trade_probability": 52.33,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
