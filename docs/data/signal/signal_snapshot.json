@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T16:01:31.797371+00:00",
+  "generated_at": "2026-09-25T16:15:54.574344+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.1447,
+          "change_pct": 1.1253,
           "up": true
         },
         "MSFT": {
-          "change_pct": 3.9486,
+          "change_pct": 4.0655,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.7071,
+          "change_pct": 0.8176,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.453,
+          "change_pct": 0.673,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 83.5,
+      "score": 83.98,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30605.39,
-        "sma50": 29287.29,
-        "sma200": 27353.81
+        "last_price": 30652.89,
+        "sma50": 29288.24,
+        "sma200": 27354.04
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 35.0,
-      "status": "red",
+      "score": 45.0,
+      "status": "yellow",
       "details": {
-        "current_vxn": 21.41,
-        "percentile_vs_20d": 65.0
+        "current_vxn": 21.09,
+        "percentile_vs_20d": 55.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 16.23,
+      "score": 21.67,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.209,
-        "change_5d_pct": 4.222
+        "current_yield_pct": 5.175,
+        "change_5d_pct": 3.541
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.06,
+      "score": 44.62,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.09,
-        "change_5d_pct": 0.868
+        "current_dxy": 100.89,
+        "change_5d_pct": 0.673
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.82,
+      "score": 52.31,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.024,
-        "articles_analyzed": 24,
+        "avg_compound": 0.046,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Bitcoin Breakout Cools as Fed Rate-Hike Bets Climb",
-            "source": "Decrypt",
-            "publishedAt": "2026-09-24T16:01:01Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Cricut® Launches a New Category with the All-New Cricut StickerPix™ Line, Bringing Personalized Sticker Making into Its Creativity Platform",
-            "source": "Financial Post",
-            "publishedAt": "2026-09-24T16:01:00Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "CAPR Deadline: CAPR Investors with Losses in Excess of $100K Have Opportunity to Lead Capricor Therapeutics, Inc. Securities Fraud Lawsuit",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-24T16:01:00Z",
-            "sentiment": "Negative",
-            "compound": -0.527
-          },
-          {
-            "title": "Mortgage rates top 7%, dealing a further blow to the frozen housing market | CNN Business",
-            "source": "CNN",
-            "publishedAt": "2026-09-24T16:00:29Z",
+            "title": "Rising Treasury yields could push car loan rates higher, experts say. What buyers need to know",
+            "source": "CNBC",
+            "publishedAt": "2026-09-24T16:14:35Z",
             "sentiment": "Positive",
             "compound": 0.202
           },
           {
-            "title": "CGI Federal enters into an applied research agreement with the Defense Logistics Agency and the University of Tennessee, Knoxville",
+            "title": "Lincoln Educational Services Corp. (NASDAQ: LINC) Investors: Hagens Berman Alerts Investors to Securities Class Action Lawsuit, Encourages LINC Shareholders with Losses to Contact the Firm",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-24T16:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.572
+            "publishedAt": "2026-09-24T16:13:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.128
           },
           {
-            "title": "Yields elevated as inflation fears keep markets on edge",
-            "source": "CNA",
-            "publishedAt": "2026-09-24T15:55:38Z",
+            "title": "Beta Bionics (NASDAQ: BBNX) Faces Securities Fraud Class Action Amid iLet FDA Compliance -- HBSS",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-24T16:12:00Z",
             "sentiment": "Negative",
-            "compound": -0.421
+            "compound": -0.382
+          },
+          {
+            "title": "Bitcoin drops from eight-month high as yields and dollar rise",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-24T16:10:12Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "HAGENS BERMAN, NATIONAL TRIAL ATTORNEYS, Encourages FuelCell Energy, Inc. (NASDAQ: FCEL) Investors with Substantial Losses to Contact Firm, Securities Fraud Class Action Filed",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-24T16:09:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.128
+          },
+          {
+            "title": "Innventure (INV) Faces Securities Fraud Class Action Amid Questions Over DarkNX Project Bookings Removal, Stock Drops - Hagens Berman",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-24T16:08:00Z",
+            "sentiment": "Negative",
+            "compound": -0.382
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 61.38,
-  "trade_probability": 56.83,
+  "confirmation_score": 63.54,
+  "trade_probability": 58.12,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
