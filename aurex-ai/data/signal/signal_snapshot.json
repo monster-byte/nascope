@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T15:15:52.177141+00:00",
+  "generated_at": "2026-09-25T15:31:17.263546+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
+      "score": 100.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.5566,
+          "change_pct": 0.777,
           "up": true
         },
         "MSFT": {
-          "change_pct": 3.7509,
+          "change_pct": 3.7554,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.286,
+          "change_pct": 0.2815,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.0908,
-          "up": false
+          "change_pct": 0.1125,
+          "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 82.91,
+      "score": 83.05,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30546.25,
-        "sma50": 29286.11,
-        "sma200": 27353.51
+        "last_price": 30560.73,
+        "sma50": 29286.4,
+        "sma200": 27353.58
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 40.0,
+      "score": 45.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.25,
-        "percentile_vs_20d": 60.0
+        "current_vxn": 21.12,
+        "percentile_vs_20d": 55.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 16.23,
+      "score": 15.59,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.209,
-        "change_5d_pct": 4.222
+        "current_yield_pct": 5.213,
+        "change_5d_pct": 4.302
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.73,
+      "score": 43.55,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.0,
-        "change_5d_pct": 0.783
+        "current_dxy": 101.03,
+        "change_5d_pct": 0.806
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.95,
+      "score": 47.63,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.061,
-        "articles_analyzed": 25,
+        "avg_compound": -0.047,
+        "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Why is Oracle stock crashing today at NYSE, Wall Street? Check reason behind ORCL share price bloodbath on Thursday",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-24T15:26:10Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "US yield shock, oil surge hammer equities; Nifty hits lowest since April 7",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-24T15:24:23Z",
+            "sentiment": "Negative",
+            "compound": -0.361
+          },
+          {
+            "title": "US yields rise, 30-year bond yield hits highest since 2004",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-24T15:24:08Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Are Bonds About To Crash The Stock Market?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-24T15:21:25Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
+          {
+            "title": "Bill Burr Falsely Claims Illegal Immigrants Don't Drive Up Housing Prices, Says ICE ‘Eventually’ Going to Detain Pro-ICE Americans",
+            "source": "Breitbart News",
+            "publishedAt": "2026-09-24T15:21:23Z",
+            "sentiment": "Negative",
+            "compound": -0.751
+          },
           {
             "title": "What today's gold prices could mean for your retirement savings",
             "source": "CBS News",
             "publishedAt": "2026-09-24T15:14:43Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Anthropic revenue run rate jumps to $65B, potential IPO this year",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-24T15:07:29Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Advanced Micro Devices reaches $1T market cap amid AI boom",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-24T15:06:31Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "40% of Your Wealth Hangs on the Stock Market. Congratulations–You’re One Correction Away from Disaster",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-24T15:06:14Z",
-            "sentiment": "Negative",
-            "compound": -0.226
-          },
-          {
-            "title": "India is a stable economy with the ability to withstand external headwinds, says DEA Anuradha Thakur",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-24T15:05:55Z",
-            "sentiment": "Positive",
-            "compound": 0.542
-          },
-          {
-            "title": "Long-Term Treasury Yields Hit Highest Level Since 2004",
-            "source": "Newser",
-            "publishedAt": "2026-09-24T15:05:00Z",
-            "sentiment": "Positive",
-            "compound": 0.202
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.9,
-  "trade_probability": 52.94,
+  "confirmation_score": 62.07,
+  "trade_probability": 57.24,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
