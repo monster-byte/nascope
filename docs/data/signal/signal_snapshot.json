@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T15:01:25.874528+00:00",
+  "generated_at": "2026-09-25T15:15:52.177141+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.5076,
+          "change_pct": 0.5566,
           "up": true
         },
         "MSFT": {
-          "change_pct": 4.262,
+          "change_pct": 3.7509,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.2882,
+          "change_pct": 0.286,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.0141,
+          "change_pct": -0.0908,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 82.99,
+      "score": 82.91,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30554.18,
-        "sma50": 29286.26,
-        "sma200": 27353.55
+        "last_price": 30546.25,
+        "sma50": 29286.11,
+        "sma200": 27353.51
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 35.0,
-      "status": "red",
+      "score": 40.0,
+      "status": "yellow",
       "details": {
-        "current_vxn": 21.49,
-        "percentile_vs_20d": 65.0
+        "current_vxn": 21.25,
+        "percentile_vs_20d": 60.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 12.87,
+      "score": 16.23,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.23,
-        "change_5d_pct": 4.642
+        "current_yield_pct": 5.209,
+        "change_5d_pct": 4.222
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.09,
+      "score": 43.73,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.96,
-        "change_5d_pct": 0.739
+        "current_dxy": 101.0,
+        "change_5d_pct": 0.783
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.22,
+      "score": 46.95,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.096,
+        "avg_compound": -0.061,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "The economic squeeze is pushing up poverty rates for older adults",
-            "source": "NPR",
-            "publishedAt": "2026-09-24T15:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.511
-          },
-          {
-            "title": "Federal Reserve Board issues enforcement action with former employee of Sandy Spring Bank",
-            "source": "Federalreserve.gov",
-            "publishedAt": "2026-09-24T15:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "ミルトン・フリードマン後のマネタリズムの未来",
-            "source": "Hatenablog.com",
-            "publishedAt": "2026-09-24T14:59:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Users Crush Disney, Hulu for Raising Prices Again: 'Producing Dogs**t Content and Making You Pay Double for It'",
-            "source": "Breitbart News",
-            "publishedAt": "2026-09-24T14:57:39Z",
-            "sentiment": "Negative",
-            "compound": -0.25
-          },
-          {
-            "title": "Farmers consider backing other politicians as they struggle to make a living",
+            "title": "What today's gold prices could mean for your retirement savings",
             "source": "CBS News",
-            "publishedAt": "2026-09-24T14:56:19Z",
-            "sentiment": "Negative",
-            "compound": -0.296
+            "publishedAt": "2026-09-24T15:14:43Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Economists raise concerns as India's growth increasingly becomes credit expansion-led",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-24T14:49:12Z",
+            "title": "Anthropic revenue run rate jumps to $65B, potential IPO this year",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-24T15:07:29Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Advanced Micro Devices reaches $1T market cap amid AI boom",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-24T15:06:31Z",
             "sentiment": "Positive",
-            "compound": 0.637
+            "compound": 0.296
+          },
+          {
+            "title": "40% of Your Wealth Hangs on the Stock Market. Congratulations–You’re One Correction Away from Disaster",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-24T15:06:14Z",
+            "sentiment": "Negative",
+            "compound": -0.226
+          },
+          {
+            "title": "India is a stable economy with the ability to withstand external headwinds, says DEA Anuradha Thakur",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-24T15:05:55Z",
+            "sentiment": "Positive",
+            "compound": 0.542
+          },
+          {
+            "title": "Long-Term Treasury Yields Hit Highest Level Since 2004",
+            "source": "Newser",
+            "publishedAt": "2026-09-24T15:05:00Z",
+            "sentiment": "Positive",
+            "compound": 0.202
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 53.88,
-  "trade_probability": 52.33,
+  "confirmation_score": 54.9,
+  "trade_probability": 52.94,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
