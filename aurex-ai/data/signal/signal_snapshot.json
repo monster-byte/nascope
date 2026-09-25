@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T16:45:50.324353+00:00",
+  "generated_at": "2026-09-25T17:01:27.471675+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.9735,
+          "change_pct": 1.0478,
           "up": true
         },
         "MSFT": {
-          "change_pct": 4.3883,
+          "change_pct": 4.3237,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.5361,
+          "change_pct": 0.4647,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.5364,
+          "change_pct": 0.7453,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 83.61,
+      "score": 83.62,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30616.38,
-        "sma50": 29287.51,
+        "last_price": 30616.8,
+        "sma50": 29287.52,
         "sma200": 27353.86
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 40.0,
+      "score": 55.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.07,
-        "percentile_vs_20d": 60.0
+        "current_vxn": 20.86,
+        "percentile_vs_20d": 45.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 21.35,
+      "score": 19.59,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.177,
-        "change_5d_pct": 3.581
+        "current_yield_pct": 5.188,
+        "change_5d_pct": 3.802
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.72,
+      "score": 43.57,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.01,
-        "change_5d_pct": 0.785
+        "current_dxy": 101.03,
+        "change_5d_pct": 0.803
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.0,
+      "score": 52.43,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.08,
+        "avg_compound": 0.049,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "‘Is it True?!’ Bernie Sanders Brawls With FDA Nominee About Wild Trump Claim on Drug Prices",
+            "source": "Mediaite",
+            "publishedAt": "2026-09-24T17:01:09Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "European stocks drop as global bond sell-off continues",
+            "source": "The Irish Times",
+            "publishedAt": "2026-09-24T17:00:09Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "Cox Automotive Raises Full-Year New-Vehicle Sales Forecast; September Sales Expected to Increase 6.5% Year Over Year, as Asian Brands Gain Share",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-24T17:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.784
+          },
+          {
+            "title": "Philadelphia Fed president says more rate hikes may be needed to hit 2% inflation target",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-24T16:59:47Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "PepsiCo to raise some prices after cuts failed to grow sales",
+            "source": "Financial Post",
+            "publishedAt": "2026-09-24T16:48:03Z",
+            "sentiment": "Negative",
+            "compound": -0.67
+          },
           {
             "title": "US mortgage rates breach 7% as affordability pressures mount",
             "source": "Biztoc.com",
             "publishedAt": "2026-09-24T16:36:29Z",
             "sentiment": "Negative",
             "compound": -0.318
-          },
-          {
-            "title": "Mortgage rates surpass 7% for first time since January 2025",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-24T16:27:34Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "As the coding boom fades, computer science grads focus on AI skills in choppy job market",
-            "source": "KPBS",
-            "publishedAt": "2026-09-24T16:18:30Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Better Home & Finance (NASDAQ: BETR) Faces Securities Class Action Amid 75% Sequential Increase in Net Loss, Dimmed Loan Volume Prospects",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-24T16:18:00Z",
-            "sentiment": "Positive",
-            "compound": 0.743
-          },
-          {
-            "title": "APP INVESTOR DEADLINE: AppLovin Corporation Investors with Substantial Losses Have Opportunity to Lead Shareholder Class Action Lawsuit",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-24T16:17:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Rising Treasury yields could push car loan rates higher, experts say. What buyers need to know",
-            "source": "CNBC",
-            "publishedAt": "2026-09-24T16:14:35Z",
-            "sentiment": "Positive",
-            "compound": 0.202
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 63.06,
-  "trade_probability": 57.84,
+  "confirmation_score": 64.02,
+  "trade_probability": 58.41,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
