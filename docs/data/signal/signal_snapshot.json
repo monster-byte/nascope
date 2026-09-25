@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T14:01:24.829309+00:00",
+  "generated_at": "2026-09-25T14:15:52.872832+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.0357,
+          "change_pct": -0.1965,
           "up": false
         },
         "MSFT": {
-          "change_pct": 3.6299,
+          "change_pct": 3.2083,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.5227,
+          "change_pct": 0.0894,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.3033,
+          "change_pct": -0.5725,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 83.3,
+      "score": 82.1,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30585.73,
-        "sma50": 29286.9,
-        "sma200": 27353.71
+        "last_price": 30465.37,
+        "sma50": 29284.49,
+        "sma200": 27353.11
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 45.0,
+      "score": 55.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.06,
-        "percentile_vs_20d": 55.0
+        "current_vxn": 21.02,
+        "percentile_vs_20d": 45.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 19.59,
+      "score": 17.99,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.188,
-        "change_5d_pct": 3.802
+        "current_yield_pct": 5.198,
+        "change_5d_pct": 4.002
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.36,
+      "score": 43.76,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.93,
-        "change_5d_pct": 0.704
+        "current_dxy": 101.0,
+        "change_5d_pct": 0.78
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.13,
+      "score": 56.24,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.023,
+        "avg_compound": 0.125,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Provident Bank Goes Live with MANTL Business and Retail Account Opening Across its 135-Branch Network",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-24T14:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Digital divide in information verification among young seniors: An analysis of literacies and sociodemographic factors",
-            "source": "Plos.org",
-            "publishedAt": "2026-09-24T14:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Differences in weight loss practices and perceptions between medalists and non-medalists in national-level adolescent Sanda athletes",
-            "source": "Plos.org",
-            "publishedAt": "2026-09-24T14:00:00Z",
+            "title": "Fed’s Paulson signals hawkish stance as AI fuels inflation pressures",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-24T14:14:32Z",
             "sentiment": "Negative",
             "compound": -0.318
           },
           {
-            "title": "Persistent spatial hotspots and socioeconomic inequalities of snakebite envenoming in Peru: A nationwide spatiotemporal analysis, 2010–2025",
-            "source": "Plos.org",
-            "publishedAt": "2026-09-24T14:00:00Z",
+            "title": "Philadelphia Fed's Anna Paulson says 'modest' rate moves likely ahead to tame inflation",
+            "source": "CNBC",
+            "publishedAt": "2026-09-24T14:14:16Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Egypt’s Sourcing Boom: Just Another Optimistic Wave?",
-            "source": "WWD",
-            "publishedAt": "2026-09-24T14:00:00Z",
+            "title": "BIDU Shareholder Alert: Baidu, Inc. Securities Class Action Lawsuit - Investors Should Contact SueWallSt",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-24T14:11:00Z",
             "sentiment": "Positive",
-            "compound": 0.318
+            "compound": 0.361
           },
           {
-            "title": "Bond yields surge to fresh two decade highs as oil prices hit $105 per barrel",
-            "source": "NBC News",
-            "publishedAt": "2026-09-24T13:59:33Z",
+            "title": "INV DEADLINE: SueWallSt Reminds Innventure, Inc. Investors of Upcoming Securities Class Action Deadline",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-24T14:11:00Z",
             "sentiment": "Positive",
-            "compound": 0.318
+            "compound": 0.296
+          },
+          {
+            "title": "UNCY Shareholder Alert: November 2, 2026 Lead Plaintiff Deadline in Unicycive Therapeutics, Inc. Securities Class Action - Contact SueWallSt",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-24T14:11:00Z",
+            "sentiment": "Positive",
+            "compound": 0.527
+          },
+          {
+            "title": "SueWallSt Reminds Shareholders of a Lead Plaintiff Deadline of October 13, 2026 in Aardvark Therapeutics, Inc. Lawsuit - AARD",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-24T14:11:00Z",
+            "sentiment": "Negative",
+            "compound": -0.226
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 49.53,
-  "trade_probability": 49.72,
+  "confirmation_score": 50.46,
+  "trade_probability": 50.28,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
