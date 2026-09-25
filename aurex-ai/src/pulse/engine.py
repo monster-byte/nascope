@@ -15,6 +15,7 @@ from datetime import datetime, timezone
 
 from .volume_profile import compute_volume_profile
 from .catalyst_watcher import compute_catalyst
+from .breakout_confirm import detect_breakout
 from .fusion import fuse
 from ..signal.price_factors import compute_vxn_factor
 from ..data.price_fetcher import fetch_ohlcv
@@ -39,13 +40,12 @@ def run():
     if not price_snapshot:
         print("[WARN] لا يوجد data/prices/snapshot_1D.json — شغّل طبقة البيانات أولاً")
 
-    print("[1/5] جلب شموع دقيقة واحدة طازجة (لـMicro Profile الخاص بالسكالب)...")
+    print("[1/6] جلب شموع دقيقة واحدة طازجة (لـMicro Profile الخاص بالسكالب)...")
     micro_candles = None
     try:
         one_min_data = fetch_ohlcv(NASDAQ_FUTURES, timeframe="1m")
         if one_min_data and one_min_data.get("candles"):
             micro_candles = one_min_data["candles"]
-            # نحفظها بملف منفصل تماماً — شفافية/تصحيح أخطاء بس، ما يقرأه أي محرك تاني
             os.makedirs("data/prices", exist_ok=True)
             with open("data/prices/snapshot_1m.json", "w", encoding="utf-8") as f:
                 json.dump(one_min_data, f, ensure_ascii=False, indent=2)
@@ -53,20 +53,28 @@ def run():
         print(f"[WARN] فشل جلب بيانات 1 دقيقة (رح نتراجع تلقائياً لشموع 5 دقايق): {e}")
         micro_candles = None
 
-    print("[2/5] حساب Developing Volume Profile + Micro Profile...")
+    print("[2/6] حساب Developing Volume Profile + Micro Profile...")
     vp = compute_volume_profile(price_snapshot, micro_candles=micro_candles)
 
-    print("[3/5] حساب مؤشر الخوف VXN اللحظي...")
+    print("[3/6] حساب مؤشر الخوف VXN اللحظي...")
     try:
         vxn_factor = compute_vxn_factor(price_snapshot)
     except Exception as e:
         print(f"[WARN] فشل حساب VXN لمحرك Pulse: {e}")
         vxn_factor = {"factor": "vxn", "score": 50.0, "status": "yellow", "details": {"error": str(e)}}
 
-    print("[4/5] فحص الكاتاليست الطازج (أخبار + تقويم اقتصادي)...")
+    print("[4/6] فحص الكاتاليست الطازج (أخبار + تقويم اقتصادي)...")
     catalyst = compute_catalyst(calendar_payload)
 
-    print("[5/5] دمج النتائج الثلاث بتنبيه استشاري واحد...")
+    print("[5/6] فحص تأكيد الكسر (بوابة 3 — جلسة نيويورك فقط)...")
+    try:
+        all_candles = price_snapshot.get("NASDAQ_FUTURES", {}).get("candles", [])
+        breakout = detect_breakout(all_candles, vp.get("val"), vp.get("vah"))
+    except Exception as e:
+        print(f"[WARN] فشل فحص تأكيد الكسر: {e}")
+        breakout = {"status": "error", "in_ny_session": False, "error": str(e)}
+
+    print("[6/6] دمج النتائج بتنبيه استشاري واحد...")
     fusion_result = fuse(vp, catalyst, vxn_factor)
 
     result = {
@@ -75,6 +83,7 @@ def run():
         "volume_profile": vp,
         "vxn": vxn_factor,
         "catalyst": catalyst,
+        "breakout": breakout,
         "fusion": fusion_result,
     }
 
@@ -92,6 +101,7 @@ def run():
         print(f"Micro Profile      : غير متوفر ({mp.get('reason')})")
     print(f"VXN Status         : {vxn_factor.get('status')} ({vxn_factor.get('details', {}).get('current_vxn')})")
     print(f"Catalyst Detected  : {catalyst.get('detected')}")
+    print(f"Breakout (Gate 3)  : {breakout.get('status')} (in_ny_session={breakout.get('in_ny_session')})")
     print(f"Alert Level        : {fusion_result.get('alert_level')} ({fusion_result.get('directional_hint')})")
     print(f"\n[OK] تم حفظ {OUTPUT_PATH}")
     print("=== انتهى ✅ ===")
