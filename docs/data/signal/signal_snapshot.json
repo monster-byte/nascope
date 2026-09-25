@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T14:31:11.878410+00:00",
+  "generated_at": "2026-09-25T14:45:58.202619+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.1399,
+          "change_pct": 0.3111,
           "up": true
         },
         "MSFT": {
-          "change_pct": 3.4907,
+          "change_pct": 3.7226,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.1832,
+          "change_pct": -0.1567,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.5444,
+          "change_pct": -0.3295,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 82.09,
+      "score": 82.28,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30464.69,
-        "sma50": 29284.47,
-        "sma200": 27353.1
+        "last_price": 30483.91,
+        "sma50": 29284.86,
+        "sma200": 27353.2
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 30.0,
-      "status": "red",
+      "score": 40.0,
+      "status": "yellow",
       "details": {
-        "current_vxn": 21.71,
-        "percentile_vs_20d": 70.0
+        "current_vxn": 21.43,
+        "percentile_vs_20d": 60.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 16.23,
+      "score": 14.63,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.209,
-        "change_5d_pct": 4.222
+        "current_yield_pct": 5.219,
+        "change_5d_pct": 4.422
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.93,
+      "score": 43.76,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.98,
-        "change_5d_pct": 0.759
+        "current_dxy": 101.0,
+        "change_5d_pct": 0.78
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.58,
+      "score": 49.55,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.032,
+        "avg_compound": -0.009,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Laparoscopic Instruments Market worth $15.86 billion by 2031 - Exclusive Report by MarketsandMarkets™",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-24T14:30:00Z",
+            "title": "NFL ‘Thursday Night Football’ betting promos: Earn nearly $4k in sportsbook, prediction market bonuses for Packers vs. Falcons",
+            "source": "New York Post",
+            "publishedAt": "2026-09-24T14:45:00Z",
             "sentiment": "Positive",
-            "compound": 0.34
+            "compound": 0.557
           },
           {
-            "title": "Bank of England’s Sarah Breeden warns of two-sided inflation risks as public anxiety grows",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-24T14:26:59Z",
+            "title": "Ontario's health-care, education sectors need to spend more or service levels will drop: FAO reports",
+            "source": "CBC News",
+            "publishedAt": "2026-09-24T14:43:29Z",
             "sentiment": "Negative",
-            "compound": -0.494
+            "compound": -0.273
           },
           {
-            "title": "Philadelphia Fed's Anna Paulson says 'modest' rate moves likely ahead to tame inflation",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-24T14:21:27Z",
+            "title": "What the bond market is telling us as yields spike to 2-decade highs",
+            "source": "Business Insider",
+            "publishedAt": "2026-09-24T14:41:16Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Isabel Schnabel to resign from ECB for senior IMF role in January 2027",
+            "title": "US 30-year Treasury yield hits 5.44%, highest level since 2004",
             "source": "Crypto Briefing",
-            "publishedAt": "2026-09-24T14:20:11Z",
-            "sentiment": "Negative",
-            "compound": -0.34
+            "publishedAt": "2026-09-24T14:40:42Z",
+            "sentiment": "Positive",
+            "compound": 0.202
           },
           {
-            "title": "INGERSOLL: We’ll Wreck The Economy, Then Pay You $25 To Talk About It",
-            "source": "The Daily Caller",
-            "publishedAt": "2026-09-24T14:20:08Z",
+            "title": "Federal Reserve Bank of Cleveland president warns of inflationary mindset risks",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-24T14:39:42Z",
             "sentiment": "Negative",
-            "compound": -0.511
+            "compound": -0.361
           },
           {
-            "title": "Why relative poverty is stubbornly high for Japanese children",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-24T14:19:46Z",
+            "title": "Rupee, bonds witness sell-off as crude oil, US Treasury yields rise",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-24T14:39:27Z",
             "sentiment": "Negative",
-            "compound": -0.691
+            "compound": -0.44
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 47.57,
-  "trade_probability": 48.54,
+  "confirmation_score": 48.08,
+  "trade_probability": 48.85,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
