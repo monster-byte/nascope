@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T14:15:52.872832+00:00",
+  "generated_at": "2026-09-25T14:31:11.878410+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.1965,
-          "up": false
+          "change_pct": 0.1399,
+          "up": true
         },
         "MSFT": {
-          "change_pct": 3.2083,
+          "change_pct": 3.4907,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.0894,
-          "up": true
+          "change_pct": -0.1832,
+          "up": false
         },
         "AMZN": {
-          "change_pct": -0.5725,
+          "change_pct": -0.5444,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 82.1,
+      "score": 82.09,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30465.37,
-        "sma50": 29284.49,
-        "sma200": 27353.11
+        "last_price": 30464.69,
+        "sma50": 29284.47,
+        "sma200": 27353.1
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 55.0,
-      "status": "yellow",
+      "score": 30.0,
+      "status": "red",
       "details": {
-        "current_vxn": 21.02,
-        "percentile_vs_20d": 45.0
+        "current_vxn": 21.71,
+        "percentile_vs_20d": 70.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 17.99,
+      "score": 16.23,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.198,
-        "change_5d_pct": 4.002
+        "current_yield_pct": 5.209,
+        "change_5d_pct": 4.222
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.76,
+      "score": 43.93,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.0,
-        "change_5d_pct": 0.78
+        "current_dxy": 100.98,
+        "change_5d_pct": 0.759
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.24,
+      "score": 51.58,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.125,
+        "avg_compound": 0.032,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Fed’s Paulson signals hawkish stance as AI fuels inflation pressures",
+            "title": "Laparoscopic Instruments Market worth $15.86 billion by 2031 - Exclusive Report by MarketsandMarkets™",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-24T14:30:00Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
+          {
+            "title": "Bank of England’s Sarah Breeden warns of two-sided inflation risks as public anxiety grows",
             "source": "Crypto Briefing",
-            "publishedAt": "2026-09-24T14:14:32Z",
+            "publishedAt": "2026-09-24T14:26:59Z",
             "sentiment": "Negative",
-            "compound": -0.318
+            "compound": -0.494
           },
           {
             "title": "Philadelphia Fed's Anna Paulson says 'modest' rate moves likely ahead to tame inflation",
-            "source": "CNBC",
-            "publishedAt": "2026-09-24T14:14:16Z",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-24T14:21:27Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "BIDU Shareholder Alert: Baidu, Inc. Securities Class Action Lawsuit - Investors Should Contact SueWallSt",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-24T14:11:00Z",
-            "sentiment": "Positive",
-            "compound": 0.361
-          },
-          {
-            "title": "INV DEADLINE: SueWallSt Reminds Innventure, Inc. Investors of Upcoming Securities Class Action Deadline",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-24T14:11:00Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "UNCY Shareholder Alert: November 2, 2026 Lead Plaintiff Deadline in Unicycive Therapeutics, Inc. Securities Class Action - Contact SueWallSt",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-24T14:11:00Z",
-            "sentiment": "Positive",
-            "compound": 0.527
-          },
-          {
-            "title": "SueWallSt Reminds Shareholders of a Lead Plaintiff Deadline of October 13, 2026 in Aardvark Therapeutics, Inc. Lawsuit - AARD",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-24T14:11:00Z",
+            "title": "Isabel Schnabel to resign from ECB for senior IMF role in January 2027",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-24T14:20:11Z",
             "sentiment": "Negative",
-            "compound": -0.226
+            "compound": -0.34
+          },
+          {
+            "title": "INGERSOLL: We’ll Wreck The Economy, Then Pay You $25 To Talk About It",
+            "source": "The Daily Caller",
+            "publishedAt": "2026-09-24T14:20:08Z",
+            "sentiment": "Negative",
+            "compound": -0.511
+          },
+          {
+            "title": "Why relative poverty is stubbornly high for Japanese children",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-24T14:19:46Z",
+            "sentiment": "Negative",
+            "compound": -0.691
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 50.46,
-  "trade_probability": 50.28,
+  "confirmation_score": 47.57,
+  "trade_probability": 48.54,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
