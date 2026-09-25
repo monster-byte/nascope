@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T19:31:12.618068+00:00",
+  "generated_at": "2026-09-25T19:45:57.172828+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,45 +13,45 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
+      "score": 100.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.2151,
+          "change_pct": 1.5183,
           "up": true
         },
         "MSFT": {
-          "change_pct": 4.0776,
+          "change_pct": 4.1644,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.0491,
-          "up": false
+          "change_pct": 0.2368,
+          "up": true
         },
         "AMZN": {
-          "change_pct": 0.3837,
+          "change_pct": 0.6931,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 83.23,
+      "score": 83.69,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30578.37,
-        "sma50": 29286.75,
-        "sma200": 27353.67
+        "last_price": 30623.77,
+        "sma50": 29287.66,
+        "sma200": 27353.9
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 50.0,
+      "score": 55.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 20.96,
-        "percentile_vs_20d": 50.0
+        "current_vxn": 20.95,
+        "percentile_vs_20d": 45.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.97,
+      "score": 43.96,
       "status": "yellow",
       "details": {
         "current_dxy": 100.98,
-        "change_5d_pct": 0.754
+        "change_5d_pct": 0.755
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.19,
+      "score": 53.11,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.004,
+        "avg_compound": 0.062,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Ride The Momentum: 3 Top AI Stocks Trading Above 50-Day Moving Averages",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-24T19:38:36Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "Why we like Starbucks’ latest turnaround move — plus, two more wins for Eli Lilly",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-24T19:37:22Z",
+            "sentiment": "Positive",
+            "compound": 0.757
+          },
+          {
+            "title": "The Transformers: The Movie Re-Release Is Staying In Theaters After Passing $5 Million Worldwide",
+            "source": "CBM (Comic Book Movie)",
+            "publishedAt": "2026-09-24T19:37:21Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "The Fed Is the Last Major Agency to Lay Down Stablecoin Rules. That Closes the Supervisory Gap – and Starts the Clock.",
+            "source": "Forkast.news",
+            "publishedAt": "2026-09-24T19:34:06Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Melania Trump Says Donald Is 'Doing the Best He Can' During 2nd Term",
             "source": "Us Weekly",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-09-24T19:08:52Z",
             "sentiment": "Negative",
             "compound": -0.421
-          },
-          {
-            "title": "US Federal Reserve’s Anna Paulson sees scope for more interest rate hikes amid inflation risks",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-24T19:01:01Z",
-            "sentiment": "Positive",
-            "compound": 0.294
-          },
-          {
-            "title": "Parke Bancorp, Inc. Appoints Entrepreneur Michael L. Regina to Board of Directors",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-24T19:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "US Treasury yields hit highest level since 2007",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-24T18:52:15Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "Can You Be a Boglehead Tech Investor?",
-            "source": "Awealthofcommonsense.com",
-            "publishedAt": "2026-09-24T18:46:08Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.69,
-  "trade_probability": 54.01,
+  "confirmation_score": 64.22,
+  "trade_probability": 58.53,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
