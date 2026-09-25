@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T18:01:25.792725+00:00",
+  "generated_at": "2026-09-25T18:15:57.780564+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.234,
+          "change_pct": 1.2593,
           "up": true
         },
         "MSFT": {
-          "change_pct": 4.4467,
+          "change_pct": 4.4347,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.4602,
+          "change_pct": 0.5272,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.46,
+          "change_pct": 0.4118,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 83.79,
+      "score": 83.9,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30634.56,
-        "sma50": 29287.87,
-        "sma200": 27353.95
+        "last_price": 30645.31,
+        "sma50": 29288.09,
+        "sma200": 27354.01
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 55.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 20.93,
+        "current_vxn": 20.92,
         "percentile_vs_20d": 45.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 18.63,
+      "score": 17.99,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.194,
-        "change_5d_pct": 3.922
+        "current_yield_pct": 5.198,
+        "change_5d_pct": 4.002
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.38,
+      "score": 43.4,
       "status": "yellow",
       "details": {
         "current_dxy": 101.05,
-        "change_5d_pct": 0.827
+        "change_5d_pct": 0.825
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.88,
+      "score": 48.56,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.022,
+        "avg_compound": -0.029,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "U.S. Fed officials see rates likely rising to curb high inflation",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-24T18:07:37Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "PepsiCo to raise some chip prices after cutting them earlier this year",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-24T18:06:58Z",
+            "sentiment": "Neutral",
+            "compound": -0.128
+          },
+          {
+            "title": "$HAREHOLDER ALERT: The M&A Class Action Firm Announces An Investigation of Priority Technology Holdings, Inc. (NASDAQ: PRTH)",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-24T18:04:00Z",
+            "sentiment": "Positive",
+            "compound": 0.447
+          },
           {
             "title": "Why Are Diesel Prices So High?",
             "source": "OilPrice.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-09-24T18:00:00Z",
             "sentiment": "Negative",
             "compound": -0.511
-          },
-          {
-            "title": "Stock Market Today: Dow Extends Losses On Surprise Economic Data; Everpure Shoots Higher (Live Coverage) - Investor's Business Daily",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-09-24T17:53:06Z",
-            "sentiment": "Neutral",
-            "compound": -0.026
-          },
-          {
-            "title": "Fed officials signal possible rate hike amid persistent inflation concerns",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-24T17:50:50Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Term insurance maths: Forget the 10x rule, here is what you actually need to avoid being underinsured",
-            "source": "Livemint",
-            "publishedAt": "2026-09-24T17:46:24Z",
-            "sentiment": "Negative",
-            "compound": -0.477
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 63.58,
-  "trade_probability": 58.15,
+  "confirmation_score": 63.48,
+  "trade_probability": 58.09,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
