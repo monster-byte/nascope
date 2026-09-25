@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T15:45:56.237057+00:00",
+  "generated_at": "2026-09-25T16:01:31.797371+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,45 +13,45 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 100.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.7398,
+          "change_pct": 1.1447,
           "up": true
         },
         "MSFT": {
-          "change_pct": 3.5825,
+          "change_pct": 3.9486,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.1083,
-          "up": false
+          "change_pct": 0.7071,
+          "up": true
         },
         "AMZN": {
-          "change_pct": -0.1667,
-          "up": false
+          "change_pct": 0.453,
+          "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 82.23,
+      "score": 83.5,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30478.86,
-        "sma50": 29284.76,
-        "sma200": 27353.17
+        "last_price": 30605.39,
+        "sma50": 29287.29,
+        "sma200": 27353.81
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 45.0,
-      "status": "yellow",
+      "score": 35.0,
+      "status": "red",
       "details": {
-        "current_vxn": 21.1,
-        "percentile_vs_20d": 55.0
+        "current_vxn": 21.41,
+        "percentile_vs_20d": 65.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.74,
+      "score": 43.06,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.0,
-        "change_5d_pct": 0.782
+        "current_dxy": 101.09,
+        "change_5d_pct": 0.868
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.27,
+      "score": 48.82,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.055,
+        "avg_compound": -0.024,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Editorial. Taking stock",
-            "source": "BusinessLine",
-            "publishedAt": "2026-09-24T15:45:28Z",
+            "title": "Bitcoin Breakout Cools as Fed Rate-Hike Bets Climb",
+            "source": "Decrypt",
+            "publishedAt": "2026-09-24T16:01:01Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Anthropic’s IPO fuels political donor network for AI safety",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-24T15:44:55Z",
+            "title": "Cricut® Launches a New Category with the All-New Cricut StickerPix™ Line, Bringing Personalized Sticker Making into Its Creativity Platform",
+            "source": "Financial Post",
+            "publishedAt": "2026-09-24T16:01:00Z",
             "sentiment": "Positive",
-            "compound": 0.421
+            "compound": 0.382
           },
           {
-            "title": "Analysis: Higher Treasury yields deliver a reality check on a hot, inflation-prone economy",
-            "source": "CNBC",
-            "publishedAt": "2026-09-24T15:40:19Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "cpi 2.1.0",
-            "source": "Pypi.org",
-            "publishedAt": "2026-09-24T15:35:05Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Stock Market Today: Indexes Decline After Selloff as Treasury Yields Remain Elevated; Tech Stocks Weigh; Trump-Xi Summit on Tap - Investopedia",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-09-24T15:33:17Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "Netherlands Cuts 2040 Hydrogen Forecast By Almost 60%",
-            "source": "CleanTechnica",
-            "publishedAt": "2026-09-24T15:32:51Z",
+            "title": "CAPR Deadline: CAPR Investors with Losses in Excess of $100K Have Opportunity to Lead Capricor Therapeutics, Inc. Securities Fraud Lawsuit",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-24T16:01:00Z",
             "sentiment": "Negative",
-            "compound": -0.296
+            "compound": -0.527
+          },
+          {
+            "title": "Mortgage rates top 7%, dealing a further blow to the frozen housing market | CNN Business",
+            "source": "CNN",
+            "publishedAt": "2026-09-24T16:00:29Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "CGI Federal enters into an applied research agreement with the Defense Logistics Agency and the University of Tennessee, Knoxville",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-24T16:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.572
+          },
+          {
+            "title": "Yields elevated as inflation fears keep markets on edge",
+            "source": "CNA",
+            "publishedAt": "2026-09-24T15:55:38Z",
+            "sentiment": "Negative",
+            "compound": -0.421
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 48.53,
-  "trade_probability": 49.12,
+  "confirmation_score": 61.38,
+  "trade_probability": 56.83,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
