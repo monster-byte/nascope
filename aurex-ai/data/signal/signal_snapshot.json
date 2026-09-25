@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T02:31:06.594810+00:00",
+  "generated_at": "2026-09-25T02:45:57.273144+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.61,
+      "score": 42.6,
       "status": "yellow",
       "details": {
         "current_dxy": 101.24,
-        "change_5d_pct": 0.923
+        "change_5d_pct": 0.925
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.43,
+      "score": 53.5,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.049,
+        "avg_compound": 0.07,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "NSE IPO Listing Live Updates: NSE shares to debut today: GMP points to 2% listing premium",
+            "source": "Economictimes.com",
+            "publishedAt": "2026-09-24T02:34:45Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "Kheria Autocomp, SpectraA Technology Solutions SME shares to list today: Check GMP, subscription and key details",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-24T02:34:20Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
+          {
+            "title": "Stocks to watch: NSE, Exide Industries, Welspun Living, Max Estates, GHCL",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-24T02:32:29Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Australia's unemployment rate jumps to highest level in almost five years",
             "source": "Dailymail.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-09-24T02:17:55Z",
             "sentiment": "Positive",
             "compound": 0.296
-          },
-          {
-            "title": "Dollar perched at two-month high as hot PMI fuels inflation fears, rate hike bets",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-24T02:15:16Z",
-            "sentiment": "Negative",
-            "compound": -0.421
-          },
-          {
-            "title": "Economic Digest: A Snapshot of Nepal’s Business News",
-            "source": "Khabarhub.com",
-            "publishedAt": "2026-09-24T02:15:11Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Transaction records alone can’t prove genuine share gains: Why ITAT upheld ₹14.85 lakh tax addition",
-            "source": "Livemint",
-            "publishedAt": "2026-09-24T02:04:39Z",
-            "sentiment": "Positive",
-            "compound": 0.382
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.32,
-  "trade_probability": 46.59,
+  "confirmation_score": 44.41,
+  "trade_probability": 46.65,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
