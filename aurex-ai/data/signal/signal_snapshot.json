@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T22:15:52.095564+00:00",
+  "generated_at": "2026-09-25T22:31:14.005468+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.88,
+      "score": 49.45,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.002,
+        "avg_compound": -0.011,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "30-year fixed mortgage rate jumps sharply Thursday to 7.45%",
+            "source": "CNBC",
+            "publishedAt": "2026-09-24T22:29:19Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "U.S. Federal Reserve moves on proposals to implement GENIUS Act for stablecoins",
+            "source": "CoinDesk",
+            "publishedAt": "2026-09-24T22:28:49Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Fed proposes new capital, redemption rules for stablecoin issuers",
             "source": "Cointelegraph",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-09-24T22:04:22Z",
             "sentiment": "Negative",
             "compound": -0.296
-          },
-          {
-            "title": "Cardinal Infrastructure Group Completes Syndication of Expanded Credit Facility",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-24T22:02:00Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "How Much Did a Movie Ticket Cost the Year You Were Born?",
-            "source": "Mental Floss",
-            "publishedAt": "2026-09-24T22:00:01Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 63.86,
-  "trade_probability": 58.32,
+  "confirmation_score": 63.82,
+  "trade_probability": 58.29,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
