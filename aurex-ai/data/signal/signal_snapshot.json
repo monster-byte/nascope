@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T12:45:54.583685+00:00",
+  "generated_at": "2026-09-25T12:52:49.542083+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 20.23,
+      "score": 19.59,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.184,
-        "change_5d_pct": 3.721
+        "current_yield_pct": 5.188,
+        "change_5d_pct": 3.802
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.86,
+      "score": 43.77,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.99,
-        "change_5d_pct": 0.767
+        "current_dxy": 101.0,
+        "change_5d_pct": 0.779
       }
     },
     "macro": {
@@ -85,56 +85,10 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 57.03,
+      "score": 50.0,
       "status": "yellow",
       "details": {
-        "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.141,
-        "articles_analyzed": 25,
-        "top_headlines": [
-          {
-            "title": "Billions Behind the Autonomous Machine Boom as Unmanned Ground Vehicles Disrupts the Defense Industry",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-24T12:45:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.128
-          },
-          {
-            "title": "Xi arrives in D.C., Treasury yields hit multiyear highs, McDonald's growth plan and more in Morning Squawk",
-            "source": "CNBC",
-            "publishedAt": "2026-09-24T12:41:58Z",
-            "sentiment": "Positive",
-            "compound": 0.527
-          },
-          {
-            "title": "Solana rallies to $120, boosting treasury stocks of Solana Company and others",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-24T12:41:14Z",
-            "sentiment": "Positive",
-            "compound": 0.494
-          },
-          {
-            "title": "Sigma Sports finally back in profit after “positive year” – but cycling retailer says UK economy will “remain challenging”",
-            "source": "road.cc",
-            "publishedAt": "2026-09-24T12:36:58Z",
-            "sentiment": "Positive",
-            "compound": 0.238
-          },
-          {
-            "title": "New York Fed President sees potential for another U.S. rate hike this year",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-24T12:36:47Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Federal Reserve Chair Treats Inflation With Quack ‘Cure’",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-24T12:36:29Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          }
-        ]
+        "error": "news_fetch_failed: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?q=Nasdaq+OR+%22Federal+Reserve%22+OR+%22stock+market%22+OR+inflation&language=en&sortBy=publishedAt&pageSize=25&apiKey=280ea038bd7e4ccb91d87f9d115484d4"
       }
     },
     "patent_momentum": {
@@ -146,8 +100,8 @@
       }
     }
   },
-  "confirmation_score": 57.2,
-  "trade_probability": 54.32,
+  "confirmation_score": 56.48,
+  "trade_probability": 53.89,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
