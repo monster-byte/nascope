@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T16:15:54.574344+00:00",
+  "generated_at": "2026-09-25T16:31:12.244042+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.1253,
+          "change_pct": 1.2206,
           "up": true
         },
         "MSFT": {
-          "change_pct": 4.0655,
+          "change_pct": 4.0877,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.8176,
+          "change_pct": 0.5317,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.673,
+          "change_pct": 0.7453,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 83.98,
+      "score": 83.8,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30652.89,
-        "sma50": 29288.24,
-        "sma200": 27354.04
+        "last_price": 30635.03,
+        "sma50": 29287.88,
+        "sma200": 27353.96
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 45.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.09,
+        "current_vxn": 21.12,
         "percentile_vs_20d": 55.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 21.67,
+      "score": 21.35,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.175,
-        "change_5d_pct": 3.541
+        "current_yield_pct": 5.177,
+        "change_5d_pct": 3.581
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.62,
+      "score": 43.99,
       "status": "yellow",
       "details": {
-        "current_dxy": 100.89,
-        "change_5d_pct": 0.673
+        "current_dxy": 100.97,
+        "change_5d_pct": 0.751
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.31,
+      "score": 53.8,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.046,
+        "avg_compound": 0.076,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Mortgage rates surpass 7% for first time since January 2025",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-24T16:27:34Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "As the coding boom fades, computer science grads focus on AI skills in choppy job market",
+            "source": "KPBS",
+            "publishedAt": "2026-09-24T16:18:30Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Better Home & Finance (NASDAQ: BETR) Faces Securities Class Action Amid 75% Sequential Increase in Net Loss, Dimmed Loan Volume Prospects",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-24T16:18:00Z",
+            "sentiment": "Positive",
+            "compound": 0.743
+          },
+          {
+            "title": "APP INVESTOR DEADLINE: AppLovin Corporation Investors with Substantial Losses Have Opportunity to Lead Shareholder Class Action Lawsuit",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-24T16:17:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Rising Treasury yields could push car loan rates higher, experts say. What buyers need to know",
             "source": "CNBC",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-09-24T16:13:00Z",
             "sentiment": "Neutral",
             "compound": 0.128
-          },
-          {
-            "title": "Beta Bionics (NASDAQ: BBNX) Faces Securities Fraud Class Action Amid iLet FDA Compliance -- HBSS",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-24T16:12:00Z",
-            "sentiment": "Negative",
-            "compound": -0.382
-          },
-          {
-            "title": "Bitcoin drops from eight-month high as yields and dollar rise",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-24T16:10:12Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "HAGENS BERMAN, NATIONAL TRIAL ATTORNEYS, Encourages FuelCell Energy, Inc. (NASDAQ: FCEL) Investors with Substantial Losses to Contact Firm, Securities Fraud Class Action Filed",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-24T16:09:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.128
-          },
-          {
-            "title": "Innventure (INV) Faces Securities Fraud Class Action Amid Questions Over DarkNX Project Bookings Removal, Stock Drops - Hagens Berman",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-24T16:08:00Z",
-            "sentiment": "Negative",
-            "compound": -0.382
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 63.54,
-  "trade_probability": 58.12,
+  "confirmation_score": 63.55,
+  "trade_probability": 58.13,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
