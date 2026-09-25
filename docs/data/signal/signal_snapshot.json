@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T13:31:09.868761+00:00",
+  "generated_at": "2026-09-25T13:45:53.705580+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,36 +13,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.1518,
-          "up": false
+          "change_pct": 0.1002,
+          "up": true
         },
         "MSFT": {
-          "change_pct": 0.8726,
+          "change_pct": 3.7702,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.6389,
+          "change_pct": 0.5428,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.1225,
+          "change_pct": -0.1828,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 82.81,
+      "score": 83.36,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30536.73,
-        "sma50": 29285.92,
-        "sma200": 27353.46
+        "last_price": 30591.11,
+        "sma50": 29287.0,
+        "sma200": 27353.74
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 22.31,
+      "score": 20.71,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.171,
-        "change_5d_pct": 3.461
+        "current_yield_pct": 5.181,
+        "change_5d_pct": 3.661
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.16,
+      "score": 44.19,
       "status": "yellow",
       "details": {
         "current_dxy": 100.95,
-        "change_5d_pct": 0.729
+        "change_5d_pct": 0.726
       }
     },
     "macro": {
@@ -85,10 +85,56 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.0,
+      "score": 53.12,
       "status": "yellow",
       "details": {
-        "error": "news_fetch_failed: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?q=Nasdaq+OR+%22Federal+Reserve%22+OR+%22stock+market%22+OR+inflation&language=en&sortBy=publishedAt&pageSize=25&apiKey=280ea038bd7e4ccb91d87f9d115484d4"
+        "overall_sentiment": "NEUTRAL",
+        "avg_compound": 0.062,
+        "articles_analyzed": 25,
+        "top_headlines": [
+          {
+            "title": "NSE sees no change in duties as listed entity; to protect market integrity, public interest:Chairman",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-24T13:45:00Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "NSE lists 2% higher at ₹1,818 as BSE turnover more than doubles",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-24T13:44:58Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "RXT UPCOMING DEADLINE: Faruqi & Faruqi, LLP Reminds Rackspace Technology Investors of Securities Class Action Lawsuit Deadline on September 28, 2026",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-24T13:44:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.077
+          },
+          {
+            "title": "7 Reasons Investors are Adding Silver ETFs to Their Commodity Allocation Strategy",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-24T13:42:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "SPRY UPCOMING DEADLINE: Faruqi & Faruqi, LLP Reminds ARS Pharmaceuticals Investors of Securities Class Action Lawsuit Deadline on October 5, 2026",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-24T13:38:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.077
+          },
+          {
+            "title": "Our top 10 things to watch in the stock market Thursday",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-24T13:36:36Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          }
+        ]
       }
     },
     "patent_momentum": {
@@ -100,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 50.17,
-  "trade_probability": 50.1,
+  "confirmation_score": 57.06,
+  "trade_probability": 54.24,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
