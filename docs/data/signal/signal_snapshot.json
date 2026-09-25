@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T09:31:12.602713+00:00",
+  "generated_at": "2026-09-25T09:45:49.886416+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.03,
+      "score": 43.02,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.09,
-        "change_5d_pct": 0.871
+        "current_dxy": 101.1,
+        "change_5d_pct": 0.873
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.06,
+      "score": 52.64,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.021,
+        "avg_compound": 0.053,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Global shares mostly lower as oil rises and markets await Trump-Xi talks",
+            "source": "Abcnews.com",
+            "publishedAt": "2026-09-24T09:36:48Z",
+            "sentiment": "Neutral",
+            "compound": 0.103
+          },
+          {
+            "title": "US 10-year Treasury yield, Bitcoin declines amid risk-off shift",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-24T09:34:42Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "The batle of bourses: NSE shook Dalal Street, beat BSE's broker club",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-24T09:32:27Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
           {
             "title": "'A multiyear evolutionary risk': BofA unpacks the threat Meta's Muse poses to banks",
             "source": "Business Insider",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-09-24T09:22:20Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "New York Fed’s Williams says it's 'reasonable' to expect another rate hike by year-end",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-24T09:22:11Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "U.S. 30-year bond yield rises to highest since 2004 as selloff deepens",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-24T09:21:10Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Bond crisis worsens! US 30-year Treasury yields surge to highest level since 2004. What lies ahead?",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-24T09:21:10Z",
-            "sentiment": "Negative",
-            "compound": -0.859
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.73,
-  "trade_probability": 54.64,
+  "confirmation_score": 57.87,
+  "trade_probability": 54.72,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
