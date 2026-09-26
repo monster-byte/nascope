@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T05:01:52.181535+00:00",
+  "generated_at": "2026-09-26T05:15:50.727025+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.39,
+      "score": 50.53,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.008,
+        "avg_compound": 0.011,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "An absence of significant economic slowdown doesn't mean no signs of stagflation risks. Here's why",
+            "source": "CNBC",
+            "publishedAt": "2026-09-25T05:12:01Z",
+            "sentiment": "Neutral",
+            "compound": 0.15
+          },
           {
             "title": "EU rules shed light on scale of Accenture, News Corp and Digital Realty Irish operations",
             "source": "The Irish Times",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-09-25T04:46:16Z",
             "sentiment": "Positive",
             "compound": 0.421
-          },
-          {
-            "title": "Rupee rises 14 paise to 95.85 against US dollar in early trade",
-            "source": "BusinessLine",
-            "publishedAt": "2026-09-25T04:43:54Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 63.95,
-  "trade_probability": 58.37,
+  "confirmation_score": 63.97,
+  "trade_probability": 58.38,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
