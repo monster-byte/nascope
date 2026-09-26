@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T20:45:48.093769+00:00",
+  "generated_at": "2026-09-26T21:01:20.267982+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.81,
+      "score": 51.61,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.016,
+        "avg_compound": 0.032,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "CleanSpark, Inc. Announces Closing of $2.276 Billion of Senior Secured Notes",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-25T20:48:00Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
           {
             "title": "Trouble in the Garden",
             "source": "Richmondmagazine.com",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-09-25T20:30:47Z",
             "sentiment": "Negative",
             "compound": -0.567
-          },
-          {
-            "title": "THE TRANSFORMERS: THE MOVIE Scores $5 Million Worldwide as Theaters Add More Screenings",
-            "source": "GeekTyrant",
-            "publishedAt": "2026-09-25T20:30:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 63.99,
-  "trade_probability": 58.39,
+  "confirmation_score": 64.06,
+  "trade_probability": 58.44,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
