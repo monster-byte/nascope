@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T01:15:49.251144+00:00",
+  "generated_at": "2026-09-27T01:31:02.937762+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,10 +85,56 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.0,
+      "score": 47.73,
       "status": "yellow",
       "details": {
-        "error": "news_fetch_failed: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+        "overall_sentiment": "NEUTRAL",
+        "avg_compound": -0.045,
+        "articles_analyzed": 25,
+        "top_headlines": [
+          {
+            "title": "NSE CEO on Growth After Landmark India Stock Market Listing",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-26T01:25:54Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
+          {
+            "title": "QBTS Investor Investigation Reminder: Kessler Topaz Meltzer & Check, LLP Encourages QBTS Investors with Losses to Contact the Firm",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-26T01:15:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.052
+          },
+          {
+            "title": "Transcript: Iranian President Masoud Pezeshkian on \"Face the Nation with Margaret Brennan\"",
+            "source": "CBS News",
+            "publishedAt": "2026-09-26T01:10:33Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "LA County sales tax increase goes into effect next week: What to know about Measure ER hike",
+            "source": "New York Post",
+            "publishedAt": "2026-09-26T01:06:25Z",
+            "sentiment": "Positive",
+            "compound": 0.318
+          },
+          {
+            "title": "Ask one question before you vote this fall — should Washington or Americans hold the keys?",
+            "source": "New York Post",
+            "publishedAt": "2026-09-26T00:56:47Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Ari Emanuel on Donald Trump, Elon Musk, and Mixing Business with Politics| The New Yorker Radio Hour",
+            "source": "The New Yorker",
+            "publishedAt": "2026-09-26T00:46:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          }
+        ]
       }
     },
     "patent_momentum": {
@@ -100,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 63.92,
-  "trade_probability": 58.35,
+  "confirmation_score": 63.71,
+  "trade_probability": 58.23,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
