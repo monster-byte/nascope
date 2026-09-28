@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T04:31:04.564951+00:00",
+  "generated_at": "2026-09-28T04:45:51.690590+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.7,
+      "score": 44.8,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.1,
-        "change_5d_pct": 0.662
+        "current_dxy": 101.08,
+        "change_5d_pct": 0.65
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.51,
+      "score": 53.57,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.07,
-        "articles_analyzed": 23,
+        "avg_compound": 0.071,
+        "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Stock market news: Liqvd Digital IPO, Axiom Gas debut and NSE’s dabba trading warning",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-27T04:41:43Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
+          {
+            "title": "Bonus & dividends: SAIL, IGL among 10 stocks turning ex-record date this week. Do you own any?",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-27T04:34:06Z",
+            "sentiment": "Positive",
+            "compound": 0.542
+          },
           {
             "title": "Stock averaging explained: How does it work and what are the risks investors should keep in mind?",
             "source": "Livemint",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-09-27T04:00:00Z",
             "sentiment": "Positive",
             "compound": 0.361
-          },
-          {
-            "title": "The Fed Needs Fixes Beyond Simply Restoring Its Credibility",
-            "source": "Americanthinker.com",
-            "publishedAt": "2026-09-27T04:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "How Bari Weiss Could Really Fix CBS",
-            "source": "Americanthinker.com",
-            "publishedAt": "2026-09-27T04:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 64.3,
-  "trade_probability": 58.58,
+  "confirmation_score": 64.31,
+  "trade_probability": 58.59,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
