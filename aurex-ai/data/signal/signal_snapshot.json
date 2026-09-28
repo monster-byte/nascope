@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T17:31:09.718290+00:00",
+  "generated_at": "2026-09-28T17:45:52.409769+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,50 +17,50 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.4129,
+          "change_pct": -0.4906,
           "up": false
         },
         "MSFT": {
-          "change_pct": -1.1479,
+          "change_pct": -1.1605,
           "up": false
         },
         "NVDA": {
-          "change_pct": 2.3105,
+          "change_pct": 2.4378,
           "up": true
         },
         "AMZN": {
-          "change_pct": -1.1741,
+          "change_pct": -1.122,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 80.45,
+      "score": 80.48,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30343.41,
-        "sma50": 29322.36,
-        "sma200": 27377.19
+        "last_price": 30347.09,
+        "sma50": 29322.43,
+        "sma200": 27377.21
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 25.0,
+      "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.17,
-        "percentile_vs_20d": 75.0
+        "current_vxn": 22.46,
+        "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 8.41,
+      "score": 6.32,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.221,
-        "change_5d_pct": 5.198
+        "current_yield_pct": 5.234,
+        "change_5d_pct": 5.46
       }
     },
     "dxy": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.14,
+      "score": 48.18,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.037,
+        "avg_compound": -0.036,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "US Chamber of Commerce Tour Ignores 250 Years of Socialism",
+            "source": "Common Dreams",
+            "publishedAt": "2026-09-27T17:34:03Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
           {
             "title": "The Case For Buying A Used EV Just Got Loads Better",
             "source": "CleanTechnica",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-09-27T16:46:34Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Dow Jones Futures Due Amid Trump Iran Comments; Micron, SpaceX, Tesla Eye Buy Points",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-27T16:46:33Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 38.82,
-  "trade_probability": 43.29,
+  "confirmation_score": 36.75,
+  "trade_probability": 42.05,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
