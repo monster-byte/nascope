@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T13:45:55.141610+00:00",
+  "generated_at": "2026-09-28T14:01:23.759556+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.0219,
+          "change_pct": 0.2928,
           "up": true
         },
         "MSFT": {
-          "change_pct": -2.5855,
+          "change_pct": -1.5949,
           "up": false
         },
         "NVDA": {
-          "change_pct": 3.2919,
+          "change_pct": 3.0422,
           "up": true
         },
         "AMZN": {
-          "change_pct": -1.6641,
+          "change_pct": -1.6541,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 80.36,
+      "score": 80.7,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30334.36,
-        "sma50": 29322.18,
-        "sma200": 27377.15
+        "last_price": 30368.51,
+        "sma50": 29322.86,
+        "sma200": 27377.32
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 55.0,
-      "status": "yellow",
+      "score": 25.0,
+      "status": "red",
       "details": {
-        "current_vxn": 20.79,
-        "percentile_vs_20d": 45.0
+        "current_vxn": 22.25,
+        "percentile_vs_20d": 75.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 5.99,
+      "score": 8.09,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.236,
-        "change_5d_pct": 5.501
+        "current_yield_pct": 5.223,
+        "change_5d_pct": 5.239
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.54,
+      "score": 44.11,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.24,
-        "change_5d_pct": 0.808
+        "current_dxy": 101.17,
+        "change_5d_pct": 0.737
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.23,
+      "score": 50.35,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.025,
+        "avg_compound": 0.007,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "How Trump Became Mob Boss of the United States",
+            "source": "Rolling Stone",
+            "publishedAt": "2026-09-27T14:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.421
+          },
+          {
+            "title": "The poverty rate is falling, but not for older Americans",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-09-27T13:54:59Z",
+            "sentiment": "Negative",
+            "compound": -0.351
+          },
+          {
+            "title": "Inflation Keeps Pressure on the Fed",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-27T13:52:56Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "Does the S&P 500 Have a \"Magnificent Seven\" Problem? Here's What Investors Need to Know",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-27T13:47:03Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
           {
             "title": "Fine print: Barely read and rarely understood",
             "source": "BusinessLine",
@@ -103,34 +131,6 @@
             "title": "Takaichi Faces Autumn Test After Trump Talks And BOJ Rate Hike",
             "source": "Newsonjapan.com",
             "publishedAt": "2026-09-27T13:35:30Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Triple shock rattles India’s FMCG basket as 68% of categories lose volume",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-27T13:34:32Z",
-            "sentiment": "Negative",
-            "compound": -0.649
-          },
-          {
-            "title": "This Magnificent Seven Stock Could Reach a New All-Time High",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-27T13:32:16Z",
-            "sentiment": "Positive",
-            "compound": 0.612
-          },
-          {
-            "title": "HYBE Plunges 48.9%, JYP Falls 41.4% as K-pop Stocks Suffer From Heavy Single-Artist Dependence, SM Fares Best",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-09-27T13:30:02Z",
-            "sentiment": "Neutral",
-            "compound": 0.178
-          },
-          {
-            "title": "Iran's foreign minister keeps indirect talks with the U.S. open; Iranian navy claims capture of underwater drone",
-            "source": "CNBC",
-            "publishedAt": "2026-09-27T13:30:02Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 48.14,
-  "trade_probability": 48.88,
+  "confirmation_score": 45.74,
+  "trade_probability": 47.44,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
