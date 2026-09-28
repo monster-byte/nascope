@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T15:01:27.735874+00:00",
+  "generated_at": "2026-09-28T15:15:56.387267+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.5009,
+          "change_pct": -0.2241,
           "up": false
         },
         "MSFT": {
-          "change_pct": -2.1703,
+          "change_pct": -1.4743,
           "up": false
         },
         "NVDA": {
-          "change_pct": 1.88,
+          "change_pct": 2.4,
           "up": true
         },
         "AMZN": {
-          "change_pct": -1.377,
+          "change_pct": -1.0925,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 78.42,
+      "score": 78.99,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30141.08,
-        "sma50": 29318.31,
-        "sma200": 27376.18
+        "last_price": 30198.31,
+        "sma50": 29319.46,
+        "sma200": 27376.47
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.35,
+        "current_vxn": 22.42,
         "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 2.93,
+      "score": 0.51,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.255,
-        "change_5d_pct": 5.884
+        "current_yield_pct": 5.27,
+        "change_5d_pct": 6.186
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.37,
+      "score": 43.55,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.26,
-        "change_5d_pct": 0.828
+        "current_dxy": 101.24,
+        "change_5d_pct": 0.807
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.8,
+      "score": 48.48,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.004,
+        "avg_compound": -0.03,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "AI Doesn’t Have an ROI Problem, Companies Have a Work Architecture Problem.",
+            "source": "Briansolis.com",
+            "publishedAt": "2026-09-27T15:15:18Z",
+            "sentiment": "Negative",
+            "compound": -0.66
+          },
+          {
+            "title": "Accuray and Samsung NeuroLogica Advance Volumetric Imaging Collaboration for the Accuray CyberKnife® Platform",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-27T15:15:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Fed hiking cycle begins: What the latest rate rise means for markets",
             "source": "New Zealand Herald",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-09-27T14:32:02Z",
             "sentiment": "Positive",
             "compound": 0.202
-          },
-          {
-            "title": "Look closer, and Wall Street’s rally is showing cracks",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-27T14:31:52Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "'Designer bags... Europe trips': Inside the leaked CommBank staff dossier against execs after CEO's $250k 'people and leadership' bonus - as pay stalls and 1,000 jobs vanish",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-09-27T14:21:11Z",
-            "sentiment": "Positive",
-            "compound": 0.202
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 36.97,
-  "trade_probability": 42.18,
+  "confirmation_score": 36.62,
+  "trade_probability": 41.97,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
