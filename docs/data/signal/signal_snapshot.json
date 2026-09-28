@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T22:15:55.121023+00:00",
+  "generated_at": "2026-09-28T22:31:03.218969+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.76,
+      "score": 50.68,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.005,
+        "avg_compound": 0.014,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "I'd buy 99,010 shares of this ASX stock to aim for $10,000 of annual passive income",
+            "source": "Motley Fool Australia",
+            "publishedAt": "2026-09-27T22:30:00Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
           {
             "title": "Aave’s live stock-token loans expose USDC lenders to a weekend price gap",
             "source": "CryptoSlate",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-09-27T21:49:20Z",
             "sentiment": "Negative",
             "compound": -0.599
-          },
-          {
-            "title": "Flood victims wait four years for repairs to homes",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-09-27T21:41:50Z",
-            "sentiment": "Negative",
-            "compound": -0.318
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 37.99,
-  "trade_probability": 42.79,
+  "confirmation_score": 38.07,
+  "trade_probability": 42.84,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
