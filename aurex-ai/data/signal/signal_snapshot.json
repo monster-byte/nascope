@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T14:01:23.759556+00:00",
+  "generated_at": "2026-09-28T14:15:51.753078+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.2928,
+          "change_pct": 0.2559,
           "up": true
         },
         "MSFT": {
-          "change_pct": -1.5949,
+          "change_pct": -1.6509,
           "up": false
         },
         "NVDA": {
-          "change_pct": 3.0422,
+          "change_pct": 2.7311,
           "up": true
         },
         "AMZN": {
-          "change_pct": -1.6541,
+          "change_pct": -1.5741,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 80.7,
+      "score": 79.71,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30368.51,
-        "sma50": 29322.86,
-        "sma200": 27377.32
+        "last_price": 30270.33,
+        "sma50": 29320.9,
+        "sma200": 27376.83
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 25.0,
+      "score": 30.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.25,
-        "percentile_vs_20d": 75.0
+        "current_vxn": 22.0,
+        "percentile_vs_20d": 70.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 8.09,
+      "score": 9.06,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.223,
-        "change_5d_pct": 5.239
+        "current_yield_pct": 5.217,
+        "change_5d_pct": 5.118
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.11,
+      "score": 43.88,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.17,
-        "change_5d_pct": 0.737
+        "current_dxy": 101.2,
+        "change_5d_pct": 0.765
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.35,
+      "score": 50.92,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.007,
+        "avg_compound": 0.018,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Gold and silver outlook: What's in store for traders this week? Job data, crude and more in focus",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-27T14:12:49Z",
+            "sentiment": "Negative",
+            "compound": -0.572
+          },
+          {
+            "title": "As AI giants warn of existential risk, they can also build a competitive moat via safety. ‘It’s genius and they’re all going to make a lot of money’",
+            "source": "Fortune",
+            "publishedAt": "2026-09-27T14:04:33Z",
+            "sentiment": "Positive",
+            "compound": 0.25
+          },
           {
             "title": "How Trump Became Mob Boss of the United States",
             "source": "Rolling Stone",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-09-27T13:47:03Z",
             "sentiment": "Positive",
             "compound": 0.296
-          },
-          {
-            "title": "Fine print: Barely read and rarely understood",
-            "source": "BusinessLine",
-            "publishedAt": "2026-09-27T13:41:20Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "Takaichi Faces Autumn Test After Trump Talks And BOJ Rate Hike",
-            "source": "Newsonjapan.com",
-            "publishedAt": "2026-09-27T13:35:30Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 45.74,
-  "trade_probability": 47.44,
+  "confirmation_score": 46.22,
+  "trade_probability": 47.73,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
