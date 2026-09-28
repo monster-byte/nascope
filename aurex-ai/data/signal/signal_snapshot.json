@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T14:45:52.928264+00:00",
+  "generated_at": "2026-09-28T15:01:27.735874+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.3662,
+          "change_pct": -0.5009,
           "up": false
         },
         "MSFT": {
-          "change_pct": -2.1897,
+          "change_pct": -2.1703,
           "up": false
         },
         "NVDA": {
-          "change_pct": 2.0222,
+          "change_pct": 1.88,
           "up": true
         },
         "AMZN": {
-          "change_pct": -1.4701,
+          "change_pct": -1.377,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 78.31,
+      "score": 78.42,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30129.96,
-        "sma50": 29318.09,
-        "sma200": 27376.13
+        "last_price": 30141.08,
+        "sma50": 29318.31,
+        "sma200": 27376.18
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 30.0,
+      "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 21.9,
-        "percentile_vs_20d": 70.0
+        "current_vxn": 22.35,
+        "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 6.64,
+      "score": 2.93,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.232,
-        "change_5d_pct": 5.42
+        "current_yield_pct": 5.255,
+        "change_5d_pct": 5.884
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.99,
+      "score": 43.37,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.18,
-        "change_5d_pct": 0.751
+        "current_dxy": 101.26,
+        "change_5d_pct": 0.828
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.71,
+      "score": 49.8,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.034,
-        "articles_analyzed": 24,
+        "avg_compound": -0.004,
+        "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Fed hiking cycle begins: What the latest rate rise means for markets",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-09-27T15:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Trump Prepares for an Invasion of Cuba",
+            "source": "Globalresearch.ca",
+            "publishedAt": "2026-09-27T14:47:27Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Can McDonald's Stock Reclaim Its All-Time High as Rising Prices Weigh on Consumers?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-27T14:46:51Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Why the upcoming jobs report could send 10-year and 30-year Treasury yields surging",
             "source": "Biztoc.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-09-27T14:21:11Z",
             "sentiment": "Positive",
             "compound": 0.202
-          },
-          {
-            "title": "Tesla Reports Q3 Deliveries in Early October. Here's the Number That Would Send the Stock Soaring",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-27T14:17:01Z",
-            "sentiment": "Neutral",
-            "compound": 0.077
-          },
-          {
-            "title": "Gold and silver outlook: What's in store for traders this week? Job data, crude and more in focus",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-27T14:12:49Z",
-            "sentiment": "Negative",
-            "compound": -0.572
-          },
-          {
-            "title": "As AI giants warn of existential risk, they can also build a competitive moat via safety. ‘It’s genius and they’re all going to make a lot of money’",
-            "source": "Fortune",
-            "publishedAt": "2026-09-27T14:04:33Z",
-            "sentiment": "Positive",
-            "compound": 0.25
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 39.03,
-  "trade_probability": 43.42,
+  "confirmation_score": 36.97,
+  "trade_probability": 42.18,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
