@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T18:31:08.346866+00:00",
+  "generated_at": "2026-09-28T18:36:23.927374+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.4628,
+          "change_pct": -0.4745,
           "up": false
         },
         "MSFT": {
-          "change_pct": -1.3034,
+          "change_pct": -1.3178,
           "up": false
         },
         "NVDA": {
-          "change_pct": 2.18,
+          "change_pct": 2.1444,
           "up": true
         },
         "AMZN": {
-          "change_pct": -1.3021,
+          "change_pct": -1.3001,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 80.38,
+      "score": 80.32,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30336.73,
-        "sma50": 29322.22,
-        "sma200": 27377.16
+        "last_price": 30330.95,
+        "sma50": 29322.11,
+        "sma200": 27377.13
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 25.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.18,
+        "current_vxn": 22.17,
         "percentile_vs_20d": 75.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 6.64,
+      "score": 5.99,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.232,
-        "change_5d_pct": 5.42
+        "current_yield_pct": 5.236,
+        "change_5d_pct": 5.501
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.29,
+      "score": 44.28,
       "status": "yellow",
       "details": {
         "current_dxy": 101.15,
-        "change_5d_pct": 0.714
+        "change_5d_pct": 0.715
       }
     },
     "macro": {
@@ -92,6 +92,13 @@
         "avg_compound": -0.098,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "1 Green Flag and 1 Red Flag for SpaceX Investors",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-27T18:31:59Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "'That was the moment': Maggie Haberman flags when Trump's MAGA base started turning on him",
             "source": "Raw Story",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-09-27T18:06:23Z",
             "sentiment": "Negative",
             "compound": -0.226
-          },
-          {
-            "title": "The U.S. economy is running hot and stuck on a hamster wheel as GDP growth must outpace borrowing costs—or else get sucked into a debt spiral",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-27T18:01:36Z",
-            "sentiment": "Negative",
-            "compound": -0.599
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 38.29,
-  "trade_probability": 42.97,
+  "confirmation_score": 38.19,
+  "trade_probability": 42.91,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
