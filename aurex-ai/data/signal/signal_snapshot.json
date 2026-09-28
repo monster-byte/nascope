@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T15:31:07.186296+00:00",
+  "generated_at": "2026-09-28T15:46:02.610611+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,41 +17,41 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.0806,
+          "change_pct": -0.1319,
           "up": false
         },
         "MSFT": {
-          "change_pct": -1.6529,
+          "change_pct": -1.7272,
           "up": false
         },
         "NVDA": {
-          "change_pct": 2.2844,
+          "change_pct": 2.0667,
           "up": true
         },
         "AMZN": {
-          "change_pct": -1.3481,
+          "change_pct": -1.3621,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 79.15,
+      "score": 78.93,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30213.62,
-        "sma50": 29319.76,
-        "sma200": 27376.55
+        "last_price": 30191.87,
+        "sma50": 29319.33,
+        "sma200": 27376.44
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 20.0,
+      "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.29,
-        "percentile_vs_20d": 80.0
+        "current_vxn": 22.59,
+        "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.75,
+      "score": 43.91,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.21,
-        "change_5d_pct": 0.781
+        "current_dxy": 101.19,
+        "change_5d_pct": 0.762
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.69,
+      "score": 49.74,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.026,
+        "avg_compound": -0.005,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Turkey's ruling-party deputy chair steps down after share trading allegations",
+            "source": "Abcnews.com",
+            "publishedAt": "2026-09-27T15:39:15Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "Meta’s Muse-fuelled rally: Stock jumps 36% in September as investors warm to its $140 billion AI bet",
+            "source": "Livemint",
+            "publishedAt": "2026-09-27T15:34:30Z",
+            "sentiment": "Positive",
+            "compound": 0.226
+          },
           {
             "title": "Halifax Forum demolition paused, redevelopment timeline uncertain",
             "source": "CBC News",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-09-27T15:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Trump Prepares for an Invasion of Cuba",
-            "source": "Globalresearch.ca",
-            "publishedAt": "2026-09-27T14:47:27Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Can McDonald's Stock Reclaim Its All-Time High as Rising Prices Weigh on Consumers?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-27T14:46:51Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 37.36,
-  "trade_probability": 42.42,
+  "confirmation_score": 36.54,
+  "trade_probability": 41.92,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
