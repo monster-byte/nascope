@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T17:15:54.756613+00:00",
+  "generated_at": "2026-09-28T17:31:09.718290+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.241,
+          "change_pct": -0.4129,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.9568,
+          "change_pct": -1.1479,
           "up": false
         },
         "NVDA": {
-          "change_pct": 2.72,
+          "change_pct": 2.3105,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.992,
+          "change_pct": -1.1741,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 80.92,
+      "score": 80.45,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30390.55,
-        "sma50": 29323.3,
-        "sma200": 27377.43
+        "last_price": 30343.41,
+        "sma50": 29322.36,
+        "sma200": 27377.19
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 25.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.26,
+        "current_vxn": 22.17,
         "percentile_vs_20d": 75.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 3.9,
+      "score": 8.41,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.249,
-        "change_5d_pct": 5.763
+        "current_yield_pct": 5.221,
+        "change_5d_pct": 5.198
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.03,
+      "score": 44.39,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.18,
-        "change_5d_pct": 0.747
+        "current_dxy": 101.13,
+        "change_5d_pct": 0.701
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.0,
+      "score": 48.14,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.0,
+        "avg_compound": -0.037,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "The Case For Buying A Used EV Just Got Loads Better",
+            "source": "CleanTechnica",
+            "publishedAt": "2026-09-27T17:26:34Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
+          {
+            "title": "The U.S. economy is running hot and stuck on a hamster wheel as GDP growth must outpace borrowing costs—or else get sucked into a debt spiral",
+            "source": "Fortune",
+            "publishedAt": "2026-09-27T17:24:48Z",
+            "sentiment": "Negative",
+            "compound": -0.599
+          },
+          {
+            "title": "Texas voters have plenty to say about whether Lone Star State could turn blue",
+            "source": "Fox News",
+            "publishedAt": "2026-09-27T17:18:18Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
           {
             "title": "Disney World & Disneyland Price Increases Are Coming: What to Expect & How to Prepare",
             "source": "Disneytouristblog.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-09-27T16:46:33Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Here are the 4 big things we're watching in the stock market in the week ahead",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-27T16:31:50Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "TechCrunch Mobility: AV companies pick their lanes | TechCrunch",
-            "source": "TechCrunch",
-            "publishedAt": "2026-09-27T16:04:32Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Turkey's ruling-party deputy chair steps down after share trading allegations",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-09-27T15:39:15Z",
-            "sentiment": "Positive",
-            "compound": 0.296
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 38.41,
-  "trade_probability": 43.05,
+  "confirmation_score": 38.82,
+  "trade_probability": 43.29,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
