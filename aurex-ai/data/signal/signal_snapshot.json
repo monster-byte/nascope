@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T13:01:25.713181+00:00",
+  "generated_at": "2026-09-28T13:15:57.146437+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 10.35,
+      "score": 9.7,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.209,
-        "change_5d_pct": 4.957
+        "current_yield_pct": 5.213,
+        "change_5d_pct": 5.037
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.98,
+      "score": 43.76,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.19,
-        "change_5d_pct": 0.753
+        "current_dxy": 101.21,
+        "change_5d_pct": 0.78
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.72,
+      "score": 50.32,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.006,
+        "avg_compound": 0.006,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "The Schrodinger cat problem of the Tatas",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-27T13:14:40Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
+          {
+            "title": "A data-driven analysis of mutual funds vs. PMS",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-27T13:12:29Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Musk Says Optimus Could Make Tesla a $25 Trillion Company. Here's What the Math Actually Requires to Happen",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-09-27T13:02:14Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Sunday Summary: Let the Sunshine In!",
             "source": "Commercial Observer",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-09-27T12:52:53Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Gold price prediction: Experts predict Gold rate for last three months of 2026, first half of 2027",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-27T12:47:57Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Nikkei Faces Dividend Test After Five-Day Rally",
-            "source": "Newsonjapan.com",
-            "publishedAt": "2026-09-27T12:36:19Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Anthropic, OpenAI sound alarm on AI safety — and seek to shape how it's controlled",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-27T12:30:27Z",
-            "sentiment": "Neutral",
-            "compound": 0.103
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 42.31,
-  "trade_probability": 45.39,
+  "confirmation_score": 42.25,
+  "trade_probability": 45.35,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
