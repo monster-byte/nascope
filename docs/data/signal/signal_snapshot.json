@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T05:31:06.913638+00:00",
+  "generated_at": "2026-09-28T05:45:47.221776+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.53,
+      "score": 44.66,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.12,
-        "change_5d_pct": 0.684
+        "current_dxy": 101.1,
+        "change_5d_pct": 0.667
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.03,
+      "score": 54.45,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.081,
+        "avg_compound": 0.089,
         "articles_analyzed": 20,
         "top_headlines": [
+          {
+            "title": "AC, TV, appliance prices to rise by 8% from Oct 1 ahead of festive season",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-27T05:33:36Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
           {
             "title": "Festive shopping gets costlier as brands plan to hike AC, TV and appliance prices from October 1",
             "source": "The Times of India",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-09-27T04:12:27Z",
             "sentiment": "Negative",
             "compound": -0.273
-          },
-          {
-            "title": "The Iran War comes Home before the Midterms",
-            "source": "Juancole.com",
-            "publishedAt": "2026-09-27T04:06:13Z",
-            "sentiment": "Negative",
-            "compound": -0.599
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 64.33,
-  "trade_probability": 58.6,
+  "confirmation_score": 64.38,
+  "trade_probability": 58.63,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
