@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T18:15:47.931669+00:00",
+  "generated_at": "2026-09-28T18:31:08.346866+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.4189,
+          "change_pct": -0.4628,
           "up": false
         },
         "MSFT": {
-          "change_pct": -1.1701,
+          "change_pct": -1.3034,
           "up": false
         },
         "NVDA": {
-          "change_pct": 2.3444,
+          "change_pct": 2.18,
           "up": true
         },
         "AMZN": {
-          "change_pct": -1.1441,
+          "change_pct": -1.3021,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 80.63,
+      "score": 80.38,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30361.58,
-        "sma50": 29322.72,
-        "sma200": 27377.29
+        "last_price": 30336.73,
+        "sma50": 29322.22,
+        "sma200": 27377.16
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 20.0,
+      "score": 25.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.29,
-        "percentile_vs_20d": 80.0
+        "current_vxn": 22.18,
+        "percentile_vs_20d": 75.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 6.96,
+      "score": 6.64,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.23,
-        "change_5d_pct": 5.38
+        "current_yield_pct": 5.232,
+        "change_5d_pct": 5.42
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.5,
+      "score": 44.29,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.12,
-        "change_5d_pct": 0.688
+        "current_dxy": 101.15,
+        "change_5d_pct": 0.714
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 44.37,
+      "score": 45.08,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.113,
+        "avg_compound": -0.098,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "'That was the moment': Maggie Haberman flags when Trump's MAGA base started turning on him",
+            "source": "Raw Story",
+            "publishedAt": "2026-09-27T18:25:54Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Protect your financial security OR pay higher taxes and costs",
+            "source": "Wnd.com",
+            "publishedAt": "2026-09-27T18:24:17Z",
+            "sentiment": "Positive",
+            "compound": 0.557
+          },
           {
             "title": "The Global Debt Crisis Of 2026 Has Begun, And We Are Being Warned That Most People Have “No Idea What Is About To Happen”",
             "source": "Theeconomiccollapseblog.com",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-09-27T18:01:36Z",
             "sentiment": "Negative",
             "compound": -0.599
-          },
-          {
-            "title": "Trump keeps screwing farmers. Will they finally push back?",
-            "source": "Dailykos.com",
-            "publishedAt": "2026-09-27T18:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.226
-          },
-          {
-            "title": "Wall Street money takes back over from small investors as driving force of the stock market",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-27T17:46:49Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 37.87,
-  "trade_probability": 42.72,
+  "confirmation_score": 38.29,
+  "trade_probability": 42.97,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
