@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T16:45:50.258152+00:00",
+  "generated_at": "2026-09-28T17:01:26.207880+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.29,
+          "change_pct": -0.2402,
           "up": false
         },
         "MSFT": {
-          "change_pct": -1.2667,
+          "change_pct": -1.118,
           "up": false
         },
         "NVDA": {
-          "change_pct": 2.7467,
+          "change_pct": 2.5333,
           "up": true
         },
         "AMZN": {
-          "change_pct": -1.3221,
+          "change_pct": -1.3181,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 80.34,
+      "score": 80.12,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30332.31,
-        "sma50": 29322.14,
-        "sma200": 27377.14
+        "last_price": 30310.83,
+        "sma50": 29321.71,
+        "sma200": 27377.03
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.23,
+        "current_vxn": 22.29,
         "percentile_vs_20d": 80.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 7.61,
+      "score": 4.22,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.226,
-        "change_5d_pct": 5.299
+        "current_yield_pct": 5.247,
+        "change_5d_pct": 5.722
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.47,
+      "score": 44.18,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.12,
-        "change_5d_pct": 0.691
+        "current_dxy": 101.16,
+        "change_5d_pct": 0.727
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.28,
+      "score": 50.0,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.006,
+        "avg_compound": -0.0,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Disney World & Disneyland Price Increases Are Coming: What to Expect & How to Prepare",
+            "source": "Disneytouristblog.com",
+            "publishedAt": "2026-09-27T16:48:19Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "JPMorgan doubles down on diesel as record prices test inflation",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-27T16:46:34Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Dow Jones Futures Due Amid Trump Iran Comments; Micron, SpaceX, Tesla Eye Buy Points",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-27T16:46:33Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Here are the 4 big things we're watching in the stock market in the week ahead",
             "source": "Biztoc.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-09-27T15:39:15Z",
             "sentiment": "Positive",
             "compound": 0.296
-          },
-          {
-            "title": "Meta’s Muse-fuelled rally: Stock jumps 36% in September as investors warm to its $140 billion AI bet",
-            "source": "Livemint",
-            "publishedAt": "2026-09-27T15:34:30Z",
-            "sentiment": "Positive",
-            "compound": 0.226
-          },
-          {
-            "title": "Halifax Forum demolition paused, redevelopment timeline uncertain",
-            "source": "CBC News",
-            "publishedAt": "2026-09-27T15:27:06Z",
-            "sentiment": "Negative",
-            "compound": -0.296
-          },
-          {
-            "title": "AI Doesn’t Have an ROI Problem, Companies Have a Work Architecture Problem.",
-            "source": "Briansolis.com",
-            "publishedAt": "2026-09-27T15:15:18Z",
-            "sentiment": "Negative",
-            "compound": -0.66
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 38.45,
-  "trade_probability": 43.07,
+  "confirmation_score": 37.91,
+  "trade_probability": 42.75,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
