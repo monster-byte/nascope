@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T14:15:56.661973+00:00",
+  "generated_at": "2026-09-29T14:31:07.966423+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 0.0,
-      "status": "red",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -1.6514,
+          "change_pct": -1.9114,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.8777,
-          "up": false
+          "change_pct": 0.0108,
+          "up": true
         },
         "NVDA": {
-          "change_pct": -0.0937,
-          "up": false
+          "change_pct": 0.5077,
+          "up": true
         },
         "AMZN": {
-          "change_pct": -0.0913,
-          "up": false
+          "change_pct": 0.0122,
+          "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 80.03,
+      "score": 80.76,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30336.79,
-        "sma50": 29355.68,
-        "sma200": 27399.66
+        "last_price": 30410.1,
+        "sma50": 29357.14,
+        "sma200": 27400.03
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 40.0,
-      "status": "yellow",
+      "score": 35.0,
+      "status": "red",
       "details": {
-        "current_vxn": 21.87,
-        "percentile_vs_20d": 60.0
+        "current_vxn": 21.83,
+        "percentile_vs_20d": 65.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 5.72,
+      "score": 4.43,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.243,
-        "change_5d_pct": 5.535
+        "current_yield_pct": 5.251,
+        "change_5d_pct": 5.696
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.82,
+      "score": 43.61,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.38,
-        "change_5d_pct": 0.772
+        "current_dxy": 101.4,
+        "change_5d_pct": 0.799
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.21,
+      "score": 47.54,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.076,
+        "avg_compound": -0.049,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Kuehn Law Encourages Investors of Quantum Computing Inc. to Contact Law Firm",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-28T14:11:00Z",
-            "sentiment": "Positive",
-            "compound": 0.44
-          },
-          {
-            "title": "Ranchers Have Beef With ICE Raids, Say Prices Will Spike",
-            "source": "Newser",
-            "publishedAt": "2026-09-28T14:01:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "IKE Tech Launches IKE 2.0 to Bring Continuous Compliance to Regulated Products",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-28T14:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Food consumption patterns and nutrient adequacy across lifecycle stages in Bangladesh",
-            "source": "Plos.org",
-            "publishedAt": "2026-09-28T14:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Dow Slides Early as Trump Rejects Iran Deal, Oil Jumps and OpenAI's Training Pause Rattles AI Chip Stocks",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-09-28T13:59:30Z",
-            "sentiment": "Negative",
-            "compound": -0.494
-          },
-          {
-            "title": "Lagarde: Inflation outlook for 2027 higher than expected",
+            "title": "The stock market usually booms in the November-to-April stretch. This indicator suggests otherwise",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-28T13:58:43Z",
+            "publishedAt": "2026-09-28T14:28:09Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Rs 57 lakh remote job vs Rs 68 lakh Bengaluru offer: Techie asks if the difference is worth the travel from Madurai every week",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-28T14:19:59Z",
+            "sentiment": "Positive",
+            "compound": 0.226
+          },
+          {
+            "title": "Top stocks to sell today: Stock market recommendations for September 29, 2026 - check list",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-28T14:17:50Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "AMERICAN CENTURY SEES OPPORTUNITIES BROADEN BEYOND TECH",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-28T14:17:00Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "Stock Market Today (Sept. 28, 2026): Nasdaq falls amid U.S.-Iran tensions, rising oil prices",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-28T14:16:33Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
+          {
+            "title": "Gimlet Labs Adds Cerebras to Deliver Ultrafast AI Inference through Gimlet Cloud",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-28T14:15:58Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 32.78,
-  "trade_probability": 39.67,
+  "confirmation_score": 52.6,
+  "trade_probability": 51.56,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
