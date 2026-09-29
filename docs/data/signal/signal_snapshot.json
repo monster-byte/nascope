@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T15:52:55.962017+00:00",
+  "generated_at": "2026-09-29T16:01:20.503848+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
-      "status": "green",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -2.127,
+          "change_pct": -2.1846,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.107,
+          "change_pct": 0.0216,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.4096,
+          "change_pct": 0.3748,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.0528,
-          "up": true
+          "change_pct": -0.0203,
+          "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 79.58,
+      "score": 79.68,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30292.02,
-        "sma50": 29354.78,
-        "sma200": 27399.44
+        "last_price": 30302.53,
+        "sma50": 29354.99,
+        "sma200": 27399.49
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 35.0,
+      "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.04,
-        "percentile_vs_20d": 65.0
+        "current_vxn": 22.68,
+        "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 1.05,
+      "score": 0.0,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.272,
-        "change_5d_pct": 6.119
+        "current_yield_pct": 5.281,
+        "change_5d_pct": 6.3
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.83,
+      "score": 42.93,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.5,
-        "change_5d_pct": 0.897
+        "current_dxy": 101.49,
+        "change_5d_pct": 0.884
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.54,
+      "score": 50.55,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.031,
+        "avg_compound": 0.011,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "4 Costly Mistakes to Avoid Before Buying Your Prefab Steel Garage",
-            "source": "Addicted2success.com",
-            "publishedAt": "2026-09-28T15:50:43Z",
-            "sentiment": "Negative",
-            "compound": -0.625
-          },
-          {
-            "title": "Ahead of Market: 10 things that will decide stock market action on Tuesday",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-28T15:49:46Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "US Looks to Stablecoins To Bolster Dollar’s Reserve Status",
-            "source": "pymnts.com",
-            "publishedAt": "2026-09-28T15:45:49Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Markets sink to six-month low as oil shock wipes out ₹7.5 lakh crore in investor wealth",
-            "source": "BusinessLine",
-            "publishedAt": "2026-09-28T15:36:59Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
-          },
-          {
-            "title": "Britain's richest plumber Charlie Mullins slashes the price of his luxury Thames-side 'penthouse' by £3m after struggling to find a buyer in the two years since he left the country",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-09-28T15:36:43Z",
-            "sentiment": "Neutral",
-            "compound": -0.052
-          },
-          {
-            "title": "Tata Trusts proposes rejig to keep Tata Sons private, avoid IPO to comply with RBI rules — Here's what could change",
-            "source": "Livemint",
-            "publishedAt": "2026-09-28T15:36:16Z",
+            "title": "Transcript: Adam Frank, JPMorgan Wealth Management’s Head of Wealth Planning and Advice",
+            "source": "Ritholtz.com",
+            "publishedAt": "2026-09-28T16:00:51Z",
             "sentiment": "Positive",
-            "compound": 0.226
+            "compound": 0.751
+          },
+          {
+            "title": "Inland Revenue puts Auckland contractor Total Civil into liquidation",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-09-28T16:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Bronstein, Gewirtz & Grossman LLC Urges Honeywell Aerospace, Inc. Investors to Act: Class Action Filed Alleging Investor Harm",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-28T16:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.542
+          },
+          {
+            "title": "Election 2026: Government opens the books – will Nicola Willis finally get her nice surprise?",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-09-28T16:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.599
+          },
+          {
+            "title": "Fed Finds B2B Payments Went Digital, but the Paperwork Didn’t",
+            "source": "pymnts.com",
+            "publishedAt": "2026-09-28T15:59:29Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Bitcoin price today: Why are BTC, Ethereum-ETC rates down after recent highs? Donald Trump whose administration is known as crypto-friendly may be responsible",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-28T15:56:55Z",
+            "sentiment": "Positive",
+            "compound": 0.318
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 52.28,
-  "trade_probability": 51.37,
+  "confirmation_score": 43.07,
+  "trade_probability": 45.84,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
