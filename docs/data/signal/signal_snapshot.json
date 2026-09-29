@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T14:45:51.429334+00:00",
+  "generated_at": "2026-09-29T15:01:24.017035+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
-      "status": "green",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.8966,
+          "change_pct": -1.7459,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.6715,
-          "up": true
+          "change_pct": -0.013,
+          "up": false
         },
         "NVDA": {
-          "change_pct": 0.6885,
+          "change_pct": 0.7103,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.2395,
-          "up": true
+          "change_pct": -0.0934,
+          "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 80.63,
+      "score": 80.32,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30396.81,
-        "sma50": 29356.88,
-        "sma200": 27399.96
+        "last_price": 30366.41,
+        "sma50": 29356.27,
+        "sma200": 27399.81
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 35.0,
-      "status": "red",
+      "score": 40.0,
+      "status": "yellow",
       "details": {
-        "current_vxn": 21.72,
-        "percentile_vs_20d": 65.0
+        "current_vxn": 21.76,
+        "percentile_vs_20d": 60.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 6.2,
+      "score": 3.14,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.24,
-        "change_5d_pct": 5.475
+        "current_yield_pct": 5.259,
+        "change_5d_pct": 5.857
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.84,
+      "score": 43.47,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.37,
-        "change_5d_pct": 0.769
+        "current_dxy": 101.42,
+        "change_5d_pct": 0.816
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.2,
+      "score": 57.53,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.124,
+        "avg_compound": 0.151,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Prediction: Google’s Next Chapter Could Be Worth Trillions More",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-28T14:43:07Z",
-            "sentiment": "Positive",
-            "compound": 0.226
-          },
-          {
-            "title": "History Says Divided Government Good For Stock Market, With 1 Exception. Prediction Markets Now Say There’s A 92% Chance Of Dems Taking The House",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-28T14:42:56Z",
-            "sentiment": "Positive",
-            "compound": 0.599
-          },
-          {
-            "title": "Oil Prices Jump as Trump Rejects Iran's Hormuz Offer, With Brent Near $107 and WTI Near $95 a Barrel",
+            "title": "MongoDB Shares Plummet Nearly 20% After CEO CJ Desai Abruptly Exits for Meta Day Before Investor Day",
             "source": "Ibtimes.com.au",
-            "publishedAt": "2026-09-28T14:42:31Z",
-            "sentiment": "Negative",
-            "compound": -0.494
+            "publishedAt": "2026-09-28T15:00:58Z",
+            "sentiment": "Positive",
+            "compound": 0.296
           },
           {
-            "title": "FEDS Note: When the Chips Went Down: Motor Vehicle Production and the 2021-2022 Semiconductor Shortages",
-            "source": "Federalreserve.gov",
-            "publishedAt": "2026-09-28T14:38:00Z",
+            "title": "Is QuantumScape a Lost Cause?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-28T15:00:35Z",
+            "sentiment": "Negative",
+            "compound": -0.318
+          },
+          {
+            "title": "The New Gilded Age: Ultra-Rich Gain 15,183x More Net Worth Than Bottom 50% in 2 Years",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-28T14:57:58Z",
+            "sentiment": "Positive",
+            "compound": 0.679
+          },
+          {
+            "title": "Storming the TradFi castle: Stablecoins, tokenized assets and AI are claiming their place in global finance",
+            "source": "SiliconANGLE News",
+            "publishedAt": "2026-09-28T14:52:29Z",
+            "sentiment": "Neutral",
+            "compound": 0.178
+          },
+          {
+            "title": "Warren Buffett is no longer in charge, but Berkshire's latest purchase is right from his playbook",
+            "source": "Business Insider",
+            "publishedAt": "2026-09-28T14:49:35Z",
             "sentiment": "Neutral",
             "compound": -0.153
           },
           {
-            "title": "Cats are quietly claiming more American homes, and the pet industry is finally noticing what cat people have known for furrever",
-            "source": "Cheezburger.com",
-            "publishedAt": "2026-09-28T14:37:25Z",
+            "title": "Sagarmala Finance withdraws ₹600 crore blue bond issue on higher coupon",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-28T14:48:55Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "FEDS Note: Beyond Face Value: How Composition Changes Affect Import Unit Values of Light Vehicles",
-            "source": "Federalreserve.gov",
-            "publishedAt": "2026-09-28T14:36:00Z",
-            "sentiment": "Positive",
-            "compound": 0.625
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 53.63,
-  "trade_probability": 52.18,
+  "confirmation_score": 40.21,
+  "trade_probability": 44.13,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
