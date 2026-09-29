@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T18:01:24.879375+00:00",
+  "generated_at": "2026-09-29T18:15:51.303529+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.9852,
+          "change_pct": -2.1523,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.5527,
+          "change_pct": -0.593,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.5578,
+          "change_pct": -0.5316,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.3573,
+          "change_pct": 0.3613,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 79.7,
+      "score": 79.8,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30304.12,
-        "sma50": 29355.02,
-        "sma200": 27399.5
+        "last_price": 30314.41,
+        "sma50": 29355.23,
+        "sma200": 27399.55
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.5,
+        "current_vxn": 22.32,
         "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 0.4,
+      "score": 1.05,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.276,
-        "change_5d_pct": 6.2
+        "current_yield_pct": 5.272,
+        "change_5d_pct": 6.119
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.22,
+      "score": 43.18,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.58,
-        "change_5d_pct": 0.972
+        "current_dxy": 101.46,
+        "change_5d_pct": 0.852
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.56,
+      "score": 51.44,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.031,
+        "avg_compound": 0.029,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "GMO sends stark warning on stock market",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-28T18:13:25Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
+          {
+            "title": "Is now the time to move tax brackets?",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-09-28T18:05:54Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "AARD DEADLINE NOTICE: Faruqi & Faruqi, LLP Reminds Aardvark (AARD) Investors of Securities Class Action Lawsuit Deadline on October 13, 2026",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-28T18:04:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.077
+          },
           {
             "title": "Jensen Huang Just Gave Investors 150 Billion Reasons to Buy Nvidia Stock",
             "source": "Biztoc.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-09-28T18:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.077
-          },
-          {
-            "title": "NFL ‘Monday Night Football’ betting promos: Grab over $5K in sportsbook, prediction market bonuses for Eagles vs. Bears",
-            "source": "New York Post",
-            "publishedAt": "2026-09-28T18:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.557
-          },
-          {
-            "title": "Follow the Cash! Microstructure of Repo Markets",
-            "source": "Newyorkfed.org",
-            "publishedAt": "2026-09-28T17:59:30Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Mike Johnson Dismisses Public Opinion on Data Centers as a “Psyop”",
-            "source": "The New Republic",
-            "publishedAt": "2026-09-28T17:54:22Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 36.4,
-  "trade_probability": 41.84,
+  "confirmation_score": 36.58,
+  "trade_probability": 41.95,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
