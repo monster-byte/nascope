@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T15:15:53.452848+00:00",
+  "generated_at": "2026-09-29T15:31:11.626705+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.7563,
+          "change_pct": -1.9882,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.054,
+          "change_pct": -0.1296,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.5055,
+          "change_pct": 0.2419,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.0406,
+          "change_pct": -0.1218,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 80.32,
+      "score": 79.5,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30366.43,
-        "sma50": 29356.27,
-        "sma200": 27399.81
+        "last_price": 30284.05,
+        "sma50": 29354.62,
+        "sma200": 27399.4
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 35.0,
       "status": "red",
       "details": {
-        "current_vxn": 21.81,
+        "current_vxn": 21.91,
         "percentile_vs_20d": 65.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 2.33,
+      "score": 1.69,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.264,
-        "change_5d_pct": 5.958
+        "current_yield_pct": 5.268,
+        "change_5d_pct": 6.039
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.05,
+      "score": 42.95,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.47,
-        "change_5d_pct": 0.869
+        "current_dxy": 101.49,
+        "change_5d_pct": 0.882
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 58.82,
+      "score": 52.95,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.176,
+        "avg_compound": 0.059,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Shoppers are outraged as snack food giant PepsiCo raises prices on chips and soda - just months after cutting them by 15%",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-09-28T15:30:35Z",
+            "sentiment": "Negative",
+            "compound": -0.612
+          },
+          {
+            "title": "Stock Market Today: Dow Falls As Trump Rejects Iran's Proposal; Oil Prices, Treasury Yields Jump (Live Coverage)",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-28T15:29:41Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
+          {
+            "title": "Bitcoin Falls Lower as Trump's Iran Snub Sends Oil, Yields Higher",
+            "source": "Decrypt",
+            "publishedAt": "2026-09-28T15:26:28Z",
+            "sentiment": "Negative",
+            "compound": -0.612
+          },
+          {
+            "title": "Maryland Bank Teller Admits To Stealing $246,000 From Cash Machines",
+            "source": "The Daily Hodl",
+            "publishedAt": "2026-09-28T15:22:20Z",
+            "sentiment": "Negative",
+            "compound": -0.361
+          },
           {
             "title": "US Stock Market Today: Why are the Dow Jones, S&P 500 and Nasdaq falling today? The reasons behind the selloff from tech stocks to gold, silver and Bitcoin",
             "source": "The Times of India",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-09-28T15:13:00Z",
             "sentiment": "Positive",
             "compound": 0.542
-          },
-          {
-            "title": "Kuehn Law Encourages Investors of Viking Therapeutics, Inc. to Contact Law Firm",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-28T15:12:00Z",
-            "sentiment": "Positive",
-            "compound": 0.44
-          },
-          {
-            "title": "(PR) Turtle Beach Launches Minecraft Dungeons 2 Themed Peripherals",
-            "source": "Techpowerup.com",
-            "publishedAt": "2026-09-28T15:03:42Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "MongoDB Shares Plummet Nearly 20% After CEO CJ Desai Abruptly Exits for Meta Day Before Investor Day",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-09-28T15:00:58Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "Is QuantumScape a Lost Cause?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-28T15:00:35Z",
-            "sentiment": "Negative",
-            "compound": -0.318
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 39.73,
-  "trade_probability": 43.84,
+  "confirmation_score": 38.99,
+  "trade_probability": 43.39,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
