@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T17:31:14.946495+00:00",
+  "generated_at": "2026-09-29T17:45:50.767943+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.0473,
+          "change_pct": -1.8597,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.5694,
+          "change_pct": -0.6519,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.17,
+          "change_pct": -0.3791,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.1137,
+          "change_pct": 0.2192,
           "up": true
         }
       }
@@ -40,18 +40,18 @@
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30290.38,
-        "sma50": 29354.75,
+        "last_price": 30290.01,
+        "sma50": 29354.74,
         "sma200": 27399.43
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 5.0,
+      "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.72,
-        "percentile_vs_20d": 95.0
+        "current_vxn": 22.5,
+        "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
@@ -59,17 +59,17 @@
       "score": 0.0,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.285,
-        "change_5d_pct": 6.381
+        "current_yield_pct": 5.281,
+        "change_5d_pct": 6.3
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.17,
+      "score": 42.19,
       "status": "yellow",
       "details": {
         "current_dxy": 101.58,
-        "change_5d_pct": 0.979
+        "change_5d_pct": 0.976
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.77,
+      "score": 48.33,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.005,
-        "articles_analyzed": 24,
+        "avg_compound": -0.033,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Nicking the gravitas off important people",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-28T17:26:10Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "Cook, An Update on AI and the Economy",
-            "source": "Federalreserve.gov",
-            "publishedAt": "2026-09-28T17:25:00Z",
+            "title": "Treasury yields edge higher amid pressure on global government bonds",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-28T17:44:52Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": -0.103
           },
           {
-            "title": "‘The Perfect Storm’: GOP Strategists Cry Havoc As Poll Delivers Tough News For Lindsey Graham’s Sister",
-            "source": "The Daily Caller",
-            "publishedAt": "2026-09-28T17:22:54Z",
+            "title": "Fed's Cook warns of further pressure on inflation",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-28T17:43:16Z",
             "sentiment": "Negative",
-            "compound": -0.586
+            "compound": -0.382
           },
           {
-            "title": "Stocks steady despite no sign of Iran peace",
+            "title": "Americans Turn To Riskier Mortgages As Borrowing Costs Explode. Sound Familiar?",
+            "source": "The Daily Caller",
+            "publishedAt": "2026-09-28T17:38:40Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
+          {
+            "title": "Starship rocket reaches orbit, with SpaceX saying it will pave way for Mars missions",
             "source": "The Irish Times",
-            "publishedAt": "2026-09-28T17:18:01Z",
-            "sentiment": "Positive",
-            "compound": 0.658
+            "publishedAt": "2026-09-28T17:38:20Z",
+            "sentiment": "Neutral",
+            "compound": 0.052
           },
           {
-            "title": "Nvidia's Record Buyback Couldn't Keep the Nasdaq Out of the Red on Monday Morning",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-28T17:16:02Z",
+            "title": "Bluerock Acquisition Corp. II Announces Closing of $172.5 Million Initial Public Offering Including Exercise of Underwriter's Over-Allotment Option in Full",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-28T17:36:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Palantir Did Not Win the FAA Contract for SMART. Time to Buy the Stock Anyway?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-28T17:15:54Z",
+            "title": "Diesel Hits a Record $6.53 as America Heads Into Winter 600 Million Gallons Short",
+            "source": "Offgridsurvival.com",
+            "publishedAt": "2026-09-28T17:34:20Z",
             "sentiment": "Neutral",
-            "compound": 0.093
+            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 35.72,
-  "trade_probability": 41.43,
+  "confirmation_score": 36.04,
+  "trade_probability": 41.62,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
