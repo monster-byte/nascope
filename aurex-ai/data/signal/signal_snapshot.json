@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T14:31:07.966423+00:00",
+  "generated_at": "2026-09-29T14:45:51.429334+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -1.9114,
+          "change_pct": -1.8966,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.0108,
+          "change_pct": 0.6715,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.5077,
+          "change_pct": 0.6885,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.0122,
+          "change_pct": 0.2395,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 80.76,
+      "score": 80.63,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30410.1,
-        "sma50": 29357.14,
-        "sma200": 27400.03
+        "last_price": 30396.81,
+        "sma50": 29356.88,
+        "sma200": 27399.96
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 35.0,
       "status": "red",
       "details": {
-        "current_vxn": 21.83,
+        "current_vxn": 21.72,
         "percentile_vs_20d": 65.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 4.43,
+      "score": 6.2,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.251,
-        "change_5d_pct": 5.696
+        "current_yield_pct": 5.24,
+        "change_5d_pct": 5.475
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.61,
+      "score": 43.84,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.4,
-        "change_5d_pct": 0.799
+        "current_dxy": 101.37,
+        "change_5d_pct": 0.769
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.54,
+      "score": 56.2,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.049,
-        "articles_analyzed": 24,
+        "avg_compound": 0.124,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "The stock market usually booms in the November-to-April stretch. This indicator suggests otherwise",
+            "title": "Prediction: Google’s Next Chapter Could Be Worth Trillions More",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-28T14:28:09Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Rs 57 lakh remote job vs Rs 68 lakh Bengaluru offer: Techie asks if the difference is worth the travel from Madurai every week",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-28T14:19:59Z",
+            "publishedAt": "2026-09-28T14:43:07Z",
             "sentiment": "Positive",
             "compound": 0.226
           },
           {
-            "title": "Top stocks to sell today: Stock market recommendations for September 29, 2026 - check list",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-28T14:17:50Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "AMERICAN CENTURY SEES OPPORTUNITIES BROADEN BEYOND TECH",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-28T14:17:00Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "Stock Market Today (Sept. 28, 2026): Nasdaq falls amid U.S.-Iran tensions, rising oil prices",
+            "title": "History Says Divided Government Good For Stock Market, With 1 Exception. Prediction Markets Now Say There’s A 92% Chance Of Dems Taking The House",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-28T14:16:33Z",
+            "publishedAt": "2026-09-28T14:42:56Z",
+            "sentiment": "Positive",
+            "compound": 0.599
+          },
+          {
+            "title": "Oil Prices Jump as Trump Rejects Iran's Hormuz Offer, With Brent Near $107 and WTI Near $95 a Barrel",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-09-28T14:42:31Z",
             "sentiment": "Negative",
-            "compound": -0.402
+            "compound": -0.494
           },
           {
-            "title": "Gimlet Labs Adds Cerebras to Deliver Ultrafast AI Inference through Gimlet Cloud",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-28T14:15:58Z",
+            "title": "FEDS Note: When the Chips Went Down: Motor Vehicle Production and the 2021-2022 Semiconductor Shortages",
+            "source": "Federalreserve.gov",
+            "publishedAt": "2026-09-28T14:38:00Z",
+            "sentiment": "Neutral",
+            "compound": -0.153
+          },
+          {
+            "title": "Cats are quietly claiming more American homes, and the pet industry is finally noticing what cat people have known for furrever",
+            "source": "Cheezburger.com",
+            "publishedAt": "2026-09-28T14:37:25Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "FEDS Note: Beyond Face Value: How Composition Changes Affect Import Unit Values of Light Vehicles",
+            "source": "Federalreserve.gov",
+            "publishedAt": "2026-09-28T14:36:00Z",
+            "sentiment": "Positive",
+            "compound": 0.625
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 52.6,
-  "trade_probability": 51.56,
+  "confirmation_score": 53.63,
+  "trade_probability": 52.18,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
