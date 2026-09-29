@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T17:01:22.450300+00:00",
+  "generated_at": "2026-09-29T17:15:51.425073+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,41 +17,41 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.2186,
+          "change_pct": -2.1226,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.2376,
+          "change_pct": -0.7697,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.0523,
+          "change_pct": -0.0697,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.3491,
+          "change_pct": 0.0609,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 79.24,
+      "score": 79.4,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30258.21,
-        "sma50": 29354.11,
-        "sma200": 27399.27
+        "last_price": 30273.95,
+        "sma50": 29354.42,
+        "sma200": 27399.35
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 5.0,
+      "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.74,
-        "percentile_vs_20d": 95.0
+        "current_vxn": 22.77,
+        "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
@@ -59,17 +59,17 @@
       "score": 0.0,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.285,
-        "change_5d_pct": 6.381
+        "current_yield_pct": 5.283,
+        "change_5d_pct": 6.341
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.38,
+      "score": 42.23,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.56,
-        "change_5d_pct": 0.952
+        "current_dxy": 101.58,
+        "change_5d_pct": 0.971
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.27,
+      "score": 53.07,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.105,
+        "avg_compound": 0.061,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "City of Oakland Kicks Off Second Annual Oakland Tech Week",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-28T17:00:00Z",
+            "title": "Fed Finds B2B Payments Went Digital, but the Paperwork Didn’t",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-28T17:13:10Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Dow drops more than 300 points, weighed down by rising oil prices and Treasury yields: Live updates - CNBC",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-09-28T16:53:47Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "MongoDB stocks crash at Nasdaq: In 2025, MDB share price jumped over 30 per cent, one year later company stocks suffer Wall Street's biggest losses after Meta's latest recruitment move",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-28T16:50:44Z",
+            "title": "SoFi Falls 3% as Rising Yields Pressure Fintech; Affirm Drops 4%, Robinhood Slips 2%",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-28T17:12:56Z",
             "sentiment": "Negative",
-            "compound": -0.772
+            "compound": -0.296
           },
           {
-            "title": "Gold hits seven-week low as oil surge fuels rate hike bets",
-            "source": "The Straits Times",
-            "publishedAt": "2026-09-28T16:50:23Z",
-            "sentiment": "Negative",
-            "compound": -0.273
+            "title": "California layoffs drop as job growth outperforms US",
+            "source": "Medianewsgroup.com",
+            "publishedAt": "2026-09-28T17:11:49Z",
+            "sentiment": "Neutral",
+            "compound": 0.128
           },
           {
-            "title": "Paramount rolls out $44 billion bond sale to fund Warner Bros. takeover",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-28T16:49:21Z",
+            "title": "openbb-federal-reserve 2.0.0",
+            "source": "Pypi.org",
+            "publishedAt": "2026-09-28T17:11:27Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "NeuroSense to Participate in the 5th Annual ROTH Healthcare Opportunities Conference",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-28T16:43:00Z",
+            "title": "Oil soars above $107 after Trump rejects Iran peace deal, expects fresh strikes after midterms",
+            "source": "New York Post",
+            "publishedAt": "2026-09-28T17:10:56Z",
+            "sentiment": "Neutral",
+            "compound": 0.026
+          },
+          {
+            "title": "Inflows into gold ETFs continue to be positive for 10th week in a row",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-28T17:10:11Z",
             "sentiment": "Positive",
-            "compound": 0.382
+            "compound": 0.557
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 36.19,
-  "trade_probability": 41.71,
+  "confirmation_score": 36.45,
+  "trade_probability": 41.87,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
