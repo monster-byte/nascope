@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T21:16:24.637759+00:00",
+  "generated_at": "2026-09-29T21:31:09.079736+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.83,
+      "score": 43.72,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.38,
-        "change_5d_pct": 0.771
+        "current_dxy": 101.39,
+        "change_5d_pct": 0.785
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.48,
+      "score": 53.18,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.09,
+        "avg_compound": 0.064,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Trump Admin Repeals Biden-Era Title IX LGBTQ Rule",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-09-28T21:23:44Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Greens seek new leader after Larissa Waters steps down",
             "source": "Crikey",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-09-28T21:08:24Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "EigenQ and Silicon Valley Acquisition Corp. Advance Proposed Business Combination with Public Filing of Registration Statement on Form S-4",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-28T21:08:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 38.21,
-  "trade_probability": 42.93,
+  "confirmation_score": 38.09,
+  "trade_probability": 42.85,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
