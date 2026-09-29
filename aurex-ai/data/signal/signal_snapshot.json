@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T16:01:20.503848+00:00",
+  "generated_at": "2026-09-29T16:15:52.753229+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,41 +17,41 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -2.1846,
+          "change_pct": -2.2098,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.0216,
-          "up": true
+          "change_pct": -0.1512,
+          "up": false
         },
         "NVDA": {
-          "change_pct": 0.3748,
+          "change_pct": 0.3093,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.0203,
-          "up": false
+          "change_pct": 0.1218,
+          "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 79.68,
+      "score": 79.57,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30302.53,
-        "sma50": 29354.99,
-        "sma200": 27399.49
+        "last_price": 30291.03,
+        "sma50": 29354.76,
+        "sma200": 27399.43
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 10.0,
+      "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.68,
-        "percentile_vs_20d": 90.0
+        "current_vxn": 22.66,
+        "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
@@ -59,17 +59,17 @@
       "score": 0.0,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.281,
-        "change_5d_pct": 6.3
+        "current_yield_pct": 5.285,
+        "change_5d_pct": 6.381
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.93,
+      "score": 43.02,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.49,
-        "change_5d_pct": 0.884
+        "current_dxy": 101.48,
+        "change_5d_pct": 0.873
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.55,
+      "score": 52.44,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.011,
+        "avg_compound": 0.049,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Transcript: Adam Frank, JPMorgan Wealth Management’s Head of Wealth Planning and Advice",
-            "source": "Ritholtz.com",
-            "publishedAt": "2026-09-28T16:00:51Z",
-            "sentiment": "Positive",
-            "compound": 0.751
-          },
-          {
-            "title": "Inland Revenue puts Auckland contractor Total Civil into liquidation",
-            "source": "New Zealand Herald",
-            "publishedAt": "2026-09-28T16:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Bronstein, Gewirtz & Grossman LLC Urges Honeywell Aerospace, Inc. Investors to Act: Class Action Filed Alleging Investor Harm",
+            "title": "US defense investment gap reflects market barriers and shortage of investable opportunity, not any shortage of capital--Bain & Company and AIA report",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-28T16:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.542
-          },
-          {
-            "title": "Election 2026: Government opens the books – will Nicola Willis finally get her nice surprise?",
-            "source": "New Zealand Herald",
-            "publishedAt": "2026-09-28T16:00:00Z",
+            "publishedAt": "2026-09-28T16:15:00Z",
             "sentiment": "Positive",
-            "compound": 0.599
+            "compound": 0.466
           },
           {
-            "title": "Fed Finds B2B Payments Went Digital, but the Paperwork Didn’t",
-            "source": "pymnts.com",
-            "publishedAt": "2026-09-28T15:59:29Z",
+            "title": "Top Business & Market Headlines Today — BL Morning Report, September 29, 2026",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-28T16:13:32Z",
+            "sentiment": "Positive",
+            "compound": 0.703
+          },
+          {
+            "title": "Trump won't rule out more Iran strikes before midterms, says peace talks will continue - Fox News",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-09-28T16:13:20Z",
+            "sentiment": "Neutral",
+            "compound": 0.183
+          },
+          {
+            "title": "Fed Has Never Hiked In October Ahead Of US Elections: UBS",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-28T16:13:01Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Bitcoin price today: Why are BTC, Ethereum-ETC rates down after recent highs? Donald Trump whose administration is known as crypto-friendly may be responsible",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-28T15:56:55Z",
+            "title": "The Fed Chairman Has Raised Interest Rates, But Will It Slow Inflation?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-28T16:12:37Z",
             "sentiment": "Positive",
-            "compound": 0.318
+            "compound": 0.25
+          },
+          {
+            "title": "Holiday Shoppers Loop Through Endless Research and Turn to Off-Price Retailers",
+            "source": "WWD",
+            "publishedAt": "2026-09-28T16:06:26Z",
+            "sentiment": "Positive",
+            "compound": 0.402
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 43.07,
-  "trade_probability": 45.84,
+  "confirmation_score": 42.78,
+  "trade_probability": 45.67,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
