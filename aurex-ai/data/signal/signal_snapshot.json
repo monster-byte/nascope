@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T19:01:21.503136+00:00",
+  "generated_at": "2026-09-29T19:16:00.568235+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -2.291,
+          "change_pct": -2.3131,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.2994,
+          "change_pct": 0.2749,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.4183,
+          "change_pct": -0.7234,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.9652,
+          "change_pct": 0.6333,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 80.36,
+      "score": 80.1,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30369.64,
-        "sma50": 29356.33,
-        "sma200": 27399.83
+        "last_price": 30343.83,
+        "sma50": 29355.82,
+        "sma200": 27399.7
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.22,
+        "current_vxn": 22.21,
         "percentile_vs_20d": 80.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 3.14,
+      "score": 3.78,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.259,
-        "change_5d_pct": 5.857
+        "current_yield_pct": 5.255,
+        "change_5d_pct": 5.777
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.76,
+      "score": 43.86,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.39,
-        "change_5d_pct": 0.78
+        "current_dxy": 101.37,
+        "change_5d_pct": 0.767
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.58,
+      "score": 51.53,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.032,
+        "avg_compound": 0.031,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Monster Beverage Is Already Huge. Can It Keep Growing?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-28T19:15:43Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "Stock Market Today: Dow, S&P 500 and Nasdaq drop as tech stocks slide and Treasury yields jump - MarketWatch",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-09-28T19:13:56Z",
+            "sentiment": "Neutral",
+            "compound": -0.077
+          },
+          {
+            "title": "GIPE shadow monetary policy panel flags partial RBI rate cut transmission, bats for status quo as food & oil prices rise",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-28T19:11:49Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "2001 Hummer H1 Open Top",
+            "source": "Bringatrailer.com",
+            "publishedAt": "2026-09-28T19:05:07Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
           {
             "title": "Europe’s Gas Forecasts Are Not an Energy Strategy",
             "source": "OilPrice.com",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-09-28T18:54:37Z",
             "sentiment": "Positive",
             "compound": 0.511
-          },
-          {
-            "title": "40 Funny Posts From Home Depot Workers Who Have Seen A Little Of Everything",
-            "source": "Pleated-jeans.com",
-            "publishedAt": "2026-09-28T18:47:43Z",
-            "sentiment": "Positive",
-            "compound": 0.44
-          },
-          {
-            "title": "Fed's Cook warns AI and oil prices will continue to push up inflation",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-28T18:45:16Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
-          },
-          {
-            "title": "The Bond Market Is Repeating a Pattern Last Observed Ahead of the Great Recession. Here's What History Says Comes Next",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-28T18:45:11Z",
-            "sentiment": "Positive",
-            "compound": 0.318
-          },
-          {
-            "title": "Gold tumbles 4% to seven-week low as oil, dollar and yields climb",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-28T18:42:24Z",
-            "sentiment": "Negative",
-            "compound": -0.273
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.65,
-  "trade_probability": 46.79,
+  "confirmation_score": 44.71,
+  "trade_probability": 46.83,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
