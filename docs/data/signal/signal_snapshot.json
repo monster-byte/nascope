@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T15:45:54.446830+00:00",
+  "generated_at": "2026-09-29T15:52:55.962017+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
-      "status": "red",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -1.9025,
+          "change_pct": -2.127,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.0177,
-          "up": false
+          "change_pct": 0.107,
+          "up": true
         },
         "NVDA": {
-          "change_pct": 0.5905,
+          "change_pct": 0.4096,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.0974,
-          "up": false
+          "change_pct": 0.0528,
+          "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 79.74,
+      "score": 79.58,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30308.38,
-        "sma50": 29355.11,
-        "sma200": 27399.52
+        "last_price": 30292.02,
+        "sma50": 29354.78,
+        "sma200": 27399.44
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 30.0,
+      "score": 35.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.12,
-        "percentile_vs_20d": 70.0
+        "current_vxn": 22.04,
+        "percentile_vs_20d": 65.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 0.0,
+      "score": 1.05,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.285,
-        "change_5d_pct": 6.381
+        "current_yield_pct": 5.272,
+        "change_5d_pct": 6.119
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.03,
+      "score": 42.83,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.48,
-        "change_5d_pct": 0.871
+        "current_dxy": 101.5,
+        "change_5d_pct": 0.897
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.44,
+      "score": 51.54,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.089,
+        "avg_compound": 0.031,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "4 Costly Mistakes to Avoid Before Buying Your Prefab Steel Garage",
+            "source": "Addicted2success.com",
+            "publishedAt": "2026-09-28T15:50:43Z",
+            "sentiment": "Negative",
+            "compound": -0.625
+          },
+          {
+            "title": "Ahead of Market: 10 things that will decide stock market action on Tuesday",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-28T15:49:46Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "US Looks to Stablecoins To Bolster Dollar’s Reserve Status",
             "source": "pymnts.com",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-09-28T15:36:16Z",
             "sentiment": "Positive",
             "compound": 0.226
-          },
-          {
-            "title": "Why Diesel Prices Are So High - Refining margins, not crude oil, account for most of the increase",
-            "source": "Freerepublic.com",
-            "publishedAt": "2026-09-28T15:33:27Z",
-            "sentiment": "Positive",
-            "compound": 0.677
-          },
-          {
-            "title": "Shoppers are outraged as snack food giant PepsiCo raises prices on chips and soda - just months after cutting them by 15%",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-09-28T15:30:35Z",
-            "sentiment": "Negative",
-            "compound": -0.612
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 38.49,
-  "trade_probability": 43.09,
+  "confirmation_score": 52.28,
+  "trade_probability": 51.37,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
