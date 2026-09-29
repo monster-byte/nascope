@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T16:15:52.753229+00:00",
+  "generated_at": "2026-09-29T16:31:12.077437+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -2.2098,
+          "change_pct": -2.239,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.1512,
+          "change_pct": -0.1831,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.3093,
+          "change_pct": 0.305,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.1218,
+          "change_pct": 0.2517,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 79.57,
+      "score": 79.65,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30291.03,
-        "sma50": 29354.76,
-        "sma200": 27399.43
+        "last_price": 30299.45,
+        "sma50": 29354.93,
+        "sma200": 27399.48
       }
     },
     "vxn": {
@@ -50,7 +50,7 @@
       "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.66,
+        "current_vxn": 22.71,
         "percentile_vs_20d": 95.0
       }
     },
@@ -59,17 +59,17 @@
       "score": 0.0,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.285,
-        "change_5d_pct": 6.381
+        "current_yield_pct": 5.281,
+        "change_5d_pct": 6.3
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.02,
+      "score": 42.76,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.48,
-        "change_5d_pct": 0.873
+        "current_dxy": 101.51,
+        "change_5d_pct": 0.905
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.44,
+      "score": 55.05,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.049,
+        "avg_compound": 0.101,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Costco got a $184million tariff refund. Now the retail giant is pledging to give it all back to customers by lowering prices",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-09-28T16:30:13Z",
+            "sentiment": "Negative",
+            "compound": -0.25
+          },
+          {
+            "title": "Nvidia's board increases chipmaker's share buyback plan by $150 billion",
+            "source": "Medianewsgroup.com",
+            "publishedAt": "2026-09-28T16:28:14Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "LFCR SHAREHOLDER ALERT: ADEMI LLP INVESTIGATES WHETHER BUYOUT FAIRLY VALUES LIFECORE BIOMEDICAL, INC.",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-28T16:25:00Z",
+            "sentiment": "Positive",
+            "compound": 0.599
+          },
+          {
+            "title": "Stocks fall, oil rises and bond yields surge as geopolitics keeps markets on edge",
+            "source": "NBC News",
+            "publishedAt": "2026-09-28T16:23:35Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "10-year benchmark yield spikes 7 bps to 7.19%",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-28T16:22:13Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "US defense investment gap reflects market barriers and shortage of investable opportunity, not any shortage of capital--Bain & Company and AIA report",
             "source": "PRNewswire",
             "publishedAt": "2026-09-28T16:15:00Z",
             "sentiment": "Positive",
             "compound": 0.466
-          },
-          {
-            "title": "Top Business & Market Headlines Today — BL Morning Report, September 29, 2026",
-            "source": "BusinessLine",
-            "publishedAt": "2026-09-28T16:13:32Z",
-            "sentiment": "Positive",
-            "compound": 0.703
-          },
-          {
-            "title": "Trump won't rule out more Iran strikes before midterms, says peace talks will continue - Fox News",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-09-28T16:13:20Z",
-            "sentiment": "Neutral",
-            "compound": 0.183
-          },
-          {
-            "title": "Fed Has Never Hiked In October Ahead Of US Elections: UBS",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-28T16:13:01Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "The Fed Chairman Has Raised Interest Rates, But Will It Slow Inflation?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-28T16:12:37Z",
-            "sentiment": "Positive",
-            "compound": 0.25
-          },
-          {
-            "title": "Holiday Shoppers Loop Through Endless Research and Turn to Off-Price Retailers",
-            "source": "WWD",
-            "publishedAt": "2026-09-28T16:06:26Z",
-            "sentiment": "Positive",
-            "compound": 0.402
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 42.78,
-  "trade_probability": 45.67,
+  "confirmation_score": 43.01,
+  "trade_probability": 45.81,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
