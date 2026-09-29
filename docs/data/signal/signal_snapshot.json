@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T13:31:11.022628+00:00",
+  "generated_at": "2026-09-29T13:45:53.685442+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,36 +13,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.5894,
+          "change_pct": -1.6366,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.2366,
+          "change_pct": -1.2213,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.8628,
+          "change_pct": 0.1917,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.1989,
-          "up": true
+          "change_pct": -0.1624,
+          "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 80.77,
+      "score": 79.68,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30411.19,
-        "sma50": 29357.17,
-        "sma200": 27400.03
+        "last_price": 30302.24,
+        "sma50": 29354.99,
+        "sma200": 27399.49
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 7.81,
+      "score": 5.72,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.23,
-        "change_5d_pct": 5.274
+        "current_yield_pct": 5.243,
+        "change_5d_pct": 5.535
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.9,
+      "score": 43.57,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.37,
-        "change_5d_pct": 0.762
+        "current_dxy": 101.41,
+        "change_5d_pct": 0.803
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.57,
+      "score": 48.05,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.011,
+        "avg_compound": -0.039,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Stock market crash takes Sensex to 6-month low; index tanks 5% in a month as investors lose Rs 17 lakh crore",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-28T13:43:27Z",
+            "sentiment": "Negative",
+            "compound": -0.758
+          },
+          {
+            "title": "‘Moderate’ NY Congressman Says The Quiet Part Out Loud: Amnesty for 10 Million Criminal Illegals (Watch!)",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-09-28T13:37:46Z",
+            "sentiment": "Negative",
+            "compound": -0.571
+          },
+          {
+            "title": "Oncolytics Biotech® Reports Accelerating Enrollment in Randomized REO 033 RAS-Mutant, MSS Colorectal Cancer Study",
+            "source": "Financial Post",
+            "publishedAt": "2026-09-28T13:34:49Z",
+            "sentiment": "Negative",
+            "compound": -0.66
+          },
           {
             "title": "Christine Lagarde: Hearing of the Committee on Economic and Monetary Affairs of the European Parliament",
             "source": "Europa.eu",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-09-28T13:26:46Z",
             "sentiment": "Negative",
             "compound": -0.743
-          },
-          {
-            "title": "Nubank’s owner is in talks to buy Monzo at up to £10bn",
-            "source": "The Next Web",
-            "publishedAt": "2026-09-28T13:22:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "RideNow Group, Inc. Announces $220 Million Senior Secured Term Loan Refinancing; In Advanced Discussions for $50 Million Asset Backed Lending (ABL) Facility",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-28T13:20:00Z",
-            "sentiment": "Positive",
-            "compound": 0.743
-          },
-          {
-            "title": "Trump: Invading Cuba will be a “Great Honor”",
-            "source": "Globalresearch.ca",
-            "publishedAt": "2026-09-28T13:17:06Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 45.26,
-  "trade_probability": 47.16,
+  "confirmation_score": 37.82,
+  "trade_probability": 42.69,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
