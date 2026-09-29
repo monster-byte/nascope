@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T18:31:08.456323+00:00",
+  "generated_at": "2026-09-29T18:45:51.171861+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
-      "status": "red",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -2.0886,
+          "change_pct": -2.0665,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.4418,
-          "up": false
+          "change_pct": 0.2788,
+          "up": true
         },
         "NVDA": {
-          "change_pct": -0.6711,
+          "change_pct": -0.6123,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.4263,
+          "change_pct": 0.7226,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 79.91,
+      "score": 80.34,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30324.76,
-        "sma50": 29355.44,
-        "sma200": 27399.6
+        "last_price": 30368.05,
+        "sma50": 29356.3,
+        "sma200": 27399.82
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 15.0,
+      "score": 30.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.44,
-        "percentile_vs_20d": 85.0
+        "current_vxn": 22.1,
+        "percentile_vs_20d": 70.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 1.37,
+      "score": 2.33,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.27,
-        "change_5d_pct": 6.079
+        "current_yield_pct": 5.264,
+        "change_5d_pct": 5.958
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.57,
+      "score": 43.46,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.41,
-        "change_5d_pct": 0.804
+        "current_dxy": 101.42,
+        "change_5d_pct": 0.818
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.23,
+      "score": 49.51,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.015,
+        "avg_compound": -0.01,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Fed's Cook warns AI and oil prices will continue to push up inflation",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-28T18:45:16Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
+          {
+            "title": "The Bond Market Is Repeating a Pattern Last Observed Ahead of the Great Recession. Here's What History Says Comes Next",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-28T18:45:11Z",
+            "sentiment": "Positive",
+            "compound": 0.318
+          },
+          {
+            "title": "Gold tumbles 4% to seven-week low as oil, dollar and yields climb",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-28T18:42:24Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "In 1932, J. Paul Getty bought Tidewater oil shares for $2.50 each during the crash. 25 years later, Fortune named him the wealthiest American with a $700 million fortune",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-28T18:31:13Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
           {
             "title": "Jio-bp, Nayara cap diesel sales as industrial buyers seek cheaper fuel",
             "source": "Business Standard",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-09-28T18:24:30Z",
             "sentiment": "Negative",
             "compound": -0.477
-          },
-          {
-            "title": "Retail sales slip 3.2% in April",
-            "source": "Royal Gazette",
-            "publishedAt": "2026-09-28T18:21:38Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "What a US diesel export ban could mean for you",
-            "source": "BBC News",
-            "publishedAt": "2026-09-28T18:18:30Z",
-            "sentiment": "Negative",
-            "compound": -0.557
-          },
-          {
-            "title": "GMO sends stark warning on stock market",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-28T18:13:25Z",
-            "sentiment": "Negative",
-            "compound": -0.34
-          },
-          {
-            "title": "Is now the time to move tax brackets?",
-            "source": "New Zealand Herald",
-            "publishedAt": "2026-09-28T18:05:54Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 36.92,
-  "trade_probability": 42.15,
+  "confirmation_score": 45.23,
+  "trade_probability": 47.14,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
