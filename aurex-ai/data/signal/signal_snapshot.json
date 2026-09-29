@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T18:45:51.171861+00:00",
+  "generated_at": "2026-09-29T19:01:21.503136+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -2.0665,
+          "change_pct": -2.291,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.2788,
+          "change_pct": 0.2994,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.6123,
+          "change_pct": -0.4183,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.7226,
+          "change_pct": 0.9652,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 80.34,
+      "score": 80.36,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30368.05,
-        "sma50": 29356.3,
-        "sma200": 27399.82
+        "last_price": 30369.64,
+        "sma50": 29356.33,
+        "sma200": 27399.83
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 30.0,
+      "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.1,
-        "percentile_vs_20d": 70.0
+        "current_vxn": 22.22,
+        "percentile_vs_20d": 80.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 2.33,
+      "score": 3.14,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.264,
-        "change_5d_pct": 5.958
+        "current_yield_pct": 5.259,
+        "change_5d_pct": 5.857
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.46,
+      "score": 43.76,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.42,
-        "change_5d_pct": 0.818
+        "current_dxy": 101.39,
+        "change_5d_pct": 0.78
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.51,
+      "score": 51.58,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.01,
+        "avg_compound": 0.032,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Europe’s Gas Forecasts Are Not an Energy Strategy",
+            "source": "OilPrice.com",
+            "publishedAt": "2026-09-28T19:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.206
+          },
+          {
+            "title": "Waning trust in Trump's economy is about to hit your mortgage",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-09-28T18:54:37Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
+          {
+            "title": "40 Funny Posts From Home Depot Workers Who Have Seen A Little Of Everything",
+            "source": "Pleated-jeans.com",
+            "publishedAt": "2026-09-28T18:47:43Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
           {
             "title": "Fed's Cook warns AI and oil prices will continue to push up inflation",
             "source": "Biztoc.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-09-28T18:42:24Z",
             "sentiment": "Negative",
             "compound": -0.273
-          },
-          {
-            "title": "In 1932, J. Paul Getty bought Tidewater oil shares for $2.50 each during the crash. 25 years later, Fortune named him the wealthiest American with a $700 million fortune",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-28T18:31:13Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "Jio-bp, Nayara cap diesel sales as industrial buyers seek cheaper fuel",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-28T18:28:33Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "NYC restaurants hit back at dine-and-dashers with social media shame: ‘Nothing that police can do’",
-            "source": "New York Post",
-            "publishedAt": "2026-09-28T18:24:30Z",
-            "sentiment": "Negative",
-            "compound": -0.477
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 45.23,
-  "trade_probability": 47.14,
+  "confirmation_score": 44.65,
+  "trade_probability": 46.79,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
