@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T17:15:51.425073+00:00",
+  "generated_at": "2026-09-29T17:31:14.946495+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,41 +17,41 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.1226,
+          "change_pct": -2.0473,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.7697,
+          "change_pct": -0.5694,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.0697,
+          "change_pct": -0.17,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.0609,
+          "change_pct": 0.1137,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 79.4,
+      "score": 79.56,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30273.95,
-        "sma50": 29354.42,
-        "sma200": 27399.35
+        "last_price": 30290.38,
+        "sma50": 29354.75,
+        "sma200": 27399.43
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 10.0,
+      "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.77,
-        "percentile_vs_20d": 90.0
+        "current_vxn": 22.72,
+        "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
@@ -59,17 +59,17 @@
       "score": 0.0,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.283,
-        "change_5d_pct": 6.341
+        "current_yield_pct": 5.285,
+        "change_5d_pct": 6.381
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.23,
+      "score": 42.17,
       "status": "yellow",
       "details": {
         "current_dxy": 101.58,
-        "change_5d_pct": 0.971
+        "change_5d_pct": 0.979
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.07,
+      "score": 49.77,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.061,
+        "avg_compound": -0.005,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Fed Finds B2B Payments Went Digital, but the Paperwork Didn’t",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-28T17:13:10Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "SoFi Falls 3% as Rising Yields Pressure Fintech; Affirm Drops 4%, Robinhood Slips 2%",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-28T17:12:56Z",
-            "sentiment": "Negative",
-            "compound": -0.296
-          },
-          {
-            "title": "California layoffs drop as job growth outperforms US",
-            "source": "Medianewsgroup.com",
-            "publishedAt": "2026-09-28T17:11:49Z",
-            "sentiment": "Neutral",
-            "compound": 0.128
-          },
-          {
-            "title": "openbb-federal-reserve 2.0.0",
-            "source": "Pypi.org",
-            "publishedAt": "2026-09-28T17:11:27Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Oil soars above $107 after Trump rejects Iran peace deal, expects fresh strikes after midterms",
-            "source": "New York Post",
-            "publishedAt": "2026-09-28T17:10:56Z",
-            "sentiment": "Neutral",
-            "compound": 0.026
-          },
-          {
-            "title": "Inflows into gold ETFs continue to be positive for 10th week in a row",
-            "source": "BusinessLine",
-            "publishedAt": "2026-09-28T17:10:11Z",
+            "title": "Nicking the gravitas off important people",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-28T17:26:10Z",
             "sentiment": "Positive",
-            "compound": 0.557
+            "compound": 0.202
+          },
+          {
+            "title": "Cook, An Update on AI and the Economy",
+            "source": "Federalreserve.gov",
+            "publishedAt": "2026-09-28T17:25:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "‘The Perfect Storm’: GOP Strategists Cry Havoc As Poll Delivers Tough News For Lindsey Graham’s Sister",
+            "source": "The Daily Caller",
+            "publishedAt": "2026-09-28T17:22:54Z",
+            "sentiment": "Negative",
+            "compound": -0.586
+          },
+          {
+            "title": "Stocks steady despite no sign of Iran peace",
+            "source": "The Irish Times",
+            "publishedAt": "2026-09-28T17:18:01Z",
+            "sentiment": "Positive",
+            "compound": 0.658
+          },
+          {
+            "title": "Nvidia's Record Buyback Couldn't Keep the Nasdaq Out of the Red on Monday Morning",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-28T17:16:02Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Palantir Did Not Win the FAA Contract for SMART. Time to Buy the Stock Anyway?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-28T17:15:54Z",
+            "sentiment": "Neutral",
+            "compound": 0.093
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 36.45,
-  "trade_probability": 41.87,
+  "confirmation_score": 35.72,
+  "trade_probability": 41.43,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
