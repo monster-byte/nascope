@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T15:01:24.017035+00:00",
+  "generated_at": "2026-09-29T15:15:53.452848+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.7459,
+          "change_pct": -1.7563,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.013,
+          "change_pct": -0.054,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.7103,
+          "change_pct": 0.5055,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.0934,
+          "change_pct": -0.0406,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30366.41,
+        "last_price": 30366.43,
         "sma50": 29356.27,
         "sma200": 27399.81
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 40.0,
-      "status": "yellow",
+      "score": 35.0,
+      "status": "red",
       "details": {
-        "current_vxn": 21.76,
-        "percentile_vs_20d": 60.0
+        "current_vxn": 21.81,
+        "percentile_vs_20d": 65.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 3.14,
+      "score": 2.33,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.259,
-        "change_5d_pct": 5.857
+        "current_yield_pct": 5.264,
+        "change_5d_pct": 5.958
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.47,
+      "score": 43.05,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.42,
-        "change_5d_pct": 0.816
+        "current_dxy": 101.47,
+        "change_5d_pct": 0.869
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 57.53,
+      "score": 58.82,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.151,
+        "avg_compound": 0.176,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "US Stock Market Today: Why are the Dow Jones, S&P 500 and Nasdaq falling today? The reasons behind the selloff from tech stocks to gold, silver and Bitcoin",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-28T15:15:19Z",
+            "sentiment": "Neutral",
+            "compound": -0.153
+          },
+          {
+            "title": "Missing Iran 'Supreme Leader' Praises Women in Bizarre Written Statement",
+            "source": "Breitbart News",
+            "publishedAt": "2026-09-28T15:13:00Z",
+            "sentiment": "Positive",
+            "compound": 0.542
+          },
+          {
+            "title": "Kuehn Law Encourages Investors of Viking Therapeutics, Inc. to Contact Law Firm",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-28T15:12:00Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
+          {
+            "title": "(PR) Turtle Beach Launches Minecraft Dungeons 2 Themed Peripherals",
+            "source": "Techpowerup.com",
+            "publishedAt": "2026-09-28T15:03:42Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "MongoDB Shares Plummet Nearly 20% After CEO CJ Desai Abruptly Exits for Meta Day Before Investor Day",
             "source": "Ibtimes.com.au",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-09-28T15:00:35Z",
             "sentiment": "Negative",
             "compound": -0.318
-          },
-          {
-            "title": "The New Gilded Age: Ultra-Rich Gain 15,183x More Net Worth Than Bottom 50% in 2 Years",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-28T14:57:58Z",
-            "sentiment": "Positive",
-            "compound": 0.679
-          },
-          {
-            "title": "Storming the TradFi castle: Stablecoins, tokenized assets and AI are claiming their place in global finance",
-            "source": "SiliconANGLE News",
-            "publishedAt": "2026-09-28T14:52:29Z",
-            "sentiment": "Neutral",
-            "compound": 0.178
-          },
-          {
-            "title": "Warren Buffett is no longer in charge, but Berkshire's latest purchase is right from his playbook",
-            "source": "Business Insider",
-            "publishedAt": "2026-09-28T14:49:35Z",
-            "sentiment": "Neutral",
-            "compound": -0.153
-          },
-          {
-            "title": "Sagarmala Finance withdraws ₹600 crore blue bond issue on higher coupon",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-28T14:48:55Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.21,
-  "trade_probability": 44.13,
+  "confirmation_score": 39.73,
+  "trade_probability": 43.84,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
