@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T03:01:19.881602+00:00",
+  "generated_at": "2026-09-29T03:15:50.022912+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.84,
+      "score": 43.67,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.2,
-        "change_5d_pct": 0.77
+        "current_dxy": 101.22,
+        "change_5d_pct": 0.792
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.94,
+      "score": 55.23,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.119,
+        "avg_compound": 0.105,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Poll: Trump's Approval Rating Drops to New Low as Midterms Loom",
+            "source": "Breitbart News",
+            "publishedAt": "2026-09-28T03:14:18Z",
+            "sentiment": "Neutral",
+            "compound": 0.026
+          },
+          {
+            "title": "Vikings Week 3 Stock Market Report",
+            "source": "Daily Norseman",
+            "publishedAt": "2026-09-28T03:09:25Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Thinking about buying stocks instead of a home? The S&P 500 has blown away the housing market",
             "source": "Biztoc.com",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-09-28T02:24:34Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Strategic allocation to Asia fixed income",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-28T02:15:31Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "If a Stock Market Crash Is Coming, Warren Buffett Says Investors Should Make This 1 Move Right Now",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-28T02:15:24Z",
-            "sentiment": "Negative",
-            "compound": -0.402
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 38.52,
-  "trade_probability": 43.11,
+  "confirmation_score": 38.44,
+  "trade_probability": 43.06,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
