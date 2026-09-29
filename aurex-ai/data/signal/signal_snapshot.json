@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T15:31:11.626705+00:00",
+  "generated_at": "2026-09-29T15:45:54.446830+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.9882,
+          "change_pct": -1.9025,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.1296,
+          "change_pct": -0.0177,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.2419,
+          "change_pct": 0.5905,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.1218,
+          "change_pct": -0.0974,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 79.5,
+      "score": 79.74,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30284.05,
-        "sma50": 29354.62,
-        "sma200": 27399.4
+        "last_price": 30308.38,
+        "sma50": 29355.11,
+        "sma200": 27399.52
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 35.0,
+      "score": 30.0,
       "status": "red",
       "details": {
-        "current_vxn": 21.91,
-        "percentile_vs_20d": 65.0
+        "current_vxn": 22.12,
+        "percentile_vs_20d": 70.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 1.69,
+      "score": 0.0,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.268,
-        "change_5d_pct": 6.039
+        "current_yield_pct": 5.285,
+        "change_5d_pct": 6.381
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.95,
+      "score": 43.03,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.49,
-        "change_5d_pct": 0.882
+        "current_dxy": 101.48,
+        "change_5d_pct": 0.871
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.95,
+      "score": 54.44,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.059,
+        "avg_compound": 0.089,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "US Looks to Stablecoins To Bolster Dollar’s Reserve Status",
+            "source": "pymnts.com",
+            "publishedAt": "2026-09-28T15:45:49Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Markets sink to six-month low as oil shock wipes out ₹7.5 lakh crore in investor wealth",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-28T15:36:59Z",
+            "sentiment": "Neutral",
+            "compound": -0.128
+          },
+          {
+            "title": "Britain's richest plumber Charlie Mullins slashes the price of his luxury Thames-side 'penthouse' by £3m after struggling to find a buyer in the two years since he left the country",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-09-28T15:36:43Z",
+            "sentiment": "Neutral",
+            "compound": -0.052
+          },
+          {
+            "title": "Tata Trusts proposes rejig to keep Tata Sons private, avoid IPO to comply with RBI rules — Here's what could change",
+            "source": "Livemint",
+            "publishedAt": "2026-09-28T15:36:16Z",
+            "sentiment": "Positive",
+            "compound": 0.226
+          },
+          {
+            "title": "Why Diesel Prices Are So High - Refining margins, not crude oil, account for most of the increase",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-09-28T15:33:27Z",
+            "sentiment": "Positive",
+            "compound": 0.677
+          },
           {
             "title": "Shoppers are outraged as snack food giant PepsiCo raises prices on chips and soda - just months after cutting them by 15%",
             "source": "Dailymail.com",
             "publishedAt": "2026-09-28T15:30:35Z",
             "sentiment": "Negative",
             "compound": -0.612
-          },
-          {
-            "title": "Stock Market Today: Dow Falls As Trump Rejects Iran's Proposal; Oil Prices, Treasury Yields Jump (Live Coverage)",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-28T15:29:41Z",
-            "sentiment": "Negative",
-            "compound": -0.34
-          },
-          {
-            "title": "Bitcoin Falls Lower as Trump's Iran Snub Sends Oil, Yields Higher",
-            "source": "Decrypt",
-            "publishedAt": "2026-09-28T15:26:28Z",
-            "sentiment": "Negative",
-            "compound": -0.612
-          },
-          {
-            "title": "Maryland Bank Teller Admits To Stealing $246,000 From Cash Machines",
-            "source": "The Daily Hodl",
-            "publishedAt": "2026-09-28T15:22:20Z",
-            "sentiment": "Negative",
-            "compound": -0.361
-          },
-          {
-            "title": "US Stock Market Today: Why are the Dow Jones, S&P 500 and Nasdaq falling today? The reasons behind the selloff from tech stocks to gold, silver and Bitcoin",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-28T15:15:19Z",
-            "sentiment": "Neutral",
-            "compound": -0.153
-          },
-          {
-            "title": "Missing Iran 'Supreme Leader' Praises Women in Bizarre Written Statement",
-            "source": "Breitbart News",
-            "publishedAt": "2026-09-28T15:13:00Z",
-            "sentiment": "Positive",
-            "compound": 0.542
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 38.99,
-  "trade_probability": 43.39,
+  "confirmation_score": 38.49,
+  "trade_probability": 43.09,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
