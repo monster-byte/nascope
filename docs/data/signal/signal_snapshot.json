@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T14:01:23.619507+00:00",
+  "generated_at": "2026-09-29T14:15:56.661973+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
+      "score": 0.0,
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.6425,
+          "change_pct": -1.6514,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.9052,
+          "change_pct": -0.8777,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.353,
-          "up": true
+          "change_pct": -0.0937,
+          "up": false
         },
         "AMZN": {
-          "change_pct": -0.3248,
+          "change_pct": -0.0913,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 80.35,
+      "score": 80.03,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30369.49,
-        "sma50": 29356.33,
-        "sma200": 27399.83
+        "last_price": 30336.79,
+        "sma50": 29355.68,
+        "sma200": 27399.66
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 5.0,
-      "status": "red",
+      "score": 40.0,
+      "status": "yellow",
       "details": {
-        "current_vxn": 22.46,
-        "percentile_vs_20d": 95.0
+        "current_vxn": 21.87,
+        "percentile_vs_20d": 60.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 2.82,
+      "score": 5.72,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.261,
-        "change_5d_pct": 5.898
+        "current_yield_pct": 5.243,
+        "change_5d_pct": 5.535
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.83,
+      "score": 43.82,
       "status": "yellow",
       "details": {
         "current_dxy": 101.38,
-        "change_5d_pct": 0.771
+        "change_5d_pct": 0.772
       }
     },
     "macro": {
@@ -92,6 +92,13 @@
         "avg_compound": -0.076,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Kuehn Law Encourages Investors of Quantum Computing Inc. to Contact Law Firm",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-28T14:11:00Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
           {
             "title": "Ranchers Have Beef With ICE Raids, Say Prices Will Spike",
             "source": "Newser",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-09-28T13:58:43Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "US stocks: Wall St opens lower as oil spikes after Trump rejects Iran peace proposal",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-28T13:54:46Z",
-            "sentiment": "Negative",
-            "compound": -0.226
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 36.03,
-  "trade_probability": 41.62,
+  "confirmation_score": 32.78,
+  "trade_probability": 39.67,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
