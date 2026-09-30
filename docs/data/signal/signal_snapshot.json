@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T15:16:15.582464+00:00",
+  "generated_at": "2026-09-30T15:31:09.086917+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,41 +17,41 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 2.2319,
+          "change_pct": 2.1592,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.8201,
+          "change_pct": 1.8574,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.9423,
+          "change_pct": 0.8569,
           "up": true
         },
         "AMZN": {
-          "change_pct": 1.9935,
+          "change_pct": 1.7509,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 82.14,
+      "score": 82.31,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30573.41,
-        "sma50": 29384.09,
-        "sma200": 27424.11
+        "last_price": 30590.32,
+        "sma50": 29384.43,
+        "sma200": 27424.19
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 20.0,
+      "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.28,
-        "percentile_vs_20d": 80.0
+        "current_vxn": 22.31,
+        "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.69,
+      "score": 48.68,
       "status": "yellow",
       "details": {
         "current_dxy": 101.27,
-        "change_5d_pct": 0.164
+        "change_5d_pct": 0.165
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.26,
+      "score": 51.78,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.065,
+        "avg_compound": 0.036,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Why investors should stop panicking about the latest rise in bond yields",
-            "source": "Business Insider",
-            "publishedAt": "2026-09-29T15:13:02Z",
-            "sentiment": "Negative",
-            "compound": -0.625
+            "title": "Funflation is fueling hobbies as Americans spend more on fun at home to avoid going out",
+            "source": "Fortune",
+            "publishedAt": "2026-09-29T15:30:54Z",
+            "sentiment": "Positive",
+            "compound": 0.335
           },
           {
-            "title": "Canadian confidence in neutral as oil fuels inflation fears",
+            "title": "Anthropic leaders to control AI lab via 'Founder LLC' to promote public good over market forces",
+            "source": "Moneycontrol",
+            "publishedAt": "2026-09-29T15:28:33Z",
+            "sentiment": "Positive",
+            "compound": 0.67
+          },
+          {
+            "title": "'A common problem': Oura delays its IPO",
             "source": "Biztoc.com",
-            "publishedAt": "2026-09-29T15:10:34Z",
-            "sentiment": "Neutral",
-            "compound": 0.128
+            "publishedAt": "2026-09-29T15:27:55Z",
+            "sentiment": "Negative",
+            "compound": -0.402
           },
           {
-            "title": "US stock market today: Why Dow Jones falls while S&P 500 and Nasdaq climb as Nvidia, Oracle and Intel gain on oil retreat",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-29T15:08:51Z",
-            "sentiment": "Positive",
-            "compound": 0.637
+            "title": "Monster Beverage Is Lagging the S&P 500 in 2026. Here's Where the Stock Could Trade by September 2027",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-29T15:27:46Z",
+            "sentiment": "Negative",
+            "compound": -0.273
           },
           {
-            "title": "Edible oils duty cut: Indian govt has to balance consumers’ and farmers’ interest, says Agriculture Minister",
-            "source": "BusinessLine",
-            "publishedAt": "2026-09-29T15:07:30Z",
-            "sentiment": "Positive",
-            "compound": 0.226
+            "title": "Smart ring maker Oura postpones IPO due to market 'uncertainty'",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-29T15:27:39Z",
+            "sentiment": "Negative",
+            "compound": -0.202
           },
           {
-            "title": "Ozempic in Iran",
-            "source": "London Review of Books",
-            "publishedAt": "2026-09-29T15:02:41Z",
+            "title": "Oil prices rise as bond sell-off hits global markets",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-29T15:26:22Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Canadian confidence in neutral as oil fuels inflation fears",
-            "source": "Financial Post",
-            "publishedAt": "2026-09-29T15:02:37Z",
-            "sentiment": "Neutral",
-            "compound": 0.128
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 61.98,
-  "trade_probability": 57.19,
+  "confirmation_score": 61.42,
+  "trade_probability": 56.85,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
