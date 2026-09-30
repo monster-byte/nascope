@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T16:01:20.678832+00:00",
+  "generated_at": "2026-09-30T16:15:51.280082+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 2.2319,
+          "change_pct": 1.9805,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.9084,
+          "change_pct": 1.7278,
           "up": true
         },
         "NVDA": {
-          "change_pct": 1.0912,
+          "change_pct": 0.9993,
           "up": true
         },
         "AMZN": {
-          "change_pct": 1.6498,
+          "change_pct": 1.8439,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 82.46,
+      "score": 82.51,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30604.79,
-        "sma50": 29384.72,
-        "sma200": 27424.27
+        "last_price": 30610.09,
+        "sma50": 29384.83,
+        "sma200": 27424.29
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 20.0,
+      "score": 30.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.13,
-        "percentile_vs_20d": 80.0
+        "current_vxn": 22.09,
+        "percentile_vs_20d": 70.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 22.94,
+      "score": 24.19,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.287,
-        "change_5d_pct": 3.383
+        "current_yield_pct": 5.279,
+        "change_5d_pct": 3.226
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.39,
+      "score": 47.57,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.3,
-        "change_5d_pct": 0.202
+        "current_dxy": 101.41,
+        "change_5d_pct": 0.304
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.67,
+      "score": 50.1,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.007,
+        "avg_compound": 0.002,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "America’s Canadian import restrictions come into force. Here are the products barred from entry",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-09-29T16:14:57Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Why is your $1,390 IRS payment missing? What Americans need to know about the payment rumor and Trump’s $2,000 tariff dividend",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-29T16:13:58Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "‘New path’: UK’s Burnham promises huge expansion of public services",
+            "source": "Al Jazeera English",
+            "publishedAt": "2026-09-29T16:13:04Z",
+            "sentiment": "Positive",
+            "compound": 0.599
+          },
+          {
+            "title": "Five takeaways from Andy Burnham's Labour conference speech",
+            "source": "BBC News",
+            "publishedAt": "2026-09-29T16:07:50Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Noel Tata says Tata Sons' proposed restructuring complies with RBI rules, could avoid listing",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-29T16:01:16Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
           {
             "title": "Ahead of Market: 10 things that will decide stock market action on Wednesday",
             "source": "The Times of India",
             "publishedAt": "2026-09-29T16:01:05Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Netflix analysts are souring on the stock as growth fears mount",
-            "source": "Financial Post",
-            "publishedAt": "2026-09-29T16:00:02Z",
-            "sentiment": "Neutral",
-            "compound": -0.052
-          },
-          {
-            "title": "Stock Bets Put Prediction Markets Under Fresh Regulatory Scrutiny",
-            "source": "ReadWrite",
-            "publishedAt": "2026-09-29T16:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.318
-          },
-          {
-            "title": "National softens its language on lifting Super eligibility age, saying political consensus is needed, but missing",
-            "source": "New Zealand Herald",
-            "publishedAt": "2026-09-29T16:00:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.09
-          },
-          {
-            "title": "Canada’s ‘resilient’ economy means Bank of Canada needs to start hiking, economist says",
-            "source": "Financial Post",
-            "publishedAt": "2026-09-29T15:59:52Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "The surprising facts about college tuition",
-            "source": "Lawyersgunsmoneyblog.com",
-            "publishedAt": "2026-09-29T15:58:25Z",
-            "sentiment": "Positive",
-            "compound": 0.273
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 61.35,
-  "trade_probability": 56.81,
+  "confirmation_score": 62.39,
+  "trade_probability": 57.43,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
