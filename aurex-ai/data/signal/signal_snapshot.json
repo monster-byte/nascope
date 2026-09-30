@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T19:46:03.075131+00:00",
+  "generated_at": "2026-09-30T20:01:19.859499+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,45 +13,45 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 100.0,
+      "score": 75.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.5021,
+          "change_pct": 0.8479,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.4421,
+          "change_pct": 0.7147,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.8197,
-          "up": true
+          "change_pct": -0.0342,
+          "up": false
         },
         "AMZN": {
-          "change_pct": 1.2596,
+          "change_pct": 0.6996,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 81.96,
+      "score": 80.49,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30554.98,
-        "sma50": 29383.72,
-        "sma200": 27424.02
+        "last_price": 30408.5,
+        "sma50": 29380.79,
+        "sma200": 27423.28
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 25.0,
+      "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.25,
-        "percentile_vs_20d": 75.0
+        "current_vxn": 22.38,
+        "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.07,
+      "score": 46.82,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.47,
-        "change_5d_pct": 0.366
+        "current_dxy": 101.5,
+        "change_5d_pct": 0.398
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.21,
+      "score": 48.91,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.044,
+        "avg_compound": -0.022,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "'What Does He Mean?': Trump Critics Left Baffled After Prez Claims America Has the 'Best Poverty Numbers' in Bizarre Clip",
-            "source": "Radaronline.com",
-            "publishedAt": "2026-09-29T19:45:00Z",
+            "title": "The Cadence of Death Itself",
+            "source": "Dailyreckoning.com",
+            "publishedAt": "2026-09-29T20:00:45Z",
             "sentiment": "Negative",
-            "compound": -0.382
+            "compound": -0.599
           },
           {
-            "title": "Angry Trump Voter Says She Regrets Her Choice: 'I'm Pissed Off!'",
-            "source": "HuffPost",
-            "publishedAt": "2026-09-29T19:40:20Z",
+            "title": "SU Group Narrows First-Half Operating Loss, Executes on Long-Term Strategy",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-29T20:00:00Z",
             "sentiment": "Negative",
-            "compound": -0.883
+            "compound": -0.318
           },
           {
-            "title": "The Manchester Road Race: An International Event with CT Community Roots.",
-            "source": "Ctinsider.com",
-            "publishedAt": "2026-09-29T19:37:07Z",
+            "title": "Why house prices may be in trouble",
+            "source": "Www.nrc.nl",
+            "publishedAt": "2026-09-29T20:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
+          {
+            "title": "Agencies publish resolution plan feedback letters for 15 banking organizations",
+            "source": "Federalreserve.gov",
+            "publishedAt": "2026-09-29T20:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Warner on Iran: 'This War Is a Disaster on Every Front'",
-            "source": "Breitbart News",
-            "publishedAt": "2026-09-29T19:35:08Z",
-            "sentiment": "Negative",
-            "compound": -0.867
+            "title": "Could changing the pension triple lock pay for Burnham's big social care plan?",
+            "source": "BBC News",
+            "publishedAt": "2026-09-29T19:58:58Z",
+            "sentiment": "Positive",
+            "compound": 0.421
           },
           {
-            "title": "Fed’s Bowman Says AI Is Blessing and Threat to Bank Security",
-            "source": "pymnts.com",
-            "publishedAt": "2026-09-29T19:31:37Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "Social Security Benefit Increase 2027: What to know about the next COLA",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-29T19:31:35Z",
-            "sentiment": "Positive",
-            "compound": 0.772
+            "title": "Morocco: King appoints first woman prime minister",
+            "source": "DW (English)",
+            "publishedAt": "2026-09-29T19:56:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 61.72,
-  "trade_probability": 57.03,
+  "confirmation_score": 53.1,
+  "trade_probability": 51.86,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
