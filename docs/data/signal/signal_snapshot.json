@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T19:31:10.698995+00:00",
+  "generated_at": "2026-09-30T19:46:03.075131+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,41 +17,41 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.6035,
+          "change_pct": 1.5021,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.5589,
+          "change_pct": 1.4421,
           "up": true
         },
         "NVDA": {
-          "change_pct": 1.0934,
+          "change_pct": 0.8197,
           "up": true
         },
         "AMZN": {
-          "change_pct": 1.0028,
+          "change_pct": 1.2596,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 82.06,
+      "score": 81.96,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30565.63,
-        "sma50": 29383.94,
-        "sma200": 27424.07
+        "last_price": 30554.98,
+        "sma50": 29383.72,
+        "sma200": 27424.02
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 20.0,
+      "score": 25.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.22,
-        "percentile_vs_20d": 80.0
+        "current_vxn": 22.25,
+        "percentile_vs_20d": 75.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.09,
+      "score": 47.07,
       "status": "yellow",
       "details": {
         "current_dxy": 101.47,
-        "change_5d_pct": 0.364
+        "change_5d_pct": 0.366
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.48,
+      "score": 52.21,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.07,
+        "avg_compound": 0.044,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Dumping stocks after Trump’s 2016 win was ‘stupid,’ NYU professor admits",
-            "source": "Fox News",
-            "publishedAt": "2026-09-29T19:30:07Z",
-            "sentiment": "Positive",
-            "compound": 0.572
+            "title": "'What Does He Mean?': Trump Critics Left Baffled After Prez Claims America Has the 'Best Poverty Numbers' in Bizarre Clip",
+            "source": "Radaronline.com",
+            "publishedAt": "2026-09-29T19:45:00Z",
+            "sentiment": "Negative",
+            "compound": -0.382
           },
           {
-            "title": "Smart ring maker Oura yanks IPO at last minute – latest company to pump brakes over ‘market uncertainty’",
-            "source": "New York Post",
-            "publishedAt": "2026-09-29T19:29:56Z",
-            "sentiment": "Positive",
-            "compound": 0.402
+            "title": "Angry Trump Voter Says She Regrets Her Choice: 'I'm Pissed Off!'",
+            "source": "HuffPost",
+            "publishedAt": "2026-09-29T19:40:20Z",
+            "sentiment": "Negative",
+            "compound": -0.883
           },
           {
-            "title": "Oura Delays IPO Given Wall Street Jitters",
-            "source": "WWD",
-            "publishedAt": "2026-09-29T19:27:11Z",
+            "title": "The Manchester Road Race: An International Event with CT Community Roots.",
+            "source": "Ctinsider.com",
+            "publishedAt": "2026-09-29T19:37:07Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "The Fed's main inflation measure will be released Wednesday. Here's what to expect",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-29T19:25:26Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Warner on Iran: 'This War Is a Disaster on Every Front'",
+            "source": "Breitbart News",
+            "publishedAt": "2026-09-29T19:35:08Z",
+            "sentiment": "Negative",
+            "compound": -0.867
           },
           {
-            "title": "Prime Minister Andy Burnham sets out plans for a new National Care Service",
-            "source": "Www.gov.uk",
-            "publishedAt": "2026-09-29T19:23:06Z",
+            "title": "Fed’s Bowman Says AI Is Blessing and Threat to Bank Security",
+            "source": "pymnts.com",
+            "publishedAt": "2026-09-29T19:31:37Z",
             "sentiment": "Positive",
-            "compound": 0.494
+            "compound": 0.296
           },
           {
-            "title": "Kalshi traders predict US added over 90,000 jobs in September",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-29T19:21:01Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Social Security Benefit Increase 2027: What to know about the next COLA",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-29T19:31:35Z",
+            "sentiment": "Positive",
+            "compound": 0.772
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 61.4,
-  "trade_probability": 56.84,
+  "confirmation_score": 61.72,
+  "trade_probability": 57.03,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
