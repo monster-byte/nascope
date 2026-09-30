@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T19:01:21.923085+00:00",
+  "generated_at": "2026-09-30T19:15:50.430411+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,41 +17,41 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.9139,
+          "change_pct": 1.705,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.7082,
+          "change_pct": 1.612,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.9401,
+          "change_pct": 0.9424,
           "up": true
         },
         "AMZN": {
-          "change_pct": 1.1767,
+          "change_pct": 1.1282,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 81.86,
+      "score": 82.11,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30544.66,
-        "sma50": 29383.52,
-        "sma200": 27423.97
+        "last_price": 30570.43,
+        "sma50": 29384.03,
+        "sma200": 27424.09
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 20.0,
+      "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.22,
-        "percentile_vs_20d": 80.0
+        "current_vxn": 22.37,
+        "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.24,
+      "score": 47.12,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.45,
-        "change_5d_pct": 0.345
+        "current_dxy": 101.46,
+        "change_5d_pct": 0.36
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.33,
+      "score": 51.52,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.047,
+        "avg_compound": 0.03,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Chris Mason: Burnham delivers deeply political speech with a personal core",
+            "source": "BBC News",
+            "publishedAt": "2026-09-29T19:13:14Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Prediction market traders think the U.S. added more jobs in September than economists estimate",
+            "source": "CNBC",
+            "publishedAt": "2026-09-29T19:11:51Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "The Fed's main inflation measure will be released Wednesday. Here's what to expect",
+            "source": "CNBC",
+            "publishedAt": "2026-09-29T19:07:29Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Federal Reserve’s Waller embraces AI, stablecoins, and tokenization as future of payments",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-29T19:07:15Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "India a 'bright spot' amid uncertainty: Shaktikanta Das",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-29T19:02:59Z",
+            "sentiment": "Neutral",
+            "compound": 0.128
+          },
           {
             "title": "DoorDash Investigation Notice: SueWallSt Notifies Investors of Pending Investigation Into DoorDash (DASH)",
             "source": "PRNewswire",
             "publishedAt": "2026-09-29T19:01:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Lucid Introduces Air UX 3.0, Offering Lucid Air Owners a Faster, More Intuitive Digital Experience",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-29T19:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Waller, Payments in the Age of AI Agents",
-            "source": "Federalreserve.gov",
-            "publishedAt": "2026-09-29T19:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Doing the sums as fourth rate hike adds hundreds to repayments",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-09-29T18:57:25Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "$HAREHOLDER ALERT: The M&A Class Action Firm Announces An Investigation of Futurewave Acquisition Corporation (NASDAQ: FWAC)",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-29T18:55:00Z",
-            "sentiment": "Positive",
-            "compound": 0.447
-          },
-          {
-            "title": "$HAREHOLDER ALERT: The M&A Class Action Firm Announces An Investigation of Lifecore Biomedical, Inc. (NASDAQ: LFCR)",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-29T18:52:00Z",
-            "sentiment": "Positive",
-            "compound": 0.447
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 61.28,
-  "trade_probability": 56.77,
+  "confirmation_score": 60.78,
+  "trade_probability": 56.47,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
