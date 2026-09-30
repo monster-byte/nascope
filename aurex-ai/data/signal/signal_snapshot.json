@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T10:31:07.379958+00:00",
+  "generated_at": "2026-09-30T10:45:48.136247+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.26,
+      "score": 49.18,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.19,
-        "change_5d_pct": 0.092
+        "current_dxy": 101.2,
+        "change_5d_pct": 0.102
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.29,
+      "score": 53.88,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.066,
+        "avg_compound": 0.078,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Brazil’s Lula Pledges to Cancel $28 Billion of Consumer Debt Just One Week Before Presidential Elections",
+            "source": "Nakedcapitalism.com",
+            "publishedAt": "2026-09-29T10:44:49Z",
+            "sentiment": "Negative",
+            "compound": -0.542
+          },
+          {
+            "title": "AMC Global Media Greenlights \"Happy Jack\" - New Comedy Series Starring Charlie and Martin Sheen, Playing a Father-and-Son Duo, to Premiere on AMC and AMC+ in 2027",
+            "source": "Thefutoncritic.com",
+            "publishedAt": "2026-09-29T10:36:00Z",
+            "sentiment": "Positive",
+            "compound": 0.791
+          },
+          {
+            "title": "Benchmarks tumble for 2nd day; consumer durables shares plunge",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-29T10:34:02Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "Roze AI Inc. common shares expected to begin trading on Nasdaq on September 29",
+            "source": "Thefly.com",
+            "publishedAt": "2026-09-29T10:33:30Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
           {
             "title": "VIAVI Announces Smallest, Lightest, Most Efficient Platform for 100G Enterprise-Scale Application, Security and AI Inference Testing",
             "source": "PRNewswire",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-09-29T10:30:00Z",
             "sentiment": "Positive",
             "compound": 0.715
-          },
-          {
-            "title": "Aave leads DeFi higher as crypto shrugs off surging bond market",
-            "source": "CoinDesk",
-            "publishedAt": "2026-09-29T10:28:51Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Listen to Ky Newman’s locked-in playlist",
-            "source": "Dazed",
-            "publishedAt": "2026-09-29T10:26:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Best CD rates today, Tuesday, September 29, 2026: Lock in up to 4.40% APY",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-29T10:25:49Z",
-            "sentiment": "Positive",
-            "compound": 0.637
-          },
-          {
-            "title": "CAS chaos: Nifty’s indicative price drops 2% in 2 seconds, later recovers on monthly F&O expiry day",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-29T10:23:21Z",
-            "sentiment": "Negative",
-            "compound": -0.572
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 31.85,
-  "trade_probability": 39.11,
+  "confirmation_score": 31.89,
+  "trade_probability": 39.13,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
