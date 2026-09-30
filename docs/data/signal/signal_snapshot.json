@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T18:01:18.552925+00:00",
+  "generated_at": "2026-09-30T18:15:55.271687+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.7807,
+          "change_pct": 1.9048,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.7739,
+          "change_pct": 1.7906,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.8569,
+          "change_pct": 1.0818,
           "up": true
         },
         "AMZN": {
-          "change_pct": 1.5447,
+          "change_pct": 1.3708,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 82.12,
+      "score": 82.22,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30571.45,
-        "sma50": 29384.05,
-        "sma200": 27424.1
+        "last_price": 30580.82,
+        "sma50": 29384.24,
+        "sma200": 27424.15
       }
     },
     "vxn": {
@@ -50,7 +50,7 @@
       "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.15,
+        "current_vxn": 22.16,
         "percentile_vs_20d": 80.0
       }
     },
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.58,
+      "score": 47.54,
       "status": "yellow",
       "details": {
         "current_dxy": 101.41,
-        "change_5d_pct": 0.303
+        "change_5d_pct": 0.308
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.99,
+      "score": 59.2,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.14,
+        "avg_compound": 0.184,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Viatris Recognized by Forbes as One of the World's Best Employers for the Sixth Consecutive Year",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-29T18:00:00Z",
+            "title": "Strikes paralyze France as Macron’s popularity flatlines (VIDEOS)",
+            "source": "RT",
+            "publishedAt": "2026-09-29T18:13:51Z",
+            "sentiment": "Neutral",
+            "compound": 0.153
+          },
+          {
+            "title": "Barclays forecasts US 30-year yield could hit 6% amid productivity growth",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-29T18:13:50Z",
             "sentiment": "Positive",
-            "compound": 0.637
+            "compound": 0.382
           },
           {
-            "title": "Indonesia designs prudent 2027 State Budget amid global risks",
-            "source": "Antaranews.com",
-            "publishedAt": "2026-09-29T17:59:51Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "Are LFCR, ITGR, FHB, INDV Obtaining Fair Deals for their Shareholders?",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-29T17:53:00Z",
-            "sentiment": "Positive",
-            "compound": 0.318
-          },
-          {
-            "title": "Are BZH, LNTH, BGMS Obtaining Fair Deals for their Shareholders?",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-29T17:52:00Z",
-            "sentiment": "Positive",
-            "compound": 0.318
-          },
-          {
-            "title": "Are MGLD, NRIM, PULM Obtaining Fair Deals for their Shareholders?",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-29T17:51:00Z",
-            "sentiment": "Positive",
-            "compound": 0.318
-          },
-          {
-            "title": "Morocco's king appoints the country's first woman prime minister",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-09-29T17:45:40Z",
+            "title": "Stock market today: Dow, S&P 500, Nasdaq slip as oil retreats, Anthropic and OpenAI fuel AI jitters - Yahoo Finance",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-09-29T18:13:21Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "The stock market crash, the Great Depression & the legend of Rocky Road",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-29T18:10:00Z",
+            "sentiment": "Negative",
+            "compound": -0.318
+          },
+          {
+            "title": "Burnham tried to plot the next seven years of UK politics in one speech",
+            "source": "POLITICO.eu",
+            "publishedAt": "2026-09-29T18:08:01Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "BE share price: Bloom Energy Corp stock rises over 12 per cent, shares near USD 300",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-29T18:06:46Z",
+            "sentiment": "Positive",
+            "compound": 0.67
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 61.62,
-  "trade_probability": 56.97,
+  "confirmation_score": 61.83,
+  "trade_probability": 57.1,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
