@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T08:31:10.155062+00:00",
+  "generated_at": "2026-09-30T08:45:51.989020+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.64,
+      "score": 48.87,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.27,
-        "change_5d_pct": 0.17
+        "current_dxy": 101.24,
+        "change_5d_pct": 0.141
       }
     },
     "macro": {
@@ -85,56 +85,10 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.46,
+      "score": 50.0,
       "status": "yellow",
       "details": {
-        "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.029,
-        "articles_analyzed": 25,
-        "top_headlines": [
-          {
-            "title": "Accredited official statistics: Light rail and tram statistics, England: year ending March 2026",
-            "source": "Www.gov.uk",
-            "publishedAt": "2026-09-29T08:30:03Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Stock Market Today: Oil Prices Strengthen, Bond Selloff Pauses",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-29T08:25:34Z",
-            "sentiment": "Positive",
-            "compound": 0.318
-          },
-          {
-            "title": "Favourable govt policies fail to fire up stocks",
-            "source": "Peoplesreview.com.np",
-            "publishedAt": "2026-09-29T08:20:00Z",
-            "sentiment": "Negative",
-            "compound": -0.71
-          },
-          {
-            "title": "Asian stocks wobble as bonds slump to monthly loss",
-            "source": "PerthNow",
-            "publishedAt": "2026-09-29T08:15:26Z",
-            "sentiment": "Negative",
-            "compound": -0.318
-          },
-          {
-            "title": "Thousands of drivers strike in the Philippines over rising fuel prices",
-            "source": "Al Jazeera English",
-            "publishedAt": "2026-09-29T08:14:08Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
-          },
-          {
-            "title": "Treasury yields move lower as inflation concerns persist",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-29T08:10:57Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
-          }
-        ]
+        "error": "news_fetch_failed: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?q=Nasdaq+OR+%22Federal+Reserve%22+OR+%22stock+market%22+OR+inflation&language=en&sortBy=publishedAt&pageSize=25&apiKey=280ea038bd7e4ccb91d87f9d115484d4"
       }
     },
     "patent_momentum": {
@@ -146,8 +100,8 @@
       }
     }
   },
-  "confirmation_score": 31.63,
-  "trade_probability": 38.98,
+  "confirmation_score": 31.52,
+  "trade_probability": 38.91,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
