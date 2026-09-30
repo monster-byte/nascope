@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T13:45:51.436620+00:00",
+  "generated_at": "2026-09-30T14:01:25.873773+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
+      "score": 100.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.6117,
+          "change_pct": 2.0245,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.9837,
+          "change_pct": 1.7347,
           "up": true
         },
         "NVDA": {
-          "change_pct": 1.0299,
+          "change_pct": 1.6692,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.0465,
-          "up": false
+          "change_pct": 1.0918,
+          "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 81.22,
+      "score": 82.34,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30481.28,
-        "sma50": 29382.25,
-        "sma200": 27423.65
+        "last_price": 30593.0,
+        "sma50": 29384.48,
+        "sma200": 27424.21
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 20.0,
+      "score": 25.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.23,
-        "percentile_vs_20d": 80.0
+        "current_vxn": 22.2,
+        "percentile_vs_20d": 75.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 31.23,
+      "score": 27.94,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.234,
-        "change_5d_pct": 2.347
+        "current_yield_pct": 5.255,
+        "change_5d_pct": 2.757
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.34,
+      "score": 49.22,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.18,
-        "change_5d_pct": 0.083
+        "current_dxy": 101.2,
+        "change_5d_pct": 0.098
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.7,
+      "score": 50.37,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.094,
+        "avg_compound": 0.007,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Hayward: Xi Jinping’s Trip to Washington Yields Little Beyond Tariff Relief",
-            "source": "Breitbart News",
-            "publishedAt": "2026-09-29T13:42:58Z",
-            "sentiment": "Positive",
-            "compound": 0.428
-          },
-          {
-            "title": "NASDAQ opens higher as chip stocks drive gains after brutal selloff",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-29T13:40:13Z",
-            "sentiment": "Negative",
-            "compound": -0.402
-          },
-          {
-            "title": "Alfa Laval advances energy efficiency conversation at Climate Week NYC 2026",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-29T13:37:00Z",
-            "sentiment": "Positive",
-            "compound": 0.557
-          },
-          {
-            "title": "The Turnout Race",
-            "source": "Reason",
-            "publishedAt": "2026-09-29T13:35:09Z",
+            "title": "Rising performance-efficiency demands in female junior tennis: A longitudinal analysis of ITF World Tennis Tour Juniors rankings, 2004–2025",
+            "source": "Plos.org",
+            "publishedAt": "2026-09-29T14:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Smart ring maker Oura is postponing its IPO, weeks after warning about the risk of AI disruption",
+            "title": "Determinants of women’s employee engagement in the Bangladeshi workforce",
+            "source": "Plos.org",
+            "publishedAt": "2026-09-29T14:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "Great Events in British History: Appeasement – Failing Into War",
+            "source": "Anglotopia.net",
+            "publishedAt": "2026-09-29T14:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.477
+          },
+          {
+            "title": "Prevalence and risk factors of cardiometabolic disease among informal sector workers in Cape Coast, Ghana: Insights from the CarMeR study",
+            "source": "Plos.org",
+            "publishedAt": "2026-09-29T14:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "Evaluating the Cyclical Hybrid Imputation Technique (CHIT) under MCAR, MAR, and MNAR missing data mechanisms: Evidence from health datasets",
+            "source": "Plos.org",
+            "publishedAt": "2026-09-29T14:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "'Big Short' investor Michael Burry says he's 'more confident than ever' of an AI reckoning in 2027",
             "source": "Business Insider",
-            "publishedAt": "2026-09-29T13:28:41Z",
-            "sentiment": "Negative",
-            "compound": -0.586
-          },
-          {
-            "title": "Nasdaq Launches Agentic AI Environment for Calypso Capital Markets Platform",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-29T13:26:29Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "publishedAt": "2026-09-29T13:57:30Z",
+            "sentiment": "Positive",
+            "compound": 0.541
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.09,
-  "trade_probability": 53.65,
+  "confirmation_score": 62.6,
+  "trade_probability": 57.56,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
