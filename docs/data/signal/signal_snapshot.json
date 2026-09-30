@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T18:45:49.072517+00:00",
+  "generated_at": "2026-09-30T19:01:21.923085+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.9503,
+          "change_pct": 1.9139,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.6964,
+          "change_pct": 1.7082,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.9555,
+          "change_pct": 0.9401,
           "up": true
         },
         "AMZN": {
-          "change_pct": 1.2535,
+          "change_pct": 1.1767,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 81.89,
+      "score": 81.86,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30548.43,
-        "sma50": 29383.59,
-        "sma200": 27423.98
+        "last_price": 30544.66,
+        "sma50": 29383.52,
+        "sma200": 27423.97
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 25.0,
+      "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.19,
-        "percentile_vs_20d": 75.0
+        "current_vxn": 22.22,
+        "percentile_vs_20d": 80.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 22.62,
+      "score": 22.0,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.289,
-        "change_5d_pct": 3.422
+        "current_yield_pct": 5.293,
+        "change_5d_pct": 3.5
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.25,
+      "score": 47.24,
       "status": "yellow",
       "details": {
         "current_dxy": 101.45,
-        "change_5d_pct": 0.343
+        "change_5d_pct": 0.345
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.33,
+      "score": 52.33,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.107,
+        "avg_compound": 0.047,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Capstone Partners Releases 2026 Middle Market Business Owners Research Survey: CEOs Acclimate to Volatility and Exhibit Optimism, Exit Preparation Bolsters Decision Making and Business Performance",
+            "title": "DoorDash Investigation Notice: SueWallSt Notifies Investors of Pending Investigation Into DoorDash (DASH)",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-29T18:43:00Z",
-            "sentiment": "Positive",
-            "compound": 0.542
-          },
-          {
-            "title": "Monthly Cotton Economic Newsletter: September 2026",
-            "source": "WWD",
-            "publishedAt": "2026-09-29T18:42:54Z",
+            "publishedAt": "2026-09-29T19:01:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "In a World of Turmoil, Holiday Retailing Seen Transcending the Gloom",
-            "source": "WWD",
-            "publishedAt": "2026-09-29T18:40:09Z",
-            "sentiment": "Negative",
-            "compound": -0.527
-          },
-          {
-            "title": "Donald Trump’s Chatbot Has Some Harsh Feedback for Donald Trump",
-            "source": "Slate Magazine",
-            "publishedAt": "2026-09-29T18:36:15Z",
-            "sentiment": "Negative",
-            "compound": -0.44
-          },
-          {
-            "title": "Stock Market Today: Dow falls over 300 points, S&P 500 and Nasdaq edge lower as Treasury yields extend gains; tech CEOs to meet Trump - marketwatch.com",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-09-29T18:32:46Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "Notice to attend an Extraordinary General Meeting of Sivers Semiconductors AB",
+            "title": "Lucid Introduces Air UX 3.0, Offering Lucid Air Owners a Faster, More Intuitive Digital Experience",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-29T18:27:00Z",
+            "publishedAt": "2026-09-29T19:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "Waller, Payments in the Age of AI Agents",
+            "source": "Federalreserve.gov",
+            "publishedAt": "2026-09-29T19:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Doing the sums as fourth rate hike adds hundreds to repayments",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-09-29T18:57:25Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "$HAREHOLDER ALERT: The M&A Class Action Firm Announces An Investigation of Futurewave Acquisition Corporation (NASDAQ: FWAC)",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-29T18:55:00Z",
+            "sentiment": "Positive",
+            "compound": 0.447
+          },
+          {
+            "title": "$HAREHOLDER ALERT: The M&A Class Action Firm Announces An Investigation of Lifecore Biomedical, Inc. (NASDAQ: LFCR)",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-29T18:52:00Z",
+            "sentiment": "Positive",
+            "compound": 0.447
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 62.09,
-  "trade_probability": 57.25,
+  "confirmation_score": 61.28,
+  "trade_probability": 56.77,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
