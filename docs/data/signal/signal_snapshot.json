@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T13:31:19.697062+00:00",
+  "generated_at": "2026-09-30T13:45:51.436620+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.5947,
+          "change_pct": 0.6117,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.4143,
+          "change_pct": 0.9837,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.5045,
+          "change_pct": 1.0299,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.0546,
+          "change_pct": -0.0465,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 81.15,
+      "score": 81.22,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30473.84,
-        "sma50": 29382.1,
-        "sma200": 27423.61
+        "last_price": 30481.28,
+        "sma50": 29382.25,
+        "sma200": 27423.65
       }
     },
     "vxn": {
@@ -56,11 +56,11 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 32.17,
+      "score": 31.23,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.228,
-        "change_5d_pct": 2.229
+        "current_yield_pct": 5.234,
+        "change_5d_pct": 2.347
       }
     },
     "dxy": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.75,
+      "score": 54.7,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.095,
+        "avg_compound": 0.094,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Hayward: Xi Jinping’s Trip to Washington Yields Little Beyond Tariff Relief",
+            "source": "Breitbart News",
+            "publishedAt": "2026-09-29T13:42:58Z",
+            "sentiment": "Positive",
+            "compound": 0.428
+          },
+          {
+            "title": "NASDAQ opens higher as chip stocks drive gains after brutal selloff",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-29T13:40:13Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
+          {
+            "title": "Alfa Laval advances energy efficiency conversation at Climate Week NYC 2026",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-29T13:37:00Z",
+            "sentiment": "Positive",
+            "compound": 0.557
+          },
+          {
+            "title": "The Turnout Race",
+            "source": "Reason",
+            "publishedAt": "2026-09-29T13:35:09Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Smart ring maker Oura is postponing its IPO, weeks after warning about the risk of AI disruption",
             "source": "Business Insider",
@@ -103,34 +131,6 @@
             "title": "Nasdaq Launches Agentic AI Environment for Calypso Capital Markets Platform",
             "source": "Biztoc.com",
             "publishedAt": "2026-09-29T13:26:29Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Investors who have shunned diversification face maybe the best buying opportunity for bonds in decades",
-            "source": "CNBC",
-            "publishedAt": "2026-09-29T13:22:56Z",
-            "sentiment": "Positive",
-            "compound": 0.791
-          },
-          {
-            "title": "If You Use Money to Buy Things, You Should Read This Book",
-            "source": "Gizmodo.com",
-            "publishedAt": "2026-09-29T13:20:13Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Your groceries could cost you more next year",
-            "source": "Omny.fm",
-            "publishedAt": "2026-09-29T13:19:03Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Hassett: 'We're still working our way out from' Biden Covid spending",
-            "source": "CNBC",
-            "publishedAt": "2026-09-29T13:18:58Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.22,
-  "trade_probability": 53.73,
+  "confirmation_score": 56.09,
+  "trade_probability": 53.65,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
