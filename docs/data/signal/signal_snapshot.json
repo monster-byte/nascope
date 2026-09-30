@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T17:45:55.518317+00:00",
+  "generated_at": "2026-09-30T18:01:18.552925+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.814,
+          "change_pct": 1.7807,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.7396,
+          "change_pct": 1.7739,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.6336,
+          "change_pct": 0.8569,
           "up": true
         },
         "AMZN": {
-          "change_pct": 1.5689,
+          "change_pct": 1.5447,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 81.91,
+      "score": 82.12,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30550.26,
-        "sma50": 29383.63,
-        "sma200": 27423.99
+        "last_price": 30571.45,
+        "sma50": 29384.05,
+        "sma200": 27424.1
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.27,
+        "current_vxn": 22.15,
         "percentile_vs_20d": 80.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 20.59,
+      "score": 20.9,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.302,
-        "change_5d_pct": 3.676
+        "current_yield_pct": 5.3,
+        "change_5d_pct": 3.637
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.63,
+      "score": 47.58,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.4,
-        "change_5d_pct": 0.297
+        "current_dxy": 101.41,
+        "change_5d_pct": 0.303
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.27,
+      "score": 56.99,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.065,
+        "avg_compound": 0.14,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Viatris Recognized by Forbes as One of the World's Best Employers for the Sixth Consecutive Year",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-29T18:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.637
+          },
+          {
+            "title": "Indonesia designs prudent 2027 State Budget amid global risks",
+            "source": "Antaranews.com",
+            "publishedAt": "2026-09-29T17:59:51Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "Are LFCR, ITGR, FHB, INDV Obtaining Fair Deals for their Shareholders?",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-29T17:53:00Z",
+            "sentiment": "Positive",
+            "compound": 0.318
+          },
+          {
+            "title": "Are BZH, LNTH, BGMS Obtaining Fair Deals for their Shareholders?",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-29T17:52:00Z",
+            "sentiment": "Positive",
+            "compound": 0.318
+          },
+          {
+            "title": "Are MGLD, NRIM, PULM Obtaining Fair Deals for their Shareholders?",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-29T17:51:00Z",
+            "sentiment": "Positive",
+            "compound": 0.318
+          },
           {
             "title": "Morocco's king appoints the country's first woman prime minister",
             "source": "Abcnews.com",
             "publishedAt": "2026-09-29T17:45:40Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Jeeves raises $110M to expand fintech offerings including stablecoin wallet",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-29T17:40:35Z",
-            "sentiment": "Positive",
-            "compound": 0.318
-          },
-          {
-            "title": "J.P. Morgan sees Fed rate hikes going out with a bang this year",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-29T17:40:19Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Man Faces Up to 10 Years In Prison After Sharing AI Image of a Crocodile",
-            "source": "PetaPixel",
-            "publishedAt": "2026-09-29T17:40:12Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
-          },
-          {
-            "title": "Oura pulls $15bn stock market listing days after announcement",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-29T17:39:47Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Burnham vows to end existing pension triple lock in 2030 to help fund care",
-            "source": "BBC News",
-            "publishedAt": "2026-09-29T17:39:06Z",
-            "sentiment": "Positive",
-            "compound": 0.71
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 61.22,
-  "trade_probability": 56.73,
+  "confirmation_score": 61.62,
+  "trade_probability": 56.97,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
