@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T14:15:50.987949+00:00",
+  "generated_at": "2026-09-30T14:31:10.307049+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 2.0972,
+          "change_pct": 2.3406,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.7769,
+          "change_pct": 1.771,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.9796,
+          "change_pct": 1.1985,
           "up": true
         },
         "AMZN": {
-          "change_pct": 1.484,
+          "change_pct": 1.3385,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 82.03,
+      "score": 81.93,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30562.36,
-        "sma50": 29383.87,
-        "sma200": 27424.05
+        "last_price": 30552.38,
+        "sma50": 29383.67,
+        "sma200": 27424.0
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.13,
+        "current_vxn": 22.23,
         "percentile_vs_20d": 80.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 29.51,
+      "score": 28.26,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.245,
-        "change_5d_pct": 2.562
+        "current_yield_pct": 5.253,
+        "change_5d_pct": 2.718
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.37,
+      "score": 49.14,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.18,
-        "change_5d_pct": 0.079
+        "current_dxy": 101.21,
+        "change_5d_pct": 0.108
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.99,
+      "score": 49.79,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.08,
+        "avg_compound": -0.004,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Blackbaud Announces Platform for Good™, Social Impact's First-Ever Unified Operating System",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-29T14:15:00Z",
+            "title": "Americans growing more pessimistic about economy as prices stay high",
+            "source": "Medianewsgroup.com",
+            "publishedAt": "2026-09-29T14:26:58Z",
+            "sentiment": "Negative",
+            "compound": -0.272
+          },
+          {
+            "title": "Stock Market Today: Dow Rises As Oil Prices, Treasury Yields Fall; Nvidia Stock Hits Buy Point (Live Coverage)",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-29T14:26:09Z",
             "sentiment": "Positive",
-            "compound": 0.67
+            "compound": 0.202
+          },
+          {
+            "title": "Inflation slams consumer sentiment to four-month low",
+            "source": "CFO Dive",
+            "publishedAt": "2026-09-29T14:26:00Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "Oncolytics Biotech® Announces Publication Demonstrating Pelareorep Creates Immune Responses in Liver Cancer That Make Tumors Susceptible to Immunotherapy",
+            "source": "Financial Post",
+            "publishedAt": "2026-09-29T14:23:05Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "Indian firm building $15bn Trump-announced steel mill has deep Russia ties",
+            "source": "Al Jazeera English",
+            "publishedAt": "2026-09-29T14:19:51Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
             "title": "Blackbaud Introduces Lantern™, the First Domain-Specific Language Model Purpose-Built for Fundraising",
             "source": "PRNewswire",
             "publishedAt": "2026-09-29T14:15:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Ashton Kutcher backed GitLab before its $11 billion IPO, but how much did he make?",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-29T14:15:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.013
-          },
-          {
-            "title": "Stock Market Today (Sept. 29, 2026): S&P 500 Falls on Easing Oil Prices, Treasury Yields",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-29T14:12:37Z",
-            "sentiment": "Positive",
-            "compound": 0.421
-          },
-          {
-            "title": "Stocks waver as oil prices fall, bond yields stabilize: AlphaCheck",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-29T14:12:27Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Electric Future, Established Name: The New ID. Tiguan Premieres in October",
-            "source": "CleanTechnica",
-            "publishedAt": "2026-09-29T14:09:53Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 62.66,
-  "trade_probability": 57.6,
+  "confirmation_score": 62.08,
+  "trade_probability": 57.25,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
