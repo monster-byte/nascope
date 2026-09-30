@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T19:15:50.430411+00:00",
+  "generated_at": "2026-09-30T19:31:10.698995+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,41 +17,41 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.705,
+          "change_pct": 1.6035,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.612,
+          "change_pct": 1.5589,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.9424,
+          "change_pct": 1.0934,
           "up": true
         },
         "AMZN": {
-          "change_pct": 1.1282,
+          "change_pct": 1.0028,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 82.11,
+      "score": 82.06,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30570.43,
-        "sma50": 29384.03,
-        "sma200": 27424.09
+        "last_price": 30565.63,
+        "sma50": 29383.94,
+        "sma200": 27424.07
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 15.0,
+      "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.37,
-        "percentile_vs_20d": 85.0
+        "current_vxn": 22.22,
+        "percentile_vs_20d": 80.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.12,
+      "score": 47.09,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.46,
-        "change_5d_pct": 0.36
+        "current_dxy": 101.47,
+        "change_5d_pct": 0.364
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.52,
+      "score": 53.48,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.03,
+        "avg_compound": 0.07,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Chris Mason: Burnham delivers deeply political speech with a personal core",
-            "source": "BBC News",
-            "publishedAt": "2026-09-29T19:13:14Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Dumping stocks after Trump’s 2016 win was ‘stupid,’ NYU professor admits",
+            "source": "Fox News",
+            "publishedAt": "2026-09-29T19:30:07Z",
+            "sentiment": "Positive",
+            "compound": 0.572
           },
           {
-            "title": "Prediction market traders think the U.S. added more jobs in September than economists estimate",
-            "source": "CNBC",
-            "publishedAt": "2026-09-29T19:11:51Z",
+            "title": "Smart ring maker Oura yanks IPO at last minute – latest company to pump brakes over ‘market uncertainty’",
+            "source": "New York Post",
+            "publishedAt": "2026-09-29T19:29:56Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "Oura Delays IPO Given Wall Street Jitters",
+            "source": "WWD",
+            "publishedAt": "2026-09-29T19:27:11Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
             "title": "The Fed's main inflation measure will be released Wednesday. Here's what to expect",
-            "source": "CNBC",
-            "publishedAt": "2026-09-29T19:07:29Z",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-29T19:25:26Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Federal Reserve’s Waller embraces AI, stablecoins, and tokenization as future of payments",
+            "title": "Prime Minister Andy Burnham sets out plans for a new National Care Service",
+            "source": "Www.gov.uk",
+            "publishedAt": "2026-09-29T19:23:06Z",
+            "sentiment": "Positive",
+            "compound": 0.494
+          },
+          {
+            "title": "Kalshi traders predict US added over 90,000 jobs in September",
             "source": "Crypto Briefing",
-            "publishedAt": "2026-09-29T19:07:15Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "India a 'bright spot' amid uncertainty: Shaktikanta Das",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-29T19:02:59Z",
-            "sentiment": "Neutral",
-            "compound": 0.128
-          },
-          {
-            "title": "DoorDash Investigation Notice: SueWallSt Notifies Investors of Pending Investigation Into DoorDash (DASH)",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-29T19:01:00Z",
+            "publishedAt": "2026-09-29T19:21:01Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 60.78,
-  "trade_probability": 56.47,
+  "confirmation_score": 61.4,
+  "trade_probability": 56.84,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
