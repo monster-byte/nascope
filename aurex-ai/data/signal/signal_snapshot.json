@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T15:31:09.086917+00:00",
+  "generated_at": "2026-09-30T15:45:53.955998+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 2.1592,
+          "change_pct": 2.2955,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.8574,
+          "change_pct": 1.7465,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.8569,
+          "change_pct": 0.9116,
           "up": true
         },
         "AMZN": {
-          "change_pct": 1.7509,
+          "change_pct": 1.4638,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 82.31,
+      "score": 82.07,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30590.32,
-        "sma50": 29384.43,
-        "sma200": 27424.19
+        "last_price": 30566.58,
+        "sma50": 29383.96,
+        "sma200": 27424.08
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 15.0,
+      "score": 30.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.31,
-        "percentile_vs_20d": 85.0
+        "current_vxn": 22.1,
+        "percentile_vs_20d": 70.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 25.28,
+      "score": 24.97,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.272,
-        "change_5d_pct": 3.09
+        "current_yield_pct": 5.274,
+        "change_5d_pct": 3.129
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.68,
+      "score": 48.86,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.27,
-        "change_5d_pct": 0.165
+        "current_dxy": 101.24,
+        "change_5d_pct": 0.142
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.78,
+      "score": 49.86,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.036,
+        "avg_compound": -0.003,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Funflation is fueling hobbies as Americans spend more on fun at home to avoid going out",
-            "source": "Fortune",
-            "publishedAt": "2026-09-29T15:30:54Z",
-            "sentiment": "Positive",
-            "compound": 0.335
-          },
-          {
-            "title": "Anthropic leaders to control AI lab via 'Founder LLC' to promote public good over market forces",
-            "source": "Moneycontrol",
-            "publishedAt": "2026-09-29T15:28:33Z",
-            "sentiment": "Positive",
-            "compound": 0.67
-          },
-          {
-            "title": "'A common problem': Oura delays its IPO",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-29T15:27:55Z",
-            "sentiment": "Negative",
-            "compound": -0.402
-          },
-          {
-            "title": "Monster Beverage Is Lagging the S&P 500 in 2026. Here's Where the Stock Could Trade by September 2027",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-29T15:27:46Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "Smart ring maker Oura postpones IPO due to market 'uncertainty'",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-29T15:27:39Z",
+            "title": "Banks Want Risk Controls Tested at Nonbank Stablecoin Issuers",
+            "source": "pymnts.com",
+            "publishedAt": "2026-09-29T15:45:24Z",
             "sentiment": "Negative",
             "compound": -0.202
           },
           {
-            "title": "Oil prices rise as bond sell-off hits global markets",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-29T15:26:22Z",
+            "title": "Caffeine clash: Starbucks slayer now brews a global coffee blend",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-29T15:42:39Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "US 30-year Treasury yield hits highest since 2002",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-29T15:40:00Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "Nas.com Brings Fortune 500 Marketing Power to Small Businesses",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-29T15:36:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Trump Is Using Your Taxpayer Money to Pay for Illegal Election Propaganda",
+            "source": "Thenation.com",
+            "publishedAt": "2026-09-29T15:35:27Z",
+            "sentiment": "Negative",
+            "compound": -0.718
+          },
+          {
+            "title": "Tata Sons revamp could help avoid stock listing: Tata Trusts chairman",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-29T15:34:53Z",
+            "sentiment": "Positive",
+            "compound": 0.557
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 61.42,
-  "trade_probability": 56.85,
+  "confirmation_score": 62.54,
+  "trade_probability": 57.52,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
