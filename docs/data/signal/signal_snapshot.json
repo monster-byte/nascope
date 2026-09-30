@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T18:31:08.385329+00:00",
+  "generated_at": "2026-09-30T18:45:49.072517+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.8685,
+          "change_pct": 1.9503,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.7121,
+          "change_pct": 1.6964,
           "up": true
         },
         "NVDA": {
-          "change_pct": 1.0457,
+          "change_pct": 0.9555,
           "up": true
         },
         "AMZN": {
-          "change_pct": 1.201,
+          "change_pct": 1.2535,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 82.02,
+      "score": 81.89,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30561.42,
-        "sma50": 29383.85,
-        "sma200": 27424.05
+        "last_price": 30548.43,
+        "sma50": 29383.59,
+        "sma200": 27423.98
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 25.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.17,
+        "current_vxn": 22.19,
         "percentile_vs_20d": 75.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 20.9,
+      "score": 22.62,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.3,
-        "change_5d_pct": 3.637
+        "current_yield_pct": 5.289,
+        "change_5d_pct": 3.422
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.37,
+      "score": 47.25,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.43,
-        "change_5d_pct": 0.328
+        "current_dxy": 101.45,
+        "change_5d_pct": 0.343
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 57.28,
+      "score": 55.33,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.146,
+        "avg_compound": 0.107,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Capstone Partners Releases 2026 Middle Market Business Owners Research Survey: CEOs Acclimate to Volatility and Exhibit Optimism, Exit Preparation Bolsters Decision Making and Business Performance",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-29T18:43:00Z",
+            "sentiment": "Positive",
+            "compound": 0.542
+          },
+          {
+            "title": "Monthly Cotton Economic Newsletter: September 2026",
+            "source": "WWD",
+            "publishedAt": "2026-09-29T18:42:54Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "In a World of Turmoil, Holiday Retailing Seen Transcending the Gloom",
+            "source": "WWD",
+            "publishedAt": "2026-09-29T18:40:09Z",
+            "sentiment": "Negative",
+            "compound": -0.527
+          },
+          {
+            "title": "Donald Trump’s Chatbot Has Some Harsh Feedback for Donald Trump",
+            "source": "Slate Magazine",
+            "publishedAt": "2026-09-29T18:36:15Z",
+            "sentiment": "Negative",
+            "compound": -0.44
+          },
+          {
+            "title": "Stock Market Today: Dow falls over 300 points, S&P 500 and Nasdaq edge lower as Treasury yields extend gains; tech CEOs to meet Trump - marketwatch.com",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-09-29T18:32:46Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
           {
             "title": "Notice to attend an Extraordinary General Meeting of Sivers Semiconductors AB",
             "source": "PRNewswire",
             "publishedAt": "2026-09-29T18:27:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Musalem wants the Fed to explain how and why it sets policy — not exactly what it'll do",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-29T18:26:23Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Goolsbee: Above-target inflation is 'playing with fire'",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-29T18:25:28Z",
-            "sentiment": "Neutral",
-            "compound": -0.153
-          },
-          {
-            "title": "Cboe, S&P Dow Jones may explore tokenized options contracts under extended licensing deal",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-29T18:25:15Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Smart ring maker Oura puts off initial public offering due to market ‘uncertainty’",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-29T18:25:12Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "QUENTIN LETTS: I am sorry to be beastly but there were moments in this speech when sugar levels were so high, they gave me diabetic twinges",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-09-29T18:21:28Z",
-            "sentiment": "Neutral",
-            "compound": -0.039
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 62.06,
-  "trade_probability": 57.24,
+  "confirmation_score": 62.09,
+  "trade_probability": 57.25,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
