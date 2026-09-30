@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T17:01:19.396096+00:00",
+  "generated_at": "2026-09-30T17:15:53.378859+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,41 +17,41 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.8912,
+          "change_pct": 1.6777,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.7219,
+          "change_pct": 1.5707,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.9226,
+          "change_pct": 0.9423,
           "up": true
         },
         "AMZN": {
-          "change_pct": 1.6745,
+          "change_pct": 1.5083,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 82.31,
+      "score": 81.9,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30590.55,
-        "sma50": 29384.44,
-        "sma200": 27424.19
+        "last_price": 30549.42,
+        "sma50": 29383.61,
+        "sma200": 27423.99
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 20.0,
+      "score": 30.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.13,
-        "percentile_vs_20d": 80.0
+        "current_vxn": 22.1,
+        "percentile_vs_20d": 70.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.55,
+      "score": 47.67,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.41,
-        "change_5d_pct": 0.307
+        "current_dxy": 101.39,
+        "change_5d_pct": 0.292
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.62,
+      "score": 49.5,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.032,
+        "avg_compound": -0.01,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "The Aberrational Century",
-            "source": "Ritholtz.com",
-            "publishedAt": "2026-09-29T17:00:51Z",
+            "title": "Trump’s Global Tariffs Are Likely to Fail in Court (Again)",
+            "source": "Foreign Policy",
+            "publishedAt": "2026-09-29T17:15:19Z",
+            "sentiment": "Negative",
+            "compound": -0.542
+          },
+          {
+            "title": "The AI Bubble Is Cracking, and This Economy Can’t Take Another Hit",
+            "source": "Offgridsurvival.com",
+            "publishedAt": "2026-09-29T17:14:48Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Leaked Anthropic IPO Prospectus Gives Wall Street an Early Look at How AI Could Go Off the Rails",
-            "source": "Gizmodo.com",
-            "publishedAt": "2026-09-29T17:00:29Z",
-            "sentiment": "Negative",
-            "compound": -0.318
+            "title": "Show HN: Orderbook – a matching engine in Go, tested against a second one",
+            "source": "Github.com",
+            "publishedAt": "2026-09-29T17:13:51Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Inside Economics: ‘An aspirational quality’ - can we trust Treasury forecasts?...plus, oil shock round two",
-            "source": "New Zealand Herald",
-            "publishedAt": "2026-09-29T17:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.361
+            "title": "Morocco names Fatima El Mansouri first woman PM",
+            "source": "The Punch",
+            "publishedAt": "2026-09-29T17:11:21Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Anthropic’s S-1 Is Here. The $518 Billion Commitment Is the Real Story.",
-            "source": "Forkast.news",
-            "publishedAt": "2026-09-29T16:57:31Z",
+            "title": "Fed's Barr: US GDP growth to pick up in H2",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-29T17:10:18Z",
             "sentiment": "Positive",
             "compound": 0.382
           },
           {
-            "title": "Mortgage rates hit 7.58%, approaching 3-year high",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-29T16:56:59Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "If I Could Tell Every New Investor Just 1 Thing About the Stock Market Right Now, It's This",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-29T16:56:50Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "After trading space babies and running people over with a truck, Strange Scaffold want you to organise a haunted library in Something is Wrong with the Library",
+            "source": "Rock Paper Shotgun",
+            "publishedAt": "2026-09-29T17:02:37Z",
+            "sentiment": "Negative",
+            "compound": -0.772
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 61.39,
-  "trade_probability": 56.83,
+  "confirmation_score": 62.06,
+  "trade_probability": 57.24,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
