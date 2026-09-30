@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T15:45:53.955998+00:00",
+  "generated_at": "2026-09-30T16:01:20.678832+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 2.2955,
+          "change_pct": 2.2319,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.7465,
+          "change_pct": 1.9084,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.9116,
+          "change_pct": 1.0912,
           "up": true
         },
         "AMZN": {
-          "change_pct": 1.4638,
+          "change_pct": 1.6498,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 82.07,
+      "score": 82.46,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30566.58,
-        "sma50": 29383.96,
-        "sma200": 27424.08
+        "last_price": 30604.79,
+        "sma50": 29384.72,
+        "sma200": 27424.27
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 30.0,
+      "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.1,
-        "percentile_vs_20d": 70.0
+        "current_vxn": 22.13,
+        "percentile_vs_20d": 80.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 24.97,
+      "score": 22.94,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.274,
-        "change_5d_pct": 3.129
+        "current_yield_pct": 5.287,
+        "change_5d_pct": 3.383
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.86,
+      "score": 48.39,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.24,
-        "change_5d_pct": 0.142
+        "current_dxy": 101.3,
+        "change_5d_pct": 0.202
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.86,
+      "score": 49.67,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.003,
+        "avg_compound": -0.007,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Banks Want Risk Controls Tested at Nonbank Stablecoin Issuers",
-            "source": "pymnts.com",
-            "publishedAt": "2026-09-29T15:45:24Z",
-            "sentiment": "Negative",
-            "compound": -0.202
-          },
-          {
-            "title": "Caffeine clash: Starbucks slayer now brews a global coffee blend",
+            "title": "Ahead of Market: 10 things that will decide stock market action on Wednesday",
             "source": "The Times of India",
-            "publishedAt": "2026-09-29T15:42:39Z",
+            "publishedAt": "2026-09-29T16:01:05Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "US 30-year Treasury yield hits highest since 2002",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-29T15:40:00Z",
-            "sentiment": "Positive",
-            "compound": 0.202
+            "title": "Netflix analysts are souring on the stock as growth fears mount",
+            "source": "Financial Post",
+            "publishedAt": "2026-09-29T16:00:02Z",
+            "sentiment": "Neutral",
+            "compound": -0.052
           },
           {
-            "title": "Nas.com Brings Fortune 500 Marketing Power to Small Businesses",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-29T15:36:00Z",
+            "title": "Stock Bets Put Prediction Markets Under Fresh Regulatory Scrutiny",
+            "source": "ReadWrite",
+            "publishedAt": "2026-09-29T16:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.318
+          },
+          {
+            "title": "National softens its language on lifting Super eligibility age, saying political consensus is needed, but missing",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-09-29T16:00:00Z",
+            "sentiment": "Neutral",
+            "compound": -0.09
+          },
+          {
+            "title": "Canada’s ‘resilient’ economy means Bank of Canada needs to start hiking, economist says",
+            "source": "Financial Post",
+            "publishedAt": "2026-09-29T15:59:52Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Trump Is Using Your Taxpayer Money to Pay for Illegal Election Propaganda",
-            "source": "Thenation.com",
-            "publishedAt": "2026-09-29T15:35:27Z",
-            "sentiment": "Negative",
-            "compound": -0.718
-          },
-          {
-            "title": "Tata Sons revamp could help avoid stock listing: Tata Trusts chairman",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-29T15:34:53Z",
+            "title": "The surprising facts about college tuition",
+            "source": "Lawyersgunsmoneyblog.com",
+            "publishedAt": "2026-09-29T15:58:25Z",
             "sentiment": "Positive",
-            "compound": 0.557
+            "compound": 0.273
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 62.54,
-  "trade_probability": 57.52,
+  "confirmation_score": 61.35,
+  "trade_probability": 56.81,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
