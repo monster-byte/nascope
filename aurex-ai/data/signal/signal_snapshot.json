@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T15:02:02.890793+00:00",
+  "generated_at": "2026-09-30T15:16:15.582464+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 2.397,
+          "change_pct": 2.2319,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.661,
+          "change_pct": 1.8201,
           "up": true
         },
         "NVDA": {
-          "change_pct": 1.0487,
+          "change_pct": 0.9423,
           "up": true
         },
         "AMZN": {
-          "change_pct": 1.8682,
+          "change_pct": 1.9935,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 82.04,
+      "score": 82.14,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30562.72,
-        "sma50": 29383.88,
-        "sma200": 27424.06
+        "last_price": 30573.41,
+        "sma50": 29384.09,
+        "sma200": 27424.11
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.29,
+        "current_vxn": 22.28,
         "percentile_vs_20d": 80.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 25.91,
+      "score": 25.28,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.268,
-        "change_5d_pct": 3.011
+        "current_yield_pct": 5.272,
+        "change_5d_pct": 3.09
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.59,
+      "score": 48.69,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.28,
-        "change_5d_pct": 0.176
+        "current_dxy": 101.27,
+        "change_5d_pct": 0.164
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.84,
+      "score": 53.26,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.017,
+        "avg_compound": 0.065,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "RBA Rate Hike to 4.6%: What the Fourth Increase of 2026 Means for Mortgage Holders, Renters and Savers",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-09-29T15:00:52Z",
-            "sentiment": "Positive",
-            "compound": 0.318
+            "title": "Why investors should stop panicking about the latest rise in bond yields",
+            "source": "Business Insider",
+            "publishedAt": "2026-09-29T15:13:02Z",
+            "sentiment": "Negative",
+            "compound": -0.625
           },
           {
-            "title": "Top stocks to buy today: Stock recommendations for September 30, 2026 - check list",
+            "title": "Canadian confidence in neutral as oil fuels inflation fears",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-29T15:10:34Z",
+            "sentiment": "Neutral",
+            "compound": 0.128
+          },
+          {
+            "title": "US stock market today: Why Dow Jones falls while S&P 500 and Nasdaq climb as Nvidia, Oracle and Intel gain on oil retreat",
             "source": "The Times of India",
-            "publishedAt": "2026-09-29T15:00:51Z",
+            "publishedAt": "2026-09-29T15:08:51Z",
             "sentiment": "Positive",
-            "compound": 0.202
+            "compound": 0.637
           },
           {
-            "title": "Debt mutual funds: Axis MF suggests where to invest as RBI may raise rates by 50-75 bps over next 6 months",
-            "source": "Livemint",
-            "publishedAt": "2026-09-29T15:00:08Z",
-            "sentiment": "Negative",
-            "compound": -0.361
-          },
-          {
-            "title": "ReTo Eco-Solutions, Inc. Announces Share Consolidation",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-29T15:00:00Z",
+            "title": "Edible oils duty cut: Indian govt has to balance consumers’ and farmers’ interest, says Agriculture Minister",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-29T15:07:30Z",
             "sentiment": "Positive",
-            "compound": 0.296
+            "compound": 0.226
           },
           {
-            "title": "Gusto Small Business Jobs and Pay Report: Small Businesses Add 28,000 Jobs in September, Marking Eighth Straight Month of Growth",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-29T15:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.477
+            "title": "Ozempic in Iran",
+            "source": "London Review of Books",
+            "publishedAt": "2026-09-29T15:02:41Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Business News: Gallet’s Return Heralds Renewed Battle For Mid-Tier Priced Watch Segment",
-            "source": "HODINKEE",
-            "publishedAt": "2026-09-29T15:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.382
+            "title": "Canadian confidence in neutral as oil fuels inflation fears",
+            "source": "Financial Post",
+            "publishedAt": "2026-09-29T15:02:37Z",
+            "sentiment": "Neutral",
+            "compound": 0.128
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 61.82,
-  "trade_probability": 57.09,
+  "confirmation_score": 61.98,
+  "trade_probability": 57.19,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
