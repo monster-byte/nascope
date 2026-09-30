@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T13:15:47.819152+00:00",
+  "generated_at": "2026-09-30T13:31:19.697062+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,36 +13,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 0.0,
-      "status": "red",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.1878,
-          "up": false
+          "change_pct": 0.5947,
+          "up": true
         },
         "MSFT": {
-          "change_pct": -0.055,
-          "up": false
+          "change_pct": 0.4143,
+          "up": true
         },
         "NVDA": {
-          "change_pct": -0.4677,
-          "up": false
+          "change_pct": 0.5045,
+          "up": true
         },
         "AMZN": {
-          "change_pct": -0.2446,
+          "change_pct": -0.0546,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 80.05,
+      "score": 81.15,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30339.33,
-        "sma50": 29355.73,
-        "sma200": 27399.68
+        "last_price": 30473.84,
+        "sma50": 29382.1,
+        "sma200": 27423.61
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 31.54,
+      "score": 32.17,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.232,
-        "change_5d_pct": 2.307
+        "current_yield_pct": 5.228,
+        "change_5d_pct": 2.229
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.45,
+      "score": 49.34,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.17,
-        "change_5d_pct": 0.069
+        "current_dxy": 101.18,
+        "change_5d_pct": 0.083
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.94,
+      "score": 54.75,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.099,
+        "avg_compound": 0.095,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "CARNIVAL CORPORATION OUTPERFORMS GUIDANCE, DELIVERING BEST EVER REVENUES, NET YIELDS AND NET INCOME",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-29T13:15:00Z",
-            "sentiment": "Positive",
-            "compound": 0.637
-          },
-          {
-            "title": "Vuzix Introduces Shrike Defense Display Platform and Ships Initial Evaluation Units",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-29T13:15:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.128
-          },
-          {
-            "title": "AI has made borrowing more expensive – an expert explains how bond markets are changing",
-            "source": "The Conversation Africa",
-            "publishedAt": "2026-09-29T13:13:32Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-29T13:10:19Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "Greenland Mines Brings Total New Capital to Over $59 Million with Above-Market Raise from Existing Shareholders",
-            "source": "Financial Post",
-            "publishedAt": "2026-09-29T13:07:30Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Burnham lurches Left in Labour conference speech as he vows a bigger state - but faces revolt over 'suicidal' plan to end state pension 'triple lock'",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-09-29T13:06:17Z",
+            "title": "Smart ring maker Oura is postponing its IPO, weeks after warning about the risk of AI disruption",
+            "source": "Business Insider",
+            "publishedAt": "2026-09-29T13:28:41Z",
             "sentiment": "Negative",
-            "compound": -0.805
+            "compound": -0.586
+          },
+          {
+            "title": "Nasdaq Launches Agentic AI Environment for Calypso Capital Markets Platform",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-29T13:26:29Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Investors who have shunned diversification face maybe the best buying opportunity for bonds in decades",
+            "source": "CNBC",
+            "publishedAt": "2026-09-29T13:22:56Z",
+            "sentiment": "Positive",
+            "compound": 0.791
+          },
+          {
+            "title": "If You Use Money to Buy Things, You Should Read This Book",
+            "source": "Gizmodo.com",
+            "publishedAt": "2026-09-29T13:20:13Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Your groceries could cost you more next year",
+            "source": "Omny.fm",
+            "publishedAt": "2026-09-29T13:19:03Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Hassett: 'We're still working our way out from' Biden Covid spending",
+            "source": "CNBC",
+            "publishedAt": "2026-09-29T13:18:58Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 35.76,
-  "trade_probability": 41.46,
+  "confirmation_score": 56.22,
+  "trade_probability": 53.73,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
