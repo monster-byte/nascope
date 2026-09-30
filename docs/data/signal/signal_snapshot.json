@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T09:31:06.166175+00:00",
+  "generated_at": "2026-09-30T09:45:55.857538+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.78,
+      "score": 48.92,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.25,
-        "change_5d_pct": 0.152
+        "current_dxy": 101.24,
+        "change_5d_pct": 0.135
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.97,
+      "score": 50.28,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.039,
+        "avg_compound": 0.006,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Bitcoin is on track to shatter a major decade-long streak as September gains surge",
+            "source": "CoinDesk",
+            "publishedAt": "2026-09-29T09:45:31Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
+          {
+            "title": "Metacon launches 20 MW electrolyser module with major cost and footprint reductions for large hydrogen plants",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-29T09:37:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Bosch Home Comfort India surges 8%; hits 52-week high in weak market",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-29T09:34:19Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
           {
             "title": "India Unlikely to Ditch Russian Oil Despite Trump's 100% Tariff Threat",
             "source": "OilPrice.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-09-29T09:25:22Z",
             "sentiment": "Neutral",
             "compound": -0.052
-          },
-          {
-            "title": "India bonds edge up on short covering as US yields cool",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-29T09:24:31Z",
-            "sentiment": "Positive",
-            "compound": 0.318
-          },
-          {
-            "title": "Gold edges up from 7-week low; all eyes on West Asia, US economic data",
-            "source": "BusinessLine",
-            "publishedAt": "2026-09-29T09:20:08Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "Bitcoin’s $85,000 test comes as Wall Street gets two different inflation stories",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-09-29T09:20:07Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 31.68,
-  "trade_probability": 39.01,
+  "confirmation_score": 31.55,
+  "trade_probability": 38.93,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
