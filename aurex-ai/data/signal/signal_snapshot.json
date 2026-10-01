@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T18:45:53.943994+00:00",
+  "generated_at": "2026-10-01T19:01:20.994327+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -1.3972,
+          "change_pct": -1.3478,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.4277,
+          "change_pct": 0.2816,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.9533,
+          "change_pct": 1.1101,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.3657,
+          "change_pct": -0.3577,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 81.54,
+      "score": 81.75,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30542.83,
-        "sma50": 29411.69,
-        "sma200": 27450.02
+        "last_price": 30563.61,
+        "sma50": 29412.1,
+        "sma200": 27450.12
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 10.0,
+      "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.69,
-        "percentile_vs_20d": 90.0
+        "current_vxn": 22.57,
+        "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 38.07,
+      "score": 38.84,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.239,
-        "change_5d_pct": 1.492
+        "current_yield_pct": 5.234,
+        "change_5d_pct": 1.395
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.63,
+      "score": 43.56,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.1,
-        "change_5d_pct": 0.797
+        "current_dxy": 102.11,
+        "change_5d_pct": 0.805
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.24,
+      "score": 53.22,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.045,
+        "avg_compound": 0.064,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "US inflation rises less than expected in August; consumer spending surges",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-30T18:41:29Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "PSX Shows Positive Trend as KSE-100 Index Closes at 169,969",
-            "source": "Pakobserver.com.pk",
-            "publishedAt": "2026-09-30T18:34:30Z",
-            "sentiment": "Positive",
-            "compound": 0.557
-          },
-          {
-            "title": "Stock Market Today: Nasdaq Jumps After GDP, PCE Data Point to Strength in U.S. Economy — Live Updates - WSJ",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-09-30T18:32:25Z",
+            "title": "Americans Are Wealthier Than 30 Years Ago. Here's the Data To Prove It.",
+            "source": "Reason",
+            "publishedAt": "2026-09-30T19:00:32Z",
             "sentiment": "Positive",
             "compound": 0.494
           },
           {
-            "title": "No criminal wrongdoing in Federal Reserve building renovation, watchdog says, but it was mismanaged",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-30T18:31:44Z",
+            "title": "US Fed watchdog finds no criminal wrongdoing in Powell-era renovation costs",
+            "source": "Al Jazeera English",
+            "publishedAt": "2026-09-30T19:00:11Z",
             "sentiment": "Positive",
-            "compound": 0.224
+            "compound": 0.417
           },
           {
-            "title": "OpenAI and Synopsys Announce GPT-Synopsys: Frontier Intelligence to Revolutionize Chip Design",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-30T18:29:00Z",
-            "sentiment": "Positive",
-            "compound": 0.477
-          },
-          {
-            "title": "Polymarket traders put October Fed hike odds at 37%, with no change at 61%",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-09-30T18:25:01Z",
+            "title": "Trump’s No Good at Dictatoring",
+            "source": "The American Prospect",
+            "publishedAt": "2026-09-30T19:00:00Z",
             "sentiment": "Negative",
-            "compound": -0.296
+            "compound": -0.341
+          },
+          {
+            "title": "FTC opens probe into AI giants, including Anthropic and OpenAI",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-30T18:58:20Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Business Cycle Indicators: Real GDP, Personal Income Trajectory Revised Up",
+            "source": "Econbrowser.com",
+            "publishedAt": "2026-09-30T18:53:07Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Can you use a 401(k) to buy gold? What investors should know before rolling over retirement funds",
+            "source": "CBS News",
+            "publishedAt": "2026-09-30T18:52:49Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 48.68,
-  "trade_probability": 49.21,
+  "confirmation_score": 48.44,
+  "trade_probability": 49.06,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
