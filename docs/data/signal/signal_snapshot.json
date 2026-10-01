@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T20:31:10.572904+00:00",
+  "generated_at": "2026-10-01T20:45:55.335958+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.31,
+      "score": 44.27,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.01,
-        "change_5d_pct": 0.711
+        "current_dxy": 102.02,
+        "change_5d_pct": 0.717
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.97,
+      "score": 53.16,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.059,
+        "avg_compound": 0.063,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "How major US stock indexes fared Wednesday 9/30/2026",
+            "source": "Abcnews.com",
+            "publishedAt": "2026-09-30T20:37:51Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Fare hike for NYC Ferry going into effect next month",
+            "source": "Gothamist",
+            "publishedAt": "2026-09-30T20:35:27Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "My dog’s final days cost $3,000: The heartbreaking reality of ‘economic euthanasia’",
+            "source": "New York Post",
+            "publishedAt": "2026-09-30T20:32:00Z",
+            "sentiment": "Negative",
+            "compound": -0.459
+          },
+          {
+            "title": "10-Year Treasury Yield Rises to New 24-Year High",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-30T20:31:38Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
           {
             "title": "First Citizens BancShares, Inc. Announces Date of Third Quarter 2026 Earnings Call",
             "source": "PRNewswire",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-09-30T20:30:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Late-Breaking EADV 2026 Data Support Use of DecisionDx®-Melanoma in SLNB Decision-Making and Risk-Aligned Post Surgical Management",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-30T20:30:00Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "Philly Homeowners Have More Equity Than They Did Five Years Ago. Now What?",
-            "source": "phillymag.com",
-            "publishedAt": "2026-09-30T20:29:47Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Bluevine Agrees to $340 Million Acquisition by Valley National Bank",
-            "source": "Finovate.com",
-            "publishedAt": "2026-09-30T20:28:43Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "Watch Live: Donald Trump Announces $54 Billion Alaska Natural Gas Pipeline Project",
-            "source": "Breitbart News",
-            "publishedAt": "2026-09-30T20:28:27Z",
-            "sentiment": "Positive",
-            "compound": 0.361
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.59,
-  "trade_probability": 44.95,
+  "confirmation_score": 41.6,
+  "trade_probability": 44.96,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
