@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T18:01:19.865941+00:00",
+  "generated_at": "2026-10-01T18:15:49.714811+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -1.626,
+          "change_pct": -1.3912,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.1361,
+          "change_pct": 0.2566,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.4349,
+          "change_pct": 0.4937,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.5596,
+          "change_pct": -0.4297,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 81.12,
+      "score": 80.95,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30501.51,
-        "sma50": 29410.86,
-        "sma200": 27449.81
+        "last_price": 30483.81,
+        "sma50": 29410.51,
+        "sma200": 27449.72
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 5.0,
+      "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.56,
-        "percentile_vs_20d": 95.0
+        "current_vxn": 22.79,
+        "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 40.7,
-      "status": "yellow",
+      "score": 37.45,
+      "status": "red",
       "details": {
-        "current_yield_pct": 5.222,
-        "change_5d_pct": 1.162
+        "current_yield_pct": 5.243,
+        "change_5d_pct": 1.569
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.5,
+      "score": 42.83,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.11,
-        "change_5d_pct": 0.813
+        "current_dxy": 102.2,
+        "change_5d_pct": 0.896
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.3,
+      "score": 49.23,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.106,
+        "avg_compound": -0.015,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "The Warehouse Group rules out third supermarket role after review",
-            "source": "New Zealand Herald",
-            "publishedAt": "2026-09-30T18:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Healthcare Triangle, Inc Signs MOU to Bring AI-Enabled Humanoid Nursing Robots to Hospitals in North America",
+            "title": "TYGO Investors Have Opportunity to Lead Tigo Energy, Inc. Securities Fraud Lawsuit Filed by The Rosen Law Firm",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-30T18:00:00Z",
+            "publishedAt": "2026-09-30T18:15:00Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": 0.103
           },
           {
-            "title": "Heritage Financial Announces Earnings Release Date and Conference Call",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-30T18:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Solana Company (NASDAQ: HSDT) Announces Pricing of $15 Million Registered Direct Offering with a Global Institutional Investor",
-            "source": "Financial Post",
-            "publishedAt": "2026-09-30T17:59:49Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "From cash to credit, how Americans’ payment methods have changed in the past decade",
-            "source": "Pew Research Center",
-            "publishedAt": "2026-09-30T17:56:09Z",
+            "title": "AI infra firm Accelevation's shares fall in tepid Nasdaq debut",
+            "source": "CNA",
+            "publishedAt": "2026-09-30T18:14:18Z",
             "sentiment": "Positive",
-            "compound": 0.382
+            "compound": 0.296
           },
           {
-            "title": "A cooler-than-expected reading on Fed’s favored inflation measure tamps down on urgency for rate hikes - finance.yahoo.com",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-09-30T17:52:25Z",
-            "sentiment": "Positive",
-            "compound": 0.421
+            "title": "FEDS Note: AI on the Factory Floor: Evidence from Manufacturing Job Postings",
+            "source": "Federalreserve.gov",
+            "publishedAt": "2026-09-30T18:13:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Who Should **Really** Be Held Accountable For Spreading Fake News?",
+            "source": "CleanTechnica",
+            "publishedAt": "2026-09-30T18:07:08Z",
+            "sentiment": "Negative",
+            "compound": -0.477
+          },
+          {
+            "title": "Stock Market Indexes Rally on Inflation Data, Though the Dow Sat It Out",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-30T18:05:28Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Market may be mispricing AI doomsday risk: Strategist",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-30T18:05:22Z",
+            "sentiment": "Negative",
+            "compound": -0.71
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 48.79,
-  "trade_probability": 49.27,
+  "confirmation_score": 48.17,
+  "trade_probability": 48.9,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
