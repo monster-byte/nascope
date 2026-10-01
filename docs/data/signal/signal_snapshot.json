@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T17:15:58.143287+00:00",
+  "generated_at": "2026-10-01T17:31:07.364716+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,36 +13,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
-      "status": "red",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -1.7771,
+          "change_pct": -1.5108,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.0467,
-          "up": false
+          "change_pct": 0.3052,
+          "up": true
         },
         "NVDA": {
-          "change_pct": 0.3913,
+          "change_pct": 0.7224,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.9313,
+          "change_pct": -0.1521,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 80.17,
+      "score": 81.92,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30406.02,
-        "sma50": 29408.95,
-        "sma200": 27449.33
+        "last_price": 30581.59,
+        "sma50": 29412.46,
+        "sma200": 27450.21
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 23.12,
+        "current_vxn": 22.86,
         "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 38.84,
-      "status": "red",
+      "score": 41.32,
+      "status": "yellow",
       "details": {
-        "current_yield_pct": 5.234,
-        "change_5d_pct": 1.395
+        "current_yield_pct": 5.218,
+        "change_5d_pct": 1.085
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.44,
+      "score": 43.31,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.12,
-        "change_5d_pct": 0.82
+        "current_dxy": 102.14,
+        "change_5d_pct": 0.836
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.99,
+      "score": 50.87,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.04,
+        "avg_compound": 0.017,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Why are oil prices rising again? US crude and Brent November futures witness spike",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-30T17:15:13Z",
-            "sentiment": "Negative",
-            "compound": -0.572
-          },
-          {
-            "title": "JLL Income Property Trust Acquires Greater Boston Area Warehouse",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-30T17:10:00Z",
+            "title": "Silmo 2026: Smart, Luxurious and Everything in Between",
+            "source": "WWD",
+            "publishedAt": "2026-09-30T17:29:29Z",
             "sentiment": "Positive",
-            "compound": 0.7
+            "compound": 0.402
           },
           {
-            "title": "Bill to limit stock trading in Congress is blocked by Senate Democrats",
-            "source": "New York Post",
-            "publishedAt": "2026-09-30T17:04:17Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "Why The Metals Company Stock Is Soaring Today",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-30T17:04:01Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Tether Just Minted Nearly Half a Billion in Gold",
-            "source": "ZyCrypto",
-            "publishedAt": "2026-09-30T17:00:31Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Fed watchdog finds no laws broken in $2.5 billion Fed renovation",
+            "title": "Trump sending $500 ACA refund checks to nearly 1 million Americans",
             "source": "CBS News",
-            "publishedAt": "2026-09-30T17:00:29Z",
+            "publishedAt": "2026-09-30T17:28:06Z",
             "sentiment": "Neutral",
-            "compound": 0.091
+            "compound": 0.0
+          },
+          {
+            "title": "Bitcoin ETFs Extend Win Streak to 9 Days, Matching August Rally",
+            "source": "Decrypt",
+            "publishedAt": "2026-09-30T17:27:43Z",
+            "sentiment": "Positive",
+            "compound": 0.67
+          },
+          {
+            "title": "Oura postpones its $2.2bn IPO, citing market uncertainty",
+            "source": "The Next Web",
+            "publishedAt": "2026-09-30T17:23:23Z",
+            "sentiment": "Negative",
+            "compound": -0.542
+          },
+          {
+            "title": "Rob Bonta ‘Vehemently and Respectfully Disagrees’ That He ‘Caved’ on Warner Bros.-Paramount Suit",
+            "source": "TheWrap",
+            "publishedAt": "2026-09-30T17:23:01Z",
+            "sentiment": "Negative",
+            "compound": -0.226
+          },
+          {
+            "title": "Inflation Comes in Lower Than Expected",
+            "source": "Newser",
+            "publishedAt": "2026-09-30T17:20:00Z",
+            "sentiment": "Negative",
+            "compound": -0.296
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.81,
-  "trade_probability": 45.09,
+  "confirmation_score": 49.01,
+  "trade_probability": 49.41,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
