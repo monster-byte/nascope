@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T14:15:51.873989+00:00",
+  "generated_at": "2026-10-01T14:31:13.238094+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -1.2655,
+          "change_pct": -1.0471,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.4957,
+          "change_pct": 0.626,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.1125,
+          "change_pct": 0.204,
           "up": true
         },
         "AMZN": {
-          "change_pct": -1.199,
+          "change_pct": -1.3349,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 79.93,
+      "score": 79.78,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30382.13,
-        "sma50": 29408.48,
-        "sma200": 27449.21
+        "last_price": 30367.33,
+        "sma50": 29408.18,
+        "sma200": 27449.14
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 23.16,
+        "current_vxn": 23.42,
         "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 23.03,
+      "score": 24.74,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.336,
-        "change_5d_pct": 3.371
+        "current_yield_pct": 5.325,
+        "change_5d_pct": 3.158
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.94,
+      "score": 46.11,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.8,
-        "change_5d_pct": 0.507
+        "current_dxy": 101.78,
+        "change_5d_pct": 0.487
       }
     },
     "macro": {
@@ -85,10 +85,56 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.0,
+      "score": 54.75,
       "status": "yellow",
       "details": {
-        "error": "news_fetch_failed: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?q=Nasdaq+OR+%22Federal+Reserve%22+OR+%22stock+market%22+OR+inflation&language=en&sortBy=publishedAt&pageSize=25&apiKey=280ea038bd7e4ccb91d87f9d115484d4"
+        "overall_sentiment": "NEUTRAL",
+        "avg_compound": 0.095,
+        "articles_analyzed": 24,
+        "top_headlines": [
+          {
+            "title": "Wells Fargo resets gold price target amid rate concern",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-30T14:31:03Z",
+            "sentiment": "Positive",
+            "compound": 0.25
+          },
+          {
+            "title": "Inflation in Eurozone’s Biggest Economies Reaches Multiyear Highs",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-30T14:30:55Z",
+            "sentiment": "Neutral",
+            "compound": 0.052
+          },
+          {
+            "title": "Bitcoin Price Prediction for October 2026",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-30T14:30:52Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "New Biomarker Data Presented in a Late Breaking Oral Presentation at EADV Congress 2026 Showing Early Molecular Responses to Rezpegaldesleukin Across Multiple Immune Pathways Dysregulated in Patients with Atopic Dermatitis",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-30T14:30:00Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "US inflation rises less than expected in August, consumer spending surges",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-30T14:24:55Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Nebius Group signs $27B AI capacity deal with Meta Platforms",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-30T14:22:07Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          }
+        ]
       }
     },
     "patent_momentum": {
@@ -100,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 45.98,
-  "trade_probability": 47.59,
+  "confirmation_score": 46.64,
+  "trade_probability": 47.98,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
