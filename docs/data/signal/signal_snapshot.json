@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T17:01:23.905145+00:00",
+  "generated_at": "2026-10-01T17:15:58.143287+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.9117,
+          "change_pct": -1.7771,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.2965,
+          "change_pct": -0.0467,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.2672,
+          "change_pct": 0.3913,
           "up": true
         },
         "AMZN": {
-          "change_pct": -1.0851,
+          "change_pct": -0.9313,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 79.46,
+      "score": 80.17,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30334.54,
-        "sma50": 29407.52,
-        "sma200": 27448.97
+        "last_price": 30406.02,
+        "sma50": 29408.95,
+        "sma200": 27449.33
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.94,
+        "current_vxn": 23.12,
         "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 38.38,
+      "score": 38.84,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.237,
-        "change_5d_pct": 1.453
+        "current_yield_pct": 5.234,
+        "change_5d_pct": 1.395
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.07,
+      "score": 43.44,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.17,
-        "change_5d_pct": 0.866
+        "current_dxy": 102.12,
+        "change_5d_pct": 0.82
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.86,
+      "score": 51.99,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.077,
+        "avg_compound": 0.04,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Why are oil prices rising again? US crude and Brent November futures witness spike",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-30T17:15:13Z",
+            "sentiment": "Negative",
+            "compound": -0.572
+          },
+          {
+            "title": "JLL Income Property Trust Acquires Greater Boston Area Warehouse",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-30T17:10:00Z",
+            "sentiment": "Positive",
+            "compound": 0.7
+          },
+          {
+            "title": "Bill to limit stock trading in Congress is blocked by Senate Democrats",
+            "source": "New York Post",
+            "publishedAt": "2026-09-30T17:04:17Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "Why The Metals Company Stock Is Soaring Today",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-30T17:04:01Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Tether Just Minted Nearly Half a Billion in Gold",
             "source": "ZyCrypto",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-09-30T17:00:29Z",
             "sentiment": "Neutral",
             "compound": 0.091
-          },
-          {
-            "title": "Watchdog finds no criminality in Fed renovation that drew Trump’s scrutiny",
-            "source": "NBC News",
-            "publishedAt": "2026-09-30T17:00:07Z",
-            "sentiment": "Negative",
-            "compound": -0.296
-          },
-          {
-            "title": "Christine Lagarde: Interview with La Croix",
-            "source": "Europa.eu",
-            "publishedAt": "2026-09-30T17:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Europe Gets Hit by Another Energy-Driven Inflation Shock",
-            "source": "OilPrice.com",
-            "publishedAt": "2026-09-30T17:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.382
-          },
-          {
-            "title": "Federal Reserve: Evaluation of the Eccles-1951 Renovation Project Management and Construction Costs",
-            "source": "Federalreserve.gov",
-            "publishedAt": "2026-09-30T17:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.78,
-  "trade_probability": 45.07,
+  "confirmation_score": 41.81,
+  "trade_probability": 45.09,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
