@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T19:01:20.994327+00:00",
+  "generated_at": "2026-10-01T19:15:50.102799+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -1.3478,
+          "change_pct": -1.4211,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.2816,
+          "change_pct": 0.3344,
           "up": true
         },
         "NVDA": {
-          "change_pct": 1.1101,
+          "change_pct": 0.8575,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.3577,
+          "change_pct": -0.4756,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 81.75,
+      "score": 81.46,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30563.61,
-        "sma50": 29412.1,
-        "sma200": 27450.12
+        "last_price": 30535.15,
+        "sma50": 29411.54,
+        "sma200": 27449.98
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 5.0,
+      "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.57,
-        "percentile_vs_20d": 95.0
+        "current_vxn": 22.68,
+        "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 38.84,
+      "score": 38.38,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.234,
-        "change_5d_pct": 1.395
+        "current_yield_pct": 5.237,
+        "change_5d_pct": 1.453
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.56,
+      "score": 43.71,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.11,
-        "change_5d_pct": 0.805
+        "current_dxy": 102.09,
+        "change_5d_pct": 0.786
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.22,
+      "score": 50.78,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.064,
+        "avg_compound": 0.016,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Americans Are Wealthier Than 30 Years Ago. Here's the Data To Prove It.",
-            "source": "Reason",
-            "publishedAt": "2026-09-30T19:00:32Z",
-            "sentiment": "Positive",
-            "compound": 0.494
+            "title": "Medication prices skyrocket in Iran as US blockade, sanctions hit hard",
+            "source": "New York Post",
+            "publishedAt": "2026-09-30T19:15:39Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
           },
           {
-            "title": "US Fed watchdog finds no criminal wrongdoing in Powell-era renovation costs",
-            "source": "Al Jazeera English",
-            "publishedAt": "2026-09-30T19:00:11Z",
-            "sentiment": "Positive",
-            "compound": 0.417
+            "title": "City of Seattle Raising Minimum Wage Requirement Again",
+            "source": "Breitbart News",
+            "publishedAt": "2026-09-30T19:11:04Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Trump’s No Good at Dictatoring",
-            "source": "The American Prospect",
-            "publishedAt": "2026-09-30T19:00:00Z",
+            "title": "Is Trump’s Push to Rename AI to ‘Super Intelligence’ Part of Some Bigger Conspiracy?",
+            "source": "Gizmodo.com",
+            "publishedAt": "2026-09-30T19:10:37Z",
             "sentiment": "Negative",
-            "compound": -0.341
+            "compound": -0.527
           },
           {
-            "title": "FTC opens probe into AI giants, including Anthropic and OpenAI",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-30T18:58:20Z",
+            "title": "Calls from mortgage-stressed home owners double as pressures pile up",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-09-30T19:08:13Z",
+            "sentiment": "Negative",
+            "compound": -0.318
+          },
+          {
+            "title": "AGNC Pays $0.12 Every Month. Here's How Much You'd Need to Invest to Collect $1,000 a Month",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-30T19:04:27Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Business Cycle Indicators: Real GDP, Personal Income Trajectory Revised Up",
-            "source": "Econbrowser.com",
-            "publishedAt": "2026-09-30T18:53:07Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Can you use a 401(k) to buy gold? What investors should know before rolling over retirement funds",
-            "source": "CBS News",
-            "publishedAt": "2026-09-30T18:52:49Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Fast Takes: Reality confronts anti-Zionists, Dems’ damning ‘affordability’ record and other commentary",
+            "source": "New York Post",
+            "publishedAt": "2026-09-30T19:03:14Z",
+            "sentiment": "Negative",
+            "compound": -0.511
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 48.44,
-  "trade_probability": 49.06,
+  "confirmation_score": 48.58,
+  "trade_probability": 49.15,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
