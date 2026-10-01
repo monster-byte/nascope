@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T16:31:10.417849+00:00",
+  "generated_at": "2026-10-01T16:45:54.583261+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.7233,
+          "change_pct": -1.9058,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.0432,
+          "change_pct": -0.1458,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.4632,
+          "change_pct": 0.5046,
           "up": true
         },
         "AMZN": {
-          "change_pct": -1.1071,
+          "change_pct": -1.0632,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 79.8,
+      "score": 79.93,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30368.83,
-        "sma50": 29408.21,
-        "sma200": 27449.15
+        "last_price": 30381.98,
+        "sma50": 29408.47,
+        "sma200": 27449.21
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 10.0,
+      "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 23.19,
-        "percentile_vs_20d": 90.0
+        "current_vxn": 23.08,
+        "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 38.07,
+      "score": 38.84,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.239,
-        "change_5d_pct": 1.492
+        "current_yield_pct": 5.234,
+        "change_5d_pct": 1.395
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.09,
+      "score": 43.7,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.04,
-        "change_5d_pct": 0.738
+        "current_dxy": 102.09,
+        "change_5d_pct": 0.788
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.56,
+      "score": 52.41,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.031,
+        "avg_compound": 0.048,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "$HAREHOLDER ALERT: The M&A Class Action Firm Announces An Investigation of SoundThinking, Inc. (NASDAQ: SSTI)",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-30T16:30:00Z",
+            "title": "Stocks rise, 2-year US bond yield eases after soft US inflation data",
+            "source": "CNA",
+            "publishedAt": "2026-09-30T16:45:24Z",
             "sentiment": "Positive",
-            "compound": 0.447
+            "compound": 0.318
           },
           {
-            "title": "ChoiceOne Bank Announces Official Opening of ChoiceOne Bank Trail at Silver Lake Road and Jennings Road in Fenton",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-30T16:30:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Bitcoin price outlook October 2026: Will BTC USD hit $90,000 after a 43.8% rally as Fed rate hike, oil above $100 and slowing ETF inflows loom?",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-30T16:43:15Z",
+            "sentiment": "Negative",
+            "compound": -0.226
           },
           {
-            "title": "FTC opens probe into AI giants, including Anthropic and OpenAI",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-30T16:29:03Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "$HAREHOLDER ALERT: The M&A Class Action Firm Announces An Investigation of OceanLight Acquisition Corporation (NASDAQ: OCLT)",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-30T16:28:00Z",
+            "title": "ElevenLabs doubles its valuation to $22bn in a $300m share sale",
+            "source": "The Next Web",
+            "publishedAt": "2026-09-30T16:39:10Z",
             "sentiment": "Positive",
-            "compound": 0.447
+            "compound": 0.296
           },
           {
-            "title": "Spinnova Signs $1.7 Million Loan Deal with Tearfil",
-            "source": "WWD",
-            "publishedAt": "2026-09-30T16:27:40Z",
+            "title": "Extreme volatility divergence exposes ‘fragile footing’ for S&P",
+            "source": "Financial Post",
+            "publishedAt": "2026-09-30T16:36:25Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": -0.194
           },
           {
-            "title": "Stronger GDP Raises the Stakes for Winning Consumer Dollars",
-            "source": "pymnts.com",
-            "publishedAt": "2026-09-30T16:26:24Z",
-            "sentiment": "Positive",
-            "compound": 0.718
+            "title": "Overbought Malaysia Bourse Called Lower Again On Wednesday",
+            "source": "Rttnews.com",
+            "publishedAt": "2026-09-30T16:35:49Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "Nvidia is approaching a breakout level. Plus, what we want to see from Micron",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-30T16:31:13Z",
+            "sentiment": "Neutral",
+            "compound": 0.077
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.67,
-  "trade_probability": 45.0,
+  "confirmation_score": 41.38,
+  "trade_probability": 44.83,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
