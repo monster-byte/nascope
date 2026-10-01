@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T06:37:45.609447+00:00",
+  "generated_at": "2026-10-01T06:45:49.558384+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.28,
+      "score": 47.39,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.63,
-        "change_5d_pct": 0.34
+        "current_dxy": 101.62,
+        "change_5d_pct": 0.326
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.83,
+      "score": 54.92,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.097,
+        "avg_compound": 0.098,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "RBI may raise repo rate by 100 bps through H1 2027: BofA Securities",
+            "source": "BusinessLine",
+            "publishedAt": "2026-09-30T06:43:34Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "National Trump Digital Accounts: What Is the NTDA Coin and Is It Really Linked to Trump?",
+            "source": "Bitcoinfoundation.org",
+            "publishedAt": "2026-09-30T06:41:34Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "US 30-yr yield rises to highest level since 2002: What this means for rupee",
             "source": "Business Standard",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-09-30T06:28:57Z",
             "sentiment": "Negative",
             "compound": -0.827
-          },
-          {
-            "title": "The Dollar Is Having Its Best Month Since June, and Bitcoin Hasn't Blinked Yet",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-30T06:28:06Z",
-            "sentiment": "Positive",
-            "compound": 0.637
-          },
-          {
-            "title": "Autoliv Retires Repurchased Shares, Decreases Number of Issued Shares",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-30T06:24:00Z",
-            "sentiment": "Positive",
-            "compound": 0.572
           }
         ]
       }
@@ -146,7 +146,7 @@
       }
     }
   },
-  "confirmation_score": 54.58,
+  "confirmation_score": 54.59,
   "trade_probability": 52.75,
   "market_regime": "BULLISH",
   "final_decision": {
