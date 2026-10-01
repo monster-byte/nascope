@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T19:45:52.970508+00:00",
+  "generated_at": "2026-10-01T20:01:20.044893+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,36 +13,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.4107,
+          "change_pct": -1.1279,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.1555,
-          "up": true
+          "change_pct": -0.2479,
+          "up": false
         },
         "NVDA": {
-          "change_pct": 0.9751,
+          "change_pct": 0.6135,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.6655,
+          "change_pct": -0.7514,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 81.66,
+      "score": 81.13,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30554.71,
-        "sma50": 29411.93,
-        "sma200": 27450.07
+        "last_price": 30501.56,
+        "sma50": 29410.86,
+        "sma200": 27449.81
       }
     },
     "vxn": {
@@ -50,7 +50,7 @@
       "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.58,
+        "current_vxn": 22.51,
         "percentile_vs_20d": 95.0
       }
     },
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.1,
+      "score": 44.2,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.04,
-        "change_5d_pct": 0.737
+        "current_dxy": 102.02,
+        "change_5d_pct": 0.725
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.04,
+      "score": 51.54,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.021,
+        "avg_compound": 0.031,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Judge Approves Paramount-Warner Bros. Merger Settlement",
-            "source": "TheWrap",
-            "publishedAt": "2026-09-30T19:42:28Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "Economy Continues To Grow Despite Iran War-Driven Headwinds",
-            "source": "The Daily Caller",
-            "publishedAt": "2026-09-30T19:40:13Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "AVXL Investors Have Opportunity to Lead Anavex Life Sciences Corp. Securities Fraud Lawsuit Filed by The Rosen Law Firm",
+            "title": "AGNC Investment Corp. Announces Date for Third Quarter Earnings Release and Stockholder Call",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-30T19:37:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.178
-          },
-          {
-            "title": "Why Concentrix Stock Ended Up Moving Higher Today",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-30T19:34:57Z",
+            "publishedAt": "2026-09-30T20:01:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "State Department reportedly pushes to redirect human rights funding toward right-wing causes abroad",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-30T19:32:26Z",
+            "title": "Frankenstein’s Bull-Bear Market",
+            "source": "Dailyreckoning.com",
+            "publishedAt": "2026-09-30T20:00:41Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "The final verdict is in for the Fed's troubled renovation and Jerome Powell",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-30T19:32:22Z",
+            "title": "Health In Tech Launches HitRix to Modernize the Nearly $1 Trillion U.S. Self-Funded Health Insurance Market and Announces Updated 2026 Full-Year Revenue Guidance",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-30T20:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "The high cost of city services puts festivals at risk. Could Ottawa's next mayor help?",
+            "source": "CBC News",
+            "publishedAt": "2026-09-30T19:56:51Z",
+            "sentiment": "Positive",
+            "compound": 0.477
+          },
+          {
+            "title": "Why diesel prices are an economic time bomb",
+            "source": "Vox",
+            "publishedAt": "2026-09-30T19:55:47Z",
             "sentiment": "Negative",
-            "compound": -0.34
+            "compound": -0.494
+          },
+          {
+            "title": "Is now a good time to buy gold for retirement? How gold prices can affect a 401(k) rollover decision",
+            "source": "CBS News",
+            "publishedAt": "2026-09-30T19:51:44Z",
+            "sentiment": "Positive",
+            "compound": 0.44
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 48.22,
-  "trade_probability": 48.93,
+  "confirmation_score": 41.45,
+  "trade_probability": 44.87,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
