@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T13:01:24.732233+00:00",
+  "generated_at": "2026-10-01T13:15:55.917047+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 29.7,
+      "score": 27.99,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.293,
-        "change_5d_pct": 2.538
+        "current_yield_pct": 5.304,
+        "change_5d_pct": 2.751
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.98,
+      "score": 45.84,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.8,
-        "change_5d_pct": 0.503
+        "current_dxy": 101.82,
+        "change_5d_pct": 0.52
       }
     },
     "macro": {
@@ -85,56 +85,10 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.65,
+      "score": 50.0,
       "status": "yellow",
       "details": {
-        "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.053,
-        "articles_analyzed": 25,
-        "top_headlines": [
-          {
-            "title": "TXSE Group Raises $430 Million Following Third Funding Round",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-30T13:01:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Wall Street and Silicon Valley Split Over AI’s Price Tag",
-            "source": "The Information",
-            "publishedAt": "2026-09-30T13:00:50Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Lean LaunchPad – The Next Generation",
-            "source": "Steveblank.com",
-            "publishedAt": "2026-09-30T13:00:28Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "These Nasdaq 100 Stocks Are Quietly Paying Real Dividends",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-30T13:00:11Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "How Real-Time Price Calibration Protects Long-Term Consumer Loyalty",
-            "source": "Entrepreneur",
-            "publishedAt": "2026-09-30T13:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.7
-          },
-          {
-            "title": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
-            "source": "Federalreserve.gov",
-            "publishedAt": "2026-09-30T13:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.681
-          }
-        ]
+        "error": "news_fetch_failed: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?q=Nasdaq+OR+%22Federal+Reserve%22+OR+%22stock+market%22+OR+inflation&language=en&sortBy=publishedAt&pageSize=25&apiKey=280ea038bd7e4ccb91d87f9d115484d4"
       }
     },
     "patent_momentum": {
@@ -146,8 +100,8 @@
       }
     }
   },
-  "confirmation_score": 35.05,
-  "trade_probability": 41.03,
+  "confirmation_score": 34.57,
+  "trade_probability": 40.74,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
