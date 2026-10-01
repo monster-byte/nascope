@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T16:15:54.226698+00:00",
+  "generated_at": "2026-10-01T16:31:10.417849+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.816,
+          "change_pct": -1.7233,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.1614,
+          "change_pct": -0.0432,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.1648,
+          "change_pct": 0.4632,
           "up": true
         },
         "AMZN": {
-          "change_pct": -1.1831,
+          "change_pct": -1.1071,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 79.54,
+      "score": 79.8,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30343.17,
-        "sma50": 29407.7,
-        "sma200": 27449.02
+        "last_price": 30368.83,
+        "sma50": 29408.21,
+        "sma200": 27449.15
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 23.28,
+        "current_vxn": 23.19,
         "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 36.52,
+      "score": 38.07,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.249,
-        "change_5d_pct": 1.685
+        "current_yield_pct": 5.239,
+        "change_5d_pct": 1.492
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.97,
+      "score": 44.09,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.05,
-        "change_5d_pct": 0.753
+        "current_dxy": 102.04,
+        "change_5d_pct": 0.738
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.77,
+      "score": 51.56,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.005,
+        "avg_compound": 0.031,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Consumers Feel Financial Pressure, But Expect to Spend the Same this Holiday Season",
-            "source": "WWD",
-            "publishedAt": "2026-09-30T16:13:36Z",
+            "title": "$HAREHOLDER ALERT: The M&A Class Action Firm Announces An Investigation of SoundThinking, Inc. (NASDAQ: SSTI)",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-30T16:30:00Z",
             "sentiment": "Positive",
-            "compound": 0.555
+            "compound": 0.447
           },
           {
-            "title": "Gen Digital Stock Jumps Nearly 7% as Norton Owner Rebounds From GoDaddy Takeover Selloff on Upbeat Outlook",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-09-30T16:13:17Z",
+            "title": "ChoiceOne Bank Announces Official Opening of ChoiceOne Bank Trail at Silver Lake Road and Jennings Road in Fenton",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-30T16:30:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Lōkahi Therapeutics Announces Qare, the First Real-Time Comparative Health Platform for GLP-1 Medications, with Public Availability Beginning October 14",
-            "source": "wallstreet-online",
-            "publishedAt": "2026-09-30T16:12:29Z",
+            "title": "FTC opens probe into AI giants, including Anthropic and OpenAI",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-30T16:29:03Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "CEA warns of looming oil and rate pressures in India’s H2, sees Q2 growth at 7.3%",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-30T16:07:56Z",
-            "sentiment": "Neutral",
-            "compound": -0.153
+            "title": "$HAREHOLDER ALERT: The M&A Class Action Firm Announces An Investigation of OceanLight Acquisition Corporation (NASDAQ: OCLT)",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-30T16:28:00Z",
+            "sentiment": "Positive",
+            "compound": 0.447
           },
           {
-            "title": "‘The economy is increasingly reliant on AI gains’: U.S. GDP grew 2.2% amid ‘sudden reversal of optimism’ on AI tech",
-            "source": "Fortune",
-            "publishedAt": "2026-09-30T16:06:24Z",
-            "sentiment": "Neutral",
-            "compound": 0.128
-          },
-          {
-            "title": "Rick Scott: 'If Socialism Worked, Then Everybody Would Be Wanting to Move to Havana Right Now'",
-            "source": "Breitbart News",
-            "publishedAt": "2026-09-30T16:05:46Z",
+            "title": "Spinnova Signs $1.7 Million Loan Deal with Tearfil",
+            "source": "WWD",
+            "publishedAt": "2026-09-30T16:27:40Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "Stronger GDP Raises the Stakes for Winning Consumer Dollars",
+            "source": "pymnts.com",
+            "publishedAt": "2026-09-30T16:26:24Z",
+            "sentiment": "Positive",
+            "compound": 0.718
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.25,
-  "trade_probability": 44.75,
+  "confirmation_score": 41.67,
+  "trade_probability": 45.0,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
