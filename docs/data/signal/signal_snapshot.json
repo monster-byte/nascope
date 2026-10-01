@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T16:01:20.282796+00:00",
+  "generated_at": "2026-10-01T16:15:54.226698+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 0.0,
+      "score": 25.0,
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.9865,
+          "change_pct": -1.816,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.1798,
+          "change_pct": -0.1614,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.0617,
-          "up": false
+          "change_pct": 0.1648,
+          "up": true
         },
         "AMZN": {
-          "change_pct": -1.231,
+          "change_pct": -1.1831,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 79.65,
+      "score": 79.54,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30353.74,
-        "sma50": 29407.91,
-        "sma200": 27449.07
+        "last_price": 30343.17,
+        "sma50": 29407.7,
+        "sma200": 27449.02
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 0.0,
+      "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 23.49,
-        "percentile_vs_20d": 100.0
+        "current_vxn": 23.28,
+        "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 36.21,
+      "score": 36.52,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.251,
-        "change_5d_pct": 1.724
+        "current_yield_pct": 5.249,
+        "change_5d_pct": 1.685
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.67,
+      "score": 43.97,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.09,
-        "change_5d_pct": 0.791
+        "current_dxy": 102.05,
+        "change_5d_pct": 0.753
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.91,
+      "score": 49.77,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.042,
+        "avg_compound": -0.005,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Meet Archy, the automated MCDONALD'S employee!",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-09-30T16:00:13Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "40 Trillion Reasons for Economic Collapse – Part 1, by Single Farmer",
-            "source": "Activistpost.com",
-            "publishedAt": "2026-09-30T16:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.494
-          },
-          {
-            "title": "Inflation rises below expectations in August; consumer spending robust",
-            "source": "Maryland Daily Record",
-            "publishedAt": "2026-09-30T15:58:12Z",
+            "title": "Consumers Feel Financial Pressure, But Expect to Spend the Same this Holiday Season",
+            "source": "WWD",
+            "publishedAt": "2026-09-30T16:13:36Z",
             "sentiment": "Positive",
-            "compound": 0.34
+            "compound": 0.555
           },
           {
-            "title": "Ahead of Market: 10 things that will decide stock market action on Thursday",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-30T15:56:32Z",
+            "title": "Gen Digital Stock Jumps Nearly 7% as Norton Owner Rebounds From GoDaddy Takeover Selloff on Upbeat Outlook",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-09-30T16:13:17Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "‘Forbidden’: Trump’s New Govt AI-Chatbot No Longer Refutes His Many Wild Claims",
-            "source": "Mediaite",
-            "publishedAt": "2026-09-30T15:51:31Z",
-            "sentiment": "Negative",
-            "compound": -0.296
+            "title": "Lōkahi Therapeutics Announces Qare, the First Real-Time Comparative Health Platform for GLP-1 Medications, with Public Availability Beginning October 14",
+            "source": "wallstreet-online",
+            "publishedAt": "2026-09-30T16:12:29Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "FII selling worsens; foreign investors pull out Rs 26,000 crore from Indian equities in three days",
+            "title": "CEA warns of looming oil and rate pressures in India’s H2, sees Q2 growth at 7.3%",
             "source": "The Times of India",
-            "publishedAt": "2026-09-30T15:50:46Z",
-            "sentiment": "Negative",
-            "compound": -0.477
+            "publishedAt": "2026-09-30T16:07:56Z",
+            "sentiment": "Neutral",
+            "compound": -0.153
+          },
+          {
+            "title": "‘The economy is increasingly reliant on AI gains’: U.S. GDP grew 2.2% amid ‘sudden reversal of optimism’ on AI tech",
+            "source": "Fortune",
+            "publishedAt": "2026-09-30T16:06:24Z",
+            "sentiment": "Neutral",
+            "compound": 0.128
+          },
+          {
+            "title": "Rick Scott: 'If Socialism Worked, Then Everybody Would Be Wanting to Move to Havana Right Now'",
+            "source": "Breitbart News",
+            "publishedAt": "2026-09-30T16:05:46Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 33.38,
-  "trade_probability": 40.03,
+  "confirmation_score": 41.25,
+  "trade_probability": 44.75,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
