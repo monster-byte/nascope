@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T15:01:28.960803+00:00",
+  "generated_at": "2026-10-01T15:16:04.031709+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.2775,
+          "change_pct": -1.4405,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.0739,
+          "change_pct": -0.0301,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.31,
+          "change_pct": -0.0182,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.4624,
+          "change_pct": -1.305,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 79.55,
+      "score": 79.68,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30344.35,
-        "sma50": 29407.72,
-        "sma200": 27449.02
+        "last_price": 30356.71,
+        "sma50": 29407.97,
+        "sma200": 27449.08
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 23.15,
+        "current_vxn": 23.44,
         "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 30.01,
+      "score": 28.3,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.291,
-        "change_5d_pct": 2.499
+        "current_yield_pct": 5.302,
+        "change_5d_pct": 2.712
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.55,
+      "score": 44.57,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.85,
-        "change_5d_pct": 0.557
+        "current_dxy": 101.98,
+        "change_5d_pct": 0.679
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.0,
+      "score": 47.43,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.02,
-        "articles_analyzed": 24,
+        "avg_compound": -0.051,
+        "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Record AI spend is changing the market hunt for 'cash cows' and 'quality' stock investments",
+            "source": "CNBC",
+            "publishedAt": "2026-09-30T15:15:14Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Utilities Cut Power to Over 173,000 Homes During America’s Hottest July on Record",
+            "source": "Gizmodo.com",
+            "publishedAt": "2026-09-30T15:15:12Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "Consumer Spending Soared In August",
+            "source": "Breitbart News",
+            "publishedAt": "2026-09-30T15:12:55Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Even middle-income folks are struggling to pay rent",
+            "source": "Marketplace.org",
+            "publishedAt": "2026-09-30T15:11:00Z",
+            "sentiment": "Negative",
+            "compound": -0.494
+          },
+          {
+            "title": "Fed’s Waller Says AI Shopping Changes What Banks Need to Authenticate",
+            "source": "pymnts.com",
+            "publishedAt": "2026-09-30T15:03:43Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Disney Data Dump September 30 2026",
             "source": "Touringplans.com",
             "publishedAt": "2026-09-30T15:00:34Z",
             "sentiment": "Negative",
             "compound": -0.382
-          },
-          {
-            "title": "Robert Hubbell: Republicans Are Out of Touch with the Past and the Future",
-            "source": "Dianeravitch.net",
-            "publishedAt": "2026-09-30T15:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "(PR) Synopsys and Amazon Announce Strategic, Multi-year IP Agreement for Custom Silicon",
-            "source": "Techpowerup.com",
-            "publishedAt": "2026-09-30T14:56:11Z",
-            "sentiment": "Positive",
-            "compound": 0.599
-          },
-          {
-            "title": "September rout makes history: Nifty posts worst monthly fall in 8 years, worst series drop since 2001",
-            "source": "BusinessLine",
-            "publishedAt": "2026-09-30T14:56:08Z",
-            "sentiment": "Negative",
-            "compound": -0.823
-          },
-          {
-            "title": "GDP Revised Up To Show Stronger Growth In First Half of Year",
-            "source": "Breitbart News",
-            "publishedAt": "2026-09-30T14:50:06Z",
-            "sentiment": "Positive",
-            "compound": 0.637
-          },
-          {
-            "title": "Healthier balance sheets drive credit upgrades across sectors in H1FY27",
-            "source": "Business Standard",
-            "publishedAt": "2026-09-30T14:48:50Z",
-            "sentiment": "Positive",
-            "compound": 0.382
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 33.43,
-  "trade_probability": 40.06,
+  "confirmation_score": 32.81,
+  "trade_probability": 39.69,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
