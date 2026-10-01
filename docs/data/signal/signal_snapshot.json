@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T15:16:04.031709+00:00",
+  "generated_at": "2026-10-01T15:31:10.662747+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,36 +13,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 0.0,
+      "score": 25.0,
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.4405,
+          "change_pct": -1.6933,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.0301,
+          "change_pct": -0.1351,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.0182,
-          "up": false
+          "change_pct": 0.3521,
+          "up": true
         },
         "AMZN": {
-          "change_pct": -1.305,
+          "change_pct": -1.5028,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 79.68,
+      "score": 79.7,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30356.71,
-        "sma50": 29407.97,
-        "sma200": 27449.08
+        "last_price": 30358.91,
+        "sma50": 29408.01,
+        "sma200": 27449.1
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 23.44,
+        "current_vxn": 23.6,
         "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 28.3,
+      "score": 30.94,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.302,
-        "change_5d_pct": 2.712
+        "current_yield_pct": 5.285,
+        "change_5d_pct": 2.383
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.57,
+      "score": 44.93,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.98,
-        "change_5d_pct": 0.679
+        "current_dxy": 101.93,
+        "change_5d_pct": 0.634
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.43,
+      "score": 48.57,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.051,
-        "articles_analyzed": 23,
+        "avg_compound": -0.029,
+        "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Record AI spend is changing the market hunt for 'cash cows' and 'quality' stock investments",
-            "source": "CNBC",
-            "publishedAt": "2026-09-30T15:15:14Z",
+            "title": "How Is The Iran War Affecting US Inflation And Energy Prices",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-30T15:30:54Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
+          {
+            "title": "California home prices 3rd weakest in US, by this math",
+            "source": "Medianewsgroup.com",
+            "publishedAt": "2026-09-30T15:26:35Z",
+            "sentiment": "Negative",
+            "compound": -0.511
+          },
+          {
+            "title": "Crisil lifts India FY27 growth forecast to 7% on strong H1 momentum",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-30T15:25:31Z",
+            "sentiment": "Positive",
+            "compound": 0.71
+          },
+          {
+            "title": "WiMi Researches Quantum Computing Simulation Model Based on Hybrid Parallel Architecture",
+            "source": "PRNewswire",
+            "publishedAt": "2026-09-30T15:25:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Utilities Cut Power to Over 173,000 Homes During America’s Hottest July on Record",
-            "source": "Gizmodo.com",
-            "publishedAt": "2026-09-30T15:15:12Z",
+            "title": "New SNAP rules take effect Oct. 1, raising fears of more benefit cuts",
+            "source": "CBS News",
+            "publishedAt": "2026-09-30T15:23:37Z",
             "sentiment": "Negative",
-            "compound": -0.273
+            "compound": -0.247
           },
           {
-            "title": "Consumer Spending Soared In August",
-            "source": "Breitbart News",
-            "publishedAt": "2026-09-30T15:12:55Z",
+            "title": "US dollar retreats after softer-than-expected inflation data",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-30T15:22:45Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Even middle-income folks are struggling to pay rent",
-            "source": "Marketplace.org",
-            "publishedAt": "2026-09-30T15:11:00Z",
-            "sentiment": "Negative",
-            "compound": -0.494
-          },
-          {
-            "title": "Fed’s Waller Says AI Shopping Changes What Banks Need to Authenticate",
-            "source": "pymnts.com",
-            "publishedAt": "2026-09-30T15:03:43Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Disney Data Dump September 30 2026",
-            "source": "Touringplans.com",
-            "publishedAt": "2026-09-30T15:00:34Z",
-            "sentiment": "Negative",
-            "compound": -0.382
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 32.81,
-  "trade_probability": 39.69,
+  "confirmation_score": 40.05,
+  "trade_probability": 44.03,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
