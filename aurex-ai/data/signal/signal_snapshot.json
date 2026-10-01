@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T06:31:01.514845+00:00",
+  "generated_at": "2026-10-01T06:37:45.609447+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.5,
+      "score": 47.28,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.61,
-        "change_5d_pct": 0.313
+        "current_dxy": 101.63,
+        "change_5d_pct": 0.34
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.98,
+      "score": 54.83,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.04,
+        "avg_compound": 0.097,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "US 30-yr yield rises to highest level since 2002: What this means for rupee",
+            "source": "Business Standard",
+            "publishedAt": "2026-09-30T06:35:38Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Has government increased SSY, PPF, NSC, other small savings schemes' interest rates for October-December 2026 quarter?",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-30T06:35:05Z",
+            "sentiment": "Positive",
+            "compound": 0.625
+          },
+          {
+            "title": "Global Market: Japan 10-Year bond yield heads for record fifth quarterly gain",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-30T06:31:37Z",
+            "sentiment": "Positive",
+            "compound": 0.527
+          },
           {
             "title": "Trump weighs diesel export ban as US fuel crisis deepens",
             "source": "The Irish Times",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-09-30T06:24:00Z",
             "sentiment": "Positive",
             "compound": 0.572
-          },
-          {
-            "title": "Autoliv Retires Repurchased Shares, Decreases Number of Issued Shares",
-            "source": "PRNewswire",
-            "publishedAt": "2026-09-30T06:22:00Z",
-            "sentiment": "Positive",
-            "compound": 0.572
-          },
-          {
-            "title": "TCS, Wipro, other IT stocks rebound up to 6%, snapping 8-day losing streak. Why is Jefferies cautious?",
-            "source": "The Times of India",
-            "publishedAt": "2026-09-30T06:21:29Z",
-            "sentiment": "Negative",
-            "compound": -0.459
-          },
-          {
-            "title": "Elevate Campuses debuts at discount, valued at $625 million",
-            "source": "BusinessLine",
-            "publishedAt": "2026-09-30T06:20:22Z",
-            "sentiment": "Positive",
-            "compound": 0.44
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.34,
-  "trade_probability": 52.6,
+  "confirmation_score": 54.58,
+  "trade_probability": 52.75,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
