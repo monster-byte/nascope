@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T18:15:49.714811+00:00",
+  "generated_at": "2026-10-01T18:31:07.866435+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -1.3912,
+          "change_pct": -1.4139,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.2566,
+          "change_pct": 0.2556,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.4937,
+          "change_pct": 0.6876,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.4297,
+          "change_pct": -0.3997,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 80.95,
+      "score": 81.33,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30483.81,
-        "sma50": 29410.51,
-        "sma200": 27449.72
+        "last_price": 30522.09,
+        "sma50": 29411.27,
+        "sma200": 27449.91
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.79,
+        "current_vxn": 22.94,
         "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 37.45,
+      "score": 38.07,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.243,
-        "change_5d_pct": 1.569
+        "current_yield_pct": 5.239,
+        "change_5d_pct": 1.492
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.83,
+      "score": 43.04,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.2,
-        "change_5d_pct": 0.896
+        "current_dxy": 102.17,
+        "change_5d_pct": 0.87
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.23,
+      "score": 52.68,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.015,
+        "avg_compound": 0.054,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "TYGO Investors Have Opportunity to Lead Tigo Energy, Inc. Securities Fraud Lawsuit Filed by The Rosen Law Firm",
+            "title": "OpenAI and Synopsys Announce GPT-Synopsys: Frontier Intelligence to Revolutionize Chip Design",
             "source": "PRNewswire",
-            "publishedAt": "2026-09-30T18:15:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.103
-          },
-          {
-            "title": "AI infra firm Accelevation's shares fall in tepid Nasdaq debut",
-            "source": "CNA",
-            "publishedAt": "2026-09-30T18:14:18Z",
+            "publishedAt": "2026-09-30T18:29:00Z",
             "sentiment": "Positive",
-            "compound": 0.296
+            "compound": 0.477
           },
           {
-            "title": "FEDS Note: AI on the Factory Floor: Evidence from Manufacturing Job Postings",
-            "source": "Federalreserve.gov",
-            "publishedAt": "2026-09-30T18:13:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Who Should **Really** Be Held Accountable For Spreading Fake News?",
-            "source": "CleanTechnica",
-            "publishedAt": "2026-09-30T18:07:08Z",
+            "title": "Polymarket traders put October Fed hike odds at 37%, with no change at 61%",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-09-30T18:25:01Z",
             "sentiment": "Negative",
-            "compound": -0.477
+            "compound": -0.296
           },
           {
-            "title": "Stock Market Indexes Rally on Inflation Data, Though the Dow Sat It Out",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-30T18:05:28Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Market may be mispricing AI doomsday risk: Strategist",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-30T18:05:22Z",
+            "title": "Aave’s $50 million lending plan could lose money without a single default",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-09-30T18:20:26Z",
             "sentiment": "Negative",
-            "compound": -0.71
+            "compound": -0.402
+          },
+          {
+            "title": "Stammering MAGA commentator slammed on his own show over surging diesel prices",
+            "source": "Raw Story",
+            "publishedAt": "2026-09-30T18:19:55Z",
+            "sentiment": "Negative",
+            "compound": -0.25
+          },
+          {
+            "title": "Nvidia is approaching a breakout level. Plus, what we want to see from Micron",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-30T18:19:41Z",
+            "sentiment": "Neutral",
+            "compound": 0.077
+          },
+          {
+            "title": "Federal Reserve watchdog finds no criminal violations for building renovation cost overruns",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-09-30T18:16:46Z",
+            "sentiment": "Positive",
+            "compound": 0.676
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 48.17,
-  "trade_probability": 48.9,
+  "confirmation_score": 48.63,
+  "trade_probability": 49.18,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
