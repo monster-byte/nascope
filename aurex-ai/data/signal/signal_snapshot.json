@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T15:45:56.219451+00:00",
+  "generated_at": "2026-10-01T16:01:20.282796+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.2752,
+          "change_pct": -1.9865,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.3149,
+          "change_pct": -0.1798,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.114,
+          "change_pct": -0.0617,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.5068,
+          "change_pct": -1.231,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 79.07,
+      "score": 79.65,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30295.78,
-        "sma50": 29406.75,
-        "sma200": 27448.78
+        "last_price": 30353.74,
+        "sma50": 29407.91,
+        "sma200": 27449.07
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 5.0,
+      "score": 0.0,
       "status": "red",
       "details": {
-        "current_vxn": 23.45,
-        "percentile_vs_20d": 95.0
+        "current_vxn": 23.49,
+        "percentile_vs_20d": 100.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 33.26,
+      "score": 36.21,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.27,
-        "change_5d_pct": 2.092
+        "current_yield_pct": 5.251,
+        "change_5d_pct": 1.724
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.69,
+      "score": 43.67,
       "status": "yellow",
       "details": {
         "current_dxy": 102.09,
-        "change_5d_pct": 0.789
+        "change_5d_pct": 0.791
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.18,
+      "score": 47.91,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.056,
-        "articles_analyzed": 24,
+        "avg_compound": -0.042,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Isabel Schnabel: Monetary policy in a world of overlapping shocks",
-            "source": "Europa.eu",
-            "publishedAt": "2026-09-30T15:45:00Z",
+            "title": "Meet Archy, the automated MCDONALD'S employee!",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-09-30T16:00:13Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "40 Trillion Reasons for Economic Collapse – Part 1, by Single Farmer",
+            "source": "Activistpost.com",
+            "publishedAt": "2026-09-30T16:00:00Z",
             "sentiment": "Negative",
-            "compound": -0.382
+            "compound": -0.494
           },
           {
-            "title": "Letters to the Editor dated September 30, 2026",
-            "source": "BusinessLine",
-            "publishedAt": "2026-09-30T15:43:43Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Market Trading Guide: JM Financial, IDFC First Bank among 5 stock recommendations for Thursday",
-            "source": "Economictimes.com",
-            "publishedAt": "2026-09-30T15:43:31Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Lula Bets Big on Defense Ahead of Election",
-            "source": "Foreign Policy",
-            "publishedAt": "2026-09-30T15:34:09Z",
-            "sentiment": "Neutral",
-            "compound": 0.128
-          },
-          {
-            "title": "International Petroleum Corporation Updated Share Capital",
-            "source": "Financial Post",
-            "publishedAt": "2026-09-30T15:33:45Z",
+            "title": "Inflation rises below expectations in August; consumer spending robust",
+            "source": "Maryland Daily Record",
+            "publishedAt": "2026-09-30T15:58:12Z",
             "sentiment": "Positive",
-            "compound": 0.296
+            "compound": 0.34
           },
           {
-            "title": "European stocks close lower as inflation rises",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-30T15:32:39Z",
+            "title": "Ahead of Market: 10 things that will decide stock market action on Thursday",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-30T15:56:32Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "‘Forbidden’: Trump’s New Govt AI-Chatbot No Longer Refutes His Many Wild Claims",
+            "source": "Mediaite",
+            "publishedAt": "2026-09-30T15:51:31Z",
             "sentiment": "Negative",
             "compound": -0.296
+          },
+          {
+            "title": "FII selling worsens; foreign investors pull out Rs 26,000 crore from Indian equities in three days",
+            "source": "The Times of India",
+            "publishedAt": "2026-09-30T15:50:46Z",
+            "sentiment": "Negative",
+            "compound": -0.477
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 33.29,
-  "trade_probability": 39.97,
+  "confirmation_score": 33.38,
+  "trade_probability": 40.03,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
