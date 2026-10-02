@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T18:01:27.120916+00:00",
+  "generated_at": "2026-10-02T18:15:51.162842+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.7981,
+          "change_pct": 0.659,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.0718,
+          "change_pct": -0.1009,
           "up": false
         },
         "NVDA": {
-          "change_pct": 1.4036,
+          "change_pct": 1.4338,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.7915,
+          "change_pct": 0.7513,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 83.59,
+      "score": 83.62,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30792.23,
-        "sma50": 29457.61,
-        "sma200": 27478.43
+        "last_price": 30795.08,
+        "sma50": 29457.67,
+        "sma200": 27478.45
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 35.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.19,
+        "current_vxn": 22.18,
         "percentile_vs_20d": 65.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 34.72,
+      "score": 35.03,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.283,
-        "change_5d_pct": 1.91
+        "current_yield_pct": 5.281,
+        "change_5d_pct": 1.871
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.5,
+      "score": 42.57,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.92,
-        "change_5d_pct": 0.938
+        "current_dxy": 101.91,
+        "change_5d_pct": 0.929
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.59,
+      "score": 49.57,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.032,
+        "avg_compound": -0.009,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Bond yield explosion gives Bitcoin a strong signal – is now finally Satoshi’s time?",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-10-01T18:00:21Z",
-            "sentiment": "Positive",
-            "compound": 0.511
-          },
-          {
-            "title": "Comment on The Pixel Project: Five Great Reasons to Give to the 12th Annual Fall Read For Pixels Campaign For Domestic Violence Awareness Month 2026 by Jim C.",
-            "source": "Terribleminds.com",
-            "publishedAt": "2026-10-01T17:54:53Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Why are world bond markets selling off again?",
+            "title": "The Street feels global heat",
             "source": "The Times of India",
-            "publishedAt": "2026-10-01T17:54:37Z",
+            "publishedAt": "2026-10-01T18:09:58Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "New FORTRESS America Program Elevates Defense Supply Chain Resilience",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-01T17:51:36Z",
-            "sentiment": "Neutral",
-            "compound": 0.128
+            "title": "'Sex, money, manipulation': Ex-Fed bigwig seduced online and blackmailed with nude photos by alleged Chinese spy",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-10-01T18:08:55Z",
+            "sentiment": "Negative",
+            "compound": -0.572
           },
           {
-            "title": "San Francisco Fed study finds stablecoin Treasury growth offsets China’s retreat",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-01T17:48:32Z",
+            "title": "US benchmark yield at its highest since 2002 amid rising oil prices",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-01T18:07:04Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "The National Debt Has Exploded. The Reckoning Is Still Coming.",
+            "source": "Reason",
+            "publishedAt": "2026-10-01T18:05:23Z",
+            "sentiment": "Negative",
+            "compound": -0.361
+          },
+          {
+            "title": "Trump Admits He’s a NIMBY on Data Centers",
+            "source": "Gizmodo.com",
+            "publishedAt": "2026-10-01T18:05:19Z",
+            "sentiment": "Neutral",
+            "compound": -0.086
+          },
+          {
+            "title": "Alphabet vs. Amazon vs. Microsoft: Which \"Magnificent Seven\" Stock Is the Better Buy Right Now?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-01T18:05:05Z",
             "sentiment": "Positive",
-            "compound": 0.637
-          },
-          {
-            "title": "Oil Is Again Flowing Out of Hormuz",
-            "source": "Foreign Policy",
-            "publishedAt": "2026-10-01T17:48:13Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": 0.818
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.34,
-  "trade_probability": 54.4,
+  "confirmation_score": 57.21,
+  "trade_probability": 54.33,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
