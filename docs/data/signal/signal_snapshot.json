@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T16:15:51.350936+00:00",
+  "generated_at": "2026-10-02T16:31:06.255870+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.5835,
+          "change_pct": 0.65,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.1019,
+          "change_pct": -0.229,
           "up": false
         },
         "NVDA": {
-          "change_pct": 2.1638,
+          "change_pct": 2.004,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.7312,
+          "change_pct": 0.7674,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 84.27,
+      "score": 83.91,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30860.68,
-        "sma50": 29458.98,
-        "sma200": 27478.78
+        "last_price": 30824.31,
+        "sma50": 29458.25,
+        "sma200": 27478.59
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 50.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 22.0,
+        "current_vxn": 21.93,
         "percentile_vs_20d": 50.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 37.65,
+      "score": 37.96,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.264,
-        "change_5d_pct": 1.543
+        "current_yield_pct": 5.262,
+        "change_5d_pct": 1.505
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.5,
+      "score": 42.62,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.92,
-        "change_5d_pct": 0.938
+        "current_dxy": 101.9,
+        "change_5d_pct": 0.922
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.46,
+      "score": 49.9,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.029,
+        "avg_compound": -0.002,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "India must become more competition-friendly, says finance ministry report",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-01T16:26:36Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Bank of America's famed stock market gauge is on the verge of flashing a sell signal",
+            "source": "Business Insider",
+            "publishedAt": "2026-10-01T16:25:12Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Most Americans blame Trump for high prices as his economic approval hits new low, AP-NORC poll shows",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-01T16:19:50Z",
+            "sentiment": "Neutral",
+            "compound": -0.172
+          },
+          {
+            "title": "US Treasury yields fall as rate hike concerns ease",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-01T16:18:10Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
+          {
+            "title": "'Look at how much coverage Gaza got': Iranians cannot understand why slaughter of up to 30,000 protesters went almost unnoticed in the West, says NATALIE LISBONA as she breaks down new footage of Ayatollah's January 'bloodbath' on latest Deep Dive podcast",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-10-01T16:17:11Z",
+            "sentiment": "Negative",
+            "compound": -0.226
+          },
           {
             "title": "Global bond selloff boosts dollar, pressures euro",
             "source": "CNA",
             "publishedAt": "2026-10-01T16:15:15Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Dollar hits 17-month high versus euro as bond selloff lifts yields",
-            "source": "CNA",
-            "publishedAt": "2026-10-01T16:15:15Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "FEDS Note: Pricing Sentiment: Measuring Input Cost Pressure from ISM Survey Responses",
-            "source": "Federalreserve.gov",
-            "publishedAt": "2026-10-01T16:15:00Z",
-            "sentiment": "Negative",
-            "compound": -0.296
-          },
-          {
-            "title": "FEDS Note: Beyond Aggregates: Measuring Manufacturing Subsector Heterogeneity with the Business Trends and Outlook Survey",
-            "source": "Federalreserve.gov",
-            "publishedAt": "2026-10-01T16:13:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Stock Market Today: Dow Gains As Yields Waffle; Micron Stock Drops On Earnings (Live Coverage) - Investor's Business Daily",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-10-01T16:12:48Z",
-            "sentiment": "Positive",
-            "compound": 0.34
-          },
-          {
-            "title": "10 reasons investors are driving U.S. government bond yields higher",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-01T16:12:34Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 59.17,
-  "trade_probability": 55.5,
+  "confirmation_score": 59.03,
+  "trade_probability": 55.42,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
