@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T17:15:54.840254+00:00",
+  "generated_at": "2026-10-02T17:31:10.770957+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.8525,
+          "change_pct": 0.7799,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.13,
+          "change_pct": -0.19,
           "up": false
         },
         "NVDA": {
-          "change_pct": 1.4165,
+          "change_pct": 1.2005,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.9241,
+          "change_pct": 0.904,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 83.7,
+      "score": 83.18,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30802.84,
-        "sma50": 29457.82,
-        "sma200": 27478.49
+        "last_price": 30750.43,
+        "sma50": 29456.78,
+        "sma200": 27478.22
       }
     },
     "vxn": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.58,
+      "score": 42.64,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.91,
-        "change_5d_pct": 0.927
+        "current_dxy": 101.9,
+        "change_5d_pct": 0.92
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.59,
+      "score": 50.93,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.032,
+        "avg_compound": 0.019,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "4 things to buy, and 7 to skip, during October Prime Day",
+            "source": "NBC News",
+            "publishedAt": "2026-10-01T17:30:02Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Jefferson, The U.S. Economy and Monetary Policy",
+            "source": "Federalreserve.gov",
+            "publishedAt": "2026-10-01T17:30:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "The Nasdaq Rose 1.9% in September. Intel Exploded 34%",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-01T17:20:15Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Mortgage rates soar to 7.28% — highest level in nearly 3 years",
             "source": "New York Post",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-01T17:11:44Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Japan announces new permanent residency guidelines, foreigners must earn more than average Japanese person",
-            "source": "SoraNews24",
-            "publishedAt": "2026-10-01T17:10:55Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "In 1975, an investor put $5,000 into Coca-Cola; 49 years later, the investment was worth more than $2.35 million",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-01T17:08:32Z",
-            "sentiment": "Positive",
-            "compound": 0.226
-          },
-          {
-            "title": "Interactive Brokers Group Reports Brokerage Metrics and Other Financial Information for September 2026, includes Reg.-NMS Execution Statistics",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-01T17:05:26Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 58.84,
-  "trade_probability": 55.3,
+  "confirmation_score": 58.71,
+  "trade_probability": 55.23,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
