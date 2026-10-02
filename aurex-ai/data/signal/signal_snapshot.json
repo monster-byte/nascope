@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T15:31:12.506780+00:00",
+  "generated_at": "2026-10-02T15:45:53.555556+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.3235,
+          "change_pct": 0.3628,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.033,
+          "change_pct": -0.0251,
           "up": false
         },
         "NVDA": {
-          "change_pct": 1.3344,
+          "change_pct": 1.6411,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.6529,
+          "change_pct": 0.5946,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 83.48,
+      "score": 83.89,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30780.87,
-        "sma50": 29457.38,
-        "sma200": 27478.38
+        "last_price": 30821.87,
+        "sma50": 29458.2,
+        "sma200": 27478.58
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 35.0,
+      "score": 30.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.18,
-        "percentile_vs_20d": 65.0
+        "current_vxn": 22.27,
+        "percentile_vs_20d": 70.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 40.28,
-      "status": "yellow",
+      "score": 39.2,
+      "status": "red",
       "details": {
-        "current_yield_pct": 5.247,
-        "change_5d_pct": 1.215
+        "current_yield_pct": 5.254,
+        "change_5d_pct": 1.35
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.88,
+      "score": 42.96,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.87,
-        "change_5d_pct": 0.89
+        "current_dxy": 101.86,
+        "change_5d_pct": 0.88
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.91,
+      "score": 48.65,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.042,
+        "avg_compound": -0.027,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Risk aversion spreads across assets as bond yields hit a two-year high",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-01T15:28:14Z",
-            "sentiment": "Negative",
-            "compound": -0.511
-          },
-          {
-            "title": "Workday Launches in the UAE to Help Organisations Transform HR, Finance, and IT in the AI Era",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-01T15:28:00Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "UK homeowners face mortgage shock as global bond sell-off deepens",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-01T15:25:31Z",
-            "sentiment": "Negative",
-            "compound": -0.382
-          },
-          {
-            "title": "Warning signs multiply for Trump just a month before the midterms",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-01T15:24:20Z",
-            "sentiment": "Negative",
-            "compound": -0.34
-          },
-          {
-            "title": "Cognizant Stock Jumps Nearly 8% as Accenture's Blowout Results Spark Rally in IT Services Amid AI Fears",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-10-01T15:21:00Z",
-            "sentiment": "Negative",
-            "compound": -0.226
-          },
-          {
-            "title": "US Stock Market predictions for Quarter 4: November midterm elections 2026, list of factors, concerns that will drive Wall Street investors, S&P 500, Nasdaq in final quarter",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-01T15:18:52Z",
+            "title": "Why stocks have held up as yields surge to 24-year highs",
+            "source": "Business Insider",
+            "publishedAt": "2026-10-01T15:41:31Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "The UK’s pension triple lock has done its job and needs to be retired",
+            "source": "The Conversation Africa",
+            "publishedAt": "2026-10-01T15:33:49Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Evernorth shareholders approve $1 billion XRP treasury deal, clearing path to Nasdaq debut",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-01T15:32:54Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "Calls increase for Bank of Canada to hike rates in October as global investment bank UBS weighs in",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-01T15:32:40Z",
+            "sentiment": "Positive",
+            "compound": 0.318
+          },
+          {
+            "title": "A Space-Launch Crash Is Coming",
+            "source": "Foreign Policy",
+            "publishedAt": "2026-10-01T15:32:07Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
+          {
+            "title": "World Monuments Fund: Funding Is The Biggest Threat To World Heritage",
+            "source": "Art Newspaper",
+            "publishedAt": "2026-10-01T15:31:00Z",
+            "sentiment": "Negative",
+            "compound": -0.527
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.78,
-  "trade_probability": 54.67,
+  "confirmation_score": 57.31,
+  "trade_probability": 54.39,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
