@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T14:01:20.618870+00:00",
+  "generated_at": "2026-10-02T14:15:53.220713+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.4142,
+          "change_pct": 1.0082,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.4133,
+          "change_pct": 0.4157,
           "up": true
         },
         "NVDA": {
-          "change_pct": 2.6433,
+          "change_pct": 2.3539,
           "up": true
         },
         "AMZN": {
-          "change_pct": 1.2093,
+          "change_pct": 1.5227,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 84.91,
+      "score": 85.37,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30924.5,
-        "sma50": 29460.26,
-        "sma200": 27479.09
+        "last_price": 30970.89,
+        "sma50": 29461.19,
+        "sma200": 27479.33
       }
     },
     "vxn": {
@@ -50,7 +50,7 @@
       "score": 40.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 22.12,
+        "current_vxn": 22.1,
         "percentile_vs_20d": 60.0
       }
     },
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.56,
+      "score": 44.14,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.78,
-        "change_5d_pct": 0.805
+        "current_dxy": 101.71,
+        "change_5d_pct": 0.732
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.33,
+      "score": 55.12,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.047,
+        "avg_compound": 0.102,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Household and community drivers of Aedes aegypti infestation in tropical cities: Guiding community-led interventions",
-            "source": "Plos.org",
-            "publishedAt": "2026-10-01T14:00:00Z",
+            "title": "Indonesia calls for global action to strengthen food security",
+            "source": "Antaranews.com",
+            "publishedAt": "2026-10-01T14:14:08Z",
+            "sentiment": "Positive",
+            "compound": 0.572
+          },
+          {
+            "title": "XPENG Hits Record Deliveries",
+            "source": "CleanTechnica",
+            "publishedAt": "2026-10-01T14:12:13Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Decision-theoretic recruitment and validation planning for depression surveys: An illustrative Chinese application",
-            "source": "Plos.org",
-            "publishedAt": "2026-10-01T14:00:00Z",
+            "title": "RBI set for 50–75 bps rate hike as Rupee, Oil and Global risks mount, says Bandhan Life",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-01T14:11:21Z",
             "sentiment": "Negative",
-            "compound": -0.572
+            "compound": -0.273
           },
           {
-            "title": "Waller, The Data Version of Godzilla versus Kong: FRED Takes on AI",
-            "source": "Federalreserve.gov",
-            "publishedAt": "2026-10-01T14:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "NEOG SHAREHOLDER INVESTIGATION: SueWallSt Notifies Investors of Potential Securities Claims Involving Neogen",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-01T14:11:00Z",
+            "sentiment": "Positive",
+            "compound": 0.296
           },
           {
-            "title": "Using GIS, remote-sensing and linear modeling to prioritize spatially explicit action against erosion and sediment transport within Lake Victoria watershed in Kenya",
-            "source": "Plos.org",
-            "publishedAt": "2026-10-01T14:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "ASTS Shareholder Alert: November 13, 2026 Lead Plaintiff Deadline in AST SpaceMobile, Inc. Securities Class Action - Contact SueWallSt",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-01T14:11:00Z",
+            "sentiment": "Positive",
+            "compound": 0.527
           },
           {
-            "title": "Predictors of mortality available at emergency department arrival in massively transfused trauma patients without severe TBI: A single-center retrospective cohort study",
-            "source": "Plos.org",
-            "publishedAt": "2026-10-01T14:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.497
-          },
-          {
-            "title": "Jio Platforms IPO in final stages after concluding worldwide roadshows",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-01T13:57:17Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "FCEL Shareholder Alert: Investors With Losses May Seek to Lead the Class Action in FuelCell Energy, Inc. Securities Lawsuit - Contact SueWallSt",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-01T14:11:00Z",
+            "sentiment": "Positive",
+            "compound": 0.226
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 66.55,
-  "trade_probability": 59.93,
+  "confirmation_score": 66.91,
+  "trade_probability": 60.15,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
