@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T17:01:22.672757+00:00",
+  "generated_at": "2026-10-02T17:15:54.840254+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.9024,
+          "change_pct": 0.8525,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.1311,
+          "change_pct": -0.13,
           "up": false
         },
         "NVDA": {
-          "change_pct": 1.6973,
+          "change_pct": 1.4165,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.963,
+          "change_pct": 0.9241,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 84.13,
+      "score": 83.7,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30846.47,
-        "sma50": 29458.7,
-        "sma200": 27478.7
+        "last_price": 30802.84,
+        "sma50": 29457.82,
+        "sma200": 27478.49
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 40.0,
+      "score": 50.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 22.05,
-        "percentile_vs_20d": 60.0
+        "current_vxn": 22.04,
+        "percentile_vs_20d": 50.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 36.27,
+      "score": 35.65,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.273,
-        "change_5d_pct": 1.717
+        "current_yield_pct": 5.277,
+        "change_5d_pct": 1.794
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.42,
+      "score": 42.58,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.93,
-        "change_5d_pct": 0.948
+        "current_dxy": 101.91,
+        "change_5d_pct": 0.927
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.6,
+      "score": 51.59,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.008,
+        "avg_compound": 0.032,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Raising Your Prices Can Help You Fight Rising Customer Acquisition Costs (But Only If You’re Careful)",
-            "source": "Entrepreneur",
-            "publishedAt": "2026-10-01T17:00:00Z",
+            "title": "Mortgage rates soar to 7.28% — highest level in nearly 3 years",
+            "source": "New York Post",
+            "publishedAt": "2026-10-01T17:13:35Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Global markets rattled as bond yields surge, offsetting AI-stock optimism",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-01T17:12:18Z",
             "sentiment": "Positive",
-            "compound": 0.238
+            "compound": 0.542
           },
           {
-            "title": "Fulton Financial Corporation Announces Dates for Third Quarter 2026 Earnings Release and Webcast",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-01T17:00:00Z",
+            "title": "It's the Start of Uptober. Will Bitcoin Live Up to It?",
+            "source": "Decrypt",
+            "publishedAt": "2026-10-01T17:11:44Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Camden National Corporation to Announce Quarter Ended September 30, 2026 Financial Results on October 27, 2026",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-01T17:00:00Z",
+            "title": "Japan announces new permanent residency guidelines, foreigners must earn more than average Japanese person",
+            "source": "SoraNews24",
+            "publishedAt": "2026-10-01T17:10:55Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Election 2026: Low productivity is New Zealand’s economic elephant in the room. Election pledges mostly avoid it",
-            "source": "New Zealand Herald",
-            "publishedAt": "2026-10-01T17:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.511
+            "title": "In 1975, an investor put $5,000 into Coca-Cola; 49 years later, the investment was worth more than $2.35 million",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-01T17:08:32Z",
+            "sentiment": "Positive",
+            "compound": 0.226
           },
           {
-            "title": "Average long-term US mortgage rate churns upward to its highest level in nearly 3 years at 7.28%",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-10-01T16:57:18Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Yields fall after US 10-year hits highest since 2002; stocks, euro also decline",
-            "source": "CNA",
-            "publishedAt": "2026-10-01T16:52:27Z",
+            "title": "Interactive Brokers Group Reports Brokerage Metrics and Other Financial Information for September 2026, includes Reg.-NMS Execution Statistics",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-01T17:05:26Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.89,
-  "trade_probability": 54.73,
+  "confirmation_score": 58.84,
+  "trade_probability": 55.3,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
