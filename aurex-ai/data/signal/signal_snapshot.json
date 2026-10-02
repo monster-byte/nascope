@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T14:15:53.220713+00:00",
+  "generated_at": "2026-10-02T14:31:11.754297+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.0082,
+          "change_pct": 1.0484,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.4157,
+          "change_pct": 0.2882,
           "up": true
         },
         "NVDA": {
-          "change_pct": 2.3539,
+          "change_pct": 2.4318,
           "up": true
         },
         "AMZN": {
-          "change_pct": 1.5227,
+          "change_pct": 1.2696,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 85.37,
+      "score": 85.42,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30970.89,
-        "sma50": 29461.19,
-        "sma200": 27479.33
+        "last_price": 30975.31,
+        "sma50": 29461.27,
+        "sma200": 27479.35
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 40.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 22.1,
+        "current_vxn": 22.11,
         "percentile_vs_20d": 60.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 47.07,
+      "score": 47.38,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.203,
-        "change_5d_pct": 0.367
+        "current_yield_pct": 5.201,
+        "change_5d_pct": 0.328
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.14,
+      "score": 44.07,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.71,
-        "change_5d_pct": 0.732
+        "current_dxy": 101.72,
+        "change_5d_pct": 0.742
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.12,
+      "score": 58.76,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.102,
+        "avg_compound": 0.175,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Indonesia calls for global action to strengthen food security",
-            "source": "Antaranews.com",
-            "publishedAt": "2026-10-01T14:14:08Z",
+            "title": "How store brands stopped feeling like a second-best choice",
+            "source": "Salon",
+            "publishedAt": "2026-10-01T14:30:58Z",
             "sentiment": "Positive",
-            "compound": 0.572
+            "compound": 0.273
           },
           {
-            "title": "XPENG Hits Record Deliveries",
-            "source": "CleanTechnica",
-            "publishedAt": "2026-10-01T14:12:13Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "US stocks: US markets dip as surging Treasury yields overshadow software gains",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-01T14:30:55Z",
+            "sentiment": "Positive",
+            "compound": 0.494
           },
           {
-            "title": "RBI set for 50–75 bps rate hike as Rupee, Oil and Global risks mount, says Bandhan Life",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-01T14:11:21Z",
+            "title": "US stocks: US market opens higher as software strength offsets bond-market pressure",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-01T14:30:55Z",
+            "sentiment": "Positive",
+            "compound": 0.25
+          },
+          {
+            "title": "European Medicines Agency Validates PolyPid’s Marketing Authorization Application for D-PLEX₁₀₀",
+            "source": "The Manila Times",
+            "publishedAt": "2026-10-01T14:29:56Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
+          {
+            "title": "Accenture Stock Soars 22% as Earnings Beat, Record Bookings and Upbeat 2027 Outlook Ease AI Disruption Fears",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-10-01T14:25:28Z",
             "sentiment": "Negative",
-            "compound": -0.273
+            "compound": -0.421
           },
           {
-            "title": "NEOG SHAREHOLDER INVESTIGATION: SueWallSt Notifies Investors of Potential Securities Claims Involving Neogen",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-01T14:11:00Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "ASTS Shareholder Alert: November 13, 2026 Lead Plaintiff Deadline in AST SpaceMobile, Inc. Securities Class Action - Contact SueWallSt",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-01T14:11:00Z",
-            "sentiment": "Positive",
-            "compound": 0.527
-          },
-          {
-            "title": "FCEL Shareholder Alert: Investors With Losses May Seek to Lead the Class Action in FuelCell Energy, Inc. Securities Lawsuit - Contact SueWallSt",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-01T14:11:00Z",
-            "sentiment": "Positive",
-            "compound": 0.226
+            "title": "Voting Democrat – or Staying Home – Won’t Lower Gas Prices",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-10-01T14:25:06Z",
+            "sentiment": "Negative",
+            "compound": -0.296
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 66.91,
-  "trade_probability": 60.15,
+  "confirmation_score": 67.28,
+  "trade_probability": 60.37,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
