@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T14:31:11.754297+00:00",
+  "generated_at": "2026-10-02T14:45:55.934221+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.0484,
+          "change_pct": 0.9296,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.2882,
+          "change_pct": 0.2746,
           "up": true
         },
         "NVDA": {
-          "change_pct": 2.4318,
+          "change_pct": 2.315,
           "up": true
         },
         "AMZN": {
-          "change_pct": 1.2696,
+          "change_pct": 1.3563,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 85.42,
+      "score": 85.39,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30975.31,
-        "sma50": 29461.27,
-        "sma200": 27479.35
+        "last_price": 30972.13,
+        "sma50": 29461.21,
+        "sma200": 27479.33
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 40.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 22.11,
+        "current_vxn": 22.05,
         "percentile_vs_20d": 60.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 47.38,
+      "score": 46.14,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.201,
-        "change_5d_pct": 0.328
+        "current_yield_pct": 5.209,
+        "change_5d_pct": 0.482
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.07,
+      "score": 44.2,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.72,
-        "change_5d_pct": 0.742
+        "current_dxy": 101.7,
+        "change_5d_pct": 0.725
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 58.76,
+      "score": 54.48,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.175,
+        "avg_compound": 0.09,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "How store brands stopped feeling like a second-best choice",
-            "source": "Salon",
-            "publishedAt": "2026-10-01T14:30:58Z",
-            "sentiment": "Positive",
-            "compound": 0.273
-          },
-          {
-            "title": "US stocks: US markets dip as surging Treasury yields overshadow software gains",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-01T14:30:55Z",
-            "sentiment": "Positive",
-            "compound": 0.494
-          },
-          {
-            "title": "US stocks: US market opens higher as software strength offsets bond-market pressure",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-01T14:30:55Z",
-            "sentiment": "Positive",
-            "compound": 0.25
-          },
-          {
-            "title": "European Medicines Agency Validates PolyPid’s Marketing Authorization Application for D-PLEX₁₀₀",
-            "source": "The Manila Times",
-            "publishedAt": "2026-10-01T14:29:56Z",
-            "sentiment": "Positive",
-            "compound": 0.34
-          },
-          {
-            "title": "Accenture Stock Soars 22% as Earnings Beat, Record Bookings and Upbeat 2027 Outlook Ease AI Disruption Fears",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-10-01T14:25:28Z",
+            "title": "US jobless claims hover near 57-year low as layoffs fall in September",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-01T14:43:39Z",
             "sentiment": "Negative",
-            "compound": -0.421
+            "compound": -0.273
           },
           {
-            "title": "Voting Democrat – or Staying Home – Won’t Lower Gas Prices",
-            "source": "Freerepublic.com",
-            "publishedAt": "2026-10-01T14:25:06Z",
-            "sentiment": "Negative",
-            "compound": -0.296
+            "title": "Tron Inc. buys TRX for 252 consecutive days, holding 716.8M tokens",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-01T14:40:33Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Consumer confidence sags to 12-year low, eroded by inflation, job anxiety",
+            "source": "CFO Dive",
+            "publishedAt": "2026-10-01T14:39:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.128
+          },
+          {
+            "title": "Where is the Stock Market Volatility?",
+            "source": "Awealthofcommonsense.com",
+            "publishedAt": "2026-10-01T14:38:30Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Thomson Reuters and KKR complete joint venture for Global Print Business",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-01T14:36:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "US Treasury yields hit highest since 2002 as global bond sell-off deepens",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-01T14:34:52Z",
+            "sentiment": "Positive",
+            "compound": 0.202
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 67.28,
-  "trade_probability": 60.37,
+  "confirmation_score": 66.74,
+  "trade_probability": 60.04,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
