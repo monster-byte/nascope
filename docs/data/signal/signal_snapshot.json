@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T15:45:53.555556+00:00",
+  "generated_at": "2026-10-02T16:01:27.310155+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.3628,
+          "change_pct": 0.6167,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.0251,
+          "change_pct": -0.132,
           "up": false
         },
         "NVDA": {
-          "change_pct": 1.6411,
+          "change_pct": 1.7988,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.5946,
+          "change_pct": 0.7372,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 83.89,
+      "score": 84.27,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30821.87,
-        "sma50": 29458.2,
-        "sma200": 27478.58
+        "last_price": 30860.28,
+        "sma50": 29458.97,
+        "sma200": 27478.77
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 30.0,
-      "status": "red",
+      "score": 45.0,
+      "status": "yellow",
       "details": {
-        "current_vxn": 22.27,
-        "percentile_vs_20d": 70.0
+        "current_vxn": 21.88,
+        "percentile_vs_20d": 55.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 39.2,
+      "score": 38.58,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.254,
-        "change_5d_pct": 1.35
+        "current_yield_pct": 5.258,
+        "change_5d_pct": 1.427
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.96,
+      "score": 42.52,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.86,
-        "change_5d_pct": 0.88
+        "current_dxy": 101.91,
+        "change_5d_pct": 0.935
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.65,
+      "score": 48.21,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.027,
+        "avg_compound": -0.036,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Why stocks have held up as yields surge to 24-year highs",
-            "source": "Business Insider",
-            "publishedAt": "2026-10-01T15:41:31Z",
+            "title": "Google Gets to Keep Its Adtech Stack Intact. Does The Trade Desk’s Pitch Lose its Punch?",
+            "source": "Adweek",
+            "publishedAt": "2026-10-01T16:00:32Z",
+            "sentiment": "Negative",
+            "compound": -0.226
+          },
+          {
+            "title": "Mortgage rates just hit 7.28%. But there are ways to get a lower rate | CNN Business",
+            "source": "CNN",
+            "publishedAt": "2026-10-01T16:00:29Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
+          {
+            "title": "Nike is set to report earnings after the bell. Here's what to expect",
+            "source": "CNBC",
+            "publishedAt": "2026-10-01T16:00:01Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "The UK’s pension triple lock has done its job and needs to be retired",
-            "source": "The Conversation Africa",
-            "publishedAt": "2026-10-01T15:33:49Z",
+            "title": "Club Offers for Travel Enthusiasts in Canada",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-01T15:56:00Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
+          {
+            "title": "We the people",
+            "source": "Ncspin.com",
+            "publishedAt": "2026-10-01T15:56:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Evernorth shareholders approve $1 billion XRP treasury deal, clearing path to Nasdaq debut",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-01T15:32:54Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "Calls increase for Bank of Canada to hike rates in October as global investment bank UBS weighs in",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-01T15:32:40Z",
-            "sentiment": "Positive",
-            "compound": 0.318
-          },
-          {
-            "title": "A Space-Launch Crash Is Coming",
-            "source": "Foreign Policy",
-            "publishedAt": "2026-10-01T15:32:07Z",
+            "title": "Bitcoin fights for local uptrend as US bond yields drop from new 24-year highs",
+            "source": "Cointelegraph",
+            "publishedAt": "2026-10-01T15:55:19Z",
             "sentiment": "Negative",
-            "compound": -0.402
-          },
-          {
-            "title": "World Monuments Fund: Funding Is The Biggest Threat To World Heritage",
-            "source": "Art Newspaper",
-            "publishedAt": "2026-10-01T15:31:00Z",
-            "sentiment": "Negative",
-            "compound": -0.527
+            "compound": -0.586
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.31,
-  "trade_probability": 54.39,
+  "confirmation_score": 58.55,
+  "trade_probability": 55.13,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
