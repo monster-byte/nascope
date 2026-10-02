@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T17:45:50.465945+00:00",
+  "generated_at": "2026-10-02T18:01:27.120916+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.7815,
+          "change_pct": 0.7981,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.1436,
+          "change_pct": -0.0718,
           "up": false
         },
         "NVDA": {
-          "change_pct": 1.2956,
+          "change_pct": 1.4036,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.8517,
+          "change_pct": 0.7915,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 83.43,
+      "score": 83.59,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30775.89,
-        "sma50": 29457.29,
-        "sma200": 27478.35
+        "last_price": 30792.23,
+        "sma50": 29457.61,
+        "sma200": 27478.43
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 30.0,
+      "score": 35.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.2,
-        "percentile_vs_20d": 70.0
+        "current_vxn": 22.19,
+        "percentile_vs_20d": 65.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 33.02,
+      "score": 34.72,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.294,
-        "change_5d_pct": 2.122
+        "current_yield_pct": 5.283,
+        "change_5d_pct": 1.91
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.53,
+      "score": 42.5,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.91,
-        "change_5d_pct": 0.934
+        "current_dxy": 101.92,
+        "change_5d_pct": 0.938
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.24,
+      "score": 51.59,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.055,
-        "articles_analyzed": 24,
+        "avg_compound": 0.032,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "SK Hynix’s $26.5 billion US listing powers the AI IPO wave",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-01T17:44:00Z",
+            "title": "Bond yield explosion gives Bitcoin a strong signal – is now finally Satoshi’s time?",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-10-01T18:00:21Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
+          {
+            "title": "Comment on The Pixel Project: Five Great Reasons to Give to the 12th Annual Fall Read For Pixels Campaign For Domestic Violence Awareness Month 2026 by Jim C.",
+            "source": "Terribleminds.com",
+            "publishedAt": "2026-10-01T17:54:53Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Trump: From what I'm hearing, Flydubai hijacker linked to Iran",
-            "source": "Israelnationalnews.com",
-            "publishedAt": "2026-10-01T17:43:57Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Just How Bad Will Trump’s New Labor Secretary Be?",
-            "source": "The New Republic",
-            "publishedAt": "2026-10-01T17:36:16Z",
-            "sentiment": "Negative",
-            "compound": -0.542
-          },
-          {
-            "title": "Dem has razor-thin lead over GOP Rep. Mike Lawler in battleground NY House district: poll",
-            "source": "New York Post",
-            "publishedAt": "2026-10-01T17:34:08Z",
-            "sentiment": "Negative",
-            "compound": -0.402
-          },
-          {
-            "title": "BRICS isn’t killing the dollar. The world is learning to live without it",
+            "title": "Why are world bond markets selling off again?",
             "source": "The Times of India",
-            "publishedAt": "2026-10-01T17:32:11Z",
-            "sentiment": "Negative",
-            "compound": -0.66
+            "publishedAt": "2026-10-01T17:54:37Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "4 things to buy, and 7 to skip, during October Prime Day",
-            "source": "NBC News",
-            "publishedAt": "2026-10-01T17:30:02Z",
+            "title": "New FORTRESS America Program Elevates Defense Supply Chain Resilience",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-01T17:51:36Z",
+            "sentiment": "Neutral",
+            "compound": 0.128
+          },
+          {
+            "title": "San Francisco Fed study finds stablecoin Treasury growth offsets China’s retreat",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-01T17:48:32Z",
+            "sentiment": "Positive",
+            "compound": 0.637
+          },
+          {
+            "title": "Oil Is Again Flowing Out of Hormuz",
+            "source": "Foreign Policy",
+            "publishedAt": "2026-10-01T17:48:13Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.25,
-  "trade_probability": 53.75,
+  "confirmation_score": 57.34,
+  "trade_probability": 54.4,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
