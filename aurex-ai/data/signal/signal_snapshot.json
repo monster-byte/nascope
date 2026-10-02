@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T17:31:10.770957+00:00",
+  "generated_at": "2026-10-02T17:45:50.465945+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.7799,
+          "change_pct": 0.7815,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.19,
+          "change_pct": -0.1436,
           "up": false
         },
         "NVDA": {
-          "change_pct": 1.2005,
+          "change_pct": 1.2956,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.904,
+          "change_pct": 0.8517,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 83.18,
+      "score": 83.43,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30750.43,
-        "sma50": 29456.78,
-        "sma200": 27478.22
+        "last_price": 30775.89,
+        "sma50": 29457.29,
+        "sma200": 27478.35
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 30.0,
+      "status": "red",
       "details": {
-        "current_vxn": 22.04,
-        "percentile_vs_20d": 50.0
+        "current_vxn": 22.2,
+        "percentile_vs_20d": 70.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 35.65,
+      "score": 33.02,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.277,
-        "change_5d_pct": 1.794
+        "current_yield_pct": 5.294,
+        "change_5d_pct": 2.122
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.64,
+      "score": 42.53,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.9,
-        "change_5d_pct": 0.92
+        "current_dxy": 101.91,
+        "change_5d_pct": 0.934
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.93,
+      "score": 47.24,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.019,
+        "avg_compound": -0.055,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "SK Hynix’s $26.5 billion US listing powers the AI IPO wave",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-01T17:44:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Trump: From what I'm hearing, Flydubai hijacker linked to Iran",
+            "source": "Israelnationalnews.com",
+            "publishedAt": "2026-10-01T17:43:57Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Just How Bad Will Trump’s New Labor Secretary Be?",
+            "source": "The New Republic",
+            "publishedAt": "2026-10-01T17:36:16Z",
+            "sentiment": "Negative",
+            "compound": -0.542
+          },
+          {
+            "title": "Dem has razor-thin lead over GOP Rep. Mike Lawler in battleground NY House district: poll",
+            "source": "New York Post",
+            "publishedAt": "2026-10-01T17:34:08Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
+          {
+            "title": "BRICS isn’t killing the dollar. The world is learning to live without it",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-01T17:32:11Z",
+            "sentiment": "Negative",
+            "compound": -0.66
+          },
           {
             "title": "4 things to buy, and 7 to skip, during October Prime Day",
             "source": "NBC News",
             "publishedAt": "2026-10-01T17:30:02Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Jefferson, The U.S. Economy and Monetary Policy",
-            "source": "Federalreserve.gov",
-            "publishedAt": "2026-10-01T17:30:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "The Nasdaq Rose 1.9% in September. Intel Exploded 34%",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-01T17:20:15Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Mortgage rates soar to 7.28% — highest level in nearly 3 years",
-            "source": "New York Post",
-            "publishedAt": "2026-10-01T17:13:35Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Global markets rattled as bond yields surge, offsetting AI-stock optimism",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-01T17:12:18Z",
-            "sentiment": "Positive",
-            "compound": 0.542
-          },
-          {
-            "title": "It's the Start of Uptober. Will Bitcoin Live Up to It?",
-            "source": "Decrypt",
-            "publishedAt": "2026-10-01T17:11:44Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 58.71,
-  "trade_probability": 55.23,
+  "confirmation_score": 56.25,
+  "trade_probability": 53.75,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
