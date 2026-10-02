@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T00:01:20.555677+00:00",
+  "generated_at": "2026-10-02T00:15:48.750264+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.48,
+      "score": 44.38,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.99,
-        "change_5d_pct": 0.69
+        "current_dxy": 102.0,
+        "change_5d_pct": 0.703
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.88,
+      "score": 52.54,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.058,
+        "avg_compound": 0.051,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Japan business mood improves, tankan survey shows",
+            "source": "CNA",
+            "publishedAt": "2026-10-01T00:12:18Z",
+            "sentiment": "Positive",
+            "compound": 0.421
+          },
+          {
+            "title": "Japan business mood reaches 8-year high, bolsters case for BOJ hikes",
+            "source": "CNA",
+            "publishedAt": "2026-10-01T00:12:18Z",
+            "sentiment": "Neutral",
+            "compound": 0.052
+          },
+          {
+            "title": "Japan's patchy business mood takes pressure off BOJ for immediate hike",
+            "source": "CNA",
+            "publishedAt": "2026-10-01T00:12:18Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "US stocks rise after stable inflation reading",
+            "source": "The Punch",
+            "publishedAt": "2026-10-01T00:10:13Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "Nigeria @66: NLC demands new minimum wage, lower petrol prices",
+            "source": "The Punch",
+            "publishedAt": "2026-10-01T00:10:13Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
           {
             "title": "Chromosome-scale assembly of yeast genomes using enzyme-free, dense optical genome mapping",
             "source": "Nature.com",
             "publishedAt": "2026-10-01T00:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Design, modeling, and characterization of a low-pressure dual-mode pneumatic soft actuator-gripper",
-            "source": "Nature.com",
-            "publishedAt": "2026-10-01T00:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Trump and Republicans can win the ‘affordability’ battle — here’s how",
-            "source": "New York Post",
-            "publishedAt": "2026-09-30T23:58:51Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "BGM Group Ltd trading halted, news pending",
-            "source": "Thefly.com",
-            "publishedAt": "2026-09-30T23:50:04Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Why Synopsys Stock Soared Nearly 5% Higher Today",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-30T23:48:10Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "US economy shows resilience on solid consumer spending, growth data",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-09-30T23:46:52Z",
-            "sentiment": "Positive",
-            "compound": 0.494
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.6,
-  "trade_probability": 44.96,
+  "confirmation_score": 41.56,
+  "trade_probability": 44.94,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
