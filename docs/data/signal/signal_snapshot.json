@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T16:31:06.255870+00:00",
+  "generated_at": "2026-10-02T16:45:55.158601+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.65,
+          "change_pct": 0.7135,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.229,
+          "change_pct": -0.2581,
           "up": false
         },
         "NVDA": {
-          "change_pct": 2.004,
+          "change_pct": 1.7491,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.7674,
+          "change_pct": 0.8055,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 83.91,
+      "score": 83.77,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30824.31,
-        "sma50": 29458.25,
-        "sma200": 27478.59
+        "last_price": 30810.11,
+        "sma50": 29457.97,
+        "sma200": 27478.52
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 50.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.93,
+        "current_vxn": 22.0,
         "percentile_vs_20d": 50.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 37.96,
+      "score": 37.65,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.262,
-        "change_5d_pct": 1.505
+        "current_yield_pct": 5.264,
+        "change_5d_pct": 1.543
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.62,
+      "score": 42.21,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.9,
-        "change_5d_pct": 0.922
+        "current_dxy": 101.95,
+        "change_5d_pct": 0.974
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.9,
+      "score": 53.19,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.002,
+        "avg_compound": 0.064,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "India must become more competition-friendly, says finance ministry report",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-01T16:26:36Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Bank of America's famed stock market gauge is on the verge of flashing a sell signal",
-            "source": "Business Insider",
-            "publishedAt": "2026-10-01T16:25:12Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Most Americans blame Trump for high prices as his economic approval hits new low, AP-NORC poll shows",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-01T16:19:50Z",
-            "sentiment": "Neutral",
-            "compound": -0.172
-          },
-          {
-            "title": "US Treasury yields fall as rate hike concerns ease",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-01T16:18:10Z",
+            "title": "Man Rescues 20 Stray Cats, Gives Them Ridiculous Names Like ‘7-11 Convenience Store Worker,’ and Narrates Their Daily Lives Like a Dramatic Reality TV Show",
+            "source": "Cheezburger.com",
+            "publishedAt": "2026-10-01T16:45:00Z",
             "sentiment": "Positive",
-            "compound": 0.511
+            "compound": 0.586
           },
           {
-            "title": "'Look at how much coverage Gaza got': Iranians cannot understand why slaughter of up to 30,000 protesters went almost unnoticed in the West, says NATALIE LISBONA as she breaks down new footage of Ayatollah's January 'bloodbath' on latest Deep Dive podcast",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-10-01T16:17:11Z",
+            "title": "Robinhood Lets AI Agents Trade Without Customer Sign-Off",
+            "source": "pymnts.com",
+            "publishedAt": "2026-10-01T16:43:04Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "8 in 10 Gen Z and millennials have two jobs to make ends meet, Goldman Sachs finds, as the affordability crisis ‘crowds out’ any retirement hopes",
+            "source": "Fortune",
+            "publishedAt": "2026-10-01T16:42:40Z",
             "sentiment": "Negative",
-            "compound": -0.226
+            "compound": -0.318
           },
           {
-            "title": "Global bond selloff boosts dollar, pressures euro",
-            "source": "CNA",
-            "publishedAt": "2026-10-01T16:15:15Z",
+            "title": "Jio Platforms IPO in final stages after concluding worldwide roadshows",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-01T16:38:06Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Stock Market Midday, Oct. 1: Stocks Edge Lower as Treasury Yields Surge to 24-Year High",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-01T16:36:33Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
+          {
+            "title": "Why BofA sees inflation creeping back at Walmart this year",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-01T16:36:28Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 59.03,
-  "trade_probability": 55.42,
+  "confirmation_score": 59.23,
+  "trade_probability": 55.54,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
