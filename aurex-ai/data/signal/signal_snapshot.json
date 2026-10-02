@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T15:01:57.830403+00:00",
+  "generated_at": "2026-10-02T15:15:54.663167+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 100.0,
+      "score": 75.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.5986,
+          "change_pct": 0.1361,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.1611,
-          "up": true
+          "change_pct": -0.1029,
+          "up": false
         },
         "NVDA": {
-          "change_pct": 2.2546,
+          "change_pct": 1.5234,
           "up": true
         },
         "AMZN": {
-          "change_pct": 1.0647,
+          "change_pct": 0.8276,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 84.82,
+      "score": 83.83,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30915.25,
-        "sma50": 29460.07,
-        "sma200": 27479.05
+        "last_price": 30816.31,
+        "sma50": 29458.09,
+        "sma200": 27478.55
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 45.0,
+      "score": 50.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.97,
-        "percentile_vs_20d": 55.0
+        "current_vxn": 21.95,
+        "percentile_vs_20d": 50.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 44.75,
+      "score": 40.9,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.218,
-        "change_5d_pct": 0.656
+        "current_yield_pct": 5.243,
+        "change_5d_pct": 1.138
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.71,
+      "score": 43.23,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.76,
-        "change_5d_pct": 0.786
+        "current_dxy": 101.82,
+        "change_5d_pct": 0.846
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.98,
+      "score": 51.89,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.04,
+        "avg_compound": 0.038,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "New factory investment falls in FY25 for first time since pandemic: ASI",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-01T15:14:27Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "US manufacturing steady in September, but input prices surge",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-01T15:12:59Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "CPPIB sells US$3.1 billion of Australian toll roads to Transurban",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-01T15:10:32Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Opposite What You're Told, Markets Don't Wait For The Fed",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-01T15:02:31Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "UK bank stocks slide as 30-year borrowing costs hit highest since 1998",
             "source": "BusinessLine",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-01T15:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Target maturity funds: How to use them to lock into rising yields",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-01T14:56:20Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Global bond yields hit multi-decade highs: What is driving the rise?",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-01T14:52:36Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Is Broadcom a Millionaire-Maker Stock?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-01T14:50:26Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "US stocks open higher as software strength offsets bond-market pressure",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-01T14:50:00Z",
-            "sentiment": "Positive",
-            "compound": 0.25
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 66.65,
-  "trade_probability": 59.99,
+  "confirmation_score": 59.65,
+  "trade_probability": 55.79,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
