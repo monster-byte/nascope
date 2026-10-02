@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T18:15:51.162842+00:00",
+  "generated_at": "2026-10-02T18:31:06.667345+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.659,
+          "change_pct": 0.6742,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.1009,
+          "change_pct": -0.0349,
           "up": false
         },
         "NVDA": {
-          "change_pct": 1.4338,
+          "change_pct": 1.3215,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.7513,
+          "change_pct": 0.5947,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 83.62,
+      "score": 83.48,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30795.08,
-        "sma50": 29457.67,
-        "sma200": 27478.45
+        "last_price": 30781.37,
+        "sma50": 29457.39,
+        "sma200": 27478.38
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 35.0,
-      "status": "red",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
-        "current_vxn": 22.18,
-        "percentile_vs_20d": 65.0
+        "current_vxn": 22.0,
+        "percentile_vs_20d": 50.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 35.03,
+      "score": 35.65,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.281,
-        "change_5d_pct": 1.871
+        "current_yield_pct": 5.277,
+        "change_5d_pct": 1.794
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.57,
+      "score": 42.34,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.91,
-        "change_5d_pct": 0.929
+        "current_dxy": 101.94,
+        "change_5d_pct": 0.958
       }
     },
     "macro": {
@@ -85,56 +85,10 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.57,
+      "score": 50.0,
       "status": "yellow",
       "details": {
-        "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.009,
-        "articles_analyzed": 25,
-        "top_headlines": [
-          {
-            "title": "The Street feels global heat",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-01T18:09:58Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "'Sex, money, manipulation': Ex-Fed bigwig seduced online and blackmailed with nude photos by alleged Chinese spy",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-10-01T18:08:55Z",
-            "sentiment": "Negative",
-            "compound": -0.572
-          },
-          {
-            "title": "US benchmark yield at its highest since 2002 amid rising oil prices",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-01T18:07:04Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "The National Debt Has Exploded. The Reckoning Is Still Coming.",
-            "source": "Reason",
-            "publishedAt": "2026-10-01T18:05:23Z",
-            "sentiment": "Negative",
-            "compound": -0.361
-          },
-          {
-            "title": "Trump Admits He’s a NIMBY on Data Centers",
-            "source": "Gizmodo.com",
-            "publishedAt": "2026-10-01T18:05:19Z",
-            "sentiment": "Neutral",
-            "compound": -0.086
-          },
-          {
-            "title": "Alphabet vs. Amazon vs. Microsoft: Which \"Magnificent Seven\" Stock Is the Better Buy Right Now?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-01T18:05:05Z",
-            "sentiment": "Positive",
-            "compound": 0.818
-          }
-        ]
+        "error": "news_fetch_failed: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?q=Nasdaq+OR+%22Federal+Reserve%22+OR+%22stock+market%22+OR+inflation&language=en&sortBy=publishedAt&pageSize=25&apiKey=280ea038bd7e4ccb91d87f9d115484d4"
       }
     },
     "patent_momentum": {
@@ -146,8 +100,8 @@
       }
     }
   },
-  "confirmation_score": 57.21,
-  "trade_probability": 54.33,
+  "confirmation_score": 58.64,
+  "trade_probability": 55.18,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
