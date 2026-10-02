@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T20:45:49.728015+00:00",
+  "generated_at": "2026-10-02T21:01:17.879520+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.54,
+      "score": 42.32,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.91,
-        "change_5d_pct": 0.933
+        "current_dxy": 101.94,
+        "change_5d_pct": 0.96
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.98,
+      "score": 50.82,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.04,
-        "articles_analyzed": 25,
+        "avg_compound": 0.016,
+        "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "ENERGY SERVICES OF AMERICA ANNOUNCES AGREEMENT TO ACQUIRE FAMCO, INC.",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-01T21:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.649
+          },
+          {
+            "title": "Fashion Companies Considering an IPO Face an Uncertain Leap",
+            "source": "WWD",
+            "publishedAt": "2026-10-01T20:57:51Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "What's gone wrong at Nike? How the world's sportswear giant lost its mojo",
+            "source": "BBC News",
+            "publishedAt": "2026-10-01T20:51:09Z",
+            "sentiment": "Negative",
+            "compound": -0.66
+          },
+          {
+            "title": "Lara Trump said the Iran war could cost Republicans the midterms. Here's how the president responded.",
+            "source": "Business Insider",
+            "publishedAt": "2026-10-01T20:47:52Z",
+            "sentiment": "Negative",
+            "compound": -0.599
+          },
           {
             "title": "Bank of Canada senior deputy outlines dilemma at centre of housing affordability",
             "source": "Financial Post",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-01T20:41:38Z",
             "sentiment": "Positive",
             "compound": 0.625
-          },
-          {
-            "title": "Fed's Cook sees AI inflationary push as a top 2027 risk",
-            "source": "CNA",
-            "publishedAt": "2026-10-01T20:39:52Z",
-            "sentiment": "Neutral",
-            "compound": -0.077
-          },
-          {
-            "title": "Markets Start the Month With Tiny Gains",
-            "source": "Newser",
-            "publishedAt": "2026-10-01T20:39:29Z",
-            "sentiment": "Positive",
-            "compound": 0.34
-          },
-          {
-            "title": "Modine Completes Spin-off and Combination of its Performance Technologies Business with Gentherm",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-01T20:38:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "onsemi and Synaptics Announce Revised Merger Agreement",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-01T20:37:26Z",
-            "sentiment": "Positive",
-            "compound": 0.494
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 65.63,
-  "trade_probability": 59.38,
+  "confirmation_score": 65.5,
+  "trade_probability": 59.3,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
