@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T03:31:07.558710+00:00",
+  "generated_at": "2026-10-02T03:45:48.625106+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.57,
+      "score": 44.77,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.98,
-        "change_5d_pct": 0.679
+        "current_dxy": 101.95,
+        "change_5d_pct": 0.654
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.93,
+      "score": 53.62,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.079,
+        "avg_compound": 0.072,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Dow, S&P 500, Nasdaq Futures Rise Despite Soaring Treasury Yields As Markets Eye Jobs Report: MU, NKE, IBRX, CEG Stocks In Focus",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-01T03:31:46Z",
+            "sentiment": "Neutral",
+            "compound": -0.151
+          },
           {
             "title": "Vietnam extends fuel tax relief measures until end-2026",
             "source": "CNA",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-10-01T03:16:38Z",
             "sentiment": "Positive",
             "compound": 0.296
-          },
-          {
-            "title": "Bitcoin enters its best season after a 43% surge, with $147,000 suddenly on the math",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-10-01T03:10:09Z",
-            "sentiment": "Positive",
-            "compound": 0.637
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.7,
-  "trade_probability": 45.02,
+  "confirmation_score": 41.69,
+  "trade_probability": 45.01,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
