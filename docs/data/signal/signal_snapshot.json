@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T04:15:46.317879+00:00",
+  "generated_at": "2026-10-02T04:31:10.302518+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.4,
+      "score": 42.43,
       "status": "yellow",
       "details": {
         "current_dxy": 101.93,
-        "change_5d_pct": 0.95
+        "change_5d_pct": 0.946
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.12,
+      "score": 45.96,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.022,
+        "avg_compound": -0.081,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "IPO investors strike gold with 7 multibagger stocks in 3 months. Did you miss the bus?",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-01T04:29:16Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "Code red! NSE breadth breaks down as 350 out of 500 stocks crash up to 60% in two month selloff",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-01T04:26:09Z",
+            "sentiment": "Negative",
+            "compound": -0.457
+          },
+          {
+            "title": "Markets open lower as FII selling, high bond yields weigh on sentiment",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-01T04:17:54Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
           {
             "title": "Bitcoin's soft-inflation pop to $85,500 fades as bond yields refuse to fall",
             "source": "CoinDesk",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-01T04:10:10Z",
             "sentiment": "Positive",
             "compound": 0.273
-          },
-          {
-            "title": "Fidelity Bitcoin ETF clients pull $125.58 million as volatile September closes",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-01T04:08:34Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "South Korea’s exports hit record high on AI boom",
-            "source": "Al Jazeera English",
-            "publishedAt": "2026-10-01T04:08:15Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Inflation-Weary Alaskans Put Senate Control in Play",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-01T04:03:33Z",
-            "sentiment": "Positive",
-            "compound": 0.34
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.25,
-  "trade_probability": 44.75,
+  "confirmation_score": 40.79,
+  "trade_probability": 44.47,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
