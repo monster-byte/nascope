@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T13:45:55.681701+00:00",
+  "generated_at": "2026-10-02T14:01:20.618870+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.2388,
+          "change_pct": 0.4142,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.1795,
+          "change_pct": 0.4133,
           "up": true
         },
         "NVDA": {
-          "change_pct": 2.5541,
+          "change_pct": 2.6433,
           "up": true
         },
         "AMZN": {
-          "change_pct": 1.3494,
+          "change_pct": 1.2093,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 84.94,
+      "score": 84.91,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30927.32,
-        "sma50": 29460.31,
-        "sma200": 27479.11
+        "last_price": 30924.5,
+        "sma50": 29460.26,
+        "sma200": 27479.09
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 5.0,
-      "status": "red",
+      "score": 40.0,
+      "status": "yellow",
       "details": {
-        "current_vxn": 22.59,
-        "percentile_vs_20d": 95.0
+        "current_vxn": 22.12,
+        "percentile_vs_20d": 60.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 46.14,
+      "score": 47.07,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.209,
-        "change_5d_pct": 0.482
+        "current_yield_pct": 5.203,
+        "change_5d_pct": 0.367
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.43,
+      "score": 43.56,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.93,
-        "change_5d_pct": 0.947
+        "current_dxy": 101.78,
+        "change_5d_pct": 0.805
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.88,
+      "score": 52.33,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.058,
+        "avg_compound": 0.047,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "PROCEPT BioRobotics (NASDAQ: PRCT) Investors: Securities Class Action Filed; Shareholders Should Contact Shareholders Foundation",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-01T13:45:00Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "Surging energy prices drive inflation to almost 4%",
-            "source": "The Irish Times",
-            "publishedAt": "2026-10-01T13:42:57Z",
-            "sentiment": "Positive",
-            "compound": 0.273
-          },
-          {
-            "title": "Made in China AI: new tech, same old story?",
-            "source": "The Conversation Africa",
-            "publishedAt": "2026-10-01T13:42:00Z",
+            "title": "Household and community drivers of Aedes aegypti infestation in tropical cities: Guiding community-led interventions",
+            "source": "Plos.org",
+            "publishedAt": "2026-10-01T14:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Is the RBI’s inflation formula helping or hurting you?",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-01T13:37:49Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
-          },
-          {
-            "title": "If You’re a Saver, You’re a Sucker",
-            "source": "Dailyreckoning.com",
-            "publishedAt": "2026-10-01T13:35:20Z",
+            "title": "Decision-theoretic recruitment and validation planning for depression surveys: An illustrative Chinese application",
+            "source": "Plos.org",
+            "publishedAt": "2026-10-01T14:00:00Z",
             "sentiment": "Negative",
-            "compound": -0.527
+            "compound": -0.572
           },
           {
-            "title": "YYForce Deploys Hospitality Service Robot at Aloft by Marriott Langkawi Pantai Tengah in Malaysia",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-01T13:33:43Z",
+            "title": "Waller, The Data Version of Godzilla versus Kong: FRED Takes on AI",
+            "source": "Federalreserve.gov",
+            "publishedAt": "2026-10-01T14:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Using GIS, remote-sensing and linear modeling to prioritize spatially explicit action against erosion and sediment transport within Lake Victoria watershed in Kenya",
+            "source": "Plos.org",
+            "publishedAt": "2026-10-01T14:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Predictors of mortality available at emergency department arrival in massively transfused trauma patients without severe TBI: A single-center retrospective cohort study",
+            "source": "Plos.org",
+            "publishedAt": "2026-10-01T14:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.497
+          },
+          {
+            "title": "Jio Platforms IPO in final stages after concluding worldwide roadshows",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-01T13:57:17Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 63.22,
-  "trade_probability": 57.93,
+  "confirmation_score": 66.55,
+  "trade_probability": 59.93,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
