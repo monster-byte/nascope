@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T05:15:46.867442+00:00",
+  "generated_at": "2026-10-03T05:31:04.706258+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.75,
+      "score": 45.19,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.065,
+        "avg_compound": -0.096,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Turkey's stock market scandal affects nearly half a million investors. Police have made several arrests and an AKP politician has resigned",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-02T05:19:45Z",
+            "sentiment": "Negative",
+            "compound": -0.778
+          },
           {
             "title": "Discovery, Momentum announce steep hikes for 2027 – far above recommended rate | News24",
             "source": "News24",
@@ -121,13 +128,6 @@
             "compound": 0.0
           },
           {
-            "title": "Octopus Energy boss would ‘love’ to enter Irish consumer market",
-            "source": "The Irish Times",
-            "publishedAt": "2026-10-02T05:00:01Z",
-            "sentiment": "Positive",
-            "compound": 0.273
-          },
-          {
             "title": "Brazil votes in high-stakes election as U.S.-China rivalry and debt loom large",
             "source": "CNBC",
             "publishedAt": "2026-10-02T05:00:01Z",
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 65.14,
-  "trade_probability": 59.08,
+  "confirmation_score": 65.0,
+  "trade_probability": 59.0,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
