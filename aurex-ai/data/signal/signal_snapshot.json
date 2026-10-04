@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T08:01:10.928238+00:00",
+  "generated_at": "2026-10-04T08:15:49.371488+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.82,
+      "score": 49.37,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.016,
+        "avg_compound": -0.013,
         "articles_analyzed": 22,
         "top_headlines": [
+          {
+            "title": "'Came to stay at Airbnb': 28-year-old man dies by suicide after jumping from 41st floor of Noida's Spyra Building",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-03T08:15:22Z",
+            "sentiment": "Negative",
+            "compound": -0.67
+          },
+          {
+            "title": "Stock Market Today: Nasdaq Leads Charge On Rate Hopes; Nvidia Hits Highs",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-03T08:12:27Z",
+            "sentiment": "Positive",
+            "compound": 0.421
+          },
+          {
+            "title": "Wall Street week ahead: Fed minutes, unemployment data, consumer sentiment update",
+            "source": "Abcnews.com",
+            "publishedAt": "2026-10-03T08:07:03Z",
+            "sentiment": "Negative",
+            "compound": -0.44
+          },
           {
             "title": "Sanctions, tariffs turn into policy instruments, sometimes weaponised: P K Mishra",
             "source": "The Times of India",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-03T07:00:00Z",
             "sentiment": "Negative",
             "compound": -0.273
-          },
-          {
-            "title": "Nayara Energy raises petrol price by Rs 5, diesel by Rs 3",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-03T06:55:44Z",
-            "sentiment": "Positive",
-            "compound": 0.273
-          },
-          {
-            "title": "Nayara Energy hikes petrol by ₹5, diesel by ₹3",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-03T06:54:50Z",
-            "sentiment": "Positive",
-            "compound": 0.273
-          },
-          {
-            "title": "RBI Governor Sanjay Malhotra flags rising financial risks, warns against complacency as West Asia conflict adds to inflation pressure",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-03T06:49:45Z",
-            "sentiment": "Negative",
-            "compound": -0.718
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 65.51,
-  "trade_probability": 59.31,
+  "confirmation_score": 65.38,
+  "trade_probability": 59.23,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
