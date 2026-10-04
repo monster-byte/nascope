@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T03:31:05.808275+00:00",
+  "generated_at": "2026-10-04T03:46:04.041483+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.19,
+      "score": 49.54,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.016,
+        "avg_compound": -0.009,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "White House on High Mortgage Rates: Rates Can Rise Due to Factory Boom",
+            "source": "Breitbart News",
+            "publishedAt": "2026-10-03T03:44:46Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Paramount-Warner Bros merger: David Ellison names combined company Skydance",
             "source": "Livemint",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-10-03T02:00:00Z",
             "sentiment": "Positive",
             "compound": 0.527
-          },
-          {
-            "title": "Honeywell Aerospace Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against Honeywell Aerospace, Inc. - HONA",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-03T02:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.34
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 65.36,
-  "trade_probability": 59.22,
+  "confirmation_score": 65.39,
+  "trade_probability": 59.23,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
