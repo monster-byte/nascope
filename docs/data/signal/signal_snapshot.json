@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T21:31:12.553215+00:00",
+  "generated_at": "2026-10-05T21:45:50.816587+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.69,
+      "score": 42.71,
       "status": "yellow",
       "details": {
         "current_dxy": 102.12,
-        "change_5d_pct": 0.914
+        "change_5d_pct": 0.911
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.34,
+      "score": 50.3,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.007,
+        "avg_compound": 0.006,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "AIFA Outlines AI Application Strategy and Product Progress at First Annual Conference in Las Vegas",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-04T21:36:02Z",
+            "sentiment": "Positive",
+            "compound": 0.421
+          },
           {
             "title": "Election 2026: Christopher Luxon defends missing plan as Labour goes on attack",
             "source": "New Zealand Herald",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-10-04T21:05:00Z",
             "sentiment": "Neutral",
             "compound": 0.166
-          },
-          {
-            "title": "Tom Cruise suffers one of the worst movie debuts of his career. Reviews were so bad Warner Bros. ran ‘decide for yourself’ ads",
-            "source": "Fortune",
-            "publishedAt": "2026-10-04T21:02:21Z",
-            "sentiment": "Negative",
-            "compound": -0.913
           }
         ]
       }
