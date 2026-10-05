@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T17:15:56.230260+00:00",
+  "generated_at": "2026-10-05T17:31:09.740815+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.045,
+          "change_pct": 0.0186,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.6106,
+          "change_pct": 1.5787,
           "up": true
         },
         "NVDA": {
-          "change_pct": 1.3505,
+          "change_pct": 1.4103,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.7121,
+          "change_pct": 0.8911,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 85.3,
+      "score": 85.31,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 31021.26,
-        "sma50": 29515.78,
-        "sma200": 27507.95
+        "last_price": 31022.4,
+        "sma50": 29515.81,
+        "sma200": 27507.96
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 55.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.61,
+        "current_vxn": 21.62,
         "percentile_vs_20d": 45.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 34.27,
+      "score": 34.58,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.343,
-        "change_5d_pct": 1.966
+        "current_yield_pct": 5.341,
+        "change_5d_pct": 1.927
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.49,
+      "score": 41.64,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.28,
-        "change_5d_pct": 1.064
+        "current_dxy": 102.26,
+        "change_5d_pct": 1.045
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.81,
+      "score": 52.19,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.036,
+        "avg_compound": 0.044,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Capital limited but confidence in rules of trade, fiscal path of large economies: DEA secretary",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-04T17:26:11Z",
+            "sentiment": "Positive",
+            "compound": 0.612
+          },
           {
             "title": "Verity Takes No. 1 as Warner Bros. Has Final Flop",
             "source": "Newser",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-10-04T16:58:49Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Private capex revival takes hold, capital formation at 3-year high: Economic Affairs Secretary Anuradha Thakur",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-04T16:56:31Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 65.99,
-  "trade_probability": 59.59,
+  "confirmation_score": 66.08,
+  "trade_probability": 59.65,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
