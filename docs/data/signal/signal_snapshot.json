@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T07:15:48.458262+00:00",
+  "generated_at": "2026-10-05T07:31:06.921583+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.34,
+      "score": 41.11,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.29,
-        "change_5d_pct": 1.082
+        "current_dxy": 102.32,
+        "change_5d_pct": 1.111
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.85,
+      "score": 45.14,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.063,
+        "avg_compound": -0.097,
         "articles_analyzed": 20,
         "top_headlines": [
+          {
+            "title": "The one-page financial plan: Preventing the chaos of scattered money",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-04T07:30:44Z",
+            "sentiment": "Negative",
+            "compound": -0.586
+          },
+          {
+            "title": "Iraq Says It Transported 2 Million Barrels of Crude Through Strait of Hormuz",
+            "source": "Aawsat.com",
+            "publishedAt": "2026-10-04T07:30:23Z",
+            "sentiment": "Negative",
+            "compound": -0.572
+          },
+          {
+            "title": "How many billionaires are in Russia?",
+            "source": "Lifesciencesworld.com",
+            "publishedAt": "2026-10-04T07:29:53Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "What will bring foreign investors back to Indian stock market? 5 things that should go right",
             "source": "The Times of India",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-04T07:02:21Z",
             "sentiment": "Positive",
             "compound": 0.659
-          },
-          {
-            "title": "What a US-China thaw could cost India",
-            "source": "RT",
-            "publishedAt": "2026-10-04T06:47:36Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "3 US Logistics Stocks Tied To Services Data And Margin Pressure",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-04T06:43:03Z",
-            "sentiment": "Negative",
-            "compound": -0.296
-          },
-          {
-            "title": "Rivian vs. Lucid: Only 1 of These EV Stocks Survives to 2030. Here's Which One",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-04T06:42:52Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 65.06,
-  "trade_probability": 59.04,
+  "confirmation_score": 64.88,
+  "trade_probability": 58.93,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
