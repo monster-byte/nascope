@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T19:01:34.380322+00:00",
+  "generated_at": "2026-10-05T19:16:00.275247+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.0874,
+          "change_pct": 0.1439,
           "up": true
         },
         "MSFT": {
-          "change_pct": 2.092,
+          "change_pct": 2.111,
           "up": true
         },
         "NVDA": {
-          "change_pct": 2.2065,
+          "change_pct": 2.3645,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.911,
+          "change_pct": 0.9369,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 85.84,
+      "score": 86.14,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 31075.56,
-        "sma50": 29516.87,
-        "sma200": 27508.23
+        "last_price": 31105.63,
+        "sma50": 29517.47,
+        "sma200": 27508.38
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 35.95,
+      "score": 39.16,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.332,
-        "change_5d_pct": 1.756
+        "current_yield_pct": 5.311,
+        "change_5d_pct": 1.355
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.25,
+      "score": 42.4,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.18,
-        "change_5d_pct": 0.969
+        "current_dxy": 102.16,
+        "change_5d_pct": 0.951
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.93,
+      "score": 50.2,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.039,
+        "avg_compound": 0.004,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "'The market has had every reason to sell off'",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-04T19:13:30Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Despite G7, fuel inflation will remain",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-04T19:11:20Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Trump reiterates pledge to send $5,000 checks, and hands out smaller payments, as midterm elections loom",
+            "source": "CNBC",
+            "publishedAt": "2026-10-04T19:06:46Z",
+            "sentiment": "Negative",
+            "compound": -0.226
+          },
+          {
+            "title": "Jake Tapper Grills WH Economic Adviser on Trump’s Boasts Of The ‘Best Economic Numbers’ Ever: ‘Is He Misinformed’ or ‘Not Telling the Truth?’",
+            "source": "Mediaite",
+            "publishedAt": "2026-10-04T19:02:58Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "How Andy Burnham ate the Greens’ policy lunch",
             "source": "POLITICO.eu",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-04T18:52:47Z",
             "sentiment": "Positive",
             "compound": 0.743
-          },
-          {
-            "title": "Stock market headwinds could set up a major rally in coming months, strategist says",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-10-04T18:48:48Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "‘Avengers: Endgame’ is the biggest movie ever again, 7 years later—and it says a lot about the future of Hollywood’s IP machine",
-            "source": "Fortune",
-            "publishedAt": "2026-10-04T18:45:34Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "How to Start Investing in 2026: The Growth Stock I'm Buying Before Year-End",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-04T18:44:06Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "You Can Do Better Than Tesla. Buy Micron Instead",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-04T18:44:06Z",
-            "sentiment": "Positive",
-            "compound": 0.44
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 65.47,
-  "trade_probability": 59.28,
+  "confirmation_score": 65.8,
+  "trade_probability": 59.48,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
