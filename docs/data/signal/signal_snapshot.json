@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T14:45:55.493600+00:00",
+  "generated_at": "2026-10-05T15:01:21.875467+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.1665,
+          "change_pct": 0.0195,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.7208,
+          "change_pct": 1.7682,
           "up": true
         },
         "NVDA": {
-          "change_pct": 1.1434,
+          "change_pct": 1.3483,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.0736,
+          "change_pct": 0.1154,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 84.68,
+      "score": 85.09,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30958.94,
-        "sma50": 29514.54,
-        "sma200": 27507.64
+        "last_price": 30999.89,
+        "sma50": 29515.36,
+        "sma200": 27507.85
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 45.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.96,
+        "current_vxn": 21.89,
         "percentile_vs_20d": 55.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 39.16,
+      "score": 38.85,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.311,
-        "change_5d_pct": 1.355
+        "current_yield_pct": 5.313,
+        "change_5d_pct": 1.393
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.16,
+      "score": 41.8,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.32,
-        "change_5d_pct": 1.105
+        "current_dxy": 102.24,
+        "change_5d_pct": 1.025
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.23,
+      "score": 53.71,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.065,
+        "avg_compound": 0.074,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Why is the NZ dollar falling? The interest rate gap and sluggish economy",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-10-04T15:00:00Z",
+            "sentiment": "Neutral",
+            "compound": -0.077
+          },
+          {
+            "title": "A test for forward guidance in monetary policy",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-04T14:56:18Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Bullion faces choppy week as dollar, US-Iran risks test sentiment: Analysts",
             "source": "Business Standard",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-04T14:20:49Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "RBI MPC: beginning of a short and calibrated hike cycle",
-            "source": "Livemint",
-            "publishedAt": "2026-10-04T14:15:22Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Grok Dominates Coinbase’s AI Trading with a 60% Share: Which Coins Are Being Purchased?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-04T14:12:15Z",
-            "sentiment": "Positive",
-            "compound": 0.34
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 65.76,
-  "trade_probability": 59.46,
+  "confirmation_score": 65.88,
+  "trade_probability": 59.53,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
