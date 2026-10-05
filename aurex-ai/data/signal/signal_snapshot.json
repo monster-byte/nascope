@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T13:15:53.823425+00:00",
+  "generated_at": "2026-10-05T13:31:15.385339+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.075,
-          "up": true
+          "change_pct": -0.3928,
+          "up": false
         },
         "MSFT": {
-          "change_pct": 0.1276,
+          "change_pct": 1.6628,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.099,
-          "up": false
+          "change_pct": 0.5884,
+          "up": true
         },
         "AMZN": {
-          "change_pct": 0.0637,
+          "change_pct": 0.1532,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 83.75,
+      "score": 83.44,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30807.93,
-        "sma50": 29457.93,
-        "sma200": 27478.51
+        "last_price": 30834.26,
+        "sma50": 29512.04,
+        "sma200": 27507.02
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 40.38,
+      "score": 41.15,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.303,
-        "change_5d_pct": 1.202
+        "current_yield_pct": 5.298,
+        "change_5d_pct": 1.107
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.82,
+      "score": 41.65,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.24,
-        "change_5d_pct": 1.023
+        "current_dxy": 102.26,
+        "change_5d_pct": 1.043
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.53,
+      "score": 53.29,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.011,
+        "avg_compound": 0.066,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "The GOP's slipping numbers show the one thing Americans won't tolerate",
+            "source": "Raw Story",
+            "publishedAt": "2026-10-04T13:28:48Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Top Wall Street analysts are upbeat about the prospects for these 3 stocks",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-04T13:27:07Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "Warren Buffett’s first tax bill at age 14 was $7. Now Berkshire Hathaway’s is almost $27 billion—and he still says the rich don’t pay enough",
+            "source": "Fortune",
+            "publishedAt": "2026-10-04T13:24:33Z",
+            "sentiment": "Positive",
+            "compound": 0.494
+          },
+          {
+            "title": "Top Wall Street analysts are upbeat about the prospects for these 3 stocks",
+            "source": "CNBC",
+            "publishedAt": "2026-10-04T13:24:16Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "The same Fed rate hike can help stablecoins and hurt Bitcoin borrowers",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-10-04T13:20:06Z",
+            "sentiment": "Neutral",
+            "compound": -0.178
+          },
           {
             "title": "Labour says Government guilty of 'shameful posturing' over plans to slow minimum wage increases",
             "source": "TheJournal.ie",
             "publishedAt": "2026-10-04T13:04:34Z",
             "sentiment": "Negative",
             "compound": -0.718
-          },
-          {
-            "title": "Poll: Latino voters swing away from Trump and Republicans",
-            "source": "NBC News",
-            "publishedAt": "2026-10-04T13:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "The Clarity Act stalled. Bankers aren’t hitting the brakes yet on crypto dealmaking",
-            "source": "CoinDesk",
-            "publishedAt": "2026-10-04T13:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.226
-          },
-          {
-            "title": "To win over locals, data centers pump $340M into rural Texas projects",
-            "source": "Grist",
-            "publishedAt": "2026-10-04T13:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.586
-          },
-          {
-            "title": "Solana Co.’s Joseph Chee Tells the Wall Street Journal: China Will Find a Way to Manage Crypto. What Happens If China Reopens?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-04T12:42:13Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Sustained reforms, self-reliance critical for Viksit Bharat, says Das",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-04T12:34:13Z",
-            "sentiment": "Negative",
-            "compound": -0.318
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 59.32,
-  "trade_probability": 55.59,
+  "confirmation_score": 59.61,
+  "trade_probability": 55.77,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
