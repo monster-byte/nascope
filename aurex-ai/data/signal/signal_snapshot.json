@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T14:15:50.586719+00:00",
+  "generated_at": "2026-10-05T14:31:06.582784+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 100.0,
+      "score": 75.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.2099,
-          "up": true
+          "change_pct": -0.081,
+          "up": false
         },
         "MSFT": {
-          "change_pct": 1.6406,
+          "change_pct": 1.832,
           "up": true
         },
         "NVDA": {
-          "change_pct": 1.0623,
+          "change_pct": 1.1349,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.0537,
+          "change_pct": 0.0398,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 84.49,
+      "score": 84.75,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30940.14,
-        "sma50": 29514.16,
-        "sma200": 27507.55
+        "last_price": 30965.76,
+        "sma50": 29514.67,
+        "sma200": 27507.68
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 45.0,
-      "status": "yellow",
+      "score": 35.0,
+      "status": "red",
       "details": {
-        "current_vxn": 21.99,
-        "percentile_vs_20d": 55.0
+        "current_vxn": 22.08,
+        "percentile_vs_20d": 65.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 40.38,
+      "score": 41.15,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.303,
-        "change_5d_pct": 1.202
+        "current_yield_pct": 5.298,
+        "change_5d_pct": 1.107
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.19,
+      "score": 41.12,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.31,
-        "change_5d_pct": 1.101
+        "current_dxy": 102.32,
+        "change_5d_pct": 1.11
       }
     },
     "macro": {
@@ -92,6 +92,13 @@
         "avg_compound": 0.069,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "bharatstock 0.1.9",
+            "source": "Pypi.org",
+            "publishedAt": "2026-10-04T14:20:49Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "RBI MPC: beginning of a short and calibrated hike cycle",
             "source": "Livemint",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-10-04T13:57:26Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "India’s resilience not accidental but outcome of broad and mutually reinforcing reforms, says Das",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-04T13:50:40Z",
-            "sentiment": "Neutral",
-            "compound": 0.029
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 65.92,
-  "trade_probability": 59.55,
+  "confirmation_score": 58.41,
+  "trade_probability": 55.05,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
