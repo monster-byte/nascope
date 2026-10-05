@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T15:15:56.815822+00:00",
+  "generated_at": "2026-10-05T15:31:11.655928+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,36 +13,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 100.0,
+      "score": 75.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.0794,
-          "up": true
+          "change_pct": -0.0839,
+          "up": false
         },
         "MSFT": {
-          "change_pct": 1.5787,
+          "change_pct": 1.7957,
           "up": true
         },
         "NVDA": {
-          "change_pct": 1.2545,
+          "change_pct": 1.0452,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.0835,
+          "change_pct": 0.1233,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 84.75,
+      "score": 84.9,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30965.78,
-        "sma50": 29514.67,
-        "sma200": 27507.68
+        "last_price": 30981.3,
+        "sma50": 29514.99,
+        "sma200": 27507.75
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 45.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.89,
+        "current_vxn": 21.74,
         "percentile_vs_20d": 55.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 37.94,
+      "score": 36.56,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.319,
-        "change_5d_pct": 1.508
+        "current_yield_pct": 5.328,
+        "change_5d_pct": 1.679
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.43,
+      "score": 42.19,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.16,
-        "change_5d_pct": 0.946
+        "current_dxy": 102.19,
+        "change_5d_pct": 0.976
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.69,
+      "score": 55.05,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.074,
+        "avg_compound": 0.101,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "INVESTOR NOTICE: Honeywell Aerospace Inc. Investors with Substantial Losses May Seek to Lead Class Action Lawsuit before November 23, 2026 Deadline, Robbins Geller Rudman & Dowd LLP Announces - HONA",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-04T15:30:00Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
+          {
+            "title": "Avengers: Endgame Has Officially Achieved Its Ultimate Box Office Record Thanks to Encore (But There Are 2 Caveats)",
+            "source": "ComicBook.com",
+            "publishedAt": "2026-10-04T15:21:31Z",
+            "sentiment": "Positive",
+            "compound": 0.238
+          },
+          {
+            "title": "Letters to the Editor dated October 2, 2026",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-04T15:21:17Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "India within striking distance of 8% GDP growth, resilience not accidental: Shaktikanta Das",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-04T15:18:41Z",
+            "sentiment": "Positive",
+            "compound": 0.426
+          },
           {
             "title": "Visa, Mastercard, Stripe, and Coinbase Commit $1 Billion to New Stablecoin: Is Open USD a Challenge to Tether, USDC, and RLUSD?",
             "source": "Biztoc.com",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-04T15:08:55Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Binance’s SAFU fund holds $1.27B in Bitcoin, sits on about $270M profit",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-04T15:08:53Z",
-            "sentiment": "Positive",
-            "compound": 0.44
-          },
-          {
-            "title": "Why is the NZ dollar falling? The interest rate gap and sluggish economy",
-            "source": "New Zealand Herald",
-            "publishedAt": "2026-10-04T15:00:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.077
-          },
-          {
-            "title": "A test for forward guidance in monetary policy",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-04T14:56:18Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Bullion faces choppy week as dollar, US-Iran risks test sentiment: Analysts",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-04T14:43:47Z",
-            "sentiment": "Negative",
-            "compound": -0.273
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 65.76,
-  "trade_probability": 59.46,
+  "confirmation_score": 58.95,
+  "trade_probability": 55.37,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
