@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T14:31:06.582784+00:00",
+  "generated_at": "2026-10-05T14:45:55.493600+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
+      "score": 100.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.081,
-          "up": false
+          "change_pct": 0.1665,
+          "up": true
         },
         "MSFT": {
-          "change_pct": 1.832,
+          "change_pct": 1.7208,
           "up": true
         },
         "NVDA": {
-          "change_pct": 1.1349,
+          "change_pct": 1.1434,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.0398,
+          "change_pct": 0.0736,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 84.75,
+      "score": 84.68,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30965.76,
-        "sma50": 29514.67,
-        "sma200": 27507.68
+        "last_price": 30958.94,
+        "sma50": 29514.54,
+        "sma200": 27507.64
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 35.0,
-      "status": "red",
+      "score": 45.0,
+      "status": "yellow",
       "details": {
-        "current_vxn": 22.08,
-        "percentile_vs_20d": 65.0
+        "current_vxn": 21.96,
+        "percentile_vs_20d": 55.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 41.15,
-      "status": "yellow",
+      "score": 39.16,
+      "status": "red",
       "details": {
-        "current_yield_pct": 5.298,
-        "change_5d_pct": 1.107
+        "current_yield_pct": 5.311,
+        "change_5d_pct": 1.355
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.12,
+      "score": 41.16,
       "status": "yellow",
       "details": {
         "current_dxy": 102.32,
-        "change_5d_pct": 1.11
+        "change_5d_pct": 1.105
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.44,
+      "score": 53.23,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.069,
+        "avg_compound": 0.065,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Bullion faces choppy week as dollar, US-Iran risks test sentiment: Analysts",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-04T14:43:47Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "ベバリッジアンフィリップス曲線",
+            "source": "Hatenablog.com",
+            "publishedAt": "2026-10-04T14:33:30Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Social Security Check Hits $2K Milestone With Proposed 2027 COLA Bump",
+            "source": "New York Post",
+            "publishedAt": "2026-10-04T14:32:42Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
           {
             "title": "bharatstock 0.1.9",
             "source": "Pypi.org",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-04T14:12:15Z",
             "sentiment": "Positive",
             "compound": 0.34
-          },
-          {
-            "title": "The Best—And Worst—States for Teachers in 2026",
-            "source": "Mental Floss",
-            "publishedAt": "2026-10-04T14:00:01Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Households Will Pay More for Energy Due to Federal Policy Changes, Think Tank Says",
-            "source": "KQED",
-            "publishedAt": "2026-10-04T14:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.245
-          },
-          {
-            "title": "Vanguard's global ETF flags a stark shift for investors",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-04T13:57:26Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 58.41,
-  "trade_probability": 55.05,
+  "confirmation_score": 65.76,
+  "trade_probability": 59.46,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
