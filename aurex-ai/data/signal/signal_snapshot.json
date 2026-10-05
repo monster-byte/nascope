@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T13:01:14.112639+00:00",
+  "generated_at": "2026-10-05T13:15:53.823425+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 42.67,
+      "score": 40.38,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.288,
-        "change_5d_pct": 0.916
+        "current_yield_pct": 5.303,
+        "change_5d_pct": 1.202
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.75,
+      "score": 41.82,
       "status": "yellow",
       "details": {
         "current_dxy": 102.24,
-        "change_5d_pct": 1.032
+        "change_5d_pct": 1.023
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.76,
+      "score": 50.53,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.035,
+        "avg_compound": 0.011,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Labour says Government guilty of 'shameful posturing' over plans to slow minimum wage increases",
+            "source": "TheJournal.ie",
+            "publishedAt": "2026-10-04T13:04:34Z",
+            "sentiment": "Negative",
+            "compound": -0.718
+          },
           {
             "title": "Poll: Latino voters swing away from Trump and Republicans",
             "source": "NBC News",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-10-04T12:34:13Z",
             "sentiment": "Negative",
             "compound": -0.318
-          },
-          {
-            "title": "Brazil presidential vote pits Trump ally against Lula, who is seeking 4th nonconsecutive term",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-04T12:29:49Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 59.73,
-  "trade_probability": 55.84,
+  "confirmation_score": 59.32,
+  "trade_probability": 55.59,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
