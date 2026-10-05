@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T17:01:22.131229+00:00",
+  "generated_at": "2026-10-05T17:15:56.230260+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.3418,
+          "change_pct": 0.045,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.599,
+          "change_pct": 1.6106,
           "up": true
         },
         "NVDA": {
-          "change_pct": 1.2374,
+          "change_pct": 1.3505,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.3262,
+          "change_pct": 0.7121,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 85.05,
+      "score": 85.3,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30996.06,
-        "sma50": 29515.28,
-        "sma200": 27507.83
+        "last_price": 31021.26,
+        "sma50": 29515.78,
+        "sma200": 27507.95
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 50.0,
+      "score": 55.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.65,
-        "percentile_vs_20d": 50.0
+        "current_vxn": 21.61,
+        "percentile_vs_20d": 45.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 35.65,
+      "score": 34.27,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.334,
-        "change_5d_pct": 1.794
+        "current_yield_pct": 5.343,
+        "change_5d_pct": 1.966
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.68,
+      "score": 41.49,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.25,
-        "change_5d_pct": 1.04
+        "current_dxy": 102.28,
+        "change_5d_pct": 1.064
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.42,
+      "score": 51.81,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.068,
+        "avg_compound": 0.036,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Verity Takes No. 1 as Warner Bros. Has Final Flop",
+            "source": "Newser",
+            "publishedAt": "2026-10-04T17:14:00Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
+          {
+            "title": "'Iran signed NPT, India did not...situation is very different': Jaishankar highlights distinctions, deepening global energy crises amid West Asia turmoil",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-04T17:04:08Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
           {
             "title": "Global bond yields put emerging markets on edge, but India’s FDI pull stays strong: DEA Secretary Anuradha Thakur",
             "source": "The Times of India",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-04T16:56:31Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "'Digger bombs for Warner Bros., 'Verity' takes No. 1 at box office",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-10-04T16:50:16Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "One southern state's rise is making it America's new 'economic center of gravity'",
-            "source": "Fox News",
-            "publishedAt": "2026-10-04T16:47:40Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 65.85,
-  "trade_probability": 59.51,
+  "confirmation_score": 65.99,
+  "trade_probability": 59.59,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
