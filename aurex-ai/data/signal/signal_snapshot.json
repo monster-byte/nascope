@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T12:45:52.947719+00:00",
+  "generated_at": "2026-10-05T13:01:14.112639+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 44.96,
+      "score": 42.67,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.273,
-        "change_5d_pct": 0.63
+        "current_yield_pct": 5.288,
+        "change_5d_pct": 0.916
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.13,
+      "score": 41.75,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.19,
-        "change_5d_pct": 0.983
+        "current_dxy": 102.24,
+        "change_5d_pct": 1.032
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.99,
+      "score": 51.76,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.0,
+        "avg_compound": 0.035,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Poll: Latino voters swing away from Trump and Republicans",
+            "source": "NBC News",
+            "publishedAt": "2026-10-04T13:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "The Clarity Act stalled. Bankers aren’t hitting the brakes yet on crypto dealmaking",
+            "source": "CoinDesk",
+            "publishedAt": "2026-10-04T13:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.226
+          },
+          {
+            "title": "To win over locals, data centers pump $340M into rural Texas projects",
+            "source": "Grist",
+            "publishedAt": "2026-10-04T13:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.586
+          },
           {
             "title": "Solana Co.’s Joseph Chee Tells the Wall Street Journal: China Will Find a Way to Manage Crypto. What Happens If China Reopens?",
             "source": "Biztoc.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-04T12:29:49Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Let exchange rate act as shock absorber: IMF on Fed hike impact on India",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-04T12:29:24Z",
-            "sentiment": "Negative",
-            "compound": -0.382
-          },
-          {
-            "title": "If a Stock Market Crash Is Coming, These 3 ETFs Could Be Smart Buys Right Now",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-04T12:28:48Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "BlackRock’s IBIT Took In $196 Million in a Day. Fidelity’s FBTC Had One Positive Day All Week",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-04T12:27:13Z",
-            "sentiment": "Positive",
-            "compound": 0.557
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 59.92,
-  "trade_probability": 55.95,
+  "confirmation_score": 59.73,
+  "trade_probability": 55.84,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
