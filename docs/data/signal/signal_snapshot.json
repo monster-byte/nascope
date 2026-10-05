@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T16:31:06.378867+00:00",
+  "generated_at": "2026-10-05T16:45:46.778551+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.2022,
+          "change_pct": 0.2908,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.6116,
+          "change_pct": 1.8233,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.8019,
+          "change_pct": 0.8916,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.4536,
+          "change_pct": 0.6484,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 84.98,
+      "score": 85.28,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30988.49,
-        "sma50": 29515.13,
-        "sma200": 27507.79
+        "last_price": 31019.36,
+        "sma50": 29515.75,
+        "sma200": 27507.94
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 35.65,
+      "score": 36.56,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.334,
-        "change_5d_pct": 1.794
+        "current_yield_pct": 5.328,
+        "change_5d_pct": 1.679
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.72,
+      "score": 41.68,
       "status": "yellow",
       "details": {
         "current_dxy": 102.25,
-        "change_5d_pct": 1.035
+        "change_5d_pct": 1.04
       }
     },
     "macro": {
@@ -92,6 +92,13 @@
         "avg_compound": 0.06,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Domestic conditions conducive to rate hike",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-04T16:32:47Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "businessline poll: MPC seen raising rates by 25 bps this week; majority expect 50-75 bps tightening by FY27",
             "source": "BusinessLine",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-10-04T16:19:25Z",
             "sentiment": "Positive",
             "compound": 0.402
-          },
-          {
-            "title": "Global bond yields pose challenge for emerging markets; India sees FDI confidence: DEA Secy Anuradha Thakur",
-            "source": "ANI News",
-            "publishedAt": "2026-10-04T16:13:39Z",
-            "sentiment": "Positive",
-            "compound": 0.557
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 66.26,
-  "trade_probability": 59.76,
+  "confirmation_score": 66.42,
+  "trade_probability": 59.85,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
