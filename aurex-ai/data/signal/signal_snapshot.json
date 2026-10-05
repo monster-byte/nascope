@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T14:01:23.596515+00:00",
+  "generated_at": "2026-10-05T14:15:50.586719+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,45 +13,45 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
+      "score": 100.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.1197,
-          "up": false
+          "change_pct": 0.2099,
+          "up": true
         },
         "MSFT": {
-          "change_pct": 2.0128,
+          "change_pct": 1.6406,
           "up": true
         },
         "NVDA": {
-          "change_pct": 1.1434,
+          "change_pct": 1.0623,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.2347,
+          "change_pct": 0.0537,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 83.88,
+      "score": 84.49,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30878.55,
-        "sma50": 29512.93,
-        "sma200": 27507.24
+        "last_price": 30940.14,
+        "sma50": 29514.16,
+        "sma200": 27507.55
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 30.0,
-      "status": "red",
+      "score": 45.0,
+      "status": "yellow",
       "details": {
-        "current_vxn": 22.28,
-        "percentile_vs_20d": 70.0
+        "current_vxn": 21.99,
+        "percentile_vs_20d": 55.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 40.89,
+      "score": 41.19,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.35,
-        "change_5d_pct": 1.139
+        "current_dxy": 102.31,
+        "change_5d_pct": 1.101
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.25,
+      "score": 53.44,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.065,
+        "avg_compound": 0.069,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "RBI MPC: beginning of a short and calibrated hike cycle",
+            "source": "Livemint",
+            "publishedAt": "2026-10-04T14:15:22Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Grok Dominates Coinbase’s AI Trading with a 60% Share: Which Coins Are Being Purchased?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-04T14:12:15Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
           {
             "title": "The Best—And Worst—States for Teachers in 2026",
             "source": "Mental Floss",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-04T13:50:40Z",
             "sentiment": "Neutral",
             "compound": 0.029
-          },
-          {
-            "title": "Gold Price prediction: What will be the gold rate? Factors that will drive bullion precious metal",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-04T13:50:24Z",
-            "sentiment": "Positive",
-            "compound": 0.572
-          },
-          {
-            "title": "Micron or Sandisk: If I Could Only Own One for the Next 5 Years, It Would Be This One",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-04T13:45:07Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.7,
-  "trade_probability": 54.62,
+  "confirmation_score": 65.92,
+  "trade_probability": 59.55,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
