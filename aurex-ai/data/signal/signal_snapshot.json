@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T17:45:53.278980+00:00",
+  "generated_at": "2026-10-05T18:02:27.253294+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.033,
+          "change_pct": -0.1919,
           "up": false
         },
         "MSFT": {
-          "change_pct": 1.5806,
+          "change_pct": 1.4936,
           "up": true
         },
         "NVDA": {
-          "change_pct": 1.5896,
+          "change_pct": 1.4679,
           "up": true
         },
         "AMZN": {
-          "change_pct": 1.2193,
+          "change_pct": 0.858,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 85.7,
+      "score": 85.5,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 31061.09,
-        "sma50": 29516.58,
-        "sma200": 27508.15
+        "last_price": 31041.03,
+        "sma50": 29516.18,
+        "sma200": 27508.05
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 50.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.66,
+        "current_vxn": 21.76,
         "percentile_vs_20d": 50.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 33.97,
+      "score": 33.66,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.345,
-        "change_5d_pct": 2.004
+        "current_yield_pct": 5.347,
+        "change_5d_pct": 2.042
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.76,
+      "score": 41.77,
       "status": "yellow",
       "details": {
         "current_dxy": 102.24,
-        "change_5d_pct": 1.03
+        "change_5d_pct": 1.029
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.81,
+      "score": 51.32,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.004,
+        "avg_compound": 0.026,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Woman Gets The Viral Linda’s Fudge Cake From The Cheesecake Factory. She Takes 2 Large Bites Before Seeing What’s Lurking Inside: ‘I Need $50k Immediately’",
+            "source": "BroBible",
+            "publishedAt": "2026-10-04T18:00:47Z",
+            "sentiment": "Neutral",
+            "compound": -0.128
+          },
+          {
+            "title": "Full transcript of \"Face the Nation with Margaret Brennan,\" Oct. 4, 2026",
+            "source": "CBS News",
+            "publishedAt": "2026-10-04T17:49:28Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Let exchange rate act as shock absorber: IMF on Fed hike impact on India",
             "source": "Business Standard",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-04T17:26:11Z",
             "sentiment": "Positive",
             "compound": 0.612
-          },
-          {
-            "title": "Verity Takes No. 1 as Warner Bros. Has Final Flop",
-            "source": "Newser",
-            "publishedAt": "2026-10-04T17:14:00Z",
-            "sentiment": "Negative",
-            "compound": -0.34
-          },
-          {
-            "title": "'Iran signed NPT, India did not...situation is very different': Jaishankar highlights distinctions, deepening global energy crises amid West Asia turmoil",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-04T17:04:08Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 58.65,
-  "trade_probability": 55.19,
+  "confirmation_score": 58.71,
+  "trade_probability": 55.23,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
