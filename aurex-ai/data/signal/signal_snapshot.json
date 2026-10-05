@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T12:31:04.468735+00:00",
+  "generated_at": "2026-10-05T12:45:52.947719+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 35.65,
-      "status": "red",
+      "score": 44.96,
+      "status": "yellow",
       "details": {
-        "current_yield_pct": 5.277,
-        "change_5d_pct": 1.794
+        "current_yield_pct": 5.273,
+        "change_5d_pct": 0.63
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.68,
+      "score": 42.13,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.25,
-        "change_5d_pct": 1.04
+        "current_dxy": 102.19,
+        "change_5d_pct": 0.983
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.63,
+      "score": 49.99,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.013,
+        "avg_compound": -0.0,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Solana Co.’s Joseph Chee Tells the Wall Street Journal: China Will Find a Way to Manage Crypto. What Happens If China Reopens?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-04T12:42:13Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Sustained reforms, self-reliance critical for Viksit Bharat, says Das",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-04T12:34:13Z",
+            "sentiment": "Negative",
+            "compound": -0.318
+          },
           {
             "title": "Brazil presidential vote pits Trump ally against Lula, who is seeking 4th nonconsecutive term",
             "source": "The Times of India",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-04T12:27:13Z",
             "sentiment": "Positive",
             "compound": 0.557
-          },
-          {
-            "title": "Editorial. Bite the bullet",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-04T12:20:58Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "These Money Illusions Can Cost Investors Dearly",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-04T12:12:26Z",
-            "sentiment": "Positive",
-            "compound": 0.421
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 58.68,
-  "trade_probability": 55.21,
+  "confirmation_score": 59.92,
+  "trade_probability": 55.95,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
