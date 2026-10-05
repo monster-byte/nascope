@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T13:31:15.385339+00:00",
+  "generated_at": "2026-10-05T13:45:51.554238+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,36 +13,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
+      "score": 100.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.3928,
-          "up": false
+          "change_pct": 0.6416,
+          "up": true
         },
         "MSFT": {
-          "change_pct": 1.6628,
+          "change_pct": 2.8171,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.5884,
+          "change_pct": 1.4466,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.1532,
+          "change_pct": 0.1273,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 83.44,
+      "score": 84.67,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30834.26,
-        "sma50": 29512.04,
-        "sma200": 27507.02
+        "last_price": 30957.88,
+        "sma50": 29514.52,
+        "sma200": 27507.64
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 41.15,
+      "score": 40.84,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.298,
-        "change_5d_pct": 1.107
+        "current_yield_pct": 5.3,
+        "change_5d_pct": 1.145
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.65,
+      "score": 41.15,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.26,
-        "change_5d_pct": 1.043
+        "current_dxy": 102.32,
+        "change_5d_pct": 1.106
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.29,
+      "score": 52.09,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.066,
+        "avg_compound": 0.042,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Micron or Sandisk: If I Could Only Own One for the Next 5 Years, It Would Be This One",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-04T13:45:07Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "The 60/40 Portfolio Looks Dead Again: Here's What To Do",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-04T13:42:24Z",
+            "sentiment": "Negative",
+            "compound": -0.649
+          },
           {
             "title": "The GOP's slipping numbers show the one thing Americans won't tolerate",
             "source": "Raw Story",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-04T13:24:16Z",
             "sentiment": "Positive",
             "compound": 0.459
-          },
-          {
-            "title": "The same Fed rate hike can help stablecoins and hurt Bitcoin borrowers",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-10-04T13:20:06Z",
-            "sentiment": "Neutral",
-            "compound": -0.178
-          },
-          {
-            "title": "Labour says Government guilty of 'shameful posturing' over plans to slow minimum wage increases",
-            "source": "TheJournal.ie",
-            "publishedAt": "2026-10-04T13:04:34Z",
-            "sentiment": "Negative",
-            "compound": -0.718
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 59.61,
-  "trade_probability": 55.77,
+  "confirmation_score": 66.34,
+  "trade_probability": 59.8,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
