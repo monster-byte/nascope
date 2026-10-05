@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T18:31:08.777230+00:00",
+  "generated_at": "2026-10-05T18:45:51.122175+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.0914,
+          "change_pct": -0.2963,
           "up": false
         },
         "MSFT": {
-          "change_pct": 1.6464,
+          "change_pct": 1.7682,
           "up": true
         },
         "NVDA": {
-          "change_pct": 1.8821,
+          "change_pct": 1.9269,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.7439,
+          "change_pct": 0.9826,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 85.73,
+      "score": 85.69,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 31064.22,
-        "sma50": 29516.64,
-        "sma200": 27508.17
+        "last_price": 31060.72,
+        "sma50": 29516.57,
+        "sma200": 27508.15
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 45.0,
+      "score": 50.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.83,
-        "percentile_vs_20d": 55.0
+        "current_vxn": 21.85,
+        "percentile_vs_20d": 50.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 34.27,
+      "score": 35.95,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.343,
-        "change_5d_pct": 1.966
+        "current_yield_pct": 5.332,
+        "change_5d_pct": 1.756
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.99,
+      "score": 42.28,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.21,
-        "change_5d_pct": 1.001
+        "current_dxy": 102.18,
+        "change_5d_pct": 0.965
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.56,
+      "score": 50.44,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.011,
+        "avg_compound": 0.009,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "‘Avengers: Endgame’ is the biggest movie ever again, 7 years later—and it says a lot about the future of Hollywood’s IP machine",
+            "source": "Fortune",
+            "publishedAt": "2026-10-04T18:45:34Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "How to Start Investing in 2026: The Growth Stock I'm Buying Before Year-End",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-04T18:44:06Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "You Can Do Better Than Tesla. Buy Micron Instead",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-04T18:44:06Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
+          {
+            "title": "Is Copilot Microsoft's Secret Weapon in the AI Arms Race?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-04T18:43:57Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
           {
             "title": "The Irish Times view on Budget 2027: time to slow the runaway spending train",
             "source": "The Irish Times",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-04T18:18:09Z",
             "sentiment": "Negative",
             "compound": -0.273
-          },
-          {
-            "title": "RBI could keep rates higher for longer amid global and local risks",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-04T18:18:09Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "Energy prices in USA: Electricity to cost the most in five states. Here's why, check list",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-04T18:17:41Z",
-            "sentiment": "Positive",
-            "compound": 0.273
-          },
-          {
-            "title": "This Treasury ETF Resets Its Yield Every Week, So Rising Rates Pay You More",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-04T18:12:41Z",
-            "sentiment": "Neutral",
-            "compound": 0.035
-          },
-          {
-            "title": "The great chase for audience attention",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-04T18:04:47Z",
-            "sentiment": "Positive",
-            "compound": 0.625
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 58.33,
-  "trade_probability": 55.0,
+  "confirmation_score": 59.02,
+  "trade_probability": 55.41,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
