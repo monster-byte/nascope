@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T19:16:00.275247+00:00",
+  "generated_at": "2026-10-05T21:21:12.950835+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,36 +13,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 100.0,
+      "score": 75.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.1439,
-          "up": true
+          "change_pct": -0.1229,
+          "up": false
         },
         "MSFT": {
-          "change_pct": 2.111,
+          "change_pct": 1.6029,
           "up": true
         },
         "NVDA": {
-          "change_pct": 2.3645,
+          "change_pct": 2.087,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.9369,
+          "change_pct": 0.0557,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 86.14,
+      "score": 85.85,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 31105.63,
-        "sma50": 29517.47,
-        "sma200": 27508.38
+        "last_price": 31076.44,
+        "sma50": 29516.89,
+        "sma200": 27508.23
       }
     },
     "vxn": {
@@ -50,7 +50,7 @@
       "score": 45.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.8,
+        "current_vxn": 21.81,
         "percentile_vs_20d": 55.0
       }
     },
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.4,
+      "score": 42.74,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.16,
-        "change_5d_pct": 0.951
+        "current_dxy": 102.12,
+        "change_5d_pct": 0.908
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.2,
+      "score": 51.04,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.004,
+        "avg_compound": 0.021,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "'The market has had every reason to sell off'",
+            "title": "The Hybrid Isn’t Replacing the Bigger Engine, It’s Replacing the Upgrade Path",
+            "source": "CleanTechnica",
+            "publishedAt": "2026-10-04T21:15:03Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "If a Stock Market Crash Is Coming, This May Be the Best Warren Buffett Stock to Buy",
             "source": "Biztoc.com",
-            "publishedAt": "2026-10-04T19:13:30Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Despite G7, fuel inflation will remain",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-04T19:11:20Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Trump reiterates pledge to send $5,000 checks, and hands out smaller payments, as midterm elections loom",
-            "source": "CNBC",
-            "publishedAt": "2026-10-04T19:06:46Z",
-            "sentiment": "Negative",
-            "compound": -0.226
-          },
-          {
-            "title": "Jake Tapper Grills WH Economic Adviser on Trump’s Boasts Of The ‘Best Economic Numbers’ Ever: ‘Is He Misinformed’ or ‘Not Telling the Truth?’",
-            "source": "Mediaite",
-            "publishedAt": "2026-10-04T19:02:58Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "How Andy Burnham ate the Greens’ policy lunch",
-            "source": "POLITICO.eu",
-            "publishedAt": "2026-10-04T19:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Festive cheer shifts beyond metros as consumer brands bet big on small-town India",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-04T18:52:47Z",
+            "publishedAt": "2026-10-04T21:13:16Z",
             "sentiment": "Positive",
-            "compound": 0.743
+            "compound": 0.361
+          },
+          {
+            "title": "The Hummer H2 Was Huge, But Here Are 5 New SUVs That Are Even Bigger",
+            "source": "Jalopnik",
+            "publishedAt": "2026-10-04T21:05:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.166
+          },
+          {
+            "title": "Tom Cruise suffers one of the worst movie debuts of his career. Reviews were so bad Warner Bros. ran ‘decide for yourself’ ads",
+            "source": "Fortune",
+            "publishedAt": "2026-10-04T21:02:21Z",
+            "sentiment": "Negative",
+            "compound": -0.913
+          },
+          {
+            "title": "Bitcoin’s $85,000 recovery awaits proof that ETF investors kept buying after payrolls",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-10-04T20:45:36Z",
+            "sentiment": "Neutral",
+            "compound": 0.077
+          },
+          {
+            "title": "'Money-grab' or celebration? NFL kicks off London series",
+            "source": "BBC News",
+            "publishedAt": "2026-10-04T20:43:22Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 65.8,
-  "trade_probability": 59.48,
+  "confirmation_score": 59.12,
+  "trade_probability": 55.47,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
