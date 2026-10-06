@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T14:45:49.898122+00:00",
+  "generated_at": "2026-10-06T14:55:23.974766+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.2734,
+          "change_pct": 0.0261,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.7071,
+          "change_pct": 1.6959,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.9761,
+          "change_pct": 0.8932,
           "up": true
         },
         "AMZN": {
-          "change_pct": 1.3264,
+          "change_pct": 1.3355,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 87.59,
+      "score": 87.73,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 31317.14,
-        "sma50": 29582.45,
-        "sma200": 27541.58
+        "last_price": 31331.4,
+        "sma50": 29582.73,
+        "sma200": 27541.65
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 50.0,
+      "score": 45.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.92,
-        "percentile_vs_20d": 50.0
+        "current_vxn": 21.96,
+        "percentile_vs_20d": 55.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 43.76,
+      "score": 45.28,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.296,
-        "change_5d_pct": 0.78
+        "current_yield_pct": 5.286,
+        "change_5d_pct": 0.59
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.57,
+      "score": 45.56,
       "status": "yellow",
       "details": {
         "current_dxy": 101.93,
-        "change_5d_pct": 0.553
+        "change_5d_pct": 0.554
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.86,
+      "score": 55.25,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.097,
+        "avg_compound": 0.105,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Bitmine Buys $41M More Ethereum, Reaching 99% of Its 'Alchemy of 5%' Target",
+            "source": "Decrypt",
+            "publishedAt": "2026-10-05T14:54:17Z",
+            "sentiment": "Positive",
+            "compound": 0.268
+          },
+          {
+            "title": "PENN Entertainment to Report Third Quarter Results and Host Conference Call and Webcast on November 5",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-05T14:49:33Z",
+            "sentiment": "Positive",
+            "compound": 0.421
+          },
           {
             "title": "Large Commercial Property Rates Drop 14.5% in Q2 to Highlight Latest Willis Report",
             "source": "Insurance Journal",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-05T14:35:04Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "LKQ Corporation to Release Third Quarter 2026 Results on Thursday, October 29, 2026",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-05T14:33:42Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Stock Market Today (Oct. 5, 2026): S&P 500 moves higher, yields higher ahead of Fed minutes release",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-05T14:33:38Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 67.77,
-  "trade_probability": 60.66,
+  "confirmation_score": 67.58,
+  "trade_probability": 60.55,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
