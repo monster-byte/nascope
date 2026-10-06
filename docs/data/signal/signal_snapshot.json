@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T16:31:13.286407+00:00",
+  "generated_at": "2026-10-06T16:45:54.970136+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.2524,
+          "change_pct": -0.1532,
           "up": false
         },
         "MSFT": {
-          "change_pct": 1.3171,
+          "change_pct": 1.3889,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.2229,
+          "change_pct": 0.1435,
           "up": true
         },
         "AMZN": {
-          "change_pct": 1.3803,
+          "change_pct": 1.4288,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 87.19,
+      "score": 87.36,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 31277.14,
-        "sma50": 29581.65,
-        "sma200": 27541.38
+        "last_price": 31294.1,
+        "sma50": 29581.99,
+        "sma200": 27541.46
       }
     },
     "vxn": {
@@ -50,7 +50,7 @@
       "score": 50.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.58,
+        "current_vxn": 21.46,
         "percentile_vs_20d": 50.0
       }
     },
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.11,
+      "score": 46.01,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.86,
-        "change_5d_pct": 0.486
+        "current_dxy": 101.88,
+        "change_5d_pct": 0.499
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.05,
+      "score": 54.81,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.101,
+        "avg_compound": 0.096,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Why Do Democrats Keep Posting Videos of Themselves Pumping Iron?",
+            "source": "Mother Jones",
+            "publishedAt": "2026-10-05T16:44:42Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Good News on Affordability: American Paychecks Are Beating Inflation Under Trump",
+            "source": "Breitbart News",
+            "publishedAt": "2026-10-05T16:40:05Z",
+            "sentiment": "Neutral",
+            "compound": -0.026
+          },
+          {
+            "title": "Top Midday Stories: PTC to Be Acquired by Schneider Electric for $23.7 Billion; C.H. Robinson to Acquire RXO for $5.8 Billion",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-05T16:34:30Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
           {
             "title": "OpenAI and Anthropic Have a New Threat to Worry About—and It Isn’t China",
             "source": "Gizmodo.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-05T16:28:55Z",
             "sentiment": "Positive",
             "compound": 0.494
-          },
-          {
-            "title": "Naples Finance Professional Bobby Garon Warns That America's Wealth Boom Is Leaving a New Generation of Newly Wealthy Americans Underinsured",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-05T16:19:22Z",
-            "sentiment": "Positive",
-            "compound": 0.649
-          },
-          {
-            "title": "3 Nasdaq 100 Stocks with Open Questions",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-05T16:18:48Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "HIVE pipes GPU compute 5,000 miles from Paraguay to Columbia University",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-05T16:17:04Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 61.51,
-  "trade_probability": 56.91,
+  "confirmation_score": 61.5,
+  "trade_probability": 56.9,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
