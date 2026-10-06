@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T17:31:09.433172+00:00",
+  "generated_at": "2026-10-06T17:45:48.710999+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.018,
+          "change_pct": 0.0541,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.2486,
+          "change_pct": 1.1096,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.1729,
+          "change_pct": -0.0959,
           "up": false
         },
         "AMZN": {
-          "change_pct": 1.3375,
+          "change_pct": 1.4268,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 87.08,
+      "score": 87.26,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 31265.58,
-        "sma50": 29581.42,
-        "sma200": 27541.32
+        "last_price": 31283.75,
+        "sma50": 29581.78,
+        "sma200": 27541.41
       }
     },
     "vxn": {
@@ -50,7 +50,7 @@
       "score": 55.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.21,
+        "current_vxn": 21.22,
         "percentile_vs_20d": 45.0
       }
     },
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.08,
+      "score": 46.23,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.87,
-        "change_5d_pct": 0.49
+        "current_dxy": 101.85,
+        "change_5d_pct": 0.472
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.81,
+      "score": 52.12,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.036,
+        "avg_compound": 0.042,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Bank of America warns investors of diminishing returns from AI spending",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-05T17:43:36Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
+          {
+            "title": "IPO mutual funds: How do fund managers buy and sell shares at pre- and post-listing stages? Experts explain",
+            "source": "Livemint",
+            "publishedAt": "2026-10-05T17:40:34Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "Nvidia Is 'Tip Of The Spear' For AI Trade, Says Dan Niles — Warns 'At A Certain Point Either The Bond Market's Wrong Or Stock Market Is Wrong'",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-05T17:34:38Z",
+            "sentiment": "Negative",
+            "compound": -0.67
+          },
           {
             "title": "Midterm gridlock could clear the way for a risk-on rally, Tom Lee says",
             "source": "Crypto Briefing",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-05T17:29:14Z",
             "sentiment": "Negative",
             "compound": -0.382
-          },
-          {
-            "title": "On the right path of easing ease of biz",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-05T17:26:02Z",
-            "sentiment": "Positive",
-            "compound": 0.542
-          },
-          {
-            "title": "NYSE owner and crypto exchange OKX seek SEC clearance for tokenized U.S. stock trading",
-            "source": "Fortune",
-            "publishedAt": "2026-10-05T17:24:26Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Frasers Ups Burberry Stake to 6.32%, Unveils Luxury Division Ahead of Event During Paris Fashion Week",
-            "source": "WWD",
-            "publishedAt": "2026-10-05T17:22:54Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 61.56,
-  "trade_probability": 56.94,
+  "confirmation_score": 61.63,
+  "trade_probability": 56.98,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
