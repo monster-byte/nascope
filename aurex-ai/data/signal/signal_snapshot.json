@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T13:15:50.417371+00:00",
+  "generated_at": "2026-10-06T13:31:11.414226+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,36 +13,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.0841,
-          "up": true
+          "change_pct": -0.021,
+          "up": false
         },
         "MSFT": {
-          "change_pct": 0.0171,
+          "change_pct": 1.0811,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.4519,
-          "up": false
+          "change_pct": 1.2863,
+          "up": true
         },
         "AMZN": {
-          "change_pct": -0.1786,
-          "up": false
+          "change_pct": 0.0357,
+          "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 85.85,
+      "score": 87.49,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 31076.44,
-        "sma50": 29516.89,
-        "sma200": 27508.23
+        "last_price": 31307.13,
+        "sma50": 29582.25,
+        "sma200": 27541.53
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 47.26,
+      "score": 44.98,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.273,
-        "change_5d_pct": 0.343
+        "current_yield_pct": 5.288,
+        "change_5d_pct": 0.628
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.31,
+      "score": 46.2,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.84,
-        "change_5d_pct": 0.461
+        "current_dxy": 101.85,
+        "change_5d_pct": 0.475
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.13,
+      "score": 50.45,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.003,
+        "avg_compound": 0.009,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Construction Partners, Inc. Completes Texas Acquisition",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-05T13:15:00Z",
+            "title": "Bitcoin gets a 20-day window to see whether energy relief can move the Fed",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-10-05T13:30:01Z",
+            "sentiment": "Positive",
+            "compound": 0.637
+          },
+          {
+            "title": "Jim Cramer's top 10 things to watch in the stock market Monday",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-05T13:29:54Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "bharatstock 0.1.10",
+            "source": "Pypi.org",
+            "publishedAt": "2026-10-05T13:28:59Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "US futures edge lower under sustained pressure from bond markets",
-            "source": "Medianewsgroup.com",
-            "publishedAt": "2026-10-05T13:13:59Z",
+            "title": "Officials trade blame as Iran’s economy sinks deeper",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-10-05T13:28:19Z",
             "sentiment": "Negative",
-            "compound": -0.527
+            "compound": -0.34
           },
           {
-            "title": "AnorTech Secures Strategic Cornerstone as Greenland Mines Doubles Stake to 19.9%",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-05T13:13:06Z",
-            "sentiment": "Positive",
-            "compound": 0.318
-          },
-          {
-            "title": "Workday Global Workforce Report: AI Is Rewriting Jobs More Than It's Cutting Them",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-05T13:10:00Z",
+            "title": "Russia stood by India when territorial integrity was threatened – Delhi",
+            "source": "RT",
+            "publishedAt": "2026-10-05T13:23:47Z",
             "sentiment": "Neutral",
-            "compound": -0.194
+            "compound": -0.103
           },
           {
-            "title": "Republican unease with Trump spreads to places it was never supposed to reach: report",
-            "source": "Raw Story",
-            "publishedAt": "2026-10-05T13:09:35Z",
-            "sentiment": "Negative",
-            "compound": -0.416
-          },
-          {
-            "title": "Artificial intelligence: AI Is Squeezing Out the Rest of the Stock Market",
-            "source": "Faz.net",
-            "publishedAt": "2026-10-05T13:08:32Z",
-            "sentiment": "Positive",
-            "compound": 0.477
+            "title": "$1,000 Invested in Peloton Interactive (PTON) at Its 52-Week Low Is Worth This Much Today",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-05T13:17:55Z",
+            "sentiment": "Neutral",
+            "compound": -0.052
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 53.7,
-  "trade_probability": 52.22,
+  "confirmation_score": 60.38,
+  "trade_probability": 56.23,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
