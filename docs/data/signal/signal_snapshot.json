@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T18:46:03.287992+00:00",
+  "generated_at": "2026-10-06T19:01:20.841939+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
+      "score": 100.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.1622,
+          "change_pct": 0.0871,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.0259,
+          "change_pct": 0.9926,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.0585,
-          "up": false
+          "change_pct": 0.0653,
+          "up": true
         },
         "AMZN": {
-          "change_pct": 1.6394,
+          "change_pct": 1.6153,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 87.14,
+      "score": 87.24,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 31271.22,
-        "sma50": 29581.53,
-        "sma200": 27541.35
+        "last_price": 31281.87,
+        "sma50": 29581.74,
+        "sma200": 27541.4
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 70.0,
+      "score": 65.0,
       "status": "green",
       "details": {
-        "current_vxn": 21.0,
-        "percentile_vs_20d": 30.0
+        "current_vxn": 21.03,
+        "percentile_vs_20d": 35.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 47.87,
+      "score": 46.96,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.269,
-        "change_5d_pct": 0.266
+        "current_yield_pct": 5.275,
+        "change_5d_pct": 0.381
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.17,
+      "score": 46.14,
       "status": "yellow",
       "details": {
         "current_dxy": 101.86,
-        "change_5d_pct": 0.478
+        "change_5d_pct": 0.482
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.27,
+      "score": 56.54,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.005,
+        "avg_compound": 0.131,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Colliers to announce third quarter results on November 4, 2026",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-05T19:00:06Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "The Mighty American Consumer Is Crashing Through Inflation and Driving Growth",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-10-05T18:54:32Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "AbbVie and Genmab Announce Epcoritamab in Combination with R-CHOP Demonstrates Significant Improvement in Progression-Free Survival versus R-CHOP in Patients with Newly Diagnosed Diffuse Large B-Cell Lymphoma",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-05T18:54:00Z",
+            "sentiment": "Positive",
+            "compound": 0.586
+          },
+          {
+            "title": "Citadel Securities says economic strength drives higher yields",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-05T18:49:27Z",
+            "sentiment": "Positive",
+            "compound": 0.66
+          },
           {
             "title": "Nvidia looks to take out its record high close — plus, don't worry about Intel's dip",
             "source": "Biztoc.com",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-05T18:29:16Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Greens think tank wants public supermarkets to challenge 'duopoly'",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-10-05T18:28:47Z",
-            "sentiment": "Neutral",
-            "compound": 0.077
-          },
-          {
-            "title": "Nasdaq Hits Fresh Highs While Dow Slips and Small Caps Struggle for Direction",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-05T18:28:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Why unemployment is the more reliable gauge when declaring recession",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-10-05T18:26:50Z",
-            "sentiment": "Negative",
-            "compound": -0.691
-          },
-          {
-            "title": "French bond contagion fears are rattling the euro",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-05T18:10:34Z",
-            "sentiment": "Negative",
-            "compound": -0.7
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 62.96,
-  "trade_probability": 57.78,
+  "confirmation_score": 69.71,
+  "trade_probability": 61.83,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
