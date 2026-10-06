@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T19:01:20.841939+00:00",
+  "generated_at": "2026-10-06T19:15:53.827299+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 100.0,
+      "score": 75.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.0871,
+          "change_pct": 0.0901,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.9926,
+          "change_pct": 1.0278,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.0653,
-          "up": true
+          "change_pct": -0.1355,
+          "up": false
         },
         "AMZN": {
-          "change_pct": 1.6153,
+          "change_pct": 1.7503,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 87.24,
+      "score": 87.22,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 31281.87,
-        "sma50": 29581.74,
-        "sma200": 27541.4
+        "last_price": 31279.75,
+        "sma50": 29581.7,
+        "sma200": 27541.39
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 65.0,
-      "status": "green",
+      "score": 60.0,
+      "status": "yellow",
       "details": {
-        "current_vxn": 21.03,
-        "percentile_vs_20d": 35.0
+        "current_vxn": 21.05,
+        "percentile_vs_20d": 40.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 46.96,
+      "score": 47.87,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.275,
-        "change_5d_pct": 0.381
+        "current_yield_pct": 5.269,
+        "change_5d_pct": 0.266
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.14,
+      "score": 46.33,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.86,
-        "change_5d_pct": 0.482
+        "current_dxy": 101.83,
+        "change_5d_pct": 0.459
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.54,
+      "score": 56.77,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.131,
+        "avg_compound": 0.135,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Colliers to announce third quarter results on November 4, 2026",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-05T19:00:06Z",
+            "title": "Trump Touts Medicaid Drug Savings, But Details Remain Murky",
+            "source": "FactCheck.org",
+            "publishedAt": "2026-10-05T19:09:31Z",
+            "sentiment": "Neutral",
+            "compound": -0.013
+          },
+          {
+            "title": "Investors shrug off a fresh surge in bond yields to push the Nasdaq to a record high",
+            "source": "Business Insider",
+            "publishedAt": "2026-10-05T19:07:37Z",
+            "sentiment": "Positive",
+            "compound": 0.318
+          },
+          {
+            "title": "3 Dividend Stocks to Buy in October That Have Never Cut Their Payouts",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-05T19:05:22Z",
+            "sentiment": "Positive",
+            "compound": 0.206
+          },
+          {
+            "title": "Avengers: Endgame once again beats Avatar as highest-grossing movie of all time",
+            "source": "CBC News",
+            "publishedAt": "2026-10-05T19:05:12Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "The Mighty American Consumer Is Crashing Through Inflation and Driving Growth",
-            "source": "Freerepublic.com",
-            "publishedAt": "2026-10-05T18:54:32Z",
-            "sentiment": "Positive",
-            "compound": 0.382
+            "title": "CFTC Proposes New Rule for Regulating Crypto Transactions",
+            "source": "pymnts.com",
+            "publishedAt": "2026-10-05T19:05:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "AbbVie and Genmab Announce Epcoritamab in Combination with R-CHOP Demonstrates Significant Improvement in Progression-Free Survival versus R-CHOP in Patients with Newly Diagnosed Diffuse Large B-Cell Lymphoma",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-05T18:54:00Z",
-            "sentiment": "Positive",
-            "compound": 0.586
-          },
-          {
-            "title": "Citadel Securities says economic strength drives higher yields",
+            "title": "Colliers to announce third quarter results on November 4, 2026",
             "source": "Financial Post",
-            "publishedAt": "2026-10-05T18:49:27Z",
-            "sentiment": "Positive",
-            "compound": 0.66
-          },
-          {
-            "title": "Nvidia looks to take out its record high close — plus, don't worry about Intel's dip",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-05T18:32:20Z",
-            "sentiment": "Positive",
-            "compound": 0.341
-          },
-          {
-            "title": "This RBI cycle looks different",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-05T18:29:16Z",
+            "publishedAt": "2026-10-05T19:00:06Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 69.71,
-  "trade_probability": 61.83,
+  "confirmation_score": 62.67,
+  "trade_probability": 57.6,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
