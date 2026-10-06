@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T16:45:54.970136+00:00",
+  "generated_at": "2026-10-06T17:01:45.682251+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.1532,
+          "change_pct": -0.0811,
           "up": false
         },
         "MSFT": {
-          "change_pct": 1.3889,
+          "change_pct": 1.3533,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.1435,
+          "change_pct": 0.1518,
           "up": true
         },
         "AMZN": {
-          "change_pct": 1.4288,
+          "change_pct": 1.3718,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 87.36,
+      "score": 87.23,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 31294.1,
-        "sma50": 29581.99,
-        "sma200": 27541.46
+        "last_price": 31280.43,
+        "sma50": 29581.71,
+        "sma200": 27541.39
       }
     },
     "vxn": {
@@ -50,7 +50,7 @@
       "score": 50.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.46,
+        "current_vxn": 21.31,
         "percentile_vs_20d": 50.0
       }
     },
@@ -69,7 +69,7 @@
       "status": "yellow",
       "details": {
         "current_dxy": 101.88,
-        "change_5d_pct": 0.499
+        "change_5d_pct": 0.498
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.81,
+      "score": 55.92,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.096,
+        "avg_compound": 0.118,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "When Zero Doesn’t Mean Zero",
+            "source": "spacing.ca",
+            "publishedAt": "2026-10-05T17:00:43Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Bitdeer secures long-term lease with Volta for Tydal site",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-05T16:58:43Z",
+            "sentiment": "Positive",
+            "compound": 0.318
+          },
+          {
+            "title": "Treasury yields at 5% threaten extending Bitcoin’s best quarter since 2017",
+            "source": "Cointelegraph",
+            "publishedAt": "2026-10-05T16:53:08Z",
+            "sentiment": "Positive",
+            "compound": 0.527
+          },
+          {
+            "title": "XP Stock Soars 33% to Yearly High as Flávio Bolsonaro's Surprise Lead Sparks Rally in Brazilian Markets",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-10-05T16:48:36Z",
+            "sentiment": "Positive",
+            "compound": 0.663
+          },
+          {
+            "title": "Minimum Wage Is Rising in These U.S. Cities in 2027",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-05T16:47:05Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Why Do Democrats Keep Posting Videos of Themselves Pumping Iron?",
             "source": "Mother Jones",
             "publishedAt": "2026-10-05T16:44:42Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Good News on Affordability: American Paychecks Are Beating Inflation Under Trump",
-            "source": "Breitbart News",
-            "publishedAt": "2026-10-05T16:40:05Z",
-            "sentiment": "Neutral",
-            "compound": -0.026
-          },
-          {
-            "title": "Top Midday Stories: PTC to Be Acquired by Schneider Electric for $23.7 Billion; C.H. Robinson to Acquire RXO for $5.8 Billion",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-05T16:34:30Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "OpenAI and Anthropic Have a New Threat to Worry About—and It Isn’t China",
-            "source": "Gizmodo.com",
-            "publishedAt": "2026-10-05T16:30:51Z",
-            "sentiment": "Negative",
-            "compound": -0.743
-          },
-          {
-            "title": "Consumer demand revives, but D-Mart shares plunge amid e-commerce fears",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-05T16:29:07Z",
-            "sentiment": "Neutral",
-            "compound": -0.09
-          },
-          {
-            "title": "Corruption in the White House: Does Anybody Care?",
-            "source": "Thenation.com",
-            "publishedAt": "2026-10-05T16:28:55Z",
-            "sentiment": "Positive",
-            "compound": 0.494
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 61.5,
-  "trade_probability": 56.9,
+  "confirmation_score": 61.58,
+  "trade_probability": 56.95,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
