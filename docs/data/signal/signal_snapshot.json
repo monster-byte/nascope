@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T01:31:02.748052+00:00",
+  "generated_at": "2026-10-06T01:45:51.156708+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.92,
+      "score": 43.11,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.1,
-        "change_5d_pct": 0.884
+        "current_dxy": 102.07,
+        "change_5d_pct": 0.861
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.86,
+      "score": 56.35,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.117,
+        "avg_compound": 0.127,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Bolsonaro beats expectations in Brazil presidential vote, faces Lula in runoff",
+            "source": "CNA",
+            "publishedAt": "2026-10-05T01:45:36Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Bank of America has a warning for Australia's $4.5 trillion superannuation sector",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-10-05T01:44:38Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
+          {
+            "title": "Sensex Today | Nifty 50 | Stock Market Live Updates: GIFT Nifty signals a positive start; Asian shares trade higher",
+            "source": "Economictimes.com",
+            "publishedAt": "2026-10-05T01:39:36Z",
+            "sentiment": "Positive",
+            "compound": 0.93
+          },
           {
             "title": "Private investment picking up in India as capital formation grows at fastest pace in over three years",
             "source": "BusinessLine",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-05T01:17:33Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Daily Open: Who's steering oil now?",
-            "source": "CNBC",
-            "publishedAt": "2026-10-05T01:16:29Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "US Stock Market prediction for Monday, October 5: S&P 500, Nasdaq, Dow Jones, Russell 2000 investors eye positive trading today, top stocks to watch out",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-05T01:12:21Z",
-            "sentiment": "Positive",
-            "compound": 0.66
-          },
-          {
-            "title": "They survived World War II and lost decades, but not 2026. Japan's century-old businesses are disappearing at a record pace",
-            "source": "CNBC",
-            "publishedAt": "2026-10-05T01:08:10Z",
-            "sentiment": "Negative",
-            "compound": -0.238
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 59.57,
-  "trade_probability": 55.74,
+  "confirmation_score": 59.63,
+  "trade_probability": 55.78,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
