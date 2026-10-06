@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T15:31:11.353753+00:00",
+  "generated_at": "2026-10-06T15:45:50.898912+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,41 +17,41 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.0676,
+          "change_pct": 0.0691,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.4218,
+          "change_pct": 1.3704,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.5369,
+          "change_pct": 0.4849,
           "up": true
         },
         "AMZN": {
-          "change_pct": 1.3216,
+          "change_pct": 1.4328,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 87.67,
+      "score": 87.66,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 31325.16,
-        "sma50": 29582.61,
-        "sma200": 27541.62
+        "last_price": 31324.1,
+        "sma50": 29582.59,
+        "sma200": 27541.61
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 50.0,
+      "score": 45.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.86,
-        "percentile_vs_20d": 50.0
+        "current_vxn": 21.72,
+        "percentile_vs_20d": 55.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.56,
+      "score": 46.7,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.81,
-        "change_5d_pct": 0.43
+        "current_dxy": 101.79,
+        "change_5d_pct": 0.412
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 57.9,
+      "score": 57.79,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.158,
+        "avg_compound": 0.156,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "NYSE owner and OKX plan 24/7 tokenized stock trading using Uniswap",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-10-05T15:30:48Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Letters to Editor",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-05T15:29:32Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "How Hyperliquid defied crypto’s DAT death spiral—and built the industry’s only flourishing digital asset treasury",
-            "source": "Fortune",
-            "publishedAt": "2026-10-05T15:29:27Z",
-            "sentiment": "Neutral",
-            "compound": -0.153
-          },
-          {
-            "title": "Top Business & Market Headlines Today — BL Morning Report, October 6, 2026",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-05T15:28:35Z",
+            "title": "Dillard’s Inc. shares trading Monday on the Texas Stock Exchange",
+            "source": "Arkansas Online",
+            "publishedAt": "2026-10-05T15:42:59Z",
             "sentiment": "Positive",
-            "compound": 0.703
+            "compound": 0.296
           },
           {
-            "title": "Small Businesses Skip the Cross-Border Plumbing Big Companies Can’t Escape",
-            "source": "pymnts.com",
-            "publishedAt": "2026-10-05T15:26:13Z",
+            "title": "Mutual fund SIP returns: India averaged 8.4% over rolling 5-year periods; how did it compare with global markets?",
+            "source": "Livemint",
+            "publishedAt": "2026-10-05T15:42:56Z",
             "sentiment": "Neutral",
-            "compound": 0.178
+            "compound": 0.0
           },
           {
-            "title": "Indonesia's fuel prices among Southeast Asia's lowest: Pertamina",
-            "source": "Antaranews.com",
-            "publishedAt": "2026-10-05T15:24:54Z",
-            "sentiment": "Negative",
-            "compound": -0.382
+            "title": "Conditions ripe for rate hike",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-05T15:41:06Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Americans hoping for an 08-style housing crash to afford a home are out of luck",
+            "source": "New York Post",
+            "publishedAt": "2026-10-05T15:39:57Z",
+            "sentiment": "Positive",
+            "compound": 0.477
+          },
+          {
+            "title": "Broadening rally in stocks hits an economic roadblock",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-05T15:33:53Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Stock Market Today: S&P 500, Nasdaq gain but Dow slips, as bond yields tick up toward new highs - MarketWatch",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-10-05T15:33:18Z",
+            "sentiment": "Positive",
+            "compound": 0.296
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 68.88,
-  "trade_probability": 61.33,
+  "confirmation_score": 68.44,
+  "trade_probability": 61.06,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
