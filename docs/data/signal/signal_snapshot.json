@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T14:55:23.974766+00:00",
+  "generated_at": "2026-10-06T15:01:26.837247+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.0261,
+          "change_pct": 0.0507,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.6959,
+          "change_pct": 1.6235,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.8932,
+          "change_pct": 0.8887,
           "up": true
         },
         "AMZN": {
-          "change_pct": 1.3355,
+          "change_pct": 1.1867,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 87.73,
+      "score": 87.79,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 31331.4,
-        "sma50": 29582.73,
-        "sma200": 27541.65
+        "last_price": 31336.74,
+        "sma50": 29582.84,
+        "sma200": 27541.68
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 45.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.96,
+        "current_vxn": 21.98,
         "percentile_vs_20d": 55.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 45.28,
+      "score": 46.65,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.286,
-        "change_5d_pct": 0.59
+        "current_yield_pct": 5.277,
+        "change_5d_pct": 0.419
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.56,
+      "score": 45.93,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.93,
-        "change_5d_pct": 0.554
+        "current_dxy": 101.89,
+        "change_5d_pct": 0.509
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.25,
+      "score": 52.42,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.105,
+        "avg_compound": 0.049,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Iran’s oil minister resigns as country’s economic crisis worsens",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-05T15:00:36Z",
+            "sentiment": "Negative",
+            "compound": -0.859
+          },
+          {
+            "title": "QBTS Investigation Reminder: Kessler Topaz Meltzer & Check, LLP Encourages QBTS Investors with Losses to Contact the Firm",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-05T15:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.052
+          },
+          {
+            "title": "CREFC's 3Q 2026 BOG Sentiment Index Falls 17.5% to a Three-Year Low as Caution Spreads Across All Nine Core Questions",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-05T15:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
           {
             "title": "Bitmine Buys $41M More Ethereum, Reaching 99% of Its 'Alchemy of 5%' Target",
             "source": "Decrypt",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-05T14:40:26Z",
             "sentiment": "Neutral",
             "compound": 0.077
-          },
-          {
-            "title": "GOP alarm bells as Democrats target six Trump strongholds and ruby-red Kansas teeters after 94 years",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-10-05T14:37:53Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
-          },
-          {
-            "title": "Young voters deliver 'unambiguously good news for Dems in pivotal swing state",
-            "source": "Raw Story",
-            "publishedAt": "2026-10-05T14:36:02Z",
-            "sentiment": "Positive",
-            "compound": 0.44
-          },
-          {
-            "title": "2027: Remi Tinubu, VP’s wife urge women to vote Tinubu, APC candidates",
-            "source": "The Punch",
-            "publishedAt": "2026-10-05T14:35:04Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 67.58,
-  "trade_probability": 60.55,
+  "confirmation_score": 67.55,
+  "trade_probability": 60.53,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
