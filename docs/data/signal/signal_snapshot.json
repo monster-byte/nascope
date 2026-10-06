@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T15:45:50.898912+00:00",
+  "generated_at": "2026-10-06T16:01:26.659731+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.0691,
+          "change_pct": 0.0751,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.3704,
+          "change_pct": 1.2781,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.4849,
+          "change_pct": 0.6021,
           "up": true
         },
         "AMZN": {
-          "change_pct": 1.4328,
+          "change_pct": 1.2976,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 87.66,
+      "score": 87.64,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 31324.1,
-        "sma50": 29582.59,
-        "sma200": 27541.61
+        "last_price": 31321.56,
+        "sma50": 29582.54,
+        "sma200": 27541.6
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 45.0,
+      "score": 50.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.72,
-        "percentile_vs_20d": 55.0
+        "current_vxn": 21.65,
+        "percentile_vs_20d": 50.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 49.24,
+      "score": 49.54,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.26,
-        "change_5d_pct": 0.095
+        "current_yield_pct": 5.258,
+        "change_5d_pct": 0.057
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.7,
+      "score": 46.64,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.79,
-        "change_5d_pct": 0.412
+        "current_dxy": 101.8,
+        "change_5d_pct": 0.42
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 57.79,
+      "score": 59.15,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.156,
+        "avg_compound": 0.183,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Dillard’s Inc. shares trading Monday on the Texas Stock Exchange",
-            "source": "Arkansas Online",
-            "publishedAt": "2026-10-05T15:42:59Z",
+            "title": "Transcript: Omar Aguilar, CEO and CIO of Schwab Asset Management",
+            "source": "Ritholtz.com",
+            "publishedAt": "2026-10-05T16:00:23Z",
             "sentiment": "Positive",
-            "compound": 0.296
+            "compound": 0.361
           },
           {
-            "title": "Mutual fund SIP returns: India averaged 8.4% over rolling 5-year periods; how did it compare with global markets?",
-            "source": "Livemint",
-            "publishedAt": "2026-10-05T15:42:56Z",
+            "title": "9 Terrifying Truths About Long-Term Economic Crises",
+            "source": "Activistpost.com",
+            "publishedAt": "2026-10-05T16:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.226
+          },
+          {
+            "title": "PTC SHAREHOLDER ALERT: ADEMI LLP INVESTIGATES WHETHER BUYOUT FAIRLY VALUES PTC INC.",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-05T16:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.599
+          },
+          {
+            "title": "Ahead of Market: 10 things that will decide stock market action on Tuesday",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-05T15:57:49Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Conditions ripe for rate hike",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-05T15:41:06Z",
+            "title": "Marico raises stake in Plix parent to 84.09%; Q2 revenue expected to grow in double digits",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-05T15:55:25Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Americans hoping for an 08-style housing crash to afford a home are out of luck",
-            "source": "New York Post",
-            "publishedAt": "2026-10-05T15:39:57Z",
+            "title": "CFTC proposes first dedicated crypto market rules with Regulation CTX and CAM",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-05T15:55:17Z",
             "sentiment": "Positive",
-            "compound": 0.477
-          },
-          {
-            "title": "Broadening rally in stocks hits an economic roadblock",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-05T15:33:53Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Stock Market Today: S&P 500, Nasdaq gain but Dow slips, as bond yields tick up toward new highs - MarketWatch",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-10-05T15:33:18Z",
-            "sentiment": "Positive",
-            "compound": 0.296
+            "compound": 0.459
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 68.44,
-  "trade_probability": 61.06,
+  "confirmation_score": 69.04,
+  "trade_probability": 61.42,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
