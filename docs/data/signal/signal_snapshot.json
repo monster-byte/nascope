@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T12:31:08.505850+00:00",
+  "generated_at": "2026-10-06T12:45:52.502756+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 39.16,
-      "status": "red",
+      "score": 46.35,
+      "status": "yellow",
       "details": {
-        "current_yield_pct": 5.311,
-        "change_5d_pct": 1.355
+        "current_yield_pct": 5.279,
+        "change_5d_pct": 0.457
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.69,
+      "score": 46.19,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.79,
-        "change_5d_pct": 0.414
+        "current_dxy": 101.85,
+        "change_5d_pct": 0.476
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.73,
+      "score": 51.89,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.035,
+        "avg_compound": 0.038,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Bolsonaro favourite to win: What Brazil’s first round of elections tells us",
+            "source": "Al Jazeera English",
+            "publishedAt": "2026-10-05T12:34:30Z",
+            "sentiment": "Positive",
+            "compound": 0.586
+          },
           {
             "title": "Too big to pause: Could an AI slowdown crash the economy?",
             "source": "Cointelegraph",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-10-05T12:30:00Z",
             "sentiment": "Positive",
             "compound": 0.318
-          },
-          {
-            "title": "ASEAN+3: Navigating Shocks Through Stronger Foundations and Deeper Financial Integration",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-05T12:30:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 52.78,
-  "trade_probability": 51.67,
+  "confirmation_score": 53.72,
+  "trade_probability": 52.23,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
