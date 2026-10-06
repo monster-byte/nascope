@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T14:01:25.141580+00:00",
+  "generated_at": "2026-10-06T14:15:53.649485+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
+      "score": 100.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.2524,
-          "up": false
+          "change_pct": 0.2434,
+          "up": true
         },
         "MSFT": {
-          "change_pct": 1.6464,
+          "change_pct": 1.733,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.8679,
+          "change_pct": 0.8388,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.5735,
+          "change_pct": 0.6191,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 87.49,
+      "score": 87.51,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 31306.93,
-        "sma50": 29582.24,
-        "sma200": 27541.53
+        "last_price": 31308.79,
+        "sma50": 29582.28,
+        "sma200": 27541.54
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 50.0,
+      "score": 45.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.78,
-        "percentile_vs_20d": 50.0
+        "current_vxn": 21.89,
+        "percentile_vs_20d": 55.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 44.67,
+      "score": 43.45,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.29,
-        "change_5d_pct": 0.666
+        "current_yield_pct": 5.298,
+        "change_5d_pct": 0.818
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.6,
+      "score": 45.8,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.93,
-        "change_5d_pct": 0.549
+        "current_dxy": 101.9,
+        "change_5d_pct": 0.525
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.07,
+      "score": 55.39,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.121,
+        "avg_compound": 0.108,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "18 pictures show how profoundly large our cosmos is",
-            "source": "Medium",
-            "publishedAt": "2026-10-05T14:01:04Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "AI Future Of Microsoft and Google Face OpenAI Big Legal Problems",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-05T14:15:41Z",
+            "sentiment": "Negative",
+            "compound": -0.296
           },
           {
-            "title": "NEW REPORT: Disney+ Prices Jump 13% and Fans Are Fed Up",
-            "source": "disneyfoodblog.com",
-            "publishedAt": "2026-10-05T14:00:29Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "The ‘Double Fill Up’ Is the Latest Hack Americans Are Using to Save Cash at the Gas Pump",
-            "source": "Entrepreneur",
-            "publishedAt": "2026-10-05T14:00:00Z",
+            "title": "Coinbase Stock vs. Bitcoin: Which Investment Performs Better?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-05T14:15:17Z",
             "sentiment": "Positive",
-            "compound": 0.494
+            "compound": 0.44
           },
           {
-            "title": "Knowledge, attitudes, and prevention practices regarding human papillomavirus among health and social science female students in Northwest Ethiopia: A comparative cross-sectional study",
-            "source": "Plos.org",
-            "publishedAt": "2026-10-05T14:00:00Z",
+            "title": "Datasea Reports Fiscal Year 2026 Results with Gross Profit Up 70.1% and Gross Margin Increased to 10.2% Despite Lower Revenue",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-05T14:13:00Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": -0.08
           },
           {
-            "title": "Association between muscle quality index and time to stand up from the prone position in community-dwelling older adults",
-            "source": "Plos.org",
-            "publishedAt": "2026-10-05T14:00:00Z",
+            "title": "Tesla Stock Extends Rally After Q3 Delivery Beat as Investors Turn Focus to Key Oct. 21 Earnings Report",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-10-05T14:10:35Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": 0.128
           },
           {
-            "title": "Assessment and decomposition of excessive red meat consumption among hypertensive adults: A Wagstaff decomposition analysis",
-            "source": "Plos.org",
-            "publishedAt": "2026-10-05T14:00:00Z",
+            "title": "Sen. Adam Schiff on AI regulation, free speech, and impeaching Trump one more time",
+            "source": "The Verge",
+            "publishedAt": "2026-10-05T14:05:42Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
+          {
+            "title": "How stocks will react when the catalysts are few",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-05T14:04:06Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 61.24,
-  "trade_probability": 56.74,
+  "confirmation_score": 67.34,
+  "trade_probability": 60.4,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
