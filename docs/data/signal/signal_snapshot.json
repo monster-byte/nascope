@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T19:15:53.827299+00:00",
+  "generated_at": "2026-10-06T19:31:10.186817+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,41 +17,41 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.0901,
+          "change_pct": 0.3034,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.0278,
+          "change_pct": 1.1834,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.1355,
+          "change_pct": -0.2652,
           "up": false
         },
         "AMZN": {
-          "change_pct": 1.7503,
+          "change_pct": 1.8336,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 87.22,
+      "score": 87.12,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 31279.75,
-        "sma50": 29581.7,
-        "sma200": 27541.39
+        "last_price": 31269.79,
+        "sma50": 29581.5,
+        "sma200": 27541.34
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 60.0,
-      "status": "yellow",
+      "score": 65.0,
+      "status": "green",
       "details": {
-        "current_vxn": 21.05,
-        "percentile_vs_20d": 40.0
+        "current_vxn": 21.11,
+        "percentile_vs_20d": 35.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.33,
+      "score": 46.34,
       "status": "yellow",
       "details": {
         "current_dxy": 101.83,
-        "change_5d_pct": 0.459
+        "change_5d_pct": 0.458
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.77,
+      "score": 54.55,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.135,
+        "avg_compound": 0.091,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Trump Touts Medicaid Drug Savings, But Details Remain Murky",
-            "source": "FactCheck.org",
-            "publishedAt": "2026-10-05T19:09:31Z",
-            "sentiment": "Neutral",
-            "compound": -0.013
-          },
-          {
-            "title": "Investors shrug off a fresh surge in bond yields to push the Nasdaq to a record high",
-            "source": "Business Insider",
-            "publishedAt": "2026-10-05T19:07:37Z",
-            "sentiment": "Positive",
-            "compound": 0.318
-          },
-          {
-            "title": "3 Dividend Stocks to Buy in October That Have Never Cut Their Payouts",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-05T19:05:22Z",
-            "sentiment": "Positive",
-            "compound": 0.206
-          },
-          {
-            "title": "Avengers: Endgame once again beats Avatar as highest-grossing movie of all time",
-            "source": "CBC News",
-            "publishedAt": "2026-10-05T19:05:12Z",
+            "title": "SP 500 closes in on record high as tech rallies",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-05T19:31:03Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "CFTC Proposes New Rule for Regulating Crypto Transactions",
-            "source": "pymnts.com",
-            "publishedAt": "2026-10-05T19:05:00Z",
+            "title": "SR 26-7",
+            "source": "Federalreserve.gov",
+            "publishedAt": "2026-10-05T19:30:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "'Oh, come on!' GOP senator shouted down on 'The View' over Don Jr.'s wedding oligarch",
+            "source": "Raw Story",
+            "publishedAt": "2026-10-05T19:29:41Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Police pension fund weighs Dangote Refinery investment",
+            "source": "The Punch",
+            "publishedAt": "2026-10-05T19:23:21Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
             "title": "Colliers to announce third quarter results on November 4, 2026",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-05T19:00:06Z",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-05T19:20:16Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "Can Trump’s corruption be made to matter?",
+            "source": "Lawyersgunsmoneyblog.com",
+            "publishedAt": "2026-10-05T19:19:13Z",
+            "sentiment": "Neutral",
+            "compound": 0.026
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 62.67,
-  "trade_probability": 57.6,
+  "confirmation_score": 62.9,
+  "trade_probability": 57.74,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
