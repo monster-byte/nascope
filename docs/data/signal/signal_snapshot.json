@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T18:31:11.194275+00:00",
+  "generated_at": "2026-10-06T18:46:03.287992+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.0841,
+          "change_pct": 0.1622,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.0278,
+          "change_pct": 1.0259,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.0397,
+          "change_pct": -0.0585,
           "up": false
         },
         "AMZN": {
-          "change_pct": 1.7221,
+          "change_pct": 1.6394,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 87.1,
+      "score": 87.14,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 31267.47,
-        "sma50": 29581.45,
-        "sma200": 27541.33
+        "last_price": 31271.22,
+        "sma50": 29581.53,
+        "sma200": 27541.35
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 65.0,
+      "score": 70.0,
       "status": "green",
       "details": {
-        "current_vxn": 21.03,
-        "percentile_vs_20d": 35.0
+        "current_vxn": 21.0,
+        "percentile_vs_20d": 30.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 48.93,
+      "score": 47.87,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.262,
-        "change_5d_pct": 0.133
+        "current_yield_pct": 5.269,
+        "change_5d_pct": 0.266
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.45,
+      "score": 46.17,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.82,
-        "change_5d_pct": 0.444
+        "current_dxy": 101.86,
+        "change_5d_pct": 0.478
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.67,
+      "score": 50.27,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.013,
+        "avg_compound": 0.005,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Nvidia looks to take out its record high close — plus, don't worry about Intel's dip",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-05T18:32:20Z",
+            "sentiment": "Positive",
+            "compound": 0.341
+          },
           {
             "title": "This RBI cycle looks different",
             "source": "Business Standard",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-10-05T18:10:34Z",
             "sentiment": "Negative",
             "compound": -0.7
-          },
-          {
-            "title": "Near co-founder says liquidity remains the biggest challenge for tokenized stocks",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-05T18:10:30Z",
-            "sentiment": "Neutral",
-            "compound": 0.077
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 62.7,
-  "trade_probability": 57.62,
+  "confirmation_score": 62.96,
+  "trade_probability": 57.78,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
