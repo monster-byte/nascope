@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T18:01:27.915586+00:00",
+  "generated_at": "2026-10-06T18:15:54.291314+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,36 +13,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 100.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.0811,
-          "up": false
+          "change_pct": 0.033,
+          "up": true
         },
         "MSFT": {
           "change_pct": 1.1762,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.0814,
-          "up": false
+          "change_pct": 0.0144,
+          "up": true
         },
         "AMZN": {
-          "change_pct": 1.3812,
+          "change_pct": 1.6431,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 87.26,
+      "score": 87.44,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 31283.61,
-        "sma50": 29581.78,
-        "sma200": 27541.41
+        "last_price": 31301.35,
+        "sma50": 29582.13,
+        "sma200": 27541.5
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 65.0,
       "status": "green",
       "details": {
-        "current_vxn": 21.11,
+        "current_vxn": 21.04,
         "percentile_vs_20d": 35.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 47.56,
+      "score": 48.63,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.271,
-        "change_5d_pct": 0.304
+        "current_yield_pct": 5.264,
+        "change_5d_pct": 0.171
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.44,
+      "score": 46.45,
       "status": "yellow",
       "details": {
         "current_dxy": 101.82,
-        "change_5d_pct": 0.445
+        "change_5d_pct": 0.444
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.81,
+      "score": 52.58,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.004,
+        "avg_compound": 0.052,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Bronstein, Gewirtz & Grossman LLC Urges Anavex Life Sciences Corp. Investors to Act: Class Action Filed Alleging Investor Harm",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-05T18:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.542
-          },
-          {
-            "title": "Everyone Wants to Build AI Apps — I’m Betting on What Powers Them. Here’s Why.",
-            "source": "Entrepreneur",
-            "publishedAt": "2026-10-05T18:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "‘Morning Joe’ Slams Trump’s ‘Most Productive’ Presidency Remarks: ‘No Self-Awareness at All’",
-            "source": "TheWrap",
-            "publishedAt": "2026-10-05T17:59:28Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "In 1981, an investor put $1,000 into Home Depot at its IPO; 45 years later, the stake was worth more than $9.57 million",
+            "title": "French bond contagion fears are rattling the euro",
             "source": "The Times of India",
-            "publishedAt": "2026-10-05T17:58:24Z",
-            "sentiment": "Positive",
-            "compound": 0.226
+            "publishedAt": "2026-10-05T18:10:34Z",
+            "sentiment": "Negative",
+            "compound": -0.7
           },
           {
-            "title": "‘They deserve to be on a good wage’: Dublin parents back teachers on industrial action",
-            "source": "The Irish Times",
-            "publishedAt": "2026-10-05T17:56:32Z",
+            "title": "Near co-founder says liquidity remains the biggest challenge for tokenized stocks",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-05T18:10:30Z",
+            "sentiment": "Neutral",
+            "compound": 0.077
+          },
+          {
+            "title": "Micron Stock Looks Like a Top AI Investment to Make Right Now",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-05T18:05:48Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
+          {
+            "title": "Nasdaq Continues To Hit Record Highs As Tech Stocks Gain",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-05T18:05:28Z",
+            "sentiment": "Positive",
+            "compound": 0.527
+          },
+          {
+            "title": "California school board frontrunner makes stunning excuse for students who can’t do basic math",
+            "source": "New York Post",
+            "publishedAt": "2026-10-05T18:02:58Z",
             "sentiment": "Positive",
             "compound": 0.44
           },
           {
-            "title": "Bitcoin surges 43% in Q3 as Treasury yields hit highest levels since 2007",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-05T17:55:19Z",
+            "title": "Trump poised to ease red diesel limits in attempt to quell fuel inflation",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-05T18:02:19Z",
             "sentiment": "Positive",
-            "compound": 0.202
+            "compound": 0.542
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 55.71,
-  "trade_probability": 53.43,
+  "confirmation_score": 69.63,
+  "trade_probability": 61.78,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
