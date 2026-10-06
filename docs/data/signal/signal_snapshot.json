@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T15:01:26.837247+00:00",
+  "generated_at": "2026-10-06T15:16:03.117874+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 100.0,
+      "score": 75.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.0507,
-          "up": true
+          "change_pct": -0.0015,
+          "up": false
         },
         "MSFT": {
-          "change_pct": 1.6235,
+          "change_pct": 1.5074,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.8887,
+          "change_pct": 0.8138,
           "up": true
         },
         "AMZN": {
-          "change_pct": 1.1867,
+          "change_pct": 1.3216,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 87.79,
+      "score": 88.01,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 31336.74,
-        "sma50": 29582.84,
-        "sma200": 27541.68
+        "last_price": 31359.21,
+        "sma50": 29583.29,
+        "sma200": 27541.79
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 45.0,
+      "score": 50.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.98,
-        "percentile_vs_20d": 55.0
+        "current_vxn": 21.93,
+        "percentile_vs_20d": 50.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 46.65,
+      "score": 49.54,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.277,
-        "change_5d_pct": 0.419
+        "current_yield_pct": 5.258,
+        "change_5d_pct": 0.057
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.93,
+      "score": 46.2,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.89,
-        "change_5d_pct": 0.509
+        "current_dxy": 101.85,
+        "change_5d_pct": 0.475
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.42,
+      "score": 52.51,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.049,
+        "avg_compound": 0.05,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "2026 Peak Season Outlook: Inflation Won’t Stop Holiday Spending",
+            "source": "WWD",
+            "publishedAt": "2026-10-05T15:10:39Z",
+            "sentiment": "Neutral",
+            "compound": 0.128
+          },
+          {
+            "title": "Bitcoin price fails to break higher after best weekly close in eight months",
+            "source": "Cointelegraph",
+            "publishedAt": "2026-10-05T15:09:57Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
+          {
+            "title": "Godrej Consumer expects high-teens revenue growth in Q2 despite inflationary pressures",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-05T15:01:38Z",
+            "sentiment": "Positive",
+            "compound": 0.552
+          },
           {
             "title": "Iran’s oil minister resigns as country’s economic crisis worsens",
             "source": "Biztoc.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-05T15:00:00Z",
             "sentiment": "Negative",
             "compound": -0.273
-          },
-          {
-            "title": "Bitmine Buys $41M More Ethereum, Reaching 99% of Its 'Alchemy of 5%' Target",
-            "source": "Decrypt",
-            "publishedAt": "2026-10-05T14:54:17Z",
-            "sentiment": "Positive",
-            "compound": 0.268
-          },
-          {
-            "title": "PENN Entertainment to Report Third Quarter Results and Host Conference Call and Webcast on November 5",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-05T14:49:33Z",
-            "sentiment": "Positive",
-            "compound": 0.421
-          },
-          {
-            "title": "Large Commercial Property Rates Drop 14.5% in Q2 to Highlight Latest Willis Report",
-            "source": "Insurance Journal",
-            "publishedAt": "2026-10-05T14:40:26Z",
-            "sentiment": "Neutral",
-            "compound": 0.077
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 67.55,
-  "trade_probability": 60.53,
+  "confirmation_score": 61.7,
+  "trade_probability": 57.02,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
