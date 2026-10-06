@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T17:01:45.682251+00:00",
+  "generated_at": "2026-10-06T17:15:56.312539+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
-      "status": "green",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.0811,
+          "change_pct": -0.1091,
           "up": false
         },
         "MSFT": {
-          "change_pct": 1.3533,
+          "change_pct": 1.3171,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.1518,
-          "up": true
+          "change_pct": -0.0501,
+          "up": false
         },
         "AMZN": {
-          "change_pct": 1.3718,
+          "change_pct": 1.3653,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 87.23,
+      "score": 87.03,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 31280.43,
-        "sma50": 29581.71,
-        "sma200": 27541.39
+        "last_price": 31260.07,
+        "sma50": 29581.31,
+        "sma200": 27541.29
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 65.0,
+      "status": "green",
       "details": {
-        "current_vxn": 21.31,
-        "percentile_vs_20d": 50.0
+        "current_vxn": 21.11,
+        "percentile_vs_20d": 35.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 47.26,
+      "score": 46.65,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.273,
-        "change_5d_pct": 0.343
+        "current_yield_pct": 5.277,
+        "change_5d_pct": 0.419
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.01,
+      "score": 46.05,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.88,
-        "change_5d_pct": 0.498
+        "current_dxy": 101.87,
+        "change_5d_pct": 0.494
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.92,
+      "score": 52.87,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.118,
+        "avg_compound": 0.057,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "When Zero Doesn’t Mean Zero",
-            "source": "spacing.ca",
-            "publishedAt": "2026-10-05T17:00:43Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Europe’s Stoxx 600 gains on banks boost but French stocks slide on fiscal fears",
+            "source": "The Irish Times",
+            "publishedAt": "2026-10-05T17:13:56Z",
+            "sentiment": "Negative",
+            "compound": -0.285
           },
           {
-            "title": "Bitdeer secures long-term lease with Volta for Tydal site",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-05T16:58:43Z",
+            "title": "Legal aid dispute a matter of concern, says Chief Justice",
+            "source": "The Irish Times",
+            "publishedAt": "2026-10-05T17:13:39Z",
             "sentiment": "Positive",
             "compound": 0.318
           },
           {
-            "title": "Treasury yields at 5% threaten extending Bitcoin’s best quarter since 2017",
-            "source": "Cointelegraph",
-            "publishedAt": "2026-10-05T16:53:08Z",
-            "sentiment": "Positive",
-            "compound": 0.527
+            "title": "Jeff Koons Appears to Be the ‘Distinguished Collector’ Offering $100 M. in Old and Modern Masters at Christie’s",
+            "source": "ARTnews",
+            "publishedAt": "2026-10-05T17:13:35Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "XP Stock Soars 33% to Yearly High as Flávio Bolsonaro's Surprise Lead Sparks Rally in Brazilian Markets",
+            "title": "S&P 500 up, Nasdaq at record high as megacap tech stocks rise - Reuters",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-10-05T17:13:17Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "US services sector cools in September, price pressures building",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-05T17:11:09Z",
+            "sentiment": "Negative",
+            "compound": -0.318
+          },
+          {
+            "title": "Inter & Co Shares Surge 26 Percent to $6.89, Gapping Higher on Heavy Volume Without a New Company Statement",
             "source": "Ibtimes.com.au",
-            "publishedAt": "2026-10-05T16:48:36Z",
+            "publishedAt": "2026-10-05T17:07:58Z",
             "sentiment": "Positive",
-            "compound": 0.663
-          },
-          {
-            "title": "Minimum Wage Is Rising in These U.S. Cities in 2027",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-05T16:47:05Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Why Do Democrats Keep Posting Videos of Themselves Pumping Iron?",
-            "source": "Mother Jones",
-            "publishedAt": "2026-10-05T16:44:42Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": 0.296
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 61.58,
-  "trade_probability": 56.95,
+  "confirmation_score": 55.8,
+  "trade_probability": 53.48,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
