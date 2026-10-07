@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T14:31:11.793824+00:00",
+  "generated_at": "2026-10-07T14:45:52.039682+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.4163,
+          "change_pct": 0.2845,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.608,
+          "change_pct": -0.6347,
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.1059,
+          "change_pct": -1.0772,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.9546,
+          "change_pct": -0.8283,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 83.68,
+      "score": 83.82,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30997.39,
-        "sma50": 29645.28,
-        "sma200": 27571.0
+        "last_price": 31011.42,
+        "sma50": 29645.56,
+        "sma200": 27571.07
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 30.0,
-      "status": "red",
+      "score": 45.0,
+      "status": "yellow",
       "details": {
-        "current_vxn": 22.07,
-        "percentile_vs_20d": 70.0
+        "current_vxn": 21.86,
+        "percentile_vs_20d": 55.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 46.22,
+      "score": 45.92,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.318,
-        "change_5d_pct": 0.472
+        "current_yield_pct": 5.32,
+        "change_5d_pct": 0.51
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.85,
+      "score": 43.12,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.36,
-        "change_5d_pct": 0.894
+        "current_dxy": 102.32,
+        "change_5d_pct": 0.861
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.42,
+      "score": 45.55,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.008,
-        "articles_analyzed": 23,
+        "avg_compound": -0.089,
+        "articles_analyzed": 22,
         "top_headlines": [
           {
-            "title": "Bradbury Capital Holdings Inc. Announces Closing of Business Combination with Technology & Telecommunication Acquisition Corporation and Commencement of Trading on Nasdaq Under Ticker Symbol \"BBCI\".",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-06T14:31:00Z",
+            "title": "Bowman, Modernizing the Regulatory and Supervisory Landscape",
+            "source": "Federalreserve.gov",
+            "publishedAt": "2026-10-06T14:45:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Trump’s Partly Right: A ‘1929-Style Depression’ Is Just Around The Corner",
-            "source": "The Daily Caller",
-            "publishedAt": "2026-10-06T14:25:40Z",
+            "title": "Budget 2027: big business pays the bills as Coalition rolls the dice",
+            "source": "The Irish Times",
+            "publishedAt": "2026-10-06T14:41:03Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "S&P 500 hits record high as Nvidia nears $6 trillion milestone",
-            "source": "NBC News",
-            "publishedAt": "2026-10-06T14:22:02Z",
+            "title": "Water Bills Surged More Than Other Costs in US Homes Over a Decade",
+            "source": "InsideClimate News",
+            "publishedAt": "2026-10-06T14:39:28Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Report: 62% Spike in Water Bills Outpaces Incomes, Inflation",
-            "source": "Newser",
-            "publishedAt": "2026-10-06T14:20:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "What Europe’s EU Inc. framework for boosting competitiveness can and should learn from startup fraud in the US",
-            "source": "The Conversation Africa",
-            "publishedAt": "2026-10-06T14:19:12Z",
+            "title": "Euro bounces as decline in French bond yields cools debt jitters",
+            "source": "CNA",
+            "publishedAt": "2026-10-06T14:39:14Z",
             "sentiment": "Negative",
-            "compound": -0.34
+            "compound": -0.361
           },
           {
-            "title": "Greenland Resources Updates on Magnesium and Rare Earth Elements Work",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-06T14:15:46Z",
+            "title": "Euro bounces as falling French bond yields temper debt concerns",
+            "source": "CNA",
+            "publishedAt": "2026-10-06T14:39:14Z",
+            "sentiment": "Negative",
+            "compound": -0.71
+          },
+          {
+            "title": "Fund withdrawals largely flow into deposits: Karahan",
+            "source": "Hurriyet Daily News",
+            "publishedAt": "2026-10-06T14:38:31Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.88,
-  "trade_probability": 46.93,
+  "confirmation_score": 45.8,
+  "trade_probability": 47.48,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
