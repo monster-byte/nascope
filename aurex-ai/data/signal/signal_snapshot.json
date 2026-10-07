@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T16:45:49.431253+00:00",
+  "generated_at": "2026-10-07T17:02:41.787880+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.632,
+          "change_pct": 0.6769,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.2682,
+          "change_pct": -0.2795,
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.457,
+          "change_pct": -1.3263,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.6816,
+          "change_pct": 0.7024,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 84.65,
+      "score": 84.81,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 31095.27,
-        "sma50": 29647.24,
-        "sma200": 27571.49
+        "last_price": 31110.85,
+        "sma50": 29647.55,
+        "sma200": 27571.57
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 50.0,
+      "score": 60.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.22,
-        "percentile_vs_20d": 50.0
+        "current_vxn": 21.19,
+        "percentile_vs_20d": 40.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 46.52,
+      "score": 45.92,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.316,
-        "change_5d_pct": 0.435
+        "current_yield_pct": 5.32,
+        "change_5d_pct": 0.51
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.31,
+      "score": 43.19,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.3,
-        "change_5d_pct": 0.836
+        "current_dxy": 102.31,
+        "change_5d_pct": 0.851
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.12,
+      "score": 53.99,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.062,
+        "avg_compound": 0.08,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "INV INVESTOR ALERT: Innventure, Inc. Investors with Substantial Losses Have Opportunity to Lead the INNVENTURE Securities Fraud Class Action",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-06T16:45:00Z",
+            "title": "Iran’s Economy ‘Deteriorating Rapidly,’ Regime’s National Security Chief Rezaei Admits",
+            "source": "Legalinsurrection.com",
+            "publishedAt": "2026-10-06T17:00:21Z",
             "sentiment": "Positive",
-            "compound": 0.303
+            "compound": 0.557
           },
           {
-            "title": "Aardvark Therapeutics (AARD) Investors: Securities Class Action Filed, Contact Hagens Berman Before October 13, 2026 Lead Plaintiff Deadline",
+            "title": "Better Home & Finance (BETR) Faces Securities Class Action Amid 75% Sequential Increase in Net Loss, Dimmed Loan Volume Prospects",
             "source": "PRNewswire",
-            "publishedAt": "2026-10-06T16:44:00Z",
+            "publishedAt": "2026-10-06T17:00:00Z",
             "sentiment": "Positive",
-            "compound": 0.296
+            "compound": 0.743
           },
           {
-            "title": "Rate of deemed disposal tax on investment funds to reduce to 35% from January",
-            "source": "TheJournal.ie",
-            "publishedAt": "2026-10-06T16:42:58Z",
+            "title": "Relax, We Can’t Invoke the Twenty-Fifth Amendment Every Time a President Offers to Let an Enemy Bomb an American City",
+            "source": "Mcsweeneys.net",
+            "publishedAt": "2026-10-06T17:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.586
+          },
+          {
+            "title": "Do foreign asset sales make us richer or poorer? – Inside Economics",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-10-06T17:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.527
+          },
+          {
+            "title": "Paramount closes Warner merger in historic Hollywood deal",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-06T16:59:32Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Is surging CEO pay out of touch with the average worker?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-06T16:41:53Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
-          },
-          {
-            "title": "Bitcoin Falls Asleep, But Privacy Coins Zcash and Monero Are Waking Up",
-            "source": "Decrypt",
-            "publishedAt": "2026-10-06T16:38:15Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "The best Amazon Prime Big Deal Day cycling discounts: Cycplus GPS computer down to just £23.41, 5 Continental Race inner tubes for £20.49, big bike light deals, Wahoo Elemnt computers down to lowest prices yet + more",
-            "source": "road.cc",
-            "publishedAt": "2026-10-06T16:37:35Z",
-            "sentiment": "Positive",
-            "compound": 0.511
+            "title": "Boomers' dividend stocks take beating as bond yields rise, with retirement income on the line",
+            "source": "CNBC",
+            "publishedAt": "2026-10-06T16:59:17Z",
+            "sentiment": "Negative",
+            "compound": -0.459
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 53.89,
-  "trade_probability": 52.33,
+  "confirmation_score": 54.79,
+  "trade_probability": 52.87,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
