@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T12:31:10.928842+00:00",
+  "generated_at": "2026-10-07T12:45:49.604191+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,7 +13,7 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 0.0,
+      "score": 25.0,
       "status": "red",
       "details": {
         "AAPL": {
@@ -21,15 +21,15 @@
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.0208,
-          "up": false
+          "change_pct": 0.0246,
+          "up": true
         },
         "NVDA": {
-          "change_pct": -0.4985,
+          "change_pct": -0.5241,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.2529,
+          "change_pct": -0.2524,
           "up": false
         }
       }
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 47.87,
+      "score": 42.75,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.269,
-        "change_5d_pct": 0.266
+        "current_yield_pct": 5.341,
+        "change_5d_pct": 0.907
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.06,
+      "score": 42.15,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.46,
-        "change_5d_pct": 0.993
+        "current_dxy": 102.45,
+        "change_5d_pct": 0.982
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.32,
+      "score": 56.2,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.126,
+        "avg_compound": 0.124,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "ZenaTech Advances ZenaDrone 2000 Heavy-Lift Interceptor Toward Flight Testing for Counter-UAS and Maritime Defense",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-06T12:45:31Z",
+            "sentiment": "Neutral",
+            "compound": 0.128
+          },
+          {
+            "title": "Chevron CFO Eimear Bonner built a 20-plus-year career at the company. Now she’ll run its core business",
+            "source": "Fortune",
+            "publishedAt": "2026-10-06T12:40:24Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Dabur expects double-digit Q2 revenue growth on strong India FMCG, overseas demand",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-06T12:38:37Z",
+            "sentiment": "Positive",
+            "compound": 0.66
+          },
+          {
+            "title": "Canadian Investors Say They’re Diversified but New Data Suggest Many Don’t Fully Understand What That Means",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-06T12:35:41Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Rupee slips to over two-month low ahead of RBI policy decision",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-06T12:32:38Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
           {
             "title": "Trump’s Fact-free Diatribe on the Price of Oil",
             "source": "Globalresearch.ca",
             "publishedAt": "2026-10-06T12:30:41Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Morning Minute: The CFTC Reveals Plan to Regulate Crypto Exchanges",
-            "source": "Decrypt",
-            "publishedAt": "2026-10-06T12:27:11Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "US economy is in the midst of one of its longest hot streaks dating back to 1854",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-06T12:24:19Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Dow Jones| Nasdaq | US Stock Market Today | Live: US futures rise as Treasury yields cool, oil slips",
-            "source": "Economictimes.com",
-            "publishedAt": "2026-10-06T12:18:53Z",
-            "sentiment": "Positive",
-            "compound": 0.477
-          },
-          {
-            "title": "SUBSCIRBE Partners with FactSet to Deliver End-to-End Private Markets Solution for Institutional Investors and Wealth Managers",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-06T12:16:00Z",
-            "sentiment": "Positive",
-            "compound": 0.67
-          },
-          {
-            "title": "Car buyers are stretching loans to afford payments — it's a 'potential warning light,' analyst says",
-            "source": "CNBC",
-            "publishedAt": "2026-10-06T12:15:01Z",
-            "sentiment": "Negative",
-            "compound": -0.34
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.92,
-  "trade_probability": 45.15,
+  "confirmation_score": 47.97,
+  "trade_probability": 48.78,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
