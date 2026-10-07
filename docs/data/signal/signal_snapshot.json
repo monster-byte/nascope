@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T13:46:06.147797+00:00",
+  "generated_at": "2026-10-07T14:01:21.408662+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.4942,
+          "change_pct": 0.3414,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.591,
+          "change_pct": -0.3778,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.9624,
+          "change_pct": -0.757,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.2939,
+          "change_pct": -0.5851,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 83.24,
+      "score": 83.55,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30952.63,
-        "sma50": 29644.38,
-        "sma200": 27570.78
+        "last_price": 30983.71,
+        "sma50": 29645.0,
+        "sma200": 27570.94
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 50.0,
+      "score": 40.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.61,
-        "percentile_vs_20d": 50.0
+        "current_vxn": 21.8,
+        "percentile_vs_20d": 60.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 39.57,
-      "status": "red",
+      "score": 42.44,
+      "status": "yellow",
       "details": {
-        "current_yield_pct": 5.362,
-        "change_5d_pct": 1.304
+        "current_yield_pct": 5.343,
+        "change_5d_pct": 0.945
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.56,
+      "score": 42.75,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.39,
-        "change_5d_pct": 0.931
+        "current_dxy": 102.37,
+        "change_5d_pct": 0.906
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.92,
+      "score": 48.05,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.078,
+        "avg_compound": -0.039,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "David Ellison’s new mega-studio debuts on Wall Street as Skydance preps its Hollywood pitch",
-            "source": "Page Six",
-            "publishedAt": "2026-10-06T13:44:43Z",
+            "title": "What Is Driving Rates Higher and Bonds Lower?",
+            "source": "Ritholtz.com",
+            "publishedAt": "2026-10-06T14:00:51Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "Cultural sustainability through kinship networks: A quantitative analysis of marriage strategies in Qing China’s literary lineages (1644–1911)",
+            "source": "Plos.org",
+            "publishedAt": "2026-10-06T14:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Rule, Cool or Cruel Britannia? A Nation Abused by Politicians, Corporates, Extremists and the Establishment",
-            "source": "Fair Observer",
-            "publishedAt": "2026-10-06T13:44:14Z",
+            "title": "Daily unhealthy food purchase and associated factors among adolescents in urban Dire Dawa, eastern Ethiopia: A community-based cross-sectional study",
+            "source": "Plos.org",
+            "publishedAt": "2026-10-06T14:00:00Z",
             "sentiment": "Negative",
-            "compound": -0.7
+            "compound": -0.751
           },
           {
-            "title": "Rule, Cool or Cruel Britannia? A Nation Abused by Politicians, Corporates, Extremists and the Establishment",
-            "source": "Fair Observer",
-            "publishedAt": "2026-10-06T13:44:14Z",
-            "sentiment": "Negative",
-            "compound": -0.7
-          },
-          {
-            "title": "Inside Hollywood's biggest plot twist: How Paramount closed $110 billion Warner Bros deal to create Skydance",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-06T13:42:53Z",
-            "sentiment": "Positive",
-            "compound": 0.273
-          },
-          {
-            "title": "L&T Realty eyes ₹25,000 crore launches across three cities in H2FY27",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-06T13:40:17Z",
+            "title": "Methodological quality of systematic reviews and meta-analyses of rheumatoid arthritis pharmacotherapy: A protocol for a meta-epidemiological study using AMSTAR 2",
+            "source": "Plos.org",
+            "publishedAt": "2026-10-06T14:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Drug Discovery Informatics Market Projected to Reach $7.74 Billion by 2030 as AI Agents Need Biological Context",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-06T13:39:38Z",
+            "title": "Webinar: Alkami Brings Implementation Expertise to the Digital Banking \"Stay-or-Switch?\" Decision",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-06T14:00:00Z",
             "sentiment": "Neutral",
-            "compound": 0.026
+            "compound": 0.0
+          },
+          {
+            "title": "Energy Shock Wipes $264 Billion Off the World's Top Mining Stocks",
+            "source": "OilPrice.com",
+            "publishedAt": "2026-10-06T14:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.077
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 46.01,
-  "trade_probability": 47.61,
+  "confirmation_score": 45.03,
+  "trade_probability": 47.02,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
