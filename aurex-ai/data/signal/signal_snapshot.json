@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T15:31:17.919782+00:00",
+  "generated_at": "2026-10-07T15:45:54.871475+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,36 +13,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
-      "status": "red",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.4927,
+          "change_pct": 0.5062,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.3797,
+          "change_pct": -0.1841,
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.5431,
+          "change_pct": -1.2037,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.0793,
-          "up": false
+          "change_pct": 0.6148,
+          "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 84.08,
+      "score": 84.77,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 31037.27,
-        "sma50": 29646.08,
-        "sma200": 27571.2
+        "last_price": 31107.32,
+        "sma50": 29647.48,
+        "sma200": 27571.55
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 50.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.6,
+        "current_vxn": 21.59,
         "percentile_vs_20d": 50.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 47.58,
+      "score": 46.98,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.309,
-        "change_5d_pct": 0.302
+        "current_yield_pct": 5.313,
+        "change_5d_pct": 0.378
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.18,
+      "score": 42.9,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.32,
-        "change_5d_pct": 0.853
+        "current_dxy": 102.35,
+        "change_5d_pct": 0.887
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.13,
+      "score": 50.57,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.023,
+        "avg_compound": 0.011,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Mr. Trump on the US-Iran War",
+            "source": "Econbrowser.com",
+            "publishedAt": "2026-10-06T15:43:18Z",
+            "sentiment": "Negative",
+            "compound": -0.599
+          },
+          {
+            "title": "Ahead of Market: 10 things that will decide stock market action on Wednesday",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-06T15:40:54Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Conor Pope: This is Schrödinger’s budget – simultaneously generous and mean",
+            "source": "The Irish Times",
+            "publishedAt": "2026-10-06T15:40:45Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
+          {
+            "title": "Winklevoss files for spot Zcash ETF with US SEC",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-06T15:39:20Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Lenders Find Creditworthy Borrowers Hiding in the Data",
+            "source": "pymnts.com",
+            "publishedAt": "2026-10-06T15:32:55Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
           {
             "title": "Establishment Democratic Senator Says “The Establishment Democratic Party Is A Failed Enterprise”",
             "source": "Jezebel",
             "publishedAt": "2026-10-06T15:30:26Z",
             "sentiment": "Neutral",
             "compound": -0.153
-          },
-          {
-            "title": "S&P 500 hits record high as oil prices and yields fall",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-06T15:25:10Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Fed to consider updates to fixed-dollar asset thresholds",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-06T15:23:45Z",
-            "sentiment": "Positive",
-            "compound": 0.361
-          },
-          {
-            "title": "With 8 in 10 Americans opposed to his handling of inflation, Trump turns to weird happy talk",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-06T15:23:37Z",
-            "sentiment": "Positive",
-            "compound": 0.459
-          },
-          {
-            "title": "US trade deficit widens as imports hit record high",
-            "source": "The Straits Times",
-            "publishedAt": "2026-10-06T15:21:32Z",
-            "sentiment": "Negative",
-            "compound": -0.402
-          },
-          {
-            "title": "Business groups dismayed with minimum wage rise move",
-            "source": "RTE",
-            "publishedAt": "2026-10-06T15:21:12Z",
-            "sentiment": "Negative",
-            "compound": -0.44
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 47.01,
-  "trade_probability": 48.21,
+  "confirmation_score": 53.7,
+  "trade_probability": 52.22,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
