@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T22:45:52.352906+00:00",
+  "generated_at": "2026-10-07T23:00:10.909595+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
           "change_pct": 0.8207,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.0113,
-          "up": false
+          "change_pct": 0.0378,
+          "up": true
         },
         "NVDA": {
-          "change_pct": -1.2515,
+          "change_pct": -1.2769,
           "up": false
         },
         "AMZN": {
-          "change_pct": 1.1285,
+          "change_pct": 1.1291,
           "up": true
         }
       }
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.12,
+      "score": 56.35,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.102,
+        "avg_compound": 0.127,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "5 Natural Gas Stocks Profiting From the Strait of Hormuz Standoff",
+            "source": "OilPrice.com",
+            "publishedAt": "2026-10-06T23:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.625
+          },
+          {
+            "title": "Beats Stock Market Upswing: What Investors Need to Know",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-06T22:58:20Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Outpaces Stock Market Gains: What You Should Know",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-06T22:57:55Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
+          {
+            "title": "IMF reaches staff-level deal with Papua New Guinea, potentially unlocking about $189 million",
+            "source": "CNA",
+            "publishedAt": "2026-10-06T22:47:31Z",
+            "sentiment": "Neutral",
+            "compound": 0.052
+          },
           {
             "title": "Outpaced the Stock Market Today",
             "source": "Biztoc.com",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-06T22:43:19Z",
             "sentiment": "Negative",
             "compound": -0.388
-          },
-          {
-            "title": "Laps the Stock Market: Here's Why",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-06T22:43:14Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Surpasses Market Returns: Some Facts Worth Knowing",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-06T22:43:01Z",
-            "sentiment": "Positive",
-            "compound": 0.226
-          },
-          {
-            "title": "Trump Journeys to Where He Is Still Popular",
-            "source": "The Atlantic",
-            "publishedAt": "2026-10-06T22:36:00Z",
-            "sentiment": "Positive",
-            "compound": 0.421
-          },
-          {
-            "title": "CELH Investors Have Opportunity to Lead Celsius Holdings, Inc. Securities Fraud Lawsuit",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-06T22:35:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.178
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.78,
-  "trade_probability": 54.07,
+  "confirmation_score": 63.64,
+  "trade_probability": 58.18,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
