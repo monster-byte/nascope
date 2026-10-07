@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T20:45:49.820461+00:00",
+  "generated_at": "2026-10-07T21:01:16.884055+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
-      "status": "green",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
           "change_pct": 0.8207,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.034,
-          "up": true
+          "change_pct": -0.0113,
+          "up": false
         },
         "NVDA": {
-          "change_pct": -1.2769,
+          "change_pct": -1.2515,
           "up": false
         },
         "AMZN": {
-          "change_pct": 1.1291,
+          "change_pct": 1.1285,
           "up": true
         }
       }
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.41,
+      "score": 43.39,
       "status": "yellow",
       "details": {
         "current_dxy": 102.29,
-        "change_5d_pct": 0.824
+        "change_5d_pct": 0.826
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.24,
+      "score": 54.88,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.085,
+        "avg_compound": 0.098,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Why Flavio Bolsonaro outperformed the polls in Brazil’s election",
-            "source": "Al Jazeera English",
-            "publishedAt": "2026-10-06T20:44:12Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "AMD to Report Fiscal Third Quarter 2026 Financial Results",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-06T20:42:54Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "SoFi Co-Founder's Navra Raises $19M to Link TradFi, DeFi",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-06T20:42:47Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Stock Is Trading Up Today",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-06T20:42:17Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Chart: A look at the S&P 500's remarkable and defiant trip a new record",
-            "source": "CNBC",
-            "publishedAt": "2026-10-06T20:41:31Z",
+            "title": "Stocks climb as oil prices retreat under US$100 per barrel",
+            "source": "CNA",
+            "publishedAt": "2026-10-06T21:01:02Z",
             "sentiment": "Positive",
-            "compound": 0.402
+            "compound": 0.202
           },
           {
-            "title": "Are You Funding the North Korean Nuclear Program?",
-            "source": "Ere.net",
-            "publishedAt": "2026-10-06T20:37:41Z",
+            "title": "Inflation hits a new high as Americans’ top issue",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-06T20:58:01Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "TWG Announces Receipt of Nasdaq Minimum Bid Price Notification",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-06T20:57:57Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "Democrats' 8-point lead with registered voters, inflation importance hits new high, and more: October 2–5, 2026 Economist / YouGov Poll",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-06T20:57:54Z",
+            "sentiment": "Positive",
+            "compound": 0.361
+          },
+          {
+            "title": "Oct. 9 has loomed large in stock-market history. Why investors still shouldn’t buy into an October jinx",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-06T20:57:52Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "QuickLogic Announces Inducement Grant Under Nasdaq Listing Rule 5635(c)(4)",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-06T20:57:00Z",
+            "sentiment": "Positive",
+            "compound": 0.361
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 63.43,
-  "trade_probability": 58.06,
+  "confirmation_score": 56.74,
+  "trade_probability": 54.04,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
