@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T13:31:10.173509+00:00",
+  "generated_at": "2026-10-07T13:46:06.147797+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 1.222,
+          "change_pct": 0.4942,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.2077,
+          "change_pct": -0.591,
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.1088,
+          "change_pct": -0.9624,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.8425,
+          "change_pct": -1.2939,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 83.76,
+      "score": 83.24,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 31004.9,
-        "sma50": 29645.43,
-        "sma200": 27571.04
+        "last_price": 30952.63,
+        "sma50": 29644.38,
+        "sma200": 27570.78
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 60.0,
+      "score": 50.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.17,
-        "percentile_vs_20d": 40.0
+        "current_vxn": 21.61,
+        "percentile_vs_20d": 50.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 41.08,
-      "status": "yellow",
+      "score": 39.57,
+      "status": "red",
       "details": {
-        "current_yield_pct": 5.352,
-        "change_5d_pct": 1.115
+        "current_yield_pct": 5.362,
+        "change_5d_pct": 1.304
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.66,
+      "score": 42.56,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.38,
-        "change_5d_pct": 0.918
+        "current_dxy": 102.39,
+        "change_5d_pct": 0.931
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 59.48,
+      "score": 53.92,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.19,
+        "avg_compound": 0.078,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Farmer sentiment drops as concerns about input costs increase",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-06T13:30:00Z",
-            "sentiment": "Positive",
-            "compound": 0.318
-          },
-          {
-            "title": "Digi International Announces Digi EX60 for Always-On 5G Branch Connectivity",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-06T13:18:33Z",
+            "title": "David Ellison’s new mega-studio debuts on Wall Street as Skydance preps its Hollywood pitch",
+            "source": "Page Six",
+            "publishedAt": "2026-10-06T13:44:43Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Paramount wraps up mega Warner Bros merger to create Hollywood powerhouse Skydance",
-            "source": "CNA",
-            "publishedAt": "2026-10-06T13:18:00Z",
+            "title": "Rule, Cool or Cruel Britannia? A Nation Abused by Politicians, Corporates, Extremists and the Establishment",
+            "source": "Fair Observer",
+            "publishedAt": "2026-10-06T13:44:14Z",
+            "sentiment": "Negative",
+            "compound": -0.7
+          },
+          {
+            "title": "Rule, Cool or Cruel Britannia? A Nation Abused by Politicians, Corporates, Extremists and the Establishment",
+            "source": "Fair Observer",
+            "publishedAt": "2026-10-06T13:44:14Z",
+            "sentiment": "Negative",
+            "compound": -0.7
+          },
+          {
+            "title": "Inside Hollywood's biggest plot twist: How Paramount closed $110 billion Warner Bros deal to create Skydance",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-06T13:42:53Z",
             "sentiment": "Positive",
             "compound": 0.273
           },
           {
-            "title": "Option Care Health Soars 22% on $5 Billion Acquisition Reports - Blockonomi",
-            "source": "Blockonomi",
-            "publishedAt": "2026-10-06T13:16:36Z",
-            "sentiment": "Positive",
-            "compound": 0.494
+            "title": "L&T Realty eyes ₹25,000 crore launches across three cities in H2FY27",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-06T13:40:17Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Vuzix and Shiny Box Interactive Partner to Advance Military Medical Training and Remote-Mentoring Solutions on Ultralite Pro OEM Smart Glasses Platform",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-06T13:15:00Z",
-            "sentiment": "Positive",
-            "compound": 0.527
-          },
-          {
-            "title": "Survey Finds Financial Strain Eases From Recent Years but Emergency Savings Gap Remains",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-06T13:15:00Z",
-            "sentiment": "Negative",
-            "compound": -0.431
+            "title": "Drug Discovery Informatics Market Projected to Reach $7.74 Billion by 2030 as AI Agents Need Biological Context",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-06T13:39:38Z",
+            "sentiment": "Neutral",
+            "compound": 0.026
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 47.7,
-  "trade_probability": 48.62,
+  "confirmation_score": 46.01,
+  "trade_probability": 47.61,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
