@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T21:01:16.884055+00:00",
+  "generated_at": "2026-10-07T21:15:53.020745+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
           "change_pct": 0.8207,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.0113,
-          "up": false
+          "change_pct": 0.034,
+          "up": true
         },
         "NVDA": {
-          "change_pct": -1.2515,
+          "change_pct": -1.2769,
           "up": false
         },
         "AMZN": {
-          "change_pct": 1.1285,
+          "change_pct": 1.1291,
           "up": true
         }
       }
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.39,
+      "score": 43.53,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.29,
-        "change_5d_pct": 0.826
+        "current_dxy": 102.27,
+        "change_5d_pct": 0.808
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.88,
+      "score": 52.15,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.098,
+        "avg_compound": 0.043,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Stocks climb as oil prices retreat under US$100 per barrel",
-            "source": "CNA",
-            "publishedAt": "2026-10-06T21:01:02Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "Inflation hits a new high as Americans’ top issue",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-06T20:58:01Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "TWG Announces Receipt of Nasdaq Minimum Bid Price Notification",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-06T20:57:57Z",
+            "title": "SSR Mining to Announce Third Quarter 2026 Consolidated Financial Results November 3, 2026",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-06T21:12:45Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Democrats' 8-point lead with registered voters, inflation importance hits new high, and more: October 2–5, 2026 Economist / YouGov Poll",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-06T20:57:54Z",
-            "sentiment": "Positive",
-            "compound": 0.361
+            "title": "Skydance Shares Fall In New York Stock Exchange Debut Amid Debt Debate",
+            "source": "Deadline",
+            "publishedAt": "2026-10-06T21:12:17Z",
+            "sentiment": "Neutral",
+            "compound": -0.077
           },
           {
-            "title": "Oct. 9 has loomed large in stock-market history. Why investors still shouldn’t buy into an October jinx",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-06T20:57:52Z",
+            "title": "1970 AMC AMX 4-Speed",
+            "source": "Bringatrailer.com",
+            "publishedAt": "2026-10-06T21:12:13Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Carbon Streaming Closes Community Carbon Sale and Provides Corporate Updates",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-06T21:12:08Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Paychecks Rose For Third Straight Month in August—Even After Inflation",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-10-06T21:09:24Z",
+            "sentiment": "Positive",
+            "compound": 0.226
+          },
+          {
+            "title": "Trump says he’s considering suspending federal gas tax as states lead effort to lower costs",
+            "source": "New York Post",
+            "publishedAt": "2026-10-06T21:08:18Z",
             "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "QuickLogic Announces Inducement Grant Under Nasdaq Listing Rule 5635(c)(4)",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-06T20:57:00Z",
-            "sentiment": "Positive",
-            "compound": 0.361
+            "compound": -0.296
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.74,
-  "trade_probability": 54.04,
+  "confirmation_score": 63.25,
+  "trade_probability": 57.95,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
