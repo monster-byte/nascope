@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T19:01:19.697757+00:00",
+  "generated_at": "2026-10-07T19:15:56.596731+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.9509,
+          "change_pct": 1.0063,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.287,
+          "change_pct": 0.2456,
           "up": true
         },
         "NVDA": {
-          "change_pct": -1.4803,
+          "change_pct": -1.449,
           "up": false
         },
         "AMZN": {
-          "change_pct": 1.0915,
+          "change_pct": 1.0007,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 85.05,
+      "score": 84.78,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 31134.94,
-        "sma50": 29648.03,
-        "sma200": 27571.69
+        "last_price": 31108.55,
+        "sma50": 29647.5,
+        "sma200": 27571.56
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 53.02,
+      "score": 52.42,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.273,
-        "change_5d_pct": -0.378
+        "current_yield_pct": 5.277,
+        "change_5d_pct": -0.302
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.83,
+      "score": 43.8,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.23,
-        "change_5d_pct": 0.771
+        "current_dxy": 102.24,
+        "change_5d_pct": 0.775
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.66,
+      "score": 53.21,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.053,
+        "avg_compound": 0.064,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Is the stock market boom too good to be true? Plus the growing divide in AI adoption",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-06T19:11:46Z",
+            "sentiment": "Positive",
+            "compound": 0.751
+          },
+          {
+            "title": "'Oh, Come On!' GOP Senator Shouted Down Over Silence On Don Jr.'s Wedding Oligarch",
+            "source": "Crooksandliars.com",
+            "publishedAt": "2026-10-06T19:05:31Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Jan van Eck: The AI 2.0 trade has been suffering",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-06T19:01:15Z",
+            "sentiment": "Negative",
+            "compound": -0.477
+          },
           {
             "title": "S&P projects 12-14% credit growth this fiscal, warns weak monsoon may hit rural lending",
             "source": "The Times of India",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-06T18:56:51Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "The TXSE Launched Monday. It Aims To Make 'Wall Street' Less Relevant",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-06T18:55:09Z",
-            "sentiment": "Neutral",
-            "compound": 0.128
-          },
-          {
-            "title": "What Marvell's rosy long-term guidance means for our AI chip stocks",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-06T18:55:04Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "FuelCell (NASDAQ: FCEL) Scrutinized Over Fit Energy Disclosures Driving Stock Down 15%",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-06T18:53:00Z",
-            "sentiment": "Positive",
-            "compound": 0.557
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 62.47,
-  "trade_probability": 57.48,
+  "confirmation_score": 62.4,
+  "trade_probability": 57.44,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
