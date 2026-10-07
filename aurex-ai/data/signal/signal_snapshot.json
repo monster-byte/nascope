@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T13:15:52.936491+00:00",
+  "generated_at": "2026-10-07T13:31:10.173509+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,36 +13,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 0.0,
+      "score": 25.0,
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.0659,
-          "up": false
+          "change_pct": 1.222,
+          "up": true
         },
         "MSFT": {
-          "change_pct": -0.0208,
+          "change_pct": -0.2077,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.4985,
+          "change_pct": -1.1088,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.2529,
+          "change_pct": -0.8425,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 86.67,
+      "score": 83.76,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 31224.47,
-        "sma50": 29580.59,
-        "sma200": 27541.11
+        "last_price": 31004.9,
+        "sma50": 29645.43,
+        "sma200": 27571.04
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 42.44,
+      "score": 41.08,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.343,
-        "change_5d_pct": 0.945
+        "current_yield_pct": 5.352,
+        "change_5d_pct": 1.115
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.42,
+      "score": 42.66,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.41,
-        "change_5d_pct": 0.947
+        "current_dxy": 102.38,
+        "change_5d_pct": 0.918
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 57.57,
+      "score": 59.48,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.151,
+        "avg_compound": 0.19,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Farmer sentiment drops as concerns about input costs increase",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-06T13:30:00Z",
+            "sentiment": "Positive",
+            "compound": 0.318
+          },
+          {
+            "title": "Digi International Announces Digi EX60 for Always-On 5G Branch Connectivity",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-06T13:18:33Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Paramount wraps up mega Warner Bros merger to create Hollywood powerhouse Skydance",
+            "source": "CNA",
+            "publishedAt": "2026-10-06T13:18:00Z",
+            "sentiment": "Positive",
+            "compound": 0.273
+          },
+          {
+            "title": "Option Care Health Soars 22% on $5 Billion Acquisition Reports - Blockonomi",
+            "source": "Blockonomi",
+            "publishedAt": "2026-10-06T13:16:36Z",
+            "sentiment": "Positive",
+            "compound": 0.494
+          },
           {
             "title": "Vuzix and Shiny Box Interactive Partner to Advance Military Medical Training and Remote-Mentoring Solutions on Ultralite Pro OEM Smart Glasses Platform",
             "source": "PRNewswire",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-06T13:15:00Z",
             "sentiment": "Negative",
             "compound": -0.431
-          },
-          {
-            "title": "Paramount-Warner Bros. $111 Billion Merger Officially Closes: ‘Today Is a Historic Day, Not Just for Skydance but for Our Entire Industry,’ David Ellison Says",
-            "source": "Variety",
-            "publishedAt": "2026-10-06T13:13:25Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "World Bank lifts India FY27 growth view to 7.1% on robust domestic demand",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-06T13:13:21Z",
-            "sentiment": "Positive",
-            "compound": 0.542
-          },
-          {
-            "title": "U.S. stock futures inch up amid retreating yields, easing oil prices - Investing.com",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-10-06T13:13:15Z",
-            "sentiment": "Positive",
-            "compound": 0.25
-          },
-          {
-            "title": "Affirm partners with Ant International’s Antom to bring pay-over-time to US customers",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-06T13:12:37Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.33,
-  "trade_probability": 44.8,
+  "confirmation_score": 47.7,
+  "trade_probability": 48.62,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
