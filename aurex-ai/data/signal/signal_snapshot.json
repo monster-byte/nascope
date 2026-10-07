@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T05:15:48.701084+00:00",
+  "generated_at": "2026-10-07T05:31:08.555590+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.15,
+      "score": 45.02,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.07,
-        "change_5d_pct": 0.606
+        "current_dxy": 102.08,
+        "change_5d_pct": 0.623
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.04,
+      "score": 49.36,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.001,
+        "avg_compound": -0.013,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "India services PMI rises to 55.2 in September, hits 3-month high",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-06T05:27:09Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Thai September headline CPI rises 2.82% on year, below forecast",
             "source": "CNA",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-10-06T05:09:59Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "India's services sector growth at 3-month high, but quarter weakest since 2022, PMI shows",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-06T05:06:51Z",
-            "sentiment": "Negative",
-            "compound": -0.565
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 61.88,
-  "trade_probability": 57.13,
+  "confirmation_score": 61.81,
+  "trade_probability": 57.09,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
