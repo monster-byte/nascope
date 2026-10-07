@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T22:15:51.679532+00:00",
+  "generated_at": "2026-10-07T22:31:05.081559+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
           "change_pct": 0.8207,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.0113,
-          "up": false
+          "change_pct": 0.034,
+          "up": true
         },
         "NVDA": {
-          "change_pct": -1.2515,
+          "change_pct": -1.2769,
           "up": false
         },
         "AMZN": {
-          "change_pct": 1.1285,
+          "change_pct": 1.1291,
           "up": true
         }
       }
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.25,
+      "score": 53.78,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.005,
+        "avg_compound": 0.076,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Stock Trades Up, Here Is Why",
+            "title": "Stock Sinks As Market Gains: Here's Why",
             "source": "Biztoc.com",
-            "publishedAt": "2026-10-06T22:12:41Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Tutor Perini, Corning, and GE Vernova Shares Are Soaring, What You Need To Know",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-06T22:12:31Z",
+            "publishedAt": "2026-10-06T22:28:08Z",
             "sentiment": "Positive",
-            "compound": 0.296
+            "compound": 0.34
           },
           {
-            "title": "Stock market today: Live updates",
-            "source": "CNBC",
-            "publishedAt": "2026-10-06T22:11:29Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Market Close: Stocks Higher, S&P 500 and Nasdaq at Records, Skydance Is Born • 10/6/26",
+            "title": "Update: S&P 500, Nasdaq Hit Record Highs as Focus Shifts to Fed Minutes",
             "source": "Biztoc.com",
-            "publishedAt": "2026-10-06T22:01:53Z",
+            "publishedAt": "2026-10-06T22:28:01Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "An End to US Debt",
-            "source": "Dailyreckoning.com",
-            "publishedAt": "2026-10-06T22:00:51Z",
-            "sentiment": "Negative",
-            "compound": -0.361
-          },
-          {
-            "title": "Stock Market Today, Oct. 6: Corteva Rallies 12% on Analyst Upgrade Following Spin Off",
+            "title": "Stock Sinks As Market Gains: What You Should Know",
             "source": "Biztoc.com",
-            "publishedAt": "2026-10-06T21:57:47Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "publishedAt": "2026-10-06T22:27:50Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
+          {
+            "title": "Outpaces Stock Market Gains: What You Should Know",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-06T22:27:32Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
+          {
+            "title": "This 129% Bull Market Is Eyeing a Fresh Breakout",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-06T22:25:54Z",
+            "sentiment": "Positive",
+            "compound": 0.318
+          },
+          {
+            "title": "BOJ's dovish dissenter signals support for future rate hikes",
+            "source": "CNA",
+            "publishedAt": "2026-10-06T22:20:59Z",
+            "sentiment": "Positive",
+            "compound": 0.402
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.35,
-  "trade_probability": 53.81,
+  "confirmation_score": 63.41,
+  "trade_probability": 58.05,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
