@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T19:31:11.368014+00:00",
+  "generated_at": "2026-10-07T19:45:51.859733+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,36 +13,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
-      "status": "green",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.7248,
+          "change_pct": 0.6709,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.0387,
-          "up": true
+          "change_pct": -0.0415,
+          "up": false
         },
         "NVDA": {
-          "change_pct": -1.4142,
+          "change_pct": -1.4054,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.8956,
+          "change_pct": 1.0818,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 84.94,
+      "score": 85.12,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 31124.47,
-        "sma50": 29647.82,
-        "sma200": 27571.64
+        "last_price": 31142.37,
+        "sma50": 29648.18,
+        "sma200": 27571.73
       }
     },
     "vxn": {
@@ -50,7 +50,7 @@
       "score": 60.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.13,
+        "current_vxn": 21.18,
         "percentile_vs_20d": 40.0
       }
     },
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.68,
+      "score": 43.58,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.25,
-        "change_5d_pct": 0.79
+        "current_dxy": 102.26,
+        "change_5d_pct": 0.802
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.65,
+      "score": 54.72,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.093,
+        "avg_compound": 0.094,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "US Water Bills Surged 62% in 10 Years. A New Map Reveals Where Americans Pay the Most",
+            "source": "Gizmodo.com",
+            "publishedAt": "2026-10-06T19:45:15Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
+          {
+            "title": "Strategy outtrades Oracle to become the 24th most-traded US stock",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-06T19:42:48Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Constellation Energy commits over $4.3 billion to nuclear reactor upgrades in Google deal",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-06T19:42:36Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "Kalshi launches perpetual futures tied to US 500 stock index",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-06T19:42:01Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "World Bank forecasts upgraded 4.3 per cent Sub-Saharan Africa growth, with Kenya among key drivers | The Eastleigh Voice",
+            "source": "Eastleighvoice.co.ke",
+            "publishedAt": "2026-10-06T19:36:28Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
           {
             "title": "What’s Freezing the U.S. Housing Market?",
             "source": "Foreign Policy",
             "publishedAt": "2026-10-06T19:28:43Z",
             "sentiment": "Neutral",
             "compound": -0.103
-          },
-          {
-            "title": "Ex-DSA pol William Lawrence stunned in debate when rival brings up his death wish for Joe Manchin",
-            "source": "New York Post",
-            "publishedAt": "2026-10-06T19:28:36Z",
-            "sentiment": "Negative",
-            "compound": -0.382
-          },
-          {
-            "title": "Rent tax credit increased to €1,150 for single people",
-            "source": "The Irish Times",
-            "publishedAt": "2026-10-06T19:22:34Z",
-            "sentiment": "Positive",
-            "compound": 0.572
-          },
-          {
-            "title": "World Bank bumps up FY27 India growth outlook to 7.1%",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-06T19:21:16Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "The Fed and PYMNTS Intelligence Agree: Stablecoins Have a Demand Problem",
-            "source": "pymnts.com",
-            "publishedAt": "2026-10-06T19:20:49Z",
-            "sentiment": "Positive",
-            "compound": 0.34
-          },
-          {
-            "title": "Is the stock market boom too good to be true? Plus the growing divide in AI adoption",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-06T19:11:46Z",
-            "sentiment": "Positive",
-            "compound": 0.751
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 62.54,
-  "trade_probability": 57.52,
+  "confirmation_score": 55.81,
+  "trade_probability": 53.49,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
