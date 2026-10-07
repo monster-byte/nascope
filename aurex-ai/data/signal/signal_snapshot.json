@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T17:58:46.834556+00:00",
+  "generated_at": "2026-10-07T18:01:25.857275+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,36 +13,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
-      "status": "green",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.8895,
+          "change_pct": 0.7907,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.0227,
-          "up": true
+          "change_pct": -0.0095,
+          "up": false
         },
         "NVDA": {
-          "change_pct": -1.4491,
+          "change_pct": -1.4794,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.6871,
+          "change_pct": 0.7296,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 84.81,
+      "score": 84.77,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 31110.69,
-        "sma50": 29647.54,
-        "sma200": 27571.57
+        "last_price": 31107.43,
+        "sma50": 29647.48,
+        "sma200": 27571.55
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 60.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.19,
+        "current_vxn": 21.18,
         "percentile_vs_20d": 40.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 51.36,
+      "score": 51.66,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.284,
-        "change_5d_pct": -0.17
+        "current_yield_pct": 5.282,
+        "change_5d_pct": -0.208
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.53,
+      "score": 43.5,
       "status": "yellow",
       "details": {
         "current_dxy": 102.27,
-        "change_5d_pct": 0.808
+        "change_5d_pct": 0.812
       }
     },
     "macro": {
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 62.31,
-  "trade_probability": 57.39,
+  "confirmation_score": 55.59,
+  "trade_probability": 53.35,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
