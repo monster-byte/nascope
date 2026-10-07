@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T17:02:41.787880+00:00",
+  "generated_at": "2026-10-07T17:15:54.213431+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.6769,
+          "change_pct": 0.7182,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.2795,
+          "change_pct": -0.2834,
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.3263,
+          "change_pct": -1.4017,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.7024,
+          "change_pct": 0.7399,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 84.81,
+      "score": 84.87,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 31110.85,
-        "sma50": 29647.55,
-        "sma200": 27571.57
+        "last_price": 31117.26,
+        "sma50": 29647.68,
+        "sma200": 27571.6
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 60.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.19,
+        "current_vxn": 21.13,
         "percentile_vs_20d": 40.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 45.92,
+      "score": 46.98,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.32,
-        "change_5d_pct": 0.51
+        "current_yield_pct": 5.313,
+        "change_5d_pct": 0.378
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.19,
+      "score": 43.36,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.31,
-        "change_5d_pct": 0.851
+        "current_dxy": 102.29,
+        "change_5d_pct": 0.83
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.99,
+      "score": 54.48,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.08,
+        "avg_compound": 0.09,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Shares climb amid relative calm on oil markets",
+            "source": "The Irish Times",
+            "publishedAt": "2026-10-06T17:14:49Z",
+            "sentiment": "Positive",
+            "compound": 0.542
+          },
+          {
+            "title": "Marinakis: €900 million in extra VAT revenue this year, and €1.2 billion given in additional measures",
+            "source": "Protothema.gr",
+            "publishedAt": "2026-10-06T17:06:13Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Iran’s Economy ‘Deteriorating Rapidly,’ Regime’s National Security Chief Rezaei Admits",
             "source": "Legalinsurrection.com",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-06T17:00:00Z",
             "sentiment": "Positive",
             "compound": 0.527
-          },
-          {
-            "title": "Paramount closes Warner merger in historic Hollywood deal",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-06T16:59:32Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Boomers' dividend stocks take beating as bond yields rise, with retirement income on the line",
-            "source": "CNBC",
-            "publishedAt": "2026-10-06T16:59:17Z",
-            "sentiment": "Negative",
-            "compound": -0.459
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.79,
-  "trade_probability": 52.87,
+  "confirmation_score": 55.01,
+  "trade_probability": 53.01,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
