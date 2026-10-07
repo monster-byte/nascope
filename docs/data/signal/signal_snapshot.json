@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T14:01:21.408662+00:00",
+  "generated_at": "2026-10-07T14:15:57.129156+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.3414,
+          "change_pct": 0.4313,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.3778,
+          "change_pct": -0.5308,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.757,
+          "change_pct": -0.8319,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.5851,
+          "change_pct": -0.7388,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 83.55,
+      "score": 83.43,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30983.71,
-        "sma50": 29645.0,
-        "sma200": 27570.94
+        "last_price": 30971.6,
+        "sma50": 29644.76,
+        "sma200": 27570.88
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 40.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.8,
+        "current_vxn": 21.89,
         "percentile_vs_20d": 60.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 42.44,
+      "score": 45.01,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.343,
-        "change_5d_pct": 0.945
+        "current_yield_pct": 5.326,
+        "change_5d_pct": 0.623
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.75,
+      "score": 42.64,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.37,
-        "change_5d_pct": 0.906
+        "current_dxy": 102.38,
+        "change_5d_pct": 0.92
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.05,
+      "score": 48.92,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.039,
+        "avg_compound": -0.022,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "What Is Driving Rates Higher and Bonds Lower?",
-            "source": "Ritholtz.com",
-            "publishedAt": "2026-10-06T14:00:51Z",
+            "title": "Greenland Resources Updates on Magnesium and Rare Earth Elements Work",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-06T14:15:46Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "DeFi Development Corp. authorizes open-ended buyback for CHAD preferred stock",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-06T14:15:26Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Trent emerges Nifty superstar with 12% gain after strong Q2 update",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-06T14:14:38Z",
+            "sentiment": "Positive",
+            "compound": 0.856
+          },
+          {
+            "title": "Magic Empire Global Limited Announces Strategic Expansion into Commodity Trading and Supply Chain Finance, Establishing Dual Core Business Model",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-06T14:11:39Z",
             "sentiment": "Negative",
-            "compound": -0.296
+            "compound": -0.226
           },
           {
-            "title": "Cultural sustainability through kinship networks: A quantitative analysis of marriage strategies in Qing China’s literary lineages (1644–1911)",
-            "source": "Plos.org",
-            "publishedAt": "2026-10-06T14:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "3 Overlooked Growth Stocks Powering Every AI Chip Nvidia and AMD Build",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-06T14:11:12Z",
+            "sentiment": "Positive",
+            "compound": 0.361
           },
           {
-            "title": "Daily unhealthy food purchase and associated factors among adolescents in urban Dire Dawa, eastern Ethiopia: A community-based cross-sectional study",
-            "source": "Plos.org",
-            "publishedAt": "2026-10-06T14:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.751
-          },
-          {
-            "title": "Methodological quality of systematic reviews and meta-analyses of rheumatoid arthritis pharmacotherapy: A protocol for a meta-epidemiological study using AMSTAR 2",
-            "source": "Plos.org",
-            "publishedAt": "2026-10-06T14:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Webinar: Alkami Brings Implementation Expertise to the Digital Banking \"Stay-or-Switch?\" Decision",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-06T14:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Energy Shock Wipes $264 Billion Off the World's Top Mining Stocks",
-            "source": "OilPrice.com",
-            "publishedAt": "2026-10-06T14:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.077
+            "title": "How David Ellison Won the Battle: Timeline of Paramount’s Rocky Road to Acquiring Warner Bros. Discovery",
+            "source": "Variety",
+            "publishedAt": "2026-10-06T14:10:27Z",
+            "sentiment": "Positive",
+            "compound": 0.273
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 45.03,
-  "trade_probability": 47.02,
+  "confirmation_score": 45.43,
+  "trade_probability": 47.26,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
