@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T14:45:52.039682+00:00",
+  "generated_at": "2026-10-07T15:01:32.703395+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.2845,
+          "change_pct": 0.2022,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.6347,
+          "change_pct": -0.749,
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.0772,
+          "change_pct": -1.4183,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.8283,
+          "change_pct": -0.696,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 83.82,
+      "score": 83.62,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 31011.42,
-        "sma50": 29645.56,
-        "sma200": 27571.07
+        "last_price": 30991.45,
+        "sma50": 29645.16,
+        "sma200": 27570.97
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 45.0,
+      "score": 40.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.86,
-        "percentile_vs_20d": 55.0
+        "current_vxn": 21.74,
+        "percentile_vs_20d": 60.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 45.92,
+      "score": 47.28,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.32,
-        "change_5d_pct": 0.51
+        "current_yield_pct": 5.311,
+        "change_5d_pct": 0.34
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.12,
+      "score": 43.42,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.32,
-        "change_5d_pct": 0.861
+        "current_dxy": 102.28,
+        "change_5d_pct": 0.822
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.55,
+      "score": 49.3,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.089,
+        "avg_compound": -0.014,
         "articles_analyzed": 22,
         "top_headlines": [
           {
-            "title": "Bowman, Modernizing the Regulatory and Supervisory Landscape",
-            "source": "Federalreserve.gov",
-            "publishedAt": "2026-10-06T14:45:00Z",
+            "title": "Bizcap US helps brokers bridge America's growing SMB funding gap",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-06T15:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
+          {
+            "title": "Jeff Koons Is Reportedly Auctioning Off $100 Million in Old and Modern Masters",
+            "source": "Robb Report",
+            "publishedAt": "2026-10-06T15:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Budget 2027: big business pays the bills as Coalition rolls the dice",
-            "source": "The Irish Times",
-            "publishedAt": "2026-10-06T14:41:03Z",
+            "title": "Elon Musk Is a Trillionaire Again as SpaceX Stock Soars to Highest Since June, Adding $65 Billion in a Day",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-10-06T14:56:58Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Water Bills Surged More Than Other Costs in US Homes Over a Decade",
-            "source": "InsideClimate News",
-            "publishedAt": "2026-10-06T14:39:28Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "BC-Most Active Stocks",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-06T14:56:38Z",
+            "sentiment": "Positive",
+            "compound": 0.402
           },
           {
-            "title": "Euro bounces as decline in French bond yields cools debt jitters",
-            "source": "CNA",
-            "publishedAt": "2026-10-06T14:39:14Z",
-            "sentiment": "Negative",
-            "compound": -0.361
+            "title": "Marvell Technology stock rallies following ambitious investor day targets",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-06T14:56:06Z",
+            "sentiment": "Positive",
+            "compound": 0.477
           },
           {
-            "title": "Euro bounces as falling French bond yields temper debt concerns",
-            "source": "CNA",
-            "publishedAt": "2026-10-06T14:39:14Z",
-            "sentiment": "Negative",
-            "compound": -0.71
-          },
-          {
-            "title": "Fund withdrawals largely flow into deposits: Karahan",
-            "source": "Hurriyet Daily News",
-            "publishedAt": "2026-10-06T14:38:31Z",
+            "title": "Chip Stocks Pause After Two-Day Pop. AMD Stock Gets Price-Target Hikes",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-06T14:55:28Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 45.8,
-  "trade_probability": 47.48,
+  "confirmation_score": 45.87,
+  "trade_probability": 47.52,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
