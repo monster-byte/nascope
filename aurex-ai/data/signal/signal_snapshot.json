@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T17:31:16.846684+00:00",
+  "generated_at": "2026-10-07T17:45:50.434917+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,36 +13,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.5541,
+          "change_pct": 0.7787,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.0737,
-          "up": false
+          "change_pct": 0.0132,
+          "up": true
         },
         "NVDA": {
-          "change_pct": -1.2956,
+          "change_pct": -1.4283,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.8431,
+          "change_pct": 0.7199,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 84.92,
+      "score": 84.99,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 31122.66,
-        "sma50": 29647.78,
-        "sma200": 27571.63
+        "last_price": 31128.95,
+        "sma50": 29647.91,
+        "sma200": 27571.66
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 52.42,
+      "score": 51.06,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.277,
-        "change_5d_pct": -0.302
+        "current_yield_pct": 5.286,
+        "change_5d_pct": -0.132
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.77,
+      "score": 43.59,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.24,
-        "change_5d_pct": 0.779
+        "current_dxy": 102.26,
+        "change_5d_pct": 0.801
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.44,
+      "score": 54.59,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.069,
+        "avg_compound": 0.092,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Wall Street profits climbed more than 51% in first half of 2026, far surpassing projections",
+            "source": "Newsday",
+            "publishedAt": "2026-10-06T17:44:47Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
+          {
+            "title": "Volare Jumps in Oslo Debut as Wave of Shipping IPOs Builds",
+            "source": "gcaptain.com",
+            "publishedAt": "2026-10-06T17:42:17Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Biden conspicuously absent from campaign trail as Obama, Harris step up for midterm push",
+            "source": "Fox News",
+            "publishedAt": "2026-10-06T17:36:59Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Wall Street today: US stocks nears record highs amid earnings optimism, tech rally; S&P, Nasdaq rise 0.8%",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-06T17:32:38Z",
+            "sentiment": "Positive",
+            "compound": 0.542
+          },
+          {
+            "title": "Warren Buffett’s S&P 500 investment advice: How $400 a month in this fund may grow to $820,000 in 30 years",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-06T17:31:46Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "The ASX dividend game has changed. Here's why",
             "source": "Motley Fool Australia",
             "publishedAt": "2026-10-06T17:30:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Pakistan provides fuel aid to over 9 million low-income people as Middle East war drives up prices",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-10-06T17:28:58Z",
-            "sentiment": "Negative",
-            "compound": -0.599
-          },
-          {
-            "title": "Disney hikes park ticket prices — with premium Dinsey World pass costing whopping $500",
-            "source": "New York Post",
-            "publishedAt": "2026-10-06T17:28:43Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "GTA home sales down from a year ago, average prices continue to decline: real estate board",
-            "source": "CBC News",
-            "publishedAt": "2026-10-06T17:27:37Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "If a Stock Market Crash Is Coming, Warren Buffett Says Investors Should Make This Important Move",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-06T17:27:12Z",
-            "sentiment": "Neutral",
-            "compound": -0.178
-          },
-          {
-            "title": "Energy shock puts South Asia on inflation path: World Bank economist",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-06T17:26:50Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.79,
-  "trade_probability": 52.87,
+  "confirmation_score": 61.45,
+  "trade_probability": 56.87,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
