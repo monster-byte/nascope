@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T15:15:52.001356+00:00",
+  "generated_at": "2026-10-08T15:31:09.482893+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.2554,
+          "change_pct": 0.3119,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.1227,
+          "change_pct": 0.1246,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.6822,
+          "change_pct": -0.5685,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.3251,
+          "change_pct": -0.523,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 82.74,
+      "score": 82.78,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30987.22,
-        "sma50": 29724.43,
-        "sma200": 27600.02
+        "last_price": 30991.19,
+        "sma50": 29724.51,
+        "sma200": 27600.04
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 45.0,
+      "score": 40.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.25,
-        "percentile_vs_20d": 55.0
+        "current_vxn": 21.3,
+        "percentile_vs_20d": 60.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 39.31,
+      "score": 39.92,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.307,
-        "change_5d_pct": 1.337
+        "current_yield_pct": 5.303,
+        "change_5d_pct": 1.26
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.33,
+      "score": 48.73,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.19,
-        "change_5d_pct": 0.084
+        "current_dxy": 102.26,
+        "change_5d_pct": 0.159
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 43.6,
+      "score": 49.98,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.128,
+        "avg_compound": -0.0,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "JPMorgan just put a different spin on the stock market selloff",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-07T15:14:08Z",
+            "title": "XRP treasury SPAC drops 50% in a day ahead of Evernorth’s Nasdaq debut",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-10-07T15:30:44Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "C.A.R. releases its 2027 California Housing Market Forecast",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-07T15:30:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Can PepsiCo Regain Its Growth Stock Status With the Q3 Report?",
+            "title": "Aspirational marketing is on the rise, here’s why",
+            "source": "Business Daily",
+            "publishedAt": "2026-10-07T15:30:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Retail prices of diesel & petrol will have to be raised at some point: Moody’s Ratings",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-07T15:29:52Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "October Rate-Hike Odds Just Fell From 51% to 19% in One Week",
             "source": "Biztoc.com",
-            "publishedAt": "2026-10-07T15:14:04Z",
+            "publishedAt": "2026-10-07T15:28:57Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "US oil trader takes $2bn gamble on tankers as carriers steer clear of Hormuz",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-07T15:28:51Z",
             "sentiment": "Positive",
             "compound": 0.382
-          },
-          {
-            "title": "Inflation fears on the rise as one-year outlook in Fed survey hits highest level since May 2023",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-07T15:13:48Z",
-            "sentiment": "Negative",
-            "compound": -0.421
-          },
-          {
-            "title": "Americans are paying 62% more for water than a decade ago, study finds",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-07T15:13:41Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Gate bets all-in-one money app is crypto’s biggest consumer trend this year and next",
-            "source": "CoinDesk",
-            "publishedAt": "2026-10-07T15:13:15Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Why is the US stock market down today? Dow Jones crashes today, Nasdaq and S&P 500 in red as well — rising Treasury yields, oil prices and Fed uncertainty weigh on stocks",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-07T15:11:52Z",
-            "sentiment": "Neutral",
-            "compound": 0.128
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 51.89,
-  "trade_probability": 51.13,
+  "confirmation_score": 52.05,
+  "trade_probability": 51.23,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
