@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T00:01:24.176174+00:00",
+  "generated_at": "2026-10-08T00:15:56.795873+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.81,
+      "score": 43.89,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.24,
-        "change_5d_pct": 0.774
+        "current_dxy": 102.22,
+        "change_5d_pct": 0.764
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.9,
+      "score": 51.32,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.058,
-        "articles_analyzed": 25,
+        "avg_compound": 0.026,
+        "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Michael Burry warns the stock market is in the first stage of a crash — with just 6 to 9 months to go until Stage 2",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-07T00:11:50Z",
+            "sentiment": "Negative",
+            "compound": -0.477
+          },
+          {
+            "title": "34-Years-Owned 1991 Porsche 911 Turbo",
+            "source": "Bringatrailer.com",
+            "publishedAt": "2026-10-07T00:10:14Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "The Donald’s Quixote Is Tilting at Iranian Windmills",
             "source": "Antiwar.com",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-06T23:34:18Z",
             "sentiment": "Positive",
             "compound": 0.477
-          },
-          {
-            "title": "Republicans continue to slide in US polls, four weeks before midterm elections",
-            "source": "The Conversation Africa",
-            "publishedAt": "2026-10-06T23:31:46Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Fed’s Bowman Decries ‘Antiquated’ Analysis Blocking Rural Bank Mergers",
-            "source": "pymnts.com",
-            "publishedAt": "2026-10-06T23:30:35Z",
-            "sentiment": "Negative",
-            "compound": -0.382
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.59,
-  "trade_probability": 53.95,
+  "confirmation_score": 56.46,
+  "trade_probability": 53.88,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
