@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T16:51:46.913275+00:00",
+  "generated_at": "2026-10-08T17:01:22.765749+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.6846,
+          "change_pct": 0.8257,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.8428,
+          "change_pct": -0.8947,
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.6044,
+          "change_pct": -2.3034,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.9984,
+          "change_pct": -0.7829,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 80.95,
+      "score": 79.95,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30805.96,
-        "sma50": 29720.81,
-        "sma200": 27599.12
+        "last_price": 30704.08,
+        "sma50": 29718.77,
+        "sma200": 27598.61
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 55.0,
+      "score": 45.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.2,
-        "percentile_vs_20d": 45.0
+        "current_vxn": 21.23,
+        "percentile_vs_20d": 55.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 45.11,
+      "score": 46.33,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.269,
-        "change_5d_pct": 0.611
+        "current_yield_pct": 5.261,
+        "change_5d_pct": 0.458
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.57,
+      "score": 48.71,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.28,
-        "change_5d_pct": 0.179
+        "current_dxy": 102.26,
+        "change_5d_pct": 0.161
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.15,
+      "score": 48.96,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.103,
+        "avg_compound": -0.021,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Admission to Trading and PDMR Transaction",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-07T16:51:13Z",
+            "title": "OKX And NYSE Owner ICE Move Toward 24/7 Tokenized US Stock Trading",
+            "source": "Bitcoinist",
+            "publishedAt": "2026-10-07T17:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Florida Ballot Measures November 2026",
-            "source": "Freerepublic.com",
-            "publishedAt": "2026-10-07T16:51:07Z",
+            "title": "FULTON BANK INTRODUCES CASHFLOW CENTRAL PLATFORM TO EMPOWER SMALL BUSINESSES",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-07T17:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Europe closes lower ahead of Fed meeting minutes",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-07T16:44:15Z",
+            "title": "Sometimes Customers Want AI — Sometimes They Want Humans. Here’s What Founders Should Be Asking.",
+            "source": "Entrepreneur",
+            "publishedAt": "2026-10-07T17:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.153
+          },
+          {
+            "title": "Why American Cities Cost So Much and Deliver So Little",
+            "source": "The Atlantic",
+            "publishedAt": "2026-10-07T17:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Trump, Anduril Make $6.6 Billion Bet To Fix America’s Submarine Production Crisis",
+            "source": "The Daily Caller",
+            "publishedAt": "2026-10-07T16:58:54Z",
             "sentiment": "Negative",
-            "compound": -0.296
+            "compound": -0.625
           },
           {
-            "title": "RBI hikes repo rate by 25bps: What it means and how it impacts you | All FAQs answered",
-            "source": "Livemint",
-            "publishedAt": "2026-10-07T16:42:43Z",
+            "title": "European stocks fall as Wall Street retreats from record highs",
+            "source": "The Irish Times",
+            "publishedAt": "2026-10-07T16:58:40Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Americans’ Job-Loss Fears Fall, New York Fed Survey Shows",
-            "source": "Breitbart News",
-            "publishedAt": "2026-10-07T16:38:31Z",
-            "sentiment": "Negative",
-            "compound": -0.421
-          },
-          {
-            "title": "Bitcoin price has risen 84% since January 2024 while Treasury yields climbed",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-10-07T16:35:21Z",
-            "sentiment": "Positive",
-            "compound": 0.202
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 47.55,
-  "trade_probability": 48.53,
+  "confirmation_score": 46.14,
+  "trade_probability": 47.68,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
