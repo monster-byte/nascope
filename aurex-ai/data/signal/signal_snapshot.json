@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T16:31:14.683430+00:00",
+  "generated_at": "2026-10-08T16:45:52.978154+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.5436,
+          "change_pct": 0.5911,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.2322,
-          "up": true
+          "change_pct": -0.2215,
+          "up": false
         },
         "NVDA": {
-          "change_pct": -0.838,
+          "change_pct": -1.1117,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.3924,
+          "change_pct": -0.5405,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 82.83,
+      "score": 82.38,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30995.51,
-        "sma50": 29724.6,
-        "sma200": 27600.06
+        "last_price": 30950.09,
+        "sma50": 29723.69,
+        "sma200": 27599.84
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 40.0,
+      "score": 55.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.31,
-        "percentile_vs_20d": 60.0
+        "current_vxn": 21.19,
+        "percentile_vs_20d": 45.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 43.74,
+      "score": 45.11,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.278,
-        "change_5d_pct": 0.783
+        "current_yield_pct": 5.269,
+        "change_5d_pct": 0.611
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.41,
+      "score": 48.32,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.3,
-        "change_5d_pct": 0.199
+        "current_dxy": 102.31,
+        "change_5d_pct": 0.21
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 60.64,
+      "score": 56.56,
       "status": "yellow",
       "details": {
-        "overall_sentiment": "BULLISH",
-        "avg_compound": 0.213,
+        "overall_sentiment": "NEUTRAL",
+        "avg_compound": 0.131,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Europe closes lower ahead of Fed meeting minutes",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-07T16:44:15Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "RBI hikes repo rate by 25bps: What it means and how it impacts you | All FAQs answered",
+            "source": "Livemint",
+            "publishedAt": "2026-10-07T16:42:43Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Americans’ Job-Loss Fears Fall, New York Fed Survey Shows",
+            "source": "Breitbart News",
+            "publishedAt": "2026-10-07T16:38:31Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
+          {
+            "title": "Bitcoin price has risen 84% since January 2024 while Treasury yields climbed",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-10-07T16:35:21Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "Forum targets $255B AI inference market with new edge computing sites",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-07T16:31:12Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "100 Years Of A Storied Artist Retreat",
             "source": "Hyperallergic",
             "publishedAt": "2026-10-07T16:31:00Z",
             "sentiment": "Positive",
             "compound": 0.202
-          },
-          {
-            "title": "Warren Buffett's classic advice to 99% of investors is still paying off",
-            "source": "Business Insider",
-            "publishedAt": "2026-10-07T16:30:47Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "One-Year Inflation Expectations Jump To 3 Year HIgh: NY Fed Survey",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-07T16:29:05Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "TORM plc announces closing of secondary public offering of its class A common shares",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-07T16:18:00Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "Using your FSA wisely? Up to $3,400 can be set aside pre-tax in 2026, and millions of workers forget to claim every single dollar of it",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-07T16:17:01Z",
-            "sentiment": "Positive",
-            "compound": 0.226
-          },
-          {
-            "title": "‘We were chasing inflation’: DCU grilled over almost €4.4m loss on student accommodation plan",
-            "source": "The Irish Times",
-            "publishedAt": "2026-10-07T16:16:00Z",
-            "sentiment": "Negative",
-            "compound": -0.255
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 53.5,
-  "trade_probability": 52.1,
+  "confirmation_score": 47.85,
+  "trade_probability": 48.71,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
