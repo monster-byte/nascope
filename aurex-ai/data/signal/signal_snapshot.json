@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T16:45:52.978154+00:00",
+  "generated_at": "2026-10-08T16:51:46.913275+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.5911,
+          "change_pct": 0.6846,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.2215,
+          "change_pct": -0.8428,
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.1117,
+          "change_pct": -1.6044,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.5405,
+          "change_pct": -0.9984,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 82.38,
+      "score": 80.95,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30950.09,
-        "sma50": 29723.69,
-        "sma200": 27599.84
+        "last_price": 30805.96,
+        "sma50": 29720.81,
+        "sma200": 27599.12
       }
     },
     "vxn": {
@@ -50,7 +50,7 @@
       "score": 55.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.19,
+        "current_vxn": 21.2,
         "percentile_vs_20d": 45.0
       }
     },
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.32,
+      "score": 48.57,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.31,
-        "change_5d_pct": 0.21
+        "current_dxy": 102.28,
+        "change_5d_pct": 0.179
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.56,
+      "score": 55.15,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.131,
+        "avg_compound": 0.103,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Admission to Trading and PDMR Transaction",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-07T16:51:13Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Florida Ballot Measures November 2026",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-10-07T16:51:07Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Europe closes lower ahead of Fed meeting minutes",
             "source": "Biztoc.com",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-07T16:35:21Z",
             "sentiment": "Positive",
             "compound": 0.202
-          },
-          {
-            "title": "Forum targets $255B AI inference market with new edge computing sites",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-07T16:31:12Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "100 Years Of A Storied Artist Retreat",
-            "source": "Hyperallergic",
-            "publishedAt": "2026-10-07T16:31:00Z",
-            "sentiment": "Positive",
-            "compound": 0.202
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 47.85,
-  "trade_probability": 48.71,
+  "confirmation_score": 47.55,
+  "trade_probability": 48.53,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
