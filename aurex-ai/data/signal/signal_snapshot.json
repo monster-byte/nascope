@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T20:31:06.753455+00:00",
+  "generated_at": "2026-10-08T20:45:51.665481+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.04,
+      "score": 49.84,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.1,
-        "change_5d_pct": -0.005
+        "current_dxy": 102.12,
+        "change_5d_pct": 0.021
       }
     },
     "macro": {
@@ -85,10 +85,56 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.0,
+      "score": 51.3,
       "status": "yellow",
       "details": {
-        "error": "news_fetch_failed: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?q=Nasdaq+OR+%22Federal+Reserve%22+OR+%22stock+market%22+OR+inflation&language=en&sortBy=publishedAt&pageSize=25&apiKey=280ea038bd7e4ccb91d87f9d115484d4"
+        "overall_sentiment": "NEUTRAL",
+        "avg_compound": 0.026,
+        "articles_analyzed": 25,
+        "top_headlines": [
+          {
+            "title": "Consumers Get Choosier About Credit",
+            "source": "pymnts.com",
+            "publishedAt": "2026-10-07T20:38:08Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "Alarming data shows rental tenants have hit breaking point",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-10-07T20:36:47Z",
+            "sentiment": "Neutral",
+            "compound": -0.128
+          },
+          {
+            "title": "Trump Says He Wanted to Privatize Social Security 'So Badly' During First Term",
+            "source": "Common Dreams",
+            "publishedAt": "2026-10-07T20:36:16Z",
+            "sentiment": "Neutral",
+            "compound": -0.178
+          },
+          {
+            "title": "These October Prime Day deals are way better than I expected to be honest: Ninja, Apple, Samsung, Levi's, and more",
+            "source": "Business Insider",
+            "publishedAt": "2026-10-07T20:32:26Z",
+            "sentiment": "Positive",
+            "compound": 0.735
+          },
+          {
+            "title": "Box Office: ‘The Social Reckoning’ Targets $7 Million Opening Weekend, ‘Other Mommy’ to Scare Up $20 Million-Plus Debut",
+            "source": "Variety",
+            "publishedAt": "2026-10-07T20:32:19Z",
+            "sentiment": "Negative",
+            "compound": -0.494
+          },
+          {
+            "title": "Prediction: Micron Will Have a Larger Market Cap Than Nvidia by 2030",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-07T20:31:19Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          }
+        ]
       }
     },
     "patent_momentum": {
@@ -100,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 45.2,
-  "trade_probability": 47.12,
+  "confirmation_score": 45.3,
+  "trade_probability": 47.18,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
