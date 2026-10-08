@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T12:31:15.482531+00:00",
+  "generated_at": "2026-10-08T12:45:55.824546+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 52.42,
-      "status": "yellow",
+      "score": 36.71,
+      "status": "red",
       "details": {
-        "current_yield_pct": 5.277,
-        "change_5d_pct": -0.302
+        "current_yield_pct": 5.324,
+        "change_5d_pct": 1.661
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.2,
+      "score": 48.28,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.33,
-        "change_5d_pct": 0.225
+        "current_dxy": 102.32,
+        "change_5d_pct": 0.215
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 57.22,
+      "score": 55.63,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.144,
+        "avg_compound": 0.113,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Kettering Health to end Medicare Advantage contract with Anthem",
+            "source": "Draperjournal.com",
+            "publishedAt": "2026-10-07T12:45:31Z",
+            "sentiment": "Positive",
+            "compound": 0.25
+          },
+          {
+            "title": "RBI has hiked the repo rate at last but can its monetary policy committee make up for lost time?",
+            "source": "Livemint",
+            "publishedAt": "2026-10-07T12:38:28Z",
+            "sentiment": "Negative",
+            "compound": -0.45
+          },
+          {
+            "title": "KQC Quantum, Inc. and Charlton Aria Acquisition Corporation Announce Definitive Business Combination Agreement to Take Korea’s Enterprise Quantum Computing and Quantum-Safe Security Company Public on Nasdaq",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-07T12:37:53Z",
+            "sentiment": "Positive",
+            "compound": 0.681
+          },
+          {
+            "title": "Scott Bessent's volcanic temper laid bare: Trump's money man hurled binder at wall and screamed profanities at deputy as SEVEN top officials exit",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-10-07T12:33:30Z",
+            "sentiment": "Negative",
+            "compound": -0.511
+          },
+          {
+            "title": "FuelCell Energy Announces Chief Financial Officer Transition",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-07T12:31:09Z",
+            "sentiment": "Positive",
+            "compound": 0.273
+          },
           {
             "title": "Tesla, Rivian, and Uber Are Down Between 16% and 26%. Here's the Best Buy for the Robotaxi Takeover",
             "source": "Biztoc.com",
             "publishedAt": "2026-10-07T12:31:07Z",
             "sentiment": "Positive",
             "compound": 0.637
-          },
-          {
-            "title": "IHG Owners Association Launches Owner Confidence Index as New Barometer for the U.S. Hotel Ownership Market",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-07T12:31:00Z",
-            "sentiment": "Positive",
-            "compound": 0.511
-          },
-          {
-            "title": "Leifras Launches Official Note Channel \"Story of LEIFRAS\"",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-07T12:30:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Halozyme Wins Injunction Stopping Manufacture and Sale of Merck's Keytruda SC in Multiple European Markets",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-07T12:30:00Z",
-            "sentiment": "Positive",
-            "compound": 0.477
-          },
-          {
-            "title": "Commvault Appoints Matthew Stauble as Chief Customer Officer",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-07T12:30:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Cincinnati Financial Schedules Webcast to Discuss Third-Quarter 2026 Results",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-07T12:30:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 43.88,
-  "trade_probability": 46.33,
+  "confirmation_score": 41.62,
+  "trade_probability": 44.97,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
