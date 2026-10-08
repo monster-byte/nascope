@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T15:01:26.369724+00:00",
+  "generated_at": "2026-10-08T15:15:52.001356+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.2911,
+          "change_pct": 0.2554,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.0689,
+          "change_pct": 0.1227,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.3874,
+          "change_pct": -0.6822,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.579,
+          "change_pct": -0.3251,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 83.12,
+      "score": 82.74,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 31025.03,
-        "sma50": 29725.19,
-        "sma200": 27600.21
+        "last_price": 30987.22,
+        "sma50": 29724.43,
+        "sma200": 27600.02
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 50.0,
+      "score": 45.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.15,
-        "percentile_vs_20d": 50.0
+        "current_vxn": 21.25,
+        "percentile_vs_20d": 55.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 41.29,
-      "status": "yellow",
+      "score": 39.31,
+      "status": "red",
       "details": {
-        "current_yield_pct": 5.294,
-        "change_5d_pct": 1.088
+        "current_yield_pct": 5.307,
+        "change_5d_pct": 1.337
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.73,
+      "score": 49.33,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.13,
-        "change_5d_pct": 0.033
+        "current_dxy": 102.19,
+        "change_5d_pct": 0.084
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.71,
+      "score": 43.6,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.006,
-        "articles_analyzed": 25,
+        "avg_compound": -0.128,
+        "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Disney Data Dump October 7 2026",
-            "source": "Touringplans.com",
-            "publishedAt": "2026-10-07T15:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.382
-          },
-          {
-            "title": "Modest rate hike cycle commences",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-07T14:59:27Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Trump Told the Fed to Cut Rates. It Raised Them",
+            "title": "JPMorgan just put a different spin on the stock market selloff",
             "source": "Biztoc.com",
-            "publishedAt": "2026-10-07T14:58:40Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "East Coast migration to Miami plummets as Florida’s housing costs skyrocket",
-            "source": "Realtor.com News",
-            "publishedAt": "2026-10-07T14:57:50Z",
+            "publishedAt": "2026-10-07T15:14:08Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Your financial life, one statement: RBI adds bank deposits to CAS soon",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-07T14:57:49Z",
+            "title": "Can PepsiCo Regain Its Growth Stock Status With the Q3 Report?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-07T15:14:04Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "Inflation fears on the rise as one-year outlook in Fed survey hits highest level since May 2023",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-07T15:13:48Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
+          {
+            "title": "Americans are paying 62% more for water than a decade ago, study finds",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-07T15:13:41Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Rupee slides to a five-month low of 96.7/$, yields rise",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-07T14:56:10Z",
-            "sentiment": "Negative",
-            "compound": -0.273
+            "title": "Gate bets all-in-one money app is crypto’s biggest consumer trend this year and next",
+            "source": "CoinDesk",
+            "publishedAt": "2026-10-07T15:13:15Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Why is the US stock market down today? Dow Jones crashes today, Nasdaq and S&P 500 in red as well — rising Treasury yields, oil prices and Fed uncertainty weigh on stocks",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-07T15:11:52Z",
+            "sentiment": "Neutral",
+            "compound": 0.128
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 53.24,
-  "trade_probability": 51.94,
+  "confirmation_score": 51.89,
+  "trade_probability": 51.13,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
