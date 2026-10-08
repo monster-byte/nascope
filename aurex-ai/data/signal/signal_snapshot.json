@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T17:31:09.606265+00:00",
+  "generated_at": "2026-10-08T17:45:56.102253+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.4099,
+          "change_pct": 0.602,
           "up": true
         },
         "MSFT": {
-          "change_pct": -1.2647,
+          "change_pct": -1.4573,
           "up": false
         },
         "NVDA": {
-          "change_pct": -3.0678,
+          "change_pct": -2.5856,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.9929,
+          "change_pct": -1.8563,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 78.95,
+      "score": 79.7,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30603.27,
-        "sma50": 29716.75,
-        "sma200": 27598.1
+        "last_price": 30679.37,
+        "sma50": 29718.27,
+        "sma200": 27598.48
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 35.0,
+      "score": 0.0,
       "status": "red",
       "details": {
-        "current_vxn": 21.97,
-        "percentile_vs_20d": 65.0
+        "current_vxn": 22.63,
+        "percentile_vs_20d": 100.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 49.24,
+      "score": 50.31,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.242,
-        "change_5d_pct": 0.095
+        "current_yield_pct": 5.235,
+        "change_5d_pct": -0.038
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.06,
+      "score": 50.13,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.09,
-        "change_5d_pct": -0.008
+        "current_dxy": 102.08,
+        "change_5d_pct": -0.016
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.42,
+      "score": 46.77,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.052,
+        "avg_compound": -0.065,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "‘Government clearly not listening’: Nature groups criticise lack of budget funding",
-            "source": "The Irish Times",
-            "publishedAt": "2026-10-07T17:29:04Z",
-            "sentiment": "Negative",
-            "compound": -0.361
-          },
-          {
-            "title": "BUTLER NATIONAL CORPORATION ANNOUNCES $10 MILLION INCREASE IN STOCK REPURCHASE PROGRAM",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-07T17:16:00Z",
-            "sentiment": "Positive",
-            "compound": 0.465
-          },
-          {
-            "title": "Warren's Trump Inflation Tracker Reveals​ Pain Caused by 'Failed Economic Agenda' of GOP",
-            "source": "Common Dreams",
-            "publishedAt": "2026-10-07T17:15:56Z",
-            "sentiment": "Negative",
-            "compound": -0.765
-          },
-          {
-            "title": "Hawkish hike, but measured path ahead",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-07T17:15:54Z",
+            "title": "Apollo Joins $11.5 Billion Race for German Gas Giant Uniper",
+            "source": "OilPrice.com",
+            "publishedAt": "2026-10-07T17:45:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "High Treasury yields: Stocks vs. bonds for investors",
-            "source": "CNBC",
-            "publishedAt": "2026-10-07T17:12:16Z",
+            "title": "‘Resident Evil’ Becoming Zach Cregger’s Highest Grossing Movie Ever At $280M+ WW Boosted By $35M China Debut",
+            "source": "Deadline",
+            "publishedAt": "2026-10-07T17:45:00Z",
             "sentiment": "Positive",
-            "compound": 0.202
+            "compound": 0.296
           },
           {
-            "title": "US mortgage rates hit their highest level in three years",
-            "source": "Al Jazeera English",
-            "publishedAt": "2026-10-07T17:05:10Z",
+            "title": "Stock Market Today: Dow, S&P 500 Rally; Cathie Wood Buys This Stock Amid 56% Dive",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-07T17:44:52Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Defence Forces will not reach target of 11,500 personnel by 2028 despite recruitment commitments",
+            "source": "TheJournal.ie",
+            "publishedAt": "2026-10-07T17:41:02Z",
+            "sentiment": "Neutral",
+            "compound": -0.011
+          },
+          {
+            "title": "RTÉ and TG4 budget funding amounts to ‘effective cut’ due to inflation, screen industry warns",
+            "source": "The Irish Times",
+            "publishedAt": "2026-10-07T17:38:27Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
+          {
+            "title": "AI, Work, and the Next Downturn",
+            "source": "Wilsoniumite.com",
+            "publishedAt": "2026-10-07T17:36:02Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 45.48,
-  "trade_probability": 47.29,
+  "confirmation_score": 42.52,
+  "trade_probability": 45.51,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
