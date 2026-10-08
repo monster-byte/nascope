@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T02:45:52.312300+00:00",
+  "generated_at": "2026-10-08T03:01:21.802726+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
           "change_pct": 0.8207,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.0113,
-          "up": false
+          "change_pct": 0.034,
+          "up": true
         },
         "NVDA": {
-          "change_pct": -1.2515,
+          "change_pct": -1.2769,
           "up": false
         },
         "AMZN": {
-          "change_pct": 1.1285,
+          "change_pct": 1.1291,
           "up": true
         }
       }
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.13,
+      "score": 43.87,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.19,
-        "change_5d_pct": 0.733
+        "current_dxy": 102.23,
+        "change_5d_pct": 0.766
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.12,
+      "score": 55.49,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.102,
+        "avg_compound": 0.11,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Australian gold stocks rise as bullion gains, Fed hike bets fade",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-07T02:56:06Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
+          {
+            "title": "Pakistan provides financial aid to 9 million low-income people as Iran war drives up prices",
+            "source": "New York Post",
+            "publishedAt": "2026-10-07T02:53:08Z",
+            "sentiment": "Negative",
+            "compound": -0.599
+          },
           {
             "title": "Wrongful conviction compensation: What David Tamihere could get from the Crown",
             "source": "New Zealand Herald",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-07T02:37:01Z",
             "sentiment": "Positive",
             "compound": 0.25
-          },
-          {
-            "title": "Georgia governor candidates spar on the economy and Trump in lone debate",
-            "source": "NBC News",
-            "publishedAt": "2026-10-07T02:31:52Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "Ballard Secures 4.8MW Order from Siemens Mobility to Power Hydrogen Trains in Romania",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-07T02:30:00Z",
-            "sentiment": "Positive",
-            "compound": 0.318
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.82,
-  "trade_probability": 54.09,
+  "confirmation_score": 63.58,
+  "trade_probability": 58.15,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
