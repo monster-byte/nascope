@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T15:31:09.482893+00:00",
+  "generated_at": "2026-10-08T15:45:50.556105+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.3119,
+          "change_pct": 0.3802,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.1246,
+          "change_pct": 0.1302,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.5685,
+          "change_pct": -0.838,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.523,
+          "change_pct": -0.7329,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 82.78,
+      "score": 82.52,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30991.19,
-        "sma50": 29724.51,
-        "sma200": 27600.04
+        "last_price": 30964.71,
+        "sma50": 29723.98,
+        "sma200": 27599.91
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 40.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.3,
+        "current_vxn": 21.32,
         "percentile_vs_20d": 60.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 39.92,
-      "status": "red",
+      "score": 40.53,
+      "status": "yellow",
       "details": {
-        "current_yield_pct": 5.303,
-        "change_5d_pct": 1.26
+        "current_yield_pct": 5.299,
+        "change_5d_pct": 1.184
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.73,
+      "score": 48.66,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.26,
-        "change_5d_pct": 0.159
+        "current_dxy": 102.27,
+        "change_5d_pct": 0.167
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.98,
+      "score": 52.2,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.0,
-        "articles_analyzed": 24,
+        "avg_compound": 0.044,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "XRP treasury SPAC drops 50% in a day ahead of Evernorth’s Nasdaq debut",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-10-07T15:30:44Z",
+            "title": "What happens to FD interest rates after RBI MPC hikes interest rates? Calculation explains basis 25 bps",
+            "source": "Livemint",
+            "publishedAt": "2026-10-07T15:45:25Z",
             "sentiment": "Positive",
-            "compound": 0.202
+            "compound": 0.718
           },
           {
-            "title": "C.A.R. releases its 2027 California Housing Market Forecast",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-07T15:30:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Aspirational marketing is on the rise, here’s why",
-            "source": "Business Daily",
-            "publishedAt": "2026-10-07T15:30:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Retail prices of diesel & petrol will have to be raised at some point: Moody’s Ratings",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-07T15:29:52Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "October Rate-Hike Odds Just Fell From 51% to 19% in One Week",
+            "title": "Europe closes lower ahead of Fed minutes",
             "source": "Biztoc.com",
-            "publishedAt": "2026-10-07T15:28:57Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "publishedAt": "2026-10-07T15:44:31Z",
+            "sentiment": "Negative",
+            "compound": -0.296
           },
           {
-            "title": "US oil trader takes $2bn gamble on tankers as carriers steer clear of Hormuz",
+            "title": "Jim Cramer's key to Wednesday's market — plus, relief for Intel after a concerning report",
             "source": "Biztoc.com",
-            "publishedAt": "2026-10-07T15:28:51Z",
+            "publishedAt": "2026-10-07T15:43:46Z",
             "sentiment": "Positive",
-            "compound": 0.382
+            "compound": 0.477
+          },
+          {
+            "title": "Coinbase Stock Slides 3% as Bitcoin Drops Below $83,000 and Forced Crypto Liquidations Near $700 Million",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-10-07T15:43:09Z",
+            "sentiment": "Negative",
+            "compound": -0.459
+          },
+          {
+            "title": "Binance leads SanDisk perps liquidity, with OKX and Hyperliquid trailing",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-07T15:41:33Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Minister rules out raising cap on Help-to-Buy scheme for homes worth over €500k",
+            "source": "The Irish Times",
+            "publishedAt": "2026-10-07T15:35:16Z",
+            "sentiment": "Positive",
+            "compound": 0.226
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 52.05,
-  "trade_probability": 51.23,
+  "confirmation_score": 52.29,
+  "trade_probability": 51.37,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
