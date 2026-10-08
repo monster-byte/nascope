@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T18:45:51.731864+00:00",
+  "generated_at": "2026-10-08T19:01:26.203897+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 1.0646,
+          "change_pct": 1.3901,
           "up": true
         },
         "MSFT": {
-          "change_pct": -1.5762,
+          "change_pct": -1.4743,
           "up": false
         },
         "NVDA": {
-          "change_pct": -3.0404,
+          "change_pct": -3.0922,
           "up": false
         },
         "AMZN": {
-          "change_pct": -2.0045,
+          "change_pct": -2.091,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 79.78,
+      "score": 79.83,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30687.38,
-        "sma50": 29718.43,
-        "sma200": 27598.52
+        "last_price": 30692.62,
+        "sma50": 29718.54,
+        "sma200": 27598.55
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 40.0,
-      "status": "yellow",
+      "score": 25.0,
+      "status": "red",
       "details": {
-        "current_vxn": 22.02,
-        "percentile_vs_20d": 60.0
+        "current_vxn": 22.2,
+        "percentile_vs_20d": 75.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 50.92,
+      "score": 50.61,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.231,
-        "change_5d_pct": -0.115
+        "current_yield_pct": 5.233,
+        "change_5d_pct": -0.076
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.49,
+      "score": 49.7,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.17,
-        "change_5d_pct": 0.064
+        "current_dxy": 102.14,
+        "change_5d_pct": 0.037
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.85,
+      "score": 53.6,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.097,
+        "avg_compound": 0.072,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Fed officials see another hike coming, but no sign as to when, minutes show",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-07T18:45:19Z",
-            "sentiment": "Negative",
-            "compound": -0.421
-          },
-          {
-            "title": "Fed Minutes Show Officials Saw More Work to Do to Quell Inflation",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-07T18:44:55Z",
+            "title": "Synera Funds Announces Launch of Takumi+ ETF",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-07T19:01:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
+            "title": "Trump Might Order Another Iran Strike Before the Midterms",
+            "source": "The Atlantic",
+            "publishedAt": "2026-10-07T19:00:34Z",
+            "sentiment": "Neutral",
+            "compound": -0.128
+          },
+          {
+            "title": "Much needed policy adjustment",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-07T19:00:06Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Who Really Controls Interest Rates?",
+            "source": "Activistpost.com",
+            "publishedAt": "2026-10-07T19:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.507
+          },
+          {
             "title": "Strange market anomaly is creating a buying opportunity in the Nasdaq 100",
-            "source": "CNBC",
-            "publishedAt": "2026-10-07T18:44:33Z",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-07T18:59:34Z",
             "sentiment": "Positive",
             "compound": 0.494
           },
           {
-            "title": "Modular recyclable tire hunts immortality with swappable tread",
-            "source": "New Atlas",
-            "publishedAt": "2026-10-07T18:37:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Rosen Law Firm Encourages Elauwit Connection, Inc. Investors to Inquire About Securities Class Action Investigation - ELWT",
+            "title": "SMPL Deadline: SMPL Investors with Losses in Excess of $100K Have Opportunity to Lead The Simply Good Foods Company Securities Fraud Lawsuit",
             "source": "PRNewswire",
-            "publishedAt": "2026-10-07T18:35:00Z",
-            "sentiment": "Positive",
-            "compound": 0.625
-          },
-          {
-            "title": "Inflation fears on the rise as one-year outlook in Fed survey hits highest level since May 2023",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-07T18:33:19Z",
-            "sentiment": "Negative",
-            "compound": -0.421
+            "publishedAt": "2026-10-07T18:58:00Z",
+            "sentiment": "Neutral",
+            "compound": -0.128
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 46.89,
-  "trade_probability": 48.13,
+  "confirmation_score": 45.41,
+  "trade_probability": 47.25,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
