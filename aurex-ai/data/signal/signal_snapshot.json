@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T04:45:50.753629+00:00",
+  "generated_at": "2026-10-08T05:01:18.541635+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
           "change_pct": 0.8207,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.0113,
-          "up": false
+          "change_pct": 0.034,
+          "up": true
         },
         "NVDA": {
-          "change_pct": -1.2515,
+          "change_pct": -1.2769,
           "up": false
         },
         "AMZN": {
-          "change_pct": 1.1285,
+          "change_pct": 1.1291,
           "up": true
         }
       }
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.81,
+      "score": 48.86,
       "status": "yellow",
       "details": {
         "current_dxy": 102.25,
-        "change_5d_pct": 0.149
+        "change_5d_pct": 0.142
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.91,
+      "score": 52.7,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.058,
+        "avg_compound": 0.054,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "MPC kickstarts rate hike cycle, ups repo rate by 25 bps",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-07T04:44:55Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Michael McDowell: Where’s the feelgood factor? Budget has become an attritional struggle between ministers",
+            "source": "The Irish Times",
+            "publishedAt": "2026-10-07T05:00:01Z",
+            "sentiment": "Negative",
+            "compound": -0.318
           },
           {
-            "title": "RBI GDP Growth 2026: Malhotra & Co raise FY27 GDP forecast to 7.1% from 6.7%",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-07T04:44:04Z",
+            "title": "It takes a giveaway budget of €8.5bn to not annoy anyone – except Patrick O’Donovan",
+            "source": "The Irish Times",
+            "publishedAt": "2026-10-07T05:00:01Z",
+            "sentiment": "Positive",
+            "compound": 0.341
+          },
+          {
+            "title": "Private-sector workers could see ‘small’ benefit from public sector wage increase",
+            "source": "The Irish Times",
+            "publishedAt": "2026-10-07T05:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.649
+          },
+          {
+            "title": "Simon Coveney urged to honour Irish Glass Bottle affordable-housing commitment",
+            "source": "The Irish Times",
+            "publishedAt": "2026-10-07T05:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.743
+          },
+          {
+            "title": "RBI MPC raises FY27 inflation forecast to 5.2%, projects GDP growth at 7.1%",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-07T04:56:21Z",
             "sentiment": "Positive",
             "compound": 0.382
           },
           {
-            "title": "Global Market: China gold reserves rise for 23rd straight month, forex reserves fall",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-07T04:42:31Z",
-            "sentiment": "Positive",
-            "compound": 0.226
-          },
-          {
-            "title": "India’s central bank hikes rates for the first time since 2023 as inflation creeps up",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-07T04:40:55Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Asian shares weaker as investors weigh Saudi Arabia-Houthi escalation",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-07T04:40:36Z",
-            "sentiment": "Neutral",
-            "compound": -0.178
-          },
-          {
-            "title": "India’s central bank hikes rates for the first time since 2023 as inflation creeps up",
-            "source": "CNBC",
-            "publishedAt": "2026-10-07T04:38:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Woolworths freight fuel levy surcharge almost triples since Iran war",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-10-07T04:56:09Z",
+            "sentiment": "Negative",
+            "compound": -0.599
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.05,
-  "trade_probability": 54.23,
+  "confirmation_score": 63.78,
+  "trade_probability": 58.27,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
