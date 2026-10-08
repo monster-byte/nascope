@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T14:31:06.703127+00:00",
+  "generated_at": "2026-10-08T14:46:03.023989+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.2762,
+          "change_pct": 0.4173,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.0764,
+          "change_pct": 0.2407,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.2063,
+          "change_pct": -0.3116,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.2116,
+          "change_pct": -0.2693,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 83.9,
+      "score": 83.43,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 31104.32,
-        "sma50": 29726.77,
-        "sma200": 27600.61
+        "last_price": 31056.12,
+        "sma50": 29725.81,
+        "sma200": 27600.37
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 45.0,
+      "score": 55.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.29,
-        "percentile_vs_20d": 55.0
+        "current_vxn": 21.19,
+        "percentile_vs_20d": 45.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 43.43,
+      "score": 42.82,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.28,
-        "change_5d_pct": 0.821
+        "current_yield_pct": 5.284,
+        "change_5d_pct": 0.897
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.24,
+      "score": 50.2,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.2,
-        "change_5d_pct": 0.095
+        "current_dxy": 102.07,
+        "change_5d_pct": -0.025
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.62,
+      "score": 54.44,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.032,
+        "avg_compound": 0.089,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "California Resident Pleads Guilty to Laundering $597,000 From Government Impersonation Scam",
-            "source": "The Daily Hodl",
-            "publishedAt": "2026-10-07T14:30:33Z",
-            "sentiment": "Negative",
-            "compound": -0.758
-          },
-          {
-            "title": "Hyperscalers won't stop spending until shareholders make them",
+            "title": "The Fed Just Put AI on Its List of Inflation Shocks, Next to Tariffs and Oil",
             "source": "Biztoc.com",
-            "publishedAt": "2026-10-07T14:29:07Z",
-            "sentiment": "Positive",
-            "compound": 0.224
-          },
-          {
-            "title": "Wall Street elites will pocket windfall from record $46 billion profits",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-07T14:28:58Z",
-            "sentiment": "Positive",
-            "compound": 0.44
-          },
-          {
-            "title": "Millions of Retirees Could See Their Monthly Social Security Benefits Cut by $500",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-07T14:28:31Z",
-            "sentiment": "Positive",
-            "compound": 0.44
-          },
-          {
-            "title": "Stock markets hit record high despite inflation, high fuel prices",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-07T14:28:30Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Show HN: Clawock – AI argues, code settles the trades",
-            "source": "Github.com",
-            "publishedAt": "2026-10-07T14:21:50Z",
+            "publishedAt": "2026-10-07T14:44:09Z",
             "sentiment": "Negative",
             "compound": -0.382
+          },
+          {
+            "title": "Apparel industry eyeing strong growth this festival season despite inflationary pressures",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-07T14:42:18Z",
+            "sentiment": "Positive",
+            "compound": 0.877
+          },
+          {
+            "title": "Want Lower Gas Prices? Don’t Elect A Democrat",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-10-07T14:40:25Z",
+            "sentiment": "Negative",
+            "compound": -0.226
+          },
+          {
+            "title": "Energy price cap: the cost of your coffee could be about to go up",
+            "source": "The Conversation Africa",
+            "publishedAt": "2026-10-07T14:39:52Z",
+            "sentiment": "Positive",
+            "compound": 0.273
+          },
+          {
+            "title": "Why More Americans Are Delaying Dental Care (And What's Starting to Change)",
+            "source": "Medical Daily",
+            "publishedAt": "2026-10-07T14:39:02Z",
+            "sentiment": "Positive",
+            "compound": 0.494
+          },
+          {
+            "title": "Victoria & Albert Museum Reveals Strategy After Launching Voluntary Exit Scheme",
+            "source": "ARTnews",
+            "publishedAt": "2026-10-07T14:36:45Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 53.32,
-  "trade_probability": 51.99,
+  "confirmation_score": 54.41,
+  "trade_probability": 52.65,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
