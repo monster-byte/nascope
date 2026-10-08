@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T00:45:54.287342+00:00",
+  "generated_at": "2026-10-08T01:01:18.427535+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
-      "status": "green",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
           "change_pct": 0.8207,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.034,
-          "up": true
+          "change_pct": -0.0113,
+          "up": false
         },
         "NVDA": {
-          "change_pct": -1.2769,
+          "change_pct": -1.2515,
           "up": false
         },
         "AMZN": {
-          "change_pct": 1.1291,
+          "change_pct": 1.1285,
           "up": true
         }
       }
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.74,
+      "score": 43.97,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.24,
-        "change_5d_pct": 0.783
+        "current_dxy": 102.21,
+        "change_5d_pct": 0.754
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.56,
+      "score": 51.56,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.011,
+        "avg_compound": 0.031,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Global Market Today: Asian stocks edge lower as Korean shares lag, oil gains",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-07T00:53:43Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Nifty 50 companies likely to log strong double-digit growth in Q2",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-07T00:52:55Z",
+            "sentiment": "Positive",
+            "compound": 0.823
+          },
           {
             "title": "RBI Policy Meeting 2026 Live: Repo rate hike or status quo? All eyes on Governor Sanjay Malhotra as RBI MPC decision looms",
             "source": "Economictimes.com",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-07T00:30:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "World Bank raises India's FY27 growth forecast to 7.1%",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-07T00:27:54Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "Trump says millions of barrels of oil passed through Hormuz in couple of days",
-            "source": "Khabarhub.com",
-            "publishedAt": "2026-10-07T00:23:16Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 63.13,
-  "trade_probability": 57.88,
+  "confirmation_score": 56.49,
+  "trade_probability": 53.89,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
