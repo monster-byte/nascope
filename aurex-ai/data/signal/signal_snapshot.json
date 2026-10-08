@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T18:01:27.698805+00:00",
+  "generated_at": "2026-10-08T18:15:56.585926+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.6891,
+          "change_pct": 0.796,
           "up": true
         },
         "MSFT": {
-          "change_pct": -1.9698,
+          "change_pct": -1.8036,
           "up": false
         },
         "NVDA": {
-          "change_pct": -3.1457,
+          "change_pct": -2.8888,
           "up": false
         },
         "AMZN": {
-          "change_pct": -2.3392,
+          "change_pct": -2.0699,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 79.16,
+      "score": 80.01,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30625.02,
-        "sma50": 29717.19,
-        "sma200": 27598.21
+        "last_price": 30710.61,
+        "sma50": 29718.9,
+        "sma200": 27598.64
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 20.0,
+      "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 22.24,
-        "percentile_vs_20d": 80.0
+        "current_vxn": 22.39,
+        "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 50.61,
+      "score": 50.0,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.233,
-        "change_5d_pct": -0.076
+        "current_yield_pct": 5.237,
+        "change_5d_pct": 0.0
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.86,
+      "score": 49.77,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.12,
-        "change_5d_pct": 0.018
+        "current_dxy": 102.13,
+        "change_5d_pct": 0.028
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.63,
+      "score": 49.71,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.007,
+        "avg_compound": -0.006,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Why Trump just loosened the rules on 'dyed diesel' — normally a farm fuel",
-            "source": "NPR",
-            "publishedAt": "2026-10-07T18:00:31Z",
+            "title": "Financial adviser on Budget 2027: Is the Irish government finally growing up?",
+            "source": "TheJournal.ie",
+            "publishedAt": "2026-10-07T18:15:33Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": 0.178
           },
           {
-            "title": "Minutes of the Federal Open Market Committee, September 15-16, 2026",
-            "source": "Federalreserve.gov",
-            "publishedAt": "2026-10-07T18:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Fed officials see another hike coming, but no sign as to when, minutes show",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-07T18:14:40Z",
+            "sentiment": "Negative",
+            "compound": -0.421
           },
           {
-            "title": "Macquarie tips an 8% dividend yield and 46% share price gain for this stock",
-            "source": "Motley Fool Australia",
-            "publishedAt": "2026-10-07T18:00:00Z",
+            "title": "Nasdaq and S&P Hold Weekly Gains as Small Caps and Dow Slip Midweek",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-07T18:14:00Z",
             "sentiment": "Positive",
-            "compound": 0.681
+            "compound": 0.34
           },
           {
-            "title": "RBI’s rate hike matters. Its shift to calibrated tightening matters more",
+            "title": "Fed officials see another hike coming, but no sign as to when, minutes show",
+            "source": "CNBC",
+            "publishedAt": "2026-10-07T18:07:09Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
+          {
+            "title": "RBI finally gets uppity, takes a hike",
             "source": "The Times of India",
-            "publishedAt": "2026-10-07T17:56:35Z",
+            "publishedAt": "2026-10-07T18:03:23Z",
             "sentiment": "Neutral",
-            "compound": 0.052
+            "compound": 0.0
           },
           {
-            "title": "Bessent says energy prices, mortgages and yields will ease once the Iran conflict ends",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-07T17:55:04Z",
-            "sentiment": "Positive",
-            "compound": 0.318
-          },
-          {
-            "title": "FireFly Robotics Announces Filing of Registration Statement for Proposed Public Direct Listing of its Common Stock",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-07T17:52:23Z",
+            "title": "Punjab National Bank, Indian Bank raise lending rates after RBI repo rate hike — Here's what this means for customers…",
+            "source": "Livemint",
+            "publishedAt": "2026-10-07T18:03:10Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.52,
-  "trade_probability": 46.71,
+  "confirmation_score": 44.1,
+  "trade_probability": 46.46,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
