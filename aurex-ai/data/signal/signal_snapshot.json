@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T03:01:21.802726+00:00",
+  "generated_at": "2026-10-08T03:16:29.549747+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
-      "status": "green",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
           "change_pct": 0.8207,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.034,
-          "up": true
+          "change_pct": -0.0113,
+          "up": false
         },
         "NVDA": {
-          "change_pct": -1.2769,
+          "change_pct": -1.2515,
           "up": false
         },
         "AMZN": {
-          "change_pct": 1.1291,
+          "change_pct": 1.1285,
           "up": true
         }
       }
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.87,
+      "score": 43.72,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.23,
-        "change_5d_pct": 0.766
+        "current_dxy": 102.25,
+        "change_5d_pct": 0.786
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.49,
+      "score": 56.65,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.11,
+        "avg_compound": 0.133,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Poll Shows Florida GOP Holding Lead as Democrats Lag Among Hispanic Voters",
+            "source": "Breitbart News",
+            "publishedAt": "2026-10-07T03:15:59Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
+          {
+            "title": "RBI MPC Meeting Oct 2026 Live: Will the RBI increase repo rate?",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-07T03:13:20Z",
+            "sentiment": "Positive",
+            "compound": 0.318
+          },
+          {
+            "title": "Raskin: 'Landslide Conditions Are Forming All Over America Right Now'",
+            "source": "Breitbart News",
+            "publishedAt": "2026-10-07T03:11:32Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Japan’s real wages rise again, aided by Takaichi’s relief",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-07T03:10:47Z",
+            "sentiment": "Positive",
+            "compound": 0.477
+          },
+          {
+            "title": "Stock market today: BSE Sensex down 400 points, NSE Nifty50 holds near 22,600",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-07T03:03:03Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Australian gold stocks rise as bullion gains, Fed hike bets fade",
             "source": "Biztoc.com",
             "publishedAt": "2026-10-07T02:56:06Z",
             "sentiment": "Positive",
             "compound": 0.34
-          },
-          {
-            "title": "Pakistan provides financial aid to 9 million low-income people as Iran war drives up prices",
-            "source": "New York Post",
-            "publishedAt": "2026-10-07T02:53:08Z",
-            "sentiment": "Negative",
-            "compound": -0.599
-          },
-          {
-            "title": "Wrongful conviction compensation: What David Tamihere could get from the Crown",
-            "source": "New Zealand Herald",
-            "publishedAt": "2026-10-07T02:45:27Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Stocks to watch: Rate-sensitive stocks, Titan, Mphasis, Adani Ports, Zaggle",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-07T02:41:47Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Gold holds gains as oil flows recover, Treasury yields ease",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-07T02:41:08Z",
-            "sentiment": "Positive",
-            "compound": 0.691
-          },
-          {
-            "title": "From looms to listings: SME textile companies stitch their growth path through IPOs",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-07T02:37:01Z",
-            "sentiment": "Positive",
-            "compound": 0.25
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 63.58,
-  "trade_probability": 58.15,
+  "confirmation_score": 56.92,
+  "trade_probability": 54.15,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
