@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T14:01:20.679847+00:00",
+  "generated_at": "2026-10-08T14:15:49.134073+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.2302,
+          "change_pct": 0.0921,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.4153,
+          "change_pct": 0.2813,
           "up": true
         },
         "NVDA": {
-          "change_pct": -1.4486,
+          "change_pct": -0.6106,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.6098,
+          "change_pct": -0.3078,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 82.44,
+      "score": 83.09,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30956.71,
-        "sma50": 29723.82,
-        "sma200": 27599.87
+        "last_price": 31022.11,
+        "sma50": 29725.13,
+        "sma200": 27600.2
       }
     },
     "vxn": {
@@ -50,7 +50,7 @@
       "score": 40.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.57,
+        "current_vxn": 21.46,
         "percentile_vs_20d": 60.0
       }
     },
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.87,
+      "score": 48.62,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.24,
-        "change_5d_pct": 0.141
+        "current_dxy": 102.28,
+        "change_5d_pct": 0.172
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.2,
+      "score": 51.86,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.064,
-        "articles_analyzed": 24,
+        "avg_compound": 0.037,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "The role of coping strategies and psychological resilience in shaping academic stress levels",
-            "source": "Plos.org",
-            "publishedAt": "2026-10-07T14:00:00Z",
+            "title": "Wall Street extends losses, Dow sinks 500 pts",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-07T14:14:07Z",
             "sentiment": "Negative",
-            "compound": -0.421
+            "compound": -0.296
           },
           {
-            "title": "A cross-sectional study to evaluate access to antenatal care services in Twifo Hemang Lower Denkyira district of Ghana",
-            "source": "Plos.org",
-            "publishedAt": "2026-10-07T14:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.25
-          },
-          {
-            "title": "Cisco Unveils New Agentic Collaboration Experiences",
-            "source": "Cisco.com",
-            "publishedAt": "2026-10-07T14:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "KSHV K15 genetic heterogeneity is associated with Kaposi sarcoma aggressiveness through modulation of the host inflammatory microenvironment",
-            "source": "Plos.org",
-            "publishedAt": "2026-10-07T14:00:00Z",
+            "title": "Stocks made a record high. Two big bearish trades point to skepticism",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-07T14:13:34Z",
             "sentiment": "Negative",
-            "compound": -0.421
+            "compound": -0.25
           },
           {
-            "title": "Cisco Unveils New Agentic Collaboration Experiences",
+            "title": "Gold slides to two-month low as robust dollar, yields add pressure",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-07T14:12:27Z",
+            "sentiment": "Negative",
+            "compound": -0.226
+          },
+          {
+            "title": "GOOGL/GOOG Shareholder Alert: December 1, 2026 Lead Plaintiff Deadline in Alphabet Inc. Securities Class Action - Contact Levi & Korsinsky",
             "source": "PRNewswire",
-            "publishedAt": "2026-10-07T14:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "publishedAt": "2026-10-07T14:11:00Z",
+            "sentiment": "Positive",
+            "compound": 0.527
           },
           {
-            "title": "Combining stated and revealed preferences to define smallholder cattle breeding objectives in northwest Ethiopia: Evidence for breeding program design",
-            "source": "Plos.org",
-            "publishedAt": "2026-10-07T14:00:00Z",
+            "title": "ARDX Shareholder Alert: Investors With Losses May Seek to Lead the Class Action in Ardelyx, Inc. Securities Lawsuit - Contact Levi & Korsinsky",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-07T14:11:00Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": -0.052
+          },
+          {
+            "title": "CCB Shareholder Alert: December 1, 2026 Lead Plaintiff Deadline in Coastal Financial Corporation Securities Class Action - Contact Levi & Korsinsky",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-07T14:11:00Z",
+            "sentiment": "Positive",
+            "compound": 0.527
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 52.74,
-  "trade_probability": 51.64,
+  "confirmation_score": 52.68,
+  "trade_probability": 51.61,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
