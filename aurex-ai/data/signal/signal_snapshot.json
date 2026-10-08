@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T18:31:07.828022+00:00",
+  "generated_at": "2026-10-08T18:45:51.731864+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.9148,
+          "change_pct": 1.0646,
           "up": true
         },
         "MSFT": {
-          "change_pct": -1.3714,
+          "change_pct": -1.5762,
           "up": false
         },
         "NVDA": {
-          "change_pct": -2.7077,
+          "change_pct": -3.0404,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.7948,
+          "change_pct": -2.0045,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 80.26,
+      "score": 79.78,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30735.3,
-        "sma50": 29719.39,
-        "sma200": 27598.76
+        "last_price": 30687.38,
+        "sma50": 29718.43,
+        "sma200": 27598.52
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 25.0,
-      "status": "red",
+      "score": 40.0,
+      "status": "yellow",
       "details": {
-        "current_vxn": 22.25,
-        "percentile_vs_20d": 75.0
+        "current_vxn": 22.02,
+        "percentile_vs_20d": 60.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 50.31,
+      "score": 50.92,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.235,
-        "change_5d_pct": -0.038
+        "current_yield_pct": 5.231,
+        "change_5d_pct": -0.115
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.37,
+      "score": 49.49,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.18,
-        "change_5d_pct": 0.079
+        "current_dxy": 102.17,
+        "change_5d_pct": 0.064
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 57.22,
+      "score": 54.85,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.144,
+        "avg_compound": 0.097,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Federal Reserve officials expect another rate hike will be needed this year, according to minutes",
+            "title": "Fed officials see another hike coming, but no sign as to when, minutes show",
             "source": "Biztoc.com",
-            "publishedAt": "2026-10-07T18:29:54Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Americans grow more pessimistic about their finances, New York Fed finds — expert warns of ‘tough choices’ ahead",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-07T18:29:45Z",
+            "publishedAt": "2026-10-07T18:45:19Z",
             "sentiment": "Negative",
-            "compound": -0.493
+            "compound": -0.421
           },
           {
-            "title": "The new K-shaped economy splits the rich from the ultra-rich: The top 0.1% averages more than $200 million—and is pulling away from the rest of the 1%",
-            "source": "Fortune",
-            "publishedAt": "2026-10-07T18:28:06Z",
-            "sentiment": "Positive",
-            "compound": 0.66
-          },
-          {
-            "title": "Can data centre company Firmus live up to its blockbuster $43 billion listing value? Why some investors doubt it",
-            "source": "The Conversation Africa",
-            "publishedAt": "2026-10-07T18:27:32Z",
-            "sentiment": "Positive",
-            "compound": 0.586
-          },
-          {
-            "title": "Fed officials expect another rate hike will be needed this year: meeting minutes",
-            "source": "New York Post",
-            "publishedAt": "2026-10-07T18:27:17Z",
+            "title": "Fed Minutes Show Officials Saw More Work to Do to Quell Inflation",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-07T18:44:55Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "AARDVARK THERAPEUTICS (NASDAQ: AARD) SECURITIES CLASS ACTION: ROSEN, A TOP RANKED LAW FIRM, Encourages Investors with Losses in Excess of $100K to Secure Counsel Before Important October 13 Deadline",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-07T18:27:00Z",
+            "title": "Strange market anomaly is creating a buying opportunity in the Nasdaq 100",
+            "source": "CNBC",
+            "publishedAt": "2026-10-07T18:44:33Z",
             "sentiment": "Positive",
-            "compound": 0.835
+            "compound": 0.494
+          },
+          {
+            "title": "Modular recyclable tire hunts immortality with swappable tread",
+            "source": "New Atlas",
+            "publishedAt": "2026-10-07T18:37:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Rosen Law Firm Encourages Elauwit Connection, Inc. Investors to Inquire About Securities Class Action Investigation - ELWT",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-07T18:35:00Z",
+            "sentiment": "Positive",
+            "compound": 0.625
+          },
+          {
+            "title": "Inflation fears on the rise as one-year outlook in Fed survey hits highest level since May 2023",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-07T18:33:19Z",
+            "sentiment": "Negative",
+            "compound": -0.421
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 45.72,
-  "trade_probability": 47.43,
+  "confirmation_score": 46.89,
+  "trade_probability": 48.13,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
