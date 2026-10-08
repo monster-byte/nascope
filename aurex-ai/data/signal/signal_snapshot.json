@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T17:01:22.765749+00:00",
+  "generated_at": "2026-10-08T17:15:51.318836+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.8257,
+          "change_pct": 0.6327,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.8947,
+          "change_pct": -0.7211,
           "up": false
         },
         "NVDA": {
-          "change_pct": -2.3034,
+          "change_pct": -2.295,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.7829,
+          "change_pct": -0.9041,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 79.95,
+      "score": 80.54,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30704.08,
-        "sma50": 29718.77,
-        "sma200": 27598.61
+        "last_price": 30763.69,
+        "sma50": 29719.96,
+        "sma200": 27598.91
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 45.0,
-      "status": "yellow",
+      "score": 30.0,
+      "status": "red",
       "details": {
-        "current_vxn": 21.23,
-        "percentile_vs_20d": 55.0
+        "current_vxn": 22.1,
+        "percentile_vs_20d": 70.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 46.33,
+      "score": 48.63,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.261,
-        "change_5d_pct": 0.458
+        "current_yield_pct": 5.246,
+        "change_5d_pct": 0.172
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.71,
+      "score": 49.17,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.26,
-        "change_5d_pct": 0.161
+        "current_dxy": 102.21,
+        "change_5d_pct": 0.104
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.96,
+      "score": 49.91,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.021,
+        "avg_compound": -0.002,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "High Treasury yields: Stocks vs. bonds for investors",
+            "source": "CNBC",
+            "publishedAt": "2026-10-07T17:12:16Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "US mortgage rates hit their highest level in three years",
+            "source": "Al Jazeera English",
+            "publishedAt": "2026-10-07T17:05:10Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "The Interest Rate Hike Shifts the Calculus on New York City Multifamily Investing",
+            "source": "Commercial Observer",
+            "publishedAt": "2026-10-07T17:03:19Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
           {
             "title": "OKX And NYSE Owner ICE Move Toward 24/7 Tokenized US Stock Trading",
             "source": "Bitcoinist",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-07T17:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.153
-          },
-          {
-            "title": "Why American Cities Cost So Much and Deliver So Little",
-            "source": "The Atlantic",
-            "publishedAt": "2026-10-07T17:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Trump, Anduril Make $6.6 Billion Bet To Fix America’s Submarine Production Crisis",
-            "source": "The Daily Caller",
-            "publishedAt": "2026-10-07T16:58:54Z",
-            "sentiment": "Negative",
-            "compound": -0.625
-          },
-          {
-            "title": "European stocks fall as Wall Street retreats from record highs",
-            "source": "The Irish Times",
-            "publishedAt": "2026-10-07T16:58:40Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 46.14,
-  "trade_probability": 47.68,
+  "confirmation_score": 45.31,
+  "trade_probability": 47.19,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
