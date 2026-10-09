@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T13:31:16.567640+00:00",
+  "generated_at": "2026-10-09T13:45:53.746742+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -2.3001,
+          "change_pct": -2.1106,
           "up": false
         },
         "MSFT": {
-          "change_pct": 1.3892,
+          "change_pct": 1.1337,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.8287,
+          "change_pct": 0.2418,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.9014,
+          "change_pct": 1.7319,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 81.23,
+      "score": 80.32,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30889.77,
-        "sma50": 29774.87,
-        "sma200": 27625.86
+        "last_price": 30797.31,
+        "sma50": 29773.02,
+        "sma200": 27625.39
       }
     },
     "vxn": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.06,
+      "score": 47.22,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.3,
-        "change_5d_pct": 0.367
+        "current_dxy": 102.28,
+        "change_5d_pct": 0.347
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.08,
+      "score": 48.94,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.122,
+        "avg_compound": -0.021,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Texas Looks Competitive",
-            "source": "Reason",
-            "publishedAt": "2026-10-08T13:30:58Z",
-            "sentiment": "Neutral",
-            "compound": 0.178
-          },
-          {
-            "title": "Blue Owl CEOs rebuff credit fears",
+            "title": "Wall Street opens lower as rate hike prospects grow",
             "source": "Biztoc.com",
-            "publishedAt": "2026-10-08T13:30:57Z",
-            "sentiment": "Neutral",
-            "compound": -0.052
-          },
-          {
-            "title": "Medium-term borrowing costs for UK government hit 19-year high",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-08T13:30:14Z",
+            "publishedAt": "2026-10-08T13:45:29Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Ucommune Announces Extraordinary General Meeting",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-08T13:30:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Sotheby’s To Offer $100 M. Collection of Ted and Ruth Baum, Led by $15 M. Paintings by Rothko and Ruscha",
-            "source": "ARTnews",
-            "publishedAt": "2026-10-08T13:30:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "IQST - IQSTEL Advances Microdrama Commercialization with Outreach to Seven Mobile Operators Serving Approximately 93 Million Subscribers",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-08T13:30:00Z",
+            "title": "Tokenized equities top 1% of stablecoin supply as on-chain stock trading hits a record",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-08T13:42:16Z",
             "sentiment": "Positive",
-            "compound": 0.273
+            "compound": 0.202
+          },
+          {
+            "title": "Over 54% of urban households say economic conditions worsened, finds RBI survey",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-08T13:40:18Z",
+            "sentiment": "Negative",
+            "compound": -0.44
+          },
+          {
+            "title": "Gold price prediction: Gold rate witnesses volatile October, check prices to target for bullion precious metal",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-08T13:39:03Z",
+            "sentiment": "Positive",
+            "compound": 0.572
+          },
+          {
+            "title": "CNN’s Daniel Dale Comes to Trump’s Aid After Critics Claim He Threatened LA Again: ‘Obviously Takes Him Out of Context’",
+            "source": "Mediaite",
+            "publishedAt": "2026-10-08T13:36:51Z",
+            "sentiment": "Negative",
+            "compound": -0.637
+          },
+          {
+            "title": "State Corrections Institutions Modernize Operations with Axon",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-08T13:35:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 59.41,
-  "trade_probability": 55.65,
+  "confirmation_score": 58.66,
+  "trade_probability": 55.2,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
