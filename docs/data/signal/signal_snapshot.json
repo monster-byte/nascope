@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T16:45:56.336369+00:00",
+  "generated_at": "2026-10-09T17:01:26.648220+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -1.6568,
+          "change_pct": -1.554,
           "up": false
         },
         "MSFT": {
-          "change_pct": 2.3947,
+          "change_pct": 2.2962,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.4423,
+          "change_pct": -0.5076,
           "up": false
         },
         "AMZN": {
-          "change_pct": 2.9088,
+          "change_pct": 2.6569,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 80.86,
+      "score": 80.93,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30852.31,
-        "sma50": 29774.12,
-        "sma200": 27625.67
+        "last_price": 30858.82,
+        "sma50": 29774.25,
+        "sma200": 27625.7
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 75.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.63,
+        "current_vxn": 20.65,
         "percentile_vs_20d": 25.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 53.64,
+      "score": 54.7,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.253,
-        "change_5d_pct": -0.455
+        "current_yield_pct": 5.246,
+        "change_5d_pct": -0.587
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.05,
+      "score": 47.04,
       "status": "yellow",
       "details": {
         "current_dxy": 102.31,
-        "change_5d_pct": 0.369
+        "change_5d_pct": 0.37
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.44,
+      "score": 51.38,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.049,
+        "avg_compound": 0.028,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "RBI repo rate at 5.50%: Another 50 bps hike likely by March 2027 — which debt mutual funds suit 3–18 month horizons?",
+            "source": "Livemint",
+            "publishedAt": "2026-10-08T17:00:51Z",
+            "sentiment": "Negative",
+            "compound": -0.361
+          },
+          {
+            "title": "adidas FIFA World Cup 26 Trionda Mini Ball for $9 + Free shipping",
+            "source": "Dealnews.com",
+            "publishedAt": "2026-10-08T17:00:38Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
+          {
+            "title": "Trump thinks bombing Iran again will stop midterms massacre",
+            "source": "Dailykos.com",
+            "publishedAt": "2026-10-08T17:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "Bronstein, Gewirtz & Grossman LLC Urges Alphabet Inc. Investors to Act: Class Action Filed Alleging Investor Harm",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-08T17:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.542
+          },
+          {
+            "title": "US government moves another $1 billion in Bitcoin as BTC slides $4,000",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-10-08T16:50:59Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Marrero Armor LLC Secures First International Order, Expanding U.S.-Made Ballistic Protection Worldwide",
             "source": "PRNewswire",
             "publishedAt": "2026-10-08T16:37:00Z",
             "sentiment": "Positive",
             "compound": 0.318
-          },
-          {
-            "title": "Shares fall as Middle East tanker attacks drive oil prices higher",
-            "source": "The Irish Times",
-            "publishedAt": "2026-10-08T16:34:30Z",
-            "sentiment": "Neutral",
-            "compound": -0.178
-          },
-          {
-            "title": "PepsiCo Says It’s Hiking Prices After A Weak Quarter In North America",
-            "source": "HuffPost",
-            "publishedAt": "2026-10-08T16:32:12Z",
-            "sentiment": "Negative",
-            "compound": -0.44
-          },
-          {
-            "title": "Average long-term US mortgage rate at highest level in nearly 3 years",
-            "source": "Medianewsgroup.com",
-            "publishedAt": "2026-10-08T16:20:40Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Fusion’s Prove-It Era Just Delivered a World-First Result",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-08T16:20:14Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Trump Admits He Wants to Privatize Social Security",
-            "source": "Truthout",
-            "publishedAt": "2026-10-08T16:19:48Z",
-            "sentiment": "Positive",
-            "compound": 0.557
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.86,
-  "trade_probability": 54.12,
+  "confirmation_score": 56.92,
+  "trade_probability": 54.15,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
