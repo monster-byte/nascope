@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T17:15:54.317502+00:00",
+  "generated_at": "2026-10-09T17:31:11.762108+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -1.6333,
+          "change_pct": -1.5833,
           "up": false
         },
         "MSFT": {
-          "change_pct": 2.2455,
+          "change_pct": 2.19,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.4013,
+          "change_pct": -0.3276,
           "up": false
         },
         "AMZN": {
-          "change_pct": 2.4856,
+          "change_pct": 2.3341,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 80.83,
+      "score": 80.86,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30849.22,
-        "sma50": 29774.06,
-        "sma200": 27625.65
+        "last_price": 30851.91,
+        "sma50": 29774.11,
+        "sma200": 27625.67
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 80.0,
+      "score": 75.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.62,
-        "percentile_vs_20d": 20.0
+        "current_vxn": 20.65,
+        "percentile_vs_20d": 25.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 55.0,
+      "score": 54.4,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.244,
-        "change_5d_pct": -0.625
+        "current_yield_pct": 5.248,
+        "change_5d_pct": -0.55
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.17,
+      "score": 47.38,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.29,
-        "change_5d_pct": 0.353
+        "current_dxy": 102.26,
+        "change_5d_pct": 0.328
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.16,
+      "score": 48.46,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.003,
+        "avg_compound": -0.031,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Bitcoin’s slide below $81,000 exposes why a Fed pause may not save the crypto market",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-10-08T17:30:25Z",
+            "sentiment": "Negative",
+            "compound": -0.481
+          },
+          {
+            "title": "WallachBeth Capital Announces bioAffinity Technologies Approximately $4 Million Registered Direct Financing of Common Stock and Concurrent Private Placement Priced At-The-Market Under Nasdaq Rules",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-08T17:30:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "AI Agents Wake Up $1.6 Trillion in Sleepy Bank Deposits",
+            "source": "pymnts.com",
+            "publishedAt": "2026-10-08T17:22:54Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "RBC’s decade of growth puts it in Goldman’s market-value league",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-08T17:20:46Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "Nasdaq 100 falls 1.5% as tech stocks retreat",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-08T17:17:28Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
           {
             "title": "Revolut favors US primary listing for potential IPO, CEO says",
             "source": "CNA",
             "publishedAt": "2026-10-08T17:15:45Z",
             "sentiment": "Positive",
             "compound": 0.25
-          },
-          {
-            "title": "MERCURY GENERAL CORPORATION TO REPORT THIRD QUARTER RESULTS ON NOVEMBER 3, 2026",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-08T17:12:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Leo Pareja Named Chief Executive Officer of AGNT; Founder Glenn Sanford to Continue as Chairman of the Board",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-08T17:11:51Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Strategy’s tokenized Stretch hits $158M market cap, largest tokenized equity in the world",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-08T17:10:56Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "NRI home loan after RBI rate hike: Should borrowers increase down payment or retain overseas savings? Experts explain",
-            "source": "Livemint",
-            "publishedAt": "2026-10-08T17:08:52Z",
-            "sentiment": "Positive",
-            "compound": 0.318
-          },
-          {
-            "title": "Nasdaq Tumbles After FT Reports OpenAI Revenues Disappointing",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-08T17:02:18Z",
-            "sentiment": "Negative",
-            "compound": -0.494
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.3,
-  "trade_probability": 54.38,
+  "confirmation_score": 56.64,
+  "trade_probability": 53.98,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
