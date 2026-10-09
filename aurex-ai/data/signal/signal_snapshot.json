@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T16:31:09.619966+00:00",
+  "generated_at": "2026-10-09T16:45:56.336369+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -1.7258,
+          "change_pct": -1.6568,
           "up": false
         },
         "MSFT": {
-          "change_pct": 2.3421,
+          "change_pct": 2.3947,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.3868,
+          "change_pct": -0.4423,
           "up": false
         },
         "AMZN": {
-          "change_pct": 2.8025,
+          "change_pct": 2.9088,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 80.99,
+      "score": 80.86,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30864.75,
-        "sma50": 29774.37,
-        "sma200": 27625.73
+        "last_price": 30852.31,
+        "sma50": 29774.12,
+        "sma200": 27625.67
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 80.0,
+      "score": 75.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.7,
-        "percentile_vs_20d": 20.0
+        "current_vxn": 20.63,
+        "percentile_vs_20d": 25.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 53.03,
+      "score": 53.64,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.257,
-        "change_5d_pct": -0.379
+        "current_yield_pct": 5.253,
+        "change_5d_pct": -0.455
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.95,
+      "score": 47.05,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.32,
-        "change_5d_pct": 0.382
+        "current_dxy": 102.31,
+        "change_5d_pct": 0.369
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.65,
+      "score": 52.44,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.073,
+        "avg_compound": 0.049,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Marrero Armor LLC Secures First International Order, Expanding U.S.-Made Ballistic Protection Worldwide",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-08T16:37:00Z",
+            "sentiment": "Positive",
+            "compound": 0.318
+          },
+          {
+            "title": "Shares fall as Middle East tanker attacks drive oil prices higher",
+            "source": "The Irish Times",
+            "publishedAt": "2026-10-08T16:34:30Z",
+            "sentiment": "Neutral",
+            "compound": -0.178
+          },
+          {
+            "title": "PepsiCo Says It’s Hiking Prices After A Weak Quarter In North America",
+            "source": "HuffPost",
+            "publishedAt": "2026-10-08T16:32:12Z",
+            "sentiment": "Negative",
+            "compound": -0.44
+          },
           {
             "title": "Average long-term US mortgage rate at highest level in nearly 3 years",
             "source": "Medianewsgroup.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-08T16:19:48Z",
             "sentiment": "Positive",
             "compound": 0.557
-          },
-          {
-            "title": "From Uptober to Spooky Szn? Bitcoin Cuts September Gains in Half",
-            "source": "Decrypt",
-            "publishedAt": "2026-10-08T16:14:46Z",
-            "sentiment": "Neutral",
-            "compound": 0.052
-          },
-          {
-            "title": "Wall Street slips as oil prices flag inflation risk",
-            "source": "Kalminer.com.au",
-            "publishedAt": "2026-10-08T16:13:03Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "PCRX SHAREHOLDER ALERT: ADEMI LLP INVESTIGATES WHETHER BUYOUT FAIRLY VALUES PACIRA BIOSCIENCES, INC.",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-08T16:12:00Z",
-            "sentiment": "Positive",
-            "compound": 0.599
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.35,
-  "trade_probability": 54.41,
+  "confirmation_score": 56.86,
+  "trade_probability": 54.12,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
