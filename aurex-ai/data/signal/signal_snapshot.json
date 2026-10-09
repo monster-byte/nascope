@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T15:45:56.732127+00:00",
+  "generated_at": "2026-10-09T16:01:29.061963+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -1.9388,
+          "change_pct": -1.9006,
           "up": false
         },
         "MSFT": {
-          "change_pct": 2.0857,
+          "change_pct": 2.2617,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.2473,
+          "change_pct": -0.5749,
           "up": false
         },
         "AMZN": {
-          "change_pct": 2.6923,
+          "change_pct": 2.8064,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 80.63,
+      "score": 80.46,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30828.5,
-        "sma50": 29773.65,
-        "sma200": 27625.55
+        "last_price": 30811.73,
+        "sma50": 29773.31,
+        "sma200": 27625.47
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 70.0,
+      "score": 75.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.95,
-        "percentile_vs_20d": 30.0
+        "current_vxn": 20.86,
+        "percentile_vs_20d": 25.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 52.12,
+      "score": 52.43,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.263,
-        "change_5d_pct": -0.265
+        "current_yield_pct": 5.261,
+        "change_5d_pct": -0.303
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.27,
+      "score": 47.11,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.28,
-        "change_5d_pct": 0.341
+        "current_dxy": 102.3,
+        "change_5d_pct": 0.361
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 57.64,
+      "score": 50.92,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.153,
-        "articles_analyzed": 23,
+        "avg_compound": 0.018,
+        "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "BETR INVESTOR DEADLINE: Better Home & Finance Holding Company Investors with Substantial Losses Have Opportunity to Lead Securities Fraud Class Action Lawsuit",
+            "title": "Bronstein, Gewirtz & Grossman LLC Urges Coastal Financial Corporation Investors to Act: Class Action Filed Alleging Investor Harm",
             "source": "PRNewswire",
-            "publishedAt": "2026-10-08T15:45:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.077
-          },
-          {
-            "title": "APP INVESTOR DEADLINE: AppLovin Corporation Investors with Substantial Losses Have Opportunity to Lead the APP Securities Fraud Class Action Lawsuit",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-08T15:44:00Z",
+            "publishedAt": "2026-10-08T16:00:00Z",
             "sentiment": "Negative",
-            "compound": -0.382
+            "compound": -0.542
           },
           {
-            "title": "Fluence Energy (FLNC) Investors: Securities Class Action Filed, Contact Hagens Berman Before November 27, 2026 Lead Plaintiff Deadline",
+            "title": "Corporate Bankruptcies Stay Above Historical Norms Despite Declining from Recent Peak",
             "source": "PRNewswire",
-            "publishedAt": "2026-10-08T15:43:00Z",
+            "publishedAt": "2026-10-08T16:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "eXp Realty Launches ShowGo, a New Platform for Agent-to-Agent Showing Coverage",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-08T15:59:55Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Fanttik X10 Ace Mini Electric Bike Pump for $45 + free shipping",
+            "source": "Dealnews.com",
+            "publishedAt": "2026-10-08T15:56:14Z",
             "sentiment": "Positive",
             "compound": 0.511
           },
           {
-            "title": "FCEL INVESTOR ALERT: Hagens Berman Reminds FuelCell Energy Investors of November 10, 2026 Lead Plaintiff Deadline",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-08T15:41:00Z",
-            "sentiment": "Positive",
-            "compound": 0.617
-          },
-          {
-            "title": "eXp Realty Launches eXp Ready™: Up to $50,000 to Prep a Home for Sale, Nothing Due Until It Closes",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-08T15:39:32Z",
-            "sentiment": "Positive",
-            "compound": 0.361
-          },
-          {
-            "title": "LINC INVESTOR DEADLINE: Lincoln Educational Services Corp. Investors with Substantial Losses Have Opportunity to Lead the LINC Securities Fraud Class Action Lawsuit",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-08T15:39:00Z",
+            "title": "Bitcoin nears 3-week low as oil heads higher on Iran strike woes",
+            "source": "Cointelegraph",
+            "publishedAt": "2026-10-08T15:55:55Z",
             "sentiment": "Negative",
-            "compound": -0.382
+            "compound": -0.67
+          },
+          {
+            "title": "(PR) Corsair Releases the HS80 V2 Max Wireless Gaming Headset",
+            "source": "Techpowerup.com",
+            "publishedAt": "2026-10-08T15:53:35Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.66,
-  "trade_probability": 54.0,
+  "confirmation_score": 56.51,
+  "trade_probability": 53.91,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
