@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T07:45:52.267010+00:00",
+  "generated_at": "2026-10-09T08:01:18.949018+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
-      "status": "red",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.1139,
-          "up": true
+          "change_pct": 0.0,
+          "up": false
         },
         "MSFT": {
-          "change_pct": -1.3346,
-          "up": false
+          "change_pct": 0.0153,
+          "up": true
         },
         "NVDA": {
-          "change_pct": -2.9056,
-          "up": false
+          "change_pct": 0.0391,
+          "up": true
         },
         "AMZN": {
-          "change_pct": -2.2315,
-          "up": false
+          "change_pct": 0.0236,
+          "up": true
         }
       }
     },
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.18,
+      "score": 49.1,
       "status": "yellow",
       "details": {
         "current_dxy": 102.04,
-        "change_5d_pct": 0.103
+        "change_5d_pct": 0.113
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.12,
+      "score": 54.77,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.102,
+        "avg_compound": 0.095,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Is it better to buy or rent?",
+            "source": "CBC News",
+            "publishedAt": "2026-10-08T08:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
+          {
+            "title": "The Democrats are surging as the U.S. midterms near. Here's the data that has Trump's Republicans spooked",
+            "source": "CBC News",
+            "publishedAt": "2026-10-08T08:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Layoffs at Stelco underway, and will roll out over 3 weeks, says union president",
+            "source": "CBC News",
+            "publishedAt": "2026-10-08T08:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Indonesia keeps FTSE secondary emerging status, OJK says",
+            "source": "Antaranews.com",
+            "publishedAt": "2026-10-08T07:58:12Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "This 119-acre Montana estate has 12 cabins, a 2,046-square-foot hot-springs pool and a 1930s bathhouse; the historic retreat was headed to auction",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-08T07:47:33Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
           {
             "title": "Türkiye prioritizes macro-financial stability amid global headwinds",
             "source": "Hurriyet Daily News",
             "publishedAt": "2026-10-08T07:41:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "An afternoon on the Pnyx (Rubio, who doesn’t resemble Trump), when Aris (with the curl) praises anti-woke Antonis shortly after Stefanos, fresh money for “Freskoulis”",
-            "source": "Protothema.gr",
-            "publishedAt": "2026-10-08T07:40:00Z",
-            "sentiment": "Positive",
-            "compound": 0.691
-          },
-          {
-            "title": "8th Pay Commission DA calculator: What 25% dearness allowance may mean for Level6-8 employees",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-08T07:37:58Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "Global Market: TSMC third-quarter revenue jumps 50% as AI chip demand surges",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-08T07:37:44Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
-          },
-          {
-            "title": "DayOne Files Registration Statement for Proposed Initial Public Offering",
-            "source": "Antaranews.com",
-            "publishedAt": "2026-10-08T07:35:23Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Motorists able to see fuel prices on Google Maps for first time in 'game-changer' as drivers face paying £10 a gallon amid soaring petrol and diesel bills",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-10-08T07:29:33Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 45.58,
-  "trade_probability": 47.35,
+  "confirmation_score": 59.04,
+  "trade_probability": 55.42,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
