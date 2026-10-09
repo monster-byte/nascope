@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T02:45:51.728807+00:00",
+  "generated_at": "2026-10-09T03:01:11.909789+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.56,
+      "score": 50.55,
       "status": "yellow",
       "details": {
         "current_dxy": 102.03,
-        "change_5d_pct": -0.071
+        "change_5d_pct": -0.069
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.04,
+      "score": 51.09,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.041,
+        "avg_compound": 0.022,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "TCS Q2 Results LIVE: Analysts see margin expansion despite modest growth, shares in focus",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-08T02:57:49Z",
+            "sentiment": "Negative",
+            "compound": -0.472
+          },
           {
             "title": "Miranda Devine: The far-left is pushing its most nonsensical anti-Trump hoax yet. It will only hurt Dems in the midterms",
             "source": "New York Post",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-10-08T02:34:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Indian Hotels, NALCO among Ajit Mishra's 3 stock recommendations for today",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-08T02:30:58Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 45.43,
-  "trade_probability": 47.26,
+  "confirmation_score": 45.34,
+  "trade_probability": 47.2,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
