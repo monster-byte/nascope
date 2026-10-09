@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T14:31:12.731178+00:00",
+  "generated_at": "2026-10-09T14:45:52.244815+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -2.1503,
+          "change_pct": -2.0166,
           "up": false
         },
         "MSFT": {
-          "change_pct": 1.8159,
+          "change_pct": 1.9382,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.1779,
+          "change_pct": 0.1584,
           "up": true
         },
         "AMZN": {
-          "change_pct": 1.8539,
+          "change_pct": 2.2456,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 80.78,
+      "score": 80.51,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30844.27,
-        "sma50": 29773.96,
-        "sma200": 27625.63
+        "last_price": 30816.08,
+        "sma50": 29773.4,
+        "sma200": 27625.49
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 45.0,
+      "score": 60.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.24,
-        "percentile_vs_20d": 55.0
+        "current_vxn": 21.13,
+        "percentile_vs_20d": 40.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 51.21,
+      "score": 50.45,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.269,
-        "change_5d_pct": -0.152
+        "current_yield_pct": 5.274,
+        "change_5d_pct": -0.057
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.03,
+      "score": 47.4,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.31,
-        "change_5d_pct": 0.372
+        "current_dxy": 102.26,
+        "change_5d_pct": 0.325
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.09,
+      "score": 43.46,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.078,
+        "avg_compound": -0.131,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "India faces water and power shortages after weak monsoon",
+            "source": "DW (English)",
+            "publishedAt": "2026-10-08T14:40:00Z",
+            "sentiment": "Negative",
+            "compound": -0.542
+          },
+          {
+            "title": "India faces water and power stress after weak monsoon",
+            "source": "DW (English)",
+            "publishedAt": "2026-10-08T14:40:00Z",
+            "sentiment": "Negative",
+            "compound": -0.691
+          },
+          {
+            "title": "Why Hypersonic Programs Are Running Out of Test Time",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-08T14:33:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Dow Falls Nearly 200 Points, S&P 500 And Nasdaq In Red As Treasury Yields Stay Near 24-Year Highs, Oil Prices Jump",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-08T14:32:49Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "Automatic Data Processing (ADP) Has a Hidden Earnings Advantage From Higher Interest Rates",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-08T14:32:33Z",
+            "sentiment": "Positive",
+            "compound": 0.612
+          },
           {
             "title": "ECB to hike rates again in December - poll",
             "source": "RTE",
             "publishedAt": "2026-10-08T14:30:26Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "PepsiCo lowers guidance on mounting costs in North America",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-08T14:30:03Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
-          },
-          {
-            "title": "Can We Finally Face Up to America’s Bankruptcy? Monetary Reform for the 2028 Election. Part I",
-            "source": "Globalresearch.ca",
-            "publishedAt": "2026-10-08T14:28:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Consumer prices would have fallen if not for Trump's tariffs, New York Fed says",
-            "source": "Business Insider",
-            "publishedAt": "2026-10-08T14:26:43Z",
-            "sentiment": "Negative",
-            "compound": -0.361
-          },
-          {
-            "title": "How inflation can change your retirement plan",
-            "source": "CBS News",
-            "publishedAt": "2026-10-08T14:26:32Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Journalist filmed lashing out at Cornell city council during fiery meeting and shouts that they've failed to afford gang rape accused any due process",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-10-08T14:24:04Z",
-            "sentiment": "Negative",
-            "compound": -0.912
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 60.0,
-  "trade_probability": 56.0,
+  "confirmation_score": 61.01,
+  "trade_probability": 56.61,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
