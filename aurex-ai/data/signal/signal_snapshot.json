@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T23:15:49.011209+00:00",
+  "generated_at": "2026-10-09T23:31:09.863577+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,15 +17,15 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -1.1075,
+          "change_pct": -1.1133,
           "up": false
         },
         "MSFT": {
-          "change_pct": 2.3899,
+          "change_pct": 2.3861,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.5033,
+          "change_pct": -0.4946,
           "up": false
         },
         "AMZN": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.67,
+      "score": 48.47,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.027,
+        "avg_compound": -0.031,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Labour gives FG two weeks to cut petrol prices",
+            "source": "The Punch",
+            "publishedAt": "2026-10-08T23:25:42Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "AI-generated UI is fast design, not UX",
+            "source": "Uxdesign.cc",
+            "publishedAt": "2026-10-08T23:16:10Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Anti-Trump economic pessimism: Who’s to blame?",
             "source": "Wnd.com",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-08T23:05:07Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "What to know about Trump Accounts and automatic enrollment",
-            "source": "Medianewsgroup.com",
-            "publishedAt": "2026-10-08T23:02:10Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "PowerCompute Mines 8.1 Bitcoin In September After Using BTC To Slash Debt",
-            "source": "newsBTC",
-            "publishedAt": "2026-10-08T23:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.557
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.8,
-  "trade_probability": 54.08,
+  "confirmation_score": 56.78,
+  "trade_probability": 54.07,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
