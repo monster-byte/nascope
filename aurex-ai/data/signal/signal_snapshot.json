@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T18:31:11.627986+00:00",
+  "generated_at": "2026-10-09T18:45:52.387485+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -1.2103,
+          "change_pct": -1.0781,
           "up": false
         },
         "MSFT": {
-          "change_pct": 2.3,
+          "change_pct": 2.5602,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.3319,
+          "change_pct": -0.4447,
           "up": false
         },
         "AMZN": {
-          "change_pct": 2.7198,
+          "change_pct": 2.7631,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 81.16,
+      "score": 81.11,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30881.99,
-        "sma50": 29774.72,
-        "sma200": 27625.82
+        "last_price": 30876.94,
+        "sma50": 29774.61,
+        "sma200": 27625.79
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 75.0,
+      "score": 80.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.73,
-        "percentile_vs_20d": 25.0
+        "current_vxn": 20.69,
+        "percentile_vs_20d": 20.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 53.64,
+      "score": 54.09,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.253,
-        "change_5d_pct": -0.455
+        "current_yield_pct": 5.25,
+        "change_5d_pct": -0.512
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.52,
+      "score": 47.49,
       "status": "yellow",
       "details": {
         "current_dxy": 102.25,
-        "change_5d_pct": 0.31
+        "change_5d_pct": 0.314
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 57.2,
+      "score": 54.83,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.144,
+        "avg_compound": 0.097,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "US 30-year fixed-rate mortgage rate hits 7.40%, likely to further erode housing demand",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-08T18:27:58Z",
+            "title": "The Facebook whistleblower behind ‘The Social Reckoning’ says Zuckerberg is ‘playing with fire’ on AI",
+            "source": "Fortune",
+            "publishedAt": "2026-10-08T18:44:52Z",
             "sentiment": "Neutral",
-            "compound": -0.128
+            "compound": 0.0
           },
           {
-            "title": "TCS Q2 profit rises 15% to Rs 13,884 crore as AI revenue doubles; growth remains subdued",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-08T18:23:26Z",
+            "title": "What ArtCraft's Vibe-Coded Apps Say About Adobe",
+            "source": "Tedium.co",
+            "publishedAt": "2026-10-08T18:44:29Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Did Plug Power Inc. Insiders Breach their Fiduciary Duties to Shareholders?",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-08T18:44:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Rosen Law Firm Encourages Fervo Energy Company Investors to Inquire About Securities Class Action Investigation - FRVO",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-08T18:43:00Z",
             "sentiment": "Positive",
-            "compound": 0.67
+            "compound": 0.735
           },
           {
-            "title": "Palantir Looks Like a Consulting Company. Its Numbers Tell a Different Story",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-08T18:20:18Z",
-            "sentiment": "Positive",
-            "compound": 0.361
-          },
-          {
-            "title": "Is SoFi Stock a Buy in October 2026?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-08T18:19:42Z",
+            "title": "Fox News AI Newsletter: 7 key midterm states put tech boom in focus",
+            "source": "Fox News",
+            "publishedAt": "2026-10-08T18:42:19Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Rupee is undervalued, not unmoored: RBI must ride out global market turbulence",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-08T18:11:13Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Subsidy return could push petrol to N2,000, dollar to N3,000 — FG",
-            "source": "The Punch",
-            "publishedAt": "2026-10-08T18:07:59Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Debt Bombs Are Ticking On America’s Farms",
+            "source": "The Daily Caller",
+            "publishedAt": "2026-10-08T18:39:11Z",
+            "sentiment": "Negative",
+            "compound": -0.361
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.37,
-  "trade_probability": 54.42,
+  "confirmation_score": 57.66,
+  "trade_probability": 54.6,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
