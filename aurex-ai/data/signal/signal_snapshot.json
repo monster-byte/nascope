@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T07:15:55.662814+00:00",
+  "generated_at": "2026-10-09T07:31:07.712913+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.96,
+      "score": 49.31,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.06,
-        "change_5d_pct": 0.13
+        "current_dxy": 102.02,
+        "change_5d_pct": 0.086
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.73,
+      "score": 53.86,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.055,
+        "avg_compound": 0.077,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Motorists able to see fuel prices on Google Maps for first time in 'game-changer' as drivers face paying £10 a gallon amid soaring petrol and diesel bills",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-10-08T07:29:33Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Thai central bank in no rush to raise rates, governor says",
+            "source": "CNA",
+            "publishedAt": "2026-10-08T07:17:01Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "Seven & i operating profit falls 11% in second quarter",
+            "source": "CNA",
+            "publishedAt": "2026-10-08T07:16:14Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
           {
             "title": "Asia stocks fall as surging oil, yields weigh; Samsung slips despite record profit - Investing.com",
             "source": "Slashdot.org",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-08T07:07:36Z",
             "sentiment": "Positive",
             "compound": 0.67
-          },
-          {
-            "title": "Adani group stocks under pressure; Enterprises, Green Energy tank up to 7%",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-08T07:06:20Z",
-            "sentiment": "Neutral",
-            "compound": -0.026
-          },
-          {
-            "title": "Financial insiders are buying their own stock at the slowest pace in nearly 23 years—a ‘negative data point’ just as bank earnings kick off",
-            "source": "Fortune",
-            "publishedAt": "2026-10-08T07:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Indian firms seen posting faster profit growth despite global headwinds",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-08T06:58:12Z",
-            "sentiment": "Positive",
-            "compound": 0.67
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 45.35,
-  "trade_probability": 47.21,
+  "confirmation_score": 45.48,
+  "trade_probability": 47.29,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
