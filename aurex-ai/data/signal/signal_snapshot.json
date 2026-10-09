@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T15:34:46.831839+00:00",
+  "generated_at": "2026-10-09T15:45:56.732127+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -1.9182,
+          "change_pct": -1.9388,
           "up": false
         },
         "MSFT": {
-          "change_pct": 2.0532,
+          "change_pct": 2.0857,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.2126,
+          "change_pct": -0.2473,
           "up": false
         },
         "AMZN": {
-          "change_pct": 2.5033,
+          "change_pct": 2.6923,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 80.34,
+      "score": 80.63,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30798.94,
-        "sma50": 29773.05,
-        "sma200": 27625.4
+        "last_price": 30828.5,
+        "sma50": 29773.65,
+        "sma200": 27625.55
       }
     },
     "vxn": {
@@ -50,7 +50,7 @@
       "score": 70.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.94,
+        "current_vxn": 20.95,
         "percentile_vs_20d": 30.0
       }
     },
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.28,
+      "score": 47.27,
       "status": "yellow",
       "details": {
         "current_dxy": 102.28,
-        "change_5d_pct": 0.34
+        "change_5d_pct": 0.341
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.78,
+      "score": 57.64,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.096,
-        "articles_analyzed": 24,
+        "avg_compound": 0.153,
+        "articles_analyzed": 23,
         "top_headlines": [
           {
-            "title": "eXp Realty Unveils “MCP First, AI of Choice” Connecting Agents’ Own AI Directly to the eXp Platform",
+            "title": "BETR INVESTOR DEADLINE: Better Home & Finance Holding Company Investors with Substantial Losses Have Opportunity to Lead Securities Fraud Class Action Lawsuit",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-08T15:45:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.077
+          },
+          {
+            "title": "APP INVESTOR DEADLINE: AppLovin Corporation Investors with Substantial Losses Have Opportunity to Lead the APP Securities Fraud Class Action Lawsuit",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-08T15:44:00Z",
+            "sentiment": "Negative",
+            "compound": -0.382
+          },
+          {
+            "title": "Fluence Energy (FLNC) Investors: Securities Class Action Filed, Contact Hagens Berman Before November 27, 2026 Lead Plaintiff Deadline",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-08T15:43:00Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
+          {
+            "title": "FCEL INVESTOR ALERT: Hagens Berman Reminds FuelCell Energy Investors of November 10, 2026 Lead Plaintiff Deadline",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-08T15:41:00Z",
+            "sentiment": "Positive",
+            "compound": 0.617
+          },
+          {
+            "title": "eXp Realty Launches eXp Ready™: Up to $50,000 to Prep a Home for Sale, Nothing Due Until It Closes",
             "source": "Financial Post",
-            "publishedAt": "2026-10-08T15:29:19Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "QuantumScape unveils QS PowerBlock, its first battery product for AI data centers",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-08T15:25:44Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Pepsi says drinkers are pulling back and buying less of its namesake beverage",
-            "source": "Business Insider",
-            "publishedAt": "2026-10-08T15:24:57Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "India Inc's Q2 revenue growth to moderate to 16-16.5%: Report",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-08T15:21:23Z",
+            "publishedAt": "2026-10-08T15:39:32Z",
             "sentiment": "Positive",
-            "compound": 0.382
+            "compound": 0.361
           },
           {
-            "title": "Starbucks reportedly explored Chipotle takeover — as burrito chain’s shares surge",
-            "source": "New York Post",
-            "publishedAt": "2026-10-08T15:21:05Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "10-year Treasury yield is little changed as Fed's Waller says more hikes needed, investors await 30-year auction",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-08T15:16:12Z",
-            "sentiment": "Positive",
-            "compound": 0.296
+            "title": "LINC INVESTOR DEADLINE: Lincoln Educational Services Corp. Investors with Substantial Losses Have Opportunity to Lead the LINC Securities Fraud Class Action Lawsuit",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-08T15:39:00Z",
+            "sentiment": "Negative",
+            "compound": -0.382
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.37,
-  "trade_probability": 53.82,
+  "confirmation_score": 56.66,
+  "trade_probability": 54.0,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
