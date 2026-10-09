@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T16:01:29.061963+00:00",
+  "generated_at": "2026-10-09T16:15:56.437056+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -1.9006,
+          "change_pct": -1.836,
           "up": false
         },
         "MSFT": {
-          "change_pct": 2.2617,
+          "change_pct": 2.2522,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.5749,
+          "change_pct": -0.41,
           "up": false
         },
         "AMZN": {
-          "change_pct": 2.8064,
+          "change_pct": 2.893,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 80.46,
+      "score": 80.91,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30811.73,
-        "sma50": 29773.31,
-        "sma200": 27625.47
+        "last_price": 30856.65,
+        "sma50": 29774.21,
+        "sma200": 27625.69
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 75.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.86,
+        "current_vxn": 20.79,
         "percentile_vs_20d": 25.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 52.43,
+      "score": 53.03,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.261,
-        "change_5d_pct": -0.303
+        "current_yield_pct": 5.257,
+        "change_5d_pct": -0.379
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.11,
+      "score": 46.97,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.3,
-        "change_5d_pct": 0.361
+        "current_dxy": 102.32,
+        "change_5d_pct": 0.379
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.92,
+      "score": 52.54,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.018,
-        "articles_analyzed": 24,
+        "avg_compound": 0.051,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Bronstein, Gewirtz & Grossman LLC Urges Coastal Financial Corporation Investors to Act: Class Action Filed Alleging Investor Harm",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-08T16:00:00Z",
+            "title": "From Uptober to Spooky Szn? Bitcoin Cuts September Gains in Half",
+            "source": "Decrypt",
+            "publishedAt": "2026-10-08T16:14:46Z",
+            "sentiment": "Neutral",
+            "compound": 0.052
+          },
+          {
+            "title": "Wall Street slips as oil prices flag inflation risk",
+            "source": "Kalminer.com.au",
+            "publishedAt": "2026-10-08T16:13:03Z",
             "sentiment": "Negative",
-            "compound": -0.542
+            "compound": -0.273
           },
           {
-            "title": "Corporate Bankruptcies Stay Above Historical Norms Despite Declining from Recent Peak",
+            "title": "PCRX SHAREHOLDER ALERT: ADEMI LLP INVESTIGATES WHETHER BUYOUT FAIRLY VALUES PACIRA BIOSCIENCES, INC.",
             "source": "PRNewswire",
-            "publishedAt": "2026-10-08T16:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "eXp Realty Launches ShowGo, a New Platform for Agent-to-Agent Showing Coverage",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-08T15:59:55Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Fanttik X10 Ace Mini Electric Bike Pump for $45 + free shipping",
-            "source": "Dealnews.com",
-            "publishedAt": "2026-10-08T15:56:14Z",
+            "publishedAt": "2026-10-08T16:12:00Z",
             "sentiment": "Positive",
-            "compound": 0.511
+            "compound": 0.599
           },
           {
-            "title": "Bitcoin nears 3-week low as oil heads higher on Iran strike woes",
-            "source": "Cointelegraph",
-            "publishedAt": "2026-10-08T15:55:55Z",
+            "title": "Trump’s 'Small Price': Los Angeles as Collateral Damage",
+            "source": "Common Dreams",
+            "publishedAt": "2026-10-08T16:06:16Z",
             "sentiment": "Negative",
-            "compound": -0.67
+            "compound": -0.494
           },
           {
-            "title": "(PR) Corsair Releases the HS80 V2 Max Wireless Gaming Headset",
-            "source": "Techpowerup.com",
-            "publishedAt": "2026-10-08T15:53:35Z",
+            "title": "Megadeals Propel $1T Global Equity Issuance: ION Head of Global Equity Capital Markets & Head of Mergermarket EMEA Samuel Kerr​, Live at Nasdaq",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-08T16:04:07Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "Micron Could Be Poised for a Major Breakout Late in 2026",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-08T16:04:05Z",
+            "sentiment": "Positive",
+            "compound": 0.25
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.51,
-  "trade_probability": 53.91,
+  "confirmation_score": 56.79,
+  "trade_probability": 54.07,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
