@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T14:01:27.693697+00:00",
+  "generated_at": "2026-10-09T14:15:51.229330+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,41 +17,41 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -2.2766,
+          "change_pct": -2.1503,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.8649,
+          "change_pct": 1.4246,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.0781,
+          "change_pct": 0.1692,
           "up": true
         },
         "AMZN": {
-          "change_pct": 1.6591,
+          "change_pct": 1.8716,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 80.3,
+      "score": 80.28,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30795.67,
-        "sma50": 29772.99,
-        "sma200": 27625.39
+        "last_price": 30792.92,
+        "sma50": 29772.93,
+        "sma200": 27625.37
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 50.0,
+      "score": 45.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 21.52,
-        "percentile_vs_20d": 50.0
+        "current_vxn": 21.95,
+        "percentile_vs_20d": 55.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.93,
+      "score": 46.96,
       "status": "yellow",
       "details": {
         "current_dxy": 102.32,
-        "change_5d_pct": 0.384
+        "change_5d_pct": 0.38
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.5,
+      "score": 47.57,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.05,
+        "avg_compound": -0.049,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Intel Slides 3% as Chip Stocks Sell Off With Yields and Oil Higher; NVIDIA and AMD Slip",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-08T14:15:24Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Nolte: Global Warming Screed ‘Digger’ Projected to Become Biggest Bomb Ever",
+            "source": "Breitbart News",
+            "publishedAt": "2026-10-08T14:14:01Z",
+            "sentiment": "Negative",
+            "compound": -0.382
+          },
+          {
+            "title": "10-year Treasury yield is little changed as Fed's Waller says more hikes needed, investors await 30-year auction",
+            "source": "CNBC",
+            "publishedAt": "2026-10-08T14:11:18Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
           {
             "title": "Stocks Slip and Oil Jumps on Fresh Tanker Attack",
             "source": "Biztoc.com",
@@ -107,32 +128,11 @@
             "compound": 0.128
           },
           {
-            "title": "Sexual prejudice and associated factors among clinical nurses in Türkiye: A cross-sectional study",
-            "source": "Plos.org",
-            "publishedAt": "2026-10-08T14:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.511
-          },
-          {
             "title": "Burnout and its’ associated factors among health workers: A hospital-based cross-sectional study from Pokhara, Nepal",
             "source": "Plos.org",
             "publishedAt": "2026-10-08T14:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Midterms 2026: Read This Before You Fill Out Your California Ballot (or Need to Correct a Mistake)",
-            "source": "KQED",
-            "publishedAt": "2026-10-08T14:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.34
-          },
-          {
-            "title": "Investigation of arterial blood flow changes according to compression level in a practical blood flow restriction training method: A cross-sectional experimental study",
-            "source": "Plos.org",
-            "publishedAt": "2026-10-08T14:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.273
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 60.67,
-  "trade_probability": 56.4,
+  "confirmation_score": 60.22,
+  "trade_probability": 56.13,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
