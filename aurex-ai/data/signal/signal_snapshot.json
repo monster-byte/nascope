@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T19:15:56.464763+00:00",
+  "generated_at": "2026-10-09T19:31:10.092640+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.5875,
+          "change_pct": -1.037,
           "up": false
         },
         "MSFT": {
-          "change_pct": 2.5545,
+          "change_pct": 2.4167,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.2907,
+          "change_pct": -0.2994,
           "up": false
         },
         "AMZN": {
-          "change_pct": 2.9088,
+          "change_pct": 3.0544,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 81.26,
+      "score": 81.19,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30892.61,
-        "sma50": 29774.93,
-        "sma200": 27625.87
+        "last_price": 30885.76,
+        "sma50": 29774.79,
+        "sma200": 27625.84
       }
     },
     "vxn": {
@@ -50,7 +50,7 @@
       "score": 75.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.56,
+        "current_vxn": 20.55,
         "percentile_vs_20d": 25.0
       }
     },
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.86,
+      "score": 47.69,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.2,
-        "change_5d_pct": 0.268
+        "current_dxy": 102.22,
+        "change_5d_pct": 0.288
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.19,
+      "score": 50.26,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.024,
+        "avg_compound": 0.005,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Fed Data Shows Tariffs Drove Inflation in 2025",
-            "source": "pymnts.com",
-            "publishedAt": "2026-10-08T19:15:13Z",
+            "title": "Steel Dynamics Announces Third Quarter 2026 Earnings Conference Call and Webcast",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-08T19:30:00Z",
+            "sentiment": "Positive",
+            "compound": 0.273
+          },
+          {
+            "title": "Inflation Calculator",
+            "source": "Giveawayoftheday.com",
+            "publishedAt": "2026-10-08T19:27:49Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "BIDU Investors Have Opportunity to Lead Baidu, Inc. Securities Fraud Lawsuit with SBS Law",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-08T19:14:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.178
-          },
-          {
-            "title": "LINC Investors Have Opportunity to Lead Lincoln Educational Services Corporation Securities Fraud Lawsuit with SBS Law",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-08T19:13:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.178
-          },
-          {
-            "title": "US Farm Debt Hits Record as Hidden Loans Skew Data",
-            "source": "Newser",
-            "publishedAt": "2026-10-08T19:11:00Z",
+            "title": "Historic club's closure reveals sad new truth about Footscray",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-10-08T19:26:17Z",
             "sentiment": "Negative",
-            "compound": -0.361
+            "compound": -0.202
           },
           {
-            "title": "BBNX Investor Alert: Schall, Brown & Schwartz LLP Files Class Action Lawsuit Against Beta Bionics, Inc. and Announces Opportunity for Investors to Lead Class Action Lawsuit",
+            "title": "Instagram is sorry it gave users too much Creed | CNN",
+            "source": "CNN",
+            "publishedAt": "2026-10-08T19:20:36Z",
+            "sentiment": "Neutral",
+            "compound": -0.077
+          },
+          {
+            "title": "TBLA Deadline: TBLA Investors Have Opportunity to Lead Taboola.com Ltd. Securities Fraud Lawsuit",
             "source": "PRNewswire",
-            "publishedAt": "2026-10-08T19:10:00Z",
-            "sentiment": "Positive",
-            "compound": 0.296
+            "publishedAt": "2026-10-08T19:19:00Z",
+            "sentiment": "Neutral",
+            "compound": -0.178
           },
           {
-            "title": "AI darlings, defence shares most at risk as U.S. midterms near",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-08T19:08:46Z",
-            "sentiment": "Positive",
-            "compound": 0.53
+            "title": "ARDX Investors Have Opportunity to Lead Ardelyx, Inc. Securities Fraud Lawsuit with SBS Law",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-08T19:18:00Z",
+            "sentiment": "Neutral",
+            "compound": -0.178
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.06,
-  "trade_probability": 54.24,
+  "confirmation_score": 56.95,
+  "trade_probability": 54.17,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
