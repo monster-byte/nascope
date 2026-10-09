@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T19:01:22.586441+00:00",
+  "generated_at": "2026-10-09T19:15:56.464763+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.7395,
+          "change_pct": -0.5875,
           "up": false
         },
         "MSFT": {
-          "change_pct": 2.5373,
+          "change_pct": 2.5545,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.3384,
+          "change_pct": -0.2907,
           "up": false
         },
         "AMZN": {
-          "change_pct": 2.8009,
+          "change_pct": 2.9088,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 81.13,
+      "score": 81.26,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30878.99,
-        "sma50": 29774.66,
-        "sma200": 27625.8
+        "last_price": 30892.61,
+        "sma50": 29774.93,
+        "sma200": 27625.87
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 80.0,
+      "score": 75.0,
       "status": "green",
       "details": {
-        "current_vxn": 20.67,
-        "percentile_vs_20d": 20.0
+        "current_vxn": 20.56,
+        "percentile_vs_20d": 25.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 54.4,
+      "score": 55.0,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.248,
-        "change_5d_pct": -0.55
+        "current_yield_pct": 5.244,
+        "change_5d_pct": -0.625
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.87,
+      "score": 47.86,
       "status": "yellow",
       "details": {
         "current_dxy": 102.2,
-        "change_5d_pct": 0.266
+        "change_5d_pct": 0.268
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.32,
+      "score": 51.19,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.006,
+        "avg_compound": 0.024,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "PZZA Investors Have Opportunity to Lead Papa John's International, Inc. Securities Fraud Lawsuit with SBS Law",
+            "title": "Fed Data Shows Tariffs Drove Inflation in 2025",
+            "source": "pymnts.com",
+            "publishedAt": "2026-10-08T19:15:13Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "BIDU Investors Have Opportunity to Lead Baidu, Inc. Securities Fraud Lawsuit with SBS Law",
             "source": "PRNewswire",
-            "publishedAt": "2026-10-08T18:59:00Z",
+            "publishedAt": "2026-10-08T19:14:00Z",
             "sentiment": "Neutral",
             "compound": -0.178
           },
           {
-            "title": "Ticket rises and more TV packages - why is price of sport increasing?",
-            "source": "BBC News",
-            "publishedAt": "2026-10-08T18:57:19Z",
+            "title": "LINC Investors Have Opportunity to Lead Lincoln Educational Services Corporation Securities Fraud Lawsuit with SBS Law",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-08T19:13:00Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": -0.178
           },
           {
-            "title": "Cost Concerns Dominate as Public’s Economic Ratings Turn More Negative",
-            "source": "Pew Research Center",
-            "publishedAt": "2026-10-08T18:57:14Z",
+            "title": "US Farm Debt Hits Record as Hidden Loans Skew Data",
+            "source": "Newser",
+            "publishedAt": "2026-10-08T19:11:00Z",
             "sentiment": "Negative",
-            "compound": -0.67
+            "compound": -0.361
           },
           {
-            "title": "Ticket rises and more TV packages - why is price of sport increasing?",
-            "source": "BBC News",
-            "publishedAt": "2026-10-08T18:57:13Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "J.M.W. Turner Painted This Breathtaking Roman Landscape Nearly 200 Years Ago. If You Look Closely, You Can Still See His Fingerprints",
-            "source": "Smithsonian.com",
-            "publishedAt": "2026-10-08T18:56:43Z",
+            "title": "BBNX Investor Alert: Schall, Brown & Schwartz LLP Files Class Action Lawsuit Against Beta Bionics, Inc. and Announces Opportunity for Investors to Lead Class Action Lawsuit",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-08T19:10:00Z",
             "sentiment": "Positive",
-            "compound": 0.542
+            "compound": 0.296
           },
           {
-            "title": "Got a Microsoft 365 subscription? Your storage is about to shrink",
-            "source": "ZDNet",
-            "publishedAt": "2026-10-08T18:56:22Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "AI darlings, defence shares most at risk as U.S. midterms near",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-08T19:08:46Z",
+            "sentiment": "Positive",
+            "compound": 0.53
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.33,
-  "trade_probability": 54.4,
+  "confirmation_score": 57.06,
+  "trade_probability": 54.24,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
