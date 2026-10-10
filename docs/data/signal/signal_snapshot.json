@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T02:01:16.989283+00:00",
+  "generated_at": "2026-10-10T02:15:51.973125+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,15 +17,15 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -1.1075,
+          "change_pct": -1.1133,
           "up": false
         },
         "MSFT": {
-          "change_pct": 2.3899,
+          "change_pct": 2.3861,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.5033,
+          "change_pct": -0.4946,
           "up": false
         },
         "AMZN": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.13,
+      "score": 50.74,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.003,
+        "avg_compound": 0.015,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "3 SME IPOs to list today: Acme India Industries, TNA Solutions, Paramount Syntex; check key details",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-09T02:05:16Z",
+            "sentiment": "Neutral",
+            "compound": 0.178
+          },
           {
             "title": "Key takeaways from US Senate debate in Michigan between El-Sayed, Rogers",
             "source": "Al Jazeera English",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-10-09T01:49:00Z",
             "sentiment": "Negative",
             "compound": -0.273
-          },
-          {
-            "title": "MNA: Brigham Nurses Seek Compromise to Avert Strike While Protecting Patient Care Quality; MGB Makes Minimal Movement and Ends Talks",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-09T01:46:00Z",
-            "sentiment": "Positive",
-            "compound": 0.25
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.93,
-  "trade_probability": 54.16,
+  "confirmation_score": 56.99,
+  "trade_probability": 54.19,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
