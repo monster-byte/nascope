@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T16:31:12.581674+00:00",
+  "generated_at": "2026-10-10T16:45:54.937228+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,15 +17,15 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -1.1133,
+          "change_pct": -1.1075,
           "up": false
         },
         "MSFT": {
-          "change_pct": 2.3861,
+          "change_pct": 2.3899,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.4946,
+          "change_pct": -0.5033,
           "up": false
         },
         "AMZN": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.64,
+      "score": 48.69,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.013,
+        "avg_compound": -0.026,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Trump sets up committee to investigate Fed Governor Lisa Cook over mortgage fraud allegations",
+            "source": "Fox News",
+            "publishedAt": "2026-10-09T16:44:24Z",
+            "sentiment": "Negative",
+            "compound": -0.586
+          },
+          {
+            "title": "The 2026 Midterms: What a Democratic Congress could and couldn’t do to stop Trump’s agenda and roll back his legacy",
+            "source": "Lse.ac.uk",
+            "publishedAt": "2026-10-09T16:42:56Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "Robinhood’s margin book hits record $21.6 billion, up 127% year over year",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-09T16:41:31Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Trump promised to lower prices for Americans. Here's what the data shows.",
+            "source": "CBS News",
+            "publishedAt": "2026-10-09T16:34:46Z",
+            "sentiment": "Neutral",
+            "compound": 0.077
+          },
           {
             "title": "WallachBeth Capital Announces Closing of bioAffinity Technologies $4 Million Registered Direct Financing of Common Stock and Concurrent Private Placement Priced At-The-Market Under Nasdaq Rules",
             "source": "PRNewswire",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-09T16:29:04Z",
             "sentiment": "Negative",
             "compound": -0.649
-          },
-          {
-            "title": "AMD CEO Su shares important supply news with stock market investors",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-09T16:27:05Z",
-            "sentiment": "Positive",
-            "compound": 0.459
-          },
-          {
-            "title": "Precious metals extend gains, silver jumps 3%",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-09T16:27:02Z",
-            "sentiment": "Positive",
-            "compound": 0.778
-          },
-          {
-            "title": "'Sour' job report could give Bank of Canada breathing room on rate hikes, economists say",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-09T16:26:40Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "/UPDATE -- BTQ Technologies Corp./",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-09T16:26:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.99,
-  "trade_probability": 54.19,
+  "confirmation_score": 56.82,
+  "trade_probability": 54.09,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
