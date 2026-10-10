@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T18:01:19.878622+00:00",
+  "generated_at": "2026-10-10T18:15:50.973592+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,15 +17,15 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -1.1133,
+          "change_pct": -1.1075,
           "up": false
         },
         "MSFT": {
-          "change_pct": 2.3861,
+          "change_pct": 2.3899,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.4946,
+          "change_pct": -0.5033,
           "up": false
         },
         "AMZN": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.64,
+      "score": 52.93,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.053,
+        "avg_compound": 0.059,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "S&P 500, Dow and Nasdaq Rise After Steep AI Sell-Off",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-09T18:14:59Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "INVESTOR ALERT: Fluence Energy, Inc. (FLNC) Class Action Lawsuit Seeks Recovery for Investors; November 27, 2026, Deadline - Contact Kessler Topaz Meltzer & Check, LLP",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-09T18:13:00Z",
+            "sentiment": "Positive",
+            "compound": 0.482
+          },
+          {
+            "title": "Trump Tries—Yet Again—to Fire Fed Governor Lisa Cook",
+            "source": "Mother Jones",
+            "publishedAt": "2026-10-09T18:09:35Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
+          {
+            "title": "AsiaStrategy and Plume sign MOU to explore a tokenized products JV in Asia",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-09T18:08:21Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "How Firmus, the biggest IPO in three decades, fell over",
             "source": "ABC News (AU)",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-09T18:00:00Z",
             "sentiment": "Negative",
             "compound": -0.402
-          },
-          {
-            "title": "Trump establishes panel to probe Fed governor Lisa Cook in latest attempt to fire her - NBC News",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-10-09T17:53:20Z",
-            "sentiment": "Negative",
-            "compound": -0.34
-          },
-          {
-            "title": "Why buying Chipotle would be a mistake for Starbucks, even with Brian Niccol in charge",
-            "source": "Fortune",
-            "publishedAt": "2026-10-09T17:46:27Z",
-            "sentiment": "Negative",
-            "compound": -0.34
-          },
-          {
-            "title": "Stock Market Midday, Oct. 9: Stocks Edge Higher, Humana jumps 13%",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-09T17:45:10Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Trump Forms Committee To Probe Federal Reserve's Lisa Cook",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-09T17:41:56Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.17,
-  "trade_probability": 54.3,
+  "confirmation_score": 57.2,
+  "trade_probability": 54.32,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
