@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T06:01:22.144190+00:00",
+  "generated_at": "2026-10-10T06:15:51.180974+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -1.1075,
+          "change_pct": -1.1133,
           "up": false
         },
         "MSFT": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.02,
+      "score": 44.95,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.08,
+        "avg_compound": -0.101,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Stock market volatility: What should investors do with their portfolios?",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-09T06:15:44Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "US 10-year Treasury yield risks hitting 6% for first time since 2000, Pimco's Ivascyn tells FT",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-09T06:08:03Z",
+            "sentiment": "Neutral",
+            "compound": -0.077
+          },
           {
             "title": "Protests Across EU States Focus on Housing, Education, Jobs and Conscription Plans",
             "source": "Naturalnews.com",
@@ -107,13 +121,6 @@
             "compound": 0.318
           },
           {
-            "title": "Why the GOP Deserves to Lose",
-            "source": "Naturalnews.com",
-            "publishedAt": "2026-10-09T06:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.402
-          },
-          {
             "title": "The Real Cost of Oil: How War and Deception Are Fueling a Global Energy Crisis",
             "source": "Naturalnews.com",
             "publishedAt": "2026-10-09T06:00:00Z",
@@ -121,18 +128,11 @@
             "compound": -0.869
           },
           {
-            "title": "U.S. Budget Deficit Surges to Nearly $2 Trillion, CBO Reports",
+            "title": "Why the GOP Deserves to Lose",
             "source": "Naturalnews.com",
             "publishedAt": "2026-10-09T06:00:00Z",
             "sentiment": "Negative",
             "compound": -0.402
-          },
-          {
-            "title": "Firmus: Nvidia-backed AI data centre firm scraps mega listing due to market volatility",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-09T05:53:06Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.58,
-  "trade_probability": 53.95,
+  "confirmation_score": 56.48,
+  "trade_probability": 53.89,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
