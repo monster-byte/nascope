@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T21:01:27.056705+00:00",
+  "generated_at": "2026-10-10T21:15:52.594623+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -1.1133,
+          "change_pct": -1.1075,
           "up": false
         },
         "MSFT": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.99,
+      "score": 51.39,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.02,
+        "avg_compound": 0.028,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "These 18 million households now rank as America's richest",
+            "source": "CBS News",
+            "publishedAt": "2026-10-09T21:13:41Z",
+            "sentiment": "Positive",
+            "compound": 0.527
+          },
+          {
+            "title": "Physics Survey Finds Leading Theories Often Lack Majority Support",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-10-09T21:02:22Z",
+            "sentiment": "Neutral",
+            "compound": 0.103
+          },
           {
             "title": "Here's What $1,000 Invested in Nebius Could Be Worth by 2030",
             "source": "Biztoc.com",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-09T21:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "A $100 Million Art Collection of Rothkos, Litchensteins, and More Is Heading to Auction",
-            "source": "Robb Report",
-            "publishedAt": "2026-10-09T21:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "The two elections that revolve around Iran",
-            "source": "RT",
-            "publishedAt": "2026-10-09T20:56:16Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.02,
-  "trade_probability": 54.21,
+  "confirmation_score": 57.06,
+  "trade_probability": 54.24,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
