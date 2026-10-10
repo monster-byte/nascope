@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T01:01:18.453534+00:00",
+  "generated_at": "2026-10-10T01:15:52.611849+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -21,11 +21,11 @@
           "up": false
         },
         "MSFT": {
-          "change_pct": 2.3861,
+          "change_pct": 2.3899,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.4946,
+          "change_pct": -0.5033,
           "up": false
         },
         "AMZN": {
@@ -85,56 +85,10 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 43.91,
+      "score": 50.0,
       "status": "yellow",
       "details": {
-        "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.122,
-        "articles_analyzed": 25,
-        "top_headlines": [
-          {
-            "title": "Psychological Operation",
-            "source": "Activistpost.com",
-            "publishedAt": "2026-10-09T01:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "First Georgia Senate debate spotlights fight over Trump, Biden-era policies",
-            "source": "NBC News",
-            "publishedAt": "2026-10-09T00:59:40Z",
-            "sentiment": "Negative",
-            "compound": -0.382
-          },
-          {
-            "title": "Remarkably, Republicans have nothing",
-            "source": "Ncspin.com",
-            "publishedAt": "2026-10-09T00:56:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Global Market Today: Asian stocks drop on tech jitters, oil edges lower",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-09T00:48:02Z",
-            "sentiment": "Negative",
-            "compound": -0.511
-          },
-          {
-            "title": "Best of Opinion: Central banks need to be ready for geopolitical risks",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-09T00:45:48Z",
-            "sentiment": "Positive",
-            "compound": 0.681
-          },
-          {
-            "title": "AI stocks crumble on report that OpenAI’s annualized revenue is much lower than believed",
-            "source": "SiliconANGLE News",
-            "publishedAt": "2026-10-09T00:44:27Z",
-            "sentiment": "Negative",
-            "compound": -0.296
-          }
-        ]
+        "error": "news_fetch_failed: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?q=Nasdaq+OR+%22Federal+Reserve%22+OR+%22stock+market%22+OR+inflation&language=en&sortBy=publishedAt&pageSize=25&apiKey=280ea038bd7e4ccb91d87f9d115484d4"
       }
     },
     "patent_momentum": {
@@ -146,8 +100,8 @@
       }
     }
   },
-  "confirmation_score": 56.37,
-  "trade_probability": 53.82,
+  "confirmation_score": 56.92,
+  "trade_probability": 54.15,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
