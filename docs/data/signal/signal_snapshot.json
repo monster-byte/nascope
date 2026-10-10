@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T12:01:18.307090+00:00",
+  "generated_at": "2026-10-10T12:15:52.036904+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,15 +17,15 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -1.1133,
+          "change_pct": -1.1075,
           "up": false
         },
         "MSFT": {
-          "change_pct": 2.3861,
+          "change_pct": 2.3899,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.4946,
+          "change_pct": -0.5033,
           "up": false
         },
         "AMZN": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.65,
+      "score": 50.05,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.007,
+        "avg_compound": 0.001,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Euro 2000 Ferrari 360 Modena 6-Speed",
+            "source": "Bringatrailer.com",
+            "publishedAt": "2026-10-09T12:15:03Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "AI Bubble Teetering on the Brink as OpenAI Admits to Massive Financial Failure",
+            "source": "Futurism",
+            "publishedAt": "2026-10-09T12:14:04Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "Duncan Solutions Completes Transition to Standalone Tech- and AI-Enabled, End-to-End Transportation Revenue Cycle Management Platform",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-09T12:05:47Z",
+            "sentiment": "Neutral",
+            "compound": 0.178
+          },
           {
             "title": "WDAY INVESTOR NOTICE: Kaskela Law Firm Announces Shareholder Investigation into Workday Inc. (WDAY) and Encourages Investors with Losses to Contact the Firm",
             "source": "PRNewswire",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-09T12:00:06Z",
             "sentiment": "Negative",
             "compound": -0.34
-          },
-          {
-            "title": "STAK Announces Results of Class A Meeting and Extraordinary General Meeting",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-09T12:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Atossa Therapeutics Executes Contingent Value Rights Agreement Providing Shareholders Participation in Potential Priority Review Voucher Value",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-09T12:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.791
-          },
-          {
-            "title": "3 US Life Insurance Stocks Linked To Higher Treasury Yields",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-09T11:57:43Z",
-            "sentiment": "Positive",
-            "compound": 0.202
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.9,
-  "trade_probability": 54.14,
+  "confirmation_score": 56.94,
+  "trade_probability": 54.16,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
