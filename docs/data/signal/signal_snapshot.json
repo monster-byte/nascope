@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T18:15:50.973592+00:00",
+  "generated_at": "2026-10-10T18:31:14.673569+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,15 +17,15 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -1.1075,
+          "change_pct": -1.1133,
           "up": false
         },
         "MSFT": {
-          "change_pct": 2.3899,
+          "change_pct": 2.3861,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.5033,
+          "change_pct": -0.4946,
           "up": false
         },
         "AMZN": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.93,
+      "score": 55.28,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.059,
+        "avg_compound": 0.106,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "How Resale and Rental Marketplaces Are Winning the GLP-1 Revolution",
+            "source": "WWD",
+            "publishedAt": "2026-10-09T18:30:00Z",
+            "sentiment": "Positive",
+            "compound": 0.527
+          },
+          {
+            "title": "Trump created a committee to dig into the Fed's Lisa Cook. What is it and what comes next?",
+            "source": "CNBC",
+            "publishedAt": "2026-10-09T18:20:57Z",
+            "sentiment": "Positive",
+            "compound": 0.25
+          },
           {
             "title": "S&P 500, Dow and Nasdaq Rise After Steep AI Sell-Off",
             "source": "Biztoc.com",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-09T18:08:21Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "How Firmus, the biggest IPO in three decades, fell over",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-10-09T18:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "'Cutthroat' hawker culture fights for survival in Singapore",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-10-09T18:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.402
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.2,
-  "trade_probability": 54.32,
+  "confirmation_score": 57.41,
+  "trade_probability": 54.45,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
