@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T07:45:51.251102+00:00",
+  "generated_at": "2026-10-11T08:01:16.960539+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,15 +17,15 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -1.1075,
+          "change_pct": -1.1133,
           "up": false
         },
         "MSFT": {
-          "change_pct": 2.3899,
+          "change_pct": 2.3861,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.5033,
+          "change_pct": -0.4946,
           "up": false
         },
         "AMZN": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.22,
+      "score": 47.09,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.076,
+        "avg_compound": -0.058,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "JioBlackRock MF sees value in equities after correction, favours target maturity funds for debt investors",
+            "source": "Economictimes.com",
+            "publishedAt": "2026-10-10T07:51:58Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
           {
             "title": "Why is the Chinese stock market missing the AI rally",
             "source": "Biztoc.com",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-10-10T06:28:26Z",
             "sentiment": "Neutral",
             "compound": -0.153
-          },
-          {
-            "title": "Trump and Iran agree on one thing. The US election calendar isn't driving their decisions on the war",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-10T06:20:37Z",
-            "sentiment": "Negative",
-            "compound": -0.34
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.59,
-  "trade_probability": 53.95,
+  "confirmation_score": 56.67,
+  "trade_probability": 54.0,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
