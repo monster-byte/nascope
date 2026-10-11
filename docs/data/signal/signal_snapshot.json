@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T21:15:55.493472+00:00",
+  "generated_at": "2026-10-11T21:31:08.901466+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -21,11 +21,11 @@
           "up": false
         },
         "MSFT": {
-          "change_pct": 2.3861,
+          "change_pct": 2.3899,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.4946,
+          "change_pct": -0.5033,
           "up": false
         },
         "AMZN": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.6,
+      "score": 50.17,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.028,
+        "avg_compound": 0.003,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Trump’s ‘most vocal supporters’ sour over ‘corruption beyond belief’: researcher",
+            "source": "Raw Story",
+            "publishedAt": "2026-10-10T21:24:28Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Indonesia’s Energy Investment Potential",
+            "source": "The Diplomat",
+            "publishedAt": "2026-10-10T21:23:00Z",
+            "sentiment": "Positive",
+            "compound": 0.273
+          },
           {
             "title": "TYGO Investors Have Opportunity to Lead Tigo Energy, Inc. Securities Fraud Lawsuit Filed by The Rosen Law Firm",
             "source": "PRNewswire",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-10T20:15:00Z",
             "sentiment": "Positive",
             "compound": 0.459
-          },
-          {
-            "title": "Governments are mishandling the affordability crisis",
-            "source": "Www.nrc.nl",
-            "publishedAt": "2026-10-10T20:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.625
-          },
-          {
-            "title": "Nasdaq Futures Prediction: Will Nasdaq Futures Open Higher or Lower on Monday, October 12? Check US Stock Market Outlook, Treasury Yields, Inflation Data, Bank Earnings & What Investors Should Know",
-            "source": "The Sunday Guardian",
-            "publishedAt": "2026-10-10T19:53:15Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.81,
-  "trade_probability": 54.09,
+  "confirmation_score": 56.95,
+  "trade_probability": 54.17,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
