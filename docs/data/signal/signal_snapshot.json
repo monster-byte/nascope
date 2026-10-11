@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T00:01:27.334526+00:00",
+  "generated_at": "2026-10-11T00:15:47.575562+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -21,11 +21,11 @@
           "up": false
         },
         "MSFT": {
-          "change_pct": 2.3899,
+          "change_pct": 2.3861,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.5033,
+          "change_pct": -0.4946,
           "up": false
         },
         "AMZN": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.69,
+      "score": 53.09,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.034,
+        "avg_compound": 0.062,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Boosting U.S. oil supplies with Russian diesel unlikely to have impact on prices, experts say",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-10-10T00:15:05Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
+          {
+            "title": "Trump Announces Deal with Putin to Deliver Russian Diesel to U.S.",
+            "source": "Breitbart News",
+            "publishedAt": "2026-10-10T00:14:50Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Bessent Blasts Warren’s ‘Trumpflation’ Tracker as ‘Statistical Sleight of Hand’",
             "source": "Breitbart News",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-09T23:32:06Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Elon Musk Just Made a Surprising Statement About AI Chips. Here's the Stock It Helps",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-09T23:31:47Z",
-            "sentiment": "Positive",
-            "compound": 0.572
-          },
-          {
-            "title": "Outpaces Stock Market Gains: What You Should Know",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-09T23:31:34Z",
-            "sentiment": "Positive",
-            "compound": 0.34
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.09,
-  "trade_probability": 54.25,
+  "confirmation_score": 57.21,
+  "trade_probability": 54.33,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
