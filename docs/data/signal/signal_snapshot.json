@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T13:15:50.504851+00:00",
+  "generated_at": "2026-10-11T13:31:09.870912+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -21,11 +21,11 @@
           "up": false
         },
         "MSFT": {
-          "change_pct": 2.3861,
+          "change_pct": 2.3899,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.4946,
+          "change_pct": -0.5033,
           "up": false
         },
         "AMZN": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.58,
+      "score": 54.27,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.112,
+        "avg_compound": 0.085,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "CCB Investors Have Opportunity to Lead Coastal Financial Corporation Securities Fraud Lawsuit",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-10T13:28:00Z",
+            "sentiment": "Neutral",
+            "compound": -0.178
+          },
+          {
+            "title": "Bank of Montreal And 2 Other Top Canadian Dividend Stocks",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-10T13:18:25Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
           {
             "title": "QFIN Investors Have Opportunity to Lead Qfin Holdings, Inc. Securities Fraud Lawsuit",
             "source": "PRNewswire",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-10T12:49:00Z",
             "sentiment": "Neutral",
             "compound": -0.178
-          },
-          {
-            "title": "DMart’s Q2 profit growth trails revenue as expenses rise",
-            "source": "Livemint",
-            "publishedAt": "2026-10-10T12:34:08Z",
-            "sentiment": "Positive",
-            "compound": 0.67
-          },
-          {
-            "title": "Citi issues stark stock market call as a 1970s signal returns",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-10T12:32:50Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.44,
-  "trade_probability": 54.46,
+  "confirmation_score": 57.32,
+  "trade_probability": 54.39,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
