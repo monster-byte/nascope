@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T06:15:54.055703+00:00",
+  "generated_at": "2026-10-11T06:31:08.760462+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.23,
+      "score": 45.04,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.075,
+        "avg_compound": -0.099,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Fund bill sets out repayment terms for affected investors",
+            "source": "Hurriyet Daily News",
+            "publishedAt": "2026-10-10T06:28:26Z",
+            "sentiment": "Neutral",
+            "compound": -0.153
+          },
+          {
+            "title": "Trump and Iran agree on one thing. The US election calendar isn't driving their decisions on the war",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-10T06:20:37Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
           {
             "title": "Can stock market losses offset mutual fund gains? What is tax-loss harvesting strategy, how it works",
             "source": "Livemint",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-10T06:00:00Z",
             "sentiment": "Negative",
             "compound": -0.296
-          },
-          {
-            "title": "Trump Pledge on Iran Strikes Fails to Soothe Oil Markets",
-            "source": "Naturalnews.com",
-            "publishedAt": "2026-10-10T06:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.421
-          },
-          {
-            "title": "AI Chip Stocks Fall After Report on OpenAI Revenue Shortfall",
-            "source": "Naturalnews.com",
-            "publishedAt": "2026-10-10T06:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.6,
-  "trade_probability": 53.96,
+  "confirmation_score": 56.49,
+  "trade_probability": 53.89,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
