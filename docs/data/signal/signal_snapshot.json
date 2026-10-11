@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T07:01:23.440547+00:00",
+  "generated_at": "2026-10-11T07:15:49.869089+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,15 +17,15 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -1.1075,
+          "change_pct": -1.1133,
           "up": false
         },
         "MSFT": {
-          "change_pct": 2.3899,
+          "change_pct": 2.3861,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.5033,
+          "change_pct": -0.4946,
           "up": false
         },
         "AMZN": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.75,
+      "score": 46.22,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.065,
+        "avg_compound": -0.076,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Why is the Chinese stock market missing the AI rally",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-10T07:02:28Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
           {
             "title": "Inflation target of 2% may not stop the next Fed rate freeze",
             "source": "CryptoSlate",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-10-10T06:20:37Z",
             "sentiment": "Negative",
             "compound": -0.34
-          },
-          {
-            "title": "Can stock market losses offset mutual fund gains? What is tax-loss harvesting strategy, how it works",
-            "source": "Livemint",
-            "publishedAt": "2026-10-10T06:13:02Z",
-            "sentiment": "Neutral",
-            "compound": -0.077
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.64,
-  "trade_probability": 53.98,
+  "confirmation_score": 56.59,
+  "trade_probability": 53.95,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
