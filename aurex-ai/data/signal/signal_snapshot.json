@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T02:15:53.411937+00:00",
+  "generated_at": "2026-10-11T02:31:08.455771+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -21,11 +21,11 @@
           "up": false
         },
         "MSFT": {
-          "change_pct": 2.3861,
+          "change_pct": 2.3899,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.4946,
+          "change_pct": -0.5033,
           "up": false
         },
         "AMZN": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.0,
+      "score": 54.52,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.08,
+        "avg_compound": 0.09,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "At Robinhood’s Mecca for Risk-Loving Traders, Everyone Has a Tale of Getting Rich",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-10T02:15:55Z",
+            "sentiment": "Positive",
+            "compound": 0.557
+          },
           {
             "title": "How you can use FD laddering for Rs 10 lakh investment after RBI raises repo rate",
             "source": "The Times of India",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-10-10T01:16:00Z",
             "sentiment": "Negative",
             "compound": -0.226
-          },
-          {
-            "title": "Democrats Have a 93% Chance of Retaking at Least One House of Congress on Nov. 3 -- History Says That's Bad News for Stocks",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-10T01:00:56Z",
-            "sentiment": "Negative",
-            "compound": -0.361
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.29,
-  "trade_probability": 54.37,
+  "confirmation_score": 57.34,
+  "trade_probability": 54.4,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
