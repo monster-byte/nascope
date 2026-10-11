@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T05:15:54.585852+00:00",
+  "generated_at": "2026-10-11T05:31:10.910335+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -21,11 +21,11 @@
           "up": false
         },
         "MSFT": {
-          "change_pct": 2.3899,
+          "change_pct": 2.3861,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.5033,
+          "change_pct": -0.4946,
           "up": false
         },
         "AMZN": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.3,
+      "score": 49.88,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.046,
+        "avg_compound": -0.002,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Israel’s economy prospers despite years of war, but prices worry voters",
+            "source": "Al Jazeera English",
+            "publishedAt": "2026-10-10T05:28:33Z",
+            "sentiment": "Negative",
+            "compound": -0.417
+          },
+          {
+            "title": "Market crash ahead? Warren Buffett's guide to navigate through bear attacks",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-10T05:25:34Z",
+            "sentiment": "Negative",
+            "compound": -0.681
+          },
           {
             "title": "Public sector strike ‘inevitable’ and will see up to 150,000 medical appointments cancelled",
             "source": "The Irish Times",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-10T04:44:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Ripple fixes 2015 bug preventing unauthorized XRP minting",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-10T04:39:21Z",
-            "sentiment": "Neutral",
-            "compound": -0.026
-          },
-          {
-            "title": "PepsiCo is raising prices on Doritos and more after a weak quarter in North America",
-            "source": "Lockhaven.com",
-            "publishedAt": "2026-10-10T04:32:25Z",
-            "sentiment": "Negative",
-            "compound": -0.488
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.14,
-  "trade_probability": 54.28,
+  "confirmation_score": 56.92,
+  "trade_probability": 54.15,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
