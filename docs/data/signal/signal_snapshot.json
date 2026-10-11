@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T09:31:08.147154+00:00",
+  "generated_at": "2026-10-11T09:45:49.903877+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,15 +17,15 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -1.1075,
+          "change_pct": -1.1133,
           "up": false
         },
         "MSFT": {
-          "change_pct": 2.3899,
+          "change_pct": 2.3861,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.5033,
+          "change_pct": -0.4946,
           "up": false
         },
         "AMZN": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.03,
+      "score": 48.27,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.039,
+        "avg_compound": -0.035,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "FIIs dump Indian stocks for eight straight weeks: Is a reversal on the cards or more pain ahead?",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-10T09:41:53Z",
+            "sentiment": "Negative",
+            "compound": -0.648
+          },
+          {
+            "title": "13% of health insurance customers pay premiums in monthly, quarterly EMIs, shows data: How the model works",
+            "source": "Livemint",
+            "publishedAt": "2026-10-10T09:33:51Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
+          {
+            "title": "Alnylam vs. Ionis: Here's the Better Bad-News Buy",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-10T09:32:48Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
           {
             "title": "AI party’s almost over… and the hangover will be brutal…",
             "source": "Freerepublic.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-10T09:02:15Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "2 Inflation reports, retail sales and big bank profits all arrive in the coming week",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-10T09:02:04Z",
-            "sentiment": "Positive",
-            "compound": 0.44
-          },
-          {
-            "title": "Gen X is going deeper into credit card debt — even as they make more money than ever",
-            "source": "Business Insider",
-            "publishedAt": "2026-10-10T09:00:02Z",
-            "sentiment": "Neutral",
-            "compound": 0.026
-          },
-          {
-            "title": "Long a target of conservatives, USAID has been dismantled by Team Trump even without Congress’ help",
-            "source": "Freerepublic.com",
-            "publishedAt": "2026-10-10T08:54:13Z",
-            "sentiment": "Negative",
-            "compound": -0.309
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.76,
-  "trade_probability": 54.06,
+  "confirmation_score": 56.78,
+  "trade_probability": 54.07,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
