@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T18:45:51.971501+00:00",
+  "generated_at": "2026-10-11T19:01:21.965624+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,15 +17,15 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -1.1075,
+          "change_pct": -1.1133,
           "up": false
         },
         "MSFT": {
-          "change_pct": 2.3899,
+          "change_pct": 2.3861,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.5033,
+          "change_pct": -0.4946,
           "up": false
         },
         "AMZN": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.2,
+      "score": 52.48,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.024,
+        "avg_compound": 0.05,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "The Nasdaq-100 Has Gained 20% or More 3 Years Running. This Streak Rests on Far Stronger Earnings Than 1999's",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-10T18:51:29Z",
+            "sentiment": "Positive",
+            "compound": 0.637
+          },
+          {
+            "title": "Solvely.ai Makes the Case for AI That Builds Human Capability",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-10T18:50:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Boomers, Elite Made Killing After Pandemic While Everyone Else Drowned",
             "source": "The Daily Caller",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-10T18:09:14Z",
             "sentiment": "Negative",
             "compound": -0.691
-          },
-          {
-            "title": "Tesla Beat Delivery Estimates by 25,000 Vehicles. Here's Why the Stock Still Hasn't Broken Out",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-10T18:06:05Z",
-            "sentiment": "Positive",
-            "compound": 0.372
-          },
-          {
-            "title": "Retail Trading Platforms Post Record Quarters as Investor Apps Multiply",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-10T18:06:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.04,
-  "trade_probability": 54.22,
+  "confirmation_score": 57.16,
+  "trade_probability": 54.3,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
