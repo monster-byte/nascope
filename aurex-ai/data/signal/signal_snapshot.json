@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T13:31:09.870912+00:00",
+  "generated_at": "2026-10-11T13:45:52.136670+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -21,11 +21,11 @@
           "up": false
         },
         "MSFT": {
-          "change_pct": 2.3899,
+          "change_pct": 2.3861,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.5033,
+          "change_pct": -0.4946,
           "up": false
         },
         "AMZN": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.27,
+      "score": 53.68,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.085,
+        "avg_compound": 0.074,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Fórsa warns of winter strikes if no pay deal reached",
+            "source": "RTE",
+            "publishedAt": "2026-10-10T13:33:51Z",
+            "sentiment": "Negative",
+            "compound": -0.297
+          },
           {
             "title": "CCB Investors Have Opportunity to Lead Coastal Financial Corporation Securities Fraud Lawsuit",
             "source": "PRNewswire",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-10-10T13:00:12Z",
             "sentiment": "Positive",
             "compound": 0.361
-          },
-          {
-            "title": "GOOGL, GOOG Investors Have Opportunity to Lead Alphabet Inc. Securities Fraud Lawsuit",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-10T12:49:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.178
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.32,
-  "trade_probability": 54.39,
+  "confirmation_score": 57.27,
+  "trade_probability": 54.36,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
