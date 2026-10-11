@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T01:45:51.052440+00:00",
+  "generated_at": "2026-10-11T02:01:19.219205+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -21,11 +21,11 @@
           "up": false
         },
         "MSFT": {
-          "change_pct": 2.3899,
+          "change_pct": 2.3861,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.5033,
+          "change_pct": -0.4946,
           "up": false
         },
         "AMZN": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.07,
+      "score": 53.5,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.061,
+        "avg_compound": 0.07,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Beta Bionics, Inc. Notice of November 3, 2026 Application Deadline for Class Action Lawsuit - Contact Lewis Kahn, Esq. at Kahn Swick & Foti, LLC, Before Application Deadline",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-10T02:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.226
+          },
           {
             "title": "Boosting US oil supplies with Russian diesel unlikely to have much impact on prices: Experts",
             "source": "The Times of India",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-10-10T01:00:00Z",
             "sentiment": "Positive",
             "compound": 0.382
-          },
-          {
-            "title": "NOCO AIR10 12V Portable Air Compressor $148 + $12 Delivery ($0 C&C/ in-Store) @ Repco",
-            "source": "Ozbargain.com.au",
-            "publishedAt": "2026-10-10T00:59:27Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.21,
-  "trade_probability": 54.33,
+  "confirmation_score": 57.25,
+  "trade_probability": 54.35,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
