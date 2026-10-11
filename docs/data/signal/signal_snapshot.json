@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T14:31:11.461261+00:00",
+  "generated_at": "2026-10-11T14:45:53.472257+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,15 +17,15 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -1.1075,
+          "change_pct": -1.1133,
           "up": false
         },
         "MSFT": {
-          "change_pct": 2.3899,
+          "change_pct": 2.3861,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.5033,
+          "change_pct": -0.4946,
           "up": false
         },
         "AMZN": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.53,
+      "score": 52.7,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.071,
+        "avg_compound": 0.054,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "(VIDEO) Spain's Housing Crisis Erupts After Evicted 87-Year-Old Maricarmen Abascal Dies, Unions Call Strike",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-10-10T14:34:09Z",
+            "sentiment": "Negative",
+            "compound": -0.681
+          },
+          {
+            "title": "Evernorth XRPN vs XRP: Which Is the Better Buy?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-10T14:33:38Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
           {
             "title": "Earth-Shakers: Trading Big Ideas",
             "source": "Dailyreckoning.com",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-10T14:06:33Z",
             "sentiment": "Positive",
             "compound": 0.318
-          },
-          {
-            "title": "Analysis: Government in line for a kicking from all sides after publishing EU budget",
-            "source": "The Irish Times",
-            "publishedAt": "2026-10-10T14:04:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Wall Street’s rate shock spreads beneath AI-fueled market rally",
-            "source": "Bloomberg",
-            "publishedAt": "2026-10-10T14:03:09Z",
-            "sentiment": "Negative",
-            "compound": -0.382
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.25,
-  "trade_probability": 54.35,
+  "confirmation_score": 57.18,
+  "trade_probability": 54.31,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
