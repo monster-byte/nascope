@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T21:31:08.901466+00:00",
+  "generated_at": "2026-10-11T21:45:49.002889+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -21,11 +21,11 @@
           "up": false
         },
         "MSFT": {
-          "change_pct": 2.3899,
+          "change_pct": 2.3861,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.5033,
+          "change_pct": -0.4946,
           "up": false
         },
         "AMZN": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.17,
+      "score": 50.31,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.003,
+        "avg_compound": 0.006,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Rosen Law Firm Encourages Beneficient Investors to Inquire About Securities Class Action Investigation - BENF",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-10T21:34:00Z",
+            "sentiment": "Positive",
+            "compound": 0.625
+          },
+          {
+            "title": "After the midterms, Trump will face a pivotal choice on Iran",
+            "source": "New York Post",
+            "publishedAt": "2026-10-10T21:32:35Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Trump’s ‘most vocal supporters’ sour over ‘corruption beyond belief’: researcher",
             "source": "Raw Story",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-10T21:00:13Z",
             "sentiment": "Neutral",
             "compound": -0.128
-          },
-          {
-            "title": "The Stock Market Will Look Completely Different by 2030. This Is the Stock I'm Buying Before It Does",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-10T20:51:32Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Top brokers name 3 ASX shares to buy next week",
-            "source": "Motley Fool Australia",
-            "publishedAt": "2026-10-10T20:15:00Z",
-            "sentiment": "Positive",
-            "compound": 0.459
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.95,
-  "trade_probability": 54.17,
+  "confirmation_score": 56.96,
+  "trade_probability": 54.18,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
