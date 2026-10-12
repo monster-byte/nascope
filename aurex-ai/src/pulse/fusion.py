@@ -1,141 +1,155 @@
 """
-AUREX Pulse - Fusion
-يدمج Volume Profile (وين السعر هيكلياً) + Catalyst Watcher (هل في شي جديد صار هلق)
-+ VXN (مؤشر الخوف اللحظي) بمنطق واحد واضح، ويرجع تنبيه استشاري واحد.
+AUREX Pulse - Fusion (خط أنابيب متسلسل، مطابق لاستراتيجية السكالب الشخصية بالضبط)
 
-مؤشر VXN هون يُعاد حسابه كل 5 دقايق مع كل تشغيل لمحرك Pulse (بنفس دورة
-volume_profile وcatalyst_watcher تماماً) — نفس دالة compute_vxn_factor
-المستخدمة أصلاً بالمحرك الرئيسي (AUREX AI)، بدون أي تكرار كود، وبدون أي
-مصدر بيانات إضافي (نفس snapshot_1D.json المحدَّث لحظياً).
+الترتيب: أخبار/سياق → AMT (Volume Profile) → تأكيد الكسر (جلسة نيويورك) → VXN
+بوابات متسلسلة، مو "عدّ توافق" — كل بوابة لازم تعدّي قبل ما توصل للي بعدها،
+وبس لو الأربعة عدّوا بنفس الاتجاه، يصير عندك "إشارة سكالب" حقيقية.
 
-⚠️ قاعدة معمارية أساسية: هذا الملف "استشاري" بحت — ما يكتب على
-signal_snapshot.json ولا يدخل بحساب confirmation_score الرسمي بأي شكل.
-الهدف يعطي متداول فريم 5 دقايق سياق إضافي يشوفه بعينه ويقرر هو، مو قرار آلي.
+بوابة 1 تنسحب تلقائياً (auto-pass) بالأيام الهادئة (direction=NEUTRAL من
+context_gate.py) — نعتمد AMT + الكسر + VXN لحالهم بهالحالة، بالضبط متل
+استراتيجية المستخدم الأصلية.
+
+⚠️ هذا الملف استشاري بحت — ما يكتب على signal_snapshot.json ولا يدخل
+بحساب confirmation_score الرسمي بالمحرك الأساسي (AUREX AI) بأي شكل.
 """
 
-# مستويات هيكلية تعتبر "مهمة" — لو السعر عندها + كاتاليست طازج = انتباه أعلى
 STRUCTURAL_LOCATIONS = {"NEAR_VAH", "NEAR_VAL", "NEAR_POC", "ABOVE_VALUE_AREA", "BELOW_VALUE_AREA"}
 
-HIGH_REL_VOLUME_THRESHOLD = 150.0
-MODERATE_REL_VOLUME_THRESHOLD = 130.0
+_LOCATION_LABEL_AR = {
+    "NEAR_POC": "نقطة التحكم (POC)",
+    "NEAR_VAH": "الحد الأعلى لمنطقة القيمة (VAH)",
+    "NEAR_VAL": "الحد الأدنى لمنطقة القيمة (VAL)",
+    "ABOVE_VALUE_AREA": "أعلى منطقة القيمة",
+    "BELOW_VALUE_AREA": "أسفل منطقة القيمة",
+    "INSIDE_VALUE_AREA": "داخل منطقة القيمة (منطقة توازن)",
+    "UNKNOWN": "غير محدد (بيانات غير كافية)",
+}
+
+_BREAKOUT_STATUS_LABEL_AR = {
+    "confirmed_up": "كسر صاعد مؤكد",
+    "confirmed_down": "كسر هابط مؤكد",
+    "failed_fakeout": "كسر كاذب (رفضناه)",
+    "pending_confirmation": "كسر حديث، قيد المراقبة",
+    "no_breakout": "لا يوجد كسر حالياً",
+    "outside_ny_session": "خارج جلسة نيويورك",
+    "no_session_data": "لا توجد بيانات جلسة كافية",
+    "no_levels": "مستويات AMT غير متوفرة",
+    "insufficient_candles": "شموع غير كافية",
+}
 
 
-def _compute_direction(catalyst: dict, vxn_factor: dict = None) -> str:
-    """يستخرج انحياز الميل (صعودي/هبوطي/محايد) من كاتاليست الأخبار/التقويم
-    + مؤشر الخوف VXN (خوف مرتفع = صوت هبوطي إضافي)."""
-    leans = []
-
-    if catalyst and catalyst.get("detected"):
-        calendar_result = catalyst.get("calendar", {})
-        if calendar_result.get("detected"):
-            for ev in calendar_result.get("events", []):
-                surprise = ev.get("surprise")
-                if surprise == "BETTER_THAN_FORECAST":
-                    leans.append("BULLISH")
-                elif surprise == "WORSE_THAN_FORECAST":
-                    leans.append("BEARISH")
-
-        news_result = catalyst.get("news", {})
-        if news_result.get("detected"):
-            for h in news_result.get("headlines", []):
-                sentiment = h.get("sentiment")
-                if sentiment == "Positive":
-                    leans.append("BULLISH")
-                elif sentiment == "Negative":
-                    leans.append("BEARISH")
-
-    # VXN مرتفع نسبياً (status=red) = خوف/توتر متصاعد = صوت هبوطي إضافي
-    # (VXN منخفض ما بيضاف كصوت صعودي — الهدوء وحده مو دليل صعود، تصميم متحفّظ مقصود)
-    if vxn_factor and vxn_factor.get("status") == "red":
-        leans.append("BEARISH")
-
-    if not leans:
-        return "NEUTRAL"
-
-    bullish_count = leans.count("BULLISH")
-    bearish_count = leans.count("BEARISH")
-    if bullish_count > bearish_count:
-        return "BULLISH_LEAN"
-    if bearish_count > bullish_count:
-        return "BEARISH_LEAN"
-    return "MIXED"
-
-
-def _build_reason(vp: dict, catalyst: dict, vxn_factor: dict, direction: str) -> str:
-    parts = []
-
+def _gate2_amt_location(vp: dict) -> dict:
+    """بوابة 2: هل السعر عند مستوى AMT مهم (POC/VAH/VAL أو خارج منطقة القيمة)؟"""
     location = vp.get("price_location", "UNKNOWN") if vp else "UNKNOWN"
-    location_ar = {
-        "NEAR_VAH": "قريب من الحد الأعلى لمنطقة القيمة (VAH)",
-        "NEAR_VAL": "قريب من الحد الأدنى لمنطقة القيمة (VAL)",
-        "NEAR_POC": "قريب من نقطة التحكم (POC)",
-        "ABOVE_VALUE_AREA": "فوق منطقة القيمة بالكامل",
-        "BELOW_VALUE_AREA": "تحت منطقة القيمة بالكامل",
-        "INSIDE_VALUE_AREA": "داخل منطقة القيمة (منطقة توازن)",
-        "UNKNOWN": "غير محدد",
-    }.get(location, location)
-    parts.append(f"السعر حالياً {location_ar}")
+    return {"passed": location in STRUCTURAL_LOCATIONS, "location": location}
 
-    rel_vol = vp.get("relative_volume_pct") if vp else None
-    if rel_vol is not None:
-        if rel_vol >= HIGH_REL_VOLUME_THRESHOLD:
-            parts.append(f"بحجم تداول أعلى بكثير من المعتاد ({rel_vol}%)")
-        elif rel_vol >= MODERATE_REL_VOLUME_THRESHOLD:
-            parts.append(f"بحجم تداول أعلى من المعتاد ({rel_vol}%)")
 
-    if catalyst and catalyst.get("detected"):
-        cal = catalyst.get("calendar", {})
-        news = catalyst.get("news", {})
-        if cal.get("detected"):
-            ev = cal["events"][0]
-            parts.append(f'وصدر للتو بيان "{ev["title"]}" ({ev["surprise"]}, قبل {ev["minutes_ago"]} دقيقة)')
-        if news.get("detected"):
-            h = news["headlines"][0]
-            parts.append(f'وصدر خبر جديد قبل {h["minutes_ago"]} دقيقة: "{h["title"]}"')
+def _gate3_breakout(breakout: dict) -> dict:
+    """بوابة 3: كسر مؤكد فعلاً (مو كاذب، مو قيد المراقبة، مو خارج الجلسة)."""
+    status = breakout.get("status") if breakout else None
+    direction = None
+    if status == "confirmed_up":
+        direction = "BULLISH"
+    elif status == "confirmed_down":
+        direction = "BEARISH"
+    return {"passed": direction is not None, "status": status, "direction": direction}
+
+
+def _gate1_context(daily_context: dict, breakout_direction: str) -> dict:
+    """بوابة 1: هل الانحياز اليومي (AUREX AI) يوافق اتجاه الكسر؟
+    لو السياق "هادئ" (NEUTRAL)، البوابة تنسحب تلقائياً — نعتمد باقي
+    البوابات لحالها (بالضبط متل استراتيجية المستخدم بالأيام الهادئة)."""
+    direction = daily_context.get("direction", "UNKNOWN") if daily_context else "UNKNOWN"
+    if breakout_direction is None:
+        return {"passed": None, "direction": direction, "source": daily_context.get("source") if daily_context else None}
+    if direction == "NEUTRAL":
+        return {
+            "passed": True,
+            "direction": direction,
+            "source": daily_context.get("source") if daily_context else None,
+            "note": "يوم هادئ — AMT يقرر لحاله",
+        }
+    return {
+        "passed": direction == breakout_direction,
+        "direction": direction,
+        "source": daily_context.get("source") if daily_context else None,
+    }
+
+
+def _gate4_vxn(vxn_factor: dict, breakout_direction: str) -> dict:
+    """بوابة 4: VXN ما يعارض اتجاه الكسر. خوف مرتفع (status=red) يعارض
+    الكسور الصاعدة تحديداً (يقوّض الاستمرارية)، ولا يعارض الكسور الهابطة
+    أبداً بهذا النموذج (الخوف المرتفع أصلاً إشارة هبوطية الطبيعة)."""
+    status = vxn_factor.get("status") if vxn_factor else None
+    if breakout_direction is None:
+        return {"passed": None, "status": status}
+    if breakout_direction == "BULLISH":
+        return {"passed": status != "red", "status": status}
+    return {"passed": True, "status": status}
+
+
+def _build_reason_ar(gates: dict, final_signal: str, breakout: dict) -> str:
+    g1, g2, g3, g4 = gates["gate1_context"], gates["gate2_amt_location"], gates["gate3_breakout"], gates["gate4_vxn"]
+    breakout_label = _BREAKOUT_STATUS_LABEL_AR.get(g3.get("status"), g3.get("status") or "غير معروف")
+    location_label = _LOCATION_LABEL_AR.get(g2.get("location"), g2.get("location"))
+
+    if final_signal in ("SCALP_BULLISH", "SCALP_BEARISH"):
+        direction_ar = "صاعد" if final_signal == "SCALP_BULLISH" else "هابط"
+        context_note = " (يوم هادئ، AMT قرر لحاله)" if g1.get("direction") == "NEUTRAL" else ""
+        return (
+            f"✅ الأربع بوابات عدّت بنفس الاتجاه ({direction_ar}){context_note}: "
+            f"السعر عند {location_label}، {breakout_label}، "
+            f"ومؤشر الخوف (VXN) ما يعارض. إشارة سكالب مكتملة."
+        )
+
+    if g3.get("direction") is None:
+        return f"لا توجد إشارة كسر مؤكدة حالياً ({breakout_label}) — النظام لسا بمرحلة المراقبة."
+
+    failed = []
+    if g1.get("passed") is False:
+        failed.append("السياق اليومي (AUREX AI) يعارض اتجاه الكسر")
+    if g2.get("passed") is False:
+        failed.append(f"السعر مو عند مستوى AMT مهم حالياً ({location_label})")
+    if g4.get("passed") is False:
+        failed.append("مؤشر الخوف (VXN) مرتفع ويعارض استمرارية الكسر الصاعد")
+
+    reason = f"⚠️ في كسر ({breakout_label}) بس ما اكتملت كل البوابات: " + "، ".join(failed) if failed else \
+        f"⚠️ في كسر ({breakout_label}) وباقي البوابات بانتظار التأكيد."
+    return reason
+
+
+def fuse(vp: dict, daily_context: dict, breakout: dict, vxn_factor: dict) -> dict:
+    """نقطة الدخول الرئيسية: خط الأنابيب المتسلسل الكامل (4 بوابات)."""
+    gate3 = _gate3_breakout(breakout)
+    gate2 = _gate2_amt_location(vp)
+    gate1 = _gate1_context(daily_context, gate3["direction"])
+    gate4 = _gate4_vxn(vxn_factor, gate3["direction"])
+
+    gates = {
+        "gate1_context": gate1,
+        "gate2_amt_location": gate2,
+        "gate3_breakout": gate3,
+        "gate4_vxn": gate4,
+    }
+
+    all_passed = (
+        gate3["direction"] is not None
+        and gate1["passed"] is True
+        and gate2["passed"] is True
+        and gate4["passed"] is True
+    )
+
+    if all_passed:
+        final_signal = "SCALP_BULLISH" if gate3["direction"] == "BULLISH" else "SCALP_BEARISH"
+    elif gate3["direction"] is not None:
+        final_signal = "SETUP_INCOMPLETE"
     else:
-        parts.append("بدون أي كاتاليست جديد بآخر دقائق")
-
-    if vxn_factor:
-        status = vxn_factor.get("status")
-        current_vxn = vxn_factor.get("details", {}).get("current_vxn")
-        if status == "red":
-            parts.append(f"ومؤشر الخوف VXN مرتفع نسبياً ({current_vxn}) — توتر متصاعد بالسوق")
-        elif status == "green":
-            parts.append(f"ومؤشر الخوف VXN منخفض نسبياً ({current_vxn}) — هدوء بالسوق")
-
-    return " — ".join(parts) + "."
-
-
-def fuse(vp: dict, catalyst: dict, vxn_factor: dict = None) -> dict:
-    """نقطة الدخول الرئيسية: يدمج Volume Profile + Catalyst Watcher + VXN بتنبيه واحد."""
-    location = vp.get("price_location", "UNKNOWN") if vp else "UNKNOWN"
-    rel_vol = vp.get("relative_volume_pct") if vp else None
-    catalyst_detected = bool(catalyst and catalyst.get("detected"))
-    at_structural_level = location in STRUCTURAL_LOCATIONS
-    high_volume = rel_vol is not None and rel_vol >= HIGH_REL_VOLUME_THRESHOLD
-    moderate_volume = rel_vol is not None and rel_vol >= MODERATE_REL_VOLUME_THRESHOLD
-    elevated_fear = bool(vxn_factor and vxn_factor.get("status") == "red")
-
-    if catalyst_detected and at_structural_level:
-        alert_level = "HIGH_ATTENTION"
-    elif catalyst_detected and high_volume:
-        alert_level = "HIGH_ATTENTION"
-    elif at_structural_level and high_volume:
-        alert_level = "HIGH_ATTENTION"
-    elif elevated_fear and (catalyst_detected or at_structural_level):
-        alert_level = "HIGH_ATTENTION"
-    elif catalyst_detected or at_structural_level or moderate_volume or elevated_fear:
-        alert_level = "MODERATE_ATTENTION"
-    else:
-        alert_level = "LOW_ATTENTION"
-
-    direction = _compute_direction(catalyst, vxn_factor)
-    reason = _build_reason(vp, catalyst, vxn_factor, direction)
+        final_signal = "NO_SETUP"
 
     return {
-        "alert_level": alert_level,
-        "directional_hint": direction,
-        "reason": reason,
-        "vxn_elevated_fear": elevated_fear,
-        "is_advisory_only": True,  # تذكير دائم: لا يدخل بالقرار الرسمي
+        "final_signal": final_signal,
+        "breakout_direction": gate3["direction"],
+        "gates": gates,
+        "reason": _build_reason_ar(gates, final_signal, breakout),
+        "is_advisory_only": True,
     }

@@ -86,7 +86,7 @@ def build_volume_profile(session_candles: list, bin_size: float = BIN_SIZE_DEFAU
 def build_histogram(volume_by_bin: dict, buy_volume_by_bin: dict, sell_volume_by_bin: dict,
                      bin_size: float = BIN_SIZE_DEFAULT) -> list:
     """يحوّل قواميس الحجم لمصفوفة مرتبة (من الأسفل للأعلى) — هذا هو المصدر
-    اللي الـfrontend لاحقاً يرسم منه الهيستوغرام الأفقي (زي شارت TradingView)."""
+    اللي الـfrontend يرسم منه الهيستوغرام الأفقي (زي شارت TradingView)."""
     histogram = []
     for price_bin in sorted(volume_by_bin.keys()):
         total = volume_by_bin[price_bin]
@@ -196,9 +196,7 @@ def compute_micro_profile(candles: list, lookback_minutes: int = MICRO_LOOKBACK_
                            bin_size: float = MICRO_BIN_SIZE_DEFAULT) -> dict:
     """نسخة "مصغّرة" من Volume Profile، تحسب POC/VAH/VAL بس من آخر X دقيقة
     (مو الجلسة كاملة) — هاي البؤرة اللحظية اللي السكالبر فعلياً يحتاجها،
-    بجانب Session Profile الأوسع كسياق عام. تشتغل مع أي دقة شموع متوفرة
-    (1 دقيقة مفضّل للسكالب، وتتراجع تلقائياً لشموع 5 دقايق لو ما توفرت
-    بيانات 1 دقيقة بهالتشغيل)."""
+    بجانب Session Profile الأوسع كسياق عام."""
     if not candles:
         return {"available": False, "reason": "no_candles"}
 
@@ -240,12 +238,7 @@ def compute_volume_profile(price_snapshot: dict, symbol_key: str = "NASDAQ_FUTUR
                             bin_size: float = BIN_SIZE_DEFAULT,
                             micro_candles: list = None) -> dict:
     """نقطة الدخول الرئيسية: تاخد نفس snapshot الأسعار المستخدم بالمحرك الأساسي،
-    وترجع Developing POC/VAH/VAL + الحجم النسبي + موقع السعر الحالي + Micro Profile.
-
-    micro_candles (اختياري): شموع دقيقة واحدة طازجة (لو توفرت من تشغيل منفصل)
-    لحساب Micro Profile بدقة أعلى مخصصة للسكالب. لو ما انبعتت، يتراجع
-    تلقائياً لاستخدام نفس شموع الجلسة (5 دقايق) — النظام يشتغل بأي الحالتين،
-    بس بدقة أعلى لو توفرت بيانات الدقيقة."""
+    وترجع Developing POC/VAH/VAL + الحجم النسبي + موقع السعر الحالي + Micro Profile."""
     symbol_data = price_snapshot.get(symbol_key) if price_snapshot else None
     if not symbol_data or not symbol_data.get("candles"):
         return {
@@ -278,7 +271,6 @@ def compute_volume_profile(price_snapshot: dict, symbol_key: str = "NASDAQ_FUTUR
     location = classify_price_location(current_price, poc, val, vah)
     rel_volume = compute_relative_volume(all_candles)
 
-    # Micro Profile: نفضّل شموع 1 دقيقة الطازجة لو توفرت، وإلا نتراجع لشموع الجلسة نفسها
     micro_source = micro_candles if micro_candles else all_candles
     micro_source_label = "1m" if micro_candles else symbol_data.get("timeframe", "unknown")
     micro = compute_micro_profile(micro_source)

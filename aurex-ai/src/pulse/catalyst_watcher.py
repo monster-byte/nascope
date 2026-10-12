@@ -3,9 +3,6 @@ AUREX Pulse - Catalyst Watcher
 يفحص هل صدر "كاتاليست أساسي طازج" (خبر مهم أو بيان اقتصادي عالي الأهمية)
 بآخر دقايق قليلة — يعيد استخدام نفس NewsAPI والتقويم الاقتصادي الموجودين
 أصلاً بالمحرك الأساسي (AUREX AI)، بدون أي مصدر بيانات أو اشتراك إضافي.
-
-الفكرة: متداول فريم 5 دقايق محتاج يعرف "هل في شي جديد صار هلق بالضبط؟"
-مو ملخص عام لآخر 24 ساعة (هذا شغل news_factor.py الحالي بالمحرك الأساسي).
 """
 
 import os
@@ -66,8 +63,7 @@ def check_fresh_news(window_minutes: int = FRESH_WINDOW_MINUTES) -> dict:
 
 
 def check_fresh_calendar_event(calendar_payload: dict, window_minutes: int = FRESH_WINDOW_MINUTES) -> dict:
-    """يفحص هل صدر بيان اقتصادي عالي الأهمية بآخر X دقيقة، وهل كان أعلى/أقل من التوقعات
-    (نفس منطق التصنيف المستخدم بـ macro_factor.py، بدون تكرار الكود)."""
+    """يفحص هل صدر بيان اقتصادي عالي الأهمية بآخر X دقيقة، وهل كان أعلى/أقل من التوقعات."""
     events = calendar_payload.get("high_impact_events", []) if calendar_payload else []
     fresh = []
 
@@ -76,7 +72,7 @@ def check_fresh_calendar_event(calendar_payload: dict, window_minutes: int = FRE
         forecast = _parse_number(ev.get("forecast"))
         raw_date = ev.get("date")
         if actual is None or forecast is None or not raw_date:
-            continue  # لسا ما صدر البيان، أو ما فيه تاريخ واضح
+            continue
 
         dt = _parse_iso(raw_date)
         if dt is None:
