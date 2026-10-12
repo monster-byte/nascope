@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T01:31:09.194562+00:00",
+  "generated_at": "2026-10-12T01:45:49.277745+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.42,
+      "score": 50.27,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.12,
-        "change_5d_pct": -0.052
+        "current_dxy": 102.14,
+        "change_5d_pct": -0.033
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.79,
+      "score": 54.15,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.056,
+        "avg_compound": 0.083,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Battery Swap Uses Fewer Batteries Than You Think",
+            "source": "CleanTechnica",
+            "publishedAt": "2026-10-11T01:41:38Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Drought, ethanol demand squeeze meat retailers as feed costs rise",
             "source": "Livemint",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-10-11T00:08:55Z",
             "sentiment": "Negative",
             "compound": -0.459
-          },
-          {
-            "title": "Can CoreWeave Unseat Amazon Web Services as the Top Cloud Provider?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-11T00:06:28Z",
-            "sentiment": "Positive",
-            "compound": 0.361
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.42,
-  "trade_probability": 54.45,
+  "confirmation_score": 57.53,
+  "trade_probability": 54.52,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
