@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T09:45:50.178504+00:00",
+  "generated_at": "2026-10-12T10:01:22.557440+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -21,11 +21,11 @@
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.0019,
+          "change_pct": 0.0056,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.0262,
+          "change_pct": 0.0174,
           "up": true
         },
         "AMZN": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.68,
+      "score": 48.48,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.34,
-        "change_5d_pct": 0.164
+        "current_dxy": 102.36,
+        "change_5d_pct": 0.19
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.99,
+      "score": 50.94,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.04,
-        "articles_analyzed": 25,
+        "avg_compound": 0.019,
+        "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Ken Paxton’s security for travel cost taxpayers millions. Just 1 in 6 trips had stated business",
+            "source": "Salon",
+            "publishedAt": "2026-10-11T10:00:04Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
+          {
+            "title": "“Repeated And Persistent Supply-Side Shocks” Are Here To Stay",
+            "source": "Activistpost.com",
+            "publishedAt": "2026-10-11T10:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Voters have many reasons to be upset | Expert Opinion",
+            "source": "The Philadelphia Inquirer",
+            "publishedAt": "2026-10-11T09:50:56Z",
+            "sentiment": "Negative",
+            "compound": -0.382
+          },
+          {
+            "title": "Q2 earnings, inflation data, oil prices may drive stock markets this week",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-11T09:48:39Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Focus on actual payouts, not just claim settlement ratios: IRDAI Chairman",
             "source": "BusinessLine",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-11T09:42:28Z",
             "sentiment": "Negative",
             "compound": -0.34
-          },
-          {
-            "title": "Why Economists Think Higher Bond Yields Are Here to Stay",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-11T09:38:02Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Mainstream News Anchors Now Talking About the AI Bubble Bursting at Any Moment",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-11T09:38:02Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Q2 earnings, inflation data, oil prices to guide stock markets this week: Analysts",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-11T09:22:11Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "When Will Politicians Turn to MMT?",
-            "source": "Nakedcapitalism.com",
-            "publishedAt": "2026-10-11T09:00:22Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 63.58,
-  "trade_probability": 58.15,
+  "confirmation_score": 63.83,
+  "trade_probability": 58.3,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
