@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T02:01:18.302822+00:00",
+  "generated_at": "2026-10-12T02:15:57.250644+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -69,7 +69,7 @@
       "status": "yellow",
       "details": {
         "current_dxy": 102.14,
-        "change_5d_pct": -0.033
+        "change_5d_pct": -0.034
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.44,
+      "score": 55.27,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.109,
+        "avg_compound": 0.105,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "mrm-ai-detector added to PyPI",
+            "source": "Pypi.org",
+            "publishedAt": "2026-10-11T02:11:46Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "8th Pay Commission: Pensioners’ association seeks 3.833 fitment factor and 6% annual increments",
+            "source": "Livemint",
+            "publishedAt": "2026-10-11T02:01:17Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
           {
             "title": "California’s richest pensioners revealed as fat cats raking in $400K for doing nothing",
             "source": "New York Post",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-11T01:30:56Z",
             "sentiment": "Neutral",
             "compound": -0.128
-          },
-          {
-            "title": "2027: Opposition, APC clash over campaign funding",
-            "source": "The Punch",
-            "publishedAt": "2026-10-11T01:25:10Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Election 2026: Act promises big public spending cuts and cuts to aid to drive debt $12.4b lower – but no income tax cuts",
-            "source": "New Zealand Herald",
-            "publishedAt": "2026-10-11T01:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.81
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.65,
-  "trade_probability": 54.59,
+  "confirmation_score": 57.63,
+  "trade_probability": 54.58,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
