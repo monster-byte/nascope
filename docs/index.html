@@ -1,978 +1,496 @@
 <!DOCTYPE html>
-<html lang="ar" dir="ltr">
+<html lang="en" dir="ltr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Nascope - AI-Powered Trading Intelligence</title>
+<title>NAScope — AI Intraday Decision Engine</title>
 <script src="https://cdn.tailwindcss.com"></script>
-<script src="https://unpkg.com/lucide@latest"></script>
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/lightweight-charts@4.1.3/dist/lightweight-charts.standalone.production.js"></script>
 <style>
-    body { font-family: 'Inter', sans-serif; background-color: #f8fafc; }
-    ::-webkit-scrollbar { width: 6px; height: 6px; }
-    ::-webkit-scrollbar-thumb { background: #e2e8f0; border-radius: 4px; }
-    .skel { position: relative; overflow: hidden; background: #eef2f7; border-radius: 6px; color: transparent !important; }
-    .skel::after { content:""; position:absolute; inset:0; transform: translateX(-100%);
-        background: linear-gradient(90deg, transparent, rgba(255,255,255,.7), transparent);
-        animation: shimmer 1.3s infinite; }
-    @keyframes shimmer { 100% { transform: translateX(100%); } }
+  body { background:#f6f7f9; color:#0f172a; font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  .card { background:#fff; border:1px solid #e5e7eb; border-radius:14px; padding:18px; }
+  .row { display:flex; justify-content:space-between; align-items:center; padding:7px 0; font-size:13px; }
+  .lbl { color:#64748b; }
+  .pill { font-size:11px; padding:2px 10px; border-radius:999px; background:#ecfdf5; color:#059669; }
+  .pill-high { background:#fef2f2; color:#dc2626; }
+  .pill-med { background:#fff7ed; color:#ea580c; }
+  .g { color:#059669; } .r { color:#dc2626; } .a { color:#d97706; } .s { color:#64748b; }
+  .tab { font-size:13px; padding:6px 2px; margin-right:18px; color:#64748b; border-bottom:2px solid transparent; cursor:pointer; }
+  .tab.on { color:#0f172a; border-color:#0f172a; font-weight:600; }
+  .tf { font-size:12px; color:#64748b; padding:2px 8px; cursor:pointer; border-radius:6px; }
+  .tf.on { background:#0f172a; color:#fff; }
+  .step { border:1px solid #e5e7eb; border-radius:12px; padding:12px; min-width:0; }
+  .step h4 { font-size:12px; font-weight:600; margin-bottom:8px; }
+  .step .k { font-size:11px; color:#94a3b8; margin-top:6px; }
+  .step .v { font-size:12.5px; font-weight:500; }
+  hr.sep { border:0; border-top:1px solid #f1f5f9; }
+  #vp-wrap { position:relative; }
+  #vp-overlay { position:absolute; left:0; top:0; pointer-events:none; }
+  .dot { width:8px; height:8px; border-radius:999px; display:inline-block; }
+  @media (max-width: 1023px) { .chain { grid-template-columns: repeat(2, minmax(0,1fr)) !important; } }
 </style>
 </head>
-<body class="text-slate-800 p-4 md:p-6 min-h-screen">
+<body>
+<div class="max-w-[1500px] mx-auto px-4 py-4">
 
-<!-- Header -->
-<header class="flex flex-col md:flex-row md:items-center justify-between pb-6 border-b border-slate-200 mb-6 gap-4">
-    <div class="flex items-center gap-3">
-        <div class="bg-blue-600 text-white p-2.5 rounded-2xl flex items-center justify-center font-bold text-2xl w-12 h-12 shadow-md shadow-blue-500/20">
-            <i>N</i>
-        </div>
-        <div>
-            <h1 class="text-2xl font-bold tracking-tight text-slate-900">nascope</h1>
-            <p class="text-xs text-slate-500 font-medium">Smarter Analysis. Better Decisions.</p>
-        </div>
+  <!-- Header -->
+  <header class="card !py-3 mb-4 grid grid-cols-2 lg:grid-cols-6 gap-4 items-center">
+    <div class="col-span-2 lg:col-span-1">
+      <div class="text-2xl font-extrabold tracking-tight">NAScope</div>
+      <div class="text-xs text-slate-500">AI Intraday Decision Engine</div>
+    </div>
+    <div>
+      <div class="font-semibold text-sm">New York Session</div>
+      <div class="text-xs flex items-center gap-1"><span id="mkt-dot" class="dot bg-slate-400"></span><span id="mkt-text" class="s">--</span></div>
+    </div>
+    <div>
+      <div id="clock" class="font-semibold text-lg tabular-nums">--:--:--</div>
+      <div id="clock-tz" class="text-xs text-slate-500">New York</div>
+    </div>
+    <div>
+      <div class="text-xs text-slate-500">NASDAQ-100 (NQ)</div>
+      <div class="flex items-baseline gap-2"><span id="hd-price" class="text-xl font-bold tabular-nums">--</span><span id="hd-chg" class="text-xs">--</span></div>
+    </div>
+    <div>
+      <div class="text-xs text-slate-500">VXN</div>
+      <div class="flex items-baseline gap-2"><span id="hd-vxn" class="text-xl font-bold">--</span><span id="hd-vxn-reg" class="text-xs s">--</span></div>
+    </div>
+    <div>
+      <div class="text-xs text-slate-500">System Status</div>
+      <div class="text-sm font-semibold flex items-center gap-1"><span id="sys-dot" class="dot bg-slate-400"></span><span id="sys-text">Loading</span></div>
+      <div id="sys-sub" class="text-[11px] text-slate-400">--</div>
+    </div>
+  </header>
+
+  <div class="grid grid-cols-1 lg:grid-cols-12 gap-4">
+
+    <!-- LEFT: 1 + 2 -->
+    <div class="lg:col-span-3 space-y-4">
+      <section class="card">
+        <div class="flex justify-between items-center mb-3"><h2 class="font-bold">1. Macro &amp; News</h2><span class="pill">Live</span></div>
+        <div class="text-sm font-semibold mb-1">Today's Key Events</div>
+        <div id="events-list"></div>
+        <div class="text-sm font-semibold mt-4 mb-1">News Impact Analysis</div>
+        <div class="row"><span class="lbl">USD Impact</span><span id="ni-usd" class="font-medium">--</span></div>
+        <div class="row"><span class="lbl">Nasdaq Implication</span><span id="ni-nq" class="font-medium">--</span></div>
+        <div class="row"><span class="lbl">Overall Bias</span><span id="ni-bias" class="font-semibold">--</span></div>
+        <div class="text-sm font-semibold mt-3 mb-1">Analysis</div>
+        <p id="ni-text" class="text-[13px] text-slate-600 leading-relaxed" dir="auto">--</p>
+      </section>
+
+      <section class="card">
+        <h2 class="font-bold mb-3">2. USD Analysis</h2>
+        <div class="flex justify-between items-baseline"><span class="font-semibold">DXY</span><span id="dxy-price" class="text-xl font-bold tabular-nums">--</span></div>
+        <div id="dxy-chg" class="text-right text-xs mb-1">--</div>
+        <div id="dxy-chart" style="height:110px"></div>
+        <div class="row"><span class="lbl">Trend</span><span id="dxy-trend" class="font-medium">--</span></div>
+        <div class="row"><span class="lbl">Momentum</span><span id="dxy-mom" class="font-medium">--</span></div>
+        <div class="row"><span class="lbl">Impact on Nasdaq</span><span id="dxy-imp" class="font-medium">--</span></div>
+        <div class="row"><span class="lbl">Confidence (AUREX AI)</span><span id="dxy-conf" class="font-medium">--</span></div>
+        <div class="h-1.5 bg-slate-100 rounded-full mt-1"><div id="dxy-conf-bar" class="h-1.5 rounded-full bg-slate-800" style="width:0%"></div></div>
+      </section>
     </div>
 
-    <div class="flex items-center gap-8">
-        <div class="hidden lg:flex items-center gap-6 text-xs font-semibold text-slate-500">
-            <div class="flex items-center gap-1 text-blue-600 font-bold bg-blue-50 px-3 py-1.5 rounded-lg">
-                <span>AI-Powered Trading Intelligence</span>
-            </div>
-            <span>Market Analysis</span>
-            <span class="text-slate-300">•</span>
-            <span>Risk Management</span>
-            <span class="text-slate-300">•</span>
-            <span>Real-Time Insights</span>
+    <!-- MIDDLE: 3 + 5 -->
+    <div class="lg:col-span-6 space-y-4">
+      <section class="card">
+        <div class="flex justify-between items-center mb-2"><h2 class="font-bold">3. Market Structure <span class="font-normal text-slate-500">(AMT + Developing Volume Profile)</span></h2><span class="pill">Live</span></div>
+        <div class="flex border-b border-slate-100 mb-3">
+          <div class="tab on" data-tab="vp">Volume Profile</div>
+          <div class="tab" data-tab="ms">Market Structure</div>
+          <div class="tab" data-tab="kl">Key Levels</div>
         </div>
-
-        <div class="text-right border-l border-slate-200 pl-6 hidden sm:block">
-            <div id="live-date" class="text-xs font-semibold text-slate-700">-- --, ----</div>
-            <div class="text-xs text-slate-500 font-mono"><span id="live-clock">00:00:00</span> <span class="text-[10px] text-slate-400">(UTC)</span></div>
-            <div class="flex items-center justify-end gap-1.5 mt-0.5">
-                <span id="market-status-dot" class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-                <span id="market-status-text" class="text-[11px] font-medium text-emerald-600">--</span>
+        <div class="grid grid-cols-1 xl:grid-cols-3 gap-4">
+          <div class="xl:col-span-2">
+            <div id="pane-chart">
+              <div id="vp-wrap"><div id="amt-chart" style="height:340px"></div><canvas id="vp-overlay"></canvas></div>
+              <div id="amt-note" class="text-[11px] text-slate-400 mt-1"></div>
             </div>
+            <div id="pane-kl" class="hidden"></div>
+          </div>
+          <div class="space-y-3">
+            <div class="border border-slate-100 rounded-xl p-3">
+              <div class="font-semibold text-sm mb-1">Auction Market Theory</div>
+              <div class="row"><span class="lbl">State</span><span id="amt-state" class="font-medium">--</span></div>
+              <div class="row"><span class="lbl">Developing POC</span><span id="amt-poc" class="tabular-nums">--</span></div>
+              <div class="row"><span class="lbl">Developing VAH</span><span id="amt-vah" class="tabular-nums">--</span></div>
+              <div class="row"><span class="lbl">Developing VAL</span><span id="amt-val" class="tabular-nums">--</span></div>
+              <div class="row"><span class="lbl">Market Type</span><span id="amt-type" class="font-medium">--</span></div>
+            </div>
+            <div class="border border-slate-100 rounded-xl p-3">
+              <div class="font-semibold text-sm mb-1">Volume Profile</div>
+              <div class="row"><span class="lbl">POC Migration</span><span id="vp-mig" class="font-medium">--</span></div>
+              <div class="row"><span class="lbl">Value Area</span><span id="vp-va" class="font-medium">--</span></div>
+              <div class="row"><span class="lbl">Relative Volume</span><span id="vp-rel" class="font-medium">--</span></div>
+            </div>
+          </div>
         </div>
-    </div>
-</header>
+      </section>
 
-<!-- Data freshness / error banner -->
-<div id="data-banner" class="hidden mb-4 text-xs font-medium text-amber-800 bg-amber-50 border border-amber-200 rounded-lg px-3 py-2"></div>
+      <section class="card">
+        <h2 class="font-bold mb-3">5. Today's Decision Chain</h2>
+        <div id="chain" class="chain grid gap-2" style="grid-template-columns: repeat(7, minmax(0,1fr));"></div>
 
-<!-- Top Ticker Bar -->
-<div id="ticker-row" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 mb-6"></div>
-
-<!-- Main Content Area Grid -->
-<div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
-
-    <!-- Left Column -->
-    <div class="lg:col-span-2 space-y-6">
-
-        <!-- Main Chart Card -->
-        <div class="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-sm">
-            <div class="flex flex-wrap items-center justify-between gap-4 mb-4">
-                <div class="flex items-center gap-3">
-                    <h2 class="text-lg font-bold text-slate-900">NASDAQ 100 (NQ)</h2>
-                    <div id="chart-timeframe-badge" class="bg-slate-100 text-slate-600 px-2.5 py-1 rounded-md text-xs font-semibold">1D</div>
-                </div>
-                <div class="flex items-center gap-2">
-                    <button class="p-1.5 rounded-lg bg-blue-50 text-blue-600"><i data-lucide="trending-up" class="w-4 h-4"></i></button>
-                    <button class="p-1.5 rounded-lg text-slate-400 hover:bg-slate-100"><i data-lucide="activity" class="w-4 h-4"></i></button>
-                    <button class="p-1.5 rounded-lg text-slate-400 hover:bg-slate-100"><i data-lucide="settings" class="w-4 h-4"></i></button>
-                </div>
-            </div>
-
-            <div class="mb-4">
-                <span id="nq-main-price" class="text-2xl font-bold text-slate-900 skel">------</span>
-                <span id="nq-main-change" class="text-sm font-semibold ml-2 skel">------</span>
-            </div>
-
-            <div class="h-[360px] w-full relative">
-                <canvas id="mainChart"></canvas>
-            </div>
-        </div>
-
-        <!-- Bottom 3 Cards Grid -->
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-
-            <!-- Key Engines -->
-            <div class="bg-white p-4 rounded-xl border border-slate-200/80 shadow-sm flex flex-col justify-between">
-                <div>
-                    <h3 class="text-xs font-bold text-slate-700 mb-3">Key Engines (Nasdaq)</h3>
-                    <div id="engines-list" class="space-y-3"></div>
-                </div>
-                <p id="engines-note" class="text-[10px] text-slate-400 mt-4">--</p>
-            </div>
-
-            <!-- News & Analysis -->
-            <div class="bg-white p-4 rounded-xl border border-slate-200/80 shadow-sm flex flex-col justify-between">
-                <div>
-                    <h3 class="text-xs font-bold text-slate-700 mb-3">Economic News &amp; Analysis</h3>
-                    <div id="news-container" class="space-y-3 max-h-[190px] overflow-y-auto pr-1"></div>
-                </div>
-                <div class="text-[11px] font-semibold text-slate-400 flex items-center gap-1 mt-3">
-                    <span id="news-sentiment-summary">--</span>
-                </div>
-            </div>
-
-            <!-- Risk Management -->
-            <div class="bg-white p-4 rounded-xl border border-slate-200/80 shadow-sm flex flex-col justify-between">
-                <div>
-                    <div class="flex items-center gap-1.5 mb-3">
-                        <i data-lucide="shield-check" class="w-4 h-4 text-blue-600"></i>
-                        <h3 class="text-xs font-bold text-slate-700">Risk Management</h3>
-                    </div>
-                    <div id="risk-list" class="space-y-3 text-xs"></div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-    <!-- Right Column -->
-    <div class="space-y-6">
-
-        <!-- Nascope Decision Card -->
-        <div class="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-sm">
-            <div class="flex items-center justify-between mb-2">
-                <h3 class="text-base font-bold text-slate-900">Nascope Decision</h3>
-                <span id="signal-badge" class="bg-slate-100 text-slate-500 text-xs font-bold px-2.5 py-0.5 rounded-full">--</span>
-            </div>
-
-            <h4 id="signal-title" class="text-sm font-bold text-slate-800">--</h4>
-            <p id="signal-desc" class="text-xs text-slate-500 mb-4">--</p>
-
-            <!-- Action Box -->
-            <div class="bg-slate-50 border border-slate-200/60 rounded-xl p-4 mb-4">
-                <div class="flex items-center justify-between mb-3">
-                    <div class="flex items-center gap-2">
-                        <div id="action-icon-bg" class="w-8 h-8 bg-slate-400 text-white rounded-full flex items-center justify-center">
-                            <i id="action-icon" data-lucide="minus" class="w-5 h-5"></i>
-                        </div>
-                        <div>
-                            <span id="action-type" class="font-bold text-slate-500 text-lg leading-none">--</span>
-                            <div class="text-xs text-slate-500">Nasdaq 100 (NQ)</div>
-                        </div>
-                    </div>
-                    <div class="text-right">
-                        <div id="action-price" class="text-base font-bold text-slate-900">--</div>
-                    </div>
-                </div>
-
-                <div id="action-grid" class="grid grid-cols-3 gap-2 text-center pt-2 border-t border-slate-200/60 text-xs">
-                    <div>
-                        <div class="text-[10px] text-slate-400">Stop Loss</div>
-                        <div id="action-entry" class="font-semibold text-slate-700">--</div>
-                    </div>
-                    <div>
-                        <div class="text-[10px] text-slate-400">Target 1</div>
-                        <div id="action-tp1" class="font-semibold text-slate-700">--</div>
-                    </div>
-                    <div>
-                        <div class="text-[10px] text-slate-400">Target 2</div>
-                        <div id="action-tp2" class="font-semibold text-slate-700">--</div>
-                    </div>
-                </div>
-                <p id="action-reason" class="hidden text-[11px] text-slate-500 mt-3 pt-2 border-t border-slate-200/60 leading-relaxed"></p>
-            </div>
-
-            <!-- Win Rate / Risk Reward -->
-            <div class="grid grid-cols-2 gap-4 mb-4 text-xs">
-                <div>
-                    <div class="text-slate-400 text-[11px] mb-1">Trade Probability (AI)</div>
-                    <div id="win-rate-text" class="text-lg font-bold text-slate-900 mb-1">--%</div>
-                    <div class="w-full bg-slate-100 h-2 rounded-full">
-                        <div id="win-rate-bar" class="bg-blue-500 h-2 rounded-full" style="width:0%"></div>
-                    </div>
-                </div>
-                <div>
-                    <div class="text-slate-400 text-[11px] mb-1">Risk / Reward</div>
-                    <div id="risk-reward-text" class="text-lg font-bold text-slate-900">--</div>
-                    <div class="text-[10px] text-slate-400 mt-1" id="risk-reward-size">--</div>
-                </div>
-            </div>
-
-            <button id="execute-btn" class="w-full bg-slate-300 text-white font-bold py-3 px-4 rounded-xl flex items-center justify-center gap-2 cursor-not-allowed transition-all" disabled>
-                <i data-lucide="play" class="w-4 h-4 fill-white"></i>
-                <span id="execute-btn-text">Execute / Monitor</span>
-            </button>
-        </div>
-
-        <!-- Trade Efficiency / Confirmation Factors -->
-        <div class="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-sm">
-            <h3 class="text-xs font-bold text-slate-800 mb-4">Trade Efficiency</h3>
-            <div class="flex items-center justify-between gap-3">
-                <div class="w-28 h-28 relative flex items-center justify-center shrink-0">
-                    <canvas id="gaugeChart"></canvas>
-                    <div class="absolute text-center">
-                        <span id="efficiency-score" class="text-lg font-bold text-slate-900">--%</span>
-                        <div class="text-[9px] text-slate-400">Confirmation</div>
-                    </div>
-                </div>
-                <div id="factors-list" class="space-y-1.5 text-xs w-full"></div>
-            </div>
-        </div>
-
-        <!-- Market Sentiment -->
-        <div class="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-sm space-y-5">
+        <div class="grid grid-cols-1 md:grid-cols-5 gap-3 mt-4">
+          <div class="md:col-span-2 rounded-xl p-4 flex items-center gap-4" id="dec-box" style="background:#f1f5f9">
             <div>
-                <h3 class="text-xs font-bold text-slate-800 mb-3">Market Sentiment</h3>
-                <div class="w-full h-2.5 bg-slate-100 rounded-full flex overflow-hidden mb-2">
-                    <div id="sentiment-bullish-bar" class="bg-emerald-500 h-full" style="width:0%"></div>
-                    <div id="sentiment-neutral-bar" class="bg-slate-300 h-full" style="width:0%"></div>
-                    <div id="sentiment-bearish-bar" class="bg-rose-500 h-full" style="width:0%"></div>
-                </div>
-                <div class="flex justify-between text-[11px]">
-                    <span id="sentiment-bullish-text" class="text-emerald-600 font-semibold">Bullish --%</span>
-                    <span id="sentiment-neutral-text" class="text-slate-500 font-semibold">Neutral --%</span>
-                    <span id="sentiment-bearish-text" class="text-rose-500 font-semibold">Bearish --%</span>
-                </div>
+              <div class="text-[11px] font-semibold text-slate-500">AI DECISION</div>
+              <div id="dec-text" class="text-3xl font-extrabold">--</div>
             </div>
+          </div>
+          <div class="md:col-span-3 border border-slate-100 rounded-xl p-3">
+            <div class="text-[11px] font-semibold text-slate-500 mb-1">Key Factors</div>
+            <div id="factors" class="text-[12.5px] space-y-1"></div>
+          </div>
         </div>
+        <p id="dec-reason" class="text-[12.5px] text-slate-500 mt-3" dir="auto"></p>
 
-        <!-- Market Overview -->
-        <div class="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-sm">
-            <h3 class="text-xs font-bold text-slate-800 mb-3">Market Overview</h3>
-            <div id="market-overview-list" class="space-y-2.5 text-xs mb-4"></div>
-
-            <h3 class="text-xs font-bold text-slate-800 mb-2 pt-3 border-t border-slate-100">Latest Signals</h3>
-            <div id="latest-signals-list" class="space-y-2 text-xs"></div>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-3 mt-3 border border-slate-100 rounded-xl p-3">
+          <div><div class="text-[11px] text-slate-400">Entry</div><div id="p-entry" class="font-bold tabular-nums">--</div></div>
+          <div><div class="text-[11px] text-slate-400">Stop Loss</div><div id="p-sl" class="font-bold tabular-nums">--</div></div>
+          <div><div class="text-[11px] text-slate-400">Take Profit</div><div id="p-tp" class="font-bold tabular-nums">--</div></div>
+          <div><div class="text-[11px] text-slate-400">Risk / Reward</div><div id="p-rr" class="font-bold">--</div></div>
+          <div><div class="text-[11px] text-slate-400">Expected Holding Time</div><div id="p-hold" class="font-bold">--</div></div>
         </div>
-
+      </section>
     </div>
+
+    <!-- RIGHT: 4 + 6 + 7 -->
+    <div class="lg:col-span-3 space-y-4">
+      <section class="card">
+        <h2 class="font-bold mb-2">4. VXN <span class="font-normal text-slate-500">(Volatility Index)</span></h2>
+        <div class="flex gap-3 items-center">
+          <div class="relative" style="width:150px;height:92px">
+            <svg viewBox="0 0 160 100" width="150" height="92">
+              <path d="M 15 90 A 65 65 0 0 1 145 90" fill="none" stroke="#e2e8f0" stroke-width="14" stroke-linecap="round"/>
+              <path id="gauge-arc" d="M 15 90 A 65 65 0 0 1 145 90" fill="none" stroke="#10b981" stroke-width="14" stroke-linecap="round" stroke-dasharray="0 300"/>
+            </svg>
+            <div class="absolute inset-0 flex flex-col items-center justify-end pb-1"><div id="vxn-val" class="text-2xl font-extrabold leading-none">--</div><div id="vxn-reg" class="text-xs text-slate-500">--</div></div>
+          </div>
+          <div class="text-[12.5px] flex-1">
+            <div class="row !py-1"><span class="lbl">Regime</span><span id="vxn-r2" class="font-medium">--</span></div>
+            <div class="row !py-1"><span class="lbl">Impact on Setup</span><span id="vxn-imp" class="font-medium">--</span></div>
+            <div class="row !py-1"><span class="lbl">Trend</span><span id="vxn-trend" class="font-medium">--</span></div>
+          </div>
+        </div>
+        <div id="vxn-chart" style="height:90px" class="mt-2"></div>
+        <div class="font-semibold text-sm mt-2 mb-1">Volatility Check</div>
+        <div id="vol-check" class="text-[12.5px] space-y-1.5"></div>
+      </section>
+
+      <section class="card">
+        <div class="flex justify-between items-center mb-2"><h2 class="font-bold">6. Live Chart <span class="font-normal text-slate-500">(NQ)</span></h2></div>
+        <div class="flex gap-1 mb-2" id="tf-row">
+          <span class="tf on" data-tf="5">5m</span><span class="tf" data-tf="15">15m</span><span class="tf" data-tf="60">1h</span>
+        </div>
+        <div id="live-chart" style="height:230px"></div>
+      </section>
+
+      <section class="card">
+        <div class="flex justify-between items-center mb-2"><h2 class="font-bold">7. Current Setup</h2><span id="setup-pill" class="pill">--</span></div>
+        <div class="row"><span class="lbl">Direction</span><span id="s-dir" class="font-semibold">--</span></div>
+        <div class="row"><span class="lbl">Entry Zone</span><span id="s-entry" class="tabular-nums">--</span></div>
+        <div class="row"><span class="lbl">Stop Loss</span><span id="s-sl" class="tabular-nums">--</span></div>
+        <div class="row"><span class="lbl">Target 1</span><span id="s-t1" class="tabular-nums">--</span></div>
+        <div class="row"><span class="lbl">Target 2</span><span id="s-t2" class="tabular-nums">--</span></div>
+        <div class="row"><span class="lbl">Time Horizon</span><span id="s-hz" class="font-medium">--</span></div>
+      </section>
+    </div>
+  </div>
+
+  <!-- 8. Track Record footer -->
+  <section class="card mt-4">
+    <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-4 items-center">
+      <div class="col-span-2 lg:col-span-1"><div class="font-bold">Track Record</div><div class="text-xs text-slate-500">Scalping Performance (live-logged)</div></div>
+      <div><div class="text-[11px] text-slate-400">Total Trades</div><div id="tr-total" class="text-xl font-bold">--</div></div>
+      <div><div class="text-[11px] text-slate-400">Win Rate</div><div id="tr-win" class="text-xl font-bold">--</div></div>
+      <div><div class="text-[11px] text-slate-400">Avg. R</div><div class="text-xl font-bold text-slate-300">—</div></div>
+      <div><div class="text-[11px] text-slate-400">Profit Factor</div><div class="text-xl font-bold text-slate-300">—</div></div>
+      <div><div class="text-[11px] text-slate-400">Verification Window</div><div id="tr-win-min" class="text-xl font-bold">--</div></div>
+      <div><div class="text-[11px] text-slate-400">Max Drawdown</div><div class="text-xl font-bold text-slate-300">—</div></div>
+    </div>
+    <div id="tr-note" class="text-[11px] text-slate-400 mt-3"></div>
+  </section>
+
+  <p class="text-[11px] text-slate-400 text-center mt-4">Advisory only — not financial advice. No orders are executed by this system.</p>
 </div>
 
-<!-- AUREX Pulse — محرك استشاري منفصل تماماً، لا يدخل بالقرار الرسمي أعلاه -->
-<div class="mt-6 bg-white p-5 rounded-2xl border-2 border-dashed border-indigo-200 shadow-sm">
-    <div class="flex items-center justify-between mb-1">
-        <div class="flex items-center gap-2">
-            <span class="text-lg">⚡</span>
-            <h3 class="text-base font-bold text-indigo-900">Pulse — Intraday Assistant</h3>
-        </div>
-        <span id="pulse-alert-badge" class="text-xs font-bold px-2.5 py-0.5 rounded-full bg-slate-100 text-slate-500">--</span>
-    </div>
-    <p class="text-[11px] text-indigo-400 mb-4">استشاري فقط — مو جزء من قرار Nascope الرسمي أعلاه، بس سياق إضافي للتوقيت اللحظي (فريم 5 دقايق)</p>
-
-    <div class="grid grid-cols-2 md:grid-cols-5 gap-3 mb-4 text-center">
-        <div class="bg-indigo-50/60 rounded-lg p-2.5">
-            <div class="text-[10px] text-slate-400">VAH</div>
-            <div id="pulse-vah" class="text-sm font-bold text-slate-800">--</div>
-        </div>
-        <div class="bg-indigo-50/60 rounded-lg p-2.5">
-            <div class="text-[10px] text-slate-400">POC</div>
-            <div id="pulse-poc" class="text-sm font-bold text-slate-800">--</div>
-        </div>
-        <div class="bg-indigo-50/60 rounded-lg p-2.5">
-            <div class="text-[10px] text-slate-400">VAL</div>
-            <div id="pulse-val" class="text-sm font-bold text-slate-800">--</div>
-        </div>
-        <div class="bg-indigo-50/60 rounded-lg p-2.5">
-            <div class="text-[10px] text-slate-400">Rel. Volume</div>
-            <div id="pulse-relvol" class="text-sm font-bold text-slate-800">--</div>
-        </div>
-        <div class="bg-indigo-50/60 rounded-lg p-2.5">
-            <div class="text-[10px] text-slate-400">VXN (Fear)</div>
-            <div id="pulse-vxn" class="text-sm font-bold text-slate-800">--</div>
-        </div>
-    </div>
-
-    <div class="mb-4">
-        <div class="text-[11px] font-semibold text-indigo-400 mb-1.5">Session Volume Profile (من بداية الجلسة لحد الآن)</div>
-        <div id="pulse-histogram" class="space-y-[2px] max-h-56 overflow-y-auto bg-slate-50/50 rounded-lg p-2"></div>
-        <div class="flex items-center gap-3 mt-1.5 text-[10px] text-slate-400">
-            <span class="flex items-center gap-1"><span class="w-2 h-2 rounded-sm bg-emerald-400 inline-block"></span> حجم شرائي</span>
-            <span class="flex items-center gap-1"><span class="w-2 h-2 rounded-sm bg-rose-400 inline-block"></span> حجم بيعي</span>
-            <span class="flex items-center gap-1"><span class="w-2 h-2 rounded-sm bg-amber-300 inline-block"></span> POC</span>
-        </div>
-    </div>
-
-    <div id="pulse-micro-section" class="mb-4 hidden bg-purple-50/40 rounded-lg p-3 border border-purple-100">
-        <div class="text-[11px] font-bold text-purple-700 mb-2">⚡ Micro Profile — آخر ساعة (خاص بالسكالب)</div>
-        <div class="grid grid-cols-3 gap-2 text-center mb-2">
-            <div>
-                <div class="text-[9px] text-slate-400">VAH</div>
-                <div id="pulse-micro-vah" class="text-xs font-bold text-slate-800">--</div>
-            </div>
-            <div>
-                <div class="text-[9px] text-slate-400">POC</div>
-                <div id="pulse-micro-poc" class="text-xs font-bold text-slate-800">--</div>
-            </div>
-            <div>
-                <div class="text-[9px] text-slate-400">VAL</div>
-                <div id="pulse-micro-val" class="text-xs font-bold text-slate-800">--</div>
-            </div>
-        </div>
-        <div class="text-[10px] text-slate-500">موقع السعر لحظياً: <span id="pulse-micro-location" class="font-semibold text-purple-700">--</span></div>
-    </div>
-
-    <div class="flex items-center gap-2 mb-2">
-        <span id="pulse-location-badge" class="text-[11px] font-semibold px-2 py-0.5 rounded bg-slate-100 text-slate-500">--</span>
-        <span id="pulse-direction-badge" class="text-[11px] font-semibold px-2 py-0.5 rounded bg-slate-100 text-slate-500">--</span>
-    </div>
-    <p id="pulse-reason" class="text-xs text-slate-600 leading-relaxed">--</p>
-</div>
-
-<!-- Track Record — الأداء التاريخي الفعلي، مقيّم تلقائياً بعد 24 ساعة من كل قرار -->
-<div class="mt-6 bg-white p-5 rounded-2xl border border-slate-200/80 shadow-sm">
-    <div class="flex items-center justify-between mb-4">
-        <h3 class="text-base font-bold text-slate-900">📊 Track Record — الأداء الفعلي الموثّق</h3>
-        <span class="text-[10px] text-slate-400">تقييم آلي بعد 24 ساعة من كل قرار — بدون تدخل بشري</span>
-    </div>
-
-    <div class="grid grid-cols-3 gap-4 mb-4">
-        <div class="text-center">
-            <div id="tr-winrate" class="text-2xl md:text-3xl font-bold text-slate-400">--%</div>
-            <div class="text-[11px] text-slate-400 mt-0.5">نسبة النجاح</div>
-        </div>
-        <div class="text-center">
-            <div id="tr-graded" class="text-2xl md:text-3xl font-bold text-slate-900">--</div>
-            <div class="text-[11px] text-slate-400 mt-0.5">قرارات مُقيّمة</div>
-        </div>
-        <div class="text-center">
-            <div id="tr-total" class="text-2xl md:text-3xl font-bold text-slate-900">--</div>
-            <div class="text-[11px] text-slate-400 mt-0.5">إجمالي القرارات المسجّلة</div>
-        </div>
-    </div>
-
-    <div class="w-full bg-slate-100 h-2.5 rounded-full mb-5 overflow-hidden">
-        <div id="tr-winrate-bar" class="bg-slate-300 h-full transition-all" style="width:0%"></div>
-    </div>
-
-    <div class="text-[11px] font-semibold text-slate-500 mb-2">آخر القرارات المسجّلة</div>
-    <div id="tr-entries" class="space-y-1 text-xs max-h-64 overflow-y-auto"></div>
-</div>
-
-<footer class="text-center text-[10px] text-slate-400 mt-8 pb-2">
-    <span id="footer-generated">--</span>
-</footer>
-
-<!-- Scripts -->
 <script>
-lucide.createIcons();
-
-// ---------- Config ----------
-const DATA_BASE = 'data'; // relative to this file — matches the docs/data/ layout produced by the GitHub Action
-
-// ---------- Live UTC clock ----------
-function updateClock() {
-    const now = new Date();
-    document.getElementById('live-clock').innerText = now.toUTCString().slice(17, 25);
-    document.getElementById('live-date').innerText = now.toUTCString().slice(5, 16);
-
-    const day = now.getUTCDay();
-    const hour = now.getUTCHours() + now.getUTCMinutes() / 60;
-    // CME E-mini Nasdaq-100 trades ~Sun 23:00 UTC to Fri 22:00 UTC, with a daily 1h maintenance break ~22:00-23:00 UTC
-    const isWeekday = day >= 1 && day <= 5;
-    const open = isWeekday || (day === 0 && hour >= 23);
-    const dot = document.getElementById('market-status-dot');
-    const text = document.getElementById('market-status-text');
-    if (open) {
-        dot.className = 'w-2 h-2 rounded-full bg-emerald-500 animate-pulse';
-        text.className = 'text-[11px] font-medium text-emerald-600';
-        text.innerText = 'Market Open';
-    } else {
-        dot.className = 'w-2 h-2 rounded-full bg-slate-400';
-        text.className = 'text-[11px] font-medium text-slate-500';
-        text.innerText = 'Market Closed';
-    }
-}
-setInterval(updateClock, 1000);
-updateClock();
-
-// ---------- Helpers ----------
-const fmtNum = (n, d = 2) => (n === null || n === undefined || isNaN(n)) ? '--' : Number(n).toLocaleString('en-US', { minimumFractionDigits: d, maximumFractionDigits: d });
-const fmtPct = (n, d = 2) => (n === null || n === undefined || isNaN(n)) ? '--' : `${n >= 0 ? '+' : ''}${Number(n).toFixed(d)}%`;
-const pctClass = (n) => (n === null || n === undefined || isNaN(n)) ? 'text-slate-400' : (n >= 0 ? 'text-emerald-500' : 'text-rose-500');
-const pctBg = (n) => (n === null || n === undefined || isNaN(n)) ? 'bg-slate-50' : (n >= 0 ? 'bg-emerald-50' : 'bg-rose-50');
-
-function timeAgo(iso) {
-    if (!iso) return '--';
-    const diffMs = Date.now() - new Date(iso).getTime();
-    const mins = Math.round(diffMs / 60000);
-    if (mins < 1) return 'just now';
-    if (mins < 60) return `${mins}m ago`;
-    const hrs = Math.round(mins / 60);
-    if (hrs < 24) return `${hrs}h ago`;
-    return `${Math.round(hrs / 24)}d ago`;
-}
-
-async function loadJSON(path) {
-    try {
-        const res = await fetch(`${DATA_BASE}/${path}?t=${Date.now()}`, { cache: 'no-store' });
-        if (!res.ok) throw new Error(res.status);
-        return await res.json();
-    } catch (e) {
-        console.warn('Failed to load', path, e);
-        return null;
-    }
-}
-
-// ---------- Ticker bar ----------
-const TICKER_ICONS = {
-    NASDAQ_FUTURES: { label: 'NASDAQ 100', badge: 'NQ', bg: 'bg-blue-600 text-white' },
-    AAPL: { label: 'AAPL', icon: 'apple', bg: 'bg-slate-100 text-slate-800' },
-    MSFT: { label: 'MSFT', icon: 'layout-grid', bg: 'bg-slate-100 text-blue-500' },
-    NVDA: { label: 'NVDA', icon: 'cpu', bg: 'bg-slate-100 text-emerald-600' },
-    VXN: { label: 'VXN', badge: 'VXN', bg: 'bg-slate-800 text-white' },
+const DATA_BASE = 'data';
+const $ = (id) => document.getElementById(id);
+const fmt = (n, d = 2) => (n === null || n === undefined || isNaN(n)) ? '--' : Number(n).toLocaleString('en-US', { minimumFractionDigits: d, maximumFractionDigits: d });
+const setText = (id, t, cls) => { const e = $(id); if (!e) return; e.textContent = t; if (cls !== undefined) e.className = (e.dataset.base || '') + ' ' + cls; };
+const LABEL = {
+  BULLISH:'Bullish', BEARISH:'Bearish', NEUTRAL:'Neutral', SLIGHTLY_BULLISH:'Slightly Bullish', SLIGHTLY_BEARISH:'Slightly Bearish',
+  SUPPORTIVE:'Supportive', PRESSURING:'Pressuring', STRENGTHENING:'Strengthening', WEAKENING:'Weakening', REVERSING:'Reversing', FLAT:'Flat',
+  ACCEPTANCE:'Acceptance', TESTING_BOUNDARY:'Testing Boundary', IMBALANCE_UP:'Imbalance (Up)', IMBALANCE_DOWN:'Imbalance (Down)',
+  UP:'Up', DOWN:'Down', STABLE:'Stable', EXPANDING:'Expanding', CONTRACTING:'Contracting', RISING:'Rising', FALLING:'Falling',
+  NORMAL:'Normal', LOW:'Low', HIGH:'High', UNKNOWN:'--'
 };
+const L = (k) => LABEL[k] || (k ? String(k) : '--');
+const tone = (k) => ({ BULLISH:'g', SLIGHTLY_BULLISH:'g', SUPPORTIVE:'g', UP:'g', BEARISH:'r', SLIGHTLY_BEARISH:'r', PRESSURING:'r', DOWN:'r', NEUTRAL:'s', STABLE:'s', FLAT:'s' }[k] || 's');
+const span = (k, text) => `<span class="${tone(k)}">${text ?? L(k)}</span>`;
 
-function renderTicker(prices) {
-    const row = document.getElementById('ticker-row');
-    row.innerHTML = '';
-    Object.entries(TICKER_ICONS).forEach(([key, cfg]) => {
-        const d = prices ? prices[key] : null;
-        const chg = d ? d.change_pct : null;
-        const iconHtml = cfg.badge
-            ? `<div class="w-8 h-8 rounded-full ${cfg.bg} font-bold text-xs flex items-center justify-center">${cfg.badge}</div>`
-            : `<div class="w-8 h-8 rounded-full ${cfg.bg} font-bold text-xs flex items-center justify-center"><i data-lucide="${cfg.icon}" class="w-4 h-4"></i></div>`;
-        row.innerHTML += `
-        <div class="bg-white p-3.5 rounded-xl border border-slate-200/80 shadow-sm flex items-center justify-between">
-            <div class="flex items-center gap-2.5">
-                ${iconHtml}
-                <div>
-                    <div class="text-xs font-bold text-slate-800">${cfg.label}</div>
-                    <div class="text-sm font-semibold">${d ? fmtNum(d.last_price) : '--'}</div>
-                </div>
-            </div>
-            <span class="text-xs font-semibold ${pctClass(chg)} ${pctBg(chg)} px-1.5 py-0.5 rounded">${fmtPct(chg)}</span>
-        </div>`;
+async function loadJSON(p) {
+  try { const r = await fetch(`${DATA_BASE}/${p}?t=${Date.now()}`, { cache: 'no-store' }); if (!r.ok) throw 0; return await r.json(); }
+  catch (e) { return null; }
+}
+
+// ---- time helpers: show New York wall-clock time on charts ----
+function chartTime(iso) {
+  const ms = Date.parse(iso);
+  const m = /([+-])(\d\d):?(\d\d)$/.exec(iso);
+  const off = m ? (m[1] === '-' ? -1 : 1) * (parseInt(m[2]) * 3600 + parseInt(m[3]) * 60) : 0;
+  return Math.floor(ms / 1000) + off;
+}
+function nyNow() {
+  const parts = new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York', hour12: false, hour: '2-digit', minute: '2-digit', second: '2-digit', weekday: 'short' }).formatToParts(new Date());
+  const g = (t) => parts.find(p => p.type === t).value;
+  return { h: parseInt(g('hour')) % 24, m: parseInt(g('minute')), s: g('second'), wd: g('weekday') };
+}
+function tickClock() {
+  const n = nyNow();
+  $('clock').textContent = `${String(n.h).padStart(2,'0')}:${String(n.m).padStart(2,'0')}:${n.s}`;
+  const mins = n.h * 60 + n.m, weekday = !['Sat','Sun'].includes(n.wd);
+  const open = weekday && mins >= 570 && mins < 960;
+  $('mkt-dot').className = 'dot ' + (open ? 'bg-emerald-500' : 'bg-slate-400');
+  $('mkt-text').textContent = open ? 'Market Open' : 'Outside NY Session';
+  $('mkt-text').className = open ? 'g' : 's';
+}
+setInterval(tickClock, 1000); tickClock();
+
+// ---- chart helpers ----
+const chartOpts = (h) => ({
+  height: h, layout: { background: { color: '#ffffff' }, textColor: '#64748b', fontSize: 11 },
+  grid: { vertLines: { color: '#f1f5f9' }, horzLines: { color: '#f1f5f9' } },
+  rightPriceScale: { borderColor: '#e2e8f0' }, timeScale: { borderColor: '#e2e8f0', timeVisible: true, secondsVisible: false },
+  crosshair: { mode: 0 }, autoSize: true
+});
+function toCandles(arr) {
+  return arr.map(c => ({ time: chartTime(c.time), open: c.open, high: c.high, low: c.low, close: c.close }))
+            .filter((c, i, a) => i === 0 || c.time > a[i - 1].time);
+}
+function aggregate(arr, mins) {
+  if (mins === 5) return arr;
+  const out = []; const bucket = mins * 60; let cur = null;
+  for (const c of arr) {
+    const t = Math.floor(c.time / bucket) * bucket;
+    if (!cur || cur.time !== t) { cur = { time: t, open: c.open, high: c.high, low: c.low, close: c.close }; out.push(cur); }
+    else { cur.high = Math.max(cur.high, c.high); cur.low = Math.min(cur.low, c.low); cur.close = c.close; }
+  }
+  return out;
+}
+function miniArea(el, series, color) {
+  el.innerHTML = '';
+  if (!series || series.length < 3) { el.innerHTML = '<div class="text-xs text-slate-400 pt-8 text-center">No intraday series yet</div>'; return; }
+  const ch = LightweightCharts.createChart(el, { ...chartOpts(el.clientHeight || 100), rightPriceScale: { visible: false }, leftPriceScale: { visible: false }, grid: { vertLines: { visible: false }, horzLines: { visible: false } }, timeScale: { visible: false }, handleScroll: false, handleScale: false, crosshair: { mode: 0 } });
+  const s = ch.addAreaSeries({ lineColor: color, topColor: color + '40', bottomColor: color + '00', lineWidth: 2, priceLineVisible: false });
+  const data = series.map(p => ({ time: chartTime(p.time), value: p.value })).filter((c, i, a) => i === 0 || c.time > a[i - 1].time);
+  s.setData(data); ch.timeScale().fitContent();
+}
+
+// ---- main state ----
+let amtChart, amtSeries, liveChart, liveSeries, DATA = {}, NQ_ALL = [], SESSION = [], tab = 'vp';
+
+function drawOverlay() {
+  const cv = $('vp-overlay'), host = $('amt-chart');
+  if (!amtSeries || !host) return;
+  cv.width = host.clientWidth; cv.height = host.clientHeight; cv.style.width = cv.width + 'px'; cv.style.height = cv.height + 'px';
+  const ctx = cv.getContext('2d'); ctx.clearRect(0, 0, cv.width, cv.height);
+  if (tab === 'kl') return;
+  const vp = DATA.pulse && DATA.pulse.volume_profile; if (!vp) return;
+  const src = tab === 'ms' ? (vp.micro_profile && vp.micro_profile.available ? vp.micro_profile : null) : vp;
+  const hist = src && src.histogram; if (!hist || !hist.length) return;
+  const maxV = Math.max(...hist.map(h => h.total_volume)); const maxW = cv.width * 0.28;
+  for (const h of hist) {
+    const y1 = amtSeries.priceToCoordinate(h.price_high), y2 = amtSeries.priceToCoordinate(h.price_low);
+    if (y1 === null || y2 === null) continue;
+    const w = (h.total_volume / maxV) * maxW, inVA = h.price_low >= src.val - 0.01 && h.price_high <= src.vah + 0.01;
+    ctx.fillStyle = inVA ? 'rgba(100,116,139,0.28)' : 'rgba(148,163,184,0.20)';
+    ctx.fillRect(0, y1 + 0.5, w, Math.max(1, (y2 - y1) - 1));
+  }
+}
+
+function buildAmtChart() {
+  const host = $('amt-chart'); host.innerHTML = '';
+  amtChart = LightweightCharts.createChart(host, chartOpts(340));
+  amtSeries = amtChart.addCandlestickSeries({ upColor: '#10b981', downColor: '#ef4444', borderVisible: false, wickUpColor: '#10b981', wickDownColor: '#ef4444' });
+  amtSeries.setData(toCandles(SESSION));
+  const vp = DATA.pulse && DATA.pulse.volume_profile;
+  if (vp) {
+    const src = tab === 'ms' && vp.micro_profile && vp.micro_profile.available ? vp.micro_profile : vp;
+    [['VAH', src.vah, '#3b82f6', 2], ['POC', src.poc, '#64748b', 1], ['VAL', src.val, '#10b981', 2]].forEach(([t, p, c, st]) => {
+      if (p != null) amtSeries.createPriceLine({ price: p, color: c, lineWidth: 1, lineStyle: st, axisLabelVisible: true, title: `${t} ${fmt(p, 0)}` });
     });
-    lucide.createIcons();
+  }
+  amtChart.timeScale().fitContent();
+  amtChart.timeScale().subscribeVisibleLogicalRangeChange(() => requestAnimationFrame(drawOverlay));
+  new ResizeObserver(() => requestAnimationFrame(drawOverlay)).observe(host);
+  setTimeout(drawOverlay, 80);
+  $('amt-note').textContent = tab === 'ms' ? 'Micro profile — last 60 min (1m candles).' : 'Developing profile for the current CME session (volume spread evenly over each 5m candle — approximation, no tick data).';
 }
 
-// ---------- Main chart ----------
-let mainChart;
-function renderChart(prices) {
-    const nq = prices ? (prices.NASDAQ_FUTURES || prices.NASDAQ_100_INDEX) : null;
-    const priceEl = document.getElementById('nq-main-price');
-    const changeEl = document.getElementById('nq-main-change');
-    priceEl.classList.remove('skel');
-    changeEl.classList.remove('skel');
-
-    if (!nq) {
-        priceEl.innerText = 'N/A';
-        changeEl.innerText = '';
-        return;
-    }
-
-    priceEl.innerText = fmtNum(nq.last_price);
-    changeEl.innerText = `${nq.change >= 0 ? '+' : ''}${fmtNum(nq.change)} (${fmtPct(nq.change_pct)})`;
-    changeEl.className = `text-sm font-semibold ml-2 ${pctClass(nq.change_pct)}`;
-    document.getElementById('chart-timeframe-badge').innerText = nq.timeframe || '1D';
-
-    // Downsample candles for a clean line (keep ~120 points)
-    const candles = nq.candles || [];
-    const step = Math.max(1, Math.floor(candles.length / 120));
-    const sampled = candles.filter((_, i) => i % step === 0);
-    const labels = sampled.map(c => {
-        const dt = new Date(c.time);
-        return dt.toLocaleString('en-US', { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit', hour12: false });
-    });
-    const closes = sampled.map(c => c.close);
-
-    const isUp = nq.change >= 0;
-    const lineColor = isUp ? '#10b981' : '#f43f5e';
-
-    const ctx = document.getElementById('mainChart').getContext('2d');
-    const gradient = ctx.createLinearGradient(0, 0, 0, 320);
-    gradient.addColorStop(0, isUp ? 'rgba(16,185,129,0.18)' : 'rgba(244,63,94,0.18)');
-    gradient.addColorStop(1, isUp ? 'rgba(16,185,129,0)' : 'rgba(244,63,94,0)');
-
-    if (mainChart) mainChart.destroy();
-    mainChart = new Chart(ctx, {
-        type: 'line',
-        data: { labels, datasets: [{ data: closes, borderColor: lineColor, borderWidth: 2, fill: true, backgroundColor: gradient, tension: 0.3, pointRadius: 0 }] },
-        options: {
-            responsive: true, maintainAspectRatio: false,
-            plugins: { legend: { display: false }, tooltip: { callbacks: { title: (items) => items[0].label } } },
-            scales: {
-                x: { grid: { display: false }, ticks: { maxTicksLimit: 7, color: '#94a3b8', font: { size: 10 } } },
-                y: { position: 'right', grid: { color: '#f1f5f9' }, ticks: { color: '#94a3b8', font: { size: 10 } } }
-            }
-        }
-    });
+function buildLiveChart(mins) {
+  const host = $('live-chart'); host.innerHTML = '';
+  liveChart = LightweightCharts.createChart(host, chartOpts(230));
+  liveSeries = liveChart.addCandlestickSeries({ upColor: '#10b981', downColor: '#ef4444', borderVisible: false, wickUpColor: '#10b981', wickDownColor: '#ef4444' });
+  liveSeries.setData(aggregate(toCandles(NQ_ALL), mins));
+  liveChart.timeScale().fitContent();
 }
 
-// ---------- Key engines (mega caps) ----------
-const ENGINE_META = {
-    AAPL: { icon: 'apple', cls: 'text-slate-800' },
-    MSFT: { icon: 'layout-grid', cls: 'text-blue-500' },
-    NVDA: { icon: 'cpu', cls: 'text-emerald-600' },
-    AMZN: { icon: 'shopping-bag', cls: 'text-orange-500' },
-};
+function showTab(t) {
+  tab = t;
+  document.querySelectorAll('.tab').forEach(e => e.classList.toggle('on', e.dataset.tab === t));
+  $('pane-chart').classList.toggle('hidden', t === 'kl'); $('pane-kl').classList.toggle('hidden', t !== 'kl');
+  if (t !== 'kl') buildAmtChart();
+}
+document.querySelectorAll('.tab').forEach(e => e.addEventListener('click', () => showTab(e.dataset.tab)));
+document.querySelectorAll('.tf').forEach(e => e.addEventListener('click', () => {
+  document.querySelectorAll('.tf').forEach(x => x.classList.remove('on')); e.classList.add('on'); buildLiveChart(parseInt(e.dataset.tf));
+}));
 
-function renderEngines(prices, megaAlignmentFactor) {
-    const list = document.getElementById('engines-list');
-    list.innerHTML = '';
-    let upCount = 0, total = 0;
-    Object.entries(ENGINE_META).forEach(([sym, meta]) => {
-        const d = prices ? prices[sym] : null;
-        const detail = megaAlignmentFactor && megaAlignmentFactor.details ? megaAlignmentFactor.details[sym] : null;
-        const up = detail ? detail.up : (d ? d.change_pct >= 0 : null);
-        if (up !== null) { total++; if (up) upCount++; }
-        const statusIcon = up === null ? '<i data-lucide="minus" class="w-4 h-4 text-slate-300"></i>'
-            : up ? '<i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-500"></i>'
-                 : '<i data-lucide="x-circle" class="w-4 h-4 text-rose-500"></i>';
-        list.innerHTML += `
-        <div class="flex items-center justify-between text-xs">
-            <div class="flex items-center gap-2">
-                <i data-lucide="${meta.icon}" class="w-3.5 h-3.5 ${meta.cls}"></i>
-                <span class="font-semibold">${sym}</span>
-            </div>
-            <div class="text-right">
-                <div class="font-semibold">${d ? fmtNum(d.last_price) : '--'}</div>
-                <div class="text-[10px] font-medium ${pctClass(d ? d.change_pct : null)}">${d ? fmtPct(d.change_pct) : '--'}</div>
-            </div>
-            ${statusIcon}
-        </div>`;
-    });
-    const note = document.getElementById('engines-note');
-    if (total === 0) note.innerText = 'No mega-cap data available.';
-    else if (upCount === total) note.innerText = 'All mega-caps are aligned with the index.';
-    else if (upCount === 0) note.innerText = 'All mega-caps are trading against the index.';
-    else note.innerText = `${upCount} of ${total} mega-caps trading higher.`;
-    lucide.createIcons();
+// ---- renderers ----
+function renderHeader(p, prices) {
+  const nq = prices && prices.NASDAQ_FUTURES;
+  if (nq) {
+    $('hd-price').textContent = fmt(nq.last_price);
+    const c = nq.change_pct; $('hd-chg').textContent = `${nq.change >= 0 ? '▲' : '▼'} ${fmt(nq.change)} (${c >= 0 ? '+' : ''}${fmt(c)}%)`;
+    $('hd-chg').className = 'text-xs ' + (c >= 0 ? 'g' : 'r');
+  }
+  const v = p && p.vxn && p.vxn.details && p.vxn.details.current_vxn;
+  $('hd-vxn').textContent = v != null ? fmt(v, 1) : '--';
+  $('hd-vxn-reg').textContent = p && p.vxn_view ? L(p.vxn_view.regime) : '--';
+  const gen = p && p.generated_at; const ageMin = gen ? Math.round((Date.now() - Date.parse(gen)) / 60000) : null;
+  const ok = ageMin !== null && ageMin < 20;
+  $('sys-dot').className = 'dot ' + (ok ? 'bg-emerald-500' : 'bg-amber-500');
+  $('sys-text').textContent = !p ? 'No data' : (ok ? 'Scanning' : 'Stale data');
+  $('sys-sub').textContent = ageMin === null ? '--' : `Pulse updated ${ageMin < 1 ? 'just now' : ageMin + 'm ago'}`;
 }
 
-// ---------- News panel (from news_sentiment factor) ----------
-function renderNews(newsFactor) {
-    const box = document.getElementById('news-container');
-    const summary = document.getElementById('news-sentiment-summary');
-    const headlines = newsFactor && newsFactor.details ? newsFactor.details.top_headlines || [] : [];
-    if (!headlines.length) {
-        box.innerHTML = '<p class="text-[11px] text-slate-400">No recent headlines available.</p>';
-        summary.innerText = '--';
-        return;
-    }
-    box.innerHTML = headlines.slice(0, 6).map(h => {
-        const t = h.publishedAt ? new Date(h.publishedAt).toUTCString().slice(17, 22) : '--:--';
-        const sentColor = h.sentiment === 'Positive' ? 'text-emerald-500' : h.sentiment === 'Negative' ? 'text-rose-500' : 'text-slate-400';
-        return `
-        <div class="flex gap-2 text-[11px]">
-            <span class="text-slate-400 font-mono shrink-0">${t}</span>
-            <div>
-                <p class="font-semibold text-slate-800 leading-tight">${h.title}</p>
-                <p class="text-[10px] ${sentColor}">${h.source || ''} · ${h.sentiment || 'Neutral'}</p>
-            </div>
-        </div>`;
-    }).join('');
-    if (newsFactor && newsFactor.details) {
-        summary.innerText = `Overall: ${newsFactor.details.overall_sentiment} · ${newsFactor.details.articles_analyzed} articles`;
-    }
+function renderMacro(p) {
+  const ev = (p && p.key_events) || [];
+  $('events-list').innerHTML = ev.length ? ev.map(e => `
+    <div class="row border-b border-slate-50"><span class="text-slate-400 w-12">${e.time}</span><span class="flex-1 px-2">${e.title}</span>
+    <span class="pill ${e.impact === 'High' ? 'pill-high' : 'pill-med'}">${e.impact}</span></div>`).join('')
+    : '<div class="text-[13px] text-slate-400 py-2">No key USD events today.</div>';
+  const u = p && p.usd_analysis, na = p && p.news_analysis;
+  $('ni-usd').innerHTML = u && u.available ? span(u.trend) : '--';
+  $('ni-nq').innerHTML = u && u.available ? span(u.nasdaq_impact) : '--';
+  $('ni-bias').innerHTML = na ? span(na.overall_bias) : '--';
+  $('ni-text').textContent = na && na.text ? na.text : '--';
 }
 
-// ---------- Risk Management panel ----------
-function renderRisk(risk) {
-    const list = document.getElementById('risk-list');
-    list.innerHTML = '';
-    if (!risk) { list.innerHTML = '<p class="text-slate-400">No risk data available.</p>'; return; }
-
-    const ov = risk.risk_overview || {};
-    const pos = risk.position_sizing || {};
-    const rows = [];
-
-    if (pos.tradeable) {
-        rows.push({ label: 'Risk per Trade', value: `${fmtNum(pos.risk_per_trade_pct, 1)}%`, pct: Math.min(100, (pos.risk_per_trade_pct || 0) / 3 * 100), color: 'bg-blue-500' });
-        rows.push({ label: 'Position Size', value: `${fmtNum(pos.recommended_size_contracts, 2)} contracts`, pct: Math.min(100, (pos.recommended_size_contracts || 0) * 10), color: 'bg-emerald-500' });
-    } else {
-        rows.push({ label: 'Position Size', value: 'No active setup', pct: 0, color: 'bg-slate-300' });
-    }
-
-    rows.push({ label: 'Daily Risk Budget', value: `${fmtNum(ov.daily_risk_budget_pct, 2)}%`, pct: Math.min(100, (ov.daily_risk_budget_pct || 0) / 3 * 100), color: 'bg-blue-500' });
-    rows.push({ label: 'VaR (95%, 1D)', value: `${fmtNum(ov.var_95_pct, 2)}%`, pct: Math.min(100, (ov.var_95_pct || 0) / 5 * 100), color: 'bg-emerald-500' });
-    rows.push({ label: 'Portfolio Beta', value: fmtNum(ov.portfolio_beta, 2), pct: Math.min(100, (ov.portfolio_beta || 0) / 2 * 100), color: 'bg-blue-500' });
-    rows.push({ label: `Correlation Risk (${ov.correlation_risk || 'N/A'})`, value: ov.avg_mega_cap_correlation != null ? fmtNum(ov.avg_mega_cap_correlation, 2) : 'N/A', pct: Math.min(100, ((ov.avg_mega_cap_correlation || 0)) * 100), color: 'bg-amber-500' });
-
-    list.innerHTML = rows.map(r => `
-        <div>
-            <div class="flex justify-between text-[11px] mb-1">
-                <span class="text-slate-500">${r.label}</span>
-                <span class="font-semibold">${r.value}</span>
-            </div>
-            <div class="w-full bg-slate-100 h-1.5 rounded-full">
-                <div class="${r.color} h-1.5 rounded-full" style="width:${r.pct}%"></div>
-            </div>
-        </div>`).join('');
+function renderUsd(p) {
+  const u = p && p.usd_analysis; if (!u || !u.available) return;
+  $('dxy-price').textContent = fmt(u.price);
+  $('dxy-chg').textContent = `${u.change >= 0 ? '+' : ''}${fmt(u.change, 3)} (${u.change_pct >= 0 ? '+' : ''}${fmt(u.change_pct)}%)`;
+  $('dxy-chg').className = 'text-right text-xs mb-1 ' + (u.change_pct >= 0 ? 'g' : 'r');
+  miniArea($('dxy-chart'), u.series, u.change_pct >= 0 ? '#10b981' : '#ef4444');
+  $('dxy-trend').innerHTML = span(u.trend); $('dxy-mom').innerHTML = span(u.momentum);
+  $('dxy-imp').innerHTML = span(u.nasdaq_impact);
+  $('dxy-conf').textContent = u.confidence != null ? `${fmt(u.confidence, 0)} / 100` : '--';
+  $('dxy-conf-bar').style.width = (u.confidence || 0) + '%';
 }
 
-// ---------- Decision card ----------
-const STATUS_CFG = {
-    'APPROVED': { badge: 'GO', badgeCls: 'bg-emerald-100 text-emerald-700', title: 'High Probability Trade', desc: 'All key engines are aligned. Market conditions are favorable.' },
-    'HOLD / MONITOR': { badge: 'HOLD', badgeCls: 'bg-amber-100 text-amber-700', title: 'Monitor the Setup', desc: 'Confirmation is building but not complete yet. Wait for a clearer signal.' },
-    'REJECT': { badge: 'AVOID', badgeCls: 'bg-rose-100 text-rose-700', title: 'No Trade Signal', desc: 'Key engines are not aligned. Conditions are unfavorable right now.' },
-};
-
-function renderDecision(signal, risk) {
-    const decision = signal ? signal.final_decision : null;
-    const status = decision ? decision.ai_status : null;
-    const bias = decision ? decision.directional_bias : null;
-    const cfg = STATUS_CFG[status] || { badge: '--', badgeCls: 'bg-slate-100 text-slate-500', title: 'Awaiting Data', desc: 'Signal engine data is not available yet.' };
-
-    const badge = document.getElementById('signal-badge');
-    badge.innerText = cfg.badge;
-    badge.className = `${cfg.badgeCls} text-xs font-bold px-2.5 py-0.5 rounded-full`;
-    document.getElementById('signal-title').innerText = cfg.title;
-    document.getElementById('signal-desc').innerText = cfg.desc;
-
-    const pos = risk ? risk.position_sizing : null;
-    const isLong = bias === 'LONG';
-    const isShort = bias === 'SHORT';
-    const actionType = document.getElementById('action-type');
-    const actionIconBg = document.getElementById('action-icon-bg');
-    const actionIcon = document.getElementById('action-icon');
-    const actionReason = document.getElementById('action-reason');
-    const actionGrid = document.getElementById('action-grid');
-    const execBtn = document.getElementById('execute-btn');
-    const execText = document.getElementById('execute-btn-text');
-
-    if (pos && pos.tradeable && (isLong || isShort)) {
-        actionType.innerText = isLong ? 'BUY' : 'SELL';
-        actionType.className = `font-bold text-lg leading-none ${isLong ? 'text-emerald-600' : 'text-rose-600'}`;
-        actionIconBg.className = `w-8 h-8 ${isLong ? 'bg-emerald-500' : 'bg-rose-500'} text-white rounded-full flex items-center justify-center`;
-        actionIcon.setAttribute('data-lucide', isLong ? 'arrow-up' : 'arrow-down');
-        document.getElementById('action-price').innerText = fmtNum(pos.entry_price);
-        document.getElementById('action-entry').innerText = fmtNum(pos.stop_loss_price);
-        document.getElementById('action-tp1').innerText = fmtNum(pos.take_profit_1);
-        document.getElementById('action-tp2').innerText = fmtNum(pos.take_profit_2);
-        actionGrid.classList.remove('hidden');
-        actionReason.classList.add('hidden');
-        document.getElementById('risk-reward-text').innerText = `1 : ${fmtNum(pos.risk_reward_tp1, 1)}`;
-        document.getElementById('risk-reward-size').innerText = `${fmtNum(pos.recommended_size_contracts, 2)} × ${pos.instrument || 'MNQ'}`;
-
-        execBtn.disabled = false;
-        execBtn.className = `w-full ${isLong ? 'bg-emerald-500 hover:bg-emerald-600 shadow-emerald-500/20' : 'bg-rose-500 hover:bg-rose-600 shadow-rose-500/20'} text-white font-bold py-3 px-4 rounded-xl flex items-center justify-center gap-2 shadow-lg transition-all`;
-        execText.innerText = 'Execute / Monitor';
-    } else {
-        actionType.innerText = 'WAIT';
-        actionType.className = 'font-bold text-lg leading-none text-slate-500';
-        actionIconBg.className = 'w-8 h-8 bg-slate-400 text-white rounded-full flex items-center justify-center';
-        actionIcon.setAttribute('data-lucide', 'minus');
-        document.getElementById('action-price').innerText = signal ? fmtNum((risk && risk.position_sizing) ? risk.position_sizing.entry_price : null) : '--';
-        actionGrid.classList.add('hidden');
-        actionReason.classList.remove('hidden');
-        actionReason.innerText = (pos && pos.reason) ? pos.reason : 'No tradeable setup right now.';
-        document.getElementById('risk-reward-text').innerText = '--';
-        document.getElementById('risk-reward-size').innerText = '--';
-
-        execBtn.disabled = true;
-        execBtn.className = 'w-full bg-slate-200 text-slate-400 font-bold py-3 px-4 rounded-xl flex items-center justify-center gap-2 cursor-not-allowed transition-all';
-        execText.innerText = 'No Setup Available';
-    }
-
-    const prob = signal ? signal.trade_probability : null;
-    document.getElementById('win-rate-text').innerText = prob != null ? `${fmtNum(prob, 0)}%` : '--%';
-    document.getElementById('win-rate-bar').style.width = `${prob || 0}%`;
-    document.getElementById('win-rate-bar').className = `h-2 rounded-full ${prob >= 60 ? 'bg-emerald-500' : prob >= 45 ? 'bg-amber-500' : 'bg-rose-500'}`;
-
-    lucide.createIcons();
+function renderAmt(p) {
+  const vp = p && p.volume_profile, ms = p && p.market_structure; if (!vp) return;
+  $('amt-state').innerHTML = `<span class="dot bg-emerald-500 mr-1"></span>${L(ms && ms.amt_state)}`;
+  $('amt-poc').textContent = fmt(vp.poc, 0); $('amt-vah').textContent = fmt(vp.vah, 0); $('amt-val').textContent = fmt(vp.val, 0);
+  const st = ms && ms.amt_state;
+  $('amt-type').textContent = st === 'IMBALANCE_UP' ? 'Imbalance (Up)' : st === 'IMBALANCE_DOWN' ? 'Imbalance (Down)' : st === 'ACCEPTANCE' ? 'Balanced' : st === 'TESTING_BOUNDARY' ? 'Testing Edge' : '--';
+  $('vp-mig').innerHTML = span(ms && ms.poc_migration); $('vp-va').innerHTML = span(ms && ms.value_area_trend);
+  $('vp-rel').textContent = vp.relative_volume_pct != null ? vp.relative_volume_pct + '%' : '--';
+  const rows = [['VAH', vp.vah], ['POC', vp.poc], ['VAL', vp.val]];
+  const mp = vp.micro_profile && vp.micro_profile.available ? vp.micro_profile : null;
+  $('pane-kl').innerHTML = `<table class="w-full text-sm"><thead><tr class="text-left text-slate-400 text-xs"><th class="py-2">Level</th><th>Session</th><th>Micro (60m)</th></tr></thead><tbody>` +
+    rows.map(([n, v]) => `<tr class="border-t border-slate-100"><td class="py-2 font-medium">${n}</td><td class="tabular-nums">${fmt(v, 1)}</td><td class="tabular-nums">${mp ? fmt(mp[n.toLowerCase()], 1) : '--'}</td></tr>`).join('') +
+    `<tr class="border-t border-slate-100"><td class="py-2 font-medium">Price</td><td class="tabular-nums" colspan="2">${fmt(vp.current_price, 2)}</td></tr></tbody></table>`;
 }
 
-// ---------- Trade efficiency gauge + factor list ----------
-let gaugeChart;
-const FACTOR_LABELS = {
-    mega_cap_alignment: 'Mega-Cap Alignment',
-    market_regime: 'Market Regime',
-    vxn: 'Volatility (VXN)',
-    us10y: 'US 10Y Yield',
-    dxy: 'US Dollar (DXY)',
-    macro: 'Macro Calendar',
-    news_sentiment: 'News Sentiment',
-    patent_momentum: 'Patent Filing Momentum (USPTO)',
-};
-const STATUS_ICON = {
-    green: '<i data-lucide="check-circle" class="w-3.5 h-3.5 text-emerald-500 shrink-0"></i>',
-    yellow: '<i data-lucide="alert-circle" class="w-3.5 h-3.5 text-amber-500 shrink-0"></i>',
-    red: '<i data-lucide="x-circle" class="w-3.5 h-3.5 text-rose-500 shrink-0"></i>',
-};
-
-function renderEfficiency(signal) {
-    const score = signal ? signal.confirmation_score : null;
-    document.getElementById('efficiency-score').innerText = score != null ? `${fmtNum(score, 0)}%` : '--%';
-    const color = score >= 70 ? '#10b981' : score >= 50 ? '#f59e0b' : '#f43f5e';
-
-    const ctx = document.getElementById('gaugeChart').getContext('2d');
-    if (gaugeChart) gaugeChart.destroy();
-    gaugeChart = new Chart(ctx, {
-        type: 'doughnut',
-        data: { datasets: [{ data: [score || 0, 100 - (score || 0)], backgroundColor: [color, '#f1f5f9'], borderWidth: 0 }] },
-        options: { responsive: true, cutout: '80%', plugins: { tooltip: { enabled: false } } }
-    });
-
-    const list = document.getElementById('factors-list');
-    const factors = signal ? signal.factors : null;
-    if (!factors) { list.innerHTML = '<p class="text-slate-400 text-xs">No factor data.</p>'; return; }
-    list.innerHTML = Object.entries(FACTOR_LABELS).map(([key, label]) => {
-        const f = factors[key];
-        const status = f ? f.status : 'yellow';
-        return `<div class="flex items-center gap-2">
-            ${STATUS_ICON[status] || STATUS_ICON.yellow}
-            <span class="text-slate-600">${label}</span>
-        </div>`;
-    }).join('');
-    lucide.createIcons();
+function renderVxn(p) {
+  const vv = p && p.vxn_view, v = p && p.vxn && p.vxn.details && p.vxn.details.current_vxn;
+  if (v == null) return;
+  $('vxn-val').textContent = fmt(v, 1); $('vxn-reg').textContent = L(vv && vv.regime); $('vxn-r2').textContent = L(vv && vv.regime);
+  const frac = Math.max(0, Math.min(1, v / 50)); const total = Math.PI * 65;
+  const arc = $('gauge-arc'); arc.setAttribute('stroke-dasharray', `${(frac * total).toFixed(1)} 300`);
+  arc.setAttribute('stroke', vv && vv.regime === 'NORMAL' ? '#10b981' : '#f59e0b');
+  const st = p.vxn.status; $('vxn-imp').innerHTML = st === 'red' ? '<span class="r">Against longs</span>' : '<span class="s">Neutral</span>';
+  $('vxn-trend').innerHTML = span(vv && vv.trend);
+  miniArea($('vxn-chart'), vv && vv.series, '#10b981');
+  const vc = p.volatility_check;
+  const item = (ok, t) => `<div class="flex gap-2 items-center"><span class="${ok ? 'g' : 'r'}">${ok ? '✔' : '✖'}</span><span>${t}</span></div>`;
+  $('vol-check').innerHTML = vc && vc.available
+    ? item(vc.not_too_low, 'Not too low (avoid false breakouts)') + item(vc.not_too_high, 'Not too high (avoid whipsaws)') + item(vc.trading_conditions_acceptable, 'Trading conditions acceptable')
+    : '<div class="text-slate-400">VXN data unavailable</div>';
 }
 
-// ---------- Market sentiment bar (weighted by factor status) ----------
-function renderSentiment(signal) {
-    const factors = signal ? signal.factors : null;
-    const weights = signal ? signal.weights : null;
-    let bull = 0, neutral = 0, bear = 0;
-    if (factors && weights) {
-        Object.entries(weights).forEach(([key, w]) => {
-            const status = factors[key] ? factors[key].status : 'yellow';
-            if (status === 'green') bull += w;
-            else if (status === 'red') bear += w;
-            else neutral += w;
-        });
-        const total = bull + neutral + bear || 1;
-        bull = Math.round((bull / total) * 100);
-        bear = Math.round((bear / total) * 100);
-        neutral = 100 - bull - bear;
-    } else {
-        bull = neutral = bear = 0;
-    }
-    document.getElementById('sentiment-bullish-bar').style.width = `${bull}%`;
-    document.getElementById('sentiment-neutral-bar').style.width = `${neutral}%`;
-    document.getElementById('sentiment-bearish-bar').style.width = `${bear}%`;
-    document.getElementById('sentiment-bullish-text').innerText = `Bullish ${bull}%`;
-    document.getElementById('sentiment-neutral-text').innerText = `Neutral ${neutral}%`;
-    document.getElementById('sentiment-bearish-text').innerText = `Bearish ${bear}%`;
+function checkIcon(v) { return v === true ? '<span class="g text-lg">✔</span>' : v === false ? '<span class="r text-lg">✖</span>' : '<span class="text-slate-300 text-lg">—</span>'; }
+function renderChain(p) {
+  const f = p && p.fusion, g = (f && f.gates) || {}, dc = p && p.daily_context || {}, u = p && p.usd_analysis || {}, ms = p && p.market_structure || {}, vv = p && p.vxn_view || {}, br = p && p.breakout || {}, vp = p && p.volume_profile || {};
+  const usdOk = u.nasdaq_impact === 'SUPPORTIVE' ? true : u.nasdaq_impact === 'PRESSURING' ? false : null;
+  const BRL = { confirmed_up: 'Bullish breakout', confirmed_down: 'Bearish breakout', failed_fakeout: 'Fake-out rejected', pending_confirmation: 'Pending', no_breakout: 'No breakout', outside_ny_session: 'Outside session', no_session_data: 'No data', no_levels: 'No levels', insufficient_candles: 'Few candles' };
+  const steps = [
+    ['1', 'Macro & News', [['USD Impact', span(u.trend)], ['Nasdaq Implication', span(u.nasdaq_impact)]], usdOk],
+    ['2', 'USD Analysis', [['Trend', span(u.trend)], ['Momentum', span(u.momentum)]], usdOk],
+    ['3', 'Nasdaq Bias', [['Intraday Bias', span(dc.direction)], ['Confidence', dc.confirmation_score != null ? `${fmt(dc.confirmation_score, 0)} / 100` : '--']], g.gate1_context ? g.gate1_context.passed : null],
+    ['4', 'AMT Structure', [['State', L(ms.amt_state)], ['Location', (vp.price_location || '--').replace(/_/g, ' ').toLowerCase()]], g.gate2_amt_location ? g.gate2_amt_location.passed : null],
+    ['5', 'Volume Profile', [['POC Migration', span(ms.poc_migration)], ['Profile', span(ms.value_area_trend)]], null],
+    ['6', 'VXN', [['Regime', L(vv.regime)], ['Impact', p && p.vxn && p.vxn.status === 'red' ? '<span class="r">Against longs</span>' : '<span class="s">Neutral</span>']], g.gate4_vxn ? g.gate4_vxn.passed : null],
+    ['7', 'NY Confirmation', [['Session', br.in_ny_session ? 'In session' : 'Closed'], ['Price Action', BRL[br.status] || br.status || '--']], g.gate3_breakout ? g.gate3_breakout.passed : null]
+  ];
+  $('chain').innerHTML = steps.map(([n, t, kv, ok]) => `
+    <div class="step"><h4><span class="text-slate-400">${n}</span> ${t}</h4>
+      ${kv.map(([k, v]) => `<div class="k">${k}</div><div class="v">${v}</div>`).join('')}
+      <div class="mt-2 text-center">${checkIcon(ok)}</div></div>`).join('');
+
+  // decision (read straight from the fusion engine — nothing computed here)
+  const sig = f && f.final_signal;
+  const map = { SCALP_BULLISH: ['LONG ↗', '#ecfdf5', '#059669'], SCALP_BEARISH: ['SHORT ↘', '#fef2f2', '#dc2626'], SETUP_INCOMPLETE: ['WAIT', '#fffbeb', '#d97706'], NO_SETUP: ['NO SETUP', '#f1f5f9', '#475569'] };
+  const m = map[sig] || ['--', '#f1f5f9', '#475569'];
+  $('dec-text').textContent = m[0]; $('dec-text').style.color = m[2]; $('dec-box').style.background = m[1];
+  const fk = (ok, t, v) => `<div class="flex justify-between"><span>${checkIcon(ok).replace('text-lg', '')} ${t}</span><span class="text-slate-500">${v}</span></div>`;
+  $('factors').innerHTML =
+    fk(g.gate1_context && g.gate1_context.passed, 'Macro / Daily Bias', L(dc.direction)) +
+    fk(g.gate2_amt_location && g.gate2_amt_location.passed, 'AMT Location', L(ms.amt_state)) +
+    fk(g.gate3_breakout && g.gate3_breakout.passed, 'NY Breakout Confirmation', BRL[br.status] || '--') +
+    fk(g.gate4_vxn && g.gate4_vxn.passed, 'VXN', L(vv.regime));
+  $('dec-reason').textContent = (f && f.reason) || '';
+
+  // position (from scalp_position — computed by backend)
+  const sp = p && p.scalp_position;
+  if (sp && sp.available) {
+    const rr = sp.risk_reward_tp2 ? `1 : ${sp.risk_reward_tp2}` : '--';
+    $('p-entry').textContent = fmt(sp.entry); $('p-sl').textContent = fmt(sp.stop_loss); $('p-tp').textContent = fmt(sp.take_profit_1); $('p-rr').textContent = `1 : ${sp.risk_reward_tp1} / ${rr}`; $('p-hold').textContent = '2 – 10 min';
+    $('s-dir').textContent = sp.direction === 'LONG' ? 'Long' : 'Short'; $('s-dir').className = 'font-semibold ' + (sp.direction === 'LONG' ? 'g' : 'r');
+    $('s-entry').textContent = fmt(sp.entry); $('s-sl').textContent = fmt(sp.stop_loss); $('s-t1').textContent = fmt(sp.take_profit_1); $('s-t2').textContent = fmt(sp.take_profit_2); $('s-hz').textContent = '2 – 10 min';
+    $('setup-pill').textContent = sp.direction === 'LONG' ? 'Long Setup' : 'Short Setup';
+  } else {
+    ['p-entry','p-sl','p-tp','p-rr','p-hold','s-dir','s-entry','s-sl','s-t1','s-t2','s-hz'].forEach(id => { $(id).textContent = '--'; });
+    $('s-dir').className = 'font-semibold'; $('setup-pill').textContent = 'No active setup';
+  }
 }
 
-// ---------- Market overview + latest signals ----------
-function renderMarketOverview(prices) {
-    const list = document.getElementById('market-overview-list');
-    const rows = [
-        ['NASDAQ 100 (Index)', 'NASDAQ_100_INDEX'],
-        ['NASDAQ 100 (Futures)', 'NASDAQ_FUTURES'],
-        ['DXY (USD Index)', 'DXY'],
-        ['VXN (Volatility)', 'VXN'],
-        ['US 10Y Yield', 'US10Y'],
-    ];
-    list.innerHTML = rows.map(([label, key]) => {
-        const d = prices ? prices[key] : null;
-        return `<div class="flex justify-between items-center">
-            <span class="text-slate-500">${label}</span>
-            <span class="font-semibold flex items-center gap-2">
-                ${d ? fmtNum(d.last_price) : '--'}
-                <span class="${pctClass(d ? d.change_pct : null)} text-[11px]">${d ? fmtPct(d.change_pct) : '--'}</span>
-            </span>
-        </div>`;
-    }).join('');
-}
-
-const SIGNAL_BADGE_CLS = {
-    'APPROVED': 'bg-emerald-100 text-emerald-700',
-    'HOLD / MONITOR': 'bg-amber-100 text-amber-700',
-    'REJECT': 'bg-rose-100 text-rose-700',
-};
-
-function renderLatestSignals(track) {
-    const list = document.getElementById('latest-signals-list');
-    const entries = track ? (track.recent_entries || []) : [];
-    if (!entries.length) { list.innerHTML = '<p class="text-slate-400">No signals logged yet.</p>'; return; }
-    list.innerHTML = entries.slice(0, 4).map(e => {
-        const cls = SIGNAL_BADGE_CLS[e.ai_status] || 'bg-slate-100 text-slate-500';
-        return `<div class="flex items-center justify-between">
-            <div class="flex items-center gap-2">
-                <i data-lucide="activity" class="w-3.5 h-3.5 text-slate-400"></i>
-                <span class="font-medium text-slate-600">${e.directional_bias}</span>
-            </div>
-            <div class="flex items-center gap-2">
-                <span class="${cls} text-[10px] font-bold px-2 py-0.5 rounded">${e.ai_status}</span>
-                <span class="text-slate-400 text-[10px]">${timeAgo(e.timestamp)}</span>
-            </div>
-        </div>`;
-    }).join('');
-    lucide.createIcons();
-}
-
-// ---------- Pulse (advisory only — منفصل تماماً عن القرار الرسمي) ----------
-const PULSE_ALERT_CFG = {
-    HIGH_ATTENTION: { text: 'انتباه عالي', cls: 'bg-orange-100 text-orange-700' },
-    MODERATE_ATTENTION: { text: 'انتباه متوسط', cls: 'bg-amber-100 text-amber-700' },
-    LOW_ATTENTION: { text: 'هادئ', cls: 'bg-slate-100 text-slate-500' },
-};
-const PULSE_LOCATION_LABELS = {
-    NEAR_VAH: 'قريب من VAH', NEAR_VAL: 'قريب من VAL', NEAR_POC: 'قريب من POC',
-    ABOVE_VALUE_AREA: 'فوق منطقة القيمة', BELOW_VALUE_AREA: 'تحت منطقة القيمة',
-    INSIDE_VALUE_AREA: 'داخل منطقة القيمة', UNKNOWN: '--',
-};
-const PULSE_DIRECTION_CFG = {
-    BULLISH_LEAN: { text: 'ميل صعودي', cls: 'bg-emerald-100 text-emerald-700' },
-    BEARISH_LEAN: { text: 'ميل هبوطي', cls: 'bg-rose-100 text-rose-700' },
-    MIXED: { text: 'إشارات متضاربة', cls: 'bg-slate-100 text-slate-500' },
-    NEUTRAL: { text: 'محايد', cls: 'bg-slate-100 text-slate-500' },
-};
-
-function renderPulse(pulse) {
-    const vp = pulse ? pulse.volume_profile : null;
-    const fusion = pulse ? pulse.fusion : null;
-    const vxn = pulse ? pulse.vxn : null;
-
-    document.getElementById('pulse-vah').innerText = vp && vp.vah != null ? fmtNum(vp.vah, 1) : '--';
-    document.getElementById('pulse-poc').innerText = vp && vp.poc != null ? fmtNum(vp.poc, 1) : '--';
-    document.getElementById('pulse-val').innerText = vp && vp.val != null ? fmtNum(vp.val, 1) : '--';
-    document.getElementById('pulse-relvol').innerText = vp && vp.relative_volume_pct != null ? `${vp.relative_volume_pct}%` : '--';
-
-    const vxnEl = document.getElementById('pulse-vxn');
-    const currentVxn = vxn && vxn.details ? vxn.details.current_vxn : null;
-    vxnEl.innerText = currentVxn != null ? fmtNum(currentVxn, 1) : '--';
-    vxnEl.className = 'text-sm font-bold ' + (
-        vxn && vxn.status === 'red' ? 'text-rose-600' :
-        vxn && vxn.status === 'green' ? 'text-emerald-600' : 'text-slate-800'
-    );
-
-    const locBadge = document.getElementById('pulse-location-badge');
-    const loc = vp ? vp.price_location : 'UNKNOWN';
-    locBadge.innerText = PULSE_LOCATION_LABELS[loc] || loc || '--';
-
-    const alertBadge = document.getElementById('pulse-alert-badge');
-    const alertCfg = PULSE_ALERT_CFG[fusion ? fusion.alert_level : null] || { text: '--', cls: 'bg-slate-100 text-slate-500' };
-    alertBadge.innerText = alertCfg.text;
-    alertBadge.className = `text-xs font-bold px-2.5 py-0.5 rounded-full ${alertCfg.cls}`;
-
-    const dirBadge = document.getElementById('pulse-direction-badge');
-    const dirCfg = PULSE_DIRECTION_CFG[fusion ? fusion.directional_hint : null] || PULSE_DIRECTION_CFG.NEUTRAL;
-    dirBadge.innerText = dirCfg.text;
-    dirBadge.className = `text-[11px] font-semibold px-2 py-0.5 rounded ${dirCfg.cls}`;
-
-    document.getElementById('pulse-reason').innerText = fusion && fusion.reason ? fusion.reason : 'لا توجد بيانات Pulse متوفرة بعد.';
-
-    renderPulseHistogram(vp);
-    renderPulseMicro(vp);
-}
-
-
-// ---------- Pulse histogram + micro profile ----------
-function renderPulseHistogram(vp) {
-    const container = document.getElementById('pulse-histogram');
-    const histogram = vp && vp.histogram ? vp.histogram : [];
-    if (!histogram.length) {
-        container.innerHTML = '<p class="text-slate-400 text-[10px] p-2">لا توجد بيانات هيستوغرام متوفرة بعد (استنى أول تشغيل لمحرك Pulse).</p>';
-        return;
-    }
-    const maxVol = Math.max(...histogram.map(h => h.total_volume), 1);
-    const binSize = vp.bin_size_points || 6;
-    const pocBinLow = vp.poc != null ? vp.poc - binSize / 2 : null;
-    const rows = [...histogram].reverse(); // أعلى سعر فوق
-
-    container.innerHTML = rows.map(h => {
-        const buyPct = (h.buy_volume / maxVol) * 100;
-        const sellPct = (h.sell_volume / maxVol) * 100;
-        const isPoc = pocBinLow != null && Math.abs(h.price_low - pocBinLow) < 0.01;
-        return `<div class="flex items-center gap-1.5 text-[10px] ${isPoc ? 'bg-amber-50 rounded' : ''}">
-            <span class="w-14 text-right text-slate-500 font-mono shrink-0">${fmtNum(h.price_low, 0)}</span>
-            <div class="flex-1 flex h-3 rounded-sm overflow-hidden bg-slate-100">
-                <div class="bg-emerald-400" style="width:${buyPct}%"></div>
-                <div class="bg-rose-400" style="width:${sellPct}%"></div>
-            </div>
-            ${isPoc ? '<span class="text-amber-600 font-bold shrink-0 w-7">POC</span>' : '<span class="w-7 shrink-0"></span>'}
-        </div>`;
-    }).join('');
-}
-
-function renderPulseMicro(vp) {
-    const section = document.getElementById('pulse-micro-section');
-    const micro = vp && vp.micro_profile ? vp.micro_profile : null;
-    if (!micro || !micro.available) {
-        section.classList.add('hidden');
-        return;
-    }
-    section.classList.remove('hidden');
-    document.getElementById('pulse-micro-vah').innerText = micro.vah != null ? fmtNum(micro.vah, 1) : '--';
-    document.getElementById('pulse-micro-poc').innerText = micro.poc != null ? fmtNum(micro.poc, 1) : '--';
-    document.getElementById('pulse-micro-val').innerText = micro.val != null ? fmtNum(micro.val, 1) : '--';
-    document.getElementById('pulse-micro-location').innerText = micro.price_location || '--';
-}
-
-// ---------- Track Record (الأداء الفعلي الموثّق) ----------
-const TR_OUTCOME_BADGE = {
-    correct: (e) => `<span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-emerald-100 text-emerald-700">✓ صحيح (${e.price_change_pct >= 0 ? '+' : ''}${e.price_change_pct}%)</span>`,
-    incorrect: (e) => `<span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-rose-100 text-rose-700">✗ خطأ (${e.price_change_pct >= 0 ? '+' : ''}${e.price_change_pct}%)</span>`,
-    not_graded: () => `<span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-slate-100 text-slate-400">محايد — غير مقيّم</span>`,
-};
-
-function renderTrackRecord(track) {
-    const winrateEl = document.getElementById('tr-winrate');
-    const gradedEl = document.getElementById('tr-graded');
-    const totalEl = document.getElementById('tr-total');
-    const barEl = document.getElementById('tr-winrate-bar');
-    const entriesEl = document.getElementById('tr-entries');
-
-    if (!track) {
-        entriesEl.innerHTML = '<p class="text-slate-400">لا توجد بيانات Track Record متوفرة بعد.</p>';
-        return;
-    }
-
-    const winRate = track.win_rate_pct;
-    winrateEl.innerText = winRate != null ? `${winRate}%` : '--%';
-    winrateEl.className = `text-2xl md:text-3xl font-bold ${winRate == null ? 'text-slate-400' : winRate >= 50 ? 'text-emerald-600' : 'text-rose-600'}`;
-    gradedEl.innerText = track.graded_signals ?? '--';
-    totalEl.innerText = track.total_signals_logged ?? '--';
-    barEl.style.width = `${winRate ?? 0}%`;
-    barEl.className = `h-full transition-all ${winRate == null ? 'bg-slate-300' : winRate >= 50 ? 'bg-emerald-500' : 'bg-rose-500'}`;
-
-    const entries = track.recent_entries || [];
-    if (!entries.length) {
-        entriesEl.innerHTML = '<p class="text-slate-400">لا توجد قرارات مسجّلة بعد.</p>';
-        return;
-    }
-
-    entriesEl.innerHTML = entries.map(e => {
-        const badgeFn = !e.verified ? null : TR_OUTCOME_BADGE[e.outcome];
-        const outcomeBadge = !e.verified
-            ? '<span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-slate-100 text-slate-400">قيد التقييم (24 ساعة)</span>'
-            : (badgeFn ? badgeFn(e) : TR_OUTCOME_BADGE.not_graded());
-        const biasColor = e.directional_bias === 'LONG' ? 'text-emerald-600' : e.directional_bias === 'SHORT' ? 'text-rose-600' : 'text-slate-500';
-        return `<div class="flex items-center justify-between py-1.5 border-b border-slate-50 last:border-0">
-            <div class="flex items-center gap-2">
-                <span class="font-semibold ${biasColor}">${e.directional_bias}</span>
-                <span class="text-slate-400">@ ${fmtNum(e.entry_price)}</span>
-            </div>
-            <div class="flex items-center gap-2">
-                ${outcomeBadge}
-                <span class="text-slate-400 text-[10px]">${timeAgo(e.timestamp)}</span>
-            </div>
-        </div>`;
-    }).join('');
+function renderTrack(p) {
+  const t = p && p.scalp_track_record; if (!t) return;
+  $('tr-total').textContent = t.total_signals_logged ?? '--';
+  $('tr-win').textContent = t.win_rate_pct != null ? t.win_rate_pct + '%' : '—';
+  $('tr-win-min').textContent = (t.verification_window_minutes || '--') + ' min';
+  $('tr-note').textContent = `${t.graded_signals || 0} graded · ${t.pending_signals || 0} pending · ${t.flat_signals || 0} flat. Each signal is logged live and verified ${t.verification_window_minutes} min later. Avg R / Profit Factor / Max Drawdown are not computed yet.`;
 }
 
 async function init() {
-    const [prices, signal, risk, track, pulse] = await Promise.all([
-        loadJSON('prices/snapshot_1D.json'),
-        loadJSON('signal/signal_snapshot.json'),
-        loadJSON('risk/risk_snapshot.json'),
-        loadJSON('track_record/summary.json'),
-        loadJSON('intraday/intraday_snapshot.json'),
-    ]);
-
-    if (!prices && !signal && !risk && !track) {
-        const banner = document.getElementById('data-banner');
-        banner.classList.remove('hidden');
-        banner.innerText = "Couldn't load AUREX AI data files. Serve this page alongside its /data folder (e.g. via GitHub Pages or a local server) rather than opening it directly as a file.";
-    }
-
-    renderTicker(prices);
-    renderChart(prices);
-    renderEngines(prices, signal ? signal.factors.mega_cap_alignment : null);
-    renderNews(signal ? signal.factors.news_sentiment : null);
-    renderRisk(risk);
-    renderDecision(signal, risk);
-    renderEfficiency(signal);
-    renderSentiment(signal);
-    renderMarketOverview(prices);
-    renderLatestSignals(track);
-    renderTrackRecord(track);
-    renderPulse(pulse);
-
-    const genAt = signal ? signal.generated_at : (prices ? prices.generated_at : null);
-    document.getElementById('footer-generated').innerText = genAt
-        ? `Data generated ${new Date(genAt).toUTCString()} · AUREX AI Signal Engine`
-        : 'AUREX AI Signal Engine';
+  const [pulse, prices] = await Promise.all([loadJSON('intraday/intraday_snapshot.json'), loadJSON('prices/snapshot_1D.json')]);
+  DATA = { pulse, prices };
+  NQ_ALL = prices && prices.NASDAQ_FUTURES ? prices.NASDAQ_FUTURES.candles : [];
+  const ss = pulse && pulse.volume_profile && pulse.volume_profile.session_start;
+  SESSION = ss ? NQ_ALL.filter(c => Date.parse(c.time) >= Date.parse(ss)) : NQ_ALL.slice(-120);
+  if (!SESSION.length) SESSION = NQ_ALL.slice(-120);
+  const safe = (fn, ...a) => { try { fn(...a); } catch (e) { console.error(fn.name, e); } };
+  safe(renderHeader, pulse, prices); safe(renderMacro, pulse); safe(renderUsd, pulse); safe(renderAmt, pulse); safe(renderVxn, pulse); safe(renderChain, pulse); safe(renderTrack, pulse);
+  if (NQ_ALL.length) { safe(buildAmtChart); safe(buildLiveChart, parseInt(document.querySelector('.tf.on').dataset.tf)); }
 }
-
 init();
+setInterval(() => { if (document.visibilityState === 'visible') init(); }, 300000);
 </script>
 </body>
 </html>
