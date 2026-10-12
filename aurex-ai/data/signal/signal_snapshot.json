@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T15:01:56.908692+00:00",
+  "generated_at": "2026-10-12T15:15:57.373349+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 1.3263,
+          "change_pct": 1.1674,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.0821,
+          "change_pct": 1.1737,
           "up": true
         },
         "NVDA": {
-          "change_pct": -1.4066,
+          "change_pct": -1.4175,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.5392,
+          "change_pct": -0.423,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 78.78,
+      "score": 78.71,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30695.7,
-        "sma50": 29823.17,
-        "sma200": 27651.36
+        "last_price": 30688.8,
+        "sma50": 29823.03,
+        "sma200": 27651.33
       }
     },
     "vxn": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.75,
+      "score": 47.64,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.46,
-        "change_5d_pct": 0.281
+        "current_dxy": 102.47,
+        "change_5d_pct": 0.295
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.7,
+      "score": 47.49,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.034,
+        "avg_compound": -0.05,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "‘The Social Reckoning’ Flops With $5.5 Million Debut, ‘Other Mommy’ Tops Box Office With $27.5 Million",
+            "source": "Variety",
+            "publishedAt": "2026-10-11T15:14:10Z",
+            "sentiment": "Positive",
+            "compound": 0.226
+          },
+          {
+            "title": "George A. Romero’s Season of the Witch is a slow-burn feminist occult drama",
+            "source": "The Verge",
+            "publishedAt": "2026-10-11T15:12:52Z",
+            "sentiment": "Negative",
+            "compound": -0.361
+          },
+          {
+            "title": "Is Up 18.4% After Cancer Vaccine Milestone And Nasdaq-100 Return Has The Bull Case Changed?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-11T15:09:53Z",
+            "sentiment": "Negative",
+            "compound": -0.66
+          },
+          {
+            "title": "Road map set for ramping up development",
+            "source": "中国日报",
+            "publishedAt": "2026-10-11T15:03:59Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Can rate hikes control cost-push inflation?",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-11T15:02:16Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Duolingo, Inc. Class Action Lawsuit Seeks Recovery for Investors; December 7, 2026, Deadline",
             "source": "PRNewswire",
             "publishedAt": "2026-10-11T15:00:00Z",
             "sentiment": "Negative",
             "compound": -0.226
-          },
-          {
-            "title": "Fed’s Waller pivots on interest-rate bet as worried consumers sound inflation alarms",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-11T14:24:11Z",
-            "sentiment": "Negative",
-            "compound": -0.511
-          },
-          {
-            "title": "Trump’s tariffs forced U.S. factories to close down or lay off workers, and longtime GOP voters are revolting—’It was like taking a knife to the back’",
-            "source": "Fortune",
-            "publishedAt": "2026-10-11T14:16:41Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
-          },
-          {
-            "title": "Social Security's Trump Bump-Driven 2027 COLA Will Likely Feature a Grim Reality for Beneficiaries",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-11T14:11:16Z",
-            "sentiment": "Negative",
-            "compound": -0.226
-          },
-          {
-            "title": "Stock Market Pattern Echoes the Dot-Com Era and History Points to 1 Move Investors Should Make Now",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-11T14:10:52Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "When Companies Stop Driving a Hard Bargain, This Fed Official Starts Worrying",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-11T14:09:15Z",
-            "sentiment": "Negative",
-            "compound": -0.494
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.53,
-  "trade_probability": 54.52,
+  "confirmation_score": 57.13,
+  "trade_probability": 54.28,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
