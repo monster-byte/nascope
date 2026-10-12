@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T13:01:23.480295+00:00",
+  "generated_at": "2026-10-12T13:15:55.745053+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,19 +13,19 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
+      "score": 100.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.003,
-          "up": false
+          "change_pct": 0.003,
+          "up": true
         },
         "MSFT": {
-          "change_pct": 0.0019,
+          "change_pct": 0.0056,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.0262,
+          "change_pct": 0.0174,
           "up": true
         },
         "AMZN": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.14,
+      "score": 48.24,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.41,
-        "change_5d_pct": 0.232
+        "current_dxy": 102.39,
+        "change_5d_pct": 0.22
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.35,
+      "score": 52.1,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.067,
+        "avg_compound": 0.042,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Welcome back to earnings season: What to watch this week - Yahoo Finance",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-10-11T13:12:41Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "Republicans face midterm backlash from factory workers squeezed out of jobs by Trump's tariffs",
+            "source": "Abcnews.com",
+            "publishedAt": "2026-10-11T13:10:54Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Skipping the Line Just Got More Expensive: Disney World Sets Record-High Lightning Lane Prices for November",
+            "source": "Inside the Magic",
+            "publishedAt": "2026-10-11T13:01:37Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Sunday Summary: Welcome Back, Speyer!",
             "source": "Commercial Observer",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-11T12:48:58Z",
             "sentiment": "Positive",
             "compound": 0.7
-          },
-          {
-            "title": "SpaceX vs. Micron: Which Is the Better Artificial Intelligence (AI) Stock to Own for the Next 5 Years?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-11T12:39:21Z",
-            "sentiment": "Positive",
-            "compound": 0.718
-          },
-          {
-            "title": "The hawk Fed Chair who broke the bond market?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-11T12:38:27Z",
-            "sentiment": "Negative",
-            "compound": -0.421
-          },
-          {
-            "title": "For Sale: An Adventure-Ready Home-On-Wheels – A BMY 6×6 Overlander",
-            "source": "Silodrome.com",
-            "publishedAt": "2026-10-11T12:30:12Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,11 +146,11 @@
       }
     }
   },
-  "confirmation_score": 64.79,
-  "trade_probability": 58.87,
+  "confirmation_score": 71.43,
+  "trade_probability": 62.86,
   "market_regime": "BULLISH",
   "final_decision": {
-    "ai_status": "HOLD / MONITOR",
-    "directional_bias": "NEUTRAL"
+    "ai_status": "APPROVED",
+    "directional_bias": "LONG"
   }
 }
