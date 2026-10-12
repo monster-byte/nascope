@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T22:01:37.564181+00:00",
+  "generated_at": "2026-10-12T22:15:49.078075+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -21,15 +21,15 @@
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.1438,
+          "change_pct": 1.1419,
           "up": true
         },
         "NVDA": {
-          "change_pct": -1.243,
+          "change_pct": -1.2474,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.1203,
+          "change_pct": -1.1394,
           "up": false
         }
       }
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.82,
+      "score": 54.99,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.096,
+        "avg_compound": 0.1,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Policymakers take on energy shock, rising debt at IMF-World Bank meetings",
+            "source": "Digital Journal",
+            "publishedAt": "2026-10-11T22:11:00Z",
+            "sentiment": "Negative",
+            "compound": -0.459
+          },
+          {
+            "title": "Stock market today: Live updates",
+            "source": "CNBC",
+            "publishedAt": "2026-10-11T22:05:32Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "STEPHEN GLOVER: Yes, Trump is morally bankrupt and his diesel deal with Putin despicable. But dare I say it, he's right about one thing...",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-10-11T22:03:26Z",
+            "sentiment": "Neutral",
+            "compound": -0.115
+          },
           {
             "title": "The paradox at the core of the AI revolution: The faster we innovate, the slower we grow",
             "source": "Fortune",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-11T21:40:49Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Fast Takes: Jews must hold Mamdani accountable, the price for AI progress, and other commentary",
-            "source": "New York Post",
-            "publishedAt": "2026-10-11T21:29:14Z",
-            "sentiment": "Positive",
-            "compound": 0.421
-          },
-          {
-            "title": "Forget the Recent Delivery Beat: Here's the Key Number That Will Decide Investors' Reaction to Tesla's Earnings",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-11T21:25:46Z",
-            "sentiment": "Neutral",
-            "compound": -0.153
-          },
-          {
-            "title": "CNN Chief Data Guru Harry Enten Reveals Most Likely Midterms Result",
-            "source": "Mediaite",
-            "publishedAt": "2026-10-11T20:46:53Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.69,
-  "trade_probability": 54.61,
+  "confirmation_score": 57.7,
+  "trade_probability": 54.62,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
