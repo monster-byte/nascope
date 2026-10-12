@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T16:45:52.315259+00:00",
+  "generated_at": "2026-10-12T17:01:22.811291+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 1.0129,
+          "change_pct": 0.9862,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.9849,
+          "change_pct": 0.8578,
           "up": true
         },
         "NVDA": {
-          "change_pct": -1.2605,
+          "change_pct": -1.3324,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.0898,
+          "change_pct": -1.0974,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 78.76,
+      "score": 78.4,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30693.47,
-        "sma50": 29823.12,
-        "sma200": 27651.35
+        "last_price": 30656.97,
+        "sma50": 29822.39,
+        "sma200": 27651.17
       }
     },
     "vxn": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.7,
+      "score": 46.71,
       "status": "yellow",
       "details": {
         "current_dxy": 102.59,
-        "change_5d_pct": 0.412
+        "change_5d_pct": 0.411
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.19,
+      "score": 53.09,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.024,
+        "avg_compound": 0.062,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Samsung Galaxy Z Flip 8 vs Galaxy Z Flip 7: which flip foldable is best?",
+            "source": "TechRadar",
+            "publishedAt": "2026-10-11T17:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.637
+          },
+          {
+            "title": "CELH Investors Have Opportunity to Lead Celsius Holdings, Inc. Securities Fraud Lawsuit",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-11T17:00:00Z",
+            "sentiment": "Neutral",
+            "compound": -0.178
+          },
+          {
+            "title": "West Asia war, debt woes top agenda of IMF-World Bank meetings in Bangkok",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-11T16:51:43Z",
+            "sentiment": "Negative",
+            "compound": -0.818
+          },
+          {
+            "title": "Monetary policy: Currency, credit, credibility gain focus",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-11T16:47:05Z",
+            "sentiment": "Positive",
+            "compound": 0.718
+          },
           {
             "title": "This Is the Average 2027 Social Security Benefit If the COLA Predictions Pan Out",
             "source": "Biztoc.com",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-11T16:38:51Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "SHAREHOLDER ALERT: The M&A Class Action Firm Announces An Investigation of Option Care Health, Inc. (NASDAQ: OPCH)",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-11T16:32:00Z",
-            "sentiment": "Positive",
-            "compound": 0.73
-          },
-          {
-            "title": "Console market craters as Xbox sales crash 33% to the lowest since launch 25 years ago, PS5 sales drop 25%",
-            "source": "Tom's Hardware UK",
-            "publishedAt": "2026-10-11T16:30:00Z",
-            "sentiment": "Negative",
-            "compound": -0.751
-          },
-          {
-            "title": "SHAREHOLDER ALERT: The M&A Class Action Firm Announces An Investigation of Pacira BioSciences, Inc. (NASDAQ: PCRX)",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-11T16:30:00Z",
-            "sentiment": "Positive",
-            "compound": 0.447
-          },
-          {
-            "title": "Traditional IT growth to taper as AI takes centre stage: TCS CEO",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-11T16:16:38Z",
-            "sentiment": "Positive",
-            "compound": 0.382
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.39,
-  "trade_probability": 54.43,
+  "confirmation_score": 57.51,
+  "trade_probability": 54.51,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
