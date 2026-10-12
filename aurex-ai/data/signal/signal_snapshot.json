@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T20:45:53.302947+00:00",
+  "generated_at": "2026-10-12T21:01:21.276968+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -21,11 +21,11 @@
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.1419,
+          "change_pct": 1.1438,
           "up": true
         },
         "NVDA": {
-          "change_pct": -1.2474,
+          "change_pct": -1.243,
           "up": false
         },
         "AMZN": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.74,
+      "score": 46.7,
       "status": "yellow",
       "details": {
         "current_dxy": 102.59,
-        "change_5d_pct": 0.407
+        "change_5d_pct": 0.413
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.42,
+      "score": 54.51,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.108,
+        "avg_compound": 0.09,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "CNN Chief Data Guru Harry Enten Reveals Most Likely Midterms Result",
+            "source": "Mediaite",
+            "publishedAt": "2026-10-11T20:46:53Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "AST SpaceMobile Shipped 3 More BlueBird Satellites to Cape Canaveral. Here's How Many It Needs in Orbit Before Revenue Shows Up",
             "source": "Biztoc.com",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-10-11T20:25:46Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Bessent taunts ‘Pocahontas’ Elizabeth Warren with cheeky clapback: ‘Happy Indigenous Peoples’ Day’",
-            "source": "New York Post",
-            "publishedAt": "2026-10-11T20:24:24Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.73,
-  "trade_probability": 54.64,
+  "confirmation_score": 57.65,
+  "trade_probability": 54.59,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
