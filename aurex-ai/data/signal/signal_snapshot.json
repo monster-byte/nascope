@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T17:01:22.811291+00:00",
+  "generated_at": "2026-10-12T17:15:58.138777+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.9862,
+          "change_pct": 0.8238,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.8578,
+          "change_pct": 0.9494,
           "up": true
         },
         "NVDA": {
-          "change_pct": -1.3324,
+          "change_pct": -1.2243,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.0974,
+          "change_pct": -1.0555,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 78.4,
+      "score": 78.49,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30656.97,
-        "sma50": 29822.39,
-        "sma200": 27651.17
+        "last_price": 30666.3,
+        "sma50": 29822.58,
+        "sma200": 27651.22
       }
     },
     "vxn": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.71,
+      "score": 46.91,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.59,
-        "change_5d_pct": 0.411
+        "current_dxy": 102.56,
+        "change_5d_pct": 0.386
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.09,
+      "score": 52.47,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.062,
+        "avg_compound": 0.049,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "For the first time ever, 10-year bond yields track diesel prices more closely than crude, and Trump’s fuel deal with Putin may be too little too late",
+            "source": "Fortune",
+            "publishedAt": "2026-10-11T17:12:18Z",
+            "sentiment": "Negative",
+            "compound": -0.608
+          },
+          {
+            "title": "Qualcomm Doesn't Look Cheap Next to Its AI Chip Peers. Here's Why",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-11T17:11:54Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "The Tim Ferriss Show Transcripts: The Random Show — AI Super Assistants, Boner Pills, Dream Engineering, Wizards, Supplements, Books, and More (#886)",
+            "source": "Tim.blog",
+            "publishedAt": "2026-10-11T17:08:47Z",
+            "sentiment": "Positive",
+            "compound": 0.71
+          },
           {
             "title": "Samsung Galaxy Z Flip 8 vs Galaxy Z Flip 7: which flip foldable is best?",
             "source": "TechRadar",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-11T16:51:43Z",
             "sentiment": "Negative",
             "compound": -0.818
-          },
-          {
-            "title": "Monetary policy: Currency, credit, credibility gain focus",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-11T16:47:05Z",
-            "sentiment": "Positive",
-            "compound": 0.718
-          },
-          {
-            "title": "This Is the Average 2027 Social Security Benefit If the COLA Predictions Pan Out",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-11T16:41:42Z",
-            "sentiment": "Positive",
-            "compound": 0.66
-          },
-          {
-            "title": "Tinubu urges states to use ‘higher’ revenues prudently",
-            "source": "The Punch",
-            "publishedAt": "2026-10-11T16:38:51Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.51,
-  "trade_probability": 54.51,
+  "confirmation_score": 57.48,
+  "trade_probability": 54.49,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
