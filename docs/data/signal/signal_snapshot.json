@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T16:31:13.043427+00:00",
+  "generated_at": "2026-10-12T16:45:52.315259+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.9714,
+          "change_pct": 1.0129,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.1083,
+          "change_pct": 0.9849,
           "up": true
         },
         "NVDA": {
-          "change_pct": -1.1943,
+          "change_pct": -1.2605,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.745,
+          "change_pct": -1.0898,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 78.92,
+      "score": 78.76,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30710.29,
-        "sma50": 29823.46,
-        "sma200": 27651.44
+        "last_price": 30693.47,
+        "sma50": 29823.12,
+        "sma200": 27651.35
       }
     },
     "vxn": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.77,
+      "score": 46.7,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.58,
-        "change_5d_pct": 0.404
+        "current_dxy": 102.59,
+        "change_5d_pct": 0.412
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.95,
+      "score": 51.19,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.041,
+        "avg_compound": 0.024,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "This Is the Average 2027 Social Security Benefit If the COLA Predictions Pan Out",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-11T16:41:42Z",
+            "sentiment": "Positive",
+            "compound": 0.66
+          },
+          {
+            "title": "Tinubu urges states to use ‘higher’ revenues prudently",
+            "source": "The Punch",
+            "publishedAt": "2026-10-11T16:38:51Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "SHAREHOLDER ALERT: The M&A Class Action Firm Announces An Investigation of Option Care Health, Inc. (NASDAQ: OPCH)",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-11T16:32:00Z",
+            "sentiment": "Positive",
+            "compound": 0.73
+          },
           {
             "title": "Console market craters as Xbox sales crash 33% to the lowest since launch 25 years ago, PS5 sales drop 25%",
             "source": "Tom's Hardware UK",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-11T16:16:38Z",
             "sentiment": "Positive",
             "compound": 0.382
-          },
-          {
-            "title": "Show HN: OpenClear – Self-hosted check and ACH fraud screening for small banks",
-            "source": "Github.com",
-            "publishedAt": "2026-10-11T16:14:21Z",
-            "sentiment": "Negative",
-            "compound": -0.586
-          },
-          {
-            "title": "Gold price prediction for Monday, October 12: Check latest gold rate predictions",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-11T16:13:06Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "How to Build Wealth as a Career Person",
-            "source": "Asheradeniyi.com",
-            "publishedAt": "2026-10-11T16:03:58Z",
-            "sentiment": "Positive",
-            "compound": 0.494
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.12,
-  "trade_probability": 54.27,
+  "confirmation_score": 57.39,
+  "trade_probability": 54.43,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
