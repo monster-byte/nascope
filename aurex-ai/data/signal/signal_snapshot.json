@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T17:31:15.447719+00:00",
+  "generated_at": "2026-10-12T17:45:53.229804+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.7961,
+          "change_pct": 0.811,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.9905,
+          "change_pct": 1.0678,
           "up": true
         },
         "NVDA": {
-          "change_pct": -1.267,
+          "change_pct": -1.2561,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.0765,
+          "change_pct": -1.0479,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 78.44,
+      "score": 78.4,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30661.2,
-        "sma50": 29822.48,
-        "sma200": 27651.19
+        "last_price": 30657.22,
+        "sma50": 29822.4,
+        "sma200": 27651.17
       }
     },
     "vxn": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.94,
+      "score": 46.97,
       "status": "yellow",
       "details": {
         "current_dxy": 102.56,
-        "change_5d_pct": 0.383
+        "change_5d_pct": 0.379
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.47,
+      "score": 53.19,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.049,
+        "avg_compound": 0.064,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "How to Beat a Choppy Market With 4 Steady Stocks",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-11T17:41:40Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "The Best Stock to Invest $10,000 In Right Now",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-11T17:41:26Z",
+            "sentiment": "Positive",
+            "compound": 0.637
+          },
+          {
+            "title": "The rational business decisions behind reverse flipping",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-11T17:39:03Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "For the first time ever, 10-year bond yields track diesel prices more closely than crude, and Trump’s fuel deal with Putin may be too little too late",
             "source": "Fortune",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-11T17:08:47Z",
             "sentiment": "Positive",
             "compound": 0.71
-          },
-          {
-            "title": "Samsung Galaxy Z Flip 8 vs Galaxy Z Flip 7: which flip foldable is best?",
-            "source": "TechRadar",
-            "publishedAt": "2026-10-11T17:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.637
-          },
-          {
-            "title": "CELH Investors Have Opportunity to Lead Celsius Holdings, Inc. Securities Fraud Lawsuit",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-11T17:00:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.178
-          },
-          {
-            "title": "West Asia war, debt woes top agenda of IMF-World Bank meetings in Bangkok",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-11T16:51:43Z",
-            "sentiment": "Negative",
-            "compound": -0.818
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.48,
-  "trade_probability": 54.49,
+  "confirmation_score": 57.54,
+  "trade_probability": 54.52,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
