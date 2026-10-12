@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T03:01:21.741413+00:00",
+  "generated_at": "2026-10-12T03:15:53.482779+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -1.1133,
+          "change_pct": -1.1075,
           "up": false
         },
         "MSFT": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.88,
+      "score": 49.98,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.18,
-        "change_5d_pct": 0.015
+        "current_dxy": 102.17,
+        "change_5d_pct": 0.003
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.76,
+      "score": 53.95,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.075,
+        "avg_compound": 0.079,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Indonesia seeks stronger growth by protecting purchasing power",
+            "source": "Antaranews.com",
+            "publishedAt": "2026-10-11T03:13:00Z",
+            "sentiment": "Positive",
+            "compound": 0.637
+          },
+          {
+            "title": "AI issuers upend debt market safety valve as borrowing costs rise",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-11T03:04:42Z",
+            "sentiment": "Neutral",
+            "compound": 0.077
+          },
           {
             "title": "340B Drug Discounts Reward Costlier Drugs and Hospital Consolidation, HHS Economists Argue as Medicare Cut Looms",
             "source": "Medical Daily",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-11T02:01:17Z",
             "sentiment": "Neutral",
             "compound": -0.103
-          },
-          {
-            "title": "California’s richest pensioners revealed as fat cats raking in $400K for doing nothing",
-            "source": "New York Post",
-            "publishedAt": "2026-10-11T01:58:22Z",
-            "sentiment": "Positive",
-            "compound": 0.527
-          },
-          {
-            "title": "California’s richest pensioners revealed as fat cats raking in $400K for doing nothing",
-            "source": "New York Post",
-            "publishedAt": "2026-10-11T01:58:22Z",
-            "sentiment": "Positive",
-            "compound": 0.527
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.46,
-  "trade_probability": 54.48,
+  "confirmation_score": 57.49,
+  "trade_probability": 54.49,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
