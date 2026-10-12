@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T01:15:52.590193+00:00",
+  "generated_at": "2026-10-12T01:31:09.194562+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -21,11 +21,11 @@
           "up": false
         },
         "MSFT": {
-          "change_pct": 2.3899,
+          "change_pct": 2.3861,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.5033,
+          "change_pct": -0.4946,
           "up": false
         },
         "AMZN": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.47,
+      "score": 50.42,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.11,
-        "change_5d_pct": -0.059
+        "current_dxy": 102.12,
+        "change_5d_pct": -0.052
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.66,
+      "score": 52.79,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.073,
+        "avg_compound": 0.056,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Drought, ethanol demand squeeze meat retailers as feed costs rise",
+            "source": "Livemint",
+            "publishedAt": "2026-10-11T01:30:56Z",
+            "sentiment": "Neutral",
+            "compound": -0.128
+          },
+          {
+            "title": "2027: Opposition, APC clash over campaign funding",
+            "source": "The Punch",
+            "publishedAt": "2026-10-11T01:25:10Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Election 2026: Act promises big public spending cuts and cuts to aid to drive debt $12.4b lower – but no income tax cuts",
             "source": "New Zealand Herald",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-11T00:06:28Z",
             "sentiment": "Positive",
             "compound": 0.361
-          },
-          {
-            "title": "HONA Investors Have Opportunity to Lead Honeywell Aerospace Inc. Securities Fraud Lawsuit",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-10T23:55:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.178
-          },
-          {
-            "title": "FLNC Investors Have Opportunity to Lead Fluence Energy, Inc. Securities Fraud Lawsuit",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-10T23:55:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.103
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.5,
-  "trade_probability": 54.5,
+  "confirmation_score": 57.42,
+  "trade_probability": 54.45,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
