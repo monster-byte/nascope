@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T13:15:55.745053+00:00",
+  "generated_at": "2026-10-12T13:31:12.501412+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,36 +13,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 100.0,
+      "score": 75.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.003,
+          "change_pct": 1.2952,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.0056,
+          "change_pct": 0.7307,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.0174,
-          "up": true
+          "change_pct": -0.3969,
+          "up": false
         },
         "AMZN": {
-          "change_pct": 0.0191,
+          "change_pct": 0.2744,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 81.17,
+      "score": 79.68,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30883.15,
-        "sma50": 29774.74,
-        "sma200": 27625.82
+        "last_price": 30787.28,
+        "sma50": 29825.0,
+        "sma200": 27651.82
       }
     },
     "vxn": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.24,
+      "score": 48.02,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.39,
-        "change_5d_pct": 0.22
+        "current_dxy": 102.42,
+        "change_5d_pct": 0.248
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.1,
+      "score": 50.25,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.042,
+        "avg_compound": 0.005,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Stock market is crashing, but IPOs are seeing billions of dollars of investment. What’s happening?",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-11T13:27:04Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Goldman resets PepsiCo stock target amid inflation and cost pressures",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-11T13:25:55Z",
+            "sentiment": "Negative",
+            "compound": -0.318
+          },
+          {
+            "title": "Inflation data, IT earnings, crude oil to steer stock markets this week, say experts",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-11T13:23:59Z",
+            "sentiment": "Negative",
+            "compound": -0.572
+          },
           {
             "title": "Welcome back to earnings season: What to watch this week - Yahoo Finance",
             "source": "Slashdot.org",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-11T13:01:37Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Sunday Summary: Welcome Back, Speyer!",
-            "source": "Commercial Observer",
-            "publishedAt": "2026-10-11T13:00:13Z",
-            "sentiment": "Positive",
-            "compound": 0.509
-          },
-          {
-            "title": "SpaceX Is Public. Here's What $1,000 in Each of These 5 Space Stocks Could Be Worth by 2030",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-11T12:55:24Z",
-            "sentiment": "Positive",
-            "compound": 0.226
-          },
-          {
-            "title": "Support for One Nation drops as Albo's popularity rises in the polls",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-10-11T12:48:58Z",
-            "sentiment": "Positive",
-            "compound": 0.7
           }
         ]
       }
@@ -146,11 +146,11 @@
       }
     }
   },
-  "confirmation_score": 71.43,
-  "trade_probability": 62.86,
+  "confirmation_score": 64.29,
+  "trade_probability": 58.57,
   "market_regime": "BULLISH",
   "final_decision": {
-    "ai_status": "APPROVED",
-    "directional_bias": "LONG"
+    "ai_status": "HOLD / MONITOR",
+    "directional_bias": "NEUTRAL"
   }
 }
