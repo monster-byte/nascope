@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T17:45:55.712531+00:00",
+  "generated_at": "2026-10-13T18:01:25.080681+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,36 +13,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 100.0,
+      "score": 75.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.5794,
+          "change_pct": 0.4209,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.0164,
+          "change_pct": 1.0256,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.3402,
+          "change_pct": 0.3137,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.1503,
-          "up": true
+          "change_pct": -0.0655,
+          "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 76.64,
+      "score": 76.39,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30518.3,
-        "sma50": 29857.38,
-        "sma200": 27675.52
+        "last_price": 30492.71,
+        "sma50": 29856.87,
+        "sma200": 27675.39
       }
     },
     "vxn": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.71,
+      "score": 46.65,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.25,
-        "change_5d_pct": 0.411
+        "current_dxy": 102.26,
+        "change_5d_pct": 0.419
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.82,
+      "score": 58.34,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.136,
+        "avg_compound": 0.167,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Supply Chain Index Shows Higher Demand in September",
-            "source": "WWD",
-            "publishedAt": "2026-10-12T17:40:21Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
-          },
-          {
-            "title": "Shares Now Dominate The Tokenized Stock Market",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-12T17:36:02Z",
-            "sentiment": "Neutral",
-            "compound": 0.178
-          },
-          {
-            "title": "Fatima Zahra El Mansouri Is Appointed as Morocco’s First Female Prime Minister in Historic Election",
-            "source": "My Modern Met",
-            "publishedAt": "2026-10-12T17:30:37Z",
+            "title": "Erie Indemnity to host third quarter 2026 pre-recorded conference call and webcast",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-12T18:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Why older Americans' wealth may be helping keep consumer spending strong",
-            "source": "CNBC",
-            "publishedAt": "2026-10-12T17:23:35Z",
-            "sentiment": "Positive",
-            "compound": 0.827
+            "title": "Is the Firmus fiasco a crack in the AI boom?",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-10-12T18:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.511
           },
           {
-            "title": "Earning ₹50,000, ₹1 lakh or ₹2 lakh a month? Here's how much you could save in 10 years",
-            "source": "Livemint",
-            "publishedAt": "2026-10-12T17:23:07Z",
-            "sentiment": "Positive",
-            "compound": 0.494
+            "title": "US bank stocks near correction as earnings loom, consumer outlook in focus",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-12T17:59:50Z",
+            "sentiment": "Negative",
+            "compound": -0.226
           },
           {
-            "title": "Want affordability? California home prices must fall",
-            "source": "Medianewsgroup.com",
-            "publishedAt": "2026-10-12T17:22:23Z",
-            "sentiment": "Neutral",
-            "compound": 0.077
+            "title": "Kyiv says Russia hits energy targets despite Trump ceasefire announcement - Reuters",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-10-12T17:53:29Z",
+            "sentiment": "Positive",
+            "compound": 0.273
+          },
+          {
+            "title": "Michigan Congressman Proposes Using Tariff Revenue for Tariff Relief Fund",
+            "source": "Reason",
+            "publishedAt": "2026-10-12T17:50:19Z",
+            "sentiment": "Positive",
+            "compound": 0.477
+          },
+          {
+            "title": "A Good Deal Is Much More Than a Good Price During the Holidays",
+            "source": "Adweek",
+            "publishedAt": "2026-10-12T17:46:19Z",
+            "sentiment": "Positive",
+            "compound": 0.826
           }
         ]
       }
@@ -146,11 +146,11 @@
       }
     }
   },
-  "confirmation_score": 70.69,
-  "trade_probability": 62.41,
+  "confirmation_score": 64.04,
+  "trade_probability": 58.42,
   "market_regime": "BULLISH",
   "final_decision": {
-    "ai_status": "APPROVED",
-    "directional_bias": "LONG"
+    "ai_status": "HOLD / MONITOR",
+    "directional_bias": "NEUTRAL"
   }
 }
