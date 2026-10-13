@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T14:31:14.319344+00:00",
+  "generated_at": "2026-10-13T14:45:57.328188+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.6511,
+          "change_pct": 1.4356,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.4552,
+          "change_pct": 1.3813,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.3933,
+          "change_pct": -0.1724,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.8554,
+          "change_pct": 0.3892,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 76.74,
+      "score": 76.82,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30528.78,
-        "sma50": 29857.59,
-        "sma200": 27675.57
+        "last_price": 30536.04,
+        "sma50": 29857.73,
+        "sma200": 27675.61
       }
     },
     "vxn": {
@@ -56,11 +56,11 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 56.98,
+      "score": 57.9,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.223,
-        "change_5d_pct": -0.873
+        "current_yield_pct": 5.217,
+        "change_5d_pct": -0.987
       }
     },
     "dxy": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.82,
+      "score": 52.23,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.036,
+        "avg_compound": 0.044,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "What the US and China Should Discuss at APEC",
+            "source": "The Diplomat",
+            "publishedAt": "2026-10-12T14:45:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "TROOPS signs $40M all-share deal to merge with EFFORCE",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-12T14:39:01Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "The economics Nobel went to the scholar whose work shaped Fed ‘forward guidance,’ a practice Kevin Warsh says has gone too far",
+            "source": "Fortune",
+            "publishedAt": "2026-10-12T14:37:47Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Vuzix to Showcase Vuzix Causeway™ Optical Interconnect Evaluation Platform at OCP Global Summit and PECC Summit",
             "source": "PRNewswire",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-12T14:29:11Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Unpicking the pensions triple lock: where it came from, and what might happen next",
-            "source": "The Conversation Africa",
-            "publishedAt": "2026-10-12T14:20:39Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "XRP treasury Evernorth’s shares rise 5% at Nasdaq opening print",
-            "source": "Cointelegraph",
-            "publishedAt": "2026-10-12T14:18:49Z",
-            "sentiment": "Positive",
-            "compound": 0.459
-          },
-          {
-            "title": "October 14 is the big day for Social Security’s 2027 COLA: What retirees need to know before the big announcement; will September inflation data shape your raise",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-12T14:15:55Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 63.4,
-  "trade_probability": 58.04,
+  "confirmation_score": 63.57,
+  "trade_probability": 58.14,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
