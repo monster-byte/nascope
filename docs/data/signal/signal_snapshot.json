@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T17:01:32.510838+00:00",
+  "generated_at": "2026-10-13T17:15:53.971904+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.742,
+          "change_pct": 0.7242,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.8038,
+          "change_pct": 0.7964,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.1944,
+          "change_pct": 0.4728,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.2736,
+          "change_pct": 0.2659,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 76.61,
+      "score": 76.52,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30515.66,
-        "sma50": 29857.33,
-        "sma200": 27675.5
+        "last_price": 30506.49,
+        "sma50": 29857.14,
+        "sma200": 27675.46
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 56.38,
+      "score": 55.31,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.227,
-        "change_5d_pct": -0.797
+        "current_yield_pct": 5.234,
+        "change_5d_pct": -0.664
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.53,
+      "score": 46.5,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.27,
-        "change_5d_pct": 0.434
+        "current_dxy": 102.28,
+        "change_5d_pct": 0.437
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.66,
+      "score": 54.79,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.007,
+        "avg_compound": 0.096,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "What needs to happen for Democrats or Republicans to win control of the House",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-10-12T16:59:59Z",
+            "title": "Goldman unpacks the 'Goldilocks' scenario that will spark fresh gains for both stocks and bonds",
+            "source": "Business Insider",
+            "publishedAt": "2026-10-12T17:11:52Z",
             "sentiment": "Positive",
-            "compound": 0.586
+            "compound": 0.681
           },
           {
-            "title": "Stock Market Today: Stocks Are Mixed to Begin Big Week of Earnings; Bond Market Closed Today - Investopedia",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-10-12T16:53:27Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "SoftBank invested $20 million in Alibaba in 2000. 14 years later, that tiny stake was worth more than $50 billion after its blockbuster IPO",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-12T17:08:58Z",
+            "sentiment": "Positive",
+            "compound": 0.7
           },
           {
-            "title": "Social Security COLA for 2027 set for another bump — with a major caveat",
-            "source": "New York Post",
-            "publishedAt": "2026-10-12T16:51:59Z",
+            "title": "Fed's Hammack says higher rates could be needed as risks of 'inflationary mindset' forming grow",
+            "source": "CNBC",
+            "publishedAt": "2026-10-12T17:08:43Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "European stocks rise with banks proving a safe bet",
+            "source": "The Irish Times",
+            "publishedAt": "2026-10-12T17:07:31Z",
             "sentiment": "Positive",
-            "compound": 0.34
+            "compound": 0.44
           },
           {
             "title": "Cell Impact announces acceleration of previously communicated order from US customer",
             "source": "PRNewswire",
-            "publishedAt": "2026-10-12T16:51:00Z",
+            "publishedAt": "2026-10-12T17:07:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Why Micron Stock Dropped on Monday",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-12T16:50:27Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Key Events This Week: CPI, PPI, Earnings Start And Warsh Speaks",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-12T16:48:07Z",
+            "title": "Cell Impact announces acceleration of previously communicated order from US customer",
+            "source": "PR Newswire UK",
+            "publishedAt": "2026-10-12T17:07:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,11 +146,11 @@
       }
     }
   },
-  "confirmation_score": 69.86,
-  "trade_probability": 61.92,
+  "confirmation_score": 70.16,
+  "trade_probability": 62.1,
   "market_regime": "BULLISH",
   "final_decision": {
-    "ai_status": "HOLD / MONITOR",
-    "directional_bias": "NEUTRAL"
+    "ai_status": "APPROVED",
+    "directional_bias": "LONG"
   }
 }
