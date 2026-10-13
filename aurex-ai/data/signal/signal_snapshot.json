@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T02:15:52.072283+00:00",
+  "generated_at": "2026-10-13T02:31:13.656797+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.86,
+      "score": 47.87,
       "status": "yellow",
       "details": {
         "current_dxy": 102.44,
-        "change_5d_pct": 0.267
+        "change_5d_pct": 0.266
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.54,
+      "score": 55.28,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.071,
+        "avg_compound": 0.106,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Stock Market LIVE: GIFT Nifty signals positive open; Asia markets mixed",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-12T02:21:29Z",
+            "sentiment": "Positive",
+            "compound": 0.873
+          },
+          {
+            "title": "Dollar stays near 18-month high as Mideast conflict, inflation data in focus",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-12T02:20:43Z",
+            "sentiment": "Negative",
+            "compound": -0.318
+          },
+          {
+            "title": "Policymakers take on energy shock, rising debt at IMF-World Bank meetings",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-12T02:19:01Z",
+            "sentiment": "Negative",
+            "compound": -0.459
+          },
           {
             "title": "Gold steady as markets strap in for inflation data",
             "source": "The Times of India",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-12T02:05:20Z",
             "sentiment": "Negative",
             "compound": -0.691
-          },
-          {
-            "title": "The ET Startup Awards 2026 special",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-12T02:03:35Z",
-            "sentiment": "Positive",
-            "compound": 0.691
-          },
-          {
-            "title": "Rupee to rally on fresh RBI measures, bonds eye inflation prints",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-12T02:01:47Z",
-            "sentiment": "Positive",
-            "compound": 0.318
-          },
-          {
-            "title": "Sensex Today | Nifty 50 | Stock Market Live Updates: GIFT Nifty signals a positive start; Asian shares trade mixed",
-            "source": "Economictimes.com",
-            "publishedAt": "2026-10-12T01:52:53Z",
-            "sentiment": "Positive",
-            "compound": 0.93
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.66,
-  "trade_probability": 54.6,
+  "confirmation_score": 57.82,
+  "trade_probability": 54.69,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
