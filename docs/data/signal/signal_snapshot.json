@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T05:45:52.191158+00:00",
+  "generated_at": "2026-10-13T06:01:21.852558+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -21,15 +21,15 @@
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.1438,
+          "change_pct": 1.1419,
           "up": true
         },
         "NVDA": {
-          "change_pct": -1.243,
+          "change_pct": -1.2474,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.1203,
+          "change_pct": -1.1394,
           "up": false
         }
       }
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.29,
+      "score": 45.52,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.43,
-        "change_5d_pct": 0.588
+        "current_dxy": 102.4,
+        "change_5d_pct": 0.56
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.46,
+      "score": 46.24,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.029,
+        "avg_compound": -0.075,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "BJP's Rajeev Chandrasekhar warns protests against dignitaries could affect Centre-state relations",
+            "title": "Why is market falling today? Sensex slumps over 500 points, Nifty below 22,400. 5 key factors behind selloff",
             "source": "The Times of India",
-            "publishedAt": "2026-10-12T05:44:35Z",
-            "sentiment": "Neutral",
-            "compound": -0.178
+            "publishedAt": "2026-10-12T06:00:13Z",
+            "sentiment": "Positive",
+            "compound": 0.273
           },
           {
-            "title": "D-Mart: LFL growth picks up, but earnings lag",
-            "source": "Moneycontrol",
-            "publishedAt": "2026-10-12T05:40:54Z",
+            "title": "American Express slapped with record fine for 11-year blind eye to $13B in “suspicious” trade",
+            "source": "Naturalnews.com",
+            "publishedAt": "2026-10-12T06:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.226
+          },
+          {
+            "title": "Trump weighs joining Saudi war on Houthis after American killed in airport strike",
+            "source": "Naturalnews.com",
+            "publishedAt": "2026-10-12T06:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.872
+          },
+          {
+            "title": "Contractor Pleads Guilty in Scheme to Divert AI Servers With Nvidia Chips to China",
+            "source": "Naturalnews.com",
+            "publishedAt": "2026-10-12T06:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
+          {
+            "title": "Dollar steady near 18-month high as Mideast conflict, US inflation in focus",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-12T05:57:19Z",
             "sentiment": "Negative",
             "compound": -0.318
           },
           {
-            "title": "Americans Robert E. Hall and Michael Woodford win 2026 Nobel prize in economics",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-10-12T05:40:14Z",
-            "sentiment": "Positive",
-            "compound": 0.796
-          },
-          {
-            "title": "Americans Robert E. Hall and Michael Woodford win 2026 Nobel prize in economics",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-10-12T05:40:14Z",
-            "sentiment": "Positive",
-            "compound": 0.796
-          },
-          {
-            "title": "Mutual funds set to sell more government bonds after RBI rate hike",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-12T05:39:23Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Stocks rise as oil prices tumble after Trump hails ‘energy ceasefire’",
-            "source": "The Punch",
-            "publishedAt": "2026-10-12T05:38:34Z",
+            "title": "Cabinet to review fund repayments ahead of bill debate",
+            "source": "Hurriyet Daily News",
+            "publishedAt": "2026-10-12T05:56:19Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.24,
-  "trade_probability": 54.34,
+  "confirmation_score": 56.8,
+  "trade_probability": 54.08,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
