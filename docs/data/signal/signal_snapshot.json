@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T16:15:59.638914+00:00",
+  "generated_at": "2026-10-13T16:31:14.171075+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,36 +13,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
+      "score": 100.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.9796,
+          "change_pct": 0.9942,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.8704,
+          "change_pct": 0.948,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.212,
-          "up": false
+          "change_pct": 0.4154,
+          "up": true
         },
         "AMZN": {
-          "change_pct": 0.5202,
+          "change_pct": 0.2582,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 76.67,
+      "score": 77.19,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30520.91,
-        "sma50": 29857.43,
-        "sma200": 27675.53
+        "last_price": 30574.27,
+        "sma50": 29858.5,
+        "sma200": 27675.8
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 56.98,
+      "score": 57.29,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.223,
-        "change_5d_pct": -0.873
+        "current_yield_pct": 5.221,
+        "change_5d_pct": -0.911
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.81,
+      "score": 46.78,
       "status": "yellow",
       "details": {
         "current_dxy": 102.24,
-        "change_5d_pct": 0.399
+        "change_5d_pct": 0.403
       }
     },
     "macro": {
@@ -100,11 +100,11 @@
       }
     }
   },
-  "confirmation_score": 63.26,
-  "trade_probability": 57.96,
+  "confirmation_score": 70.12,
+  "trade_probability": 62.07,
   "market_regime": "BULLISH",
   "final_decision": {
-    "ai_status": "HOLD / MONITOR",
-    "directional_bias": "NEUTRAL"
+    "ai_status": "APPROVED",
+    "directional_bias": "LONG"
   }
 }
