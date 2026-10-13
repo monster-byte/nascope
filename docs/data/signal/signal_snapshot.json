@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T18:01:25.080681+00:00",
+  "generated_at": "2026-10-13T18:15:52.509791+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.4209,
+          "change_pct": 0.5162,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.0256,
+          "change_pct": 0.9517,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.3137,
+          "change_pct": 0.5148,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.0655,
+          "change_pct": -0.0443,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 76.39,
+      "score": 76.89,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30492.71,
-        "sma50": 29856.87,
-        "sma200": 27675.39
+        "last_price": 30543.71,
+        "sma50": 29857.89,
+        "sma200": 27675.65
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 57.59,
+      "score": 56.98,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.219,
-        "change_5d_pct": -0.949
+        "current_yield_pct": 5.223,
+        "change_5d_pct": -0.873
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.65,
+      "score": 46.82,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.26,
-        "change_5d_pct": 0.419
+        "current_dxy": 102.24,
+        "change_5d_pct": 0.398
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 58.34,
+      "score": 58.11,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.167,
+        "avg_compound": 0.162,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "America's debt nightmare deepens as number of US families falling behind on bills hits highest level since Great Recession",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-10-12T18:10:24Z",
+            "sentiment": "Neutral",
+            "compound": -0.128
+          },
+          {
+            "title": "Ripple-Backed Evernorth Hits Nasdaq Holding 473 Million XRP Worth Far Less Than It Paid",
+            "source": "Decrypt",
+            "publishedAt": "2026-10-12T18:09:15Z",
+            "sentiment": "Positive",
+            "compound": 0.226
+          },
+          {
+            "title": "Nobel Prize Day 6: Economics",
+            "source": "Livejournal.com",
+            "publishedAt": "2026-10-12T18:08:18Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
+          {
+            "title": "There's a tough truth under the surface of the 4-year-old bull market in stocks",
+            "source": "Business Insider",
+            "publishedAt": "2026-10-12T18:02:50Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
           {
             "title": "Erie Indemnity to host third quarter 2026 pre-recorded conference call and webcast",
             "source": "PRNewswire",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-12T18:00:00Z",
             "sentiment": "Negative",
             "compound": -0.511
-          },
-          {
-            "title": "US bank stocks near correction as earnings loom, consumer outlook in focus",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-12T17:59:50Z",
-            "sentiment": "Negative",
-            "compound": -0.226
-          },
-          {
-            "title": "Kyiv says Russia hits energy targets despite Trump ceasefire announcement - Reuters",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-10-12T17:53:29Z",
-            "sentiment": "Positive",
-            "compound": 0.273
-          },
-          {
-            "title": "Michigan Congressman Proposes Using Tariff Revenue for Tariff Relief Fund",
-            "source": "Reason",
-            "publishedAt": "2026-10-12T17:50:19Z",
-            "sentiment": "Positive",
-            "compound": 0.477
-          },
-          {
-            "title": "A Good Deal Is Much More Than a Good Price During the Holidays",
-            "source": "Adweek",
-            "publishedAt": "2026-10-12T17:46:19Z",
-            "sentiment": "Positive",
-            "compound": 0.826
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 64.04,
-  "trade_probability": 58.42,
+  "confirmation_score": 64.02,
+  "trade_probability": 58.41,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
