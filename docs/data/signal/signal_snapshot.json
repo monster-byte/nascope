@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T00:15:47.793089+00:00",
+  "generated_at": "2026-10-13T00:31:05.568386+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -21,15 +21,15 @@
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.1419,
+          "change_pct": 1.1438,
           "up": true
         },
         "NVDA": {
-          "change_pct": -1.2474,
+          "change_pct": -1.243,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.1394,
+          "change_pct": -1.1203,
           "up": false
         }
       }
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.03,
+      "score": 47.11,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.55,
-        "change_5d_pct": 0.371
+        "current_dxy": 102.54,
+        "change_5d_pct": 0.361
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.82,
+      "score": 54.35,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.096,
+        "avg_compound": 0.087,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Scage Future Provides Business Update on Deliveries, Technology Portfolio and Growth Initiatives; Initiates Regular Investor Communication",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-12T00:30:00Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "ETSA champions show the great Indian dream is all home-brewed and visa-free",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-12T00:30:00Z",
+            "sentiment": "Positive",
+            "compound": 0.859
+          },
+          {
+            "title": "Bond Turmoil Raises the Specter of Contagion in Europe...",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-10-12T00:28:36Z",
+            "sentiment": "Negative",
+            "compound": -0.67
+          },
+          {
+            "title": "FF EAI Robotics Ecosystem Inc. (NASDAQ: FFR) Highlights Faraday Future Announcement: This Week's Investor Weekly Report from YT Jia Rescheduled to October 14; FFR and FFAI to Host Joint New Product Launch Event on October 14",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-12T00:22:00Z",
+            "sentiment": "Positive",
+            "compound": 0.547
+          },
+          {
+            "title": "Tom Emmer tells Jon Karl there are 'communists' on the midterm ballot in heated ABC exchange",
+            "source": "Fox News",
+            "publishedAt": "2026-10-12T00:19:34Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Not Nvidia. Not Broadcom. This Little-Known Chip Supplier Could Be the AI Boom's Best-Kept Secret",
             "source": "Biztoc.com",
             "publishedAt": "2026-10-12T00:11:36Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Polycrisis age: Are Nigerian firms strategically vulnerable or resilient?",
-            "source": "The Punch",
-            "publishedAt": "2026-10-12T00:10:09Z",
-            "sentiment": "Negative",
-            "compound": -0.226
-          },
-          {
-            "title": "Stanford Economist and Hoover Institution Senior Fellow Robert E. Hall Wins Nobel in Economic Sciences",
-            "source": "Hoover.org",
-            "publishedAt": "2026-10-12T00:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.572
-          },
-          {
-            "title": "Affordability Part 1",
-            "source": "Grumpy-economist.com",
-            "publishedAt": "2026-10-12T00:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "A Great Nobel",
-            "source": "Grumpy-economist.com",
-            "publishedAt": "2026-10-12T00:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.625
-          },
-          {
-            "title": "Economics Nobel awarded for work on stabilizing economies in crisis",
-            "source": "Nature.com",
-            "publishedAt": "2026-10-12T00:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.34
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.7,
-  "trade_probability": 54.62,
+  "confirmation_score": 57.67,
+  "trade_probability": 54.6,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
