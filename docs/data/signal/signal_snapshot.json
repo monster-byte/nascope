@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T15:01:28.763937+00:00",
+  "generated_at": "2026-10-13T15:15:57.342635+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.4869,
+          "change_pct": 1.5339,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.2381,
+          "change_pct": 1.2252,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.5567,
+          "change_pct": -0.6584,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.2794,
+          "change_pct": 0.4161,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 76.33,
+      "score": 76.4,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30487.0,
-        "sma50": 29856.75,
-        "sma200": 27675.36
+        "last_price": 30493.53,
+        "sma50": 29856.88,
+        "sma200": 27675.39
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 57.59,
+      "score": 57.29,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.219,
-        "change_5d_pct": -0.949
+        "current_yield_pct": 5.221,
+        "change_5d_pct": -0.911
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.62,
+      "score": 46.76,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.26,
-        "change_5d_pct": 0.422
+        "current_dxy": 102.24,
+        "change_5d_pct": 0.405
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.36,
+      "score": 56.67,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.127,
-        "articles_analyzed": 25,
+        "avg_compound": 0.133,
+        "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Evernorth’s 473 Million XRP Wager Hikes as XRP Struggles to Regain Ground",
+            "source": "Bitcoinfoundation.org",
+            "publishedAt": "2026-10-12T15:09:45Z",
+            "sentiment": "Negative",
+            "compound": -0.361
+          },
+          {
+            "title": "Citi Readies Audit to Seek End of Federal Oversight and Speed Growth",
+            "source": "pymnts.com",
+            "publishedAt": "2026-10-12T15:08:56Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "Fanttik X10 Ace 120PSI Mini Bike Pump w/ Presta & Schrader Valve $37.99 + Free S&H",
+            "source": "Slickdeals.net",
+            "publishedAt": "2026-10-12T15:07:00Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
+          {
+            "title": "Wall Street bets big on India as IPO boom draws global financial giants",
+            "source": "Bloomberg",
+            "publishedAt": "2026-10-12T15:03:57Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Cisco Advances Scalability and Openness at OCP 2026",
             "source": "PRNewswire",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-12T15:00:00Z",
             "sentiment": "Positive",
             "compound": 0.34
-          },
-          {
-            "title": "Cisco Advances Scalability and Openness at OCP 2026",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-12T15:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.34
-          },
-          {
-            "title": "NVIDIA and Cisco Introduce New Pluggable Optics Form Factor to Scale AI Factories",
-            "source": "Cisco.com",
-            "publishedAt": "2026-10-12T15:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Cisco Advances Scalability and Openness at OCP 2026",
-            "source": "Cisco.com",
-            "publishedAt": "2026-10-12T15:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.34
-          },
-          {
-            "title": "Rupee perks up 96 paise on RBI’s weekend measures",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-12T14:59:28Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 63.85,
-  "trade_probability": 58.31,
+  "confirmation_score": 63.86,
+  "trade_probability": 58.32,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
