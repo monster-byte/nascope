@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T13:45:58.241271+00:00",
+  "generated_at": "2026-10-13T14:01:27.072816+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.2434,
+          "change_pct": 1.4127,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.4016,
+          "change_pct": 1.6012,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.5302,
+          "change_pct": -0.1149,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.8438,
+          "change_pct": 1.0461,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 76.96,
+      "score": 77.37,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30550.5,
-        "sma50": 29858.02,
-        "sma200": 27675.68
+        "last_price": 30592.14,
+        "sma50": 29858.86,
+        "sma200": 27675.89
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 60.78,
+      "score": 59.26,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.198,
-        "change_5d_pct": -1.348
+        "current_yield_pct": 5.208,
+        "change_5d_pct": -1.158
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.31,
+      "score": 46.61,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.17,
-        "change_5d_pct": 0.337
+        "current_dxy": 102.26,
+        "change_5d_pct": 0.423
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 58.58,
+      "score": 51.04,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.172,
+        "avg_compound": 0.021,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "US stocks steady at open as oil jumps ahead of key earnings",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-12T13:45:03Z",
+            "title": "Tariffs pushed up consumer goods prices by 2.9 percentage points: NY Fed",
+            "source": "CFO Dive",
+            "publishedAt": "2026-10-12T14:01:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Andrew Cuomo spotted in high-level meetings at Singapore Grand Prix that was crawling with A-listers",
-            "source": "Page Six",
-            "publishedAt": "2026-10-12T13:45:00Z",
+            "title": "Gates Warns That AI Cyberattacks Will Bring \"a Lot of Negative Surprises\" in the Next Year",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-10-12T14:00:29Z",
+            "sentiment": "Negative",
+            "compound": -0.494
+          },
+          {
+            "title": "Co-developing the Child and Adolescent Mentally Healthy Classroom (CAMH Class) intervention for use in routine teaching in secondary schools",
+            "source": "Plos.org",
+            "publishedAt": "2026-10-12T14:00:00Z",
             "sentiment": "Positive",
-            "compound": 0.459
+            "compound": 0.402
           },
           {
-            "title": "Micron Technology stock crash today: Why is MU share price at Nasdaq down on Monday?",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-12T13:44:08Z",
+            "title": "Socioeconomic and clinical factors associated with odontogenic infection types among hospitalised patients in Periurban Ghana",
+            "source": "Plos.org",
+            "publishedAt": "2026-10-12T14:00:00Z",
             "sentiment": "Neutral",
-            "compound": -0.128
+            "compound": 0.0
           },
           {
-            "title": "Fitch Solutions company BMI raises FY27 growth forecast for India to 7.5%",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-12T13:39:08Z",
-            "sentiment": "Positive",
-            "compound": 0.511
+            "title": "Socio-environmental assessment of Aedes aegypti distribution and risk of chikungunya in vulnerable community",
+            "source": "Plos.org",
+            "publishedAt": "2026-10-12T14:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.459
           },
           {
-            "title": "GOOG/GOOGL Stockholder Notice: Shareholder Rights Law Firm Robbins LLP Reminds Investors of the Securities Class Action Lawsuit Filed Against Alphabet Inc.",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-12T13:36:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.077
-          },
-          {
-            "title": "Teradyne Introduces UltraFLEXplus S Series for Edge AI Applications",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-12T13:33:17Z",
+            "title": "Think The PlayStation 5 Is Expensive? This 20th Anniversary Edition PS4 Is Going For Almost $2,000",
+            "source": "ComicBook.com",
+            "publishedAt": "2026-10-12T14:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 64.62,
-  "trade_probability": 58.77,
+  "confirmation_score": 63.73,
+  "trade_probability": 58.24,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
