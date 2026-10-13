@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T00:01:25.060133+00:00",
+  "generated_at": "2026-10-13T00:15:47.793089+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.14,
+      "score": 47.03,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.54,
-        "change_5d_pct": 0.357
+        "current_dxy": 102.55,
+        "change_5d_pct": 0.371
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.91,
+      "score": 54.82,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.118,
+        "avg_compound": 0.096,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Not Nvidia. Not Broadcom. This Little-Known Chip Supplier Could Be the AI Boom's Best-Kept Secret",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-12T00:11:36Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Polycrisis age: Are Nigerian firms strategically vulnerable or resilient?",
+            "source": "The Punch",
+            "publishedAt": "2026-10-12T00:10:09Z",
+            "sentiment": "Negative",
+            "compound": -0.226
+          },
           {
             "title": "Stanford Economist and Hoover Institution Senior Fellow Robert E. Hall Wins Nobel in Economic Sciences",
             "source": "Hoover.org",
@@ -107,13 +121,6 @@
             "compound": 0.0
           },
           {
-            "title": "Economics Nobel awarded for work on stabilizing economies in crisis",
-            "source": "Nature.com",
-            "publishedAt": "2026-10-12T00:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.34
-          },
-          {
             "title": "A Great Nobel",
             "source": "Grumpy-economist.com",
             "publishedAt": "2026-10-12T00:00:00Z",
@@ -121,18 +128,11 @@
             "compound": 0.625
           },
           {
-            "title": "Nobel Prize in Economic Sciences won by Stanford Economist and Hoover Institution Senior Fellow Robert E. Hall",
-            "source": "Hoover.org",
+            "title": "Economics Nobel awarded for work on stabilizing economies in crisis",
+            "source": "Nature.com",
             "publishedAt": "2026-10-12T00:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.791
-          },
-          {
-            "title": "Nobel Prize in Economics won by Robert E. Hall, Stanford Economist and Hoover Institution Senior Fellow",
-            "source": "Hoover.org",
-            "publishedAt": "2026-10-12T00:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.791
+            "sentiment": "Negative",
+            "compound": -0.34
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.81,
-  "trade_probability": 54.69,
+  "confirmation_score": 57.7,
+  "trade_probability": 54.62,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
