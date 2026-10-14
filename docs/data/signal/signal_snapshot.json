@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T13:45:54.750145+00:00",
+  "generated_at": "2026-10-14T14:01:27.552943+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,36 +13,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 1.2864,
+          "change_pct": 1.3215,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.103,
+          "change_pct": -0.2079,
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.3784,
+          "change_pct": -1.7044,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.3481,
-          "up": true
+          "change_pct": -0.3558,
+          "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 75.05,
+      "score": 74.0,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30374.39,
-        "sma50": 29871.23,
-        "sma200": 27699.42
+        "last_price": 30267.66,
+        "sma50": 29869.09,
+        "sma200": 27698.89
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 45.91,
+      "score": 48.48,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.304,
-        "change_5d_pct": 0.512
+        "current_yield_pct": 5.287,
+        "change_5d_pct": 0.189
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.26,
+      "score": 45.55,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.72,
-        "change_5d_pct": 0.468
+        "current_dxy": 102.81,
+        "change_5d_pct": 0.557
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.32,
+      "score": 51.89,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.046,
+        "avg_compound": 0.038,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Air Launch Is Back on the Space Industry's Flight Plan",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-13T13:45:00Z",
+            "title": "Oscar Health (NYSE:OSCR) Sets New 12-Month High - Here's What Happened",
+            "source": "MarketBeat",
+            "publishedAt": "2026-10-13T14:00:38Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "George Akerlof: Information, Norms and Identity in the Economics of Motivation",
-            "source": "Fair Observer",
-            "publishedAt": "2026-10-13T13:42:06Z",
+            "title": "More homebuyers are taking a chance on adjustable-rate mortgages, hoping rates will fall—here’s how to think about that bet",
+            "source": "CNBC",
+            "publishedAt": "2026-10-13T14:00:02Z",
             "sentiment": "Positive",
-            "compound": 0.34
+            "compound": 0.586
           },
           {
-            "title": "SOUR PATCH KIDS Declares Halloween is Mischief Season with 13 Days of Mischief",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-13T13:42:00Z",
-            "sentiment": "Negative",
-            "compound": -0.612
-          },
-          {
-            "title": "Ajit Ranade: The 2026 Economics Nobel prize focuses on a macro quest that’s far from over",
-            "source": "Livemint",
-            "publishedAt": "2026-10-13T13:41:53Z",
+            "title": "Vigorous physical activity and physical function are strongly associated with better health in patients with long-standing radiographic axial spondyloarthritis",
+            "source": "Plos.org",
+            "publishedAt": "2026-10-13T14:00:00Z",
             "sentiment": "Positive",
-            "compound": 0.511
+            "compound": 0.612
           },
           {
-            "title": "1 Stat That Makes Apple Hard to Ignore Right Now",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-13T13:41:36Z",
-            "sentiment": "Negative",
-            "compound": -0.44
-          },
-          {
-            "title": "Gold prices struggle to hold early gains as U.S. dollar nears 18-month high, bond yields remain elevated - Kitco AM Report",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-13T13:39:55Z",
+            "title": "Cost comparison of the ShangRing device versus Mogen clamp for early infant male circumcision in Sub-Saharan Africa",
+            "source": "Plos.org",
+            "publishedAt": "2026-10-13T14:00:00Z",
             "sentiment": "Neutral",
-            "compound": 0.026
+            "compound": 0.0
+          },
+          {
+            "title": "Delay in initiation of rabies post-exposure vaccination and influencing factors in Gondar zones of Ethiopia",
+            "source": "Plos.org",
+            "publishedAt": "2026-10-13T14:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.318
+          },
+          {
+            "title": "Texans Credit Union Grows Active Digital Banking Users by 42% with Alkami",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-13T14:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.649
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.95,
-  "trade_probability": 52.97,
+  "confirmation_score": 48.3,
+  "trade_probability": 48.98,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
