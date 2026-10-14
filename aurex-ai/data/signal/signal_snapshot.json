@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T18:01:26.782323+00:00",
+  "generated_at": "2026-10-14T18:15:53.262603+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.1524,
+          "change_pct": 0.4981,
           "up": true
         },
         "MSFT": {
-          "change_pct": -1.6115,
+          "change_pct": -1.6524,
           "up": false
         },
         "NVDA": {
-          "change_pct": -3.5489,
+          "change_pct": -3.3564,
           "up": false
         },
         "AMZN": {
-          "change_pct": -2.0883,
+          "change_pct": -1.8875,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 70.33,
+      "score": 71.06,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29894.56,
-        "sma50": 29861.63,
-        "sma200": 27697.02
+        "last_price": 29969.07,
+        "sma50": 29863.12,
+        "sma200": 27697.4
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 60.01,
+      "score": 60.46,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.211,
-        "change_5d_pct": -1.251
+        "current_yield_pct": 5.208,
+        "change_5d_pct": -1.308
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.15,
+      "score": 46.69,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.73,
-        "change_5d_pct": 0.481
+        "current_dxy": 102.66,
+        "change_5d_pct": 0.414
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.19,
+      "score": 51.23,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.064,
+        "avg_compound": 0.025,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
-            "source": "Federalreserve.gov",
-            "publishedAt": "2026-10-13T18:00:00Z",
+            "title": "'Consolidating the Big Short': Michael Burry unpacks his evolving bet against the AI trade",
+            "source": "Business Insider",
+            "publishedAt": "2026-10-13T18:15:47Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Housing is the great Australian talking point for good reason",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-10-13T18:00:00Z",
+            "title": "Strive Buys $280 Million in Bitcoin, Its Largest Purchase in Months",
+            "source": "Decrypt",
+            "publishedAt": "2026-10-13T18:15:05Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "FirstService Residential selected to manage Lagoon Valley, a growing master-planned community in Vacaville, CA",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-13T18:15:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.178
+          },
+          {
+            "title": "Wall Street banks see deals slow on market jitters, but pipeline is strong",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-13T18:09:52Z",
             "sentiment": "Positive",
-            "compound": 0.791
+            "compound": 0.665
           },
           {
-            "title": "Wall Street mixed as bank earnings lift Goldman, Iran war and inflation weigh",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-13T17:59:27Z",
-            "sentiment": "Negative",
-            "compound": -0.599
+            "title": "The latest inflation data is expected to show price increases are accelerating",
+            "source": "CNBC",
+            "publishedAt": "2026-10-13T18:05:57Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Social Security cost-of-living adjustment for 2027 may be above average. Some say it's not enough",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-13T17:56:54Z",
-            "sentiment": "Positive",
-            "compound": 0.34
-          },
-          {
-            "title": "From Healthcare and Fuel Costs to Tariffs, Trump GOP's Policies 'Crushing' Small Businesses",
-            "source": "Common Dreams",
-            "publishedAt": "2026-10-13T17:53:03Z",
-            "sentiment": "Negative",
-            "compound": -0.361
-          },
-          {
-            "title": "Bill Gates Calls Unregulated AI Humanity’s ‘Most Dangerous’ Invention, Issues Dire Warnings For The Upcoming Year",
-            "source": "BroBible",
-            "publishedAt": "2026-10-13T17:49:52Z",
-            "sentiment": "Negative",
-            "compound": -0.637
+            "title": "A chief market strategist gives two tips for investing in commodities while the market is hot",
+            "source": "Business Insider",
+            "publishedAt": "2026-10-13T18:04:28Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 49.54,
-  "trade_probability": 49.72,
+  "confirmation_score": 49.57,
+  "trade_probability": 49.74,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
