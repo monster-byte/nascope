@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T18:31:14.719858+00:00",
+  "generated_at": "2026-10-14T18:45:58.377851+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.5202,
+          "change_pct": 0.4864,
           "up": true
         },
         "MSFT": {
-          "change_pct": -1.7223,
+          "change_pct": -1.7472,
           "up": false
         },
         "NVDA": {
-          "change_pct": -3.492,
+          "change_pct": -3.5752,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.9452,
+          "change_pct": -2.0381,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 70.75,
+      "score": 70.46,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29937.24,
-        "sma50": 29862.48,
-        "sma200": 27697.24
+        "last_price": 29907.91,
+        "sma50": 29861.9,
+        "sma200": 27697.09
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 63.95,
+      "score": 64.55,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.185,
-        "change_5d_pct": -1.743
+        "current_yield_pct": 5.181,
+        "change_5d_pct": -1.819
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.28,
+      "score": 47.55,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.59,
-        "change_5d_pct": 0.34
+        "current_dxy": 102.55,
+        "change_5d_pct": 0.306
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.69,
+      "score": 52.28,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.034,
+        "avg_compound": 0.046,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Netflix double downgraded at Huber Research amid engagement, pricing concerns",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-13T18:29:49Z",
+            "title": "Bumble Given a Billion Reasons to Go Private",
+            "source": "Gizmodo.com",
+            "publishedAt": "2026-10-13T18:45:32Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Flex plans Axiom spinoff to chase AI data center power demand in 2027",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-13T18:42:43Z",
+            "sentiment": "Neutral",
+            "compound": -0.128
+          },
+          {
+            "title": "EvernorthXRP debuts XRPN shares at NASDAQ amid recent 4% downturn",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-13T18:42:20Z",
             "sentiment": "Positive",
-            "compound": 0.459
+            "compound": 0.296
           },
           {
-            "title": "The latest inflation data is expected to show price increases are accelerating",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-13T18:27:27Z",
+            "title": "Wall Street Banks Pocket Nearly $32 Million As Americans Struggle To Make Ends Meet",
+            "source": "The Daily Caller",
+            "publishedAt": "2026-10-13T18:38:22Z",
+            "sentiment": "Negative",
+            "compound": -0.318
+          },
+          {
+            "title": "Banking regulators sound alarm over cyberattacks",
+            "source": "Nation.africa",
+            "publishedAt": "2026-10-13T18:37:49Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
+          {
+            "title": "Is It Time to Rebalance Your Portfolio?",
+            "source": "Awealthofcommonsense.com",
+            "publishedAt": "2026-10-13T18:36:18Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "'Consolidating the Big Short': Michael Burry unpacks his evolving bet against the AI trade",
-            "source": "Business Insider",
-            "publishedAt": "2026-10-13T18:15:47Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Strive Buys $280 Million in Bitcoin, Its Largest Purchase in Months",
-            "source": "Decrypt",
-            "publishedAt": "2026-10-13T18:15:05Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "FirstService Residential selected to manage Lagoon Valley, a growing master-planned community in Vacaville, CA",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-13T18:15:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.178
-          },
-          {
-            "title": "Wall Street banks see deals slow on market jitters, but pipeline is strong",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-13T18:09:52Z",
-            "sentiment": "Positive",
-            "compound": 0.665
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 50.09,
-  "trade_probability": 50.05,
+  "confirmation_score": 50.21,
+  "trade_probability": 50.13,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
