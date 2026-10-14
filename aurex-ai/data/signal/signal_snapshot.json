@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T06:15:53.097741+00:00",
+  "generated_at": "2026-10-14T06:31:18.325338+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,11 +17,11 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.1173,
+          "change_pct": 0.1056,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.4768,
+          "change_pct": 0.4638,
           "up": true
         },
         "NVDA": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.82,
+      "score": 50.98,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.14,
-        "change_5d_pct": -0.103
+        "current_dxy": 102.11,
+        "change_5d_pct": -0.122
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.8,
+      "score": 54.43,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.096,
-        "articles_analyzed": 22,
+        "avg_compound": 0.089,
+        "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "US regulators increase scrutiny of AI risks in banking sector",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-13T06:26:02Z",
+            "sentiment": "Neutral",
+            "compound": 0.052
+          },
+          {
+            "title": "South Korea's chip-heavy stock market is plunging again as AI investors find more reasons to worry",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-13T06:23:48Z",
+            "sentiment": "Negative",
+            "compound": -0.488
+          },
+          {
+            "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-13T06:23:38Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Bumble’s billion-dollar buyout: Why investors are betting on a turnaround",
+            "source": "Economictimes.com",
+            "publishedAt": "2026-10-13T06:20:20Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Best Interest Rates on Cash: Bank Accounts, Treasury Bills, Money Markets, ETFs – October 2026",
             "source": "Mymoneyblog.com",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-13T06:15:15Z",
             "sentiment": "Neutral",
             "compound": -0.153
-          },
-          {
-            "title": "German September inflation confirmed at 3.3%",
-            "source": "RTE",
-            "publishedAt": "2026-10-13T06:12:54Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "BoJ's Ueda: Underlying inflation is approaching 2%",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-13T06:07:13Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Europe set to open mixed amid data, earnings",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-13T06:07:12Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "German inflation confirmed at 3.3% in September",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-13T06:07:10Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 64.24,
-  "trade_probability": 58.54,
+  "confirmation_score": 64.22,
+  "trade_probability": 58.53,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
