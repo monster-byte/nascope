@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T17:45:50.437171+00:00",
+  "generated_at": "2026-10-14T18:01:26.782323+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.2623,
+          "change_pct": 0.1524,
           "up": true
         },
         "MSFT": {
-          "change_pct": -1.5135,
+          "change_pct": -1.6115,
           "up": false
         },
         "NVDA": {
-          "change_pct": -3.2032,
+          "change_pct": -3.5489,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.8524,
+          "change_pct": -2.0883,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 70.86,
+      "score": 70.33,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29948.15,
-        "sma50": 29862.7,
-        "sma200": 27697.29
+        "last_price": 29894.56,
+        "sma50": 29861.63,
+        "sma200": 27697.02
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 61.37,
+      "score": 60.01,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.202,
-        "change_5d_pct": -1.421
+        "current_yield_pct": 5.211,
+        "change_5d_pct": -1.251
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.29,
+      "score": 46.15,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.71,
-        "change_5d_pct": 0.464
+        "current_dxy": 102.73,
+        "change_5d_pct": 0.481
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.21,
+      "score": 53.19,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.084,
-        "articles_analyzed": 24,
+        "avg_compound": 0.064,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Super League buys its first Bitcoin for $83,041 ahead of Metaplanet deal",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-13T17:42:13Z",
-            "sentiment": "Positive",
-            "compound": 0.599
+            "title": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
+            "source": "Federalreserve.gov",
+            "publishedAt": "2026-10-13T18:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Onion inflation at 108%? Yes, but not really. What is different this time?",
+            "title": "Housing is the great Australian talking point for good reason",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-10-13T18:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.791
+          },
+          {
+            "title": "Wall Street mixed as bank earnings lift Goldman, Iran war and inflation weigh",
             "source": "The Times of India",
-            "publishedAt": "2026-10-13T17:36:01Z",
-            "sentiment": "Positive",
-            "compound": 0.298
-          },
-          {
-            "title": "West increasingly vulnerable to energy shocks – IMF",
-            "source": "Rt-english.com",
-            "publishedAt": "2026-10-13T17:35:55Z",
+            "publishedAt": "2026-10-13T17:59:27Z",
             "sentiment": "Negative",
-            "compound": -0.34
+            "compound": -0.599
           },
           {
             "title": "Social Security cost-of-living adjustment for 2027 may be above average. Some say it's not enough",
-            "source": "CNBC",
-            "publishedAt": "2026-10-13T17:34:44Z",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-13T17:56:54Z",
             "sentiment": "Positive",
             "compound": 0.34
           },
           {
-            "title": "AI bubble could burst and take global economy with it, IMF warns - The Register",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-10-13T17:33:38Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
+            "title": "From Healthcare and Fuel Costs to Tariffs, Trump GOP's Policies 'Crushing' Small Businesses",
+            "source": "Common Dreams",
+            "publishedAt": "2026-10-13T17:53:03Z",
+            "sentiment": "Negative",
+            "compound": -0.361
           },
           {
-            "title": "Trump Wants It Both Ways on the Ilhan Omar Search",
-            "source": "The Atlantic",
-            "publishedAt": "2026-10-13T17:30:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Bill Gates Calls Unregulated AI Humanity’s ‘Most Dangerous’ Invention, Issues Dire Warnings For The Upcoming Year",
+            "source": "BroBible",
+            "publishedAt": "2026-10-13T17:49:52Z",
+            "sentiment": "Negative",
+            "compound": -0.637
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 49.9,
-  "trade_probability": 49.94,
+  "confirmation_score": 49.54,
+  "trade_probability": 49.72,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
