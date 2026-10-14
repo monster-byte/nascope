@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T15:31:15.094457+00:00",
+  "generated_at": "2026-10-14T15:45:51.708171+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 1.3347,
+          "change_pct": 1.3699,
           "up": true
         },
         "MSFT": {
-          "change_pct": -1.0599,
+          "change_pct": -1.1041,
           "up": false
         },
         "NVDA": {
-          "change_pct": -2.363,
+          "change_pct": -2.6256,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.9165,
+          "change_pct": -1.1176,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 73.14,
+      "score": 72.51,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30179.46,
-        "sma50": 29867.33,
-        "sma200": 27698.45
+        "last_price": 30116.06,
+        "sma50": 29866.06,
+        "sma200": 27698.13
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 53.03,
+      "score": 53.64,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.257,
-        "change_5d_pct": -0.379
+        "current_yield_pct": 5.253,
+        "change_5d_pct": -0.455
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.8,
+      "score": 45.01,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.9,
-        "change_5d_pct": 0.65
+        "current_dxy": 102.88,
+        "change_5d_pct": 0.624
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.19,
+      "score": 53.64,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.084,
+        "avg_compound": 0.073,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Ahead of Market: 10 things that will decide stock market action on Wednesday",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-13T15:43:30Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Europe closes lowers amid inflation data",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-13T15:40:48Z",
+            "sentiment": "Neutral",
+            "compound": -0.128
+          },
+          {
+            "title": "JPMorgan, Goldman Sachs, Citigroup and Wells Fargo post strong profits, but warn rising interest rates and ‘sticky inflation’ will bite",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-13T15:40:13Z",
+            "sentiment": "Positive",
+            "compound": 0.791
+          },
+          {
+            "title": "Spiraling bond yields and AI borrowing are growing threats to the financial system, IMF says",
+            "source": "Business Insider",
+            "publishedAt": "2026-10-13T15:36:30Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "IMF warns global economy nearing \"limits of resilience\" - Axios",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-10-13T15:33:18Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
           {
             "title": "FinCEN Clears Path for Digital IDs in Bank Customer Verification, With Caveats",
             "source": "pymnts.com",
             "publishedAt": "2026-10-13T15:30:59Z",
             "sentiment": "Neutral",
             "compound": 0.077
-          },
-          {
-            "title": "Great Basin Drill Season Delivers High-Grade Silver and Gold as a Historic Nevada Tungsten Camp Lines Up Six Drill Holes",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-13T15:29:00Z",
-            "sentiment": "Positive",
-            "compound": 0.625
-          },
-          {
-            "title": "Discovery+ Raises Prices In One Of Skydance’s First Streaming Moves After Merger Close",
-            "source": "Deadline",
-            "publishedAt": "2026-10-13T15:28:56Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Bitcoin keeps up pressure on $84K as US stocks skirt Korea tech sell-off",
-            "source": "Cointelegraph",
-            "publishedAt": "2026-10-13T15:27:32Z",
-            "sentiment": "Negative",
-            "compound": -0.296
-          },
-          {
-            "title": "Hedge-fund legend Paul Tudor Jones says the stock market faces a really challenging 2027. Here’s why",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-13T15:24:51Z",
-            "sentiment": "Positive",
-            "compound": 0.225
-          },
-          {
-            "title": "Home sales slowed last month — as mortgage rates climbed: ‘Very tough market out there’",
-            "source": "New York Post",
-            "publishedAt": "2026-10-13T15:23:24Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 48.94,
-  "trade_probability": 49.36,
+  "confirmation_score": 48.91,
+  "trade_probability": 49.35,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
