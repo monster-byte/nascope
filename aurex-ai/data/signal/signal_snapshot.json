@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T16:01:25.571703+00:00",
+  "generated_at": "2026-10-14T16:15:59.048848+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 1.0549,
+          "change_pct": 0.841,
           "up": true
         },
         "MSFT": {
-          "change_pct": -1.2163,
+          "change_pct": -1.4518,
           "up": false
         },
         "NVDA": {
-          "change_pct": -2.6168,
+          "change_pct": -2.8851,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.2646,
+          "change_pct": -1.4696,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.46,
+      "score": 71.52,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30110.77,
-        "sma50": 29865.95,
-        "sma200": 27698.11
+        "last_price": 30015.81,
+        "sma50": 29864.05,
+        "sma200": 27697.63
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 56.22,
+      "score": 53.94,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.236,
-        "change_5d_pct": -0.777
+        "current_yield_pct": 5.251,
+        "change_5d_pct": -0.493
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.29,
+      "score": 45.24,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.84,
-        "change_5d_pct": 0.589
+        "current_dxy": 102.85,
+        "change_5d_pct": 0.595
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.54,
+      "score": 49.5,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.011,
+        "avg_compound": -0.01,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "IMF raises its forecast for world growth this year but warns of risks from AI boom and debt - AP News",
+            "title": "Higher Interest Rates Take Bite Out of JPMorgan’s Profits - The New York Times",
             "source": "Slashdot.org",
-            "publishedAt": "2026-10-13T15:52:46Z",
-            "sentiment": "Negative",
-            "compound": -0.691
+            "publishedAt": "2026-10-13T16:12:37Z",
+            "sentiment": "Positive",
+            "compound": 0.71
           },
           {
-            "title": "Paul Tudor Jones is bullish on oil, says it could rally another $20-$25 because of Iran conflict",
-            "source": "CNBC",
-            "publishedAt": "2026-10-13T15:52:09Z",
-            "sentiment": "Negative",
-            "compound": -0.318
-          },
-          {
-            "title": "Trump's diesel deal with Russia equals less than two weeks of U.S. demand",
-            "source": "CNBC",
-            "publishedAt": "2026-10-13T15:50:09Z",
+            "title": "Will the Fed Hold in October? | Presented by CME Group",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-13T16:10:58Z",
             "sentiment": "Neutral",
-            "compound": -0.128
+            "compound": 0.0
           },
           {
-            "title": "Top Business & Market Headlines Today — BL Morning Report, October 14, 2026",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-13T15:48:27Z",
-            "sentiment": "Positive",
-            "compound": 0.703
-          },
-          {
-            "title": "Leaked Audio Features MI GOP Candidate Rogers Mocking Affordability Concerns",
-            "source": "Truthout",
-            "publishedAt": "2026-10-13T15:48:26Z",
+            "title": "Is the Yield Curve Signaling Recession? | Presented by CME Group",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-13T16:10:41Z",
             "sentiment": "Negative",
-            "compound": -0.612
+            "compound": -0.421
           },
           {
-            "title": "Stocks, mutual funds, gold and property: How LTCG tax differs across asset classes",
-            "source": "Livemint",
-            "publishedAt": "2026-10-13T15:46:41Z",
+            "title": "Fact check: Breaking down Trump’s rosy comparison to gas prices under Biden | CNN Politics",
+            "source": "CNN",
+            "publishedAt": "2026-10-13T16:10:38Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Sales And Marketing Software Stocks Q2 Recap: Benchmarking Sprinklr (NYSE:CXM)",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-10-13T16:07:59Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "'Inspired By the Young People,' Greta Thunberg Joins French Students Demanding School Funding",
+            "source": "Common Dreams",
+            "publishedAt": "2026-10-13T16:06:54Z",
             "sentiment": "Positive",
-            "compound": 0.361
+            "compound": 0.318
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 49.0,
-  "trade_probability": 49.4,
+  "confirmation_score": 48.46,
+  "trade_probability": 49.08,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
