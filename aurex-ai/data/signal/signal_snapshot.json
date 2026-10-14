@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T15:45:51.708171+00:00",
+  "generated_at": "2026-10-14T15:58:12.894038+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 1.3699,
+          "change_pct": 1.1223,
           "up": true
         },
         "MSFT": {
-          "change_pct": -1.1041,
+          "change_pct": -1.1924,
           "up": false
         },
         "NVDA": {
-          "change_pct": -2.6256,
+          "change_pct": -2.6343,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.1176,
+          "change_pct": -1.2337,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 72.51,
+      "score": 72.45,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30116.06,
-        "sma50": 29866.06,
-        "sma200": 27698.13
+        "last_price": 30109.72,
+        "sma50": 29865.93,
+        "sma200": 27698.1
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 53.64,
+      "score": 55.61,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.253,
-        "change_5d_pct": -0.455
+        "current_yield_pct": 5.24,
+        "change_5d_pct": -0.701
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.01,
+      "score": 45.3,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.88,
-        "change_5d_pct": 0.624
+        "current_dxy": 102.84,
+        "change_5d_pct": 0.588
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.64,
+      "score": 50.54,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.073,
-        "articles_analyzed": 24,
+        "avg_compound": 0.011,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Ahead of Market: 10 things that will decide stock market action on Wednesday",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-13T15:43:30Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "IMF raises its forecast for world growth this year but warns of risks from AI boom and debt - AP News",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-10-13T15:52:46Z",
+            "sentiment": "Negative",
+            "compound": -0.691
           },
           {
-            "title": "Europe closes lowers amid inflation data",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-13T15:40:48Z",
+            "title": "Paul Tudor Jones is bullish on oil, says it could rally another $20-$25 because of Iran conflict",
+            "source": "CNBC",
+            "publishedAt": "2026-10-13T15:52:09Z",
+            "sentiment": "Negative",
+            "compound": -0.318
+          },
+          {
+            "title": "Trump's diesel deal with Russia equals less than two weeks of U.S. demand",
+            "source": "CNBC",
+            "publishedAt": "2026-10-13T15:50:09Z",
             "sentiment": "Neutral",
             "compound": -0.128
           },
           {
-            "title": "JPMorgan, Goldman Sachs, Citigroup and Wells Fargo post strong profits, but warn rising interest rates and ‘sticky inflation’ will bite",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-13T15:40:13Z",
+            "title": "Top Business & Market Headlines Today — BL Morning Report, October 14, 2026",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-13T15:48:27Z",
             "sentiment": "Positive",
-            "compound": 0.791
+            "compound": 0.703
           },
           {
-            "title": "Spiraling bond yields and AI borrowing are growing threats to the financial system, IMF says",
-            "source": "Business Insider",
-            "publishedAt": "2026-10-13T15:36:30Z",
+            "title": "Leaked Audio Features MI GOP Candidate Rogers Mocking Affordability Concerns",
+            "source": "Truthout",
+            "publishedAt": "2026-10-13T15:48:26Z",
             "sentiment": "Negative",
-            "compound": -0.273
+            "compound": -0.612
           },
           {
-            "title": "IMF warns global economy nearing \"limits of resilience\" - Axios",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-10-13T15:33:18Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
-          },
-          {
-            "title": "FinCEN Clears Path for Digital IDs in Bank Customer Verification, With Caveats",
-            "source": "pymnts.com",
-            "publishedAt": "2026-10-13T15:30:59Z",
-            "sentiment": "Neutral",
-            "compound": 0.077
+            "title": "Stocks, mutual funds, gold and property: How LTCG tax differs across asset classes",
+            "source": "Livemint",
+            "publishedAt": "2026-10-13T15:46:41Z",
+            "sentiment": "Positive",
+            "compound": 0.361
           }
         ]
       }
