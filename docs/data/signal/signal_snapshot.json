@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T17:15:52.891287+00:00",
+  "generated_at": "2026-10-14T17:31:16.847681+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.7018,
+          "change_pct": 0.2813,
           "up": true
         },
         "MSFT": {
-          "change_pct": -1.3561,
+          "change_pct": -1.5043,
           "up": false
         },
         "NVDA": {
-          "change_pct": -2.7131,
+          "change_pct": -3.1026,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.7209,
+          "change_pct": -1.8257,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 71.58,
+      "score": 71.0,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30020.97,
-        "sma50": 29864.16,
-        "sma200": 27697.66
+        "last_price": 29962.96,
+        "sma50": 29863.0,
+        "sma200": 27697.37
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 56.82,
+      "score": 57.88,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.232,
-        "change_5d_pct": -0.853
+        "current_yield_pct": 5.225,
+        "change_5d_pct": -0.985
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.45,
+      "score": 46.14,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.82,
-        "change_5d_pct": 0.569
+        "current_dxy": 102.73,
+        "change_5d_pct": 0.482
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 57.88,
+      "score": 54.72,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.158,
-        "articles_analyzed": 23,
+        "avg_compound": 0.094,
+        "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Trump Wants It Both Ways on the Ilhan Omar Search",
+            "source": "The Atlantic",
+            "publishedAt": "2026-10-13T17:30:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Gen Z is terrified of AI — and dismissing their concerns could cost Republicans elections",
+            "source": "New York Post",
+            "publishedAt": "2026-10-13T17:28:37Z",
+            "sentiment": "Negative",
+            "compound": -0.612
+          },
+          {
+            "title": "Yes, Donald Trump Really Did Just Say That “An Economic Depression Much Like 1929” Could Be Coming",
+            "source": "Theeconomiccollapseblog.com",
+            "publishedAt": "2026-10-13T17:28:29Z",
+            "sentiment": "Neutral",
+            "compound": 0.128
+          },
+          {
+            "title": "Opinion Poll: New Democracy at 30.3% – PASOK narrows gap with ELAS to 3.6 points – Kasidiaris-backed party at 3.5%",
+            "source": "Protothema.gr",
+            "publishedAt": "2026-10-13T17:26:14Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "The Iran war is costing American households $2,000 each, Moody’s estimates | CNN Business",
+            "source": "CNN",
+            "publishedAt": "2026-10-13T17:25:52Z",
+            "sentiment": "Negative",
+            "compound": -0.599
+          },
           {
             "title": "Stock Market Midday, Oct. 13: Bank Earnings and Chip Pressure Drive Mixed Trading",
             "source": "Biztoc.com",
             "publishedAt": "2026-10-13T17:14:15Z",
             "sentiment": "Negative",
             "compound": -0.296
-          },
-          {
-            "title": "'The baby boomers have arrived': Americans over 75 got richer than other age groups",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-10-13T17:14:05Z",
-            "sentiment": "Positive",
-            "compound": 0.527
-          },
-          {
-            "title": "European shares hand back gains as tech valuations return to haunt",
-            "source": "The Irish Times",
-            "publishedAt": "2026-10-13T17:14:03Z",
-            "sentiment": "Positive",
-            "compound": 0.625
-          },
-          {
-            "title": "A matter of interest (1): The major economic indicators",
-            "source": "Freethoughtblogs.com",
-            "publishedAt": "2026-10-13T17:05:50Z",
-            "sentiment": "Positive",
-            "compound": 0.477
-          },
-          {
-            "title": "Auto revenue seen rising up to 28% in Q2; input costs may squeeze margins",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-13T17:05:07Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Kulicke & Soffa Receives SEMI Award for North America for Breakthrough Fluxless Thermocompression Bonding Technology",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-13T17:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.542
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 49.63,
-  "trade_probability": 49.78,
+  "confirmation_score": 49.48,
+  "trade_probability": 49.69,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
