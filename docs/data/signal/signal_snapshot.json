@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T14:31:11.320683+00:00",
+  "generated_at": "2026-10-14T14:45:59.762757+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 1.3831,
+          "change_pct": 1.1487,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.7259,
+          "change_pct": -0.9568,
           "up": false
         },
         "NVDA": {
-          "change_pct": -2.0042,
+          "change_pct": -1.9485,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.8373,
+          "change_pct": -0.7522,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 73.85,
+      "score": 74.01,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30252.24,
-        "sma50": 29868.78,
-        "sma200": 27698.81
+        "last_price": 30268.54,
+        "sma50": 29869.11,
+        "sma200": 27698.89
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 50.45,
+      "score": 52.12,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.274,
-        "change_5d_pct": -0.057
+        "current_yield_pct": 5.263,
+        "change_5d_pct": -0.265
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.13,
+      "score": 45.49,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.86,
-        "change_5d_pct": 0.609
+        "current_dxy": 102.82,
+        "change_5d_pct": 0.563
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.02,
+      "score": 55.54,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.06,
+        "avg_compound": 0.111,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "US banks post strong profits, but inflation and rate risks cloud outlook",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-13T14:45:10Z",
+            "sentiment": "Neutral",
+            "compound": 0.115
+          },
+          {
+            "title": "New White House Press Secretary Debuts With A Very Short Briefing, Some Breaking News And Lots Of Praise For Donald Trump",
+            "source": "Deadline",
+            "publishedAt": "2026-10-13T14:44:27Z",
+            "sentiment": "Positive",
+            "compound": 0.557
+          },
+          {
+            "title": "Goolsbee says AI-induced inflation is 'jumping out of its lane,' Semafor reports",
+            "source": "CNA",
+            "publishedAt": "2026-10-13T14:39:08Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "ChronoScale Stock Tumbles 11% as Tech Sell-Off Deepens, Erasing Gains From $1 Billion Contract Boost",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-10-13T14:33:51Z",
+            "sentiment": "Positive",
+            "compound": 0.625
+          },
           {
             "title": "Stock Market Today (Oct. 13, 2026): Nasdaq edges lower as banks report earnings",
             "source": "Biztoc.com",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-13T14:26:55Z",
             "sentiment": "Positive",
             "compound": 0.527
-          },
-          {
-            "title": "US banks post strong earnings but economic risks cloud the sector’s outlook",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-13T14:24:54Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
-          },
-          {
-            "title": "The Austrian Cure: The Restoration Of Economic Reality",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-13T14:24:40Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "S&T BANK EARNS ABA FOUNDATION COMMUNITY COMMITMENT AWARD FOR SECOND CONSECUTIVE YEAR",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-13T14:23:00Z",
-            "sentiment": "Positive",
-            "compound": 0.727
-          },
-          {
-            "title": "IMF warns of risks from AI boom and debt, but raises forecast for world growth",
-            "source": "CBC News",
-            "publishedAt": "2026-10-13T14:22:14Z",
-            "sentiment": "Positive",
-            "compound": 0.226
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 48.61,
-  "trade_probability": 49.17,
+  "confirmation_score": 49.12,
+  "trade_probability": 49.47,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
