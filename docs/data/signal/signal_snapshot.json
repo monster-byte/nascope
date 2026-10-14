@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T19:15:54.010843+00:00",
+  "generated_at": "2026-10-14T19:31:16.762327+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.526,
+          "change_pct": 0.5714,
           "up": true
         },
         "MSFT": {
-          "change_pct": -1.9321,
+          "change_pct": -1.6009,
           "up": false
         },
         "NVDA": {
-          "change_pct": -3.5549,
+          "change_pct": -3.1157,
           "up": false
         },
         "AMZN": {
-          "change_pct": -2.1193,
+          "change_pct": -1.8737,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 70.39,
+      "score": 71.27,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29901.0,
-        "sma50": 29861.76,
-        "sma200": 27697.06
+        "last_price": 29989.76,
+        "sma50": 29863.53,
+        "sma200": 27697.5
       }
     },
     "vxn": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.48,
+      "score": 47.61,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.56,
-        "change_5d_pct": 0.315
+        "current_dxy": 102.54,
+        "change_5d_pct": 0.298
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.9,
+      "score": 50.52,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.018,
+        "avg_compound": 0.01,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Did Orthofix Medical Inc. Insiders Breach their Fiduciary Duties to Shareholders?",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-13T19:12:00Z",
+            "title": "The largest strike in 15 years is happening on Wednesday. Here's everything you need to know",
+            "source": "TheJournal.ie",
+            "publishedAt": "2026-10-13T19:30:58Z",
+            "sentiment": "Neutral",
+            "compound": -0.128
+          },
+          {
+            "title": "Bitcoin defies $800 million crypto wipeout as South Korea’s AI stock market crashes",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-10-13T19:30:31Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Did ZoomInfo Technologies Inc. Insiders Breach their Fiduciary Duties to Shareholders?",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-13T19:12:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "If the Bond Market Sell-Off Triggers a Recession, Decades of History Says Investors Should Do This 1 Thing",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-13T19:30:23Z",
+            "sentiment": "Negative",
+            "compound": -0.421
           },
           {
-            "title": "Did Five9, Inc. Insiders Breach their Fiduciary Duties to Shareholders?",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-13T19:12:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Inflation likely worsened in September, according to Goldman Sachs",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-13T19:27:37Z",
+            "sentiment": "Negative",
+            "compound": -0.44
           },
           {
-            "title": "LULULEMON ATHLETICA INC. Investigation Notice: Levi & Korsinsky Notifies Investors of Pending Investigation Into LULULEMON ATHLETICA INC. (LULU)",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-13T19:10:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "ArriVent BioPharma (AVBP) Securities Investigation Notice - Levi & Korsinsky",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-13T19:10:00Z",
+            "title": "Social Security benefits are rising again, but probably not enough to offset healthcare costs",
+            "source": "The Conversation Africa",
+            "publishedAt": "2026-10-13T19:26:44Z",
             "sentiment": "Positive",
-            "compound": 0.296
+            "compound": 0.361
           },
           {
-            "title": "Did lululemon athletica inc. Insiders Breach their Fiduciary Duties to Shareholders?",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-13T19:10:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Social Security benefits will rise 3.6% in 2027, but that may not be enough to offset healthcare costs",
+            "source": "The Conversation Africa",
+            "publishedAt": "2026-10-13T19:26:44Z",
+            "sentiment": "Positive",
+            "compound": 0.361
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 49.89,
-  "trade_probability": 49.93,
+  "confirmation_score": 49.98,
+  "trade_probability": 49.99,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
