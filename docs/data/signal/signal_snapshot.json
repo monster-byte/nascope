@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T02:31:12.560819+00:00",
+  "generated_at": "2026-10-14T02:45:50.241414+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,11 +17,11 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.1056,
+          "change_pct": 0.1173,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.4638,
+          "change_pct": 0.4768,
           "up": true
         },
         "NVDA": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 58.48,
+      "score": 53.36,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.17,
+        "avg_compound": 0.067,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Jesse Eisenberg donated a kidney to a stranger: What makes someone help a person they have never met?",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-13T02:43:22Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "Former Air NZ boss Greg Foran slashes jobs at US grocer Kroger in new head role",
+            "source": "Bloomberg",
+            "publishedAt": "2026-10-13T02:42:05Z",
+            "sentiment": "Negative",
+            "compound": -0.202
+          },
+          {
+            "title": "Trump attacks immigrants from Somalia and Haiti while rallying in Ohio for Republican candidates",
+            "source": "Abcnews.com",
+            "publishedAt": "2026-10-13T02:35:59Z",
+            "sentiment": "Negative",
+            "compound": -0.44
+          },
+          {
+            "title": "IMF says AI investment propping up global growth, but war and debt threaten outlook",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-13T02:35:31Z",
+            "sentiment": "Negative",
+            "compound": -0.904
+          },
           {
             "title": "Happiest Minds among 3 stocks with bullish trend on tech charts: Geojit",
             "source": "Business Standard",
@@ -103,34 +131,6 @@
             "title": "Stock market todays: BSE Sensex jumps over 200 points, NSE Nifty50 rises above 22,400",
             "source": "The Times of India",
             "publishedAt": "2026-10-13T02:29:22Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "IMF edges up 2026 global growth forecast to 3.1% but warns economy is ‘vulnerable to setbacks from both directions’",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-13T02:26:04Z",
-            "sentiment": "Neutral",
-            "compound": 0.052
-          },
-          {
-            "title": "Stock Market LIVE: GIFT Nifty signals positive open; KOSPI tumbles over 6%; Brent below $106",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-13T02:22:33Z",
-            "sentiment": "Positive",
-            "compound": 0.873
-          },
-          {
-            "title": "Flat opening seen Indian stock markets amid cautious mood",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-13T02:22:31Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
-          },
-          {
-            "title": "The World's Hottest AI Stock Market Has Gone Cold",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-13T02:21:23Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 64.28,
-  "trade_probability": 58.57,
+  "confirmation_score": 63.82,
+  "trade_probability": 58.29,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
