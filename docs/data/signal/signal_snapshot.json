@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T16:31:10.576736+00:00",
+  "generated_at": "2026-10-14T16:46:01.845540+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 1.1179,
+          "change_pct": 0.923,
           "up": true
         },
         "MSFT": {
-          "change_pct": -1.3508,
+          "change_pct": -1.1556,
           "up": false
         },
         "NVDA": {
-          "change_pct": -3.0719,
+          "change_pct": -2.735,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.4889,
+          "change_pct": -1.4348,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 71.41,
+      "score": 72.01,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30004.49,
-        "sma50": 29863.83,
-        "sma200": 27697.57
+        "last_price": 30065.3,
+        "sma50": 29865.04,
+        "sma200": 27697.88
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 55.0,
+      "score": 56.22,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.244,
-        "change_5d_pct": -0.625
+        "current_yield_pct": 5.236,
+        "change_5d_pct": -0.777
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.8,
+      "score": 45.09,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.9,
-        "change_5d_pct": 0.65
+        "current_dxy": 102.87,
+        "change_5d_pct": 0.613
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.6,
+      "score": 50.75,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.028,
+        "avg_compound": 0.015,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "The AI trade is cracking. Here's how to profit",
+            "source": "CNBC",
+            "publishedAt": "2026-10-13T16:44:21Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
+          {
+            "title": "Gold defies multi-decade high bond yields, but Q4 headwinds remain – Invesco",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-13T16:41:11Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Map Shows States With Most Expensive Water Bills as Prices Surge",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-13T16:40:47Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "BMBL SHAREHOLDER ALERT: ADEMI LLP INVESTIGATES WHETHER BUYOUT FAIRLY VALUES BUMBLE INC.",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-13T16:38:00Z",
+            "sentiment": "Positive",
+            "compound": 0.599
+          },
+          {
+            "title": "Advance voter turnout in Toronto election jumped nearly 72% from 2023 byelection: city",
+            "source": "CBC News",
+            "publishedAt": "2026-10-13T16:37:35Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Interactive Brokers Adds Ethereum Staking for Eligible Clients",
             "source": "Biztoc.com",
             "publishedAt": "2026-10-13T16:28:35Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Advanced Energy Launches 3200 W and 3600 W M-CRPS Power Supplies with Ultra-High Power Density",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-13T16:28:35Z",
-            "sentiment": "Positive",
-            "compound": 0.477
-          },
-          {
-            "title": "Jim Cramer bucks all the stock market negativity with 3 buy recommendations",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-13T16:25:41Z",
-            "sentiment": "Negative",
-            "compound": -0.511
-          },
-          {
-            "title": "Higher Interest Rates Take Bite Out of JPMorgan’s Profits - The New York Times",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-10-13T16:12:37Z",
-            "sentiment": "Positive",
-            "compound": 0.71
-          },
-          {
-            "title": "Will the Fed Hold in October? | Presented by CME Group",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-13T16:10:58Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Is the Yield Curve Signaling Recession? | Presented by CME Group",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-13T16:10:41Z",
-            "sentiment": "Negative",
-            "compound": -0.421
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 48.47,
-  "trade_probability": 49.08,
+  "confirmation_score": 48.94,
+  "trade_probability": 49.36,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
