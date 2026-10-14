@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T14:45:59.762757+00:00",
+  "generated_at": "2026-10-14T15:01:30.030951+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 1.1487,
+          "change_pct": 1.0519,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.9568,
+          "change_pct": -0.828,
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.9485,
+          "change_pct": -1.9264,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.7522,
+          "change_pct": -0.9455,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 74.01,
+      "score": 73.78,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30268.54,
-        "sma50": 29869.11,
-        "sma200": 27698.89
+        "last_price": 30244.49,
+        "sma50": 29868.63,
+        "sma200": 27698.77
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 52.12,
+      "score": 53.64,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.263,
-        "change_5d_pct": -0.265
+        "current_yield_pct": 5.253,
+        "change_5d_pct": -0.455
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.49,
+      "score": 45.14,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.82,
-        "change_5d_pct": 0.563
+        "current_dxy": 102.86,
+        "change_5d_pct": 0.607
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.54,
+      "score": 54.65,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.111,
+        "avg_compound": 0.093,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Saudi Arabia Becomes the Oil Market’s Biggest Wild Card",
+            "source": "OilPrice.com",
+            "publishedAt": "2026-10-13T15:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Docusign and Salesforce Launch Intelligent Agreement Management Natively Across Salesforce to Power Agentic Agreement Workflows",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-13T15:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.856
+          },
+          {
+            "title": "Anthropic to disclose new revenue numbers as AI lab financials become central to tech trade",
+            "source": "CNBC",
+            "publishedAt": "2026-10-13T14:55:51Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Trump’s new White House press secretary Katie Zacharia keeps first briefing short",
+            "source": "NBC News",
+            "publishedAt": "2026-10-13T14:48:17Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "The Raid on Rep. Ilhan Omar’s Home Isn’t About Law Enforcement – It’s About Intimidation",
+            "source": "The Root",
+            "publishedAt": "2026-10-13T14:47:42Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
           {
             "title": "US banks post strong profits, but inflation and rate risks cloud outlook",
             "source": "The Times of India",
             "publishedAt": "2026-10-13T14:45:10Z",
             "sentiment": "Neutral",
             "compound": 0.115
-          },
-          {
-            "title": "New White House Press Secretary Debuts With A Very Short Briefing, Some Breaking News And Lots Of Praise For Donald Trump",
-            "source": "Deadline",
-            "publishedAt": "2026-10-13T14:44:27Z",
-            "sentiment": "Positive",
-            "compound": 0.557
-          },
-          {
-            "title": "Goolsbee says AI-induced inflation is 'jumping out of its lane,' Semafor reports",
-            "source": "CNA",
-            "publishedAt": "2026-10-13T14:39:08Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "ChronoScale Stock Tumbles 11% as Tech Sell-Off Deepens, Erasing Gains From $1 Billion Contract Boost",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-10-13T14:33:51Z",
-            "sentiment": "Positive",
-            "compound": 0.625
-          },
-          {
-            "title": "Stock Market Today (Oct. 13, 2026): Nasdaq edges lower as banks report earnings",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-13T14:27:38Z",
-            "sentiment": "Negative",
-            "compound": -0.296
-          },
-          {
-            "title": "Data Center Construction, Data Centers on Federal Lands, Moms for Liberty, More: ResearchBuzz AI Update, October 13, 2026",
-            "source": "Researchbuzz.me",
-            "publishedAt": "2026-10-13T14:26:55Z",
-            "sentiment": "Positive",
-            "compound": 0.527
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 49.12,
-  "trade_probability": 49.47,
+  "confirmation_score": 49.18,
+  "trade_probability": 49.51,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
