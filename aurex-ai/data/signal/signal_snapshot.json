@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T16:15:59.048848+00:00",
+  "generated_at": "2026-10-14T16:31:10.576736+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.841,
+          "change_pct": 1.1179,
           "up": true
         },
         "MSFT": {
-          "change_pct": -1.4518,
+          "change_pct": -1.3508,
           "up": false
         },
         "NVDA": {
-          "change_pct": -2.8851,
+          "change_pct": -3.0719,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.4696,
+          "change_pct": -1.4889,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 71.52,
+      "score": 71.41,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30015.81,
-        "sma50": 29864.05,
-        "sma200": 27697.63
+        "last_price": 30004.49,
+        "sma50": 29863.83,
+        "sma200": 27697.57
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 53.94,
+      "score": 55.0,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.251,
-        "change_5d_pct": -0.493
+        "current_yield_pct": 5.244,
+        "change_5d_pct": -0.625
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.24,
+      "score": 44.8,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.85,
-        "change_5d_pct": 0.595
+        "current_dxy": 102.9,
+        "change_5d_pct": 0.65
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.5,
+      "score": 48.6,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.01,
-        "articles_analyzed": 25,
+        "avg_compound": -0.028,
+        "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Interactive Brokers Adds Ethereum Staking for Eligible Clients",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-13T16:28:35Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Advanced Energy Launches 3200 W and 3600 W M-CRPS Power Supplies with Ultra-High Power Density",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-13T16:28:35Z",
+            "sentiment": "Positive",
+            "compound": 0.477
+          },
+          {
+            "title": "Jim Cramer bucks all the stock market negativity with 3 buy recommendations",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-13T16:25:41Z",
+            "sentiment": "Negative",
+            "compound": -0.511
+          },
           {
             "title": "Higher Interest Rates Take Bite Out of JPMorgan’s Profits - The New York Times",
             "source": "Slashdot.org",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-13T16:10:41Z",
             "sentiment": "Negative",
             "compound": -0.421
-          },
-          {
-            "title": "Fact check: Breaking down Trump’s rosy comparison to gas prices under Biden | CNN Politics",
-            "source": "CNN",
-            "publishedAt": "2026-10-13T16:10:38Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Sales And Marketing Software Stocks Q2 Recap: Benchmarking Sprinklr (NYSE:CXM)",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-10-13T16:07:59Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "'Inspired By the Young People,' Greta Thunberg Joins French Students Demanding School Funding",
-            "source": "Common Dreams",
-            "publishedAt": "2026-10-13T16:06:54Z",
-            "sentiment": "Positive",
-            "compound": 0.318
           }
         ]
       }
@@ -146,7 +146,7 @@
       }
     }
   },
-  "confirmation_score": 48.46,
+  "confirmation_score": 48.47,
   "trade_probability": 49.08,
   "market_regime": "BULLISH",
   "final_decision": {
