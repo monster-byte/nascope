@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T13:31:12.761419+00:00",
+  "generated_at": "2026-10-14T13:45:54.750145+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 1.0461,
+          "change_pct": 1.2864,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.08,
-          "up": true
+          "change_pct": -0.103,
+          "up": false
         },
         "NVDA": {
-          "change_pct": -1.4594,
+          "change_pct": -1.3784,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.4602,
-          "up": false
+          "change_pct": 0.3481,
+          "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 74.84,
+      "score": 75.05,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 30353.07,
-        "sma50": 29870.8,
-        "sma200": 27699.32
+        "last_price": 30374.39,
+        "sma50": 29871.23,
+        "sma200": 27699.42
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 44.39,
+      "score": 45.91,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.314,
-        "change_5d_pct": 0.701
+        "current_yield_pct": 5.304,
+        "change_5d_pct": 0.512
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.09,
+      "score": 46.26,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.87,
-        "change_5d_pct": 0.614
+        "current_dxy": 102.72,
+        "change_5d_pct": 0.468
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.74,
+      "score": 52.32,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.115,
+        "avg_compound": 0.046,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Datasea's Five AI Agent Customer Arrangements Reach Approximately US$4.0 Million in Aggregate Service Value",
+            "title": "Air Launch Is Back on the Space Industry's Flight Plan",
             "source": "PRNewswire",
-            "publishedAt": "2026-10-13T13:30:00Z",
-            "sentiment": "Positive",
-            "compound": 0.361
-          },
-          {
-            "title": "Minister defends Burnham plan to slash state pension triple lock as Tories warn it will be another winter fuel payments disaster",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-10-13T13:16:38Z",
-            "sentiment": "Negative",
-            "compound": -0.765
-          },
-          {
-            "title": "SuperCom Wins 7th New York Electronic Monitoring Contract, Fully Displacing the Incumbent",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-13T13:15:00Z",
-            "sentiment": "Positive",
-            "compound": 0.572
-          },
-          {
-            "title": "Aviat Launches WTM 4400 'Quad' Delivering More Capacity, Longer Reach and Lower Network Costs",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-13T13:15:00Z",
-            "sentiment": "Negative",
-            "compound": -0.211
-          },
-          {
-            "title": "Years of Proven Results Drive Continued Partnership Between Pyung Hwa Holdings and Rimini Street",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-13T13:14:20Z",
+            "publishedAt": "2026-10-13T13:45:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Chip selloff extends as South Korean stock market sinks 5%",
+            "title": "George Akerlof: Information, Norms and Identity in the Economics of Motivation",
+            "source": "Fair Observer",
+            "publishedAt": "2026-10-13T13:42:06Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
+          {
+            "title": "SOUR PATCH KIDS Declares Halloween is Mischief Season with 13 Days of Mischief",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-13T13:42:00Z",
+            "sentiment": "Negative",
+            "compound": -0.612
+          },
+          {
+            "title": "Ajit Ranade: The 2026 Economics Nobel prize focuses on a macro quest that’s far from over",
+            "source": "Livemint",
+            "publishedAt": "2026-10-13T13:41:53Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
+          {
+            "title": "1 Stat That Makes Apple Hard to Ignore Right Now",
             "source": "Biztoc.com",
-            "publishedAt": "2026-10-13T13:12:16Z",
+            "publishedAt": "2026-10-13T13:41:36Z",
+            "sentiment": "Negative",
+            "compound": -0.44
+          },
+          {
+            "title": "Gold prices struggle to hold early gains as U.S. dollar nears 18-month high, bond yields remain elevated - Kitco AM Report",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-13T13:39:55Z",
             "sentiment": "Neutral",
-            "compound": 0.128
+            "compound": 0.026
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.92,
-  "trade_probability": 52.95,
+  "confirmation_score": 54.95,
+  "trade_probability": 52.97,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
