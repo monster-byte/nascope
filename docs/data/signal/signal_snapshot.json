@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T19:31:16.762327+00:00",
+  "generated_at": "2026-10-14T19:45:54.064939+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.5714,
+          "change_pct": 0.7823,
           "up": true
         },
         "MSFT": {
-          "change_pct": -1.6009,
+          "change_pct": -1.7812,
           "up": false
         },
         "NVDA": {
-          "change_pct": -3.1157,
+          "change_pct": -3.422,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.8737,
+          "change_pct": -2.2082,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 71.27,
+      "score": 70.86,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29989.76,
-        "sma50": 29863.53,
-        "sma200": 27697.5
+        "last_price": 29948.11,
+        "sma50": 29862.7,
+        "sma200": 27697.29
       }
     },
     "vxn": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.61,
+      "score": 47.28,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.54,
-        "change_5d_pct": 0.298
+        "current_dxy": 102.59,
+        "change_5d_pct": 0.339
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.52,
+      "score": 51.49,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.01,
+        "avg_compound": 0.03,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Billing Friction Puts $12.3 Billion in Auto Loan Payments at Risk",
+            "source": "pymnts.com",
+            "publishedAt": "2026-10-13T19:45:46Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "After US, India is the easiest place to list a company, says Blackstone's chief operating officer Jonathan Gray",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-13T19:44:32Z",
+            "sentiment": "Positive",
+            "compound": 0.421
+          },
+          {
+            "title": "After US, India is the easiest place to list a company, says Blackstone's chief operating officer Jonathan Gray",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-13T19:44:32Z",
+            "sentiment": "Positive",
+            "compound": 0.421
+          },
+          {
+            "title": "Trump says Houthis trying to increase oil prices before US elections",
+            "source": "Al Jazeera English",
+            "publishedAt": "2026-10-13T19:33:11Z",
+            "sentiment": "Positive",
+            "compound": 0.318
+          },
           {
             "title": "The largest strike in 15 years is happening on Wednesday. Here's everything you need to know",
             "source": "TheJournal.ie",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-13T19:30:31Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "If the Bond Market Sell-Off Triggers a Recession, Decades of History Says Investors Should Do This 1 Thing",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-13T19:30:23Z",
-            "sentiment": "Negative",
-            "compound": -0.421
-          },
-          {
-            "title": "Inflation likely worsened in September, according to Goldman Sachs",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-13T19:27:37Z",
-            "sentiment": "Negative",
-            "compound": -0.44
-          },
-          {
-            "title": "Social Security benefits are rising again, but probably not enough to offset healthcare costs",
-            "source": "The Conversation Africa",
-            "publishedAt": "2026-10-13T19:26:44Z",
-            "sentiment": "Positive",
-            "compound": 0.361
-          },
-          {
-            "title": "Social Security benefits will rise 3.6% in 2027, but that may not be enough to offset healthcare costs",
-            "source": "The Conversation Africa",
-            "publishedAt": "2026-10-13T19:26:44Z",
-            "sentiment": "Positive",
-            "compound": 0.361
           }
         ]
       }
@@ -146,7 +146,7 @@
       }
     }
   },
-  "confirmation_score": 49.98,
+  "confirmation_score": 49.99,
   "trade_probability": 49.99,
   "market_regime": "BULLISH",
   "final_decision": {
