@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T16:15:54.619287+00:00",
+  "generated_at": "2026-10-15T16:31:13.495910+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.3993,
+          "change_pct": -0.2094,
           "up": false
         },
         "MSFT": {
-          "change_pct": 1.6064,
+          "change_pct": 1.6846,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.3252,
+          "change_pct": -0.8667,
           "up": false
         },
         "AMZN": {
-          "change_pct": 1.1539,
+          "change_pct": 0.8992,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29760.99,
-        "sma50": 29868.22,
-        "sma200": 27718.48
+        "last_price": 29702.04,
+        "sma50": 29867.04,
+        "sma200": 27718.19
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 70.34,
+      "score": 71.1,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.098,
-        "change_5d_pct": -2.543
+        "current_yield_pct": 5.093,
+        "change_5d_pct": -2.638
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.89,
+      "score": 50.06,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.15,
-        "change_5d_pct": 0.014
+        "current_dxy": 102.13,
+        "change_5d_pct": -0.008
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 42.0,
+      "score": 52.25,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.16,
+        "avg_compound": 0.045,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Toy prices jump 4.2% ahead of the holidays",
-            "source": "Retail Dive",
-            "publishedAt": "2026-10-14T16:13:00Z",
-            "sentiment": "Positive",
-            "compound": 0.382
+            "title": "‘There is no magic’: IMF says U.S. and other nations must ‘go in a direction of tightening’ global debt as economic growth can’t ‘deliver fast enough’",
+            "source": "Fortune",
+            "publishedAt": "2026-10-14T16:29:28Z",
+            "sentiment": "Negative",
+            "compound": -0.273
           },
           {
-            "title": "'Cheruvayal Raman called me his daughter when I met him, he touched my heart': Priyanka Gandhi",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-14T16:12:23Z",
-            "sentiment": "Positive",
-            "compound": 0.637
+            "title": "Houthis Launch More Missiles, Saudi Oil Company Headquarters Heavily Damaged",
+            "source": "Breitbart News",
+            "publishedAt": "2026-10-14T16:26:34Z",
+            "sentiment": "Negative",
+            "compound": -0.44
           },
           {
-            "title": "SK Hynix Shares Extend Slide as China's CXMT Memory Breakthrough Claims Rattle Chip Investors on Wall Street",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-10-14T16:12:17Z",
-            "sentiment": "Positive",
-            "compound": 0.44
+            "title": "SkyAI slashes Solana holdings by 70%, signaling market sentiment shift",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-14T16:25:55Z",
+            "sentiment": "Negative",
+            "compound": -0.202
           },
           {
-            "title": "Top Business & Market Headlines Today — BL Morning Report, October 15, 2026",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-14T16:11:49Z",
-            "sentiment": "Positive",
-            "compound": 0.703
-          },
-          {
-            "title": "US Social Security benefits to rise by 3.6 percent in 2027",
-            "source": "Al Jazeera English",
-            "publishedAt": "2026-10-14T16:10:39Z",
-            "sentiment": "Positive",
-            "compound": 0.612
-          },
-          {
-            "title": "CM transfers Rs 112cr to 2.48L flood-hit farmers",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-14T16:10:24Z",
+            "title": "Trump Claims the Economy Is Alright. But the Numbers Tell a Different Story.",
+            "source": "Mother Jones",
+            "publishedAt": "2026-10-14T16:25:26Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": 0.128
+          },
+          {
+            "title": "CoreWeave shares tumble as bond yields near 15% on concern about AI borrowing binge",
+            "source": "CNBC",
+            "publishedAt": "2026-10-14T16:24:51Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "IDBI Bank stake sale to push MCR receipts beyond ₹90,000 crore, providing fiscal relief",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-14T16:24:35Z",
+            "sentiment": "Positive",
+            "compound": 0.477
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.27,
-  "trade_probability": 52.56,
+  "confirmation_score": 55.31,
+  "trade_probability": 53.19,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
