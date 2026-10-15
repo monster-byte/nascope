@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T18:45:52.798136+00:00",
+  "generated_at": "2026-10-15T19:01:24.107689+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.7467,
+          "change_pct": -0.7442,
           "up": false
         },
         "MSFT": {
-          "change_pct": 1.7776,
+          "change_pct": 1.8889,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.4155,
+          "change_pct": -0.0989,
           "up": false
         },
         "AMZN": {
-          "change_pct": 1.4045,
+          "change_pct": 1.6157,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29776.6,
-        "sma50": 29868.53,
-        "sma200": 27718.56
+        "last_price": 29843.27,
+        "sma50": 29869.86,
+        "sma200": 27718.89
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 73.55,
+      "score": 72.94,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.077,
-        "change_5d_pct": -2.944
+        "current_yield_pct": 5.081,
+        "change_5d_pct": -2.868
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.06,
+      "score": 50.77,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.0,
-        "change_5d_pct": -0.132
+        "current_dxy": 102.04,
+        "change_5d_pct": -0.096
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.27,
+      "score": 46.06,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.055,
+        "avg_compound": -0.079,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Box Office: ‘Street Fighter’ Aims for $30 Million Opening, ‘You Can See Everything’ Could Score $8 Million Start",
-            "source": "Variety",
-            "publishedAt": "2026-10-14T18:45:14Z",
+            "title": "Zelenskyy says Trump's decision to take Russia's side is 'painful'",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-10-14T18:59:42Z",
+            "sentiment": "Negative",
+            "compound": -0.44
+          },
+          {
+            "title": "Global diesel shortages could drag into 2027, IEA warns",
+            "source": "New York Post",
+            "publishedAt": "2026-10-14T18:59:38Z",
+            "sentiment": "Negative",
+            "compound": -0.44
+          },
+          {
+            "title": "It’s no secret drug firms donate to political parties. But it’s still a secret exactly how much, and why",
+            "source": "The Conversation Africa",
+            "publishedAt": "2026-10-14T18:56:48Z",
+            "sentiment": "Neutral",
+            "compound": 0.064
+          },
+          {
+            "title": "U.S. dollar advances to highest since May 2025 on Fed hike views",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-14T18:55:38Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Xbox’s new Nano controller signals a shift beyond the traditional console as Microsoft targets gaming across devices",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-14T18:45:06Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Glassnode says Bitcoin remains capped by $88K holder cost basis despite declining selling pressure",
+            "title": "Chip-stock index faces $1 trillion loss as AI concerns deepen",
             "source": "Crypto Briefing",
-            "publishedAt": "2026-10-14T18:43:47Z",
-            "sentiment": "Positive",
-            "compound": 0.224
+            "publishedAt": "2026-10-14T18:53:56Z",
+            "sentiment": "Negative",
+            "compound": -0.318
           },
           {
-            "title": "Red hot CPI report fuels AI rout",
-            "source": "CNA",
-            "publishedAt": "2026-10-14T18:39:41Z",
+            "title": "Bank of America hires 1,000 contractors to patch flaws exposed by Anthropic’s Mythos",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-14T18:52:51Z",
             "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Thom Tillis Is Still Kissing Donald Trump's Ass",
-            "source": "HuffPost",
-            "publishedAt": "2026-10-14T18:36:51Z",
-            "sentiment": "Neutral",
-            "compound": 0.052
-          },
-          {
-            "title": "Trump raise prices",
-            "source": "Lawyersgunsmoneyblog.com",
-            "publishedAt": "2026-10-14T18:34:53Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": -0.077
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 55.28,
-  "trade_probability": 53.17,
+  "confirmation_score": 55.06,
+  "trade_probability": 53.04,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
