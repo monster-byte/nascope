@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T22:46:00.983612+00:00",
+  "generated_at": "2026-10-15T23:01:24.076000+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.9007,
+          "change_pct": -0.8329,
           "up": false
         },
         "MSFT": {
-          "change_pct": 1.6645,
+          "change_pct": 1.6262,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.3237,
+          "change_pct": -0.2999,
           "up": false
         },
         "AMZN": {
-          "change_pct": 1.7195,
+          "change_pct": 1.7009,
           "up": true
         }
       }
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.74,
+      "score": 53.46,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.035,
+        "avg_compound": 0.069,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Universities warn funding gap leaves sector at cliff-edge",
+            "source": "RTE",
+            "publishedAt": "2026-10-14T23:01:00Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
+          {
+            "title": "Virginia rethinks refinancing as prices, interest rates rise",
+            "source": "Richmond.com",
+            "publishedAt": "2026-10-14T23:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "Jim Cramer explains why even strong bank earnings couldn't save their stocks",
+            "source": "CNBC",
+            "publishedAt": "2026-10-14T22:48:06Z",
+            "sentiment": "Neutral",
+            "compound": 0.171
+          },
           {
             "title": "AppLovin Corporation (APP) Class Action Lawsuit Seeks Recovery for Investors; November 16, 2026, Deadline - Contact Kessler Topaz Meltzer & Check, LLP",
             "source": "PRNewswire",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-14T22:43:00Z",
             "sentiment": "Positive",
             "compound": 0.347
-          },
-          {
-            "title": "Here's Why Axon Enterprise (AXON) Fell More Than Broader Market",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-14T22:41:01Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Cleveland-Cliffs (CLF) Registers a Bigger Fall Than the Market: Important Facts to Note",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-14T22:40:57Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "Here's Why Unity Software Inc. (U) Fell More Than Broader Market",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-14T22:40:52Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 58.22,
-  "trade_probability": 54.93,
+  "confirmation_score": 58.38,
+  "trade_probability": 55.03,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
