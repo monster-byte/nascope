@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T08:01:21.653891+00:00",
+  "generated_at": "2026-10-15T08:15:55.641034+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.5052,
+          "change_pct": -0.5732,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.5971,
+          "change_pct": 0.6351,
           "up": true
         },
         "NVDA": {
-          "change_pct": 1.6552,
+          "change_pct": 1.6309,
           "up": true
         },
         "AMZN": {
-          "change_pct": 1.4813,
+          "change_pct": 1.4999,
           "up": true
         }
       }
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.26,
+      "score": 50.78,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.11,
-        "change_5d_pct": -0.032
+        "current_dxy": 102.04,
+        "change_5d_pct": -0.097
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 57.64,
+      "score": 52.79,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.153,
-        "articles_analyzed": 25,
+        "avg_compound": 0.056,
+        "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Lagarde says solution to French debt woes is at home",
+            "source": "RTE",
+            "publishedAt": "2026-10-14T08:14:17Z",
+            "sentiment": "Negative",
+            "compound": -0.477
+          },
+          {
+            "title": "Rising Gasoline Prices Fuel Fresh Inflation Fears in the U.S. - Crude Oil Prices Today | OilPrice.com",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-10-14T08:12:13Z",
+            "sentiment": "Negative",
+            "compound": -0.637
+          },
+          {
+            "title": "Nikkei Slips as Chip Rebound Fades Before U.S. CPI",
+            "source": "Newsonjapan.com",
+            "publishedAt": "2026-10-14T08:08:52Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Cancer Drug Spending Is Headed Past $400 Billion as Colorectal and Pancreatic Cancers Move Up the Research Agenda",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-14T08:07:00Z",
+            "sentiment": "Negative",
+            "compound": -0.66
+          },
+          {
+            "title": "Nostalgia fuels wave of retro revivals - but can cars make the future look happy, too?",
+            "source": "Autocar",
+            "publishedAt": "2026-10-14T08:02:25Z",
+            "sentiment": "Positive",
+            "compound": 0.723
+          },
           {
             "title": "Wall Street Sees Inflation Easing Even With Oil Above $90",
             "source": "Biztoc.com",
             "publishedAt": "2026-10-14T08:00:23Z",
             "sentiment": "Positive",
             "compound": 0.25
-          },
-          {
-            "title": "Solidion Technology Reaffirms Commitment to Address Growing Energy Storage Needs of AI Data Centers",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-14T08:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.66
-          },
-          {
-            "title": "Rare profit miss by JPMorgan: 1st time in nearly 3 years: What went wrong? SpaceX IPO euphoria fades? Slowdown explained",
-            "source": "Livemint",
-            "publishedAt": "2026-10-14T07:52:37Z",
-            "sentiment": "Positive",
-            "compound": 0.594
-          },
-          {
-            "title": "Global Market: Lagarde says France must tackle debt woes through fiscal consolidation",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-14T07:46:50Z",
-            "sentiment": "Negative",
-            "compound": -0.66
-          },
-          {
-            "title": "Global Market | European companies better positioned to withstand energy price shock than in 2022: Analysts",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-14T07:45:28Z",
-            "sentiment": "Positive",
-            "compound": 0.34
-          },
-          {
-            "title": "Silver slips 1% ahead of US inflation figures",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-14T07:45:10Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 64.31,
-  "trade_probability": 58.59,
+  "confirmation_score": 63.92,
+  "trade_probability": 58.35,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
