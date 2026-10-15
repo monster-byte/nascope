@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T15:15:53.766478+00:00",
+  "generated_at": "2026-10-15T15:31:23.599258+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.3153,
+          "change_pct": -0.2399,
           "up": false
         },
         "MSFT": {
-          "change_pct": 1.6437,
+          "change_pct": 1.2818,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.2778,
+          "change_pct": -0.7183,
           "up": false
         },
         "AMZN": {
-          "change_pct": 1.5079,
+          "change_pct": 1.1884,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29846.98,
-        "sma50": 29869.94,
-        "sma200": 27718.91
+        "last_price": 29755.68,
+        "sma50": 29868.11,
+        "sma200": 27718.46
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 74.32,
+      "score": 71.1,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.072,
-        "change_5d_pct": -3.04
+        "current_yield_pct": 5.093,
+        "change_5d_pct": -2.638
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.69,
+      "score": 49.9,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.18,
-        "change_5d_pct": 0.038
+        "current_dxy": 102.15,
+        "change_5d_pct": 0.013
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.25,
+      "score": 48.81,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.055,
+        "avg_compound": -0.024,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Trump Just Hand-Delivered Workers Another Pay Cut",
-            "source": "HuffPost",
-            "publishedAt": "2026-10-14T15:14:09Z",
+            "title": "I shopped at Aldi and Lidl. After comparing prices and experience, I found my winning budget grocery chain.",
+            "source": "Business Insider",
+            "publishedAt": "2026-10-14T15:29:52Z",
+            "sentiment": "Positive",
+            "compound": 0.527
+          },
+          {
+            "title": "India urges Russia, Ukraine to protect Black Sea shipping",
+            "source": "DW (English)",
+            "publishedAt": "2026-10-14T15:29:00Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "Fuel crisis hits Indonesia's Bali, triggers long lines in gas stations for days",
+            "source": "Abcnews.com",
+            "publishedAt": "2026-10-14T15:25:57Z",
             "sentiment": "Negative",
-            "compound": -0.361
+            "compound": -0.625
           },
           {
-            "title": "Should You Buy Netflix Stock Before Oct. 20?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-14T15:07:45Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Rupee continues to rise; tests intraday high of 94.75 against US dollar",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-14T15:04:36Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Workers At La Scala Vote To Authorize One-Day Strike",
-            "source": "Moto-perpetuo.com",
-            "publishedAt": "2026-10-14T15:02:00Z",
+            "title": "Irish public sector workers strike, leading to school closures and canceled medical appointments",
+            "source": "Abcnews.com",
+            "publishedAt": "2026-10-14T15:25:53Z",
             "sentiment": "Neutral",
             "compound": -0.128
           },
           {
-            "title": "Inside the college majors at elite universities where graduates earn more than $250,000—over 4 times their peers",
-            "source": "Fortune",
-            "publishedAt": "2026-10-14T15:01:44Z",
+            "title": "IMF chief urges wealthy nations to tackle rising global debt levels",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-14T15:23:31Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Bitcoin plunges to $81,300 support as Fed hike odds hit 55% amid $100 million crypto wipeout",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-10-14T15:00:32Z",
-            "sentiment": "Positive",
-            "compound": 0.402
+            "title": "What about insider trading in land?",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-14T15:22:50Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 55.26,
-  "trade_probability": 53.16,
+  "confirmation_score": 54.98,
+  "trade_probability": 52.99,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
