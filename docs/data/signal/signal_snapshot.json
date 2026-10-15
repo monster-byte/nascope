@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T19:45:57.432369+00:00",
+  "generated_at": "2026-10-15T20:01:20.985031+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.6647,
+          "change_pct": -0.8329,
           "up": false
         },
         "MSFT": {
-          "change_pct": 1.8447,
+          "change_pct": 1.6262,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.1944,
+          "change_pct": -0.2999,
           "up": false
         },
         "AMZN": {
-          "change_pct": 1.8367,
+          "change_pct": 1.7009,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 70.95,
+      "score": 70.64,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29966.97,
-        "sma50": 29872.34,
-        "sma200": 27719.51
+        "last_price": 29935.59,
+        "sma50": 29871.71,
+        "sma200": 27719.36
       }
     },
     "vxn": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.47,
+      "score": 50.81,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.08,
-        "change_5d_pct": -0.059
+        "current_dxy": 102.04,
+        "change_5d_pct": -0.101
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.84,
+      "score": 46.61,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.043,
+        "avg_compound": -0.068,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "SoFi, BNY, Bread Financial, Perella Weinberg, and Morgan Stanley Shares Plummet, What You Need To Know",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-14T19:39:00Z",
-            "sentiment": "Positive",
-            "compound": 0.296
+            "title": "Taoping Receives Nasdaq Notification Regarding Minimum Bid Price Deficiency",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-14T20:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Trump-backed GOP candidate who ousted scandal-plagued incumbent warns against 'never-ending war' with Iran",
-            "source": "Fox News",
-            "publishedAt": "2026-10-14T19:38:56Z",
+            "title": "Will bonds blow up?",
+            "source": "Www.nrc.nl",
+            "publishedAt": "2026-10-14T20:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Prices Continue to Inch Higher, Squeezing the Fashion Industry",
+            "source": "WWD",
+            "publishedAt": "2026-10-14T19:58:35Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Fed's Goolsbee says September CPI data was discouraging",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-14T19:53:39Z",
             "sentiment": "Negative",
-            "compound": -0.649
+            "compound": -0.44
           },
           {
-            "title": "Why McCormick Stock Stands Out As Investors Seek Defensive Dividend Shares",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-14T19:38:33Z",
+            "title": "Dangote to prioritise investors with N50,000 or below in refinery IPO",
+            "source": "The Punch",
+            "publishedAt": "2026-10-14T19:53:17Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Social Security recipients will get a 3.6% bump in benefits in 2027",
+            "source": "WDJT",
+            "publishedAt": "2026-10-14T19:52:14Z",
             "sentiment": "Positive",
-            "compound": 0.318
-          },
-          {
-            "title": "These Stocks Break Out As Investors Play Defense. But Watch This",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-14T19:37:11Z",
-            "sentiment": "Positive",
-            "compound": 0.238
-          },
-          {
-            "title": "U.S. price pressures intensify amid rise in fuel costs, Fed survey shows",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-14T19:36:59Z",
-            "sentiment": "Negative",
-            "compound": -0.318
-          },
-          {
-            "title": "Social Security recipients to get 3.6% cost of living boost, an average of $75 per month",
-            "source": "TribLIVE",
-            "publishedAt": "2026-10-14T19:36:22Z",
-            "sentiment": "Positive",
-            "compound": 0.625
+            "compound": 0.612
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.86,
-  "trade_probability": 54.72,
+  "confirmation_score": 57.74,
+  "trade_probability": 54.64,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
