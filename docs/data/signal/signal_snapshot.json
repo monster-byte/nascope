@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T09:31:14.292364+00:00",
+  "generated_at": "2026-10-15T09:45:55.365879+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.81,
+      "score": 51.5,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.04,
-        "change_5d_pct": -0.101
+        "current_dxy": 101.95,
+        "change_5d_pct": -0.187
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.13,
+      "score": 46.93,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.057,
+        "avg_compound": -0.061,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "High Templar Tech Limited Reports First Half of 2026 Unaudited Financial Results",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-14T09:45:00Z",
+            "sentiment": "Negative",
+            "compound": -0.226
+          },
+          {
+            "title": "A growing security premium threatens Saudi Arabia’s investment project",
+            "source": "Fortune",
+            "publishedAt": "2026-10-14T09:36:07Z",
+            "sentiment": "Neutral",
+            "compound": 0.128
+          },
           {
             "title": "Medicare Part B Could Rise to $209.50 in 2027 and Take a Bite of Seniors' Social Security Raise",
             "source": "Medical Daily",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-14T09:20:08Z",
             "sentiment": "Neutral",
             "compound": 0.103
-          },
-          {
-            "title": "India Inc salary hikes to hold at 9.1% in 2027 as attrition rises to 18%",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-14T09:19:49Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Dow Futures Rise, Nasdaq Subdued Premarket Ahead Of Inflation Data: ASML, MU, SKHY, TSLA, BAC, LQDA, GME, IREN Stocks In Focus",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-14T09:16:29Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 63.41,
-  "trade_probability": 58.05,
+  "confirmation_score": 63.46,
+  "trade_probability": 58.08,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
