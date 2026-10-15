@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T18:15:57.243258+00:00",
+  "generated_at": "2026-10-15T18:31:09.253602+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.6544,
+          "change_pct": -0.8506,
           "up": false
         },
         "MSFT": {
-          "change_pct": 1.6682,
+          "change_pct": 1.6503,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.3604,
+          "change_pct": -0.3879,
           "up": false
         },
         "AMZN": {
-          "change_pct": 1.3362,
+          "change_pct": 1.2603,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29760.94,
-        "sma50": 29868.22,
-        "sma200": 27718.48
+        "last_price": 29768.36,
+        "sma50": 29868.37,
+        "sma200": 27718.52
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 71.41,
+      "score": 72.33,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.091,
-        "change_5d_pct": -2.676
+        "current_yield_pct": 5.085,
+        "change_5d_pct": -2.791
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.06,
+      "score": 51.03,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.0,
-        "change_5d_pct": -0.132
+        "current_dxy": 102.01,
+        "change_5d_pct": -0.129
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 39.21,
-      "status": "red",
+      "score": 46.68,
+      "status": "yellow",
       "details": {
-        "overall_sentiment": "BEARISH",
-        "avg_compound": -0.216,
+        "overall_sentiment": "NEUTRAL",
+        "avg_compound": -0.066,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Old Cauvery bridge to reopen today after repair",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-14T18:15:28Z",
+            "title": "Brewing in Japan: Price-Fixing Probes Test Consumer Confidence",
+            "source": "The Diplomat",
+            "publishedAt": "2026-10-14T18:29:00Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
+          {
+            "title": "Skydance Shares Tumble 25% After Issuing 471 Million Stock Warrants to Paramount Investors",
+            "source": "TheWrap",
+            "publishedAt": "2026-10-14T18:25:31Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "The Stock Market Just Flashed a Warning Signal That’s Been Right 83% of the Time Since 1960. Here’s My Plan",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-14T18:23:49Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
+          {
+            "title": "What ETFs Are Buying and Selling: New GuruFocus Page Tracks Daily ETF Flows",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-14T18:23:24Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Two YouTubers booked under SC/ST Act after ACP’s complaint",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-14T18:14:56Z",
-            "sentiment": "Negative",
-            "compound": -0.296
-          },
-          {
-            "title": "Five shortcuts to ease Trichy’s traffic woes",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-14T18:14:52Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
-          },
-          {
-            "title": "Heavy traffic expected on Pune-Mumbai Expressway, old highway; police urge use of public transport",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-14T18:14:43Z",
+            "title": "Nasdaq Sheds 1.65% as Russell 2000 Sinks to RSI 28, Oil Climbs While Gold and Silver Slide",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-14T18:23:23Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Oracle shares drop 7% as US rate hike bets rise, impacting AI firms",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-14T18:13:52Z",
+            "title": "3 Fuel Stocks Linked To Higher Gas Prices and Inflation",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-14T18:23:10Z",
             "sentiment": "Neutral",
-            "compound": 0.026
-          },
-          {
-            "title": "SIR protests creating difficulties for Delhiites: CM",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-14T18:13:41Z",
-            "sentiment": "Negative",
-            "compound": -0.226
+            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.26,
-  "trade_probability": 52.56,
+  "confirmation_score": 55.06,
+  "trade_probability": 53.04,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
