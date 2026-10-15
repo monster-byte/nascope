@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T15:01:32.752652+00:00",
+  "generated_at": "2026-10-15T15:15:53.766478+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
-      "status": "green",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.0198,
-          "up": true
+          "change_pct": -0.3153,
+          "up": false
         },
         "MSFT": {
-          "change_pct": 1.1174,
+          "change_pct": 1.6437,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.6166,
+          "change_pct": -0.2778,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.9663,
+          "change_pct": 1.5079,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29723.18,
-        "sma50": 29867.46,
-        "sma200": 27718.29
+        "last_price": 29846.98,
+        "sma50": 29869.94,
+        "sma200": 27718.91
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 75.54,
+      "score": 74.32,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.064,
-        "change_5d_pct": -3.193
+        "current_yield_pct": 5.072,
+        "change_5d_pct": -3.04
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.53,
+      "score": 49.69,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.07,
-        "change_5d_pct": -0.067
+        "current_dxy": 102.18,
+        "change_5d_pct": 0.038
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.28,
+      "score": 47.25,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.014,
-        "articles_analyzed": 25,
+        "avg_compound": -0.055,
+        "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Trump Just Hand-Delivered Workers Another Pay Cut",
+            "source": "HuffPost",
+            "publishedAt": "2026-10-14T15:14:09Z",
+            "sentiment": "Negative",
+            "compound": -0.361
+          },
+          {
+            "title": "Should You Buy Netflix Stock Before Oct. 20?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-14T15:07:45Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Rupee continues to rise; tests intraday high of 94.75 against US dollar",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-14T15:04:36Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Workers At La Scala Vote To Authorize One-Day Strike",
+            "source": "Moto-perpetuo.com",
+            "publishedAt": "2026-10-14T15:02:00Z",
+            "sentiment": "Neutral",
+            "compound": -0.128
+          },
+          {
+            "title": "Inside the college majors at elite universities where graduates earn more than $250,000—over 4 times their peers",
+            "source": "Fortune",
+            "publishedAt": "2026-10-14T15:01:44Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Bitcoin plunges to $81,300 support as Fed hike odds hit 55% amid $100 million crypto wipeout",
             "source": "CryptoSlate",
             "publishedAt": "2026-10-14T15:00:32Z",
             "sentiment": "Positive",
             "compound": 0.402
-          },
-          {
-            "title": "Trump: ‘Massive Oil, Gas, and Mineral Exploration’ Ready to Go in Greenland",
-            "source": "Legalinsurrection.com",
-            "publishedAt": "2026-10-14T15:00:13Z",
-            "sentiment": "Positive",
-            "compound": 0.361
-          },
-          {
-            "title": "Disney Data Dump October 14 2026",
-            "source": "Touringplans.com",
-            "publishedAt": "2026-10-14T15:00:02Z",
-            "sentiment": "Negative",
-            "compound": -0.382
-          },
-          {
-            "title": "The Tech Oligarchs Have Captured Washington — Now They’re Pivoting to the States",
-            "source": "Truthout",
-            "publishedAt": "2026-10-14T14:58:41Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "The Painful Paradox of European Rearmament",
-            "source": "Foreign Policy",
-            "publishedAt": "2026-10-14T14:58:19Z",
-            "sentiment": "Negative",
-            "compound": -0.511
-          },
-          {
-            "title": "Guy Clears Out $30K of Debt On A $31K Salary, Claims It Was All Thanks To The “Avalanche Method”",
-            "source": "Boredpanda.com",
-            "publishedAt": "2026-10-14T14:58:11Z",
-            "sentiment": "Neutral",
-            "compound": 0.178
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 62.43,
-  "trade_probability": 57.46,
+  "confirmation_score": 55.26,
+  "trade_probability": 53.16,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
