@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T14:45:55.264899+00:00",
+  "generated_at": "2026-10-15T15:01:32.752652+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.031,
-          "up": false
+          "change_pct": 0.0198,
+          "up": true
         },
         "MSFT": {
-          "change_pct": 1.0307,
+          "change_pct": 1.1174,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.3293,
+          "change_pct": -0.6166,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.7307,
+          "change_pct": 0.9663,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29717.42,
-        "sma50": 29867.35,
-        "sma200": 27718.27
+        "last_price": 29723.18,
+        "sma50": 29867.46,
+        "sma200": 27718.29
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 76.76,
+      "score": 75.54,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.056,
-        "change_5d_pct": -3.345
+        "current_yield_pct": 5.064,
+        "change_5d_pct": -3.193
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.27,
+      "score": 50.53,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.98,
-        "change_5d_pct": -0.159
+        "current_dxy": 102.07,
+        "change_5d_pct": -0.067
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.44,
+      "score": 49.28,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.029,
+        "avg_compound": -0.014,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Here's the inflation breakdown for September 2026 — in one chart",
-            "source": "CNBC",
-            "publishedAt": "2026-10-14T14:44:05Z",
+            "title": "Bitcoin plunges to $81,300 support as Fed hike odds hit 55% amid $100 million crypto wipeout",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-10-14T15:00:32Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "Trump: ‘Massive Oil, Gas, and Mineral Exploration’ Ready to Go in Greenland",
+            "source": "Legalinsurrection.com",
+            "publishedAt": "2026-10-14T15:00:13Z",
+            "sentiment": "Positive",
+            "compound": 0.361
+          },
+          {
+            "title": "Disney Data Dump October 14 2026",
+            "source": "Touringplans.com",
+            "publishedAt": "2026-10-14T15:00:02Z",
+            "sentiment": "Negative",
+            "compound": -0.382
+          },
+          {
+            "title": "The Tech Oligarchs Have Captured Washington — Now They’re Pivoting to the States",
+            "source": "Truthout",
+            "publishedAt": "2026-10-14T14:58:41Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Jio IPO to open on October 21: 10 things to know about the Rs 30,000 crore mega issue",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-14T14:42:34Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "The Painful Paradox of European Rearmament",
+            "source": "Foreign Policy",
+            "publishedAt": "2026-10-14T14:58:19Z",
+            "sentiment": "Negative",
+            "compound": -0.511
           },
           {
-            "title": "Bus Electrification Turns Governance Into Infrastructure",
-            "source": "CleanTechnica",
-            "publishedAt": "2026-10-14T14:40:43Z",
+            "title": "Guy Clears Out $30K of Debt On A $31K Salary, Claims It Was All Thanks To The “Avalanche Method”",
+            "source": "Boredpanda.com",
+            "publishedAt": "2026-10-14T14:58:11Z",
             "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Accredited official statistics: Consumer price inflation basket of goods and services: 2027",
-            "source": "Www.gov.uk",
-            "publishedAt": "2026-10-14T14:40:19Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Bending Spoons skyrockets 35% as Berkshire Hathaway makes $330 million investment",
-            "source": "CNBC",
-            "publishedAt": "2026-10-14T14:39:21Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "US inflation hits 3.7%, raising odds of Fed rate hike in October",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-14T14:36:15Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": 0.178
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.11,
-  "trade_probability": 53.67,
+  "confirmation_score": 62.43,
+  "trade_probability": 57.46,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
