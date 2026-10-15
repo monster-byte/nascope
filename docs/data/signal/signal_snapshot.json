@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T13:15:52.531668+00:00",
+  "generated_at": "2026-10-15T13:31:17.251249+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,36 +13,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
-      "status": "green",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.5052,
-          "up": false
+          "change_pct": 0.2673,
+          "up": true
         },
         "MSFT": {
-          "change_pct": 0.5971,
+          "change_pct": 0.6956,
           "up": true
         },
         "NVDA": {
-          "change_pct": 1.6552,
-          "up": true
+          "change_pct": -1.558,
+          "up": false
         },
         "AMZN": {
-          "change_pct": 1.4813,
-          "up": true
+          "change_pct": -0.1195,
+          "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 70.88,
-      "status": "green",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
-        "regime": "BULLISH",
-        "last_price": 29950.82,
-        "sma50": 29862.76,
-        "sma200": 27697.31
+        "regime": "NEUTRAL / TRANSITIONAL",
+        "last_price": 29528.15,
+        "sma50": 29863.56,
+        "sma200": 27717.32
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 77.07,
+      "score": 77.38,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.054,
-        "change_5d_pct": -3.384
+        "current_yield_pct": 5.052,
+        "change_5d_pct": -3.422
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.06,
+      "score": 50.42,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.13,
-        "change_5d_pct": -0.008
+        "current_dxy": 102.09,
+        "change_5d_pct": -0.052
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.28,
+      "score": 54.09,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.026,
+        "avg_compound": 0.082,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Trump's midterm nightmare deepens as inflation surges and gas prices skyrocket across America",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-10-14T13:15:14Z",
+            "title": "Bitcoin whales accumulate ahead of crucial US inflation report as $744 million exits ETFs",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-10-14T13:30:53Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Illumina launches BioInsight Platform, its first unified software environment to help accelerate genomic and multiomic breakthroughs",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-14T13:15:00Z",
-            "sentiment": "Positive",
-            "compound": 0.649
-          },
-          {
-            "title": "Rupee gains for third straight session, closes at 95.16 on RBI support",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-14T13:13:09Z",
-            "sentiment": "Positive",
-            "compound": 0.718
-          },
-          {
-            "title": "CONSUMER PRICE INDEX - SEPTEMBER 2026",
-            "source": "Freerepublic.com",
-            "publishedAt": "2026-10-14T13:13:08Z",
+            "title": "Ohio's Democrat Momentum",
+            "source": "Reason",
+            "publishedAt": "2026-10-14T13:30:52Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Inflation surpassed worker paychecks for third straight month",
-            "source": "Richmond.com",
-            "publishedAt": "2026-10-14T13:10:00Z",
-            "sentiment": "Positive",
-            "compound": 0.226
+            "title": "Energy agency lowers world oil demand forecast for the year",
+            "source": "Abcnews.com",
+            "publishedAt": "2026-10-14T13:30:35Z",
+            "sentiment": "Neutral",
+            "compound": 0.026
           },
           {
-            "title": "Consumer prices rose at 3.7% annual rate in September as gas costs skyrocket",
-            "source": "Freerepublic.com",
-            "publishedAt": "2026-10-14T13:07:59Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Social Security Administration announces 3.6% cost-of-living adjustment for 2027",
+            "source": "CNBC",
+            "publishedAt": "2026-10-14T13:30:22Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
+          {
+            "title": "Gold drops over 1% as hot US inflation data boosts Fed hike bets",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-14T13:30:20Z",
+            "sentiment": "Positive",
+            "compound": 0.318
+          },
+          {
+            "title": "Cheaper Tokens, Costlier Answers: The AI Price Everyone Watches Is the Wrong One",
+            "source": "Cloudtweaks.com",
+            "publishedAt": "2026-10-14T13:30:08Z",
+            "sentiment": "Negative",
+            "compound": -0.477
           }
         ]
       }
@@ -146,9 +146,9 @@
       }
     }
   },
-  "confirmation_score": 65.59,
-  "trade_probability": 59.35,
-  "market_regime": "BULLISH",
+  "confirmation_score": 56.35,
+  "trade_probability": 53.81,
+  "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
     "directional_bias": "NEUTRAL"
