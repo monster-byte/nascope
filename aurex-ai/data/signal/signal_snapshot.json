@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T13:45:56.449173+00:00",
+  "generated_at": "2026-10-15T14:01:28.862411+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.4577,
+          "change_pct": 0.1485,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.8234,
+          "change_pct": 0.7936,
           "up": true
         },
         "NVDA": {
-          "change_pct": -1.2408,
+          "change_pct": -1.3698,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.1457,
-          "up": false
+          "change_pct": 0.3058,
+          "up": true
         }
       }
     },
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29592.82,
-        "sma50": 29864.86,
-        "sma200": 27717.64
+        "last_price": 29528.21,
+        "sma50": 29863.56,
+        "sma200": 27717.32
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 77.99,
+      "score": 77.07,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.048,
-        "change_5d_pct": -3.498
+        "current_yield_pct": 5.054,
+        "change_5d_pct": -3.384
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.68,
+      "score": 50.67,
       "status": "yellow",
       "details": {
         "current_dxy": 102.05,
-        "change_5d_pct": -0.085
+        "change_5d_pct": -0.084
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.77,
+      "score": 54.95,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.075,
+        "avg_compound": 0.099,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Social Security Administration says cost-of-living adjustment will rise 3.6% in 2027",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-10-14T13:45:05Z",
-            "sentiment": "Positive",
-            "compound": 0.34
-          },
-          {
-            "title": "Uzbekistan Hospitality Group TEG Completes U.S. Business Combination",
-            "source": "PR Newswire UK",
-            "publishedAt": "2026-10-14T13:45:00Z",
+            "title": "FEDS Note: The Rise of Semiliquid Funds for Retail Investors",
+            "source": "Federalreserve.gov",
+            "publishedAt": "2026-10-14T14:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Uzbekistan Hospitality Group TEG Completes U.S. Business Combination",
+            "title": "City First Bank Partners with MANTL to Advance Its Nationwide Growth Strategy",
             "source": "PRNewswire",
-            "publishedAt": "2026-10-14T13:45:00Z",
+            "publishedAt": "2026-10-14T14:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "Social Security recipients to get cost of living boost — here’s how much more you’ll receive each month",
+            "source": "New York Post",
+            "publishedAt": "2026-10-14T13:58:33Z",
+            "sentiment": "Positive",
+            "compound": 0.625
+          },
+          {
+            "title": "Middlefield Alternative Global Fixed Income ETF Series Distributions",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-14T13:57:28Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Wholesale inflation jumped to 11.4% in Sept",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-14T13:43:04Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "UNPACK ’27: EXPEDIA, HOTELS.COM, AND VRBO REVEAL THE TRAVEL TRENDS INSPIRING THE WORLD IN 2027",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-14T13:54:10Z",
+            "sentiment": "Positive",
+            "compound": 0.547
           },
           {
-            "title": "junctionary-pulse-langchain 0.1.1",
-            "source": "Pypi.org",
-            "publishedAt": "2026-10-14T13:42:33Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "US inflation rises to 3.7 pct as fuel costs climb",
-            "source": "Hurriyet Daily News",
-            "publishedAt": "2026-10-14T13:41:24Z",
+            "title": "Methodology",
+            "source": "Pew Research Center",
+            "publishedAt": "2026-10-14T13:53:06Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.43,
-  "trade_probability": 53.86,
+  "confirmation_score": 63.16,
+  "trade_probability": 57.9,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
