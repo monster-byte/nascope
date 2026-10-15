@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T07:45:53.702355+00:00",
+  "generated_at": "2026-10-15T08:01:21.653891+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
-      "status": "red",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.5187,
-          "up": true
+          "change_pct": -0.5052,
+          "up": false
         },
         "MSFT": {
-          "change_pct": -1.763,
-          "up": false
+          "change_pct": 0.5971,
+          "up": true
         },
         "NVDA": {
-          "change_pct": -3.0719,
-          "up": false
+          "change_pct": 1.6552,
+          "up": true
         },
         "AMZN": {
-          "change_pct": -1.7093,
-          "up": false
+          "change_pct": 1.4813,
+          "up": true
         }
       }
     },
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.52,
+      "score": 50.26,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.07,
-        "change_5d_pct": -0.065
+        "current_dxy": 102.11,
+        "change_5d_pct": -0.032
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.36,
+      "score": 57.64,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.107,
+        "avg_compound": 0.153,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Wall Street Sees Inflation Easing Even With Oil Above $90",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-14T08:00:23Z",
+            "sentiment": "Positive",
+            "compound": 0.25
+          },
+          {
+            "title": "Solidion Technology Reaffirms Commitment to Address Growing Energy Storage Needs of AI Data Centers",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-14T08:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.66
+          },
+          {
+            "title": "Rare profit miss by JPMorgan: 1st time in nearly 3 years: What went wrong? SpaceX IPO euphoria fades? Slowdown explained",
+            "source": "Livemint",
+            "publishedAt": "2026-10-14T07:52:37Z",
+            "sentiment": "Positive",
+            "compound": 0.594
+          },
+          {
+            "title": "Global Market: Lagarde says France must tackle debt woes through fiscal consolidation",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-14T07:46:50Z",
+            "sentiment": "Negative",
+            "compound": -0.66
+          },
           {
             "title": "Global Market | European companies better positioned to withstand energy price shock than in 2022: Analysts",
             "source": "The Times of India",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-14T07:45:10Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "The 9 at 9: Wednesday",
-            "source": "TheJournal.ie",
-            "publishedAt": "2026-10-14T07:40:33Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "U.S. Treasury yields inch lower as investors await key inflation report",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-14T07:30:08Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "SciBase secures first payer coverage with Highmark, marking a major commercial inflection point",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-14T07:30:00Z",
-            "sentiment": "Positive",
-            "compound": 0.318
-          },
-          {
-            "title": "SciBase secures first payer coverage with Highmark, marking a major commercial inflection point",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-14T07:26:00Z",
-            "sentiment": "Positive",
-            "compound": 0.318
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 50.63,
-  "trade_probability": 50.38,
+  "confirmation_score": 64.31,
+  "trade_probability": 58.59,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
