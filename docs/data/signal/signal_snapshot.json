@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T14:01:28.862411+00:00",
+  "generated_at": "2026-10-15T14:15:56.425518+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
-      "status": "green",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.1485,
-          "up": true
+          "change_pct": -0.0022,
+          "up": false
         },
         "MSFT": {
-          "change_pct": 0.7936,
+          "change_pct": 0.7587,
           "up": true
         },
         "NVDA": {
-          "change_pct": -1.3698,
+          "change_pct": -1.1621,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.3058,
+          "change_pct": 0.787,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29528.21,
-        "sma50": 29863.56,
-        "sma200": 27717.32
+        "last_price": 29572.94,
+        "sma50": 29864.46,
+        "sma200": 27717.54
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 77.07,
+      "score": 79.67,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.054,
-        "change_5d_pct": -3.384
+        "current_yield_pct": 5.037,
+        "change_5d_pct": -3.709
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.67,
+      "score": 50.8,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.05,
-        "change_5d_pct": -0.084
+        "current_dxy": 102.04,
+        "change_5d_pct": -0.1
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.95,
+      "score": 58.4,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.099,
+        "avg_compound": 0.168,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "FEDS Note: The Rise of Semiliquid Funds for Retail Investors",
-            "source": "Federalreserve.gov",
-            "publishedAt": "2026-10-14T14:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Greenland Mines Applauds President Trump’s Focus on Greenland Mineral Exploration, Reinforcing Its Importance to U.S. and Allied Security",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-14T14:13:44Z",
+            "sentiment": "Positive",
+            "compound": 0.802
           },
           {
-            "title": "City First Bank Partners with MANTL to Advance Its Nationwide Growth Strategy",
+            "title": "The Next Billion-Dollar Defense Technology Opportunity: AI-Powered Autonomous Mission Intelligence",
             "source": "PRNewswire",
-            "publishedAt": "2026-10-14T14:00:00Z",
+            "publishedAt": "2026-10-14T14:12:00Z",
             "sentiment": "Positive",
-            "compound": 0.382
+            "compound": 0.751
           },
           {
-            "title": "Social Security recipients to get cost of living boost — here’s how much more you’ll receive each month",
-            "source": "New York Post",
-            "publishedAt": "2026-10-14T13:58:33Z",
-            "sentiment": "Positive",
-            "compound": 0.625
-          },
-          {
-            "title": "Middlefield Alternative Global Fixed Income ETF Series Distributions",
+            "title": "SKYX Announces Closing of Merger with Leading AI Smart Home Technology Company Deako, Positioning the Combined Company to Become a Leader in the AI Smart Home Market",
             "source": "Financial Post",
-            "publishedAt": "2026-10-14T13:57:28Z",
+            "publishedAt": "2026-10-14T14:11:30Z",
+            "sentiment": "Positive",
+            "compound": 0.66
+          },
+          {
+            "title": "Here Is the 2027 Pay Raise for Disabled Veterans and Military Retirees",
+            "source": "Military.com",
+            "publishedAt": "2026-10-14T14:09:35Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": -0.103
           },
           {
-            "title": "UNPACK ’27: EXPEDIA, HOTELS.COM, AND VRBO REVEAL THE TRAVEL TRENDS INSPIRING THE WORLD IN 2027",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-14T13:54:10Z",
+            "title": "US yields jump as hot consumer inflation boosts rate hike bets",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-14T14:08:53Z",
             "sentiment": "Positive",
-            "compound": 0.547
+            "compound": 0.318
           },
           {
-            "title": "Methodology",
-            "source": "Pew Research Center",
-            "publishedAt": "2026-10-14T13:53:06Z",
+            "title": "Former FTX Europe chief targets U.S. tokenized stock trading with new SEC exemption",
+            "source": "CoinDesk",
+            "publishedAt": "2026-10-14T14:08:43Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 63.16,
-  "trade_probability": 57.9,
+  "confirmation_score": 57.08,
+  "trade_probability": 54.25,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
