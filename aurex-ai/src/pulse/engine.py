@@ -135,7 +135,7 @@ def run():
 
     print("[9/9] تسجيل وتقييم إشارات السكالب الفعلية (Scalp Track Record)...")
     try:
-        log_result = log_signal(fusion_result, vp.get("current_price"))
+        log_result = log_signal(fusion_result, vp.get("current_price"), scalp_position)
         verify_result = verify_pending(price_snapshot)
         scalp_summary = build_summary()
     except Exception as e:

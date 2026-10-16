@@ -88,6 +88,9 @@ def fetch_series(symbol: str, period: str = "1d", interval: str = "5m", max_poin
         import yfinance as yf
         hist = yf.Ticker(symbol).history(period=period, interval=interval)
         if hist.empty:
+            # بعض المؤشرات (مثل ^VXN) ما عندها بيانات 5 دقايق — نجرّب 15 دقيقة على 5 أيام
+            hist = yf.Ticker(symbol).history(period="5d", interval="15m")
+        if hist.empty:
             return []
         out = [{"time": idx.isoformat(), "value": round(float(v), 3)} for idx, v in hist["Close"].items() if v == v]
         return out[-max_points:]
