@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T15:01:27.470839+00:00",
+  "generated_at": "2026-10-16T15:15:50.060314+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.4319,
+          "change_pct": 1.5523,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.3829,
+          "change_pct": -0.8739,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.2539,
+          "change_pct": 0.0797,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.5508,
+          "change_pct": 0.2922,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29628.69,
-        "sma50": 29876.82,
-        "sma200": 27740.19
+        "last_price": 29526.84,
+        "sma50": 29874.78,
+        "sma200": 27739.68
       }
     },
     "vxn": {
@@ -55,20 +55,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 72.58,
+      "score": 73.19,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.096,
-        "change_5d_pct": -2.822
+        "current_yield_pct": 5.092,
+        "change_5d_pct": -2.899
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.42,
+      "score": 54.41,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.64,
-        "change_5d_pct": -0.553
+        "current_dxy": 101.65,
+        "change_5d_pct": -0.551
       }
     },
     "macro": {
@@ -84,54 +84,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.87,
+      "score": 55.12,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.057,
+        "avg_compound": 0.102,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "What Credit Card Data Reveals About the Cautious Holiday Shopper",
-            "source": "WWD",
-            "publishedAt": "2026-10-15T15:00:00Z",
+            "title": "‘The Market Doesn’t Like This’: Fox Host Breaks Down Bad Inflation Numbers and Trump Advisor Admits ‘You’re Absolutely Right’",
+            "source": "Mediaite",
+            "publishedAt": "2026-10-15T15:13:11Z",
+            "sentiment": "Neutral",
+            "compound": 0.052
+          },
+          {
+            "title": "Bitcoin slips under $80K after US PPI gains most in four years",
+            "source": "Cointelegraph",
+            "publishedAt": "2026-10-15T15:10:44Z",
             "sentiment": "Positive",
-            "compound": 0.599
+            "compound": 0.34
           },
           {
-            "title": "Real estate exposure without buying a flat",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-15T14:59:51Z",
+            "title": "Nest Wealth Asset Management Appoints Sean Tascatan as Chief Investment and Growth Officer as It Enters Its Next Phase of Evolution",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-15T15:09:15Z",
+            "sentiment": "Positive",
+            "compound": 0.807
+          },
+          {
+            "title": "DeFi Development Corp. raises CHAD preferred stock dividend to 14%",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-15T15:08:17Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Boomers Get A Bigger Check While The Rest Of Us Pay The Price",
-            "source": "The Daily Caller",
-            "publishedAt": "2026-10-15T14:58:51Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
-          },
-          {
-            "title": "A new Medicare season begins, but some shifts will arrive in 2027",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-10-15T14:53:52Z",
+            "title": "Govt may raise fuel prices in November, economist says",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-15T15:07:29Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Stock Market Today: S&P 500, Nasdaq open lower as tech stock drop sharply; Dow rises as Treasury yields drop - MarketWatch",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-10-15T14:53:22Z",
-            "sentiment": "Negative",
-            "compound": -0.557
-          },
-          {
-            "title": "Florida House Race Offers Window Into National Data Center Fight",
-            "source": "The Daily Caller",
-            "publishedAt": "2026-10-15T14:53:09Z",
-            "sentiment": "Negative",
-            "compound": -0.382
+            "title": "CNN Data Guru Breaks Down Trump’s ‘Absolutely Stunning’ Decline Among Young Voters — Hours After Trump Praised Him at Rally",
+            "source": "Mediaite",
+            "publishedAt": "2026-10-15T15:02:10Z",
+            "sentiment": "Positive",
+            "compound": 0.494
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 60.45,
-  "trade_probability": 56.27,
+  "confirmation_score": 60.74,
+  "trade_probability": 56.44,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
