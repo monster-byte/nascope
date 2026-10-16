@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T21:45:51.192212+00:00",
+  "generated_at": "2026-10-16T21:59:17.848654+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.1858,
+          "change_pct": -1.1904,
           "up": false
         },
         "AMZN": {
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.27,
+      "score": 56.56,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.105,
-        "articles_analyzed": 24,
+        "avg_compound": 0.131,
+        "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "US stocks end higher as AI shares stabilise",
+            "source": "CNA",
+            "publishedAt": "2026-10-15T21:57:03Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "Arsenal star Mikel Merino admits he's 'fortunate to be alive' after 'an angel' saved him during Borussia Dortmund bus bombing",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-10-15T21:56:29Z",
+            "sentiment": "Positive",
+            "compound": 0.859
+          },
           {
             "title": "Cold weather and high prices could flip the Senate",
             "source": "Vox",
@@ -118,20 +132,6 @@
             "publishedAt": "2026-10-15T21:31:00Z",
             "sentiment": "Neutral",
             "compound": -0.178
-          },
-          {
-            "title": "Stock Market Today, Oct. 15: Rocket Lab Pushes Neutron Launch to 2027, Stock Falls 7%",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-15T21:23:45Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Bright Horizons Family Solutions Announces Date of Third Quarter 2026 Earnings Release and Conference Call",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-15T21:23:43Z",
-            "sentiment": "Positive",
-            "compound": 0.557
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 47.03,
-  "trade_probability": 48.22,
+  "confirmation_score": 47.15,
+  "trade_probability": 48.29,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
