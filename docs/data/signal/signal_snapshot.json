@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T15:15:50.060314+00:00",
+  "generated_at": "2026-10-16T15:29:19.705459+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
-      "status": "green",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 1.5523,
+          "change_pct": 1.4635,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.8739,
+          "change_pct": -1.1581,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.0797,
-          "up": true
+          "change_pct": -0.1083,
+          "up": false
         },
         "AMZN": {
-          "change_pct": 0.2922,
+          "change_pct": 0.1184,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29526.84,
-        "sma50": 29874.78,
-        "sma200": 27739.68
+        "last_price": 29477.66,
+        "sma50": 29873.8,
+        "sma200": 27739.43
       }
     },
     "vxn": {
@@ -55,20 +55,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 73.19,
+      "score": 76.39,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.092,
-        "change_5d_pct": -2.899
+        "current_yield_pct": 5.071,
+        "change_5d_pct": -3.299
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.41,
+      "score": 54.19,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.65,
-        "change_5d_pct": -0.551
+        "current_dxy": 101.68,
+        "change_5d_pct": -0.523
       }
     },
     "macro": {
@@ -84,54 +84,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.12,
+      "score": 53.03,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.102,
+        "avg_compound": 0.061,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "‘The Market Doesn’t Like This’: Fox Host Breaks Down Bad Inflation Numbers and Trump Advisor Admits ‘You’re Absolutely Right’",
-            "source": "Mediaite",
-            "publishedAt": "2026-10-15T15:13:11Z",
+            "title": "Retail sales up in September — but a big chunk of spending went to an essential bill",
+            "source": "New York Post",
+            "publishedAt": "2026-10-15T15:28:36Z",
             "sentiment": "Neutral",
-            "compound": 0.052
+            "compound": 0.0
           },
           {
-            "title": "Bitcoin slips under $80K after US PPI gains most in four years",
-            "source": "Cointelegraph",
-            "publishedAt": "2026-10-15T15:10:44Z",
-            "sentiment": "Positive",
-            "compound": 0.34
+            "title": "‘Big Condiment’ warning gets Warren roasted online over progressive's economic priorities",
+            "source": "Fox News",
+            "publishedAt": "2026-10-15T15:28:13Z",
+            "sentiment": "Negative",
+            "compound": -0.34
           },
           {
-            "title": "Nest Wealth Asset Management Appoints Sean Tascatan as Chief Investment and Growth Officer as It Enters Its Next Phase of Evolution",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-15T15:09:15Z",
-            "sentiment": "Positive",
-            "compound": 0.807
+            "title": "Farming’s Nitrogen Future Will Be Built From Several Technologies, Not One",
+            "source": "CleanTechnica",
+            "publishedAt": "2026-10-15T15:25:57Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "DeFi Development Corp. raises CHAD preferred stock dividend to 14%",
+            "title": "Bitcoin retests $82,000 as $20 million in leveraged shorts get liquidated",
             "source": "Crypto Briefing",
-            "publishedAt": "2026-10-15T15:08:17Z",
+            "publishedAt": "2026-10-15T15:24:04Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Govt may raise fuel prices in November, economist says",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-15T15:07:29Z",
+            "title": "The Unretirement Movement",
+            "source": "Psychology Today",
+            "publishedAt": "2026-10-15T15:24:03Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "CNN Data Guru Breaks Down Trump’s ‘Absolutely Stunning’ Decline Among Young Voters — Hours After Trump Praised Him at Rally",
-            "source": "Mediaite",
-            "publishedAt": "2026-10-15T15:02:10Z",
-            "sentiment": "Positive",
-            "compound": 0.494
+            "title": "Bitcoin Whipsaws as Crypto Liquidations Near $1 Billion",
+            "source": "Decrypt",
+            "publishedAt": "2026-10-15T15:20:41Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 60.74,
-  "trade_probability": 56.44,
+  "confirmation_score": 54.21,
+  "trade_probability": 52.53,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
