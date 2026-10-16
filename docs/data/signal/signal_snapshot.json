@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T15:45:53.224472+00:00",
+  "generated_at": "2026-10-16T16:01:29.791570+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
-      "status": "green",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 1.2851,
+          "change_pct": 1.2517,
           "up": true
         },
         "MSFT": {
-          "change_pct": -1.0239,
+          "change_pct": -1.5783,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.4506,
+          "change_pct": 0.2032,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.148,
-          "up": true
+          "change_pct": -0.1856,
+          "up": false
         }
       }
     },
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29523.85,
-        "sma50": 29874.72,
-        "sma200": 27739.66
+        "last_price": 29433.2,
+        "sma50": 29872.91,
+        "sma200": 27739.21
       }
     },
     "vxn": {
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.78,
+      "score": 53.11,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.73,
-        "change_5d_pct": -0.473
+        "current_dxy": 101.81,
+        "change_5d_pct": -0.388
       }
     },
     "macro": {
@@ -84,52 +84,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.78,
+      "score": 48.67,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.056,
+        "avg_compound": -0.027,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Intel Shares Slide Amid Israel Plant Explosion and Sector Sell-Off",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-10-15T15:42:58Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "Wholesale prices soar at fastest pace since 2022",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-10-15T15:42:11Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Cracks are beginning to show in the stock market, as doubts grow about AI investments",
-            "source": "NBC News",
-            "publishedAt": "2026-10-15T15:38:19Z",
-            "sentiment": "Negative",
-            "compound": -0.296
-          },
-          {
-            "title": "Economists: Hot PPI shows Fed's work is not done",
-            "source": "CNBC",
-            "publishedAt": "2026-10-15T15:37:59Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Banks with Jeffrey Epstein ties eyed by Democrats Warren and Garcia",
-            "source": "CNBC",
-            "publishedAt": "2026-10-15T15:30:25Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Market Trading Guide: Adani Power among 2 stock recommendations for Friday",
+            "title": "Copper hits 10-day low on profit-taking as supply worries ease",
             "source": "The Times of India",
-            "publishedAt": "2026-10-15T15:30:21Z",
+            "publishedAt": "2026-10-15T16:01:08Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
+          {
+            "title": "Transcript: The Blue Wave Is Coming to the States As Well",
+            "source": "The New Republic",
+            "publishedAt": "2026-10-15T16:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.273
+          },
+          {
+            "title": "AV and Thunder Tiger Sign MOU to Explore Uncrewed Systems Integration and Co-Production in Taiwan",
+            "source": "Soldiersystems.net",
+            "publishedAt": "2026-10-15T16:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Columbia Banking System Named the Top Performing Large U.S. Bank in Bank Director's 2026 RankingBanking Study",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-15T16:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "Market selloff, rising rates test AI data centre deal boom",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-15T15:59:20Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Mike Rogers' Wife Hands Out $10 Gas Cards, Begging Michiganders to Vote for Her Husband",
+            "source": "Common Dreams",
+            "publishedAt": "2026-10-15T15:58:29Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 60.62,
-  "trade_probability": 56.37,
+  "confirmation_score": 53.44,
+  "trade_probability": 52.06,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
