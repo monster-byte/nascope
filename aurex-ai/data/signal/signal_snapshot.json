@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T16:31:09.282427+00:00",
+  "generated_at": "2026-10-16T16:45:58.265800+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 1.2411,
+          "change_pct": 1.1589,
           "up": true
         },
         "MSFT": {
-          "change_pct": -1.4348,
+          "change_pct": -1.3696,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.3139,
+          "change_pct": 0.0469,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.308,
+          "change_pct": -0.6318,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29451.56,
-        "sma50": 29873.28,
-        "sma200": 27739.3
+        "last_price": 29448.26,
+        "sma50": 29873.21,
+        "sma200": 27739.28
       }
     },
     "vxn": {
@@ -55,20 +55,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 69.83,
+      "score": 67.85,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.114,
-        "change_5d_pct": -2.479
+        "current_yield_pct": 5.127,
+        "change_5d_pct": -2.231
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.54,
+      "score": 51.95,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.89,
-        "change_5d_pct": -0.317
+        "current_dxy": 101.96,
+        "change_5d_pct": -0.244
       }
     },
     "macro": {
@@ -84,54 +84,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.82,
+      "score": 47.84,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.036,
+        "avg_compound": -0.043,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Wholesale prices jumped 6.3% annually in September, biggest gain since 2022",
-            "source": "Freerepublic.com",
-            "publishedAt": "2026-10-15T16:29:47Z",
-            "sentiment": "Positive",
-            "compound": 0.527
+            "title": "Smartphone shipments plummet as memory crisis pumps up prices",
+            "source": "Theregister.com",
+            "publishedAt": "2026-10-15T16:45:00Z",
+            "sentiment": "Negative",
+            "compound": -0.625
           },
           {
-            "title": "Gasoline Alone Drove More Than Half of September’s Inflation Jump",
+            "title": "Even Blue-Collar Workers Have Turned Against Trump's Unpopular Tariffs",
+            "source": "Reason",
+            "publishedAt": "2026-10-15T16:35:08Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Businesses Slammed by 6.3% PPI Inflation, Worst since 2022, Much Worse than Consumer-Facing Inflation",
             "source": "Biztoc.com",
-            "publishedAt": "2026-10-15T16:17:59Z",
+            "publishedAt": "2026-10-15T16:33:35Z",
             "sentiment": "Negative",
-            "compound": -0.25
+            "compound": -0.802
           },
           {
-            "title": "Online Retail Spending Gains as Consumers Navigate Higher Prices",
-            "source": "pymnts.com",
-            "publishedAt": "2026-10-15T16:13:32Z",
-            "sentiment": "Positive",
-            "compound": 0.34
+            "title": "Lisa Cook's Attorney Challenges Fairness Of White House Probe",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-15T16:33:02Z",
+            "sentiment": "Neutral",
+            "compound": 0.077
           },
           {
-            "title": "Investors Turn to Safety of Treasurys as Tech Stocks Extend Selloff - WSJ",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-10-15T16:13:22Z",
-            "sentiment": "Positive",
-            "compound": 0.542
-          },
-          {
-            "title": "Japan MoF official says G7 and G20 see no financial instability risk from AI sell-off",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-15T16:12:53Z",
-            "sentiment": "Negative",
-            "compound": -0.511
-          },
-          {
-            "title": "ServiceNow's AI Governance Push Meets a Marketing Bet — and One Hard Deadline",
-            "source": "Ad-hoc-news.de",
-            "publishedAt": "2026-10-15T16:11:16Z",
+            "title": "Meta Ships Muse Wonder, Jev Raises $870M 24 Days After Launch, and Anthropic Cuts Haiku 90%: The Top Takeaways From This Week’s 20VC x SaaStr",
+            "source": "Saastr.com",
+            "publishedAt": "2026-10-15T16:32:00Z",
             "sentiment": "Neutral",
             "compound": -0.103
+          },
+          {
+            "title": "Fox News Has Big Warning For Republicans On How Americans Feel About Trump’s Economy",
+            "source": "HuffPost",
+            "publishedAt": "2026-10-15T16:31:48Z",
+            "sentiment": "Negative",
+            "compound": -0.34
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 53.07,
-  "trade_probability": 51.84,
+  "confirmation_score": 52.39,
+  "trade_probability": 51.43,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
