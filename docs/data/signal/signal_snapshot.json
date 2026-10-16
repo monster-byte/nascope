@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T18:31:09.432388+00:00",
+  "generated_at": "2026-10-16T18:45:52.424023+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.4075,
+          "change_pct": 0.0537,
           "up": true
         },
         "MSFT": {
-          "change_pct": -1.9491,
+          "change_pct": -1.9249,
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.1904,
+          "change_pct": -0.8581,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.8184,
+          "change_pct": -1.6762,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29194.29,
-        "sma50": 29868.13,
-        "sma200": 27738.01
+        "last_price": 29190.13,
+        "sma50": 29868.05,
+        "sma200": 27737.99
       }
     },
     "vxn": {
@@ -55,20 +55,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 70.75,
+      "score": 71.05,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.108,
-        "change_5d_pct": -2.593
+        "current_yield_pct": 5.106,
+        "change_5d_pct": -2.632
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.65,
+      "score": 52.91,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.87,
-        "change_5d_pct": -0.331
+        "current_dxy": 101.84,
+        "change_5d_pct": -0.364
       }
     },
     "macro": {
@@ -84,52 +84,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.34,
+      "score": 46.08,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.013,
+        "avg_compound": -0.078,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "The €1.6tn battle for Europe: inside the EU’s biggest budget fight in years",
-            "source": "The Irish Times",
-            "publishedAt": "2026-10-15T18:30:30Z",
-            "sentiment": "Negative",
-            "compound": -0.637
+            "title": "Circle's USDC leading stablecoin pack following MasterCard, Visa moves, says TD",
+            "source": "Thefly.com",
+            "publishedAt": "2026-10-15T18:43:09Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Update: US Equity Indexes Mixed After Hot Producer Price Inflation Print, Tech Declines Accompany Sliding Treasury Yields",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-15T18:21:40Z",
-            "sentiment": "Positive",
-            "compound": 0.202
+            "title": "Nikkei Plunges 3,318 Points as AI Selloff Shakes Tokyo",
+            "source": "Newsonjapan.com",
+            "publishedAt": "2026-10-15T18:41:37Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Solana hits record $7B in tokenized equities volume in Q3 2026",
+            "title": "AI industry may be building too many data centers while existing GPUs sit idle, strategist warns",
             "source": "Crypto Briefing",
-            "publishedAt": "2026-10-15T18:20:09Z",
+            "publishedAt": "2026-10-15T18:40:38Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
+          {
+            "title": "MSRTC Rejects Proposed Diwali Fare Hike to Ease Public Burden",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-15T18:38:29Z",
+            "sentiment": "Negative",
+            "compound": -0.557
+          },
+          {
+            "title": "Anthropic results may aid IPO but not AI trade, analysts say",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-15T18:38:24Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Interest rate hike would be a Fed mistake despite hot CPI report",
+            "title": "Inflation hit businesses even harder than consumers last month",
             "source": "Biztoc.com",
-            "publishedAt": "2026-10-15T18:19:39Z",
-            "sentiment": "Neutral",
-            "compound": 0.153
-          },
-          {
-            "title": "Medline to build Midwestern network with new 800,000-square-foot facility in Van Buren Township, Mich.",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-15T18:17:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Anthropic's Q3 revenue jumps to $16.8 billion ahead of planned IPO",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-15T18:12:01Z",
+            "publishedAt": "2026-10-15T18:36:06Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 46.23,
-  "trade_probability": 47.74,
+  "confirmation_score": 46.0,
+  "trade_probability": 47.6,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
