@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T13:15:50.986786+00:00",
+  "generated_at": "2026-10-16T13:31:11.705160+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,62 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 100.0,
+      "score": 75.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.3634,
+          "change_pct": 1.7568,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.4994,
+          "change_pct": 1.1572,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.2447,
-          "up": true
+          "change_pct": -0.1798,
+          "up": false
         },
         "AMZN": {
-          "change_pct": 0.5765,
+          "change_pct": 0.5705,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 70.64,
-      "status": "green",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
-        "regime": "BULLISH",
-        "last_price": 29935.6,
-        "sma50": 29871.71,
-        "sma200": 27719.36
+        "regime": "NEUTRAL / TRANSITIONAL",
+        "last_price": 29795.77,
+        "sma50": 29880.16,
+        "sma200": 27741.02
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 80.0,
-      "status": "green",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
-        "current_vxn": 20.64,
-        "percentile_vs_20d": 20.0
+        "error": "no_data"
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 70.44,
+      "score": 68.46,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.11,
-        "change_5d_pct": -2.555
+        "current_yield_pct": 5.123,
+        "change_5d_pct": -2.307
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.44,
+      "score": 53.35,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.77,
-        "change_5d_pct": -0.43
+        "current_dxy": 101.78,
+        "change_5d_pct": -0.419
       }
     },
     "macro": {
@@ -85,54 +84,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.32,
+      "score": 53.08,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.086,
+        "avg_compound": 0.062,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "US Wholesale Inflation Hits Four-Year High As Prices Rise Sharply",
+            "title": "Unpacking the most recent inflation data",
             "source": "Biztoc.com",
-            "publishedAt": "2026-10-15T13:15:42Z",
+            "publishedAt": "2026-10-15T13:31:03Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Co-Diagnostics Highlights PCR Platform Capabilities for Potential Plague Detection",
+            "title": "Ricoh and Hyphen partner to drive robotic automation in food service industry",
             "source": "PRNewswire",
-            "publishedAt": "2026-10-15T13:15:00Z",
+            "publishedAt": "2026-10-15T13:30:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Environment Fund and Tanmiah Food Company Sign MoU to Strengthen Environmental Cooperation and Support Tree-Planting Initiatives in the Kingdom",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-15T13:14:00Z",
-            "sentiment": "Positive",
-            "compound": 0.612
-          },
-          {
-            "title": "Octave Named a Leader in Both EAM and Digital Worker Technologies MarketMap by ARC Advisory Group",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-15T13:13:10Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Micron, Nvidia face renewed pressure as AI spending fears swell",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-15T13:07:24Z",
+            "title": "The global economy and the art of living dangerously",
+            "source": "The Irish Times",
+            "publishedAt": "2026-10-15T13:30:00Z",
             "sentiment": "Negative",
-            "compound": -0.612
+            "compound": -0.459
           },
           {
-            "title": "Nine in ten renters in Germany back tough penalties for excessive rents",
-            "source": "The Local Germany",
-            "publishedAt": "2026-10-15T13:07:03Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
+            "title": "TROOPS, Inc. (NASDAQ: TROO) Strengthens Leadership Team with Appointment of Jacopo Visetti as Director and Sergio Carloni as Chief Operating Officer",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-15T13:30:00Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "A 20% Drop in Smartphone Shipments Shows Who Wins When Memory Gets Expensive",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-15T13:28:00Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "Americans filing for jobless aid remain at historically low levels below 200,000",
+            "source": "Abcnews.com",
+            "publishedAt": "2026-10-15T13:27:18Z",
+            "sentiment": "Negative",
+            "compound": -0.273
           }
         ]
       }
@@ -146,11 +145,11 @@
       }
     }
   },
-  "confirmation_score": 72.44,
-  "trade_probability": 63.46,
-  "market_regime": "BULLISH",
+  "confirmation_score": 59.82,
+  "trade_probability": 55.89,
+  "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
-    "ai_status": "APPROVED",
-    "directional_bias": "LONG"
+    "ai_status": "HOLD / MONITOR",
+    "directional_bias": "NEUTRAL"
   }
 }
