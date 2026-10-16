@@ -1,14 +1,19 @@
 {
-  "generated_at": "2026-10-16T15:34:53.577697+00:00",
+  "generated_at": "2026-10-16T18:45:53.063073+00:00",
   "verification_window_minutes": 15,
   "total_signals_logged": 1,
   "graded_signals": 1,
   "flat_signals": 0,
   "pending_signals": 0,
   "win_rate_pct": 0.0,
+  "unverifiable_signals": 0,
+  "r_sample_size": 0,
+  "avg_r": null,
+  "profit_factor": null,
+  "max_drawdown_r": null,
   "avg_win_pct": null,
   "avg_loss_pct": 0.1909,
-  "note": "مقياس أولي (price_change_pct) — Avg R وProfit Factor الحقيقيين يحتاجوا منطق Entry/Stop/Target خاص بالسكالب (غير مبني بعد).",
+  "note": "Avg R / Profit Factor / Max Drawdown محسوبة من مسار الشموع (5 دقايق) خلال نافذة التحقق: الوقف أولاً لو الاثنين بنفس الشمعة (تقدير متحفظ)، الهدف 1 = +1.5R، وإلا الخروج عند نهاية النافذة. العينة الصغيرة ما بتدل على شي.",
   "recent_entries": [
     {
       "timestamp": "2026-10-14T19:25:46.690095+00:00",
