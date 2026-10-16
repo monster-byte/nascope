@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T03:31:12.944837+00:00",
+  "generated_at": "2026-10-16T03:45:53.236619+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.8329,
+          "change_pct": -0.9007,
           "up": false
         },
         "MSFT": {
-          "change_pct": 1.6262,
+          "change_pct": 1.6645,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.2999,
+          "change_pct": -0.3237,
           "up": false
         },
         "AMZN": {
-          "change_pct": 1.7009,
+          "change_pct": 1.7195,
           "up": true
         }
       }
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.21,
+      "score": 51.14,
       "status": "yellow",
       "details": {
         "current_dxy": 101.99,
-        "change_5d_pct": -0.151
+        "change_5d_pct": -0.143
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.13,
+      "score": 46.99,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.057,
+        "avg_compound": -0.06,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Q2 Results Today Live: Wipro, Nestle, Tech Mahindra, Jio Financial, IRFC, Polycab, HDFC AMC, HDFC Life, Tata Communications, KVB, IIFL, Persistent Systems, 360 ONE WAM, Angel One to announce Q2 results, Tata Tech, Groww, Leela Palaces' shares in focus",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-15T03:43:09Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "South Korea's stock rout reveals a double threat to the AI boom",
+            "source": "Business Insider",
+            "publishedAt": "2026-10-15T03:35:37Z",
+            "sentiment": "Negative",
+            "compound": -0.527
+          },
+          {
+            "title": "State vows duty shield against controversial trust tax",
+            "source": "PerthNow",
+            "publishedAt": "2026-10-15T03:33:37Z",
+            "sentiment": "Positive",
+            "compound": 0.361
+          },
           {
             "title": "Bitcoin miners plunge up to 13% in Wall Street’s worst selloff since July",
             "source": "Cointelegraph",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-15T03:25:16Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Top stocks to buy today: Stock recommendations for October 15, 2026 - check list",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-15T03:23:12Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "Australia's Hospitality Sector Loses $6.4 Billion Annually to Food Waste, Averaging $66,000 Per Business",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-10-15T03:22:24Z",
-            "sentiment": "Negative",
-            "compound": -0.625
-          },
-          {
-            "title": "‘The Chris-off was pretty beige’ – Election 2026: The Podcast",
-            "source": "New Zealand Herald",
-            "publishedAt": "2026-10-15T03:14:05Z",
-            "sentiment": "Positive",
-            "compound": 0.494
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 58.27,
-  "trade_probability": 54.96,
+  "confirmation_score": 58.25,
+  "trade_probability": 54.95,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
