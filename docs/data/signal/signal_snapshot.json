@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T18:45:52.424023+00:00",
+  "generated_at": "2026-10-16T18:58:18.621901+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.0537,
+          "change_pct": 0.0523,
           "up": true
         },
         "MSFT": {
-          "change_pct": -1.9249,
+          "change_pct": -1.9901,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.8581,
+          "change_pct": -1.3957,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.6762,
+          "change_pct": -1.7217,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29190.13,
-        "sma50": 29868.05,
-        "sma200": 27737.99
+        "last_price": 29140.83,
+        "sma50": 29867.06,
+        "sma200": 27737.75
       }
     },
     "vxn": {
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.91,
+      "score": 52.95,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.84,
-        "change_5d_pct": -0.364
+        "current_dxy": 101.83,
+        "change_5d_pct": -0.369
       }
     },
     "macro": {
@@ -84,52 +84,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.08,
+      "score": 46.74,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.078,
+        "avg_compound": -0.065,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Ferrovial selected to deliver Georgia's I-285 East Express Lanes",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-15T18:57:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "The Fed still has little control over the 2 biggest inflation drivers",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-15T18:51:25Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Nasdaq restores operations after network outage",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-15T18:50:29Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "Dow Industrials, Treasurys Rise as Investors Rotate Out of Tech",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-15T18:50:14Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Workers report lowest level of financial security in 7 years",
+            "source": "CBS News",
+            "publishedAt": "2026-10-15T18:46:55Z",
+            "sentiment": "Neutral",
+            "compound": -0.052
+          },
           {
             "title": "Circle's USDC leading stablecoin pack following MasterCard, Visa moves, says TD",
             "source": "Thefly.com",
             "publishedAt": "2026-10-15T18:43:09Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Nikkei Plunges 3,318 Points as AI Selloff Shakes Tokyo",
-            "source": "Newsonjapan.com",
-            "publishedAt": "2026-10-15T18:41:37Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "AI industry may be building too many data centers while existing GPUs sit idle, strategist warns",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-15T18:40:38Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
-          },
-          {
-            "title": "MSRTC Rejects Proposed Diwali Fare Hike to Ease Public Burden",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-15T18:38:29Z",
-            "sentiment": "Negative",
-            "compound": -0.557
-          },
-          {
-            "title": "Anthropic results may aid IPO but not AI trade, analysts say",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-15T18:38:24Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Inflation hit businesses even harder than consumers last month",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-15T18:36:06Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 46.0,
-  "trade_probability": 47.6,
+  "confirmation_score": 46.06,
+  "trade_probability": 47.64,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
