@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T16:15:55.918256+00:00",
+  "generated_at": "2026-10-16T16:31:09.282427+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
-      "status": "green",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 1.2059,
+          "change_pct": 1.2411,
           "up": true
         },
         "MSFT": {
-          "change_pct": -1.3258,
+          "change_pct": -1.4348,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.3716,
+          "change_pct": 0.3139,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.0079,
-          "up": true
+          "change_pct": -0.308,
+          "up": false
         }
       }
     },
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29491.17,
-        "sma50": 29874.07,
-        "sma200": 27739.5
+        "last_price": 29451.56,
+        "sma50": 29873.28,
+        "sma200": 27739.3
       }
     },
     "vxn": {
@@ -55,20 +55,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 72.27,
+      "score": 69.83,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.098,
-        "change_5d_pct": -2.784
+        "current_yield_pct": 5.114,
+        "change_5d_pct": -2.479
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.79,
+      "score": 52.54,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.85,
-        "change_5d_pct": -0.349
+        "current_dxy": 101.89,
+        "change_5d_pct": -0.317
       }
     },
     "macro": {
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.27,
+      "score": 51.82,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.025,
+        "avg_compound": 0.036,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Wholesale prices jumped 6.3% annually in September, biggest gain since 2022",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-10-15T16:29:47Z",
+            "sentiment": "Positive",
+            "compound": 0.527
+          },
+          {
+            "title": "Gasoline Alone Drove More Than Half of September’s Inflation Jump",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-15T16:17:59Z",
+            "sentiment": "Negative",
+            "compound": -0.25
+          },
           {
             "title": "Online Retail Spending Gains as Consumers Navigate Higher Prices",
             "source": "pymnts.com",
@@ -118,20 +132,6 @@
             "publishedAt": "2026-10-15T16:11:16Z",
             "sentiment": "Neutral",
             "compound": -0.103
-          },
-          {
-            "title": "Wholesale inflation much hotter than expected as soaring energy costs threaten price hikes through holidays",
-            "source": "New York Post",
-            "publishedAt": "2026-10-15T16:11:08Z",
-            "sentiment": "Positive",
-            "compound": 0.273
-          },
-          {
-            "title": "Solana treasury firm DeFi Development raises CHAD preferred stock dividend rate to 14%",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-15T16:10:39Z",
-            "sentiment": "Positive",
-            "compound": 0.202
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 60.12,
-  "trade_probability": 56.07,
+  "confirmation_score": 53.07,
+  "trade_probability": 51.84,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
