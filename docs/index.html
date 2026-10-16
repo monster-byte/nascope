@@ -25,7 +25,7 @@
   .step .v { font-size:12.5px; font-weight:500; }
   hr.sep { border:0; border-top:1px solid #f1f5f9; }
   #vp-wrap { position:relative; }
-  #vp-overlay { position:absolute; left:0; top:0; pointer-events:none; }
+  #vp-overlay { position:absolute; left:0; top:0; pointer-events:none; z-index:5; }
   .dot { width:8px; height:8px; border-radius:999px; display:inline-block; }
   @media (max-width: 1023px) { .chain { grid-template-columns: repeat(2, minmax(0,1fr)) !important; } }
 </style>
@@ -204,10 +204,10 @@
       <div class="col-span-2 lg:col-span-1"><div class="font-bold">Track Record</div><div class="text-xs text-slate-500">Scalping Performance (live-logged)</div></div>
       <div><div class="text-[11px] text-slate-400">Total Trades</div><div id="tr-total" class="text-xl font-bold">--</div></div>
       <div><div class="text-[11px] text-slate-400">Win Rate</div><div id="tr-win" class="text-xl font-bold">--</div></div>
-      <div><div class="text-[11px] text-slate-400">Avg. R</div><div class="text-xl font-bold text-slate-300">—</div></div>
-      <div><div class="text-[11px] text-slate-400">Profit Factor</div><div class="text-xl font-bold text-slate-300">—</div></div>
+      <div><div class="text-[11px] text-slate-400">Avg. R</div><div id="tr-avgr" class="text-xl font-bold text-slate-300">—</div></div>
+      <div><div class="text-[11px] text-slate-400">Profit Factor</div><div id="tr-pf" class="text-xl font-bold text-slate-300">—</div></div>
       <div><div class="text-[11px] text-slate-400">Verification Window</div><div id="tr-win-min" class="text-xl font-bold">--</div></div>
-      <div><div class="text-[11px] text-slate-400">Max Drawdown</div><div class="text-xl font-bold text-slate-300">—</div></div>
+      <div><div class="text-[11px] text-slate-400">Max Drawdown</div><div id="tr-dd" class="text-xl font-bold text-slate-300">—</div></div>
     </div>
     <div id="tr-note" class="text-[11px] text-slate-400 mt-3"></div>
   </section>
@@ -474,8 +474,12 @@ function renderTrack(p) {
   const t = p && p.scalp_track_record; if (!t) return;
   $('tr-total').textContent = t.total_signals_logged ?? '--';
   $('tr-win').textContent = t.win_rate_pct != null ? t.win_rate_pct + '%' : '—';
+  const setM = (id, v, f) => { const e = $(id); if (v == null) { e.textContent = '—'; e.className = 'text-xl font-bold text-slate-300'; } else { e.textContent = f(v); e.className = 'text-xl font-bold'; } };
+  setM('tr-avgr', t.avg_r, v => (v >= 0 ? '+' : '') + v.toFixed(2) + 'R');
+  setM('tr-pf', t.profit_factor, v => v.toFixed(2));
+  setM('tr-dd', t.max_drawdown_r, v => v.toFixed(2) + 'R');
   $('tr-win-min').textContent = (t.verification_window_minutes || '--') + ' min';
-  $('tr-note').textContent = `${t.graded_signals || 0} graded · ${t.pending_signals || 0} pending · ${t.flat_signals || 0} flat. Each signal is logged live and verified ${t.verification_window_minutes} min later. Avg R / Profit Factor / Max Drawdown are not computed yet.`;
+  $('tr-note').textContent = `${t.graded_signals || 0} graded · ${t.pending_signals || 0} pending · ${t.flat_signals || 0} flat. Each signal is logged live and verified ${t.verification_window_minutes} min later. Avg R / Profit Factor / Max Drawdown come from ${t.r_sample_size || 0} signals with stored stop/target (small sample = not meaningful). ${t.unverifiable_signals ? t.unverifiable_signals + ' unverifiable (no price data near the 15-min mark).' : ''}`;
 }
 
 async function init() {
