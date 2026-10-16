@@ -1,9 +1,5 @@
 name: AUREX Pulse - Intraday Engine
 
-# محرك منفصل تماماً عن "AUREX AI - Fetch Data" — جدولة أسرع (كل 5 دقايق)
-# مخصص لمحرك Pulse الاستشاري فقط (Volume Profile + Catalyst Watcher + Fusion)
-# لا يلمس ولا يؤثر على signal_snapshot.json ولا القرار الرسمي بأي شكل
-
 on:
   schedule:
     - cron: "*/5 * * * 1-5"
@@ -11,6 +7,10 @@ on:
 
 permissions:
   contents: write
+
+concurrency:
+  group: aurex-pulse
+  cancel-in-progress: false
 
 jobs:
   pulse:
@@ -27,7 +27,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r aurex-ai/requirements.txt
 
-      - name: Run data layer (أسعار طازجة كل 5 دقايق)
+      - name: Run data layer (fresh prices)
         working-directory: aurex-ai
         continue-on-error: true
         run: python -m src.data.run
@@ -50,5 +50,13 @@ jobs:
           git config user.email "bot@users.noreply.github.com"
           git add -A
           git diff --quiet --cached || git commit -m "chore: auto-update pulse intraday snapshot [skip ci]"
-          git pull --rebase
-          git push
+          # لو تضارب مع الـworkflow الثاني على ملفات البيانات: نسختنا (الأحدث) هي اللي تفوز، ونعيد المحاولة
+          for i in 1 2 3 4; do
+            if git pull --rebase -X theirs origin main && git push; then
+              exit 0
+            fi
+            git rebase --abort 2>/dev/null || true
+            sleep $((i * 5))
+          done
+          echo "push failed after retries"
+          exit 1
