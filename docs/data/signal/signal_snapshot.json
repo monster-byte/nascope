@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T16:45:58.265800+00:00",
+  "generated_at": "2026-10-16T17:01:25.650306+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 1.1589,
+          "change_pct": 1.109,
           "up": true
         },
         "MSFT": {
-          "change_pct": -1.3696,
+          "change_pct": -1.6379,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.0469,
-          "up": true
+          "change_pct": -0.2514,
+          "up": false
         },
         "AMZN": {
-          "change_pct": -0.6318,
+          "change_pct": -0.8253,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29448.26,
-        "sma50": 29873.21,
-        "sma200": 27739.28
+        "last_price": 29402.6,
+        "sma50": 29872.3,
+        "sma200": 27739.06
       }
     },
     "vxn": {
@@ -55,20 +55,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 67.85,
+      "score": 68.46,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.127,
-        "change_5d_pct": -2.231
+        "current_yield_pct": 5.123,
+        "change_5d_pct": -2.307
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.95,
+      "score": 51.75,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.96,
-        "change_5d_pct": -0.244
+        "current_dxy": 101.99,
+        "change_5d_pct": -0.218
       }
     },
     "macro": {
@@ -84,54 +84,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.84,
+      "score": 50.45,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.043,
+        "avg_compound": 0.009,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Smartphone shipments plummet as memory crisis pumps up prices",
-            "source": "Theregister.com",
-            "publishedAt": "2026-10-15T16:45:00Z",
-            "sentiment": "Negative",
-            "compound": -0.625
+            "title": "‘Big Short’ Investor Michael Burry Hints Stocks Could Peak Within Nine Months, Funnels Bearish Bets Into Nasdaq and Chip Stocks ETF",
+            "source": "The Daily Hodl",
+            "publishedAt": "2026-10-15T16:55:02Z",
+            "sentiment": "Neutral",
+            "compound": 0.103
           },
           {
-            "title": "Even Blue-Collar Workers Have Turned Against Trump's Unpopular Tariffs",
-            "source": "Reason",
-            "publishedAt": "2026-10-15T16:35:08Z",
+            "title": "Global FSB Issues Final Guidance on Agentic AI in Finance: Market Structure Beyond the Perimeter",
+            "source": "Forkast.news",
+            "publishedAt": "2026-10-15T16:53:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Businesses Slammed by 6.3% PPI Inflation, Worst since 2022, Much Worse than Consumer-Facing Inflation",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-15T16:33:35Z",
-            "sentiment": "Negative",
-            "compound": -0.802
-          },
-          {
-            "title": "Lisa Cook's Attorney Challenges Fairness Of White House Probe",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-15T16:33:02Z",
+            "title": "Average long-term US mortgage rate holds at 7.4%, remaining at highest level in nearly 3 years",
+            "source": "Abcnews.com",
+            "publishedAt": "2026-10-15T16:52:51Z",
             "sentiment": "Neutral",
-            "compound": 0.077
+            "compound": 0.0
           },
           {
-            "title": "Meta Ships Muse Wonder, Jev Raises $870M 24 Days After Launch, and Anthropic Cuts Haiku 90%: The Top Takeaways From This Week’s 20VC x SaaStr",
-            "source": "Saastr.com",
-            "publishedAt": "2026-10-15T16:32:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
+            "title": "Social Security cost-of-living increase sparks debate over looming funding shortfall - Fox Business",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-10-15T16:52:16Z",
+            "sentiment": "Positive",
+            "compound": 0.494
           },
           {
-            "title": "Fox News Has Big Warning For Republicans On How Americans Feel About Trump’s Economy",
+            "title": "GOP Rep On Iran War: 'There Is No War As We Speak'",
             "source": "HuffPost",
-            "publishedAt": "2026-10-15T16:31:48Z",
-            "sentiment": "Negative",
-            "compound": -0.34
+            "publishedAt": "2026-10-15T16:50:51Z",
+            "sentiment": "Neutral",
+            "compound": -0.191
+          },
+          {
+            "title": "Online Retail Spending Gains as Consumers Navigate Higher Prices",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-15T16:48:58Z",
+            "sentiment": "Positive",
+            "compound": 0.34
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 52.39,
-  "trade_probability": 51.43,
+  "confirmation_score": 45.94,
+  "trade_probability": 47.56,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
