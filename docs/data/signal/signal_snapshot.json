@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T13:31:11.705160+00:00",
+  "generated_at": "2026-10-16T13:45:55.203786+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
-      "status": "green",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 1.7568,
+          "change_pct": 0.7098,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.1572,
-          "up": true
+          "change_pct": -0.0168,
+          "up": false
         },
         "NVDA": {
-          "change_pct": -0.1798,
+          "change_pct": -0.1014,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.5705,
-          "up": true
+          "change_pct": -0.0435,
+          "up": false
         }
       }
     },
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29795.77,
-        "sma50": 29880.16,
-        "sma200": 27741.02
+        "last_price": 29741.84,
+        "sma50": 29879.08,
+        "sma200": 27740.75
       }
     },
     "vxn": {
@@ -55,20 +55,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 68.46,
+      "score": 67.85,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.123,
-        "change_5d_pct": -2.307
+        "current_yield_pct": 5.127,
+        "change_5d_pct": -2.231
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.35,
+      "score": 53.6,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.78,
-        "change_5d_pct": -0.419
+        "current_dxy": 101.75,
+        "change_5d_pct": -0.45
       }
     },
     "macro": {
@@ -84,54 +84,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.08,
+      "score": 51.75,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.062,
-        "articles_analyzed": 25,
+        "avg_compound": 0.035,
+        "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Unpacking the most recent inflation data",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-15T13:31:03Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Q2 Results Highlights, 15 Oct: Wipro PAT rises 9% year-on-year; Tech Mahindra profit jumps 32.7%; Nestlé shares tank after Q2 results; IIFL Finance, IRFC, Polycab, KVB and HDFC AMC report higher PAT; Heritage Foods posts decline",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-15T13:43:12Z",
+            "sentiment": "Positive",
+            "compound": 0.625
           },
           {
-            "title": "Ricoh and Hyphen partner to drive robotic automation in food service industry",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-15T13:30:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "The global economy and the art of living dangerously",
-            "source": "The Irish Times",
-            "publishedAt": "2026-10-15T13:30:00Z",
+            "title": "Gold price today: Gold rate recovers after consecutive losses but there is a concern. Details here",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-15T13:43:07Z",
             "sentiment": "Negative",
-            "compound": -0.459
+            "compound": -0.214
           },
           {
-            "title": "TROOPS, Inc. (NASDAQ: TROO) Strengthens Leadership Team with Appointment of Jacopo Visetti as Director and Sergio Carloni as Chief Operating Officer",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-15T13:30:00Z",
-            "sentiment": "Positive",
-            "compound": 0.459
+            "title": "Edesa Biotech Announces FDA IND Clearance for Phase 2 Vitiligo Study",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-15T13:41:45Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "A 20% Drop in Smartphone Shipments Shows Who Wins When Memory Gets Expensive",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-15T13:28:00Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "Americans filing for jobless aid remain at historically low levels below 200,000",
+            "title": "Wholesale inflation jumped last month by most in four years as gas prices soared",
             "source": "Abcnews.com",
-            "publishedAt": "2026-10-15T13:27:18Z",
+            "publishedAt": "2026-10-15T13:39:58Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "US stocks: CoreWeave's slump puts spotlight on debt behind AI boom",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-15T13:38:32Z",
             "sentiment": "Negative",
-            "compound": -0.273
+            "compound": -0.361
+          },
+          {
+            "title": "PRODUCER PRICE INDEXES - SEPTEMBER 2026",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-10-15T13:36:57Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 59.82,
-  "trade_probability": 55.89,
+  "confirmation_score": 46.14,
+  "trade_probability": 47.68,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
