@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T13:45:55.203786+00:00",
+  "generated_at": "2026-10-16T14:01:30.606776+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
-      "status": "red",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.7098,
+          "change_pct": 1.156,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.0168,
-          "up": false
+          "change_pct": 0.1258,
+          "up": true
         },
         "NVDA": {
-          "change_pct": -0.1014,
+          "change_pct": -0.1891,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.0435,
-          "up": false
+          "change_pct": 0.2645,
+          "up": true
         }
       }
     },
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29741.84,
-        "sma50": 29879.08,
-        "sma200": 27740.75
+        "last_price": 29643.2,
+        "sma50": 29877.11,
+        "sma200": 27740.26
       }
     },
     "vxn": {
@@ -55,20 +55,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 67.85,
+      "score": 69.83,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.127,
-        "change_5d_pct": -2.231
+        "current_yield_pct": 5.114,
+        "change_5d_pct": -2.479
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.6,
+      "score": 54.14,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.75,
-        "change_5d_pct": -0.45
+        "current_dxy": 101.68,
+        "change_5d_pct": -0.518
       }
     },
     "macro": {
@@ -84,52 +84,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.75,
+      "score": 51.76,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
         "avg_compound": 0.035,
-        "articles_analyzed": 24,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Q2 Results Highlights, 15 Oct: Wipro PAT rises 9% year-on-year; Tech Mahindra profit jumps 32.7%; Nestlé shares tank after Q2 results; IIFL Finance, IRFC, Polycab, KVB and HDFC AMC report higher PAT; Heritage Foods posts decline",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-15T13:43:12Z",
+            "title": "ZOOJEU: Using Q fever to highlight a participatory science approach for fostering the co-design of management strategies for neglected zoonotic diseases",
+            "source": "Plos.org",
+            "publishedAt": "2026-10-15T14:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.25
+          },
+          {
+            "title": "Lifestyle factors and clustered patterns of body shape change in Korean adults: A longitudinal observational study",
+            "source": "Plos.org",
+            "publishedAt": "2026-10-15T14:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of Zscaler, Inc. - ZS",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-15T14:00:00Z",
             "sentiment": "Positive",
-            "compound": 0.625
+            "compound": 0.447
           },
           {
-            "title": "Gold price today: Gold rate recovers after consecutive losses but there is a concern. Details here",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-15T13:43:07Z",
-            "sentiment": "Negative",
-            "compound": -0.214
-          },
-          {
-            "title": "Edesa Biotech Announces FDA IND Clearance for Phase 2 Vitiligo Study",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-15T13:41:45Z",
+            "title": "INVESTOR ALERT: Pomerantz Law Firm Reminds Investors with Losses on their Investment in Coastal Financial Corporation of Class Action Lawsuit and Upcoming Deadlines - CCB",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-15T14:00:00Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": -0.17
           },
           {
-            "title": "Wholesale inflation jumped last month by most in four years as gas prices soared",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-10-15T13:39:58Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of The Cooper Companies, Inc. - COO",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-15T14:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.447
           },
           {
-            "title": "US stocks: CoreWeave's slump puts spotlight on debt behind AI boom",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-15T13:38:32Z",
-            "sentiment": "Negative",
-            "compound": -0.361
-          },
-          {
-            "title": "PRODUCER PRICE INDEXES - SEPTEMBER 2026",
-            "source": "Freerepublic.com",
-            "publishedAt": "2026-10-15T13:36:57Z",
+            "title": "Circulating microRNAs as potential candidate biomarkers of left ventricular reverse remodeling after myocardial infarction: A pilot study",
+            "source": "Plos.org",
+            "publishedAt": "2026-10-15T14:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 46.14,
-  "trade_probability": 47.68,
+  "confirmation_score": 59.96,
+  "trade_probability": 55.98,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
