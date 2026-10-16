@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T14:31:14.904318+00:00",
+  "generated_at": "2026-10-16T14:45:56.186528+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.1648,
+          "change_pct": 1.2059,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.3503,
+          "change_pct": -0.0158,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.3947,
+          "change_pct": 0.7754,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.0316,
+          "change_pct": 0.5607,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29613.8,
-        "sma50": 29876.52,
-        "sma200": 27740.11
+        "last_price": 29716.4,
+        "sma50": 29878.57,
+        "sma200": 27740.63
       }
     },
     "vxn": {
@@ -55,20 +55,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 75.48,
+      "score": 74.56,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.077,
-        "change_5d_pct": -3.185
+        "current_yield_pct": 5.083,
+        "change_5d_pct": -3.07
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.45,
+      "score": 54.52,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.64,
-        "change_5d_pct": -0.557
+        "current_dxy": 101.63,
+        "change_5d_pct": -0.565
       }
     },
     "macro": {
@@ -84,13 +84,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.77,
+      "score": 57.19,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.135,
+        "avg_compound": 0.144,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "AMD Shares Fall Sharply as AI Infrastructure Spending Concerns Weigh on Chip Stocks",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-10-15T14:41:50Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "Here's what's driving this week's $1 trillion wipeout in chip stocks",
+            "source": "Business Insider",
+            "publishedAt": "2026-10-15T14:38:25Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Tron Inc. sets up $200 million ATM share offering to fund TRX purchases",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-15T14:34:58Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "Ethereum, XRP and Solana slide as hot inflation data rattles crypto",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-15T14:32:19Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Social Security up 3.6% in ’27",
             "source": "Qchron.com",
@@ -102,34 +130,6 @@
             "title": "Iowa Gubernatorial Debate Focuses on Taxes, Education",
             "source": "Breitbart News",
             "publishedAt": "2026-10-15T14:28:46Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Nvidia Stock Falls Again as AI Chip Sell-Off Deepens Despite TSMC's Record Profit and Robust Demand Outlook",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-10-15T14:25:23Z",
-            "sentiment": "Neutral",
-            "compound": -0.13
-          },
-          {
-            "title": "AIFA Provides Business Update",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-15T14:24:30Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "7 Things Veterans and Military Retirees Should Know About 3.6% COLA for 2027",
-            "source": "Military.com",
-            "publishedAt": "2026-10-15T14:20:43Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Wholesale inflation jumped last month by most in 4 years as gas prices soared",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-10-15T14:18:45Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 61.2,
-  "trade_probability": 56.72,
+  "confirmation_score": 61.12,
+  "trade_probability": 56.67,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
