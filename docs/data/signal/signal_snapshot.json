@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T14:15:56.599056+00:00",
+  "generated_at": "2026-10-16T14:31:14.904318+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.3054,
+          "change_pct": 1.1648,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.0727,
+          "change_pct": -0.3503,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.1475,
-          "up": false
+          "change_pct": 0.3947,
+          "up": true
         },
         "AMZN": {
-          "change_pct": 0.1145,
+          "change_pct": 0.0316,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29649.22,
-        "sma50": 29877.23,
-        "sma200": 27740.29
+        "last_price": 29613.8,
+        "sma50": 29876.52,
+        "sma200": 27740.11
       }
     },
     "vxn": {
@@ -55,20 +55,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 74.87,
+      "score": 75.48,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.081,
-        "change_5d_pct": -3.108
+        "current_yield_pct": 5.077,
+        "change_5d_pct": -3.185
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.32,
+      "score": 54.45,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.66,
-        "change_5d_pct": -0.54
+        "current_dxy": 101.64,
+        "change_5d_pct": -0.557
       }
     },
     "macro": {
@@ -84,52 +84,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.83,
+      "score": 56.77,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.017,
+        "avg_compound": 0.135,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "SueWallSt Reminds Shareholders of a Lead Plaintiff Deadline of November 3, 2026 in Beta Bionics, Inc. Lawsuit - BBNX",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-15T14:15:00Z",
-            "sentiment": "Negative",
-            "compound": -0.226
-          },
-          {
-            "title": "BIDU Deadline Alert: SueWallSt Reminds Baidu, Inc. (BIDU) Investors of Securities Class Action Deadline on November 13, 2026",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-15T14:15:00Z",
+            "title": "Social Security up 3.6% in ’27",
+            "source": "Qchron.com",
+            "publishedAt": "2026-10-15T14:30:00Z",
             "sentiment": "Positive",
-            "compound": 0.527
+            "compound": 0.34
           },
           {
-            "title": "What’s up with… Smartphone sales, Austrian APIs, Jio",
-            "source": "TelecomTV",
-            "publishedAt": "2026-10-15T14:12:57Z",
+            "title": "Iowa Gubernatorial Debate Focuses on Taxes, Education",
+            "source": "Breitbart News",
+            "publishedAt": "2026-10-15T14:28:46Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Mortgage Rates Today, Thursday, October 15: A Little Higher",
-            "source": "NerdWallet",
-            "publishedAt": "2026-10-15T14:12:41Z",
+            "title": "Nvidia Stock Falls Again as AI Chip Sell-Off Deepens Despite TSMC's Record Profit and Robust Demand Outlook",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-10-15T14:25:23Z",
+            "sentiment": "Neutral",
+            "compound": -0.13
+          },
+          {
+            "title": "AIFA Provides Business Update",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-15T14:24:30Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Global stocks slide as AI selloff sends investors running to bonds",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-15T14:09:25Z",
+            "title": "7 Things Veterans and Military Retirees Should Know About 3.6% COLA for 2027",
+            "source": "Military.com",
+            "publishedAt": "2026-10-15T14:20:43Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Missouri DCI Urges Residents to Consider Earthquake Insurance",
-            "source": "Insurance Journal",
-            "publishedAt": "2026-10-15T14:04:48Z",
+            "title": "Wholesale inflation jumped last month by most in 4 years as gas prices soared",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-10-15T14:18:45Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 53.82,
-  "trade_probability": 52.29,
+  "confirmation_score": 61.2,
+  "trade_probability": 56.72,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
