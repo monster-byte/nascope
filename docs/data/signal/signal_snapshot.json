@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T16:01:29.791570+00:00",
+  "generated_at": "2026-10-16T16:15:55.918256+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.2517,
+          "change_pct": 1.2059,
           "up": true
         },
         "MSFT": {
-          "change_pct": -1.5783,
+          "change_pct": -1.3258,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.2032,
+          "change_pct": 0.3716,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.1856,
-          "up": false
+          "change_pct": 0.0079,
+          "up": true
         }
       }
     },
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29433.2,
-        "sma50": 29872.91,
-        "sma200": 27739.21
+        "last_price": 29491.17,
+        "sma50": 29874.07,
+        "sma200": 27739.5
       }
     },
     "vxn": {
@@ -55,20 +55,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 74.26,
+      "score": 72.27,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.085,
-        "change_5d_pct": -3.032
+        "current_yield_pct": 5.098,
+        "change_5d_pct": -2.784
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.11,
+      "score": 52.79,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.81,
-        "change_5d_pct": -0.388
+        "current_dxy": 101.85,
+        "change_5d_pct": -0.349
       }
     },
     "macro": {
@@ -84,54 +84,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.67,
+      "score": 51.27,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.027,
+        "avg_compound": 0.025,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Copper hits 10-day low on profit-taking as supply worries ease",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-15T16:01:08Z",
-            "sentiment": "Negative",
-            "compound": -0.34
+            "title": "Online Retail Spending Gains as Consumers Navigate Higher Prices",
+            "source": "pymnts.com",
+            "publishedAt": "2026-10-15T16:13:32Z",
+            "sentiment": "Positive",
+            "compound": 0.34
           },
           {
-            "title": "Transcript: The Blue Wave Is Coming to the States As Well",
-            "source": "The New Republic",
-            "publishedAt": "2026-10-15T16:00:00Z",
+            "title": "Investors Turn to Safety of Treasurys as Tech Stocks Extend Selloff - WSJ",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-10-15T16:13:22Z",
+            "sentiment": "Positive",
+            "compound": 0.542
+          },
+          {
+            "title": "Japan MoF official says G7 and G20 see no financial instability risk from AI sell-off",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-15T16:12:53Z",
+            "sentiment": "Negative",
+            "compound": -0.511
+          },
+          {
+            "title": "ServiceNow's AI Governance Push Meets a Marketing Bet — and One Hard Deadline",
+            "source": "Ad-hoc-news.de",
+            "publishedAt": "2026-10-15T16:11:16Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
+          {
+            "title": "Wholesale inflation much hotter than expected as soaring energy costs threaten price hikes through holidays",
+            "source": "New York Post",
+            "publishedAt": "2026-10-15T16:11:08Z",
             "sentiment": "Positive",
             "compound": 0.273
           },
           {
-            "title": "AV and Thunder Tiger Sign MOU to Explore Uncrewed Systems Integration and Co-Production in Taiwan",
-            "source": "Soldiersystems.net",
-            "publishedAt": "2026-10-15T16:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Columbia Banking System Named the Top Performing Large U.S. Bank in Bank Director's 2026 RankingBanking Study",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-15T16:00:00Z",
+            "title": "Solana treasury firm DeFi Development raises CHAD preferred stock dividend rate to 14%",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-15T16:10:39Z",
             "sentiment": "Positive",
             "compound": 0.202
-          },
-          {
-            "title": "Market selloff, rising rates test AI data centre deal boom",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-15T15:59:20Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Mike Rogers' Wife Hands Out $10 Gas Cards, Begging Michiganders to Vote for Her Husband",
-            "source": "Common Dreams",
-            "publishedAt": "2026-10-15T15:58:29Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 53.44,
-  "trade_probability": 52.06,
+  "confirmation_score": 60.12,
+  "trade_probability": 56.07,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
