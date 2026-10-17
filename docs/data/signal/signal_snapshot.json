@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T23:31:04.588840+00:00",
+  "generated_at": "2026-10-17T23:45:52.459295+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.1858,
+          "change_pct": -1.1904,
           "up": false
         },
         "AMZN": {
@@ -84,13 +84,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.75,
+      "score": 43.08,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.085,
+        "avg_compound": -0.138,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "US Stock Market today: Why have S&P 500, Nasdaq, Dow Jones suffered biggest drops since June? Top, worst performing stocks at Wall Street",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-16T23:43:22Z",
+            "sentiment": "Negative",
+            "compound": -0.758
+          },
+          {
+            "title": "New York Fed Finds Surging Costs Turn Executive Outlook Negative",
+            "source": "pymnts.com",
+            "publishedAt": "2026-10-16T23:39:58Z",
+            "sentiment": "Negative",
+            "compound": -0.572
+          },
+          {
+            "title": "Even with high gas prices, EV sales in California are flat",
+            "source": "Medianewsgroup.com",
+            "publishedAt": "2026-10-16T23:35:27Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "US stocks recover as sliding Treasury yields offset hot inflation data",
+            "source": "Pdnews.cn",
+            "publishedAt": "2026-10-16T23:33:13Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
           {
             "title": "Fox Factory Holding Investigation Notice: Levi & Korsinsky Notifies Investors of Pending Investigation Into Fox Factory Holding (FOXF)",
             "source": "PRNewswire",
@@ -104,34 +132,6 @@
             "publishedAt": "2026-10-16T23:14:14Z",
             "sentiment": "Negative",
             "compound": -0.34
-          },
-          {
-            "title": "US bond 10-year yields suffer biggest weekly drop in over year. Why is treasury note down?",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-16T23:01:37Z",
-            "sentiment": "Negative",
-            "compound": -0.586
-          },
-          {
-            "title": "Nasdaq 100 Records Worst Week In 18 Months As Investors Steer Clear Of Chipmakers — AAPL, MSTR, UBER, SOXX In Focus",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-16T22:49:21Z",
-            "sentiment": "Negative",
-            "compound": -0.361
-          },
-          {
-            "title": "Why AST SpaceMobile, Inc. (ASTS) Dipped More Than Broader Market Today",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-16T22:49:14Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Why Take-Two Interactive (TTWO) Dipped More Than Broader Market Today",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-16T22:48:34Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 46.13,
-  "trade_probability": 47.68,
+  "confirmation_score": 45.89,
+  "trade_probability": 47.53,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
