@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T06:31:09.337598+00:00",
+  "generated_at": "2026-10-17T06:45:52.869305+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -84,56 +84,10 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.6,
+      "score": 50.0,
       "status": "yellow",
       "details": {
-        "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.032,
-        "articles_analyzed": 24,
-        "top_headlines": [
-          {
-            "title": "Fed's Warsh sees US economic tailwinds",
-            "source": "RTE",
-            "publishedAt": "2026-10-16T06:30:17Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Kospi Rebounds Nearly 2.5% After Seven-Day Rout as Samsung, SK Hynix and Hanwha Aerospace Lead Recovery",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-10-16T06:29:55Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Fed's Warsh withholds Fed rate signal, praises recent global tightening with 'no free riders'",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-16T06:24:29Z",
-            "sentiment": "Positive",
-            "compound": 0.772
-          },
-          {
-            "title": "Treatment funds in proposed South Carolina online betting plan",
-            "source": "ReadWrite",
-            "publishedAt": "2026-10-16T06:21:02Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Festive cheer is high, but shoppers are counting every rupee",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-16T06:13:23Z",
-            "sentiment": "Positive",
-            "compound": 0.485
-          },
-          {
-            "title": "Morning recap: State police bill, Tinubu’s rescue order, minimum wage talks, other top stories",
-            "source": "The Punch",
-            "publishedAt": "2026-10-16T06:09:29Z",
-            "sentiment": "Positive",
-            "compound": 0.625
-          }
-        ]
+        "error": "news_fetch_failed: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?q=Nasdaq+OR+%22Federal+Reserve%22+OR+%22stock+market%22+OR+inflation&language=en&sortBy=publishedAt&pageSize=25&apiKey=280ea038bd7e4ccb91d87f9d115484d4"
       }
     },
     "patent_momentum": {
@@ -145,8 +99,8 @@
       }
     }
   },
-  "confirmation_score": 46.66,
-  "trade_probability": 48.0,
+  "confirmation_score": 46.52,
+  "trade_probability": 47.91,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
