@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T03:15:50.668045+00:00",
+  "generated_at": "2026-10-17T03:31:04.545450+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.9,
+      "score": 53.37,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.84,
-        "change_5d_pct": -0.362
+        "current_dxy": 101.78,
+        "change_5d_pct": -0.422
       }
     },
     "macro": {
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.43,
+      "score": 51.91,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.069,
+        "avg_compound": 0.038,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Bandhan AMC’s Suyash Choudhary on RBI rate hikes, bond yields, and debt strategy",
+            "source": "Livemint",
+            "publishedAt": "2026-10-16T03:30:23Z",
+            "sentiment": "Negative",
+            "compound": -0.361
+          },
+          {
+            "title": "Iran central bank dismisses collapse claims amid 74% inflation, rial drop",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-16T03:24:05Z",
+            "sentiment": "Negative",
+            "compound": -0.649
+          },
           {
             "title": "Bonfiglioli Transmissions IPO Day 2: GMP at 24%; Check subscription status. Should you subscribe?",
             "source": "The Times of India",
@@ -118,20 +132,6 @@
             "publishedAt": "2026-10-16T02:48:24Z",
             "sentiment": "Positive",
             "compound": 0.599
-          },
-          {
-            "title": "Waymo Opens To Everyone In San Antonio, San Diego, & Tampa",
-            "source": "CleanTechnica",
-            "publishedAt": "2026-10-16T02:46:45Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "South Korean shares set for biggest weekly fall since 2008 on AI worries",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-16T02:40:22Z",
-            "sentiment": "Neutral",
-            "compound": -0.153
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 46.83,
-  "trade_probability": 48.1,
+  "confirmation_score": 46.73,
+  "trade_probability": 48.04,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
