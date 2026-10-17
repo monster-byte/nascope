@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T01:45:49.105123+00:00",
+  "generated_at": "2026-10-17T02:01:19.193319+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.1858,
+          "change_pct": -1.1904,
           "up": false
         },
         "AMZN": {
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.0,
+      "score": 50.45,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.02,
+        "avg_compound": 0.009,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Watters: Would Abdul pass a background check?",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-10-16T01:54:13Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Woolworths Shares Jump 4% to Five-Year High as Investors Seek Defensive Stocks Amid Global Market Turmoil",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-10-16T01:50:34Z",
+            "sentiment": "Neutral",
+            "compound": -0.052
+          },
           {
             "title": "Dow Jones Futures: Techs Slide On Anthropic Valuation Doubts; Tesla Roadster On Tap",
             "source": "Biztoc.com",
@@ -118,20 +132,6 @@
             "publishedAt": "2026-10-16T01:12:26Z",
             "sentiment": "Positive",
             "compound": 0.796
-          },
-          {
-            "title": "Global Market Today: Asian stocks advance as selloff in chips eases",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-16T01:10:19Z",
-            "sentiment": "Positive",
-            "compound": 0.318
-          },
-          {
-            "title": "CNBC Daily Open: Is the AI sector losing its rose-colored glow?",
-            "source": "CNBC",
-            "publishedAt": "2026-10-16T01:06:12Z",
-            "sentiment": "Negative",
-            "compound": -0.382
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 46.65,
-  "trade_probability": 47.99,
+  "confirmation_score": 46.6,
+  "trade_probability": 47.96,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
