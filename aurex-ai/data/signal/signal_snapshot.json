@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T23:01:17.760881+00:00",
+  "generated_at": "2026-10-17T23:15:54.206660+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.1858,
+          "change_pct": -1.1904,
           "up": false
         },
         "AMZN": {
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.96,
+      "score": 45.2,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.061,
+        "avg_compound": -0.096,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Wall Street faces fresh risks as AI rout meets oil shock",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-16T23:14:14Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
+          {
+            "title": "US bond 10-year yields suffer biggest weekly drop in over year. Why is treasury note down?",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-16T23:01:37Z",
+            "sentiment": "Negative",
+            "compound": -0.586
+          },
           {
             "title": "Nasdaq 100 Records Worst Week In 18 Months As Investors Steer Clear Of Chipmakers — AAPL, MSTR, UBER, SOXX In Focus",
             "source": "Biztoc.com",
@@ -118,20 +132,6 @@
             "publishedAt": "2026-10-16T22:48:07Z",
             "sentiment": "Negative",
             "compound": -0.382
-          },
-          {
-            "title": "Stock Market Today, Oct. 16: Tech Stocks Plunge as AI Software Valuations Reverse",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-16T22:34:09Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Stock Market Today, Oct. 16: Tesla Slips 2% as Roadster Reveal Fades Before Earnings",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-16T22:34:02Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 46.24,
-  "trade_probability": 47.74,
+  "confirmation_score": 46.09,
+  "trade_probability": 47.65,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
