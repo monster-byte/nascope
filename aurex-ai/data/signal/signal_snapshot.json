@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T19:45:54.460048+00:00",
+  "generated_at": "2026-10-17T20:01:18.834451+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.1858,
+          "change_pct": -1.1904,
           "up": false
         },
         "AMZN": {
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.7,
+      "score": 48.26,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.066,
+        "avg_compound": -0.035,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Stock market today: Nasdaq and S&P 500 fall as tech stocks slide, capping volatile week - Yahoo Finance",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-10-16T19:52:25Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Chip Stocks Continue Downward Streak, 'Pricing In A Crash'",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-16T19:47:30Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
           {
             "title": "I was a Trump skeptic — but his second-term wins made me a believer",
             "source": "New York Post",
@@ -118,20 +132,6 @@
             "publishedAt": "2026-10-16T19:32:31Z",
             "sentiment": "Neutral",
             "compound": -0.178
-          },
-          {
-            "title": "Why Diesel Prices Are Outpacing Crude | Presented by CME Group",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-16T19:31:18Z",
-            "sentiment": "Negative",
-            "compound": -0.572
-          },
-          {
-            "title": "Oil-Driven Inflation Could Turn Bullish for Gold | Presented by CME Group",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-16T19:30:55Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 46.22,
-  "trade_probability": 47.73,
+  "confirmation_score": 46.36,
+  "trade_probability": 47.82,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
