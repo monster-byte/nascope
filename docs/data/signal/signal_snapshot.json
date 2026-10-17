@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T17:31:05.995068+00:00",
+  "generated_at": "2026-10-17T17:45:46.346613+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.1858,
+          "change_pct": -1.1904,
           "up": false
         },
         "AMZN": {
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.52,
+      "score": 51.04,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.07,
+        "avg_compound": 0.021,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Fed Chair Kevin Warsh warns of AI 'shock' for economy, pledges to contain inflation - ABC News - Breaking News, Latest News and Videos",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-10-16T17:33:17Z",
+            "sentiment": "Negative",
+            "compound": -0.459
+          },
+          {
+            "title": "Your Halloween candy is falling victim to a ghoulish shriek-flation",
+            "source": "New York Post",
+            "publishedAt": "2026-10-16T17:31:12Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
           {
             "title": "Fed Chair Kevin Warsh warns of AI 'shock' for economy, pledges to contain inflation - ABC News",
             "source": "Biztoc.com",
@@ -118,20 +132,6 @@
             "publishedAt": "2026-10-16T17:28:41Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "European shares notch up strong week as earnings cushion tech sell-off",
-            "source": "The Irish Times",
-            "publishedAt": "2026-10-16T17:27:19Z",
-            "sentiment": "Positive",
-            "compound": 0.67
-          },
-          {
-            "title": "For one grocery chain, the cost to ship lettuce now tops the lettuce itself, showing how high fuel prices are sinking their teeth across the economy",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-16T17:14:33Z",
-            "sentiment": "Positive",
-            "compound": 0.511
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 46.83,
-  "trade_probability": 48.1,
+  "confirmation_score": 46.61,
+  "trade_probability": 47.97,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
