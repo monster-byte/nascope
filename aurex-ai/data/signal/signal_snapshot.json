@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T21:15:45.683716+00:00",
+  "generated_at": "2026-10-17T21:31:06.924206+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.1858,
+          "change_pct": -1.1904,
           "up": false
         },
         "AMZN": {
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 39.59,
+      "score": 38.95,
       "status": "red",
       "details": {
         "overall_sentiment": "BEARISH",
-        "avg_compound": -0.208,
+        "avg_compound": -0.221,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "GreenPower Announces Receipt of Letter from NASDAQ",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-16T21:19:22Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Intel, Lam Research, Amkor, and Kulicke and Soffa Shares Are Falling, What You Need To Know",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-16T21:18:57Z",
+            "sentiment": "Neutral",
+            "compound": 0.153
+          },
           {
             "title": "US markets are weighed down by an extended sell-off in the tech sector - AP News",
             "source": "Slashdot.org",
@@ -118,20 +132,6 @@
             "publishedAt": "2026-10-16T21:02:41Z",
             "sentiment": "Negative",
             "compound": -0.361
-          },
-          {
-            "title": "The Bond Market Is Flashing a Warning Not Seen in Decades, and History Says Investors Should Buckle Up",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-16T21:02:39Z",
-            "sentiment": "Negative",
-            "compound": -0.34
-          },
-          {
-            "title": "Apple shares hit new all-time closing high",
-            "source": "Macdailynews.com",
-            "publishedAt": "2026-10-16T21:00:14Z",
-            "sentiment": "Positive",
-            "compound": 0.296
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 45.58,
-  "trade_probability": 47.35,
+  "confirmation_score": 45.52,
+  "trade_probability": 47.31,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
