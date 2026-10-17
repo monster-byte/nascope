@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T05:01:18.054364+00:00",
+  "generated_at": "2026-10-17T05:15:57.252665+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.1858,
+          "change_pct": -1.1904,
           "up": false
         },
         "AMZN": {
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.47,
+      "score": 50.98,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.029,
+        "avg_compound": 0.02,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "HDFC Life Insurance sheds 3% post Q2 results; brokerages remain upbeat",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-16T05:12:56Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Warsh Vows Price Stability as A.I. Delivers ‘Shock’ to Economy",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-16T05:09:12Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Global hedge funds suffer steep losses as AI trade unwinds, Asia funds hit hardest",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-16T05:02:09Z",
+            "sentiment": "Negative",
+            "compound": -0.735
+          },
           {
             "title": "Japan’s bean sprout shortage hitting Jiro-style ramen businesses hard",
             "source": "SoraNews24",
@@ -111,27 +132,6 @@
             "publishedAt": "2026-10-16T05:00:01Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Bank of America CEO: ‘The good news is that the US consumer is still spending strongly’",
-            "source": "The Irish Times",
-            "publishedAt": "2026-10-16T05:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.44
-          },
-          {
-            "title": "U.S. producer prices post biggest gain in 4 1/2 years - Honolulu Star-Advertiser",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-10-16T04:52:58Z",
-            "sentiment": "Positive",
-            "compound": 0.527
-          },
-          {
-            "title": "Reserve Bank governor paid $1.2 million as RBA workers fight real wage cuts",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-10-16T04:50:02Z",
-            "sentiment": "Negative",
-            "compound": -0.586
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 46.65,
-  "trade_probability": 47.99,
+  "confirmation_score": 46.61,
+  "trade_probability": 47.97,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
