@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T20:15:53.054857+00:00",
+  "generated_at": "2026-10-17T20:31:08.327423+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.1858,
+          "change_pct": -1.1904,
           "up": false
         },
         "AMZN": {
@@ -84,19 +84,40 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.27,
+      "score": 46.88,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.055,
+        "avg_compound": -0.062,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "CELH Deadline: CELH Investors Have Opportunity to Lead Celsius Holdings, Inc. Securities Fraud Lawsuit",
+            "title": "BUUU Group Limited Announces 10-for-1 Forward Share Split",
             "source": "PRNewswire",
-            "publishedAt": "2026-10-16T20:15:00Z",
+            "publishedAt": "2026-10-16T20:30:00Z",
             "sentiment": "Neutral",
-            "compound": -0.178
+            "compound": 0.077
+          },
+          {
+            "title": "Investors prepare for data dump that will determine Canada’s rate path",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-16T20:28:36Z",
+            "sentiment": "Negative",
+            "compound": -0.382
+          },
+          {
+            "title": "The Fed's 35-year open data bet is a model for the AI era",
+            "source": "Nextgov",
+            "publishedAt": "2026-10-16T20:27:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Tech stocks tumble as AI debt fears rattle Wall Street",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-16T20:16:05Z",
+            "sentiment": "Negative",
+            "compound": -0.649
           },
           {
             "title": "Ex-Trump Official Claims Poll Numbers Are 'Death Sentence for MAGA' as Prez 'Can't Do Anything' to Avoid Nightmare Midterms",
@@ -106,32 +127,11 @@
             "compound": -0.7
           },
           {
-            "title": "US stocks: US market ends down sharply; worries about AI trade and high oil prices weigh",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-16T20:08:41Z",
-            "sentiment": "Negative",
-            "compound": -0.421
-          },
-          {
-            "title": "Tech stocks tumble as AI debt fears rattle Wall Street",
-            "source": "CBS News",
-            "publishedAt": "2026-10-16T20:08:28Z",
-            "sentiment": "Negative",
-            "compound": -0.649
-          },
-          {
-            "title": "S&P 500 and Nasdaq close sharply lower as AI selloff drags market",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-16T20:08:15Z",
-            "sentiment": "Negative",
-            "compound": -0.44
-          },
-          {
-            "title": "How This Year’s Economics Nobel Winners Shaped the World",
-            "source": "Foreign Policy",
-            "publishedAt": "2026-10-16T20:05:43Z",
-            "sentiment": "Positive",
-            "compound": 0.477
+            "title": "CELH Deadline: CELH Investors Have Opportunity to Lead Celsius Holdings, Inc. Securities Fraud Lawsuit",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-16T20:15:00Z",
+            "sentiment": "Neutral",
+            "compound": -0.178
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 46.27,
-  "trade_probability": 47.76,
+  "confirmation_score": 46.24,
+  "trade_probability": 47.74,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
