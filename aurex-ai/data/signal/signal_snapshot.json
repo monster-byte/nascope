@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T07:15:57.566172+00:00",
+  "generated_at": "2026-10-17T07:31:10.781816+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.1858,
+          "change_pct": -1.1904,
           "up": false
         },
         "AMZN": {
@@ -84,10 +84,56 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.0,
+      "score": 54.57,
       "status": "yellow",
       "details": {
-        "error": "news_fetch_failed: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?q=Nasdaq+OR+%22Federal+Reserve%22+OR+%22stock+market%22+OR+inflation&language=en&sortBy=publishedAt&pageSize=25&apiKey=280ea038bd7e4ccb91d87f9d115484d4"
+        "overall_sentiment": "NEUTRAL",
+        "avg_compound": 0.091,
+        "articles_analyzed": 25,
+        "top_headlines": [
+          {
+            "title": "Zensar, HCL Technologies rebounded from 100-month EMA support, says analyst",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-16T07:30:41Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "Small imports rule change delayed to keep costs low before midterms",
+            "source": "Arkansas Online",
+            "publishedAt": "2026-10-16T07:25:50Z",
+            "sentiment": "Negative",
+            "compound": -0.459
+          },
+          {
+            "title": "Sunrise Energy Metals Shares Rebound More Than 12% a Day After Steep Sell-Off Tied to US Listing Plan",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-10-16T07:16:08Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
+          {
+            "title": "US consumer inflation hotter than expected as midterms loom",
+            "source": "The Daily Star",
+            "publishedAt": "2026-10-16T07:13:53Z",
+            "sentiment": "Negative",
+            "compound": -0.226
+          },
+          {
+            "title": "The insider trading you're allowed to do",
+            "source": "Coached.com",
+            "publishedAt": "2026-10-16T07:12:09Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-16T07:10:17Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          }
+        ]
       }
     },
     "patent_momentum": {
@@ -99,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 46.52,
-  "trade_probability": 47.91,
+  "confirmation_score": 46.93,
+  "trade_probability": 48.16,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
