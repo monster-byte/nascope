@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T21:31:06.924206+00:00",
+  "generated_at": "2026-10-17T21:45:49.612665+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 38.95,
-      "status": "red",
+      "score": 41.17,
+      "status": "yellow",
       "details": {
-        "overall_sentiment": "BEARISH",
-        "avg_compound": -0.221,
+        "overall_sentiment": "NEUTRAL",
+        "avg_compound": -0.177,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "‘He can’t run again’: MAGA merch sellers are closing shop and cutting prices. One sold $63 million but now she’s closed three stores",
+            "source": "Fortune",
+            "publishedAt": "2026-10-16T21:36:43Z",
+            "sentiment": "Neutral",
+            "compound": -0.064
+          },
+          {
+            "title": "Stock Market Today: Nasdaq, S&P 500 Sink, Poised for Weekly Losses as AI Stocks Remain Under Pressure; Dow Slips But Set for Weekly Gain - Investopedia",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-10-16T21:32:59Z",
+            "sentiment": "Positive",
+            "compound": 0.565
+          },
+          {
+            "title": "Trump stands by Susie Wiles as infighting consumes jittery White House ahead of midterms",
+            "source": "New York Post",
+            "publishedAt": "2026-10-16T21:32:33Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "GreenPower Announces Receipt of Letter from NASDAQ",
             "source": "Biztoc.com",
@@ -111,27 +132,6 @@
             "publishedAt": "2026-10-16T21:12:36Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Short Sellers Have Earned $32B Over The Past Week Amid Chipmaker Selloff: Report",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-16T21:03:45Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Prediction: Micron Could Turn $10,000 Into a Fortune by 2030",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-16T21:03:23Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Nasdaq sinks more than 2% as investors raise questions about AI debt",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-16T21:02:41Z",
-            "sentiment": "Negative",
-            "compound": -0.361
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 45.52,
-  "trade_probability": 47.31,
+  "confirmation_score": 45.72,
+  "trade_probability": 47.43,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
