@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T22:01:21.761103+00:00",
+  "generated_at": "2026-10-17T22:15:45.307835+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.1904,
+          "change_pct": -1.1858,
           "up": false
         },
         "AMZN": {
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 42.82,
+      "score": 46.33,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.144,
+        "avg_compound": -0.073,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "A view of AI, from Mumbai",
+            "source": "Marketplace.org",
+            "publishedAt": "2026-10-16T22:15:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Carlyle Secured Lending, Inc. Schedules Earnings Release and Quarterly Earnings Call to Discuss its Financial Results for the Third Quarter Ended September 30, 2026",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-16T22:03:47Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
           {
             "title": "What Would £500 a Year in 'Sense and Sensibility' Be Worth Today?",
             "source": "Mental Floss",
@@ -118,20 +132,6 @@
             "publishedAt": "2026-10-16T21:32:59Z",
             "sentiment": "Positive",
             "compound": 0.565
-          },
-          {
-            "title": "Trump stands by Susie Wiles as infighting consumes jittery White House ahead of midterms",
-            "source": "New York Post",
-            "publishedAt": "2026-10-16T21:32:33Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "GreenPower Announces Receipt of Letter from NASDAQ",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-16T21:19:22Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 45.87,
-  "trade_probability": 47.52,
+  "confirmation_score": 46.19,
+  "trade_probability": 47.71,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
