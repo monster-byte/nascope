@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T20:31:08.327423+00:00",
+  "generated_at": "2026-10-17T20:45:51.118650+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.1904,
+          "change_pct": -1.1858,
           "up": false
         },
         "AMZN": {
@@ -84,13 +84,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.88,
+      "score": 44.82,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.062,
+        "avg_compound": -0.104,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Car Repair Costs Have Risen Twice As Fast As Inflation",
+            "source": "Jalopnik",
+            "publishedAt": "2026-10-16T20:45:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Are CCC, PAG, VRNS Obtaining Fair Deals for their Shareholders?",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-16T20:40:00Z",
+            "sentiment": "Positive",
+            "compound": 0.318
+          },
+          {
+            "title": "AI stock sell-off ramps up over debt-fueled data center spending fears: ‘Full-blown crisis of confidence’",
+            "source": "New York Post",
+            "publishedAt": "2026-10-16T20:35:28Z",
+            "sentiment": "Negative",
+            "compound": -0.784
+          },
+          {
+            "title": "US closes lower as budget deficit eyes $2T in 2026",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-16T20:31:50Z",
+            "sentiment": "Negative",
+            "compound": -0.599
+          },
           {
             "title": "BUUU Group Limited Announces 10-for-1 Forward Share Split",
             "source": "PRNewswire",
@@ -104,34 +132,6 @@
             "publishedAt": "2026-10-16T20:28:36Z",
             "sentiment": "Negative",
             "compound": -0.382
-          },
-          {
-            "title": "The Fed's 35-year open data bet is a model for the AI era",
-            "source": "Nextgov",
-            "publishedAt": "2026-10-16T20:27:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Tech stocks tumble as AI debt fears rattle Wall Street",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-16T20:16:05Z",
-            "sentiment": "Negative",
-            "compound": -0.649
-          },
-          {
-            "title": "Ex-Trump Official Claims Poll Numbers Are 'Death Sentence for MAGA' as Prez 'Can't Do Anything' to Avoid Nightmare Midterms",
-            "source": "Radaronline.com",
-            "publishedAt": "2026-10-16T20:15:00Z",
-            "sentiment": "Negative",
-            "compound": -0.7
-          },
-          {
-            "title": "CELH Deadline: CELH Investors Have Opportunity to Lead Celsius Holdings, Inc. Securities Fraud Lawsuit",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-16T20:15:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.178
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 46.24,
-  "trade_probability": 47.74,
+  "confirmation_score": 46.05,
+  "trade_probability": 47.63,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
