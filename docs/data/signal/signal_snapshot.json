@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T22:45:53.449919+00:00",
+  "generated_at": "2026-10-18T23:01:21.614366+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.1904,
+          "change_pct": -1.1858,
           "up": false
         },
         "AMZN": {
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.83,
+      "score": 55.1,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.83,
-        "change_5d_pct": -0.729
+        "current_dxy": 101.93,
+        "change_5d_pct": -0.638
       }
     },
     "macro": {
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.54,
+      "score": 50.45,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.049,
+        "avg_compound": 0.009,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "James Cameron Finally Congratulates Endgame’s Box Office Victory With Awesome Marvel & Navi Crossover Art",
+            "source": "ComicBook.com",
+            "publishedAt": "2026-10-17T22:49:05Z",
+            "sentiment": "Positive",
+            "compound": 0.784
+          },
           {
             "title": "'Vote of no-confidence' as traders place £7bn bet against the pound ahead of John Healey's first Budget",
             "source": "Dailymail.com",
@@ -125,13 +132,6 @@
             "publishedAt": "2026-10-17T21:41:46Z",
             "sentiment": "Neutral",
             "compound": -0.103
-          },
-          {
-            "title": "LINC Investors Have Opportunity to Lead Lincoln Educational Services Corporation Securities Fraud Lawsuit",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-17T21:29:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.178
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 46.56,
-  "trade_probability": 47.94,
+  "confirmation_score": 46.76,
+  "trade_probability": 48.06,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
