@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T19:01:21.689913+00:00",
+  "generated_at": "2026-10-18T19:15:50.789107+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 38.33,
-      "status": "red",
+      "score": 40.05,
+      "status": "yellow",
       "details": {
-        "overall_sentiment": "BEARISH",
-        "avg_compound": -0.233,
+        "overall_sentiment": "NEUTRAL",
+        "avg_compound": -0.199,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Four Lots of Edwards Mitral Valve Delivery Systems Pulled After Balloon Bursts Linked to One Patient Death",
+            "source": "Medical Daily",
+            "publishedAt": "2026-10-17T19:10:41Z",
+            "sentiment": "Negative",
+            "compound": -0.599
+          },
+          {
+            "title": "earthsciencekit added to PyPI",
+            "source": "Pypi.org",
+            "publishedAt": "2026-10-17T19:10:16Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Things Just Got Worse for Ilhan Omar After Agents Searched Her Trash for DNA",
             "source": "Freerepublic.com",
@@ -118,20 +132,6 @@
             "publishedAt": "2026-10-17T18:34:36Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Pattern Matching Beats Narrative Reasoning",
-            "source": "Scottstevenson.net",
-            "publishedAt": "2026-10-17T18:34:13Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "State ramps up supply measures as power use goes up",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-17T18:30:56Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 45.47,
-  "trade_probability": 47.28,
+  "confirmation_score": 45.62,
+  "trade_probability": 47.37,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
