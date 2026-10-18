@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T12:15:51.281248+00:00",
+  "generated_at": "2026-10-18T12:31:05.871848+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.1904,
+          "change_pct": -1.1858,
           "up": false
         },
         "AMZN": {
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.82,
+      "score": 51.17,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.036,
+        "avg_compound": 0.023,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "DAVA SHAREHOLDER ACTION REMINDER: Faruqi & Faruqi, LLP Reminds Endava plc (NASDAQ: DAVA) Investors of Securities Class Action Lawsuit Deadline on November 30, 2026",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-17T12:21:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.077
+          },
           {
             "title": "The First Western TV Series Ever Made Is Streaming For Free",
             "source": "TVLine",
@@ -125,13 +132,6 @@
             "publishedAt": "2026-10-17T12:00:16Z",
             "sentiment": "Negative",
             "compound": -0.402
-          },
-          {
-            "title": "Yes, You’re Probably Paying More for Phone Service. Here’s Where Your Money Is Going",
-            "source": "CNET",
-            "publishedAt": "2026-10-17T12:00:10Z",
-            "sentiment": "Positive",
-            "compound": 0.402
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 46.68,
-  "trade_probability": 48.01,
+  "confirmation_score": 46.62,
+  "trade_probability": 47.97,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
