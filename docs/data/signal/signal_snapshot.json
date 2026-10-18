@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T15:15:56.761705+00:00",
+  "generated_at": "2026-10-18T15:31:10.737365+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.75,
+      "score": 48.51,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.015,
+        "avg_compound": -0.03,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "fred-loader 0.1.4",
+            "source": "Pypi.org",
+            "publishedAt": "2026-10-17T15:26:42Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Buildings torched as cost of living protests spread across France",
+            "source": "The Irish Times",
+            "publishedAt": "2026-10-17T15:24:46Z",
+            "sentiment": "Negative",
+            "compound": -0.226
+          },
           {
             "title": "Health budget no longer based on evidence, consultants’ conference told",
             "source": "The Irish Times",
@@ -118,20 +132,6 @@
             "publishedAt": "2026-10-17T15:05:40Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "As Nvidia's RTX 5090 seemingly disappears, I'm worried about GeForce GPUs",
-            "source": "TechRadar",
-            "publishedAt": "2026-10-17T15:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.557
-          },
-          {
-            "title": "Bolivia’s Energy Crisis Deepens as Natural Gas Reserves Run Dry",
-            "source": "OilPrice.com",
-            "publishedAt": "2026-10-17T15:00:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 46.58,
-  "trade_probability": 47.95,
+  "confirmation_score": 46.38,
+  "trade_probability": 47.83,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
