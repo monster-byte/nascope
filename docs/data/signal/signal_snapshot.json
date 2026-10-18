@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T05:31:06.555355+00:00",
+  "generated_at": "2026-10-18T05:45:48.900514+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.54,
+      "score": 49.23,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.029,
+        "avg_compound": -0.015,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Why India's steel demand is defying global weakness",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-17T05:38:59Z",
+            "sentiment": "Negative",
+            "compound": -0.511
+          },
+          {
+            "title": "Tech stocks erase $1 trillion of wealth as oil surges to $110 for the first time since May - NBC News",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-10-17T05:32:19Z",
+            "sentiment": "Positive",
+            "compound": 0.494
+          },
           {
             "title": "Stocks are risky right now — but so are all the alternatives",
             "source": "Biztoc.com",
@@ -118,20 +132,6 @@
             "publishedAt": "2026-10-17T05:00:01Z",
             "sentiment": "Negative",
             "compound": -0.402
-          },
-          {
-            "title": "Public sector strikers cannot expect a raise without working for it",
-            "source": "The Irish Times",
-            "publishedAt": "2026-10-17T05:00:01Z",
-            "sentiment": "Neutral",
-            "compound": -0.153
-          },
-          {
-            "title": "Recent mergers may face investigation following Government error",
-            "source": "The Irish Times",
-            "publishedAt": "2026-10-17T05:00:01Z",
-            "sentiment": "Negative",
-            "compound": -0.402
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 46.39,
-  "trade_probability": 47.83,
+  "confirmation_score": 46.45,
+  "trade_probability": 47.87,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
