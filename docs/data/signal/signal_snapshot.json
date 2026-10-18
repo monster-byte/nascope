@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T03:01:21.733513+00:00",
+  "generated_at": "2026-10-18T03:15:50.077758+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.1904,
+          "change_pct": -1.1858,
           "up": false
         },
         "AMZN": {
@@ -84,13 +84,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 39.74,
-      "status": "red",
+      "score": 42.03,
+      "status": "yellow",
       "details": {
-        "overall_sentiment": "BEARISH",
-        "avg_compound": -0.205,
+        "overall_sentiment": "NEUTRAL",
+        "avg_compound": -0.159,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Stock Market News, Oct. 16, 2026: Dow falls, S&P 500 and Nasdaq cement worst week since June, as tech rout deepens - MarketWatch",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-10-17T03:12:55Z",
+            "sentiment": "Negative",
+            "compound": -0.625
+          },
+          {
+            "title": "San Diego’s jobless rate fell in September. Here’s who’s hiring",
+            "source": "Medianewsgroup.com",
+            "publishedAt": "2026-10-17T03:09:06Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Trump Suffers Double Inflation Blow Within 48 Hours as Midterms Loom",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-17T03:05:51Z",
+            "sentiment": "Negative",
+            "compound": -0.612
+          },
+          {
+            "title": "DA hike after Dussehra: Will central government employees get good news in October? - What we know so far",
+            "source": "Livemint",
+            "publishedAt": "2026-10-17T03:03:27Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
           {
             "title": "Ballard Announces Q3 2026 Results Conference Call",
             "source": "Biztoc.com",
@@ -102,34 +130,6 @@
             "title": "NIP Group Inc. Announces Results of Extraordinary General Meeting",
             "source": "Biztoc.com",
             "publishedAt": "2026-10-17T02:51:49Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "NVIDIA RTX Spark 搭載 PC、本日発売 ― Windows PC の新たな幕開け",
-            "source": "Prtimes.jp",
-            "publishedAt": "2026-10-17T02:40:36Z",
-            "sentiment": "Positive",
-            "compound": 0.226
-          },
-          {
-            "title": "CENTCOM Commander: U.S. Blockade Imposed ‘Devastating Costs’ on Iran — IRGC Unable to Pay Troops",
-            "source": "Breitbart News",
-            "publishedAt": "2026-10-17T02:39:35Z",
-            "sentiment": "Neutral",
-            "compound": -0.178
-          },
-          {
-            "title": "Trump pauses sanctions package targeted at Russian economy",
-            "source": "CBC News",
-            "publishedAt": "2026-10-17T02:36:07Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "How major US stock indexes fared Friday 10/16/2026",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-17T02:35:26Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 45.59,
-  "trade_probability": 47.35,
+  "confirmation_score": 45.8,
+  "trade_probability": 47.48,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
