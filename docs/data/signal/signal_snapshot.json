@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T13:31:10.864720+00:00",
+  "generated_at": "2026-10-18T13:45:55.912102+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.1858,
+          "change_pct": -1.1904,
           "up": false
         },
         "AMZN": {
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.92,
+      "score": 51.04,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.058,
+        "avg_compound": 0.021,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "'Worst I've seen': Texas Farm Bureau chief sounds alarm on Trump economy as farmers revolt",
+            "source": "Raw Story",
+            "publishedAt": "2026-10-17T13:42:04Z",
+            "sentiment": "Negative",
+            "compound": -0.758
+          },
+          {
+            "title": "Neocloud Stock Collapse: Buying Opportunity or Run for the Hills?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-17T13:38:25Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
           {
             "title": "fred-loader 0.1.3",
             "source": "Pypi.org",
@@ -118,20 +132,6 @@
             "publishedAt": "2026-10-17T13:08:25Z",
             "sentiment": "Positive",
             "compound": 0.494
-          },
-          {
-            "title": "Where do B.C.’s parties stand on transportation ahead of the provincial election?",
-            "source": "CBC News",
-            "publishedAt": "2026-10-17T13:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "Oil Prices Are Back Above $100. History Says the Biggest Stock Market Loser May Now Offer the Biggest Upside",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-17T12:53:01Z",
-            "sentiment": "Negative",
-            "compound": -0.527
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 46.78,
-  "trade_probability": 48.07,
+  "confirmation_score": 46.61,
+  "trade_probability": 47.97,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
