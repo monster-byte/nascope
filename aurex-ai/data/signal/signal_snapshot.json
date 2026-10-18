@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T03:31:08.298717+00:00",
+  "generated_at": "2026-10-18T03:45:52.365593+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.1858,
+          "change_pct": -1.1904,
           "up": false
         },
         "AMZN": {
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 41.89,
+      "score": 42.55,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.162,
+        "avg_compound": -0.149,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "‘Most ridiculous IPO of 2026’: the bear case on the Anthropic IPO valuation",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-17T03:35:42Z",
+            "sentiment": "Negative",
+            "compound": -0.361
+          },
+          {
+            "title": "Canada Stock Market (TSX) Today (October 16): Why is the Canadian Stock Market Up Today? S&P/TSX Composite Hits Six-Week High at 36,390 as Mining Stocks Rally",
+            "source": "The Sunday Guardian",
+            "publishedAt": "2026-10-17T03:34:45Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "'Two bad options': Hundreds protest in Bangkok, decrying IMF austerity demand",
             "source": "CNA",
@@ -118,20 +132,6 @@
             "publishedAt": "2026-10-17T03:05:51Z",
             "sentiment": "Negative",
             "compound": -0.612
-          },
-          {
-            "title": "DA hike after Dussehra: Will central government employees get good news in October? - What we know so far",
-            "source": "Livemint",
-            "publishedAt": "2026-10-17T03:03:27Z",
-            "sentiment": "Positive",
-            "compound": 0.44
-          },
-          {
-            "title": "Ballard Announces Q3 2026 Results Conference Call",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-17T02:52:02Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 45.79,
-  "trade_probability": 47.47,
+  "confirmation_score": 45.85,
+  "trade_probability": 47.51,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
