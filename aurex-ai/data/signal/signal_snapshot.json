@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T01:01:16.692259+00:00",
+  "generated_at": "2026-10-18T01:15:48.623071+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 36.24,
+      "score": 34.29,
       "status": "red",
       "details": {
         "overall_sentiment": "BEARISH",
-        "avg_compound": -0.275,
+        "avg_compound": -0.314,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "EU Long-Term Budget Crunch: What To Watch For At The EU Leaders’ Summit On 15-16 October",
+            "source": "CleanTechnica",
+            "publishedAt": "2026-10-17T01:14:49Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Tech stocks tumble as AI debt fears rattle Wall Street - CBS News",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-10-17T01:12:35Z",
+            "sentiment": "Negative",
+            "compound": -0.649
+          },
+          {
+            "title": "Tech stocks tumble as AI debt fears rattle Wall Street",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-17T01:04:40Z",
+            "sentiment": "Negative",
+            "compound": -0.649
+          },
           {
             "title": "Nasdaq slides 2% Friday to post worst week since June, pressured by AI sell-off and oil prices: Live updates - CNBC",
             "source": "Slashdot.org",
@@ -111,27 +132,6 @@
             "publishedAt": "2026-10-17T00:37:01Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Breitbart Business Digest: Inflation Takes Flight, and AI Debt Hits Turbulence",
-            "source": "Breitbart News",
-            "publishedAt": "2026-10-17T00:28:13Z",
-            "sentiment": "Negative",
-            "compound": -0.361
-          },
-          {
-            "title": "Trump voters hit with ‘pretty striking’ reality check in damning new poll: analyst",
-            "source": "Raw Story",
-            "publishedAt": "2026-10-17T00:06:12Z",
-            "sentiment": "Negative",
-            "compound": -0.34
-          },
-          {
-            "title": "Franco-German Car Deal A ‘Historic Mistake’ That Weakens Climate Ambition And Europe’s Car Industry",
-            "source": "CleanTechnica",
-            "publishedAt": "2026-10-17T00:06:06Z",
-            "sentiment": "Negative",
-            "compound": -0.318
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 45.28,
-  "trade_probability": 47.17,
+  "confirmation_score": 45.1,
+  "trade_probability": 47.06,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
