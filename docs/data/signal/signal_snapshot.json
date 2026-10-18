@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T09:31:10.130040+00:00",
+  "generated_at": "2026-10-18T09:45:48.939354+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.1904,
+          "change_pct": -1.1858,
           "up": false
         },
         "AMZN": {
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.25,
+      "score": 44.49,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.075,
+        "avg_compound": -0.11,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "It Was Elon Musk All Along",
+            "source": "Slate Magazine",
+            "publishedAt": "2026-10-17T09:45:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "IMF urges support for poorer nations facing high inflation, war spillovers",
+            "source": "Al Jazeera English",
+            "publishedAt": "2026-10-17T09:31:47Z",
+            "sentiment": "Negative",
+            "compound": -0.572
+          },
           {
             "title": "The stock market's record-high margin debt is keeping Wall Street pros up at night",
             "source": "Business Insider",
@@ -118,20 +132,6 @@
             "publishedAt": "2026-10-17T09:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Here’s how a stock market crash could help you retire years early",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-17T08:51:41Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "In 2008, The “Walmart Recession Signal” Neared A Record As The Market Collapsed. One Economist Says It Is Starting To Rise Again",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-17T08:36:51Z",
-            "sentiment": "Negative",
-            "compound": -0.599
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 46.18,
-  "trade_probability": 47.71,
+  "confirmation_score": 46.02,
+  "trade_probability": 47.61,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
