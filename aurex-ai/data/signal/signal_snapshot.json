@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T09:15:53.511013+00:00",
+  "generated_at": "2026-10-18T09:31:10.130040+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.67,
+      "score": 46.25,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.047,
+        "avg_compound": -0.075,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "The stock market's record-high margin debt is keeping Wall Street pros up at night",
+            "source": "Business Insider",
+            "publishedAt": "2026-10-17T09:30:01Z",
+            "sentiment": "Negative",
+            "compound": -0.361
+          },
           {
             "title": "US tariff waiver on Russian crude a comforting relief, but trade uncertainties persist: CareEdge Chief Economist Rajani Sinha",
             "source": "The Times of India",
@@ -125,13 +132,6 @@
             "publishedAt": "2026-10-17T08:36:51Z",
             "sentiment": "Negative",
             "compound": -0.599
-          },
-          {
-            "title": "Risk Assets Seen Regaining: Morgan Stanley backs global stocks over bonds; oil shock flagged as risk",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-17T08:34:44Z",
-            "sentiment": "Negative",
-            "compound": -0.649
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 46.31,
-  "trade_probability": 47.79,
+  "confirmation_score": 46.18,
+  "trade_probability": 47.71,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
