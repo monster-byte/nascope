@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T15:01:20.913624+00:00",
+  "generated_at": "2026-10-18T15:15:56.761705+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.1904,
+          "change_pct": -1.1858,
           "up": false
         },
         "AMZN": {
@@ -84,19 +84,40 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.22,
+      "score": 50.75,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.016,
+        "avg_compound": 0.015,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Bolivia’s Energy Crisis Deepens as Natural Gas Reserves Run Dry",
-            "source": "OilPrice.com",
-            "publishedAt": "2026-10-17T15:00:00Z",
+            "title": "Health budget no longer based on evidence, consultants’ conference told",
+            "source": "The Irish Times",
+            "publishedAt": "2026-10-17T15:13:16Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "Here's How Microsoft's $175 Billion in Capital Expenditures Is Hurting Its Business",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-17T15:09:06Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
+          {
+            "title": "Stock Is Down 25% Year to Date. History Says Patient Investors Get Rewarded",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-17T15:09:04Z",
+            "sentiment": "Positive",
+            "compound": 0.494
+          },
+          {
+            "title": "Elizabeth Holmes Documentary Smashes 14-Year Box Office Record",
+            "source": "Screen Rant",
+            "publishedAt": "2026-10-17T15:05:40Z",
             "sentiment": "Neutral",
-            "compound": -0.128
+            "compound": 0.0
           },
           {
             "title": "As Nvidia's RTX 5090 seemingly disappears, I'm worried about GeForce GPUs",
@@ -106,32 +127,11 @@
             "compound": -0.557
           },
           {
-            "title": "Bending Spoons wants to revive software castoffs. Berkshire is backing the plan",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-17T14:53:41Z",
-            "sentiment": "Positive",
-            "compound": 0.361
-          },
-          {
-            "title": "Macklem expects higher inflation outlook as oil prices remain elevated",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-17T14:53:22Z",
+            "title": "Bolivia’s Energy Crisis Deepens as Natural Gas Reserves Run Dry",
+            "source": "OilPrice.com",
+            "publishedAt": "2026-10-17T15:00:00Z",
             "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Trump traveling to Kentucky to rally supporters ahead of midterms",
-            "source": "New York Post",
-            "publishedAt": "2026-10-17T14:51:09Z",
-            "sentiment": "Positive",
-            "compound": 0.44
-          },
-          {
-            "title": "Iran’s Guards Say Two Tankers Hit Mines In Strait Of Hormuz",
-            "source": "gcaptain.com",
-            "publishedAt": "2026-10-17T14:44:46Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": -0.128
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 46.45,
-  "trade_probability": 47.87,
+  "confirmation_score": 46.58,
+  "trade_probability": 47.95,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
