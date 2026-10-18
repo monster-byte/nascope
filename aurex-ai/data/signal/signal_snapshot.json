@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T14:15:53.545021+00:00",
+  "generated_at": "2026-10-18T14:31:07.404981+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.1904,
+          "change_pct": -1.1858,
           "up": false
         },
         "AMZN": {
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.5,
+      "score": 50.85,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.03,
+        "avg_compound": 0.017,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Apple's New Home Collection Gives Investors Another Reason to Remain Bullish",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-17T14:23:18Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "The Iran war has cost the average U.S. household the equivalent of almost $2,000, and the energy portion goes up $50 a week, top economist says",
+            "source": "Fortune",
+            "publishedAt": "2026-10-17T14:22:26Z",
+            "sentiment": "Negative",
+            "compound": -0.25
+          },
           {
             "title": "Buildings burn and tear gas thrown during French education and cost of living rallies",
             "source": "ABC News (AU)",
@@ -118,20 +132,6 @@
             "publishedAt": "2026-10-17T13:53:17Z",
             "sentiment": "Positive",
             "compound": 0.599
-          },
-          {
-            "title": "Investors are buying up vast tracts of timberland across U.S. in one of market's longest-term bets",
-            "source": "CNBC",
-            "publishedAt": "2026-10-17T13:47:59Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "'Worst I've seen': Texas Farm Bureau chief sounds alarm on Trump economy as farmers revolt",
-            "source": "Raw Story",
-            "publishedAt": "2026-10-17T13:42:04Z",
-            "sentiment": "Negative",
-            "compound": -0.758
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 46.65,
-  "trade_probability": 47.99,
+  "confirmation_score": 46.59,
+  "trade_probability": 47.95,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
