@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T02:15:59.964392+00:00",
+  "generated_at": "2026-10-18T02:31:06.290139+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.1904,
+          "change_pct": -1.1858,
           "up": false
         },
         "AMZN": {
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 35.96,
+      "score": 36.6,
       "status": "red",
       "details": {
         "overall_sentiment": "BEARISH",
-        "avg_compound": -0.281,
+        "avg_compound": -0.268,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Wall Street tumbles as worries about AI trade and high oil prices weigh",
+            "source": "Moneycontrol",
+            "publishedAt": "2026-10-17T02:30:58Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
+          {
+            "title": "Ballard Announces Q3 2026 Results Conference Call",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-17T02:30:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "How major US stock indexes fared Friday 10/16/2026",
+            "source": "Abcnews.com",
+            "publishedAt": "2026-10-17T02:21:07Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Americans say they're broke. So why can't they stop spending so much?",
             "source": "Freerepublic.com",
@@ -111,27 +132,6 @@
             "publishedAt": "2026-10-17T02:00:33Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Ensign Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against The Ensign Group, Inc. - ENSG",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-17T02:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.34
-          },
-          {
-            "title": "Beta Bionics Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against Beta Bionics, Inc. - BBNX",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-17T02:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.34
-          },
-          {
-            "title": "Honeywell Aerospace Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against Honeywell Aerospace, Inc. - HONA",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-17T02:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.34
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 45.25,
-  "trade_probability": 47.15,
+  "confirmation_score": 45.31,
+  "trade_probability": 47.19,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
