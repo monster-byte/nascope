@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T09:01:20.881076+00:00",
+  "generated_at": "2026-10-18T09:15:53.511013+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.1858,
+          "change_pct": -1.1904,
           "up": false
         },
         "AMZN": {
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.41,
+      "score": 47.67,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.032,
+        "avg_compound": -0.047,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "US tariff waiver on Russian crude a comforting relief, but trade uncertainties persist: CareEdge Chief Economist Rajani Sinha",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-17T09:14:06Z",
+            "sentiment": "Negative",
+            "compound": -0.372
+          },
+          {
+            "title": "Vanguard economist says sticky inflation will test your patience",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-17T09:06:48Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Weddings are expensive. How about a grocery store cake?",
             "source": "NPR",
@@ -118,20 +132,6 @@
             "publishedAt": "2026-10-17T08:34:44Z",
             "sentiment": "Negative",
             "compound": -0.649
-          },
-          {
-            "title": "Lagarde says euro-area economy is resilient, digital euro imminent",
-            "source": "Cointelegraph",
-            "publishedAt": "2026-10-17T08:32:11Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "France braces for nationwide protests",
-            "source": "DW (English)",
-            "publishedAt": "2026-10-17T08:02:00Z",
-            "sentiment": "Negative",
-            "compound": -0.226
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 46.37,
-  "trade_probability": 47.82,
+  "confirmation_score": 46.31,
+  "trade_probability": 47.79,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
