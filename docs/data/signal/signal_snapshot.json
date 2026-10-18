@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T23:15:52.516530+00:00",
+  "generated_at": "2026-10-18T23:31:08.223545+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.1904,
+          "change_pct": -1.1858,
           "up": false
         },
         "AMZN": {
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.16,
+      "score": 55.4,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.92,
-        "change_5d_pct": -0.644
+        "current_dxy": 101.89,
+        "change_5d_pct": -0.675
       }
     },
     "macro": {
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.45,
+      "score": 48.86,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.009,
+        "avg_compound": -0.023,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Farmers blame high transport costs for rising food prices",
+            "source": "The Punch",
+            "publishedAt": "2026-10-17T23:25:25Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
           {
             "title": "James Cameron Finally Congratulates Endgame’s Box Office Victory With Awesome Marvel & Navi Crossover Art",
             "source": "ComicBook.com",
@@ -125,13 +132,6 @@
             "publishedAt": "2026-10-17T22:00:00Z",
             "sentiment": "Positive",
             "compound": 0.44
-          },
-          {
-            "title": "Costco Will Pay a $1.47 Dividend on Nov. 13 -- Here's Whether It Makes More Sense to Use a Dividend Reinvestment Program or Keep the Income",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-17T21:41:46Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 46.76,
-  "trade_probability": 48.06,
+  "confirmation_score": 46.64,
+  "trade_probability": 47.98,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
