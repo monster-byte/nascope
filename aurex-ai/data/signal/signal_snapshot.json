@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T20:01:21.755287+00:00",
+  "generated_at": "2026-10-18T20:15:45.855537+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.1858,
+          "change_pct": -1.1904,
           "up": false
         },
         "AMZN": {
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.05,
+      "score": 46.53,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.079,
+        "avg_compound": -0.069,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Leaders weigh ‘huge benefit’, risks of AI for global economy",
+            "source": "Digital Journal",
+            "publishedAt": "2026-10-17T20:03:12Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
           {
             "title": "Is Micron's Incredible Run About to End?",
             "source": "Biztoc.com",
@@ -125,13 +132,6 @@
             "publishedAt": "2026-10-17T19:25:34Z",
             "sentiment": "Positive",
             "compound": 0.511
-          },
-          {
-            "title": "Four Lots of Edwards Mitral Valve Delivery Systems Pulled After Balloon Bursts Linked to One Patient Death",
-            "source": "Medical Daily",
-            "publishedAt": "2026-10-17T19:10:41Z",
-            "sentiment": "Negative",
-            "compound": -0.599
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 46.16,
-  "trade_probability": 47.7,
+  "confirmation_score": 46.21,
+  "trade_probability": 47.73,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
