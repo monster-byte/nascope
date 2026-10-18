@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T22:15:51.634729+00:00",
+  "generated_at": "2026-10-18T22:31:05.960100+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.1904,
+          "change_pct": -1.1858,
           "up": false
         },
         "AMZN": {
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.48,
+      "score": 55.98,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.88,
-        "change_5d_pct": -0.685
+        "current_dxy": 101.81,
+        "change_5d_pct": -0.748
       }
     },
     "macro": {
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.9,
+      "score": 47.54,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.042,
+        "avg_compound": -0.049,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "'Vote of no-confidence' as traders place £7bn bet against the pound ahead of John Healey's first Budget",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-10-17T22:25:56Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Long-Term Treasury Yields Buffeted by Hot Inflation and Cracks in AI Mania",
             "source": "Biztoc.com",
@@ -125,13 +132,6 @@
             "publishedAt": "2026-10-17T21:29:00Z",
             "sentiment": "Neutral",
             "compound": -0.178
-          },
-          {
-            "title": "Is Expensive Gasoline Making You Reconsider Electric Vehicles Yet?",
-            "source": "Jalopnik",
-            "publishedAt": "2026-10-17T20:45:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -145,7 +145,7 @@
       }
     }
   },
-  "confirmation_score": 46.56,
+  "confirmation_score": 46.57,
   "trade_probability": 47.94,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
