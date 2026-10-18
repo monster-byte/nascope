@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T00:01:21.777492+00:00",
+  "generated_at": "2026-10-18T00:15:47.981159+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.1858,
+          "change_pct": -1.1904,
           "up": false
         },
         "AMZN": {
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 37.98,
+      "score": 37.56,
       "status": "red",
       "details": {
         "overall_sentiment": "BEARISH",
-        "avg_compound": -0.24,
+        "avg_compound": -0.249,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Trump voters hit with ‘pretty striking’ reality check in damning new poll: analyst",
+            "source": "Raw Story",
+            "publishedAt": "2026-10-17T00:06:12Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
+          {
+            "title": "Franco-German Car Deal A ‘Historic Mistake’ That Weakens Climate Ambition And Europe’s Car Industry",
+            "source": "CleanTechnica",
+            "publishedAt": "2026-10-17T00:06:06Z",
+            "sentiment": "Negative",
+            "compound": -0.318
+          },
           {
             "title": "The midterm convention didn’t sink the GOP. Republicans did.",
             "source": "Dailykos.com",
@@ -118,20 +132,6 @@
             "publishedAt": "2026-10-16T23:54:27Z",
             "sentiment": "Negative",
             "compound": -0.421
-          },
-          {
-            "title": "Prediction: Alphabet Will Be a Larger Company Than Apple by the End of 2027",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-16T23:50:19Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "New York City pension fund asks Anthropic to delay IPO",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-16T23:49:00Z",
-            "sentiment": "Negative",
-            "compound": -0.318
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 45.44,
-  "trade_probability": 47.26,
+  "confirmation_score": 45.4,
+  "trade_probability": 47.24,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
