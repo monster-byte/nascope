@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T01:15:48.623071+00:00",
+  "generated_at": "2026-10-18T01:31:06.666949+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.1858,
+          "change_pct": -1.1904,
           "up": false
         },
         "AMZN": {
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 34.29,
+      "score": 34.07,
       "status": "red",
       "details": {
         "overall_sentiment": "BEARISH",
-        "avg_compound": -0.314,
+        "avg_compound": -0.319,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "How the Iran Conflict Opened a New Threat to the Global Monetary System",
+            "source": "Activistpost.com",
+            "publishedAt": "2026-10-17T01:29:00Z",
+            "sentiment": "Negative",
+            "compound": -0.691
+          },
           {
             "title": "EU Long-Term Budget Crunch: What To Watch For At The EU Leaders’ Summit On 15-16 October",
             "source": "CleanTechnica",
@@ -125,13 +132,6 @@
             "publishedAt": "2026-10-17T00:49:04Z",
             "sentiment": "Negative",
             "compound": -0.572
-          },
-          {
-            "title": "Apple TV Cost $69 in 2015",
-            "source": "MacRumors",
-            "publishedAt": "2026-10-17T00:37:01Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 45.1,
-  "trade_probability": 47.06,
+  "confirmation_score": 45.08,
+  "trade_probability": 47.05,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
