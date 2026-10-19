@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T02:31:21.161082+00:00",
+  "generated_at": "2026-10-19T02:45:50.511975+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 56.04,
+      "score": 55.91,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.81,
-        "change_5d_pct": -0.755
+        "current_dxy": 101.82,
+        "change_5d_pct": -0.739
       }
     },
     "macro": {
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.15,
+      "score": 51.75,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.043,
+        "avg_compound": 0.035,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Amid whisky's global gloom Tasmania is still seizing 'amazing opportunities'",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-10-18T02:40:07Z",
+            "sentiment": "Positive",
+            "compound": 0.421
+          },
           {
             "title": "DA news: Assam, West Bengal, Telangana, Sikkim, Kerala — Check full list of states with dearness allowance hikes in 2026",
             "source": "Livemint",
@@ -125,13 +132,6 @@
             "publishedAt": "2026-10-18T01:39:58Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "35 Analysts Cover SpaceX. Here's Why Their Price Targets Have Almost Nothing to Do With Rockets",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-18T01:27:45Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 46.99,
-  "trade_probability": 48.19,
+  "confirmation_score": 46.95,
+  "trade_probability": 48.17,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
