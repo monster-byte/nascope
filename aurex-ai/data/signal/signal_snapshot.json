@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T12:31:09.598593+00:00",
+  "generated_at": "2026-10-19T12:45:52.674881+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -55,20 +55,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 72.27,
+      "score": 72.29,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.098,
-        "change_5d_pct": -2.784
+        "current_yield_pct": 5.094,
+        "change_5d_pct": -2.786
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.67,
+      "score": 55.04,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.85,
-        "change_5d_pct": -0.709
+        "current_dxy": 101.93,
+        "change_5d_pct": -0.63
       }
     },
     "macro": {
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.22,
+      "score": 50.31,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.004,
+        "avg_compound": 0.006,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Why the ugly history of IQ testing matters for AI and education",
+            "source": "The Conversation Africa",
+            "publishedAt": "2026-10-18T12:35:04Z",
+            "sentiment": "Negative",
+            "compound": -0.494
+          },
+          {
+            "title": "Social Security's COLA Tracks Working Households, Not Retirees. Here's How Much Bigger 2024's Raise Would Have Been",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-18T12:31:20Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Inflation is retreating from most of the store — why your biggest bills are the holdouts: Chart of the Day",
             "source": "Biztoc.com",
@@ -118,20 +132,6 @@
             "publishedAt": "2026-10-18T12:10:14Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Cathie Wood Bought More CRISPR Therapeutics Stock 2 Days in a Row. Here's What She Sees in the Biotech Stock",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-18T12:00:35Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "OE Says India May Raise Fuel Prices in November",
-            "source": "Rigzone",
-            "publishedAt": "2026-10-18T12:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 67.04,
-  "trade_probability": 60.22,
+  "confirmation_score": 66.99,
+  "trade_probability": 60.19,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
