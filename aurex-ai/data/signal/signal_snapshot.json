@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T19:45:58.322157+00:00",
+  "generated_at": "2026-10-19T20:01:26.326039+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.0102,
+          "change_pct": 0.1022,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.3863,
+          "change_pct": 1.2866,
           "up": true
         },
         "NVDA": {
-          "change_pct": 1.9044,
+          "change_pct": 1.5629,
           "up": true
         },
         "AMZN": {
-          "change_pct": 5.703,
+          "change_pct": 5.394,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29617.31,
-        "sma50": 29865.9,
-        "sma200": 27759.82
+        "last_price": 29529.34,
+        "sma50": 29864.14,
+        "sma200": 27759.38
       }
     },
     "vxn": {
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.65,
+      "score": 54.61,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.98,
-        "change_5d_pct": -0.581
+        "current_dxy": 101.99,
+        "change_5d_pct": -0.576
       }
     },
     "macro": {
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.57,
+      "score": 48.74,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.051,
+        "avg_compound": -0.025,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "CCB INVESTOR DEADLINE: Coastal Financial Corporation Investors with Substantial Losses May Seek to Lead Class Action Lawsuit - December 1, 2026 Deadline",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-18T20:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
+          {
+            "title": "Live: ASX set to edge lower as oil keeps rising after Wall St slides on AI anxiety",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-10-18T19:58:43Z",
+            "sentiment": "Negative",
+            "compound": -0.44
+          },
           {
             "title": "Don’t let fears of a big stock market decline derail your investments",
             "source": "Biztoc.com",
@@ -118,20 +132,6 @@
             "publishedAt": "2026-10-18T19:04:54Z",
             "sentiment": "Neutral",
             "compound": 0.153
-          },
-          {
-            "title": "Debuts Strongly But Fair Value Remains Hard To Pin Down",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-18T19:04:47Z",
-            "sentiment": "Positive",
-            "compound": 0.718
-          },
-          {
-            "title": "3 AI Infrastructure Stocks Retail Investors Are Watching In US Tech",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-18T19:04:28Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 66.29,
-  "trade_probability": 59.77,
+  "confirmation_score": 65.95,
+  "trade_probability": 59.57,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
