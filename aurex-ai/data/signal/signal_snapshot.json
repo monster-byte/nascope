@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T13:45:53.503433+00:00",
+  "generated_at": "2026-10-19T14:01:26.067423+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.3371,
+          "change_pct": 0.8289,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.8235,
+          "change_pct": 0.8937,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.812,
+          "change_pct": 0.7675,
           "up": true
         },
         "AMZN": {
-          "change_pct": 2.8175,
+          "change_pct": 3.1448,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29546.9,
-        "sma50": 29864.49,
-        "sma200": 27759.47
+        "last_price": 29489.69,
+        "sma50": 29863.34,
+        "sma200": 27759.18
       }
     },
     "vxn": {
@@ -55,20 +55,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 70.46,
+      "score": 69.54,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.106,
-        "change_5d_pct": -2.557
+        "current_yield_pct": 5.112,
+        "change_5d_pct": -2.443
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.53,
+      "score": 55.54,
       "status": "yellow",
       "details": {
         "current_dxy": 101.87,
-        "change_5d_pct": -0.691
+        "change_5d_pct": -0.692
       }
     },
     "macro": {
@@ -84,13 +84,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.38,
+      "score": 47.67,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.012,
+        "avg_compound": -0.047,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "‘Black Monday’ fears intensify as prediction markets shrug off 2026 crash",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-18T14:00:11Z",
+            "sentiment": "Negative",
+            "compound": -0.67
+          },
+          {
+            "title": "'Perfect storm': Alarm bells ring as new poll shows 'striking' GOP shift away from Trump",
+            "source": "Raw Story",
+            "publishedAt": "2026-10-18T13:48:23Z",
+            "sentiment": "Positive",
+            "compound": 0.318
+          },
+          {
+            "title": "Moderna Just Joined the Nasdaq-100. Here's What That Means for Investors",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-18T13:46:44Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Michael Burry Warns Stock Market Could Be Months Away From A 2000-Style Reckoning — ‘The Preconditions Seem Set For Fireworks’",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-18T13:46:19Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
           {
             "title": "America Has More Middle-Aged Millionaires",
             "source": "Newser",
@@ -104,34 +132,6 @@
             "publishedAt": "2026-10-18T13:29:00Z",
             "sentiment": "Negative",
             "compound": -0.309
-          },
-          {
-            "title": "3 Australian Dividend Stocks With Over 4% Yield",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-18T13:15:05Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Gold and silver head for volatile week amid crude oil spike, West Asia worries",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-18T13:13:00Z",
-            "sentiment": "Negative",
-            "compound": -0.758
-          },
-          {
-            "title": "Boomers are buying into the promise of monthly income from options ETFs, but there's a tax catch",
-            "source": "CNBC",
-            "publishedAt": "2026-10-18T13:10:33Z",
-            "sentiment": "Neutral",
-            "compound": 0.166
-          },
-          {
-            "title": "The nine key races that will decide who controls the Senate, and where they stand",
-            "source": "Fox News",
-            "publishedAt": "2026-10-18T13:00:37Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 66.7,
-  "trade_probability": 60.02,
+  "confirmation_score": 66.43,
+  "trade_probability": 59.86,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
