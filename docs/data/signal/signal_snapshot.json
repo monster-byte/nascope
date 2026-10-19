@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T08:45:53.386596+00:00",
+  "generated_at": "2026-10-19T09:01:22.845633+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.99,
+      "score": 55.37,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.94,
-        "change_5d_pct": -0.624
+        "current_dxy": 101.89,
+        "change_5d_pct": -0.671
       }
     },
     "macro": {
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.29,
+      "score": 46.37,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.094,
-        "articles_analyzed": 21,
+        "avg_compound": -0.073,
+        "articles_analyzed": 22,
         "top_headlines": [
+          {
+            "title": "Innovation Accounts should do for the potential AI job wipeout what Trump Accounts did for children",
+            "source": "Fortune",
+            "publishedAt": "2026-10-18T09:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "The AI bubble is about to burst — and a big market correction is coming",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-18T08:58:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Justin Sun sells most of his ETH and moves into US stocks",
             "source": "Crypto Briefing",
@@ -118,20 +132,6 @@
             "publishedAt": "2026-10-18T08:26:20Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Markets focus on rate decision as economists see 100 bps cut",
-            "source": "Hurriyet Daily News",
-            "publishedAt": "2026-10-18T08:16:48Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "FMCG firms face input cost inflation in Q2, brace for H2 margin pressure",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-18T08:11:15Z",
-            "sentiment": "Negative",
-            "compound": -0.296
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 66.53,
-  "trade_probability": 59.92,
+  "confirmation_score": 66.66,
+  "trade_probability": 60.0,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
