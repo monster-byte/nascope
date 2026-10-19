@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T18:31:09.782243+00:00",
+  "generated_at": "2026-10-19T18:45:56.577343+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.3634,
+          "change_pct": 0.0963,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.3366,
+          "change_pct": 1.4442,
           "up": true
         },
         "NVDA": {
-          "change_pct": 1.5303,
+          "change_pct": 1.7523,
           "up": true
         },
         "AMZN": {
-          "change_pct": 5.1892,
+          "change_pct": 5.3739,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29533.35,
-        "sma50": 29864.22,
-        "sma200": 27759.4
+        "last_price": 29590.12,
+        "sma50": 29865.35,
+        "sma200": 27759.68
       }
     },
     "vxn": {
@@ -55,20 +55,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 65.27,
+      "score": 65.57,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.14,
-        "change_5d_pct": -1.908
+        "current_yield_pct": 5.138,
+        "change_5d_pct": -1.947
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.77,
+      "score": 54.65,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.97,
-        "change_5d_pct": -0.597
+        "current_dxy": 101.98,
+        "change_5d_pct": -0.581
       }
     },
     "macro": {
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.04,
+      "score": 50.82,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.001,
+        "avg_compound": 0.016,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Spooky Inflation Rates | Musk’s GOP Millions",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-18T18:43:06Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Pimco Sees A 6% 10-Year... Here's Why \"Bad Inflation\" Caps Yields",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-18T18:31:49Z",
+            "sentiment": "Negative",
+            "compound": -0.542
+          },
           {
             "title": "Elizabeth Holmes movie ‘You Can See Everything’ now a hit in theaters too",
             "source": "Abcnews.com",
@@ -118,20 +132,6 @@
             "publishedAt": "2026-10-18T18:02:30Z",
             "sentiment": "Negative",
             "compound": -0.501
-          },
-          {
-            "title": "She Bought Vanguard’s Bond ETF for Its 4.27% Tax-Free Yield but Could Owe More Tax on Her Social Security",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-18T18:01:39Z",
-            "sentiment": "Positive",
-            "compound": 0.477
-          },
-          {
-            "title": "Man Picks Up Butter At Walmart. By The Time He Walks To Self-Checkout, He Says It Went Up In Price. Then The Worker Tells Him Something Shocking",
-            "source": "BroBible",
-            "publishedAt": "2026-10-18T18:00:33Z",
-            "sentiment": "Negative",
-            "compound": -0.402
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 65.99,
-  "trade_probability": 59.59,
+  "confirmation_score": 66.09,
+  "trade_probability": 59.65,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
