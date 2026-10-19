@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T17:31:18.172869+00:00",
+  "generated_at": "2026-10-19T17:45:53.366609+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.0584,
+          "change_pct": -0.038,
           "up": false
         },
         "MSFT": {
-          "change_pct": 1.2809,
+          "change_pct": 1.3379,
           "up": true
         },
         "NVDA": {
-          "change_pct": 1.8763,
+          "change_pct": 1.6494,
           "up": true
         },
         "AMZN": {
-          "change_pct": 5.4583,
+          "change_pct": 5.3659,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29586.35,
-        "sma50": 29865.28,
-        "sma200": 27759.66
+        "last_price": 29566.04,
+        "sma50": 29864.87,
+        "sma200": 27759.56
       }
     },
     "vxn": {
@@ -55,20 +55,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 64.35,
+      "score": 64.66,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.146,
-        "change_5d_pct": -1.794
+        "current_yield_pct": 5.144,
+        "change_5d_pct": -1.832
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.62,
+      "score": 54.69,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.99,
-        "change_5d_pct": -0.577
+        "current_dxy": 101.98,
+        "change_5d_pct": -0.586
       }
     },
     "macro": {
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.55,
+      "score": 49.98,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.029,
+        "avg_compound": -0.0,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Gilead Sciences Is on an FDA Approval Hot Streak. Should You Buy the Stock Like There's No Tomorrow?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-18T17:33:30Z",
+            "sentiment": "Positive",
+            "compound": 0.527
+          },
+          {
+            "title": "'Just another scare': Wall Street sees the AI trade strong despite tech's latest rout - Yahoo Finance",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-10-18T17:33:20Z",
+            "sentiment": "Neutral",
+            "compound": 0.026
+          },
+          {
+            "title": "‘Like we had a war’: France counts cost of violent protests",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-10-18T17:31:19Z",
+            "sentiment": "Negative",
+            "compound": -0.7
+          },
           {
             "title": "Rosen Law Firm Encourages J.B. Hunt Transport Services, Inc. Investors to Inquire About Securities Class Action Investigation - JBHT",
             "source": "PRNewswire",
@@ -111,27 +132,6 @@
             "publishedAt": "2026-10-18T16:59:27Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "GOP Operatives 'Taken Aback' As Rural Voters Blame Billionaires for Economic Woes: Report",
-            "source": "Common Dreams",
-            "publishedAt": "2026-10-18T16:48:16Z",
-            "sentiment": "Negative",
-            "compound": -0.649
-          },
-          {
-            "title": "'Just another scare': Wall Street sees the AI trade strong despite tech's latest rout",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-18T16:48:12Z",
-            "sentiment": "Neutral",
-            "compound": 0.026
-          },
-          {
-            "title": "Dow Jones Futures Loom After S&P 500, Nasdaq Sell-Off; Will Meta Save AI?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-18T16:46:24Z",
-            "sentiment": "Positive",
-            "compound": 0.318
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 58.97,
-  "trade_probability": 55.38,
+  "confirmation_score": 59.15,
+  "trade_probability": 55.49,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
