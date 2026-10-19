@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T10:15:52.299009+00:00",
+  "generated_at": "2026-10-19T10:31:07.870429+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.1781,
+          "change_pct": 0.1827,
           "up": true
         },
         "AMZN": {
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.89,
+      "score": 54.98,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.95,
-        "change_5d_pct": -0.611
+        "current_dxy": 101.94,
+        "change_5d_pct": -0.623
       }
     },
     "macro": {
@@ -84,13 +84,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.61,
+      "score": 50.25,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.032,
-        "articles_analyzed": 21,
+        "avg_compound": 0.005,
+        "articles_analyzed": 22,
         "top_headlines": [
+          {
+            "title": "The Indian economy has displayed growth resilience—but fault lines have grown too that can’t be papered over",
+            "source": "Livemint",
+            "publishedAt": "2026-10-18T10:30:54Z",
+            "sentiment": "Neutral",
+            "compound": -0.026
+          },
+          {
+            "title": "Can Alphabet Stock Double By 2030?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-18T10:30:05Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "France counts cost of violent protests, 1,800 arrested",
+            "source": "Hurriyet Daily News",
+            "publishedAt": "2026-10-18T10:19:38Z",
+            "sentiment": "Negative",
+            "compound": -0.836
+          },
+          {
+            "title": "10 million Americans are using advance loan apps to get their paychecks in advance—and it’s costing them hundreds of dollars more, report finds",
+            "source": "Fortune",
+            "publishedAt": "2026-10-18T10:18:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Retirees over 55 need this 3-bucket strategy to protect their wealth before the next predicted market crash",
             "source": "Biztoc.com",
@@ -104,34 +132,6 @@
             "publishedAt": "2026-10-18T10:15:05Z",
             "sentiment": "Positive",
             "compound": 0.637
-          },
-          {
-            "title": "Michael Burry Warns of a Stock Market ‘Supervolcano’",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-18T10:14:46Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
-          },
-          {
-            "title": "Look Who's Using D2C Satellite Phones Now!",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-18T10:14:42Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Top 3 Dividend Stocks To Watch In October 2026",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-18T10:14:25Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "IMF outlook: The global economy may not be doing as badly as feared but it’s laden with major risks",
-            "source": "Livemint",
-            "publishedAt": "2026-10-18T10:00:14Z",
-            "sentiment": "Negative",
-            "compound": -0.738
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 67.09,
-  "trade_probability": 60.25,
+  "confirmation_score": 66.98,
+  "trade_probability": 60.19,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
