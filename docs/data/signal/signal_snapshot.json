@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T20:15:53.136884+00:00",
+  "generated_at": "2026-10-19T20:31:06.973866+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.64,
+      "score": 54.57,
       "status": "yellow",
       "details": {
         "current_dxy": 101.99,
-        "change_5d_pct": -0.58
+        "change_5d_pct": -0.571
       }
     },
     "macro": {
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.47,
+      "score": 46.96,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.031,
+        "avg_compound": -0.061,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Con Edison bills will soon show how much of your cash goes to NYC property taxes",
+            "source": "New York Post",
+            "publishedAt": "2026-10-18T20:22:07Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Inflation is a remorseless eating machine",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-18T20:19:33Z",
+            "sentiment": "Negative",
+            "compound": -0.511
+          },
+          {
+            "title": "Black Monday Fears Grip Wall Street as Traders Lose $52 Million on AI Stock Bets",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-18T20:19:22Z",
+            "sentiment": "Negative",
+            "compound": -0.67
+          },
           {
             "title": "High oil prices fuel renewed inflation fears",
             "source": "Crikey",
@@ -111,27 +132,6 @@
             "publishedAt": "2026-10-18T20:00:00Z",
             "sentiment": "Negative",
             "compound": -0.421
-          },
-          {
-            "title": "Live: ASX set to edge lower as oil keeps rising after Wall St slides on AI anxiety",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-10-18T19:58:43Z",
-            "sentiment": "Negative",
-            "compound": -0.44
-          },
-          {
-            "title": "Don’t let fears of a big stock market decline derail your investments",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-18T19:32:34Z",
-            "sentiment": "Negative",
-            "compound": -0.612
-          },
-          {
-            "title": "Dad Is 71 and Wants to Sell Every Stock, Put His $1.1 Million in 10-Year Treasuries Now That the Yield Is Above 5% and Live on the Interest. Is It a Crazy Idea?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-18T19:32:27Z",
-            "sentiment": "Positive",
-            "compound": 0.361
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 65.92,
-  "trade_probability": 59.55,
+  "confirmation_score": 65.78,
+  "trade_probability": 59.47,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
