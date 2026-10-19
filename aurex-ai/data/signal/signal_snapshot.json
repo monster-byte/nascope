@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T08:15:52.385549+00:00",
+  "generated_at": "2026-10-19T08:31:08.705369+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.1827,
+          "change_pct": 0.1781,
           "up": true
         },
         "AMZN": {
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.36,
+      "score": 54.79,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.02,
-        "change_5d_pct": -0.545
+        "current_dxy": 101.97,
+        "change_5d_pct": -0.599
       }
     },
     "macro": {
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.08,
+      "score": 46.01,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.038,
-        "articles_analyzed": 24,
+        "avg_compound": -0.08,
+        "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "France rocked by nationwide clashes, blazes and looting",
+            "source": "RTE",
+            "publishedAt": "2026-10-18T08:26:20Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Markets focus on rate decision as economists see 100 bps cut",
+            "source": "Hurriyet Daily News",
+            "publishedAt": "2026-10-18T08:16:48Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
           {
             "title": "FMCG firms face input cost inflation in Q2, brace for H2 margin pressure",
             "source": "BusinessLine",
@@ -118,20 +132,6 @@
             "publishedAt": "2026-10-18T07:58:33Z",
             "sentiment": "Negative",
             "compound": -0.296
-          },
-          {
-            "title": "3 Canadian Dividend Stocks With At Least 3% Yield",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-18T07:58:07Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "2026 SkS Weekly Climate Change & Global Warming News Roundup #42",
-            "source": "Skepticalscience.com",
-            "publishedAt": "2026-10-18T07:38:06Z",
-            "sentiment": "Neutral",
-            "compound": 0.153
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 66.73,
-  "trade_probability": 60.04,
+  "confirmation_score": 66.58,
+  "trade_probability": 59.95,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
