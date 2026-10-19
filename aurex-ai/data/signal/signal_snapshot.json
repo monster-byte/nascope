@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T04:01:22.082677+00:00",
+  "generated_at": "2026-10-19T04:15:50.278136+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.9,
+      "score": 55.83,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.84,
-        "change_5d_pct": -0.362
+        "current_dxy": 101.83,
+        "change_5d_pct": -0.729
       }
     },
     "macro": {
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.49,
+      "score": 47.71,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.01,
+        "avg_compound": -0.046,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Iran’s Teachers Movement Perseveres against all Odds",
+            "source": "Juancole.com",
+            "publishedAt": "2026-10-18T04:04:44Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Dems lead GOP in House vote choice as Trump's approval rating hits record low: Poll",
+            "source": "Abcnews.com",
+            "publishedAt": "2026-10-18T04:03:29Z",
+            "sentiment": "Positive",
+            "compound": 0.25
+          },
+          {
+            "title": "JD Vance faces tough questions on Iran war, immigration and gas prices in town hall",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-10-18T04:01:21Z",
+            "sentiment": "Negative",
+            "compound": -0.66
+          },
           {
             "title": "Nestlé India raises ad and marketing spend 46% in Q2 FY27",
             "source": "Brandcommunion.com",
@@ -106,32 +127,11 @@
             "compound": -0.511
           },
           {
-            "title": "Obama goes to bat for Omar",
-            "source": "Americanthinker.com",
-            "publishedAt": "2026-10-18T04:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
             "title": "Obama and Slotkin: It’s never hypocrisy when Democrats do it",
             "source": "Americanthinker.com",
             "publishedAt": "2026-10-18T04:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "3 U.S. Energy Stocks Investors Are Watching As Oil And Gas Prices Stay High",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-18T03:57:51Z",
-            "sentiment": "Positive",
-            "compound": 0.273
-          },
-          {
-            "title": "8th Pay Commission: What is the difference between basic pay, grade pay and pay level? Expert explains",
-            "source": "Livemint",
-            "publishedAt": "2026-10-18T03:57:03Z",
-            "sentiment": "Negative",
-            "compound": -0.382
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 46.47,
-  "trade_probability": 47.88,
+  "confirmation_score": 46.58,
+  "trade_probability": 47.95,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
