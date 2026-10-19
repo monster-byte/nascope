@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T07:15:54.902655+00:00",
+  "generated_at": "2026-10-19T07:31:11.771618+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.1904,
+          "change_pct": -1.1858,
           "up": false
         },
         "AMZN": {
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.88,
+      "score": 55.05,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.83,
-        "change_5d_pct": -0.735
+        "current_dxy": 101.93,
+        "change_5d_pct": -0.631
       }
     },
     "macro": {
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.72,
+      "score": 46.98,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.026,
+        "avg_compound": -0.06,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Over 1,200 arrested as fires, looting and violent protests leave streets devastated across France",
+            "source": "TheJournal.ie",
+            "publishedAt": "2026-10-18T07:29:03Z",
+            "sentiment": "Negative",
+            "compound": -0.92
+          },
+          {
+            "title": "Market recap: Top-10 firms add Rs 3.65 lakh crore in mcap; TCS leads the gains",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-18T07:26:02Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
+          {
+            "title": "Earnings, crude oil, Jio IPO key monitorables for investors next week",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-18T07:25:37Z",
+            "sentiment": "Negative",
+            "compound": -0.572
+          },
           {
             "title": "IMF chief says has 'optimism' and 'worry' after Bangkok annual meetings",
             "source": "Hurriyet Daily News",
@@ -111,27 +132,6 @@
             "publishedAt": "2026-10-18T07:09:00Z",
             "sentiment": "Neutral",
             "compound": -0.064
-          },
-          {
-            "title": "India needs policy credibility and continuity to sustain FDI as strong growth alone is not enough, says KIEP expert",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-18T06:46:30Z",
-            "sentiment": "Positive",
-            "compound": 0.599
-          },
-          {
-            "title": "FPIs pull out Rs 52,100 cr from equities in Oct so far amid global headwinds",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-18T06:33:22Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Sandisk Is Dominating the S&P 500 in 2026. Can It Repeat in 2027?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-18T06:27:50Z",
-            "sentiment": "Negative",
-            "compound": -0.296
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 46.67,
-  "trade_probability": 48.0,
+  "confirmation_score": 46.44,
+  "trade_probability": 47.86,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
