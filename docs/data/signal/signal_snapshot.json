@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T09:01:22.845633+00:00",
+  "generated_at": "2026-10-19T09:15:54.104475+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.1827,
+          "change_pct": 0.1781,
           "up": true
         },
         "AMZN": {
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.37,
+      "score": 55.14,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.89,
-        "change_5d_pct": -0.671
+        "current_dxy": 101.92,
+        "change_5d_pct": -0.642
       }
     },
     "macro": {
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.37,
+      "score": 45.53,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.073,
-        "articles_analyzed": 22,
+        "avg_compound": -0.089,
+        "articles_analyzed": 21,
         "top_headlines": [
+          {
+            "title": "Here's the playbook for investors as new fears rattle the AI trade",
+            "source": "Business Insider",
+            "publishedAt": "2026-10-18T09:15:01Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
+          {
+            "title": "Innovation Accounts should do for the potential AI job wipeout what Trump Accounts did for children",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-18T09:13:27Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "3 Charts That Explain the Economy as Voters Head to the Polls",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-18T09:13:23Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Innovation Accounts should do for the potential AI job wipeout what Trump Accounts did for children",
             "source": "Fortune",
@@ -111,27 +132,6 @@
             "publishedAt": "2026-10-18T08:36:49Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Stock market outlook: Geopolitical cues, earnings, foreign inflows & more to keep Dalal Street busy",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-18T08:36:35Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "FMCGs grapple with cost inflation in Q2, brace for margin pressure in H2",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-18T08:31:57Z",
-            "sentiment": "Negative",
-            "compound": -0.296
-          },
-          {
-            "title": "France rocked by nationwide clashes, blazes and looting",
-            "source": "RTE",
-            "publishedAt": "2026-10-18T08:26:20Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 66.66,
-  "trade_probability": 60.0,
+  "confirmation_score": 66.57,
+  "trade_probability": 59.94,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
