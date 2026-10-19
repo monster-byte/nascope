@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T11:15:51.611959+00:00",
+  "generated_at": "2026-10-19T11:31:12.411750+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.1827,
+          "change_pct": 0.1781,
           "up": true
         },
         "AMZN": {
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.76,
+      "score": 55.96,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.84,
-        "change_5d_pct": -0.72
+        "current_dxy": 101.82,
+        "change_5d_pct": -0.745
       }
     },
     "macro": {
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.64,
+      "score": 50.67,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.027,
+        "avg_compound": 0.013,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "2026 Proxy Season Review: Compensation-Related Matters",
+            "source": "Harvard School of Engineering and Applied Sciences",
+            "publishedAt": "2026-10-18T11:30:31Z",
+            "sentiment": "Neutral",
+            "compound": 0.026
+          },
+          {
+            "title": "Top 3 British Growth Stocks To Watch In October 2026",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-18T11:29:40Z",
+            "sentiment": "Positive",
+            "compound": 0.527
+          },
           {
             "title": "Tuesday’s SEC Comment Deadline Closes the Last Public Window Before the GENIUS Act Compliance Stack Locks In",
             "source": "Forkast.news",
@@ -118,20 +132,6 @@
             "publishedAt": "2026-10-18T10:58:54Z",
             "sentiment": "Positive",
             "compound": 0.226
-          },
-          {
-            "title": "Links 10/18/2026",
-            "source": "Nakedcapitalism.com",
-            "publishedAt": "2026-10-18T10:55:43Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Katie Zacharia and the real problem with workers embellishing their credentials",
-            "source": "Business Insider",
-            "publishedAt": "2026-10-18T10:43:01Z",
-            "sentiment": "Negative",
-            "compound": -0.402
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 66.9,
-  "trade_probability": 60.14,
+  "confirmation_score": 67.1,
+  "trade_probability": 60.26,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
