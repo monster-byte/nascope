@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T05:15:53.717491+00:00",
+  "generated_at": "2026-10-19T05:31:06.777366+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.75,
+      "score": 55.9,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.84,
-        "change_5d_pct": -0.718
+        "current_dxy": 101.82,
+        "change_5d_pct": -0.737
       }
     },
     "macro": {
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.98,
+      "score": 45.87,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.08,
+        "avg_compound": -0.083,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "The game industry is broken – can we fix it?",
+            "source": "Edge-online.com",
+            "publishedAt": "2026-10-18T05:27:58Z",
+            "sentiment": "Negative",
+            "compound": -0.477
+          },
+          {
+            "title": "The Crypto devices built to foil hackers came with spies inside",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-18T05:22:59Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "AI trade reversal pierces Asia’s star picks-and-shovels stocks",
             "source": "Bloomberg",
@@ -118,20 +132,6 @@
             "publishedAt": "2026-10-18T04:54:12Z",
             "sentiment": "Negative",
             "compound": -0.382
-          },
-          {
-            "title": "Finances for disabled",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-18T04:40:55Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Which animal have sharp spines?",
-            "source": "Lifesciencesworld.com",
-            "publishedAt": "2026-10-18T04:19:07Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -145,7 +145,7 @@
       }
     }
   },
-  "confirmation_score": 46.41,
+  "confirmation_score": 46.42,
   "trade_probability": 47.85,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
