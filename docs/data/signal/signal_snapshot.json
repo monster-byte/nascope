@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T06:15:49.356271+00:00",
+  "generated_at": "2026-10-19T06:31:05.072531+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.61,
+      "score": 55.57,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.86,
-        "change_5d_pct": -0.701
+        "current_dxy": 101.87,
+        "change_5d_pct": -0.696
       }
     },
     "macro": {
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.65,
+      "score": 46.03,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.067,
+        "avg_compound": -0.079,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Sandisk Is Dominating the S&P 500 in 2026. Can It Repeat in 2027?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-18T06:27:50Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
           {
             "title": "Takeover of Ireland’s biggest landlord means rent hikes are likely on the cards",
             "source": "TheJournal.ie",
@@ -125,13 +132,6 @@
             "publishedAt": "2026-10-18T06:00:00Z",
             "sentiment": "Positive",
             "compound": 0.226
-          },
-          {
-            "title": "Data Centers, Aerospace, and Machined Parts: This Company's Earnings Just Made the Bull Case for U.S. Industrials",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-18T05:57:41Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 46.46,
-  "trade_probability": 47.88,
+  "confirmation_score": 46.4,
+  "trade_probability": 47.84,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
