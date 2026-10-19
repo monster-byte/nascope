@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T18:45:56.577343+00:00",
+  "generated_at": "2026-10-19T19:01:26.949210+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.0963,
+          "change_pct": 0.1751,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.4442,
+          "change_pct": 1.4195,
           "up": true
         },
         "NVDA": {
-          "change_pct": 1.7523,
+          "change_pct": 1.6845,
           "up": true
         },
         "AMZN": {
-          "change_pct": 5.3739,
+          "change_pct": 5.3359,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29590.12,
-        "sma50": 29865.35,
-        "sma200": 27759.68
+        "last_price": 29588.03,
+        "sma50": 29865.31,
+        "sma200": 27759.67
       }
     },
     "vxn": {
@@ -55,20 +55,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 65.57,
+      "score": 67.25,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.138,
-        "change_5d_pct": -1.947
+        "current_yield_pct": 5.127,
+        "change_5d_pct": -2.156
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.65,
+      "score": 54.76,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.98,
-        "change_5d_pct": -0.581
+        "current_dxy": 101.97,
+        "change_5d_pct": -0.595
       }
     },
     "macro": {
@@ -84,13 +84,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.82,
+      "score": 51.65,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.016,
+        "avg_compound": 0.033,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Sportradar Pitches Data Role in Prediction-Market Growth",
+            "source": "ReadWrite",
+            "publishedAt": "2026-10-18T19:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "Your Payments Got Faster. So Why Didn’t Your Finance Team?",
+            "source": "Entrepreneur",
+            "publishedAt": "2026-10-18T19:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Social Security's 3.6% raise may finally match inflation",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-18T18:48:19Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Eateries cut corners as high costs and hygiene crackdowns take a toll",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-18T18:47:35Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
           {
             "title": "Spooky Inflation Rates | Musk’s GOP Millions",
             "source": "Biztoc.com",
@@ -104,34 +132,6 @@
             "publishedAt": "2026-10-18T18:31:49Z",
             "sentiment": "Negative",
             "compound": -0.542
-          },
-          {
-            "title": "Elizabeth Holmes movie ‘You Can See Everything’ now a hit in theaters too",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-10-18T18:20:02Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Should You Buy Costco Stock Before Oct. 30? Here's the Clear Answer",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-18T18:18:38Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "Full transcript of \"Face the Nation with Margaret Brennan,\" Oct. 18, 2026",
-            "source": "CBS News",
-            "publishedAt": "2026-10-18T18:13:32Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "'This is So Appalling': Barack Obama Delivers Blistering Rebuke of Trump's Ilhan Omar Deportation Plot",
-            "source": "Common Dreams",
-            "publishedAt": "2026-10-18T18:02:30Z",
-            "sentiment": "Negative",
-            "compound": -0.501
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 66.09,
-  "trade_probability": 59.65,
+  "confirmation_score": 66.41,
+  "trade_probability": 59.85,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
