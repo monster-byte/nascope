@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T07:31:11.771618+00:00",
+  "generated_at": "2026-10-19T07:45:53.657733+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.05,
+      "score": 55.17,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.93,
-        "change_5d_pct": -0.631
+        "current_dxy": 101.92,
+        "change_5d_pct": -0.646
       }
     },
     "macro": {
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.98,
+      "score": 48.09,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.06,
+        "avg_compound": -0.038,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "2026 SkS Weekly Climate Change & Global Warming News Roundup #42",
+            "source": "Skepticalscience.com",
+            "publishedAt": "2026-10-18T07:38:06Z",
+            "sentiment": "Neutral",
+            "compound": 0.153
+          },
           {
             "title": "Over 1,200 arrested as fires, looting and violent protests leave streets devastated across France",
             "source": "TheJournal.ie",
@@ -125,13 +132,6 @@
             "publishedAt": "2026-10-18T07:13:32Z",
             "sentiment": "Negative",
             "compound": -0.318
-          },
-          {
-            "title": "Fuel prices dominate midterm election discussions, but spiking utility bills may be the difference maker",
-            "source": "Fortune",
-            "publishedAt": "2026-10-18T07:09:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.064
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 46.44,
-  "trade_probability": 47.86,
+  "confirmation_score": 46.55,
+  "trade_probability": 47.93,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
