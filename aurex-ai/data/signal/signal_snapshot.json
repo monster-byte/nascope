@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T13:31:15.039185+00:00",
+  "generated_at": "2026-10-19T13:45:53.503433+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
+      "score": 100.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.0379,
-          "up": false
+          "change_pct": 0.3371,
+          "up": true
         },
         "MSFT": {
-          "change_pct": 0.6707,
+          "change_pct": 0.8235,
           "up": true
         },
         "NVDA": {
-          "change_pct": 1.5909,
+          "change_pct": 0.812,
           "up": true
         },
         "AMZN": {
-          "change_pct": 2.695,
+          "change_pct": 2.8175,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29567.73,
-        "sma50": 29864.9,
-        "sma200": 27759.57
+        "last_price": 29546.9,
+        "sma50": 29864.49,
+        "sma200": 27759.47
       }
     },
     "vxn": {
@@ -55,20 +55,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 71.07,
+      "score": 70.46,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.102,
-        "change_5d_pct": -2.634
+        "current_yield_pct": 5.106,
+        "change_5d_pct": -2.557
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.82,
+      "score": 55.53,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.83,
-        "change_5d_pct": -0.727
+        "current_dxy": 101.87,
+        "change_5d_pct": -0.691
       }
     },
     "macro": {
@@ -91,6 +91,13 @@
         "avg_compound": -0.012,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "America Has More Middle-Aged Millionaires",
+            "source": "Newser",
+            "publishedAt": "2026-10-18T13:45:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Howard Marks is not convinced the AI boom is a bubble",
             "source": "Crypto Briefing",
@@ -125,13 +132,6 @@
             "publishedAt": "2026-10-18T13:00:37Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Trump waives new Russia tariffs as October 18 oil deadline arrives",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-10-18T13:00:30Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 60.06,
-  "trade_probability": 56.04,
+  "confirmation_score": 66.7,
+  "trade_probability": 60.02,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
