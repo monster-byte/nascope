@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T06:31:05.072531+00:00",
+  "generated_at": "2026-10-19T06:45:49.201282+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.57,
+      "score": 55.75,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.87,
-        "change_5d_pct": -0.696
+        "current_dxy": 101.84,
+        "change_5d_pct": -0.718
       }
     },
     "macro": {
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.03,
+      "score": 47.09,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.079,
+        "avg_compound": -0.058,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "FPIs pull out Rs 52,100 cr from equities in Oct so far amid global headwinds",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-18T06:33:22Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Sandisk Is Dominating the S&P 500 in 2026. Can It Repeat in 2027?",
             "source": "Biztoc.com",
@@ -125,13 +132,6 @@
             "publishedAt": "2026-10-18T06:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "AI Stock Selloff Accelerates as Investors Rotate to Treasury Bonds, Defensive Sectors",
-            "source": "Naturalnews.com",
-            "publishedAt": "2026-10-18T06:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.226
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 46.4,
-  "trade_probability": 47.84,
+  "confirmation_score": 46.51,
+  "trade_probability": 47.91,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
