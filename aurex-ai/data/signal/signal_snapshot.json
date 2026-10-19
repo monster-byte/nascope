@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T15:31:08.022866+00:00",
+  "generated_at": "2026-10-19T15:46:15.723782+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -21,15 +21,15 @@
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.5192,
+          "change_pct": 1.6131,
           "up": true
         },
         "NVDA": {
-          "change_pct": 2.2553,
+          "change_pct": 2.6061,
           "up": true
         },
         "AMZN": {
-          "change_pct": 5.4462,
+          "change_pct": 5.7242,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29754.46,
-        "sma50": 29868.64,
-        "sma200": 27760.5
+        "last_price": 29766.47,
+        "sma50": 29868.88,
+        "sma200": 27760.56
       }
     },
     "vxn": {
@@ -55,20 +55,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 67.25,
+      "score": 66.95,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.127,
-        "change_5d_pct": -2.156
+        "current_yield_pct": 5.129,
+        "change_5d_pct": -2.118
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.05,
+      "score": 55.06,
       "status": "yellow",
       "details": {
         "current_dxy": 101.93,
-        "change_5d_pct": -0.631
+        "change_5d_pct": -0.633
       }
     },
     "macro": {
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 43.53,
+      "score": 44.15,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.129,
+        "avg_compound": -0.117,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Here are the 3 big things we're watching in the stock market this week",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-18T15:45:52Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "LA super-commuter Angelique Khieu catches a flight to work across California",
+            "source": "New York Post",
+            "publishedAt": "2026-10-18T15:38:43Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "ASTS Deadline in 26 Days: AST SpaceMobile, Inc Class Action Lawsuit Seeks Recovery for Investors; November 13, 2026, Deadline - Contact Kessler Topaz Meltzer & Check, LLP",
             "source": "PRNewswire",
@@ -118,20 +132,6 @@
             "publishedAt": "2026-10-18T15:05:10Z",
             "sentiment": "Neutral",
             "compound": 0.026
-          },
-          {
-            "title": "A third of small business owners say they're being forced to work a second job to survive",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-10-18T15:04:22Z",
-            "sentiment": "Negative",
-            "compound": -0.459
-          },
-          {
-            "title": "France protests: How a viral TikTok rumour, 132 million views and the ‘Young Vests’ slogan revived memories of the 2018 Yellow Vests movement",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-18T15:01:38Z",
-            "sentiment": "Negative",
-            "compound": -0.226
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 65.7,
-  "trade_probability": 59.42,
+  "confirmation_score": 65.72,
+  "trade_probability": 59.43,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
