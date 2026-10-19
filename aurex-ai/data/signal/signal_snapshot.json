@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T18:01:28.032527+00:00",
+  "generated_at": "2026-10-19T18:15:54.933315+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
+      "score": 100.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.0,
-          "up": false
+          "change_pct": 0.2458,
+          "up": true
         },
         "MSFT": {
-          "change_pct": 1.3246,
+          "change_pct": 1.3436,
           "up": true
         },
         "NVDA": {
-          "change_pct": 1.7921,
+          "change_pct": 1.75,
           "up": true
         },
         "AMZN": {
-          "change_pct": 5.3579,
+          "change_pct": 5.3498,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29580.61,
-        "sma50": 29865.16,
-        "sma200": 27759.64
+        "last_price": 29579.47,
+        "sma50": 29865.14,
+        "sma200": 27759.63
       }
     },
     "vxn": {
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.94,
+      "score": 55.01,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.95,
-        "change_5d_pct": -0.617
+        "current_dxy": 101.94,
+        "change_5d_pct": -0.626
       }
     },
     "macro": {
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.19,
+      "score": 48.34,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.056,
+        "avg_compound": -0.033,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Full transcript of \"Face the Nation with Margaret Brennan,\" Oct. 18, 2026",
+            "source": "CBS News",
+            "publishedAt": "2026-10-18T18:13:32Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "'This is So Appalling': Barack Obama Delivers Blistering Rebuke of Trump's Ilhan Omar Deportation Plot",
+            "source": "Common Dreams",
+            "publishedAt": "2026-10-18T18:02:30Z",
+            "sentiment": "Negative",
+            "compound": -0.501
+          },
+          {
+            "title": "She Bought Vanguard’s Bond ETF for Its 4.27% Tax-Free Yield but Could Owe More Tax on Her Social Security",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-18T18:01:39Z",
+            "sentiment": "Positive",
+            "compound": 0.477
+          },
           {
             "title": "Man Picks Up Butter At Walmart. By The Time He Walks To Self-Checkout, He Says It Went Up In Price. Then The Worker Tells Him Something Shocking",
             "source": "BroBible",
@@ -111,27 +132,6 @@
             "publishedAt": "2026-10-18T18:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.077
-          },
-          {
-            "title": "Roy Wood Jr: Elon Musk's HUGE Donation to Republicans! & Botched Campaign Ads!",
-            "source": "Littlegreenfootballs.com",
-            "publishedAt": "2026-10-18T17:57:10Z",
-            "sentiment": "Positive",
-            "compound": 0.56
-          },
-          {
-            "title": "Gen Z started building wealth at 19—13 years before boomers did. Most still say they can’t get ahead",
-            "source": "Fortune",
-            "publishedAt": "2026-10-18T17:55:24Z",
-            "sentiment": "Positive",
-            "compound": 0.494
-          },
-          {
-            "title": "TeraWulf secures Google backing for its Lake Mariner data center campus",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-18T17:53:13Z",
-            "sentiment": "Positive",
-            "compound": 0.34
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 58.92,
-  "trade_probability": 55.35,
+  "confirmation_score": 65.78,
+  "trade_probability": 59.47,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
