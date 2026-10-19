@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T00:45:57.729549+00:00",
+  "generated_at": "2026-10-19T01:01:19.682097+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.94,
+      "score": 55.79,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.82,
-        "change_5d_pct": -0.743
+        "current_dxy": 101.84,
+        "change_5d_pct": -0.723
       }
     },
     "macro": {
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.19,
+      "score": 51.4,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.016,
+        "avg_compound": 0.028,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "7 highlights from JD Vance's CBS News town hall",
+            "source": "CBS News",
+            "publishedAt": "2026-10-18T01:01:09Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Tens of thousands march in Lisbon over housing and living costs...",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-10-18T01:00:12Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Costco Wholesale Has Fallen More Than 10% From Its Peak Before. Here's What History Says Happens Next",
             "source": "Biztoc.com",
@@ -118,20 +132,6 @@
             "publishedAt": "2026-10-17T23:25:25Z",
             "sentiment": "Negative",
             "compound": -0.34
-          },
-          {
-            "title": "James Cameron Finally Congratulates Endgame’s Box Office Victory With Awesome Marvel & Navi Crossover Art",
-            "source": "ComicBook.com",
-            "publishedAt": "2026-10-17T22:49:05Z",
-            "sentiment": "Positive",
-            "compound": 0.784
-          },
-          {
-            "title": "'Vote of no-confidence' as traders place £7bn bet against the pound ahead of John Healey's first Budget",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-10-17T22:25:56Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 46.72,
-  "trade_probability": 48.03,
+  "confirmation_score": 46.9,
+  "trade_probability": 48.14,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
