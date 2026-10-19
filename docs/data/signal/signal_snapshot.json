@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T04:31:09.489032+00:00",
+  "generated_at": "2026-10-19T04:45:49.420306+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.87,
+      "score": 55.98,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.83,
-        "change_5d_pct": -0.734
+        "current_dxy": 101.81,
+        "change_5d_pct": -0.748
       }
     },
     "macro": {
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.17,
+      "score": 47.89,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.057,
+        "avg_compound": -0.042,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Finances for disabled",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-18T04:40:55Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Which animal have sharp spines?",
             "source": "Lifesciencesworld.com",
@@ -125,13 +132,6 @@
             "publishedAt": "2026-10-18T04:01:21Z",
             "sentiment": "Negative",
             "compound": -0.66
-          },
-          {
-            "title": "Nestlé India raises ad and marketing spend 46% in Q2 FY27",
-            "source": "Brandcommunion.com",
-            "publishedAt": "2026-10-18T04:01:08Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 46.53,
-  "trade_probability": 47.92,
+  "confirmation_score": 46.6,
+  "trade_probability": 47.96,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
