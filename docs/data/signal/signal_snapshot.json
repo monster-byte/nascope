@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T10:31:07.870429+00:00",
+  "generated_at": "2026-10-19T10:45:53.754046+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.98,
+      "score": 54.94,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.94,
-        "change_5d_pct": -0.623
+        "current_dxy": 101.95,
+        "change_5d_pct": -0.618
       }
     },
     "macro": {
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.25,
+      "score": 49.37,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.005,
-        "articles_analyzed": 22,
+        "avg_compound": -0.013,
+        "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Katie Zacharia and the real problem with workers embellishing their credentials",
+            "source": "Business Insider",
+            "publishedAt": "2026-10-18T10:43:01Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
           {
             "title": "The Indian economy has displayed growth resilience—but fault lines have grown too that can’t be papered over",
             "source": "Livemint",
@@ -125,13 +132,6 @@
             "publishedAt": "2026-10-18T10:15:12Z",
             "sentiment": "Positive",
             "compound": 0.477
-          },
-          {
-            "title": "Best CD rates today, Sunday, October 18, 2026: Earn up to 4.40% APY",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-18T10:15:05Z",
-            "sentiment": "Positive",
-            "compound": 0.637
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 66.98,
-  "trade_probability": 60.19,
+  "confirmation_score": 66.89,
+  "trade_probability": 60.13,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
