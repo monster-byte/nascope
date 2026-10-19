@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T19:01:26.949210+00:00",
+  "generated_at": "2026-10-19T19:15:48.230357+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.1751,
+          "change_pct": 0.1372,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.4195,
+          "change_pct": 1.4224,
           "up": true
         },
         "NVDA": {
-          "change_pct": 1.6845,
+          "change_pct": 1.7172,
           "up": true
         },
         "AMZN": {
-          "change_pct": 5.3359,
+          "change_pct": 5.6008,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29588.03,
-        "sma50": 29865.31,
-        "sma200": 27759.67
+        "last_price": 29585.82,
+        "sma50": 29865.27,
+        "sma200": 27759.66
       }
     },
     "vxn": {
@@ -55,20 +55,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 67.25,
+      "score": 65.88,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.127,
-        "change_5d_pct": -2.156
+        "current_yield_pct": 5.136,
+        "change_5d_pct": -1.985
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.76,
+      "score": 54.62,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.97,
-        "change_5d_pct": -0.595
+        "current_dxy": 101.99,
+        "change_5d_pct": -0.578
       }
     },
     "macro": {
@@ -84,54 +84,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.65,
+      "score": 53.76,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.033,
+        "avg_compound": 0.075,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Sportradar Pitches Data Role in Prediction-Market Growth",
-            "source": "ReadWrite",
-            "publishedAt": "2026-10-18T19:00:00Z",
+            "title": "Protests Against The High Cost of Living Turn Violent In Milan",
+            "source": "Vanity Fair",
+            "publishedAt": "2026-10-18T19:06:38Z",
+            "sentiment": "Negative",
+            "compound": -0.7
+          },
+          {
+            "title": "Trump's Marijuana Order Is Stuck at the DEA. Here's What That Means for Canopy Growth",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-18T19:04:54Z",
+            "sentiment": "Neutral",
+            "compound": 0.153
+          },
+          {
+            "title": "Debuts Strongly But Fair Value Remains Hard To Pin Down",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-18T19:04:47Z",
             "sentiment": "Positive",
-            "compound": 0.382
+            "compound": 0.718
           },
           {
-            "title": "Your Payments Got Faster. So Why Didn’t Your Finance Team?",
-            "source": "Entrepreneur",
-            "publishedAt": "2026-10-18T19:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Social Security's 3.6% raise may finally match inflation",
+            "title": "3 AI Infrastructure Stocks Retail Investors Are Watching In US Tech",
             "source": "Biztoc.com",
-            "publishedAt": "2026-10-18T18:48:19Z",
+            "publishedAt": "2026-10-18T19:04:28Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Eateries cut corners as high costs and hygiene crackdowns take a toll",
+            "title": "Apple Keeps Hitting Record Highs. Bitcoin Hasn’t Set One All Year. Which Is the Better Buy?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-18T19:02:10Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
+          {
+            "title": "Tata Sons reviews AoA to meet Sebi listing norms",
             "source": "The Times of India",
-            "publishedAt": "2026-10-18T18:47:35Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "Spooky Inflation Rates | Musk’s GOP Millions",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-18T18:43:06Z",
+            "publishedAt": "2026-10-18T19:01:52Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Pimco Sees A 6% 10-Year... Here's Why \"Bad Inflation\" Caps Yields",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-18T18:31:49Z",
-            "sentiment": "Negative",
-            "compound": -0.542
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 66.41,
-  "trade_probability": 59.85,
+  "confirmation_score": 66.4,
+  "trade_probability": 59.84,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
