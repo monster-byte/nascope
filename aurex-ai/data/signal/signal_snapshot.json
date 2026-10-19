@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T02:45:50.511975+00:00",
+  "generated_at": "2026-10-19T03:01:23.182643+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.1858,
+          "change_pct": -1.1904,
           "up": false
         },
         "AMZN": {
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.91,
+      "score": 55.66,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.82,
-        "change_5d_pct": -0.739
+        "current_dxy": 101.85,
+        "change_5d_pct": -0.708
       }
     },
     "macro": {
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.75,
+      "score": 51.54,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.035,
+        "avg_compound": 0.031,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "8th Pay Commission: How salaries change at fitment factors of 4, 3.833 and 3.80; Check complete calculations",
+            "source": "Livemint",
+            "publishedAt": "2026-10-18T02:49:11Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
           {
             "title": "Amid whisky's global gloom Tasmania is still seizing 'amazing opportunities'",
             "source": "ABC News (AU)",
@@ -125,13 +132,6 @@
             "publishedAt": "2026-10-18T01:42:04Z",
             "sentiment": "Negative",
             "compound": -0.296
-          },
-          {
-            "title": "Keralam DA, DR hike: Government raises rates from 35% to 37%; here's when the payments will begin",
-            "source": "Livemint",
-            "publishedAt": "2026-10-18T01:39:58Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 46.95,
-  "trade_probability": 48.17,
+  "confirmation_score": 46.9,
+  "trade_probability": 48.14,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
