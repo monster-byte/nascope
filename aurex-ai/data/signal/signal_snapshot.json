@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T04:45:49.420306+00:00",
+  "generated_at": "2026-10-19T05:01:21.552986+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.1904,
+          "change_pct": -1.1858,
           "up": false
         },
         "AMZN": {
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.98,
+      "score": 56.01,
       "status": "yellow",
       "details": {
         "current_dxy": 101.81,
-        "change_5d_pct": -0.748
+        "change_5d_pct": -0.752
       }
     },
     "macro": {
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.89,
+      "score": 47.13,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.042,
+        "avg_compound": -0.057,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "OTD (18/10/1980): Election Time For Fred The Red (And White)",
+            "source": "SB Nation",
+            "publishedAt": "2026-10-18T05:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "US chip stocks plunge 16% in longest losing streak since 2008",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-18T04:54:12Z",
+            "sentiment": "Negative",
+            "compound": -0.382
+          },
           {
             "title": "Finances for disabled",
             "source": "BusinessLine",
@@ -118,20 +132,6 @@
             "publishedAt": "2026-10-18T04:04:44Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Dems lead GOP in House vote choice as Trump's approval rating hits record low: Poll",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-10-18T04:03:29Z",
-            "sentiment": "Positive",
-            "compound": 0.25
-          },
-          {
-            "title": "JD Vance faces tough questions on Iran war, immigration and gas prices in town hall",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-10-18T04:01:21Z",
-            "sentiment": "Negative",
-            "compound": -0.66
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 46.6,
-  "trade_probability": 47.96,
+  "confirmation_score": 46.54,
+  "trade_probability": 47.92,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
