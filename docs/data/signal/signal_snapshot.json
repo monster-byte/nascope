@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T14:31:15.163354+00:00",
+  "generated_at": "2026-10-19T14:45:53.010676+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.7326,
+          "change_pct": 0.5341,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.2866,
+          "change_pct": 1.4347,
           "up": true
         },
         "NVDA": {
-          "change_pct": 1.7266,
+          "change_pct": 1.7968,
           "up": true
         },
         "AMZN": {
-          "change_pct": 4.2333,
+          "change_pct": 4.6767,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29613.14,
-        "sma50": 29865.81,
-        "sma200": 27759.8
+        "last_price": 29646.66,
+        "sma50": 29866.48,
+        "sma200": 27759.97
       }
     },
     "vxn": {
@@ -55,20 +55,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 70.46,
+      "score": 68.47,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.106,
-        "change_5d_pct": -2.557
+        "current_yield_pct": 5.119,
+        "change_5d_pct": -2.309
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.12,
+      "score": 54.91,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.92,
-        "change_5d_pct": -0.64
+        "current_dxy": 101.95,
+        "change_5d_pct": -0.613
       }
     },
     "macro": {
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 43.52,
+      "score": 41.63,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.13,
+        "avg_compound": -0.167,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "BlackRock’s Bitcoin ETF Lost $165 Million in a Week. Is Wall Street Pulling Back?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-18T14:45:24Z",
+            "sentiment": "Negative",
+            "compound": -0.318
+          },
+          {
+            "title": "Obama backs Ilhan Omar amid probe, accuses Trump admin of 'appalling' targeting in lengthy statement",
+            "source": "Fox News",
+            "publishedAt": "2026-10-18T14:38:26Z",
+            "sentiment": "Negative",
+            "compound": -0.625
+          },
           {
             "title": "The American Establishment and The Deep State",
             "source": "Lewrockwell.com",
@@ -118,20 +132,6 @@
             "publishedAt": "2026-10-18T14:26:30Z",
             "sentiment": "Negative",
             "compound": -0.878
-          },
-          {
-            "title": "Rosen Law Firm Encourages The Cooper Companies, Inc. Investors to Inquire About Securities Class Action Investigation - COO",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-18T14:26:00Z",
-            "sentiment": "Positive",
-            "compound": 0.625
-          },
-          {
-            "title": "2026 Midterms: How is consumer sentiment affecting voters?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-18T14:14:58Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 66.14,
-  "trade_probability": 59.68,
+  "confirmation_score": 65.68,
+  "trade_probability": 59.41,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
