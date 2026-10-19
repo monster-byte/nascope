@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T07:45:53.657733+00:00",
+  "generated_at": "2026-10-19T08:01:22.304081+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
-      "status": "red",
+      "score": 100.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.8213,
+          "change_pct": 0.2481,
           "up": true
         },
         "MSFT": {
-          "change_pct": -1.4348,
-          "up": false
+          "change_pct": 0.4021,
+          "up": true
         },
         "NVDA": {
-          "change_pct": -1.1858,
-          "up": false
+          "change_pct": 0.1781,
+          "up": true
         },
         "AMZN": {
-          "change_pct": -1.307,
-          "up": false
+          "change_pct": 0.3856,
+          "up": true
         }
       }
     },
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.17,
+      "score": 55.06,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.92,
-        "change_5d_pct": -0.646
+        "current_dxy": 101.93,
+        "change_5d_pct": -0.633
       }
     },
     "macro": {
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.09,
+      "score": 46.86,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.038,
+        "avg_compound": -0.063,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "FMCG firms grapple with input cost inflation in Q2, brace for margin pressure in H2",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-18T07:58:33Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "FMCG firms grapple with input cost inflation in Q2, brace for margin pressure in H2",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-18T07:58:33Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "3 Canadian Dividend Stocks With At Least 3% Yield",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-18T07:58:07Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "2026 SkS Weekly Climate Change & Global Warming News Roundup #42",
             "source": "Skepticalscience.com",
@@ -111,27 +132,6 @@
             "publishedAt": "2026-10-18T07:26:02Z",
             "sentiment": "Positive",
             "compound": 0.34
-          },
-          {
-            "title": "Earnings, crude oil, Jio IPO key monitorables for investors next week",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-18T07:25:37Z",
-            "sentiment": "Negative",
-            "compound": -0.572
-          },
-          {
-            "title": "IMF chief says has 'optimism' and 'worry' after Bangkok annual meetings",
-            "source": "Hurriyet Daily News",
-            "publishedAt": "2026-10-18T07:15:37Z",
-            "sentiment": "Neutral",
-            "compound": 0.153
-          },
-          {
-            "title": "Chip-stock bets lost $52 million in 10 minutes with Wall Street shut",
-            "source": "CoinDesk",
-            "publishedAt": "2026-10-18T07:13:32Z",
-            "sentiment": "Negative",
-            "compound": -0.318
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 46.55,
-  "trade_probability": 47.93,
+  "confirmation_score": 66.68,
+  "trade_probability": 60.01,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
