@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T09:19:41.013862+00:00",
+  "generated_at": "2026-10-19T09:31:05.510668+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.22,
+      "score": 55.12,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.91,
-        "change_5d_pct": -0.652
+        "current_dxy": 101.92,
+        "change_5d_pct": -0.639
       }
     },
     "macro": {
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.53,
+      "score": 45.01,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.089,
+        "avg_compound": -0.1,
         "articles_analyzed": 21,
         "top_headlines": [
+          {
+            "title": "Investors Disturbed by Anthropic’s Financial Data",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-18T09:28:23Z",
+            "sentiment": "Negative",
+            "compound": -0.382
+          },
+          {
+            "title": "Big IPO week ahead: Only 2 IPOs to hit Dalal Street, including much-awaited Jio Platforms",
+            "source": "Moneycontrol",
+            "publishedAt": "2026-10-18T09:22:47Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Here's the playbook for investors as new fears rattle the AI trade",
             "source": "Business Insider",
@@ -118,20 +132,6 @@
             "publishedAt": "2026-10-18T09:00:00Z",
             "sentiment": "Positive",
             "compound": 0.382
-          },
-          {
-            "title": "The AI bubble is about to burst — and a big market correction is coming",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-18T08:58:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Justin Sun sells most of his ETH and moves into US stocks",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-18T08:36:49Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 66.57,
-  "trade_probability": 59.94,
+  "confirmation_score": 66.52,
+  "trade_probability": 59.91,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
