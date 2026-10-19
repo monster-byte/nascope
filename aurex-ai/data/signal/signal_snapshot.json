@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T15:15:56.550245+00:00",
+  "generated_at": "2026-10-19T15:31:08.022866+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.0978,
+          "change_pct": 0.0584,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.4214,
+          "change_pct": 1.5192,
           "up": true
         },
         "NVDA": {
-          "change_pct": 2.0495,
+          "change_pct": 2.2553,
           "up": true
         },
         "AMZN": {
-          "change_pct": 5.2916,
+          "change_pct": 5.4462,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29693.75,
-        "sma50": 29867.42,
-        "sma200": 27760.2
+        "last_price": 29754.46,
+        "sma50": 29868.64,
+        "sma200": 27760.5
       }
     },
     "vxn": {
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 42.47,
+      "score": 43.53,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.151,
+        "avg_compound": -0.129,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "ASTS Deadline in 26 Days: AST SpaceMobile, Inc Class Action Lawsuit Seeks Recovery for Investors; November 13, 2026, Deadline - Contact Kessler Topaz Meltzer & Check, LLP",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-18T15:30:00Z",
+            "sentiment": "Negative",
+            "compound": -0.226
+          },
           {
             "title": "Box Office: Street Fighter Wins #1 Amid Flood Of Top 5 Competitors",
             "source": "Screen Rant",
@@ -125,13 +132,6 @@
             "publishedAt": "2026-10-18T15:01:38Z",
             "sentiment": "Negative",
             "compound": -0.226
-          },
-          {
-            "title": "Bitcoin ETFs Shed Nearly $1 Billion in Two Weeks as Uptober Stays Red",
-            "source": "Decrypt",
-            "publishedAt": "2026-10-18T15:01:04Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 65.61,
-  "trade_probability": 59.37,
+  "confirmation_score": 65.7,
+  "trade_probability": 59.42,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
