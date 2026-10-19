@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T11:01:21.795790+00:00",
+  "generated_at": "2026-10-19T11:15:51.611959+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.37,
+      "score": 55.76,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.89,
-        "change_5d_pct": -0.672
+        "current_dxy": 101.84,
+        "change_5d_pct": -0.72
       }
     },
     "macro": {
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.54,
+      "score": 48.64,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.009,
+        "avg_compound": -0.027,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Tuesday’s SEC Comment Deadline Closes the Last Public Window Before the GENIUS Act Compliance Stack Locks In",
+            "source": "Forkast.news",
+            "publishedAt": "2026-10-18T11:09:31Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "IMF and World Bank meetings leave developing countries with more questions than answers",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-18T11:01:50Z",
+            "sentiment": "Neutral",
+            "compound": -0.052
+          },
           {
             "title": "Quince jacket review: 12 coats that have kept our style editors warm season after season",
             "source": "Business Insider",
@@ -118,20 +132,6 @@
             "publishedAt": "2026-10-18T10:43:01Z",
             "sentiment": "Negative",
             "compound": -0.402
-          },
-          {
-            "title": "The Indian economy has displayed growth resilience—but fault lines have grown too that can’t be papered over",
-            "source": "Livemint",
-            "publishedAt": "2026-10-18T10:30:54Z",
-            "sentiment": "Neutral",
-            "compound": -0.026
-          },
-          {
-            "title": "Can Alphabet Stock Double By 2030?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-18T10:30:05Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 66.95,
-  "trade_probability": 60.17,
+  "confirmation_score": 66.9,
+  "trade_probability": 60.14,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
