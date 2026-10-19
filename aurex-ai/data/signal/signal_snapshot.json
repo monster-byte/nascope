@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T12:01:25.718552+00:00",
+  "generated_at": "2026-10-19T12:15:51.912235+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 56.03,
+      "score": 55.93,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.81,
-        "change_5d_pct": -0.754
+        "current_dxy": 101.82,
+        "change_5d_pct": -0.742
       }
     },
     "macro": {
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.89,
+      "score": 51.25,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.038,
+        "avg_compound": 0.025,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "FMCG companies face margin squeeze in H2 as input costs rise, price hikes likely after Diwali",
+            "source": "Livemint",
+            "publishedAt": "2026-10-18T12:10:14Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Cathie Wood Bought More CRISPR Therapeutics Stock 2 Days in a Row. Here's What She Sees in the Biotech Stock",
             "source": "Biztoc.com",
@@ -125,13 +132,6 @@
             "publishedAt": "2026-10-18T11:29:40Z",
             "sentiment": "Positive",
             "compound": 0.527
-          },
-          {
-            "title": "Tuesday’s SEC Comment Deadline Closes the Last Public Window Before the GENIUS Act Compliance Stack Locks In",
-            "source": "Forkast.news",
-            "publishedAt": "2026-10-18T11:09:31Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 67.22,
-  "trade_probability": 60.33,
+  "confirmation_score": 67.15,
+  "trade_probability": 60.29,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
