@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T01:01:19.682097+00:00",
+  "generated_at": "2026-10-19T01:15:49.839189+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.79,
+      "score": 55.88,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.84,
-        "change_5d_pct": -0.723
+        "current_dxy": 101.83,
+        "change_5d_pct": -0.735
       }
     },
     "macro": {
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.4,
+      "score": 53.84,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.028,
+        "avg_compound": 0.077,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "3 Australian Undervalued Stocks Trading At Least 26% Below Fair Value",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-18T01:12:17Z",
+            "sentiment": "Positive",
+            "compound": 0.572
+          },
+          {
+            "title": "Joins The Nasdaq Composite, Is The Stock Already Pricey?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-18T01:12:11Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "7 highlights from JD Vance's CBS News town hall",
             "source": "CBS News",
@@ -118,20 +132,6 @@
             "publishedAt": "2026-10-18T00:21:17Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Iran offers US deal to reopen Hormuz within a week",
-            "source": "Rt-english.com",
-            "publishedAt": "2026-10-17T23:36:54Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Farmers blame high transport costs for rising food prices",
-            "source": "The Punch",
-            "publishedAt": "2026-10-17T23:25:25Z",
-            "sentiment": "Negative",
-            "compound": -0.34
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 46.9,
-  "trade_probability": 48.14,
+  "confirmation_score": 47.13,
+  "trade_probability": 48.28,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
