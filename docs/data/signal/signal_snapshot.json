@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T06:45:49.201282+00:00",
+  "generated_at": "2026-10-19T07:01:22.639709+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.1858,
+          "change_pct": -1.1904,
           "up": false
         },
         "AMZN": {
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.75,
+      "score": 55.81,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.84,
-        "change_5d_pct": -0.718
+        "current_dxy": 101.83,
+        "change_5d_pct": -0.726
       }
     },
     "macro": {
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.09,
+      "score": 48.34,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.058,
+        "avg_compound": -0.033,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "India needs policy credibility and continuity to sustain FDI as strong growth alone is not enough, says KIEP expert",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-18T06:46:30Z",
+            "sentiment": "Positive",
+            "compound": 0.599
+          },
           {
             "title": "FPIs pull out Rs 52,100 cr from equities in Oct so far amid global headwinds",
             "source": "The Times of India",
@@ -125,13 +132,6 @@
             "publishedAt": "2026-10-18T06:00:00Z",
             "sentiment": "Negative",
             "compound": -0.273
-          },
-          {
-            "title": "Trump Faces Second Inflation Report as Midterms Approach",
-            "source": "Naturalnews.com",
-            "publishedAt": "2026-10-18T06:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 46.51,
-  "trade_probability": 47.91,
+  "confirmation_score": 46.63,
+  "trade_probability": 47.98,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
