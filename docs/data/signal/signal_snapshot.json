@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T20:01:26.326039+00:00",
+  "generated_at": "2026-10-19T20:15:53.136884+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.61,
+      "score": 54.64,
       "status": "yellow",
       "details": {
         "current_dxy": 101.99,
-        "change_5d_pct": -0.576
+        "change_5d_pct": -0.58
       }
     },
     "macro": {
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.74,
+      "score": 48.47,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.025,
+        "avg_compound": -0.031,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "High oil prices fuel renewed inflation fears",
+            "source": "Crikey",
+            "publishedAt": "2026-10-18T20:10:58Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
+          {
+            "title": "3 Canadian Growth Stocks With At Least 43% Earnings Growth",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-18T20:04:54Z",
+            "sentiment": "Positive",
+            "compound": 0.637
+          },
           {
             "title": "CCB INVESTOR DEADLINE: Coastal Financial Corporation Investors with Substantial Losses May Seek to Lead Class Action Lawsuit - December 1, 2026 Deadline",
             "source": "PRNewswire",
@@ -118,20 +132,6 @@
             "publishedAt": "2026-10-18T19:32:27Z",
             "sentiment": "Positive",
             "compound": 0.361
-          },
-          {
-            "title": "Protests Against The High Cost of Living Turn Violent In Milan",
-            "source": "Vanity Fair",
-            "publishedAt": "2026-10-18T19:06:38Z",
-            "sentiment": "Negative",
-            "compound": -0.7
-          },
-          {
-            "title": "Trump's Marijuana Order Is Stuck at the DEA. Here's What That Means for Canopy Growth",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-18T19:04:54Z",
-            "sentiment": "Neutral",
-            "compound": 0.153
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 65.95,
-  "trade_probability": 59.57,
+  "confirmation_score": 65.92,
+  "trade_probability": 59.55,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
