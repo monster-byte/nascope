@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T17:01:30.542632+00:00",
+  "generated_at": "2026-10-19T17:15:56.264504+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.2782,
+          "change_pct": -0.1801,
           "up": false
         },
         "MSFT": {
-          "change_pct": 1.1765,
+          "change_pct": 1.2316,
           "up": true
         },
         "NVDA": {
-          "change_pct": 1.9886,
+          "change_pct": 1.9465,
           "up": true
         },
         "AMZN": {
-          "change_pct": 5.3708,
+          "change_pct": 5.4211,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29598.32,
-        "sma50": 29865.52,
-        "sma200": 27759.72
+        "last_price": 29590.61,
+        "sma50": 29865.36,
+        "sma200": 27759.69
       }
     },
     "vxn": {
@@ -55,20 +55,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 64.35,
+      "score": 64.05,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.146,
-        "change_5d_pct": -1.794
+        "current_yield_pct": 5.148,
+        "change_5d_pct": -1.756
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.52,
+      "score": 54.61,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.0,
-        "change_5d_pct": -0.564
+        "current_dxy": 101.99,
+        "change_5d_pct": -0.576
       }
     },
     "macro": {
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.49,
+      "score": 48.55,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.07,
+        "avg_compound": -0.029,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Rosen Law Firm Encourages J.B. Hunt Transport Services, Inc. Investors to Inquire About Securities Class Action Investigation - JBHT",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-18T17:13:00Z",
+            "sentiment": "Positive",
+            "compound": 0.625
+          },
+          {
+            "title": "Show HN: CLI for your financial data (and Costco and Amazon)",
+            "source": "Github.io",
+            "publishedAt": "2026-10-18T17:11:24Z",
+            "sentiment": "Neutral",
+            "compound": 0.178
+          },
           {
             "title": "‘Street Fighter’ Rings Up No. 1 $51M+ WW Opening, Largely Driven By Fans – Global Box Office Update",
             "source": "Deadline",
@@ -118,20 +132,6 @@
             "publishedAt": "2026-10-18T16:46:24Z",
             "sentiment": "Positive",
             "compound": 0.318
-          },
-          {
-            "title": "Wall Street freaked out Friday. VIX and bitcoin say the fear may fade Monday.",
-            "source": "CoinDesk",
-            "publishedAt": "2026-10-18T16:33:00Z",
-            "sentiment": "Negative",
-            "compound": -0.66
-          },
-          {
-            "title": "Bernie Sanders admits Democrats failed working-class voters on economics, driving them to Donald Trump",
-            "source": "Fox News",
-            "publishedAt": "2026-10-18T16:25:35Z",
-            "sentiment": "Negative",
-            "compound": -0.273
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 58.78,
-  "trade_probability": 55.27,
+  "confirmation_score": 58.93,
+  "trade_probability": 55.36,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
