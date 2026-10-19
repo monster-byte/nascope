@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T19:31:08.627547+00:00",
+  "generated_at": "2026-10-19T19:45:58.322157+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.0905,
+          "change_pct": 0.0102,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.4138,
+          "change_pct": 1.3863,
           "up": true
         },
         "NVDA": {
-          "change_pct": 1.9989,
+          "change_pct": 1.9044,
           "up": true
         },
         "AMZN": {
-          "change_pct": 5.7314,
+          "change_pct": 5.703,
           "up": true
         }
       }
@@ -40,8 +40,8 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29617.04,
-        "sma50": 29865.89,
+        "last_price": 29617.31,
+        "sma50": 29865.9,
         "sma200": 27759.82
       }
     },
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.76,
+      "score": 52.57,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.075,
+        "avg_compound": 0.051,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Don’t let fears of a big stock market decline derail your investments",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-18T19:32:34Z",
+            "sentiment": "Negative",
+            "compound": -0.612
+          },
+          {
+            "title": "Dad Is 71 and Wants to Sell Every Stock, Put His $1.1 Million in 10-Year Treasuries Now That the Yield Is Above 5% and Live on the Interest. Is It a Crazy Idea?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-18T19:32:27Z",
+            "sentiment": "Positive",
+            "compound": 0.361
+          },
           {
             "title": "Protests Against The High Cost of Living Turn Violent In Milan",
             "source": "Vanity Fair",
@@ -118,20 +132,6 @@
             "publishedAt": "2026-10-18T19:04:28Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Apple Keeps Hitting Record Highs. Bitcoin Hasn’t Set One All Year. Which Is the Better Buy?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-18T19:02:10Z",
-            "sentiment": "Positive",
-            "compound": 0.44
-          },
-          {
-            "title": "Tata Sons reviews AoA to meet Sebi listing norms",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-18T19:01:52Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 66.4,
-  "trade_probability": 59.84,
+  "confirmation_score": 66.29,
+  "trade_probability": 59.77,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
