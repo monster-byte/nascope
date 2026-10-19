@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T16:15:52.097948+00:00",
+  "generated_at": "2026-10-19T16:31:10.547739+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.3911,
+          "change_pct": -0.1897,
           "up": false
         },
         "MSFT": {
-          "change_pct": 1.3436,
+          "change_pct": 1.2335,
           "up": true
         },
         "NVDA": {
-          "change_pct": 2.5968,
+          "change_pct": 2.0213,
           "up": true
         },
         "AMZN": {
-          "change_pct": 5.6229,
+          "change_pct": 5.624,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29696.87,
-        "sma50": 29867.49,
-        "sma200": 27760.22
+        "last_price": 29645.07,
+        "sma50": 29866.45,
+        "sma200": 27759.96
       }
     },
     "vxn": {
@@ -55,20 +55,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 65.27,
-      "status": "green",
+      "score": 64.35,
+      "status": "yellow",
       "details": {
-        "current_yield_pct": 5.14,
-        "change_5d_pct": -1.908
+        "current_yield_pct": 5.146,
+        "change_5d_pct": -1.794
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.41,
+      "score": 54.52,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.01,
-        "change_5d_pct": -0.552
+        "current_dxy": 102.0,
+        "change_5d_pct": -0.565
       }
     },
     "macro": {
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.75,
+      "score": 46.37,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.085,
+        "avg_compound": -0.073,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Bernie Sanders admits Democrats failed working-class voters on economics, driving them to Donald Trump",
+            "source": "Fox News",
+            "publishedAt": "2026-10-18T16:25:35Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "Barack Obama Gets Nailed With a Devastating Reminder After He Gives His ‘Thoughts’ on the Ilhan Omar Raid",
+            "source": "Thegatewaypundit.com",
+            "publishedAt": "2026-10-18T16:20:40Z",
+            "sentiment": "Negative",
+            "compound": -0.649
+          },
+          {
+            "title": "Farm loans lose share in banks’ credit books as lenders turn cautious on rural exposure",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-18T16:17:25Z",
+            "sentiment": "Neutral",
+            "compound": 0.178
+          },
           {
             "title": "DHS Secretary Mullin reveals Ilhan Omar investigation goes far deeper with 'multiple warrants' served... as Obama lashes out against Trump",
             "source": "Dailymail.com",
@@ -111,27 +132,6 @@
             "publishedAt": "2026-10-18T16:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.19
-          },
-          {
-            "title": "Retirement age debate: Why NZ Super may need to change – Editorial",
-            "source": "New Zealand Herald",
-            "publishedAt": "2026-10-18T16:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.599
-          },
-          {
-            "title": "Trump’s new rule on prescriptions will send the cost of my drugs through the roof — and maybe yours too",
-            "source": "New York Post",
-            "publishedAt": "2026-10-18T16:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "IMF-World Bank meetings leave developing nations short of fresh answers",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-18T15:49:54Z",
-            "sentiment": "Positive",
-            "compound": 0.273
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 58.83,
-  "trade_probability": 55.3,
+  "confirmation_score": 58.77,
+  "trade_probability": 55.26,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
