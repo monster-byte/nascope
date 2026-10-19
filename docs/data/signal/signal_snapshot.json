@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T01:31:04.725941+00:00",
+  "generated_at": "2026-10-19T01:45:50.281118+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.72,
+      "score": 55.78,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.85,
-        "change_5d_pct": -0.716
+        "current_dxy": 101.84,
+        "change_5d_pct": -0.722
       }
     },
     "macro": {
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.71,
+      "score": 51.33,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.074,
+        "avg_compound": 0.027,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "A Record 37% of Americans Say They Have No Idea What Next Year’s Income Will Be",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-18T01:42:04Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "Keralam DA, DR hike: Government raises rates from 35% to 37%; here's when the payments will begin",
+            "source": "Livemint",
+            "publishedAt": "2026-10-18T01:39:58Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "35 Analysts Cover SpaceX. Here's Why Their Price Targets Have Almost Nothing to Do With Rockets",
             "source": "Biztoc.com",
@@ -118,20 +132,6 @@
             "publishedAt": "2026-10-18T01:12:11Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "7 highlights from JD Vance's CBS News town hall",
-            "source": "CBS News",
-            "publishedAt": "2026-10-18T01:01:09Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Tens of thousands march in Lisbon over housing and living costs...",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-10-18T01:00:12Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 47.11,
-  "trade_probability": 48.27,
+  "confirmation_score": 46.9,
+  "trade_probability": 48.14,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
