@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T15:46:15.723782+00:00",
+  "generated_at": "2026-10-19T16:01:24.439490+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 100.0,
+      "score": 75.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.0584,
-          "up": true
+          "change_pct": -0.3065,
+          "up": false
         },
         "MSFT": {
-          "change_pct": 1.6131,
+          "change_pct": 1.3948,
           "up": true
         },
         "NVDA": {
-          "change_pct": 2.6061,
+          "change_pct": 2.5406,
           "up": true
         },
         "AMZN": {
-          "change_pct": 5.7242,
+          "change_pct": 5.4944,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29766.47,
-        "sma50": 29868.88,
-        "sma200": 27760.56
+        "last_price": 29710.2,
+        "sma50": 29867.75,
+        "sma200": 27760.28
       }
     },
     "vxn": {
@@ -55,20 +55,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 66.95,
+      "score": 66.34,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.129,
-        "change_5d_pct": -2.118
+        "current_yield_pct": 5.133,
+        "change_5d_pct": -2.042
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.06,
+      "score": 54.66,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.93,
-        "change_5d_pct": -0.633
+        "current_dxy": 101.98,
+        "change_5d_pct": -0.582
       }
     },
     "macro": {
@@ -84,54 +84,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 44.15,
+      "score": 45.75,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.117,
+        "avg_compound": -0.085,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Here are the 3 big things we're watching in the stock market this week",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-18T15:45:52Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "LA super-commuter Angelique Khieu catches a flight to work across California",
-            "source": "New York Post",
-            "publishedAt": "2026-10-18T15:38:43Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "ASTS Deadline in 26 Days: AST SpaceMobile, Inc Class Action Lawsuit Seeks Recovery for Investors; November 13, 2026, Deadline - Contact Kessler Topaz Meltzer & Check, LLP",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-18T15:30:00Z",
+            "title": "In shadow of war, Israelis to decide if hard-right turn is permanent...",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-10-18T16:00:14Z",
             "sentiment": "Negative",
-            "compound": -0.226
+            "compound": -0.599
           },
           {
-            "title": "Box Office: Street Fighter Wins #1 Amid Flood Of Top 5 Competitors",
-            "source": "Screen Rant",
-            "publishedAt": "2026-10-18T15:05:51Z",
+            "title": "Inflation expected to ease to 3.7% in September year but cash rate still forecast to rise",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-10-18T16:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.19
+          },
+          {
+            "title": "Retirement age debate: Why NZ Super may need to change – Editorial",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-10-18T16:00:00Z",
             "sentiment": "Positive",
-            "compound": 0.727
+            "compound": 0.599
           },
           {
-            "title": "Want to retire early? How to split ₹1 lakh in monthly investments between short-term goals and FIRE, expert explains",
-            "source": "Livemint",
-            "publishedAt": "2026-10-18T15:05:26Z",
-            "sentiment": "Negative",
-            "compound": -0.428
-          },
-          {
-            "title": "Box Office: ‘You Can See Everything’ Stuns With $15 Million Debut, ‘Street Fighter’ Leads With $31 Million",
-            "source": "Variety",
-            "publishedAt": "2026-10-18T15:05:10Z",
+            "title": "Trump’s new rule on prescriptions will send the cost of my drugs through the roof — and maybe yours too",
+            "source": "New York Post",
+            "publishedAt": "2026-10-18T16:00:00Z",
             "sentiment": "Neutral",
-            "compound": 0.026
+            "compound": 0.0
+          },
+          {
+            "title": "IMF-World Bank meetings leave developing nations short of fresh answers",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-18T15:49:54Z",
+            "sentiment": "Positive",
+            "compound": 0.273
+          },
+          {
+            "title": "Scott Bessent Says ‘We Will Own the Economy’ — After Kristen Welker Calls Him Out for Blaming Biden: Trump’s Been President for ‘636 Days’",
+            "source": "Mediaite",
+            "publishedAt": "2026-10-18T15:48:06Z",
+            "sentiment": "Negative",
+            "compound": -0.494
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 65.72,
-  "trade_probability": 59.43,
+  "confirmation_score": 58.99,
+  "trade_probability": 55.39,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
