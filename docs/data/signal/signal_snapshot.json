@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T08:01:22.304081+00:00",
+  "generated_at": "2026-10-19T08:15:52.385549+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.1781,
+          "change_pct": 0.1827,
           "up": true
         },
         "AMZN": {
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.06,
+      "score": 54.36,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.93,
-        "change_5d_pct": -0.633
+        "current_dxy": 102.02,
+        "change_5d_pct": -0.545
       }
     },
     "macro": {
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.86,
+      "score": 48.08,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.063,
+        "avg_compound": -0.038,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "FMCG firms face input cost inflation in Q2, brace for H2 margin pressure",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-18T08:11:15Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "FPI selling crosses Rs 52,000 crore in October as Nifty defies foreign exodus",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-18T08:11:02Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
           {
             "title": "FMCG firms grapple with input cost inflation in Q2, brace for margin pressure in H2",
             "source": "The Times of India",
@@ -118,20 +132,6 @@
             "publishedAt": "2026-10-18T07:38:06Z",
             "sentiment": "Neutral",
             "compound": 0.153
-          },
-          {
-            "title": "Over 1,200 arrested as fires, looting and violent protests leave streets devastated across France",
-            "source": "TheJournal.ie",
-            "publishedAt": "2026-10-18T07:29:03Z",
-            "sentiment": "Negative",
-            "compound": -0.92
-          },
-          {
-            "title": "Market recap: Top-10 firms add Rs 3.65 lakh crore in mcap; TCS leads the gains",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-18T07:26:02Z",
-            "sentiment": "Positive",
-            "compound": 0.34
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 66.68,
-  "trade_probability": 60.01,
+  "confirmation_score": 66.73,
+  "trade_probability": 60.04,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
