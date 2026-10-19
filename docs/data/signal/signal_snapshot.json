@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T04:15:50.278136+00:00",
+  "generated_at": "2026-10-19T04:31:09.489032+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.83,
+      "score": 55.87,
       "status": "yellow",
       "details": {
         "current_dxy": 101.83,
-        "change_5d_pct": -0.729
+        "change_5d_pct": -0.734
       }
     },
     "macro": {
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.71,
+      "score": 47.17,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.046,
-        "articles_analyzed": 24,
+        "avg_compound": -0.057,
+        "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Which animal have sharp spines?",
+            "source": "Lifesciencesworld.com",
+            "publishedAt": "2026-10-18T04:19:07Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "French town hall that survived both world wars is incinerated after standing for 143 years as bloody riots spread across Europe",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-10-18T04:18:37Z",
+            "sentiment": "Negative",
+            "compound": -0.318
+          },
           {
             "title": "Iran’s Teachers Movement Perseveres against all Odds",
             "source": "Juancole.com",
@@ -118,20 +132,6 @@
             "publishedAt": "2026-10-18T04:01:08Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "What Inflation Obsession Misses",
-            "source": "Americanthinker.com",
-            "publishedAt": "2026-10-18T04:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.511
-          },
-          {
-            "title": "Obama and Slotkin: It’s never hypocrisy when Democrats do it",
-            "source": "Americanthinker.com",
-            "publishedAt": "2026-10-18T04:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 46.58,
-  "trade_probability": 47.95,
+  "confirmation_score": 46.53,
+  "trade_probability": 47.92,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
