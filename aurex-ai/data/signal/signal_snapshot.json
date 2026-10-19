@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T05:31:06.777366+00:00",
+  "generated_at": "2026-10-19T05:45:56.114891+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.1858,
+          "change_pct": -1.1904,
           "up": false
         },
         "AMZN": {
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.9,
+      "score": 55.87,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.82,
-        "change_5d_pct": -0.737
+        "current_dxy": 101.83,
+        "change_5d_pct": -0.734
       }
     },
     "macro": {
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.87,
+      "score": 47.15,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.083,
+        "avg_compound": -0.057,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "3 Australian Growth Stocks With Earnings Growth Over 15%",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-18T05:43:00Z",
+            "sentiment": "Positive",
+            "compound": 0.637
+          },
           {
             "title": "The game industry is broken – can we fix it?",
             "source": "Edge-online.com",
@@ -125,13 +132,6 @@
             "publishedAt": "2026-10-18T05:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "US chip stocks plunge 16% in longest losing streak since 2008",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-18T04:54:12Z",
-            "sentiment": "Negative",
-            "compound": -0.382
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 46.42,
-  "trade_probability": 47.85,
+  "confirmation_score": 46.53,
+  "trade_probability": 47.92,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
