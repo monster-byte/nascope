@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T13:01:23.386555+00:00",
+  "generated_at": "2026-10-19T13:15:53.104034+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -55,20 +55,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 71.07,
+      "score": 71.68,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.102,
-        "change_5d_pct": -2.634
+        "current_yield_pct": 5.098,
+        "change_5d_pct": -2.71
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.56,
+      "score": 55.78,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.87,
-        "change_5d_pct": -0.695
+        "current_dxy": 101.84,
+        "change_5d_pct": -0.722
       }
     },
     "macro": {
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.66,
+      "score": 49.2,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.027,
+        "avg_compound": -0.016,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "3 Australian Dividend Stocks With Over 4% Yield",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-18T13:15:05Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Gold and silver head for volatile week amid crude oil spike, West Asia worries",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-18T13:13:00Z",
+            "sentiment": "Negative",
+            "compound": -0.758
+          },
+          {
+            "title": "Boomers are buying into the promise of monthly income from options ETFs, but there's a tax catch",
+            "source": "CNBC",
+            "publishedAt": "2026-10-18T13:10:33Z",
+            "sentiment": "Neutral",
+            "compound": 0.166
+          },
           {
             "title": "The nine key races that will decide who controls the Senate, and where they stand",
             "source": "Fox News",
@@ -111,27 +132,6 @@
             "publishedAt": "2026-10-18T13:00:00Z",
             "sentiment": "Negative",
             "compound": -0.764
-          },
-          {
-            "title": "Bitcoin’s $100,000 year-end hope divides analysts as inflation clouds outlook",
-            "source": "CoinDesk",
-            "publishedAt": "2026-10-18T13:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.44
-          },
-          {
-            "title": "UP in bottom two in Sept sugar inflation table, Tamil Nadu tops",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-18T12:58:05Z",
-            "sentiment": "Positive",
-            "compound": 0.511
-          },
-          {
-            "title": "Why the ugly history of IQ testing matters for AI and education",
-            "source": "The Conversation Africa",
-            "publishedAt": "2026-10-18T12:35:04Z",
-            "sentiment": "Negative",
-            "compound": -0.494
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 66.72,
-  "trade_probability": 60.03,
+  "confirmation_score": 66.88,
+  "trade_probability": 60.13,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
