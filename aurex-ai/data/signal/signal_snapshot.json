@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T15:01:24.838364+00:00",
+  "generated_at": "2026-10-19T15:15:56.550245+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.324,
+          "change_pct": 0.0978,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.4964,
+          "change_pct": 1.4214,
           "up": true
         },
         "NVDA": {
-          "change_pct": 1.874,
+          "change_pct": 2.0495,
           "up": true
         },
         "AMZN": {
-          "change_pct": 5.3438,
+          "change_pct": 5.2916,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29657.3,
-        "sma50": 29866.7,
-        "sma200": 27760.02
+        "last_price": 29693.75,
+        "sma50": 29867.42,
+        "sma200": 27760.2
       }
     },
     "vxn": {
@@ -55,20 +55,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 66.64,
+      "score": 67.25,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.131,
-        "change_5d_pct": -2.08
+        "current_yield_pct": 5.127,
+        "change_5d_pct": -2.156
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.09,
+      "score": 55.05,
       "status": "yellow",
       "details": {
         "current_dxy": 101.93,
-        "change_5d_pct": -0.637
+        "change_5d_pct": -0.631
       }
     },
     "macro": {
@@ -84,54 +84,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 42.87,
+      "score": 42.47,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.143,
+        "avg_compound": -0.151,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Box Office: Street Fighter Wins #1 Amid Flood Of Top 5 Competitors",
+            "source": "Screen Rant",
+            "publishedAt": "2026-10-18T15:05:51Z",
+            "sentiment": "Positive",
+            "compound": 0.727
+          },
+          {
+            "title": "Want to retire early? How to split ₹1 lakh in monthly investments between short-term goals and FIRE, expert explains",
+            "source": "Livemint",
+            "publishedAt": "2026-10-18T15:05:26Z",
+            "sentiment": "Negative",
+            "compound": -0.428
+          },
+          {
+            "title": "Box Office: ‘You Can See Everything’ Stuns With $15 Million Debut, ‘Street Fighter’ Leads With $31 Million",
+            "source": "Variety",
+            "publishedAt": "2026-10-18T15:05:10Z",
+            "sentiment": "Neutral",
+            "compound": 0.026
+          },
+          {
+            "title": "A third of small business owners say they're being forced to work a second job to survive",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-10-18T15:04:22Z",
+            "sentiment": "Negative",
+            "compound": -0.459
+          },
+          {
+            "title": "France protests: How a viral TikTok rumour, 132 million views and the ‘Young Vests’ slogan revived memories of the 2018 Yellow Vests movement",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-18T15:01:38Z",
+            "sentiment": "Negative",
+            "compound": -0.226
+          },
           {
             "title": "Bitcoin ETFs Shed Nearly $1 Billion in Two Weeks as Uptober Stays Red",
             "source": "Decrypt",
             "publishedAt": "2026-10-18T15:01:04Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Global sharemarket outlook: Strong earnings face risk from higher interest rates",
-            "source": "New Zealand Herald",
-            "publishedAt": "2026-10-18T15:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.637
-          },
-          {
-            "title": "BlackRock’s Bitcoin ETF Lost $165 Million in a Week. Is Wall Street Pulling Back?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-18T14:45:24Z",
-            "sentiment": "Negative",
-            "compound": -0.318
-          },
-          {
-            "title": "Obama backs Ilhan Omar amid probe, accuses Trump admin of 'appalling' targeting in lengthy statement",
-            "source": "Fox News",
-            "publishedAt": "2026-10-18T14:38:26Z",
-            "sentiment": "Negative",
-            "compound": -0.625
-          },
-          {
-            "title": "The American Establishment and The Deep State",
-            "source": "Lewrockwell.com",
-            "publishedAt": "2026-10-18T14:29:41Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Iran Says Strait of Hormuz Reopening Offer Still Stands as Mine Strikes and Tanker Fires Choke Oil Flows",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-10-18T14:27:28Z",
-            "sentiment": "Negative",
-            "compound": -0.718
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 65.56,
-  "trade_probability": 59.34,
+  "confirmation_score": 65.61,
+  "trade_probability": 59.37,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
