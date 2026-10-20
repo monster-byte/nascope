@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T02:31:07.278651+00:00",
+  "generated_at": "2026-10-20T02:45:51.512873+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.21,
+      "score": 55.43,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.91,
-        "change_5d_pct": -0.651
+        "current_dxy": 101.88,
+        "change_5d_pct": -0.678
       }
     },
     "macro": {
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.91,
+      "score": 60.63,
       "status": "yellow",
       "details": {
-        "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.138,
+        "overall_sentiment": "BULLISH",
+        "avg_compound": 0.213,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Top stocks to buy: Stock recommendations for October 19, 2026 week - check list",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-19T02:44:25Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "Anthropic says it will commit 5% of its shares to 'public benefit fund'",
+            "source": "BBC News",
+            "publishedAt": "2026-10-19T02:41:41Z",
+            "sentiment": "Positive",
+            "compound": 0.751
+          },
+          {
+            "title": "Stock market today: Sensex, Nifty50 clock best week in 6 months, will the rally continue?",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-19T02:37:51Z",
+            "sentiment": "Positive",
+            "compound": 0.637
+          },
           {
             "title": "8th Pay Commission: What is dearness relief and how is it different from DA? Expert explains",
             "source": "Livemint",
@@ -111,27 +132,6 @@
             "publishedAt": "2026-10-19T02:23:01Z",
             "sentiment": "Positive",
             "compound": 0.746
-          },
-          {
-            "title": "Black Monday Fears Fade as Nasdaq Futures Rally After Friday Selloff",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-19T02:20:25Z",
-            "sentiment": "Negative",
-            "compound": -0.421
-          },
-          {
-            "title": "Democrats remain clear favourites to gain control of Congress at midterms",
-            "source": "The Conversation Africa",
-            "publishedAt": "2026-10-19T02:18:06Z",
-            "sentiment": "Positive",
-            "compound": 0.718
-          },
-          {
-            "title": "Gold edges higher as investors assess Fed rate-hike odds",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-19T02:09:14Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 66.73,
-  "trade_probability": 60.04,
+  "confirmation_score": 67.09,
+  "trade_probability": 60.25,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
