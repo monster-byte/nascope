@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T07:45:52.163018+00:00",
+  "generated_at": "2026-10-20T08:01:18.030272+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 100.0,
-      "status": "green",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.1022,
-          "up": true
+          "change_pct": -0.0175,
+          "up": false
         },
         "MSFT": {
-          "change_pct": 1.2866,
+          "change_pct": 0.1896,
           "up": true
         },
         "NVDA": {
-          "change_pct": 1.5629,
-          "up": true
+          "change_pct": -0.0507,
+          "up": false
         },
         "AMZN": {
-          "change_pct": 5.394,
-          "up": true
+          "change_pct": -0.3194,
+          "up": false
         }
       }
     },
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.24,
+      "score": 53.2,
       "status": "yellow",
       "details": {
         "current_dxy": 101.77,
-        "change_5d_pct": -0.405
+        "change_5d_pct": -0.4
       }
     },
     "macro": {
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.52,
+      "score": 53.5,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.01,
+        "avg_compound": 0.07,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Booker rival who ‘shoots from the hip’ hopes viral debate moment can break GOP’s Senate drought",
+            "source": "Fox News",
+            "publishedAt": "2026-10-19T08:00:01Z",
+            "sentiment": "Positive",
+            "compound": 0.421
+          },
+          {
+            "title": "DA hike news: Will central govt employees get a 3% DA hike on October 21?",
+            "source": "Economictimes.com",
+            "publishedAt": "2026-10-19T07:55:15Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "3 Canadian Penny Stocks With Market Caps Over $1 Billion",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-19T07:52:18Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Global Market: Indonesia stock exchange to meet MSCI after downgrade warning triggers market rout",
             "source": "The Times of India",
@@ -111,27 +132,6 @@
             "publishedAt": "2026-10-19T07:36:16Z",
             "sentiment": "Negative",
             "compound": -0.382
-          },
-          {
-            "title": "Stocks to buy: What's the outlook for Nifty for October 19-October 23 week? Top stock recommendations",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-19T07:22:16Z",
-            "sentiment": "Positive",
-            "compound": 0.542
-          },
-          {
-            "title": "Banks tap RBI's first cash auction in 3 months as market rates spike",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-19T07:16:47Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Sensex crashes 765 pts intraday: Bank stocks, FPI selling among key factors",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-19T07:15:44Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 65.98,
-  "trade_probability": 59.59,
+  "confirmation_score": 46.0,
+  "trade_probability": 47.6,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
