@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T21:01:22.071199+00:00",
+  "generated_at": "2026-10-20T21:15:58.669053+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.9649,
+          "change_pct": -0.962,
           "up": false
         },
         "MSFT": {
@@ -25,11 +25,11 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.3223,
+          "change_pct": -0.3315,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.1672,
+          "change_pct": -0.1864,
           "up": false
         }
       }
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.62,
+      "score": 53.73,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.72,
-        "change_5d_pct": -0.452
+        "current_dxy": 101.7,
+        "change_5d_pct": -0.467
       }
     },
     "macro": {
@@ -84,13 +84,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.19,
+      "score": 54.73,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.024,
+        "avg_compound": 0.095,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Anthropic Gives 5% of Itself to the Public. Musk Answers by Giving Away SpaceX Shares",
+            "source": "Decrypt",
+            "publishedAt": "2026-10-19T21:15:04Z",
+            "sentiment": "Positive",
+            "compound": 0.557
+          },
+          {
+            "title": "Consumer sentiment hits 15-year low ahead of holiday season",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-19T21:14:13Z",
+            "sentiment": "Neutral",
+            "compound": 0.153
+          },
+          {
+            "title": "Stock investors are ready to move on from the AI rout. Credit investors are not",
+            "source": "CNBC",
+            "publishedAt": "2026-10-19T21:12:12Z",
+            "sentiment": "Positive",
+            "compound": 0.625
+          },
+          {
+            "title": "Defense stocks plummet as investors worry possible Dem midterms win could thwart Trump’s spending plans",
+            "source": "New York Post",
+            "publishedAt": "2026-10-19T21:02:58Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
           {
             "title": "Century Fire Protection Acquires A&A Fire Protection",
             "source": "Financial Post",
@@ -102,34 +130,6 @@
             "title": "Trump faces bipartisan backlash over waiving Russia sanctions",
             "source": "CBS News",
             "publishedAt": "2026-10-19T21:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Tech stocks had a nice oversold bounce on Monday. Earnings this week will determine if it's for real",
-            "source": "CNBC",
-            "publishedAt": "2026-10-19T20:57:14Z",
-            "sentiment": "Positive",
-            "compound": 0.421
-          },
-          {
-            "title": "Walmart looks to raise US$6 billion from U.S., Canadian bond sales",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-19T20:49:10Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Rosen Law Firm Announces Investigation of Breaches of Fiduciary Duties by the Directors and Officers of Sprout Social, Inc. - SPT",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-19T20:48:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "AI Stocks Lead Rebound on Wall Street",
-            "source": "Newser",
-            "publishedAt": "2026-10-19T20:40:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 39.0,
-  "trade_probability": 43.4,
+  "confirmation_score": 39.33,
+  "trade_probability": 43.6,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
