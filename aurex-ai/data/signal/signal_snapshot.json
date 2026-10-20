@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T09:31:10.926309+00:00",
+  "generated_at": "2026-10-20T09:45:57.293302+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.47,
+      "score": 52.83,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.86,
-        "change_5d_pct": -0.309
+        "current_dxy": 101.82,
+        "change_5d_pct": -0.354
       }
     },
     "macro": {
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.71,
+      "score": 49.01,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.046,
-        "articles_analyzed": 24,
+        "avg_compound": -0.02,
+        "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Home repair costs jump 76% in a decade",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-19T09:38:47Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Sterling today: Pound edges lower; AI jitters cloud dollar outlook",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-19T09:38:22Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "Sky Gold And Diamonds Stock And 2 Other Indian Growth Stocks To Own",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-19T09:37:44Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
           {
             "title": "Nutex Health Schedules 2026 Third Quarter Financial Results Release and Conference Call",
             "source": "PRNewswire",
@@ -111,27 +132,6 @@
             "publishedAt": "2026-10-19T09:26:58Z",
             "sentiment": "Positive",
             "compound": 0.202
-          },
-          {
-            "title": "The concern that the KPMG US CEO keeps hearing from other executives",
-            "source": "Business Insider",
-            "publishedAt": "2026-10-19T09:18:01Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "CME’s bitcoin cash, uniswap futures, global PMIs: Crypto Week Ahead",
-            "source": "CoinDesk",
-            "publishedAt": "2026-10-19T09:12:39Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Volkswagen plans to freeze salaries until 2030, works council says",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-19T09:09:27Z",
-            "sentiment": "Neutral",
-            "compound": 0.052
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 45.41,
-  "trade_probability": 47.25,
+  "confirmation_score": 45.56,
+  "trade_probability": 47.34,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
