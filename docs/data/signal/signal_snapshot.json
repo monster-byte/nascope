@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T18:15:49.562569+00:00",
+  "generated_at": "2026-10-20T18:31:13.181036+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 0.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.841,
+          "change_pct": -0.8658,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.0244,
-          "up": true
+          "change_pct": -0.0995,
+          "up": false
         },
         "NVDA": {
-          "change_pct": 0.0115,
-          "up": true
+          "change_pct": -0.1013,
+          "up": false
         },
         "AMZN": {
-          "change_pct": -0.0798,
+          "change_pct": -0.2928,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29583.49,
-        "sma50": 29863.37,
-        "sma200": 27781.27
+        "last_price": 29558.0,
+        "sma50": 29862.86,
+        "sma200": 27781.14
       }
     },
     "vxn": {
@@ -55,20 +55,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 64.72,
+      "score": 64.41,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.121,
-        "change_5d_pct": -1.84
+        "current_yield_pct": 5.123,
+        "change_5d_pct": -1.802
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.65,
+      "score": 53.64,
       "status": "yellow",
       "details": {
         "current_dxy": 101.71,
-        "change_5d_pct": -0.456
+        "change_5d_pct": -0.455
       }
     },
     "macro": {
@@ -84,54 +84,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.46,
+      "score": 47.93,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.091,
+        "avg_compound": -0.041,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Stock Market Today: S&P 500 and Nasdaq rally as tech stocks bounce, Dow wavers; oil slips while yields tick up - MarketWatch",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-10-19T18:12:25Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Wall Street’s Bitcoin bears quietly retreated despite recent plunge toward $80,000",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-10-19T18:00:34Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Coffee Break: Trump Regime Wilding Amid Scandals and Backstabbing",
-            "source": "Nakedcapitalism.com",
-            "publishedAt": "2026-10-19T18:00:23Z",
-            "sentiment": "Negative",
-            "compound": -0.494
-          },
-          {
-            "title": "The dark forces driving discontent across the developed world",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-10-19T18:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Generational Divide and K-Shaped Economy Shape Holiday Retail Outlook",
-            "source": "WWD",
-            "publishedAt": "2026-10-19T18:00:00Z",
+            "title": "Morgan Stanley’s favorite AI stock is 92% exposed to the $1.6 trillion buildout it’s bullish on",
+            "source": "Fortune",
+            "publishedAt": "2026-10-19T18:30:01Z",
             "sentiment": "Positive",
             "compound": 0.402
           },
           {
-            "title": "Chip stocks hit lowest level against the S&P 500 since April 2026",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-19T17:57:42Z",
+            "title": "APP Investors Have Opportunity to Lead AppLovin Corporation Securities Fraud Lawsuit with SBS Law",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-19T18:28:00Z",
+            "sentiment": "Neutral",
+            "compound": -0.178
+          },
+          {
+            "title": "BIDU Investors Have Opportunity to Lead Baidu, Inc. Securities Fraud Lawsuit with SBS Law",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-19T18:26:00Z",
+            "sentiment": "Neutral",
+            "compound": -0.178
+          },
+          {
+            "title": "ASTS Investors Have Opportunity to Lead AST SpaceMobile, Inc. Securities Fraud Lawsuit with SBS Law",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-19T18:25:00Z",
+            "sentiment": "Neutral",
+            "compound": -0.178
+          },
+          {
+            "title": "LINC Investors Have Opportunity to Lead Lincoln Educational Services Corporation Securities Fraud Lawsuit with SBS Law",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-19T18:24:00Z",
+            "sentiment": "Neutral",
+            "compound": -0.178
+          },
+          {
+            "title": "US bans DeepSeek AI from government use as tech tension with China continues",
+            "source": "BBC News",
+            "publishedAt": "2026-10-19T18:21:54Z",
             "sentiment": "Negative",
-            "compound": -0.382
+            "compound": -0.318
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 51.91,
-  "trade_probability": 51.15,
+  "confirmation_score": 38.59,
+  "trade_probability": 43.15,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
