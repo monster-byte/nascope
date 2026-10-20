@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T08:01:18.030272+00:00",
+  "generated_at": "2026-10-20T08:15:51.199896+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.0175,
+          "change_pct": -0.0204,
           "up": false
         },
         "MSFT": {
@@ -25,11 +25,11 @@
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.0507,
+          "change_pct": -0.0414,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.3194,
+          "change_pct": -0.3002,
           "up": false
         }
       }
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.2,
+      "score": 53.19,
       "status": "yellow",
       "details": {
         "current_dxy": 101.77,
-        "change_5d_pct": -0.4
+        "change_5d_pct": -0.398
       }
     },
     "macro": {
@@ -84,54 +84,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.5,
+      "score": 55.27,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.07,
+        "avg_compound": 0.105,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "There is a 'Palestinian State' already - in the Rive Gauche",
+            "source": "Israelnationalnews.com",
+            "publishedAt": "2026-10-19T08:14:42Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Nasdaq futures gain as investors buy the dip in the AI trade: Live updates - CNBC",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-10-19T08:13:06Z",
+            "sentiment": "Positive",
+            "compound": 0.527
+          },
+          {
+            "title": "Regarding September Inflation, Look Beyond the Headlines",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-19T08:07:39Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Anthropic tokenized pre-IPO asset debuts on Solana via CoinGecko",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-19T08:03:33Z",
+            "sentiment": "Positive",
+            "compound": 0.361
+          },
+          {
+            "title": "Global Market: China backs IMF scrutiny of fiscal risks in major economies",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-19T08:01:53Z",
+            "sentiment": "Negative",
+            "compound": -0.318
+          },
           {
             "title": "Booker rival who ‘shoots from the hip’ hopes viral debate moment can break GOP’s Senate drought",
             "source": "Fox News",
             "publishedAt": "2026-10-19T08:00:01Z",
             "sentiment": "Positive",
             "compound": 0.421
-          },
-          {
-            "title": "DA hike news: Will central govt employees get a 3% DA hike on October 21?",
-            "source": "Economictimes.com",
-            "publishedAt": "2026-10-19T07:55:15Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "3 Canadian Penny Stocks With Market Caps Over $1 Billion",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-19T07:52:18Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Global Market: Indonesia stock exchange to meet MSCI after downgrade warning triggers market rout",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-19T07:45:06Z",
-            "sentiment": "Negative",
-            "compound": -0.34
-          },
-          {
-            "title": "Global Market: Eurozone bond selloff to weigh on growth, curb inflation, Lagarde says",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-19T07:41:07Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "JD.com: China's Sluggish Domestic Consumption May Render It A Value Trap",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-19T07:36:16Z",
-            "sentiment": "Negative",
-            "compound": -0.382
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 46.0,
-  "trade_probability": 47.6,
+  "confirmation_score": 46.16,
+  "trade_probability": 47.7,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
