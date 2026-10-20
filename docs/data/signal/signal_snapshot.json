@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T03:01:24.438461+00:00",
+  "generated_at": "2026-10-20T03:15:49.606398+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.54,
+      "score": 55.79,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.87,
-        "change_5d_pct": -0.692
+        "current_dxy": 101.84,
+        "change_5d_pct": -0.723
       }
     },
     "macro": {
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 60.61,
+      "score": 60.1,
       "status": "yellow",
       "details": {
         "overall_sentiment": "BULLISH",
-        "avg_compound": 0.212,
+        "avg_compound": 0.202,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Are you being ripped off at the checkout? The hidden pricing tactic that could cost shoppers more - and how to protect your wallet",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-10-19T03:09:39Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "Are DSGR, OPCH, PRTH, UTZ Obtaining Fair Deals for their Shareholders?",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-19T03:08:00Z",
+            "sentiment": "Positive",
+            "compound": 0.318
+          },
+          {
+            "title": "Halloween horror as cash-strapped Americans slash spending on the spooky holiday and trick-or-treating turns into a financial nightmare",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-10-19T03:03:20Z",
+            "sentiment": "Negative",
+            "compound": -0.477
+          },
           {
             "title": "Oil, foreign flows in focus for rupee; bond traders eye rate-hike bets",
             "source": "The Times of India",
@@ -111,27 +132,6 @@
             "publishedAt": "2026-10-19T02:44:25Z",
             "sentiment": "Positive",
             "compound": 0.202
-          },
-          {
-            "title": "Anthropic says it will commit 5% of its shares to 'public benefit fund'",
-            "source": "BBC News",
-            "publishedAt": "2026-10-19T02:41:41Z",
-            "sentiment": "Positive",
-            "compound": 0.751
-          },
-          {
-            "title": "Stock market today: Sensex, Nifty50 clock best week in 6 months, will the rally continue?",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-19T02:37:51Z",
-            "sentiment": "Positive",
-            "compound": 0.637
-          },
-          {
-            "title": "8th Pay Commission: What is dearness relief and how is it different from DA? Expert explains",
-            "source": "Livemint",
-            "publishedAt": "2026-10-19T02:28:52Z",
-            "sentiment": "Positive",
-            "compound": 0.691
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 67.1,
-  "trade_probability": 60.26,
+  "confirmation_score": 67.07,
+  "trade_probability": 60.24,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
