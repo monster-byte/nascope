@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T22:31:08.904574+00:00",
+  "generated_at": "2026-10-20T22:35:19.525774+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.962,
+          "change_pct": -0.9649,
           "up": false
         },
         "MSFT": {
@@ -25,11 +25,11 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.3315,
+          "change_pct": -0.3223,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.1864,
+          "change_pct": -0.1672,
           "up": false
         }
       }
@@ -84,10 +84,56 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.0,
+      "score": 57.86,
       "status": "yellow",
       "details": {
-        "error": "news_fetch_failed: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?q=Nasdaq+OR+%22Federal+Reserve%22+OR+%22stock+market%22+OR+inflation&language=en&sortBy=publishedAt&pageSize=25&apiKey=280ea038bd7e4ccb91d87f9d115484d4"
+        "overall_sentiment": "NEUTRAL",
+        "avg_compound": 0.157,
+        "articles_analyzed": 25,
+        "top_headlines": [
+          {
+            "title": "AI stocks rally ahead of Meta earnings",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-19T22:30:37Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Why the Trump administration is fighting over a golf course",
+            "source": "Vox",
+            "publishedAt": "2026-10-19T22:28:33Z",
+            "sentiment": "Negative",
+            "compound": -0.361
+          },
+          {
+            "title": "Jim Cramer says the recent AI stock sell-off echoes a crucial lesson from the 1987 market crash",
+            "source": "CNBC",
+            "publishedAt": "2026-10-19T22:22:45Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
+          {
+            "title": "Applied Materials, Lam Research, Marvell Technology, Micron, and Semtech Shares Skyrocket, What You Need To Know",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-19T22:16:48Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "Beats Stock Market Upswing: What Investors Need to Know",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-19T22:16:34Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "6.0L Vortec-Powered 1970 Chevrolet Pickup 4×4 4-Speed",
+            "source": "Bringatrailer.com",
+            "publishedAt": "2026-10-19T22:15:19Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          }
+        ]
       }
     },
     "patent_momentum": {
@@ -99,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 38.89,
-  "trade_probability": 43.33,
+  "confirmation_score": 39.59,
+  "trade_probability": 43.75,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
