@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T14:15:59.453309+00:00",
+  "generated_at": "2026-10-20T14:31:10.055128+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 0.0,
-      "status": "red",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.188,
+          "change_pct": -0.2507,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.3511,
+          "change_pct": -0.1662,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.1059,
-          "up": false
+          "change_pct": 0.4906,
+          "up": true
         },
         "AMZN": {
-          "change_pct": -0.0572,
-          "up": false
+          "change_pct": 0.4103,
+          "up": true
         }
       }
     },
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29566.31,
-        "sma50": 29863.03,
-        "sma200": 27781.18
+        "last_price": 29694.44,
+        "sma50": 29865.59,
+        "sma200": 27781.82
       }
     },
     "vxn": {
@@ -55,20 +55,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 67.02,
+      "score": 68.25,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.106,
-        "change_5d_pct": -2.128
+        "current_yield_pct": 5.098,
+        "change_5d_pct": -2.281
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.75,
+      "score": 54.09,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.7,
-        "change_5d_pct": -0.469
+        "current_dxy": 101.66,
+        "change_5d_pct": -0.512
       }
     },
     "macro": {
@@ -84,54 +84,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.78,
+      "score": 49.75,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.056,
+        "avg_compound": -0.005,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Canada's annual inflation rate rose to 3.1% in September",
-            "source": "RTE",
-            "publishedAt": "2026-10-19T14:14:05Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "S&P 500, Nasdaq set to open higher as AI stocks rebound ahead of earnings rush - Reuters",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-10-19T14:13:22Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "S&P 500, Nasdaq open higher as AI stocks rebound ahead of major earnings",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-19T14:11:33Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "European stocks fall after violent protests in France, while oil drops as Trump puts Russia sanctions on hold",
-            "source": "Fortune",
-            "publishedAt": "2026-10-19T14:09:18Z",
+            "title": "Disc Medicine Stock Soars 31% After Bitopertin Hits All Goals in Pivotal Trial for Rare Sunlight Disorder",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-10-19T14:26:17Z",
             "sentiment": "Negative",
-            "compound": -0.7
+            "compound": -0.402
           },
           {
-            "title": "FOXF SHAREHOLDER INVESTIGATION: SueWallSt Notifies Investors of Potential Securities Claims Involving Fox Factory Holding",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-19T14:07:00Z",
+            "title": "CLF Stock Flashes Buy Signal On Steelmaker's Massive $4 Bil Outlook",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-19T14:25:55Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Why B2B Checks Still Move $15 Trillion a Year",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-19T14:24:29Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Here Are Monday’s Top Wall Street Analyst Research Calls: Ameriprise Financial, Boyd Gaming, CoreWeave, Datadog, Intel, JetBlue Airways, PayPal Holdings, Pinterest, Whirlpool, and More",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-19T14:24:23Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "AXT Shares Rebound 8% as Indium Phosphide Supplier Recovers From Friday Sell-Off Ahead of Quarterly Results",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-10-19T14:23:52Z",
             "sentiment": "Positive",
             "compound": 0.296
           },
           {
-            "title": "GOP Rep: No One Cares About Trump's Corruption For Midterms",
-            "source": "Crooksandliars.com",
-            "publishedAt": "2026-10-19T14:01:31Z",
-            "sentiment": "Negative",
-            "compound": -0.569
+            "title": "Applied Digital Stock Jumps 7% After Top Executives Buy Shares Near 52-Week Low Following AI Sell-Off",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-10-19T14:23:16Z",
+            "sentiment": "Positive",
+            "compound": 0.226
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 39.39,
-  "trade_probability": 43.63,
+  "confirmation_score": 52.81,
+  "trade_probability": 51.69,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
