@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T01:31:11.197875+00:00",
+  "generated_at": "2026-10-20T01:45:54.602723+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.15,
+      "score": 54.89,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.92,
-        "change_5d_pct": -0.643
+        "current_dxy": 101.95,
+        "change_5d_pct": -0.611
       }
     },
     "macro": {
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.4,
+      "score": 51.35,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.048,
+        "avg_compound": 0.027,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "BOJ chief says underlying inflation 'quite close' to price goal",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-19T01:34:34Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Welker Calls Out Bessent For Blaming Biden For The Trump Economy",
             "source": "Crooksandliars.com",
@@ -125,13 +132,6 @@
             "publishedAt": "2026-10-19T01:04:31Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Americans 75 and Older Are Now the Wealthiest Age Group but Her $504,000 Net Worth Can’t Undo Claiming Social Security at 62",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-19T01:04:15Z",
-            "sentiment": "Positive",
-            "compound": 0.761
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 66.32,
-  "trade_probability": 59.79,
+  "confirmation_score": 66.21,
+  "trade_probability": 59.73,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
