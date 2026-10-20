@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T21:31:07.475731+00:00",
+  "generated_at": "2026-10-20T21:45:49.147195+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.9649,
+          "change_pct": -0.962,
           "up": false
         },
         "MSFT": {
@@ -25,11 +25,11 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.3223,
+          "change_pct": -0.3315,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.1672,
+          "change_pct": -0.1864,
           "up": false
         }
       }
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.7,
+      "score": 53.71,
       "status": "yellow",
       "details": {
         "current_dxy": 101.71,
-        "change_5d_pct": -0.463
+        "change_5d_pct": -0.464
       }
     },
     "macro": {
@@ -84,56 +84,10 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.16,
+      "score": 50.0,
       "status": "yellow",
       "details": {
-        "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.083,
-        "articles_analyzed": 24,
-        "top_headlines": [
-          {
-            "title": "News of the day: Lithium legal battles, inflation on the rise, rate hike possibility, Stelco explainer, mining investment supercycle and more",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-19T21:30:54Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "Anthropic Gives 5% of Itself to the Public. Musk Answers by Giving Away SpaceX Shares",
-            "source": "Decrypt",
-            "publishedAt": "2026-10-19T21:15:04Z",
-            "sentiment": "Positive",
-            "compound": 0.557
-          },
-          {
-            "title": "Consumer sentiment hits 15-year low ahead of holiday season",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-19T21:14:13Z",
-            "sentiment": "Neutral",
-            "compound": 0.153
-          },
-          {
-            "title": "Stock investors are ready to move on from the AI rout. Credit investors are not",
-            "source": "CNBC",
-            "publishedAt": "2026-10-19T21:12:12Z",
-            "sentiment": "Positive",
-            "compound": 0.625
-          },
-          {
-            "title": "Defense stocks plummet as investors worry possible Dem midterms win could thwart Trump’s spending plans",
-            "source": "New York Post",
-            "publishedAt": "2026-10-19T21:02:58Z",
-            "sentiment": "Positive",
-            "compound": 0.34
-          },
-          {
-            "title": "Century Fire Protection Acquires A&A Fire Protection",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-19T21:01:01Z",
-            "sentiment": "Negative",
-            "compound": -0.586
-          }
-        ]
+        "error": "news_fetch_failed: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?q=Nasdaq+OR+%22Federal+Reserve%22+OR+%22stock+market%22+OR+inflation&language=en&sortBy=publishedAt&pageSize=25&apiKey=280ea038bd7e4ccb91d87f9d115484d4"
       }
     },
     "patent_momentum": {
@@ -145,8 +99,8 @@
       }
     }
   },
-  "confirmation_score": 39.28,
-  "trade_probability": 43.57,
+  "confirmation_score": 38.9,
+  "trade_probability": 43.34,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
