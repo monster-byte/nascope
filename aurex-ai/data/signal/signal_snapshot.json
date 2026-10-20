@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T03:45:47.078419+00:00",
+  "generated_at": "2026-10-20T04:01:19.446887+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -40,7 +40,7 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29529.34,
+        "last_price": 29529.35,
         "sma50": 29864.14,
         "sma200": 27759.38
       }
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.77,
+      "score": 54.68,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.84,
-        "change_5d_pct": -0.721
+        "current_dxy": 101.98,
+        "change_5d_pct": -0.585
       }
     },
     "macro": {
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 59.71,
+      "score": 60.29,
       "status": "yellow",
       "details": {
-        "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.194,
+        "overall_sentiment": "BULLISH",
+        "avg_compound": 0.206,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Think, Vote, Win",
+            "source": "Americanthinker.com",
+            "publishedAt": "2026-10-19T04:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.586
+          },
+          {
+            "title": "Fed Hike Before December? Ben Emons Says Data, Not Midterms, Decides",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-19T03:51:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Bitcoin, Korea’s Kospi and Nasdaq futures rally as China GDP beats estimates",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-19T03:49:57Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "A Data Center Deal Lurks Behind Trump’s Russian Diesel Debacle",
             "source": "CleanTechnica",
@@ -111,27 +132,6 @@
             "publishedAt": "2026-10-19T03:36:58Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "US inflation hit 3.7%, and surging heating oil is raising alarms before winter",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-19T03:36:20Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "Gold edges higher on softer oil; Fed rate outlook in focus",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-19T03:36:01Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Asian stocks start week on back foot, tracking tech-led Wall St losses",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-19T03:35:58Z",
-            "sentiment": "Negative",
-            "compound": -0.402
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 67.04,
-  "trade_probability": 60.22,
+  "confirmation_score": 66.99,
+  "trade_probability": 60.19,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
