@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T22:35:19.525774+00:00",
+  "generated_at": "2026-10-20T22:45:49.850112+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.9649,
+          "change_pct": -0.962,
           "up": false
         },
         "MSFT": {
@@ -25,11 +25,11 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.3223,
+          "change_pct": -0.3315,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.1672,
+          "change_pct": -0.1864,
           "up": false
         }
       }
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 57.86,
+      "score": 55.54,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.157,
+        "avg_compound": 0.111,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "UBS explains how looming Fed rate hike could impact your investments",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-19T22:45:07Z",
+            "sentiment": "Neutral",
+            "compound": -0.128
+          },
+          {
+            "title": "Netflix Faces Anxious Wall Street As Earnings Season Kicks Off",
+            "source": "Deadline",
+            "publishedAt": "2026-10-19T22:45:00Z",
+            "sentiment": "Negative",
+            "compound": -0.25
+          },
           {
             "title": "AI stocks rally ahead of Meta earnings",
             "source": "Biztoc.com",
@@ -118,20 +132,6 @@
             "publishedAt": "2026-10-19T22:16:48Z",
             "sentiment": "Positive",
             "compound": 0.296
-          },
-          {
-            "title": "Beats Stock Market Upswing: What Investors Need to Know",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-19T22:16:34Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "6.0L Vortec-Powered 1970 Chevrolet Pickup 4×4 4-Speed",
-            "source": "Bringatrailer.com",
-            "publishedAt": "2026-10-19T22:15:19Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 39.59,
-  "trade_probability": 43.75,
+  "confirmation_score": 39.38,
+  "trade_probability": 43.63,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
