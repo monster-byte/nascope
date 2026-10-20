@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T15:31:08.807861+00:00",
+  "generated_at": "2026-10-20T15:46:01.054238+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
+      "score": 0.0,
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.8308,
+          "change_pct": -0.7346,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.3465,
+          "change_pct": -0.2882,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.2487,
+          "change_pct": -0.1913,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.0681,
-          "up": true
+          "change_pct": -0.0952,
+          "up": false
         }
       }
     },
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29547.58,
-        "sma50": 29862.65,
-        "sma200": 27781.09
+        "last_price": 29542.03,
+        "sma50": 29862.54,
+        "sma200": 27781.06
       }
     },
     "vxn": {
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.94,
+      "score": 53.35,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.68,
-        "change_5d_pct": -0.492
+        "current_dxy": 101.75,
+        "change_5d_pct": -0.419
       }
     },
     "macro": {
@@ -84,13 +84,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 43.92,
+      "score": 45.45,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.122,
+        "avg_compound": -0.091,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Bank of Canada surveys show rising inflation expectations, potential rate hike",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-19T15:36:45Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Elon Musk (Kinda) Promises to Give SpaceX Shares to ‘Every Kid In America’",
+            "source": "Gizmodo.com",
+            "publishedAt": "2026-10-19T15:35:39Z",
+            "sentiment": "Positive",
+            "compound": 0.543
+          },
+          {
+            "title": "Bank of Canada survey raises odds of 25bps rate hike consideration",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-19T15:34:41Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Bank of Canada survey: business sentiment worsens, inflation expectations rise",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-19T15:32:53Z",
+            "sentiment": "Negative",
+            "compound": -0.477
+          },
           {
             "title": "Newmark Arranges $369 Million Fannie Mae Credit Facility for April Housing Florida Portfolio",
             "source": "PRNewswire",
@@ -102,34 +130,6 @@
             "title": "Cook Case Tests The Limits Of Fed Independence",
             "source": "Biztoc.com",
             "publishedAt": "2026-10-19T15:24:42Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "US Treasury yields nudge higher as AI fears ebb",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-19T15:21:19Z",
-            "sentiment": "Negative",
-            "compound": -0.25
-          },
-          {
-            "title": "AppLovin Corporation (APP) Investors Have Opportunity to Lead Securities Fraud Class Action Lawsuit - Contact KTMC",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-19T15:20:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.178
-          },
-          {
-            "title": "How has the cost of living changed in France, Italy, Spain and Portugal?",
-            "source": "Al Jazeera English",
-            "publishedAt": "2026-10-19T15:19:04Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Real REMAX Group to Host Third Quarter 2026 Earnings Conference Call",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-19T15:13:51Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 45.36,
-  "trade_probability": 47.22,
+  "confirmation_score": 38.69,
+  "trade_probability": 43.21,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
