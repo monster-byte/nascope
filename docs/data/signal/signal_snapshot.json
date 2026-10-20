@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T18:01:23.698162+00:00",
+  "generated_at": "2026-10-20T18:15:49.562569+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
-      "status": "red",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.9168,
+          "change_pct": -0.841,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.0019,
-          "up": false
+          "change_pct": 0.0244,
+          "up": true
         },
         "NVDA": {
-          "change_pct": 0.0712,
+          "change_pct": 0.0115,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.2282,
+          "change_pct": -0.0798,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29589.29,
-        "sma50": 29863.49,
-        "sma200": 27781.29
+        "last_price": 29583.49,
+        "sma50": 29863.37,
+        "sma200": 27781.27
       }
     },
     "vxn": {
@@ -55,20 +55,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 65.33,
-      "status": "green",
+      "score": 64.72,
+      "status": "yellow",
       "details": {
-        "current_yield_pct": 5.117,
-        "change_5d_pct": -1.917
+        "current_yield_pct": 5.121,
+        "change_5d_pct": -1.84
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.7,
+      "score": 53.65,
       "status": "yellow",
       "details": {
         "current_dxy": 101.71,
-        "change_5d_pct": -0.463
+        "change_5d_pct": -0.456
       }
     },
     "macro": {
@@ -91,6 +91,13 @@
         "avg_compound": -0.091,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Stock Market Today: S&P 500 and Nasdaq rally as tech stocks bounce, Dow wavers; oil slips while yields tick up - MarketWatch",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-10-19T18:12:25Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Wall Street’s Bitcoin bears quietly retreated despite recent plunge toward $80,000",
             "source": "CryptoSlate",
@@ -125,13 +132,6 @@
             "publishedAt": "2026-10-19T17:57:42Z",
             "sentiment": "Negative",
             "compound": -0.382
-          },
-          {
-            "title": "From France to Albania, social unrest is setting Europe's streets ablaze",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-19T17:53:38Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 45.24,
-  "trade_probability": 47.14,
+  "confirmation_score": 51.91,
+  "trade_probability": 51.15,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
