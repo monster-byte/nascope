@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T13:31:10.558353+00:00",
+  "generated_at": "2026-10-20T13:45:50.303631+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 0.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.5757,
+          "change_pct": -0.8716,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.184,
-          "up": true
+          "change_pct": -1.2317,
+          "up": false
         },
         "NVDA": {
-          "change_pct": -0.7524,
+          "change_pct": -1.7267,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.3211,
-          "up": true
+          "change_pct": -0.8492,
+          "up": false
         }
       }
     },
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29379.21,
-        "sma50": 29859.28,
-        "sma200": 27780.24
+        "last_price": 29240.51,
+        "sma50": 29856.51,
+        "sma200": 27779.55
       }
     },
     "vxn": {
@@ -55,20 +55,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 66.25,
+      "score": 67.02,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.111,
-        "change_5d_pct": -2.032
+        "current_yield_pct": 5.106,
+        "change_5d_pct": -2.128
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.48,
+      "score": 53.92,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.74,
-        "change_5d_pct": -0.435
+        "current_dxy": 101.68,
+        "change_5d_pct": -0.49
       }
     },
     "macro": {
@@ -84,54 +84,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.05,
+      "score": 52.57,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.101,
+        "avg_compound": 0.051,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "French protest violence: A ‘Christmas present’ for Le Pen’s far right?",
+            "source": "Al Jazeera English",
+            "publishedAt": "2026-10-19T13:41:23Z",
+            "sentiment": "Negative",
+            "compound": -0.727
+          },
+          {
+            "title": "Even Republicans Are Waking Up to Trump’s Corruption",
+            "source": "Thenation.com",
+            "publishedAt": "2026-10-19T13:40:51Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Wall Street mixed at open, Nasdaq rallies",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-19T13:39:06Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Do some exercise, don't gamble, and never buy a boat: Michael Burry shared his 10 top life lessons",
+            "source": "Business Insider",
+            "publishedAt": "2026-10-19T13:39:06Z",
+            "sentiment": "Positive",
+            "compound": 0.494
+          },
+          {
+            "title": "US stocks today: S&P 500, Nasdaq open higher as AI stocks rebound ahead of major earnings",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-19T13:38:31Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "French Game Store Employee Pierre Goes Viral For Defying Rioters Amid Protests",
             "source": "Kotaku",
             "publishedAt": "2026-10-19T13:29:33Z",
             "sentiment": "Negative",
             "compound": -0.226
-          },
-          {
-            "title": "Why Is Lululemon Stock Rising, and Is It a Buying Opportunity?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-19T13:26:23Z",
-            "sentiment": "Positive",
-            "compound": 0.421
-          },
-          {
-            "title": "USA Rare Earth: Millionaire Maker or Market Hype? The Honest Truth",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-19T13:25:47Z",
-            "sentiment": "Positive",
-            "compound": 0.681
-          },
-          {
-            "title": "Rimini Street to Report Third Quarter 2026 Financial Results on October 29, 2026",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-19T13:25:43Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Treasury gains shrink for banks in Q2 as rising yields hit trading books",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-19T13:24:41Z",
-            "sentiment": "Positive",
-            "compound": 0.494
-          },
-          {
-            "title": "Stock Futures Rise as Investors Make Cautious Return to Risk",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-19T13:24:13Z",
-            "sentiment": "Negative",
-            "compound": -0.361
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 52.96,
-  "trade_probability": 51.78,
+  "confirmation_score": 39.38,
+  "trade_probability": 43.63,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
