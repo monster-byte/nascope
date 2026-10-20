@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T05:31:07.551385+00:00",
+  "generated_at": "2026-10-20T05:45:51.449438+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.19,
+      "score": 53.21,
       "status": "yellow",
       "details": {
         "current_dxy": 101.77,
-        "change_5d_pct": -0.399
+        "change_5d_pct": -0.401
       }
     },
     "macro": {
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.16,
+      "score": 47.2,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.003,
+        "avg_compound": -0.056,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Property boom: Will real estate prices rise in 2027? CA cites stock market, gold trends, US green card as big reasons",
+            "source": "Livemint",
+            "publishedAt": "2026-10-19T05:40:02Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "NZX falls as Infratil tumbles thanks to data centre woes – Market close",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-10-19T05:33:46Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "How Congress Fixed Social Security During Its Last Crisis",
+            "source": "Foreign Policy",
+            "publishedAt": "2026-10-19T05:32:24Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
           {
             "title": "Two Millennial Dads Are Making MAHA Moms’ Priorities a Campaign Strategy",
             "source": "The Good Men Project",
@@ -111,27 +132,6 @@
             "publishedAt": "2026-10-19T05:24:10Z",
             "sentiment": "Positive",
             "compound": 0.572
-          },
-          {
-            "title": "To Report Earnings Tomorrow: Here Is What To Expect",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-19T05:21:25Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "ASX 200 Rises 0.4% to 8,843 as Banks and Defensive Stocks Lift Market While Challenger Jumps on Takeover Bid",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-10-19T05:12:12Z",
-            "sentiment": "Neutral",
-            "compound": 0.153
-          },
-          {
-            "title": "Stock Market Holiday 2026: Are NSE, BSE closed on October 20 for Dussehra? Check remaining holidays for the year",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-19T05:09:02Z",
-            "sentiment": "Positive",
-            "compound": 0.649
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 65.95,
-  "trade_probability": 59.57,
+  "confirmation_score": 65.68,
+  "trade_probability": 59.41,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
