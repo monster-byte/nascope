@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T19:15:55.904913+00:00",
+  "generated_at": "2026-10-20T19:29:48.782823+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.0961,
+          "change_pct": -1.0903,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.1765,
+          "change_pct": -0.3661,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.3039,
+          "change_pct": -0.4236,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.2415,
+          "change_pct": -0.2851,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29518.12,
-        "sma50": 29862.06,
-        "sma200": 27780.94
+        "last_price": 29480.94,
+        "sma50": 29861.32,
+        "sma200": 27780.75
       }
     },
     "vxn": {
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.62,
+      "score": 53.56,
       "status": "yellow",
       "details": {
         "current_dxy": 101.72,
-        "change_5d_pct": -0.453
+        "change_5d_pct": -0.445
       }
     },
     "macro": {
@@ -84,52 +84,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.28,
+      "score": 55.59,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.086,
+        "avg_compound": 0.112,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Financial markets betting on BoC rate hike next week despite subdued inflation data",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-19T19:13:29Z",
+            "title": "Hedge funds retreat from tech stocks at fastest pace in a decade, Goldman Sachs says",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-19T19:28:57Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "Trump Plans to Target Americans Behind on Student Loans",
+            "source": "Rolling Stone",
+            "publishedAt": "2026-10-19T19:26:11Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Zillow brings specialized housing intelligence to Claude, with a path to tours, agents and financing",
+            "title": "CCB Investors Have Opportunity to Lead Coastal Financial Corporation Securities Fraud Lawsuit with SBS Law",
             "source": "PRNewswire",
-            "publishedAt": "2026-10-19T19:13:00Z",
-            "sentiment": "Positive",
-            "compound": 0.477
-          },
-          {
-            "title": "The Bond Market’s Warning – and Three Stocks Worth Watching",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-19T19:12:43Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
-          },
-          {
-            "title": "Economy would’ve collapsed without Tinubu’s reforms, says Shettima",
-            "source": "The Punch",
-            "publishedAt": "2026-10-19T19:11:07Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "NCPL Investors Have Opportunity to Lead Netcapital Inc. Securities Fraud Lawsuit with SBS Law",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-19T19:11:00Z",
+            "publishedAt": "2026-10-19T19:25:00Z",
             "sentiment": "Neutral",
             "compound": -0.178
           },
           {
-            "title": "Drain Pipe: Are Swing Voters Going Extinct?",
-            "source": "The Daily Caller",
-            "publishedAt": "2026-10-19T19:05:59Z",
+            "title": "Exclusive — HUD Secretary Scott Turner Defends Trump Housing Agenda as Builder Confidence Falls to 14-Year Low",
+            "source": "Breitbart News",
+            "publishedAt": "2026-10-19T19:20:20Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "Hedge funds retreat from tech at fastest pace in a decade as AI trade weakens",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-19T19:16:29Z",
+            "sentiment": "Neutral",
+            "compound": -0.128
+          },
+          {
+            "title": "Financial markets betting on BoC rate hike next week despite subdued inflation data",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-19T19:13:29Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 39.28,
-  "trade_probability": 43.57,
+  "confirmation_score": 39.39,
+  "trade_probability": 43.63,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
