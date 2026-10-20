@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T16:31:12.081716+00:00",
+  "generated_at": "2026-10-20T16:45:50.719990+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.6763,
+          "change_pct": -0.6413,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.0751,
+          "change_pct": -0.1587,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.0322,
+          "change_pct": -0.0506,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.1957,
+          "change_pct": -0.0836,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29567.41,
-        "sma50": 29863.05,
-        "sma200": 27781.18
+        "last_price": 29564.51,
+        "sma50": 29862.99,
+        "sma200": 27781.17
       }
     },
     "vxn": {
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.11,
+      "score": 53.45,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.78,
-        "change_5d_pct": -0.389
+        "current_dxy": 101.74,
+        "change_5d_pct": -0.432
       }
     },
     "macro": {
@@ -84,13 +84,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.32,
+      "score": 53.37,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.026,
+        "avg_compound": 0.067,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "From France to Albania, social unrest is setting Europe's streets ablaze",
+            "source": "Abcnews.com",
+            "publishedAt": "2026-10-19T16:44:11Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Metaplanet to take 93.7% stake in Super League through 2,100 BTC deal",
+            "source": "Cointelegraph",
+            "publishedAt": "2026-10-19T16:41:55Z",
+            "sentiment": "Positive",
+            "compound": 0.599
+          },
+          {
+            "title": "Homebuilder Confidence Falls to 14-Year Low as Mortgage Rates Climb",
+            "source": "Breitbart News",
+            "publishedAt": "2026-10-19T16:38:43Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "Hike sanitation workers’ pay in line with inflation: Harish",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-19T16:33:57Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
           {
             "title": "Canada's Inflation Rises to 3.1% as Fuel Oil Prices Jump 58%",
             "source": "OilPrice.com",
@@ -102,34 +130,6 @@
             "title": "A Bank of Canada rate hike could still land in 2026, say economists after inflation reading",
             "source": "Biztoc.com",
             "publishedAt": "2026-10-19T16:26:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Businesses expect inflation rate to remain above 3% over next two years, survey says",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-19T16:25:34Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Private lenders weigh on equity markets as PSU banks buck the selloff",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-19T16:25:32Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "US Exchanges to Extend Trading Hours, Raising the Stakes for Financial Firms",
-            "source": "pymnts.com",
-            "publishedAt": "2026-10-19T16:25:16Z",
-            "sentiment": "Neutral",
-            "compound": 0.178
-          },
-          {
-            "title": "Workday Named a Leader in 2026 Gartner® Magic Quadrant™ for Cloud ERP Finance",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-19T16:25:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 38.84,
-  "trade_probability": 43.3,
+  "confirmation_score": 39.06,
+  "trade_probability": 43.44,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
