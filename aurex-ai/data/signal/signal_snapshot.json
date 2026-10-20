@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T16:45:50.719990+00:00",
+  "generated_at": "2026-10-20T17:01:21.330481+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.6413,
+          "change_pct": -0.7842,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.1587,
+          "change_pct": -0.1087,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.0506,
+          "change_pct": -0.1105,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.0836,
+          "change_pct": -0.0874,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29564.51,
-        "sma50": 29862.99,
-        "sma200": 27781.17
+        "last_price": 29522.28,
+        "sma50": 29862.15,
+        "sma200": 27780.96
       }
     },
     "vxn": {
@@ -55,20 +55,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 64.41,
+      "score": 63.8,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.123,
-        "change_5d_pct": -1.802
+        "current_yield_pct": 5.127,
+        "change_5d_pct": -1.725
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.45,
+      "score": 53.46,
       "status": "yellow",
       "details": {
         "current_dxy": 101.74,
-        "change_5d_pct": -0.432
+        "change_5d_pct": -0.433
       }
     },
     "macro": {
@@ -84,52 +84,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.37,
+      "score": 54.87,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.067,
-        "articles_analyzed": 24,
+        "avg_compound": 0.097,
+        "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Gartner analyst behind tech rout: AI returns are not yet large enough to justify neocloud build-out",
+            "source": "CNBC",
+            "publishedAt": "2026-10-19T16:57:16Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Treasury Yields Climb Ahead Of Federal Reserve’s October Rate Decision",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-19T16:55:55Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "As Investors Pull Back, L.A. Warehouse Users Step In",
+            "source": "Commercial Observer",
+            "publishedAt": "2026-10-19T16:55:02Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "The French are rioting as inflation hits 3.4% while wage growth and GDP remain stagnant. It’s higher in Trump’s America",
+            "source": "Fortune",
+            "publishedAt": "2026-10-19T16:53:23Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "Record Low 28.2% of Japanese Parents Want a Second Child",
+            "source": "Newsonjapan.com",
+            "publishedAt": "2026-10-19T16:48:13Z",
+            "sentiment": "Negative",
+            "compound": -0.202
+          },
           {
             "title": "From France to Albania, social unrest is setting Europe's streets ablaze",
             "source": "Abcnews.com",
             "publishedAt": "2026-10-19T16:44:11Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Metaplanet to take 93.7% stake in Super League through 2,100 BTC deal",
-            "source": "Cointelegraph",
-            "publishedAt": "2026-10-19T16:41:55Z",
-            "sentiment": "Positive",
-            "compound": 0.599
-          },
-          {
-            "title": "Homebuilder Confidence Falls to 14-Year Low as Mortgage Rates Climb",
-            "source": "Breitbart News",
-            "publishedAt": "2026-10-19T16:38:43Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "Hike sanitation workers’ pay in line with inflation: Harish",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-19T16:33:57Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
-          },
-          {
-            "title": "Canada's Inflation Rises to 3.1% as Fuel Oil Prices Jump 58%",
-            "source": "OilPrice.com",
-            "publishedAt": "2026-10-19T16:30:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "A Bank of Canada rate hike could still land in 2026, say economists after inflation reading",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-19T16:26:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 39.06,
-  "trade_probability": 43.44,
+  "confirmation_score": 39.11,
+  "trade_probability": 43.47,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
