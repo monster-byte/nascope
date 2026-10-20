@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T07:31:06.571104+00:00",
+  "generated_at": "2026-10-20T07:45:52.163018+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.23,
+      "score": 53.24,
       "status": "yellow",
       "details": {
         "current_dxy": 101.77,
-        "change_5d_pct": -0.403
+        "change_5d_pct": -0.405
       }
     },
     "macro": {
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.61,
+      "score": 50.52,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.032,
+        "avg_compound": 0.01,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Global Market: Indonesia stock exchange to meet MSCI after downgrade warning triggers market rout",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-19T07:45:06Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
+          {
+            "title": "Global Market: Eurozone bond selloff to weigh on growth, curb inflation, Lagarde says",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-19T07:41:07Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "JD.com: China's Sluggish Domestic Consumption May Render It A Value Trap",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-19T07:36:16Z",
+            "sentiment": "Negative",
+            "compound": -0.382
+          },
           {
             "title": "Stocks to buy: What's the outlook for Nifty for October 19-October 23 week? Top stock recommendations",
             "source": "The Times of India",
@@ -111,27 +132,6 @@
             "publishedAt": "2026-10-19T07:15:44Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-19T07:06:29Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Why Bernstein Thinks the AI Stock Sell-Off Could Help Small Caps",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-19T07:06:19Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "US stocks set for rebound after AI sell-off",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-19T07:05:46Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 66.08,
-  "trade_probability": 59.65,
+  "confirmation_score": 65.98,
+  "trade_probability": 59.59,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
