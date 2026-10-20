@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T13:15:54.461937+00:00",
+  "generated_at": "2026-10-20T13:31:10.558353+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
-      "status": "red",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.0204,
+          "change_pct": -0.5757,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.1896,
+          "change_pct": 0.184,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.0414,
+          "change_pct": -0.7524,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.3002,
-          "up": false
+          "change_pct": 0.3211,
+          "up": true
         }
       }
     },
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29529.35,
-        "sma50": 29864.14,
-        "sma200": 27759.38
+        "last_price": 29379.21,
+        "sma50": 29859.28,
+        "sma200": 27780.24
       }
     },
     "vxn": {
@@ -55,20 +55,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 65.64,
+      "score": 66.25,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.115,
-        "change_5d_pct": -1.955
+        "current_yield_pct": 5.111,
+        "change_5d_pct": -2.032
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.37,
+      "score": 53.48,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.75,
-        "change_5d_pct": -0.422
+        "current_dxy": 101.74,
+        "change_5d_pct": -0.435
       }
     },
     "macro": {
@@ -84,54 +84,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.57,
+      "score": 55.05,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.071,
+        "avg_compound": 0.101,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Public companies object to OKX-ICE’s tokenized stock plan",
-            "source": "Cointelegraph",
-            "publishedAt": "2026-10-19T13:13:53Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "France vows to crack down after protests spiral out of control",
-            "source": "CBS News",
-            "publishedAt": "2026-10-19T13:13:08Z",
+            "title": "French Game Store Employee Pierre Goes Viral For Defying Rioters Amid Protests",
+            "source": "Kotaku",
+            "publishedAt": "2026-10-19T13:29:33Z",
             "sentiment": "Negative",
             "compound": -0.226
           },
           {
-            "title": "Interim fund payments expected after bill becomes law",
-            "source": "Hurriyet Daily News",
-            "publishedAt": "2026-10-19T13:10:51Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "If a Stock Market Crash Is Coming, History Says This Strategy Can Cut Your Portfolio's Recovery Time in Half",
+            "title": "Why Is Lululemon Stock Rising, and Is It a Buying Opportunity?",
             "source": "Biztoc.com",
-            "publishedAt": "2026-10-19T13:09:59Z",
-            "sentiment": "Negative",
-            "compound": -0.586
-          },
-          {
-            "title": "Quantinuum Breaks Error-Correction World Record by 10x, Validating Its Leading Path to Fault-Tolerant Quantum Computing by 2029",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-19T13:08:00Z",
+            "publishedAt": "2026-10-19T13:26:23Z",
             "sentiment": "Positive",
-            "compound": 0.34
+            "compound": 0.421
           },
           {
-            "title": "Canaan Announces Appointment of KPMG in Singapore as Independent Auditor",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-19T13:05:00Z",
+            "title": "USA Rare Earth: Millionaire Maker or Market Hype? The Honest Truth",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-19T13:25:47Z",
+            "sentiment": "Positive",
+            "compound": 0.681
+          },
+          {
+            "title": "Rimini Street to Report Third Quarter 2026 Financial Results on October 29, 2026",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-19T13:25:43Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "Treasury gains shrink for banks in Q2 as rising yields hit trading books",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-19T13:24:41Z",
+            "sentiment": "Positive",
+            "compound": 0.494
+          },
+          {
+            "title": "Stock Futures Rise as Investors Make Cautious Return to Risk",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-19T13:24:13Z",
+            "sentiment": "Negative",
+            "compound": -0.361
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 45.99,
-  "trade_probability": 47.59,
+  "confirmation_score": 52.96,
+  "trade_probability": 51.78,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
