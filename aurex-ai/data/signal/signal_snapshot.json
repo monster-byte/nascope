@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T15:17:28.348945+00:00",
+  "generated_at": "2026-10-20T15:31:08.807861+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.7987,
+          "change_pct": -0.8308,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.3821,
+          "change_pct": -0.3465,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.0368,
-          "up": true
+          "change_pct": -0.2487,
+          "up": false
         },
         "AMZN": {
-          "change_pct": 0.0912,
+          "change_pct": 0.0681,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29607.86,
-        "sma50": 29863.86,
-        "sma200": 27781.39
+        "last_price": 29547.58,
+        "sma50": 29862.65,
+        "sma200": 27781.09
       }
     },
     "vxn": {
@@ -55,20 +55,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 68.86,
+      "score": 67.02,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.094,
-        "change_5d_pct": -2.358
+        "current_yield_pct": 5.106,
+        "change_5d_pct": -2.128
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.13,
+      "score": 53.94,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.65,
-        "change_5d_pct": -0.517
+        "current_dxy": 101.68,
+        "change_5d_pct": -0.492
       }
     },
     "macro": {
@@ -84,52 +84,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.47,
+      "score": 43.92,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.091,
+        "avg_compound": -0.122,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Newmark Arranges $369 Million Fannie Mae Credit Facility for April Housing Florida Portfolio",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-19T15:30:00Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "Cook Case Tests The Limits Of Fed Independence",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-19T15:24:42Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "US Treasury yields nudge higher as AI fears ebb",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-19T15:21:19Z",
+            "sentiment": "Negative",
+            "compound": -0.25
+          },
+          {
+            "title": "AppLovin Corporation (APP) Investors Have Opportunity to Lead Securities Fraud Class Action Lawsuit - Contact KTMC",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-19T15:20:00Z",
+            "sentiment": "Neutral",
+            "compound": -0.178
+          },
+          {
+            "title": "How has the cost of living changed in France, Italy, Spain and Portugal?",
+            "source": "Al Jazeera English",
+            "publishedAt": "2026-10-19T15:19:04Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Real REMAX Group to Host Third Quarter 2026 Earnings Conference Call",
             "source": "Financial Post",
             "publishedAt": "2026-10-19T15:13:51Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "The Left’s Destruction of Western Civilization - France Burns. Democrats Will Put America on the Same Path.",
-            "source": "Freerepublic.com",
-            "publishedAt": "2026-10-19T15:08:52Z",
-            "sentiment": "Negative",
-            "compound": -0.572
-          },
-          {
-            "title": "Gold climbs ₹400 to ₹1.5 lakh per 10 gm as festive buying elevates demand",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-19T15:06:11Z",
-            "sentiment": "Positive",
-            "compound": 0.361
-          },
-          {
-            "title": "Goldman Sachs flags 23 defensive stocks to own as the economy slows and the bull market struggles",
-            "source": "Business Insider",
-            "publishedAt": "2026-10-19T15:05:16Z",
-            "sentiment": "Negative",
-            "compound": -0.34
-          },
-          {
-            "title": "What recent polling suggests will happen in the US midterm elections",
-            "source": "The Conversation Africa",
-            "publishedAt": "2026-10-19T15:03:53Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Digital Turbine to Host Fiscal 2027 Second Quarter Financial Results Conference Call on November 2, 2026, at 4:30pm ET",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-19T15:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 52.51,
-  "trade_probability": 51.51,
+  "confirmation_score": 45.36,
+  "trade_probability": 47.22,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
