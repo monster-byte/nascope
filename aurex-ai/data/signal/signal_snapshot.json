@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T23:01:18.075018+00:00",
+  "generated_at": "2026-10-20T23:15:56.313951+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.962,
+          "change_pct": -0.9649,
           "up": false
         },
         "MSFT": {
@@ -25,11 +25,11 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.3315,
+          "change_pct": -0.3223,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.1864,
+          "change_pct": -0.1672,
           "up": false
         }
       }
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.14,
+      "score": 52.85,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.043,
+        "avg_compound": 0.057,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Goldman Sachs sends a stern warning to stock market investors",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-19T23:15:42Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
+          {
+            "title": "US home builders have the blues — but luxury housing remains a bright spot in challenging economy",
+            "source": "New York Post",
+            "publishedAt": "2026-10-19T23:15:15Z",
+            "sentiment": "Positive",
+            "compound": 0.696
+          },
           {
             "title": "Hybrid Sales Rise While Battery Electric Sales Remain Lower After Tax Credit Expiration",
             "source": "CleanTechnica",
@@ -118,20 +132,6 @@
             "publishedAt": "2026-10-19T22:47:59Z",
             "sentiment": "Neutral",
             "compound": -0.103
-          },
-          {
-            "title": "Stock Slides as Market Rises: Facts to Know Before You Trade",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-19T22:47:18Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Jim Cramer says don't chase the AI rebound just yet. Here's what needs to happen first",
-            "source": "CNBC",
-            "publishedAt": "2026-10-19T22:46:33Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 39.08,
-  "trade_probability": 43.45,
+  "confirmation_score": 39.14,
+  "trade_probability": 43.48,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
