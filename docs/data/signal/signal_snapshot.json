@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T23:31:09.994767+00:00",
+  "generated_at": "2026-10-20T23:45:49.733904+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.962,
+          "change_pct": -0.9649,
           "up": false
         },
         "MSFT": {
@@ -25,11 +25,11 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.3315,
+          "change_pct": -0.3223,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.1864,
+          "change_pct": -0.1672,
           "up": false
         }
       }
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.52,
+      "score": 53.15,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.73,
-        "change_5d_pct": -0.44
+        "current_dxy": 101.78,
+        "change_5d_pct": -0.393
       }
     },
     "macro": {
@@ -84,54 +84,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.15,
+      "score": 48.79,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.023,
+        "avg_compound": -0.024,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Nigeria attracts $23bn capital amid rising reserves",
+            "source": "The Punch",
+            "publishedAt": "2026-10-19T23:38:23Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "Real estate sector contributes 13% to GDP",
+            "source": "The Punch",
+            "publishedAt": "2026-10-19T23:38:23Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "NLC strike ultimatum fuels Labour-FG tension",
+            "source": "The Punch",
+            "publishedAt": "2026-10-19T23:38:23Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
+          {
+            "title": "Drill, baby drill! Americans want energy independence from foreign countries: poll",
+            "source": "New York Post",
+            "publishedAt": "2026-10-19T23:36:05Z",
+            "sentiment": "Positive",
+            "compound": 0.4
+          },
+          {
+            "title": "Stock Market Today, Oct. 19: Amazon Surges on Morgan Stanley Top Pick and $350 Price Target",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-19T23:31:39Z",
+            "sentiment": "Positive",
+            "compound": 0.361
+          },
           {
             "title": "Drug abuse destroying Nigerian youths, warns pro-chancellor",
             "source": "The Punch",
             "publishedAt": "2026-10-19T23:23:57Z",
             "sentiment": "Negative",
             "compound": -0.848
-          },
-          {
-            "title": "Goldman Sachs sends a stern warning to stock market investors",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-19T23:15:42Z",
-            "sentiment": "Negative",
-            "compound": -0.34
-          },
-          {
-            "title": "US home builders have the blues — but luxury housing remains a bright spot in challenging economy",
-            "source": "New York Post",
-            "publishedAt": "2026-10-19T23:15:15Z",
-            "sentiment": "Positive",
-            "compound": 0.696
-          },
-          {
-            "title": "Hybrid Sales Rise While Battery Electric Sales Remain Lower After Tax Credit Expiration",
-            "source": "CleanTechnica",
-            "publishedAt": "2026-10-19T22:56:04Z",
-            "sentiment": "Neutral",
-            "compound": 0.103
-          },
-          {
-            "title": "Cramer's lightning round: 'Do not own' MFA Financial",
-            "source": "CNBC",
-            "publishedAt": "2026-10-19T22:55:02Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "U.S. must put pressure on Russia so Putin ends the war, Ukrainian official says",
-            "source": "PBS",
-            "publishedAt": "2026-10-19T22:50:35Z",
-            "sentiment": "Negative",
-            "compound": -0.727
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 38.99,
-  "trade_probability": 43.39,
+  "confirmation_score": 38.74,
+  "trade_probability": 43.24,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
