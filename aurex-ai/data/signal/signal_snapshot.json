@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T12:01:27.253268+00:00",
+  "generated_at": "2026-10-20T12:15:48.013276+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.0175,
+          "change_pct": -0.0204,
           "up": false
         },
         "MSFT": {
@@ -25,11 +25,11 @@
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.0507,
+          "change_pct": -0.0414,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.3194,
+          "change_pct": -0.3002,
           "up": false
         }
       }
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.4,
+      "score": 52.53,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.87,
-        "change_5d_pct": -0.299
+        "current_dxy": 101.86,
+        "change_5d_pct": -0.316
       }
     },
     "macro": {
@@ -84,54 +84,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.78,
+      "score": 55.42,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.136,
-        "articles_analyzed": 25,
+        "avg_compound": 0.108,
+        "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Sterling hits 17-month high against euro",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-19T12:01:04Z",
+            "title": "Harry Enten Reveals How Trump Is 'History-Making' In The Worst Possible Way",
+            "source": "HuffPost",
+            "publishedAt": "2026-10-19T12:15:14Z",
+            "sentiment": "Negative",
+            "compound": -0.625
+          },
+          {
+            "title": "Elon Musk says he plans to give SpaceX stock away to 'every kid in America'",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-10-19T12:15:04Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Investors are buying on Monday despite fear the AI trade nightmare scenario is far from over",
-            "source": "CNBC",
-            "publishedAt": "2026-10-19T12:00:15Z",
-            "sentiment": "Positive",
-            "compound": 0.388
-          },
-          {
-            "title": "Quantinuum Breaks Error-Correction World Record by 10x, Validating Its Leading Path to Fault-Tolerant Quantum Computing by 2029",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-19T12:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.34
-          },
-          {
-            "title": "U.S. Adds 440,000 Millionaires in 2025 as Wealth Hits Record Highs OR Driven by the Stock Market, U.S. Minting Millionaires at Record Pace",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-19T12:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.494
-          },
-          {
-            "title": "SK hynix Subsidiary Solidigm’s U.S. NAND Plant And Overseas Equipment Export Plans Could Go Up In Smoke As Korean Authorities Sprout Up Regulatory Hurdles",
-            "source": "Wccftech",
-            "publishedAt": "2026-10-19T11:55:53Z",
+            "title": "Elon Musk says he plans to give SpaceX stock away to 'every kid in America'",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-10-19T12:15:04Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Posthaste: How a ‘leaky loonie’ could sway Bank of Canada interest rates",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-19T11:55:32Z",
+            "title": "China's Treasury Pile Is Shrinking on Paper. The Custody Data Tell a Different Story",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-19T12:15:00Z",
             "sentiment": "Positive",
-            "compound": 0.459
+            "compound": 0.202
+          },
+          {
+            "title": "VinFast Reports Unaudited Second Quarter 2026 Financial Results",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-19T12:14:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Nobody should buy the $299 Apple TV 4K, but it could have been worse",
+            "source": "9to5Mac",
+            "publishedAt": "2026-10-19T12:11:27Z",
+            "sentiment": "Negative",
+            "compound": -0.631
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 46.22,
-  "trade_probability": 47.73,
+  "confirmation_score": 46.11,
+  "trade_probability": 47.67,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
