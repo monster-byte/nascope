@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T00:01:24.259635+00:00",
+  "generated_at": "2026-10-20T00:15:51.314143+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.69,
+      "score": 54.91,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.98,
-        "change_5d_pct": -0.587
+        "current_dxy": 101.95,
+        "change_5d_pct": -0.614
       }
     },
     "macro": {
@@ -84,13 +84,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.35,
+      "score": 50.74,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.007,
+        "avg_compound": 0.015,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "When business environment becomes alibi",
+            "source": "The Punch",
+            "publishedAt": "2026-10-19T00:15:19Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Nigeria’s debt servicing trap",
+            "source": "The Punch",
+            "publishedAt": "2026-10-19T00:12:25Z",
+            "sentiment": "Negative",
+            "compound": -0.586
+          },
+          {
+            "title": "FF EAI Robotics Ecosystem Inc. (FFR) Highlights Faraday Future Founder and Global CEO YT Jia's Weekly Investor Update: Three New Product Offerings Launched; More Details on FFR's Acquisition of FFAI's Robotics Business and Independent Public Listing",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-19T00:10:00Z",
+            "sentiment": "Positive",
+            "compound": 0.617
+          },
+          {
+            "title": "Nasdaq futures gain as investors buy the dip in the AI trade: Live updates",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-19T00:04:04Z",
+            "sentiment": "Positive",
+            "compound": 0.527
+          },
           {
             "title": "JD Vance: He And Trump Only Ones Allowed To Criticize Iran War",
             "source": "Crooksandliars.com",
@@ -104,34 +132,6 @@
             "publishedAt": "2026-10-19T00:00:00Z",
             "sentiment": "Positive",
             "compound": 0.511
-          },
-          {
-            "title": "Here's What $5,000 Invested in SpaceX Could Be Worth in 2030",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-18T23:50:21Z",
-            "sentiment": "Positive",
-            "compound": 0.226
-          },
-          {
-            "title": "Regional Banks See Growth in Spite of Economic Gloom",
-            "source": "pymnts.com",
-            "publishedAt": "2026-10-18T23:42:50Z",
-            "sentiment": "Negative",
-            "compound": -0.66
-          },
-          {
-            "title": "Oyedele bets on reforms to drive Nigeria’s economic turnaround",
-            "source": "The Punch",
-            "publishedAt": "2026-10-18T23:36:43Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "SEC tokenized stock framework faces issuer pushback as Broadcom, Verizon object to OKX-ICE listing",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-18T23:33:43Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 66.1,
-  "trade_probability": 59.66,
+  "confirmation_score": 66.15,
+  "trade_probability": 59.69,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
