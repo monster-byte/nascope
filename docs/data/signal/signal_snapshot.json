@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T17:31:17.274054+00:00",
+  "generated_at": "2026-10-20T17:45:51.127941+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
-      "status": "green",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.5335,
+          "change_pct": -0.7725,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.2262,
+          "change_pct": 0.2159,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.0391,
+          "change_pct": 0.0023,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.0494,
-          "up": true
+          "change_pct": -0.0266,
+          "up": false
         }
       }
     },
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29587.04,
-        "sma50": 29863.44,
-        "sma200": 27781.28
+        "last_price": 29569.15,
+        "sma50": 29863.08,
+        "sma200": 27781.19
       }
     },
     "vxn": {
@@ -55,20 +55,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 63.03,
-      "status": "yellow",
+      "score": 65.33,
+      "status": "green",
       "details": {
-        "current_yield_pct": 5.132,
-        "change_5d_pct": -1.629
+        "current_yield_pct": 5.117,
+        "change_5d_pct": -1.917
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.42,
+      "score": 53.7,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.74,
-        "change_5d_pct": -0.428
+        "current_dxy": 101.71,
+        "change_5d_pct": -0.462
       }
     },
     "macro": {
@@ -84,54 +84,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.15,
+      "score": 47.05,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.017,
+        "avg_compound": -0.059,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Health unions put NHS on notice for more damaging strikes as ministers recommend a below-inflation pay rise",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-10-19T17:30:39Z",
+            "title": "We Are Facing A Global Energy Crisis, A Global Food Crisis, A European Financial Crisis, The End Of The AI Bubble And A Super El Niño All At Once",
+            "source": "Theeconomiccollapseblog.com",
+            "publishedAt": "2026-10-19T17:45:25Z",
             "sentiment": "Negative",
-            "compound": -0.645
+            "compound": -0.807
           },
           {
-            "title": "The French are rioting as inflation hits 3.4% while wage growth and GDP remain stagnant. It’s higher in Trump’s America",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-19T17:26:03Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "European shares dip despite tech rebound",
-            "source": "The Irish Times",
-            "publishedAt": "2026-10-19T17:25:20Z",
+            "title": "‘The first of many’: Elon Musk announces plan to give every child in America a single share of SpaceX stock",
+            "source": "Wnd.com",
+            "publishedAt": "2026-10-19T17:41:07Z",
             "sentiment": "Positive",
             "compound": 0.296
           },
           {
-            "title": "AI stock correction is not the end of the boom, CoinRoutes CEO says",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-19T17:17:49Z",
+            "title": "Strategy buys another $22 million of Bitcoin, increases planned share buybacks",
+            "source": "Fortune",
+            "publishedAt": "2026-10-19T17:41:06Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "European stocks fall on unrest in France as Nasdaq bounces",
+            "source": "CNA",
+            "publishedAt": "2026-10-19T17:41:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Gen Z renters ditch the homeownership dream for the stock market as high costs languish",
-            "source": "New York Post",
-            "publishedAt": "2026-10-19T17:16:48Z",
-            "sentiment": "Positive",
-            "compound": 0.25
+            "title": "Grocery inflation rises to almost 5%",
+            "source": "Omny.fm",
+            "publishedAt": "2026-10-19T17:36:26Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Bajaj Finance to shrink lending to reckless borrowers",
-            "source": "Livemint",
-            "publishedAt": "2026-10-19T17:15:41Z",
-            "sentiment": "Negative",
-            "compound": -0.402
+            "title": "2026 Election Questionnaire: Darren Bailey, Illinois Governor",
+            "source": "Shawlocal.com",
+            "publishedAt": "2026-10-19T17:32:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 58.74,
-  "trade_probability": 55.24,
+  "confirmation_score": 52.14,
+  "trade_probability": 51.28,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
