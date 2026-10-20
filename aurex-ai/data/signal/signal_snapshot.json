@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T21:15:58.669053+00:00",
+  "generated_at": "2026-10-20T21:31:07.475731+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.962,
+          "change_pct": -0.9649,
           "up": false
         },
         "MSFT": {
@@ -25,11 +25,11 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.3315,
+          "change_pct": -0.3223,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.1864,
+          "change_pct": -0.1672,
           "up": false
         }
       }
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.73,
+      "score": 53.7,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.7,
-        "change_5d_pct": -0.467
+        "current_dxy": 101.71,
+        "change_5d_pct": -0.463
       }
     },
     "macro": {
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.73,
+      "score": 54.16,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.095,
+        "avg_compound": 0.083,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "News of the day: Lithium legal battles, inflation on the rise, rate hike possibility, Stelco explainer, mining investment supercycle and more",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-19T21:30:54Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
           {
             "title": "Anthropic Gives 5% of Itself to the Public. Musk Answers by Giving Away SpaceX Shares",
             "source": "Decrypt",
@@ -125,13 +132,6 @@
             "publishedAt": "2026-10-19T21:01:01Z",
             "sentiment": "Negative",
             "compound": -0.586
-          },
-          {
-            "title": "Trump faces bipartisan backlash over waiving Russia sanctions",
-            "source": "CBS News",
-            "publishedAt": "2026-10-19T21:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 39.33,
-  "trade_probability": 43.6,
+  "confirmation_score": 39.28,
+  "trade_probability": 43.57,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
