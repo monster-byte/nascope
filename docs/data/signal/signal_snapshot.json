@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T16:15:53.844425+00:00",
+  "generated_at": "2026-10-20T16:31:12.081716+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.7055,
+          "change_pct": -0.6763,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.092,
+          "change_pct": -0.0751,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.0368,
+          "change_pct": -0.0322,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.0038,
+          "change_pct": -0.1957,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29569.41,
-        "sma50": 29863.09,
-        "sma200": 27781.19
+        "last_price": 29567.41,
+        "sma50": 29863.05,
+        "sma200": 27781.18
       }
     },
     "vxn": {
@@ -55,20 +55,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 64.72,
+      "score": 64.41,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.121,
-        "change_5d_pct": -1.84
+        "current_yield_pct": 5.123,
+        "change_5d_pct": -1.802
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.3,
+      "score": 53.11,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.76,
-        "change_5d_pct": -0.413
+        "current_dxy": 101.78,
+        "change_5d_pct": -0.389
       }
     },
     "macro": {
@@ -84,52 +84,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.93,
+      "score": 51.32,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.021,
+        "avg_compound": 0.026,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "France is on fire but something more dangerous burns below the unrest",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-19T16:13:31Z",
-            "sentiment": "Negative",
-            "compound": -0.742
-          },
-          {
-            "title": "Dick’s Sporting Goods’ seasonal hiring slips",
-            "source": "Retail Dive",
-            "publishedAt": "2026-10-19T16:12:00Z",
+            "title": "Canada's Inflation Rises to 3.1% as Fuel Oil Prices Jump 58%",
+            "source": "OilPrice.com",
+            "publishedAt": "2026-10-19T16:30:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Young Men Are Being Left Behind",
-            "source": "Freerepublic.com",
-            "publishedAt": "2026-10-19T16:09:56Z",
+            "title": "A Bank of Canada rate hike could still land in 2026, say economists after inflation reading",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-19T16:26:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Bitcoin is rejected at $83K as US bond yields reverse higher with equities",
-            "source": "Cointelegraph",
-            "publishedAt": "2026-10-19T16:05:57Z",
-            "sentiment": "Negative",
-            "compound": -0.511
-          },
-          {
-            "title": "Bitcoin Tests Key Support as Oil and AI Fears Squeeze Markets",
-            "source": "Decrypt",
-            "publishedAt": "2026-10-19T16:05:09Z",
+            "title": "Businesses expect inflation rate to remain above 3% over next two years, survey says",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-19T16:25:34Z",
             "sentiment": "Neutral",
-            "compound": -0.026
+            "compound": 0.0
           },
           {
-            "title": "Volcano near which 2 million people live tracked by scientists for 2 years. They found hidden underground movements",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-19T16:04:58Z",
+            "title": "Private lenders weigh on equity markets as PSU banks buck the selloff",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-19T16:25:32Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "US Exchanges to Extend Trading Hours, Raising the Stakes for Financial Firms",
+            "source": "pymnts.com",
+            "publishedAt": "2026-10-19T16:25:16Z",
+            "sentiment": "Neutral",
+            "compound": 0.178
+          },
+          {
+            "title": "Workday Named a Leader in 2026 Gartner® Magic Quadrant™ for Cloud ERP Finance",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-19T16:25:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 38.69,
-  "trade_probability": 43.21,
+  "confirmation_score": 38.84,
+  "trade_probability": 43.3,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
