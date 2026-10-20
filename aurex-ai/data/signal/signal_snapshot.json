@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T04:15:52.408552+00:00",
+  "generated_at": "2026-10-20T04:31:06.777277+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.9,
+      "score": 52.91,
       "status": "yellow",
       "details": {
         "current_dxy": 101.81,
-        "change_5d_pct": -0.363
+        "change_5d_pct": -0.364
       }
     },
     "macro": {
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.08,
+      "score": 51.53,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.062,
+        "avg_compound": 0.031,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "How gas prices became a lightning rod for voter anger ahead of the US midterms",
+            "source": "The Conversation Africa",
+            "publishedAt": "2026-10-19T04:29:43Z",
+            "sentiment": "Negative",
+            "compound": -0.572
+          },
           {
             "title": "US Market: Wall Street’s AI rally faces test as Meta earnings loom",
             "source": "The Times of India",
@@ -125,13 +132,6 @@
             "publishedAt": "2026-10-19T04:04:54Z",
             "sentiment": "Positive",
             "compound": 0.494
-          },
-          {
-            "title": "Think, Vote, Win",
-            "source": "Americanthinker.com",
-            "publishedAt": "2026-10-19T04:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.586
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 66.18,
-  "trade_probability": 59.71,
+  "confirmation_score": 66.04,
+  "trade_probability": 59.62,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
