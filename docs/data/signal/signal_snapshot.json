@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T15:01:32.843108+00:00",
+  "generated_at": "2026-10-20T15:15:50.036898+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.7652,
+          "change_pct": -0.8439,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.2441,
+          "change_pct": -0.4337,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.297,
-          "up": true
+          "change_pct": -0.129,
+          "up": false
         },
         "AMZN": {
-          "change_pct": 0.2888,
+          "change_pct": 0.0909,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29681.86,
-        "sma50": 29865.34,
-        "sma200": 27781.76
+        "last_price": 29567.87,
+        "sma50": 29863.06,
+        "sma200": 27781.19
       }
     },
     "vxn": {
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.08,
+      "score": 54.24,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.66,
-        "change_5d_pct": -0.51
+        "current_dxy": 101.64,
+        "change_5d_pct": -0.529
       }
     },
     "macro": {
@@ -84,17 +84,45 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 44.45,
+      "score": 45.47,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.111,
+        "avg_compound": -0.091,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Heading on an autumn road trip? Here's what you need to know before driving in Europe",
-            "source": "Autocar",
-            "publishedAt": "2026-10-19T15:00:00Z",
+            "title": "Real REMAX Group to Host Third Quarter 2026 Earnings Conference Call",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-19T15:13:51Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "The Left’s Destruction of Western Civilization - France Burns. Democrats Will Put America on the Same Path.",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-10-19T15:08:52Z",
+            "sentiment": "Negative",
+            "compound": -0.572
+          },
+          {
+            "title": "Gold climbs ₹400 to ₹1.5 lakh per 10 gm as festive buying elevates demand",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-19T15:06:11Z",
+            "sentiment": "Positive",
+            "compound": 0.361
+          },
+          {
+            "title": "Goldman Sachs flags 23 defensive stocks to own as the economy slows and the bull market struggles",
+            "source": "Business Insider",
+            "publishedAt": "2026-10-19T15:05:16Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
+          {
+            "title": "What recent polling suggests will happen in the US midterm elections",
+            "source": "The Conversation Africa",
+            "publishedAt": "2026-10-19T15:03:53Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
@@ -104,34 +132,6 @@
             "publishedAt": "2026-10-19T15:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Fed sees AI boom adding to inflation headache, but others may pay for the medicine",
-            "source": "Regionalmedianews.com",
-            "publishedAt": "2026-10-19T14:57:19Z",
-            "sentiment": "Neutral",
-            "compound": -0.153
-          },
-          {
-            "title": "AMD Stock Climbs Nearly 4% as Chipmakers Rebound From Worst Week Since March on Lower Yields and Oil Prices",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-10-19T14:47:29Z",
-            "sentiment": "Negative",
-            "compound": -0.743
-          },
-          {
-            "title": "Intel Shares Jump 5% After JPMorgan Upgrade Cites Agentic AI Demand as Chip Stocks Bounce Back From Rout",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-10-19T14:46:39Z",
-            "sentiment": "Neutral",
-            "compound": 0.178
-          },
-          {
-            "title": "Micron Stock Rises 4% as Memory Chipmakers Recover After 15% Weekly Plunge Tied to China Competition Fears",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-10-19T14:45:54Z",
-            "sentiment": "Negative",
-            "compound": -0.421
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 52.41,
-  "trade_probability": 51.45,
+  "confirmation_score": 45.77,
+  "trade_probability": 47.46,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
