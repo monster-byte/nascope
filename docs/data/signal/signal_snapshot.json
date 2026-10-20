@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T04:45:51.405590+00:00",
+  "generated_at": "2026-10-20T05:01:19.235774+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.01,
+      "score": 53.23,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.79,
-        "change_5d_pct": -0.377
+        "current_dxy": 101.77,
+        "change_5d_pct": -0.404
       }
     },
     "macro": {
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.98,
+      "score": 45.86,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.04,
+        "avg_compound": -0.083,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Global Market: Japan’s Nikkei falls 2% as tech selloff, rising oil prices fuel inflation fears",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-19T05:00:36Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
+          {
+            "title": "Any pay deal reached with unions must have productivity elements, says Taoiseach",
+            "source": "The Irish Times",
+            "publishedAt": "2026-10-19T05:00:01Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Global Market: Japan bond yields fall as US tech selloff fuels safe-haven demand",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-19T04:49:26Z",
+            "sentiment": "Neutral",
+            "compound": -0.128
+          },
           {
             "title": "Chaos and looting roiled major cities as Europeans poured into the streets to protest rising living costs",
             "source": "Business Insider",
@@ -111,27 +132,6 @@
             "publishedAt": "2026-10-19T04:35:58Z",
             "sentiment": "Negative",
             "compound": -0.382
-          },
-          {
-            "title": "Sensex falls over 200 pts, Nifty below 23,100. What lies ahead for Dalal Street?",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-19T04:34:53Z",
-            "sentiment": "Neutral",
-            "compound": -0.026
-          },
-          {
-            "title": "Holding company discount after Jio IPO: What is it & how will it impact RIL shares?",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-19T04:32:09Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "How gas prices became a lightning rod for voter anger ahead of the US midterms",
-            "source": "The Conversation Africa",
-            "publishedAt": "2026-10-19T04:29:43Z",
-            "sentiment": "Negative",
-            "compound": -0.572
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 65.73,
-  "trade_probability": 59.44,
+  "confirmation_score": 65.56,
+  "trade_probability": 59.34,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
