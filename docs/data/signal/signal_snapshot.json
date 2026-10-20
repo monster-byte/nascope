@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T07:15:48.942381+00:00",
+  "generated_at": "2026-10-20T07:31:06.571104+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.03,
+      "score": 53.23,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.79,
-        "change_5d_pct": -0.379
+        "current_dxy": 101.77,
+        "change_5d_pct": -0.403
       }
     },
     "macro": {
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.12,
+      "score": 51.61,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.022,
+        "avg_compound": 0.032,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Stocks to buy: What's the outlook for Nifty for October 19-October 23 week? Top stock recommendations",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-19T07:22:16Z",
+            "sentiment": "Positive",
+            "compound": 0.542
+          },
+          {
+            "title": "Banks tap RBI's first cash auction in 3 months as market rates spike",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-19T07:16:47Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Sensex crashes 765 pts intraday: Bank stocks, FPI selling among key factors",
             "source": "Business Standard",
@@ -118,20 +132,6 @@
             "publishedAt": "2026-10-19T07:05:46Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "RBI's tightening task: How India’s high interest burden muddles the central bank's job",
-            "source": "Livemint",
-            "publishedAt": "2026-10-19T07:02:04Z",
-            "sentiment": "Neutral",
-            "compound": 0.026
-          },
-          {
-            "title": "Atlassian’s Mike Cannon-Brookes: AI agents need a name tag—and a human to blame for their mistakes",
-            "source": "Fortune",
-            "publishedAt": "2026-10-19T07:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.599
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 66.02,
-  "trade_probability": 59.61,
+  "confirmation_score": 66.08,
+  "trade_probability": 59.65,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
