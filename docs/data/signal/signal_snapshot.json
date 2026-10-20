@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T17:15:51.798360+00:00",
+  "generated_at": "2026-10-20T17:31:17.274054+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
-      "status": "red",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.7638,
+          "change_pct": -0.5335,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.0451,
+          "change_pct": 0.2262,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.076,
-          "up": false
+          "change_pct": 0.0391,
+          "up": true
         },
         "AMZN": {
-          "change_pct": -0.118,
-          "up": false
+          "change_pct": 0.0494,
+          "up": true
         }
       }
     },
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29542.09,
-        "sma50": 29862.54,
-        "sma200": 27781.06
+        "last_price": 29587.04,
+        "sma50": 29863.44,
+        "sma200": 27781.28
       }
     },
     "vxn": {
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.23,
+      "score": 53.42,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.77,
-        "change_5d_pct": -0.403
+        "current_dxy": 101.74,
+        "change_5d_pct": -0.428
       }
     },
     "macro": {
@@ -84,54 +84,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.09,
+      "score": 49.15,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.002,
+        "avg_compound": -0.017,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Health unions put NHS on notice for more damaging strikes as ministers recommend a below-inflation pay rise",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-10-19T17:30:39Z",
+            "sentiment": "Negative",
+            "compound": -0.645
+          },
+          {
+            "title": "The French are rioting as inflation hits 3.4% while wage growth and GDP remain stagnant. It’s higher in Trump’s America",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-19T17:26:03Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "European shares dip despite tech rebound",
+            "source": "The Irish Times",
+            "publishedAt": "2026-10-19T17:25:20Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "AI stock correction is not the end of the boom, CoinRoutes CEO says",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-19T17:17:49Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Gen Z renters ditch the homeownership dream for the stock market as high costs languish",
+            "source": "New York Post",
+            "publishedAt": "2026-10-19T17:16:48Z",
+            "sentiment": "Positive",
+            "compound": 0.25
+          },
           {
             "title": "Bajaj Finance to shrink lending to reckless borrowers",
             "source": "Livemint",
             "publishedAt": "2026-10-19T17:15:41Z",
             "sentiment": "Negative",
             "compound": -0.402
-          },
-          {
-            "title": "‘Dangerous!’ Ex-Trump Chief of Staff Sounds Alarm Over ‘Stunning’ Fox News Poll Showing Corruption as Top Issue",
-            "source": "Mediaite",
-            "publishedAt": "2026-10-19T17:15:01Z",
-            "sentiment": "Negative",
-            "compound": -0.224
-          },
-          {
-            "title": "Looting and Unrest Mar Milan Protests, Retailers Hit Hard",
-            "source": "WWD",
-            "publishedAt": "2026-10-19T17:14:57Z",
-            "sentiment": "Negative",
-            "compound": -0.318
-          },
-          {
-            "title": "With the midterms just weeks away, the battle for Congress is coming into focus",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-10-19T17:05:37Z",
-            "sentiment": "Negative",
-            "compound": -0.382
-          },
-          {
-            "title": "Bitcoin holds $82K as analyst sees limited selling pressure despite macro risks",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-19T17:04:46Z",
-            "sentiment": "Negative",
-            "compound": -0.315
-          },
-          {
-            "title": "Russian Oil Exports by Arctic Route Jump Amid World Freight Crisis",
-            "source": "gcaptain.com",
-            "publishedAt": "2026-10-19T17:04:12Z",
-            "sentiment": "Negative",
-            "compound": -0.625
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 45.31,
-  "trade_probability": 47.19,
+  "confirmation_score": 58.74,
+  "trade_probability": 55.24,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
