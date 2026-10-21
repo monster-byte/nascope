@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T05:01:22.174905+00:00",
+  "generated_at": "2026-10-21T05:15:52.975261+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.9649,
+          "change_pct": -0.962,
           "up": false
         },
         "MSFT": {
@@ -25,11 +25,11 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.3223,
+          "change_pct": -0.3315,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.1672,
+          "change_pct": -0.1864,
           "up": false
         }
       }
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 56.0,
+      "score": 56.06,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.78,
-        "change_5d_pct": -0.75
+        "current_dxy": 101.77,
+        "change_5d_pct": -0.758
       }
     },
     "macro": {
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.72,
+      "score": 50.34,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.026,
-        "articles_analyzed": 24,
+        "avg_compound": 0.007,
+        "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "AI worries weigh on ABB shares despite record orders",
+            "source": "CNA",
+            "publishedAt": "2026-10-20T05:07:00Z",
+            "sentiment": "Neutral",
+            "compound": -0.153
+          },
           {
             "title": "How is the US economy really doing under President Trump?",
             "source": "BBC News",
@@ -125,13 +132,6 @@
             "publishedAt": "2026-10-20T05:00:01Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Alexis back in the café, Samaras tearing up the bailout playbook – and forget the US elections, Greece has its own Champions League battle: PerCapita, Alafouzos, Giannakopoulos and Netflix?",
-            "source": "Protothema.gr",
-            "publishedAt": "2026-10-20T04:58:22Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 38.99,
-  "trade_probability": 43.39,
+  "confirmation_score": 39.15,
+  "trade_probability": 43.49,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
