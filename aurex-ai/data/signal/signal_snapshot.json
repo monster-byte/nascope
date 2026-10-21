@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T14:16:02.350159+00:00",
+  "generated_at": "2026-10-21T14:31:14.036769+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.6923,
+          "change_pct": 0.6686,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.1542,
+          "change_pct": 0.2138,
           "up": true
         },
         "NVDA": {
-          "change_pct": -1.2081,
+          "change_pct": -1.0113,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.2715,
+          "change_pct": -1.1937,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29645.8,
-        "sma50": 29863.91,
-        "sma200": 27802.02
+        "last_price": 29682.35,
+        "sma50": 29864.64,
+        "sma200": 27802.2
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 20.0,
+      "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 25.18,
-        "percentile_vs_20d": 80.0
+        "current_vxn": 25.29,
+        "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 64.8,
+      "score": 64.18,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.094,
-        "change_5d_pct": -1.85
+        "current_yield_pct": 5.098,
+        "change_5d_pct": -1.773
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 56.16,
+      "score": 56.2,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.76,
-        "change_5d_pct": -0.769
+        "current_dxy": 101.75,
+        "change_5d_pct": -0.775
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.51,
+      "score": 51.79,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.07,
-        "articles_analyzed": 24,
+        "avg_compound": 0.036,
+        "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "The Protest Vote That Wrecks Your Portfolio",
+            "source": "Dailyreckoning.com",
+            "publishedAt": "2026-10-20T14:31:00Z",
+            "sentiment": "Negative",
+            "compound": -0.25
+          },
+          {
+            "title": "Press Coverage of French Protests Broadcasts Neoliberal Message that Markets Matter More Than People",
+            "source": "Nakedcapitalism.com",
+            "publishedAt": "2026-10-20T14:26:00Z",
+            "sentiment": "Negative",
+            "compound": -0.202
+          },
+          {
+            "title": "'Tinubu Must Go!': Nigeria's northern protests test limits of political dissent",
+            "source": "DW (English)",
+            "publishedAt": "2026-10-20T14:20:00Z",
+            "sentiment": "Negative",
+            "compound": -0.294
+          },
+          {
+            "title": "How arenas and stadiums are shutting out loyal sports fans",
+            "source": "CBS News",
+            "publishedAt": "2026-10-20T14:20:00Z",
+            "sentiment": "Positive",
+            "compound": 0.477
+          },
+          {
+            "title": "‘Tinubu Must Go’: Nigeria's northern protests test the limits of political dissent",
+            "source": "DW (English)",
+            "publishedAt": "2026-10-20T14:20:00Z",
+            "sentiment": "Negative",
+            "compound": -0.226
+          },
           {
             "title": "Lawrence O'Donnell Spots Latest Sign Of Trump's Deterioration: 'This Is Utter Insanity'",
             "source": "HuffPost",
             "publishedAt": "2026-10-20T14:15:37Z",
             "sentiment": "Negative",
             "compound": -0.612
-          },
-          {
-            "title": "LULULEMON ATHLETICA INC. (LULU) Securities Investigation Notice - Levi & Korsinsky",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-20T14:15:00Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "Data center stocks slide as Korea IPO plunges 30%, pressuring tech sentiment - CNBC",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-10-20T14:13:20Z",
-            "sentiment": "Negative",
-            "compound": -0.34
-          },
-          {
-            "title": "Wainwright fire shows the importance of health-care system resilience to Canadian security",
-            "source": "The Conversation Africa",
-            "publishedAt": "2026-10-20T14:09:10Z",
-            "sentiment": "Positive",
-            "compound": 0.361
-          },
-          {
-            "title": "EYPT SHAREHOLDER INVESTIGATION: SueWallSt Notifies Investors of Potential Securities Claims Involving EyePoint Pharmaceuticals",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-20T14:09:00Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "Chips lead Nasdaq lower, oil tops 5-month high: AlphaCheck",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-20T14:03:56Z",
-            "sentiment": "Positive",
-            "compound": 0.273
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 50.17,
-  "trade_probability": 50.1,
+  "confirmation_score": 49.48,
+  "trade_probability": 49.69,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
