@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T07:01:29.956002+00:00",
+  "generated_at": "2026-10-21T07:15:48.547662+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 56.01,
+      "score": 55.81,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.78,
-        "change_5d_pct": -0.751
+        "current_dxy": 101.81,
+        "change_5d_pct": -0.726
       }
     },
     "macro": {
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.67,
+      "score": 44.19,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.087,
-        "articles_analyzed": 20,
+        "avg_compound": -0.116,
+        "articles_analyzed": 21,
         "top_headlines": [
+          {
+            "title": "CNBC Daily Open: Tech rebounds in the U.S., but Asia isn’t buying it yet",
+            "source": "CNBC",
+            "publishedAt": "2026-10-20T07:14:27Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Europe opens lower amid economic reports",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-20T07:08:49Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "UK unemployment falls to lowest in a year but vacancies slide",
+            "source": "The Irish Times",
+            "publishedAt": "2026-10-20T07:05:07Z",
+            "sentiment": "Negative",
+            "compound": -0.412
+          },
           {
             "title": "AI servers drive TVS and ESD demand for Yea Shin Tech",
             "source": "Digitimes",
@@ -111,27 +132,6 @@
             "publishedAt": "2026-10-20T06:52:26Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "IMF outlook: How the latest forecast sends mixed signals on global growth",
-            "source": "Livemint",
-            "publishedAt": "2026-10-20T06:43:02Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "IMF Projects Ghana’S GDP To Hit $128Bn …Up From $114.21bn Recorded In 2025; Set To Take Over From Ethiopia As 8th Largest Economy In Africa",
-            "source": "Thechronicle.com.gh",
-            "publishedAt": "2026-10-20T06:39:58Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "From France and Italy to Belgium: What is driving protests across Europe?",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-20T06:37:21Z",
-            "sentiment": "Negative",
-            "compound": -0.226
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 38.72,
-  "trade_probability": 43.23,
+  "confirmation_score": 38.57,
+  "trade_probability": 43.14,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
