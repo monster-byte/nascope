@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T13:01:28.755811+00:00",
+  "generated_at": "2026-10-21T13:15:55.142259+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -55,20 +55,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 64.8,
-      "status": "yellow",
+      "score": 65.72,
+      "status": "green",
       "details": {
-        "current_yield_pct": 5.094,
-        "change_5d_pct": -1.85
+        "current_yield_pct": 5.088,
+        "change_5d_pct": -1.965
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 56.87,
+      "score": 56.79,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.67,
-        "change_5d_pct": -0.859
+        "current_dxy": 101.68,
+        "change_5d_pct": -0.849
       }
     },
     "macro": {
@@ -84,13 +84,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.03,
+      "score": 49.93,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.001,
+        "avg_compound": -0.001,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "BofA Is Sticking With an October Rate Hike Even as Markets Bet Against It",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-20T13:15:05Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-20T13:14:57Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "Hilton to move stock listing to Nasdaq",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-20T13:13:06Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Who is Eric Schmidt? Meet ex-Google CEO whose 1% Anthropic stake could push his fortune close to $80 billion",
+            "source": "Livemint",
+            "publishedAt": "2026-10-20T13:03:25Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Musk’s midterm meddling reeks of desperation",
             "source": "Salon",
@@ -104,34 +132,6 @@
             "publishedAt": "2026-10-20T13:00:04Z",
             "sentiment": "Positive",
             "compound": 0.273
-          },
-          {
-            "title": "Tenable Expands Open Security Ecosystem to Extend Exposure Intelligence and Accelerate AI Security Outcomes",
-            "source": "Tenable.com",
-            "publishedAt": "2026-10-20T13:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.84
-          },
-          {
-            "title": "TIPS vs. Dividend Stocks: Which Keeps More Buying Power in Retirement?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-20T12:59:51Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Empire of Lies: Restoring the History the Warlords Need Us to Forget",
-            "source": "Activistpost.com",
-            "publishedAt": "2026-10-20T12:56:00Z",
-            "sentiment": "Negative",
-            "compound": -0.361
-          },
-          {
-            "title": "Investors look to earnings to reset the bull market. The key level to watch on the S&P 500",
-            "source": "CNBC",
-            "publishedAt": "2026-10-20T12:52:29Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 52.62,
-  "trade_probability": 51.57,
+  "confirmation_score": 52.73,
+  "trade_probability": 51.64,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
