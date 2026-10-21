@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T15:31:13.918270+00:00",
+  "generated_at": "2026-10-21T15:45:54.324584+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 1.9941,
+          "change_pct": 1.8624,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.5165,
+          "change_pct": 0.5524,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.3618,
+          "change_pct": -0.1556,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.3815,
+          "change_pct": -0.334,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29805.07,
-        "sma50": 29867.1,
-        "sma200": 27802.82
+        "last_price": 29860.27,
+        "sma50": 29868.2,
+        "sma200": 27803.09
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 24.67,
+        "current_vxn": 24.6,
         "percentile_vs_20d": 80.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 61.25,
+      "score": 63.56,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.117,
-        "change_5d_pct": -1.407
+        "current_yield_pct": 5.102,
+        "change_5d_pct": -1.696
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.87,
+      "score": 56.11,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.8,
-        "change_5d_pct": -0.734
+        "current_dxy": 101.77,
+        "change_5d_pct": -0.764
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.24,
+      "score": 47.85,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.015,
+        "avg_compound": -0.043,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Oncolytics Biotech® to Present REO 033 Trial in Progress Abstract at ESMO Showcasing Pelareorep’s Potential in Colorectal Cancer",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-20T15:45:13Z",
+            "sentiment": "Negative",
+            "compound": -0.382
+          },
+          {
+            "title": "Walmart gets unexpected boost from stubborn inflation",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-20T15:33:57Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Kinvestor Day 2026 Virtual Investor Conference Schedule Announced for October 22, 2026",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-20T15:33:04Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Retirees are getting a 3.6% raise in Social Security. People staying in their jobs are getting only 3.4%.",
             "source": "Business Insider",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-20T15:17:02Z",
             "sentiment": "Positive",
             "compound": 0.273
-          },
-          {
-            "title": "Ahead of Market: 10 things that will decide stock market action on Wednesday",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-20T15:12:11Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Royal Gold Provides Preliminary Financial Information and Details for the Release of Financial Results for the Third Quarter 2026",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-20T15:07:18Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "SkyAI Sold Its Entire Solana Treasury as Bitmine Topped 6 Million ETH. Which Coin Is the Better Buy?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-20T15:02:35Z",
-            "sentiment": "Positive",
-            "compound": 0.572
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 49.28,
-  "trade_probability": 49.57,
+  "confirmation_score": 49.49,
+  "trade_probability": 49.69,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
