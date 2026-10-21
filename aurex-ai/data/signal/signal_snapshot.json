@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T03:15:57.009272+00:00",
+  "generated_at": "2026-10-21T03:31:05.515821+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.962,
+          "change_pct": -0.9649,
           "up": false
         },
         "MSFT": {
@@ -25,11 +25,11 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.3315,
+          "change_pct": -0.3223,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.1864,
+          "change_pct": -0.1672,
           "up": false
         }
       }
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.15,
+      "score": 53.19,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.78,
-        "change_5d_pct": -0.393
+        "current_dxy": 101.77,
+        "change_5d_pct": -0.399
       }
     },
     "macro": {
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.93,
+      "score": 56.53,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.139,
+        "avg_compound": 0.131,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Global Market: South Korea's Elice shares plunge 28% in market debut as data centre stocks shunned",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-20T03:23:42Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "Global Market: Japan's Nikkei falls as higher yields, inflation fears weigh",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-20T03:20:23Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
           {
             "title": "Trump says voters should ‘look at France’ to see ‘what’s at stake’ in midterm elections",
             "source": "New York Post",
@@ -118,20 +132,6 @@
             "publishedAt": "2026-10-20T02:38:23Z",
             "sentiment": "Negative",
             "compound": -0.226
-          },
-          {
-            "title": "UBS explains how looming Fed rate hike could impact your investments",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-20T02:33:55Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
-          },
-          {
-            "title": "Ambani looks to pull off India’s biggest IPO",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-20T02:33:22Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 39.48,
-  "trade_probability": 43.69,
+  "confirmation_score": 39.44,
+  "trade_probability": 43.66,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
