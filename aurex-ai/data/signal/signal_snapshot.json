@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T01:45:54.305568+00:00",
+  "generated_at": "2026-10-21T02:01:20.603835+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.9649,
+          "change_pct": -0.962,
           "up": false
         },
         "MSFT": {
@@ -25,11 +25,11 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.3223,
+          "change_pct": -0.3315,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.1672,
+          "change_pct": -0.1864,
           "up": false
         }
       }
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.12,
+      "score": 52.95,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.78,
-        "change_5d_pct": -0.39
+        "current_dxy": 101.8,
+        "change_5d_pct": -0.369
       }
     },
     "macro": {
@@ -84,13 +84,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.99,
+      "score": 47.19,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.06,
+        "avg_compound": -0.056,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Can round-the-clock renewable power dethrone coal in India? Not unless innovation leads the way",
+            "source": "Livemint",
+            "publishedAt": "2026-10-20T02:01:00Z",
+            "sentiment": "Negative",
+            "compound": -0.292
+          },
+          {
+            "title": "Gold slips as investors weigh Fed rate outlook",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-20T02:00:02Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "The midterm election outcomes that could shape Trump's final two years",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-20T01:52:19Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "security-master added to PyPI",
+            "source": "Pypi.org",
+            "publishedAt": "2026-10-20T01:47:57Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Stock market holiday: BSE, NSE shut for trading today due to Dussehra",
             "source": "Business Standard",
@@ -104,34 +132,6 @@
             "publishedAt": "2026-10-20T01:38:15Z",
             "sentiment": "Positive",
             "compound": 0.361
-          },
-          {
-            "title": "1 Stock Is in the Spotlight for All the Right Reasons. Here's Why It's a Buy Now",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-20T01:34:06Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Global Market Today: Asian stocks decline in break from US chip rally",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-20T01:31:55Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Blockchain Association backs Treasury stablecoin rule but wants tighter definitions",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-20T01:25:01Z",
-            "sentiment": "Neutral",
-            "compound": 0.077
-          },
-          {
-            "title": "The attack on Helen Haines will be no defining moment, only another step towards fragmentation",
-            "source": "Crikey",
-            "publishedAt": "2026-10-20T01:18:09Z",
-            "sentiment": "Negative",
-            "compound": -0.649
           }
         ]
       }
