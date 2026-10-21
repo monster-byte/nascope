@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T05:15:52.975261+00:00",
+  "generated_at": "2026-10-21T05:31:07.615220+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.962,
+          "change_pct": -0.9649,
           "up": false
         },
         "MSFT": {
@@ -25,11 +25,11 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.3315,
+          "change_pct": -0.3223,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.1864,
+          "change_pct": -0.1672,
           "up": false
         }
       }
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 56.06,
+      "score": 55.9,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.77,
-        "change_5d_pct": -0.758
+        "current_dxy": 101.79,
+        "change_5d_pct": -0.737
       }
     },
     "macro": {
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.34,
+      "score": 49.36,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.007,
-        "articles_analyzed": 23,
+        "avg_compound": -0.013,
+        "articles_analyzed": 22,
         "top_headlines": [
+          {
+            "title": "From Nepal to India: Is Gen Z reshaping South Asian politics?",
+            "source": "Peoplesreview.com.np",
+            "publishedAt": "2026-10-20T05:18:55Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "AI worries weigh on ABB shares despite record orders",
             "source": "CNA",
@@ -125,13 +132,6 @@
             "publishedAt": "2026-10-20T05:00:01Z",
             "sentiment": "Negative",
             "compound": -0.361
-          },
-          {
-            "title": "Firms offering new personal investment accounts must register with Revenue",
-            "source": "The Irish Times",
-            "publishedAt": "2026-10-20T05:00:01Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 39.15,
-  "trade_probability": 43.49,
+  "confirmation_score": 39.04,
+  "trade_probability": 43.42,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
