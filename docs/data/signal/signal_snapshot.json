@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T01:15:49.684424+00:00",
+  "generated_at": "2026-10-21T01:31:07.440605+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.01,
+      "score": 53.0,
       "status": "yellow",
       "details": {
         "current_dxy": 101.8,
-        "change_5d_pct": -0.376
+        "change_5d_pct": -0.375
       }
     },
     "macro": {
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.3,
+      "score": 46.14,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.054,
+        "avg_compound": -0.077,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Blockchain Association backs Treasury stablecoin rule but wants tighter definitions",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-20T01:25:01Z",
+            "sentiment": "Neutral",
+            "compound": 0.077
+          },
+          {
+            "title": "The attack on Helen Haines will be no defining moment, only another step towards fragmentation",
+            "source": "Crikey",
+            "publishedAt": "2026-10-20T01:18:09Z",
+            "sentiment": "Negative",
+            "compound": -0.649
+          },
+          {
+            "title": "CNBC Daily Open: Tech investors buy the dip — but debt remains a concern",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-20T01:17:29Z",
+            "sentiment": "Negative",
+            "compound": -0.502
+          },
           {
             "title": "CNBC Daily Open: Tech investors buy the dip — but debt remains a concern",
             "source": "CNBC",
@@ -111,27 +132,6 @@
             "publishedAt": "2026-10-20T00:49:02Z",
             "sentiment": "Neutral",
             "compound": 0.153
-          },
-          {
-            "title": "Nasdaq Stocks Could Crash 30% If This Happens, Experts Warn",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-20T00:48:46Z",
-            "sentiment": "Negative",
-            "compound": -0.477
-          },
-          {
-            "title": "Why Democrats won’t tame inflation",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-20T00:47:15Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Best of Opinion: Trade-offs should be made visible, not wished away",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-20T00:45:55Z",
-            "sentiment": "Positive",
-            "compound": 0.637
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 38.6,
-  "trade_probability": 43.16,
+  "confirmation_score": 38.49,
+  "trade_probability": 43.09,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
