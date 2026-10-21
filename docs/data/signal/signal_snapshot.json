@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T00:15:52.313481+00:00",
+  "generated_at": "2026-10-21T00:31:06.062217+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.17,
+      "score": 52.96,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.78,
-        "change_5d_pct": -0.396
+        "current_dxy": 101.8,
+        "change_5d_pct": -0.37
       }
     },
     "macro": {
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.79,
+      "score": 44.18,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.064,
+        "avg_compound": -0.116,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "One of Major League Baseball's owners just destroyed the league's entire argument for a lockout",
+            "source": "Fox News",
+            "publishedAt": "2026-10-20T00:18:53Z",
+            "sentiment": "Negative",
+            "compound": -0.691
+          },
+          {
+            "title": "Thinking Nvidia Stock Could Hit $10 Trillion? Here's 1 Reason I'd Be Cautious",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-20T00:18:49Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
+          {
+            "title": "Meet the Dividend King Stock That Yields More Than Quintuple the Nasdaq-100. Here's Why It's a Buy in October",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-20T00:18:44Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Banking stocks, high oil prices drag Indian markets lower",
             "source": "The Times of India",
@@ -111,27 +132,6 @@
             "publishedAt": "2026-10-19T23:38:23Z",
             "sentiment": "Positive",
             "compound": 0.402
-          },
-          {
-            "title": "Real estate sector contributes 13% to GDP",
-            "source": "The Punch",
-            "publishedAt": "2026-10-19T23:38:23Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "NLC strike ultimatum fuels Labour-FG tension",
-            "source": "The Punch",
-            "publishedAt": "2026-10-19T23:38:23Z",
-            "sentiment": "Negative",
-            "compound": -0.421
-          },
-          {
-            "title": "Drill, baby drill! Americans want energy independence from foreign countries: poll",
-            "source": "New York Post",
-            "publishedAt": "2026-10-19T23:36:05Z",
-            "sentiment": "Positive",
-            "compound": 0.4
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 38.57,
-  "trade_probability": 43.14,
+  "confirmation_score": 38.31,
+  "trade_probability": 42.99,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
