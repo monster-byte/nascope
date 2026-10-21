@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T05:45:47.263724+00:00",
+  "generated_at": "2026-10-21T05:55:34.873572+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.96,
+      "score": 55.94,
       "status": "yellow",
       "details": {
         "current_dxy": 101.79,
-        "change_5d_pct": -0.745
+        "change_5d_pct": -0.742
       }
     },
     "macro": {
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.57,
+      "score": 47.06,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.029,
+        "avg_compound": -0.059,
         "articles_analyzed": 21,
         "top_headlines": [
+          {
+            "title": "How is the US economy really doing under President Trump?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-20T05:52:19Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "NZX slips to five-week low as oil and inflation fears loom – Market close",
             "source": "New Zealand Herald",
@@ -125,13 +132,6 @@
             "publishedAt": "2026-10-20T05:00:45Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Is ₹3 lakh enough for your emergency fund if you have a home loan, children and ageing parents?",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-20T05:00:20Z",
-            "sentiment": "Negative",
-            "compound": -0.382
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 38.98,
-  "trade_probability": 43.39,
+  "confirmation_score": 38.84,
+  "trade_probability": 43.3,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
