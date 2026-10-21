@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T17:45:51.464312+00:00",
+  "generated_at": "2026-10-21T18:01:27.528548+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.9763,
+          "change_pct": 1.8905,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.7738,
+          "change_pct": 0.753,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.3167,
+          "change_pct": 0.2398,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.2277,
+          "change_pct": 0.186,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 70.11,
-      "status": "green",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
-        "regime": "BULLISH",
-        "last_price": 29879.47,
-        "sma50": 29868.59,
-        "sma200": 27803.19
+        "regime": "NEUTRAL / TRANSITIONAL",
+        "last_price": 29861.33,
+        "sma50": 29868.22,
+        "sma200": 27803.1
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 20.0,
+      "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 24.45,
-        "percentile_vs_20d": 80.0
+        "current_vxn": 24.41,
+        "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 62.95,
+      "score": 62.18,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.106,
-        "change_5d_pct": -1.618
+        "current_yield_pct": 5.111,
+        "change_5d_pct": -1.522
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 56.75,
+      "score": 56.91,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.68,
-        "change_5d_pct": -0.843
+        "current_dxy": 101.66,
+        "change_5d_pct": -0.864
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.4,
+      "score": 51.6,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.008,
+        "avg_compound": 0.032,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "The Great Silver Debate",
+            "source": "Dailyreckoning.com",
+            "publishedAt": "2026-10-20T18:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.625
+          },
+          {
+            "title": "Defensive Over High Inflation, Trump Boasts About A 2.2% Drop In The Price Of Oatmeal",
+            "source": "HuffPost",
+            "publishedAt": "2026-10-20T17:58:32Z",
+            "sentiment": "Negative",
+            "compound": -0.25
+          },
+          {
+            "title": "American Households Crushed: Housing Freezes, Car Loans Go Bad, and Electric Bills Keep Climbing",
+            "source": "Offgridsurvival.com",
+            "publishedAt": "2026-10-20T17:58:21Z",
+            "sentiment": "Negative",
+            "compound": -0.751
+          },
+          {
+            "title": "Copper stays range bound as US tariff uncertainty, oil inflation risks weigh",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-20T17:54:33Z",
+            "sentiment": "Negative",
+            "compound": -0.542
+          },
+          {
+            "title": "Elon Musk Is Trying to Buy the Midterms, and He Doesn’t Care Who Knows It | The Political Scene",
+            "source": "The New Yorker",
+            "publishedAt": "2026-10-20T17:49:00Z",
+            "sentiment": "Positive",
+            "compound": 0.494
+          },
           {
             "title": "Outpoll Expands Beyond Prediction Markets With Crypto Futures Trading",
             "source": "The Daily Hodl",
             "publishedAt": "2026-10-20T17:45:14Z",
             "sentiment": "Neutral",
             "compound": 0.103
-          },
-          {
-            "title": "Bitcoin's Next Move: Here's What to Watch",
-            "source": "Decrypt",
-            "publishedAt": "2026-10-20T17:45:04Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Global stocks fall as AI spending concerns resurface, oil prices surge",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-20T17:44:12Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "N.S. Auditor General says road work decisions are \"informal\" and \"subjective\"",
-            "source": "CBC News",
-            "publishedAt": "2026-10-20T17:41:05Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "5 Signs That The Housing Market Will Be Deeply Frozen For The Foreseeable Future",
-            "source": "Theeconomiccollapseblog.com",
-            "publishedAt": "2026-10-20T17:39:07Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Sun Home Saunas Ranks No. 17 on Fortune's 2026 Best Workplaces in Retail List",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-20T17:33:00Z",
-            "sentiment": "Positive",
-            "compound": 0.637
           }
         ]
       }
@@ -146,9 +146,9 @@
       }
     }
   },
-  "confirmation_score": 65.91,
-  "trade_probability": 59.55,
-  "market_regime": "BULLISH",
+  "confirmation_score": 62.76,
+  "trade_probability": 57.66,
+  "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
     "directional_bias": "NEUTRAL"
