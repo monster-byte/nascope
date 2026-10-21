@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T15:15:57.410377+00:00",
+  "generated_at": "2026-10-21T15:31:13.918270+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 1.7248,
+          "change_pct": 1.9941,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.3595,
+          "change_pct": 0.5165,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.3529,
+          "change_pct": -0.3618,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.7477,
+          "change_pct": -0.3815,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29784.1,
-        "sma50": 29866.68,
-        "sma200": 27802.71
+        "last_price": 29805.07,
+        "sma50": 29867.1,
+        "sma200": 27802.82
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 24.78,
+        "current_vxn": 24.67,
         "percentile_vs_20d": 80.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 61.56,
+      "score": 61.25,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.115,
-        "change_5d_pct": -1.445
+        "current_yield_pct": 5.117,
+        "change_5d_pct": -1.407
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.86,
+      "score": 55.87,
       "status": "yellow",
       "details": {
         "current_dxy": 101.8,
-        "change_5d_pct": -0.732
+        "change_5d_pct": -0.734
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.56,
+      "score": 49.24,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.029,
+        "avg_compound": -0.015,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Retirees are getting a 3.6% raise in Social Security. People staying in their jobs are getting only 3.4%.",
+            "source": "Business Insider",
+            "publishedAt": "2026-10-20T15:30:10Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
+          {
+            "title": "Why this market sell-off is no Black Monday",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-20T15:18:57Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "BBC to cut 2,000 jobs, shutting down BBC Three, BBC Scotland TV channels and Radio 4 Extra to save £500 million",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-20T15:17:02Z",
+            "sentiment": "Positive",
+            "compound": 0.273
+          },
           {
             "title": "Ahead of Market: 10 things that will decide stock market action on Wednesday",
             "source": "The Times of India",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-20T15:02:35Z",
             "sentiment": "Positive",
             "compound": 0.572
-          },
-          {
-            "title": "Starbucks Stock Rises Near $100 as Investors Bet on Brian Niccol's Turnaround Ahead of Key Earnings Report",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-10-20T14:56:41Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Motorcycle makers offer up to ₹11,000 in festive savings as price hikes squeeze buyers",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-20T14:52:40Z",
-            "sentiment": "Positive",
-            "compound": 0.459
-          },
-          {
-            "title": "This Billionaire Investor Called the Stock Market a ‘Hollow Tree’ — Here Are the Disturbing Numbers That Say He’s Right",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-20T14:47:17Z",
-            "sentiment": "Negative",
-            "compound": -0.511
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 49.26,
-  "trade_probability": 49.56,
+  "confirmation_score": 49.28,
+  "trade_probability": 49.57,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
