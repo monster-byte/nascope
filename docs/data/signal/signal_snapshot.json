@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T00:45:50.508342+00:00",
+  "generated_at": "2026-10-21T00:59:36.213657+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.962,
+          "change_pct": -0.9649,
           "up": false
         },
         "MSFT": {
@@ -25,11 +25,11 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.3315,
+          "change_pct": -0.3223,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.1864,
+          "change_pct": -0.1672,
           "up": false
         }
       }
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.17,
+      "score": 53.16,
       "status": "yellow",
       "details": {
         "current_dxy": 101.78,
-        "change_5d_pct": -0.396
+        "change_5d_pct": -0.394
       }
     },
     "macro": {
@@ -84,13 +84,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.23,
+      "score": 48.51,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.075,
+        "avg_compound": -0.03,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Consumer sentiment hits 15-year low ahead of holiday season",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-20T00:49:02Z",
+            "sentiment": "Neutral",
+            "compound": 0.153
+          },
+          {
+            "title": "Nasdaq Stocks Could Crash 30% If This Happens, Experts Warn",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-20T00:48:46Z",
+            "sentiment": "Negative",
+            "compound": -0.477
+          },
+          {
+            "title": "Why Democrats won’t tame inflation",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-20T00:47:15Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Best of Opinion: Trade-offs should be made visible, not wished away",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-20T00:45:55Z",
+            "sentiment": "Positive",
+            "compound": 0.637
+          },
           {
             "title": "Nasdaq rises as AI and semiconductor stocks recover ahead of earnings",
             "source": "Crypto Briefing",
@@ -104,34 +132,6 @@
             "publishedAt": "2026-10-20T00:43:15Z",
             "sentiment": "Positive",
             "compound": 0.296
-          },
-          {
-            "title": "South Korea central bank to hold rates on October 22, hike in November: Reuters poll",
-            "source": "CNA",
-            "publishedAt": "2026-10-20T00:42:38Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Robot Wars – How China Has the Robotics Industry in Its Grip",
-            "source": "OilPrice.com",
-            "publishedAt": "2026-10-20T00:41:00Z",
-            "sentiment": "Negative",
-            "compound": -0.557
-          },
-          {
-            "title": "Three big takeaways from the IMF-World Bank meetings",
-            "source": "CNBC",
-            "publishedAt": "2026-10-20T00:33:34Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Sam Stovall's S&P 500 outlook offers hope for 2027",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-20T00:31:58Z",
-            "sentiment": "Positive",
-            "compound": 0.44
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 38.52,
-  "trade_probability": 43.11,
+  "confirmation_score": 38.72,
+  "trade_probability": 43.23,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
