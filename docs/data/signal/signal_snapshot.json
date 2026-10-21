@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T07:45:59.949095+00:00",
+  "generated_at": "2026-10-21T08:01:24.266247+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 0.0,
-      "status": "red",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.9649,
-          "up": false
+          "change_pct": 0.5118,
+          "up": true
         },
         "MSFT": {
-          "change_pct": -0.0882,
-          "up": false
+          "change_pct": 0.6773,
+          "up": true
         },
         "NVDA": {
-          "change_pct": -0.3223,
+          "change_pct": -2.0453,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.1672,
+          "change_pct": -0.2657,
           "up": false
         }
       }
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 56.11,
+      "score": 56.23,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.77,
-        "change_5d_pct": -0.764
+        "current_dxy": 101.75,
+        "change_5d_pct": -0.778
       }
     },
     "macro": {
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.32,
+      "score": 47.18,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.094,
-        "articles_analyzed": 24,
+        "avg_compound": -0.056,
+        "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Elon Musk’s $10.5 bn SpaceX giveaway, Anthropic’s 5% share fund: How will gifts work? Who pays tax? Scenarios explained",
+            "source": "Livemint",
+            "publishedAt": "2026-10-20T07:53:27Z",
+            "sentiment": "Positive",
+            "compound": 0.374
+          },
+          {
+            "title": "DA hike for central government employees: Can Centre announce dearness allowance on October 21, 2026?",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-20T07:50:53Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
           {
             "title": "U.S. Treasury yields move lower as investors await housing, employment data",
             "source": "CNBC",
@@ -118,20 +132,6 @@
             "publishedAt": "2026-10-20T07:39:14Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "WhatsApp stock tips: Nithin Kamath warns of more pump-and-dump schemes as ED freezes accounts worth Rs 200 crore",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-20T07:33:41Z",
-            "sentiment": "Neutral",
-            "compound": 0.103
-          },
-          {
-            "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-20T07:24:40Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 38.7,
-  "trade_probability": 43.22,
+  "confirmation_score": 52.38,
+  "trade_probability": 51.43,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
