@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T07:15:48.547662+00:00",
+  "generated_at": "2026-10-21T07:31:05.072021+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.81,
+      "score": 56.01,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.81,
-        "change_5d_pct": -0.726
+        "current_dxy": 101.78,
+        "change_5d_pct": -0.752
       }
     },
     "macro": {
@@ -84,13 +84,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 44.19,
+      "score": 46.05,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.116,
-        "articles_analyzed": 21,
+        "avg_compound": -0.079,
+        "articles_analyzed": 22,
         "top_headlines": [
+          {
+            "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-20T07:24:40Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Reasons behind agitation across Europe",
+            "source": "Peoplesreview.com.np",
+            "publishedAt": "2026-10-20T07:20:00Z",
+            "sentiment": "Negative",
+            "compound": -0.25
+          },
+          {
+            "title": "India Inc eyes a festive boom, but the bottom line holds a twist",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-20T07:16:12Z",
+            "sentiment": "Positive",
+            "compound": 0.25
+          },
           {
             "title": "CNBC Daily Open: Tech rebounds in the U.S., but Asia isn’t buying it yet",
             "source": "CNBC",
@@ -111,27 +132,6 @@
             "publishedAt": "2026-10-20T07:05:07Z",
             "sentiment": "Negative",
             "compound": -0.412
-          },
-          {
-            "title": "AI servers drive TVS and ESD demand for Yea Shin Tech",
-            "source": "Digitimes",
-            "publishedAt": "2026-10-20T06:59:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
-          },
-          {
-            "title": "Japan's 20-year bond yield falls sharply after strongest auction on record",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-20T06:54:44Z",
-            "sentiment": "Positive",
-            "compound": 0.44
-          },
-          {
-            "title": "Bank of Japan may raise inflation forecast, stand pat on rates, sources say",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-20T06:52:26Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 38.57,
-  "trade_probability": 43.14,
+  "confirmation_score": 38.75,
+  "trade_probability": 43.25,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
