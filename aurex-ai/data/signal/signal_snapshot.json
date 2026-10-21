@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T21:15:56.427908+00:00",
+  "generated_at": "2026-10-21T21:31:10.947664+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -29,7 +29,7 @@
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.4175,
+          "change_pct": -0.4479,
           "up": false
         }
       }
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 56.63,
+      "score": 56.59,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.7,
-        "change_5d_pct": -0.829
+        "current_dxy": 101.71,
+        "change_5d_pct": -0.824
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.29,
+      "score": 51.12,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.014,
+        "avg_compound": 0.022,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Safe Harbor Financial Receives Additional 180-Day Compliance Period from Nasdaq to Regain Compliance with Minimum Bid Price Requirement",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-20T21:26:08Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
+          {
+            "title": "Atrium Therapeutics Announces Inducement Grants under Nasdaq Listing Rule 5635(c)(4)",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-20T21:23:00Z",
+            "sentiment": "Positive",
+            "compound": 0.226
+          },
+          {
+            "title": "Drilling at Dome Continues to Confirm Large-Scale, Open-Pit Potential; New, High-Grade Intersections Extend Mineralization 600 Metres to South",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-20T21:20:24Z",
+            "sentiment": "Neutral",
+            "compound": 0.178
+          },
           {
             "title": "XTI Aerospace Reports Second Quarter 2026 Results",
             "source": "PRNewswire",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-20T21:11:32Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "The Best Place to Find the Next A-Rated Earnings Winners",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-20T21:10:38Z",
-            "sentiment": "Positive",
-            "compound": 0.807
-          },
-          {
-            "title": "BETR Investors Have Opportunity to Lead Better Home & Finance Holding Company Securities Fraud Lawsuit",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-20T21:06:00Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "'Consumers Are Feeling Spooked': Trump's Failed Economic Policies Send Price of Halloween Candy Soaring",
-            "source": "Common Dreams",
-            "publishedAt": "2026-10-20T21:01:10Z",
-            "sentiment": "Negative",
-            "compound": -0.421
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 55.05,
-  "trade_probability": 53.03,
+  "confirmation_score": 55.21,
+  "trade_probability": 53.13,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
