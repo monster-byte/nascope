@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T17:01:32.274323+00:00",
+  "generated_at": "2026-10-21T17:15:56.100444+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,63 +13,63 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
+      "score": 100.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.7337,
+          "change_pct": 1.9127,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.7908,
+          "change_pct": 0.8552,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.1991,
+          "change_pct": 0.2262,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.0588,
-          "up": false
+          "change_pct": 0.2353,
+          "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 70.25,
+      "score": 70.39,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29893.3,
-        "sma50": 29868.86,
-        "sma200": 27803.26
+        "last_price": 29908.24,
+        "sma50": 29869.16,
+        "sma200": 27803.33
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 20.0,
+      "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 24.51,
-        "percentile_vs_20d": 80.0
+        "current_vxn": 24.48,
+        "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 62.95,
+      "score": 63.26,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.106,
-        "change_5d_pct": -1.618
+        "current_yield_pct": 5.104,
+        "change_5d_pct": -1.657
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 56.6,
+      "score": 56.56,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.7,
-        "change_5d_pct": -0.825
+        "current_dxy": 101.71,
+        "change_5d_pct": -0.82
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.02,
+      "score": 46.25,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.06,
+        "avg_compound": -0.075,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Inspired Capital Closes $450M Fund IV focused on early-stage investments, has exceptionally strong track record of backing 10 unicorns, and launches its revenue platform focused on helping founders outperform",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-20T17:13:00Z",
+            "sentiment": "Positive",
+            "compound": 0.923
+          },
+          {
+            "title": "What Does Innventure, Inc.'s 55.1% Stock Drop Mean for Investors? The Law Offices of Howard G. Smith Outlines Securities Fraud Class Action Lead Plaintiff Deadline",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-20T17:10:00Z",
+            "sentiment": "Negative",
+            "compound": -0.572
+          },
+          {
+            "title": "Not just France, Europe's political centre is crumbling amid discontent",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-20T17:08:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Trump’s Economy Just Hit An Unexpected Target — And MAGA Fans Won’t Like It",
+            "source": "HuffPost",
+            "publishedAt": "2026-10-20T17:06:45Z",
+            "sentiment": "Positive",
+            "compound": 0.361
+          },
+          {
+            "title": "Zcash Leads Crypto Bounce, Surging 8.5% as Bitcoin Reclaims $83,000",
+            "source": "Decrypt",
+            "publishedAt": "2026-10-20T17:03:26Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Inside Economics: Why the inflation rate will fall as the cost of living rises ... plus, could EVs solve our current account woes?",
             "source": "New Zealand Herald",
             "publishedAt": "2026-10-20T17:00:01Z",
             "sentiment": "Negative",
             "compound": -0.273
-          },
-          {
-            "title": "What Does XTI Aerospace, Inc.'s 15.9% Stock Drop Mean for Investors? The Law Offices of Howard G. Smith Outlines Securities Fraud Class Action Lead Plaintiff Deadline",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-20T17:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.572
-          },
-          {
-            "title": "Social Security benefits could be cut 22% in 2032—and one fix would mean a 40% payroll tax hike for millennials and Gen Z",
-            "source": "Fortune",
-            "publishedAt": "2026-10-20T16:59:14Z",
-            "sentiment": "Positive",
-            "compound": 0.44
-          },
-          {
-            "title": "This new food delivery service is trying to take on DoorDash and Uber Eats by offering no menu markups",
-            "source": "Business Insider",
-            "publishedAt": "2026-10-20T16:56:22Z",
-            "sentiment": "Negative",
-            "compound": -0.296
-          },
-          {
-            "title": "“Dominoes Could Tumble” — Bloomberg Strategist Warns Bitcoin Is Flashing 2018-Style Crash Signal. Here’s More",
-            "source": "ZyCrypto",
-            "publishedAt": "2026-10-20T16:54:03Z",
-            "sentiment": "Negative",
-            "compound": -0.477
-          },
-          {
-            "title": "Will the housing market crash? Take a look at the data",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-20T16:52:16Z",
-            "sentiment": "Negative",
-            "compound": -0.402
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 58.86,
-  "trade_probability": 55.32,
+  "confirmation_score": 65.15,
+  "trade_probability": 59.09,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
