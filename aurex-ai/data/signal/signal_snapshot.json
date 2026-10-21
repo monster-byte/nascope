@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T17:15:56.100444+00:00",
+  "generated_at": "2026-10-21T17:31:11.144433+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.9127,
+          "change_pct": 1.8728,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.8552,
+          "change_pct": 0.7409,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.2262,
+          "change_pct": 0.2159,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.2353,
+          "change_pct": 0.0493,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 70.39,
+      "score": 70.24,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29908.24,
-        "sma50": 29869.16,
-        "sma200": 27803.33
+        "last_price": 29893.05,
+        "sma50": 29868.86,
+        "sma200": 27803.26
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 15.0,
+      "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 24.48,
-        "percentile_vs_20d": 85.0
+        "current_vxn": 24.5,
+        "percentile_vs_20d": 80.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 63.26,
+      "score": 62.95,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.104,
-        "change_5d_pct": -1.657
+        "current_yield_pct": 5.106,
+        "change_5d_pct": -1.618
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 56.56,
+      "score": 56.74,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.71,
-        "change_5d_pct": -0.82
+        "current_dxy": 101.69,
+        "change_5d_pct": -0.843
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.25,
+      "score": 49.63,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.075,
+        "avg_compound": -0.007,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Zoom advances its AI strategy with a new Unified Context Layer that helps turn meeting conversations into completed work",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-20T17:25:59Z",
+            "sentiment": "Positive",
+            "compound": 0.637
+          },
+          {
+            "title": "Equifax Data Shows Mortgage Volume Slump While Consumer Financial Health Stays Strong",
+            "source": "pymnts.com",
+            "publishedAt": "2026-10-20T17:24:25Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
+          {
+            "title": "Princeton PhD whose research was linked to Nobel Prize in Physics applies for 2,300 jobs, still struggles to find work",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-20T17:20:41Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "Don't Let The Fed Steal Your Kids' Future",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-20T17:20:34Z",
+            "sentiment": "Negative",
+            "compound": -0.494
+          },
+          {
+            "title": "What Does Tigo Energy, Inc.'s 36.76% Stock Drop Mean for Investors? The Law Offices of Howard G. Smith Outlines Securities Fraud Class Action Lead Plaintiff Deadline",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-20T17:20:00Z",
+            "sentiment": "Negative",
+            "compound": -0.382
+          },
           {
             "title": "Inspired Capital Closes $450M Fund IV focused on early-stage investments, has exceptionally strong track record of backing 10 unicorns, and launches its revenue platform focused on helping founders outperform",
             "source": "PRNewswire",
             "publishedAt": "2026-10-20T17:13:00Z",
             "sentiment": "Positive",
             "compound": 0.923
-          },
-          {
-            "title": "What Does Innventure, Inc.'s 55.1% Stock Drop Mean for Investors? The Law Offices of Howard G. Smith Outlines Securities Fraud Class Action Lead Plaintiff Deadline",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-20T17:10:00Z",
-            "sentiment": "Negative",
-            "compound": -0.572
-          },
-          {
-            "title": "Not just France, Europe's political centre is crumbling amid discontent",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-20T17:08:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Trump’s Economy Just Hit An Unexpected Target — And MAGA Fans Won’t Like It",
-            "source": "HuffPost",
-            "publishedAt": "2026-10-20T17:06:45Z",
-            "sentiment": "Positive",
-            "compound": 0.361
-          },
-          {
-            "title": "Zcash Leads Crypto Bounce, Surging 8.5% as Bitcoin Reclaims $83,000",
-            "source": "Decrypt",
-            "publishedAt": "2026-10-20T17:03:26Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Inside Economics: Why the inflation rate will fall as the cost of living rises ... plus, could EVs solve our current account woes?",
-            "source": "New Zealand Herald",
-            "publishedAt": "2026-10-20T17:00:01Z",
-            "sentiment": "Negative",
-            "compound": -0.273
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 65.15,
-  "trade_probability": 59.09,
+  "confirmation_score": 65.85,
+  "trade_probability": 59.51,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
