@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T11:15:55.584037+00:00",
+  "generated_at": "2026-10-21T11:22:04.374004+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 56.55,
+      "score": 56.58,
       "status": "yellow",
       "details": {
         "current_dxy": 101.71,
-        "change_5d_pct": -0.818
+        "change_5d_pct": -0.822
       }
     },
     "macro": {
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.08,
+      "score": 48.52,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.038,
-        "articles_analyzed": 24,
+        "avg_compound": -0.03,
+        "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "German investor morale falls more than expected - ZEW",
+            "source": "RTE",
+            "publishedAt": "2026-10-20T11:17:01Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Equity weakness could damp demand for bitcoin after biggest ETF inflows in a month",
             "source": "CoinDesk",
@@ -125,13 +132,6 @@
             "publishedAt": "2026-10-20T11:00:00Z",
             "sentiment": "Positive",
             "compound": 0.538
-          },
-          {
-            "title": "Links 10/20/2026",
-            "source": "Nakedcapitalism.com",
-            "publishedAt": "2026-10-20T10:59:32Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 52.49,
-  "trade_probability": 51.49,
+  "confirmation_score": 52.53,
+  "trade_probability": 51.52,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
