@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T06:15:52.802601+00:00",
+  "generated_at": "2026-10-21T06:31:13.711587+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -68,7 +68,7 @@
       "status": "yellow",
       "details": {
         "current_dxy": 101.8,
-        "change_5d_pct": -0.73
+        "change_5d_pct": -0.729
       }
     },
     "macro": {
@@ -84,26 +84,40 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.2,
+      "score": 42.48,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.076,
-        "articles_analyzed": 18,
+        "avg_compound": -0.15,
+        "articles_analyzed": 19,
         "top_headlines": [
+          {
+            "title": "The more big companies axe staff, the closer we get to a recession",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-10-20T06:24:37Z",
+            "sentiment": "Negative",
+            "compound": -0.537
+          },
+          {
+            "title": "UK wages grew by annual 3.7% in three months to August",
+            "source": "RTE",
+            "publishedAt": "2026-10-20T06:24:33Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Unemployment rate dips to 4.7% while earnings growth rises to 3.7% one week before the Budget",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-10-20T06:16:18Z",
+            "sentiment": "Neutral",
+            "compound": -0.077
+          },
           {
             "title": "SAFA pushes for government backed price stabilisation fund; seeks floor price for certified UCO",
             "source": "BusinessLine",
             "publishedAt": "2026-10-20T06:08:53Z",
             "sentiment": "Neutral",
             "compound": 0.026
-          },
-          {
-            "title": "The $4.9 trillion hole: AIâs superintelligence sales pitch cannot prop up a debt-choked bond market",
-            "source": "Naturalnews.com",
-            "publishedAt": "2026-10-20T06:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           },
           {
             "title": "Escaping the Artificial World: My Case for Choosing Abundance Reality",
@@ -113,23 +127,9 @@
             "compound": 0.052
           },
           {
-            "title": "Israel on the Brink? CIA Report Warns of Internal Fractures Ahead of Crucial Elections",
+            "title": "The $4.9 trillion hole: AIâs superintelligence sales pitch cannot prop up a debt-choked bond market",
             "source": "Naturalnews.com",
             "publishedAt": "2026-10-20T06:00:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
-          },
-          {
-            "title": "The History of the Euro",
-            "source": "Everything-everywhere.com",
-            "publishedAt": "2026-10-20T05:59:38Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "How is the US economy really doing under President Trump?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-20T05:52:19Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 38.75,
-  "trade_probability": 43.25,
+  "confirmation_score": 38.42,
+  "trade_probability": 43.05,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
