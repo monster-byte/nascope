@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T18:31:19.789852+00:00",
+  "generated_at": "2026-10-21T18:45:50.083869+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,36 +13,36 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 100.0,
+      "score": 75.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 2.0414,
+          "change_pct": 1.9586,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.7965,
+          "change_pct": 0.7057,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.3579,
+          "change_pct": 0.2557,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.1556,
-          "up": true
+          "change_pct": -0.0076,
+          "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 70.29,
+      "score": 70.2,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29897.66,
-        "sma50": 29868.95,
-        "sma200": 27803.28
+        "last_price": 29888.48,
+        "sma50": 29868.77,
+        "sma200": 27803.24
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 24.43,
+        "current_vxn": 24.47,
         "percentile_vs_20d": 80.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 62.49,
+      "score": 62.18,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.109,
-        "change_5d_pct": -1.561
+        "current_yield_pct": 5.111,
+        "change_5d_pct": -1.522
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 56.86,
+      "score": 56.78,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.67,
-        "change_5d_pct": -0.857
+        "current_dxy": 101.68,
+        "change_5d_pct": -0.847
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.64,
+      "score": 49.37,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.027,
+        "avg_compound": -0.013,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Bitcoin ETFs Post Their Best Day in Nearly a Month as BlackRock Does All the Buying",
-            "source": "Decrypt",
-            "publishedAt": "2026-10-20T18:31:04Z",
-            "sentiment": "Positive",
-            "compound": 0.637
-          },
-          {
-            "title": "Ten Million Downloads in Six Weeks: The Fight for the AI Agent in Your Pocket Has Started",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-20T18:31:00Z",
-            "sentiment": "Negative",
-            "compound": -0.382
-          },
-          {
-            "title": "What's Next for Duolingo, Inc. Shareholders After 25.49% Stock Drop? Glancy Prongay Wolke & Rotter LLP Explains Securities Fraud Class Action Lead Plaintiff Deadline",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-20T18:30:00Z",
-            "sentiment": "Negative",
-            "compound": -0.572
-          },
-          {
-            "title": "Canadian dollar hits nearly one-month high after Alberta vote",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-20T18:27:07Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Stocks try for back-to-back gains — plus, Qnity gets iPhone business from Apple",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-20T18:22:11Z",
+            "title": "Dow outperforms as Wall Street rises, healthcare stocks lead gains",
+            "source": "CNA",
+            "publishedAt": "2026-10-20T18:45:00Z",
             "sentiment": "Positive",
             "compound": 0.34
           },
           {
-            "title": "What's Next for Fluence Energy, Inc. Shareholders After 34.63% Stock Drop? Glancy Prongay Wolke & Rotter LLP Explains Securities Fraud Class Action Lead Plaintiff Deadline",
+            "title": "S&P 500 Could Hit 8,300 By May 2027, Says Morgan Stanley Investment Chief Predicting ‘Final Innings’ Of Stock Market Correction",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-20T18:40:19Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "What Should Lincoln Educational Services Corp. Investors Know After 24.93% Stock Drop? The Law Offices of Frank R. Cruz Outlines Securities Fraud Class Action Lead Plaintiff Deadline",
             "source": "PRNewswire",
-            "publishedAt": "2026-10-20T18:20:00Z",
+            "publishedAt": "2026-10-20T18:40:00Z",
             "sentiment": "Negative",
-            "compound": -0.382
+            "compound": -0.572
+          },
+          {
+            "title": "Goldman sees a housing freeze through 2027. It would lock in an economic divide between millennials",
+            "source": "Fortune",
+            "publishedAt": "2026-10-20T18:36:57Z",
+            "sentiment": "Neutral",
+            "compound": 0.052
+          },
+          {
+            "title": "QB Stock Market Week 7: Is C.J. Stroud Back? Is Patrick Mahomes Evolving?",
+            "source": "Fox Sports",
+            "publishedAt": "2026-10-20T18:36:52Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Overnight millionaire boom fuels LA city’s upscale dining craze",
+            "source": "New York Post",
+            "publishedAt": "2026-10-20T18:32:51Z",
+            "sentiment": "Neutral",
+            "compound": -0.153
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 65.72,
-  "trade_probability": 59.43,
+  "confirmation_score": 58.97,
+  "trade_probability": 55.38,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
