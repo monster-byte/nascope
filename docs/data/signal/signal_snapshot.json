@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T23:31:11.527197+00:00",
+  "generated_at": "2026-10-21T23:45:54.472579+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -29,7 +29,7 @@
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.4479,
+          "change_pct": -0.4175,
           "up": false
         }
       }
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 56.7,
+      "score": 56.58,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.69,
-        "change_5d_pct": -0.838
+        "current_dxy": 101.71,
+        "change_5d_pct": -0.822
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.21,
+      "score": 53.69,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.104,
+        "avg_compound": 0.074,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "What NAB's job cuts mean for all investors",
+            "source": "Motley Fool Australia",
+            "publishedAt": "2026-10-20T23:38:11Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
           {
             "title": "Petrobras' Deepwater Push Sets Off a Race for Offshore Vessels",
             "source": "OilPrice.com",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-10-20T23:00:49Z",
             "sentiment": "Neutral",
             "compound": -0.103
-          },
-          {
-            "title": "Get paid huge amounts of cash to own these ASX dividend shares",
-            "source": "Motley Fool Australia",
-            "publishedAt": "2026-10-20T23:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.542
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 55.59,
-  "trade_probability": 53.35,
+  "confirmation_score": 55.44,
+  "trade_probability": 53.26,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
