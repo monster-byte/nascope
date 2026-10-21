@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T03:31:05.515821+00:00",
+  "generated_at": "2026-10-21T03:45:52.148747+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.19,
+      "score": 53.26,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.77,
-        "change_5d_pct": -0.399
+        "current_dxy": 101.76,
+        "change_5d_pct": -0.408
       }
     },
     "macro": {
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.53,
+      "score": 55.81,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.131,
+        "avg_compound": 0.116,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Walmart debt sales raise about $6 billion - TT",
+            "source": "Transport Topics Online",
+            "publishedAt": "2026-10-20T03:41:25Z",
+            "sentiment": "Negative",
+            "compound": -0.361
+          },
           {
             "title": "Global Market: South Korea's Elice shares plunge 28% in market debut as data centre stocks shunned",
             "source": "The Times of India",
@@ -125,13 +132,6 @@
             "publishedAt": "2026-10-20T02:42:14Z",
             "sentiment": "Positive",
             "compound": 0.402
-          },
-          {
-            "title": "From France to Albania, why protests are sweeping across Europe",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-20T02:38:23Z",
-            "sentiment": "Negative",
-            "compound": -0.226
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 39.44,
-  "trade_probability": 43.66,
+  "confirmation_score": 39.39,
+  "trade_probability": 43.63,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
