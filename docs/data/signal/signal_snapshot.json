@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T18:01:27.528548+00:00",
+  "generated_at": "2026-10-21T18:15:59.366122+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.8905,
+          "change_pct": 2.0533,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.753,
+          "change_pct": 0.8135,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.2398,
+          "change_pct": 0.2715,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.186,
+          "change_pct": 0.3074,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 70.21,
+      "status": "green",
       "details": {
-        "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29861.33,
-        "sma50": 29868.22,
-        "sma200": 27803.1
+        "regime": "BULLISH",
+        "last_price": 29889.26,
+        "sma50": 29868.78,
+        "sma200": 27803.24
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 24.41,
+        "current_vxn": 24.4,
         "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 62.18,
+      "score": 62.95,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.111,
-        "change_5d_pct": -1.522
+        "current_yield_pct": 5.106,
+        "change_5d_pct": -1.618
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 56.91,
+      "score": 57.01,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.66,
-        "change_5d_pct": -0.864
+        "current_dxy": 101.65,
+        "change_5d_pct": -0.877
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.6,
+      "score": 52.26,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.032,
+        "avg_compound": 0.045,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "The Great Silver Debate",
-            "source": "Dailyreckoning.com",
-            "publishedAt": "2026-10-20T18:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.625
-          },
-          {
-            "title": "Defensive Over High Inflation, Trump Boasts About A 2.2% Drop In The Price Of Oatmeal",
-            "source": "HuffPost",
-            "publishedAt": "2026-10-20T17:58:32Z",
-            "sentiment": "Negative",
-            "compound": -0.25
-          },
-          {
-            "title": "American Households Crushed: Housing Freezes, Car Loans Go Bad, and Electric Bills Keep Climbing",
-            "source": "Offgridsurvival.com",
-            "publishedAt": "2026-10-20T17:58:21Z",
-            "sentiment": "Negative",
-            "compound": -0.751
-          },
-          {
-            "title": "Copper stays range bound as US tariff uncertainty, oil inflation risks weigh",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-20T17:54:33Z",
-            "sentiment": "Negative",
-            "compound": -0.542
-          },
-          {
-            "title": "Elon Musk Is Trying to Buy the Midterms, and He Doesn’t Care Who Knows It | The Political Scene",
-            "source": "The New Yorker",
-            "publishedAt": "2026-10-20T17:49:00Z",
-            "sentiment": "Positive",
-            "compound": 0.494
-          },
-          {
-            "title": "Outpoll Expands Beyond Prediction Markets With Crypto Futures Trading",
-            "source": "The Daily Hodl",
-            "publishedAt": "2026-10-20T17:45:14Z",
+            "title": "Stocks U-Turn, Shaking Off AI Jitters - WSJ",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-10-20T18:13:12Z",
             "sentiment": "Neutral",
-            "compound": 0.103
+            "compound": -0.178
+          },
+          {
+            "title": "What's Next for Baidu, Inc. Shareholders After 12.73% Stock Drop? Glancy Prongay Wolke & Rotter LLP Explains Securities Fraud Class Action Lead Plaintiff Deadline",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-20T18:10:00Z",
+            "sentiment": "Negative",
+            "compound": -0.572
+          },
+          {
+            "title": "Cathie Wood Goes Bargain Hunting: 3 Stocks She Just Bought",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-20T18:09:30Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "Tech People Don’t Know What’s Going to Happen Either",
+            "source": "Awealthofcommonsense.com",
+            "publishedAt": "2026-10-20T18:08:25Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Housing is flashing warning signs just as the Fed weighs more interest rate hikes",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-20T18:06:28Z",
+            "sentiment": "Positive",
+            "compound": 0.225
+          },
+          {
+            "title": "Nigeria would’ve faced 1,000% inflation without reforms – Oyedele",
+            "source": "The Punch",
+            "publishedAt": "2026-10-20T18:05:30Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
@@ -146,9 +146,9 @@
       }
     }
   },
-  "confirmation_score": 62.76,
-  "trade_probability": 57.66,
-  "market_regime": "NEUTRAL / TRANSITIONAL",
+  "confirmation_score": 65.66,
+  "trade_probability": 59.4,
+  "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
     "directional_bias": "NEUTRAL"
