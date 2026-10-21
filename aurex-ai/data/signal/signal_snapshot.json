@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T15:01:34.934126+00:00",
+  "generated_at": "2026-10-21T15:15:57.410377+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 1.6154,
+          "change_pct": 1.7248,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.4049,
+          "change_pct": 0.3595,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.3702,
+          "change_pct": -0.3529,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.6452,
+          "change_pct": -0.7477,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29748.62,
-        "sma50": 29865.97,
-        "sma200": 27802.54
+        "last_price": 29784.1,
+        "sma50": 29866.68,
+        "sma200": 27802.71
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 15.0,
+      "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 24.99,
-        "percentile_vs_20d": 85.0
+        "current_vxn": 24.78,
+        "percentile_vs_20d": 80.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 63.56,
+      "score": 61.56,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.102,
-        "change_5d_pct": -1.696
+        "current_yield_pct": 5.115,
+        "change_5d_pct": -1.445
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.94,
+      "score": 55.86,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.79,
-        "change_5d_pct": -0.742
+        "current_dxy": 101.8,
+        "change_5d_pct": -0.732
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.04,
+      "score": 48.56,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.039,
+        "avg_compound": -0.029,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Ahead of Market: 10 things that will decide stock market action on Wednesday",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-20T15:12:11Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Royal Gold Provides Preliminary Financial Information and Details for the Release of Financial Results for the Third Quarter 2026",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-20T15:07:18Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "SkyAI Sold Its Entire Solana Treasury as Bitmine Topped 6 Million ETH. Which Coin Is the Better Buy?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-20T15:02:35Z",
+            "sentiment": "Positive",
+            "compound": 0.572
+          },
           {
             "title": "Starbucks Stock Rises Near $100 as Investors Bet on Brian Niccol's Turnaround Ahead of Key Earnings Report",
             "source": "Ibtimes.com.au",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-20T14:47:17Z",
             "sentiment": "Negative",
             "compound": -0.511
-          },
-          {
-            "title": "Anthropologie’s holiday marketing seeks to balance emotion, business impact",
-            "source": "Marketing Dive",
-            "publishedAt": "2026-10-20T14:44:00Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "Walmart introduces discounted joint membership with Sam's Club",
-            "source": "CBS News",
-            "publishedAt": "2026-10-20T14:42:09Z",
-            "sentiment": "Neutral",
-            "compound": 0.052
-          },
-          {
-            "title": "AEP Increases Quarterly Dividend to 97 Cents a Share",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-20T14:42:00Z",
-            "sentiment": "Positive",
-            "compound": 0.296
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 49.04,
-  "trade_probability": 49.42,
+  "confirmation_score": 49.26,
+  "trade_probability": 49.56,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
