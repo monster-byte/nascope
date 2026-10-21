@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T14:46:00.040660+00:00",
+  "generated_at": "2026-10-21T15:01:34.934126+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.6716,
+          "change_pct": 1.6154,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.1428,
+          "change_pct": 0.4049,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.7322,
+          "change_pct": -0.3702,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.9986,
+          "change_pct": -0.6452,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29698.97,
-        "sma50": 29864.98,
-        "sma200": 27802.29
+        "last_price": 29748.62,
+        "sma50": 29865.97,
+        "sma200": 27802.54
       }
     },
     "vxn": {
@@ -50,7 +50,7 @@
       "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 25.13,
+        "current_vxn": 24.99,
         "percentile_vs_20d": 85.0
       }
     },
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 56.17,
+      "score": 55.94,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.76,
-        "change_5d_pct": -0.771
+        "current_dxy": 101.79,
+        "change_5d_pct": -0.742
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.14,
+      "score": 48.04,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.037,
+        "avg_compound": -0.039,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Starbucks Stock Rises Near $100 as Investors Bet on Brian Niccol's Turnaround Ahead of Key Earnings Report",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-10-20T14:56:41Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Motorcycle makers offer up to ₹11,000 in festive savings as price hikes squeeze buyers",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-20T14:52:40Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "This Billionaire Investor Called the Stock Market a ‘Hollow Tree’ — Here Are the Disturbing Numbers That Say He’s Right",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-20T14:47:17Z",
+            "sentiment": "Negative",
+            "compound": -0.511
+          },
           {
             "title": "Anthropologie’s holiday marketing seeks to balance emotion, business impact",
             "source": "Marketing Dive",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-20T14:42:00Z",
             "sentiment": "Positive",
             "compound": 0.296
-          },
-          {
-            "title": "Trump Warns America Will Burn if Republicans Lose This Election",
-            "source": "The New Republic",
-            "publishedAt": "2026-10-20T14:41:59Z",
-            "sentiment": "Negative",
-            "compound": -0.477
-          },
-          {
-            "title": "Chips Bounced, Builders Sank and Crude Sent Mixed Signals Heading Into Tuesday",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-20T14:34:46Z",
-            "sentiment": "Negative",
-            "compound": -0.572
-          },
-          {
-            "title": "Trump’s raid on Rep. Ilhan Omar’s home puts his authoritarian intimidation on display",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-20T14:32:11Z",
-            "sentiment": "Negative",
-            "compound": -0.421
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 49.07,
-  "trade_probability": 49.44,
+  "confirmation_score": 49.04,
+  "trade_probability": 49.42,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
