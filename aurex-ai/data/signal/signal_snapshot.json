@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T23:45:49.733904+00:00",
+  "generated_at": "2026-10-21T00:01:24.285122+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.9649,
+          "change_pct": -0.962,
           "up": false
         },
         "MSFT": {
@@ -25,11 +25,11 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.3223,
+          "change_pct": -0.3315,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.1672,
+          "change_pct": -0.1864,
           "up": false
         }
       }
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.15,
+      "score": 53.08,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.78,
-        "change_5d_pct": -0.393
+        "current_dxy": 101.79,
+        "change_5d_pct": -0.385
       }
     },
     "macro": {
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.79,
+      "score": 48.0,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.024,
+        "avg_compound": -0.04,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Chevron CEO disagrees with Scott Bessent's take on the economy",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-20T00:01:08Z",
+            "sentiment": "Negative",
+            "compound": -0.318
+          },
           {
             "title": "Nigeria attracts $23bn capital amid rising reserves",
             "source": "The Punch",
@@ -125,13 +132,6 @@
             "publishedAt": "2026-10-19T23:31:39Z",
             "sentiment": "Positive",
             "compound": 0.361
-          },
-          {
-            "title": "Drug abuse destroying Nigerian youths, warns pro-chancellor",
-            "source": "The Punch",
-            "publishedAt": "2026-10-19T23:23:57Z",
-            "sentiment": "Negative",
-            "compound": -0.848
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 38.74,
-  "trade_probability": 43.24,
+  "confirmation_score": 38.67,
+  "trade_probability": 43.2,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
