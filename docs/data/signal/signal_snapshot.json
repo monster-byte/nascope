@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T04:31:06.244790+00:00",
+  "generated_at": "2026-10-21T04:45:48.911040+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.962,
+          "change_pct": -0.9649,
           "up": false
         },
         "MSFT": {
@@ -25,11 +25,11 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.3315,
+          "change_pct": -0.3223,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.1864,
+          "change_pct": -0.1672,
           "up": false
         }
       }
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 56.23,
+      "score": 55.97,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.75,
-        "change_5d_pct": -0.778
+        "current_dxy": 101.79,
+        "change_5d_pct": -0.746
       }
     },
     "macro": {
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.02,
+      "score": 49.47,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.02,
+        "avg_compound": -0.011,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Chip Stocks Catch A Break After Prolonged Slide. AI Names Among Leaders",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-20T04:36:09Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Is Now a Good Time to Buy Samsung Stock? Record AI Chip Profits Collide With Wall of Investor Caution",
             "source": "Ibtimes.com.au",
@@ -125,13 +132,6 @@
             "publishedAt": "2026-10-20T04:08:50Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Dow, S&P 500, Nasdaq Edge Higher Amid Tech Rebound As Q3 Earnings Season Forges Ahead: DJT, AMZN, CBRS, CRWV Stocks In Focus",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-20T04:07:06Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 39.04,
-  "trade_probability": 43.42,
+  "confirmation_score": 39.06,
+  "trade_probability": 43.44,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
