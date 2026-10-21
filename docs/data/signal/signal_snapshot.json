@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T14:01:32.799699+00:00",
+  "generated_at": "2026-10-21T14:16:02.350159+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.9009,
+          "change_pct": 0.6923,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.2251,
+          "change_pct": 0.1542,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.2941,
+          "change_pct": -1.2081,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.0856,
+          "change_pct": -1.2715,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29708.96,
-        "sma50": 29865.18,
-        "sma200": 27802.34
+        "last_price": 29645.8,
+        "sma50": 29863.91,
+        "sma200": 27802.02
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 15.0,
+      "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 25.14,
-        "percentile_vs_20d": 85.0
+        "current_vxn": 25.18,
+        "percentile_vs_20d": 80.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 66.49,
-      "status": "green",
+      "score": 64.8,
+      "status": "yellow",
       "details": {
-        "current_yield_pct": 5.083,
-        "change_5d_pct": -2.062
+        "current_yield_pct": 5.094,
+        "change_5d_pct": -1.85
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 56.68,
+      "score": 56.16,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.69,
-        "change_5d_pct": -0.835
+        "current_dxy": 101.76,
+        "change_5d_pct": -0.769
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.85,
+      "score": 53.51,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.017,
+        "avg_compound": 0.07,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Anthropic Will Be The Last AI IPO Of 2026, As Industry Collapses",
+            "title": "Lawrence O'Donnell Spots Latest Sign Of Trump's Deterioration: 'This Is Utter Insanity'",
+            "source": "HuffPost",
+            "publishedAt": "2026-10-20T14:15:37Z",
+            "sentiment": "Negative",
+            "compound": -0.612
+          },
+          {
+            "title": "LULULEMON ATHLETICA INC. (LULU) Securities Investigation Notice - Levi & Korsinsky",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-20T14:15:00Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "Data center stocks slide as Korea IPO plunges 30%, pressuring tech sentiment - CNBC",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-10-20T14:13:20Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
+          {
+            "title": "Wainwright fire shows the importance of health-care system resilience to Canadian security",
+            "source": "The Conversation Africa",
+            "publishedAt": "2026-10-20T14:09:10Z",
+            "sentiment": "Positive",
+            "compound": 0.361
+          },
+          {
+            "title": "EYPT SHAREHOLDER INVESTIGATION: SueWallSt Notifies Investors of Potential Securities Claims Involving EyePoint Pharmaceuticals",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-20T14:09:00Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "Chips lead Nasdaq lower, oil tops 5-month high: AlphaCheck",
             "source": "Biztoc.com",
-            "publishedAt": "2026-10-20T14:00:55Z",
-            "sentiment": "Negative",
-            "compound": -0.296
-          },
-          {
-            "title": "As Costs Rise, Voters in 3 Bay Area Cities Could Cap One of Them: Rent",
-            "source": "KQED",
-            "publishedAt": "2026-10-20T14:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "A cost-effective data assimilation system for improving ROMS simulations in the Southwest Atlantic",
-            "source": "Plos.org",
-            "publishedAt": "2026-10-20T14:00:00Z",
+            "publishedAt": "2026-10-20T14:03:56Z",
             "sentiment": "Positive",
-            "compound": 0.421
-          },
-          {
-            "title": "Selective persistence of HIV-1-infected T cell clones can occur through immune reprogramming driven by defective, transcriptionally active proviruses",
-            "source": "Plos.org",
-            "publishedAt": "2026-10-20T14:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.25
-          },
-          {
-            "title": "Ashley Hinson Uses Debunked Gender Swapping Lie To Smear Josh Turek",
-            "source": "Crooksandliars.com",
-            "publishedAt": "2026-10-20T13:59:14Z",
-            "sentiment": "Negative",
-            "compound": -0.361
-          },
-          {
-            "title": "ServiceNow CFO: Overwork doesn’t make you a better leader",
-            "source": "Fortune",
-            "publishedAt": "2026-10-20T13:53:30Z",
-            "sentiment": "Positive",
-            "compound": 0.44
+            "compound": 0.273
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 49.75,
-  "trade_probability": 49.85,
+  "confirmation_score": 50.17,
+  "trade_probability": 50.1,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
