@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T05:31:07.615220+00:00",
+  "generated_at": "2026-10-21T05:45:47.263724+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.9,
+      "score": 55.96,
       "status": "yellow",
       "details": {
         "current_dxy": 101.79,
-        "change_5d_pct": -0.737
+        "change_5d_pct": -0.745
       }
     },
     "macro": {
@@ -84,13 +84,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.36,
+      "score": 48.57,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.013,
-        "articles_analyzed": 22,
+        "avg_compound": -0.029,
+        "articles_analyzed": 21,
         "top_headlines": [
+          {
+            "title": "NZX slips to five-week low as oil and inflation fears loom – Market close",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-10-20T05:36:36Z",
+            "sentiment": "Negative",
+            "compound": -0.7
+          },
+          {
+            "title": "Gold holds decline as energy-led inflation weighs on rate path",
+            "source": "Bloomberg",
+            "publishedAt": "2026-10-20T05:33:33Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "From Nepal to India: Is Gen Z reshaping South Asian politics?",
             "source": "Peoplesreview.com.np",
@@ -118,20 +132,6 @@
             "publishedAt": "2026-10-20T05:00:20Z",
             "sentiment": "Negative",
             "compound": -0.382
-          },
-          {
-            "title": "Irish motor-claim costs up 10% as inflation drives damage expenses",
-            "source": "The Irish Times",
-            "publishedAt": "2026-10-20T05:00:01Z",
-            "sentiment": "Negative",
-            "compound": -0.494
-          },
-          {
-            "title": "Bond market turmoil complicates ECB rate decision",
-            "source": "The Irish Times",
-            "publishedAt": "2026-10-20T05:00:01Z",
-            "sentiment": "Negative",
-            "compound": -0.361
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 39.04,
-  "trade_probability": 43.42,
+  "confirmation_score": 38.98,
+  "trade_probability": 43.39,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
