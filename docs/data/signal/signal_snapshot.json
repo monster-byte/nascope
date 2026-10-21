@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T03:01:18.466071+00:00",
+  "generated_at": "2026-10-21T03:15:57.009272+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -64,11 +64,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.19,
+      "score": 53.15,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.77,
-        "change_5d_pct": -0.398
+        "current_dxy": 101.78,
+        "change_5d_pct": -0.393
       }
     },
     "macro": {
@@ -84,13 +84,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.64,
+      "score": 56.93,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.113,
+        "avg_compound": 0.139,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Trump says voters should ‘look at France’ to see ‘what’s at stake’ in midterm elections",
+            "source": "New York Post",
+            "publishedAt": "2026-10-20T03:09:59Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Is now a good time to buy ANZ shares?",
             "source": "Motley Fool Australia",
@@ -125,13 +132,6 @@
             "publishedAt": "2026-10-20T02:33:22Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "US, Cuba clash at UN ahead of annual vote on decades-old economic embargo",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-20T02:30:05Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -145,8 +145,8 @@
       }
     }
   },
-  "confirmation_score": 39.36,
-  "trade_probability": 43.62,
+  "confirmation_score": 39.48,
+  "trade_probability": 43.69,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
