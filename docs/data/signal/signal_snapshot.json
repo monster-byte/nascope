@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T17:31:11.144433+00:00",
+  "generated_at": "2026-10-21T17:45:51.464312+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,32 +17,32 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.8728,
+          "change_pct": 1.9763,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.7409,
+          "change_pct": 0.7738,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.2159,
+          "change_pct": 0.3167,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.0493,
+          "change_pct": 0.2277,
           "up": true
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 70.24,
+      "score": 70.11,
       "status": "green",
       "details": {
         "regime": "BULLISH",
-        "last_price": 29893.05,
-        "sma50": 29868.86,
-        "sma200": 27803.26
+        "last_price": 29879.47,
+        "sma50": 29868.59,
+        "sma200": 27803.19
       }
     },
     "vxn": {
@@ -50,7 +50,7 @@
       "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 24.5,
+        "current_vxn": 24.45,
         "percentile_vs_20d": 80.0
       }
     },
@@ -65,10 +65,10 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 56.74,
+      "score": 56.75,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.69,
+        "current_dxy": 101.68,
         "change_5d_pct": -0.843
       }
     },
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.63,
+      "score": 50.4,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.007,
+        "avg_compound": 0.008,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Zoom advances its AI strategy with a new Unified Context Layer that helps turn meeting conversations into completed work",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-20T17:25:59Z",
+            "title": "Outpoll Expands Beyond Prediction Markets With Crypto Futures Trading",
+            "source": "The Daily Hodl",
+            "publishedAt": "2026-10-20T17:45:14Z",
+            "sentiment": "Neutral",
+            "compound": 0.103
+          },
+          {
+            "title": "Bitcoin's Next Move: Here's What to Watch",
+            "source": "Decrypt",
+            "publishedAt": "2026-10-20T17:45:04Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Global stocks fall as AI spending concerns resurface, oil prices surge",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-20T17:44:12Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "N.S. Auditor General says road work decisions are \"informal\" and \"subjective\"",
+            "source": "CBC News",
+            "publishedAt": "2026-10-20T17:41:05Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "5 Signs That The Housing Market Will Be Deeply Frozen For The Foreseeable Future",
+            "source": "Theeconomiccollapseblog.com",
+            "publishedAt": "2026-10-20T17:39:07Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Sun Home Saunas Ranks No. 17 on Fortune's 2026 Best Workplaces in Retail List",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-20T17:33:00Z",
             "sentiment": "Positive",
             "compound": 0.637
-          },
-          {
-            "title": "Equifax Data Shows Mortgage Volume Slump While Consumer Financial Health Stays Strong",
-            "source": "pymnts.com",
-            "publishedAt": "2026-10-20T17:24:25Z",
-            "sentiment": "Positive",
-            "compound": 0.511
-          },
-          {
-            "title": "Princeton PhD whose research was linked to Nobel Prize in Physics applies for 2,300 jobs, still struggles to find work",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-20T17:20:41Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "Don't Let The Fed Steal Your Kids' Future",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-20T17:20:34Z",
-            "sentiment": "Negative",
-            "compound": -0.494
-          },
-          {
-            "title": "What Does Tigo Energy, Inc.'s 36.76% Stock Drop Mean for Investors? The Law Offices of Howard G. Smith Outlines Securities Fraud Class Action Lead Plaintiff Deadline",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-20T17:20:00Z",
-            "sentiment": "Negative",
-            "compound": -0.382
-          },
-          {
-            "title": "Inspired Capital Closes $450M Fund IV focused on early-stage investments, has exceptionally strong track record of backing 10 unicorns, and launches its revenue platform focused on helping founders outperform",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-20T17:13:00Z",
-            "sentiment": "Positive",
-            "compound": 0.923
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 65.85,
-  "trade_probability": 59.51,
+  "confirmation_score": 65.91,
+  "trade_probability": 59.55,
   "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
