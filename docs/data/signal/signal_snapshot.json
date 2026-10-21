@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T13:46:00.380782+00:00",
+  "generated_at": "2026-10-21T14:01:32.799699+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.6982,
+          "change_pct": 0.9009,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.3557,
+          "change_pct": 0.2251,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.2059,
+          "change_pct": -0.2941,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.0286,
+          "change_pct": -1.0856,
           "up": false
         }
       }
@@ -40,35 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29682.03,
-        "sma50": 29864.64,
-        "sma200": 27802.2
+        "last_price": 29708.96,
+        "sma50": 29865.18,
+        "sma200": 27802.34
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 15.0,
+      "status": "red",
       "details": {
-        "error": "no_data"
+        "current_vxn": 25.14,
+        "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 63.87,
-      "status": "yellow",
+      "score": 66.49,
+      "status": "green",
       "details": {
-        "current_yield_pct": 5.1,
-        "change_5d_pct": -1.734
+        "current_yield_pct": 5.083,
+        "change_5d_pct": -2.062
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 56.58,
+      "score": 56.68,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.71,
-        "change_5d_pct": -0.823
+        "current_dxy": 101.69,
+        "change_5d_pct": -0.835
       }
     },
     "macro": {
@@ -84,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.99,
+      "score": 50.85,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.06,
+        "avg_compound": 0.017,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Fresh market borrowings for the govt getting pricier amid a tightening cycle",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-20T13:45:47Z",
-            "sentiment": "Positive",
-            "compound": 0.318
-          },
-          {
-            "title": "Hasbro Shares Jump 8.7% as Magic: The Gathering Tops $600 Million and Toymaker Raises 2026 Full-Year Outlook",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-10-20T13:45:45Z",
-            "sentiment": "Positive",
-            "compound": 0.67
-          },
-          {
-            "title": "Perma-Pipe Announces New Orders Exceeding $28 Million in North America Through First Two Months of Fiscal Q3, with Strong Winter Activity Expected in Canadian Oil and Gas Sector",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-20T13:40:28Z",
-            "sentiment": "Positive",
-            "compound": 0.511
-          },
-          {
-            "title": "US stocks today: US stocks open lower as AI stocks decline, oil prices rise",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-20T13:39:30Z",
+            "title": "Anthropic Will Be The Last AI IPO Of 2026, As Industry Collapses",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-20T14:00:55Z",
             "sentiment": "Negative",
             "compound": -0.296
           },
           {
-            "title": "Tungsten Gave Back Most of Its 2026 Rally. The Pentagon’s January Deadline Stayed Put.",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-20T13:36:41Z",
+            "title": "As Costs Rise, Voters in 3 Bay Area Cities Could Cap One of Them: Rent",
+            "source": "KQED",
+            "publishedAt": "2026-10-20T14:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Up 35%, Should You Buy SpaceX Stock Right Now?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-20T13:33:08Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "A cost-effective data assimilation system for improving ROMS simulations in the Southwest Atlantic",
+            "source": "Plos.org",
+            "publishedAt": "2026-10-20T14:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.421
+          },
+          {
+            "title": "Selective persistence of HIV-1-infected T cell clones can occur through immune reprogramming driven by defective, transcriptionally active proviruses",
+            "source": "Plos.org",
+            "publishedAt": "2026-10-20T14:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.25
+          },
+          {
+            "title": "Ashley Hinson Uses Debunked Gender Swapping Lie To Smear Josh Turek",
+            "source": "Crooksandliars.com",
+            "publishedAt": "2026-10-20T13:59:14Z",
+            "sentiment": "Negative",
+            "compound": -0.361
+          },
+          {
+            "title": "ServiceNow CFO: Overwork doesn’t make you a better leader",
+            "source": "Fortune",
+            "publishedAt": "2026-10-20T13:53:30Z",
+            "sentiment": "Positive",
+            "compound": 0.44
           }
         ]
       }
@@ -145,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 52.73,
-  "trade_probability": 51.64,
+  "confirmation_score": 49.75,
+  "trade_probability": 49.85,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
