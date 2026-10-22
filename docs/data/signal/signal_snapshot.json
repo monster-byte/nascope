@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T18:15:53.747685+00:00",
+  "generated_at": "2026-10-22T18:31:09.236851+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.7912,
+          "change_pct": 0.6094,
           "up": true
         },
         "MSFT": {
-          "change_pct": -1.1905,
+          "change_pct": -1.4671,
           "up": false
         },
         "NVDA": {
-          "change_pct": -3.1531,
+          "change_pct": -3.1372,
           "up": false
         },
         "AMZN": {
-          "change_pct": -4.2617,
+          "change_pct": -4.495,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28962.22,
-        "sma50": 29851.84,
-        "sma200": 27819.52
+        "last_price": 28914.08,
+        "sma50": 29850.88,
+        "sma200": 27819.28
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 5.0,
+      "score": 0.0,
       "status": "red",
       "details": {
-        "current_vxn": 28.69,
-        "percentile_vs_20d": 95.0
+        "current_vxn": 29.07,
+        "percentile_vs_20d": 100.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 72.01,
+      "score": 70.75,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.949,
-        "change_5d_pct": -2.751
+        "current_yield_pct": 4.957,
+        "change_5d_pct": -2.594
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.22,
+      "score": 53.1,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.59,
-        "change_5d_pct": -0.403
+        "current_dxy": 101.61,
+        "change_5d_pct": -0.387
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 44.8,
+      "score": 45.02,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.104,
+        "avg_compound": -0.1,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "JPMorgan warns the K-shaped US economy could spark a broader macro shock",
+            "source": "Business Insider",
+            "publishedAt": "2026-10-21T18:27:01Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "FirstService Residential Relocates Jacksonville Office to Modern Space Designed for Collaboration",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-21T18:21:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Elon Musk: This SpaceX moonshot is ‘no longer impossible’ as blowout earnings spark stock market rally",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-21T18:16:21Z",
+            "sentiment": "Positive",
+            "compound": 0.226
+          },
           {
             "title": "(PR) Call of Duty: MW4 Launches, Cyberpunk 2077 Gets DLSS 4.5, and More RTX Spark Games Released",
             "source": "Techpowerup.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-21T18:07:04Z",
             "sentiment": "Negative",
             "compound": -0.421
-          },
-          {
-            "title": "NFL surges ahead with Saints-Steelers in Paris for their ‘let them eat cake’ moment",
-            "source": "SB Nation",
-            "publishedAt": "2026-10-21T18:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "What's Next for Qfin Holdings, Inc. Shareholders After 18.91% Stock Drop? Glancy Prongay Wolke & Rotter LLP Explains Securities Fraud Class Action Lead Plaintiff Deadline",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-21T18:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.572
-          },
-          {
-            "title": "Microsoft Reportedly Projects $1,200 to $1,800 Price For Next-Gen Xbox",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-10-21T17:58:44Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.99,
-  "trade_probability": 45.19,
+  "confirmation_score": 41.38,
+  "trade_probability": 44.83,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
