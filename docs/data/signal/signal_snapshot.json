@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T21:01:33.596520+00:00",
+  "generated_at": "2026-10-22T21:15:53.183229+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.78,
+      "score": 52.86,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.65,
-        "change_5d_pct": -0.347
+        "current_dxy": 101.64,
+        "change_5d_pct": -0.358
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.21,
+      "score": 51.35,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.064,
+        "avg_compound": 0.027,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "On Affordability: Can a Politician Make Your Groceries Cheaper?",
+            "source": "NerdWallet",
+            "publishedAt": "2026-10-21T21:15:05Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Mapped: Where homeowners pay the lowest property tax bills under 0.5%",
+            "source": "New York Post",
+            "publishedAt": "2026-10-21T21:09:13Z",
+            "sentiment": "Negative",
+            "compound": -0.459
+          },
           {
             "title": "Apple shares hit new all-time closing high",
             "source": "Macdailynews.com",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-21T20:56:07Z",
             "sentiment": "Positive",
             "compound": 0.557
-          },
-          {
-            "title": "How major US stock indexes fared Wednesday 10/21/2026",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-21T20:53:51Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Frequency Electronics Announces Chief Financial Officer Transition; Reaffirms Fiscal 2029 Financial Targets",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-21T20:53:45Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 42.18,
-  "trade_probability": 45.31,
+  "confirmation_score": 42.02,
+  "trade_probability": 45.21,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
