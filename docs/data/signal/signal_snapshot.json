@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T17:32:57.129810+00:00",
+  "generated_at": "2026-10-22T17:45:54.009850+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.7362,
+          "change_pct": 0.7024,
           "up": true
         },
         "MSFT": {
-          "change_pct": -1.166,
+          "change_pct": -1.0962,
           "up": false
         },
         "NVDA": {
-          "change_pct": -2.7905,
+          "change_pct": -2.9274,
           "up": false
         },
         "AMZN": {
-          "change_pct": -4.0933,
+          "change_pct": -3.9862,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29036.53,
-        "sma50": 29853.33,
-        "sma200": 27819.89
+        "last_price": 29039.26,
+        "sma50": 29853.38,
+        "sma200": 27819.9
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 0.0,
+      "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 28.4,
-        "percentile_vs_20d": 100.0
+        "current_vxn": 28.6,
+        "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 69.49,
+      "score": 70.12,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.965,
-        "change_5d_pct": -2.437
+        "current_yield_pct": 4.961,
+        "change_5d_pct": -2.515
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.35,
+      "score": 53.01,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.57,
-        "change_5d_pct": -0.419
+        "current_dxy": 101.62,
+        "change_5d_pct": -0.376
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.89,
+      "score": 54.96,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.118,
+        "avg_compound": 0.099,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Bitcoin Hits Weekly High as Crypto Market Rebounds",
-            "source": "Decrypt",
-            "publishedAt": "2026-10-21T17:31:03Z",
+            "title": "Patriots' Drake Maye rises in latest QB stock market rankings",
+            "source": "USA Today",
+            "publishedAt": "2026-10-21T17:44:51Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "What Does Webull Corporation's 19.09% Stock Drop Mean for Investors? The Law Offices of Howard G. Smith Outlines Securities Fraud Class Action Lead Plaintiff Deadline",
+            "title": "Husqvarna Group notes EU Commission's disclosure in robotic mower anti-dumping investigation",
             "source": "PRNewswire",
-            "publishedAt": "2026-10-21T17:30:00Z",
+            "publishedAt": "2026-10-21T17:44:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Nasdaq and Small Caps Lead Three Day Surge as Crude Slides and Blue Chips Hold Firm",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-21T17:44:00Z",
             "sentiment": "Negative",
             "compound": -0.572
           },
           {
-            "title": "What Does Lincoln Educational Services Corp.'s 24.93% Stock Drop Mean for Investors? The Law Offices of Howard G. Smith Outlines Securities Fraud Class Action Lead Plaintiff Deadline",
+            "title": "What Does The Ensign Group, Inc.'s 8.2% Stock Drop Mean for Investors? The Law Offices of Howard G. Smith Outlines Securities Fraud Class Action Lead Plaintiff Deadline",
             "source": "PRNewswire",
-            "publishedAt": "2026-10-21T17:20:00Z",
+            "publishedAt": "2026-10-21T17:40:00Z",
             "sentiment": "Negative",
             "compound": -0.572
           },
           {
-            "title": "Samsung and SK Hynix are upgrading their NAND factories in China",
-            "source": "GSMArena.com",
-            "publishedAt": "2026-10-21T17:18:02Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Money managers say there’s nowhere to hide as Super El Niño forms",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-21T17:38:34Z",
+            "sentiment": "Positive",
+            "compound": 0.662
           },
           {
-            "title": "What Does FuelCell Energy, Inc.'s 15.69% Stock Drop Mean for Investors? The Law Offices of Howard G. Smith Outlines Securities Fraud Class Action Lead Plaintiff Deadline",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-21T17:10:00Z",
+            "title": "SP accuses BJP of dodging key issues in UP",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-21T17:33:10Z",
             "sentiment": "Negative",
-            "compound": -0.382
-          },
-          {
-            "title": "Microsoft and Alphabet object to blockchain versions of their shares—but their veto only goes so far",
-            "source": "Fortune",
-            "publishedAt": "2026-10-21T17:08:21Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": -0.421
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 42.21,
-  "trade_probability": 45.33,
+  "confirmation_score": 42.63,
+  "trade_probability": 45.58,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
