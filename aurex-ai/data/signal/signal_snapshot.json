@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T13:15:56.505152+00:00",
+  "generated_at": "2026-10-22T13:31:13.698488+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 100.0,
-      "status": "green",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.0742,
+          "change_pct": 0.9308,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.5264,
+          "change_pct": 0.2811,
           "up": true
         },
         "NVDA": {
-          "change_pct": 1.1911,
-          "up": true
+          "change_pct": -1.0666,
+          "up": false
         },
         "AMZN": {
-          "change_pct": 0.3366,
-          "up": true
+          "change_pct": -1.3313,
+          "up": false
         }
       }
     },
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29822.52,
-        "sma50": 29867.45,
-        "sma200": 27802.91
+        "last_price": 29327.37,
+        "sma50": 29859.14,
+        "sma200": 27821.34
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 58.33,
+      "score": 58.96,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.036,
-        "change_5d_pct": -1.041
+        "current_yield_pct": 5.032,
+        "change_5d_pct": -1.12
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.76,
+      "score": 51.6,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.78,
-        "change_5d_pct": -0.221
+        "current_dxy": 101.8,
+        "change_5d_pct": -0.2
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.07,
+      "score": 56.06,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.101,
+        "avg_compound": 0.121,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Illumina BioInsight Platform expands with new software to accelerate the path from sequencing to discovery",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-21T13:15:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.103
+            "title": "Goldman Sachs, JPMorgan and Morgan Stanley are dominating the AI stock boom. Here's their edge",
+            "source": "CNBC",
+            "publishedAt": "2026-10-21T13:30:57Z",
+            "sentiment": "Negative",
+            "compound": -0.296
           },
           {
-            "title": "Zetwerk heads for stock market debut as alumni build manufacturing startups",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-21T13:10:25Z",
+            "title": "Centre treats employees as revenue tools, alleges Lalu",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-21T13:30:27Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Mortgage Rates Today, Wednesday, October 21: Basically Stable",
-            "source": "NerdWallet",
-            "publishedAt": "2026-10-21T13:09:55Z",
-            "sentiment": "Positive",
-            "compound": 0.296
+            "title": "Japan’s trade deficit hits record $17.8 billion as Iran war sends oil import prices soaring",
+            "source": "Fortune",
+            "publishedAt": "2026-10-21T13:26:14Z",
+            "sentiment": "Negative",
+            "compound": -0.765
           },
           {
-            "title": "When AI Debt Prices in the Mid-Teens, a Signed Lease and a Strong Co-Signer Matter More",
+            "title": "Chartis Recognizes MetricStream as a Leader in RiskTech100® 2027, Wins 4 Categories Including Agentic and Enterprise GRC",
             "source": "Financial Post",
-            "publishedAt": "2026-10-21T13:06:27Z",
+            "publishedAt": "2026-10-21T13:24:47Z",
             "sentiment": "Positive",
-            "compound": 0.226
+            "compound": 0.572
           },
           {
-            "title": "Academy Sports + Outdoors Signs On as Official Partner of HYROX North America",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-21T13:05:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "UK Treasury chief vows to give families ‘some breathing space’ as inflation runs hot, highest in a year",
+            "source": "Fortune",
+            "publishedAt": "2026-10-21T13:24:23Z",
+            "sentiment": "Positive",
+            "compound": 0.202
           },
           {
-            "title": "GoPro Premieres 'The Line Above,' a Six-Part Series Following Matthias Giraud's Ski BASE Descent Above Chamonix",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-21T13:04:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Our top 10 things to watch in the stock market Wednesday",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-21T13:19:42Z",
+            "sentiment": "Positive",
+            "compound": 0.202
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 62.09,
-  "trade_probability": 57.25,
+  "confirmation_score": 48.75,
+  "trade_probability": 49.25,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
