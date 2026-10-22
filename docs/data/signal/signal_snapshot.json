@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T18:31:09.236851+00:00",
+  "generated_at": "2026-10-22T18:45:53.702647+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.6094,
+          "change_pct": 0.6792,
           "up": true
         },
         "MSFT": {
-          "change_pct": -1.4671,
+          "change_pct": -1.4919,
           "up": false
         },
         "NVDA": {
-          "change_pct": -3.1372,
+          "change_pct": -3.1554,
           "up": false
         },
         "AMZN": {
-          "change_pct": -4.495,
+          "change_pct": -4.5333,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28914.08,
-        "sma50": 29850.88,
-        "sma200": 27819.28
+        "last_price": 28928.61,
+        "sma50": 29851.17,
+        "sma200": 27819.35
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 0.0,
+      "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 29.07,
-        "percentile_vs_20d": 100.0
+        "current_vxn": 29.19,
+        "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 70.75,
+      "score": 72.01,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.957,
-        "change_5d_pct": -2.594
+        "current_yield_pct": 4.949,
+        "change_5d_pct": -2.751
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.1,
+      "score": 53.14,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.61,
-        "change_5d_pct": -0.387
+        "current_dxy": 101.6,
+        "change_5d_pct": -0.392
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.02,
+      "score": 45.9,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.1,
+        "avg_compound": -0.082,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "JPMorgan warns the K-shaped US economy could spark a broader macro shock",
-            "source": "Business Insider",
-            "publishedAt": "2026-10-21T18:27:01Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "FirstService Residential Relocates Jacksonville Office to Modern Space Designed for Collaboration",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-21T18:21:00Z",
+            "title": "Thousands march for school funding in Greece",
+            "source": "Al Jazeera English",
+            "publishedAt": "2026-10-21T18:45:46Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Elon Musk: This SpaceX moonshot is ‘no longer impossible’ as blowout earnings spark stock market rally",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-21T18:16:21Z",
-            "sentiment": "Positive",
-            "compound": 0.226
-          },
-          {
-            "title": "(PR) Call of Duty: MW4 Launches, Cyberpunk 2077 Gets DLSS 4.5, and More RTX Spark Games Released",
-            "source": "Techpowerup.com",
-            "publishedAt": "2026-10-21T18:14:18Z",
-            "sentiment": "Positive",
-            "compound": 0.291
-          },
-          {
-            "title": "Amazon or Alphabet: If I Could Only Own One for the Next Decade, It Would Be This One",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-21T18:09:08Z",
+            "title": "In a tight AI market, Dell says supply matters more than price",
+            "source": "SiliconANGLE News",
+            "publishedAt": "2026-10-21T18:44:26Z",
             "sentiment": "Neutral",
-            "compound": 0.178
+            "compound": 0.026
           },
           {
-            "title": "Anambra seeks N70bn FG intervention over insecurity, erosion",
-            "source": "The Punch",
-            "publishedAt": "2026-10-21T18:07:04Z",
+            "title": "Ex-Treasury Secretary Sounds Alarm on What ‘Election Chaos’ Would Do to Trump’s ‘Already Weak’ Economy in Scorching Op-Ed",
+            "source": "Mediaite",
+            "publishedAt": "2026-10-21T18:42:37Z",
             "sentiment": "Negative",
-            "compound": -0.421
+            "compound": -0.34
+          },
+          {
+            "title": "What Should Unicycive Therapeutics, Inc. Investors Know After 39.1% Stock Drop? The Law Offices of Frank R. Cruz Outlines Securities Fraud Class Action Lead Plaintiff Deadline",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-21T18:40:00Z",
+            "sentiment": "Negative",
+            "compound": -0.572
+          },
+          {
+            "title": "IMF urges exchange rate flexibility as RBI steps up rupee defence",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-21T18:39:29Z",
+            "sentiment": "Positive",
+            "compound": 0.421
+          },
+          {
+            "title": "Moynihan: This Anti-Fraud Sentiment Among Voters Might Be Enough To Flip Minnesota Red",
+            "source": "Fox News",
+            "publishedAt": "2026-10-21T18:34:28Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.38,
-  "trade_probability": 44.83,
+  "confirmation_score": 42.08,
+  "trade_probability": 45.25,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
