@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T16:15:56.246128+00:00",
+  "generated_at": "2026-10-22T16:31:13.257618+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.5625,
+          "change_pct": 0.6574,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.6594,
+          "change_pct": -0.7357,
           "up": false
         },
         "NVDA": {
-          "change_pct": -2.5055,
+          "change_pct": -2.6286,
           "up": false
         },
         "AMZN": {
-          "change_pct": -3.2569,
+          "change_pct": -3.4086,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29179.01,
-        "sma50": 29856.18,
-        "sma200": 27820.6
+        "last_price": 29139.83,
+        "sma50": 29855.39,
+        "sma200": 27820.41
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 0.0,
+      "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 27.81,
-        "percentile_vs_20d": 100.0
+        "current_vxn": 27.61,
+        "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 63.52,
-      "status": "yellow",
+      "score": 65.25,
+      "status": "green",
       "details": {
-        "current_yield_pct": 5.003,
-        "change_5d_pct": -1.69
+        "current_yield_pct": 4.992,
+        "change_5d_pct": -1.906
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.35,
+      "score": 52.57,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.7,
-        "change_5d_pct": -0.293
+        "current_dxy": 101.67,
+        "change_5d_pct": -0.322
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 59.34,
+      "score": 56.19,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.187,
+        "avg_compound": 0.124,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "LINC INVESTOR DEADLINE: Lincoln Educational Services Corp. Investors with Substantial Losses Have Opportunity to Lead the LINC Securities Class Action",
+            "title": "Fluence Energy (FLNC) Alert: Securities Class Action Filed, Investors with Losses Encouraged to Contact Hagens Berman Before November 27, 2026 Deadline",
             "source": "PRNewswire",
-            "publishedAt": "2026-10-21T16:09:00Z",
+            "publishedAt": "2026-10-21T16:31:00Z",
             "sentiment": "Positive",
-            "compound": 0.477
+            "compound": 0.649
           },
           {
-            "title": "67% of Older Homeowners Worry About Inflation. Her $80,000 Reverse-Mortgage Draw Won’t Automatically Raise Medicare Premiums",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-21T16:08:08Z",
-            "sentiment": "Negative",
-            "compound": -0.44
+            "title": "Anthropic adds Harvard astrophysicist to the trust that controls its board",
+            "source": "Fortune",
+            "publishedAt": "2026-10-21T16:30:00Z",
+            "sentiment": "Positive",
+            "compound": 0.511
           },
           {
-            "title": "Musk's mother of all mergers will birth a $3.5 trillion tech monster",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-21T16:07:51Z",
+            "title": "US futures rise as SpaceX and Super Micro Computer boost AI sentiment",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-21T16:29:16Z",
+            "sentiment": "Positive",
+            "compound": 0.765
+          },
+          {
+            "title": "Coastal Financial Corporation (CCB) Alert: Securities Class Action Filed, Investors with Losses Encouraged to Contact Hagens Berman Before December 1, 2026 Deadline",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-21T16:26:00Z",
+            "sentiment": "Positive",
+            "compound": 0.494
+          },
+          {
+            "title": "Why I Can't Go Back to Virginia Until It's Named Americaginia",
+            "source": "Reason",
+            "publishedAt": "2026-10-21T16:25:12Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Op-Ed: Election Meddling Risks Rule of Law and the Economy",
-            "source": "Newser",
-            "publishedAt": "2026-10-21T16:07:00Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "INV 6-DAY DEADLINE ALERT: Innventure, Inc. Investors with Substantial Losses Have Opportunity to Lead the INNVENTURE Securities Class Action - Hagens Berman",
+            "title": "APP INVESTOR DEADLINE: AppLovin Corporation Investors with Substantial Losses Have Opportunity to Lead Securities Fraud Class Action Lawsuit",
             "source": "PRNewswire",
-            "publishedAt": "2026-10-21T16:07:00Z",
-            "sentiment": "Positive",
-            "compound": 0.721
-          },
-          {
-            "title": "What I learned from six months of being stupid on purpose",
-            "source": "Wvez.org",
-            "publishedAt": "2026-10-21T16:06:56Z",
+            "publishedAt": "2026-10-21T16:25:00Z",
             "sentiment": "Negative",
-            "compound": -0.527
+            "compound": -0.382
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.63,
-  "trade_probability": 44.98,
+  "confirmation_score": 42.05,
+  "trade_probability": 45.23,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
