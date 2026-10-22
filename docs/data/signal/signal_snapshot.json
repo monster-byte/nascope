@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T05:01:18.728723+00:00",
+  "generated_at": "2026-10-22T05:15:53.730333+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -29,7 +29,7 @@
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.4479,
+          "change_pct": -0.4175,
           "up": false
         }
       }
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.23,
+      "score": 53.25,
       "status": "yellow",
       "details": {
         "current_dxy": 101.59,
-        "change_5d_pct": -0.404
+        "change_5d_pct": -0.406
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.25,
+      "score": 51.22,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.015,
+        "avg_compound": 0.024,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "K&F CONCEPT M3 Review: A 2-in-1 Air Duster and Vacuum for My Desk",
+            "source": "The Gadgeteer",
+            "publishedAt": "2026-10-21T05:10:37Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Global Market | Safe-haven assets under pressure: Dollar, Swiss franc, German bonds and gold in focus",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-21T05:10:06Z",
+            "sentiment": "Neutral",
+            "compound": -0.128
+          },
+          {
+            "title": "Global Market: Japanese government bond yields fall as safe-haven demand returns",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-21T05:04:32Z",
+            "sentiment": "Neutral",
+            "compound": -0.128
+          },
+          {
+            "title": "Why are markets rising today? Sensex up 800 pts intraday, Nifty tops 23,100",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-21T05:01:35Z",
+            "sentiment": "Positive",
+            "compound": 0.718
+          },
           {
             "title": "Myanmar’s Shan State Is the World’s Meth Lab",
             "source": "Foreign Policy",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-21T05:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Tax-efficient investment accounts still face 1% stamp duty charge on large Irish companies",
-            "source": "The Irish Times",
-            "publishedAt": "2026-10-21T05:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Latino vote key to Miami elections amid Republican shift",
-            "source": "RTE",
-            "publishedAt": "2026-10-21T05:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "New polls, Mitsotakis’ election strategy, a UAE royal visit, Viva’s clash with Bank of Cyprus and soaring ferry costs",
-            "source": "Protothema.gr",
-            "publishedAt": "2026-10-21T04:57:21Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Japan records a trade deficit as oil imports soar",
-            "source": "PerthNow",
-            "publishedAt": "2026-10-21T04:56:43Z",
-            "sentiment": "Negative",
-            "compound": -0.402
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.74,
-  "trade_probability": 52.84,
+  "confirmation_score": 54.92,
+  "trade_probability": 52.95,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
