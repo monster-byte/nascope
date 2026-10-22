@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T17:16:12.964059+00:00",
+  "generated_at": "2026-10-22T17:31:27.751517+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.6486,
+          "change_pct": 0.701,
           "up": true
         },
         "MSFT": {
-          "change_pct": -1.1273,
+          "change_pct": -1.1301,
           "up": false
         },
         "NVDA": {
-          "change_pct": -3.1075,
+          "change_pct": -2.794,
           "up": false
         },
         "AMZN": {
-          "change_pct": -4.0666,
+          "change_pct": -4.1278,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29002.5,
-        "sma50": 29852.65,
-        "sma200": 27819.72
+        "last_price": 29025.66,
+        "sma50": 29853.11,
+        "sma200": 27819.84
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 5.0,
+      "score": 0.0,
       "status": "red",
       "details": {
-        "current_vxn": 28.28,
-        "percentile_vs_20d": 95.0
+        "current_vxn": 28.55,
+        "percentile_vs_20d": 100.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 67.45,
+      "score": 69.81,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.978,
-        "change_5d_pct": -2.181
+        "current_yield_pct": 4.963,
+        "change_5d_pct": -2.476
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.11,
+      "score": 53.48,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.6,
-        "change_5d_pct": -0.388
+        "current_dxy": 101.56,
+        "change_5d_pct": -0.435
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 57.98,
+      "score": 55.89,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.16,
+        "avg_compound": 0.118,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Bitcoin Hits Weekly High as Crypto Market Rebounds",
+            "source": "Decrypt",
+            "publishedAt": "2026-10-21T17:31:03Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "What Does Webull Corporation's 19.09% Stock Drop Mean for Investors? The Law Offices of Howard G. Smith Outlines Securities Fraud Class Action Lead Plaintiff Deadline",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-21T17:30:00Z",
+            "sentiment": "Negative",
+            "compound": -0.572
+          },
+          {
+            "title": "What Does Lincoln Educational Services Corp.'s 24.93% Stock Drop Mean for Investors? The Law Offices of Howard G. Smith Outlines Securities Fraud Class Action Lead Plaintiff Deadline",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-21T17:20:00Z",
+            "sentiment": "Negative",
+            "compound": -0.572
+          },
+          {
+            "title": "Samsung and SK Hynix are upgrading their NAND factories in China",
+            "source": "GSMArena.com",
+            "publishedAt": "2026-10-21T17:18:02Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "What Does FuelCell Energy, Inc.'s 15.69% Stock Drop Mean for Investors? The Law Offices of Howard G. Smith Outlines Securities Fraud Class Action Lead Plaintiff Deadline",
             "source": "PRNewswire",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-21T17:08:21Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "European shares rise on solid earnings but Carrefour slumps on French unrest",
-            "source": "The Irish Times",
-            "publishedAt": "2026-10-21T17:00:05Z",
-            "sentiment": "Positive",
-            "compound": 0.226
-          },
-          {
-            "title": "EQUITY ALERT: The M&A Class Action Firm Is Investigating the Merger -- UTZ, SAFT, PASG and FNWD - IS IT A FAIR DEAL FOR YOU?",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-21T17:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.715
-          },
-          {
-            "title": "Kalshi founder ready to take regulation fight to Supreme Court as Utah becomes latest state to go on attack: ‘manager of a back-alley gambling den’",
-            "source": "New York Post",
-            "publishedAt": "2026-10-21T16:57:19Z",
-            "sentiment": "Neutral",
-            "compound": 0.103
-          },
-          {
-            "title": "Nasdaq rises as SpaceX, Super Micro boost AI appetite",
-            "source": "Harveyreporter.com.au",
-            "publishedAt": "2026-10-21T16:47:23Z",
-            "sentiment": "Positive",
-            "compound": 0.765
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 42.55,
-  "trade_probability": 45.53,
+  "confirmation_score": 42.27,
+  "trade_probability": 45.36,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
