@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T16:45:54.330245+00:00",
+  "generated_at": "2026-10-22T17:01:25.361653+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.4596,
+          "change_pct": 0.5119,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.9898,
+          "change_pct": -0.9481,
           "up": false
         },
         "NVDA": {
-          "change_pct": -3.0003,
+          "change_pct": -2.9,
           "up": false
         },
         "AMZN": {
-          "change_pct": -3.8179,
+          "change_pct": -3.7184,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29024.45,
-        "sma50": 29853.08,
-        "sma200": 27819.83
+        "last_price": 29036.48,
+        "sma50": 29853.32,
+        "sma200": 27819.89
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 27.68,
+        "current_vxn": 28.04,
         "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 64.93,
-      "status": "yellow",
+      "score": 68.71,
+      "status": "green",
       "details": {
-        "current_yield_pct": 4.994,
-        "change_5d_pct": -1.867
+        "current_yield_pct": 4.97,
+        "change_5d_pct": -2.338
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.76,
+      "score": 53.17,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.65,
-        "change_5d_pct": -0.345
+        "current_dxy": 101.6,
+        "change_5d_pct": -0.396
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.27,
+      "score": 59.64,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.105,
+        "avg_compound": 0.193,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "European shares rise on solid earnings but Carrefour slumps on French unrest",
+            "source": "The Irish Times",
+            "publishedAt": "2026-10-21T17:00:05Z",
+            "sentiment": "Positive",
+            "compound": 0.226
+          },
+          {
+            "title": "EQUITY ALERT: The M&A Class Action Firm Is Investigating the Merger -- UTZ, SAFT, PASG and FNWD - IS IT A FAIR DEAL FOR YOU?",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-21T17:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.715
+          },
+          {
+            "title": "Kalshi founder ready to take regulation fight to Supreme Court as Utah becomes latest state to go on attack: ‘manager of a back-alley gambling den’",
+            "source": "New York Post",
+            "publishedAt": "2026-10-21T16:57:19Z",
+            "sentiment": "Neutral",
+            "compound": 0.103
+          },
+          {
+            "title": "Nasdaq rises as SpaceX, Super Micro boost AI appetite",
+            "source": "Harveyreporter.com.au",
+            "publishedAt": "2026-10-21T16:47:23Z",
+            "sentiment": "Positive",
+            "compound": 0.765
+          },
+          {
+            "title": "Dogecoin Gets a Dedicated Company to Build Out Its Ecosystem",
+            "source": "Decrypt",
+            "publishedAt": "2026-10-21T16:46:04Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
           {
             "title": "Third Eye Supports Bastion Trading's October 21 Call for Improved SkyAI Tender Terms",
             "source": "PRNewswire",
             "publishedAt": "2026-10-21T16:45:00Z",
             "sentiment": "Positive",
             "compound": 0.681
-          },
-          {
-            "title": "As Trump’s Popularity Plunges, FCC Head Threatens Networks That Broadcast ‘Fake Polls’",
-            "source": "Gizmodo.com",
-            "publishedAt": "2026-10-21T16:40:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.128
-          },
-          {
-            "title": "Cloud Of Betrayal Settles Over Potential SpaceX-Tesla Merger",
-            "source": "CleanTechnica",
-            "publishedAt": "2026-10-21T16:38:19Z",
-            "sentiment": "Negative",
-            "compound": -0.586
-          },
-          {
-            "title": "Fluence Energy (FLNC) Alert: Securities Class Action Filed, Investors with Losses Encouraged to Contact Hagens Berman Before November 27, 2026 Deadline",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-21T16:31:00Z",
-            "sentiment": "Positive",
-            "compound": 0.649
-          },
-          {
-            "title": "Anthropic adds Harvard astrophysicist to the trust that controls its board",
-            "source": "Fortune",
-            "publishedAt": "2026-10-21T16:30:00Z",
-            "sentiment": "Positive",
-            "compound": 0.511
-          },
-          {
-            "title": "US futures rise as SpaceX and Super Micro Computer boost AI sentiment",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-21T16:29:16Z",
-            "sentiment": "Positive",
-            "compound": 0.765
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.94,
-  "trade_probability": 45.16,
+  "confirmation_score": 42.88,
+  "trade_probability": 45.73,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
