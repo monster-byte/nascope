@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T07:15:53.593229+00:00",
+  "generated_at": "2026-10-22T07:31:10.497486+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -29,7 +29,7 @@
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.4479,
+          "change_pct": -0.4175,
           "up": false
         }
       }
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.92,
+      "score": 54.06,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.5,
-        "change_5d_pct": -0.49
+        "current_dxy": 101.48,
+        "change_5d_pct": -0.508
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.72,
+      "score": 49.32,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.014,
-        "articles_analyzed": 24,
+        "avg_compound": -0.014,
+        "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "In struggling LA, Mayor Karen Bass fights for 2nd term against democratic socialist-backed Raman",
+            "source": "Abcnews.com",
+            "publishedAt": "2026-10-21T07:25:05Z",
+            "sentiment": "Negative",
+            "compound": -0.67
+          },
+          {
+            "title": "Bonfiglioli Transmissions IPO allotment today; GMP signals 23% listing gain. Here's how to check status",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-21T07:24:03Z",
+            "sentiment": "Positive",
+            "compound": 0.527
+          },
+          {
+            "title": "UK inflation jumps more than expected on rising fuel costs",
+            "source": "Hurriyet Daily News",
+            "publishedAt": "2026-10-21T07:18:35Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Europe opens mixed with CPI, protests in focus",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-21T07:16:02Z",
+            "sentiment": "Negative",
+            "compound": -0.226
+          },
           {
             "title": "Rahul Jacob: The global economy is facing a 'resilience' paradox",
             "source": "Livemint",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-21T07:04:00Z",
             "sentiment": "Positive",
             "compound": 0.856
-          },
-          {
-            "title": "Rubio’s India visit puts energy security in focus as crude costs rise amid global disruptions: Kotak Neo’s Banerjee",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-21T07:00:40Z",
-            "sentiment": "Negative",
-            "compound": -0.382
-          },
-          {
-            "title": "BOJ likely to keep hiking rates every quarter, ex-official says",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-21T07:00:16Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Pelican Ecostay Apartments: Investors Record ₦20m Appreciation in One Year as Pelican-Valley Commissions Phase II in Ogun",
-            "source": "The Punch",
-            "publishedAt": "2026-10-21T06:55:03Z",
-            "sentiment": "Positive",
-            "compound": 0.511
-          },
-          {
-            "title": "Devina Mehra: Inefficient markets and what they mean for investors",
-            "source": "Livemint",
-            "publishedAt": "2026-10-21T06:51:50Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.93,
-  "trade_probability": 52.96,
+  "confirmation_score": 54.82,
+  "trade_probability": 52.89,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
