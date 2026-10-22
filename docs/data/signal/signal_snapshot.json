@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T07:01:23.198288+00:00",
+  "generated_at": "2026-10-22T07:15:53.593229+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -29,7 +29,7 @@
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.4175,
+          "change_pct": -0.4479,
           "up": false
         }
       }
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.82,
+      "score": 53.92,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.51,
-        "change_5d_pct": -0.477
+        "current_dxy": 101.5,
+        "change_5d_pct": -0.49
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.15,
+      "score": 50.72,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.017,
+        "avg_compound": 0.014,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Rahul Jacob: The global economy is facing a 'resilience' paradox",
+            "source": "Livemint",
+            "publishedAt": "2026-10-21T07:14:02Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
+          {
+            "title": "Valmet's key technology delivery supports efficient and flexible pulp production at the new Century Sunshine Rizhao mill in China",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-21T07:04:00Z",
+            "sentiment": "Positive",
+            "compound": 0.856
+          },
           {
             "title": "Rubio’s India visit puts energy security in focus as crude costs rise amid global disruptions: Kotak Neo’s Banerjee",
             "source": "BusinessLine",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-21T06:51:50Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "A 'golden age' vs. 'we're working on it': Trump, Vance give different economy pitches",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-10-21T06:42:23Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "UK annual inflation rate jumps to 3.5% in September: offi",
-            "source": "RTE",
-            "publishedAt": "2026-10-21T06:35:48Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.78,
-  "trade_probability": 52.87,
+  "confirmation_score": 54.93,
+  "trade_probability": 52.96,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
