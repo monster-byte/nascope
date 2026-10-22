@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T13:45:52.185361+00:00",
+  "generated_at": "2026-10-22T14:01:35.875906+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.4159,
+          "change_pct": 0.3287,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.3717,
+          "change_pct": -0.7122,
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.0848,
+          "change_pct": -0.9708,
           "up": false
         },
         "AMZN": {
-          "change_pct": -3.0566,
+          "change_pct": -3.026,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29283.21,
-        "sma50": 29858.26,
-        "sma200": 27821.12
+        "last_price": 29402.01,
+        "sma50": 29860.64,
+        "sma200": 27821.72
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 15.0,
+      "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 24.43,
-        "percentile_vs_20d": 85.0
+        "current_vxn": 26.48,
+        "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 58.02,
+      "score": 58.96,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.038,
-        "change_5d_pct": -1.002
+        "current_yield_pct": 5.032,
+        "change_5d_pct": -1.12
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.32,
+      "score": 51.55,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.83,
-        "change_5d_pct": -0.165
+        "current_dxy": 101.8,
+        "change_5d_pct": -0.194
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.43,
+      "score": 49.85,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.069,
+        "avg_compound": -0.003,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "The Navy’s Shipbuilding Problem Runs Through Its Supply Chain",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-21T13:43:26Z",
+            "title": "Antimony Market to Reach USD 1.85 Billion by 2034 Amid China Export Uncertainty",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-21T14:01:00Z",
             "sentiment": "Negative",
-            "compound": -0.402
+            "compound": -0.318
           },
           {
-            "title": "Super Micro Stock Soars 13% After AI Server Demand Pushes Preliminary Revenue Billions Above Its Own Forecast",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-10-21T13:42:27Z",
+            "title": "Antimony Market to Reach USD 1.85 Billion by 2034 Amid China Export Uncertainty",
+            "source": "PR Newswire UK",
+            "publishedAt": "2026-10-21T14:01:00Z",
+            "sentiment": "Negative",
+            "compound": -0.318
+          },
+          {
+            "title": "The Most Popular Halloween Decoration in Every State",
+            "source": "Mental Floss",
+            "publishedAt": "2026-10-21T14:00:03Z",
             "sentiment": "Positive",
-            "compound": 0.527
+            "compound": 0.475
           },
           {
-            "title": "Credo Technology Stock Jumps 8% as AI Connectivity Names Rebound and Rosenblatt Reaffirms Its $235 Target",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-10-21T13:41:41Z",
+            "title": "Predictors of preeclampsia with severe features: A multi–center analysis of maternal and health system factors in Thai tertiary hospitals",
+            "source": "Plos.org",
+            "publishedAt": "2026-10-21T14:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.382
+          },
+          {
+            "title": "Learning environment at home and primary school dropout status in Bangladesh: An analysis of multiple indicator cluster survey",
+            "source": "Plos.org",
+            "publishedAt": "2026-10-21T14:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "SpaceX Stock Rockets Nearly 10% as Revenue Soars 161% and Elon Musk Opens Door to Possible Merger With Tesla",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-10-21T13:40:37Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Vicor Stock Climbs 9% for Second Day as AI Data Center Demand Drives 79% Revenue Jump and Backlog Surge",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-10-21T13:38:23Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
-          },
-          {
-            "title": "US stocks today: US stocks open higher as SpaceX, Super Micro results lift AI stocks",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-21T13:37:35Z",
-            "sentiment": "Positive",
-            "compound": 0.599
+            "title": "Predicting continuous load-settlement trajectories of bored piles: A GA-optimized weighted ensemble framework with explainable AI",
+            "source": "Plos.org",
+            "publishedAt": "2026-10-21T14:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.273
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.61,
-  "trade_probability": 44.97,
+  "confirmation_score": 40.54,
+  "trade_probability": 44.32,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
