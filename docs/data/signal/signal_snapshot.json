@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T14:31:13.266597+00:00",
+  "generated_at": "2026-10-22T14:45:54.799966+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.2065,
+          "change_pct": -0.3389,
           "up": false
         },
         "MSFT": {
-          "change_pct": -1.2047,
+          "change_pct": -1.2075,
           "up": false
         },
         "NVDA": {
-          "change_pct": -2.0768,
+          "change_pct": -2.4074,
           "up": false
         },
         "AMZN": {
-          "change_pct": -3.6458,
+          "change_pct": -3.5157,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29151.12,
-        "sma50": 29855.62,
-        "sma200": 27820.46
+        "last_price": 29124.42,
+        "sma50": 29855.08,
+        "sma200": 27820.33
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 10.0,
+      "score": 0.0,
       "status": "red",
       "details": {
-        "current_vxn": 26.79,
-        "percentile_vs_20d": 90.0
+        "current_vxn": 27.57,
+        "percentile_vs_20d": 100.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 59.75,
+      "score": 61.63,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.027,
-        "change_5d_pct": -1.218
+        "current_yield_pct": 5.015,
+        "change_5d_pct": -1.454
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.11,
+      "score": 51.03,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.86,
-        "change_5d_pct": -0.139
+        "current_dxy": 101.87,
+        "change_5d_pct": -0.128
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.41,
+      "score": 45.28,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.088,
+        "avg_compound": -0.094,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Global Insured Catastrophe Losses Fall to Lowest 9-Month Level Since 2019: Report",
-            "source": "Insurance Journal",
-            "publishedAt": "2026-10-21T14:30:52Z",
-            "sentiment": "Negative",
-            "compound": -0.866
-          },
-          {
-            "title": "Musk promises every kid in America a free share of SpaceX",
-            "source": "Audacy.com",
-            "publishedAt": "2026-10-21T14:30:42Z",
-            "sentiment": "Positive",
-            "compound": 0.796
-          },
-          {
-            "title": "Republican Candidate Publishes AI Prompt About Trump’s Unpopularity",
+            "title": "Beating Jeff Van Drew Is Personal. Can Democrats Finally Do It?",
             "source": "The New Republic",
-            "publishedAt": "2026-10-21T14:27:07Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "France’s Economic Strain: Public Debt, Monetary Constraints, and Political Deadlock",
-            "source": "Globalresearch.ca",
-            "publishedAt": "2026-10-21T14:26:49Z",
+            "publishedAt": "2026-10-21T14:45:19Z",
             "sentiment": "Negative",
-            "compound": -0.625
+            "compound": -0.459
           },
           {
-            "title": "Telix Shares Sink Nearly 10% as Investors Shrug Off 19% Revenue Growth and Pixclara Launch in Third Quarter",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-10-21T14:26:49Z",
+            "title": "Inflation remains top of mind, MPC minutes show",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-21T14:43:57Z",
             "sentiment": "Positive",
-            "compound": 0.586
+            "compound": 0.202
           },
           {
-            "title": "Wingstop Stock Drops 7% After Analysts Slash Price Targets on Fast-Food Slowdown Ahead of Third-Quarter Report",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-10-21T14:24:18Z",
+            "title": "The West Has a Crisis of Hope",
+            "source": "Foreign Policy",
+            "publishedAt": "2026-10-21T14:41:04Z",
             "sentiment": "Negative",
-            "compound": -0.273
+            "compound": -0.296
+          },
+          {
+            "title": "Musk pledges $10bn in SpaceX shares for US children: Who really gains?",
+            "source": "Al Jazeera English",
+            "publishedAt": "2026-10-21T14:41:03Z",
+            "sentiment": "Positive",
+            "compound": 0.598
+          },
+          {
+            "title": "America's $1 trillion annual interest bill is growing as national debt surges, so why isn't the US facing a debt crisis like France?",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-21T14:39:57Z",
+            "sentiment": "Negative",
+            "compound": -0.44
+          },
+          {
+            "title": "CoreWeave Stock Is Getting Crushed. Here's What Investors Should Watch",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-21T14:38:12Z",
+            "sentiment": "Negative",
+            "compound": -0.421
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 34.71,
-  "trade_probability": 40.83,
+  "confirmation_score": 33.24,
+  "trade_probability": 39.94,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
