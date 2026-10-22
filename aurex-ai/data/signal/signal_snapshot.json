@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T15:31:12.523085+00:00",
+  "generated_at": "2026-10-22T15:45:53.472913+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.2269,
+          "change_pct": 0.3636,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.9896,
+          "change_pct": -1.0566,
           "up": false
         },
         "NVDA": {
-          "change_pct": -2.7655,
+          "change_pct": -2.8133,
           "up": false
         },
         "AMZN": {
-          "change_pct": -3.6958,
+          "change_pct": -3.7261,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29086.71,
-        "sma50": 29854.33,
-        "sma200": 27820.14
+        "last_price": 29087.77,
+        "sma50": 29854.35,
+        "sma200": 27820.15
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 28.1,
+        "current_vxn": 28.04,
         "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 63.2,
+      "score": 62.26,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.005,
-        "change_5d_pct": -1.651
+        "current_yield_pct": 5.011,
+        "change_5d_pct": -1.533
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.69,
+      "score": 51.59,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.79,
-        "change_5d_pct": -0.211
+        "current_dxy": 101.8,
+        "change_5d_pct": -0.199
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.06,
+      "score": 56.62,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.081,
+        "avg_compound": 0.132,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Brewers World Series costs: How high have prices soared since 1982?",
-            "source": "Milwaukee Journal Sentinel",
-            "publishedAt": "2026-10-21T15:30:32Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Inflation risks overshadow 7.8% growth as MPC raises repo rate; majority favours calibrated tightening",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-21T15:45:13Z",
+            "sentiment": "Positive",
+            "compound": 0.511
           },
           {
-            "title": "SHAREHOLDER ALERT - The M&A Class Action Firm Is Investigating the Merger - BWMN, DV, VREX and HZO - IS IT A FAIR DEAL FOR YOU?",
+            "title": "Target touts holiday bargains as consumers stress out about their finances",
+            "source": "Retail Dive",
+            "publishedAt": "2026-10-21T15:45:00Z",
+            "sentiment": "Neutral",
+            "compound": -0.052
+          },
+          {
+            "title": "Clear Street reiterates buy rating on Strategy, lifts price target to $211",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-21T15:41:33Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "NAPCO Security Technologies to Showcase New Security Innovations and Expanding Recurring Revenue Platforms at ISC East 2026",
             "source": "PRNewswire",
-            "publishedAt": "2026-10-21T15:30:00Z",
+            "publishedAt": "2026-10-21T15:41:00Z",
             "sentiment": "Positive",
-            "compound": 0.715
+            "compound": 0.586
           },
           {
-            "title": "Nasdaq leads gains as SpaceX, Super Micro results improve AI appetite",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-21T15:23:38Z",
+            "title": "What are Italy’s new measures against violent protests?",
+            "source": "Al Jazeera English",
+            "publishedAt": "2026-10-21T15:35:54Z",
+            "sentiment": "Negative",
+            "compound": -0.7
+          },
+          {
+            "title": "The parenthood tax: voters pay $13,000-a-year for childcare as Trump uses ‘fighting wars’ excuse: We can’t take care of daycare’",
+            "source": "Fortune",
+            "publishedAt": "2026-10-21T15:33:08Z",
             "sentiment": "Positive",
-            "compound": 0.848
-          },
-          {
-            "title": "Interactive Brokers Introduces Autonomous Trading",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-21T15:23:13Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Top Economist Dismisses Claims America's Economy Is 'Booming'",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-21T15:21:16Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "Show HN: An interactive model of expectations and recessions (2026 econ Nobel)",
-            "source": "Github.io",
-            "publishedAt": "2026-10-21T15:20:40Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": 0.477
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.5,
-  "trade_probability": 44.9,
+  "confirmation_score": 41.59,
+  "trade_probability": 44.95,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
