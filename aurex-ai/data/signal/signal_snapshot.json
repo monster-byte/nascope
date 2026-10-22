@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T14:01:35.875906+00:00",
+  "generated_at": "2026-10-22T14:15:54.180637+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.3287,
+          "change_pct": 0.1134,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.7122,
+          "change_pct": -1.1396,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.9708,
+          "change_pct": -1.7051,
           "up": false
         },
         "AMZN": {
-          "change_pct": -3.026,
+          "change_pct": -3.3125,
           "up": false
         }
       }
@@ -40,18 +40,18 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29402.01,
-        "sma50": 29860.64,
-        "sma200": 27821.72
+        "last_price": 29255.65,
+        "sma50": 29857.71,
+        "sma200": 27820.98
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 5.0,
+      "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 26.48,
-        "percentile_vs_20d": 95.0
+        "current_vxn": 26.36,
+        "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.55,
+      "score": 51.33,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.8,
-        "change_5d_pct": -0.194
+        "current_dxy": 101.83,
+        "change_5d_pct": -0.166
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.85,
+      "score": 51.07,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.003,
+        "avg_compound": 0.021,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Antimony Market to Reach USD 1.85 Billion by 2034 Amid China Export Uncertainty",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-21T14:01:00Z",
-            "sentiment": "Negative",
-            "compound": -0.318
-          },
-          {
-            "title": "Antimony Market to Reach USD 1.85 Billion by 2034 Amid China Export Uncertainty",
-            "source": "PR Newswire UK",
-            "publishedAt": "2026-10-21T14:01:00Z",
-            "sentiment": "Negative",
-            "compound": -0.318
-          },
-          {
-            "title": "The Most Popular Halloween Decoration in Every State",
-            "source": "Mental Floss",
-            "publishedAt": "2026-10-21T14:00:03Z",
+            "title": "Stock Market Today: Nasdaq Opens Higher; SpaceX Shares Surge on Tesla Deal Talks — Live Updates - WSJ",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-10-21T14:13:02Z",
             "sentiment": "Positive",
-            "compound": 0.475
+            "compound": 0.296
           },
           {
-            "title": "Predictors of preeclampsia with severe features: A multi–center analysis of maternal and health system factors in Thai tertiary hospitals",
-            "source": "Plos.org",
-            "publishedAt": "2026-10-21T14:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.382
+            "title": "Tightening local budgets point to tough post-election decisions",
+            "source": "The Sun Chronicle",
+            "publishedAt": "2026-10-21T14:10:00Z",
+            "sentiment": "Neutral",
+            "compound": -0.128
           },
           {
-            "title": "Learning environment at home and primary school dropout status in Bangladesh: An analysis of multiple indicator cluster survey",
-            "source": "Plos.org",
-            "publishedAt": "2026-10-21T14:00:00Z",
+            "title": "Power Solutions International Unveils Refreshed Corporate Logo, Marking a New Chapter in Its Power Boost 2030 Vision",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-21T14:09:55Z",
+            "sentiment": "Positive",
+            "compound": 0.66
+          },
+          {
+            "title": "Wall Street Futures Rise as Corporate Earnings Support Technology Stocks: Dow Jones, S&P, Nasdaq",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-21T14:07:46Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "LegalZoom to Announce Third Quarter 2026 Financial Results on Wednesday, November 4, 2026",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-21T14:07:13Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Predicting continuous load-settlement trajectories of bored piles: A GA-optimized weighted ensemble framework with explainable AI",
-            "source": "Plos.org",
-            "publishedAt": "2026-10-21T14:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.273
+            "title": "Bitcoin Rebounds From Below $80K to $82.5K as Oil Tops $110",
+            "source": "Bitcoinfoundation.org",
+            "publishedAt": "2026-10-21T14:03:20Z",
+            "sentiment": "Positive",
+            "compound": 0.511
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.54,
-  "trade_probability": 44.32,
+  "confirmation_score": 41.08,
+  "trade_probability": 44.65,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
