@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T08:01:21.044056+00:00",
+  "generated_at": "2026-10-22T08:15:51.264974+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -29,7 +29,7 @@
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.3672,
+          "change_pct": 0.3366,
           "up": true
         }
       }
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.43,
+      "score": 53.35,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.56,
-        "change_5d_pct": -0.428
+        "current_dxy": 101.57,
+        "change_5d_pct": -0.419
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.06,
+      "score": 50.07,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.059,
+        "avg_compound": 0.001,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Teleste Introduces an Industry First in Rail Passenger Information with Embedded Acapela AI Voices",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-21T08:14:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Asian shares are mixed, with Kospi up 3% after US stocks rally on strong earnings",
+            "source": "WKMG News 6 & ClickOrlando",
+            "publishedAt": "2026-10-21T08:07:59Z",
+            "sentiment": "Positive",
+            "compound": 0.67
+          },
+          {
+            "title": "SpaceX up 9% in premarket after earnings beat and Musk hints at Tesla tie-up",
+            "source": "CNBC",
+            "publishedAt": "2026-10-21T08:05:56Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Predictions 2027: Disruption Unleashed",
             "source": "Forrester.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-21T08:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "BlackRock CEO Larry Fink warns data center delays could raise costs and inflation",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-21T07:45:01Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
-          },
-          {
-            "title": "Labour's winter misery: UK debt mountain tops £3TRILLION for first time ever ahead of grim 'tax-raising' Budget - as inflation surges to 3.5% with interest rate pain looming",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-10-21T07:38:22Z",
-            "sentiment": "Negative",
-            "compound": -0.813
-          },
-          {
-            "title": "BlackRock’s Fink Sees Inflation Risk in Slow Data-Center Buildout",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-21T07:33:17Z",
-            "sentiment": "Negative",
-            "compound": -0.273
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 61.31,
-  "trade_probability": 56.79,
+  "confirmation_score": 61.57,
+  "trade_probability": 56.94,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
