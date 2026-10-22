@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T19:31:12.691809+00:00",
+  "generated_at": "2026-10-22T19:45:53.684427+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 1.0239,
+          "change_pct": 1.1664,
           "up": true
         },
         "MSFT": {
-          "change_pct": -1.5905,
+          "change_pct": -1.699,
           "up": false
         },
         "NVDA": {
-          "change_pct": -3.1144,
+          "change_pct": -3.4017,
           "up": false
         },
         "AMZN": {
-          "change_pct": -4.5314,
+          "change_pct": -4.7054,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28962.82,
-        "sma50": 29851.85,
-        "sma200": 27819.52
+        "last_price": 28881.79,
+        "sma50": 29850.23,
+        "sma200": 27819.12
       }
     },
     "vxn": {
@@ -50,7 +50,7 @@
       "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 29.68,
+        "current_vxn": 29.25,
         "percentile_vs_20d": 95.0
       }
     },
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.09,
+      "score": 53.07,
       "status": "yellow",
       "details": {
         "current_dxy": 101.61,
-        "change_5d_pct": -0.386
+        "change_5d_pct": -0.383
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.27,
+      "score": 53.09,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.085,
+        "avg_compound": 0.062,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "The Irish Times view on motor insurance: needless litigation should be avoided",
+            "source": "The Irish Times",
+            "publishedAt": "2026-10-21T19:43:00Z",
+            "sentiment": "Negative",
+            "compound": -0.494
+          },
+          {
+            "title": "BlackRock's Rick Rieder sees 'historic' opportunity in high-quality bonds",
+            "source": "CNBC",
+            "publishedAt": "2026-10-21T19:32:55Z",
+            "sentiment": "Positive",
+            "compound": 0.421
+          },
           {
             "title": "ShaMaran Announces Successful Pricing of Bond Issuance",
             "source": "PR Newswire UK",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-21T19:10:51Z",
             "sentiment": "Negative",
             "compound": -0.401
-          },
-          {
-            "title": "Why Is Bitcoin Going Up? BTC Nears $85K as US Stocks Rise",
-            "source": "Bitcoinfoundation.org",
-            "publishedAt": "2026-10-21T19:10:28Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "SpaceX posts $14.58 billion Q3 revenue as Bitcoin pushes toward $84,600",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-21T19:07:26Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 42.75,
-  "trade_probability": 45.65,
+  "confirmation_score": 42.64,
+  "trade_probability": 45.58,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
