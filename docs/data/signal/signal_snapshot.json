@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T01:45:57.062997+00:00",
+  "generated_at": "2026-10-22T02:01:18.060315+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -29,7 +29,7 @@
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.4479,
+          "change_pct": -0.4175,
           "up": false
         }
       }
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 56.51,
+      "score": 56.53,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.72,
-        "change_5d_pct": -0.813
+        "current_dxy": 101.71,
+        "change_5d_pct": -0.816
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.46,
+      "score": 51.02,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.011,
-        "articles_analyzed": 25,
+        "avg_compound": 0.02,
+        "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "French protests can be traced to weak fiscal management—and therein lies a lesson",
+            "source": "Livemint",
+            "publishedAt": "2026-10-21T02:01:05Z",
+            "sentiment": "Negative",
+            "compound": -0.765
+          },
+          {
+            "title": "Sensex Today | Nifty 50 | Stock Market Live Updates: GIFT Nifty signals a positive start; Asian shares trade higher",
+            "source": "Economictimes.com",
+            "publishedAt": "2026-10-21T01:49:39Z",
+            "sentiment": "Positive",
+            "compound": 0.93
+          },
           {
             "title": "Dollar treads water as Middle East tensions simmer; Aussie buoyed by hawkish RBA",
             "source": "CNA",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-21T01:27:27Z",
             "sentiment": "Negative",
             "compound": -0.296
-          },
-          {
-            "title": "Arctic Infrastructure Was Built on Frozen Ground That’s Starting to Thaw — Drones Can Help Spot the Permafrost Changes Coming",
-            "source": "CleanTechnica",
-            "publishedAt": "2026-10-21T01:21:44Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "Sensex today | Stock Market Live: Stock to buy today: South Indian Bank (54.31) – BUY",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-21T01:21:06Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 55.05,
-  "trade_probability": 53.03,
+  "confirmation_score": 55.19,
+  "trade_probability": 53.11,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
