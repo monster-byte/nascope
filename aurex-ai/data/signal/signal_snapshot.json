@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T16:31:13.257618+00:00",
+  "generated_at": "2026-10-22T16:45:54.330245+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.6574,
+          "change_pct": 0.4596,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.7357,
+          "change_pct": -0.9898,
           "up": false
         },
         "NVDA": {
-          "change_pct": -2.6286,
+          "change_pct": -3.0003,
           "up": false
         },
         "AMZN": {
-          "change_pct": -3.4086,
+          "change_pct": -3.8179,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29139.83,
-        "sma50": 29855.39,
-        "sma200": 27820.41
+        "last_price": 29024.45,
+        "sma50": 29853.08,
+        "sma200": 27819.83
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 27.61,
+        "current_vxn": 27.68,
         "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 65.25,
-      "status": "green",
+      "score": 64.93,
+      "status": "yellow",
       "details": {
-        "current_yield_pct": 4.992,
-        "change_5d_pct": -1.906
+        "current_yield_pct": 4.994,
+        "change_5d_pct": -1.867
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.57,
+      "score": 52.76,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.67,
-        "change_5d_pct": -0.322
+        "current_dxy": 101.65,
+        "change_5d_pct": -0.345
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.19,
+      "score": 55.27,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.124,
+        "avg_compound": 0.105,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Third Eye Supports Bastion Trading's October 21 Call for Improved SkyAI Tender Terms",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-21T16:45:00Z",
+            "sentiment": "Positive",
+            "compound": 0.681
+          },
+          {
+            "title": "As Trump’s Popularity Plunges, FCC Head Threatens Networks That Broadcast ‘Fake Polls’",
+            "source": "Gizmodo.com",
+            "publishedAt": "2026-10-21T16:40:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.128
+          },
+          {
+            "title": "Cloud Of Betrayal Settles Over Potential SpaceX-Tesla Merger",
+            "source": "CleanTechnica",
+            "publishedAt": "2026-10-21T16:38:19Z",
+            "sentiment": "Negative",
+            "compound": -0.586
+          },
           {
             "title": "Fluence Energy (FLNC) Alert: Securities Class Action Filed, Investors with Losses Encouraged to Contact Hagens Berman Before November 27, 2026 Deadline",
             "source": "PRNewswire",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-21T16:29:16Z",
             "sentiment": "Positive",
             "compound": 0.765
-          },
-          {
-            "title": "Coastal Financial Corporation (CCB) Alert: Securities Class Action Filed, Investors with Losses Encouraged to Contact Hagens Berman Before December 1, 2026 Deadline",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-21T16:26:00Z",
-            "sentiment": "Positive",
-            "compound": 0.494
-          },
-          {
-            "title": "Why I Can't Go Back to Virginia Until It's Named Americaginia",
-            "source": "Reason",
-            "publishedAt": "2026-10-21T16:25:12Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "APP INVESTOR DEADLINE: AppLovin Corporation Investors with Substantial Losses Have Opportunity to Lead Securities Fraud Class Action Lawsuit",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-21T16:25:00Z",
-            "sentiment": "Negative",
-            "compound": -0.382
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 42.05,
-  "trade_probability": 45.23,
+  "confirmation_score": 41.94,
+  "trade_probability": 45.16,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
