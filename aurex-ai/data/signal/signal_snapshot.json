@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T19:01:29.457708+00:00",
+  "generated_at": "2026-10-22T19:15:55.139654+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.9482,
+          "change_pct": 0.9119,
           "up": true
         },
         "MSFT": {
-          "change_pct": -1.6207,
+          "change_pct": -1.6301,
           "up": false
         },
         "NVDA": {
-          "change_pct": -3.4952,
+          "change_pct": -3.29,
           "up": false
         },
         "AMZN": {
-          "change_pct": -4.8094,
+          "change_pct": -4.9656,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28896.27,
-        "sma50": 29850.52,
-        "sma200": 27819.19
+        "last_price": 28919.16,
+        "sma50": 29850.98,
+        "sma200": 27819.3
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 0.0,
+      "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 29.55,
-        "percentile_vs_20d": 100.0
+        "current_vxn": 29.78,
+        "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 71.69,
+      "score": 71.38,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.951,
-        "change_5d_pct": -2.712
+        "current_yield_pct": 4.953,
+        "change_5d_pct": -2.672
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.0,
+      "score": 52.98,
       "status": "yellow",
       "details": {
         "current_dxy": 101.62,
-        "change_5d_pct": -0.375
+        "change_5d_pct": -0.373
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.97,
+      "score": 52.61,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.019,
+        "avg_compound": 0.052,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Seeing a psychologist is becoming more unequal – and our map shows the gap",
+            "source": "The Conversation Africa",
+            "publishedAt": "2026-10-21T19:10:51Z",
+            "sentiment": "Negative",
+            "compound": -0.401
+          },
+          {
+            "title": "Why Is Bitcoin Going Up? BTC Nears $85K as US Stocks Rise",
+            "source": "Bitcoinfoundation.org",
+            "publishedAt": "2026-10-21T19:10:28Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "SpaceX posts $14.58 billion Q3 revenue as Bitcoin pushes toward $84,600",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-21T19:07:26Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Steve Ballmer Is Worth $164 Billion, After Being Kicked Out Of Microsoft",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-21T19:03:32Z",
+            "sentiment": "Positive",
+            "compound": 0.226
+          },
+          {
+            "title": "“You Protected Pedophiles!”: Protester Interrupts JD Vance Speech",
+            "source": "The New Republic",
+            "publishedAt": "2026-10-21T19:01:31Z",
+            "sentiment": "Positive",
+            "compound": 0.224
+          },
           {
             "title": "Crypto is expanding the boundaries of what can be priced",
             "source": "Activistpost.com",
             "publishedAt": "2026-10-21T19:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "EQUITY ALERT - IS IT A FAIR DEAL FOR YOU? - The M&A Class Action Is Investigating the Merger -- SYNA, EFSI, VCTR and CSR",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-21T19:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.715
-          },
-          {
-            "title": "Fanttik X9 Pro Deluxe 150PSI Cordless Tire Inflator for $54 + free shipping",
-            "source": "Dealnews.com",
-            "publishedAt": "2026-10-21T18:59:35Z",
-            "sentiment": "Positive",
-            "compound": 0.511
-          },
-          {
-            "title": "Fight at the Museum: Inside the Collapse of the Academy of Natural Sciences",
-            "source": "phillymag.com",
-            "publishedAt": "2026-10-21T18:59:01Z",
-            "sentiment": "Negative",
-            "compound": -0.511
-          },
-          {
-            "title": "Walmart launches new membership deal that could save shoppers nearly $100 a year",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-10-21T18:53:24Z",
-            "sentiment": "Positive",
-            "compound": 0.494
-          },
-          {
-            "title": "Fanttik X8 APEX EV Portable Tire Inflator for $63 at checkout + free shipping",
-            "source": "Dealnews.com",
-            "publishedAt": "2026-10-21T18:46:51Z",
-            "sentiment": "Positive",
-            "compound": 0.511
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 42.04,
-  "trade_probability": 45.22,
+  "confirmation_score": 42.59,
+  "trade_probability": 45.55,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
