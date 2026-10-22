@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T17:01:25.361653+00:00",
+  "generated_at": "2026-10-22T17:16:12.964059+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.5119,
+          "change_pct": 0.6486,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.9481,
+          "change_pct": -1.1273,
           "up": false
         },
         "NVDA": {
-          "change_pct": -2.9,
+          "change_pct": -3.1075,
           "up": false
         },
         "AMZN": {
-          "change_pct": -3.7184,
+          "change_pct": -4.0666,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29036.48,
-        "sma50": 29853.32,
-        "sma200": 27819.89
+        "last_price": 29002.5,
+        "sma50": 29852.65,
+        "sma200": 27819.72
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 28.04,
+        "current_vxn": 28.28,
         "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 68.71,
+      "score": 67.45,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.97,
-        "change_5d_pct": -2.338
+        "current_yield_pct": 4.978,
+        "change_5d_pct": -2.181
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.17,
+      "score": 53.11,
       "status": "yellow",
       "details": {
         "current_dxy": 101.6,
-        "change_5d_pct": -0.396
+        "change_5d_pct": -0.388
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 59.64,
+      "score": 57.98,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.193,
+        "avg_compound": 0.16,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "What Does FuelCell Energy, Inc.'s 15.69% Stock Drop Mean for Investors? The Law Offices of Howard G. Smith Outlines Securities Fraud Class Action Lead Plaintiff Deadline",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-21T17:10:00Z",
+            "sentiment": "Negative",
+            "compound": -0.382
+          },
+          {
+            "title": "Microsoft and Alphabet object to blockchain versions of their shares—but their veto only goes so far",
+            "source": "Fortune",
+            "publishedAt": "2026-10-21T17:08:21Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "European shares rise on solid earnings but Carrefour slumps on French unrest",
             "source": "The Irish Times",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-21T16:47:23Z",
             "sentiment": "Positive",
             "compound": 0.765
-          },
-          {
-            "title": "Dogecoin Gets a Dedicated Company to Build Out Its Ecosystem",
-            "source": "Decrypt",
-            "publishedAt": "2026-10-21T16:46:04Z",
-            "sentiment": "Positive",
-            "compound": 0.459
-          },
-          {
-            "title": "Third Eye Supports Bastion Trading's October 21 Call for Improved SkyAI Tender Terms",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-21T16:45:00Z",
-            "sentiment": "Positive",
-            "compound": 0.681
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 42.88,
-  "trade_probability": 45.73,
+  "confirmation_score": 42.55,
+  "trade_probability": 45.53,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
