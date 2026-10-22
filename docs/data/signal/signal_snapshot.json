@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T19:15:55.139654+00:00",
+  "generated_at": "2026-10-22T19:31:12.691809+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.9119,
+          "change_pct": 1.0239,
           "up": true
         },
         "MSFT": {
-          "change_pct": -1.6301,
+          "change_pct": -1.5905,
           "up": false
         },
         "NVDA": {
-          "change_pct": -3.29,
+          "change_pct": -3.1144,
           "up": false
         },
         "AMZN": {
-          "change_pct": -4.9656,
+          "change_pct": -4.5314,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28919.16,
-        "sma50": 29850.98,
-        "sma200": 27819.3
+        "last_price": 28962.82,
+        "sma50": 29851.85,
+        "sma200": 27819.52
       }
     },
     "vxn": {
@@ -50,7 +50,7 @@
       "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 29.78,
+        "current_vxn": 29.68,
         "percentile_vs_20d": 95.0
       }
     },
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.98,
+      "score": 53.09,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.62,
-        "change_5d_pct": -0.373
+        "current_dxy": 101.61,
+        "change_5d_pct": -0.386
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.61,
+      "score": 54.27,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.052,
+        "avg_compound": 0.085,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "ShaMaran Announces Successful Pricing of Bond Issuance",
+            "source": "PR Newswire UK",
+            "publishedAt": "2026-10-21T19:30:00Z",
+            "sentiment": "Positive",
+            "compound": 0.586
+          },
+          {
+            "title": "Station Casinos LLC Announces Closing of $500 Million Incremental Term B Loan",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-21T19:26:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "‘The Weeknight’: Trump’s ‘inflation crisis’ has come for his MAGA merch",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-21T19:19:09Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Seeing a psychologist is becoming more unequal – and our map shows the gap",
             "source": "The Conversation Africa",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-21T19:07:26Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Steve Ballmer Is Worth $164 Billion, After Being Kicked Out Of Microsoft",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-21T19:03:32Z",
-            "sentiment": "Positive",
-            "compound": 0.226
-          },
-          {
-            "title": "“You Protected Pedophiles!”: Protester Interrupts JD Vance Speech",
-            "source": "The New Republic",
-            "publishedAt": "2026-10-21T19:01:31Z",
-            "sentiment": "Positive",
-            "compound": 0.224
-          },
-          {
-            "title": "Crypto is expanding the boundaries of what can be priced",
-            "source": "Activistpost.com",
-            "publishedAt": "2026-10-21T19:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 42.59,
-  "trade_probability": 45.55,
+  "confirmation_score": 42.75,
+  "trade_probability": 45.65,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
