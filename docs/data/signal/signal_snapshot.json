@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T22:31:09.169428+00:00",
+  "generated_at": "2026-10-22T22:45:56.524076+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.93,
+      "score": 54.49,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.119,
-        "articles_analyzed": 24,
+        "avg_compound": 0.09,
+        "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "DAN HODGES: Kemi is in danger of falling into a carefully prepared Labour trap over the Budget - which ends in a snap election",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-10-21T22:42:26Z",
+            "sentiment": "Negative",
+            "compound": -0.599
+          },
           {
             "title": "Who is London's Batman? Superhero costumed philanthropist buys petrol, pays parking fines and gives out £1 chicken and chips to hard-up Brits",
             "source": "Dailymail.com",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-10-21T22:08:53Z",
             "sentiment": "Positive",
             "compound": 0.772
-          },
-          {
-            "title": "Stocks rise on AI-led earnings, France's 10-year bond yield hits 5%",
-            "source": "CNA",
-            "publishedAt": "2026-10-21T22:02:26Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 42.44,
-  "trade_probability": 45.46,
+  "confirmation_score": 42.31,
+  "trade_probability": 45.39,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
