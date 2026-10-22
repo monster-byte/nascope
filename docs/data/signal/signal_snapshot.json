@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T00:01:21.746588+00:00",
+  "generated_at": "2026-10-22T00:15:53.007537+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 56.82,
+      "score": 56.72,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.68,
-        "change_5d_pct": -0.852
+        "current_dxy": 101.69,
+        "change_5d_pct": -0.84
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.78,
+      "score": 54.35,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.096,
+        "avg_compound": 0.087,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Innventure, Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - INV",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-21T00:15:00Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "Rising yields: Is it time to look at gilt funds?",
+            "source": "Economictimes.com",
+            "publishedAt": "2026-10-21T00:10:54Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "After The Blue Wave",
             "source": "Persuasion.community",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-21T00:00:00Z",
             "sentiment": "Negative",
             "compound": -0.66
-          },
-          {
-            "title": "Tokenization Of Real-World Assets: A Market Taking Shape",
-            "source": "Thefreedomfrequency.org",
-            "publishedAt": "2026-10-21T00:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.178
-          },
-          {
-            "title": "Inflation to decline to 15.6% in 2026 – Report",
-            "source": "The Punch",
-            "publishedAt": "2026-10-20T23:55:20Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 55.56,
-  "trade_probability": 53.34,
+  "confirmation_score": 55.51,
+  "trade_probability": 53.31,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
