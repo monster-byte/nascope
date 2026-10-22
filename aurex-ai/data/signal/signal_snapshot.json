@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T14:15:54.180637+00:00",
+  "generated_at": "2026-10-22T14:31:13.266597+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
+      "score": 0.0,
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.1134,
-          "up": true
+          "change_pct": -0.2065,
+          "up": false
         },
         "MSFT": {
-          "change_pct": -1.1396,
+          "change_pct": -1.2047,
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.7051,
+          "change_pct": -2.0768,
           "up": false
         },
         "AMZN": {
-          "change_pct": -3.3125,
+          "change_pct": -3.6458,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29255.65,
-        "sma50": 29857.71,
-        "sma200": 27820.98
+        "last_price": 29151.12,
+        "sma50": 29855.62,
+        "sma200": 27820.46
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 26.36,
+        "current_vxn": 26.79,
         "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 58.96,
+      "score": 59.75,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.032,
-        "change_5d_pct": -1.12
+        "current_yield_pct": 5.027,
+        "change_5d_pct": -1.218
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.33,
+      "score": 51.11,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.83,
-        "change_5d_pct": -0.166
+        "current_dxy": 101.86,
+        "change_5d_pct": -0.139
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.07,
+      "score": 54.41,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.021,
-        "articles_analyzed": 25,
+        "avg_compound": 0.088,
+        "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Stock Market Today: Nasdaq Opens Higher; SpaceX Shares Surge on Tesla Deal Talks — Live Updates - WSJ",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-10-21T14:13:02Z",
+            "title": "Global Insured Catastrophe Losses Fall to Lowest 9-Month Level Since 2019: Report",
+            "source": "Insurance Journal",
+            "publishedAt": "2026-10-21T14:30:52Z",
+            "sentiment": "Negative",
+            "compound": -0.866
+          },
+          {
+            "title": "Musk promises every kid in America a free share of SpaceX",
+            "source": "Audacy.com",
+            "publishedAt": "2026-10-21T14:30:42Z",
             "sentiment": "Positive",
-            "compound": 0.296
+            "compound": 0.796
           },
           {
-            "title": "Tightening local budgets point to tough post-election decisions",
-            "source": "The Sun Chronicle",
-            "publishedAt": "2026-10-21T14:10:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
-          },
-          {
-            "title": "Power Solutions International Unveils Refreshed Corporate Logo, Marking a New Chapter in Its Power Boost 2030 Vision",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-21T14:09:55Z",
-            "sentiment": "Positive",
-            "compound": 0.66
-          },
-          {
-            "title": "Wall Street Futures Rise as Corporate Earnings Support Technology Stocks: Dow Jones, S&P, Nasdaq",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-21T14:07:46Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "LegalZoom to Announce Third Quarter 2026 Financial Results on Wednesday, November 4, 2026",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-21T14:07:13Z",
+            "title": "Republican Candidate Publishes AI Prompt About Trump’s Unpopularity",
+            "source": "The New Republic",
+            "publishedAt": "2026-10-21T14:27:07Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Bitcoin Rebounds From Below $80K to $82.5K as Oil Tops $110",
-            "source": "Bitcoinfoundation.org",
-            "publishedAt": "2026-10-21T14:03:20Z",
+            "title": "France’s Economic Strain: Public Debt, Monetary Constraints, and Political Deadlock",
+            "source": "Globalresearch.ca",
+            "publishedAt": "2026-10-21T14:26:49Z",
+            "sentiment": "Negative",
+            "compound": -0.625
+          },
+          {
+            "title": "Telix Shares Sink Nearly 10% as Investors Shrug Off 19% Revenue Growth and Pixclara Launch in Third Quarter",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-10-21T14:26:49Z",
             "sentiment": "Positive",
-            "compound": 0.511
+            "compound": 0.586
+          },
+          {
+            "title": "Wingstop Stock Drops 7% After Analysts Slash Price Targets on Fast-Food Slowdown Ahead of Third-Quarter Report",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-10-21T14:24:18Z",
+            "sentiment": "Negative",
+            "compound": -0.273
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.08,
-  "trade_probability": 44.65,
+  "confirmation_score": 34.71,
+  "trade_probability": 40.83,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
