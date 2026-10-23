@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T07:15:48.056451+00:00",
+  "generated_at": "2026-10-23T07:31:08.856768+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.77,
+      "score": 50.22,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.74,
-        "change_5d_pct": -0.096
+        "current_dxy": 101.81,
+        "change_5d_pct": -0.027
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.1,
+      "score": 52.43,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.062,
+        "avg_compound": 0.049,
         "articles_analyzed": 22,
         "top_headlines": [
+          {
+            "title": "Europe opens lower after earnings, Ukraine talks",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-22T07:18:11Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
           {
             "title": "5 Book Reviews You Need to Read This Week",
             "source": "Lithub.com",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-10-22T06:59:35Z",
             "sentiment": "Negative",
             "compound": -0.273
-          },
-          {
-            "title": "Retirement planning: Is your portfolio ready for a 25% stock market crash?",
-            "source": "Economictimes.com",
-            "publishedAt": "2026-10-22T06:43:31Z",
-            "sentiment": "Neutral",
-            "compound": -0.052
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.98,
-  "trade_probability": 45.19,
+  "confirmation_score": 41.87,
+  "trade_probability": 45.12,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
