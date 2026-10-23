@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T09:31:09.968263+00:00",
+  "generated_at": "2026-10-23T09:45:52.195939+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.51,
+      "score": 50.8,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.78,
-        "change_5d_pct": -0.064
+        "current_dxy": 101.74,
+        "change_5d_pct": -0.1
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.82,
+      "score": 50.63,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.036,
+        "avg_compound": 0.013,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Here's the exact portfolio mix JPMorgan says will outperform in the next decade",
+            "source": "Business Insider",
+            "publishedAt": "2026-10-22T09:45:01Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Barclays Q3 profit rises 12% YoY, lender announces £500 million share buyback",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-22T09:36:46Z",
+            "sentiment": "Positive",
+            "compound": 0.625
+          },
+          {
+            "title": "Across Europe, mobilizations multiply driven by youth",
+            "source": "RTE",
+            "publishedAt": "2026-10-22T09:35:54Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "AI hype and dotcom déjà vu: Sorry to burst your bubble, but this doesn't look like one",
             "source": "Livemint",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-22T09:23:26Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Trump Accounts for adults: 4 things advisors want Congress to consider",
-            "source": "Business Insider",
-            "publishedAt": "2026-10-22T09:23:01Z",
-            "sentiment": "Neutral",
-            "compound": 0.077
-          },
-          {
-            "title": "World shares retreat as report of damage to oil takers pushes oil prices higher",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-10-22T09:21:28Z",
-            "sentiment": "Neutral",
-            "compound": -0.052
-          },
-          {
-            "title": "Satya Nadella Says Microsoft Is Rebuilding Around AI Agents as Trump Pushes ‘Super Intelligence’",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-22T09:20:39Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 35.1,
-  "trade_probability": 41.06,
+  "confirmation_score": 35.02,
+  "trade_probability": 41.01,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
