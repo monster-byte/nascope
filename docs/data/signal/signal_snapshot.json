@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T07:31:08.856768+00:00",
+  "generated_at": "2026-10-23T07:45:54.390692+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.22,
+      "score": 50.3,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.81,
-        "change_5d_pct": -0.027
+        "current_dxy": 101.8,
+        "change_5d_pct": -0.037
       }
     },
     "macro": {
@@ -85,56 +85,10 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.43,
+      "score": 50.0,
       "status": "yellow",
       "details": {
-        "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.049,
-        "articles_analyzed": 22,
-        "top_headlines": [
-          {
-            "title": "Europe opens lower after earnings, Ukraine talks",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-22T07:18:11Z",
-            "sentiment": "Negative",
-            "compound": -0.296
-          },
-          {
-            "title": "5 Book Reviews You Need to Read This Week",
-            "source": "Lithub.com",
-            "publishedAt": "2026-10-22T07:15:21Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Texas shed thousands of jobs in September, lowering 2026 growth forecast | Texarkana Gazette",
-            "source": "Texarkana Gazette",
-            "publishedAt": "2026-10-22T07:12:11Z",
-            "sentiment": "Neutral",
-            "compound": 0.153
-          },
-          {
-            "title": "Japan's biggest labour group seeks midpoint target of 6% for 2027 wage increase talks",
-            "source": "CNA",
-            "publishedAt": "2026-10-22T07:05:58Z",
-            "sentiment": "Positive",
-            "compound": 0.318
-          },
-          {
-            "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-22T07:02:46Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Swiggy slips 26% in 1 month, hits record low; stock down 46% from IPO price",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-22T06:59:35Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          }
-        ]
+        "error": "news_fetch_failed: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?q=Nasdaq+OR+%22Federal+Reserve%22+OR+%22stock+market%22+OR+inflation&language=en&sortBy=publishedAt&pageSize=25&apiKey=280ea038bd7e4ccb91d87f9d115484d4"
       }
     },
     "patent_momentum": {
@@ -146,8 +100,8 @@
       }
     }
   },
-  "confirmation_score": 41.87,
-  "trade_probability": 45.12,
+  "confirmation_score": 41.66,
+  "trade_probability": 45.0,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
