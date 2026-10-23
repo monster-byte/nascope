@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T13:45:56.193896+00:00",
+  "generated_at": "2026-10-23T14:01:27.508233+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.2252,
-          "up": true
+          "change_pct": -0.2226,
+          "up": false
         },
         "MSFT": {
-          "change_pct": -0.9234,
+          "change_pct": -0.2567,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.025,
+          "change_pct": 0.3426,
           "up": true
         },
         "AMZN": {
-          "change_pct": -1.0506,
+          "change_pct": -0.7436,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28965.28,
-        "sma50": 29829.38,
-        "sma200": 27836.06
+        "last_price": 29002.18,
+        "sma50": 29830.12,
+        "sma200": 27836.24
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 0.0,
+      "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 28.83,
-        "percentile_vs_20d": 100.0
+        "current_vxn": 28.66,
+        "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 70.09,
+      "score": 67.58,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.97,
-        "change_5d_pct": -2.511
+        "current_yield_pct": 4.986,
+        "change_5d_pct": -2.197
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.13,
+      "score": 50.79,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.7,
-        "change_5d_pct": -0.141
+        "current_dxy": 101.74,
+        "change_5d_pct": -0.099
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.57,
+      "score": 43.37,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.069,
+        "avg_compound": -0.133,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "The Swamp King",
-            "source": "Reason",
-            "publishedAt": "2026-10-22T13:44:20Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "CryptoQuant CEO calls rising Bitcoin hashrate ‘indirect bullish signal’ from institutions",
-            "source": "Cointelegraph",
-            "publishedAt": "2026-10-22T13:42:34Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "TSX futures point lower following Meta, Tesla earnings",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-22T13:42:02Z",
+            "title": "Yen jumps as oil, AI and France worries rattle markets",
+            "source": "CNA",
+            "publishedAt": "2026-10-22T14:01:14Z",
             "sentiment": "Negative",
-            "compound": -0.296
+            "compound": -0.421
           },
           {
-            "title": "Rupee snaps eight-day winning streak as rise in crude offsets inflows",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-22T13:42:01Z",
-            "sentiment": "Neutral",
-            "compound": -0.077
-          },
-          {
-            "title": "Taiwan Halts Stock Trade, Shuts Schools as Typhoon Champi Nears",
-            "source": "Insurance Journal",
-            "publishedAt": "2026-10-22T13:41:47Z",
+            "title": "Association among Dietary Inflammatory Index, sleep quality and nutritional status in fixed daytime and rotating shift workers",
+            "source": "Plos.org",
+            "publishedAt": "2026-10-22T14:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Apple's $1,999 foldable iPhone to hit stores amid limited supplies",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-10-22T13:41:17Z",
-            "sentiment": "Negative",
-            "compound": -0.226
+            "title": "Predicting under-five child mortality in Zambia: Machine learning versus parametric survival models",
+            "source": "Plos.org",
+            "publishedAt": "2026-10-22T14:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Global stakeholder preferences for point-of-care HIV nucleic acid amplification tests: A conjoint study",
+            "source": "Plos.org",
+            "publishedAt": "2026-10-22T14:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Cost-effectiveness of end-game strategies against sleeping sickness across the Democratic Republic of Congo",
+            "source": "Plos.org",
+            "publishedAt": "2026-10-22T14:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Job-Based Health Plan Costs Rise, With Little Relief in Sight",
+            "source": "Nakedcapitalism.com",
+            "publishedAt": "2026-10-22T13:58:25Z",
+            "sentiment": "Positive",
+            "compound": 0.423
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 48.01,
-  "trade_probability": 48.81,
+  "confirmation_score": 41.05,
+  "trade_probability": 44.63,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
