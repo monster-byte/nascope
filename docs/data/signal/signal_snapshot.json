@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T15:46:01.730037+00:00",
+  "generated_at": "2026-10-23T16:01:28.513926+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
-      "status": "red",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.2955,
+          "change_pct": -0.2266,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.4694,
+          "change_pct": 0.5948,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.0815,
-          "up": false
+          "change_pct": 0.168,
+          "up": true
         },
         "AMZN": {
-          "change_pct": -0.7177,
+          "change_pct": -0.6339,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29065.75,
-        "sma50": 29831.39,
-        "sma200": 27836.56
+        "last_price": 29123.55,
+        "sma50": 29832.55,
+        "sma200": 27836.85
       }
     },
     "vxn": {
@@ -50,7 +50,7 @@
       "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 27.94,
+        "current_vxn": 28.03,
         "percentile_vs_20d": 90.0
       }
     },
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.51,
+      "score": 53.92,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.09,
-        "articles_analyzed": 25,
+        "avg_compound": 0.078,
+        "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "What Is a Neocloud? The GPU Clouds Powering the AI Boom",
-            "source": "Decrypt",
-            "publishedAt": "2026-10-22T15:45:07Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Should You Buy Coinbase Stock Under $170?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-22T15:43:31Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "(PR) Corsair and CD Projekt Red Return to Night City With Two New Cyberpunk Collections",
-            "source": "Techpowerup.com",
-            "publishedAt": "2026-10-22T15:41:25Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "20VC x SaaStr: $20M ARR and Unfundable, Anthropic’s $16.8B Quarter, and Modal at $15.75B",
-            "source": "Saastr.com",
-            "publishedAt": "2026-10-22T15:39:27Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Social Security is helping new parents open a Trump Account for their kids",
-            "source": "New York Post",
-            "publishedAt": "2026-10-22T15:34:45Z",
-            "sentiment": "Positive",
-            "compound": 0.557
-          },
-          {
-            "title": "Club Offers for Travel Enthusiasts in the UK",
+            "title": "WEC Energy Group to announce 2026 third-quarter results Oct. 29",
             "source": "PRNewswire",
-            "publishedAt": "2026-10-22T15:33:00Z",
+            "publishedAt": "2026-10-22T16:00:00Z",
             "sentiment": "Positive",
-            "compound": 0.34
+            "compound": 0.273
+          },
+          {
+            "title": "The Next Chapter: Smith & Wesson Announces Acquisition of Savage Arms",
+            "source": "Soldiersystems.net",
+            "publishedAt": "2026-10-22T16:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.459
+          },
+          {
+            "title": "HOME AFFORDABILITY REMAINS STRAINED AS MORTGAGE RATES RISE",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-22T16:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
+          {
+            "title": "‘Our focus is to remain cost competitive, achieve 80 MT by FY28’",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-22T15:59:42Z",
+            "sentiment": "Neutral",
+            "compound": 0.178
+          },
+          {
+            "title": "Is USA Rare Earth Stock a Once-in-a-Generation Reshoring Opportunity?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-22T15:59:25Z",
+            "sentiment": "Positive",
+            "compound": 0.421
+          },
+          {
+            "title": "Tesla Is Just A Car Company",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-22T15:59:10Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 42.29,
-  "trade_probability": 45.37,
+  "confirmation_score": 48.98,
+  "trade_probability": 49.39,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
