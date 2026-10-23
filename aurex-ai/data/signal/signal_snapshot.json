@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T19:15:54.039667+00:00",
+  "generated_at": "2026-10-23T19:31:11.763805+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.5594,
+          "change_pct": -0.5092,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.272,
+          "change_pct": 0.3429,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.1521,
+          "change_pct": -0.284,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.9489,
+          "change_pct": -1.0047,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28986.58,
-        "sma50": 29829.81,
-        "sma200": 27836.16
+        "last_price": 28982.6,
+        "sma50": 29829.73,
+        "sma200": 27836.14
       }
     },
     "vxn": {
@@ -50,7 +50,7 @@
       "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 28.71,
+        "current_vxn": 28.65,
         "percentile_vs_20d": 95.0
       }
     },
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.33,
+      "score": 50.32,
       "status": "yellow",
       "details": {
         "current_dxy": 101.8,
-        "change_5d_pct": -0.041
+        "change_5d_pct": -0.04
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.1,
+      "score": 57.93,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.122,
+        "avg_compound": 0.159,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Iran’s secret oil supply bound for China has dried up thanks to US naval blockade, analysts say",
-            "source": "New York Post",
-            "publishedAt": "2026-10-22T19:14:49Z",
-            "sentiment": "Positive",
-            "compound": 0.44
-          },
-          {
-            "title": "RBI asks banks, payment firms to forensically clear tech environments in case of a data breach",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-22T19:07:54Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "RBI asks banks, payment firms to forensically clear tech environments in case of a data breach",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-22T19:07:54Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "Venice’s DIEM token turns AI inference credits into something you can own",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-22T19:06:57Z",
-            "sentiment": "Positive",
-            "compound": 0.361
-          },
-          {
-            "title": "Austin’s Del Valle ISD Education Foundation wins F1® Allwyn Global Community Award to catalyse STEM career pathways for 12,000 students",
+            "title": "Apple is Wall Street’s favourite AI haven as spending fears hit",
             "source": "Financial Post",
-            "publishedAt": "2026-10-22T19:05:20Z",
-            "sentiment": "Positive",
-            "compound": 0.802
+            "publishedAt": "2026-10-22T19:27:17Z",
+            "sentiment": "Negative",
+            "compound": -0.421
           },
           {
-            "title": "Treasuries see best day in over a year as AI selloff revives haven demand",
+            "title": "MPC minutes: Two more interest rate hikes on cards, maybe even a third",
             "source": "The Times of India",
-            "publishedAt": "2026-10-22T19:03:07Z",
+            "publishedAt": "2026-10-22T19:26:43Z",
             "sentiment": "Positive",
-            "compound": 0.802
+            "compound": 0.509
+          },
+          {
+            "title": "MPC minutes: Two more interest rate hikes on cards, maybe even a third",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-22T19:26:43Z",
+            "sentiment": "Positive",
+            "compound": 0.509
+          },
+          {
+            "title": "Small businesses are getting clobbered by health insurance costs for their employees",
+            "source": "Business Insider",
+            "publishedAt": "2026-10-22T19:24:19Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Taiwan Semiconductor and ASML Are Incredible, but 1 of These Monopoly Chip Stocks Is Far Safer",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-22T19:19:45Z",
+            "sentiment": "Positive",
+            "compound": 0.572
+          },
+          {
+            "title": "Nasdaq, Inc. Q3 2026 Earnings Call Summary",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-22T19:19:20Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 42.11,
-  "trade_probability": 45.27,
+  "confirmation_score": 42.27,
+  "trade_probability": 45.36,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
