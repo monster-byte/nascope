@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T02:01:19.467431+00:00",
+  "generated_at": "2026-10-23T02:15:56.545928+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.95,
+      "score": 52.44,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.62,
-        "change_5d_pct": -0.369
+        "current_dxy": 101.69,
+        "change_5d_pct": -0.305
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.45,
+      "score": 52.43,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.069,
+        "avg_compound": 0.049,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Roy Cooper’s failing grade",
+            "source": "Ncspin.com",
+            "publishedAt": "2026-10-22T02:14:00Z",
+            "sentiment": "Negative",
+            "compound": -0.511
+          },
           {
             "title": "Woman Picks Up Box Of Krispy Kreme At Walmart. Then She Scans It At Self-Checkout: ‘Walmart, You’ve Lost Your Minds’",
             "source": "BroBible",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-10-22T01:51:39Z",
             "sentiment": "Positive",
             "compound": 0.599
-          },
-          {
-            "title": "CNBC Daily Open: War worries meet AI anxiety",
-            "source": "CNBC",
-            "publishedAt": "2026-10-22T01:49:18Z",
-            "sentiment": "Negative",
-            "compound": -0.813
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 42.21,
-  "trade_probability": 45.33,
+  "confirmation_score": 42.07,
+  "trade_probability": 45.24,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
