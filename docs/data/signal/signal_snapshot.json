@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T00:15:51.811384+00:00",
+  "generated_at": "2026-10-23T00:31:04.809489+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.63,
+      "score": 53.64,
       "status": "yellow",
       "details": {
         "current_dxy": 101.54,
-        "change_5d_pct": -0.454
+        "change_5d_pct": -0.455
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.94,
+      "score": 51.16,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.001,
+        "avg_compound": 0.023,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Stocks in news: Reliance Industries, Eternal, Alkem Labs, BEL, HPCL, Swiggy and GMDC",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-22T00:30:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Pre-market action: Here's the trade setup for today's session",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-22T00:30:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Chuck Oliver Of The Hidden Wealth Solution On The Retirement Questions That Matter Most",
+            "source": "Bitrebels.com",
+            "publishedAt": "2026-10-22T00:23:34Z",
+            "sentiment": "Positive",
+            "compound": 0.681
+          },
           {
             "title": "S&P 500, Nasdaq Gain, Powered By Meta, Tesla Stock — SPCX, META, TSLA, SKYD, IBM In Focus",
             "source": "Biztoc.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-22T00:06:30Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Trump Finds Out! Washington Is the War Capital of the World",
-            "source": "Antiwar.com",
-            "publishedAt": "2026-10-22T00:00:55Z",
-            "sentiment": "Negative",
-            "compound": -0.636
-          },
-          {
-            "title": "欧州のモビリティ リーダーが安全な車両とロボタクシー フリートを NVIDIA Hyperion を基盤に構築",
-            "source": "Prtimes.jp",
-            "publishedAt": "2026-10-22T00:00:17Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "NVIDIA、安全な AI エージェントのための OpenShell リファレンス アーキテクチャを発表",
-            "source": "Prtimes.jp",
-            "publishedAt": "2026-10-22T00:00:11Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.96,
-  "trade_probability": 45.18,
+  "confirmation_score": 42.07,
+  "trade_probability": 45.24,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
