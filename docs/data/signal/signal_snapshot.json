@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T15:01:24.661839+00:00",
+  "generated_at": "2026-10-23T15:15:56.789037+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.2467,
+          "change_pct": -0.2698,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.6446,
+          "change_pct": 0.5881,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.2552,
+          "change_pct": 0.1681,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.7396,
+          "change_pct": -0.5981,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29115.0,
-        "sma50": 29832.38,
-        "sma200": 27836.81
+        "last_price": 29091.75,
+        "sma50": 29831.91,
+        "sma200": 27836.69
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 10.0,
+      "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 28.17,
-        "percentile_vs_20d": 90.0
+        "current_vxn": 27.91,
+        "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 66.95,
+      "score": 65.85,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.99,
-        "change_5d_pct": -2.118
+        "current_yield_pct": 4.997,
+        "change_5d_pct": -1.981
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.04,
+      "score": 50.69,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.71,
-        "change_5d_pct": -0.13
+        "current_dxy": 101.75,
+        "change_5d_pct": -0.086
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.86,
+      "score": 51.9,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.057,
+        "avg_compound": 0.038,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Reality TV Broke the Stanford Prison Experiment",
-            "source": "Vulture",
-            "publishedAt": "2026-10-22T15:00:23Z",
+            "title": "Jung in Azeroth: The Psychology of WoW Forever",
+            "source": "Psychology Today",
+            "publishedAt": "2026-10-22T15:15:38Z",
+            "sentiment": "Positive",
+            "compound": 0.586
+          },
+          {
+            "title": "Fed sends warning to American homeowners, cardholders",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-22T15:13:10Z",
             "sentiment": "Negative",
-            "compound": -0.727
+            "compound": -0.34
           },
           {
-            "title": "Robinhood generates $51 million in blockchain fees while Ethereum settlement costs total just $69,000",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-10-22T15:00:14Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Garry Marr: Even the real estate industry is losing faith in housing",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-22T14:59:07Z",
-            "sentiment": "Neutral",
-            "compound": 0.052
-          },
-          {
-            "title": "‘The Daily Show’ Mocks Trump’s $50 Million Bribe Scandal: ‘Inflation Really Is Getting Bad!’",
-            "source": "TheWrap",
-            "publishedAt": "2026-10-22T14:55:12Z",
-            "sentiment": "Negative",
-            "compound": -0.79
-          },
-          {
-            "title": "Nasdaq tumbles on AI spending concerns and jump in oil prices: Live updates - CNBC",
+            "title": "Stocks Fall and Oil Rises as Investors Retreat from Mounting Risks - The New York Times",
             "source": "Slashdot.org",
-            "publishedAt": "2026-10-22T14:52:44Z",
+            "publishedAt": "2026-10-22T15:12:46Z",
+            "sentiment": "Neutral",
+            "compound": -0.077
+          },
+          {
+            "title": "Tire Inflator Portable Air Compressor, 3X Faster Inflation | for Car Tires, Bikes, Motorcycles, Balls, Auto Shut-off, Cordless Air Pump with LED & Digital Pressure Gauge $16.49 (0 replies)",
+            "source": "Slickdeals.net",
+            "publishedAt": "2026-10-22T15:12:07Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "Lezyne E-Drive review: A fast, long-lasting electric bike pump with a replaceable battery",
+            "source": "Singletracks.com",
+            "publishedAt": "2026-10-22T15:11:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Show HN: Finance Toolkit MCP with 500 financial metrics for Claude and others",
-            "source": "Jeroenbouma.com",
-            "publishedAt": "2026-10-22T14:46:32Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Faruqi & Faruqi, LLP Urges XTI Aerospace, Inc. (NASDAQ: XTIA) Investors to Seek Counsel Before the October 27, 2026 Lead Plaintiff Deadline in the Securities Class Action",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-22T15:10:00Z",
+            "sentiment": "Positive",
+            "compound": 0.296
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 49.04,
-  "trade_probability": 49.42,
+  "confirmation_score": 48.32,
+  "trade_probability": 48.99,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
