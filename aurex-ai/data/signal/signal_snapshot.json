@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T22:15:51.675583+00:00",
+  "generated_at": "2026-10-23T22:31:07.483989+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 43.32,
+      "score": 42.83,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.134,
+        "avg_compound": -0.143,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "US bond market down: Why are 10-year, 30-year, 2-year treasury yield notes are falling? Check latest predictions",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-22T22:28:04Z",
+            "sentiment": "Neutral",
+            "compound": 0.052
+          },
           {
             "title": "Election 2026: Green Party’s plan to transform NZ’s finances with more tax, spending, debt",
             "source": "New Zealand Herald",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-10-22T21:54:25Z",
             "sentiment": "Negative",
             "compound": -0.784
-          },
-          {
-            "title": "Western Digital beats earnings estimates, but AI selloff erases initial gains",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-22T21:54:00Z",
-            "sentiment": "Positive",
-            "compound": 0.477
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.99,
-  "trade_probability": 44.59,
+  "confirmation_score": 40.95,
+  "trade_probability": 44.57,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
