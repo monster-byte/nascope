@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T06:31:07.841215+00:00",
+  "generated_at": "2026-10-23T06:45:54.281869+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.37,
+      "score": 51.18,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.67,
-        "change_5d_pct": -0.172
+        "current_dxy": 101.69,
+        "change_5d_pct": -0.147
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.87,
+      "score": 53.31,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.077,
+        "avg_compound": 0.066,
         "articles_analyzed": 22,
         "top_headlines": [
+          {
+            "title": "Retirement planning: Is your portfolio ready for a 25% stock market crash?",
+            "source": "Economictimes.com",
+            "publishedAt": "2026-10-22T06:43:31Z",
+            "sentiment": "Neutral",
+            "compound": -0.052
+          },
+          {
+            "title": "Megaport Shares Climb 4% as AI Rally Returns After SpaceX Results, Lifting Neocloud Bet Off Recent Lows",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-10-22T06:41:12Z",
+            "sentiment": "Neutral",
+            "compound": 0.103
+          },
+          {
+            "title": "Philippine central bank delivers larger-than-expected 50 bps hike to combat inflation",
+            "source": "CNA",
+            "publishedAt": "2026-10-22T06:34:56Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
+          {
+            "title": "Philippine central bank raises key interest rate by 50 basis points",
+            "source": "CNA",
+            "publishedAt": "2026-10-22T06:34:56Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
           {
             "title": "Gold drops over 1% as oil rally reinforces higher-for-longer rate outlook",
             "source": "BusinessLine",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-22T06:17:30Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Censorship in Pakistan Goes From ‘Pleasant’ to ‘Unpleasant’",
-            "source": "The Diplomat",
-            "publishedAt": "2026-10-22T06:14:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Global Market: Bank of Korea holds interest rates at 3% after back-to-back hikes",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-22T06:08:01Z",
-            "sentiment": "Positive",
-            "compound": 0.459
-          },
-          {
-            "title": "Ramp applies to OCC for trust bank charter as ICBA fights crypto trust licenses",
-            "source": "ValueWalk",
-            "publishedAt": "2026-10-22T06:06:15Z",
-            "sentiment": "Positive",
-            "compound": 0.599
-          },
-          {
-            "title": "Cash-strapped China targets offshore wealth with new tax",
-            "source": "Hurriyet Daily News",
-            "publishedAt": "2026-10-22T06:04:28Z",
-            "sentiment": "Positive",
-            "compound": 0.494
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 42.11,
-  "trade_probability": 45.27,
+  "confirmation_score": 42.04,
+  "trade_probability": 45.22,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
