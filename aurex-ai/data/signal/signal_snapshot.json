@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T01:15:50.532231+00:00",
+  "generated_at": "2026-10-23T01:31:10.375941+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.64,
+      "score": 53.55,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.54,
-        "change_5d_pct": -0.455
+        "current_dxy": 101.55,
+        "change_5d_pct": -0.444
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.62,
+      "score": 55.79,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.132,
+        "avg_compound": 0.116,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "The U.S. market has never been more focused on one single bet—but AI’s payoff will likely take decades",
+            "source": "Fortune",
+            "publishedAt": "2026-10-22T01:30:00Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
+          {
+            "title": "Abdul El-Sayed and Mike Rogers clash in final Michigan Senate debate",
+            "source": "CBS News",
+            "publishedAt": "2026-10-22T01:21:22Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Sensex today | Stock Market Live: Stock to buy today: HCL Technologies (1,423.85) – BUY",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-22T01:18:53Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Not the Future, It’s Now — Deepway Electric Semi Put to Work in Australia",
             "source": "CleanTechnica",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-22T01:06:42Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Bank of Korea holds rates after back-to-back hikes",
-            "source": "CNA",
-            "publishedAt": "2026-10-22T01:06:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Webull Corporation Class Action Lawsuit Seeks Recovery for Investors; December 7, 2026 Deadline- Contact Kessler Topaz Meltzer & Check, LLP",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-22T01:01:00Z",
-            "sentiment": "Negative",
-            "compound": -0.226
-          },
-          {
-            "title": "Global Market Today: Asian stocks mixed as oil rally, AI concerns weigh on sentiment",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-22T00:57:04Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 42.56,
-  "trade_probability": 45.54,
+  "confirmation_score": 42.48,
+  "trade_probability": 45.49,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
