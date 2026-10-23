@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T16:45:51.959209+00:00",
+  "generated_at": "2026-10-23T17:01:26.174624+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.5077,
+          "change_pct": -0.5164,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.6312,
+          "change_pct": 0.6504,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.0862,
+          "change_pct": -0.3432,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.4874,
+          "change_pct": -0.5901,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29095.69,
-        "sma50": 29831.99,
-        "sma200": 27836.71
+        "last_price": 29038.82,
+        "sma50": 29830.86,
+        "sma200": 27836.42
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 10.0,
+      "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 28.44,
-        "percentile_vs_20d": 90.0
+        "current_vxn": 28.47,
+        "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 67.26,
+      "score": 68.2,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.988,
-        "change_5d_pct": -2.158
+        "current_yield_pct": 4.982,
+        "change_5d_pct": -2.275
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.2,
+      "score": 50.29,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.81,
-        "change_5d_pct": -0.026
+        "current_dxy": 101.8,
+        "change_5d_pct": -0.036
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.27,
+      "score": 49.1,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.085,
+        "avg_compound": -0.018,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "With September PPI Coming in Red Hot — Is an October Rate Hike All But Assured?",
+            "title": "The Stock Market Usually Excels After Midterm Elections, But Maybe Not This Year",
             "source": "Biztoc.com",
-            "publishedAt": "2026-10-22T16:45:07Z",
+            "publishedAt": "2026-10-22T17:00:22Z",
             "sentiment": "Positive",
-            "compound": 0.502
+            "compound": 0.307
           },
           {
-            "title": "Bernstein puts CoreWeave’s funding gap at $76 billion, more than triple Goldman’s estimate",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-22T16:35:36Z",
+            "title": "Fear & Greed Index Hits 31: Investors Are Running Scared. Should You Be?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-22T17:00:14Z",
+            "sentiment": "Negative",
+            "compound": -0.832
+          },
+          {
+            "title": "CFOs See Payments Modernization as Key to Cash Flow, but Few Have the Infrastructure in Place, New Research Finds",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-22T17:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Are VRNS, DSGR, PSNL Obtaining Fair Deals for their Shareholders?",
+            "title": "What Should Anavex Life Sciences Corp. Investors Know After 6.35% Stock Drop? The Law Offices of Frank R. Cruz Outlines Securities Fraud Class Action Lead Plaintiff Deadline",
             "source": "PRNewswire",
-            "publishedAt": "2026-10-22T16:33:00Z",
-            "sentiment": "Positive",
-            "compound": 0.318
+            "publishedAt": "2026-10-22T17:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.572
           },
           {
-            "title": "TTM Technologies Stock Plunges 28% as Soft Fourth-Quarter Forecast Overshadows Record AI-Driven Sales Surge",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-10-22T16:32:31Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Global stocks slump as AI boom proves dangerous game and motor industry slows down",
+            "source": "The Irish Times",
+            "publishedAt": "2026-10-22T16:58:52Z",
+            "sentiment": "Negative",
+            "compound": -0.477
           },
           {
-            "title": "Slight Improvement in Q3 Wages, September Functional Unemployment, Says Ludwig Institute",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-22T16:32:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.05
-          },
-          {
-            "title": "Are PRTH, BWIN, CCC Obtaining Fair Deals for their Shareholders?",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-22T16:32:00Z",
-            "sentiment": "Positive",
-            "compound": 0.318
+            "title": "Mortgage Rates Remain Above 7% in a Stalled Housing Market",
+            "source": "NerdWallet",
+            "publishedAt": "2026-10-22T16:52:11Z",
+            "sentiment": "Negative",
+            "compound": -0.202
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 42.38,
-  "trade_probability": 45.43,
+  "confirmation_score": 41.6,
+  "trade_probability": 44.96,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
