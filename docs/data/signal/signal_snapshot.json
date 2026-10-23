@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T14:01:27.508233+00:00",
+  "generated_at": "2026-10-23T14:15:04.847720+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
-      "status": "red",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.2226,
+          "change_pct": -0.0975,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.2567,
-          "up": false
+          "change_pct": 0.2941,
+          "up": true
         },
         "NVDA": {
-          "change_pct": 0.3426,
+          "change_pct": 0.1916,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.7436,
+          "change_pct": -0.8911,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29002.18,
-        "sma50": 29830.12,
-        "sma200": 27836.24
+        "last_price": 29006.57,
+        "sma50": 29830.21,
+        "sma200": 27836.26
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 28.66,
+        "current_vxn": 28.21,
         "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 67.58,
+      "score": 66.95,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.986,
-        "change_5d_pct": -2.197
+        "current_yield_pct": 4.99,
+        "change_5d_pct": -2.118
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.79,
+      "score": 50.78,
       "status": "yellow",
       "details": {
         "current_dxy": 101.74,
-        "change_5d_pct": -0.099
+        "change_5d_pct": -0.097
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 43.37,
+      "score": 46.79,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.133,
+        "avg_compound": -0.064,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Before a Rural Hospital Can Hire a Nurse, It Has to House One",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-22T14:11:34Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "The Super-Entity That Owns the World",
+            "source": "Globalresearch.ca",
+            "publishedAt": "2026-10-22T14:08:02Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Surging oil prices and fresh tech jitters are hammering stocks",
+            "source": "Business Insider",
+            "publishedAt": "2026-10-22T14:06:09Z",
+            "sentiment": "Positive",
+            "compound": 0.318
+          },
+          {
+            "title": "Affirm launches as exclusive pay-over-time provider at Sam’s Club",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-22T14:02:36Z",
+            "sentiment": "Neutral",
+            "compound": 0.128
+          },
           {
             "title": "Yen jumps as oil, AI and France worries rattle markets",
             "source": "CNA",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-22T14:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Predicting under-five child mortality in Zambia: Machine learning versus parametric survival models",
-            "source": "Plos.org",
-            "publishedAt": "2026-10-22T14:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Global stakeholder preferences for point-of-care HIV nucleic acid amplification tests: A conjoint study",
-            "source": "Plos.org",
-            "publishedAt": "2026-10-22T14:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Cost-effectiveness of end-game strategies against sleeping sickness across the Democratic Republic of Congo",
-            "source": "Plos.org",
-            "publishedAt": "2026-10-22T14:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Job-Based Health Plan Costs Rise, With Little Relief in Sight",
-            "source": "Nakedcapitalism.com",
-            "publishedAt": "2026-10-22T13:58:25Z",
-            "sentiment": "Positive",
-            "compound": 0.423
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.05,
-  "trade_probability": 44.63,
+  "confirmation_score": 48.02,
+  "trade_probability": 48.81,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
