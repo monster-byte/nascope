@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T16:31:13.893403+00:00",
+  "generated_at": "2026-10-23T16:45:51.959209+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.5278,
+          "change_pct": -0.5077,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.4907,
+          "change_pct": 0.6312,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.1192,
+          "change_pct": -0.0862,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.4984,
+          "change_pct": -0.4874,
           "up": false
         }
       }
@@ -40,18 +40,18 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29077.38,
-        "sma50": 29831.63,
-        "sma200": 27836.62
+        "last_price": 29095.69,
+        "sma50": 29831.99,
+        "sma200": 27836.71
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 5.0,
+      "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 28.06,
-        "percentile_vs_20d": 95.0
+        "current_vxn": 28.44,
+        "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.12,
+      "score": 50.2,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.82,
-        "change_5d_pct": -0.015
+        "current_dxy": 101.81,
+        "change_5d_pct": -0.026
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.27,
+      "score": 54.27,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.065,
-        "articles_analyzed": 23,
+        "avg_compound": 0.085,
+        "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Forgent Power Solutions Stock Crashes 23% Below IPO Price After CFO Ryan Fiedler Exits to Spend Family Time",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-10-22T16:30:48Z",
-            "sentiment": "Neutral",
-            "compound": 0.178
+            "title": "With September PPI Coming in Red Hot — Is an October Rate Hike All But Assured?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-22T16:45:07Z",
+            "sentiment": "Positive",
+            "compound": 0.502
           },
           {
-            "title": "Nasdaq Inc., CSX Flash Buy Signals As Nasdaq, S&P 500 Slide",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-22T16:29:57Z",
+            "title": "Bernstein puts CoreWeave’s funding gap at $76 billion, more than triple Goldman’s estimate",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-22T16:35:36Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "History shows why Treasury yields may have already peaked",
-            "source": "Business Insider",
-            "publishedAt": "2026-10-22T16:29:22Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "Solaris Energy Infrastructure Stock Drops 14% as AI Spending Fears Hit Data Center Power Stocks on Wall Street",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-10-22T16:26:06Z",
-            "sentiment": "Neutral",
-            "compound": -0.178
-          },
-          {
-            "title": "Average long-term US mortgage rate eases to 7.32% in first pullback since late August",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-10-22T16:24:16Z",
+            "title": "Are VRNS, DSGR, PSNL Obtaining Fair Deals for their Shareholders?",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-22T16:33:00Z",
             "sentiment": "Positive",
             "compound": 0.318
           },
           {
-            "title": "EU carbon tax: Piyush Goyal asks Europe not to 'invite disaster' or 'shoot themselves in the foot'",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-22T16:22:58Z",
+            "title": "TTM Technologies Stock Plunges 28% as Soft Fourth-Quarter Forecast Overshadows Record AI-Driven Sales Surge",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-10-22T16:32:31Z",
             "sentiment": "Neutral",
-            "compound": 0.115
+            "compound": 0.0
+          },
+          {
+            "title": "Slight Improvement in Q3 Wages, September Functional Unemployment, Says Ludwig Institute",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-22T16:32:00Z",
+            "sentiment": "Neutral",
+            "compound": -0.05
+          },
+          {
+            "title": "Are PRTH, BWIN, CCC Obtaining Fair Deals for their Shareholders?",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-22T16:32:00Z",
+            "sentiment": "Positive",
+            "compound": 0.318
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.84,
-  "trade_probability": 45.1,
+  "confirmation_score": 42.38,
+  "trade_probability": 45.43,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
