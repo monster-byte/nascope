@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T10:01:24.783841+00:00",
+  "generated_at": "2026-10-23T10:15:51.042105+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.85,
+      "score": 51.07,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.73,
-        "change_5d_pct": -0.106
+        "current_dxy": 101.7,
+        "change_5d_pct": -0.134
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.98,
+      "score": 47.83,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.06,
+        "avg_compound": -0.043,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Huntington Bancshares Incorporated Reports 2026 Third-Quarter Earnings",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-22T10:15:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "This new exhibition spotlights the hidden history of women in punk music",
+            "source": "Dazed",
+            "publishedAt": "2026-10-22T10:11:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Markets sell off worldwide as further conflict looms in the Middle East and Elon Musk cuts capex guidance",
+            "source": "Fortune",
+            "publishedAt": "2026-10-22T10:10:02Z",
+            "sentiment": "Negative",
+            "compound": -0.625
+          },
+          {
+            "title": "Ice Like Honey",
+            "source": "Lightspeedmagazine.com",
+            "publishedAt": "2026-10-22T10:01:33Z",
+            "sentiment": "Positive",
+            "compound": 0.361
+          },
           {
             "title": "US quietly eases stablecoin reserve rules as banks warn billions could shift away from lending",
             "source": "CryptoSlate",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-22T10:00:10Z",
             "sentiment": "Negative",
             "compound": -0.625
-          },
-          {
-            "title": "Dow reports third quarter 2026 results",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-22T10:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "A Philosopher Makes the Case to Call Trump Evil",
-            "source": "The New Republic",
-            "publishedAt": "2026-10-22T10:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.66
-          },
-          {
-            "title": "Ceragon to Announce Third Quarter 2026 Financial Results on November 5, 2026",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-22T10:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Mortgage Rate Lock-In Still Dominates",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-22T10:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.052
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 34.69,
-  "trade_probability": 40.81,
+  "confirmation_score": 34.79,
+  "trade_probability": 40.87,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
