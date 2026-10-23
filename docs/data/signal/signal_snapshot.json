@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T03:01:27.047746+00:00",
+  "generated_at": "2026-10-23T03:15:54.109829+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.79,
+      "score": 52.66,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.64,
-        "change_5d_pct": -0.349
+        "current_dxy": 101.66,
+        "change_5d_pct": -0.332
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.19,
+      "score": 50.49,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.016,
+        "avg_compound": 0.01,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Innventure, Inc. (NASDAQ: INV) Securities Investigation: Investors Who Held Shares Since November 17, 2025, May Be Eligible to Seek Compensation - Stranch, Jennings & Garvey, PLLC",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-22T03:09:00Z",
+            "sentiment": "Positive",
+            "compound": 0.527
+          },
+          {
+            "title": "Cash-strapped China targets offshore wealth with new tax",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-22T03:06:09Z",
+            "sentiment": "Positive",
+            "compound": 0.494
+          },
+          {
+            "title": "Workday Announces Pricing of $2.5 Billion Senior Notes Offering",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-22T03:03:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "RBI turns away all bids at treasury bill sale amid bond selloff",
+            "source": "Bloomberg",
+            "publishedAt": "2026-10-22T03:01:26Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
           {
             "title": "NVIDIA、Nokia、主要通信事業者がネットワークを分散型インテリジェンス プラットフォームへと転換",
             "source": "Prtimes.jp",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-22T02:59:00Z",
             "sentiment": "Neutral",
             "compound": -0.026
-          },
-          {
-            "title": "Healthcare Triangle, Inc. Announces 1-for-20 Reverse Stock Split as Part of Nasdaq Compliance Plan",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-22T02:58:07Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Gold, global equities, largecaps, midcaps and smallcaps: Samco CEO Jimet Modi’s five-way portfolio formula",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-22T02:46:37Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "US weighs fresh strikes on Iran; Tehran warns of 'father of all bombs': Reports",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-22T02:45:24Z",
-            "sentiment": "Neutral",
-            "compound": -0.153
-          },
-          {
-            "title": "Stock market today: Sensex opens 500 points down, Nifty50 slips below 22,700",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-22T02:44:18Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.81,
-  "trade_probability": 45.09,
+  "confirmation_score": 41.92,
+  "trade_probability": 45.15,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
