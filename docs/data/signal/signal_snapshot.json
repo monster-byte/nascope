@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T14:45:55.098247+00:00",
+  "generated_at": "2026-10-23T15:01:24.661839+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.4948,
+          "change_pct": -0.2467,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.2864,
+          "change_pct": 0.6446,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.3399,
+          "change_pct": 0.2552,
           "up": true
         },
         "AMZN": {
-          "change_pct": -1.0087,
+          "change_pct": -0.7396,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29087.39,
-        "sma50": 29831.83,
-        "sma200": 27836.67
+        "last_price": 29115.0,
+        "sma50": 29832.38,
+        "sma200": 27836.81
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 5.0,
+      "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 28.79,
-        "percentile_vs_20d": 95.0
+        "current_vxn": 28.17,
+        "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 66.63,
+      "score": 66.95,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.992,
-        "change_5d_pct": -2.079
+        "current_yield_pct": 4.99,
+        "change_5d_pct": -2.118
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.63,
+      "score": 51.04,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.76,
-        "change_5d_pct": -0.079
+        "current_dxy": 101.71,
+        "change_5d_pct": -0.13
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.08,
+      "score": 52.86,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.062,
+        "avg_compound": 0.057,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Hatsun Agro Product reports 6 per cent increase in PAT in Q2FY27",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-22T14:41:12Z",
-            "sentiment": "Positive",
-            "compound": 0.318
+            "title": "Reality TV Broke the Stanford Prison Experiment",
+            "source": "Vulture",
+            "publishedAt": "2026-10-22T15:00:23Z",
+            "sentiment": "Negative",
+            "compound": -0.727
           },
           {
-            "title": "How NY Gov. Hochul, Bruce Blakeman would tackle rising electric, heat bills",
-            "source": "Gothamist",
-            "publishedAt": "2026-10-22T14:39:57Z",
+            "title": "Robinhood generates $51 million in blockchain fees while Ethereum settlement costs total just $69,000",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-10-22T15:00:14Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Brazil picks its path: What’s at stake in the election",
-            "source": "Rt-english.com",
-            "publishedAt": "2026-10-22T14:32:54Z",
+            "title": "Garry Marr: Even the real estate industry is losing faith in housing",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-22T14:59:07Z",
+            "sentiment": "Neutral",
+            "compound": 0.052
+          },
+          {
+            "title": "‘The Daily Show’ Mocks Trump’s $50 Million Bribe Scandal: ‘Inflation Really Is Getting Bad!’",
+            "source": "TheWrap",
+            "publishedAt": "2026-10-22T14:55:12Z",
+            "sentiment": "Negative",
+            "compound": -0.79
+          },
+          {
+            "title": "Nasdaq tumbles on AI spending concerns and jump in oil prices: Live updates - CNBC",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-10-22T14:52:44Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Researchers flag inflated swETH and rswETH rates after Swell hot key compromise",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-22T14:31:12Z",
+            "title": "Show HN: Finance Toolkit MCP with 500 financial metrics for Claude and others",
+            "source": "Jeroenbouma.com",
+            "publishedAt": "2026-10-22T14:46:32Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Rupee snaps eight-day run, crude tops $112 as Nifty falls for third straight day",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-22T14:27:30Z",
-            "sentiment": "Positive",
-            "compound": 0.494
-          },
-          {
-            "title": "Nasdaq Down 400 Points; Tesla Shares Fall After Q3 Results",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-22T14:27:16Z",
-            "sentiment": "Positive",
-            "compound": 0.296
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 48.53,
-  "trade_probability": 49.12,
+  "confirmation_score": 49.04,
+  "trade_probability": 49.42,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
