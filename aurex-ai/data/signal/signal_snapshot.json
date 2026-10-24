@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T22:15:47.545637+00:00",
+  "generated_at": "2026-10-24T22:31:05.935281+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.08,
+      "score": 51.19,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.042,
+        "avg_compound": 0.024,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Trump tells South Florida rally that U.S. warships could 'do a little stopover' in Cuba, after Iran",
+            "source": "CBC News",
+            "publishedAt": "2026-10-23T22:27:29Z",
+            "sentiment": "Neutral",
+            "compound": -0.128
+          },
           {
             "title": "10 Outdoor Products for Parents of Little Kids That Make Family Adventures Easier",
             "source": "The Gadgeteer",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-10-23T21:41:40Z",
             "sentiment": "Positive",
             "compound": 0.273
-          },
-          {
-            "title": "Robinhood Could Be Ready to Launch Single-Stock Perpetual Futures. Here's Why That's Bullish for HOOD Stock",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-23T21:40:59Z",
-            "sentiment": "Positive",
-            "compound": 0.361
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.74,
-  "trade_probability": 45.04,
+  "confirmation_score": 41.66,
+  "trade_probability": 45.0,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
