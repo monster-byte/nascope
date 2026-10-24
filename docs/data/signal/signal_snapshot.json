@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T08:01:20.367935+00:00",
+  "generated_at": "2026-10-24T08:15:49.341356+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.78,
+      "score": 48.33,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.024,
-        "articles_analyzed": 24,
+        "avg_compound": -0.033,
+        "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Euro zone growth slows to 4-month low amid French turmoil",
+            "source": "RTE",
+            "publishedAt": "2026-10-23T08:15:15Z",
+            "sentiment": "Negative",
+            "compound": -0.25
+          },
+          {
+            "title": "Why I'm Buying a New Computer I Don't Need Yet",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-10-23T08:10:58Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Trump's MAGA faithful send warning to Republicans ahead of high-stakes midterm elections",
             "source": "Fox News",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-23T08:00:00Z",
             "sentiment": "Negative",
             "compound": -0.691
-          },
-          {
-            "title": "Euro set for weekly drop, yen eyes biggest gain since early September",
-            "source": "CNA",
-            "publishedAt": "2026-10-23T07:48:43Z",
-            "sentiment": "Positive",
-            "compound": 0.318
-          },
-          {
-            "title": "Tesla's Automotive Revenue Fell 3%, and Energy Generation and Storage Tumbled 16%. Should Investors Still View Tesla as a Car Company?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-23T07:48:39Z",
-            "sentiment": "Positive",
-            "compound": 0.273
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.44,
-  "trade_probability": 44.86,
+  "confirmation_score": 41.4,
+  "trade_probability": 44.84,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
