@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T21:01:17.384514+00:00",
+  "generated_at": "2026-10-24T21:15:52.915620+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.74,
+      "score": 49.7,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.035,
+        "avg_compound": -0.006,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Who do Americans blame for their debt? Here’s how every generation answers",
+            "source": "New York Post",
+            "publishedAt": "2026-10-23T21:09:01Z",
+            "sentiment": "Negative",
+            "compound": -0.599
+          },
+          {
+            "title": "Why Rate Hikes Won’t Solve Inflation | Presented by CME Group",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-23T21:08:21Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
           {
             "title": "ICE crackdown prompts some Texas Latinos to turn away from Trump",
             "source": "CBS News",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-23T20:37:23Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Myanmar's detained leader Suu Kyi traded health concerns with her son in their first call in 5 years",
-            "source": "Bastillepost.com",
-            "publishedAt": "2026-10-23T20:35:11Z",
-            "sentiment": "Negative",
-            "compound": -0.402
-          },
-          {
-            "title": "ENERGY SERVICES OF AMERICA COMPLETES FAMCO ACQUISITION",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-23T20:30:00Z",
-            "sentiment": "Positive",
-            "compound": 0.273
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.71,
-  "trade_probability": 45.03,
+  "confirmation_score": 41.52,
+  "trade_probability": 44.91,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
