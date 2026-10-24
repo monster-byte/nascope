@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T01:01:24.182563+00:00",
+  "generated_at": "2026-10-24T01:15:56.231351+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.09,
+      "score": 49.87,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.002,
+        "avg_compound": -0.003,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Netflix Viewing Time Drops an Estimated 26%. A Bored Retiree Trades the Couch for a $40,000 Job That Could Boost His Social Security",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-23T01:10:37Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "Apex Critical Metals announces Nasdaq listing, prices $1.86M offering",
+            "source": "Thefly.com",
+            "publishedAt": "2026-10-23T01:03:39Z",
+            "sentiment": "Negative",
+            "compound": -0.318
+          },
           {
             "title": "SK Hynix shares slide after chipmaker scraps Solidigm IPO plans",
             "source": "CNBC",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-23T00:45:11Z",
             "sentiment": "Positive",
             "compound": 0.511
-          },
-          {
-            "title": "Nasdaq 100 Clocks Worst Day In Four Months As Investors Grow Weary Of Capex, Elevated Debt — META, SPCX, BE, MRNA In Focus",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-23T00:41:20Z",
-            "sentiment": "Negative",
-            "compound": -0.827
-          },
-          {
-            "title": "Japan manufacturing growth slows to 7-month low in October, PMI shows",
-            "source": "CNA",
-            "publishedAt": "2026-10-23T00:32:58Z",
-            "sentiment": "Neutral",
-            "compound": 0.128
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.6,
-  "trade_probability": 44.96,
+  "confirmation_score": 41.58,
+  "trade_probability": 44.95,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
