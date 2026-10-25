@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T08:01:19.293415+00:00",
+  "generated_at": "2026-10-25T08:15:51.136037+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.12,
+      "score": 43.39,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.098,
+        "avg_compound": -0.132,
         "articles_analyzed": 21,
         "top_headlines": [
+          {
+            "title": "FIIs dump Indian stocks for 10th straight week as markets slide: Is the worst over or more pain ahead?",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-24T08:11:14Z",
+            "sentiment": "Negative",
+            "compound": -0.855
+          },
           {
             "title": "Platform cheat sheet: Where the mayoral candidates stand on taxes and spending",
             "source": "CBC News",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-10-24T07:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Bitcoin hovers near $80,000 and Ethereum at $2,370 as macro uncertainty and weak institutional flows weigh on crypto markets",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-24T06:52:52Z",
-            "sentiment": "Negative",
-            "compound": -0.649
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.11,
-  "trade_probability": 44.67,
+  "confirmation_score": 40.96,
+  "trade_probability": 44.58,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
