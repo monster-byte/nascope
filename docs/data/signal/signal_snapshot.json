@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T15:31:10.383800+00:00",
+  "generated_at": "2026-10-25T15:45:53.903174+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 40.42,
-      "status": "yellow",
+      "score": 39.54,
+      "status": "red",
       "details": {
-        "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.192,
+        "overall_sentiment": "BEARISH",
+        "avg_compound": -0.209,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "American embassies tighten security as Iran threat warnings intensify ahead of U.S. midterm elections",
+            "source": "CNBC",
+            "publishedAt": "2026-10-24T15:44:53Z",
+            "sentiment": "Negative",
+            "compound": -0.494
+          },
+          {
+            "title": "Britain Deploys Royal Air Force to Support Saudi Monarchy Against Yemeni Resistance",
+            "source": "Globalresearch.ca",
+            "publishedAt": "2026-10-24T15:39:15Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "Halloween candy sales are off to a slow start amid high chocolate prices and affordability concerns",
+            "source": "Abcnews.com",
+            "publishedAt": "2026-10-24T15:32:46Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "French police arrested more than 130 at fresh protests",
             "source": "National Post",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-24T15:20:00Z",
             "sentiment": "Negative",
             "compound": -0.226
-          },
-          {
-            "title": "A Neocloud’s Gathering Storm",
-            "source": "The Information",
-            "publishedAt": "2026-10-24T15:00:45Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Another 1929! – Trump Warns of Economic Collapse, Gold Insider Sounds Alarm Over Your Savings",
-            "source": "Thegatewaypundit.com",
-            "publishedAt": "2026-10-24T15:00:16Z",
-            "sentiment": "Negative",
-            "compound": -0.742
-          },
-          {
-            "title": "Micron vs. Sandisk: Which Is the Better AI Memory Stock to Own for the Next 3 Years",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-24T14:59:06Z",
-            "sentiment": "Positive",
-            "compound": 0.44
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.69,
-  "trade_probability": 44.41,
+  "confirmation_score": 40.61,
+  "trade_probability": 44.37,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
