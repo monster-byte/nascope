@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T12:15:51.430419+00:00",
+  "generated_at": "2026-10-25T12:31:05.595812+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.15,
+      "score": 52.12,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.043,
+        "avg_compound": 0.042,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Germany and France offer to build submarines for Argentina as threat to the Falkland Islands rises",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-10-24T12:27:18Z",
+            "sentiment": "Negative",
+            "compound": -0.527
+          },
           {
             "title": "Canada CPP and OAS payments October 28: Pension set to rise by $40.71 a month in 2027. How much would you get?",
             "source": "The Times of India",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-10-24T11:50:00Z",
             "sentiment": "Neutral",
             "compound": 0.103
-          },
-          {
-            "title": "Saturday: Hili dialogue",
-            "source": "Whyevolutionistrue.com",
-            "publishedAt": "2026-10-24T11:45:35Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.75,
-  "trade_probability": 45.05,
+  "confirmation_score": 41.74,
+  "trade_probability": 45.04,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
