@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T16:15:54.500836+00:00",
+  "generated_at": "2026-10-25T16:31:08.132492+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 40.77,
+      "score": 41.11,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.185,
+        "avg_compound": -0.178,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Mass protests challenge Macron as French police fire tear gas, use cannons",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-24T16:30:44Z",
+            "sentiment": "Negative",
+            "compound": -0.459
+          },
+          {
+            "title": "US Market Outlook: Indices look vulnerable",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-24T16:19:34Z",
+            "sentiment": "Negative",
+            "compound": -0.226
+          },
           {
             "title": "为什么麦当劳、微软和谷歌拒绝代币化股票并非交易破坏因素",
             "source": "CoinDesk",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-24T16:05:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "October curse: Could an AI stock market crash set back New Zealand’s recovery? – Liam Dann",
-            "source": "New Zealand Herald",
-            "publishedAt": "2026-10-24T16:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.735
-          },
-          {
-            "title": "Conservative yet consistently rewarding",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-24T15:52:54Z",
-            "sentiment": "Positive",
-            "compound": 0.527
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.72,
-  "trade_probability": 44.43,
+  "confirmation_score": 40.75,
+  "trade_probability": 44.45,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
