@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T18:15:53.000710+00:00",
+  "generated_at": "2026-10-25T18:31:09.750626+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.52,
+      "score": 51.93,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.03,
+        "avg_compound": 0.039,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Volkswagen Unleashes Wicked ID. Unyx 09 in China for $27,000",
+            "source": "CleanTechnica",
+            "publishedAt": "2026-10-24T18:23:19Z",
+            "sentiment": "Negative",
+            "compound": -0.527
+          },
+          {
+            "title": "Lula, Bolsonaro trade barbs over cost of living in final debate before Brazil runoff",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-24T18:22:49Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Jim Cramer’s Case for “Accidental High Yielders” When the Fed Shakes the Market",
             "source": "Biztoc.com",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-24T17:45:00Z",
             "sentiment": "Positive",
             "compound": 0.273
-          },
-          {
-            "title": "Safe Haven Trade: SCHD Outperforms VOO and QQQ as AI Bubble Fears Mount - Invesco QQQ Trust, Series 1…",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-24T17:30:48Z",
-            "sentiment": "Positive",
-            "compound": 0.527
-          },
-          {
-            "title": "More Than 400,000 Protest Across France, Challenging Macron As Paris Clashes Erupt",
-            "source": "HuffPost",
-            "publishedAt": "2026-10-24T17:28:21Z",
-            "sentiment": "Neutral",
-            "compound": -0.169
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.69,
-  "trade_probability": 45.01,
+  "confirmation_score": 41.73,
+  "trade_probability": 45.04,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
