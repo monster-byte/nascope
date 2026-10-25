@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T05:01:23.176885+00:00",
+  "generated_at": "2026-10-25T05:15:52.524844+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,26 +85,40 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.32,
+      "score": 47.73,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.014,
+        "avg_compound": -0.045,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Paris shuts museums and police deploy in big numbers for new protests across France",
+            "source": "WJXT News4JAX",
+            "publishedAt": "2026-10-24T05:12:22Z",
+            "sentiment": "Negative",
+            "compound": -0.226
+          },
+          {
+            "title": "Cuba mocks US call for CIA informants: ‘They’re selling it like a tube of toothpaste’",
+            "source": "Protothema.gr",
+            "publishedAt": "2026-10-24T05:11:23Z",
+            "sentiment": "Neutral",
+            "compound": -0.128
+          },
+          {
+            "title": "Trump at South Florida rally revives the idea of military intervention in Cuba after Iran",
+            "source": "Abcnews.com",
+            "publishedAt": "2026-10-24T05:01:25Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
           {
             "title": "As Donald Trump weighs up options, could inflation be about to get worse?",
             "source": "The Irish Times",
             "publishedAt": "2026-10-24T05:00:01Z",
             "sentiment": "Negative",
             "compound": -0.477
-          },
-          {
-            "title": "David McWilliams: France is likely heading towards ECB support and a Marine Le Pen presidency",
-            "source": "The Irish Times",
-            "publishedAt": "2026-10-24T05:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.402
           },
           {
             "title": "Have public service wages kept up with inflation?",
@@ -114,25 +128,11 @@
             "compound": 0.0
           },
           {
-            "title": "How can the public sector pay deal get over the line?",
+            "title": "David McWilliams: France is likely heading towards ECB support and a Marine Le Pen presidency",
             "source": "The Irish Times",
             "publishedAt": "2026-10-24T05:00:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
-          },
-          {
-            "title": "Simon Harris silent on Patrick O’Donovan phone call that preceded hospitalisation",
-            "source": "The Irish Times",
-            "publishedAt": "2026-10-24T05:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Japan core inflation in September surges to its highest this year at 2.1%",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-24T04:48:19Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "sentiment": "Positive",
+            "compound": 0.402
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.49,
-  "trade_probability": 44.89,
+  "confirmation_score": 41.35,
+  "trade_probability": 44.81,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
