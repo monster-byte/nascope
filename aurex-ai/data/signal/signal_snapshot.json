@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T06:31:18.141396+00:00",
+  "generated_at": "2026-10-26T06:45:49.888210+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.15,
+      "score": 49.4,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.023,
+        "avg_compound": -0.012,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Govt to fund up to 50% deepwater well costs, recover aid from winners",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-25T06:40:35Z",
+            "sentiment": "Positive",
+            "compound": 0.637
+          },
+          {
+            "title": "Obama criticises Trump over Iran war, rising prices",
+            "source": "The Punch",
+            "publishedAt": "2026-10-25T06:40:18Z",
+            "sentiment": "Negative",
+            "compound": -0.735
+          },
+          {
+            "title": "Robinhood Chain sees 59% of stock token trading after Wall Street closes",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-25T06:37:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "FPIs withdraw Rs 48,056 cr from equities in Oct so far amid elevated crude oil prices",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-25T06:33:10Z",
+            "sentiment": "Negative",
+            "compound": -0.572
+          },
           {
             "title": "FPIs withdraw ₹48,056 crore from equities in Oct amid elevated oil prices",
             "source": "Business Standard",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-25T06:23:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Zimbabwe wants digital payments to build trust in its newest currency. Why technology alone won’t be enough to save the ZiG",
-            "source": "The Conversation Africa",
-            "publishedAt": "2026-10-25T06:10:34Z",
-            "sentiment": "Positive",
-            "compound": 0.67
-          },
-          {
-            "title": "Ulster University’s education quality under threat from spending cuts, warns provost",
-            "source": "The Irish Times",
-            "publishedAt": "2026-10-25T06:00:01Z",
-            "sentiment": "Negative",
-            "compound": -0.718
-          },
-          {
-            "title": "When will reality of energy prices bite markets?",
-            "source": "The Irish Times",
-            "publishedAt": "2026-10-25T06:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.273
-          },
-          {
-            "title": "Was that a stockmarket wobble, or the start of something more serious?",
-            "source": "The Irish Times",
-            "publishedAt": "2026-10-25T06:00:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.151
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.84,
-  "trade_probability": 45.1,
+  "confirmation_score": 41.69,
+  "trade_probability": 45.01,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
