@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T14:01:31.793090+00:00",
+  "generated_at": "2026-10-26T14:15:55.572724+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
-      "status": "red",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -1.2974,
+          "change_pct": -0.8945,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.0593,
-          "up": false
+          "change_pct": 0.2855,
+          "up": true
         },
         "NVDA": {
-          "change_pct": 1.6844,
+          "change_pct": 1.6418,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.0781,
-          "up": false
+          "change_pct": 0.5828,
+          "up": true
         }
       }
     },
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29058.95,
-        "sma50": 29809.49,
-        "sma200": 27853.78
+        "last_price": 29153.07,
+        "sma50": 29811.37,
+        "sma200": 27854.25
       }
     },
     "vxn": {
@@ -50,7 +50,7 @@
       "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 27.99,
+        "current_vxn": 27.73,
         "percentile_vs_20d": 90.0
       }
     },
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.98,
+      "score": 49.77,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.98,
-        "change_5d_pct": 0.002
+        "current_dxy": 102.01,
+        "change_5d_pct": 0.028
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.3,
+      "score": 50.61,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.006,
-        "articles_analyzed": 24,
+        "avg_compound": 0.012,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Madan Sabnavis: Tax data can tell us much about India’s income skew—that matters for businesses",
-            "source": "Livemint",
-            "publishedAt": "2026-10-25T14:00:05Z",
-            "sentiment": "Neutral",
-            "compound": 0.026
-          },
-          {
-            "title": "I paid off $11,000 of credit card debt in 18 months while still traveling, shopping and living my life",
-            "source": "CNBC",
-            "publishedAt": "2026-10-25T14:00:01Z",
-            "sentiment": "Neutral",
-            "compound": 0.026
-          },
-          {
-            "title": "The 10 Most Expensive Picasso Paintings Ever Sold, Ranked",
-            "source": "Mental Floss",
-            "publishedAt": "2026-10-25T14:00:00Z",
+            "title": "Social Security's Trump Bump-Driven 2027 COLA Is Historic in 3 Unique Ways",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-25T14:12:53Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Gold, silver face fresh test as oil surge puts Fed policy decision in focus",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-25T13:39:24Z",
-            "sentiment": "Positive",
-            "compound": 0.318
-          },
-          {
-            "title": "ILLR Investors Have Opportunity to Lead Triller Group Inc. Securities Fraud Lawsuit",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-25T13:28:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.178
-          },
-          {
-            "title": "Apollo’s Torsten Slok Warns AI Has Delivered ‘Zero Financial Payoff’ Outside Tech — 'AI Story Will Be Decided In The S&P 493, Not The Mag 7'",
+            "title": "Here's What a $10,000 Investment in Palantir Could Be Worth in 10 Years",
             "source": "Biztoc.com",
-            "publishedAt": "2026-10-25T13:26:33Z",
+            "publishedAt": "2026-10-25T14:12:08Z",
+            "sentiment": "Positive",
+            "compound": 0.226
+          },
+          {
+            "title": "Australian housing market takes another hit as fewer than half of properties up for auction sell",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-10-25T14:12:00Z",
             "sentiment": "Neutral",
-            "compound": -0.103
+            "compound": 0.0
+          },
+          {
+            "title": "Bank of America warns of 2027 stock market risk few expect",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-25T14:11:30Z",
+            "sentiment": "Negative",
+            "compound": -0.361
+          },
+          {
+            "title": "Bangladesh per capita GDP forecast to outstrip India’s: What does it mean?",
+            "source": "Al Jazeera English",
+            "publishedAt": "2026-10-25T14:11:29Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Worried about this stock-market selloff? Relief may be coming after the midterms — no matter who wins",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-25T14:10:46Z",
+            "sentiment": "Positive",
+            "compound": 0.673
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 43.08,
-  "trade_probability": 45.85,
+  "confirmation_score": 56.59,
+  "trade_probability": 53.95,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
