@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T23:31:07.100186+00:00",
+  "generated_at": "2026-10-26T23:45:48.120046+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": true
         },
         "NVDA": {
-          "change_pct": 2.3002,
+          "change_pct": 2.3049,
           "up": true
         },
         "AMZN": {
@@ -85,10 +85,56 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.0,
+      "score": 50.59,
       "status": "yellow",
       "details": {
-        "error": "news_fetch_failed: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?q=Nasdaq+OR+%22Federal+Reserve%22+OR+%22stock+market%22+OR+inflation&language=en&sortBy=publishedAt&pageSize=25&apiKey=280ea038bd7e4ccb91d87f9d115484d4"
+        "overall_sentiment": "NEUTRAL",
+        "avg_compound": 0.012,
+        "articles_analyzed": 25,
+        "top_headlines": [
+          {
+            "title": "12k-Mile 2015 Aston Martin V8 Vantage GT Coupe",
+            "source": "Bringatrailer.com",
+            "publishedAt": "2026-10-25T23:40:06Z",
+            "sentiment": "Positive",
+            "compound": 0.428
+          },
+          {
+            "title": "Air Force One passengers reveal Trump’s inner circle and who is ‘whispering in his ear and talking softly in private quarters’",
+            "source": "Fortune",
+            "publishedAt": "2026-10-25T23:26:51Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "US Stock Market prediction: S&P 500, Nasdaq, Dow Jones look to rebound as Wall Street investors set to be driven by a few factors, top stocks to follow",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-25T23:16:08Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "Trump renews endorsement of Netanyahu: We have to finish the job we started",
+            "source": "Israelnationalnews.com",
+            "publishedAt": "2026-10-25T23:11:56Z",
+            "sentiment": "Positive",
+            "compound": 0.318
+          },
+          {
+            "title": "Trump renews endorsement of Netanyahu: We have to finish the job we started",
+            "source": "Israelnationalnews.com",
+            "publishedAt": "2026-10-25T23:07:07Z",
+            "sentiment": "Positive",
+            "compound": 0.318
+          },
+          {
+            "title": "Bulgaria election heads to a run-off amid low voter turnout",
+            "source": "Al Jazeera English",
+            "publishedAt": "2026-10-25T22:57:17Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          }
+        ]
       }
     },
     "patent_momentum": {
@@ -100,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.17,
-  "trade_probability": 54.3,
+  "confirmation_score": 57.22,
+  "trade_probability": 54.33,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
