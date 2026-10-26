@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T07:45:49.322368+00:00",
+  "generated_at": "2026-10-26T08:01:23.175414+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.251,
-          "up": false
-        },
-        "MSFT": {
-          "change_pct": 0.4837,
+          "change_pct": 0.0331,
           "up": true
         },
+        "MSFT": {
+          "change_pct": -0.0736,
+          "up": false
+        },
         "NVDA": {
-          "change_pct": -0.6524,
+          "change_pct": -0.0552,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.1024,
+          "change_pct": -0.2954,
           "up": false
         }
       }
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.59,
+      "score": 51.39,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.78,
-        "change_5d_pct": -0.199
+        "current_dxy": 101.8,
+        "change_5d_pct": -0.174
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.79,
+      "score": 47.83,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
         "avg_compound": -0.044,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Iran’s oil lifeline is drying up. The biggest pain may fall on ordinary citizens",
+            "source": "Fox News",
+            "publishedAt": "2026-10-25T08:00:09Z",
+            "sentiment": "Negative",
+            "compound": -0.511
+          },
+          {
+            "title": "Kraken wants to be your bank, but who will protect your money?",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-10-25T08:00:04Z",
+            "sentiment": "Positive",
+            "compound": 0.527
+          },
           {
             "title": "Stock market outlook: Fed meeting, crude & more - top cues guiding Dalal Street this week",
             "source": "The Times of India",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-25T07:11:46Z",
             "sentiment": "Positive",
             "compound": 0.686
-          },
-          {
-            "title": "3 British Defensive Stocks To Own In October 2026",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-25T07:04:01Z",
-            "sentiment": "Neutral",
-            "compound": 0.026
-          },
-          {
-            "title": "How Pepsi fell behind in the cola wars—and then lost KFC",
-            "source": "Fortune",
-            "publishedAt": "2026-10-25T07:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.318
           }
         ]
       }
@@ -146,7 +146,7 @@
       }
     }
   },
-  "confirmation_score": 41.47,
+  "confirmation_score": 41.46,
   "trade_probability": 44.88,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
