@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T20:01:29.162428+00:00",
+  "generated_at": "2026-10-26T20:15:55.628472+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": true
         },
         "NVDA": {
-          "change_pct": 2.3049,
+          "change_pct": 2.3002,
           "up": true
         },
         "AMZN": {
@@ -50,7 +50,7 @@
       "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 26.0,
+        "current_vxn": 26.35,
         "percentile_vs_20d": 80.0
       }
     },
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.02,
+      "score": 49.8,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.98,
-        "change_5d_pct": -0.003
+        "current_dxy": 102.01,
+        "change_5d_pct": 0.025
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 43.69,
+      "score": 45.33,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.126,
+        "avg_compound": -0.093,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "The Irish Times view on AI investment: market concerns need to be watched",
+            "source": "The Irish Times",
+            "publishedAt": "2026-10-25T20:12:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Protests in France Did Not Overshadow Steelers-Saints Game: ‘It’s a Beautiful Country’",
+            "source": "Steelersnow.com",
+            "publishedAt": "2026-10-25T20:08:04Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "Nvidia CEO Jensen Huang Reaffirms His $4 Trillion Projection for AI Spending. Here's Why That Makes Nvidia a Screaming Buy Now",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-25T20:04:32Z",
+            "sentiment": "Negative",
+            "compound": -0.382
+          },
           {
             "title": "Survey Finds 77% of US Family Caregivers Are at a Breaking Point",
             "source": "Aeroflowurology.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-25T19:57:24Z",
             "sentiment": "Negative",
             "compound": -0.494
-          },
-          {
-            "title": "AI Spending Fears Threaten to Swamp Big Tech’s Strong Earnings - Bloomberg.com",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-10-25T19:53:18Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "Labor proposes Tasmanian election spending caps",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-10-25T19:52:08Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "BoC expected to raise benchmark rate for first time in three years as oil shock persists",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-25T19:33:41Z",
-            "sentiment": "Negative",
-            "compound": -0.382
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.64,
-  "trade_probability": 53.98,
+  "confirmation_score": 56.77,
+  "trade_probability": 54.06,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
