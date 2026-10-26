@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T09:23:44.154449+00:00",
+  "generated_at": "2026-10-26T09:31:12.462029+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.64,
+      "score": 51.66,
       "status": "yellow",
       "details": {
         "current_dxy": 101.77,
-        "change_5d_pct": -0.205
+        "change_5d_pct": -0.208
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.35,
+      "score": 51.66,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.047,
+        "avg_compound": 0.033,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Why fund managers are mixed on gilt funds",
+            "source": "Livemint",
+            "publishedAt": "2026-10-25T09:27:47Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Amgen vs. Gilead Sciences: Which Biotech Dividend Stock Is the Better Buy?",
             "source": "Biztoc.com",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-10-25T09:00:14Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Alphabet's 2 Classes of Common Stock Trade About 1% Apart. Here's the One I'd Buy",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-25T08:50:40Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.89,
-  "trade_probability": 45.13,
+  "confirmation_score": 41.83,
+  "trade_probability": 45.1,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
