@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T14:45:53.782940+00:00",
+  "generated_at": "2026-10-26T15:01:23.079498+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.5351,
+          "change_pct": -0.2907,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.8274,
+          "change_pct": 1.0153,
           "up": true
         },
         "NVDA": {
-          "change_pct": 2.3035,
+          "change_pct": 3.0249,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.5266,
+          "change_pct": 0.619,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29250.69,
-        "sma50": 29813.32,
-        "sma200": 27854.74
+        "last_price": 29384.36,
+        "sma50": 29815.99,
+        "sma200": 27855.4
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 20.0,
+      "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 26.75,
-        "percentile_vs_20d": 80.0
+        "current_vxn": 26.32,
+        "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 76.48,
+      "score": 75.86,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.966,
-        "change_5d_pct": -3.31
+        "current_yield_pct": 4.97,
+        "change_5d_pct": -3.232
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.95,
+      "score": 49.97,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.99,
-        "change_5d_pct": 0.006
+        "current_dxy": 101.98,
+        "change_5d_pct": 0.004
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.89,
+      "score": 51.25,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.018,
+        "avg_compound": 0.025,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Why Do Older People Have Most of the Money?",
+            "source": "Adamnash.blog",
+            "publishedAt": "2026-10-25T15:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Microsoft, McDonald’s, Verizon, and Others Tell Crypto Platform Not to Tokenize Their Stocks",
+            "source": "Gizmodo.com",
+            "publishedAt": "2026-10-25T14:56:24Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Gold price today: Gold rate, silver price predictions by experts are out. Check here",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-25T14:46:23Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "This three-time Trump supporter voted for a Democrat for the first time ever as massive medical bills outweigh her anti-abortion stance",
             "source": "Fortune",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-25T14:27:38Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Meet the homeowners who have been forced to slash their asking prices in a stagnant market. ‘It’s been a roller coaster of emotion’",
-            "source": "Fortune",
-            "publishedAt": "2026-10-25T14:16:00Z",
-            "sentiment": "Negative",
-            "compound": -0.625
-          },
-          {
-            "title": "Social Security's Trump Bump-Driven 2027 COLA Is Historic in 3 Unique Ways",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-25T14:12:53Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Here's What a $10,000 Investment in Palantir Could Be Worth in 10 Years",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-25T14:12:08Z",
-            "sentiment": "Positive",
-            "compound": 0.226
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.7,
-  "trade_probability": 54.62,
+  "confirmation_score": 57.2,
+  "trade_probability": 54.32,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
