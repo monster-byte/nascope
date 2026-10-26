@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T04:01:17.789332+00:00",
+  "generated_at": "2026-10-26T04:15:59.631442+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.24,
+      "score": 52.66,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.81,
-        "change_5d_pct": -0.029
+        "current_dxy": 101.64,
+        "change_5d_pct": -0.332
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.42,
+      "score": 46.77,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.072,
+        "avg_compound": -0.065,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "America’s Miscalculation: Why even Increased Oil Flows through Hormuz won’t Solve the Energy Challenge",
+            "source": "Juancole.com",
+            "publishedAt": "2026-10-25T04:15:54Z",
+            "sentiment": "Positive",
+            "compound": 0.649
+          },
+          {
+            "title": "Equity mutual funds lose up to 9% in a week, international funds among biggest laggards",
+            "source": "Economictimes.com",
+            "publishedAt": "2026-10-25T04:11:08Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
           {
             "title": "Drought, fire and high diesel prices 'addin' up tough' for Oregon ranchers",
             "source": "NPR",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-25T04:00:15Z",
             "sentiment": "Neutral",
             "compound": 0.026
-          },
-          {
-            "title": "France in a Chokehold: Now Even a Gasoline Shortage Looms",
-            "source": "Americanthinker.com",
-            "publishedAt": "2026-10-25T04:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.382
-          },
-          {
-            "title": "Cavaliers and Roundheads",
-            "source": "The Rugby Paper",
-            "publishedAt": "2026-10-25T03:59:08Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.23,
-  "trade_probability": 44.74,
+  "confirmation_score": 41.48,
+  "trade_probability": 44.89,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
