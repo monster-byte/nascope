@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T14:31:16.519598+00:00",
+  "generated_at": "2026-10-26T14:45:53.782940+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.6991,
+          "change_pct": -0.5351,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.4703,
+          "change_pct": 0.8274,
           "up": true
         },
         "NVDA": {
-          "change_pct": 1.6927,
+          "change_pct": 2.3035,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.4743,
+          "change_pct": 0.5266,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29158.37,
-        "sma50": 29811.47,
-        "sma200": 27854.27
+        "last_price": 29250.69,
+        "sma50": 29813.32,
+        "sma200": 27854.74
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 15.0,
+      "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 27.18,
-        "percentile_vs_20d": 85.0
+        "current_vxn": 26.75,
+        "percentile_vs_20d": 80.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 77.26,
+      "score": 76.48,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.961,
-        "change_5d_pct": -3.407
+        "current_yield_pct": 4.966,
+        "change_5d_pct": -3.31
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.81,
+      "score": 49.95,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.0,
-        "change_5d_pct": 0.024
+        "current_dxy": 101.99,
+        "change_5d_pct": 0.006
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.75,
+      "score": 50.89,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.035,
+        "avg_compound": 0.018,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "This three-time Trump supporter voted for a Democrat for the first time ever as massive medical bills outweigh her anti-abortion stance",
+            "source": "Fortune",
+            "publishedAt": "2026-10-25T14:33:46Z",
+            "sentiment": "Positive",
+            "compound": 0.273
+          },
           {
             "title": "Evernorth takes a page from Michael Saylor’s Bitcoin playbook with new $80 million XRP funding plan",
             "source": "CryptoSlate",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-10-25T14:12:08Z",
             "sentiment": "Positive",
             "compound": 0.226
-          },
-          {
-            "title": "Australian housing market takes another hit as fewer than half of properties up for auction sell",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-10-25T14:12:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.42,
-  "trade_probability": 54.45,
+  "confirmation_score": 57.7,
+  "trade_probability": 54.62,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
