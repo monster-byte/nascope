@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T15:31:10.273226+00:00",
+  "generated_at": "2026-10-26T15:45:55.889192+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.6013,
+          "change_pct": -0.6306,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.897,
+          "change_pct": 0.9957,
           "up": true
         },
         "NVDA": {
-          "change_pct": 2.5844,
+          "change_pct": 2.3789,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.3067,
+          "change_pct": 0.3497,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29371.71,
-        "sma50": 29815.74,
-        "sma200": 27855.34
+        "last_price": 29379.74,
+        "sma50": 29815.9,
+        "sma200": 27855.38
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 25.9,
+        "current_vxn": 25.91,
         "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 74.61,
+      "score": 73.36,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.978,
-        "change_5d_pct": -3.076
+        "current_yield_pct": 4.986,
+        "change_5d_pct": -2.921
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.05,
+      "score": 49.63,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.97,
-        "change_5d_pct": -0.007
+        "current_dxy": 102.03,
+        "change_5d_pct": 0.046
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.74,
+      "score": 49.53,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.005,
+        "avg_compound": -0.009,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Prediction: This Will Be SpaceX's Stock Price by the End of 2030",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-25T15:43:36Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Micron Just Revealed a New Business Strategy. That Change Makes It a Screaming Buy",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-25T15:43:34Z",
+            "sentiment": "Negative",
+            "compound": -0.382
+          },
           {
             "title": "Accel once rejected Zetwerk: Now it sells a slice of its stake in the IPO",
             "source": "Business Standard",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-25T15:07:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "SEBI needs to hear passive investor",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-25T15:02:22Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "Why Do Older People Have Most of the Money?",
-            "source": "Adamnash.blog",
-            "publishedAt": "2026-10-25T15:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.9,
-  "trade_probability": 54.14,
+  "confirmation_score": 56.68,
+  "trade_probability": 54.01,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
