@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T13:15:53.152475+00:00",
+  "generated_at": "2026-10-26T13:31:11.947427+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
-      "status": "red",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.0331,
-          "up": true
+          "change_pct": -1.0328,
+          "up": false
         },
         "MSFT": {
-          "change_pct": -0.0736,
-          "up": false
+          "change_pct": 0.4655,
+          "up": true
         },
         "NVDA": {
-          "change_pct": -0.0552,
-          "up": false
+          "change_pct": 1.1397,
+          "up": true
         },
         "AMZN": {
-          "change_pct": -0.2954,
-          "up": false
+          "change_pct": 0.1769,
+          "up": true
         }
       }
     },
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28957.53,
-        "sma50": 29829.23,
-        "sma200": 27836.02
+        "last_price": 29056.77,
+        "sma50": 29809.44,
+        "sma200": 27853.77
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 73.36,
+      "score": 73.05,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.986,
-        "change_5d_pct": -2.921
+        "current_yield_pct": 4.988,
+        "change_5d_pct": -2.882
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.46,
+      "score": 50.26,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.92,
-        "change_5d_pct": -0.058
+        "current_dxy": 101.95,
+        "change_5d_pct": -0.032
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 40.23,
+      "score": 45.61,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.195,
+        "avg_compound": -0.088,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Who's on Air Force One? Trump's midterms entourage includes strategists, aides and aging athletes",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-10-25T13:15:26Z",
+            "title": "ILLR Investors Have Opportunity to Lead Triller Group Inc. Securities Fraud Lawsuit",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-25T13:28:00Z",
+            "sentiment": "Neutral",
+            "compound": -0.178
+          },
+          {
+            "title": "Apollo’s Torsten Slok Warns AI Has Delivered ‘Zero Financial Payoff’ Outside Tech — 'AI Story Will Be Decided In The S&P 493, Not The Mag 7'",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-25T13:26:33Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
+          {
+            "title": "Is a stock slowdown coming? Vanguard’s new alert has retirees spooked — here are simple ways to shield your portfolio",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-25T13:26:09Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "Stock-Split Watch: Is Micron Next?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-25T13:26:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Top Business & Market Headlines Today — BL Morning Report, October 26, 2026",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-25T13:15:23Z",
+            "title": "Elon Musk Just Delivered Spectacular News for SpaceX Stock Investors",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-25T13:25:35Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "5 Top Stories: O’Leary, Warren, Warsh, Schiff and Rand Paul",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-25T13:25:14Z",
             "sentiment": "Positive",
-            "compound": 0.703
-          },
-          {
-            "title": "She voted for Trump every time. Then came cancer and the bills",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-10-25T13:15:00Z",
-            "sentiment": "Negative",
-            "compound": -0.66
-          },
-          {
-            "title": "Home sellers are lowering their price and helping buyers to make a deal in a stagnant market",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-10-25T13:14:47Z",
-            "sentiment": "Neutral",
-            "compound": 0.052
-          },
-          {
-            "title": "The Weekend the Money Stops: A Bank Collapse, Hour by Hour",
-            "source": "Activistpost.com",
-            "publishedAt": "2026-10-25T13:06:00Z",
-            "sentiment": "Negative",
-            "compound": -0.586
-          },
-          {
-            "title": "Hedge funds hold $2 trillion in US debt, but their next trade could require fewer bonds",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-10-25T13:00:52Z",
-            "sentiment": "Neutral",
-            "compound": -0.19
+            "compound": 0.202
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.52,
-  "trade_probability": 44.91,
+  "confirmation_score": 55.44,
+  "trade_probability": 53.26,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
