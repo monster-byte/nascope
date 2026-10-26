@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T17:31:11.810145+00:00",
+  "generated_at": "2026-10-26T17:45:51.892250+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -1.1335,
+          "change_pct": -1.3406,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.9561,
+          "change_pct": 1.0237,
           "up": true
         },
         "NVDA": {
-          "change_pct": 2.3191,
+          "change_pct": 2.2883,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.3216,
+          "change_pct": 0.1789,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29322.61,
-        "sma50": 29814.76,
-        "sma200": 27855.1
+        "last_price": 29303.73,
+        "sma50": 29814.38,
+        "sma200": 27855.0
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 25.98,
+        "current_vxn": 25.89,
         "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 73.99,
+      "score": 74.61,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.982,
-        "change_5d_pct": -2.998
+        "current_yield_pct": 4.978,
+        "change_5d_pct": -3.076
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.76,
+      "score": 50.85,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.88,
-        "change_5d_pct": -0.095
+        "current_dxy": 101.87,
+        "change_5d_pct": -0.106
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.78,
+      "score": 51.14,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.036,
+        "avg_compound": 0.023,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Halloween candy sales off to slow start as chocolate prices soar, consumers struggle with living costs",
+            "source": "New York Post",
+            "publishedAt": "2026-10-25T17:44:20Z",
+            "sentiment": "Negative",
+            "compound": -0.318
+          },
           {
             "title": "Can Walmart's New Bundled Subscription Beat Amazon?",
             "source": "Biztoc.com",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-10-25T16:44:33Z",
             "sentiment": "Positive",
             "compound": 0.637
-          },
-          {
-            "title": "Strategy Booked an $8.3 Billion Bitcoin Loss Last Quarter. Could Q3 Show a Gain?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-25T16:44:23Z",
-            "sentiment": "Positive",
-            "compound": 0.273
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.07,
-  "trade_probability": 54.24,
+  "confirmation_score": 57.1,
+  "trade_probability": 54.26,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
