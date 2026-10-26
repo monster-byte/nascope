@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T05:01:22.075320+00:00",
+  "generated_at": "2026-10-26T05:15:53.527341+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.62,
+      "score": 52.6,
       "status": "yellow",
       "details": {
         "current_dxy": 101.65,
-        "change_5d_pct": -0.328
+        "change_5d_pct": -0.326
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.23,
+      "score": 48.43,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.055,
+        "avg_compound": -0.031,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Gold, silver prices today, 25 October: Check retail rate of 24K, 22K gold, 999 silver in Delhi, Mumbai, Kolkata, Chennai",
+            "source": "Livemint",
+            "publishedAt": "2026-10-25T05:06:58Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Barack Obama targets 'spineless Congress' in push for Democrat El-Sayed",
             "source": "Business Standard",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-10-25T04:11:08Z",
             "sentiment": "Negative",
             "compound": -0.402
-          },
-          {
-            "title": "When Republicans Won on an Antiwar Platform—and Delivered",
-            "source": "The American Conservative",
-            "publishedAt": "2026-10-25T04:01:00Z",
-            "sentiment": "Positive",
-            "compound": 0.572
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.52,
-  "trade_probability": 44.91,
+  "confirmation_score": 41.62,
+  "trade_probability": 44.97,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
