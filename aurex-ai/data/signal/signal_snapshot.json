@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T17:15:51.843883+00:00",
+  "generated_at": "2026-10-26T17:31:11.810145+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.9939,
+          "change_pct": -1.1335,
           "up": false
         },
         "MSFT": {
-          "change_pct": 1.1428,
+          "change_pct": 0.9561,
           "up": true
         },
         "NVDA": {
-          "change_pct": 2.4636,
+          "change_pct": 2.3191,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.3899,
+          "change_pct": 0.3216,
           "up": true
         }
       }
@@ -40,18 +40,18 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29372.14,
-        "sma50": 29815.75,
-        "sma200": 27855.34
+        "last_price": 29322.61,
+        "sma50": 29814.76,
+        "sma200": 27855.1
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 20.0,
+      "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 26.04,
-        "percentile_vs_20d": 80.0
+        "current_vxn": 25.98,
+        "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.26,
+      "score": 50.76,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.95,
-        "change_5d_pct": -0.032
+        "current_dxy": 101.88,
+        "change_5d_pct": -0.095
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.17,
+      "score": 51.78,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.003,
+        "avg_compound": 0.036,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Can Walmart's New Bundled Subscription Beat Amazon?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-25T17:16:51Z",
+            "sentiment": "Neutral",
+            "compound": 0.178
+          },
           {
             "title": "Earnings resilient, but energy prices cap rerating prospects: Bharath S",
             "source": "Business Standard",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-10-25T16:44:23Z",
             "sentiment": "Positive",
             "compound": 0.273
-          },
-          {
-            "title": "Iranians fear a possible return to all-out war as US and Israeli elections approach",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-10-25T16:41:14Z",
-            "sentiment": "Negative",
-            "compound": -0.796
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.33,
-  "trade_probability": 54.4,
+  "confirmation_score": 57.07,
+  "trade_probability": 54.24,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
