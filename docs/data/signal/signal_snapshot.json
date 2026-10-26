@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T19:31:14.890695+00:00",
+  "generated_at": "2026-10-26T19:45:50.399082+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -1.1651,
+          "change_pct": -0.9191,
           "up": false
         },
         "MSFT": {
-          "change_pct": 1.1904,
+          "change_pct": 1.4152,
           "up": true
         },
         "NVDA": {
-          "change_pct": 2.5228,
+          "change_pct": 2.5086,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.1236,
-          "up": false
+          "change_pct": 0.0482,
+          "up": true
         }
       }
     },
@@ -40,18 +40,18 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29308.22,
-        "sma50": 29814.47,
-        "sma200": 27855.02
+        "last_price": 29333.54,
+        "sma50": 29814.98,
+        "sma200": 27855.15
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 20.0,
+      "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 25.95,
-        "percentile_vs_20d": 80.0
+        "current_vxn": 25.97,
+        "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.96,
+      "score": 50.02,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.99,
-        "change_5d_pct": 0.005
+        "current_dxy": 101.98,
+        "change_5d_pct": -0.002
       }
     },
     "macro": {
@@ -85,19 +85,33 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.89,
+      "score": 49.17,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.022,
+        "avg_compound": -0.017,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "BoC expected to raise benchmark rate for first time in three years as oil shock persists",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-25T19:33:41Z",
+            "sentiment": "Negative",
+            "compound": -0.382
+          },
           {
             "title": "EXCLUSIVE: The thin blue line could get even thinner. Police chiefs warn force faces 'devastating' cuts without extra funding",
             "source": "Dailymail.com",
             "publishedAt": "2026-10-25T19:27:12Z",
             "sentiment": "Negative",
             "compound": -0.688
+          },
+          {
+            "title": "SILVER CRASHES FROM $121 TO $54: an absolute massacre!",
+            "source": "Shtfplan.com",
+            "publishedAt": "2026-10-25T19:27:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
             "title": "Mike Johnson Doubles Down On ‘Extraordinary Record’ As Affordability Crisis Threatens GOP’s House Majority",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-25T19:10:24Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "‘Enough’s Enough’: Forever POTUS Barack Obama Fires Shots At Trump & His Cronies While Campaigning For Democratic Candidates",
-            "source": "Bossip",
-            "publishedAt": "2026-10-25T19:03:38Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "35-year-old woman from Punawale duped of ₹49L in share fraud",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-25T18:42:56Z",
-            "sentiment": "Negative",
-            "compound": -0.66
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 50.35,
-  "trade_probability": 50.21,
+  "confirmation_score": 56.68,
+  "trade_probability": 54.01,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
