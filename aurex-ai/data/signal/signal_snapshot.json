@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T13:45:58.687125+00:00",
+  "generated_at": "2026-10-26T14:01:31.793090+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.6052,
+          "change_pct": -1.2974,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.3517,
+          "change_pct": -0.0593,
           "up": false
         },
         "NVDA": {
-          "change_pct": 1.8786,
+          "change_pct": 1.6844,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.3939,
+          "change_pct": -0.0781,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29088.47,
-        "sma50": 29810.08,
-        "sma200": 27853.93
+        "last_price": 29058.95,
+        "sma50": 29809.49,
+        "sma200": 27853.78
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 5.0,
+      "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 28.46,
-        "percentile_vs_20d": 95.0
+        "current_vxn": 27.99,
+        "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 74.61,
+      "score": 75.23,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.978,
-        "change_5d_pct": -3.076
+        "current_yield_pct": 4.974,
+        "change_5d_pct": -3.154
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.93,
+      "score": 49.98,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.99,
-        "change_5d_pct": 0.009
+        "current_dxy": 101.98,
+        "change_5d_pct": 0.002
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.27,
+      "score": 50.3,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.075,
+        "avg_compound": 0.006,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Madan Sabnavis: Tax data can tell us much about India’s income skew—that matters for businesses",
+            "source": "Livemint",
+            "publishedAt": "2026-10-25T14:00:05Z",
+            "sentiment": "Neutral",
+            "compound": 0.026
+          },
+          {
+            "title": "I paid off $11,000 of credit card debt in 18 months while still traveling, shopping and living my life",
+            "source": "CNBC",
+            "publishedAt": "2026-10-25T14:00:01Z",
+            "sentiment": "Neutral",
+            "compound": 0.026
+          },
+          {
+            "title": "The 10 Most Expensive Picasso Paintings Ever Sold, Ranked",
+            "source": "Mental Floss",
+            "publishedAt": "2026-10-25T14:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Gold, silver face fresh test as oil surge puts Fed policy decision in focus",
             "source": "Business Standard",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-25T13:26:33Z",
             "sentiment": "Neutral",
             "compound": -0.103
-          },
-          {
-            "title": "Is a stock slowdown coming? Vanguard’s new alert has retirees spooked — here are simple ways to shield your portfolio",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-25T13:26:09Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "Stock-Split Watch: Is Micron Next?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-25T13:26:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Elon Musk Just Delivered Spectacular News for SpaceX Stock Investors",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-25T13:25:35Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 42.18,
-  "trade_probability": 45.31,
+  "confirmation_score": 43.08,
+  "trade_probability": 45.85,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
