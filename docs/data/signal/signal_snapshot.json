@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T16:31:16.106356+00:00",
+  "generated_at": "2026-10-26T16:45:53.813904+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.863,
+          "change_pct": -0.935,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.9904,
+          "change_pct": 0.8532,
           "up": true
         },
         "NVDA": {
-          "change_pct": 2.1789,
+          "change_pct": 1.8869,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.0121,
+          "change_pct": 0.0201,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29318.57,
-        "sma50": 29814.68,
-        "sma200": 27855.08
+        "last_price": 29261.34,
+        "sma50": 29813.53,
+        "sma200": 27854.79
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 20.0,
+      "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 26.09,
-        "percentile_vs_20d": 80.0
+        "current_vxn": 26.05,
+        "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 74.92,
+      "score": 73.99,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.976,
-        "change_5d_pct": -3.115
+        "current_yield_pct": 4.982,
+        "change_5d_pct": -2.998
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.87,
+      "score": 49.99,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.0,
-        "change_5d_pct": 0.016
+        "current_dxy": 101.98,
+        "change_5d_pct": 0.001
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.7,
+      "score": 48.84,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.026,
+        "avg_compound": -0.023,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "FOX Sports to honor military ahead of Veterans Day with two-day salute during college football, NFL coverage",
+            "source": "Fox News",
+            "publishedAt": "2026-10-25T16:45:48Z",
+            "sentiment": "Positive",
+            "compound": 0.494
+          },
+          {
+            "title": "Sunday links: massive investments",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-25T16:45:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "The Best CEF For You",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-25T16:44:33Z",
+            "sentiment": "Positive",
+            "compound": 0.637
+          },
+          {
+            "title": "Strategy Booked an $8.3 Billion Bitcoin Loss Last Quarter. Could Q3 Show a Gain?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-25T16:44:23Z",
+            "sentiment": "Positive",
+            "compound": 0.273
+          },
+          {
+            "title": "Iranians fear a possible return to all-out war as US and Israeli elections approach",
+            "source": "Abcnews.com",
+            "publishedAt": "2026-10-25T16:41:14Z",
+            "sentiment": "Negative",
+            "compound": -0.796
+          },
           {
             "title": "Iranians fear a possible return to all-out war as US and Israeli elections approach",
             "source": "The Times of India",
             "publishedAt": "2026-10-25T16:28:51Z",
             "sentiment": "Negative",
             "compound": -0.796
-          },
-          {
-            "title": "Is SpaceX Stock a Buy Right Now?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-25T16:15:21Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Worst Samvat under Modi era; Nifty down 13% as investors enter new year amid growing caution",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-25T16:05:50Z",
-            "sentiment": "Neutral",
-            "compound": -0.178
-          },
-          {
-            "title": "Wells Fargo, Cisco, Intuit Among 6 More Companies Objecting to Tokenized Stocks",
-            "source": "Decrypt",
-            "publishedAt": "2026-10-25T16:01:03Z",
-            "sentiment": "Positive",
-            "compound": 0.25
-          },
-          {
-            "title": "Fed, ECB Expected To Hold Rates Next Week, But December Hikes Still In Play Fed, ECB Expected To Hold Rates…",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-25T15:58:52Z",
-            "sentiment": "Positive",
-            "compound": 0.477
-          },
-          {
-            "title": "Prediction: This Will Be SpaceX's Stock Price by the End of 2030",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-25T15:43:36Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.29,
-  "trade_probability": 54.37,
+  "confirmation_score": 56.73,
+  "trade_probability": 54.04,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
