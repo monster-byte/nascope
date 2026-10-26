@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T19:01:29.170170+00:00",
+  "generated_at": "2026-10-26T19:15:52.963792+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -1.3909,
+          "change_pct": -1.2068,
           "up": false
         },
         "MSFT": {
-          "change_pct": 1.2457,
+          "change_pct": 1.3619,
           "up": true
         },
         "NVDA": {
-          "change_pct": 2.2812,
+          "change_pct": 2.5773,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.3296,
+          "change_pct": -0.1125,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29279.65,
-        "sma50": 29813.9,
-        "sma200": 27854.88
+        "last_price": 29334.74,
+        "sma50": 29815.0,
+        "sma200": 27855.16
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 20.0,
+      "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 25.92,
-        "percentile_vs_20d": 80.0
+        "current_vxn": 25.96,
+        "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 73.68,
+      "score": 73.36,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.984,
-        "change_5d_pct": -2.96
+        "current_yield_pct": 4.986,
+        "change_5d_pct": -2.921
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.3,
+      "score": 49.95,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.94,
-        "change_5d_pct": -0.037
+        "current_dxy": 101.99,
+        "change_5d_pct": 0.007
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.31,
+      "score": 48.67,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.026,
+        "avg_compound": -0.027,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Mike Johnson Doubles Down On ‘Extraordinary Record’ As Affordability Crisis Threatens GOP’s House Majority",
+            "source": "The Daily Caller",
+            "publishedAt": "2026-10-25T19:11:43Z",
+            "sentiment": "Negative",
+            "compound": -0.772
+          },
+          {
+            "title": "AI narrative needs to change for India: K Balasubramanian, CEO, Citibank India",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-25T19:10:24Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "AI narrative needs to change for India: K Balasubramanian, CEO, Citibank India",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-25T19:10:24Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "‘Enough’s Enough’: Forever POTUS Barack Obama Fires Shots At Trump & His Cronies While Campaigning For Democratic Candidates",
+            "source": "Bossip",
+            "publishedAt": "2026-10-25T19:03:38Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "35-year-old woman from Punawale duped of ₹49L in share fraud",
             "source": "The Times of India",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-25T18:42:23Z",
             "sentiment": "Negative",
             "compound": -0.421
-          },
-          {
-            "title": "Wineries, breweries closing down as decline in alcohol consumption starts to bite",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-10-25T18:31:40Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "apiverve-cpiinflation 1.2.2",
-            "source": "Pypi.org",
-            "publishedAt": "2026-10-25T18:28:08Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "apiverve-cpiinflation added to PyPI",
-            "source": "Pypi.org",
-            "publishedAt": "2026-10-25T18:28:08Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Don Quijote Launches Discount Supermarket Robin Hood",
-            "source": "Newsonjapan.com",
-            "publishedAt": "2026-10-25T18:21:39Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 50.64,
-  "trade_probability": 50.38,
+  "confirmation_score": 49.88,
+  "trade_probability": 49.93,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
