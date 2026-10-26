@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T14:15:55.572724+00:00",
+  "generated_at": "2026-10-26T14:31:16.519598+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.8945,
+          "change_pct": -0.6991,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.2855,
+          "change_pct": 0.4703,
           "up": true
         },
         "NVDA": {
-          "change_pct": 1.6418,
+          "change_pct": 1.6927,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.5828,
+          "change_pct": 0.4743,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29153.07,
-        "sma50": 29811.37,
-        "sma200": 27854.25
+        "last_price": 29158.37,
+        "sma50": 29811.47,
+        "sma200": 27854.27
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 10.0,
+      "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 27.73,
-        "percentile_vs_20d": 90.0
+        "current_vxn": 27.18,
+        "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 75.23,
+      "score": 77.26,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.974,
-        "change_5d_pct": -3.154
+        "current_yield_pct": 4.961,
+        "change_5d_pct": -3.407
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.77,
+      "score": 49.81,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.01,
-        "change_5d_pct": 0.028
+        "current_dxy": 102.0,
+        "change_5d_pct": 0.024
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.61,
+      "score": 51.75,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.012,
+        "avg_compound": 0.035,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Evernorth takes a page from Michael Saylor’s Bitcoin playbook with new $80 million XRP funding plan",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-10-25T14:30:16Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Netflix Is Down 51% From Its High. History Suggests This Is What Happens Next",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-25T14:27:38Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Meet the homeowners who have been forced to slash their asking prices in a stagnant market. ‘It’s been a roller coaster of emotion’",
+            "source": "Fortune",
+            "publishedAt": "2026-10-25T14:16:00Z",
+            "sentiment": "Negative",
+            "compound": -0.625
+          },
           {
             "title": "Social Security's Trump Bump-Driven 2027 COLA Is Historic in 3 Unique Ways",
             "source": "Biztoc.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-25T14:12:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Bank of America warns of 2027 stock market risk few expect",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-25T14:11:30Z",
-            "sentiment": "Negative",
-            "compound": -0.361
-          },
-          {
-            "title": "Bangladesh per capita GDP forecast to outstrip India’s: What does it mean?",
-            "source": "Al Jazeera English",
-            "publishedAt": "2026-10-25T14:11:29Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Worried about this stock-market selloff? Relief may be coming after the midterms — no matter who wins",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-25T14:10:46Z",
-            "sentiment": "Positive",
-            "compound": 0.673
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.59,
-  "trade_probability": 53.95,
+  "confirmation_score": 57.42,
+  "trade_probability": 54.45,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
