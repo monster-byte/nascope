@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T07:01:29.534308+00:00",
+  "generated_at": "2026-10-26T07:15:52.695361+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.42,
+      "score": 52.13,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.67,
-        "change_5d_pct": -0.302
+        "current_dxy": 101.71,
+        "change_5d_pct": -0.266
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.45,
+      "score": 52.63,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.029,
+        "avg_compound": 0.053,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Govt to bankroll half the cost of deepwater wells, but wants its money back from winners",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-25T07:11:46Z",
+            "sentiment": "Positive",
+            "compound": 0.686
+          },
+          {
+            "title": "3 British Defensive Stocks To Own In October 2026",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-25T07:04:01Z",
+            "sentiment": "Neutral",
+            "compound": 0.026
+          },
           {
             "title": "How Pepsi fell behind in the cola wars—and then lost KFC",
             "source": "Fortune",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-25T06:40:35Z",
             "sentiment": "Positive",
             "compound": 0.637
-          },
-          {
-            "title": "Obama criticises Trump over Iran war, rising prices",
-            "source": "The Punch",
-            "publishedAt": "2026-10-25T06:40:18Z",
-            "sentiment": "Negative",
-            "compound": -0.735
-          },
-          {
-            "title": "Robinhood Chain sees 59% of stock token trading after Wall Street closes",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-25T06:37:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.88,
-  "trade_probability": 45.13,
+  "confirmation_score": 41.96,
+  "trade_probability": 45.18,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
