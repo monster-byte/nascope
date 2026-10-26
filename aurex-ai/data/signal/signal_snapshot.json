@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T06:45:49.888210+00:00",
+  "generated_at": "2026-10-26T07:01:29.534308+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.34,
+      "score": 52.42,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.68,
-        "change_5d_pct": -0.292
+        "current_dxy": 101.67,
+        "change_5d_pct": -0.302
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.4,
+      "score": 51.45,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.012,
-        "articles_analyzed": 25,
+        "avg_compound": 0.029,
+        "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "How Pepsi fell behind in the cola wars—and then lost KFC",
+            "source": "Fortune",
+            "publishedAt": "2026-10-25T07:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.318
+          },
+          {
+            "title": "Bitcoin’s Fed Week Starts With A Fresh Rise In US Inflation Expectations",
+            "source": "newsBTC",
+            "publishedAt": "2026-10-25T07:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.318
+          },
+          {
+            "title": "Bank FD laddering explained: How to maximise fixed deposit return with improving liquidity, managing interest rate risks",
+            "source": "Livemint",
+            "publishedAt": "2026-10-25T06:55:20Z",
+            "sentiment": "Positive",
+            "compound": 0.572
+          },
           {
             "title": "Govt to fund up to 50% deepwater well costs, recover aid from winners",
             "source": "Business Standard",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-25T06:37:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "FPIs withdraw Rs 48,056 cr from equities in Oct so far amid elevated crude oil prices",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-25T06:33:10Z",
-            "sentiment": "Negative",
-            "compound": -0.572
-          },
-          {
-            "title": "FPIs withdraw ₹48,056 crore from equities in Oct amid elevated oil prices",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-25T06:25:47Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Fed expected to hold rates steady days ahead of US midterms",
-            "source": "Hurriyet Daily News",
-            "publishedAt": "2026-10-25T06:23:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.69,
-  "trade_probability": 45.01,
+  "confirmation_score": 41.88,
+  "trade_probability": 45.13,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
