@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T17:01:28.328425+00:00",
+  "generated_at": "2026-10-26T17:15:51.843883+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -1.0817,
+          "change_pct": -0.9939,
           "up": false
         },
         "MSFT": {
-          "change_pct": 1.0949,
+          "change_pct": 1.1428,
           "up": true
         },
         "NVDA": {
-          "change_pct": 2.3949,
+          "change_pct": 2.4636,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.3196,
+          "change_pct": 0.3899,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29335.3,
-        "sma50": 29815.01,
-        "sma200": 27855.16
+        "last_price": 29372.14,
+        "sma50": 29815.75,
+        "sma200": 27855.34
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 15.0,
+      "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 26.14,
-        "percentile_vs_20d": 85.0
+        "current_vxn": 26.04,
+        "percentile_vs_20d": 80.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 74.61,
+      "score": 73.99,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.978,
-        "change_5d_pct": -3.076
+        "current_yield_pct": 4.982,
+        "change_5d_pct": -2.998
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.29,
+      "score": 50.26,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.94,
-        "change_5d_pct": -0.036
+        "current_dxy": 101.95,
+        "change_5d_pct": -0.032
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.84,
+      "score": 50.17,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.023,
+        "avg_compound": 0.003,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Earnings resilient, but energy prices cap rerating prospects: Bharath S",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-25T17:04:19Z",
+            "sentiment": "Positive",
+            "compound": 0.665
+          },
           {
             "title": "FOX Sports to honor military ahead of Veterans Day with two-day salute during college football, NFL coverage",
             "source": "Fox News",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-10-25T16:41:14Z",
             "sentiment": "Negative",
             "compound": -0.796
-          },
-          {
-            "title": "Iranians fear a possible return to all-out war as US and Israeli elections approach",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-25T16:28:51Z",
-            "sentiment": "Negative",
-            "compound": -0.796
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.84,
-  "trade_probability": 54.1,
+  "confirmation_score": 57.33,
+  "trade_probability": 54.4,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
