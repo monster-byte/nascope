@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T09:45:50.378210+00:00",
+  "generated_at": "2026-10-26T10:01:26.371126+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.58,
+      "score": 51.47,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.78,
-        "change_5d_pct": -0.198
+        "current_dxy": 101.79,
+        "change_5d_pct": -0.183
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.66,
+      "score": 50.65,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.033,
-        "articles_analyzed": 23,
+        "avg_compound": 0.013,
+        "articles_analyzed": 22,
         "top_headlines": [
+          {
+            "title": "US inequality is getting worse in ways you might not expect",
+            "source": "Salon",
+            "publishedAt": "2026-10-25T10:00:48Z",
+            "sentiment": "Negative",
+            "compound": -0.477
+          },
+          {
+            "title": "Their surging student-loan payments are pushing them to slash their budgets and delay life milestones",
+            "source": "Business Insider",
+            "publishedAt": "2026-10-25T10:00:01Z",
+            "sentiment": "Negative",
+            "compound": -0.527
+          },
+          {
+            "title": "A check on Trump or a fresh mandate? Midterm outcomes and what they mean.",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-10-25T09:59:52Z",
+            "sentiment": "Positive",
+            "compound": 0.318
+          },
           {
             "title": "Why fund managers are mixed on gilt funds",
             "source": "Livemint",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-25T09:21:25Z",
             "sentiment": "Positive",
             "compound": 0.735
-          },
-          {
-            "title": "Nvidia vs. Micron: The AI Revolution Is Big Enough for Both. Here's the Better Buy",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-25T09:21:23Z",
-            "sentiment": "Positive",
-            "compound": 0.44
-          },
-          {
-            "title": "Foreign investors withdraw Rs 48,056 crore in October as market selling continues",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-25T09:03:56Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Leavitt says Trump is defying midterm headwinds as he barnstorms country",
-            "source": "Fox News",
-            "publishedAt": "2026-10-25T09:00:14Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.82,
-  "trade_probability": 45.09,
+  "confirmation_score": 41.72,
+  "trade_probability": 45.03,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
