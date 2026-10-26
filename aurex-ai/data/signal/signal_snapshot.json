@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T06:15:54.190950+00:00",
+  "generated_at": "2026-10-26T06:31:18.141396+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.2,
+      "score": 52.34,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.7,
-        "change_5d_pct": -0.275
+        "current_dxy": 101.68,
+        "change_5d_pct": -0.292
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.39,
+      "score": 51.15,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.008,
+        "avg_compound": 0.023,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "FPIs withdraw ₹48,056 crore from equities in Oct amid elevated oil prices",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-25T06:25:47Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Fed expected to hold rates steady days ahead of US midterms",
+            "source": "Hurriyet Daily News",
+            "publishedAt": "2026-10-25T06:23:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Zimbabwe wants digital payments to build trust in its newest currency. Why technology alone won’t be enough to save the ZiG",
             "source": "The Conversation Africa",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-25T06:00:00Z",
             "sentiment": "Neutral",
             "compound": -0.151
-          },
-          {
-            "title": "July 2026 DA Hike: Will the centre announce the revised allowance before Diwali in November?",
-            "source": "Livemint",
-            "publishedAt": "2026-10-25T05:49:31Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "How central bankers spend their time",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-25T05:46:01Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.76,
-  "trade_probability": 45.06,
+  "confirmation_score": 41.84,
+  "trade_probability": 45.1,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
