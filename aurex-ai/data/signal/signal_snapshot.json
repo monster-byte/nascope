@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T15:15:54.270855+00:00",
+  "generated_at": "2026-10-26T15:31:10.273226+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.2957,
+          "change_pct": -0.6013,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.6646,
+          "change_pct": 0.897,
           "up": true
         },
         "NVDA": {
-          "change_pct": 2.8307,
+          "change_pct": 2.5844,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.4502,
+          "change_pct": 0.3067,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29361.1,
-        "sma50": 29815.53,
-        "sma200": 27855.29
+        "last_price": 29371.71,
+        "sma50": 29815.74,
+        "sma200": 27855.34
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 20.0,
+      "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 25.87,
-        "percentile_vs_20d": 80.0
+        "current_vxn": 25.9,
+        "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 74.3,
+      "score": 74.61,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.98,
-        "change_5d_pct": -3.037
+        "current_yield_pct": 4.978,
+        "change_5d_pct": -3.076
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.84,
+      "score": 50.05,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.0,
-        "change_5d_pct": 0.021
+        "current_dxy": 101.97,
+        "change_5d_pct": -0.007
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.14,
+      "score": 49.74,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.023,
+        "avg_compound": -0.005,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Accel once rejected Zetwerk: Now it sells a slice of its stake in the IPO",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-25T15:27:07Z",
+            "sentiment": "Negative",
+            "compound": -0.511
+          },
+          {
+            "title": "Fluence Energy, Inc. (FLNC) Investors Have Opportunity to Lead Securities Fraud Class Action Lawsuit - Kessler Topaz Meltzer & Check, LLP",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-25T15:23:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.103
+          },
           {
             "title": "Here are 4 big things we're watching in the stock market this week",
             "source": "Biztoc.com",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-25T15:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Microsoft, McDonald’s, Verizon, and Others Tell Crypto Platform Not to Tokenize Their Stocks",
-            "source": "Gizmodo.com",
-            "publishedAt": "2026-10-25T14:56:24Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Gold price today: Gold rate, silver price predictions by experts are out. Check here",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-25T14:46:23Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.42,
-  "trade_probability": 54.45,
+  "confirmation_score": 56.9,
+  "trade_probability": 54.14,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
