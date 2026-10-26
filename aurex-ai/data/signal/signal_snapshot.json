@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T16:01:23.785779+00:00",
+  "generated_at": "2026-10-26T16:15:50.377190+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.83,
+          "change_pct": -0.9752,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.9075,
+          "change_pct": 0.9618,
           "up": true
         },
         "NVDA": {
-          "change_pct": 2.0388,
+          "change_pct": 2.0681,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.0643,
+          "change_pct": -0.1166,
           "up": false
         }
       }
@@ -40,18 +40,18 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29296.57,
-        "sma50": 29814.24,
-        "sma200": 27854.97
+        "last_price": 29305.81,
+        "sma50": 29814.42,
+        "sma200": 27855.01
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 20.0,
+      "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 25.84,
-        "percentile_vs_20d": 80.0
+        "current_vxn": 25.99,
+        "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.64,
+      "score": 49.89,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.03,
-        "change_5d_pct": 0.045
+        "current_dxy": 101.99,
+        "change_5d_pct": 0.014
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.35,
+      "score": 49.89,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.007,
+        "avg_compound": -0.002,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Is SpaceX Stock a Buy Right Now?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-25T16:15:21Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Worst Samvat under Modi era; Nifty down 13% as investors enter new year amid growing caution",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-25T16:05:50Z",
+            "sentiment": "Neutral",
+            "compound": -0.178
+          },
           {
             "title": "Wells Fargo, Cisco, Intuit Among 6 More Companies Objecting to Tokenized Stocks",
             "source": "Decrypt",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-25T15:43:34Z",
             "sentiment": "Negative",
             "compound": -0.382
-          },
-          {
-            "title": "Accel once rejected Zetwerk: Now it sells a slice of its stake in the IPO",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-25T15:27:07Z",
-            "sentiment": "Negative",
-            "compound": -0.511
-          },
-          {
-            "title": "Fluence Energy, Inc. (FLNC) Investors Have Opportunity to Lead Securities Fraud Class Action Lawsuit - Kessler Topaz Meltzer & Check, LLP",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-25T15:23:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.103
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 50.5,
-  "trade_probability": 50.3,
+  "confirmation_score": 50.03,
+  "trade_probability": 50.02,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
