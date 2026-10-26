@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T04:15:59.631442+00:00",
+  "generated_at": "2026-10-26T04:31:05.189599+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.66,
+      "score": 52.53,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.64,
-        "change_5d_pct": -0.332
+        "current_dxy": 101.66,
+        "change_5d_pct": -0.316
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.77,
+      "score": 46.31,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.065,
+        "avg_compound": -0.074,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Sri Lanka seeks faster green energy shift after oil shocks",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-25T04:22:34Z",
+            "sentiment": "Neutral",
+            "compound": -0.128
+          },
+          {
+            "title": "Should Investors Buy the Meta Platforms Dip?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-25T04:16:19Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "America’s Miscalculation: Why even Increased Oil Flows through Hormuz won’t Solve the Energy Challenge",
             "source": "Juancole.com",
@@ -107,13 +121,6 @@
             "compound": -0.402
           },
           {
-            "title": "Drought, fire and high diesel prices 'addin' up tough' for Oregon ranchers",
-            "source": "NPR",
-            "publishedAt": "2026-10-25T04:01:00Z",
-            "sentiment": "Negative",
-            "compound": -0.44
-          },
-          {
             "title": "When Republicans Won on an Antiwar Platform—and Delivered",
             "source": "The American Conservative",
             "publishedAt": "2026-10-25T04:01:00Z",
@@ -121,18 +128,11 @@
             "compound": 0.572
           },
           {
-            "title": "Post Jio boost: 5 IPOs to raise Rs 2,581 crore next week alongside India's biggest listing",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-25T04:00:17Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "Economic pressures put new Midwestern states in play for the midterms",
-            "source": "CNN",
-            "publishedAt": "2026-10-25T04:00:15Z",
-            "sentiment": "Neutral",
-            "compound": 0.026
+            "title": "Drought, fire and high diesel prices 'addin' up tough' for Oregon ranchers",
+            "source": "NPR",
+            "publishedAt": "2026-10-25T04:01:00Z",
+            "sentiment": "Negative",
+            "compound": -0.44
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.48,
-  "trade_probability": 44.89,
+  "confirmation_score": 41.43,
+  "trade_probability": 44.86,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
