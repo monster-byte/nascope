@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T01:45:50.493981+00:00",
+  "generated_at": "2026-10-26T02:01:23.345651+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.49,
+      "score": 52.81,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.66,
-        "change_5d_pct": -0.312
+        "current_dxy": 101.62,
+        "change_5d_pct": -0.351
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.56,
+      "score": 47.14,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.089,
+        "avg_compound": -0.057,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Breaking News Live Updates: Trump hints at Iran attack ‘as soon as tomorrow’ but leaves door open for deal",
+            "source": "Economictimes.com",
+            "publishedAt": "2026-10-25T02:01:09Z",
+            "sentiment": "Negative",
+            "compound": -0.262
+          },
+          {
+            "title": "Trump says US could strike Iran \"maybe tomorrow\"; doesn't rule out \"big beautiful\" deal",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-25T01:55:16Z",
+            "sentiment": "Positive",
+            "compound": 0.527
+          },
           {
             "title": "1 Red Flag That Keeps Me From Buying AMD Stock",
             "source": "Biztoc.com",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-25T01:32:15Z",
             "sentiment": "Neutral",
             "compound": -0.026
-          },
-          {
-            "title": "Republican billionaire Rick Jackson is walking a Trump tightrope in his quest to lead Georgia",
-            "source": "KPRC Click2Houston",
-            "publishedAt": "2026-10-25T01:22:40Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Fresh clashes rock France as protesters march on",
-            "source": "RTE",
-            "publishedAt": "2026-10-25T01:20:52Z",
-            "sentiment": "Neutral",
-            "compound": 0.103
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.35,
-  "trade_probability": 44.81,
+  "confirmation_score": 41.53,
+  "trade_probability": 44.92,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
