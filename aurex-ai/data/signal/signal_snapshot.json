@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T08:31:08.215927+00:00",
+  "generated_at": "2026-10-26T08:45:54.434773+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.51,
+      "score": 51.3,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.79,
-        "change_5d_pct": -0.189
+        "current_dxy": 101.81,
+        "change_5d_pct": -0.163
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.66,
+      "score": 48.63,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.007,
+        "avg_compound": -0.027,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "CoreWeave shares tumble as debt fears hit AI infrastructure",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-25T08:33:28Z",
+            "sentiment": "Negative",
+            "compound": -0.477
+          },
           {
             "title": "3 US Defensive Dividend Stocks To Steady A Rate Sensitive Portfolio",
             "source": "Biztoc.com",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-10-25T08:14:31Z",
             "sentiment": "Positive",
             "compound": 0.402
-          },
-          {
-            "title": "Samudra Manthan: Govt to bankroll half the cost of deepwater wells, but wants its money back from winners",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-25T08:09:11Z",
-            "sentiment": "Positive",
-            "compound": 0.686
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.64,
-  "trade_probability": 44.98,
+  "confirmation_score": 41.52,
+  "trade_probability": 44.91,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
