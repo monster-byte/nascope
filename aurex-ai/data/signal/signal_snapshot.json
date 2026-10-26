@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T19:15:52.963792+00:00",
+  "generated_at": "2026-10-26T19:31:14.890695+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -1.2068,
+          "change_pct": -1.1651,
           "up": false
         },
         "MSFT": {
-          "change_pct": 1.3619,
+          "change_pct": 1.1904,
           "up": true
         },
         "NVDA": {
-          "change_pct": 2.5773,
+          "change_pct": 2.5228,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.1125,
+          "change_pct": -0.1236,
           "up": false
         }
       }
@@ -40,18 +40,18 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29334.74,
-        "sma50": 29815.0,
-        "sma200": 27855.16
+        "last_price": 29308.22,
+        "sma50": 29814.47,
+        "sma200": 27855.02
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 15.0,
+      "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 25.96,
-        "percentile_vs_20d": 85.0
+        "current_vxn": 25.95,
+        "percentile_vs_20d": 80.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.95,
+      "score": 49.96,
       "status": "yellow",
       "details": {
         "current_dxy": 101.99,
-        "change_5d_pct": 0.007
+        "change_5d_pct": 0.005
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.67,
+      "score": 48.89,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.027,
+        "avg_compound": -0.022,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "EXCLUSIVE: The thin blue line could get even thinner. Police chiefs warn force faces 'devastating' cuts without extra funding",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-10-25T19:27:12Z",
+            "sentiment": "Negative",
+            "compound": -0.688
+          },
           {
             "title": "Mike Johnson Doubles Down On ‘Extraordinary Record’ As Affordability Crisis Threatens GOP’s House Majority",
             "source": "The Daily Caller",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-10-25T18:42:56Z",
             "sentiment": "Negative",
             "compound": -0.66
-          },
-          {
-            "title": "AI didn't cause the tech jobs bust, but it explains why there's no recovery",
-            "source": "Vithushansylvester.com",
-            "publishedAt": "2026-10-25T18:42:23Z",
-            "sentiment": "Negative",
-            "compound": -0.421
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 49.88,
-  "trade_probability": 49.93,
+  "confirmation_score": 50.35,
+  "trade_probability": 50.21,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
