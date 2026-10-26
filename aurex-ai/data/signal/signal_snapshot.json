@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T16:15:50.377190+00:00",
+  "generated_at": "2026-10-26T16:31:16.106356+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.9752,
+          "change_pct": -0.863,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.9618,
+          "change_pct": 0.9904,
           "up": true
         },
         "NVDA": {
-          "change_pct": 2.0681,
+          "change_pct": 2.1789,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.1166,
-          "up": false
+          "change_pct": 0.0121,
+          "up": true
         }
       }
     },
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29305.81,
-        "sma50": 29814.42,
-        "sma200": 27855.01
+        "last_price": 29318.57,
+        "sma50": 29814.68,
+        "sma200": 27855.08
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 15.0,
+      "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 25.99,
-        "percentile_vs_20d": 85.0
+        "current_vxn": 26.09,
+        "percentile_vs_20d": 80.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 73.68,
+      "score": 74.92,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.984,
-        "change_5d_pct": -2.96
+        "current_yield_pct": 4.976,
+        "change_5d_pct": -3.115
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.89,
+      "score": 49.87,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.99,
-        "change_5d_pct": 0.014
+        "current_dxy": 102.0,
+        "change_5d_pct": 0.016
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.89,
+      "score": 48.7,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.002,
+        "avg_compound": -0.026,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Iranians fear a possible return to all-out war as US and Israeli elections approach",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-25T16:28:51Z",
+            "sentiment": "Negative",
+            "compound": -0.796
+          },
           {
             "title": "Is SpaceX Stock a Buy Right Now?",
             "source": "Biztoc.com",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-10-25T15:43:36Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Micron Just Revealed a New Business Strategy. That Change Makes It a Screaming Buy",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-25T15:43:34Z",
-            "sentiment": "Negative",
-            "compound": -0.382
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 50.03,
-  "trade_probability": 50.02,
+  "confirmation_score": 57.29,
+  "trade_probability": 54.37,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
