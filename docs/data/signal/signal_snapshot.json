@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T12:31:05.942142+00:00",
+  "generated_at": "2026-10-26T12:45:53.918474+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 67.26,
+      "score": 71.34,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.988,
-        "change_5d_pct": -2.158
+        "current_yield_pct": 4.999,
+        "change_5d_pct": -2.667
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.89,
+      "score": 50.96,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.87,
-        "change_5d_pct": -0.111
+        "current_dxy": 101.86,
+        "change_5d_pct": -0.12
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 43.45,
-      "status": "yellow",
+      "score": 38.61,
+      "status": "red",
       "details": {
-        "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.131,
-        "articles_analyzed": 24,
+        "overall_sentiment": "BEARISH",
+        "avg_compound": -0.228,
+        "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "BETR Investors Have Opportunity to Lead Better Home & Finance Holding Company Securities Fraud Lawsuit",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-25T12:42:00Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "Inflation under Trump is only about half the rate under Biden. Voters are still just as mad",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-25T12:40:08Z",
+            "sentiment": "Negative",
+            "compound": -0.494
+          },
+          {
+            "title": "Crude nears $120 as W Asia risks collide with Fed rate decision: Analysts",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-25T12:38:27Z",
+            "sentiment": "Negative",
+            "compound": -0.727
+          },
+          {
+            "title": "She voted for Trump every time. Then came cancer and the bills.",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-10-25T12:34:00Z",
+            "sentiment": "Negative",
+            "compound": -0.66
+          },
           {
             "title": "My mom and I graduated from college in the same year. I was 23, and she was in her late 40s.",
             "source": "Business Insider",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-25T12:24:01Z",
             "sentiment": "Negative",
             "compound": -0.226
-          },
-          {
-            "title": "Brazil heads to the polls as son of jailed former president Jair Bolsonaro bids to enter office",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-10-25T12:23:58Z",
-            "sentiment": "Negative",
-            "compound": -0.494
-          },
-          {
-            "title": "Motorists have shelled out extra £10billion at the pumps because of Iran war, research shows, piling pressure on Chancellor John Healey to ditch Labour's planned Fuel Duty hike in the Budget",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-10-25T12:17:20Z",
-            "sentiment": "Negative",
-            "compound": -0.727
-          },
-          {
-            "title": "Inflation under Trump is only about half the rate under Biden. Voters are still just as mad.",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-10-25T12:00:43Z",
-            "sentiment": "Negative",
-            "compound": -0.494
-          },
-          {
-            "title": "More than 1,300 demo-goers arrested and 50 police hurt in violent French protests - as National Rally' Marine Le Pen to kick off presidential campaign with rally speech",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-10-25T11:53:48Z",
-            "sentiment": "Negative",
-            "compound": -0.906
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.02,
-  "trade_probability": 44.61,
+  "confirmation_score": 41.14,
+  "trade_probability": 44.68,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
