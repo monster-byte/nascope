@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T08:45:54.434773+00:00",
+  "generated_at": "2026-10-26T09:01:28.023756+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.3,
+      "score": 51.45,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.81,
-        "change_5d_pct": -0.163
+        "current_dxy": 101.79,
+        "change_5d_pct": -0.181
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.63,
+      "score": 49.87,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.027,
+        "avg_compound": -0.003,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Leavitt says Trump is defying midterm headwinds as he barnstorms country",
+            "source": "Fox News",
+            "publishedAt": "2026-10-25T09:00:14Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Alphabet's 2 Classes of Common Stock Trade About 1% Apart. Here's the One I'd Buy",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-25T08:50:40Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "CoreWeave shares tumble as debt fears hit AI infrastructure",
             "source": "Crypto Briefing",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-25T08:19:57Z",
             "sentiment": "Neutral",
             "compound": 0.103
-          },
-          {
-            "title": "Tata Sons listing latest news: How RBI Governor Sanjay Malhotra's first public comment dispels doubts on Sept 11 order",
-            "source": "Livemint",
-            "publishedAt": "2026-10-25T08:15:55Z",
-            "sentiment": "Negative",
-            "compound": -0.296
-          },
-          {
-            "title": "F&O Talk: Nifty plunged 2% this week. Do charts indicate a bearish picture for coming week?",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-25T08:14:31Z",
-            "sentiment": "Positive",
-            "compound": 0.402
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.52,
-  "trade_probability": 44.91,
+  "confirmation_score": 41.65,
+  "trade_probability": 44.99,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
