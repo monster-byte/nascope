@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T00:45:53.147925+00:00",
+  "generated_at": "2026-10-26T01:01:20.145224+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.19,
+      "score": 52.2,
       "status": "yellow",
       "details": {
         "current_dxy": 101.7,
-        "change_5d_pct": -0.274
+        "change_5d_pct": -0.275
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 44.67,
+      "score": 43.89,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.107,
+        "avg_compound": -0.122,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Five parties are campaigning on KiwiSaver changes. How would each affect you? – Brian Fallow",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-10-25T01:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "Europe unrest: Protests over living costs, education & political failures rock France, Italy, Albania & Belgium",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-25T00:57:06Z",
+            "sentiment": "Negative",
+            "compound": -0.599
+          },
+          {
+            "title": "Varsity workers protest shortfalls in FG’s arrears payment",
+            "source": "The Punch",
+            "publishedAt": "2026-10-25T00:54:46Z",
+            "sentiment": "Negative",
+            "compound": -0.25
+          },
           {
             "title": "Aritzia And 2 Other Top Canadian Quality Stocks",
             "source": "Biztoc.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-25T00:07:11Z",
             "sentiment": "Negative",
             "compound": -0.477
-          },
-          {
-            "title": "CBN defends 75% reserve requirement on public deposits",
-            "source": "The Punch",
-            "publishedAt": "2026-10-25T00:00:55Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Nearly 83% of uneducated Nigerians live in poverty – W’Bank",
-            "source": "The Punch",
-            "publishedAt": "2026-10-25T00:00:49Z",
-            "sentiment": "Negative",
-            "compound": -0.511
-          },
-          {
-            "title": "nautilus-finzdata added to PyPI",
-            "source": "Pypi.org",
-            "publishedAt": "2026-10-24T23:55:33Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.25,
-  "trade_probability": 44.75,
+  "confirmation_score": 41.18,
+  "trade_probability": 44.71,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
