@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T06:01:15.526367+00:00",
+  "generated_at": "2026-10-26T06:15:54.190950+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.15,
+      "score": 52.2,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.71,
-        "change_5d_pct": -0.269
+        "current_dxy": 101.7,
+        "change_5d_pct": -0.275
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.86,
+      "score": 50.39,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.003,
+        "avg_compound": 0.008,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Zimbabwe wants digital payments to build trust in its newest currency. Why technology alone won’t be enough to save the ZiG",
+            "source": "The Conversation Africa",
+            "publishedAt": "2026-10-25T06:10:34Z",
+            "sentiment": "Positive",
+            "compound": 0.67
+          },
           {
             "title": "Ulster University’s education quality under threat from spending cuts, warns provost",
             "source": "The Irish Times",
@@ -100,18 +107,18 @@
             "compound": -0.718
           },
           {
-            "title": "Was that a stockmarket wobble, or the start of something more serious?",
-            "source": "The Irish Times",
-            "publishedAt": "2026-10-25T06:00:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.151
-          },
-          {
             "title": "When will reality of energy prices bite markets?",
             "source": "The Irish Times",
             "publishedAt": "2026-10-25T06:00:00Z",
             "sentiment": "Positive",
             "compound": 0.273
+          },
+          {
+            "title": "Was that a stockmarket wobble, or the start of something more serious?",
+            "source": "The Irish Times",
+            "publishedAt": "2026-10-25T06:00:00Z",
+            "sentiment": "Neutral",
+            "compound": -0.151
           },
           {
             "title": "July 2026 DA Hike: Will the centre announce the revised allowance before Diwali in November?",
@@ -124,13 +131,6 @@
             "title": "How central bankers spend their time",
             "source": "Biztoc.com",
             "publishedAt": "2026-10-25T05:46:01Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Nine Companies in Indonesia Stock Exchange IPO Pipeline, Healthcare Leads",
-            "source": "Jakartaglobe.id",
-            "publishedAt": "2026-10-25T05:31:42Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.71,
-  "trade_probability": 45.03,
+  "confirmation_score": 41.76,
+  "trade_probability": 45.06,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
