@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T19:45:50.399082+00:00",
+  "generated_at": "2026-10-26T20:01:29.162428+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.9191,
+          "change_pct": -1.0443,
           "up": false
         },
         "MSFT": {
-          "change_pct": 1.4152,
+          "change_pct": 1.4933,
           "up": true
         },
         "NVDA": {
-          "change_pct": 2.5086,
+          "change_pct": 2.3049,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.0482,
+          "change_pct": 0.0924,
           "up": true
         }
       }
@@ -40,18 +40,18 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29333.54,
-        "sma50": 29814.98,
-        "sma200": 27855.15
+        "last_price": 29273.4,
+        "sma50": 29813.77,
+        "sma200": 27854.85
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 15.0,
+      "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 25.97,
-        "percentile_vs_20d": 85.0
+        "current_vxn": 26.0,
+        "percentile_vs_20d": 80.0
       }
     },
     "us10y": {
@@ -69,7 +69,7 @@
       "status": "yellow",
       "details": {
         "current_dxy": 101.98,
-        "change_5d_pct": -0.002
+        "change_5d_pct": -0.003
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.17,
+      "score": 43.69,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.017,
+        "avg_compound": -0.126,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Survey Finds 77% of US Family Caregivers Are at a Breaking Point",
+            "source": "Aeroflowurology.com",
+            "publishedAt": "2026-10-25T20:00:50Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Live: Wall Street retreats as oil prices continue to rise, ASX set to slip",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-10-25T19:59:06Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Retailers in France and Italy Tally the Cost of Lost Business After Second Round of Protests",
+            "source": "WWD",
+            "publishedAt": "2026-10-25T19:57:24Z",
+            "sentiment": "Negative",
+            "compound": -0.494
+          },
+          {
+            "title": "AI Spending Fears Threaten to Swamp Big Tech’s Strong Earnings - Bloomberg.com",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-10-25T19:53:18Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "Labor proposes Tasmanian election spending caps",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-10-25T19:52:08Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "BoC expected to raise benchmark rate for first time in three years as oil shock persists",
             "source": "Biztoc.com",
             "publishedAt": "2026-10-25T19:33:41Z",
             "sentiment": "Negative",
             "compound": -0.382
-          },
-          {
-            "title": "EXCLUSIVE: The thin blue line could get even thinner. Police chiefs warn force faces 'devastating' cuts without extra funding",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-10-25T19:27:12Z",
-            "sentiment": "Negative",
-            "compound": -0.688
-          },
-          {
-            "title": "SILVER CRASHES FROM $121 TO $54: an absolute massacre!",
-            "source": "Shtfplan.com",
-            "publishedAt": "2026-10-25T19:27:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Mike Johnson Doubles Down On ‘Extraordinary Record’ As Affordability Crisis Threatens GOP’s House Majority",
-            "source": "The Daily Caller",
-            "publishedAt": "2026-10-25T19:11:43Z",
-            "sentiment": "Negative",
-            "compound": -0.772
-          },
-          {
-            "title": "AI narrative needs to change for India: K Balasubramanian, CEO, Citibank India",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-25T19:10:24Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "AI narrative needs to change for India: K Balasubramanian, CEO, Citibank India",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-25T19:10:24Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.68,
-  "trade_probability": 54.01,
+  "confirmation_score": 56.64,
+  "trade_probability": 53.98,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
