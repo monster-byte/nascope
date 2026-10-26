@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T00:01:21.533047+00:00",
+  "generated_at": "2026-10-26T00:15:51.489305+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.33,
+      "score": 52.35,
       "status": "yellow",
       "details": {
         "current_dxy": 101.68,
-        "change_5d_pct": -0.291
+        "change_5d_pct": -0.293
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 44.5,
+      "score": 44.25,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.11,
-        "articles_analyzed": 25,
+        "avg_compound": -0.115,
+        "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Lagos assures entrepreneurs of support",
+            "source": "The Punch",
+            "publishedAt": "2026-10-25T00:07:40Z",
+            "sentiment": "Positive",
+            "compound": 0.612
+          },
+          {
+            "title": "Attack on Iran could happen soon: Trump",
+            "source": "Khabarhub.com",
+            "publishedAt": "2026-10-25T00:07:11Z",
+            "sentiment": "Negative",
+            "compound": -0.477
+          },
           {
             "title": "CBN defends 75% reserve requirement on public deposits",
             "source": "The Punch",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-24T23:54:28Z",
             "sentiment": "Positive",
             "compound": 0.202
-          },
-          {
-            "title": "Forget the FDA Delay: 3 Reasons Exelixis Is Still a Buy",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-24T23:54:06Z",
-            "sentiment": "Negative",
-            "compound": -0.494
-          },
-          {
-            "title": "Trump: France is burning down right now",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-24T23:54:04Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.24,
-  "trade_probability": 44.74,
+  "confirmation_score": 41.22,
+  "trade_probability": 44.73,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
