@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T15:01:45.326846+00:00",
+  "generated_at": "2026-10-27T15:15:56.113395+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.9143,
+          "change_pct": 1.1719,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.1923,
+          "change_pct": 0.1294,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.5404,
+          "change_pct": 0.4619,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.9902,
+          "change_pct": 0.874,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29559.46,
-        "sma50": 29805.06,
-        "sma200": 27873.82
+        "last_price": 29585.62,
+        "sma50": 29805.58,
+        "sma200": 27873.95
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 30.0,
       "status": "red",
       "details": {
-        "current_vxn": 25.27,
+        "current_vxn": 25.16,
         "percentile_vs_20d": 70.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 69.86,
+      "score": 71.11,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.99,
-        "change_5d_pct": -2.482
+        "current_yield_pct": 4.982,
+        "change_5d_pct": -2.638
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.2,
+      "score": 46.21,
       "status": "yellow",
       "details": {
         "current_dxy": 102.21,
-        "change_5d_pct": 0.475
+        "change_5d_pct": 0.474
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.67,
+      "score": 48.28,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.067,
+        "avg_compound": -0.034,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "China's AI Bubble Has Already Burst as Tech-Heavy STAR50 Index Crashes 40% and Wipes Out $480 Billion in Value",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-10-26T15:14:38Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
+          {
+            "title": "Freedom Holding Corp. Advances AI Infrastructure Development in Kazakhstan",
+            "source": "PR Newswire UK",
+            "publishedAt": "2026-10-26T15:11:00Z",
+            "sentiment": "Positive",
+            "compound": 0.637
+          },
+          {
+            "title": "Anthropic Files For IPO",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-10-26T15:07:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Anthropic files for IPO",
+            "source": "Nextbigwhat.com",
+            "publishedAt": "2026-10-26T15:02:09Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Anthropic unveils plans for largest stock market listing in history — including investments 'that may seem irresponsibly large at first glance' despite losses of over $80 billion this year",
             "source": "TechRadar",
@@ -103,34 +131,6 @@
             "title": "98% Of Nvidia Analysts Have “Buy” Rating",
             "source": "Biztoc.com",
             "publishedAt": "2026-10-26T15:01:09Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Crucial swing voters troubled by DSA, new poll shows: ‘Souring on socialism’",
-            "source": "New York Post",
-            "publishedAt": "2026-10-26T15:00:56Z",
-            "sentiment": "Negative",
-            "compound": -0.459
-          },
-          {
-            "title": "Will Donald Trump or AI blow up financial markets first?",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-10-26T15:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Economic pain collides with regulatory changes for small businesses",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-10-26T15:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.66
-          },
-          {
-            "title": "Americans Paying Hundreds More For Health Insurance They Haven’t Even Used",
-            "source": "The Daily Caller",
-            "publishedAt": "2026-10-26T14:56:53Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 63.74,
-  "trade_probability": 58.24,
+  "confirmation_score": 64.05,
+  "trade_probability": 58.43,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
