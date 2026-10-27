@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T19:01:29.872615+00:00",
+  "generated_at": "2026-10-27T19:15:52.792459+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.8197,
+          "change_pct": 1.0584,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.1486,
+          "change_pct": -0.1984,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.6236,
+          "change_pct": 0.5497,
           "up": true
         },
         "AMZN": {
-          "change_pct": 2.0405,
+          "change_pct": 1.9723,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29665.63,
-        "sma50": 29807.18,
-        "sma200": 27874.35
+        "last_price": 29674.16,
+        "sma50": 29807.35,
+        "sma200": 27874.39
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 35.0,
       "status": "red",
       "details": {
-        "current_vxn": 24.87,
+        "current_vxn": 24.93,
         "percentile_vs_20d": 65.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 69.07,
+      "score": 69.39,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.995,
-        "change_5d_pct": -2.384
+        "current_yield_pct": 4.993,
+        "change_5d_pct": -2.423
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.38,
+      "score": 45.46,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.32,
-        "change_5d_pct": 0.578
+        "current_dxy": 102.31,
+        "change_5d_pct": 0.567
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 58.03,
+      "score": 58.46,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.161,
+        "avg_compound": 0.169,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "AI boom and simmering oil prices boost global stocks, but Brazil election knocks some back",
+            "source": "The Irish Times",
+            "publishedAt": "2026-10-26T19:10:11Z",
+            "sentiment": "Positive",
+            "compound": 0.214
+          },
           {
             "title": "Thailand finalizes rules paving way for Bitcoin, Ether ETFs",
             "source": "Activistpost.com",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-10-26T18:48:37Z",
             "sentiment": "Positive",
             "compound": 0.202
-          },
-          {
-            "title": "Congress to hold November 1 Delhi rally despite traders’ concerns over business losses",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-26T18:45:54Z",
-            "sentiment": "Negative",
-            "compound": -0.402
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 58.28,
-  "trade_probability": 54.97,
+  "confirmation_score": 58.37,
+  "trade_probability": 55.02,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
