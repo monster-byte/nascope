@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T17:31:16.876347+00:00",
+  "generated_at": "2026-10-27T17:45:59.005229+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 100.0,
+      "score": 75.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.5635,
+          "change_pct": 0.6887,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.0411,
-          "up": true
+          "change_pct": -0.0284,
+          "up": false
         },
         "NVDA": {
-          "change_pct": 0.5774,
+          "change_pct": 0.7159,
           "up": true
         },
         "AMZN": {
-          "change_pct": 1.5314,
+          "change_pct": 1.6897,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29645.09,
-        "sma50": 29806.77,
-        "sma200": 27874.24
+        "last_price": 29651.74,
+        "sma50": 29806.9,
+        "sma200": 27874.28
       }
     },
     "vxn": {
@@ -50,7 +50,7 @@
       "score": 35.0,
       "status": "red",
       "details": {
-        "current_vxn": 24.75,
+        "current_vxn": 24.77,
         "percentile_vs_20d": 65.0
       }
     },
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.71,
+      "score": 45.81,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.28,
-        "change_5d_pct": 0.536
+        "current_dxy": 102.26,
+        "change_5d_pct": 0.524
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.06,
+      "score": 51.77,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.001,
+        "avg_compound": 0.035,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Trump heads to Mississippi as the two parties prepare for final sprint ahead of midterm Election Day",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-10-26T17:30:54Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "1997 AM General Hummer Four-Door Wagon",
-            "source": "Bringatrailer.com",
-            "publishedAt": "2026-10-26T17:30:14Z",
+            "title": "BNB Standard CEO outlines plans for a BNB Chain validator as firm heads to Nasdaq bell",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-26T17:44:02Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Anthropic president takes aim at OpenAI over Pentagon deal, questions rival’s motives",
-            "source": "New York Post",
-            "publishedAt": "2026-10-26T17:29:28Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Here's What $1,000 Spread Across These 4 Memory and Storage Stocks Could Be Worth by 2030",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-26T17:21:41Z",
+            "title": "Democrat Roy Cooper Backed Biden-Era Energy, Immigration Policies",
+            "source": "Breitbart News",
+            "publishedAt": "2026-10-26T17:42:33Z",
             "sentiment": "Positive",
-            "compound": 0.226
+            "compound": 0.296
           },
           {
-            "title": "CoreWeave rout sends warning sign to rest of stock market",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-26T17:21:23Z",
+            "title": "Pet Health Insurance: A Good Choice for Your Dog? Part I",
+            "source": "Substack.com",
+            "publishedAt": "2026-10-26T17:40:20Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
+          {
+            "title": "Anthropic files IPO paperwork as company jockeys for AI dominance amid losses",
+            "source": "TheBlaze",
+            "publishedAt": "2026-10-26T17:40:00Z",
             "sentiment": "Negative",
-            "compound": -0.34
+            "compound": -0.226
           },
           {
-            "title": "TIPS or Dividend Stocks? How Retirees Can Keep Up With Inflation",
+            "title": "Nasdaq 100 Rallies on Chip Rebound, Brazil ETF Sinks 21%",
             "source": "Biztoc.com",
-            "publishedAt": "2026-10-26T17:19:46Z",
+            "publishedAt": "2026-10-26T17:37:53Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "The arc of Trump: How the president lost the coalition that put him in the White House",
+            "source": "CNBC",
+            "publishedAt": "2026-10-26T17:36:55Z",
+            "sentiment": "Negative",
+            "compound": -0.318
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 64.45,
-  "trade_probability": 58.67,
+  "confirmation_score": 57.86,
+  "trade_probability": 54.72,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
