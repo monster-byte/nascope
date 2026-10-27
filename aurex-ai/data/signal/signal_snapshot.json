@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T19:45:51.014794+00:00",
+  "generated_at": "2026-10-27T20:01:24.338070+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 100.0,
+      "score": 75.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.9827,
+          "change_pct": 1.0263,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.043,
-          "up": true
+          "change_pct": -0.158,
+          "up": false
         },
         "NVDA": {
-          "change_pct": 0.8545,
+          "change_pct": 0.6397,
           "up": true
         },
         "AMZN": {
-          "change_pct": 1.7939,
+          "change_pct": 1.4833,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29717.76,
-        "sma50": 29808.22,
-        "sma200": 27874.61
+        "last_price": 29651.44,
+        "sma50": 29806.9,
+        "sma200": 27874.28
       }
     },
     "vxn": {
@@ -50,7 +50,7 @@
       "score": 35.0,
       "status": "red",
       "details": {
-        "current_vxn": 24.85,
+        "current_vxn": 24.93,
         "percentile_vs_20d": 65.0
       }
     },
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.61,
+      "score": 45.5,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.29,
-        "change_5d_pct": 0.549
+        "current_dxy": 102.3,
+        "change_5d_pct": 0.562
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.84,
+      "score": 56.39,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.117,
+        "avg_compound": 0.128,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Bitcoin’s $80K consolidation could end within days as macro events approach, ARP Digital says",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-26T19:35:53Z",
+            "title": "Iran War Pushes Trump's Average Gasoline Prices Above Biden's",
+            "source": "OilPrice.com",
+            "publishedAt": "2026-10-26T20:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.599
+          },
+          {
+            "title": "Cisco Expands Partner Opportunity with New Cisco 360 Program Updates, High Yield Customer Experience Offerings, and AI-Ready Innovations",
+            "source": "Cisco.com",
+            "publishedAt": "2026-10-26T20:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.494
+          },
+          {
+            "title": "Fed’s Debit Card Swipe Fee Rule Quashed By Appeals Court",
+            "source": "pymnts.com",
+            "publishedAt": "2026-10-26T19:56:49Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "This New Simulation of the Early Universe Is Massive, Detailed and Gorgeous",
-            "source": "CNET",
-            "publishedAt": "2026-10-26T19:34:51Z",
-            "sentiment": "Positive",
-            "compound": 0.612
-          },
-          {
-            "title": "DeFi Development Corp buys 5,346 Solana, lifting its treasury to about 2.595M SOL",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-26T19:30:50Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "Fox News reporter accused of looking shellshocked after young man blasted Trump's economy at Florida rally",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-10-26T19:29:33Z",
-            "sentiment": "Negative",
-            "compound": -0.296
-          },
-          {
-            "title": "Anthropic's soaring sales, steep losses put AI frenzy to IPO test",
-            "source": "iTnews",
-            "publishedAt": "2026-10-26T19:26:31Z",
-            "sentiment": "Negative",
-            "compound": -0.612
-          },
-          {
-            "title": "Federal Reserve is likely to hold interest rates steady in October. Here's what that means for consumers",
+            "title": "Why Is FuelCell Energy Stock Surging on Monday?",
             "source": "Biztoc.com",
-            "publishedAt": "2026-10-26T19:26:27Z",
+            "publishedAt": "2026-10-26T19:55:06Z",
             "sentiment": "Positive",
-            "compound": 0.459
+            "compound": 0.273
+          },
+          {
+            "title": "CZ pitches BNB Chain’s role in AI as BNB Standard rings Nasdaq bell",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-26T19:54:24Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "New Analysis Finds Signs the AI Bubble Is About to Blow",
+            "source": "Futurism",
+            "publishedAt": "2026-10-26T19:51:03Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 64.9,
-  "trade_probability": 58.94,
+  "confirmation_score": 58.19,
+  "trade_probability": 54.91,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
