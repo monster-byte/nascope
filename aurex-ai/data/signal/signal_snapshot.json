@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T08:01:24.261280+00:00",
+  "generated_at": "2026-10-27T08:15:53.709885+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.96,
+      "score": 46.55,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.12,
-        "change_5d_pct": 0.38
+        "current_dxy": 102.17,
+        "change_5d_pct": 0.432
       }
     },
     "macro": {
@@ -85,19 +85,40 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.79,
+      "score": 52.79,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.016,
+        "avg_compound": 0.056,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Cognizant and EBRD Partner to Accelerate Digital Transformation Through AI-Led, Outcome-Driven Services",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-26T08:00:00Z",
+            "title": "Elon Musk and SpaceX Just Delivered Incredible News to Nvidia That Could Help the Stock Double in the Next Year",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-26T08:06:15Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "UK Stock Market Today: FTSE 100 Futures Dip As Firm PMIs Meet Rate Worries",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-26T08:05:37Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
+          {
+            "title": "BNP Paribas AM builds long-end JGB bet on steep yield curve",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-26T08:04:51Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "Elbit Systems Awarded Approximately $200 Million in Contracts for Airborne ISTAR and Training Solutions in Asia-Pacific",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-26T08:03:00Z",
+            "sentiment": "Positive",
+            "compound": 0.527
           },
           {
             "title": "The Bank of Canada's inflation dilemma",
@@ -107,32 +128,11 @@
             "compound": -0.178
           },
           {
-            "title": "Docusign Intelligent Agreement Management to Be Sold as SAP Solution Extensions",
-            "source": "PRNewswire",
-            "publishedAt": "2026-10-26T08:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.818
-          },
-          {
-            "title": "A new cancer drug costs as much as a home down payment each month. Doctors say that's greed, not health care",
-            "source": "CBC News",
-            "publishedAt": "2026-10-26T08:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.867
-          },
-          {
             "title": "Cognizant and EBRD Partner to Accelerate Digital Transformation Through AI-Led, Outcome-Driven Services",
-            "source": "PR Newswire UK",
+            "source": "PRNewswire",
             "publishedAt": "2026-10-26T08:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Montreal wants rent control, mandatory registry. What would that look like?",
-            "source": "CBC News",
-            "publishedAt": "2026-10-26T08:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.421
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 50.25,
-  "trade_probability": 50.15,
+  "confirmation_score": 50.39,
+  "trade_probability": 50.23,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
