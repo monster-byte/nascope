@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T15:15:56.113395+00:00",
+  "generated_at": "2026-10-27T15:31:13.397315+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.1719,
+          "change_pct": 1.0991,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.1294,
+          "change_pct": 0.0524,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.4619,
+          "change_pct": 0.5381,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.874,
+          "change_pct": 0.906,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29585.62,
-        "sma50": 29805.58,
-        "sma200": 27873.95
+        "last_price": 29594.48,
+        "sma50": 29805.76,
+        "sma200": 27873.99
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 30.0,
       "status": "red",
       "details": {
-        "current_vxn": 25.16,
+        "current_vxn": 25.14,
         "percentile_vs_20d": 70.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 71.11,
+      "score": 71.42,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.982,
-        "change_5d_pct": -2.638
+        "current_yield_pct": 4.98,
+        "change_5d_pct": -2.677
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.21,
+      "score": 45.97,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.21,
-        "change_5d_pct": 0.474
+        "current_dxy": 102.24,
+        "change_5d_pct": 0.504
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.28,
+      "score": 53.83,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.034,
-        "articles_analyzed": 24,
+        "avg_compound": 0.077,
+        "articles_analyzed": 22,
         "top_headlines": [
           {
-            "title": "China's AI Bubble Has Already Burst as Tech-Heavy STAR50 Index Crashes 40% and Wipes Out $480 Billion in Value",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-10-26T15:14:38Z",
-            "sentiment": "Positive",
-            "compound": 0.34
+            "title": "Your Google Ads Account Is Hitting Its Targets, So Why Isn’t The Business Growing?",
+            "source": "Search Engine Journal",
+            "publishedAt": "2026-10-26T15:30:04Z",
+            "sentiment": "Neutral",
+            "compound": 0.178
           },
           {
-            "title": "Freedom Holding Corp. Advances AI Infrastructure Development in Kazakhstan",
-            "source": "PR Newswire UK",
-            "publishedAt": "2026-10-26T15:11:00Z",
+            "title": "Anthropic files for IPO, setting the stage for a wave of new wealth in SF",
+            "source": "Sfstandard.com",
+            "publishedAt": "2026-10-26T15:29:49Z",
             "sentiment": "Positive",
-            "compound": 0.637
+            "compound": 0.494
           },
           {
-            "title": "Anthropic Files For IPO",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-10-26T15:07:00Z",
+            "title": "AI earnings, a pivotal Fed decision, the midterms: Stocks are kicking off a crucial 2-week stretch",
+            "source": "Business Insider",
+            "publishedAt": "2026-10-26T15:28:49Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Anthropic files for IPO",
-            "source": "Nextbigwhat.com",
-            "publishedAt": "2026-10-26T15:02:09Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Anthropic unveils plans for largest stock market listing in history — including investments 'that may seem irresponsibly large at first glance' despite losses of over $80 billion this year",
-            "source": "TechRadar",
-            "publishedAt": "2026-10-26T15:01:40Z",
+            "title": "Top Business & Market Headlines Today — BL Morning Report, October 27, 2026",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-26T15:28:32Z",
             "sentiment": "Positive",
-            "compound": 0.309
+            "compound": 0.703
           },
           {
-            "title": "98% Of Nvidia Analysts Have “Buy” Rating",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-26T15:01:09Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Editorial. Unwanted push",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-26T15:24:48Z",
+            "sentiment": "Negative",
+            "compound": -0.226
+          },
+          {
+            "title": "Evernorth secures $80M equity facility to expand XRP treasury",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-26T15:24:32Z",
+            "sentiment": "Positive",
+            "compound": 0.66
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 64.05,
-  "trade_probability": 58.43,
+  "confirmation_score": 64.57,
+  "trade_probability": 58.74,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
