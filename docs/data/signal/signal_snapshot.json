@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T07:45:52.798609+00:00",
+  "generated_at": "2026-10-27T08:01:24.261280+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
-      "status": "green",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -1.0443,
-          "up": false
+          "change_pct": 0.1211,
+          "up": true
         },
         "MSFT": {
-          "change_pct": 1.4933,
+          "change_pct": 0.058,
           "up": true
         },
         "NVDA": {
-          "change_pct": 2.3002,
-          "up": true
+          "change_pct": -0.2448,
+          "up": false
         },
         "AMZN": {
-          "change_pct": 0.0924,
-          "up": true
+          "change_pct": -0.1764,
+          "up": false
         }
       }
     },
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.77,
+      "score": 46.96,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.14,
-        "change_5d_pct": 0.404
+        "current_dxy": 102.12,
+        "change_5d_pct": 0.38
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.04,
+      "score": 50.79,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.019,
-        "articles_analyzed": 24,
+        "avg_compound": 0.016,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Minesto and Morteza Capital join forces to commercialize tidal energy in the Maldives",
+            "title": "Cognizant and EBRD Partner to Accelerate Digital Transformation Through AI-Led, Outcome-Driven Services",
             "source": "PRNewswire",
-            "publishedAt": "2026-10-26T07:27:00Z",
-            "sentiment": "Positive",
-            "compound": 0.511
+            "publishedAt": "2026-10-26T08:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Minesto and Morteza Capital join forces to commercialize tidal energy in the Maldives",
+            "title": "The Bank of Canada's inflation dilemma",
+            "source": "CBC News",
+            "publishedAt": "2026-10-26T08:00:00Z",
+            "sentiment": "Neutral",
+            "compound": -0.178
+          },
+          {
+            "title": "Docusign Intelligent Agreement Management to Be Sold as SAP Solution Extensions",
+            "source": "PRNewswire",
+            "publishedAt": "2026-10-26T08:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.818
+          },
+          {
+            "title": "A new cancer drug costs as much as a home down payment each month. Doctors say that's greed, not health care",
+            "source": "CBC News",
+            "publishedAt": "2026-10-26T08:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.867
+          },
+          {
+            "title": "Cognizant and EBRD Partner to Accelerate Digital Transformation Through AI-Led, Outcome-Driven Services",
             "source": "PR Newswire UK",
-            "publishedAt": "2026-10-26T07:27:00Z",
+            "publishedAt": "2026-10-26T08:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Montreal wants rent control, mandatory registry. What would that look like?",
+            "source": "CBC News",
+            "publishedAt": "2026-10-26T08:00:00Z",
             "sentiment": "Positive",
-            "compound": 0.511
-          },
-          {
-            "title": "FCNR(B) scheme has bought India 3-5 years, but $170 billion repayment cliff looms: Uday Kotak",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-26T07:19:21Z",
-            "sentiment": "Negative",
-            "compound": -0.226
-          },
-          {
-            "title": "FCNR(B) scheme has bought India 3-5 years, but $170 billion repayment cliff looms: Uday Kotak",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-26T07:19:21Z",
-            "sentiment": "Negative",
-            "compound": -0.226
-          },
-          {
-            "title": "The three scandals, the Maximos Mansion’s perspective and Chrysochoidis, Dora’s predictions on elections and Chania, the sale of ACS, the TERNA energy deal, and EOS’s funds",
-            "source": "Protothema.gr",
-            "publishedAt": "2026-10-26T07:17:17Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "Global Market: China stocks slip as tech shares fall ahead of central bank meetings",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-26T07:09:52Z",
-            "sentiment": "Positive",
-            "compound": 0.296
+            "compound": 0.421
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.83,
-  "trade_probability": 54.1,
+  "confirmation_score": 50.25,
+  "trade_probability": 50.15,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
