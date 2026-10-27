@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T13:31:10.290732+00:00",
+  "generated_at": "2026-10-27T13:45:55.412812+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.0003,
+          "change_pct": 0.0236,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.1328,
+          "change_pct": -0.2838,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.7344,
+          "change_pct": 0.5635,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.3403,
+          "change_pct": 0.6053,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29402.04,
-        "sma50": 29801.91,
-        "sma200": 27873.03
+        "last_price": 29503.69,
+        "sma50": 29803.94,
+        "sma200": 27873.54
       }
     },
     "vxn": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.32,
+      "score": 46.0,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.2,
-        "change_5d_pct": 0.46
+        "current_dxy": 102.24,
+        "change_5d_pct": 0.5
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.43,
+      "score": 54.69,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.049,
-        "articles_analyzed": 25,
+        "avg_compound": 0.094,
+        "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Bank of Marin Bancorp Reports Third Quarter Financial Results Driven by Loan Growth, NIM Expansion and Higher Earnings",
+            "title": "Anthropic’s IPO filing lays out a plan to ‘revolutionize every area of human endeavor’ with AI",
             "source": "Biztoc.com",
-            "publishedAt": "2026-10-26T13:30:23Z",
+            "publishedAt": "2026-10-26T13:43:44Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "First ₹1 crore is always earned through active income & skills: Anant Ladha",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-26T13:43:39Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "Anthropic unveils details of planned historic stock market debut",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-26T13:43:29Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "US stocks today: US stocks open higher as Anthropic's IPO filing sharpens AI focus",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-26T13:41:32Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Anthropic opens books on AI's explosive growth and staggering costs",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-26T13:39:26Z",
             "sentiment": "Positive",
             "compound": 0.382
           },
           {
-            "title": "From filing to first trade: How the US IPO process works",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-26T13:30:23Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Just 7% of the Uranium Delivered to U.S. Reactors Last Year Was U.S.-Origin. The Reactor Pipeline Is Still Moving.",
+            "title": "YYForce Applauds Tesla and Elon Musk on Commencing Manufacturing of Optimus Humanoid Robots",
             "source": "Financial Post",
-            "publishedAt": "2026-10-26T13:30:13Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Accredited official statistics: Consumer price inflation, UK: September 2028",
-            "source": "Www.gov.uk",
-            "publishedAt": "2026-10-26T13:30:07Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Anthropic Unveils Its IPO Filing",
-            "source": "HuffPost",
-            "publishedAt": "2026-10-26T13:29:53Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Breaking down Anthropic’s 335-page S-1",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-26T13:27:57Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "publishedAt": "2026-10-26T13:39:09Z",
+            "sentiment": "Positive",
+            "compound": 0.34
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.62,
-  "trade_probability": 53.97,
+  "confirmation_score": 56.79,
+  "trade_probability": 54.07,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
