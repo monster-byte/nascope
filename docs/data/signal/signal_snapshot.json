@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T20:46:32.513351+00:00",
+  "generated_at": "2026-10-27T21:01:20.223699+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.0234,
+          "change_pct": 1.0263,
           "up": true
         },
         "MSFT": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.0,
+      "score": 44.79,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.37,
-        "change_5d_pct": 0.625
+        "current_dxy": 102.39,
+        "change_5d_pct": 0.651
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.45,
+      "score": 48.62,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.009,
+        "avg_compound": -0.028,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "News of the day: Investors gush over oilpatch, rate hike likely, early inflation warnings, ‘trophy’ office tower, Ovintiv buys Logan and more",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-26T21:00:39Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "A Gustav Klimt Painting Could Fetch $80 Million at Auction",
+            "source": "Robb Report",
+            "publishedAt": "2026-10-26T21:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Are Your Customers Burned Out on Automated Customer Service?",
+            "source": "CMSWire",
+            "publishedAt": "2026-10-26T20:53:35Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Show HN: Play ten years of stock picking in an evening, on a simulated market",
+            "source": "Stockpickersgame.com",
+            "publishedAt": "2026-10-26T20:51:50Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
           {
             "title": "China’s AI stock bubble has burst, Reuters reports, as $480 billion vanishes",
             "source": "Crypto Briefing",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-26T20:43:15Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Nasdaq Appoints Börje Ekholm to its Board of Directors; Holden Spaht to Step Down from Board at Year-End",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-26T20:42:57Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Cadence Design Systems Tops Q3 Expectations, Lifts 2026 Outlook",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-26T20:40:52Z",
-            "sentiment": "Positive",
-            "compound": 0.511
-          },
-          {
-            "title": "Wall Street closes higher on Anthropic IPO rally",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-26T20:40:08Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "JD Vance Complains That Gas Prices ‘Skyrocket’ Every Time a ‘Tin Pot Dictator Decides to Throw a Tantrum’ and Go to War",
-            "source": "Mediaite",
-            "publishedAt": "2026-10-26T20:36:24Z",
-            "sentiment": "Negative",
-            "compound": -0.758
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.16,
-  "trade_probability": 54.3,
+  "confirmation_score": 56.97,
+  "trade_probability": 54.18,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
