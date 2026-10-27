@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T13:15:57.156412+00:00",
+  "generated_at": "2026-10-27T13:31:10.290732+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.1211,
+          "change_pct": 0.0003,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.058,
-          "up": true
+          "change_pct": -0.1328,
+          "up": false
         },
         "NVDA": {
-          "change_pct": -0.2448,
-          "up": false
+          "change_pct": 0.7344,
+          "up": true
         },
         "AMZN": {
-          "change_pct": -0.1764,
-          "up": false
+          "change_pct": 0.3403,
+          "up": true
         }
       }
     },
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29273.4,
-        "sma50": 29813.77,
-        "sma200": 27854.85
+        "last_price": 29402.04,
+        "sma50": 29801.91,
+        "sma200": 27873.03
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 70.17,
+      "score": 69.86,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.988,
-        "change_5d_pct": -2.521
+        "current_yield_pct": 4.99,
+        "change_5d_pct": -2.482
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.38,
+      "score": 46.32,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.19,
-        "change_5d_pct": 0.452
+        "current_dxy": 102.2,
+        "change_5d_pct": 0.46
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.6,
+      "score": 52.43,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.072,
-        "articles_analyzed": 24,
+        "avg_compound": 0.049,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Trump failed to stop inflation. Now Republicans may pay the price in the midterm elections - AP News",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-10-26T13:12:45Z",
-            "sentiment": "Negative",
-            "compound": -0.71
-          },
-          {
-            "title": "HOOD’s prediction markets to add $1.7B to revenue, exceed crypto by 2028: Bernstein",
-            "source": "Cointelegraph",
-            "publishedAt": "2026-10-26T13:12:41Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Anthropic releases IPO filing ahead of highly-anticipated stock debut",
-            "source": "NBC News",
-            "publishedAt": "2026-10-26T13:12:04Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Anthropic's IPO paperwork reveals the stunning finances behind its meteoric rise",
-            "source": "Business Insider",
-            "publishedAt": "2026-10-26T13:11:29Z",
+            "title": "Bank of Marin Bancorp Reports Third Quarter Financial Results Driven by Loan Growth, NIM Expansion and Higher Earnings",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-26T13:30:23Z",
             "sentiment": "Positive",
             "compound": 0.382
           },
           {
-            "title": "Learn AI From Anywhere, Start Free: Ali Mehdi Hemani's DIT Has Trained 100,000+ People to Build With AI, No Coding Needed",
-            "source": "Businessnewsthisweek.com",
-            "publishedAt": "2026-10-26T13:10:54Z",
-            "sentiment": "Positive",
-            "compound": 0.273
+            "title": "From filing to first trade: How the US IPO process works",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-26T13:30:23Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "UK consultant doctors plan two-day strike over pay, working conditions",
-            "source": "The Punch",
-            "publishedAt": "2026-10-26T13:10:47Z",
-            "sentiment": "Negative",
-            "compound": -0.226
+            "title": "Just 7% of the Uranium Delivered to U.S. Reactors Last Year Was U.S.-Origin. The Reactor Pipeline Is Still Moving.",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-26T13:30:13Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Accredited official statistics: Consumer price inflation, UK: September 2028",
+            "source": "Www.gov.uk",
+            "publishedAt": "2026-10-26T13:30:07Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Anthropic Unveils Its IPO Filing",
+            "source": "HuffPost",
+            "publishedAt": "2026-10-26T13:29:53Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Breaking down Anthropic’s 335-page S-1",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-26T13:27:57Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 50.02,
-  "trade_probability": 50.01,
+  "confirmation_score": 56.62,
+  "trade_probability": 53.97,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
