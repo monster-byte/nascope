@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T14:31:14.863051+00:00",
+  "generated_at": "2026-10-27T14:45:53.410133+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
+      "score": 100.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.4849,
+          "change_pct": 0.7172,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.2312,
-          "up": false
+          "change_pct": 0.1186,
+          "up": true
         },
         "NVDA": {
-          "change_pct": 0.4273,
+          "change_pct": 0.1963,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.5197,
+          "change_pct": 0.6203,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29477.23,
-        "sma50": 29803.41,
-        "sma200": 27873.4
+        "last_price": 29485.54,
+        "sma50": 29803.58,
+        "sma200": 27873.45
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 25.0,
+      "score": 30.0,
       "status": "red",
       "details": {
-        "current_vxn": 25.78,
-        "percentile_vs_20d": 75.0
+        "current_vxn": 25.54,
+        "percentile_vs_20d": 70.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 68.14,
+      "score": 69.07,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.001,
-        "change_5d_pct": -2.267
+        "current_yield_pct": 4.995,
+        "change_5d_pct": -2.384
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.31,
+      "score": 46.41,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.2,
-        "change_5d_pct": 0.461
+        "current_dxy": 102.19,
+        "change_5d_pct": 0.449
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.01,
+      "score": 45.4,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.02,
+        "avg_compound": -0.092,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Anthropic targets Nasdaq listing under ANT ticker in potential record IPO",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-26T14:31:10Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "New Inflation Warning Echoes the 1960s — Years of Higher Prices Could Become the New Reality",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-26T14:30:11Z",
+            "title": "Anthropic Files IPO Showing $16.3 Billion Six-Month Revenue and $80.7 Billion Net Loss",
+            "source": "pymnts.com",
+            "publishedAt": "2026-10-26T14:44:03Z",
             "sentiment": "Negative",
-            "compound": -0.34
+            "compound": -0.318
           },
           {
-            "title": "Fix It, Don’t Nix It",
-            "source": "Richmondmagazine.com",
-            "publishedAt": "2026-10-26T14:30:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Anthropic files for IPO: Losses, dividends & risks to humanity; what investors should know",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-26T14:43:52Z",
+            "sentiment": "Negative",
+            "compound": -0.586
           },
           {
-            "title": "AI giant Anthropic publicly files for listing on the U.S. stock market",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-10-26T14:28:39Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Anthropic Lost $81 Billion in H1, Files for IPO",
+            "source": "Thurrott.com",
+            "publishedAt": "2026-10-26T14:42:37Z",
+            "sentiment": "Negative",
+            "compound": -0.318
           },
           {
-            "title": "Surgery Partners Stock Soars 46% as Bon Secours Affiliate Agrees to $5.7 Billion Deal to Take Company Private",
+            "title": "Anthropic IPO Filing Warns of Uninsurable Catastrophic AI Incident as Founders Keep Tight Grip on Claude Maker",
             "source": "Ibtimes.com.au",
-            "publishedAt": "2026-10-26T14:28:16Z",
+            "publishedAt": "2026-10-26T14:40:18Z",
+            "sentiment": "Negative",
+            "compound": -0.557
+          },
+          {
+            "title": "Police Scotland could cut officer numbers to lowest level in 20 years",
+            "source": "BBC News",
+            "publishedAt": "2026-10-26T14:38:19Z",
+            "sentiment": "Negative",
+            "compound": -0.572
+          },
+          {
+            "title": "5 Interesting Learnings from Anthropic’s S-1 at $16.3 Billion in Half-Year Revenue: 900% NRR, $6.6M in Revenue Per Employee, and a 10% Adjusted Operating Margin",
+            "source": "Saastr.com",
+            "publishedAt": "2026-10-26T14:37:47Z",
             "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "Apple Stock Slips From Record High as Analyst Caution Offsets Sold-Out iPhone Duo Ahead of November Earnings",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-10-26T14:24:43Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": 0.402
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.53,
-  "trade_probability": 53.92,
+  "confirmation_score": 63.54,
+  "trade_probability": 58.12,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
