@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T03:01:29.291324+00:00",
+  "generated_at": "2026-10-27T03:15:50.505052+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.4,
+      "score": 49.51,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.06,
-        "change_5d_pct": 0.076
+        "current_dxy": 102.04,
+        "change_5d_pct": 0.062
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.37,
+      "score": 50.98,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.047,
+        "avg_compound": 0.02,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Elon Musk confirms $40 billion SpaceX debt deal for AI chips, warns of neocloud shakeout",
+            "source": "CoinDesk",
+            "publishedAt": "2026-10-26T03:11:39Z",
+            "sentiment": "Negative",
+            "compound": -0.637
+          },
+          {
+            "title": "Sensex, Nifty set for muted open as oil concerns persist, Fed in focus",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-26T03:02:12Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
           {
             "title": "Week 7 Vikings Stock Market Report",
             "source": "Daily Norseman",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-26T02:48:43Z",
             "sentiment": "Positive",
             "compound": 0.746
-          },
-          {
-            "title": "Jio IPO allotment likely today: GMP signals 22% listing gains — Here’s how to check status",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-26T02:48:36Z",
-            "sentiment": "Positive",
-            "compound": 0.34
-          },
-          {
-            "title": "Netflix Just Posted a Record Margin. So Why Is Wall Street Panicking?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-26T02:44:53Z",
-            "sentiment": "Negative",
-            "compound": -0.44
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.36,
-  "trade_probability": 54.42,
+  "confirmation_score": 57.25,
+  "trade_probability": 54.35,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
