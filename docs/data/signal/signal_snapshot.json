@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T15:31:13.397315+00:00",
+  "generated_at": "2026-10-27T15:45:57.972757+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.0991,
+          "change_pct": 1.134,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.0524,
+          "change_pct": 0.3472,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.5381,
+          "change_pct": 0.9561,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.906,
+          "change_pct": 1.1225,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29594.48,
-        "sma50": 29805.76,
-        "sma200": 27873.99
+        "last_price": 29657.74,
+        "sma50": 29807.02,
+        "sma200": 27874.31
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 30.0,
       "status": "red",
       "details": {
-        "current_vxn": 25.14,
+        "current_vxn": 25.15,
         "percentile_vs_20d": 70.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 71.42,
+      "score": 69.86,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.98,
-        "change_5d_pct": -2.677
+        "current_yield_pct": 4.99,
+        "change_5d_pct": -2.482
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.97,
+      "score": 46.01,
       "status": "yellow",
       "details": {
         "current_dxy": 102.24,
-        "change_5d_pct": 0.504
+        "change_5d_pct": 0.498
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.83,
+      "score": 58.64,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.077,
-        "articles_analyzed": 22,
+        "avg_compound": 0.173,
+        "articles_analyzed": 23,
         "top_headlines": [
           {
-            "title": "Your Google Ads Account Is Hitting Its Targets, So Why Isn’t The Business Growing?",
-            "source": "Search Engine Journal",
-            "publishedAt": "2026-10-26T15:30:04Z",
-            "sentiment": "Neutral",
-            "compound": 0.178
-          },
-          {
-            "title": "Anthropic files for IPO, setting the stage for a wave of new wealth in SF",
-            "source": "Sfstandard.com",
-            "publishedAt": "2026-10-26T15:29:49Z",
+            "title": "Metaplanet’s US subsidiary reportedly adds 4 Bitcoin ahead of Super League deal",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-26T15:44:49Z",
             "sentiment": "Positive",
-            "compound": 0.494
+            "compound": 0.599
           },
           {
-            "title": "AI earnings, a pivotal Fed decision, the midterms: Stocks are kicking off a crucial 2-week stretch",
-            "source": "Business Insider",
-            "publishedAt": "2026-10-26T15:28:49Z",
+            "title": "Kimi Antonelli Triumphs at the United States Grand Prix",
+            "source": "Us Weekly",
+            "publishedAt": "2026-10-26T15:42:58Z",
+            "sentiment": "Positive",
+            "compound": 0.832
+          },
+          {
+            "title": "Dedicated Smartbird AI Clusters Integrate WEKA NeuralMesh for Managed Enterprise AI",
+            "source": "Storagereview.com",
+            "publishedAt": "2026-10-26T15:35:30Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "Many Americans Haven't Run Retirement Numbers",
+            "source": "Newser",
+            "publishedAt": "2026-10-26T15:35:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Top Business & Market Headlines Today — BL Morning Report, October 27, 2026",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-26T15:28:32Z",
+            "title": "Virginia Orders AI Cybersecurity Plan as States Fill Federal Safety Gaps",
+            "source": "pymnts.com",
+            "publishedAt": "2026-10-26T15:34:07Z",
             "sentiment": "Positive",
-            "compound": 0.703
+            "compound": 0.421
           },
           {
-            "title": "Editorial. Unwanted push",
+            "title": "High crude prices, rise in lending rates take toll on small-cap stocks",
             "source": "BusinessLine",
-            "publishedAt": "2026-10-26T15:24:48Z",
+            "publishedAt": "2026-10-26T15:33:54Z",
             "sentiment": "Negative",
-            "compound": -0.226
-          },
-          {
-            "title": "Evernorth secures $80M equity facility to expand XRP treasury",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-26T15:24:32Z",
-            "sentiment": "Positive",
-            "compound": 0.66
+            "compound": -0.572
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 64.57,
-  "trade_probability": 58.74,
+  "confirmation_score": 64.8,
+  "trade_probability": 58.88,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
