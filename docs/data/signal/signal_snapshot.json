@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T18:15:55.259310+00:00",
+  "generated_at": "2026-10-27T18:31:05.746598+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.5752,
+          "change_pct": 0.5606,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.22,
+          "change_pct": -0.3131,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.5681,
+          "change_pct": 0.5188,
           "up": true
         },
         "AMZN": {
-          "change_pct": 1.824,
+          "change_pct": 1.816,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29630.35,
-        "sma50": 29806.47,
-        "sma200": 27874.17
+        "last_price": 29621.03,
+        "sma50": 29806.29,
+        "sma200": 27874.12
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 35.0,
+      "score": 30.0,
       "status": "red",
       "details": {
-        "current_vxn": 24.78,
-        "percentile_vs_20d": 65.0
+        "current_vxn": 24.82,
+        "percentile_vs_20d": 70.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 69.07,
+      "score": 70.17,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.995,
-        "change_5d_pct": -2.384
+        "current_yield_pct": 4.988,
+        "change_5d_pct": -2.521
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.38,
+      "score": 45.31,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.32,
-        "change_5d_pct": 0.577
+        "current_dxy": 102.33,
+        "change_5d_pct": 0.587
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.93,
+      "score": 54.25,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.079,
+        "avg_compound": 0.085,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Mary Barra Pushes GM into A.I. and Autonomous Driving",
+            "source": "Observer",
+            "publishedAt": "2026-10-26T18:29:31Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Anthropic IPO poised to deliver Menlo Ventures’ largest-ever return",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-26T18:26:46Z",
+            "sentiment": "Positive",
+            "compound": 0.25
+          },
+          {
+            "title": "5 Myths And Misunderstandings About Investing In The Stock Market - State Street SPDR S&P 500 ETF Trust…",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-26T18:23:35Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "AI company Anthropic files its IPO in hopes of raising $100 billion",
+            "source": "DW (English)",
+            "publishedAt": "2026-10-26T18:22:00Z",
+            "sentiment": "Positive",
+            "compound": 0.421
+          },
           {
             "title": "Stock Market Today: Stocks Surge to Begin Busy Week of Tech Earnings, Fed Rate Decision; AI Stocks Gain on Enthusiam for Anthropic IPO - Investopedia",
             "source": "Slashdot.org",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-26T18:10:20Z",
             "sentiment": "Positive",
             "compound": 0.34
-          },
-          {
-            "title": "Anthropic’s S-1 Takeaways: From Giant Compute Commitments to Complex Lock-Ups",
-            "source": "The Information",
-            "publishedAt": "2026-10-26T18:10:04Z",
-            "sentiment": "Neutral",
-            "compound": 0.128
-          },
-          {
-            "title": "Update: US Equity Indexes Rise as Anthropic's Nasdaq IPO Filing Boosts AI Trade Sentiment",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-26T18:09:20Z",
-            "sentiment": "Positive",
-            "compound": 0.318
-          },
-          {
-            "title": "Big Oil Wins Big In BC Election",
-            "source": "CleanTechnica",
-            "publishedAt": "2026-10-26T18:07:28Z",
-            "sentiment": "Positive",
-            "compound": 0.572
-          },
-          {
-            "title": "This pipeline on early warning inflation pressures is 'lit up,' warns Scotiabank economist",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-26T18:06:50Z",
-            "sentiment": "Negative",
-            "compound": -0.625
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.91,
-  "trade_probability": 54.75,
+  "confirmation_score": 57.63,
+  "trade_probability": 54.58,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
