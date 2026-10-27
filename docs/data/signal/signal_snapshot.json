@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T18:31:05.746598+00:00",
+  "generated_at": "2026-10-27T18:45:51.323722+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.5606,
+          "change_pct": 0.68,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.3131,
+          "change_pct": -0.2679,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.5188,
+          "change_pct": 0.5125,
           "up": true
         },
         "AMZN": {
-          "change_pct": 1.816,
+          "change_pct": 1.9443,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29621.03,
-        "sma50": 29806.29,
-        "sma200": 27874.12
+        "last_price": 29632.0,
+        "sma50": 29806.51,
+        "sma200": 27874.18
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 30.0,
+      "score": 35.0,
       "status": "red",
       "details": {
-        "current_vxn": 24.82,
-        "percentile_vs_20d": 70.0
+        "current_vxn": 24.86,
+        "percentile_vs_20d": 65.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 70.17,
+      "score": 69.39,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.988,
-        "change_5d_pct": -2.521
+        "current_yield_pct": 4.993,
+        "change_5d_pct": -2.423
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.31,
+      "score": 45.49,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.33,
-        "change_5d_pct": 0.587
+        "current_dxy": 102.3,
+        "change_5d_pct": 0.563
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.25,
+      "score": 55.74,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.085,
+        "avg_compound": 0.115,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Mary Barra Pushes GM into A.I. and Autonomous Driving",
-            "source": "Observer",
-            "publishedAt": "2026-10-26T18:29:31Z",
+            "title": "Tata Motors' Iveco takeover bid clears 80 pc acceptance threshold",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-26T18:45:34Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
+          {
+            "title": "AI company Anthropic announces IPO, expected as early as November",
+            "source": "Cointelegraph",
+            "publishedAt": "2026-10-26T18:42:41Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Anthropic IPO poised to deliver Menlo Ventures’ largest-ever return",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-26T18:26:46Z",
-            "sentiment": "Positive",
-            "compound": 0.25
-          },
-          {
-            "title": "5 Myths And Misunderstandings About Investing In The Stock Market - State Street SPDR S&P 500 ETF Trust…",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-26T18:23:35Z",
+            "title": "Businesses Warn Another Round Of Price Increases Could Be Coming",
+            "source": "The Daily Caller",
+            "publishedAt": "2026-10-26T18:41:34Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": -0.103
           },
           {
-            "title": "AI company Anthropic files its IPO in hopes of raising $100 billion",
-            "source": "DW (English)",
-            "publishedAt": "2026-10-26T18:22:00Z",
+            "title": "Anthropic's IPO revives jitters about the market's ability to absorb a deluge of AI stock",
+            "source": "Business Insider",
+            "publishedAt": "2026-10-26T18:40:04Z",
             "sentiment": "Positive",
-            "compound": 0.421
+            "compound": 0.599
           },
           {
-            "title": "Stock Market Today: Stocks Surge to Begin Busy Week of Tech Earnings, Fed Rate Decision; AI Stocks Gain on Enthusiam for Anthropic IPO - Investopedia",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-10-26T18:12:52Z",
-            "sentiment": "Positive",
-            "compound": 0.527
-          },
-          {
-            "title": "How Recommerce Is Redefining Value for Mainstream Shoppers",
-            "source": "WWD",
-            "publishedAt": "2026-10-26T18:10:20Z",
+            "title": "Anthropic halts AI training for over a month over security concerns as models breach testing systems ahead of IPO",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-26T18:38:35Z",
             "sentiment": "Positive",
             "compound": 0.34
+          },
+          {
+            "title": "Loblaw October Food Inflation Report",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-26T18:36:07Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.63,
-  "trade_probability": 54.58,
+  "confirmation_score": 58.13,
+  "trade_probability": 54.88,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
