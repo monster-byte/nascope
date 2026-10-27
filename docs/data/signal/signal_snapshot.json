@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T16:45:55.719849+00:00",
+  "generated_at": "2026-10-27T17:01:27.229177+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 100.0,
+      "score": 75.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.7484,
+          "change_pct": 0.7847,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.0186,
-          "up": true
+          "change_pct": -0.1833,
+          "up": false
         },
         "NVDA": {
-          "change_pct": 0.679,
+          "change_pct": 0.6513,
           "up": true
         },
         "AMZN": {
-          "change_pct": 1.6396,
+          "change_pct": 1.6717,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29640.11,
-        "sma50": 29806.67,
-        "sma200": 27874.22
+        "last_price": 29639.19,
+        "sma50": 29806.65,
+        "sma200": 27874.21
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 30.0,
       "status": "red",
       "details": {
-        "current_vxn": 24.8,
+        "current_vxn": 24.81,
         "percentile_vs_20d": 70.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 68.76,
+      "score": 69.07,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.997,
-        "change_5d_pct": -2.345
+        "current_yield_pct": 4.995,
+        "change_5d_pct": -2.384
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.82,
+      "score": 45.77,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.26,
-        "change_5d_pct": 0.523
+        "current_dxy": 102.27,
+        "change_5d_pct": 0.529
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.84,
+      "score": 55.62,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.097,
+        "avg_compound": 0.112,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Anthropic’s IPO filing shows explosive growth, risks and staggering costs",
+            "source": "Al Jazeera English",
+            "publishedAt": "2026-10-26T16:53:51Z",
+            "sentiment": "Neutral",
+            "compound": 0.128
+          },
+          {
+            "title": "Prediction market traders say an Anthropic IPO is near-certain this year after company filed with SEC",
+            "source": "CNBC",
+            "publishedAt": "2026-10-26T16:51:52Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "The Diesel Diversion: Trump’s Faulty Attempt to Blame Inflation on Ukraine",
+            "source": "Time",
+            "publishedAt": "2026-10-26T16:50:55Z",
+            "sentiment": "Negative",
+            "compound": -0.572
+          },
+          {
+            "title": "Federal Reserve is likely to hold interest rates steady in October. Here's what that means for consumers",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-26T16:49:07Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
           {
             "title": "Ahead of Market: 10 things that will decide stock market action on Tuesday",
             "source": "The Times of India",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-26T16:37:24Z",
             "sentiment": "Neutral",
             "compound": 0.178
-          },
-          {
-            "title": "Anthropic's IPO could set off forced buying by index funds. SpaceX shows how that played out",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-26T16:36:52Z",
-            "sentiment": "Neutral",
-            "compound": -0.153
-          },
-          {
-            "title": "Anthropic IPO: What investors should know about buying in",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-26T16:36:38Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "How Trump’s Energy Dominance Turned Into Hubris",
-            "source": "gcaptain.com",
-            "publishedAt": "2026-10-26T16:36:05Z",
-            "sentiment": "Positive",
-            "compound": 0.44
-          },
-          {
-            "title": "Pepsi gets dumped by KFC for archrival Coca-Cola after 40 years of partnership - but Taco Bell saves the day with a major new deal",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-10-26T16:34:09Z",
-            "sentiment": "Negative",
-            "compound": -0.214
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 64.29,
-  "trade_probability": 58.57,
+  "confirmation_score": 57.65,
+  "trade_probability": 54.59,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
