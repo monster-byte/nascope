@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T13:45:55.412812+00:00",
+  "generated_at": "2026-10-27T14:01:28.545908+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
-      "status": "green",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.0236,
-          "up": true
+          "change_pct": -0.0477,
+          "up": false
         },
         "MSFT": {
-          "change_pct": -0.2838,
+          "change_pct": -0.6595,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.5635,
-          "up": true
+          "change_pct": -0.3072,
+          "up": false
         },
         "AMZN": {
-          "change_pct": 0.6053,
+          "change_pct": 0.006,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29503.69,
-        "sma50": 29803.94,
-        "sma200": 27873.54
+        "last_price": 29389.51,
+        "sma50": 29801.66,
+        "sma200": 27872.97
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 20.0,
+      "score": 25.0,
       "status": "red",
       "details": {
-        "current_vxn": 26.35,
-        "percentile_vs_20d": 80.0
+        "current_vxn": 25.41,
+        "percentile_vs_20d": 75.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 69.86,
+      "score": 68.45,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.99,
-        "change_5d_pct": -2.482
+        "current_yield_pct": 4.999,
+        "change_5d_pct": -2.306
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.0,
+      "score": 46.08,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.24,
-        "change_5d_pct": 0.5
+        "current_dxy": 102.23,
+        "change_5d_pct": 0.49
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.69,
+      "score": 53.54,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.094,
-        "articles_analyzed": 24,
+        "avg_compound": 0.071,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Anthropic’s IPO filing lays out a plan to ‘revolutionize every area of human endeavor’ with AI",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-26T13:43:44Z",
+            "title": "Anthropic files for US IPO, plans Nasdaq listing under ticker symbol ANT",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-26T14:01:11Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "First ₹1 crore is always earned through active income & skills: Anant Ladha",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-26T13:43:39Z",
+            "title": "Why NYC restaurants are playing coy about sustainability",
+            "source": "Gothamist",
+            "publishedAt": "2026-10-26T14:01:11Z",
             "sentiment": "Positive",
-            "compound": 0.402
+            "compound": 0.202
           },
           {
-            "title": "Anthropic unveils details of planned historic stock market debut",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-26T13:43:29Z",
+            "title": "Bitcoin faces an inflation warning beneath steady US consumer sentiment",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-10-26T14:00:14Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
+          {
+            "title": "Mortgage rates above 7% are the 'new normal'—here's why",
+            "source": "CNBC",
+            "publishedAt": "2026-10-26T14:00:01Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "US stocks today: US stocks open higher as Anthropic's IPO filing sharpens AI focus",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-26T13:41:32Z",
+            "title": "Integrating MaxEnt and copula models to assess plague-associated ecological suitability under climate change in Northern Tianshan, China",
+            "source": "Plos.org",
+            "publishedAt": "2026-10-26T14:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Anthropic opens books on AI's explosive growth and staggering costs",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-26T13:39:26Z",
+            "title": "Dissociation between muscle activation, spinal joint load, and subjective perception in passive back support exoskeleton use",
+            "source": "Plos.org",
+            "publishedAt": "2026-10-26T14:00:00Z",
             "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "YYForce Applauds Tesla and Elon Musk on Commencing Manufacturing of Optimus Humanoid Robots",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-26T13:39:09Z",
-            "sentiment": "Positive",
-            "compound": 0.34
+            "compound": 0.542
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.79,
-  "trade_probability": 54.07,
+  "confirmation_score": 43.46,
+  "trade_probability": 46.08,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
