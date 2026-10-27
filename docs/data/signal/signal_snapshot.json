@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T08:31:13.019971+00:00",
+  "generated_at": "2026-10-27T08:45:52.729933+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.58,
+      "score": 46.64,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.17,
-        "change_5d_pct": 0.428
+        "current_dxy": 102.16,
+        "change_5d_pct": 0.42
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.03,
+      "score": 56.68,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.081,
+        "avg_compound": 0.134,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Accredited official statistics: Consumer price inflation, UK: March 2028",
+            "source": "Www.gov.uk",
+            "publishedAt": "2026-10-26T08:36:56Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Stock Market Today: AI Jitters Grip CoreWeave, Other Tech Stocks Again",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-26T08:35:36Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "French bond selloff eases as country spared ratings downgrade",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-26T08:31:56Z",
+            "sentiment": "Positive",
+            "compound": 0.318
+          },
           {
             "title": "India's Stock Market Feels the Heat From High Oil Prices",
             "source": "OilPrice.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-26T08:26:09Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "₹3 crore retirement corpus can be enough for many Indians: Neha Nagar",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-26T08:24:34Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "UBS Maps Super El Nino's Energy Impact And 'Black Swan' Winter Weather Risks",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-26T08:20:13Z",
-            "sentiment": "Positive",
-            "compound": 0.599
-          },
-          {
-            "title": "Brazil’s Lula clinches poll victory, Bolsonaro seeks to annul election",
-            "source": "The Punch",
-            "publishedAt": "2026-10-26T08:20:02Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 50.51,
-  "trade_probability": 50.31,
+  "confirmation_score": 50.75,
+  "trade_probability": 50.45,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
