@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T17:16:00.276423+00:00",
+  "generated_at": "2026-10-27T17:31:16.876347+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
+      "score": 100.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.5723,
+          "change_pct": 0.5635,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.0425,
-          "up": false
+          "change_pct": 0.0411,
+          "up": true
         },
         "NVDA": {
-          "change_pct": 0.8245,
+          "change_pct": 0.5774,
           "up": true
         },
         "AMZN": {
-          "change_pct": 1.6477,
+          "change_pct": 1.5314,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29649.16,
-        "sma50": 29806.85,
-        "sma200": 27874.26
+        "last_price": 29645.09,
+        "sma50": 29806.77,
+        "sma200": 27874.24
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 35.0,
       "status": "red",
       "details": {
-        "current_vxn": 24.77,
+        "current_vxn": 24.75,
         "percentile_vs_20d": 65.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 69.07,
+      "score": 69.86,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.995,
-        "change_5d_pct": -2.384
+        "current_yield_pct": 4.99,
+        "change_5d_pct": -2.482
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.79,
+      "score": 45.71,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.26,
-        "change_5d_pct": 0.526
+        "current_dxy": 102.28,
+        "change_5d_pct": 0.536
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.33,
+      "score": 50.06,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.027,
-        "articles_analyzed": 24,
+        "avg_compound": 0.001,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Brazil suffers worst selloff in decades on Lula win as Hyperliquid tokenized perp led price discovery",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-26T17:13:25Z",
+            "title": "Trump heads to Mississippi as the two parties prepare for final sprint ahead of midterm Election Day",
+            "source": "Abcnews.com",
+            "publishedAt": "2026-10-26T17:30:54Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "1997 AM General Hummer Four-Door Wagon",
+            "source": "Bringatrailer.com",
+            "publishedAt": "2026-10-26T17:30:14Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Anthropic president takes aim at OpenAI over Pentagon deal, questions rival’s motives",
+            "source": "New York Post",
+            "publishedAt": "2026-10-26T17:29:28Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Here's What $1,000 Spread Across These 4 Memory and Storage Stocks Could Be Worth by 2030",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-26T17:21:41Z",
+            "sentiment": "Positive",
+            "compound": 0.226
+          },
+          {
+            "title": "CoreWeave rout sends warning sign to rest of stock market",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-26T17:21:23Z",
             "sentiment": "Negative",
-            "compound": -0.527
+            "compound": -0.34
           },
           {
-            "title": "Tokenized stocks now account for 82% of onchain RWA holders",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-26T17:08:49Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Not Nvidia. This Chip Stock Has More Upside, According to Wall Street",
+            "title": "TIPS or Dividend Stocks? How Retirees Can Keep Up With Inflation",
             "source": "Biztoc.com",
-            "publishedAt": "2026-10-26T17:06:57Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Update: US Equity Indexes Rise After Anthropic Files for Nasdaq IPO",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-26T17:06:47Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Anthropic Files Its S-1. The $2 Trillion Number Isn’t In It.",
-            "source": "Forkast.news",
-            "publishedAt": "2026-10-26T17:05:54Z",
-            "sentiment": "Neutral",
-            "compound": 0.077
-          },
-          {
-            "title": "Buy, Sell or Hold? My Take on Your Stocks",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-26T17:05:08Z",
+            "publishedAt": "2026-10-26T17:19:46Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.72,
-  "trade_probability": 54.63,
+  "confirmation_score": 64.45,
+  "trade_probability": 58.67,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
