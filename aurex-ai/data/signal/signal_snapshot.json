@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T15:15:58.588876+00:00",
+  "generated_at": "2026-10-28T15:31:15.209088+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.5395,
+          "change_pct": -0.4934,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.8243,
+          "change_pct": -0.8055,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.1719,
+          "change_pct": -0.2522,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.5403,
+          "change_pct": -0.5581,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29685.82,
+        "last_price": 29685.77,
         "sma50": 29810.79,
         "sma200": 27893.77
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 40.0,
-      "status": "yellow",
+      "score": 35.0,
+      "status": "red",
       "details": {
-        "current_vxn": 24.85,
-        "percentile_vs_20d": 60.0
+        "current_vxn": 24.81,
+        "percentile_vs_20d": 65.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 68.03,
+      "score": 68.66,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.03,
-        "change_5d_pct": -2.254
+        "current_yield_pct": 5.026,
+        "change_5d_pct": -2.332
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.62,
+      "score": 45.45,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.34,
-        "change_5d_pct": 0.547
+        "current_dxy": 102.36,
+        "change_5d_pct": 0.569
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.94,
+      "score": 55.44,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.119,
+        "avg_compound": 0.109,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Home prices continued to climb in August before mortgage rates surged",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-27T15:12:56Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "S&P 500, Nasdaq open higher as oil pulls back ahead of Fed decision - Reuters",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-10-27T15:12:52Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "General Motors Rises 5% on Nasdaq Listing Move and Index Eligibility; Tesla Gains 3%, Ford Edges Higher",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-27T15:09:33Z",
-            "sentiment": "Positive",
-            "compound": 0.34
-          },
-          {
-            "title": "What Is ANT Stock? Anthropic’s IPO Plans and Autonomi Token Risks",
-            "source": "Bitcoinfoundation.org",
-            "publishedAt": "2026-10-27T15:09:08Z",
+            "title": "Coca-Cola buoyed by soda sales abroad as North America lags",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-27T15:30:29Z",
             "sentiment": "Negative",
-            "compound": -0.273
+            "compound": -0.361
           },
           {
-            "title": "Anthropic to discuss IPO plans in live Q&A amid AI market buzz",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-27T15:05:35Z",
+            "title": "Trump Has Done More to Help Everyday Americans Understand the Economy Than Any Other President",
+            "source": "The Good Men Project",
+            "publishedAt": "2026-10-27T15:30:09Z",
+            "sentiment": "Positive",
+            "compound": 0.455
+          },
+          {
+            "title": "Q2 Results Today Highlgihts: Bajaj Auto Q2 PAT up 35%, Maruti Suzuki & Cipla profit down, ACC, Mazagon Dock PAT tumbles, Honeywell Automation PAT up, L&T, Vedanta Iron, Waaree Energies, SAIL, SBI Life, Tata Capital, Star Health, ABDL to announce Q2 results",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-27T15:28:02Z",
+            "sentiment": "Positive",
+            "compound": 0.586
+          },
+          {
+            "title": "Iran’s calculations as US escalation looms: Trust, midterms, Hormuz",
+            "source": "Al Jazeera English",
+            "publishedAt": "2026-10-27T15:26:59Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "Ben McAdams talks AI, affordability and the future of Utah at campus Q&A",
+            "source": "Dailyutahchronicle.com",
+            "publishedAt": "2026-10-27T15:26:48Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "QB Stock Market Week 8: The Next Step Is The Hardest For Drake Maye, Caleb Williams",
-            "source": "Fox Sports",
-            "publishedAt": "2026-10-27T15:04:49Z",
+            "title": "Nvidia Credit Risk Has Tripled and Just Passed Meta's",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-27T15:25:26Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": 0.128
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 38.17,
-  "trade_probability": 42.9,
+  "confirmation_score": 37.75,
+  "trade_probability": 42.65,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
