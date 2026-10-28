@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T04:01:28.160358+00:00",
+  "generated_at": "2026-10-28T04:15:58.821528+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.0263,
+          "change_pct": 1.0234,
           "up": true
         },
         "MSFT": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.36,
+      "score": 44.96,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.32,
-        "change_5d_pct": 0.58
+        "current_dxy": 102.42,
+        "change_5d_pct": 0.63
       }
     },
     "macro": {
@@ -85,56 +85,10 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 59.07,
+      "score": 50.0,
       "status": "yellow",
       "details": {
-        "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.181,
-        "articles_analyzed": 25,
-        "top_headlines": [
-          {
-            "title": "Riots in the Streets, Repression in the Markets: Europe’s Collapse Enters Its Next Phase",
-            "source": "Lewrockwell.com",
-            "publishedAt": "2026-10-27T04:01:00Z",
-            "sentiment": "Negative",
-            "compound": -0.844
-          },
-          {
-            "title": "Anthropic’s ad bill is soaring, according to IPO filing",
-            "source": "Digiday",
-            "publishedAt": "2026-10-27T04:01:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Hand In Hand Toward the Abyss",
-            "source": "Americanthinker.com",
-            "publishedAt": "2026-10-27T04:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.751
-          },
-          {
-            "title": "Malaysia’s 2027 Budget: Fiscal Consolidation Continues Apace",
-            "source": "The Diplomat",
-            "publishedAt": "2026-10-27T03:51:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Tata Motors' Iveco bid crosses 80% threshold as acceptances hit 87.81%",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-27T03:45:09Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "Q2 results: L&T, Bajaj Auto, Maruti Suzuki, Cipla among 110 firms on Oct 27",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-27T03:42:45Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          }
-        ]
+        "error": "news_fetch_failed: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?q=Nasdaq+OR+%22Federal+Reserve%22+OR+%22stock+market%22+OR+inflation&language=en&sortBy=publishedAt&pageSize=25&apiKey=280ea038bd7e4ccb91d87f9d115484d4"
       }
     },
     "patent_momentum": {
@@ -146,8 +100,8 @@
       }
     }
   },
-  "confirmation_score": 57.97,
-  "trade_probability": 54.78,
+  "confirmation_score": 57.11,
+  "trade_probability": 54.27,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
