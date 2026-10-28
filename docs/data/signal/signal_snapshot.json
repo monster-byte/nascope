@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T19:01:26.231817+00:00",
+  "generated_at": "2026-10-28T19:15:57.691124+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,7 +13,7 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 0.0,
+      "score": 25.0,
       "status": "red",
       "details": {
         "AAPL": {
@@ -21,16 +21,16 @@
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.5492,
+          "change_pct": -0.7914,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.9169,
+          "change_pct": -1.2745,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.0733,
-          "up": false
+          "change_pct": 0.0489,
+          "up": true
         }
       }
     },
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29748.38,
-        "sma50": 29812.04,
-        "sma200": 27894.08
+        "last_price": 29715.8,
+        "sma50": 29811.39,
+        "sma200": 27893.92
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 40.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 24.33,
+        "current_vxn": 24.52,
         "percentile_vs_20d": 60.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 69.28,
+      "score": 65.7,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.022,
-        "change_5d_pct": -2.41
+        "current_yield_pct": 5.045,
+        "change_5d_pct": -1.963
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.52,
+      "score": 47.0,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.1,
-        "change_5d_pct": 0.31
+        "current_dxy": 102.16,
+        "change_5d_pct": 0.375
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.72,
+      "score": 47.61,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.006,
+        "avg_compound": -0.048,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "EDX Markets Signs Apex Fintech Deal to Broaden Crypto Trading Access",
-            "source": "newsBTC",
-            "publishedAt": "2026-10-27T19:00:00Z",
+            "title": "GenZ's lifestyle spends more risky than market volatility: Sakchi Jain",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-27T19:15:15Z",
+            "sentiment": "Negative",
+            "compound": -0.272
+          },
+          {
+            "title": "How often should you update your financial plan?",
+            "source": "CBS News",
+            "publishedAt": "2026-10-27T19:13:14Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Temple & Webster +30%, Nick Scali -15%: Why did sector correlation go out the window last week?",
-            "source": "Motley Fool Australia",
-            "publishedAt": "2026-10-27T19:00:00Z",
+            "title": "Indian markets likely to surpass average, says First Global's Devina Mehra",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-27T19:09:17Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Margin debt growth slows sharply as stock market warning signs build",
+            "title": "A New CTO, a Nasdaq Move and AI Agents: Hilton Makes Its Tech Pitch",
+            "source": "Skift",
+            "publishedAt": "2026-10-27T19:03:58Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Coinbase Now Offers Fixed-Rate Bitcoin-Backed Loans. Here's What Crypto Investors Need to Know",
             "source": "Biztoc.com",
-            "publishedAt": "2026-10-27T18:58:54Z",
-            "sentiment": "Negative",
-            "compound": -0.318
-          },
-          {
-            "title": "Turkish Insurer Sinks as Top Executives Arrested in Fund Probe",
-            "source": "Insurance Journal",
-            "publishedAt": "2026-10-27T18:54:56Z",
-            "sentiment": "Negative",
-            "compound": -0.318
-          },
-          {
-            "title": "Minetom Inflatable LED T Rex Dinosaur Adult Costume $16.99 AC",
-            "source": "Slickdeals.net",
-            "publishedAt": "2026-10-27T18:54:11Z",
+            "publishedAt": "2026-10-27T19:01:39Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Anthropic eyes $1.5T IPO as FTX’s sold stake looks like a historic miss",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-27T18:53:42Z",
-            "sentiment": "Positive",
-            "compound": 0.226
+            "title": "Why GM is still an automaker despite its move to the Nasdaq",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-27T19:01:21Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 37.95,
-  "trade_probability": 42.77,
+  "confirmation_score": 43.98,
+  "trade_probability": 46.39,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
