@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T03:45:47.005952+00:00",
+  "generated_at": "2026-10-28T04:01:28.160358+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.0234,
+          "change_pct": 1.0263,
           "up": true
         },
         "MSFT": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.66,
+      "score": 45.36,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.41,
-        "change_5d_pct": 0.667
+        "current_dxy": 102.32,
+        "change_5d_pct": 0.58
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 62.0,
+      "score": 59.07,
       "status": "yellow",
       "details": {
-        "overall_sentiment": "BULLISH",
-        "avg_compound": 0.24,
+        "overall_sentiment": "NEUTRAL",
+        "avg_compound": 0.181,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Riots in the Streets, Repression in the Markets: Europe’s Collapse Enters Its Next Phase",
+            "source": "Lewrockwell.com",
+            "publishedAt": "2026-10-27T04:01:00Z",
+            "sentiment": "Negative",
+            "compound": -0.844
+          },
+          {
+            "title": "Anthropic’s ad bill is soaring, according to IPO filing",
+            "source": "Digiday",
+            "publishedAt": "2026-10-27T04:01:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Hand In Hand Toward the Abyss",
+            "source": "Americanthinker.com",
+            "publishedAt": "2026-10-27T04:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.751
+          },
+          {
+            "title": "Malaysia’s 2027 Budget: Fiscal Consolidation Continues Apace",
+            "source": "The Diplomat",
+            "publishedAt": "2026-10-27T03:51:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Tata Motors' Iveco bid crosses 80% threshold as acceptances hit 87.81%",
             "source": "Business Standard",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-27T03:42:45Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Jon Stewart Trolls Trump’s Nicki Minaj Fixation: ‘He’s Like Yogi Bear Floating Towards a Pie’",
-            "source": "Variety",
-            "publishedAt": "2026-10-27T03:39:24Z",
-            "sentiment": "Positive",
-            "compound": 0.361
-          },
-          {
-            "title": "Anthropic's potential mega IPO joins ranks of world's biggest listings",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-27T03:33:14Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Q2 Results Today Live: L&T, Maruti Suzuki, Bajaj Auto, Tata Steel, Cipla, Vedanta Iron, Waaree Energies, Mazagon Dock, ACC, SAIL, SBI Life, Tata Capital, Star Health, Honeywell Automation, ABDL to announce Q2 results, Tata Consumer, Ather, Paytm, Dalmia, BOM, IOB, TMB, KFin Tech, Nazara shares in focus",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-27T03:32:25Z",
-            "sentiment": "Positive",
-            "compound": 0.477
-          },
-          {
-            "title": "EU gas prices hit four-year high amid Iran war",
-            "source": "Rt-english.com",
-            "publishedAt": "2026-10-27T03:31:28Z",
-            "sentiment": "Negative",
-            "compound": -0.599
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 58.17,
-  "trade_probability": 54.9,
+  "confirmation_score": 57.97,
+  "trade_probability": 54.78,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
