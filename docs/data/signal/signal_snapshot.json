@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T16:01:37.070579+00:00",
+  "generated_at": "2026-10-28T16:15:55.459746+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.4632,
+          "change_pct": -0.4891,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.9172,
+          "change_pct": -0.8158,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.4264,
+          "change_pct": -0.539,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.5462,
+          "change_pct": -0.4654,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29698.86,
-        "sma50": 29811.05,
-        "sma200": 27893.83
+        "last_price": 29687.56,
+        "sma50": 29810.83,
+        "sma200": 27893.78
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 40.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 24.76,
+        "current_vxn": 24.79,
         "percentile_vs_20d": 60.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 68.34,
+      "score": 67.1,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.028,
-        "change_5d_pct": -2.293
+        "current_yield_pct": 5.036,
+        "change_5d_pct": -2.138
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.41,
+      "score": 45.83,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.36,
-        "change_5d_pct": 0.574
+        "current_dxy": 102.31,
+        "change_5d_pct": 0.522
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 57.16,
+      "score": 54.99,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.143,
+        "avg_compound": 0.1,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Lula’s election win leaves Brazil facing a fiscal tightrope",
+            "source": "CNBC",
+            "publishedAt": "2026-10-27T16:12:05Z",
+            "sentiment": "Positive",
+            "compound": 0.586
+          },
+          {
+            "title": "'Tactical short-term entry, long-term wait-and-see': What retail investors are saying about buying Anthropic on day one",
+            "source": "Business Insider",
+            "publishedAt": "2026-10-27T16:09:51Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Shoe Zone reports lower revenue and swings to pretax loss",
+            "source": "FashionUnited UK",
+            "publishedAt": "2026-10-27T16:09:42Z",
+            "sentiment": "Negative",
+            "compound": -0.542
+          },
+          {
+            "title": "Report — Midterms: Democrats Split Between Focusing on Trans Agenda or 'Affordability'",
+            "source": "Breitbart News",
+            "publishedAt": "2026-10-27T16:03:42Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Introducing Cricut Rewards: Get rewarded for your creativity",
             "source": "Financial Post",
@@ -103,34 +131,6 @@
             "title": "With Data Centers, Lenders Are Getting a Lot More Selective",
             "source": "Commercial Observer",
             "publishedAt": "2026-10-27T16:00:51Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "New York City’s Rent Freeze: Where It Stands",
-            "source": "Commercial Observer",
-            "publishedAt": "2026-10-27T16:00:45Z",
-            "sentiment": "Neutral",
-            "compound": 0.052
-          },
-          {
-            "title": "Japan’s services inflation split complicates the BOJ outlook before Friday’s decision",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-10-27T16:00:16Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Should the Reserve Bank care about your job as well as inflation? – Greg Smith",
-            "source": "New Zealand Herald",
-            "publishedAt": "2026-10-27T16:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.649
-          },
-          {
-            "title": "Midterm Political Ad Spending Hits Record $11.21 Billion",
-            "source": "TheWrap",
-            "publishedAt": "2026-10-27T16:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 38.31,
-  "trade_probability": 42.99,
+  "confirmation_score": 37.98,
+  "trade_probability": 42.79,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
