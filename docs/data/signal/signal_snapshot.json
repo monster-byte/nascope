@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T16:45:49.273022+00:00",
+  "generated_at": "2026-10-28T17:01:29.106186+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.3393,
+          "change_pct": -0.3897,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.9731,
+          "change_pct": -0.9632,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.4103,
+          "change_pct": -0.2751,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.4122,
+          "change_pct": -0.1975,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29700.51,
-        "sma50": 29811.09,
-        "sma200": 27893.84
+        "last_price": 29728.49,
+        "sma50": 29811.65,
+        "sma200": 27893.98
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 35.0,
       "status": "red",
       "details": {
-        "current_vxn": 24.8,
+        "current_vxn": 24.82,
         "percentile_vs_20d": 65.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 68.03,
+      "score": 68.34,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.03,
-        "change_5d_pct": -2.254
+        "current_yield_pct": 5.028,
+        "change_5d_pct": -2.293
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.14,
+      "score": 46.1,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.27,
-        "change_5d_pct": 0.482
+        "current_dxy": 102.28,
+        "change_5d_pct": 0.487
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.5,
+      "score": 52.0,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.11,
+        "avg_compound": 0.04,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Trump places telling condition on accepting midterm election results with ominous reply as Democrats surge in polls one week out",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-10-27T17:01:22Z",
+            "sentiment": "Neutral",
+            "compound": 0.052
+          },
+          {
+            "title": "Republican voters are getting worried about high costs as inflation stings and the midterms approach",
+            "source": "Business Insider",
+            "publishedAt": "2026-10-27T17:00:28Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "Inside Economics: Why can’t we borrow more? As the election looms, how much debt is too much?",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-10-27T17:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.536
+          },
+          {
+            "title": "JPMorgan CEO Warns of 5 Risks Threatening US Stocks and Bonds",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-27T16:59:59Z",
+            "sentiment": "Negative",
+            "compound": -0.71
+          },
+          {
+            "title": "Knack Packaging Q2 net profit rises 25% to ₹25 crore, revenue jumps 53%",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-27T16:51:58Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
           {
             "title": "Trump’s Cheesecake Factory Dissent",
             "source": "The Atlantic",
             "publishedAt": "2026-10-27T16:43:57Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "The midterms are a week away. What do the latest polls say?",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-10-27T16:43:41Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Europe mostly higher at close ahead of rate decisions",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-27T16:41:43Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "GM Is Leaving NYSE for the Nasdaq After More Than 100 Years",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-27T16:41:11Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "As holiday shopping approaches, seasonal hiring gives 'mixed signals,' experts say",
-            "source": "CNBC",
-            "publishedAt": "2026-10-27T16:40:57Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "Unconfirmed reports that Flavio Bolsonaro has fled Brazil",
-            "source": "Freerepublic.com",
-            "publishedAt": "2026-10-27T16:39:14Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 37.73,
-  "trade_probability": 42.64,
+  "confirmation_score": 37.45,
+  "trade_probability": 42.47,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
