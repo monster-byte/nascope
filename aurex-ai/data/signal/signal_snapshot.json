@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T18:43:07.716138+00:00",
+  "generated_at": "2026-10-28T18:45:54.567275+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.6821,
+          "change_pct": -0.8204,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.6478,
+          "change_pct": -0.8659,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.2682,
+          "change_pct": -0.7404,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.0063,
+          "change_pct": -0.1994,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 70.24,
-      "status": "green",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
-        "regime": "BULLISH",
-        "last_price": 29837.8,
-        "sma50": 29813.83,
-        "sma200": 27894.53
+        "regime": "NEUTRAL / TRANSITIONAL",
+        "last_price": 29752.0,
+        "sma50": 29812.12,
+        "sma200": 27894.1
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 35.0,
-      "status": "red",
+      "score": 40.0,
+      "status": "yellow",
       "details": {
-        "current_vxn": 24.65,
-        "percentile_vs_20d": 65.0
+        "current_vxn": 24.6,
+        "percentile_vs_20d": 60.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 67.1,
+      "score": 68.34,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.036,
-        "change_5d_pct": -2.138
+        "current_yield_pct": 5.028,
+        "change_5d_pct": -2.293
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.06,
+      "score": 46.27,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.41,
-        "change_5d_pct": 0.617
+        "current_dxy": 102.25,
+        "change_5d_pct": 0.467
       }
     },
     "macro": {
@@ -146,9 +146,9 @@
       }
     }
   },
-  "confirmation_score": 40.07,
-  "trade_probability": 44.04,
-  "market_regime": "BULLISH",
+  "confirmation_score": 38.06,
+  "trade_probability": 42.84,
+  "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
     "directional_bias": "NEUTRAL"
