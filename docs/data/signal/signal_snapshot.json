@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T16:15:55.459746+00:00",
+  "generated_at": "2026-10-28T16:31:16.330295+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.4891,
+          "change_pct": -0.4574,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.8158,
+          "change_pct": -0.8684,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.539,
+          "change_pct": -0.4401,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.4654,
+          "change_pct": -0.428,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29687.56,
-        "sma50": 29810.83,
-        "sma200": 27893.78
+        "last_price": 29694.6,
+        "sma50": 29810.97,
+        "sma200": 27893.81
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 40.0,
-      "status": "yellow",
+      "score": 35.0,
+      "status": "red",
       "details": {
-        "current_vxn": 24.79,
-        "percentile_vs_20d": 60.0
+        "current_vxn": 24.81,
+        "percentile_vs_20d": 65.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 67.1,
+      "score": 66.48,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.036,
-        "change_5d_pct": -2.138
+        "current_yield_pct": 5.04,
+        "change_5d_pct": -2.06
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.83,
+      "score": 46.12,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.31,
-        "change_5d_pct": 0.522
+        "current_dxy": 102.27,
+        "change_5d_pct": 0.485
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.99,
+      "score": 53.64,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.1,
-        "articles_analyzed": 24,
+        "avg_compound": 0.073,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Lula’s election win leaves Brazil facing a fiscal tightrope",
-            "source": "CNBC",
-            "publishedAt": "2026-10-27T16:12:05Z",
+            "title": "Exports, EVs help Bajaj Auto’s Q2 profit surge amid rising costs, looming rural stress",
+            "source": "Livemint",
+            "publishedAt": "2026-10-27T16:28:57Z",
             "sentiment": "Positive",
-            "compound": 0.586
+            "compound": 0.318
           },
           {
-            "title": "'Tactical short-term entry, long-term wait-and-see': What retail investors are saying about buying Anthropic on day one",
-            "source": "Business Insider",
-            "publishedAt": "2026-10-27T16:09:51Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Shoe Zone reports lower revenue and swings to pretax loss",
-            "source": "FashionUnited UK",
-            "publishedAt": "2026-10-27T16:09:42Z",
+            "title": "Brazil has voted for economic chaos",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-10-27T16:24:14Z",
             "sentiment": "Negative",
-            "compound": -0.542
+            "compound": -0.572
           },
           {
-            "title": "Report — Midterms: Democrats Split Between Focusing on Trans Agenda or 'Affordability'",
-            "source": "Breitbart News",
-            "publishedAt": "2026-10-27T16:03:42Z",
+            "title": "Sportico Invest New York: Full Slate of Panels Revealed",
+            "source": "Sportico.com",
+            "publishedAt": "2026-10-27T16:20:10Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Introducing Cricut Rewards: Get rewarded for your creativity",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-27T16:00:55Z",
+            "title": "Anthropic’s huge IPO warns of ‘catastrophic’ AI risk as China’s bubble pops",
+            "source": "TechRadar",
+            "publishedAt": "2026-10-27T16:16:02Z",
+            "sentiment": "Neutral",
+            "compound": -0.052
+          },
+          {
+            "title": "Anthropic's IPO could start trading as soon as Nov. 16 — here's the road from filing to first trade",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-27T16:15:56Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Tesla's Q3 Per-Car Fiscal Metrics Show Minor but Important Progress",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-27T16:15:55Z",
             "sentiment": "Positive",
-            "compound": 0.836
-          },
-          {
-            "title": "With Data Centers, Lenders Are Getting a Lot More Selective",
-            "source": "Commercial Observer",
-            "publishedAt": "2026-10-27T16:00:51Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": 0.71
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 37.98,
-  "trade_probability": 42.79,
+  "confirmation_score": 37.35,
+  "trade_probability": 42.41,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
