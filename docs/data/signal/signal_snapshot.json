@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T22:15:47.721795+00:00",
+  "generated_at": "2026-10-28T22:31:10.810562+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -21,7 +21,7 @@
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.1719,
+          "change_pct": -0.3408,
           "up": false
         },
         "NVDA": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.86,
+      "score": 50.48,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.017,
-        "articles_analyzed": 25,
+        "avg_compound": 0.01,
+        "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "US Treasury predictions: Will 2-year, 10-year, 30-year bonds hit historic highs soon? Details here",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-27T22:26:22Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "Jim Cramer warns investors not to get fooled by the latest AI stock rally",
+            "source": "CNBC",
+            "publishedAt": "2026-10-27T22:24:19Z",
+            "sentiment": "Neutral",
+            "compound": 0.198
+          },
+          {
+            "title": "Breitbart Business Digest: The Surreal War Against America's Manufacturing Boom",
+            "source": "Breitbart News",
+            "publishedAt": "2026-10-27T22:17:19Z",
+            "sentiment": "Negative",
+            "compound": -0.599
+          },
           {
             "title": "Bessent says the US will win in digital assets and strengthen the dollar",
             "source": "Crypto Briefing",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-27T22:05:51Z",
             "sentiment": "Positive",
             "compound": 0.572
-          },
-          {
-            "title": "Stock Market Today, Oct. 27: JetBlue Surges 19% on Stronger Q4 Revenue Guidance and Margin Improvement",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-27T22:05:47Z",
-            "sentiment": "Positive",
-            "compound": 0.681
-          },
-          {
-            "title": "Video: No, War is Not Good For the Economy",
-            "source": "Corbettreport.com",
-            "publishedAt": "2026-10-27T22:05:29Z",
-            "sentiment": "Negative",
-            "compound": -0.744
-          },
-          {
-            "title": "Anthropic IPO filing boosts AI market confidence, lifts CoreWeave shares 8%",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-27T22:04:09Z",
-            "sentiment": "Positive",
-            "compound": 0.778
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.73,
-  "trade_probability": 46.84,
+  "confirmation_score": 44.7,
+  "trade_probability": 46.82,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
