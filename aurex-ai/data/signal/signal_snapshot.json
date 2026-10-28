@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T23:31:07.138745+00:00",
+  "generated_at": "2026-10-28T23:45:53.471165+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -21,7 +21,7 @@
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.1719,
+          "change_pct": -0.3408,
           "up": false
         },
         "NVDA": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 57.87,
+      "score": 56.62,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.157,
+        "avg_compound": 0.132,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Rep. Tom Tiffany claims Kamala Harris visit signals weakness in David Crowley’s Wisconsin campaign",
+            "source": "Fox News",
+            "publishedAt": "2026-10-27T23:41:54Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
+          {
+            "title": "Cost of living: Let’s start the clock",
+            "source": "The Punch",
+            "publishedAt": "2026-10-27T23:36:25Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "FG plans military-backed protection for agric investments",
             "source": "The Punch",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-27T23:07:43Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "High transport costs undermine food price relief – Report",
-            "source": "The Punch",
-            "publishedAt": "2026-10-27T23:07:43Z",
-            "sentiment": "Positive",
-            "compound": 0.226
-          },
-          {
-            "title": "I’m ready to serve Nigeria, says ex-AfDB president Adesina",
-            "source": "The Punch",
-            "publishedAt": "2026-10-27T23:07:42Z",
-            "sentiment": "Positive",
-            "compound": 0.361
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 45.36,
-  "trade_probability": 47.22,
+  "confirmation_score": 45.25,
+  "trade_probability": 47.15,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
