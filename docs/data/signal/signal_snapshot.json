@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T17:15:55.190589+00:00",
+  "generated_at": "2026-10-28T17:31:17.986285+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.4559,
+          "change_pct": -0.4805,
           "up": false
         },
         "MSFT": {
-          "change_pct": -1.0608,
+          "change_pct": -1.0177,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.3988,
+          "change_pct": -0.5639,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.2704,
+          "change_pct": -0.4319,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29694.51,
-        "sma50": 29810.97,
-        "sma200": 27893.81
+        "last_price": 29669.95,
+        "sma50": 29810.48,
+        "sma200": 27893.69
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 40.0,
-      "status": "yellow",
+      "score": 35.0,
+      "status": "red",
       "details": {
-        "current_vxn": 24.75,
-        "percentile_vs_20d": 60.0
+        "current_vxn": 24.72,
+        "percentile_vs_20d": 65.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 69.9,
+      "score": 70.21,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.018,
-        "change_5d_pct": -2.487
+        "current_yield_pct": 5.016,
+        "change_5d_pct": -2.526
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.37,
+      "score": 46.29,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.24,
-        "change_5d_pct": 0.454
+        "current_dxy": 102.25,
+        "change_5d_pct": 0.464
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.39,
+      "score": 49.72,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.012,
+        "avg_compound": -0.006,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Midterm Stock-Market Pattern Hasn't Failed Since 1950 - State Street SPDR S&P 500 ETF Trust (ARCA:SPY)",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-27T17:30:13Z",
+            "sentiment": "Positive",
+            "compound": 0.719
+          },
+          {
+            "title": "Trump failed to stop inflation. Now Republicans may pay the price in the midterm elections - ABC News",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-27T17:29:57Z",
+            "sentiment": "Negative",
+            "compound": -0.71
+          },
+          {
+            "title": "Anthropic's IPO could be 'speculative fiction' or a 'generational moment' — investors are split",
+            "source": "CNBC",
+            "publishedAt": "2026-10-27T17:26:34Z",
+            "sentiment": "Neutral",
+            "compound": 0.103
+          },
           {
             "title": "GM to transfer stock listing to Nasdaq",
             "source": "The Times of India",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-27T17:12:13Z",
             "sentiment": "Negative",
             "compound": -0.625
-          },
-          {
-            "title": "Republican voters are getting worried about high costs as inflation stings and the midterms approach",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-27T17:12:03Z",
-            "sentiment": "Negative",
-            "compound": -0.296
-          },
-          {
-            "title": "Seagate 16TB Expansion External Hard Drive (USB 3.0) $399.99 + Free Shipping (24 replies)",
-            "source": "Slickdeals.net",
-            "publishedAt": "2026-10-27T17:06:03Z",
-            "sentiment": "Positive",
-            "compound": 0.44
-          },
-          {
-            "title": "India's growth momentum stays resilient despite global headwinds: RBI Deputy Governor Poonam Gupta",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-27T17:03:42Z",
-            "sentiment": "Positive",
-            "compound": 0.382
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 37.9,
-  "trade_probability": 42.74,
+  "confirmation_score": 37.52,
+  "trade_probability": 42.51,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
