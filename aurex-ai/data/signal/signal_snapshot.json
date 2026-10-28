@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T18:15:52.701337+00:00",
+  "generated_at": "2026-10-28T18:31:13.035459+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.6375,
+          "change_pct": -0.6764,
           "up": false
         },
         "MSFT": {
-          "change_pct": -1.1416,
+          "change_pct": -0.7651,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.7106,
+          "change_pct": -0.4653,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.6566,
+          "change_pct": -0.298,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29650.2,
-        "sma50": 29810.08,
-        "sma200": 27893.59
+        "last_price": 29719.41,
+        "sma50": 29811.46,
+        "sma200": 27893.93
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 45.0,
+      "score": 40.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 24.18,
-        "percentile_vs_20d": 55.0
+        "current_vxn": 24.59,
+        "percentile_vs_20d": 60.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 69.9,
+      "score": 65.7,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.018,
-        "change_5d_pct": -2.487
+        "current_yield_pct": 5.045,
+        "change_5d_pct": -1.963
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.96,
+      "score": 45.32,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.29,
-        "change_5d_pct": 0.505
+        "current_dxy": 102.38,
+        "change_5d_pct": 0.586
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.65,
+      "score": 54.01,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.093,
-        "articles_analyzed": 23,
+        "avg_compound": 0.08,
+        "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Federal Reserve expected to hold interest rates steady in last decision before midterm elections",
+            "title": "Are Americans More Stressed Than Ever? Why?",
+            "source": "Psychology Today",
+            "publishedAt": "2026-10-27T18:29:50Z",
+            "sentiment": "Negative",
+            "compound": -0.468
+          },
+          {
+            "title": "Why Is Intuitive Machines Stock Surging on Tuesday?",
             "source": "Biztoc.com",
-            "publishedAt": "2026-10-27T18:13:30Z",
+            "publishedAt": "2026-10-27T18:28:51Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "AI optimism lifts Wall Street ahead of big tech earnings",
+            "source": "The Irish Times",
+            "publishedAt": "2026-10-27T18:27:39Z",
             "sentiment": "Positive",
-            "compound": 0.459
+            "compound": 0.542
           },
           {
-            "title": "White House tempers its tough talk on Canada trade as inflation tops voter concerns",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-27T18:13:30Z",
-            "sentiment": "Neutral",
-            "compound": 0.128
-          },
-          {
-            "title": "Early third-quarter earnings show a 'resilient' U.S. consumer, with signs of strain",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-27T18:13:14Z",
-            "sentiment": "Neutral",
-            "compound": -0.052
-          },
-          {
-            "title": "Early third-quarter earnings show a 'resilient' U.S. consumer, with signs of strain",
-            "source": "CNBC",
-            "publishedAt": "2026-10-27T18:12:20Z",
-            "sentiment": "Neutral",
-            "compound": -0.052
-          },
-          {
-            "title": "Airlines are trading nearly 23% higher ticket prices for emptier planes as jet fuel prices spike over 90% from the Iran War’s fuel squeeze",
-            "source": "Fortune",
-            "publishedAt": "2026-10-27T18:11:13Z",
-            "sentiment": "Neutral",
-            "compound": -0.178
-          },
-          {
-            "title": "Markets end flat ahead of Fed decision; FPIs buy shares worth ₹4,240 crore",
+            "title": "Infosys draws four downgrades in a day on weaker annual sales outlook",
             "source": "Business Standard",
-            "publishedAt": "2026-10-27T18:08:11Z",
+            "publishedAt": "2026-10-27T18:26:10Z",
+            "sentiment": "Negative",
+            "compound": -0.44
+          },
+          {
+            "title": "Airtel Money reports 25% growth in first-half revenue",
+            "source": "Sundayworld.co.za",
+            "publishedAt": "2026-10-27T18:19:12Z",
             "sentiment": "Positive",
-            "compound": 0.477
+            "compound": 0.382
+          },
+          {
+            "title": "The Trump admin said energy costs were a small price to pay in Iran war, but U.S. consumers are paying nearly 8x more than anyone else in fuel costs",
+            "source": "Fortune",
+            "publishedAt": "2026-10-27T18:16:32Z",
+            "sentiment": "Negative",
+            "compound": -0.273
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 38.79,
-  "trade_probability": 43.27,
+  "confirmation_score": 37.66,
+  "trade_probability": 42.6,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
