@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T14:01:29.017308+00:00",
+  "generated_at": "2026-10-28T14:16:01.831780+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.5957,
+          "change_pct": -0.587,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.5915,
+          "change_pct": -0.5154,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.1329,
+          "change_pct": -0.259,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.1719,
+          "change_pct": -0.0044,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29672.45,
-        "sma50": 29810.53,
-        "sma200": 27893.7
+        "last_price": 29669.6,
+        "sma50": 29810.47,
+        "sma200": 27893.69
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 40.0,
-      "status": "yellow",
+      "score": 35.0,
+      "status": "red",
       "details": {
-        "current_vxn": 24.86,
-        "percentile_vs_20d": 60.0
+        "current_vxn": 24.88,
+        "percentile_vs_20d": 65.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 71.92,
+      "score": 72.85,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.005,
-        "change_5d_pct": -2.74
+        "current_yield_pct": 4.999,
+        "change_5d_pct": -2.857
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.69,
+      "score": 45.52,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.33,
-        "change_5d_pct": 0.538
+        "current_dxy": 102.35,
+        "change_5d_pct": 0.56
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.84,
+      "score": 51.51,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.037,
+        "avg_compound": 0.03,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Factors associated with mortality among critically ill pediatric patients referred to a tertiary hospital in Indonesia",
-            "source": "Plos.org",
-            "publishedAt": "2026-10-27T14:00:00Z",
+            "title": "Who Will Control the Machines?",
+            "source": "Thegatewaypundit.com",
+            "publishedAt": "2026-10-27T14:15:34Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "RIL to announce Q2 results on October 30, board to also consider fundraising",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-27T14:14:58Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Trump’s economy, in 13 charts - The Washington Post",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-10-27T14:12:55Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "GM to Move Stock Listing to Tech-Focused Nasdaq, Leaving NYSE - Bloomberg.com",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-10-27T14:12:45Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "GM just switched to the Nasdaq, but does that really make it a tech company?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-27T14:12:19Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Prediction: The Stock Market Could Crash in 2027, and Elon Musk Just Explained Why",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-27T14:11:10Z",
             "sentiment": "Negative",
-            "compound": -0.421
-          },
-          {
-            "title": "Atrial fibrillation is independently associated with impaired myocardial perfusion",
-            "source": "Plos.org",
-            "publishedAt": "2026-10-27T14:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Resilience and academic performance in mathematics and science among middle school students: The mediating role of computational thinking",
-            "source": "Plos.org",
-            "publishedAt": "2026-10-27T14:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "From public digital discourse to sustained engagement: Digital cultural translation of the Twenty-Four Solar Terms",
-            "source": "Plos.org",
-            "publishedAt": "2026-10-27T14:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.459
-          },
-          {
-            "title": "Disparities in screening participation and stage at diagnosis for breast and bowel cancers among individuals with pre-existing mental health disorders: A population-based study",
-            "source": "Plos.org",
-            "publishedAt": "2026-10-27T14:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "As Costs Crush Families, This Bay Area County Could Be Latest to Subsidize Childcare",
-            "source": "KQED",
-            "publishedAt": "2026-10-27T14:00:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.153
+            "compound": -0.402
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 38.34,
-  "trade_probability": 43.0,
+  "confirmation_score": 37.97,
+  "trade_probability": 42.78,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
