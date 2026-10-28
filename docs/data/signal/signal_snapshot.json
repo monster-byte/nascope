@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T05:01:23.551123+00:00",
+  "generated_at": "2026-10-28T05:15:50.856687+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.98,
+      "score": 45.03,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.42,
-        "change_5d_pct": 0.628
+        "current_dxy": 102.41,
+        "change_5d_pct": 0.621
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.72,
+      "score": 57.45,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.134,
-        "articles_analyzed": 25,
+        "avg_compound": 0.149,
+        "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "UK to charge universities $1,200 per international student",
+            "source": "Business Insider",
+            "publishedAt": "2026-10-27T05:13:08Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Flyers face a nasty surprise as ticket prices to stay high even when fuel costs fall warns American Airlines",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-10-27T05:04:59Z",
+            "sentiment": "Negative",
+            "compound": -0.44
+          },
+          {
+            "title": "Ather Energy extends rally, EV stock surges 20% in 2 days; here's why",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-27T05:02:02Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
           {
             "title": "VSE Corporation, Viavi Solutions, Moog, Bloom Energy, and Comfort Systems stocks trade up, what you need to know",
             "source": "Biztoc.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-27T04:53:51Z",
             "sentiment": "Negative",
             "compound": -0.66
-          },
-          {
-            "title": "15 Wicked wings for $15.95 @ kfc app / online order",
-            "source": "Ozbargain.com.au",
-            "publishedAt": "2026-10-27T04:51:28Z",
-            "sentiment": "Negative",
-            "compound": -0.527
-          },
-          {
-            "title": "HSBC quarterly profit jumps but shares slide after flat revenue for wealth business",
-            "source": "CNA",
-            "publishedAt": "2026-10-27T04:50:53Z",
-            "sentiment": "Positive",
-            "compound": 0.842
-          },
-          {
-            "title": "Sensex, Nifty extend gains despite oil hovering near $115/barrel. What lies ahead?",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-27T04:49:37Z",
-            "sentiment": "Positive",
-            "compound": 0.459
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.72,
-  "trade_probability": 54.63,
+  "confirmation_score": 57.79,
+  "trade_probability": 54.67,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
