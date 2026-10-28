@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T03:01:27.604800+00:00",
+  "generated_at": "2026-10-28T03:15:49.746463+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.0263,
+          "change_pct": 1.0234,
           "up": true
         },
         "MSFT": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.99,
+      "score": 44.92,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.37,
-        "change_5d_pct": 0.626
+        "current_dxy": 102.38,
+        "change_5d_pct": 0.635
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 65.79,
-      "status": "green",
+      "score": 64.3,
+      "status": "yellow",
       "details": {
         "overall_sentiment": "BULLISH",
-        "avg_compound": 0.316,
+        "avg_compound": 0.286,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Trump approval rises from record low to 32% ahead of midterm election: Poll",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-27T03:10:29Z",
+            "sentiment": "Positive",
+            "compound": 0.25
+          },
+          {
+            "title": "OpenAI’s GPT-6.1 Terra: Speedy AI at half the cost",
+            "source": "Nextbigwhat.com",
+            "publishedAt": "2026-10-27T03:04:13Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Microsoft’s bold buyout plan targets 60,000 employees amid AI push",
+            "source": "Nextbigwhat.com",
+            "publishedAt": "2026-10-27T03:03:59Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
           {
             "title": "Sensex, Nifty likely to open lower as oil stays near six-month high",
             "source": "The Times of India",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-27T02:58:25Z",
             "sentiment": "Positive",
             "compound": 0.202
-          },
-          {
-            "title": "DXP, Graham Corporation, MSC Industrial, CACI, and Powell shares are soaring, what you need to know",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-27T02:51:00Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "The questions ET Wealth Expo 2026 will actually answer, and why they matter right now",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-27T02:50:48Z",
-            "sentiment": "Positive",
-            "compound": 0.511
-          },
-          {
-            "title": "AI Bubble Bursts in China, Wiping $480 Billion: Is America Next?",
-            "source": "Freerepublic.com",
-            "publishedAt": "2026-10-27T02:44:24Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 58.54,
-  "trade_probability": 55.12,
+  "confirmation_score": 58.4,
+  "trade_probability": 55.04,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
