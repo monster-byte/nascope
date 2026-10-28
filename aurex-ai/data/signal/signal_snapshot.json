@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T14:16:01.831780+00:00",
+  "generated_at": "2026-10-28T14:31:13.257973+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 0.0,
+      "score": 25.0,
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.587,
+          "change_pct": -0.6879,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.5154,
+          "change_pct": -0.615,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.259,
-          "up": false
+          "change_pct": 0.078,
+          "up": true
         },
         "AMZN": {
-          "change_pct": -0.0044,
+          "change_pct": -0.0852,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29669.6,
-        "sma50": 29810.47,
-        "sma200": 27893.69
+        "last_price": 29698.51,
+        "sma50": 29811.05,
+        "sma200": 27893.83
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 35.0,
       "status": "red",
       "details": {
-        "current_vxn": 24.88,
+        "current_vxn": 24.71,
         "percentile_vs_20d": 65.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 72.85,
+      "score": 70.68,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.999,
-        "change_5d_pct": -2.857
+        "current_yield_pct": 5.013,
+        "change_5d_pct": -2.585
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.52,
+      "score": 45.12,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.35,
-        "change_5d_pct": 0.56
+        "current_dxy": 102.4,
+        "change_5d_pct": 0.61
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.51,
+      "score": 48.66,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.03,
+        "avg_compound": -0.027,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Who Will Control the Machines?",
-            "source": "Thegatewaypundit.com",
-            "publishedAt": "2026-10-27T14:15:34Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "RIL to announce Q2 results on October 30, board to also consider fundraising",
+            "title": "IndiaMART bets on AI to sharpen its edge, but warns of uncertain returns",
             "source": "The Times of India",
-            "publishedAt": "2026-10-27T14:14:58Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Trump’s economy, in 13 charts - The Washington Post",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-10-27T14:12:55Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "GM to Move Stock Listing to Tech-Focused Nasdaq, Leaving NYSE - Bloomberg.com",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-10-27T14:12:45Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "GM just switched to the Nasdaq, but does that really make it a tech company?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-27T14:12:19Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Prediction: The Stock Market Could Crash in 2027, and Elon Musk Just Explained Why",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-27T14:11:10Z",
+            "publishedAt": "2026-10-27T14:24:04Z",
             "sentiment": "Negative",
-            "compound": -0.402
+            "compound": -0.527
+          },
+          {
+            "title": "Susan Saint James of ‘McMillan & Wife,’ ‘Kate & Allie’ Dies at 80",
+            "source": "Extra",
+            "publishedAt": "2026-10-27T14:23:45Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Super.com Appoints Bernard Kim and Isabelle Winkles to its Board of Directors",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-27T14:23:32Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Stock Market Says Alphabet Is AI Loser",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-27T14:23:28Z",
+            "sentiment": "Negative",
+            "compound": -0.527
+          },
+          {
+            "title": "Sangoma Signs 350-Store Retailer, Growing Its Managed Services Business in Retail",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-27T14:21:53Z",
+            "sentiment": "Neutral",
+            "compound": 0.178
+          },
+          {
+            "title": "Nasdaq-100 comes onchain as Janus Henderson and Centrifuge launch first licensed fund",
+            "source": "CoinDesk",
+            "publishedAt": "2026-10-27T14:21:10Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 37.97,
-  "trade_probability": 42.78,
+  "confirmation_score": 44.13,
+  "trade_probability": 46.48,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
