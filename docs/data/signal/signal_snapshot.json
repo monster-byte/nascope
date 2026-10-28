@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T18:01:24.664768+00:00",
+  "generated_at": "2026-10-28T18:15:52.701337+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.4369,
+          "change_pct": -0.6375,
           "up": false
         },
         "MSFT": {
-          "change_pct": -1.0693,
+          "change_pct": -1.1416,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.3897,
+          "change_pct": -0.7106,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.365,
+          "change_pct": -0.6566,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29705.35,
-        "sma50": 29811.18,
-        "sma200": 27893.86
+        "last_price": 29650.2,
+        "sma50": 29810.08,
+        "sma200": 27893.59
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 35.0,
-      "status": "red",
+      "score": 45.0,
+      "status": "yellow",
       "details": {
-        "current_vxn": 24.73,
-        "percentile_vs_20d": 65.0
+        "current_vxn": 24.18,
+        "percentile_vs_20d": 55.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 69.28,
+      "score": 69.9,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.022,
-        "change_5d_pct": -2.41
+        "current_yield_pct": 5.018,
+        "change_5d_pct": -2.487
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.78,
+      "score": 45.96,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.32,
-        "change_5d_pct": 0.528
+        "current_dxy": 102.29,
+        "change_5d_pct": 0.505
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.37,
+      "score": 54.65,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.027,
+        "avg_compound": 0.093,
         "articles_analyzed": 23,
         "top_headlines": [
           {
-            "title": "Alphabet Is Set to Become an Even Bigger Anthropic Shareholder After the IPO",
+            "title": "Federal Reserve expected to hold interest rates steady in last decision before midterm elections",
             "source": "Biztoc.com",
-            "publishedAt": "2026-10-27T18:00:58Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "publishedAt": "2026-10-27T18:13:30Z",
+            "sentiment": "Positive",
+            "compound": 0.459
           },
           {
             "title": "White House tempers its tough talk on Canada trade as inflation tops voter concerns",
-            "source": "NBC News",
-            "publishedAt": "2026-10-27T18:00:38Z",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-27T18:13:30Z",
             "sentiment": "Neutral",
             "compound": 0.128
           },
           {
-            "title": "Cintas Corporation Announces Quarterly Cash Dividend",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-27T18:00:23Z",
+            "title": "Early third-quarter earnings show a 'resilient' U.S. consumer, with signs of strain",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-27T18:13:14Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": -0.052
           },
           {
-            "title": "Monad Wins a Stablecoin Card Infrastructure Deal With Reap and Meru",
-            "source": "newsBTC",
-            "publishedAt": "2026-10-27T18:00:00Z",
+            "title": "Early third-quarter earnings show a 'resilient' U.S. consumer, with signs of strain",
+            "source": "CNBC",
+            "publishedAt": "2026-10-27T18:12:20Z",
+            "sentiment": "Neutral",
+            "compound": -0.052
+          },
+          {
+            "title": "Airlines are trading nearly 23% higher ticket prices for emptier planes as jet fuel prices spike over 90% from the Iran War’s fuel squeeze",
+            "source": "Fortune",
+            "publishedAt": "2026-10-27T18:11:13Z",
+            "sentiment": "Neutral",
+            "compound": -0.178
+          },
+          {
+            "title": "Markets end flat ahead of Fed decision; FPIs buy shares worth ₹4,240 crore",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-27T18:08:11Z",
             "sentiment": "Positive",
-            "compound": 0.572
-          },
-          {
-            "title": "Keep on Truckin’",
-            "source": "Dailyreckoning.com",
-            "publishedAt": "2026-10-27T18:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Business Council names Victoria worst state for business, again",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-10-27T18:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.625
+            "compound": 0.477
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 37.5,
-  "trade_probability": 42.5,
+  "confirmation_score": 38.79,
+  "trade_probability": 43.27,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
