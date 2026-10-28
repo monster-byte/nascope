@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T18:31:13.035459+00:00",
+  "generated_at": "2026-10-28T18:43:07.716138+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,59 +17,59 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.6764,
+          "change_pct": -0.6821,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.7651,
+          "change_pct": -0.6478,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.4653,
+          "change_pct": -0.2682,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.298,
+          "change_pct": -0.0063,
           "up": false
         }
       }
     },
     "market_regime": {
       "factor": "market_regime",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 70.24,
+      "status": "green",
       "details": {
-        "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29719.41,
-        "sma50": 29811.46,
-        "sma200": 27893.93
+        "regime": "BULLISH",
+        "last_price": 29837.8,
+        "sma50": 29813.83,
+        "sma200": 27894.53
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 40.0,
-      "status": "yellow",
+      "score": 35.0,
+      "status": "red",
       "details": {
-        "current_vxn": 24.59,
-        "percentile_vs_20d": 60.0
+        "current_vxn": 24.65,
+        "percentile_vs_20d": 65.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 65.7,
+      "score": 67.1,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.045,
-        "change_5d_pct": -1.963
+        "current_yield_pct": 5.036,
+        "change_5d_pct": -2.138
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.32,
+      "score": 45.06,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.38,
-        "change_5d_pct": 0.586
+        "current_dxy": 102.41,
+        "change_5d_pct": 0.617
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.01,
+      "score": 53.57,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.08,
-        "articles_analyzed": 24,
+        "avg_compound": 0.071,
+        "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "When Is a Sports Bet Not a Sports Bet?",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-10-27T18:41:54Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Ex-AfDB president Adesina meets Tinubu, says he’s ready to serve Nigeria",
+            "source": "The Punch",
+            "publishedAt": "2026-10-27T18:38:35Z",
+            "sentiment": "Positive",
+            "compound": 0.361
+          },
+          {
+            "title": "Conagra and Campbell's Have Already Cut Their Dividends in 2026. Could General Mills Be Next?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-27T18:31:23Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
           {
             "title": "Are Americans More Stressed Than Ever? Why?",
             "source": "Psychology Today",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-27T18:27:39Z",
             "sentiment": "Positive",
             "compound": 0.542
-          },
-          {
-            "title": "Infosys draws four downgrades in a day on weaker annual sales outlook",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-27T18:26:10Z",
-            "sentiment": "Negative",
-            "compound": -0.44
-          },
-          {
-            "title": "Airtel Money reports 25% growth in first-half revenue",
-            "source": "Sundayworld.co.za",
-            "publishedAt": "2026-10-27T18:19:12Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "The Trump admin said energy costs were a small price to pay in Iran war, but U.S. consumers are paying nearly 8x more than anyone else in fuel costs",
-            "source": "Fortune",
-            "publishedAt": "2026-10-27T18:16:32Z",
-            "sentiment": "Negative",
-            "compound": -0.273
           }
         ]
       }
@@ -146,9 +146,9 @@
       }
     }
   },
-  "confirmation_score": 37.66,
-  "trade_probability": 42.6,
-  "market_regime": "NEUTRAL / TRANSITIONAL",
+  "confirmation_score": 40.07,
+  "trade_probability": 44.04,
+  "market_regime": "BULLISH",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
     "directional_bias": "NEUTRAL"
