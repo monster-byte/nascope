@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T12:31:16.274766+00:00",
+  "generated_at": "2026-10-28T12:45:51.767444+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.008,
+          "change_pct": -0.0051,
           "up": false
         },
         "MSFT": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 69.39,
+      "score": 73.16,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.993,
-        "change_5d_pct": -2.423
+        "current_yield_pct": 4.997,
+        "change_5d_pct": -2.895
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.85,
+      "score": 45.7,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.31,
-        "change_5d_pct": 0.519
+        "current_dxy": 102.33,
+        "change_5d_pct": 0.537
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.53,
+      "score": 57.6,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.111,
+        "avg_compound": 0.152,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Janus Henderson launches first tokenized fund licensed to track the Nasdaq-100",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-27T12:44:34Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "3 things to look out for on Tuesday",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-27T12:35:37Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Anthropic’s Founders Will Keep Control With a Single Share of Stock",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-27T12:35:11Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
           {
             "title": "Lectric launches XP Lite3 e-bike, the new best low-cost model in the US",
             "source": "Electrek",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-27T12:28:34Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "SoFi stock price jumps over 10 per cent after SoFi Technologies Inc Q3 earnings report beats Wall Street estimates, check revenue forecast",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-27T12:28:01Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Joe Scarborough Fumes Over Double Standard as Musk’s MAGA Cash Injection Far Surpasses George Soros’ Lifetime Total: ‘One Is a Jew’",
-            "source": "Mediaite",
-            "publishedAt": "2026-10-27T12:23:47Z",
-            "sentiment": "Neutral",
-            "compound": -0.026
-          },
-          {
-            "title": "Tech's relief rally extends as attention turns to tough decisions for the Fed",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-27T12:19:36Z",
-            "sentiment": "Positive",
-            "compound": 0.477
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 37.44,
-  "trade_probability": 42.46,
+  "confirmation_score": 38.12,
+  "trade_probability": 42.87,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
