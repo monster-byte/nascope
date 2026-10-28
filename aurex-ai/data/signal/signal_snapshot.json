@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T13:45:58.836153+00:00",
+  "generated_at": "2026-10-28T14:01:29.017308+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 0.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.4661,
+          "change_pct": -0.5957,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.1569,
+          "change_pct": -0.5915,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.1605,
-          "up": true
+          "change_pct": -0.1329,
+          "up": false
         },
         "AMZN": {
-          "change_pct": 0.0015,
-          "up": true
+          "change_pct": -0.1719,
+          "up": false
         }
       }
     },
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29702.17,
-        "sma50": 29811.12,
-        "sma200": 27893.85
+        "last_price": 29672.45,
+        "sma50": 29810.53,
+        "sma200": 27893.7
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 30.0,
-      "status": "red",
+      "score": 40.0,
+      "status": "yellow",
       "details": {
-        "current_vxn": 25.0,
-        "percentile_vs_20d": 70.0
+        "current_vxn": 24.86,
+        "percentile_vs_20d": 60.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 73.47,
+      "score": 71.92,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.995,
-        "change_5d_pct": -2.934
+        "current_yield_pct": 5.005,
+        "change_5d_pct": -2.74
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.55,
+      "score": 45.69,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.35,
-        "change_5d_pct": 0.556
+        "current_dxy": 102.33,
+        "change_5d_pct": 0.538
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.18,
+      "score": 51.84,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.084,
+        "avg_compound": 0.037,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Mothballed Mills and Historic Mine Sites Move Back Into Silver’s Plans",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-27T13:44:46Z",
+            "title": "Factors associated with mortality among critically ill pediatric patients referred to a tertiary hospital in Indonesia",
+            "source": "Plos.org",
+            "publishedAt": "2026-10-27T14:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
+          {
+            "title": "Atrial fibrillation is independently associated with impaired myocardial perfusion",
+            "source": "Plos.org",
+            "publishedAt": "2026-10-27T14:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Kinvestor Day 2026 Virtual Investor Conference: Presentations Now Available for Online Viewing",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-27T13:43:52Z",
+            "title": "Resilience and academic performance in mathematics and science among middle school students: The mediating role of computational thinking",
+            "source": "Plos.org",
+            "publishedAt": "2026-10-27T14:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Mortgage Rates Today, Tuesday, October 27: Flat for Now",
-            "source": "NerdWallet",
-            "publishedAt": "2026-10-27T13:40:46Z",
+            "title": "From public digital discourse to sustained engagement: Digital cultural translation of the Twenty-Four Solar Terms",
+            "source": "Plos.org",
+            "publishedAt": "2026-10-27T14:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "Disparities in screening participation and stage at diagnosis for breast and bowel cancers among individuals with pre-existing mental health disorders: A population-based study",
+            "source": "Plos.org",
+            "publishedAt": "2026-10-27T14:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "High inflation to persist globally into next year, Reuters poll shows",
-            "source": "CNA",
-            "publishedAt": "2026-10-27T13:40:04Z",
+            "title": "As Costs Crush Families, This Bay Area County Could Be Latest to Subsidize Childcare",
+            "source": "KQED",
+            "publishedAt": "2026-10-27T14:00:00Z",
             "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "US stocks today: S&P 500, Nasdaq open higher as oil pulls back ahead of Fed rate decision",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-27T13:37:38Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "“Core” CPI Challenge",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-27T13:37:30Z",
-            "sentiment": "Neutral",
-            "compound": 0.077
+            "compound": -0.153
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 51.34,
-  "trade_probability": 50.8,
+  "confirmation_score": 38.34,
+  "trade_probability": 43.0,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
