@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T09:15:54.590124+00:00",
+  "generated_at": "2026-10-28T09:31:10.945624+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.0051,
+          "change_pct": -0.008,
           "up": false
         },
         "MSFT": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.27,
+      "score": 45.3,
       "status": "yellow",
       "details": {
         "current_dxy": 102.38,
-        "change_5d_pct": 0.591
+        "change_5d_pct": 0.588
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.08,
+      "score": 55.15,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.082,
+        "avg_compound": 0.103,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Stock Market Today: Oil Ticks Higher With Mideast in Focus",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-27T09:29:51Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Hedge Funds Sell, Retail Buys: Whose The Smart Money?",
+            "source": "Realinvestmentadvice.com",
+            "publishedAt": "2026-10-27T09:26:00Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "AFC North QB stock watch: Tyler Huntley slips as Joe Burrow surges",
+            "source": "USA Today",
+            "publishedAt": "2026-10-27T09:25:28Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "US IPO Process: How companies navigate the road to Wall Street listing",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-27T09:23:08Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Prediction: Oct. 29 Will Be an Enormous Day for the Stock Market",
             "source": "Biztoc.com",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-27T09:15:00Z",
             "sentiment": "Positive",
             "compound": 0.34
-          },
-          {
-            "title": "The Fed Is Expected to Hold Rates Steady. Warsh Will Have to Explain Why",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-27T09:14:27Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "How a Fed interest rate pause would impact Main Street investors",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-27T09:14:26Z",
-            "sentiment": "Positive",
-            "compound": 0.459
-          },
-          {
-            "title": "CalPERS weighs AI’s risks, to markets and to humanity, as tech valuations soar",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-27T09:08:26Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "‘Worst Speaker Ever’: JD Vance’s ‘Tinpot Dictator’ Line Backfires Spectacularly",
-            "source": "HuffPost",
-            "publishedAt": "2026-10-27T09:07:08Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 37.26,
-  "trade_probability": 42.36,
+  "confirmation_score": 37.36,
+  "trade_probability": 42.42,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
