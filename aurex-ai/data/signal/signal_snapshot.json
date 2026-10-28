@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T02:01:22.100271+00:00",
+  "generated_at": "2026-10-28T02:15:58.649860+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.61,
+      "score": 44.71,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.42,
-        "change_5d_pct": 0.673
+        "current_dxy": 102.4,
+        "change_5d_pct": 0.662
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 59.38,
+      "score": 62.23,
       "status": "yellow",
       "details": {
-        "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.188,
+        "overall_sentiment": "BULLISH",
+        "avg_compound": 0.245,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "In China, the AI Bubble Has Already Burst",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-10-27T02:15:34Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "In China, the AI bubble has already burst",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-27T02:09:35Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Gold eases as stronger dollar weighs, Fed meeting in focus",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-27T02:09:00Z",
+            "sentiment": "Positive",
+            "compound": 0.599
+          },
+          {
+            "title": "Telstra shares gain 0% in 12 months: Safe haven or value trap?",
+            "source": "Motley Fool Australia",
+            "publishedAt": "2026-10-27T02:05:47Z",
+            "sentiment": "Positive",
+            "compound": 0.823
+          },
           {
             "title": "Tata consumer Q2 net profit up despite higher costs, weak tea demand",
             "source": "The Times of India",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-27T01:53:56Z",
             "sentiment": "Positive",
             "compound": 0.758
-          },
-          {
-            "title": "Welcome to Lost Latitudes, Crikey’s new weekly newsletter to moor yourself in a world gone mad",
-            "source": "Crikey",
-            "publishedAt": "2026-10-27T01:48:02Z",
-            "sentiment": "Negative",
-            "compound": -0.361
-          },
-          {
-            "title": "Sensex Today | Nifty 50 | Stock Market Live Updates: GIFT Nifty signals a negative start; Asian shares trade higher",
-            "source": "Economictimes.com",
-            "publishedAt": "2026-10-27T01:42:27Z",
-            "sentiment": "Positive",
-            "compound": 0.76
-          },
-          {
-            "title": "Anthropic takes AI test with filing for Wall Street debut",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-27T01:41:47Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Trump hits campaign trail in Mississippi as Republicans face surprise challenges in states they expected to win easily",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-27T01:38:09Z",
-            "sentiment": "Positive",
-            "compound": 0.823
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.93,
-  "trade_probability": 54.76,
+  "confirmation_score": 58.19,
+  "trade_probability": 54.91,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
