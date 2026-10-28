@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T06:31:07.032963+00:00",
+  "generated_at": "2026-10-28T06:45:50.487729+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.0234,
+          "change_pct": 1.0263,
           "up": true
         },
         "MSFT": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.0,
+      "score": 44.71,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.42,
-        "change_5d_pct": 0.625
+        "current_dxy": 102.45,
+        "change_5d_pct": 0.661
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.72,
+      "score": 52.46,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.034,
-        "articles_analyzed": 24,
+        "avg_compound": 0.049,
+        "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Meta Announces Pricing of Offering of Depositary Shares Representing Series A Mandatory Convertible Preferred Stock and Offering of Class A Common Stock in Connection with Forward Sale Agreements",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-27T06:41:18Z",
+            "sentiment": "Positive",
+            "compound": 0.557
+          },
+          {
+            "title": "Andoni Iraola saves Liverpool £100m thanks to genius decision",
+            "source": "Anfieldwatch.co.uk",
+            "publishedAt": "2026-10-27T06:35:00Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
+          {
+            "title": "Why Anthropic’s IPO Prospectus Is Missing So Many Key Figures - WIRED",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-10-27T06:32:50Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
           {
             "title": "Asian stocks rise as AI enthusiasm returns with Anthropic IPO",
             "source": "The Irish Times",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-27T06:25:13Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Hindustan Unilever slips 3%, hits over 6-year low ahead of Q2 results",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-27T06:15:43Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "ASX 200 Rises 0.5% to 8,850 as Miners and AI Optimism Lift Australian Shares Ahead of Crucial Inflation Data",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-10-27T06:15:41Z",
-            "sentiment": "Positive",
-            "compound": 0.691
-          },
-          {
-            "title": "Global Market: Yuan holds near four-year high as China tempers appreciation pace",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-27T06:01:56Z",
-            "sentiment": "Positive",
-            "compound": 0.25
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.27,
-  "trade_probability": 54.36,
+  "confirmation_score": 57.31,
+  "trade_probability": 54.39,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
