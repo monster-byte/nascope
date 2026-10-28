@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T15:01:26.704941+00:00",
+  "generated_at": "2026-10-28T15:15:58.588876+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.4701,
+          "change_pct": -0.5395,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.8891,
+          "change_pct": -0.8243,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.1696,
+          "change_pct": -0.1719,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.6172,
+          "change_pct": -0.5403,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29660.39,
-        "sma50": 29810.28,
-        "sma200": 27893.64
+        "last_price": 29685.82,
+        "sma50": 29810.79,
+        "sma200": 27893.77
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 35.0,
-      "status": "red",
+      "score": 40.0,
+      "status": "yellow",
       "details": {
-        "current_vxn": 24.81,
-        "percentile_vs_20d": 65.0
+        "current_vxn": 24.85,
+        "percentile_vs_20d": 60.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 68.97,
+      "score": 68.03,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.024,
-        "change_5d_pct": -2.371
+        "current_yield_pct": 5.03,
+        "change_5d_pct": -2.254
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.33,
+      "score": 45.62,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.37,
-        "change_5d_pct": 0.584
+        "current_dxy": 102.34,
+        "change_5d_pct": 0.547
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.57,
+      "score": 55.94,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.051,
+        "avg_compound": 0.119,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Bitcoin’s next rally could trigger selling from holders of 874,000 BTC",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-10-27T15:00:26Z",
+            "title": "Home prices continued to climb in August before mortgage rates surged",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-27T15:12:56Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "In China, the AI Bubble Has Already Burst",
+            "title": "S&P 500, Nasdaq open higher as oil pulls back ahead of Fed decision - Reuters",
             "source": "Slashdot.org",
-            "publishedAt": "2026-10-27T15:00:00Z",
+            "publishedAt": "2026-10-27T15:12:52Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "It Appears That the AI Bubble Has Just Burst in China",
-            "source": "Futurism",
-            "publishedAt": "2026-10-27T14:57:47Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Nasdaq-100 comes onchain as Janus Henderson and Centrifuge launch first licensed fund",
+            "title": "General Motors Rises 5% on Nasdaq Listing Move and Index Eligibility; Tesla Gains 3%, Ford Edges Higher",
             "source": "Biztoc.com",
-            "publishedAt": "2026-10-27T14:54:32Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "publishedAt": "2026-10-27T15:09:33Z",
+            "sentiment": "Positive",
+            "compound": 0.34
           },
           {
-            "title": "Prediction: The Stock Market Could Crash in 2027, and Elon Musk Just Explained Why",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-27T14:54:18Z",
+            "title": "What Is ANT Stock? Anthropic’s IPO Plans and Autonomi Token Risks",
+            "source": "Bitcoinfoundation.org",
+            "publishedAt": "2026-10-27T15:09:08Z",
             "sentiment": "Negative",
-            "compound": -0.402
+            "compound": -0.273
           },
           {
-            "title": "US Fed opens two-day meeting with markets expecting rate hold",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-27T14:51:31Z",
+            "title": "Anthropic to discuss IPO plans in live Q&A amid AI market buzz",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-27T15:05:35Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "QB Stock Market Week 8: The Next Step Is The Hardest For Drake Maye, Caleb Williams",
+            "source": "Fox Sports",
+            "publishedAt": "2026-10-27T15:04:49Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 37.52,
-  "trade_probability": 42.51,
+  "confirmation_score": 38.17,
+  "trade_probability": 42.9,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
