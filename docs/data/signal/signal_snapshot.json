@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T12:15:53.270035+00:00",
+  "generated_at": "2026-10-28T12:31:16.274766+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.0051,
+          "change_pct": -0.008,
           "up": false
         },
         "MSFT": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.72,
+      "score": 45.85,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.32,
-        "change_5d_pct": 0.534
+        "current_dxy": 102.31,
+        "change_5d_pct": 0.519
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.86,
+      "score": 55.53,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.077,
-        "articles_analyzed": 25,
+        "avg_compound": 0.111,
+        "articles_analyzed": 23,
         "top_headlines": [
           {
-            "title": "As Anthropic’s IPO approaches, CFO Krishna Rao faces a defining test",
-            "source": "Fortune",
-            "publishedAt": "2026-10-27T12:12:49Z",
+            "title": "Lectric launches XP Lite3 e-bike, the new best low-cost model in the US",
+            "source": "Electrek",
+            "publishedAt": "2026-10-27T12:30:39Z",
+            "sentiment": "Positive",
+            "compound": 0.819
+          },
+          {
+            "title": "Over 175 House Democrats Demand DOJ Drop Criminal Probe of Ilhan Omar, Call Raid ‘Weaponization’",
+            "source": "Thegatewaypundit.com",
+            "publishedAt": "2026-10-27T12:30:29Z",
+            "sentiment": "Negative",
+            "compound": -0.718
+          },
+          {
+            "title": "Renters and younger people hit harder by inflation",
+            "source": "The Irish Times",
+            "publishedAt": "2026-10-27T12:28:34Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "US Stock Market Live Updates: US stock futures rise as oil falls ahead of Fed decision",
-            "source": "Economictimes.com",
-            "publishedAt": "2026-10-27T12:12:29Z",
+            "title": "SoFi stock price jumps over 10 per cent after SoFi Technologies Inc Q3 earnings report beats Wall Street estimates, check revenue forecast",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-27T12:28:01Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "Joe Scarborough Fumes Over Double Standard as Musk’s MAGA Cash Injection Far Surpasses George Soros’ Lifetime Total: ‘One Is a Jew’",
+            "source": "Mediaite",
+            "publishedAt": "2026-10-27T12:23:47Z",
+            "sentiment": "Neutral",
+            "compound": -0.026
           },
           {
             "title": "Tech's relief rally extends as attention turns to tough decisions for the Fed",
-            "source": "CNBC",
-            "publishedAt": "2026-10-27T12:09:19Z",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-27T12:19:36Z",
             "sentiment": "Positive",
             "compound": 0.477
-          },
-          {
-            "title": "Finally, 1 Rare and Mostly Good Thing for Lucid Investors",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-27T12:08:34Z",
-            "sentiment": "Positive",
-            "compound": 0.44
-          },
-          {
-            "title": "GM to move stock listing to Nasdaq in November, shares gain",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-27T12:08:08Z",
-            "sentiment": "Positive",
-            "compound": 0.681
-          },
-          {
-            "title": "Anthropic renews a certain kind of AI investors' faith",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-27T12:08:05Z",
-            "sentiment": "Positive",
-            "compound": 0.599
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 37.28,
-  "trade_probability": 42.37,
+  "confirmation_score": 37.44,
+  "trade_probability": 42.46,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
