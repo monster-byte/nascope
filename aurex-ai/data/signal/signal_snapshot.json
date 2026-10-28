@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T08:31:12.793949+00:00",
+  "generated_at": "2026-10-28T08:45:49.639221+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.008,
+          "change_pct": -0.0051,
           "up": false
         },
         "MSFT": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.43,
+      "score": 45.32,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.36,
-        "change_5d_pct": 0.571
+        "current_dxy": 102.38,
+        "change_5d_pct": 0.586
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.26,
+      "score": 55.29,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.065,
+        "avg_compound": 0.106,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Hyperliquid rebounds from $75 as traders watch $83 resistance",
+            "source": "Coinjournal.net",
+            "publishedAt": "2026-10-27T08:45:37Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "India should not deplete reserves to defend rupee, former RBI chief Rajan says",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-27T08:44:29Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Tata Consumer’s distribution overhaul powers growth in more businesses, says CEO",
+            "source": "Livemint",
+            "publishedAt": "2026-10-27T08:41:02Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "Anthropic’s IPO filing lifts stocks across Asia—except for China",
+            "source": "Fortune",
+            "publishedAt": "2026-10-27T08:39:26Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Sobi Q3 2026 report: Underpinning a strong growth momentum",
             "source": "PR Newswire UK",
@@ -103,34 +131,6 @@
             "title": "Resist temptation to defend ₹ at any cost: Raghuram Rajan cautions India against excessive use of forex reserves",
             "source": "The Times of India",
             "publishedAt": "2026-10-27T08:29:53Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Greek salad, strip clubs, beaches and a little GENOP, Karamanlis’s lunch with Pierr, UEFA’s 5+1 golden packages, the TV suitors and Goldman Sachs out of the running for Attica Group",
-            "source": "Protothema.gr",
-            "publishedAt": "2026-10-27T08:29:35Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "DA hike July 2026: Will cabinet approve dearness allowance increase for central government employees on October 28?",
-            "source": "Livemint",
-            "publishedAt": "2026-10-27T08:28:48Z",
-            "sentiment": "Positive",
-            "compound": 0.649
-          },
-          {
-            "title": "Does Jensen Huang Know Something Wall Street Doesn't? Nvidia's CEO Sees No Signs of Memory Demand Fading by 2029",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-27T08:28:46Z",
-            "sentiment": "Negative",
-            "compound": -0.402
-          },
-          {
-            "title": "Kevin Warsh-Led Fed Faces Inflation Test Ahead Of Midterms As Stephen Moore Calls For Another Hike: Crypto Bettors Weigh In",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-27T08:28:37Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 37.2,
-  "trade_probability": 42.32,
+  "confirmation_score": 37.37,
+  "trade_probability": 42.42,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
