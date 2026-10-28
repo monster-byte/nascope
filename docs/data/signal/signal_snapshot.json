@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T17:01:29.106186+00:00",
+  "generated_at": "2026-10-28T17:15:55.190589+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.3897,
+          "change_pct": -0.4559,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.9632,
+          "change_pct": -1.0608,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.2751,
+          "change_pct": -0.3988,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.1975,
+          "change_pct": -0.2704,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29728.49,
-        "sma50": 29811.65,
-        "sma200": 27893.98
+        "last_price": 29694.51,
+        "sma50": 29810.97,
+        "sma200": 27893.81
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 35.0,
-      "status": "red",
+      "score": 40.0,
+      "status": "yellow",
       "details": {
-        "current_vxn": 24.82,
-        "percentile_vs_20d": 65.0
+        "current_vxn": 24.75,
+        "percentile_vs_20d": 60.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 68.34,
+      "score": 69.9,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.028,
-        "change_5d_pct": -2.293
+        "current_yield_pct": 5.018,
+        "change_5d_pct": -2.487
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.1,
+      "score": 46.37,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.28,
-        "change_5d_pct": 0.487
+        "current_dxy": 102.24,
+        "change_5d_pct": 0.454
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.0,
+      "score": 49.39,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.04,
+        "avg_compound": -0.012,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Trump places telling condition on accepting midterm election results with ominous reply as Democrats surge in polls one week out",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-10-27T17:01:22Z",
+            "title": "GM to transfer stock listing to Nasdaq",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-27T17:14:44Z",
             "sentiment": "Neutral",
-            "compound": 0.052
+            "compound": 0.0
+          },
+          {
+            "title": "Nike’s empire under threat: $230 billion wiped off its value as sporting stars defect and new rivals gain ground",
+            "source": "Protothema.gr",
+            "publishedAt": "2026-10-27T17:14:05Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Crude Oil Moves Lower; Corning Earnings Top Views - Corning (NYSE:GLW), Kiniksa Pharmaceuticals (NASDAQ:KNSA)",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-27T17:12:13Z",
+            "sentiment": "Negative",
+            "compound": -0.625
           },
           {
             "title": "Republican voters are getting worried about high costs as inflation stings and the midterms approach",
-            "source": "Business Insider",
-            "publishedAt": "2026-10-27T17:00:28Z",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-27T17:12:03Z",
             "sentiment": "Negative",
             "compound": -0.296
           },
           {
-            "title": "Inside Economics: Why can’t we borrow more? As the election looms, how much debt is too much?",
-            "source": "New Zealand Herald",
-            "publishedAt": "2026-10-27T17:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.536
-          },
-          {
-            "title": "JPMorgan CEO Warns of 5 Risks Threatening US Stocks and Bonds",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-27T16:59:59Z",
-            "sentiment": "Negative",
-            "compound": -0.71
-          },
-          {
-            "title": "Knack Packaging Q2 net profit rises 25% to ₹25 crore, revenue jumps 53%",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-27T16:51:58Z",
+            "title": "Seagate 16TB Expansion External Hard Drive (USB 3.0) $399.99 + Free Shipping (24 replies)",
+            "source": "Slickdeals.net",
+            "publishedAt": "2026-10-27T17:06:03Z",
             "sentiment": "Positive",
             "compound": 0.44
           },
           {
-            "title": "Trump’s Cheesecake Factory Dissent",
-            "source": "The Atlantic",
-            "publishedAt": "2026-10-27T16:43:57Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "India's growth momentum stays resilient despite global headwinds: RBI Deputy Governor Poonam Gupta",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-27T17:03:42Z",
+            "sentiment": "Positive",
+            "compound": 0.382
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 37.45,
-  "trade_probability": 42.47,
+  "confirmation_score": 37.9,
+  "trade_probability": 42.74,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
