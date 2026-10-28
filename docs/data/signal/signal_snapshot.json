@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T14:31:13.257973+00:00",
+  "generated_at": "2026-10-28T14:45:58.230296+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
+      "score": 0.0,
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.6879,
+          "change_pct": -0.6476,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.615,
+          "change_pct": -0.6206,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.078,
-          "up": true
+          "change_pct": -0.1146,
+          "up": false
         },
         "AMZN": {
-          "change_pct": -0.0852,
+          "change_pct": -0.3433,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29698.51,
-        "sma50": 29811.05,
-        "sma200": 27893.83
+        "last_price": 29671.32,
+        "sma50": 29810.5,
+        "sma200": 27893.69
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 35.0,
       "status": "red",
       "details": {
-        "current_vxn": 24.71,
+        "current_vxn": 24.8,
         "percentile_vs_20d": 65.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 70.68,
+      "score": 69.59,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.013,
-        "change_5d_pct": -2.585
+        "current_yield_pct": 5.02,
+        "change_5d_pct": -2.449
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.12,
+      "score": 45.18,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.4,
-        "change_5d_pct": 0.61
+        "current_dxy": 102.39,
+        "change_5d_pct": 0.602
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.66,
+      "score": 51.22,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.027,
+        "avg_compound": 0.024,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "IndiaMART bets on AI to sharpen its edge, but warns of uncertain returns",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-27T14:24:04Z",
+            "title": "Brigham and Women's Nurses Reject Mass General Brigham's Final Offer, Leaving Boston Patients Watching for a Strike Notice",
+            "source": "Medical Daily",
+            "publishedAt": "2026-10-27T14:45:02Z",
             "sentiment": "Negative",
-            "compound": -0.527
+            "compound": -0.494
           },
           {
-            "title": "Susan Saint James of ‘McMillan & Wife,’ ‘Kate & Allie’ Dies at 80",
-            "source": "Extra",
-            "publishedAt": "2026-10-27T14:23:45Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Weekly Rupee View: Gains remain capped",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-27T14:43:14Z",
+            "sentiment": "Positive",
+            "compound": 0.34
           },
           {
-            "title": "Super.com Appoints Bernard Kim and Isabelle Winkles to its Board of Directors",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-27T14:23:32Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Anthropic pays each safety trust trustee $400,000 a year, S-1 shows",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-27T14:43:13Z",
+            "sentiment": "Positive",
+            "compound": 0.796
           },
           {
-            "title": "Stock Market Says Alphabet Is AI Loser",
+            "title": "Stock Market Today (Oct. 27, 2026): S&P 500 climbs as Wall Street gears up for earnings, Fed meeting",
             "source": "Biztoc.com",
-            "publishedAt": "2026-10-27T14:23:28Z",
-            "sentiment": "Negative",
-            "compound": -0.527
-          },
-          {
-            "title": "Sangoma Signs 350-Store Retailer, Growing Its Managed Services Business in Retail",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-27T14:21:53Z",
-            "sentiment": "Neutral",
-            "compound": 0.178
-          },
-          {
-            "title": "Nasdaq-100 comes onchain as Janus Henderson and Centrifuge launch first licensed fund",
-            "source": "CoinDesk",
-            "publishedAt": "2026-10-27T14:21:10Z",
+            "publishedAt": "2026-10-27T14:42:30Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "Here Is What a $5,000 Investment in SpaceX Could Be Worth by 2028",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-27T14:42:13Z",
+            "sentiment": "Positive",
+            "compound": 0.226
+          },
+          {
+            "title": "U.S. Stock Futures Point Higher as AI Developments and Earnings Support Market Recovery: Dow Jones, S&P, Nasdaq, Wall Street",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-27T14:42:03Z",
+            "sentiment": "Positive",
+            "compound": 0.402
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.13,
-  "trade_probability": 46.48,
+  "confirmation_score": 37.47,
+  "trade_probability": 42.48,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
