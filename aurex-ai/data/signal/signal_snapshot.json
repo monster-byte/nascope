@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T16:31:16.330295+00:00",
+  "generated_at": "2026-10-28T16:45:49.273022+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.4574,
+          "change_pct": -0.3393,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.8684,
+          "change_pct": -0.9731,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.4401,
+          "change_pct": -0.4103,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.428,
+          "change_pct": -0.4122,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29694.6,
-        "sma50": 29810.97,
-        "sma200": 27893.81
+        "last_price": 29700.51,
+        "sma50": 29811.09,
+        "sma200": 27893.84
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 35.0,
       "status": "red",
       "details": {
-        "current_vxn": 24.81,
+        "current_vxn": 24.8,
         "percentile_vs_20d": 65.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 66.48,
+      "score": 68.03,
       "status": "green",
       "details": {
-        "current_yield_pct": 5.04,
-        "change_5d_pct": -2.06
+        "current_yield_pct": 5.03,
+        "change_5d_pct": -2.254
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.12,
+      "score": 46.14,
       "status": "yellow",
       "details": {
         "current_dxy": 102.27,
-        "change_5d_pct": 0.485
+        "change_5d_pct": 0.482
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.64,
+      "score": 55.5,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.073,
+        "avg_compound": 0.11,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Exports, EVs help Bajaj Auto’s Q2 profit surge amid rising costs, looming rural stress",
-            "source": "Livemint",
-            "publishedAt": "2026-10-27T16:28:57Z",
-            "sentiment": "Positive",
-            "compound": 0.318
+            "title": "Trump’s Cheesecake Factory Dissent",
+            "source": "The Atlantic",
+            "publishedAt": "2026-10-27T16:43:57Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Brazil has voted for economic chaos",
+            "title": "The midterms are a week away. What do the latest polls say?",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-10-27T16:43:41Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Europe mostly higher at close ahead of rate decisions",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-27T16:41:43Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "GM Is Leaving NYSE for the Nasdaq After More Than 100 Years",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-27T16:41:11Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "As holiday shopping approaches, seasonal hiring gives 'mixed signals,' experts say",
+            "source": "CNBC",
+            "publishedAt": "2026-10-27T16:40:57Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "Unconfirmed reports that Flavio Bolsonaro has fled Brazil",
             "source": "Freerepublic.com",
-            "publishedAt": "2026-10-27T16:24:14Z",
-            "sentiment": "Negative",
-            "compound": -0.572
-          },
-          {
-            "title": "Sportico Invest New York: Full Slate of Panels Revealed",
-            "source": "Sportico.com",
-            "publishedAt": "2026-10-27T16:20:10Z",
+            "publishedAt": "2026-10-27T16:39:14Z",
             "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Anthropic’s huge IPO warns of ‘catastrophic’ AI risk as China’s bubble pops",
-            "source": "TechRadar",
-            "publishedAt": "2026-10-27T16:16:02Z",
-            "sentiment": "Neutral",
-            "compound": -0.052
-          },
-          {
-            "title": "Anthropic's IPO could start trading as soon as Nov. 16 — here's the road from filing to first trade",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-27T16:15:56Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Tesla's Q3 Per-Car Fiscal Metrics Show Minor but Important Progress",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-27T16:15:55Z",
-            "sentiment": "Positive",
-            "compound": 0.71
+            "compound": -0.128
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 37.35,
-  "trade_probability": 42.41,
+  "confirmation_score": 37.73,
+  "trade_probability": 42.64,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
