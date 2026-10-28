@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T17:31:17.986285+00:00",
+  "generated_at": "2026-10-28T17:45:57.550437+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.4805,
+          "change_pct": -0.3796,
           "up": false
         },
         "MSFT": {
-          "change_pct": -1.0177,
+          "change_pct": -0.9904,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.5639,
+          "change_pct": -0.5364,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.4319,
+          "change_pct": -0.4379,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29669.95,
-        "sma50": 29810.48,
-        "sma200": 27893.69
+        "last_price": 29687.41,
+        "sma50": 29810.82,
+        "sma200": 27893.77
       }
     },
     "vxn": {
@@ -50,7 +50,7 @@
       "score": 35.0,
       "status": "red",
       "details": {
-        "current_vxn": 24.72,
+        "current_vxn": 24.73,
         "percentile_vs_20d": 65.0
       }
     },
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.29,
+      "score": 45.98,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.25,
-        "change_5d_pct": 0.464
+        "current_dxy": 102.29,
+        "change_5d_pct": 0.503
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.72,
+      "score": 48.7,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.006,
-        "articles_analyzed": 25,
+        "avg_compound": -0.026,
+        "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Circle Pushes Deeper Into Latin America With USDC Settlement in Colombia",
+            "source": "Decrypt",
+            "publishedAt": "2026-10-27T17:45:18Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "The AI boom may transform the economy and still destroy capital, with stranded data centres and heavy investor losses",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-27T17:42:38Z",
+            "sentiment": "Negative",
+            "compound": -0.735
+          },
           {
             "title": "Midterm Stock-Market Pattern Hasn't Failed Since 1950 - State Street SPDR S&P 500 ETF Trust (ARCA:SPY)",
             "source": "Biztoc.com",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-27T17:14:44Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Nike’s empire under threat: $230 billion wiped off its value as sporting stars defect and new rivals gain ground",
-            "source": "Protothema.gr",
-            "publishedAt": "2026-10-27T17:14:05Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Crude Oil Moves Lower; Corning Earnings Top Views - Corning (NYSE:GLW), Kiniksa Pharmaceuticals (NASDAQ:KNSA)",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-27T17:12:13Z",
-            "sentiment": "Negative",
-            "compound": -0.625
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 37.52,
-  "trade_probability": 42.51,
+  "confirmation_score": 37.4,
+  "trade_probability": 42.44,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
