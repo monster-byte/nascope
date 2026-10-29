@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T15:45:56.586160+00:00",
+  "generated_at": "2026-10-29T16:01:31.407385+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
-      "status": "red",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.9504,
+          "change_pct": 0.9808,
           "up": true
         },
         "MSFT": {
-          "change_pct": -4.417,
+          "change_pct": -4.2596,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.0,
-          "up": false
+          "change_pct": 0.1122,
+          "up": true
         },
         "AMZN": {
-          "change_pct": -2.3131,
+          "change_pct": -2.5849,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29449.71,
-        "sma50": 29813.81,
-        "sma200": 27912.94
+        "last_price": 29487.54,
+        "sma50": 29814.57,
+        "sma200": 27913.13
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 40.0,
+      "score": 45.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 23.88,
-        "percentile_vs_20d": 60.0
+        "current_vxn": 23.93,
+        "percentile_vs_20d": 55.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 46.29,
+      "score": 44.19,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.976,
-        "change_5d_pct": 0.464
+        "current_yield_pct": 4.989,
+        "change_5d_pct": 0.727
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.63,
+      "score": 46.8,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.04,
-        "change_5d_pct": 0.421
+        "current_dxy": 102.02,
+        "change_5d_pct": 0.401
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 60.65,
+      "score": 53.32,
       "status": "yellow",
       "details": {
-        "overall_sentiment": "BULLISH",
-        "avg_compound": 0.213,
+        "overall_sentiment": "NEUTRAL",
+        "avg_compound": 0.066,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Jio IPO windfall brings mega party, early salaries, and bonus bonanza",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-28T15:43:38Z",
-            "sentiment": "Positive",
-            "compound": 0.735
+            "title": "Hawke’s Bay family earning up to $130k struggles with bills, sick child’s medical needs",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-10-28T16:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.7
           },
           {
-            "title": "Sify Technologies reports strong revenue growth in Sep qtr, profit remains thin",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-28T15:43:03Z",
-            "sentiment": "Positive",
-            "compound": 0.832
+            "title": "Short of starting his speech by declaring 'This is the Budget for a May 2027 election', I'm not sure how much clearer John Healey could have been on what the Government's real plan is: DAN HODGES",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-10-28T15:57:25Z",
+            "sentiment": "Negative",
+            "compound": -0.241
           },
           {
-            "title": "What Drives the Long-Term Bull Case for Uber Technologies (UBER)?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-28T15:42:15Z",
+            "title": "L.A. Teachers Union Flunks Math, Blames Billionaires",
+            "source": "Reason",
+            "publishedAt": "2026-10-28T15:56:38Z",
+            "sentiment": "Negative",
+            "compound": -0.67
+          },
+          {
+            "title": "Jos. A. Bank puts customer experience at the center of new store concept",
+            "source": "Retail Dive",
+            "publishedAt": "2026-10-28T15:56:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "3 \"Magnificent Seven\" Stocks to Buy Hand Over Fist in November",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-28T15:41:48Z",
-            "sentiment": "Positive",
-            "compound": 0.796
-          },
-          {
-            "title": "Letters to the Editor dated October 28, 2026",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-28T15:41:07Z",
+            "title": "RenovoRx to Participate at the Canaccord Genuity MedTech Diagnostics and Digital Health & Services Forum | BioPharmSignal",
+            "source": "Biopharmsignal.com",
+            "publishedAt": "2026-10-28T15:55:50Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Phil Vandersea of Northbridge, who played for NFL's first Super Bowl champion, dies at 84",
-            "source": "Worcester Telegram",
-            "publishedAt": "2026-10-28T15:40:09Z",
-            "sentiment": "Positive",
-            "compound": 0.881
+            "title": "Canada hikes rates to contain oil price surge caused by Iran war",
+            "source": "Digital Journal",
+            "publishedAt": "2026-10-28T15:55:36Z",
+            "sentiment": "Negative",
+            "compound": -0.599
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 42.5,
-  "trade_probability": 45.5,
+  "confirmation_score": 48.78,
+  "trade_probability": 49.27,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
