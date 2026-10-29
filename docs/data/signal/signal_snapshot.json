@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T18:15:56.934765+00:00",
+  "generated_at": "2026-10-29T18:31:19.500287+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 1.2312,
+          "change_pct": 1.176,
           "up": true
         },
         "MSFT": {
-          "change_pct": -3.1851,
+          "change_pct": -3.326,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.4816,
+          "change_pct": -0.6313,
           "up": false
         },
         "AMZN": {
-          "change_pct": -3.5541,
+          "change_pct": -3.6132,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29326.16,
-        "sma50": 29811.34,
-        "sma200": 27912.32
+        "last_price": 29303.05,
+        "sma50": 29810.88,
+        "sma200": 27912.21
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 35.0,
-      "status": "red",
+      "score": 40.0,
+      "status": "yellow",
       "details": {
-        "current_vxn": 24.48,
-        "percentile_vs_20d": 65.0
+        "current_vxn": 24.5,
+        "percentile_vs_20d": 60.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 43.54,
+      "score": 44.51,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.993,
-        "change_5d_pct": 0.808
+        "current_yield_pct": 4.987,
+        "change_5d_pct": 0.686
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.12,
+      "score": 46.98,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.98,
-        "change_5d_pct": 0.36
+        "current_dxy": 101.99,
+        "change_5d_pct": 0.378
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 57.0,
+      "score": 57.37,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.14,
+        "avg_compound": 0.147,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Fed keeps interest rates unchanged, awaits more data on inflation",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-28T18:13:23Z",
-            "sentiment": "Positive",
-            "compound": 0.511
-          },
-          {
-            "title": "American Households Own More of the Stock Market Than at Any Time Since the Dot-Com Era",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-28T18:13:18Z",
+            "title": "Investing in US stocks from India? How much can you invest, can you directly apply for IPOs? Complete guide here",
+            "source": "Livemint",
+            "publishedAt": "2026-10-28T18:29:32Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Fed holds interest rates steady even as inflation remains high",
+            "title": "Purpose still holds, CAS will continue: Sebi Chairman Tuhin Kanta Pandey",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-28T18:28:38Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Federal Reserve makes interest rate decision ahead of midterms",
             "source": "Biztoc.com",
-            "publishedAt": "2026-10-28T18:12:58Z",
+            "publishedAt": "2026-10-28T18:28:36Z",
             "sentiment": "Positive",
             "compound": 0.459
           },
           {
-            "title": "Fed holds rates steady despite concerns over inflation",
+            "title": "Federal Reserve holds interest rates steady despite elevated inflation",
             "source": "Biztoc.com",
-            "publishedAt": "2026-10-28T18:12:45Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "publishedAt": "2026-10-28T18:28:23Z",
+            "sentiment": "Positive",
+            "compound": 0.459
           },
           {
-            "title": "Fed holds interest rates steady even as inflation remains stubborn",
+            "title": "Federal Reserve leaves interest rates unchanged despite rising inflation",
             "source": "Biztoc.com",
-            "publishedAt": "2026-10-28T18:12:36Z",
-            "sentiment": "Neutral",
-            "compound": 0.077
+            "publishedAt": "2026-10-28T18:28:22Z",
+            "sentiment": "Positive",
+            "compound": 0.459
           },
           {
-            "title": "Federal Reserve Keeps Rates Unchanged Despite Elevated Inflation",
-            "source": "HuffPost",
-            "publishedAt": "2026-10-28T18:12:31Z",
+            "title": "How to Invest in Stocks: A Survival Guide",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-28T18:28:15Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.4,
-  "trade_probability": 44.84,
+  "confirmation_score": 42.0,
+  "trade_probability": 45.2,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
