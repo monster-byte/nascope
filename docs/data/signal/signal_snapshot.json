@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T07:45:53.467475+00:00",
+  "generated_at": "2026-10-29T08:01:23.462525+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
-      "status": "red",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.9357,
+          "change_pct": -0.5563,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.1719,
+          "change_pct": -2.667,
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.2561,
-          "up": false
+          "change_pct": 0.7154,
+          "up": true
         },
         "AMZN": {
-          "change_pct": 0.3523,
+          "change_pct": 0.3266,
           "up": true
         }
       }
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.07,
+      "score": 45.64,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.24,
-        "change_5d_pct": 0.616
+        "current_dxy": 102.16,
+        "change_5d_pct": 0.545
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.92,
+      "score": 52.09,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.022,
+        "avg_compound": 0.042,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Bank of Japan unlikely to take rates higher this week",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-28T07:43:12Z",
+            "title": "Bitcoin Hovers Around $80,000 as Fed Decision Draws Closer",
+            "source": "newsBTC",
+            "publishedAt": "2026-10-28T08:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Hydralyte Effervescent Tablets 40-Pack $13 ($11.7 Subscribe & Save) + Delivery ($0 with Prime/ $59 Spend) @ Amazon AU",
-            "source": "Ozbargain.com.au",
-            "publishedAt": "2026-10-28T07:39:07Z",
-            "sentiment": "Positive",
-            "compound": 0.599
+            "title": "Versant Grows Fast Portfolio to 13 Channels, Bringing Cnbc, Oxygen and E! Franchises to Prime Video and The Roku Channel",
+            "source": "Thefutoncritic.com",
+            "publishedAt": "2026-10-28T08:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "US Market: AI boom could weaken dollar’s safe-haven appeal as foreign flows rise",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-28T07:37:31Z",
-            "sentiment": "Negative",
-            "compound": -0.421
+            "title": "5 challenges awaiting Mark Sutcliffe in his 2nd term as mayor",
+            "source": "CBC News",
+            "publishedAt": "2026-10-28T08:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.077
           },
           {
-            "title": "Mississippi turning? Democrats point to Republican ‘panic’ as Donald Trump flies in",
+            "title": "Bank of Ireland raises 2026 income and capital guidance after strong growth",
             "source": "The Irish Times",
-            "publishedAt": "2026-10-28T07:36:03Z",
+            "publishedAt": "2026-10-28T07:50:51Z",
+            "sentiment": "Positive",
+            "compound": 0.71
+          },
+          {
+            "title": "Jio listing a new beginning, next decade to focus on AI: Akash Ambani",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-28T07:46:49Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Apple Is Breaking Away From Big Tech in a Way Wall Street Has Rarely Seen: ‘Unprecedented’",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-28T07:28:20Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "CEO Interview: Bound",
-            "source": "Cbinsights.com",
-            "publishedAt": "2026-10-28T07:23:44Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Valmet's Interim Review January 1 - September 30, 2026: Strong orders received and increased comparable EBITA",
+            "source": "PR Newswire UK",
+            "publishedAt": "2026-10-28T07:46:00Z",
+            "sentiment": "Positive",
+            "compound": 0.66
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.38,
-  "trade_probability": 46.63,
+  "confirmation_score": 51.47,
+  "trade_probability": 50.88,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
