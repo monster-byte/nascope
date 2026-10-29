@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T18:45:53.759606+00:00",
+  "generated_at": "2026-10-29T19:01:28.723115+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 1.2353,
+          "change_pct": 1.2743,
           "up": true
         },
         "MSFT": {
-          "change_pct": -3.5475,
+          "change_pct": -3.2125,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.5518,
+          "change_pct": -0.5728,
           "up": false
         },
         "AMZN": {
-          "change_pct": -3.5246,
+          "change_pct": -3.4024,
           "up": false
         }
       }
@@ -40,18 +40,18 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29294.19,
-        "sma50": 29810.7,
-        "sma200": 27912.16
+        "last_price": 29304.12,
+        "sma50": 29810.9,
+        "sma200": 27912.21
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 35.0,
-      "status": "red",
+      "score": 40.0,
+      "status": "yellow",
       "details": {
-        "current_vxn": 24.56,
-        "percentile_vs_20d": 65.0
+        "current_vxn": 24.85,
+        "percentile_vs_20d": 60.0
       }
     },
     "us10y": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 59.94,
+      "score": 56.83,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.199,
+        "avg_compound": 0.137,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Fed Pauses Interest Rates as CRE Market Preps for December Hike",
-            "source": "Commercial Observer",
-            "publishedAt": "2026-10-28T18:44:52Z",
+            "title": "Wendy’s draws buyout bid as beef costs and burger rivalry weigh on business",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-28T19:01:05Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Anthropic tells California governor courts should be able to block risky AI models",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-28T19:00:57Z",
+            "sentiment": "Negative",
+            "compound": -0.572
+          },
+          {
+            "title": "The Deeper Affordability Crisis",
+            "source": "The American Prospect",
+            "publishedAt": "2026-10-28T19:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.625
+          },
+          {
+            "title": "Fed holds interest rates steady despite surging inflation",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-28T18:59:45Z",
             "sentiment": "Positive",
             "compound": 0.459
           },
           {
-            "title": "Warsh Announces A New Type of Fed Meeting Focused on Strategy",
-            "source": "Breitbart News",
-            "publishedAt": "2026-10-28T18:44:17Z",
-            "sentiment": "Positive",
-            "compound": 0.382
+            "title": "Jio Platforms soars on debut, recasting market capitalisation leaderboard",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-28T18:56:14Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Warsh: Q3 GDP likely above 3%",
+            "title": "Fed Chairman Warsh on decision to hold rates steady despite concerns over inflation",
             "source": "Biztoc.com",
-            "publishedAt": "2026-10-28T18:44:08Z",
+            "publishedAt": "2026-10-28T18:55:09Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Fed’s Warsh: Credit conditions tightened after September rate hike",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-28T18:42:26Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "See how the price of everything has changed with inflation",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-10-28T18:40:12Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Evernorth CEO says tokenized assets hit $400 billion in about 18 months",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-28T18:38:03Z",
-            "sentiment": "Neutral",
-            "compound": 0.178
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.66,
-  "trade_probability": 45.0,
+  "confirmation_score": 41.83,
+  "trade_probability": 45.1,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
