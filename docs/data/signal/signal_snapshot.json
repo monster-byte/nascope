@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T01:01:22.246083+00:00",
+  "generated_at": "2026-10-29T01:15:50.118819+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -21,7 +21,7 @@
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.1719,
+          "change_pct": -0.3408,
           "up": false
         },
         "NVDA": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.48,
+      "score": 46.38,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.23,
-        "change_5d_pct": 0.44
+        "current_dxy": 102.24,
+        "change_5d_pct": 0.452
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.43,
+      "score": 53.48,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.049,
+        "avg_compound": 0.07,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "SiteMinder FY26 earnings: Revenue up, margins surge",
+            "source": "Motley Fool Australia",
+            "publishedAt": "2026-10-28T01:08:58Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "LIAM HALLIGAN: The Big Bang liberated Britain from statist torpor. So why, 40 years on, is Labour intent on dragging us back?",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-10-28T01:03:22Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Sensex today | Stock Market Live: Stock to buy today: Ather Energy (₹1,671) – BUY",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-28T01:02:06Z",
+            "sentiment": "Positive",
+            "compound": 0.273
+          },
           {
             "title": "Aussie homeowners brace for more mortgage pain as inflation accelerates again",
             "source": "Dailymail.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-28T00:43:52Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Anthropic taps JPMorgan to lead US retail slice of its IPO",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-28T00:42:40Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Datavault AI shares crash after company says it can’t withdraw its Bitcoin from Biconomy",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-28T00:41:02Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
-          },
-          {
-            "title": "Anthropic said to pick JPMorgan to lead IPO’s US retail offering",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-28T00:40:31Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.82,
-  "trade_probability": 46.89,
+  "confirmation_score": 44.91,
+  "trade_probability": 46.95,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
