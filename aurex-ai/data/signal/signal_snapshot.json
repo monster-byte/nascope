@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T13:15:57.327515+00:00",
+  "generated_at": "2026-10-29T13:31:16.301494+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,20 +17,20 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.5563,
-          "up": false
+          "change_pct": 1.3582,
+          "up": true
         },
         "MSFT": {
-          "change_pct": -2.8318,
+          "change_pct": -2.6268,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.7154,
+          "change_pct": 0.145,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.3266,
-          "up": true
+          "change_pct": -3.0932,
+          "up": false
         }
       }
     },
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29813.16,
-        "sma50": 29813.34,
-        "sma200": 27894.4
+        "last_price": 29406.05,
+        "sma50": 29812.94,
+        "sma200": 27912.72
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 41.92,
+      "score": 41.28,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.003,
-        "change_5d_pct": 1.009
+        "current_yield_pct": 5.007,
+        "change_5d_pct": 1.09
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.69,
+      "score": 43.79,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.29,
-        "change_5d_pct": 0.664
+        "current_dxy": 102.4,
+        "change_5d_pct": 0.776
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 58.06,
+      "score": 55.2,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.161,
-        "articles_analyzed": 25,
+        "avg_compound": 0.104,
+        "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "BTC Nears $82,000 As Markets Improve and Wall Street Rebounds",
-            "source": "Dcforecasts.com",
-            "publishedAt": "2026-10-28T13:11:29Z",
-            "sentiment": "Positive",
-            "compound": 0.44
-          },
-          {
-            "title": "What's gone up even faster than gas or rent? The cost of caregiving",
-            "source": "NPR",
-            "publishedAt": "2026-10-28T13:05:33Z",
+            "title": "UK to hike taxes on banks to pay for energy bill cuts",
+            "source": "The Irish Times",
+            "publishedAt": "2026-10-28T13:28:43Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": -0.128
           },
           {
-            "title": "Bank of Canada expected to hike interest rate 25 points as inflation ticks upward",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-28T13:05:31Z",
-            "sentiment": "Positive",
-            "compound": 0.459
-          },
-          {
-            "title": "Anthropic’s IPO filing highlights revenue gap with Chinese AI rivals",
+            "title": "IREN and Wingspire close $363 million financing on AI compute gear",
             "source": "Crypto Briefing",
-            "publishedAt": "2026-10-28T12:55:06Z",
+            "publishedAt": "2026-10-28T13:24:37Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Fed meeting live updates: No hike expected, but all eyes on Warsh for what's next - CNBC",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-10-28T12:53:12Z",
+            "title": "The Fed is expected to hold rates steady. How will Warsh justify that in the face of higher inflation?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-28T13:23:17Z",
             "sentiment": "Neutral",
-            "compound": -0.153
+            "compound": 0.0
           },
           {
-            "title": "The AI payoff is real. The timeline is the problem",
-            "source": "Fortune",
-            "publishedAt": "2026-10-28T12:51:58Z",
+            "title": "Money, Expectations and Institutions: Revisiting Milton Friedman",
+            "source": "Fair Observer",
+            "publishedAt": "2026-10-28T13:22:59Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Jim Cramer's top 10 things to watch in the stock market Wednesday",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-28T13:20:17Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "Walmart’s New US CEO Insists ‘We Do Not Engage In Dynamic Pricing’ In First Interview",
+            "source": "TODAY",
+            "publishedAt": "2026-10-28T13:20:07Z",
             "sentiment": "Negative",
-            "compound": -0.402
+            "compound": -0.497
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 48.71,
-  "trade_probability": 49.23,
+  "confirmation_score": 48.28,
+  "trade_probability": 48.97,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
