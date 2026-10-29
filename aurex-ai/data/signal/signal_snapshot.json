@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T22:31:15.908440+00:00",
+  "generated_at": "2026-10-29T22:45:50.009682+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.05,
+      "score": 55.0,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.021,
-        "articles_analyzed": 24,
+        "avg_compound": 0.1,
+        "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "News Wrap: Fed holds interest rates unchanged as inflation remains elevated",
+            "source": "PBS",
+            "publishedAt": "2026-10-28T22:40:26Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "Stock Market Today, Oct. 28: Markets Edge Higher as Fed Holds Rates Steady",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-28T22:38:01Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Fed Meeting Live Updates: Interest Rates Hold Steady Despite 'Elevated' Inflation",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-28T22:37:48Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "Fed Meeting Live Updates: Interest Rates Hold Steady Despite 'Elevated' Inflation - The New York Times",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-10-28T22:32:36Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
           {
             "title": "Jim Cramer says these tech giants can weather market turbulence",
             "source": "CNBC",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-28T22:20:19Z",
             "sentiment": "Negative",
             "compound": -0.273
-          },
-          {
-            "title": "Fed leaves rates steady as governor Lisa Cook dissents - Axios",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-10-28T22:12:45Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Corruption Catches Up to MAGA",
-            "source": "The Atlantic",
-            "publishedAt": "2026-10-28T22:10:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "DekaBank buys $15.2 million in shares of Bitcoin treasury firm Strategy",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-28T22:09:16Z",
-            "sentiment": "Positive",
-            "compound": 0.459
-          },
-          {
-            "title": "Stock Market Today, Oct. 28: CoreWeave Surges on Denmark AI Capacity Going Live",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-28T22:07:15Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.94,
-  "trade_probability": 45.16,
+  "confirmation_score": 42.29,
+  "trade_probability": 45.37,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
