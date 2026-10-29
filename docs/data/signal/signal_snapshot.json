@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T16:01:31.407385+00:00",
+  "generated_at": "2026-10-29T16:15:54.603179+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.9808,
+          "change_pct": 1.0328,
           "up": true
         },
         "MSFT": {
-          "change_pct": -4.2596,
+          "change_pct": -4.0408,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.1122,
-          "up": true
+          "change_pct": -0.1496,
+          "up": false
         },
         "AMZN": {
-          "change_pct": -2.5849,
+          "change_pct": -3.0341,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29487.54,
-        "sma50": 29814.57,
-        "sma200": 27913.13
+        "last_price": 29403.82,
+        "sma50": 29812.9,
+        "sma200": 27912.71
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 45.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 23.93,
+        "current_vxn": 23.92,
         "percentile_vs_20d": 55.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 44.19,
+      "score": 42.57,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.989,
-        "change_5d_pct": 0.727
+        "current_yield_pct": 4.999,
+        "change_5d_pct": 0.929
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.8,
+      "score": 46.81,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.02,
-        "change_5d_pct": 0.401
+        "current_dxy": 102.01,
+        "change_5d_pct": 0.399
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.32,
+      "score": 49.9,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.066,
-        "articles_analyzed": 24,
+        "avg_compound": -0.002,
+        "articles_analyzed": 23,
         "top_headlines": [
           {
-            "title": "Hawke’s Bay family earning up to $130k struggles with bills, sick child’s medical needs",
-            "source": "New Zealand Herald",
-            "publishedAt": "2026-10-28T16:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.7
+            "title": "Fed on hold? Two discounted blue chips built for high rates",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-28T16:13:09Z",
+            "sentiment": "Neutral",
+            "compound": 0.052
           },
           {
-            "title": "Short of starting his speech by declaring 'This is the Budget for a May 2027 election', I'm not sure how much clearer John Healey could have been on what the Government's real plan is: DAN HODGES",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-10-28T15:57:25Z",
+            "title": "S&P Global Ratings affirmed Aktia Bank Plc's ratings and raised the outlook from negative to stable",
+            "source": "PR Newswire UK",
+            "publishedAt": "2026-10-28T16:13:00Z",
             "sentiment": "Negative",
-            "compound": -0.241
+            "compound": -0.361
           },
           {
-            "title": "L.A. Teachers Union Flunks Math, Blames Billionaires",
-            "source": "Reason",
-            "publishedAt": "2026-10-28T15:56:38Z",
-            "sentiment": "Negative",
-            "compound": -0.67
+            "title": "How the Fed’s Interest Rates Decision Affects Your Wallet",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-28T16:10:09Z",
+            "sentiment": "Positive",
+            "compound": 0.459
           },
           {
-            "title": "Jos. A. Bank puts customer experience at the center of new store concept",
-            "source": "Retail Dive",
-            "publishedAt": "2026-10-28T15:56:00Z",
+            "title": "Here’s the latest",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-28T16:09:46Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "RenovoRx to Participate at the Canaccord Genuity MedTech Diagnostics and Digital Health & Services Forum | BioPharmSignal",
-            "source": "Biopharmsignal.com",
-            "publishedAt": "2026-10-28T15:55:50Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Stock Market Says Alphabet Is AI Loser",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-28T16:09:40Z",
+            "sentiment": "Negative",
+            "compound": -0.527
           },
           {
-            "title": "Canada hikes rates to contain oil price surge caused by Iran war",
-            "source": "Digital Journal",
-            "publishedAt": "2026-10-28T15:55:36Z",
+            "title": "Anthropic tells California governor courts should be able to block risky AI models",
+            "source": "CNA",
+            "publishedAt": "2026-10-28T16:08:47Z",
             "sentiment": "Negative",
-            "compound": -0.599
+            "compound": -0.572
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 48.78,
-  "trade_probability": 49.27,
+  "confirmation_score": 41.5,
+  "trade_probability": 44.9,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
