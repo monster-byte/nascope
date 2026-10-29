@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T14:31:16.855596+00:00",
+  "generated_at": "2026-10-29T14:45:56.146391+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
-      "status": "red",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 1.2396,
+          "change_pct": 1.0271,
           "up": true
         },
         "MSFT": {
-          "change_pct": -3.7342,
+          "change_pct": -4.1726,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.1099,
-          "up": false
+          "change_pct": 0.1216,
+          "up": true
         },
         "AMZN": {
-          "change_pct": -2.6302,
+          "change_pct": -2.8056,
           "up": false
         }
       }
@@ -40,18 +40,18 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29427.41,
-        "sma50": 29813.37,
-        "sma200": 27912.83
+        "last_price": 29425.58,
+        "sma50": 29813.33,
+        "sma200": 27912.82
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 35.0,
-      "status": "red",
+      "score": 40.0,
+      "status": "yellow",
       "details": {
-        "current_vxn": 24.58,
-        "percentile_vs_20d": 65.0
+        "current_vxn": 24.45,
+        "percentile_vs_20d": 60.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.68,
+      "score": 45.56,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.16,
-        "change_5d_pct": 0.54
+        "current_dxy": 102.17,
+        "change_5d_pct": 0.555
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.05,
+      "score": 57.14,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.061,
-        "articles_analyzed": 24,
+        "avg_compound": 0.143,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Fresh blow for punters as price of pint to rise by 2p after alcohol duty hike",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-10-28T14:25:41Z",
+            "title": "AGI Announces Approval of Debenture Amendments and Provides Update on Strategic Review",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-28T14:43:08Z",
             "sentiment": "Positive",
-            "compound": 0.318
+            "compound": 0.477
           },
           {
-            "title": "Smurfit Westrock's Q3 net income falls on cost inflation",
-            "source": "RTE",
-            "publishedAt": "2026-10-28T14:25:21Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "S&P 500, Nasdaq open higher as SK Hynix lifts chips; Fed in focus",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-28T14:24:52Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "US Stocks Mixed; GE Vernova Earnings Top Views - EnerSys (NYSE:ENS), GE Vernova (NYSE:GEV)",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-28T14:24:07Z",
+            "title": "Hyundai Motor India Q2 profit falls 23.9% as raw material costs rise",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-28T14:40:05Z",
             "sentiment": "Positive",
-            "compound": 0.202
+            "compound": 0.44
           },
           {
-            "title": "World Bank sounds alarm on food crisis as energy shock and El Nino push commodity prices up 23%",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-28T14:23:06Z",
+            "title": "BoC hikes rate to 2.5%, suggests more may be needed to contain oil-price shock",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-28T14:38:16Z",
             "sentiment": "Negative",
-            "compound": -0.791
+            "compound": -0.382
           },
           {
-            "title": "Anthropic Makes Stunning Admission As It Pushes For Grand Public Entrance",
-            "source": "The Daily Caller",
-            "publishedAt": "2026-10-28T14:22:49Z",
+            "title": "WATCH LIVE: Fed chair Warsh holds briefing after latest interest rate decision",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-28T14:37:02Z",
             "sentiment": "Positive",
-            "compound": 0.681
+            "compound": 0.459
+          },
+          {
+            "title": "Americans Hit Hardest by War-Driven Oil Price Surge",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-28T14:37:01Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "City council approves annual water rate hike for residents and businesses",
+            "source": "CBC News",
+            "publishedAt": "2026-10-28T14:35:22Z",
+            "sentiment": "Positive",
+            "compound": 0.402
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.11,
-  "trade_probability": 44.67,
+  "confirmation_score": 48.67,
+  "trade_probability": 49.2,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
