@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T01:15:50.118819+00:00",
+  "generated_at": "2026-10-29T01:31:17.485580+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.38,
+      "score": 47.03,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.24,
-        "change_5d_pct": 0.452
+        "current_dxy": 102.16,
+        "change_5d_pct": 0.371
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.48,
+      "score": 53.41,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.07,
-        "articles_analyzed": 24,
+        "avg_compound": 0.068,
+        "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Jio Platforms Listing Today: Rs 30,213 crore IPO eyes strong debut on Dalal Street",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-28T01:30:00Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
+          {
+            "title": "Post-‘woke 1.0’, has identity politics worn thin in Victoria?",
+            "source": "Crikey",
+            "publishedAt": "2026-10-28T01:16:05Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
           {
             "title": "SiteMinder FY26 earnings: Revenue up, margins surge",
             "source": "Motley Fool Australia",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-28T00:49:53Z",
             "sentiment": "Negative",
             "compound": -0.554
-          },
-          {
-            "title": "Touchscreen MacBook Pro to Reportedly Start at $2,899 for 14-Inch, $3,399 for 16-Inch",
-            "source": "Gizmodo.com",
-            "publishedAt": "2026-10-28T00:47:33Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Bank of America sees bonds becoming the hedge against an AI selloff",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-28T00:43:52Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.91,
-  "trade_probability": 46.95,
+  "confirmation_score": 44.96,
+  "trade_probability": 46.98,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
