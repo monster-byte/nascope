@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T19:31:18.966200+00:00",
+  "generated_at": "2026-10-29T19:45:58.816105+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 1.3264,
+          "change_pct": 1.0921,
           "up": true
         },
         "MSFT": {
-          "change_pct": -3.358,
+          "change_pct": -3.4203,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.3174,
+          "change_pct": -0.4091,
           "up": false
         },
         "AMZN": {
-          "change_pct": -3.4891,
+          "change_pct": -3.3906,
           "up": false
         }
       }
@@ -40,18 +40,18 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29370.46,
-        "sma50": 29812.23,
-        "sma200": 27912.55
+        "last_price": 29318.86,
+        "sma50": 29811.2,
+        "sma200": 27912.29
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 35.0,
-      "status": "red",
+      "score": 45.0,
+      "status": "yellow",
       "details": {
-        "current_vxn": 24.66,
-        "percentile_vs_20d": 65.0
+        "current_vxn": 24.36,
+        "percentile_vs_20d": 55.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.79,
+      "score": 47.02,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.02,
-        "change_5d_pct": 0.402
+        "current_dxy": 101.99,
+        "change_5d_pct": 0.373
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.58,
+      "score": 50.1,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.008,
+        "avg_compound": 0.002,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "US-friendly nations slash treasury purchases by 60%, led by Asia",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-28T19:30:45Z",
-            "sentiment": "Neutral",
-            "compound": -0.077
-          },
-          {
-            "title": "Warsh: Fed not involved in proceedings against Cook",
+            "title": "Takeaways from Warsh’s news conference",
             "source": "Biztoc.com",
-            "publishedAt": "2026-10-28T19:30:36Z",
+            "publishedAt": "2026-10-28T19:45:23Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Warsh fails to respond to Trump's Fed criticism",
+            "title": "For the first time since 1992, a Fed governor and president dissented together, as Kevin Warsh says the ‘monetary medicine’ is starting to work",
             "source": "Biztoc.com",
-            "publishedAt": "2026-10-28T19:30:33Z",
-            "sentiment": "Negative",
-            "compound": -0.691
+            "publishedAt": "2026-10-28T19:45:21Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Warsh: Politics played no role in interest rate decision",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-28T19:30:26Z",
+            "title": "US central bank holds interest rates steady ahead of midterm elections – here's what that means",
+            "source": "BBC News",
+            "publishedAt": "2026-10-28T19:42:42Z",
             "sentiment": "Positive",
-            "compound": 0.494
+            "compound": 0.459
           },
           {
-            "title": "Fed plans to eliminate some rate-setting meetings, chairman says",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-28T19:30:23Z",
+            "title": "2023 Zeal Motor Fat Truck 2.8C",
+            "source": "Bringatrailer.com",
+            "publishedAt": "2026-10-28T19:41:34Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Fed plans seven rate decisions in 2027, six in 2028",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-28T19:30:11Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Federal Reserve holds interest rates steady in split vote ahead of midterm elections",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-10-28T19:39:27Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "Dems introduce new $15,000 EV tax credit bill that has no chance — and that’s a problem",
+            "source": "Electrek",
+            "publishedAt": "2026-10-28T19:38:37Z",
+            "sentiment": "Negative",
+            "compound": -0.212
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.79,
-  "trade_probability": 44.47,
+  "confirmation_score": 41.76,
+  "trade_probability": 45.06,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
