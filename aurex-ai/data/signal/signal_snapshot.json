@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T18:31:19.500287+00:00",
+  "generated_at": "2026-10-29T18:45:53.759606+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 1.176,
+          "change_pct": 1.2353,
           "up": true
         },
         "MSFT": {
-          "change_pct": -3.326,
+          "change_pct": -3.5475,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.6313,
+          "change_pct": -0.5518,
           "up": false
         },
         "AMZN": {
-          "change_pct": -3.6132,
+          "change_pct": -3.5246,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29303.05,
-        "sma50": 29810.88,
-        "sma200": 27912.21
+        "last_price": 29294.19,
+        "sma50": 29810.7,
+        "sma200": 27912.16
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 40.0,
-      "status": "yellow",
+      "score": 35.0,
+      "status": "red",
       "details": {
-        "current_vxn": 24.5,
-        "percentile_vs_20d": 60.0
+        "current_vxn": 24.56,
+        "percentile_vs_20d": 65.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 44.51,
+      "score": 43.86,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.987,
-        "change_5d_pct": 0.686
+        "current_yield_pct": 4.991,
+        "change_5d_pct": 0.767
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.98,
+      "score": 46.65,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.99,
-        "change_5d_pct": 0.378
+        "current_dxy": 102.04,
+        "change_5d_pct": 0.419
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 57.37,
+      "score": 59.94,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.147,
+        "avg_compound": 0.199,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Investing in US stocks from India? How much can you invest, can you directly apply for IPOs? Complete guide here",
-            "source": "Livemint",
-            "publishedAt": "2026-10-28T18:29:32Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Purpose still holds, CAS will continue: Sebi Chairman Tuhin Kanta Pandey",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-28T18:28:38Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Federal Reserve makes interest rate decision ahead of midterms",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-28T18:28:36Z",
+            "title": "Fed Pauses Interest Rates as CRE Market Preps for December Hike",
+            "source": "Commercial Observer",
+            "publishedAt": "2026-10-28T18:44:52Z",
             "sentiment": "Positive",
             "compound": 0.459
           },
           {
-            "title": "Federal Reserve holds interest rates steady despite elevated inflation",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-28T18:28:23Z",
+            "title": "Warsh Announces A New Type of Fed Meeting Focused on Strategy",
+            "source": "Breitbart News",
+            "publishedAt": "2026-10-28T18:44:17Z",
             "sentiment": "Positive",
-            "compound": 0.459
+            "compound": 0.382
           },
           {
-            "title": "Federal Reserve leaves interest rates unchanged despite rising inflation",
+            "title": "Warsh: Q3 GDP likely above 3%",
             "source": "Biztoc.com",
-            "publishedAt": "2026-10-28T18:28:22Z",
-            "sentiment": "Positive",
-            "compound": 0.459
-          },
-          {
-            "title": "How to Invest in Stocks: A Survival Guide",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-28T18:28:15Z",
+            "publishedAt": "2026-10-28T18:44:08Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "Fed’s Warsh: Credit conditions tightened after September rate hike",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-28T18:42:26Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "See how the price of everything has changed with inflation",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-10-28T18:40:12Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Evernorth CEO says tokenized assets hit $400 billion in about 18 months",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-28T18:38:03Z",
+            "sentiment": "Neutral",
+            "compound": 0.178
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 42.0,
-  "trade_probability": 45.2,
+  "confirmation_score": 41.66,
+  "trade_probability": 45.0,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
