@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T08:01:23.462525+00:00",
+  "generated_at": "2026-10-29T08:15:49.449875+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.64,
+      "score": 45.79,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.16,
-        "change_5d_pct": 0.545
+        "current_dxy": 102.14,
+        "change_5d_pct": 0.527
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.09,
+      "score": 52.97,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.042,
+        "avg_compound": 0.059,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Jio valued at $108 billion in IPO, joins Meta, Alibaba and SpaceX club | All you need to know",
+            "source": "Livemint",
+            "publishedAt": "2026-10-28T08:02:54Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
           {
             "title": "Bitcoin Hovers Around $80,000 as Fed Decision Draws Closer",
             "source": "newsBTC",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-10-28T07:46:49Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Valmet's Interim Review January 1 - September 30, 2026: Strong orders received and increased comparable EBITA",
-            "source": "PR Newswire UK",
-            "publishedAt": "2026-10-28T07:46:00Z",
-            "sentiment": "Positive",
-            "compound": 0.66
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 51.47,
-  "trade_probability": 50.88,
+  "confirmation_score": 51.56,
+  "trade_probability": 50.94,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
