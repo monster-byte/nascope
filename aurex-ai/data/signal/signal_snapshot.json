@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T15:34:54.909561+00:00",
+  "generated_at": "2026-10-29T15:45:56.586160+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.9244,
+          "change_pct": 0.9504,
           "up": true
         },
         "MSFT": {
-          "change_pct": -4.0802,
+          "change_pct": -4.417,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.2174,
-          "up": true
+          "change_pct": 0.0,
+          "up": false
         },
         "AMZN": {
-          "change_pct": -1.9605,
+          "change_pct": -2.3131,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29503.73,
-        "sma50": 29814.89,
-        "sma200": 27913.21
+        "last_price": 29449.71,
+        "sma50": 29813.81,
+        "sma200": 27912.94
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 45.0,
+      "score": 40.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 24.04,
-        "percentile_vs_20d": 55.0
+        "current_vxn": 23.88,
+        "percentile_vs_20d": 60.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 45.32,
+      "score": 46.29,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.982,
-        "change_5d_pct": 0.585
+        "current_yield_pct": 4.976,
+        "change_5d_pct": 0.464
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.18,
+      "score": 46.63,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.97,
-        "change_5d_pct": 0.352
+        "current_dxy": 102.04,
+        "change_5d_pct": 0.421
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.78,
+      "score": 60.65,
       "status": "yellow",
       "details": {
-        "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.096,
+        "overall_sentiment": "BULLISH",
+        "avg_compound": 0.213,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Why turn SME stocks into speculators’ hub?",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-28T15:31:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "What the US midterms mean for India",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-28T15:30:01Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Letters to Editor",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-28T15:29:59Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Reliance Industries seen posting double-digit Q2FY27 EBITDA growth on strong O2C, Jio performance",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-28T15:27:53Z",
+            "title": "Jio IPO windfall brings mega party, early salaries, and bonus bonanza",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-28T15:43:38Z",
             "sentiment": "Positive",
-            "compound": 0.71
+            "compound": 0.735
           },
           {
-            "title": "Jupiter partners with BitGo to launch institutional validator for SOL",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-28T15:25:47Z",
+            "title": "Sify Technologies reports strong revenue growth in Sep qtr, profit remains thin",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-28T15:43:03Z",
+            "sentiment": "Positive",
+            "compound": 0.832
+          },
+          {
+            "title": "What Drives the Long-Term Bull Case for Uber Technologies (UBER)?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-28T15:42:15Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Income tax: Healey’s budget leaves thresholds frozen again. How much more will you pay?",
+            "title": "3 \"Magnificent Seven\" Stocks to Buy Hand Over Fist in November",
             "source": "Biztoc.com",
-            "publishedAt": "2026-10-28T15:23:15Z",
+            "publishedAt": "2026-10-28T15:41:48Z",
+            "sentiment": "Positive",
+            "compound": 0.796
+          },
+          {
+            "title": "Letters to the Editor dated October 28, 2026",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-28T15:41:07Z",
             "sentiment": "Neutral",
-            "compound": -0.169
+            "compound": 0.0
+          },
+          {
+            "title": "Phil Vandersea of Northbridge, who played for NFL's first Super Bowl champion, dies at 84",
+            "source": "Worcester Telegram",
+            "publishedAt": "2026-10-28T15:40:09Z",
+            "sentiment": "Positive",
+            "compound": 0.881
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 49.09,
-  "trade_probability": 49.45,
+  "confirmation_score": 42.5,
+  "trade_probability": 45.5,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
