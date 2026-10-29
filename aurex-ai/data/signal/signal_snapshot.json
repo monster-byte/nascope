@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T13:01:32.927975+00:00",
+  "generated_at": "2026-10-29T13:15:57.327515+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -21,7 +21,7 @@
           "up": false
         },
         "MSFT": {
-          "change_pct": -2.667,
+          "change_pct": -2.8318,
           "up": false
         },
         "NVDA": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 41.6,
+      "score": 41.92,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.005,
-        "change_5d_pct": 1.05
+        "current_yield_pct": 5.003,
+        "change_5d_pct": 1.009
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.33,
+      "score": 44.69,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.2,
-        "change_5d_pct": 0.584
+        "current_dxy": 102.29,
+        "change_5d_pct": 0.664
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.59,
+      "score": 58.06,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.132,
+        "avg_compound": 0.161,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "BTC Nears $82,000 As Markets Improve and Wall Street Rebounds",
+            "source": "Dcforecasts.com",
+            "publishedAt": "2026-10-28T13:11:29Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
+          {
+            "title": "What's gone up even faster than gas or rent? The cost of caregiving",
+            "source": "NPR",
+            "publishedAt": "2026-10-28T13:05:33Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Bank of Canada expected to hike interest rate 25 points as inflation ticks upward",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-28T13:05:31Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
           {
             "title": "Anthropic’s IPO filing highlights revenue gap with Chinese AI rivals",
             "source": "Crypto Briefing",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-28T12:51:58Z",
             "sentiment": "Negative",
             "compound": -0.402
-          },
-          {
-            "title": "General Motors moves listing from NYSE to Nasdaq and pitches itself as a tech company",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-28T12:50:30Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "How much income Americans need to retire comfortably in every state",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-28T12:50:03Z",
-            "sentiment": "Positive",
-            "compound": 0.421
-          },
-          {
-            "title": "Anthropic files for NASDAQ IPO after $16B revenue surge",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-28T12:49:30Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 48.59,
-  "trade_probability": 49.15,
+  "confirmation_score": 48.71,
+  "trade_probability": 49.23,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
