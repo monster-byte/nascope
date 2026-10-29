@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T14:01:31.429915+00:00",
+  "generated_at": "2026-10-29T14:15:52.437751+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 1.1095,
+          "change_pct": 1.2194,
           "up": true
         },
         "MSFT": {
-          "change_pct": -3.2299,
+          "change_pct": -3.8331,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.2502,
+          "change_pct": -0.4677,
           "up": false
         },
         "AMZN": {
-          "change_pct": -3.1188,
+          "change_pct": -3.238,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29426.12,
-        "sma50": 29813.34,
-        "sma200": 27912.82
+        "last_price": 29385.5,
+        "sma50": 29812.53,
+        "sma200": 27912.62
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 40.0,
-      "status": "yellow",
+      "score": 35.0,
+      "status": "red",
       "details": {
-        "current_vxn": 24.52,
-        "percentile_vs_20d": 60.0
+        "current_vxn": 24.64,
+        "percentile_vs_20d": 65.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 46.61,
+      "score": 44.51,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.974,
-        "change_5d_pct": 0.424
+        "current_yield_pct": 4.987,
+        "change_5d_pct": 0.686
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.79,
+      "score": 45.13,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.27,
-        "change_5d_pct": 0.652
+        "current_dxy": 102.23,
+        "change_5d_pct": 0.608
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.33,
+      "score": 53.39,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.053,
+        "avg_compound": 0.068,
         "articles_analyzed": 23,
         "top_headlines": [
           {
-            "title": "Peripheral perfusion index combined with end-tidal carbon dioxide in predicting sustained return of spontaneous circulation in adults with in-hospital cardiac arrest: A prospective observational study",
-            "source": "Plos.org",
-            "publishedAt": "2026-10-28T14:00:00Z",
+            "title": "Mortgage Rates Today, Wednesday, October 28: Noticeably Lower",
+            "source": "NerdWallet",
+            "publishedAt": "2026-10-28T14:15:41Z",
             "sentiment": "Negative",
-            "compound": -0.34
+            "compound": -0.296
           },
           {
-            "title": "Environmental drivers of taste characteristics in wild edible plants: Effects of topographic gradients and human harvesting evaluated using dwarf bamboo culms",
-            "source": "Plos.org",
-            "publishedAt": "2026-10-28T14:00:00Z",
+            "title": "Watch Live: Fed Chair Kevin Warsh Holds News Conference | WSJ",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-28T14:13:01Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Heterogeneous impacts of road characteristics on the severity of taxi-involved crashes: Practical insights for safety improvement",
-            "source": "Plos.org",
-            "publishedAt": "2026-10-28T14:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.7
+            "title": "Axogen Stock Soars 22% as Nerve Repair Company Posts 26% Sales Jump, Raises 2026 Outlook After BioCircuit Deal",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-10-28T14:11:33Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Sugar will likely be a bitter pill for Indian consumers over the next year",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-28T13:55:47Z",
+            "title": "Genmab Shares Jump 16% as Rally Builds on Cancer Drug Wins, JPMorgan Upgrade and Head and Neck Trial Hopes",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-10-28T14:10:34Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
+          {
+            "title": "Struggling burger chain Wendy's gets buyout offer from activist investor Nelson Peltz",
+            "source": "Abcnews.com",
+            "publishedAt": "2026-10-28T14:10:19Z",
             "sentiment": "Negative",
             "compound": -0.421
           },
           {
-            "title": "Bank of Canada raises interest rates: Read the official statement",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-28T13:55:42Z",
+            "title": "ICON Shares Jump 13% as Clinical Research Firm Beats Estimates on Strong Bookings and Expands Buyback Plan",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-10-28T14:08:03Z",
             "sentiment": "Positive",
-            "compound": 0.459
-          },
-          {
-            "title": "Americans Hit Hardest by War-Driven Oil Price Surge",
-            "source": "Nakedcapitalism.com",
-            "publishedAt": "2026-10-28T13:55:26Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": 0.71
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.18,
-  "trade_probability": 44.71,
+  "confirmation_score": 41.03,
+  "trade_probability": 44.62,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
