@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T16:31:14.562240+00:00",
+  "generated_at": "2026-10-29T16:45:53.828065+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 1.0198,
+          "change_pct": 1.1558,
           "up": true
         },
         "MSFT": {
-          "change_pct": -3.8504,
+          "change_pct": -3.942,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.152,
+          "change_pct": -0.2034,
           "up": false
         },
         "AMZN": {
-          "change_pct": -2.9396,
+          "change_pct": -2.905,
           "up": false
         }
       }
@@ -40,8 +40,8 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29408.13,
-        "sma50": 29812.98,
+        "last_price": 29406.42,
+        "sma50": 29812.95,
         "sma200": 27912.73
       }
     },
@@ -50,26 +50,26 @@
       "score": 45.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 23.92,
+        "current_vxn": 23.86,
         "percentile_vs_20d": 55.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 42.89,
+      "score": 42.25,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.997,
-        "change_5d_pct": 0.888
+        "current_yield_pct": 5.001,
+        "change_5d_pct": 0.969
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.98,
+      "score": 46.71,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.99,
-        "change_5d_pct": 0.377
+        "current_dxy": 102.03,
+        "change_5d_pct": 0.411
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 41.61,
+      "score": 51.76,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.168,
-        "articles_analyzed": 23,
+        "avg_compound": 0.035,
+        "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Household incomes set for another grim squeeze as taxes and Middle East crisis add to lost decade, OBR warns",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-10-28T16:30:00Z",
-            "sentiment": "Negative",
-            "compound": -0.888
+            "title": "Bank of Canada raises interest rates for the first time in three years",
+            "source": "Al Jazeera English",
+            "publishedAt": "2026-10-28T16:44:44Z",
+            "sentiment": "Positive",
+            "compound": 0.459
           },
           {
-            "title": "Investors brace for a hawkish hold and tech on tap",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-28T16:26:02Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Why Is D-Wave Quantum Stock Falling on Wednesday? - D-Wave Quantum (NASDAQ:QBTS)",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-28T16:25:31Z",
+            "title": "Federal government has paid out $83.2 billion to First Nations over lawsuits since 2007: report",
+            "source": "National Post",
+            "publishedAt": "2026-10-28T16:44:23Z",
             "sentiment": "Neutral",
             "compound": -0.153
           },
           {
-            "title": "Midterm Elections Could Set Up a 21% Stock Market Rally in 2027 — Here’s What 76 Years of History Show",
+            "title": "Federal government has paid out $83.2 billion to First Nations over lawsuits since 2007: report",
+            "source": "National Post",
+            "publishedAt": "2026-10-28T16:44:23Z",
+            "sentiment": "Neutral",
+            "compound": -0.153
+          },
+          {
+            "title": "US consumers look resilient despite higher prices for gas, Halloween candy, and more",
             "source": "Biztoc.com",
-            "publishedAt": "2026-10-28T16:25:16Z",
+            "publishedAt": "2026-10-28T16:44:11Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Fed Meeting: Here's What May Move The S&P 500 (Live Coverage)",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-28T16:25:14Z",
+            "title": "Ahead of Anthropic IPO, Warren Warns AI Giant Could Leave 'Americans Holding the Bag'",
+            "source": "Common Dreams",
+            "publishedAt": "2026-10-28T16:43:37Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": -0.153
           },
           {
-            "title": "Inflation Isn't Finished With Us... And We Should Be Worried",
+            "title": "Economists call for at least one more rate hike as Bank of Canada looks to 'stamp out' inflation",
             "source": "Biztoc.com",
-            "publishedAt": "2026-10-28T16:24:55Z",
-            "sentiment": "Negative",
-            "compound": -0.296
+            "publishedAt": "2026-10-28T16:40:57Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.81,
-  "trade_probability": 44.49,
+  "confirmation_score": 41.62,
+  "trade_probability": 44.97,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
