@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T05:01:18.238743+00:00",
+  "generated_at": "2026-10-29T05:15:55.002660+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -21,7 +21,7 @@
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.1719,
+          "change_pct": -0.3408,
           "up": false
         },
         "NVDA": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.29,
+      "score": 45.42,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.21,
-        "change_5d_pct": 0.589
+        "current_dxy": 102.19,
+        "change_5d_pct": 0.573
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.11,
+      "score": 52.97,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.002,
+        "avg_compound": 0.059,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Chalmers lowers hopes for fuel discounts after high inflation result",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-10-28T05:12:09Z",
+            "sentiment": "Positive",
+            "compound": 0.318
+          },
+          {
+            "title": "Akash Ambani announces Jio’s next big mission after data: Bring AI, cloud and space connectivity to every Indian",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-28T05:07:27Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Black Lung Disease Hits 50-Year High, Report Says, as Claims Payments Climb Steadily",
+            "source": "Insurance Journal",
+            "publishedAt": "2026-10-28T05:02:42Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Jio makes its D-Street debut: What it means for Reliance Industries investors and the road ahead",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-28T05:02:02Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Jio Platforms storms Dalal Street, lists 21% above issue price",
             "source": "BusinessLine",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-28T05:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Jio after listing: 5 factors that could drive big returns for long-term investors",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-28T04:58:51Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Q2 results: Adani Enterprises, APSEZ, Hero MotoCorp, 141 more on Oct 28",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-28T04:57:42Z",
-            "sentiment": "Positive",
-            "compound": 0.557
-          },
-          {
-            "title": "Global Market: South Korean shares surge 6% as SK Hynix earnings fuel AI chip rally",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-28T04:54:06Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "Jio Shares Lists At 21% Premium; Market Cap Hits ₹12.5 Lakh Crore",
-            "source": "Free Press Journal",
-            "publishedAt": "2026-10-28T04:53:14Z",
-            "sentiment": "Positive",
-            "compound": 0.296
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.51,
-  "trade_probability": 46.71,
+  "confirmation_score": 44.77,
+  "trade_probability": 46.86,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
