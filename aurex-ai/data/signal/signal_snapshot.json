@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T06:01:23.557474+00:00",
+  "generated_at": "2026-10-29T06:15:53.550941+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.09,
+      "score": 44.91,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.23,
-        "change_5d_pct": 0.613
+        "current_dxy": 102.26,
+        "change_5d_pct": 0.636
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.75,
+      "score": 53.72,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.075,
+        "avg_compound": 0.074,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Shares Tumble 30% in After-Hours Trading",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-28T06:11:51Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "China’s stock slide can’t be reversed by massive state buying, analysts warn",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-28T06:11:35Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
+          {
+            "title": "Stock Market: Will S&P 500 Open Up or Down Today? - State Street SPDR S&P 500 ETF Trust (ARCA:SPY)",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-28T06:11:35Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
+          {
+            "title": "Utility's cyclone-damaged gas platform fuels financial problems",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-10-28T06:02:16Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
           {
             "title": "Europe’s debt stress is hitting corporate borrowing costs. Goldman flags who’s vulnerable",
             "source": "CNBC",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-28T05:56:38Z",
             "sentiment": "Positive",
             "compound": 0.681
-          },
-          {
-            "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-28T05:56:28Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Global Market: Japan’s Nikkei jumps over 1% as tech rally on Wall Street lifts sentiment",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-28T05:51:59Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "bmv-cli 0.1.0",
-            "source": "Pypi.org",
-            "publishedAt": "2026-10-28T05:48:41Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "bmv-cli added to PyPI",
-            "source": "Pypi.org",
-            "publishedAt": "2026-10-28T05:48:40Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.82,
-  "trade_probability": 46.89,
+  "confirmation_score": 44.8,
+  "trade_probability": 46.88,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
