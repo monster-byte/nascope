@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T16:45:53.828065+00:00",
+  "generated_at": "2026-10-29T17:01:31.335390+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 1.1558,
+          "change_pct": 1.176,
           "up": true
         },
         "MSFT": {
-          "change_pct": -3.942,
+          "change_pct": -3.9374,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.2034,
+          "change_pct": -0.1613,
           "up": false
         },
         "AMZN": {
-          "change_pct": -2.905,
+          "change_pct": -2.9592,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29406.42,
-        "sma50": 29812.95,
-        "sma200": 27912.73
+        "last_price": 29423.08,
+        "sma50": 29813.28,
+        "sma200": 27912.81
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 45.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 23.86,
+        "current_vxn": 23.84,
         "percentile_vs_20d": 55.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 42.25,
+      "score": 43.22,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.001,
-        "change_5d_pct": 0.969
+        "current_yield_pct": 4.995,
+        "change_5d_pct": 0.848
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.71,
+      "score": 46.65,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.03,
-        "change_5d_pct": 0.411
+        "current_dxy": 102.04,
+        "change_5d_pct": 0.418
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.76,
+      "score": 49.0,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.035,
-        "articles_analyzed": 24,
+        "avg_compound": -0.02,
+        "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Energy Crisis Shapes UK Budget as Chancellor Faces Pressure Over Defence Spendin",
+            "source": "OilPrice.com",
+            "publishedAt": "2026-10-28T17:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.586
+          },
+          {
+            "title": "Stock Market Today: SK Hynix, Vertiv Lift AI Trade; Oil Tops $102",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-28T16:56:07Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
+          {
+            "title": "Bitcoin price bounce rejected at 50-day trend line ahead of FOMC, earnings",
+            "source": "Cointelegraph",
+            "publishedAt": "2026-10-28T16:53:26Z",
+            "sentiment": "Negative",
+            "compound": -0.511
+          },
+          {
+            "title": "Bitcoin price bounce rejected at 50-day trend line ahead of FOMC, earnings",
+            "source": "Cointelegraph",
+            "publishedAt": "2026-10-28T16:53:26Z",
+            "sentiment": "Negative",
+            "compound": -0.511
+          },
+          {
+            "title": "Chris Mason: Budget felt cautious despite its range of small measures",
+            "source": "BBC News",
+            "publishedAt": "2026-10-28T16:52:16Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
           {
             "title": "Bank of Canada raises interest rates for the first time in three years",
             "source": "Al Jazeera English",
             "publishedAt": "2026-10-28T16:44:44Z",
             "sentiment": "Positive",
             "compound": 0.459
-          },
-          {
-            "title": "Federal government has paid out $83.2 billion to First Nations over lawsuits since 2007: report",
-            "source": "National Post",
-            "publishedAt": "2026-10-28T16:44:23Z",
-            "sentiment": "Neutral",
-            "compound": -0.153
-          },
-          {
-            "title": "Federal government has paid out $83.2 billion to First Nations over lawsuits since 2007: report",
-            "source": "National Post",
-            "publishedAt": "2026-10-28T16:44:23Z",
-            "sentiment": "Neutral",
-            "compound": -0.153
-          },
-          {
-            "title": "US consumers look resilient despite higher prices for gas, Halloween candy, and more",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-28T16:44:11Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Ahead of Anthropic IPO, Warren Warns AI Giant Could Leave 'Americans Holding the Bag'",
-            "source": "Common Dreams",
-            "publishedAt": "2026-10-28T16:43:37Z",
-            "sentiment": "Neutral",
-            "compound": -0.153
-          },
-          {
-            "title": "Economists call for at least one more rate hike as Bank of Canada looks to 'stamp out' inflation",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-28T16:40:57Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.62,
-  "trade_probability": 44.97,
+  "confirmation_score": 41.49,
+  "trade_probability": 44.89,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
