@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T19:15:53.355175+00:00",
+  "generated_at": "2026-10-29T19:31:18.966200+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 1.309,
+          "change_pct": 1.3264,
           "up": true
         },
         "MSFT": {
-          "change_pct": -3.2876,
+          "change_pct": -3.358,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.5845,
+          "change_pct": -0.3174,
           "up": false
         },
         "AMZN": {
-          "change_pct": -3.4438,
+          "change_pct": -3.4891,
           "up": false
         }
       }
@@ -40,18 +40,18 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29292.51,
-        "sma50": 29810.67,
-        "sma200": 27912.16
+        "last_price": 29370.46,
+        "sma50": 29812.23,
+        "sma200": 27912.55
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 40.0,
-      "status": "yellow",
+      "score": 35.0,
+      "status": "red",
       "details": {
-        "current_vxn": 24.78,
-        "percentile_vs_20d": 60.0
+        "current_vxn": 24.66,
+        "percentile_vs_20d": 65.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.83,
+      "score": 46.79,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.01,
-        "change_5d_pct": 0.397
+        "current_dxy": 102.02,
+        "change_5d_pct": 0.402
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.47,
+      "score": 49.58,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.031,
-        "articles_analyzed": 24,
+        "avg_compound": -0.008,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "OppFi Revenue Dips 3.8% Amid Muted Borrower Sentiment",
+            "title": "US-friendly nations slash treasury purchases by 60%, led by Asia",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-28T19:30:45Z",
+            "sentiment": "Neutral",
+            "compound": -0.077
+          },
+          {
+            "title": "Warsh: Fed not involved in proceedings against Cook",
             "source": "Biztoc.com",
-            "publishedAt": "2026-10-28T19:15:09Z",
+            "publishedAt": "2026-10-28T19:30:36Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Robinhood’s Crypto Revenue Fell 55% in a Year. Is Retail Money Leaving Crypto?",
+            "title": "Warsh fails to respond to Trump's Fed criticism",
             "source": "Biztoc.com",
-            "publishedAt": "2026-10-28T19:15:06Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "publishedAt": "2026-10-28T19:30:33Z",
+            "sentiment": "Negative",
+            "compound": -0.691
           },
           {
-            "title": "Here’s the latest",
+            "title": "Warsh: Politics played no role in interest rate decision",
             "source": "Biztoc.com",
-            "publishedAt": "2026-10-28T19:14:37Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "publishedAt": "2026-10-28T19:30:26Z",
+            "sentiment": "Positive",
+            "compound": 0.494
           },
           {
-            "title": "Fed holds rates steady days before the midterms, even as inflation runs hot",
+            "title": "Fed plans to eliminate some rate-setting meetings, chairman says",
             "source": "Biztoc.com",
-            "publishedAt": "2026-10-28T19:14:29Z",
+            "publishedAt": "2026-10-28T19:30:23Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Is the political gender gap widening?",
-            "source": "Futurity: Research News",
-            "publishedAt": "2026-10-28T19:13:50Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Fed holds rates steady despite concerns over inflation - CNBC",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-10-28T19:13:27Z",
+            "title": "Fed plans seven rate decisions in 2027, six in 2028",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-28T19:30:11Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.14,
-  "trade_probability": 44.68,
+  "confirmation_score": 40.79,
+  "trade_probability": 44.47,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
