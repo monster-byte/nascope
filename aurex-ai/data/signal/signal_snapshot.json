@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T22:15:57.422709+00:00",
+  "generated_at": "2026-10-29T22:31:15.908440+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.16,
+      "score": 51.05,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.043,
+        "avg_compound": 0.021,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Jim Cramer says these tech giants can weather market turbulence",
+            "source": "CNBC",
+            "publishedAt": "2026-10-28T22:26:48Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Fed Holds. AI’s Bigger Risk Isn’t Rates",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-28T22:20:19Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
           {
             "title": "Fed leaves rates steady as governor Lisa Cook dissents - Axios",
             "source": "Slashdot.org",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-28T22:07:15Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Stock Market Today, Oct. 28: Oracle Surges on Fiscal 2030 Revenue Guidance of $225 Billion",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-28T22:07:08Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Wall Street moves past the Fed pause and back to tech earnings and AI",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-28T22:05:50Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 42.04,
-  "trade_probability": 45.22,
+  "confirmation_score": 41.94,
+  "trade_probability": 45.16,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
