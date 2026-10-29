@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T13:31:16.301494+00:00",
+  "generated_at": "2026-10-29T13:45:54.042770+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 1.3582,
+          "change_pct": 0.8058,
           "up": true
         },
         "MSFT": {
-          "change_pct": -2.6268,
+          "change_pct": -1.2008,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.145,
-          "up": true
+          "change_pct": -0.0257,
+          "up": false
         },
         "AMZN": {
-          "change_pct": -3.0932,
+          "change_pct": -3.6723,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29406.05,
-        "sma50": 29812.94,
-        "sma200": 27912.72
+        "last_price": 29385.36,
+        "sma50": 29812.53,
+        "sma200": 27912.62
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 41.28,
+      "score": 44.19,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.007,
-        "change_5d_pct": 1.09
+        "current_yield_pct": 4.989,
+        "change_5d_pct": 0.727
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.79,
+      "score": 45.07,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.4,
-        "change_5d_pct": 0.776
+        "current_dxy": 102.24,
+        "change_5d_pct": 0.616
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.2,
+      "score": 46.16,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.104,
+        "avg_compound": -0.077,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "UK to hike taxes on banks to pay for energy bill cuts",
-            "source": "The Irish Times",
-            "publishedAt": "2026-10-28T13:28:43Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
-          },
-          {
-            "title": "IREN and Wingspire close $363 million financing on AI compute gear",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-28T13:24:37Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "The Fed is expected to hold rates steady. How will Warsh justify that in the face of higher inflation?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-28T13:23:17Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Money, Expectations and Institutions: Revisiting Milton Friedman",
-            "source": "Fair Observer",
-            "publishedAt": "2026-10-28T13:22:59Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Jim Cramer's top 10 things to watch in the stock market Wednesday",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-28T13:20:17Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "Walmart’s New US CEO Insists ‘We Do Not Engage In Dynamic Pricing’ In First Interview",
-            "source": "TODAY",
-            "publishedAt": "2026-10-28T13:20:07Z",
+            "title": "The struggling burger chain Wendy's gets a buyout offer from activist investor Nelson Peltz",
+            "source": "WJXT News4JAX",
+            "publishedAt": "2026-10-28T13:42:18Z",
             "sentiment": "Negative",
-            "compound": -0.497
+            "compound": -0.421
+          },
+          {
+            "title": "US stocks today: S&P 500, Nasdaq open higher as SK Hynix lifts chips; Fed meet in focus",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-28T13:39:22Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Docebo Expands Workforce Readiness Platform with Launch of Knowledge and Agents",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-28T13:39:01Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
+          {
+            "title": "World Bank sees commodity prices up 23% in 2026 due to Middle East war, other shocks",
+            "source": "CNA",
+            "publishedAt": "2026-10-28T13:37:07Z",
+            "sentiment": "Negative",
+            "compound": -0.758
+          },
+          {
+            "title": "Dow Jones Futures Fall, Techs Rise As SK Hynix Crushes Views; Fed, Microsoft, Google On Deck",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-28T13:36:28Z",
+            "sentiment": "Negative",
+            "compound": -0.44
+          },
+          {
+            "title": "Badly Crippled GM Moves To Nasdaq",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-28T13:35:55Z",
+            "sentiment": "Negative",
+            "compound": -0.477
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 48.28,
-  "trade_probability": 48.97,
+  "confirmation_score": 41.23,
+  "trade_probability": 44.74,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
