@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T07:15:56.195624+00:00",
+  "generated_at": "2026-10-30T07:31:15.865156+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.79,
+      "score": 50.09,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.84,
-        "change_5d_pct": 0.027
+        "current_dxy": 101.8,
+        "change_5d_pct": -0.012
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.52,
+      "score": 54.01,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.05,
+        "avg_compound": 0.08,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Stock Market: Will S&P 500 Open Up or Down Today? - State Street SPDR S&P 500 ETF Trust (ARCA:SPY)",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-29T07:30:55Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
+          {
+            "title": "Fed leaves rates unchanged as it awaits more information",
+            "source": "RTE",
+            "publishedAt": "2026-10-29T07:24:23Z",
+            "sentiment": "Neutral",
+            "compound": 0.077
+          },
+          {
+            "title": "Explained: Why Anthropic could owe Amazon $110 b even if it doesn't use all the cloud capacity it has committed to buy",
+            "source": "Livemint",
+            "publishedAt": "2026-10-29T07:22:42Z",
+            "sentiment": "Positive",
+            "compound": 0.421
+          },
+          {
+            "title": "Co-pay shifts the bill, doesn’t necessarily cut health care costs: Digit Insurance's Kamesh Goyal",
+            "source": "Livemint",
+            "publishedAt": "2026-10-29T07:21:09Z",
+            "sentiment": "Positive",
+            "compound": 0.273
+          },
+          {
+            "title": "Late-breaking Phase 3 REDUCE-2 data show clinically meaningful and durable serum urate lowering with pozdeutinurad",
+            "source": "PR Newswire UK",
+            "publishedAt": "2026-10-29T07:20:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.077
+          },
           {
             "title": "HUL shares rise 3% after Q2 results. Jefferies, Nomura cut target price but forecast 29% upside potential",
             "source": "The Times of India",
             "publishedAt": "2026-10-29T07:14:36Z",
             "sentiment": "Neutral",
             "compound": 0.013
-          },
-          {
-            "title": "Mesoblast Shares Soar 23% as Ryoncil Revenue Jumps 44% and Cash Burn Plunges 86% in Upbeat Quarterly Update",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-10-29T07:10:15Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "GenusPlus Shares Bounce Nearly 5% as Power Infrastructure Contractor Recovers From Steep October Sell-Off",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-10-29T07:09:29Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "Indian bonds track US Treasuries higher amid oil-price relief",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-29T07:07:27Z",
-            "sentiment": "Positive",
-            "compound": 0.612
-          },
-          {
-            "title": "Oil falls as traders mull diplomatic moves",
-            "source": "The Irish Times",
-            "publishedAt": "2026-10-29T07:06:12Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Global Market: ECB rate decision in focus as Lagarde exit speculation grows",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-29T07:03:47Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 42.22,
-  "trade_probability": 45.33,
+  "confirmation_score": 42.38,
+  "trade_probability": 45.43,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
