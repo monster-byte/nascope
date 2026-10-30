@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T13:22:06.782146+00:00",
+  "generated_at": "2026-10-30T13:31:11.251187+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
-      "status": "green",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.8834,
+          "change_pct": -1.0964,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.2604,
-          "up": true
+          "change_pct": -1.2999,
+          "up": false
         },
         "NVDA": {
-          "change_pct": 1.7003,
-          "up": true
+          "change_pct": -0.9883,
+          "up": false
         },
         "AMZN": {
-          "change_pct": 8.0712,
+          "change_pct": 1.593,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 29402.51,
-        "sma50": 29812.87,
-        "sma200": 27912.71
+        "last_price": 28626.64,
+        "sma50": 29801.14,
+        "sma200": 27928.51
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 58.18,
+      "score": 59.46,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.937,
-        "change_5d_pct": -1.022
+        "current_yield_pct": 4.929,
+        "change_5d_pct": -1.183
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.57,
+      "score": 49.27,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.86,
-        "change_5d_pct": 0.054
+        "current_dxy": 101.9,
+        "change_5d_pct": 0.091
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.43,
+      "score": 54.21,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.029,
+        "avg_compound": 0.084,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "70 years ago the Suez crisis exposed British relative decline. Today, the Iran conflict could be doing the same for the US",
-            "source": "The Conversation Africa",
-            "publishedAt": "2026-10-29T13:21:55Z",
-            "sentiment": "Negative",
-            "compound": -0.772
-          },
-          {
-            "title": "Pidilite to take further price hikes if input costs rise, says Vats",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-29T13:19:53Z",
+            "title": "Antics in Alaska",
+            "source": "Reason",
+            "publishedAt": "2026-10-29T13:30:27Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Why Donald Trump’s foreign policy could cost Republicans in the midterm elections",
-            "source": "The Conversation Africa",
-            "publishedAt": "2026-10-29T13:18:56Z",
+            "title": "European Central Bank keeps key interest rate on hold at 2.5%",
+            "source": "CNBC",
+            "publishedAt": "2026-10-29T13:30:06Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "(PR) Microsoft Posts Record Q3 2026 Revenue of $92.3 Billion",
+            "source": "Techpowerup.com",
+            "publishedAt": "2026-10-29T13:24:26Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "ECB holds rates steady as Lagarde’s departure overshadows decision",
-            "source": "The Irish Times",
-            "publishedAt": "2026-10-29T13:17:20Z",
+            "title": "Asian Paints Q2 net profit rises 7.45% to ₹1,068 crore, revenue up 17%",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-29T13:24:21Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
+          {
+            "title": "Your 2027 Brackets Are Coming. Here’s How to Use Them Before Dec. 31st",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-29T13:23:53Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Sur la table and Affirm partner to give home cooks more choice in how they pay",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-29T13:17:01Z",
+            "title": "The Economy Could Be Growing Too Fast for Warsh",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-29T13:23:52Z",
             "sentiment": "Neutral",
-            "compound": -0.103
-          },
-          {
-            "title": "Monetary policy decisions",
-            "source": "Europa.eu",
-            "publishedAt": "2026-10-29T13:15:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": 0.178
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.49,
-  "trade_probability": 54.49,
+  "confirmation_score": 44.39,
+  "trade_probability": 46.63,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
