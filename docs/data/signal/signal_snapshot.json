@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T08:01:26.266691+00:00",
+  "generated_at": "2026-10-30T08:15:54.537379+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.16,
+      "score": 50.64,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.79,
-        "change_5d_pct": -0.021
+        "current_dxy": 101.73,
+        "change_5d_pct": -0.081
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.63,
+      "score": 55.79,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.113,
-        "articles_analyzed": 21,
+        "avg_compound": 0.116,
+        "articles_analyzed": 22,
         "top_headlines": [
+          {
+            "title": "US Market: Anthropic IPO sparks betting frenzy on prediction markets",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-29T08:14:23Z",
+            "sentiment": "Negative",
+            "compound": -0.318
+          },
+          {
+            "title": "Jio Q2 Preview: First results after listing tomorrow. What should investors expect?",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-29T08:11:08Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Hero MotoCorp expects Q3 margin to stay stable despite commodity inflation",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-29T08:07:15Z",
+            "sentiment": "Positive",
+            "compound": 0.7
+          },
+          {
+            "title": "US Market: Fed holds rates steady, but bond investors remain concerned over inflation",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-29T08:05:27Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Carney budget to focus on taxes, shift from Trudeau era",
             "source": "National Post",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-29T07:48:32Z",
             "sentiment": "Positive",
             "compound": 0.494
-          },
-          {
-            "title": "Hundreds of ACT nurses and prison guards go on strike",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-10-29T07:45:23Z",
-            "sentiment": "Negative",
-            "compound": -0.586
-          },
-          {
-            "title": "Global Market: China stocks fall as tech selloff deepens despite Fed rate pause",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-29T07:34:54Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Asian shares wobble as Alphabet earnings miss drags Wall St futures lower - Reuters",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-10-29T07:33:12Z",
-            "sentiment": "Negative",
-            "compound": -0.318
-          },
-          {
-            "title": "Bitcoin ETFs add $137M, pushing October back into the green",
-            "source": "Cointelegraph",
-            "publishedAt": "2026-10-29T07:32:20Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.04,
-  "trade_probability": 53.62,
+  "confirmation_score": 56.09,
+  "trade_probability": 53.65,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
