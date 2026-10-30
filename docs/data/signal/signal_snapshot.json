@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T00:25:35.053457+00:00",
+  "generated_at": "2026-10-30T00:31:11.419420+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.02,
+      "score": 48.1,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.86,
-        "change_5d_pct": 0.247
+        "current_dxy": 101.85,
+        "change_5d_pct": 0.237
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.52,
+      "score": 50.58,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.03,
+        "avg_compound": 0.012,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Stocks in news: Jio Platforms, RIL, Hero MotoCorp, Meesho, TVS Motor, Vedanta Aluminium and Suzlon Energy",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-29T00:30:00Z",
+            "sentiment": "Positive",
+            "compound": 0.691
+          },
+          {
+            "title": "Pre-market action: Here's the trade setup for today's session",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-29T00:30:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Fed Chair Kevin Warsh reveals October surprise inside interest-rate pause",
             "source": "Biztoc.com",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-29T00:18:06Z",
             "sentiment": "Negative",
             "compound": -0.836
-          },
-          {
-            "title": "Scrapped Firmus float casts doubt on billions in AI data centre builds",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-10-29T00:15:55Z",
-            "sentiment": "Negative",
-            "compound": -0.361
-          },
-          {
-            "title": "Anthony Albanese is asked the question on every Aussie's mind - 'When will our lives get easier?' - as soaring inflation and rising interest rates squeeze household budgets with no relief in sight",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-10-29T00:15:10Z",
-            "sentiment": "Positive",
-            "compound": 0.502
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.7,
-  "trade_probability": 45.02,
+  "confirmation_score": 41.9,
+  "trade_probability": 45.14,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
