@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T09:01:27.652249+00:00",
+  "generated_at": "2026-10-30T09:15:53.847854+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.89,
+      "score": 50.64,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.7,
-        "change_5d_pct": -0.111
+        "current_dxy": 101.73,
+        "change_5d_pct": -0.081
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.83,
+      "score": 56.47,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.037,
+        "avg_compound": 0.129,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Poll: Plurality Says Migrants Help CEOs to 'Hold Wages Down'",
+            "source": "Breitbart News",
+            "publishedAt": "2026-10-29T09:12:05Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "India bonds seen attracting buyers as 10-year yield nears 2022 levels",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-29T09:11:16Z",
+            "sentiment": "Positive",
+            "compound": 0.477
+          },
+          {
+            "title": "Finance ministry estimates India’s Q2 FY27 GDP growth at 7.35%",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-29T09:04:04Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
           {
             "title": "Sharp China: Five Questions on the Fifth Plenum; Mbappé Hysteria and a Chinese Own Goal; The STAR 50 AI Bubble Has Burst",
             "source": "Sinocism.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-29T09:00:02Z",
             "sentiment": "Neutral",
             "compound": -0.077
-          },
-          {
-            "title": "Analysis: Warsh is learning to wield the Fed's power without showing his hand",
-            "source": "CNBC",
-            "publishedAt": "2026-10-29T09:00:01Z",
-            "sentiment": "Negative",
-            "compound": -0.388
-          },
-          {
-            "title": "Coordinated disinformation campaigns target Singapore over Indonesia markets and made-up meeting",
-            "source": "CNA",
-            "publishedAt": "2026-10-29T09:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "What Is Money?",
-            "source": "Thenation.com",
-            "publishedAt": "2026-10-29T09:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 55.76,
-  "trade_probability": 53.46,
+  "confirmation_score": 56.16,
+  "trade_probability": 53.7,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
