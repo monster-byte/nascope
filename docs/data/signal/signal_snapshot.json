@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T16:15:59.982211+00:00",
+  "generated_at": "2026-10-30T16:31:15.314928+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.4543,
+          "change_pct": -1.3538,
           "up": false
         },
         "MSFT": {
-          "change_pct": -1.466,
+          "change_pct": -1.1118,
           "up": false
         },
         "NVDA": {
-          "change_pct": -2.5567,
+          "change_pct": -2.5776,
           "up": false
         },
         "AMZN": {
-          "change_pct": 5.7781,
+          "change_pct": 5.8941,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28432.81,
-        "sma50": 29797.26,
-        "sma200": 27927.54
+        "last_price": 28461.15,
+        "sma50": 29797.83,
+        "sma200": 27927.68
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 10.0,
+      "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 27.65,
-        "percentile_vs_20d": 90.0
+        "current_vxn": 28.2,
+        "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 55.45,
+      "score": 55.77,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.954,
-        "change_5d_pct": -0.682
+        "current_yield_pct": 4.952,
+        "change_5d_pct": -0.722
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.65,
+      "score": 49.46,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.86,
-        "change_5d_pct": 0.044
+        "current_dxy": 101.88,
+        "change_5d_pct": 0.068
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.01,
+      "score": 53.16,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.02,
+        "avg_compound": 0.063,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Who is Nelson Peltz? What is his net worth? US billionaire, other partners offer to buy burger chain Wendy’s for $1.4 bn",
-            "source": "Livemint",
-            "publishedAt": "2026-10-29T16:15:13Z",
+            "title": "India increases growth forecast for fiscal year",
+            "source": "DW (English)",
+            "publishedAt": "2026-10-29T16:30:00Z",
             "sentiment": "Positive",
-            "compound": 0.309
+            "compound": 0.382
           },
           {
-            "title": "‘The inflation outlook has become more concerning’: Incomes declined 0.3% and consumer prices jumped 3.6% in September as midterms loom",
-            "source": "Fortune",
-            "publishedAt": "2026-10-29T16:13:16Z",
-            "sentiment": "Negative",
-            "compound": -0.226
-          },
-          {
-            "title": "Alphabet sheds record $500B in market value as AI fears hit fever pitch",
-            "source": "New York Post",
-            "publishedAt": "2026-10-29T16:11:14Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
-          },
-          {
-            "title": "Beware Donald Trump's October Surprise",
-            "source": "Common Dreams",
-            "publishedAt": "2026-10-29T16:08:50Z",
-            "sentiment": "Positive",
-            "compound": 0.273
-          },
-          {
-            "title": "Average 30-year US mortgage rate dips to 7.24%, the lowest level in more than a month",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-10-29T16:08:23Z",
-            "sentiment": "Negative",
-            "compound": -0.382
-          },
-          {
-            "title": "Dallas advances streetcar expansion as council member says funding existing operations ‘not sustainable’",
-            "source": "Dallas Observer",
-            "publishedAt": "2026-10-29T16:05:11Z",
+            "title": "Nasdaq-listed Canton Strategic Holdings plans tokenized stock trading from Nov. 2",
+            "source": "Cointelegraph",
+            "publishedAt": "2026-10-29T16:27:39Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "Neocloud stocks plunge 30% as Anthropic eyes $2T NASDAQ IPO",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-29T16:25:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Trent Q2 profit rises 25% as Zudio, Star grow; Noel Tata to step down",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-29T16:24:31Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
+          {
+            "title": "US economy posts strong growth, inflation stubbornly high in challenge to Trump",
+            "source": "CNA",
+            "publishedAt": "2026-10-29T16:24:29Z",
+            "sentiment": "Positive",
+            "compound": 0.586
+          },
+          {
+            "title": "Obama Skewers Trump's Cheesecake Factory Outrage",
+            "source": "Newser",
+            "publishedAt": "2026-10-29T16:24:00Z",
+            "sentiment": "Negative",
+            "compound": -0.511
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.45,
-  "trade_probability": 44.27,
+  "confirmation_score": 41.11,
+  "trade_probability": 44.67,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
