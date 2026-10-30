@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T08:15:54.537379+00:00",
+  "generated_at": "2026-10-30T08:31:13.935637+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.64,
+      "score": 51.07,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.73,
-        "change_5d_pct": -0.081
+        "current_dxy": 101.67,
+        "change_5d_pct": -0.134
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.79,
+      "score": 54.47,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.116,
-        "articles_analyzed": 22,
+        "avg_compound": 0.089,
+        "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Fed’s divided rate decision threatens Bitcoin’s comeback as December hike looms",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-10-29T08:30:16Z",
+            "sentiment": "Negative",
+            "compound": -0.494
+          },
           {
             "title": "US Market: Anthropic IPO sparks betting frenzy on prediction markets",
             "source": "The Times of India",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-10-29T08:00:44Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Oil prices fall as renewed U.S.-Iran peace efforts ease supply fears",
-            "source": "CNBC",
-            "publishedAt": "2026-10-29T07:48:32Z",
-            "sentiment": "Positive",
-            "compound": 0.494
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.09,
-  "trade_probability": 53.65,
+  "confirmation_score": 56.01,
+  "trade_probability": 53.61,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
