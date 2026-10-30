@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T21:01:24.922422+00:00",
+  "generated_at": "2026-10-30T21:15:56.490776+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.0622,
+          "change_pct": -2.0594,
           "up": false
         },
         "MSFT": {
@@ -29,7 +29,7 @@
           "up": false
         },
         "AMZN": {
-          "change_pct": 6.4074,
+          "change_pct": 6.3808,
           "up": true
         }
       }
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.01,
+      "score": 48.79,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.94,
-        "change_5d_pct": 0.124
+        "current_dxy": 101.96,
+        "change_5d_pct": 0.151
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.32,
+      "score": 55.16,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.006,
+        "avg_compound": 0.103,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "DoorDash offers $17 billion for Instacart: ‘the largest companies are only eating more and more of the pie’",
+            "source": "Fortune",
+            "publishedAt": "2026-10-29T21:14:29Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Methanex Announces Board Approval of a 5% Share Repurchase Program",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-29T21:07:22Z",
+            "sentiment": "Positive",
+            "compound": 0.649
+          },
+          {
+            "title": "Franklin Templeton Just Launched ETFs That Turn Stock Dividends Into Bitcoin. Is That a Smarter Way to Own BTC?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-29T21:04:28Z",
+            "sentiment": "Positive",
+            "compound": 0.542
+          },
+          {
+            "title": "Teamshares to Release Third Quarter 2026 Earnings on November 16, 2026",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-29T21:04:27Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Bank of Japan to hold rates, signal further hikes",
+            "source": "CNA",
+            "publishedAt": "2026-10-29T21:01:26Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Apple shares hit new all-time closing high",
             "source": "Macdailynews.com",
             "publishedAt": "2026-10-29T21:00:17Z",
             "sentiment": "Positive",
             "compound": 0.296
-          },
-          {
-            "title": "Indonesia’s populist president is losing his charm",
-            "source": "Www.nrc.nl",
-            "publishedAt": "2026-10-29T21:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.026
-          },
-          {
-            "title": "Monster Hunter Outlanders Officially Launches Today, October 29",
-            "source": "Anime News Network",
-            "publishedAt": "2026-10-29T21:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Crypto markets slide as Bitcoin dips under $80K and Solana touches $95",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-29T20:59:20Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Update: Nasdaq, S&P 500 Snap 3-Day Rise on Alphabet Sell-Off, Inflation Anxiety",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-29T20:51:48Z",
-            "sentiment": "Neutral",
-            "compound": -0.178
-          },
-          {
-            "title": "Google Eats Its Own Tail (and Profits) With AI Summaries as Stock Price Plunges",
-            "source": "Gizmodo.com",
-            "publishedAt": "2026-10-29T20:50:51Z",
-            "sentiment": "Positive",
-            "compound": 0.44
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.42,
-  "trade_probability": 44.25,
+  "confirmation_score": 40.83,
+  "trade_probability": 44.5,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
