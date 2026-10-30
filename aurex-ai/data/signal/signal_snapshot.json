@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T17:01:25.037169+00:00",
+  "generated_at": "2026-10-30T17:15:53.561832+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.4543,
+          "change_pct": -1.4714,
           "up": false
         },
         "MSFT": {
-          "change_pct": -1.4161,
+          "change_pct": -1.4738,
           "up": false
         },
         "NVDA": {
-          "change_pct": -3.0963,
+          "change_pct": -2.963,
           "up": false
         },
         "AMZN": {
-          "change_pct": 5.7038,
+          "change_pct": 5.4538,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28365.82,
-        "sma50": 29795.92,
+        "last_price": 28367.63,
+        "sma50": 29795.96,
         "sma200": 27927.21
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 10.0,
+      "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 28.14,
-        "percentile_vs_20d": 90.0
+        "current_vxn": 28.64,
+        "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 56.58,
+      "score": 55.13,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.947,
-        "change_5d_pct": -0.822
+        "current_yield_pct": 4.956,
+        "change_5d_pct": -0.642
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.05,
+      "score": 49.03,
       "status": "yellow",
       "details": {
         "current_dxy": 101.93,
-        "change_5d_pct": 0.119
+        "change_5d_pct": 0.121
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 57.37,
+      "score": 53.8,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.147,
+        "avg_compound": 0.076,
         "articles_analyzed": 23,
         "top_headlines": [
           {
-            "title": "Jared Polis Warns Colorado's Progressive Tax Ballot Measure Could 'Cripple' the Economy",
-            "source": "Reason",
-            "publishedAt": "2026-10-29T17:00:19Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
-          },
-          {
-            "title": "Can a new Government solve NZ’s local council crisis? Why a royal commission could help",
-            "source": "New Zealand Herald",
-            "publishedAt": "2026-10-29T17:00:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.153
-          },
-          {
-            "title": "Ireland’s Grid Flexibility Assessment Shows Why Location Matters",
-            "source": "CleanTechnica",
-            "publishedAt": "2026-10-29T16:59:03Z",
-            "sentiment": "Positive",
-            "compound": 0.361
-          },
-          {
-            "title": "Vici Properties Q3 Earnings Hampered by Market Headwinds, Caesars Lease Unknowns",
-            "source": "Commercial Observer",
-            "publishedAt": "2026-10-29T16:58:41Z",
+            "title": "$11 Billion in Bitcoin Options Expire Tomorrow—Here's What It Means",
+            "source": "Decrypt",
+            "publishedAt": "2026-10-29T17:15:11Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Shell and Total Post Highest Quarterly Profit Since 2022",
-            "source": "gcaptain.com",
-            "publishedAt": "2026-10-29T16:45:23Z",
-            "sentiment": "Positive",
-            "compound": 0.44
+            "title": "ECB at critical point in advance of strategic reshuffle of key personnel",
+            "source": "The Irish Times",
+            "publishedAt": "2026-10-29T17:14:41Z",
+            "sentiment": "Negative",
+            "compound": -0.318
           },
           {
-            "title": "Strong growth and inflation paints mixed picture of economy days before midterm elections",
-            "source": "Associated Press",
-            "publishedAt": "2026-10-29T16:45:05Z",
+            "title": "intentos-engineering added to PyPI",
+            "source": "Pypi.org",
+            "publishedAt": "2026-10-29T17:10:02Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Milky Mist sees limited impact from inflation, El Niño as revenue grows 42%",
+            "source": "Livemint",
+            "publishedAt": "2026-10-29T17:08:58Z",
+            "sentiment": "Negative",
+            "compound": -0.226
+          },
+          {
+            "title": "Wall Street's AI bet: Own the infrastructure, collect the rent",
+            "source": "CNA",
+            "publishedAt": "2026-10-29T17:04:46Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "7-year Treasury yield before $44B auction, impacting Bitcoin sentiment",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-29T17:03:20Z",
             "sentiment": "Positive",
-            "compound": 0.71
+            "compound": 0.202
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.12,
-  "trade_probability": 44.67,
+  "confirmation_score": 40.15,
+  "trade_probability": 44.09,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
