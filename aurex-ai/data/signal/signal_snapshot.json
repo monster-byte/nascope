@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T18:15:53.784284+00:00",
+  "generated_at": "2026-10-30T18:31:16.836952+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.4031,
+          "change_pct": -2.5039,
           "up": false
         },
         "MSFT": {
-          "change_pct": -1.5239,
+          "change_pct": -1.7564,
           "up": false
         },
         "NVDA": {
-          "change_pct": -3.634,
+          "change_pct": -3.8957,
           "up": false
         },
         "AMZN": {
-          "change_pct": 5.8233,
+          "change_pct": 5.2016,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28223.17,
-        "sma50": 29793.07,
-        "sma200": 27926.49
+        "last_price": 28187.02,
+        "sma50": 29792.35,
+        "sma200": 27926.31
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 30.02,
+        "current_vxn": 30.17,
         "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 56.9,
+      "score": 58.18,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.945,
-        "change_5d_pct": -0.862
+        "current_yield_pct": 4.937,
+        "change_5d_pct": -1.022
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.76,
+      "score": 49.17,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.97,
-        "change_5d_pct": 0.155
+        "current_dxy": 101.92,
+        "change_5d_pct": 0.104
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.32,
+      "score": 50.49,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.074,
+        "avg_compound": 0.01,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Republican backers dominate list of top 10 midterm donors as Elon Musk boosts head-spinning 2026 total",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-29T18:30:38Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "Which Gen Z will show up for the midterms: the socialist rebels or the ones who reelected Trump?",
+            "source": "Fortune",
+            "publishedAt": "2026-10-29T18:27:11Z",
+            "sentiment": "Negative",
+            "compound": -0.202
+          },
+          {
+            "title": "Carolina Journal Poll: Cooper’s lead over Whatley narrows to 10 points in NC Senate race",
+            "source": "Ncspin.com",
+            "publishedAt": "2026-10-29T18:25:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Vanguard’s stake in Bitcoin treasury firm Strive climbs to $51.5 million",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-29T18:23:04Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "‘Facing ‘gerontonomia’, the West’s young opt for political extremes’",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-29T18:15:57Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Is Kalshi Legal in Texas? October 2026 Legal Status and How to Trade",
             "source": "Fox Sports",
             "publishedAt": "2026-10-29T18:11:37Z",
             "sentiment": "Positive",
             "compound": 0.25
-          },
-          {
-            "title": "Price stability top policy agenda in H2FY27 amid inflation: FinMin review",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-29T18:07:39Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "Final Pre-Midterms Polls Show Depth of Trump Slump",
-            "source": "New York Magazine",
-            "publishedAt": "2026-10-29T18:05:20Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Nvidia Chief Seen as Target of Chinese Spy Plot",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-10-29T18:05:17Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Real Estate, Climate and Wild Parties? Here’s How Anthropic’s IPO Could Affect the Bay Area",
-            "source": "KQED",
-            "publishedAt": "2026-10-29T18:02:14Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "Why Is General Motors Stock Surging on Thursday?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-29T18:00:47Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 39.69,
-  "trade_probability": 43.81,
+  "confirmation_score": 40.27,
+  "trade_probability": 44.16,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
