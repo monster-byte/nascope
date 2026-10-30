@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T13:31:11.251187+00:00",
+  "generated_at": "2026-10-30T13:45:54.895528+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.0964,
+          "change_pct": -2.173,
           "up": false
         },
         "MSFT": {
-          "change_pct": -1.2999,
+          "change_pct": -1.144,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.9883,
+          "change_pct": -1.8234,
           "up": false
         },
         "AMZN": {
-          "change_pct": 1.593,
+          "change_pct": 5.3587,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28626.64,
-        "sma50": 29801.14,
-        "sma200": 27928.51
+        "last_price": 28593.64,
+        "sma50": 29800.48,
+        "sma200": 27928.34
       }
     },
     "vxn": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.27,
+      "score": 49.51,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.9,
-        "change_5d_pct": 0.091
+        "current_dxy": 101.87,
+        "change_5d_pct": 0.061
       }
     },
     "macro": {
@@ -85,56 +85,10 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.21,
+      "score": 50.0,
       "status": "yellow",
       "details": {
-        "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.084,
-        "articles_analyzed": 25,
-        "top_headlines": [
-          {
-            "title": "Antics in Alaska",
-            "source": "Reason",
-            "publishedAt": "2026-10-29T13:30:27Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "European Central Bank keeps key interest rate on hold at 2.5%",
-            "source": "CNBC",
-            "publishedAt": "2026-10-29T13:30:06Z",
-            "sentiment": "Positive",
-            "compound": 0.459
-          },
-          {
-            "title": "(PR) Microsoft Posts Record Q3 2026 Revenue of $92.3 Billion",
-            "source": "Techpowerup.com",
-            "publishedAt": "2026-10-29T13:24:26Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Asian Paints Q2 net profit rises 7.45% to ₹1,068 crore, revenue up 17%",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-29T13:24:21Z",
-            "sentiment": "Positive",
-            "compound": 0.44
-          },
-          {
-            "title": "Your 2027 Brackets Are Coming. Here’s How to Use Them Before Dec. 31st",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-29T13:23:53Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "The Economy Could Be Growing Too Fast for Warsh",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-29T13:23:52Z",
-            "sentiment": "Neutral",
-            "compound": 0.178
-          }
-        ]
+        "error": "news_fetch_failed: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?q=Nasdaq+OR+%22Federal+Reserve%22+OR+%22stock+market%22+OR+inflation&language=en&sortBy=publishedAt&pageSize=25&apiKey=280ea038bd7e4ccb91d87f9d115484d4"
       }
     },
     "patent_momentum": {
@@ -146,8 +100,8 @@
       }
     }
   },
-  "confirmation_score": 44.39,
-  "trade_probability": 46.63,
+  "confirmation_score": 44.03,
+  "trade_probability": 46.42,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
