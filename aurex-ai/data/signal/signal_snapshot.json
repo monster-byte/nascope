@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T18:31:16.836952+00:00",
+  "generated_at": "2026-10-30T18:45:49.903091+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.5039,
+          "change_pct": -2.4741,
           "up": false
         },
         "MSFT": {
-          "change_pct": -1.7564,
+          "change_pct": -1.8301,
           "up": false
         },
         "NVDA": {
-          "change_pct": -3.8957,
+          "change_pct": -4.3716,
           "up": false
         },
         "AMZN": {
-          "change_pct": 5.2016,
+          "change_pct": 5.2038,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28187.02,
-        "sma50": 29792.35,
-        "sma200": 27926.31
+        "last_price": 28107.75,
+        "sma50": 29790.76,
+        "sma200": 27925.92
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 5.0,
+      "score": 0.0,
       "status": "red",
       "details": {
-        "current_vxn": 30.17,
-        "percentile_vs_20d": 95.0
+        "current_vxn": 30.99,
+        "percentile_vs_20d": 100.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 58.18,
+      "score": 58.82,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.937,
-        "change_5d_pct": -1.022
+        "current_yield_pct": 4.933,
+        "change_5d_pct": -1.103
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.17,
+      "score": 49.69,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.92,
-        "change_5d_pct": 0.104
+        "current_dxy": 101.85,
+        "change_5d_pct": 0.038
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.49,
+      "score": 50.54,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.01,
+        "avg_compound": 0.011,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "The only election poll that matters",
+            "source": "Ncspin.com",
+            "publishedAt": "2026-10-29T18:40:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.026
+          },
           {
             "title": "Republican backers dominate list of top 10 midterm donors as Elon Musk boosts head-spinning 2026 total",
             "source": "Biztoc.com",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-10-29T18:15:57Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Is Kalshi Legal in Texas? October 2026 Legal Status and How to Trade",
-            "source": "Fox Sports",
-            "publishedAt": "2026-10-29T18:11:37Z",
-            "sentiment": "Positive",
-            "compound": 0.25
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.27,
-  "trade_probability": 44.16,
+  "confirmation_score": 39.96,
+  "trade_probability": 43.98,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
