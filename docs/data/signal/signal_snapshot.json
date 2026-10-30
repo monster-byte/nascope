@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T17:15:53.561832+00:00",
+  "generated_at": "2026-10-30T17:31:12.870641+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.4714,
+          "change_pct": -1.5992,
           "up": false
         },
         "MSFT": {
-          "change_pct": -1.4738,
+          "change_pct": -1.5503,
           "up": false
         },
         "NVDA": {
-          "change_pct": -2.963,
+          "change_pct": -3.2867,
           "up": false
         },
         "AMZN": {
-          "change_pct": 5.4538,
+          "change_pct": 5.4339,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28367.63,
-        "sma50": 29795.96,
-        "sma200": 27927.21
+        "last_price": 28325.74,
+        "sma50": 29795.12,
+        "sma200": 27927.01
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 5.0,
+      "score": 0.0,
       "status": "red",
       "details": {
-        "current_vxn": 28.64,
-        "percentile_vs_20d": 95.0
+        "current_vxn": 28.96,
+        "percentile_vs_20d": 100.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 55.13,
+      "score": 58.5,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.956,
-        "change_5d_pct": -0.642
+        "current_yield_pct": 4.935,
+        "change_5d_pct": -1.063
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.03,
+      "score": 49.0,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.93,
-        "change_5d_pct": 0.121
+        "current_dxy": 101.94,
+        "change_5d_pct": 0.125
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.8,
+      "score": 52.31,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.076,
+        "avg_compound": 0.046,
         "articles_analyzed": 23,
         "top_headlines": [
           {
-            "title": "$11 Billion in Bitcoin Options Expire Tomorrow—Here's What It Means",
-            "source": "Decrypt",
-            "publishedAt": "2026-10-29T17:15:11Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "ECB at critical point in advance of strategic reshuffle of key personnel",
-            "source": "The Irish Times",
-            "publishedAt": "2026-10-29T17:14:41Z",
-            "sentiment": "Negative",
-            "compound": -0.318
-          },
-          {
-            "title": "intentos-engineering added to PyPI",
-            "source": "Pypi.org",
-            "publishedAt": "2026-10-29T17:10:02Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Milky Mist sees limited impact from inflation, El Niño as revenue grows 42%",
-            "source": "Livemint",
-            "publishedAt": "2026-10-29T17:08:58Z",
-            "sentiment": "Negative",
-            "compound": -0.226
-          },
-          {
-            "title": "Wall Street's AI bet: Own the infrastructure, collect the rent",
-            "source": "CNA",
-            "publishedAt": "2026-10-29T17:04:46Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "7-year Treasury yield before $44B auction, impacting Bitcoin sentiment",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-29T17:03:20Z",
+            "title": "Trump: Fed hates cutting rates, but it's good for me",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-29T17:30:44Z",
             "sentiment": "Positive",
-            "compound": 0.202
+            "compound": 0.392
+          },
+          {
+            "title": "Globalist Christine Lagarde QUITS European Central Bank NINE MONTHS EARLY as Inflation Surges and Europe’s Debt Crisis Deepens",
+            "source": "Thegatewaypundit.com",
+            "publishedAt": "2026-10-29T17:30:42Z",
+            "sentiment": "Negative",
+            "compound": -0.765
+          },
+          {
+            "title": "My Political Opponent Is Lying About Me Being the Mud Monster from Mulholland Drive",
+            "source": "Mcsweeneys.net",
+            "publishedAt": "2026-10-29T17:30:00Z",
+            "sentiment": "Negative",
+            "compound": -0.527
+          },
+          {
+            "title": "Some investors have midterm election jitters. Here’s what history shows about stocks",
+            "source": "CNBC",
+            "publishedAt": "2026-10-29T17:27:10Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Cognizant trims 2026 revenue growth guidance again amid macro uncertainty",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-29T17:26:09Z",
+            "sentiment": "Neutral",
+            "compound": 0.052
+          },
+          {
+            "title": "Lancaster County Convention Center Authority head leaving after 18 years",
+            "source": "LancasterOnline",
+            "publishedAt": "2026-10-29T17:26:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.077
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.15,
-  "trade_probability": 44.09,
+  "confirmation_score": 40.02,
+  "trade_probability": 44.01,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
