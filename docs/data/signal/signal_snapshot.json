@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T22:15:50.547040+00:00",
+  "generated_at": "2026-10-30T22:31:08.658878+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.0594,
+          "change_pct": -2.0622,
           "up": false
         },
         "MSFT": {
@@ -29,7 +29,7 @@
           "up": false
         },
         "AMZN": {
-          "change_pct": 6.3808,
+          "change_pct": 6.4074,
           "up": true
         }
       }
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.45,
+      "score": 52.53,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.029,
+        "avg_compound": 0.051,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Public sector pay talks edge closer but hopes of a breakthrough prove premature",
+            "source": "The Irish Times",
+            "publishedAt": "2026-10-29T22:21:55Z",
+            "sentiment": "Positive",
+            "compound": 0.542
+          },
           {
             "title": "Smartbird's CEO talks about converting a shoe company into an AI player",
             "source": "Business Insider",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-10-29T21:58:12Z",
             "sentiment": "Positive",
             "compound": 0.202
-          },
-          {
-            "title": "Chipotle stock soars after chain reveals menu price increases will reach 3% in fourth quarter as costs climb",
-            "source": "New York Post",
-            "publishedAt": "2026-10-29T21:53:59Z",
-            "sentiment": "Neutral",
-            "compound": 0.026
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.5,
-  "trade_probability": 44.3,
+  "confirmation_score": 40.6,
+  "trade_probability": 44.36,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
