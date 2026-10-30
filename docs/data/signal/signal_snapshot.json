@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T05:31:10.207639+00:00",
+  "generated_at": "2026-10-30T05:45:52.750088+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.88,
+      "score": 49.72,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.82,
-        "change_5d_pct": 0.015
+        "current_dxy": 101.85,
+        "change_5d_pct": 0.035
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.09,
+      "score": 55.52,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.022,
+        "avg_compound": 0.11,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Türkiye’s October inflation expected at 2.2 percent",
+            "source": "Hurriyet Daily News",
+            "publishedAt": "2026-10-29T05:44:54Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Japan bonds steady ahead of BOJ decision; strong auction lends support",
+            "source": "CNA",
+            "publishedAt": "2026-10-29T05:40:55Z",
+            "sentiment": "Positive",
+            "compound": 0.718
+          },
+          {
+            "title": "Why is market rising today? Sensex jumps 600 points, Nifty nears 22,900. 6 key factors behind Rs 3 lakh crore gains",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-29T05:31:22Z",
+            "sentiment": "Positive",
+            "compound": 0.625
+          },
           {
             "title": "Is it time for India’s HNI’s and UHNIs to rethink their real estate portfolios?",
             "source": "The Times of India",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-29T05:23:57Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "‘From Varanasi to Nagpur’: Jairam Ramesh says voters reject PM Modi govt’s policies",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-29T05:15:52Z",
-            "sentiment": "Negative",
-            "compound": -0.402
-          },
-          {
-            "title": "Sensex, Nifty rise in early trade on Reliance buying, foreign inflows",
-            "source": "Dtnext.in",
-            "publishedAt": "2026-10-29T05:12:14Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "How LADWP's rates compare to other utilities in Southern California",
-            "source": "CBS News",
-            "publishedAt": "2026-10-29T05:12:05Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 42.1,
-  "trade_probability": 45.26,
+  "confirmation_score": 42.49,
+  "trade_probability": 45.49,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
