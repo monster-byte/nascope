@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T17:45:52.588204+00:00",
+  "generated_at": "2026-10-30T18:01:23.563068+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.7924,
+          "change_pct": -2.1328,
           "up": false
         },
         "MSFT": {
-          "change_pct": -1.5721,
+          "change_pct": -1.6297,
           "up": false
         },
         "NVDA": {
-          "change_pct": -3.3104,
+          "change_pct": -3.6769,
           "up": false
         },
         "AMZN": {
-          "change_pct": 6.0091,
+          "change_pct": 5.8454,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28310.62,
-        "sma50": 29794.82,
-        "sma200": 27926.93
+        "last_price": 28225.09,
+        "sma50": 29793.11,
+        "sma200": 27926.5
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 29.28,
+        "current_vxn": 29.42,
         "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 57.54,
+      "score": 58.5,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.941,
-        "change_5d_pct": -0.942
+        "current_yield_pct": 4.935,
+        "change_5d_pct": -1.063
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.81,
+      "score": 48.65,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.96,
-        "change_5d_pct": 0.149
+        "current_dxy": 101.98,
+        "change_5d_pct": 0.169
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.53,
+      "score": 44.13,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.049,
+        "avg_compound": -0.117,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Bitcoin CPI falls 19.30% in September but rises 43.75% year over year",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-29T17:43:57Z",
+            "title": "Why Is General Motors Stock Surging on Thursday?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-29T18:00:47Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Hyatt Raises Outlook, but Its All-Inclusives Lag",
-            "source": "Skift",
-            "publishedAt": "2026-10-29T17:41:07Z",
+            "title": "Hoping For Cheaper Beer? Budweiser Parent Signals No Retreat From Inflation-Based Pricing - Anheuser-Busch…",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-29T18:00:40Z",
+            "sentiment": "Positive",
+            "compound": 0.298
+          },
+          {
+            "title": "European shares hold steady following ECB news",
+            "source": "The Irish Times",
+            "publishedAt": "2026-10-29T18:00:30Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "Economist delivers 'worst-case scenario' on interest rates as inflation fails to cool",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-10-29T18:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.361
+          },
+          {
+            "title": "One Nation might not win Victoria, but NSW is where the real fight is",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-10-29T18:00:00Z",
             "sentiment": "Negative",
-            "compound": -0.477
+            "compound": -0.664
           },
           {
-            "title": "Stalin targets TVK over raids, says Vijay masking law and order collapse",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-29T17:40:15Z",
+            "title": "Warnings of blackouts and lives at risk over power pay struggle",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-10-29T18:00:00Z",
             "sentiment": "Negative",
-            "compound": -0.494
-          },
-          {
-            "title": "Alphabet’s AI risks deepen as filing reveals $98 billion in hidden commitments",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-29T17:37:58Z",
-            "sentiment": "Neutral",
-            "compound": -0.153
-          },
-          {
-            "title": "Google drags down Wall Street stocks",
-            "source": "CNA",
-            "publishedAt": "2026-10-29T17:37:29Z",
-            "sentiment": "Neutral",
-            "compound": -0.178
-          },
-          {
-            "title": "The AI Payoff Is Real. The Timeline Is the Problem.",
-            "source": "Yale.edu",
-            "publishedAt": "2026-10-29T17:37:28Z",
-            "sentiment": "Negative",
-            "compound": -0.402
+            "compound": -0.718
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 39.89,
-  "trade_probability": 43.93,
+  "confirmation_score": 39.7,
+  "trade_probability": 43.82,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
