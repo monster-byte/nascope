@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T00:01:21.494560+00:00",
+  "generated_at": "2026-10-30T00:15:53.462340+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.85,
+      "score": 47.72,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.88,
-        "change_5d_pct": 0.269
+        "current_dxy": 101.9,
+        "change_5d_pct": 0.284
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.08,
+      "score": 51.84,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.082,
-        "articles_analyzed": 24,
+        "avg_compound": 0.037,
+        "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Anthony Albanese is asked the question on every Aussie's mind - 'When will our lives get easier?' - as soaring inflation and rising interest rates squeeze household budgets with no relief in sight",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-10-29T00:15:10Z",
+            "sentiment": "Positive",
+            "compound": 0.502
+          },
+          {
+            "title": "Labor’s ‘fixes’ for surging inflation are stupid",
+            "source": "Crikey",
+            "publishedAt": "2026-10-29T00:14:40Z",
+            "sentiment": "Negative",
+            "compound": -0.527
+          },
+          {
+            "title": "quantmet-tools added to PyPI",
+            "source": "Pypi.org",
+            "publishedAt": "2026-10-29T00:10:24Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Worse off under Burnham: The middle-earners and families struggling with bills who face a fall in living standards under Labour's 'is that it?' Budget",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-10-29T00:01:59Z",
+            "sentiment": "Negative",
+            "compound": -0.71
+          },
           {
             "title": "Government and industry to take on investment bias and workplace culture to support more women in tech",
             "source": "Www.gov.uk",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-29T00:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Prop 3: The Permanent High-Income Tax Initiative",
-            "source": "Hoover.org",
-            "publishedAt": "2026-10-29T00:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "HUL sales rise 15% to hit 14-quarter high, but inflation clouds demand outlook",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-29T00:00:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.19
-          },
-          {
-            "title": "HUL sales rise 15% to hit 14-quarter high, but inflation clouds demand outlook",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-29T00:00:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.19
-          },
-          {
-            "title": "Peace Talks Won’t Save Oil Buyers From $100-Plus Oil",
-            "source": "OilPrice.com",
-            "publishedAt": "2026-10-29T00:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.772
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 42.19,
-  "trade_probability": 45.31,
+  "confirmation_score": 41.98,
+  "trade_probability": 45.19,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
