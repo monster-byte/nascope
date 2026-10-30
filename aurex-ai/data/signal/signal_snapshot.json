@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T19:01:22.630145+00:00",
+  "generated_at": "2026-10-30T19:15:53.033466+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.494,
+          "change_pct": -2.5337,
           "up": false
         },
         "MSFT": {
-          "change_pct": -1.8244,
+          "change_pct": -1.3727,
           "up": false
         },
         "NVDA": {
-          "change_pct": -4.1384,
+          "change_pct": -3.7911,
           "up": false
         },
         "AMZN": {
-          "change_pct": 5.487,
+          "change_pct": 5.8764,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28133.32,
-        "sma50": 29791.27,
-        "sma200": 27926.04
+        "last_price": 28185.93,
+        "sma50": 29792.32,
+        "sma200": 27926.31
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 5.0,
+      "score": 0.0,
       "status": "red",
       "details": {
-        "current_vxn": 31.28,
-        "percentile_vs_20d": 95.0
+        "current_vxn": 31.3,
+        "percentile_vs_20d": 100.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 60.1,
+      "score": 59.78,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.925,
-        "change_5d_pct": -1.263
+        "current_yield_pct": 4.927,
+        "change_5d_pct": -1.223
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.39,
+      "score": 49.5,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.89,
-        "change_5d_pct": 0.076
+        "current_dxy": 101.87,
+        "change_5d_pct": 0.062
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.01,
+      "score": 50.46,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.0,
+        "avg_compound": 0.009,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Mom predicts economic collapse in son’s Halloween candy haul:’Recession indicator’",
+            "source": "New York Post",
+            "publishedAt": "2026-10-29T19:11:53Z",
+            "sentiment": "Negative",
+            "compound": -0.494
+          },
+          {
+            "title": "Labor came to power promising a big care agenda. Four years on, how has it fared?",
+            "source": "The Conversation Africa",
+            "publishedAt": "2026-10-29T19:10:28Z",
+            "sentiment": "Positive",
+            "compound": 0.71
+          },
           {
             "title": "Ireland is looking to repay €8bn in bailout loans early. The numbers explain why",
             "source": "TheJournal.ie",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-29T18:58:40Z",
             "sentiment": "Neutral",
             "compound": -0.155
-          },
-          {
-            "title": "Search Is Dead",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-29T18:46:05Z",
-            "sentiment": "Negative",
-            "compound": -0.649
-          },
-          {
-            "title": "The only election poll that matters",
-            "source": "Ncspin.com",
-            "publishedAt": "2026-10-29T18:40:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.026
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.51,
-  "trade_probability": 44.31,
+  "confirmation_score": 40.07,
+  "trade_probability": 44.04,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
