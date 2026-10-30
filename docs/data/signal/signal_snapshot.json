@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T02:31:18.859251+00:00",
+  "generated_at": "2026-10-30T02:45:48.358110+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.91,
+      "score": 49.0,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.75,
-        "change_5d_pct": 0.137
+        "current_dxy": 101.74,
+        "change_5d_pct": 0.125
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.07,
+      "score": 54.75,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.081,
+        "avg_compound": 0.095,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "8th Pay Commission salary calculator: What 7% increment rate means for employees with Rs 53,100, Rs 56,100 and Rs 67,700 basic pays",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-29T02:44:43Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
+          {
+            "title": "Gift Nifty indicates negative opening for Indian stocks",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-29T02:43:38Z",
+            "sentiment": "Positive",
+            "compound": 0.226
+          },
+          {
+            "title": "NVIDIA と Meta が力強い成長を背景に Muse および Muse ファミリーのモデルに関するコラボレーションを拡大へ",
+            "source": "Prtimes.jp",
+            "publishedAt": "2026-10-29T02:41:47Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Nasdaq-100 futures dip as Alphabet shares sell off after earnings report: Live updates - CNBC",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-10-29T02:33:22Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
           {
             "title": "ASX 200 Climbs 0.4% at Midday as Fed Holds Rates, Microsoft Results Ease AI Fears and Star Shares Jump on Fine",
             "source": "Ibtimes.com.au",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-29T02:28:26Z",
             "sentiment": "Positive",
             "compound": 0.402
-          },
-          {
-            "title": "Stock Market LIVE: GIFT Nifty down 56 points; Asia markets turn mixed; Brent crude trades at $114",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-29T02:27:49Z",
-            "sentiment": "Positive",
-            "compound": 0.389
-          },
-          {
-            "title": "Oil Price Today (October 29): Crude oil dips to $113 as diplomatic talks outweigh infra attacks. Can oil fall further?",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-29T02:24:49Z",
-            "sentiment": "Negative",
-            "compound": -0.765
-          },
-          {
-            "title": "DA hiked to 63% for central government employees: Check monthly salary increase across 7th Pay Commission levels",
-            "source": "Livemint",
-            "publishedAt": "2026-10-29T02:23:10Z",
-            "sentiment": "Positive",
-            "compound": 0.226
-          },
-          {
-            "title": "Stocks to watch: Jio Platforms, Meesho, Hero MotoCorp, PNB Housing & Ola",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-29T02:22:40Z",
-            "sentiment": "Positive",
-            "compound": 0.557
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 42.28,
-  "trade_probability": 45.37,
+  "confirmation_score": 42.35,
+  "trade_probability": 45.41,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
