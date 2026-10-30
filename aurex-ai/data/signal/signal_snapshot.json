@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T15:31:18.022022+00:00",
+  "generated_at": "2026-10-30T15:45:55.301298+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.294,
+          "change_pct": -1.4046,
           "up": false
         },
         "MSFT": {
-          "change_pct": -1.3481,
+          "change_pct": -1.3557,
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.9543,
+          "change_pct": -2.1755,
           "up": false
         },
         "AMZN": {
-          "change_pct": 6.1427,
+          "change_pct": 5.8587,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28543.32,
-        "sma50": 29799.47,
-        "sma200": 27928.09
+        "last_price": 28479.19,
+        "sma50": 29798.19,
+        "sma200": 27927.77
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 15.0,
+      "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 27.17,
-        "percentile_vs_20d": 85.0
+        "current_vxn": 27.38,
+        "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 55.45,
+      "score": 57.22,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.954,
-        "change_5d_pct": -0.682
+        "current_yield_pct": 4.943,
+        "change_5d_pct": -0.902
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.66,
+      "score": 49.29,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.98,
-        "change_5d_pct": 0.168
+        "current_dxy": 101.9,
+        "change_5d_pct": 0.088
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 57.85,
+      "score": 52.95,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.157,
-        "articles_analyzed": 24,
+        "avg_compound": 0.059,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Firefly Aerospace Is 75% Below Its High. Here's Why the Company That Landed on the Moon Is My Favorite Space Stock Under $20",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-29T15:31:01Z",
+            "title": "Alpaca holds the real shares behind most tokenized stocks",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-29T15:42:32Z",
             "sentiment": "Positive",
-            "compound": 0.459
+            "compound": 0.296
           },
           {
-            "title": "The Battle That May Matter Most for Netflix Stock Isn't Against Disney",
+            "title": "A potentially historic drop for Alphabet's stock drags the US market lower",
             "source": "Biztoc.com",
-            "publishedAt": "2026-10-29T15:30:16Z",
+            "publishedAt": "2026-10-29T15:42:08Z",
             "sentiment": "Negative",
-            "compound": -0.361
+            "compound": -0.612
           },
           {
-            "title": "Gold And Silver Prices Crash On Eve Of Karwa Chauth: Gold Falls Rs 700, Silver Drops Rs 4,600 Per Kg On MCX",
-            "source": "Oneindia.com",
-            "publishedAt": "2026-10-29T15:29:16Z",
-            "sentiment": "Negative",
-            "compound": -0.402
-          },
-          {
-            "title": "Top Business & Market Headlines Today — BL Morning Report, October 30, 2026",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-29T15:24:51Z",
+            "title": "Profits at Sharon Horgan's TV production company jump",
+            "source": "RTE",
+            "publishedAt": "2026-10-29T15:42:03Z",
             "sentiment": "Positive",
-            "compound": 0.703
+            "compound": 0.44
           },
           {
-            "title": "Euro steady against dollar after ECB leaves rates unchanged",
-            "source": "CNA",
-            "publishedAt": "2026-10-29T15:23:50Z",
+            "title": "Collateralized tokens account for 86.5% of tokenized stocks",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-29T15:41:04Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Euro edges higher against dollar after ECB leaves rates unchanged",
-            "source": "CNA",
-            "publishedAt": "2026-10-29T15:23:50Z",
+            "title": "20VC x SaaStr: Anthropic’s S-1 Shows $16.3B in First-Half Revenue, Microsoft Offers Buyouts to 27% of Its Staff, and Chinese Open-Weight Models May Be Done in the US",
+            "source": "Saastr.com",
+            "publishedAt": "2026-10-29T15:39:59Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Bitcoin price jumps to $81.5K as US GDP data beats expectations",
+            "source": "Cointelegraph",
+            "publishedAt": "2026-10-29T15:39:54Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.42,
-  "trade_probability": 44.85,
+  "confirmation_score": 40.83,
+  "trade_probability": 44.5,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
