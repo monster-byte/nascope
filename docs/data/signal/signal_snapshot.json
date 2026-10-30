@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T14:45:54.644998+00:00",
+  "generated_at": "2026-10-30T15:01:30.491726+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.8749,
+          "change_pct": -1.007,
           "up": false
         },
         "MSFT": {
-          "change_pct": -1.0721,
+          "change_pct": -1.3575,
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.4736,
+          "change_pct": -1.6926,
           "up": false
         },
         "AMZN": {
-          "change_pct": 5.9317,
+          "change_pct": 5.9339,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28653.34,
-        "sma50": 29801.67,
-        "sma200": 27928.64
+        "last_price": 28612.6,
+        "sma50": 29800.86,
+        "sma200": 27928.44
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 27.59,
+        "current_vxn": 26.9,
         "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 58.82,
+      "score": 56.25,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.933,
-        "change_5d_pct": -1.103
+        "current_yield_pct": 4.949,
+        "change_5d_pct": -0.782
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.74,
+      "score": 48.77,
       "status": "yellow",
       "details": {
         "current_dxy": 101.97,
-        "change_5d_pct": 0.157
+        "change_5d_pct": 0.154
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.8,
+      "score": 53.66,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.016,
+        "avg_compound": 0.073,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "What the Night Before Halloween Is Called Across America, Mapped",
+            "source": "Mental Floss",
+            "publishedAt": "2026-10-29T15:00:01Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "MercadoLibre, Inc. to Report Third Quarter 2026 Financial Results",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-29T14:58:46Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Selling After Strong Performance and a Favorable Gain",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-29T14:58:08Z",
+            "sentiment": "Positive",
+            "compound": 0.869
+          },
+          {
+            "title": "Suspected Axis Robotics insiders sold 42M AXIS tokens, ZachXBT says, as price falls 40%",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-29T14:56:36Z",
+            "sentiment": "Negative",
+            "compound": -0.226
+          },
+          {
+            "title": "Canton Strategic Holdings plans tokenized shares with same rights as Nasdaq stock",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-29T14:51:06Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
           {
             "title": "Milky Mist Q2 revenue surges 42% YoY, EBITDA soars 54%",
             "source": "The Times of India",
             "publishedAt": "2026-10-29T14:44:41Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Asian Paints treads carefully on price hikes as raw material costs squeeze margins",
-            "source": "Livemint",
-            "publishedAt": "2026-10-29T14:44:34Z",
-            "sentiment": "Neutral",
-            "compound": 0.128
-          },
-          {
-            "title": "Breakout adds gold trading and cuts fees on RWA trades",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-29T14:40:44Z",
-            "sentiment": "Negative",
-            "compound": -0.296
-          },
-          {
-            "title": "DoorDash is acquiring Instacart for $17B",
-            "source": "Doordash.com",
-            "publishedAt": "2026-10-29T14:40:43Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Wheels India Q2 net profit jumps 88% to ₹60 crore on strong export demand",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-29T14:37:06Z",
-            "sentiment": "Positive",
-            "compound": 0.691
-          },
-          {
-            "title": "Mortgage Rates Today, Thursday, October 29: A Little Higher",
-            "source": "NerdWallet",
-            "publishedAt": "2026-10-29T14:32:40Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.25,
-  "trade_probability": 44.75,
+  "confirmation_score": 41.16,
+  "trade_probability": 44.7,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
