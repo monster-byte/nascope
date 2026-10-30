@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T14:31:13.786454+00:00",
+  "generated_at": "2026-10-30T14:45:54.644998+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.5538,
+          "change_pct": -0.8749,
           "up": false
         },
         "MSFT": {
-          "change_pct": -1.2063,
+          "change_pct": -1.0721,
           "up": false
         },
         "NVDA": {
-          "change_pct": -2.0002,
+          "change_pct": -1.4736,
           "up": false
         },
         "AMZN": {
-          "change_pct": 5.4007,
+          "change_pct": 5.9317,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28529.9,
-        "sma50": 29799.2,
-        "sma200": 27928.03
+        "last_price": 28653.34,
+        "sma50": 29801.67,
+        "sma200": 27928.64
       }
     },
     "vxn": {
@@ -50,7 +50,7 @@
       "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 27.06,
+        "current_vxn": 27.59,
         "percentile_vs_20d": 85.0
       }
     },
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.28,
+      "score": 48.74,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.03,
-        "change_5d_pct": 0.215
+        "current_dxy": 101.97,
+        "change_5d_pct": 0.157
       }
     },
     "macro": {
@@ -85,10 +85,56 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.0,
+      "score": 50.8,
       "status": "yellow",
       "details": {
-        "error": "news_fetch_failed: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?q=Nasdaq+OR+%22Federal+Reserve%22+OR+%22stock+market%22+OR+inflation&language=en&sortBy=publishedAt&pageSize=25&apiKey=280ea038bd7e4ccb91d87f9d115484d4"
+        "overall_sentiment": "NEUTRAL",
+        "avg_compound": 0.016,
+        "articles_analyzed": 25,
+        "top_headlines": [
+          {
+            "title": "Milky Mist Q2 revenue surges 42% YoY, EBITDA soars 54%",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-29T14:44:41Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Asian Paints treads carefully on price hikes as raw material costs squeeze margins",
+            "source": "Livemint",
+            "publishedAt": "2026-10-29T14:44:34Z",
+            "sentiment": "Neutral",
+            "compound": 0.128
+          },
+          {
+            "title": "Breakout adds gold trading and cuts fees on RWA trades",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-29T14:40:44Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "DoorDash is acquiring Instacart for $17B",
+            "source": "Doordash.com",
+            "publishedAt": "2026-10-29T14:40:43Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Wheels India Q2 net profit jumps 88% to ₹60 crore on strong export demand",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-29T14:37:06Z",
+            "sentiment": "Positive",
+            "compound": 0.691
+          },
+          {
+            "title": "Mortgage Rates Today, Thursday, October 29: A Little Higher",
+            "source": "NerdWallet",
+            "publishedAt": "2026-10-29T14:32:40Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          }
+        ]
       }
     },
     "patent_momentum": {
@@ -100,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.14,
-  "trade_probability": 44.68,
+  "confirmation_score": 41.25,
+  "trade_probability": 44.75,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
