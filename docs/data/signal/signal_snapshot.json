@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T03:15:54.036622+00:00",
+  "generated_at": "2026-10-30T03:31:12.979749+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.3,
+      "score": 49.39,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.7,
-        "change_5d_pct": 0.088
+        "current_dxy": 101.69,
+        "change_5d_pct": 0.077
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.51,
+      "score": 55.52,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.07,
+        "avg_compound": 0.11,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "S&P 500 notches third straight gain as Fed holds rates steady",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-29T03:24:21Z",
+            "sentiment": "Positive",
+            "compound": 0.649
+          },
+          {
+            "title": "Mortgage holders aren’t alone in paying for rate hikes. Here’s how the RBA spreads the pain",
+            "source": "The Conversation Africa",
+            "publishedAt": "2026-10-29T03:24:05Z",
+            "sentiment": "Negative",
+            "compound": -0.649
+          },
+          {
+            "title": "Hong Kong Monetary Authority leaves interest rates unchanged, tracking Fed move",
+            "source": "CNA",
+            "publishedAt": "2026-10-29T03:17:32Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
           {
             "title": "Obama Delivers Brutal Roast Of Trump’s Response To ‘Cheesecake Factory’ Comment",
             "source": "HuffPost",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-29T03:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.026
-          },
-          {
-            "title": "Janus Henderson Launches Tokenized Nasdaq-100 Fund JQQQ on Stellar",
-            "source": "newsBTC",
-            "publishedAt": "2026-10-29T03:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Stock Market Today Live Updates: GIFT Nifty signals muted start as oil prices and Fed decision weigh on sentiment",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-29T02:59:59Z",
-            "sentiment": "Positive",
-            "compound": 0.746
-          },
-          {
-            "title": "Pidilite Industries Q2 profit up 7.16% to ₹626.46 cr",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-29T02:58:57Z",
-            "sentiment": "Positive",
-            "compound": 0.44
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 42.27,
-  "trade_probability": 45.36,
+  "confirmation_score": 42.46,
+  "trade_probability": 45.48,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
