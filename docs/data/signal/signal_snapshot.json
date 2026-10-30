@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T20:31:10.169317+00:00",
+  "generated_at": "2026-10-30T20:45:51.247045+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.17,
+      "score": 49.16,
       "status": "yellow",
       "details": {
         "current_dxy": 101.92,
-        "change_5d_pct": 0.103
+        "change_5d_pct": 0.105
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.15,
+      "score": 49.66,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.063,
+        "avg_compound": -0.007,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Civeo Reports Third Quarter 2026 Results",
+            "source": "Financial Post",
+            "publishedAt": "2026-10-29T20:38:55Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "America’s STEM graduates play rigged game while foreigners get deal of a lifetime",
+            "source": "Wnd.com",
+            "publishedAt": "2026-10-29T20:36:27Z",
+            "sentiment": "Neutral",
+            "compound": -0.026
+          },
+          {
+            "title": "Record Drop for Alphabet Drags Down S&P 500",
+            "source": "Newser",
+            "publishedAt": "2026-10-29T20:34:47Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
+          {
+            "title": "Alphabet Just Lost $500 Billion in One Day — Here’s Why Wall Street Is Spooked",
+            "source": "Entrepreneur",
+            "publishedAt": "2026-10-29T20:33:00Z",
+            "sentiment": "Negative",
+            "compound": -0.318
+          },
           {
             "title": "It’s Not Just ‘The Economy, Stupid’: Political Corruption Giving Inflation Run For Its Money As Top Voter Issue",
             "source": "The Daily Caller",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-29T20:30:00Z",
             "sentiment": "Positive",
             "compound": 0.477
-          },
-          {
-            "title": "(PR) Sandisk Reports Fiscal First Quarter 2027 Financial Results",
-            "source": "Techpowerup.com",
-            "publishedAt": "2026-10-29T20:27:16Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Nasdaq opts out of SEC tokenization exemption as OKXICE objections mount",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-29T20:26:49Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "DoorDash makes $17billion move to buy Instacart and dominate America's grocery deliveries... as experts warn what comes next",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-10-29T20:26:25Z",
-            "sentiment": "Negative",
-            "compound": -0.226
-          },
-          {
-            "title": "Mohawk Industries Reports Q3 2026 Results",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-29T20:21:21Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.69,
-  "trade_probability": 44.41,
+  "confirmation_score": 40.37,
+  "trade_probability": 44.22,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
