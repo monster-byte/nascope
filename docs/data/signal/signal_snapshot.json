@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T16:45:55.095274+00:00",
+  "generated_at": "2026-10-30T17:01:25.037169+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.2271,
+          "change_pct": -1.4543,
           "up": false
         },
         "MSFT": {
-          "change_pct": -1.35,
+          "change_pct": -1.4161,
           "up": false
         },
         "NVDA": {
-          "change_pct": -2.4729,
+          "change_pct": -3.0963,
           "up": false
         },
         "AMZN": {
-          "change_pct": 6.2702,
+          "change_pct": 5.7038,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28482.66,
-        "sma50": 29798.26,
-        "sma200": 27927.79
+        "last_price": 28365.82,
+        "sma50": 29795.92,
+        "sma200": 27927.21
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 15.0,
+      "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 28.13,
-        "percentile_vs_20d": 85.0
+        "current_vxn": 28.14,
+        "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 57.54,
+      "score": 56.58,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.941,
-        "change_5d_pct": -0.942
+        "current_yield_pct": 4.947,
+        "change_5d_pct": -0.822
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.25,
+      "score": 49.05,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.9,
-        "change_5d_pct": 0.093
+        "current_dxy": 101.93,
+        "change_5d_pct": 0.119
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.57,
+      "score": 57.37,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.131,
-        "articles_analyzed": 24,
+        "avg_compound": 0.147,
+        "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Jared Polis Warns Colorado's Progressive Tax Ballot Measure Could 'Cripple' the Economy",
+            "source": "Reason",
+            "publishedAt": "2026-10-29T17:00:19Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
+          {
+            "title": "Can a new Government solve NZ’s local council crisis? Why a royal commission could help",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-10-29T17:00:00Z",
+            "sentiment": "Neutral",
+            "compound": -0.153
+          },
+          {
+            "title": "Ireland’s Grid Flexibility Assessment Shows Why Location Matters",
+            "source": "CleanTechnica",
+            "publishedAt": "2026-10-29T16:59:03Z",
+            "sentiment": "Positive",
+            "compound": 0.361
+          },
+          {
+            "title": "Vici Properties Q3 Earnings Hampered by Market Headwinds, Caesars Lease Unknowns",
+            "source": "Commercial Observer",
+            "publishedAt": "2026-10-29T16:58:41Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Shell and Total Post Highest Quarterly Profit Since 2022",
             "source": "gcaptain.com",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-29T16:45:05Z",
             "sentiment": "Positive",
             "compound": 0.71
-          },
-          {
-            "title": "‘The inflation outlook has become more concerning’: Incomes declined 0.3% and consumer prices jumped 3.6% in September as midterms loom",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-29T16:43:40Z",
-            "sentiment": "Negative",
-            "compound": -0.226
-          },
-          {
-            "title": "Inflation heats up again, days before midterm elections",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-29T16:43:33Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Trump calls Brazil election a 'disgraceful situation'",
-            "source": "RTE",
-            "publishedAt": "2026-10-29T16:38:43Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Companies should put all AI agents in zero-trust category: Netskope founder",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-29T16:36:35Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.64,
-  "trade_probability": 44.98,
+  "confirmation_score": 41.12,
+  "trade_probability": 44.67,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
