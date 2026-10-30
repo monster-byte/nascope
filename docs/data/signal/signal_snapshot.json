@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T18:45:49.903091+00:00",
+  "generated_at": "2026-10-30T19:01:22.630145+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.4741,
+          "change_pct": -2.494,
           "up": false
         },
         "MSFT": {
-          "change_pct": -1.8301,
+          "change_pct": -1.8244,
           "up": false
         },
         "NVDA": {
-          "change_pct": -4.3716,
+          "change_pct": -4.1384,
           "up": false
         },
         "AMZN": {
-          "change_pct": 5.2038,
+          "change_pct": 5.487,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28107.75,
-        "sma50": 29790.76,
-        "sma200": 27925.92
+        "last_price": 28133.32,
+        "sma50": 29791.27,
+        "sma200": 27926.04
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 0.0,
+      "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 30.99,
-        "percentile_vs_20d": 100.0
+        "current_vxn": 31.28,
+        "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 58.82,
+      "score": 60.1,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.933,
-        "change_5d_pct": -1.103
+        "current_yield_pct": 4.925,
+        "change_5d_pct": -1.263
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.69,
+      "score": 49.39,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.85,
-        "change_5d_pct": 0.038
+        "current_dxy": 101.89,
+        "change_5d_pct": 0.076
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.54,
+      "score": 50.01,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.011,
-        "articles_analyzed": 25,
+        "avg_compound": 0.0,
+        "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Ireland is looking to repay €8bn in bailout loans early. The numbers explain why",
+            "source": "TheJournal.ie",
+            "publishedAt": "2026-10-29T19:00:27Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
+          {
+            "title": "Alphabet Heads For a $500 Billion Drop In Market Value",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-10-29T19:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.077
+          },
+          {
+            "title": "Stock Takes: Sharemarkets wait for direction as New Zealand and US elections approach",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-10-29T19:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Leader Of One Of World’s Most Powerful Central Banks Announces Early Resignation Amid Turmoil",
+            "source": "The Daily Caller",
+            "publishedAt": "2026-10-29T18:58:40Z",
+            "sentiment": "Neutral",
+            "compound": -0.155
+          },
+          {
+            "title": "Search Is Dead",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-29T18:46:05Z",
+            "sentiment": "Negative",
+            "compound": -0.649
+          },
           {
             "title": "The only election poll that matters",
             "source": "Ncspin.com",
             "publishedAt": "2026-10-29T18:40:00Z",
             "sentiment": "Neutral",
             "compound": 0.026
-          },
-          {
-            "title": "Republican backers dominate list of top 10 midterm donors as Elon Musk boosts head-spinning 2026 total",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-29T18:30:38Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "Which Gen Z will show up for the midterms: the socialist rebels or the ones who reelected Trump?",
-            "source": "Fortune",
-            "publishedAt": "2026-10-29T18:27:11Z",
-            "sentiment": "Negative",
-            "compound": -0.202
-          },
-          {
-            "title": "Carolina Journal Poll: Cooper’s lead over Whatley narrows to 10 points in NC Senate race",
-            "source": "Ncspin.com",
-            "publishedAt": "2026-10-29T18:25:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Vanguard’s stake in Bitcoin treasury firm Strive climbs to $51.5 million",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-29T18:23:04Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "‘Facing ‘gerontonomia’, the West’s young opt for political extremes’",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-29T18:15:57Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 39.96,
-  "trade_probability": 43.98,
+  "confirmation_score": 40.51,
+  "trade_probability": 44.31,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
