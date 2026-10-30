@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T18:01:23.563068+00:00",
+  "generated_at": "2026-10-30T18:15:53.784284+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.1328,
+          "change_pct": -2.4031,
           "up": false
         },
         "MSFT": {
-          "change_pct": -1.6297,
+          "change_pct": -1.5239,
           "up": false
         },
         "NVDA": {
-          "change_pct": -3.6769,
+          "change_pct": -3.634,
           "up": false
         },
         "AMZN": {
-          "change_pct": 5.8454,
+          "change_pct": 5.8233,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28225.09,
-        "sma50": 29793.11,
-        "sma200": 27926.5
+        "last_price": 28223.17,
+        "sma50": 29793.07,
+        "sma200": 27926.49
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 29.42,
+        "current_vxn": 30.02,
         "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 58.5,
+      "score": 56.9,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.935,
-        "change_5d_pct": -1.063
+        "current_yield_pct": 4.945,
+        "change_5d_pct": -0.862
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.65,
+      "score": 48.76,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.98,
-        "change_5d_pct": 0.169
+        "current_dxy": 101.97,
+        "change_5d_pct": 0.155
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 44.13,
+      "score": 46.32,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.117,
+        "avg_compound": -0.074,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Is Kalshi Legal in Texas? October 2026 Legal Status and How to Trade",
+            "source": "Fox Sports",
+            "publishedAt": "2026-10-29T18:11:37Z",
+            "sentiment": "Positive",
+            "compound": 0.25
+          },
+          {
+            "title": "Price stability top policy agenda in H2FY27 amid inflation: FinMin review",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-29T18:07:39Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "Final Pre-Midterms Polls Show Depth of Trump Slump",
+            "source": "New York Magazine",
+            "publishedAt": "2026-10-29T18:05:20Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Nvidia Chief Seen as Target of Chinese Spy Plot",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-10-29T18:05:17Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Real Estate, Climate and Wild Parties? Here’s How Anthropic’s IPO Could Affect the Bay Area",
+            "source": "KQED",
+            "publishedAt": "2026-10-29T18:02:14Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
           {
             "title": "Why Is General Motors Stock Surging on Thursday?",
             "source": "Biztoc.com",
             "publishedAt": "2026-10-29T18:00:47Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Hoping For Cheaper Beer? Budweiser Parent Signals No Retreat From Inflation-Based Pricing - Anheuser-Busch…",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-29T18:00:40Z",
-            "sentiment": "Positive",
-            "compound": 0.298
-          },
-          {
-            "title": "European shares hold steady following ECB news",
-            "source": "The Irish Times",
-            "publishedAt": "2026-10-29T18:00:30Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "Economist delivers 'worst-case scenario' on interest rates as inflation fails to cool",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-10-29T18:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.361
-          },
-          {
-            "title": "One Nation might not win Victoria, but NSW is where the real fight is",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-10-29T18:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.664
-          },
-          {
-            "title": "Warnings of blackouts and lives at risk over power pay struggle",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-10-29T18:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.718
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 39.7,
-  "trade_probability": 43.82,
+  "confirmation_score": 39.69,
+  "trade_probability": 43.81,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
