@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T04:01:24.723600+00:00",
+  "generated_at": "2026-10-30T04:15:53.790534+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.61,
+      "score": 50.54,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.04,
-        "change_5d_pct": 0.423
+        "current_dxy": 101.74,
+        "change_5d_pct": -0.068
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 57.96,
+      "score": 52.98,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.159,
+        "avg_compound": 0.06,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Gold, silver prices today, 29 October: Check retail rates of 24K, 22K gold, 999 silver in Delhi, Mumbai and Kolkata",
+            "source": "Livemint",
+            "publishedAt": "2026-10-29T04:15:32Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Fed holds, crude stays high: Nifty edges up as bulls fight back at 22,600",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-29T04:15:26Z",
+            "sentiment": "Negative",
+            "compound": -0.557
+          },
+          {
+            "title": "[0day-rubbish] NUUO Crystal Server 3.19.0.85 unauthenticated upload.php PHP web-root write with fastcgi execution into server-side code execution as the web service account (9.8 Critical)",
+            "source": "Seclists.org",
+            "publishedAt": "2026-10-29T04:12:43Z",
+            "sentiment": "Negative",
+            "compound": -0.318
+          },
+          {
+            "title": "Uniqlo scraps price hike on $2 socks after shopper outcry",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-29T04:11:45Z",
+            "sentiment": "Negative",
+            "compound": -0.511
+          },
           {
             "title": "Google Introduces One-Tap App Installs for Android from global stores",
             "source": "Nextbigwhat.com",
@@ -103,34 +131,6 @@
             "title": "Microsoft’s OpenAI partnership nets $10 billion in revenue",
             "source": "Nextbigwhat.com",
             "publishedAt": "2026-10-29T04:00:06Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Tourism growth: Leaders say air connectivity is the biggest constraint",
-            "source": "New Zealand Herald",
-            "publishedAt": "2026-10-29T04:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "Less information means higher interest rates",
-            "source": "Americanthinker.com",
-            "publishedAt": "2026-10-29T04:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.459
-          },
-          {
-            "title": "Samsung shatters profit records thanks to AI chip demand",
-            "source": "Nextbigwhat.com",
-            "publishedAt": "2026-10-29T03:59:56Z",
-            "sentiment": "Positive",
-            "compound": 0.649
-          },
-          {
-            "title": "Dow, S&P 500, Nasdaq Futures Mixed After Fed Holds Rates Steady: GOOG, GOOGL, IOVA, MSFT, NOW In Focus",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-29T03:57:58Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 42.43,
-  "trade_probability": 45.46,
+  "confirmation_score": 42.33,
+  "trade_probability": 45.4,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
