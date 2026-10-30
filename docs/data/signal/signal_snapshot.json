@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T19:15:53.033466+00:00",
+  "generated_at": "2026-10-30T19:31:11.861963+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.5337,
+          "change_pct": -2.457,
           "up": false
         },
         "MSFT": {
-          "change_pct": -1.3727,
+          "change_pct": -1.2687,
           "up": false
         },
         "NVDA": {
-          "change_pct": -3.7911,
+          "change_pct": -3.7007,
           "up": false
         },
         "AMZN": {
-          "change_pct": 5.8764,
+          "change_pct": 5.7923,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28185.93,
-        "sma50": 29792.32,
-        "sma200": 27926.31
+        "last_price": 28230.79,
+        "sma50": 29793.22,
+        "sma200": 27926.53
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 0.0,
+      "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 31.3,
-        "percentile_vs_20d": 100.0
+        "current_vxn": 30.01,
+        "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 59.78,
+      "score": 59.46,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.927,
-        "change_5d_pct": -1.223
+        "current_yield_pct": 4.929,
+        "change_5d_pct": -1.183
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.5,
+      "score": 49.54,
       "status": "yellow",
       "details": {
         "current_dxy": 101.87,
-        "change_5d_pct": 0.062
+        "change_5d_pct": 0.058
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.46,
+      "score": 50.78,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.009,
+        "avg_compound": 0.016,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Mom predicts economic collapse in son’s Halloween candy haul:’Recession indicator’",
-            "source": "New York Post",
-            "publishedAt": "2026-10-29T19:11:53Z",
+            "title": "Trump Cancels Red State Rally Same Day New Poll Shows Republican Senator 4-Points Down",
+            "source": "Mediaite",
+            "publishedAt": "2026-10-29T19:28:09Z",
             "sentiment": "Negative",
-            "compound": -0.494
+            "compound": -0.226
           },
           {
-            "title": "Labor came to power promising a big care agenda. Four years on, how has it fared?",
-            "source": "The Conversation Africa",
-            "publishedAt": "2026-10-29T19:10:28Z",
+            "title": "Millions of Americans lack basic medical care",
+            "source": "Ncspin.com",
+            "publishedAt": "2026-10-29T19:28:00Z",
             "sentiment": "Positive",
-            "compound": 0.71
+            "compound": 0.226
           },
           {
-            "title": "Ireland is looking to repay €8bn in bailout loans early. The numbers explain why",
-            "source": "TheJournal.ie",
-            "publishedAt": "2026-10-29T19:00:27Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
-          },
-          {
-            "title": "Alphabet Heads For a $500 Billion Drop In Market Value",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-10-29T19:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.077
-          },
-          {
-            "title": "Stock Takes: Sharemarkets wait for direction as New Zealand and US elections approach",
-            "source": "New Zealand Herald",
-            "publishedAt": "2026-10-29T19:00:00Z",
+            "title": "Everyone's predicting a Blue Wave... but I'm the pollster politicians hire for the MOST accurate data - and my private survey reveals a totally different outcome: BRENT BUCHANAN",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-10-29T19:27:49Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Leader Of One Of World’s Most Powerful Central Banks Announces Early Resignation Amid Turmoil",
-            "source": "The Daily Caller",
-            "publishedAt": "2026-10-29T18:58:40Z",
+            "title": "Kids and the Future of Skiing: How Some Resort Operators Get It, and Others Don’t",
+            "source": "Matadornetwork.com",
+            "publishedAt": "2026-10-29T19:22:40Z",
             "sentiment": "Neutral",
-            "compound": -0.155
+            "compound": 0.0
+          },
+          {
+            "title": "GDP Grows as Inflation Squeezes Household Purchasing Power",
+            "source": "pymnts.com",
+            "publishedAt": "2026-10-29T19:22:28Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Here's Why You Shouldn't Chase Innodata's 26% Drop",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-29T19:20:55Z",
+            "sentiment": "Negative",
+            "compound": -0.273
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.07,
-  "trade_probability": 44.04,
+  "confirmation_score": 40.51,
+  "trade_probability": 44.31,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
