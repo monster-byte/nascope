@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T19:31:11.861963+00:00",
+  "generated_at": "2026-10-30T19:45:52.912251+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.457,
+          "change_pct": -2.3292,
           "up": false
         },
         "MSFT": {
-          "change_pct": -1.2687,
+          "change_pct": -1.0305,
           "up": false
         },
         "NVDA": {
-          "change_pct": -3.7007,
+          "change_pct": -3.615,
           "up": false
         },
         "AMZN": {
-          "change_pct": 5.7923,
+          "change_pct": 5.9781,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28230.79,
-        "sma50": 29793.22,
-        "sma200": 27926.53
+        "last_price": 28212.45,
+        "sma50": 29792.86,
+        "sma200": 27926.44
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 5.0,
+      "score": 0.0,
       "status": "red",
       "details": {
-        "current_vxn": 30.01,
-        "percentile_vs_20d": 95.0
+        "current_vxn": 30.33,
+        "percentile_vs_20d": 100.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 59.46,
+      "score": 61.39,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.929,
-        "change_5d_pct": -1.183
+        "current_yield_pct": 4.917,
+        "change_5d_pct": -1.423
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.54,
+      "score": 49.28,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.87,
-        "change_5d_pct": 0.058
+        "current_dxy": 101.9,
+        "change_5d_pct": 0.089
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.78,
+      "score": 50.54,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.016,
+        "avg_compound": 0.011,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Unilever Cuts Order Processing to 90 Seconds With AI Agents",
+            "source": "pymnts.com",
+            "publishedAt": "2026-10-29T19:45:31Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "India remains growth engine; Super El Nino impact yet to materialise: IMF",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-29T19:39:37Z",
+            "sentiment": "Positive",
+            "compound": 0.758
+          },
+          {
+            "title": "Alpha Buying: 3 Beaten-Down Biotech Stocks Backed by a Specialist Investor",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-29T19:32:24Z",
+            "sentiment": "Neutral",
+            "compound": 0.026
+          },
+          {
+            "title": "We’re downgrading Alphabet after its rough quarter. Here’s where we’d buy again",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-29T19:32:21Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Trump Cancels Red State Rally Same Day New Poll Shows Republican Senator 4-Points Down",
             "source": "Mediaite",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-29T19:28:00Z",
             "sentiment": "Positive",
             "compound": 0.226
-          },
-          {
-            "title": "Everyone's predicting a Blue Wave... but I'm the pollster politicians hire for the MOST accurate data - and my private survey reveals a totally different outcome: BRENT BUCHANAN",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-10-29T19:27:49Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Kids and the Future of Skiing: How Some Resort Operators Get It, and Others Don’t",
-            "source": "Matadornetwork.com",
-            "publishedAt": "2026-10-29T19:22:40Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "GDP Grows as Inflation Squeezes Household Purchasing Power",
-            "source": "pymnts.com",
-            "publishedAt": "2026-10-29T19:22:28Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Here's Why You Shouldn't Chase Innodata's 26% Drop",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-29T19:20:55Z",
-            "sentiment": "Negative",
-            "compound": -0.273
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.51,
-  "trade_probability": 44.31,
+  "confirmation_score": 40.27,
+  "trade_probability": 44.16,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
