@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T23:31:08.135816+00:00",
+  "generated_at": "2026-10-31T23:45:55.766640+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.39,
+      "score": 44.22,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.092,
-        "articles_analyzed": 24,
+        "avg_compound": -0.116,
+        "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Wall Street drops to its worst day since June after the sell-off for tech stocks deepens",
+            "source": "Boston Herald",
+            "publishedAt": "2026-10-30T23:43:37Z",
+            "sentiment": "Negative",
+            "compound": -0.625
+          },
+          {
+            "title": "Gold price prediction: Gold rate closes October on 1-year low, what to expect in November, December?",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-30T23:42:45Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
           {
             "title": "Lundin Mining Announces Updated Share Capital and Provides Update on Share Buybacks",
             "source": "PR Newswire UK",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-30T23:19:36Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "The £71bn stealth tax bonanza: Millions of workers dragged into paying more as income thresholds stay frozen",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-10-30T23:04:37Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
-          },
-          {
-            "title": "Breitbart Business Digest: The Economy Is Empathetic, Creative, and an Animal Lover",
-            "source": "Breitbart News",
-            "publishedAt": "2026-10-30T23:00:13Z",
-            "sentiment": "Positive",
-            "compound": 0.856
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.01,
-  "trade_probability": 44.01,
+  "confirmation_score": 39.91,
+  "trade_probability": 43.95,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
