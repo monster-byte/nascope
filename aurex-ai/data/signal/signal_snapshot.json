@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T19:15:56.675050+00:00",
+  "generated_at": "2026-10-31T19:31:14.849823+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.0594,
+          "change_pct": -2.0622,
           "up": false
         },
         "MSFT": {
@@ -29,7 +29,7 @@
           "up": false
         },
         "AMZN": {
-          "change_pct": 6.3808,
+          "change_pct": 6.4074,
           "up": true
         }
       }
@@ -85,10 +85,56 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.0,
+      "score": 47.01,
       "status": "yellow",
       "details": {
-        "error": "news_fetch_failed: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?q=Nasdaq+OR+%22Federal+Reserve%22+OR+%22stock+market%22+OR+inflation&language=en&sortBy=publishedAt&pageSize=25&apiKey=280ea038bd7e4ccb91d87f9d115484d4"
+        "overall_sentiment": "NEUTRAL",
+        "avg_compound": -0.06,
+        "articles_analyzed": 25,
+        "top_headlines": [
+          {
+            "title": "Short Circuit: An inexhaustive weekly compendium of rulings from the federal courts of appeal",
+            "source": "Reason",
+            "publishedAt": "2026-10-30T19:30:45Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Update: Nasdaq Plummets 975 Points as Intel's Results Help Trigger Sell-Off in Mega-Cap Chipmakers",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-30T19:25:25Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "Why Did Rivian Stock Surge Higher on Friday?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-30T19:25:06Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "United Spirits' mass-market liquor sales slump as inflation squeezes lower-income consumers, premiumisation takes centre stage",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-30T19:18:52Z",
+            "sentiment": "Positive",
+            "compound": 0.421
+          },
+          {
+            "title": "Russia the Disruptor",
+            "source": "Foreign Policy",
+            "publishedAt": "2026-10-30T19:15:49Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Two shops damaged & large quantities of goods destroyed in separate fires in Indore; no casualties reported, short circuits suspected",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-30T19:14:29Z",
+            "sentiment": "Negative",
+            "compound": -0.848
+          }
+        ]
       }
     },
     "patent_momentum": {
@@ -100,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.43,
-  "trade_probability": 44.26,
+  "confirmation_score": 40.16,
+  "trade_probability": 44.1,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
