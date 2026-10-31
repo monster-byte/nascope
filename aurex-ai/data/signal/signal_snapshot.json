@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T06:31:05.962222+00:00",
+  "generated_at": "2026-10-31T06:45:53.589699+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.0594,
+          "change_pct": -2.0622,
           "up": false
         },
         "MSFT": {
@@ -29,7 +29,7 @@
           "up": false
         },
         "AMZN": {
-          "change_pct": 6.3808,
+          "change_pct": 6.4074,
           "up": true
         }
       }
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.06,
+      "score": 44.15,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.079,
+        "avg_compound": -0.117,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Asian trading is mixed as worries about AI-related issues grow",
+            "source": "Abcnews.com",
+            "publishedAt": "2026-10-30T06:37:13Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
+          {
+            "title": "Global Market: Bank of Japan achieves 2% inflation target after 13 years",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-30T06:36:06Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Asian trading is mixed as worries about AI-related issues grow",
+            "source": "Abcnews.com",
+            "publishedAt": "2026-10-30T06:34:10Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
           {
             "title": "Bank of Japan says inflation hit 2 percent target after 13 years",
             "source": "Hurriyet Daily News",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-30T06:08:22Z",
             "sentiment": "Negative",
             "compound": -0.735
-          },
-          {
-            "title": "Silver may slide to $48 as momentum selling deepens: Mirae Asset Sharekhan",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-30T06:08:15Z",
-            "sentiment": "Positive",
-            "compound": 0.361
-          },
-          {
-            "title": "IndiGo jumps 4% as Q2 loss narrows; analysts say earnings outlook weak",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-30T06:02:24Z",
-            "sentiment": "Negative",
-            "compound": -0.637
-          },
-          {
-            "title": "Any stock market dips after the US midterms are likely to be buying opportunities",
-            "source": "The Irish Times",
-            "publishedAt": "2026-10-30T06:00:01Z",
-            "sentiment": "Positive",
-            "compound": 0.382
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.07,
-  "trade_probability": 44.04,
+  "confirmation_score": 39.9,
+  "trade_probability": 43.94,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
