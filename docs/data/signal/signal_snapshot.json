@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T23:45:51.086966+00:00",
+  "generated_at": "2026-10-31T00:01:23.842172+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.0622,
+          "change_pct": -2.0594,
           "up": false
         },
         "MSFT": {
@@ -29,7 +29,7 @@
           "up": false
         },
         "AMZN": {
-          "change_pct": 6.4074,
+          "change_pct": 6.3808,
           "up": true
         }
       }
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 41.76,
-      "status": "yellow",
+      "score": 39.17,
+      "status": "red",
       "details": {
-        "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.165,
+        "overall_sentiment": "BEARISH",
+        "avg_compound": -0.217,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "America’s Deadly Addiction to War",
+            "source": "Antiwar.com",
+            "publishedAt": "2026-10-30T00:00:38Z",
+            "sentiment": "Negative",
+            "compound": -0.599
+          },
+          {
+            "title": "Budget watchdog's worst case scenario for oil 'has already been reached'",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-10-29T23:53:45Z",
+            "sentiment": "Negative",
+            "compound": -0.572
+          },
+          {
+            "title": "Minimum wage: NECA urges balance between welfare, affordability",
+            "source": "The Punch",
+            "publishedAt": "2026-10-29T23:50:06Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Alphabet Loses $500 Billion in Market Value as AI Threatens Google Search",
             "source": "pymnts.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-29T23:40:37Z",
             "sentiment": "Positive",
             "compound": 0.459
-          },
-          {
-            "title": "Tokyo's inflation up from 2.7% to 2.8% in October",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-29T23:39:56Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Cleveland-Cliffs Inc. (CLF) Seasonal returns chart",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-29T23:39:43Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Stock Market Today: Nasdaq Breaks Streak On Alphabet's $500B Drop; Amazon Earnings Next - Investor's Business Daily",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-10-29T23:32:27Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 39.63,
-  "trade_probability": 43.78,
+  "confirmation_score": 39.39,
+  "trade_probability": 43.63,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
