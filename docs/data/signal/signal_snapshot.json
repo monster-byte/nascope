@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T05:31:08.551228+00:00",
+  "generated_at": "2026-10-31T05:45:54.916323+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.0594,
+          "change_pct": -2.0622,
           "up": false
         },
         "MSFT": {
@@ -29,7 +29,7 @@
           "up": false
         },
         "AMZN": {
-          "change_pct": 6.3808,
+          "change_pct": 6.4074,
           "up": true
         }
       }
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.32,
+      "score": 53.6,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.066,
+        "avg_compound": 0.072,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Gold faces further losses as $3,930 support in focus: Mirae Asset Sharekhan",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-30T05:44:33Z",
+            "sentiment": "Positive",
+            "compound": 0.361
+          },
+          {
+            "title": "Gold, silver extend losses as US inflation concerns weigh on rate-cut hopes",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-30T05:42:50Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "Sensex, Nifty turn lower; broader markets crash as oil tops $116/barrel. What lies ahead?",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-30T05:36:52Z",
+            "sentiment": "Neutral",
+            "compound": -0.178
+          },
           {
             "title": "Global Market: BOJ to accelerate ETF sales, cut holdings overhaul timeline to 43 years",
             "source": "The Times of India",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-30T05:19:29Z",
             "sentiment": "Negative",
             "compound": -0.318
-          },
-          {
-            "title": "Greek supermarket market enters a phase of transformation",
-            "source": "Naftemporiki.gr",
-            "publishedAt": "2026-10-30T05:14:38Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Global Market: Japan's Nikkei falls 3% as AI spending concerns hit chip stocks; BOJ holds rates",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-30T05:13:50Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "How AI Is Reshaping the Stock Market",
-            "source": "Upenn.edu",
-            "publishedAt": "2026-10-30T05:12:24Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.73,
-  "trade_probability": 44.44,
+  "confirmation_score": 40.75,
+  "trade_probability": 44.45,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
