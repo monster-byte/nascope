@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T10:01:24.629263+00:00",
+  "generated_at": "2026-10-31T10:15:47.105726+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.0622,
+          "change_pct": -2.0594,
           "up": false
         },
         "MSFT": {
@@ -29,7 +29,7 @@
           "up": false
         },
         "AMZN": {
-          "change_pct": 6.4074,
+          "change_pct": 6.3808,
           "up": true
         }
       }
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.45,
+      "score": 53.04,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.051,
+        "avg_compound": 0.061,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Italian inflation up from 4.2% to 5.6% in October",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-30T10:09:16Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "His Inflation-Protected Bonds Added $10,000 to Principal. Medicare Could Raise His Premiums Before He Cashes Out",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-30T10:08:38Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "As US airlines deploy AI pricing tools, startups help travelers cash in on fare drops",
+            "source": "CNA",
+            "publishedAt": "2026-10-30T10:04:30Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "Max Healthcare to add 209 beds with Rs 415 crore capex; Q2 network profit rises 10% to Rs 448 crore",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-30T10:03:54Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
           {
             "title": "Terence Corcoran: Bank of Canada is back on track",
             "source": "Financial Post",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-30T10:00:42Z",
             "sentiment": "Positive",
             "compound": 0.421
-          },
-          {
-            "title": "Is a retired Albertan too reliant on bank dividends in his RRIF?",
-            "source": "Financial Post",
-            "publishedAt": "2026-10-30T10:00:36Z",
-            "sentiment": "Neutral",
-            "compound": 0.128
-          },
-          {
-            "title": "Japan's Katayama signals hope of bigger surplus from central bank's ETF sales",
-            "source": "CNA",
-            "publishedAt": "2026-10-30T10:00:13Z",
-            "sentiment": "Positive",
-            "compound": 0.44
-          },
-          {
-            "title": "Cognizant commits more than 25,000 professionals to OpenAI delivery as enterprises move frontier AI into production",
-            "source": "PR Newswire UK",
-            "publishedAt": "2026-10-30T10:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.026
-          },
-          {
-            "title": "How a Secret Vote by U.N. Scientists Legitimized Carbon Capture and Skewed Decades of Climate Policy",
-            "source": "ProPublica",
-            "publishedAt": "2026-10-30T10:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.2,
-  "trade_probability": 44.12,
+  "confirmation_score": 40.7,
+  "trade_probability": 44.42,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
