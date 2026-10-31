@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T02:45:49.977205+00:00",
+  "generated_at": "2026-10-31T03:01:27.116017+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.0622,
+          "change_pct": -2.0594,
           "up": false
         },
         "MSFT": {
@@ -29,7 +29,7 @@
           "up": false
         },
         "AMZN": {
-          "change_pct": 6.4074,
+          "change_pct": 6.3808,
           "up": true
         }
       }
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.08,
+      "score": 44.06,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.058,
+        "avg_compound": -0.119,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Britain by numbers: everything we don’t know about the country",
+            "source": "POLITICO.eu",
+            "publishedAt": "2026-10-30T03:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Fed holds rates steady as a governor and president dissent together for the first time since 1992",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-30T02:59:22Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Tech firms take fresh hit as earnings misses fan AI fears",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-30T02:55:57Z",
+            "sentiment": "Neutral",
+            "compound": -0.026
+          },
           {
             "title": "Stocks to watch: RIL, Jio Platforms, BoB, Equitas SFB, Trent, Coal India",
             "source": "Business Standard",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-30T02:27:55Z",
             "sentiment": "Negative",
             "compound": -0.599
-          },
-          {
-            "title": "Stock Market LIVE: GIFT Nifty signals negative open; Asia markets tumble on tech shares selloff",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-30T02:23:30Z",
-            "sentiment": "Positive",
-            "compound": 0.59
-          },
-          {
-            "title": "Trent net profit up 25% despite cost pressures and stiff competition",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-30T02:21:10Z",
-            "sentiment": "Positive",
-            "compound": 0.594
-          },
-          {
-            "title": "Halloween protests: France warns of 'very high' risk of urban violence, to deploy over 70,000 police",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-30T02:19:13Z",
-            "sentiment": "Negative",
-            "compound": -0.831
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.11,
-  "trade_probability": 44.07,
+  "confirmation_score": 39.83,
+  "trade_probability": 43.9,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
