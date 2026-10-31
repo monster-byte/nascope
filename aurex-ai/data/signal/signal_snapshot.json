@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T09:01:22.854104+00:00",
+  "generated_at": "2026-10-31T09:15:51.950936+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.0622,
+          "change_pct": -2.0594,
           "up": false
         },
         "MSFT": {
@@ -29,7 +29,7 @@
           "up": false
         },
         "AMZN": {
-          "change_pct": 6.4074,
+          "change_pct": 6.3808,
           "up": true
         }
       }
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.43,
+      "score": 45.63,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.009,
+        "avg_compound": -0.087,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Why are nearly 2,000 MBBS seats vacant in India? Private and state medical authorities ask NMC to step in",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-30T09:11:31Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Anthropic’s IPO filing warns of existential AI risk, but the software threat may arrive first",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-30T09:04:51Z",
+            "sentiment": "Negative",
+            "compound": -0.747
+          },
+          {
+            "title": "Biggest threat to middle-class is not layoffs, market crash or inflation: Gujarat CA reveals one thing quietly making all three worse",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-30T09:03:27Z",
+            "sentiment": "Negative",
+            "compound": -0.642
+          },
           {
             "title": "Even Republicans Want Ken Paxton to Lose",
             "source": "New York Magazine",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-30T09:00:00Z",
             "sentiment": "Negative",
             "compound": -0.44
-          },
-          {
-            "title": "For Californians Drowning in Healthcare Costs, Governor’s Race Offers Few Answers",
-            "source": "Kffhealthnews.org",
-            "publishedAt": "2026-10-30T09:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "'Affordability? For who?' Voters decide between helping homeowners or public services",
-            "source": "NPR",
-            "publishedAt": "2026-10-30T09:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.374
-          },
-          {
-            "title": "Your Phone Knows You’re at the Doctor, and Data Brokers Do, Too — Then Profit From It",
-            "source": "Kffhealthnews.org",
-            "publishedAt": "2026-10-30T09:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.44
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.47,
-  "trade_probability": 44.28,
+  "confirmation_score": 40.03,
+  "trade_probability": 44.02,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
