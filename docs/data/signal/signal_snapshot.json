@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T19:01:19.153040+00:00",
+  "generated_at": "2026-10-31T19:15:56.675050+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,56 +85,10 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.2,
+      "score": 50.0,
       "status": "yellow",
       "details": {
-        "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.064,
-        "articles_analyzed": 25,
-        "top_headlines": [
-          {
-            "title": "US Tech Stocks See Sharp Falls As AI Spending Nears $1 Trillion",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-10-30T19:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Sweet sales soar despite inflation, LPG short-supply headwinds",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-30T18:57:23Z",
-            "sentiment": "Positive",
-            "compound": 0.459
-          },
-          {
-            "title": "NASDAQ 100 enters correction, falls 10% from October high",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-30T18:56:21Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "What happened to 145 Nasdaq companies after the $1 warning letter",
-            "source": "Equibles.com",
-            "publishedAt": "2026-10-30T18:50:25Z",
-            "sentiment": "Negative",
-            "compound": -0.34
-          },
-          {
-            "title": "Heavyweight tech stocks plummet as AI cash burn spooks investors",
-            "source": "The Irish Times",
-            "publishedAt": "2026-10-30T18:47:09Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Binance Hack: Why Bitcoin Didn't Crash Like It Did in 2018",
-            "source": "Decrypt",
-            "publishedAt": "2026-10-30T18:45:03Z",
-            "sentiment": "Neutral",
-            "compound": 0.038
-          }
-        ]
+        "error": "news_fetch_failed: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?q=Nasdaq+OR+%22Federal+Reserve%22+OR+%22stock+market%22+OR+inflation&language=en&sortBy=publishedAt&pageSize=25&apiKey=280ea038bd7e4ccb91d87f9d115484d4"
       }
     },
     "patent_momentum": {
@@ -146,8 +100,8 @@
       }
     }
   },
-  "confirmation_score": 40.72,
-  "trade_probability": 44.43,
+  "confirmation_score": 40.43,
+  "trade_probability": 44.26,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
