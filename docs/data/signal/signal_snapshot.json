@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T00:31:15.450174+00:00",
+  "generated_at": "2026-10-31T00:45:59.079159+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,19 +85,33 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 39.84,
-      "status": "red",
+      "score": 41.34,
+      "status": "yellow",
       "details": {
-        "overall_sentiment": "BEARISH",
-        "avg_compound": -0.203,
+        "overall_sentiment": "NEUTRAL",
+        "avg_compound": -0.173,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Stocks in news: RIL, Jio, Trent, Suzlon Energy, IndiGo, Vedanta Power and RVNL",
+            "title": "Who created the hunger? Produce your proof",
+            "source": "The Punch",
+            "publishedAt": "2026-10-30T00:41:27Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Microsoft plans to raise $25 billion in debt as it pursues AI buildout",
+            "source": "CNBC",
+            "publishedAt": "2026-10-30T00:38:13Z",
+            "sentiment": "Negative",
+            "compound": -0.361
+          },
+          {
+            "title": "Bulls return as Fed rate pause, dip in US yields lift sentiment",
             "source": "The Times of India",
-            "publishedAt": "2026-10-30T00:30:00Z",
-            "sentiment": "Positive",
-            "compound": 0.273
+            "publishedAt": "2026-10-30T00:37:40Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
             "title": "Pre-market action: Here's the trade setup for today's session",
@@ -107,32 +121,18 @@
             "compound": 0.0
           },
           {
+            "title": "Stocks in news: RIL, Jio, Trent, Suzlon Energy, IndiGo, Vedanta Power and RVNL",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-30T00:30:00Z",
+            "sentiment": "Positive",
+            "compound": 0.273
+          },
+          {
             "title": "G-Sec 10-year yields come down 5 bps to 7.39% on Fed signals",
             "source": "The Times of India",
             "publishedAt": "2026-10-30T00:26:03Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Market breadth hits seven-month low despite Nifty, Sensex gains",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-30T00:23:50Z",
-            "sentiment": "Negative",
-            "compound": -0.659
-          },
-          {
-            "title": "Fast-growing chickens are widely farmed in Ireland. Now Denmark wants EU ban over welfare fears",
-            "source": "TheJournal.ie",
-            "publishedAt": "2026-10-30T00:05:44Z",
-            "sentiment": "Negative",
-            "compound": -0.751
-          },
-          {
-            "title": "Labour’s dilemma over N70,000 amid reforms",
-            "source": "The Punch",
-            "publishedAt": "2026-10-30T00:05:03Z",
-            "sentiment": "Neutral",
-            "compound": -0.178
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 39.45,
-  "trade_probability": 43.67,
+  "confirmation_score": 39.59,
+  "trade_probability": 43.75,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
