@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T23:15:49.486525+00:00",
+  "generated_at": "2026-10-31T23:31:08.135816+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.0594,
+          "change_pct": -2.0622,
           "up": false
         },
         "MSFT": {
@@ -29,7 +29,7 @@
           "up": false
         },
         "AMZN": {
-          "change_pct": 6.3808,
+          "change_pct": 6.4074,
           "up": true
         }
       }
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.13,
+      "score": 45.39,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.077,
-        "articles_analyzed": 25,
+        "avg_compound": -0.092,
+        "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Lundin Mining Announces Updated Share Capital and Provides Update on Share Buybacks",
+            "source": "PR Newswire UK",
+            "publishedAt": "2026-10-30T23:30:00Z",
+            "sentiment": "Positive",
+            "compound": 0.527
+          },
+          {
+            "title": "Trump Appointee Bill Pulte’s Housing Agency Obstructed Watchdog, Report Says",
+            "source": "HuffPost",
+            "publishedAt": "2026-10-30T23:26:02Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "US stock Market today: Wall Street stocks that jump on tough trading day for S&P 500, Nasdaq, Dow Jones, Russell 2000",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-30T23:23:58Z",
+            "sentiment": "Neutral",
+            "compound": -0.128
+          },
+          {
+            "title": "The Week the Cracks in the AI Trade Grew Deeper",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-10-30T23:19:36Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "The £71bn stealth tax bonanza: Millions of workers dragged into paying more as income thresholds stay frozen",
             "source": "Dailymail.com",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-30T23:00:13Z",
             "sentiment": "Positive",
             "compound": 0.856
-          },
-          {
-            "title": "Suffers a Larger Drop Than the General Market: Key Insights",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-30T22:59:07Z",
-            "sentiment": "Negative",
-            "compound": -0.637
-          },
-          {
-            "title": "Jim Cramer says it's time to look beyond tech. Here are 4 consumer stocks he likes",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-30T22:56:08Z",
-            "sentiment": "Positive",
-            "compound": 0.421
-          },
-          {
-            "title": "Candidates make final midterm stops as early voting surges",
-            "source": "PBS",
-            "publishedAt": "2026-10-30T22:55:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.153
-          },
-          {
-            "title": "US bond market crash: 10-year, 30-year, 2-year yield notes fall to historic lows. Here's why",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-30T22:52:09Z",
-            "sentiment": "Negative",
-            "compound": -0.542
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.08,
-  "trade_probability": 44.05,
+  "confirmation_score": 40.01,
+  "trade_probability": 44.01,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
