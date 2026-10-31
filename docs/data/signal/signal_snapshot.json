@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T04:45:52.456996+00:00",
+  "generated_at": "2026-10-31T05:01:23.646427+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.0594,
+          "change_pct": -2.0622,
           "up": false
         },
         "MSFT": {
@@ -29,7 +29,7 @@
           "up": false
         },
         "AMZN": {
-          "change_pct": 6.3808,
+          "change_pct": 6.4074,
           "up": true
         }
       }
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.68,
+      "score": 56.82,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.094,
+        "avg_compound": 0.136,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "US company has option to buy Kildare data centre",
+            "source": "The Irish Times",
+            "publishedAt": "2026-10-30T05:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "US economy grows at brisk 3.4% pace in third quarter on strong consumer spending and AI investment - AP News",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-10-30T04:54:05Z",
+            "sentiment": "Positive",
+            "compound": 0.599
+          },
+          {
+            "title": "Where to invest: PL Wealth bets on Midcap, flexicap, banks; cautions on IT",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-30T04:49:28Z",
+            "sentiment": "Positive",
+            "compound": 0.494
+          },
+          {
+            "title": "Mistral’s ‘Le Chonk’ AI model goes open source with new weights",
+            "source": "Nextbigwhat.com",
+            "publishedAt": "2026-10-30T04:45:58Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Asian Paints shares steady Q2 show, brokerages trim target prices",
             "source": "BusinessLine",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-30T04:35:05Z",
             "sentiment": "Positive",
             "compound": 0.296
-          },
-          {
-            "title": "Rupee rises 7 paise to 95.19 against US dollar in early trade",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-30T04:33:05Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Trent shares zoom 7% after Q2 results, brokerages divided on outlook, price targets",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-30T04:32:11Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "Amazon projects fourth quarter sales below estimates",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-30T04:31:01Z",
-            "sentiment": "Neutral",
-            "compound": 0.178
-          },
-          {
-            "title": "Rupee rises 7 paise to 95.19 against US dollar in early trade",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-30T04:30:06Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.85,
-  "trade_probability": 44.51,
+  "confirmation_score": 41.04,
+  "trade_probability": 44.62,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
