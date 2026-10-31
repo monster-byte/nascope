@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T06:45:53.589699+00:00",
+  "generated_at": "2026-10-31T07:01:29.826585+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.0622,
+          "change_pct": -2.0594,
           "up": false
         },
         "MSFT": {
@@ -29,7 +29,7 @@
           "up": false
         },
         "AMZN": {
-          "change_pct": 6.4074,
+          "change_pct": 6.3808,
           "up": true
         }
       }
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 44.15,
+      "score": 49.78,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.117,
-        "articles_analyzed": 24,
+        "avg_compound": -0.004,
+        "articles_analyzed": 22,
         "top_headlines": [
+          {
+            "title": "Rakuten Capital’s Saemin Ahn is ‘pessimistic’ on Southeast Asian VC: Good startups are getting ‘a lot less oxygen’",
+            "source": "Fortune",
+            "publishedAt": "2026-10-30T07:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
+          {
+            "title": "‘You become a victim of your own success’: Trump’s unlikely gift to Democrats was securing the border and defusing the issue",
+            "source": "Fortune",
+            "publishedAt": "2026-10-30T07:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.477
+          },
+          {
+            "title": "BOJ Governor Ueda's comments at news conference",
+            "source": "CNA",
+            "publishedAt": "2026-10-30T06:55:59Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Global Market: Chinese yuan hits four-year high, heads for fourth straight monthly gain",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-30T06:47:35Z",
+            "sentiment": "Positive",
+            "compound": 0.649
+          },
           {
             "title": "Asian trading is mixed as worries about AI-related issues grow",
             "source": "Abcnews.com",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-30T06:36:06Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Asian trading is mixed as worries about AI-related issues grow",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-10-30T06:34:10Z",
-            "sentiment": "Negative",
-            "compound": -0.421
-          },
-          {
-            "title": "Bank of Japan says inflation hit 2 percent target after 13 years",
-            "source": "Hurriyet Daily News",
-            "publishedAt": "2026-10-30T06:21:21Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Change in the number of shares and votes in Systemair",
-            "source": "PR Newswire UK",
-            "publishedAt": "2026-10-30T06:16:00Z",
-            "sentiment": "Positive",
-            "compound": 0.361
-          },
-          {
-            "title": "Escorts Kubota hikes tractor prices as Middle East war fuels cost pressures",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-30T06:08:22Z",
-            "sentiment": "Negative",
-            "compound": -0.735
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 39.9,
-  "trade_probability": 43.94,
+  "confirmation_score": 40.41,
+  "trade_probability": 44.25,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
