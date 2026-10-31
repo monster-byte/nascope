@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T06:01:30.773373+00:00",
+  "generated_at": "2026-10-31T06:15:56.482384+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.0594,
+          "change_pct": -2.0622,
           "up": false
         },
         "MSFT": {
@@ -29,7 +29,7 @@
           "up": false
         },
         "AMZN": {
-          "change_pct": 6.3808,
+          "change_pct": 6.4074,
           "up": true
         }
       }
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.92,
+      "score": 47.59,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.018,
+        "avg_compound": -0.048,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Escorts Kubota hikes tractor prices as Middle East war fuels cost pressures",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-30T06:08:22Z",
+            "sentiment": "Negative",
+            "compound": -0.735
+          },
+          {
+            "title": "Silver may slide to $48 as momentum selling deepens: Mirae Asset Sharekhan",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-30T06:08:15Z",
+            "sentiment": "Positive",
+            "compound": 0.361
+          },
+          {
+            "title": "IndiGo jumps 4% as Q2 loss narrows; analysts say earnings outlook weak",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-30T06:02:24Z",
+            "sentiment": "Negative",
+            "compound": -0.637
+          },
           {
             "title": "Any stock market dips after the US midterms are likely to be buying opportunities",
             "source": "The Irish Times",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-30T06:00:00Z",
             "sentiment": "Neutral",
             "compound": -0.077
-          },
-          {
-            "title": "Silver market’s big problem may be ending, but a new worry is coming for investors",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-30T05:57:07Z",
-            "sentiment": "Negative",
-            "compound": -0.691
-          },
-          {
-            "title": "Global Market: ECB may pause rate hikes after December amid growth risks",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-30T05:53:18Z",
-            "sentiment": "Neutral",
-            "compound": 0.128
-          },
-          {
-            "title": "Gold faces further losses as $3,930 support in focus: Mirae Asset Sharekhan",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-30T05:44:33Z",
-            "sentiment": "Positive",
-            "compound": 0.361
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.51,
-  "trade_probability": 44.31,
+  "confirmation_score": 40.21,
+  "trade_probability": 44.13,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
