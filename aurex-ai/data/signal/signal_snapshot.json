@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T05:15:53.138904+00:00",
+  "generated_at": "2026-10-31T05:31:08.551228+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.0622,
+          "change_pct": -2.0594,
           "up": false
         },
         "MSFT": {
@@ -29,7 +29,7 @@
           "up": false
         },
         "AMZN": {
-          "change_pct": 6.4074,
+          "change_pct": 6.3808,
           "up": true
         }
       }
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.96,
+      "score": 53.32,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.099,
-        "articles_analyzed": 25,
+        "avg_compound": 0.066,
+        "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Global Market: BOJ to accelerate ETF sales, cut holdings overhaul timeline to 43 years",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-30T05:29:19Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "NZ sharemarket ends week up 0.6%, up 1.6% for the year to date – Market close",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-10-30T05:23:52Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "GCPL slides 7% as Q2 margins contract; analysts flags input cost pressures",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-30T05:19:29Z",
+            "sentiment": "Negative",
+            "compound": -0.318
+          },
           {
             "title": "Greek supermarket market enters a phase of transformation",
             "source": "Naftemporiki.gr",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-30T05:12:24Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Coles admits it's 'not happy' as shoppers tighten spending and turn to rivals for cheaper groceries",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-10-30T05:09:44Z",
-            "sentiment": "Negative",
-            "compound": -0.202
-          },
-          {
-            "title": "Suspected Billion-Dollar Binance Hack Sends Fear Through Crypto",
-            "source": "Insurance Journal",
-            "publishedAt": "2026-10-30T05:09:07Z",
-            "sentiment": "Negative",
-            "compound": -0.625
-          },
-          {
-            "title": "European Central Bank head resigns, allowing EU leaders to choose successor before French election",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-10-30T05:04:53Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.87,
-  "trade_probability": 44.52,
+  "confirmation_score": 40.73,
+  "trade_probability": 44.44,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
