@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T06:15:56.482384+00:00",
+  "generated_at": "2026-10-31T06:31:05.962222+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.0622,
+          "change_pct": -2.0594,
           "up": false
         },
         "MSFT": {
@@ -29,7 +29,7 @@
           "up": false
         },
         "AMZN": {
-          "change_pct": 6.4074,
+          "change_pct": 6.3808,
           "up": true
         }
       }
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.59,
+      "score": 46.06,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.048,
+        "avg_compound": -0.079,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Bank of Japan says inflation hit 2 percent target after 13 years",
+            "source": "Hurriyet Daily News",
+            "publishedAt": "2026-10-30T06:21:21Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Change in the number of shares and votes in Systemair",
+            "source": "PR Newswire UK",
+            "publishedAt": "2026-10-30T06:16:00Z",
+            "sentiment": "Positive",
+            "compound": 0.361
+          },
           {
             "title": "Escorts Kubota hikes tractor prices as Middle East war fuels cost pressures",
             "source": "The Times of India",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-30T06:00:01Z",
             "sentiment": "Positive",
             "compound": 0.382
-          },
-          {
-            "title": "U.S. Intelligence: Chinese Executive Used Nvidia CEO Access to Steal AI Secrets",
-            "source": "Naturalnews.com",
-            "publishedAt": "2026-10-30T06:00:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.026
-          },
-          {
-            "title": "Oman’s foreign minister calls for regional security pact excluding U.S. as Gulf tensions mount",
-            "source": "Naturalnews.com",
-            "publishedAt": "2026-10-30T06:00:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.077
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.21,
-  "trade_probability": 44.13,
+  "confirmation_score": 40.07,
+  "trade_probability": 44.04,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
