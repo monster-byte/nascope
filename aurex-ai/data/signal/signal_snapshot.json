@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T03:15:52.260090+00:00",
+  "generated_at": "2026-11-01T03:31:07.532146+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 43.28,
+      "score": 44.74,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.134,
+        "avg_compound": -0.105,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Apple overtakes Nvidia to become world's most valuable company at $5.03 trn",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-31T03:26:21Z",
+            "sentiment": "Positive",
+            "compound": 0.526
+          },
           {
             "title": "Gold falls below $3,900, silver tumbles as Wall Street selloff triggers liquidation - Kitco PM Report - Kitco",
             "source": "Slashdot.org",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-10-31T02:32:19Z",
             "sentiment": "Negative",
             "compound": -0.817
-          },
-          {
-            "title": "From savings to settlement: How to set up funds for house down payment",
-            "source": "Business Standard",
-            "publishedAt": "2026-10-31T02:30:56Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 39.82,
-  "trade_probability": 43.89,
+  "confirmation_score": 39.95,
+  "trade_probability": 43.97,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
