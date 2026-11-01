@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T02:01:19.403834+00:00",
+  "generated_at": "2026-11-01T02:15:51.734198+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.0622,
+          "change_pct": -2.0594,
           "up": false
         },
         "MSFT": {
@@ -29,7 +29,7 @@
           "up": false
         },
         "AMZN": {
-          "change_pct": 6.4074,
+          "change_pct": 6.3808,
           "up": true
         }
       }
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 43.24,
+      "score": 44.45,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.135,
+        "avg_compound": -0.111,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "French economy ‘headed straight for a wall’ – finance minister",
+            "source": "Rt-english.com",
+            "publishedAt": "2026-10-31T02:15:05Z",
+            "sentiment": "Positive",
+            "compound": 0.226
+          },
+          {
+            "title": "Stocktwits Weekly Spread: What Shaped Treasury Yields And The Dollar This Week",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-31T02:15:05Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
           {
             "title": "'Trump betrayed us': Arizona's Latino voters sour on president",
             "source": "The Times of India",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-31T01:00:52Z",
             "sentiment": "Negative",
             "compound": -0.819
-          },
-          {
-            "title": "The state school boy who can protect the world from AI: How a tech billionaire born and bred in Brighton could hold the power to save humanity... but still spends his time watching Dr Who and making sausage rolls",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-10-31T01:00:46Z",
-            "sentiment": "Positive",
-            "compound": 0.44
-          },
-          {
-            "title": "Wall Street abandons ship after gold sinks below $3,900/oz, Main Street maintains bullish majority bias as midterms, payrolls loom",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-31T00:59:19Z",
-            "sentiment": "Negative",
-            "compound": -0.557
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 39.82,
-  "trade_probability": 43.89,
+  "confirmation_score": 39.93,
+  "trade_probability": 43.96,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
