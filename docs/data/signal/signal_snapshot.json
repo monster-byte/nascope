@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T20:45:53.188866+00:00",
+  "generated_at": "2026-11-01T21:01:22.588195+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.0622,
+          "change_pct": -2.0594,
           "up": false
         },
         "MSFT": {
@@ -29,7 +29,7 @@
           "up": false
         },
         "AMZN": {
-          "change_pct": 6.4074,
+          "change_pct": 6.3808,
           "up": true
         }
       }
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.73,
+      "score": 49.6,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.035,
+        "avg_compound": -0.008,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "This Cork tower will be the tallest apartment block in Ireland - here's how it came together",
+            "source": "TheJournal.ie",
+            "publishedAt": "2026-10-31T21:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.44
+          },
           {
             "title": "Anthropic Intends to Trade on the Nasdaq Under the Ticker ANT",
             "source": "Biztoc.com",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-10-31T19:34:53Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "How vulnerable are cryptocurrency platforms?",
-            "source": "Al Jazeera English",
-            "publishedAt": "2026-10-31T19:19:29Z",
-            "sentiment": "Negative",
-            "compound": -0.226
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.58,
-  "trade_probability": 44.35,
+  "confirmation_score": 40.39,
+  "trade_probability": 44.23,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
