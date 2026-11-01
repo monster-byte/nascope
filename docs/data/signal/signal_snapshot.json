@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T16:45:52.730585+00:00",
+  "generated_at": "2026-11-01T17:01:20.339931+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.0622,
+          "change_pct": -2.0594,
           "up": false
         },
         "MSFT": {
@@ -29,7 +29,7 @@
           "up": false
         },
         "AMZN": {
-          "change_pct": 6.4074,
+          "change_pct": 6.3808,
           "up": true
         }
       }
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.41,
+      "score": 52.43,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.032,
+        "avg_compound": 0.049,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "The RAM crisis feels relentless, but Black Friday could come to your rescue",
+            "source": "TechRadar",
+            "publishedAt": "2026-10-31T17:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "Maris-Tech Introduces Advanced Edge AI Platform Enabling Real-Time Video Intelligence and Autonomous UAV Operations",
+            "source": "Soldiersystems.net",
+            "publishedAt": "2026-10-31T17:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.625
+          },
+          {
+            "title": "Many Happy Returns. The Stern Review Turns 20 and Weather Losses Come in $2.8 Trillion Under Its Forecast",
+            "source": "Wattsupwiththat.com",
+            "publishedAt": "2026-10-31T17:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.25
+          },
+          {
+            "title": "$2 Trillion Wiped Out: Why the U.S. Stock Market Crashed",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-31T16:46:21Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Pakistan seeks diplomatic glory abroad notwithstanding domestic challenges",
             "source": "Khabarhub.com",
@@ -103,34 +131,6 @@
             "title": "'The Fed put is very much back': Wall Street strategists weigh central bank's next move",
             "source": "Biztoc.com",
             "publishedAt": "2026-10-31T16:31:45Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Why Is Robinhood Stock Down 40% From Its Record High?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-31T16:31:43Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Simply Put: Oversold market",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-31T16:30:29Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Nifty 500 vs S&P 500: India or US, innovation is the only game in town for investors",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-31T16:29:59Z",
-            "sentiment": "Positive",
-            "compound": 0.649
-          },
-          {
-            "title": "What should investors glean from Anthropic’s prospectus?",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-31T16:29:12Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.28,
-  "trade_probability": 44.17,
+  "confirmation_score": 40.65,
+  "trade_probability": 44.39,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
