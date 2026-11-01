@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T16:31:11.777825+00:00",
+  "generated_at": "2026-11-01T16:45:52.730585+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.0594,
+          "change_pct": -2.0622,
           "up": false
         },
         "MSFT": {
@@ -29,7 +29,7 @@
           "up": false
         },
         "AMZN": {
-          "change_pct": 6.3808,
+          "change_pct": 6.4074,
           "up": true
         }
       }
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 44.79,
+      "score": 48.41,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.104,
+        "avg_compound": -0.032,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Pakistan seeks diplomatic glory abroad notwithstanding domestic challenges",
+            "source": "Khabarhub.com",
+            "publishedAt": "2026-10-31T16:45:39Z",
+            "sentiment": "Positive",
+            "compound": 0.586
+          },
+          {
+            "title": "'The Fed put is very much back': Wall Street strategists weigh central bank's next move",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-31T16:31:45Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Why Is Robinhood Stock Down 40% From Its Record High?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-31T16:31:43Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Simply Put: Oversold market",
             "source": "BusinessLine",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-31T16:29:12Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "SDLs: Higher yields, State backing",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-31T16:28:27Z",
-            "sentiment": "Neutral",
-            "compound": 0.026
-          },
-          {
-            "title": "47k-Mile 2011 BMW Z4 sDrive35i Sport 6-Speed",
-            "source": "Bringatrailer.com",
-            "publishedAt": "2026-10-31T16:20:06Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "US Market Outlook: Indices under pressure",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-31T16:18:31Z",
-            "sentiment": "Negative",
-            "compound": -0.296
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 39.96,
-  "trade_probability": 43.98,
+  "confirmation_score": 40.28,
+  "trade_probability": 44.17,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
