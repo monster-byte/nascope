@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T00:15:47.150195+00:00",
+  "generated_at": "2026-11-01T00:31:09.327947+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.0594,
+          "change_pct": -2.0622,
           "up": false
         },
         "MSFT": {
@@ -29,7 +29,7 @@
           "up": false
         },
         "AMZN": {
-          "change_pct": 6.3808,
+          "change_pct": 6.4074,
           "up": true
         }
       }
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 44.22,
+      "score": 45.29,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.116,
+        "avg_compound": -0.094,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "A rare buying opportunity in 1 of Australia's top shares?",
+            "source": "Motley Fool Australia",
+            "publishedAt": "2026-10-31T00:30:00Z",
+            "sentiment": "Positive",
+            "compound": 0.7
+          },
+          {
+            "title": "Snack Giant Mondelez Says Inflation Pressure Drives Global Demand for Smaller Packs",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-31T00:28:25Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
+          {
+            "title": "Talks between unions and Government over new pay deal finish without agreement",
+            "source": "The Irish Times",
+            "publishedAt": "2026-10-31T00:24:08Z",
+            "sentiment": "Negative",
+            "compound": -0.464
+          },
+          {
+            "title": "OpenAI slashes funding target by $10 billion amid tech rout, FT reports",
+            "source": "CNA",
+            "publishedAt": "2026-10-31T00:17:17Z",
+            "sentiment": "Negative",
+            "compound": -0.202
+          },
           {
             "title": "Snack Giant Mondelez Says Inflation Pressure Drives Global Demand for Smaller Packs",
             "source": "pymnts.com",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-31T00:02:39Z",
             "sentiment": "Positive",
             "compound": 0.402
-          },
-          {
-            "title": "Wall Street drops to its worst day since June after the sell-off for tech stocks deepens",
-            "source": "Boston Herald",
-            "publishedAt": "2026-10-30T23:43:37Z",
-            "sentiment": "Negative",
-            "compound": -0.625
-          },
-          {
-            "title": "Gold price prediction: Gold rate closes October on 1-year low, what to expect in November, December?",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-30T23:42:45Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "Lundin Mining Announces Updated Share Capital and Provides Update on Share Buybacks",
-            "source": "PR Newswire UK",
-            "publishedAt": "2026-10-30T23:30:00Z",
-            "sentiment": "Positive",
-            "compound": 0.527
-          },
-          {
-            "title": "Trump Appointee Bill Pulte’s Housing Agency Obstructed Watchdog, Report Says",
-            "source": "HuffPost",
-            "publishedAt": "2026-10-30T23:26:02Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 39.91,
-  "trade_probability": 43.95,
+  "confirmation_score": 40.0,
+  "trade_probability": 44.0,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
