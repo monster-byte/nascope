@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T13:31:08.969703+00:00",
+  "generated_at": "2026-11-01T13:45:47.459486+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.0594,
+          "change_pct": -2.0622,
           "up": false
         },
         "MSFT": {
@@ -29,7 +29,7 @@
           "up": false
         },
         "AMZN": {
-          "change_pct": 6.3808,
+          "change_pct": 6.4074,
           "up": true
         }
       }
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.25,
+      "score": 51.26,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.035,
-        "articles_analyzed": 23,
+        "avg_compound": 0.025,
+        "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Anthropic's path to the Nasdaq just got a lot bumpier",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-31T13:42:59Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "MiB: Rich Steinmeier LPL CEO on The Future of Financial Advice",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-31T13:42:45Z",
+            "sentiment": "Positive",
+            "compound": 0.557
+          },
           {
             "title": "$10,000 Invested in Robinhood at Its IPO Would Be Worth About $27,160 Today",
             "source": "Biztoc.com",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-31T13:12:00Z",
             "sentiment": "Negative",
             "compound": -0.477
-          },
-          {
-            "title": "NYC teachers promoting nearly 100% of students — but nearly half are not proficient in math, reading: ‘No consequences’",
-            "source": "New York Post",
-            "publishedAt": "2026-10-31T13:03:02Z",
-            "sentiment": "Neutral",
-            "compound": 0.19
-          },
-          {
-            "title": "How to start an art collection on any budget",
-            "source": "CNBC",
-            "publishedAt": "2026-10-31T12:58:43Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.27,
-  "trade_probability": 44.16,
+  "confirmation_score": 40.54,
+  "trade_probability": 44.32,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
