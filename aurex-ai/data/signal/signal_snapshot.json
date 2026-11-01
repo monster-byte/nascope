@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T21:01:22.588195+00:00",
+  "generated_at": "2026-11-01T21:15:53.661085+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.0594,
+          "change_pct": -2.0622,
           "up": false
         },
         "MSFT": {
@@ -29,7 +29,7 @@
           "up": false
         },
         "AMZN": {
-          "change_pct": 6.3808,
+          "change_pct": 6.4074,
           "up": true
         }
       }
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.6,
+      "score": 46.46,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.008,
+        "avg_compound": -0.071,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Have voters already forgotten everything Trump got right? | Opinion (Link Only No Excerpt",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-10-31T21:14:24Z",
+            "sentiment": "Negative",
+            "compound": -0.477
+          },
+          {
+            "title": "Cruise company founder says he's 'the villain' after 200-plus passengers are stranded",
+            "source": "Fox News",
+            "publishedAt": "2026-10-31T21:05:43Z",
+            "sentiment": "Negative",
+            "compound": -0.557
+          },
           {
             "title": "This Cork tower will be the tallest apartment block in Ireland - here's how it came together",
             "source": "TheJournal.ie",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-31T19:44:24Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "If California undid its ‘original sin’ and matched Texas on taxing property, it would raise more revenue than the billionaire tax, economists say",
-            "source": "Fortune",
-            "publishedAt": "2026-10-31T19:41:13Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "5 insightful analyst questions from Carlisle’s Q3 earnings call",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-31T19:34:53Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.39,
-  "trade_probability": 44.23,
+  "confirmation_score": 40.11,
+  "trade_probability": 44.07,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
