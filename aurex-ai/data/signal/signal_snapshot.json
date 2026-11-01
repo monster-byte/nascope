@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T13:01:16.404083+00:00",
+  "generated_at": "2026-11-01T13:15:52.198307+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.0594,
+          "change_pct": -2.0622,
           "up": false
         },
         "MSFT": {
@@ -29,7 +29,7 @@
           "up": false
         },
         "AMZN": {
-          "change_pct": 6.3808,
+          "change_pct": 6.4074,
           "up": true
         }
       }
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.38,
+      "score": 47.6,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.072,
+        "avg_compound": -0.048,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "The AI sell-off is exposing the risks of betting on Wall Street’s favorite stocks",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-10-31T13:12:58Z",
+            "sentiment": "Neutral",
+            "compound": -0.052
+          },
+          {
+            "title": "Trump promised to slash energy costs — but gasoline, diesel and jet fuel all soared instead",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-31T13:12:47Z",
+            "sentiment": "Neutral",
+            "compound": 0.19
+          },
+          {
+            "title": "Trumpflation Is Getting Worse and It Could Trigger a Wall Street Nightmare",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-31T13:12:00Z",
+            "sentiment": "Negative",
+            "compound": -0.477
+          },
+          {
+            "title": "NYC teachers promoting nearly 100% of students — but nearly half are not proficient in math, reading: ‘No consequences’",
+            "source": "New York Post",
+            "publishedAt": "2026-10-31T13:03:02Z",
+            "sentiment": "Neutral",
+            "compound": 0.19
+          },
           {
             "title": "How to start an art collection on any budget",
             "source": "CNBC",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-31T12:56:35Z",
             "sentiment": "Negative",
             "compound": -0.402
-          },
-          {
-            "title": "A Nasdaq-listed company may sell $450 million bitcoin, citing Binance hack and quantum fears",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-31T12:56:33Z",
-            "sentiment": "Negative",
-            "compound": -0.421
-          },
-          {
-            "title": "Texas Instruments Has Raised Its Dividend for 23 Years. Here Are 3 More Tech Income Stocks",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-31T12:56:32Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Can Silicon Valley Build A Safe Class 8 Truck? Early EV Semi Fires Expose The Experience Gap",
-            "source": "CleanTechnica",
-            "publishedAt": "2026-10-31T12:55:58Z",
-            "sentiment": "Positive",
-            "compound": 0.318
-          },
-          {
-            "title": "Next Technology Holding may sell $450M in Bitcoin after Binance hack",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-31T12:55:13Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.1,
-  "trade_probability": 44.06,
+  "confirmation_score": 40.21,
+  "trade_probability": 44.13,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
