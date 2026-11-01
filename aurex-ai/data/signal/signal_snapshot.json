@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T05:31:05.169017+00:00",
+  "generated_at": "2026-11-01T05:45:51.891958+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.78,
+      "score": 47.66,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.016,
+        "avg_compound": -0.047,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Wall Street drops to its worst day since June",
+            "source": "Iron Mountain Daily News",
+            "publishedAt": "2026-10-31T05:32:56Z",
+            "sentiment": "Negative",
+            "compound": -0.625
+          },
+          {
+            "title": "Stock Market News, Oct. 30, 2026: Tech Selloff Pushes Nasdaq to Its Worst Month in Over a Year - WSJ",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-10-31T05:32:42Z",
+            "sentiment": "Negative",
+            "compound": -0.625
+          },
+          {
+            "title": "Nasdaq 100 Hits Third Correction of 2026 on Unwinding Tech Stock Bets - Bloomberg.com",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-10-31T05:32:31Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Silver hits 11-month low at ₹1.9 lakh per kg in Delhi; crashes to $49/ounce globally",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-31T05:31:44Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
           {
             "title": "Gold, silver rates today Bangalore 31 Oct: Latest prices, up-down movement for precious metal investors in Garden City",
             "source": "Livemint",
@@ -103,34 +131,6 @@
             "title": "Massive tech sell-off has Nasdaq 100 entering another correction",
             "source": "Biztoc.com",
             "publishedAt": "2026-10-31T05:18:57Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Gold sinks to one-year low, silver slips below $50 on inflation concerns, tech selloff",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-31T05:04:08Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "Meta, TikTok and X Lose UK Court Fight Over Requests for Social Media Safety Data",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-31T05:03:50Z",
-            "sentiment": "Negative",
-            "compound": -0.361
-          },
-          {
-            "title": "Chola-era bronze idols of Nataraja, Sivakami unearthed at Nagapattinam",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-31T05:01:39Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Baia e Latina, the Italian village where €150 million was gambled online: the mystery of the high roller",
-            "source": "La Repubblica",
-            "publishedAt": "2026-10-31T05:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.5,
-  "trade_probability": 44.3,
+  "confirmation_score": 40.22,
+  "trade_probability": 44.13,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
