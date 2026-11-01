@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T09:31:07.655473+00:00",
+  "generated_at": "2026-11-01T09:45:54.263616+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.0594,
+          "change_pct": -2.0622,
           "up": false
         },
         "MSFT": {
@@ -29,7 +29,7 @@
           "up": false
         },
         "AMZN": {
-          "change_pct": 6.3808,
+          "change_pct": 6.4074,
           "up": true
         }
       }
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 44.46,
+      "score": 45.82,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.111,
+        "avg_compound": -0.084,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Gold (XAUUSD), Silver, Platinum Forecasts – Gold Dives 3.5% As Traders Focus On Tech Sell-Off - FXEmpire",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-10-31T09:32:58Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "In 1907, gold and silver turned Rawhide, Nevada, into a town of 7,000; by 1910, only 500 remained after stock fraud, a major fire, and a flood wrecked the boom",
             "source": "The Times of India",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-10-31T09:00:22Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "William Nordhaus, Nobel laureate who integrated economics and climate change, devoted Yale citizen",
-            "source": "Yale.edu",
-            "publishedAt": "2026-10-31T09:00:06Z",
-            "sentiment": "Positive",
-            "compound": 0.402
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 39.93,
-  "trade_probability": 43.96,
+  "confirmation_score": 40.05,
+  "trade_probability": 44.03,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
