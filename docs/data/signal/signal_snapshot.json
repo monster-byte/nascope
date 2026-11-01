@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T13:45:47.459486+00:00",
+  "generated_at": "2026-11-01T14:01:13.661875+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.0622,
+          "change_pct": -2.0594,
           "up": false
         },
         "MSFT": {
@@ -29,7 +29,7 @@
           "up": false
         },
         "AMZN": {
-          "change_pct": 6.4074,
+          "change_pct": 6.3808,
           "up": true
         }
       }
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.26,
+      "score": 48.83,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.025,
-        "articles_analyzed": 24,
+        "avg_compound": -0.023,
+        "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Which B.C. neighbourhoods will get the most trick-or-treaters this Halloween?",
+            "source": "CBC News",
+            "publishedAt": "2026-10-31T14:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "California housing market remains brutal nightmare for buyers — it gets worse for ordinary families",
+            "source": "New York Post",
+            "publishedAt": "2026-10-31T14:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.802
+          },
+          {
+            "title": "Stock Market Bloodbath Spikes Fears of AI Bubble Bursting - Futurism",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-10-31T13:55:36Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
+          {
+            "title": "Coimbatore escape: Undertrial flees again; Palaniswami calls jailbreaks 'never-ending TV serial'",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-31T13:52:57Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Anthropic's path to the Nasdaq just got a lot bumpier",
             "source": "Biztoc.com",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-31T13:42:45Z",
             "sentiment": "Positive",
             "compound": 0.557
-          },
-          {
-            "title": "$10,000 Invested in Robinhood at Its IPO Would Be Worth About $27,160 Today",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-31T13:29:18Z",
-            "sentiment": "Positive",
-            "compound": 0.226
-          },
-          {
-            "title": "The AI sell-off is exposing the risks of betting on Wall Street’s favorite stocks",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-10-31T13:12:58Z",
-            "sentiment": "Neutral",
-            "compound": -0.052
-          },
-          {
-            "title": "Trump promised to slash energy costs — but gasoline, diesel and jet fuel all soared instead",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-31T13:12:47Z",
-            "sentiment": "Neutral",
-            "compound": 0.19
-          },
-          {
-            "title": "Trumpflation Is Getting Worse and It Could Trigger a Wall Street Nightmare",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-31T13:12:00Z",
-            "sentiment": "Negative",
-            "compound": -0.477
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.54,
-  "trade_probability": 44.32,
+  "confirmation_score": 40.32,
+  "trade_probability": 44.19,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
