@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T23:31:12.681674+00:00",
+  "generated_at": "2026-11-01T23:45:48.746795+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.0622,
+          "change_pct": -2.0594,
           "up": false
         },
         "MSFT": {
@@ -29,7 +29,7 @@
           "up": false
         },
         "AMZN": {
-          "change_pct": 6.4074,
+          "change_pct": 6.3808,
           "up": true
         }
       }
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.05,
+      "score": 49.96,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.95,
-        "change_5d_pct": -0.006
+        "current_dxy": 101.96,
+        "change_5d_pct": 0.005
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.06,
+      "score": 44.19,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.079,
+        "avg_compound": -0.116,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Tech stock meltdown could get a lot of worse if history is any guide - Yahoo Finance",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-10-31T23:33:30Z",
+            "sentiment": "Negative",
+            "compound": -0.477
+          },
           {
             "title": "The First Tokenized U.S. Stock Trades on Canton on Monday. What Would Have to Happen for CC to Double?",
             "source": "Biztoc.com",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-10-31T21:53:23Z",
             "sentiment": "Negative",
             "compound": -0.382
-          },
-          {
-            "title": "Stocks often rally after midterm elections, but AI spending, rate hikes add risk this time",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-31T21:37:12Z",
-            "sentiment": "Negative",
-            "compound": -0.392
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.13,
-  "trade_probability": 44.08,
+  "confirmation_score": 39.95,
+  "trade_probability": 43.97,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
