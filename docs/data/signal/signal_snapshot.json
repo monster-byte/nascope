@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T08:31:10.665863+00:00",
+  "generated_at": "2026-11-01T08:45:49.690350+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.0622,
+          "change_pct": -2.0594,
           "up": false
         },
         "MSFT": {
@@ -29,7 +29,7 @@
           "up": false
         },
         "AMZN": {
-          "change_pct": 6.4074,
+          "change_pct": 6.3808,
           "up": true
         }
       }
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 43.99,
+      "score": 45.23,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.12,
+        "avg_compound": -0.095,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "ET Wealth Expo: Vijay Kedia explains why investors need patience, says some crops take 5 years to grow",
+            "source": "Economictimes.com",
+            "publishedAt": "2026-10-31T08:40:07Z",
+            "sentiment": "Positive",
+            "compound": 0.494
+          },
+          {
+            "title": "In Biden’s First Halloween In Office, A 100-Piece Bag Of Candy Cost $9.91, A Study Found. This Year It’s $16.96, And Government Data Shows Candy Prices Rose 7.7% In A Year, More Than Double Overall Inflation",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-31T08:37:18Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Peter Schiff Says a Monday Stock Market Crash Could Boost Democrats' Chances of Taking Senate as Party's…",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-31T08:37:09Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "Expert warns of 'AI hacking bloodbath' following massive Binance cryptocurrency theft - Fox Business",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-10-31T08:32:59Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
           {
             "title": "Rs 30 per kg rice gets no takers in fair price shops, claims PMK chief Anbumani",
             "source": "The Times of India",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-31T08:07:26Z",
             "sentiment": "Neutral",
             "compound": -0.178
-          },
-          {
-            "title": "Anthropic reveals nearly $900 billion in future commitments in IPO filing",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-31T07:56:14Z",
-            "sentiment": "Neutral",
-            "compound": 0.128
-          },
-          {
-            "title": "Anthropic files for IPO, aims for $2T valuation on NASDAQ",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-31T07:54:27Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "OpenAI funding target cut by $10 billion as AI slumps",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-31T07:34:29Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "Earning well but still broke? Ankur Warikoo highlights 5 money habits to fix, from budgeting to investing early",
-            "source": "Livemint",
-            "publishedAt": "2026-10-31T07:06:37Z",
-            "sentiment": "Negative",
-            "compound": -0.485
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 39.89,
-  "trade_probability": 43.93,
+  "confirmation_score": 40.0,
+  "trade_probability": 44.0,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
