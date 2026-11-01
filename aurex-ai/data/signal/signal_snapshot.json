@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T18:31:07.194179+00:00",
+  "generated_at": "2026-11-01T18:45:56.845695+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.0622,
+          "change_pct": -2.0594,
           "up": false
         },
         "MSFT": {
@@ -29,7 +29,7 @@
           "up": false
         },
         "AMZN": {
-          "change_pct": 6.4074,
+          "change_pct": 6.3808,
           "up": true
         }
       }
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.49,
+      "score": 56.32,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.11,
+        "avg_compound": 0.126,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Anthropic’s IPO and the most defining months ahead in stock market history",
+            "source": "BusinessLine",
+            "publishedAt": "2026-10-31T18:43:15Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "OpenAI valued at $1.25 trillion as funding round falls short of its target",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-31T18:42:00Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
           {
             "title": "A Stock Market Correction Could Be Coming. Here's Why I'm Still Investing",
             "source": "Biztoc.com",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-31T18:00:00Z",
             "sentiment": "Neutral",
             "compound": -0.026
-          },
-          {
-            "title": "Banks sitting on billions in savers' money as interest rates rise",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-10-31T18:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.459
-          },
-          {
-            "title": "Elon Musk’s Attack Ads Are Backfiring As Midterms Near",
-            "source": "CleanTechnica",
-            "publishedAt": "2026-10-31T17:54:23Z",
-            "sentiment": "Negative",
-            "compound": -0.477
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.92,
-  "trade_probability": 44.55,
+  "confirmation_score": 41.0,
+  "trade_probability": 44.6,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
