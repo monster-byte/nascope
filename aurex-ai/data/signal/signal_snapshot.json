@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T16:01:21.309446+00:00",
+  "generated_at": "2026-11-01T16:15:52.695142+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.0594,
+          "change_pct": -2.0622,
           "up": false
         },
         "MSFT": {
@@ -29,7 +29,7 @@
           "up": false
         },
         "AMZN": {
-          "change_pct": 6.3808,
+          "change_pct": 6.4074,
           "up": true
         }
       }
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.82,
+      "score": 44.92,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.084,
+        "avg_compound": -0.102,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "AI Enthusiasm Is Collapsing and Tech Earnings Just Made It Worse - Bloomberg.com",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-10-31T16:13:39Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
+          {
+            "title": "1989 Porsche 911 Carrera 4 Coupe 5-Speed",
+            "source": "Bringatrailer.com",
+            "publishedAt": "2026-10-31T16:12:52Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Stocks started the week with promise but ended in despair. Our take on the big reversal",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-31T16:07:29Z",
+            "sentiment": "Negative",
+            "compound": -0.318
+          },
           {
             "title": "Colgate-Palmolive: 3 Key Takeaways for Long-Term Investors",
             "source": "Biztoc.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-31T16:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Saylor calls new Bitcoin bull market, but Strategy’s own numbers reveal a costly problem",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-10-31T15:30:46Z",
-            "sentiment": "Negative",
-            "compound": -0.631
-          },
-          {
-            "title": "Trump's oil portfolio up 43% amid Big Oil windfall, pain at the pump",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-31T15:29:59Z",
-            "sentiment": "Negative",
-            "compound": -0.511
-          },
-          {
-            "title": "Apple @ Work: Next to a growing token bill, Macs might start looking like a bargain",
-            "source": "9to5Mac",
-            "publishedAt": "2026-10-31T15:19:00Z",
-            "sentiment": "Positive",
-            "compound": 0.612
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.05,
-  "trade_probability": 44.03,
+  "confirmation_score": 39.97,
+  "trade_probability": 43.98,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
