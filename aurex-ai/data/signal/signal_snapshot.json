@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T06:45:56.244098+00:00",
+  "generated_at": "2026-11-01T07:01:16.720184+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.0622,
+          "change_pct": -2.0594,
           "up": false
         },
         "MSFT": {
@@ -29,7 +29,7 @@
           "up": false
         },
         "AMZN": {
-          "change_pct": 6.4074,
+          "change_pct": 6.3808,
           "up": true
         }
       }
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.55,
+      "score": 45.96,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.029,
-        "articles_analyzed": 25,
+        "avg_compound": -0.081,
+        "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "5 reasons the housing crisis may be turning a corner",
+            "source": "RTE",
+            "publishedAt": "2026-10-31T07:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.625
+          },
+          {
+            "title": "Why North Korea's 'elite' hackers are the prime suspect in major Binance hack - BBC",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-10-31T06:53:04Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "Gold, silver rates today Hyderabad 31 Oct for investors: What are latest prices per kg and per 10 gms in Charminar City?",
+            "source": "Livemint",
+            "publishedAt": "2026-10-31T06:49:10Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Netflix's Problem Isn't Profits. It's Viewing Time",
             "source": "Biztoc.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-31T06:04:39Z",
             "sentiment": "Positive",
             "compound": 0.67
-          },
-          {
-            "title": "Patrick Honohan: Why are interest rates so high – and how exposed is Ireland?",
-            "source": "The Irish Times",
-            "publishedAt": "2026-10-31T06:00:01Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "Is Anthropic’s $100bn IPO a warning sign for investors?",
-            "source": "The Irish Times",
-            "publishedAt": "2026-10-31T06:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.34
-          },
-          {
-            "title": "It’s inflation, stupid: Trump faces the wrath of US voters",
-            "source": "The Irish Times",
-            "publishedAt": "2026-10-31T06:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.527
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.3,
-  "trade_probability": 44.18,
+  "confirmation_score": 40.06,
+  "trade_probability": 44.04,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
