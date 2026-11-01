@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T02:31:09.722818+00:00",
+  "generated_at": "2026-11-01T02:45:50.606174+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.0622,
+          "change_pct": -2.0594,
           "up": false
         },
         "MSFT": {
@@ -29,7 +29,7 @@
           "up": false
         },
         "AMZN": {
-          "change_pct": 6.4074,
+          "change_pct": 6.3808,
           "up": true
         }
       }
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 44.87,
+      "score": 43.99,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.103,
-        "articles_analyzed": 24,
+        "avg_compound": -0.12,
+        "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "October ends with a thud for Intel, Reddit, AI stalwarts",
+            "source": "The Times of India",
+            "publishedAt": "2026-10-31T02:42:25Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Gold prices plunge to one-year low below $3,900 as higher oil prices fuel fears of more pain ahead - Kitco",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-10-31T02:32:19Z",
+            "sentiment": "Negative",
+            "compound": -0.817
+          },
           {
             "title": "From savings to settlement: How to set up funds for house down payment",
             "source": "Business Standard",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-31T02:21:31Z",
             "sentiment": "Negative",
             "compound": -0.361
-          },
-          {
-            "title": "French economy ‘headed straight for a wall’ – finance minister",
-            "source": "Rt-english.com",
-            "publishedAt": "2026-10-31T02:15:05Z",
-            "sentiment": "Positive",
-            "compound": 0.226
-          },
-          {
-            "title": "Stocktwits Weekly Spread: What Shaped Treasury Yields And The Dollar This Week",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-31T02:15:05Z",
-            "sentiment": "Positive",
-            "compound": 0.202
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 39.97,
-  "trade_probability": 43.98,
+  "confirmation_score": 39.89,
+  "trade_probability": 43.93,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
