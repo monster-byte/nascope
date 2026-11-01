@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T03:31:07.532146+00:00",
+  "generated_at": "2026-11-01T03:45:52.301964+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.0594,
+          "change_pct": -2.0622,
           "up": false
         },
         "MSFT": {
@@ -29,7 +29,7 @@
           "up": false
         },
         "AMZN": {
-          "change_pct": 6.3808,
+          "change_pct": 6.4074,
           "up": true
         }
       }
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 44.74,
+      "score": 45.67,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.105,
+        "avg_compound": -0.087,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Democrats Could Take Congress Tuesday. Here’s What It Could Mean for Your Investments",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-10-31T03:45:34Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Apple overtakes Nvidia to become world's most valuable company at $5.03 trn",
             "source": "Business Standard",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-10-31T02:42:25Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Gold prices plunge to one-year low below $3,900 as higher oil prices fuel fears of more pain ahead - Kitco",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-10-31T02:32:19Z",
-            "sentiment": "Negative",
-            "compound": -0.817
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 39.95,
-  "trade_probability": 43.97,
+  "confirmation_score": 40.04,
+  "trade_probability": 44.02,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
