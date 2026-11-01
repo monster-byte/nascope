@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T22:01:21.023185+00:00",
+  "generated_at": "2026-11-01T22:15:56.511771+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.0594,
+          "change_pct": -2.0622,
           "up": false
         },
         "MSFT": {
@@ -29,7 +29,7 @@
           "up": false
         },
         "AMZN": {
-          "change_pct": 6.3808,
+          "change_pct": 6.4074,
           "up": true
         }
       }
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 43.57,
+      "score": 44.11,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.129,
+        "avg_compound": -0.118,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "WEEKLY RECAP: Interest rate calls, tech earnings in focus",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-31T22:08:05Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
           {
             "title": "Wall Street wipes $1 trillion from the stock market as tech’s $828 billion AI spending spree sparks market fears",
             "source": "Biztoc.com",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-10-31T21:29:45Z",
             "sentiment": "Neutral",
             "compound": 0.178
-          },
-          {
-            "title": "Have voters already forgotten everything Trump got right? | Opinion (Link Only No Excerpt",
-            "source": "Freerepublic.com",
-            "publishedAt": "2026-10-31T21:14:24Z",
-            "sentiment": "Negative",
-            "compound": -0.477
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 39.85,
-  "trade_probability": 43.91,
+  "confirmation_score": 39.9,
+  "trade_probability": 43.94,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
