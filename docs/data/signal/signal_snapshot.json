@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T12:31:11.953546+00:00",
+  "generated_at": "2026-11-01T12:45:54.428895+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.0594,
+          "change_pct": -2.0622,
           "up": false
         },
         "MSFT": {
@@ -29,7 +29,7 @@
           "up": false
         },
         "AMZN": {
-          "change_pct": 6.3808,
+          "change_pct": 6.4074,
           "up": true
         }
       }
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.27,
+      "score": 45.7,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.055,
+        "avg_compound": -0.086,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Fed Chairman Warsh's latest press conference leaves Wall Street guessing",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-31T12:42:21Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "SpaceX Is Up 37% From Its August Low. A $5,000 Investment Could Be Worth This Much by 2028",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-31T12:42:01Z",
+            "sentiment": "Neutral",
+            "compound": -0.052
+          },
+          {
+            "title": "If a Stock Market Crash Is Coming, History Says Following These 6 Words From Warren Buffett Is the Smartest Move You Can Make",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-10-31T12:41:19Z",
+            "sentiment": "Positive",
+            "compound": 0.318
+          },
           {
             "title": "Berkshire ekes out some new highs, but October rally stalls",
             "source": "CNBC",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-10-31T12:18:18Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "NYC public schools deceived me into thinking my son was a straight-A math student — but he can’t do fractions, basic algebra",
-            "source": "New York Post",
-            "publishedAt": "2026-10-31T12:07:50Z",
-            "sentiment": "Negative",
-            "compound": -0.238
-          },
-          {
-            "title": "SCHOEN, COOPERMAN: A red retreat for Republicans is not the same as a blue wave in 2026",
-            "source": "Fox News",
-            "publishedAt": "2026-10-31T12:00:56Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "Is This the Last Dance for Spain’s Prime Minister, Pedro Sánchez?",
-            "source": "Vanity Fair",
-            "publishedAt": "2026-10-31T12:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.18,
-  "trade_probability": 44.11,
+  "confirmation_score": 40.04,
+  "trade_probability": 44.02,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
