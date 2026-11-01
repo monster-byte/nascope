@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T07:45:51.769115+00:00",
+  "generated_at": "2026-11-01T08:01:16.525327+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.0594,
+          "change_pct": -2.0622,
           "up": false
         },
         "MSFT": {
@@ -29,7 +29,7 @@
           "up": false
         },
         "AMZN": {
-          "change_pct": 6.3808,
+          "change_pct": 6.4074,
           "up": true
         }
       }
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 42.67,
+      "score": 43.54,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.147,
+        "avg_compound": -0.129,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Anthropic reveals nearly $900 billion in future commitments in IPO filing",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-31T07:56:14Z",
+            "sentiment": "Neutral",
+            "compound": 0.128
+          },
+          {
+            "title": "Anthropic files for IPO, aims for $2T valuation on NASDAQ",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-10-31T07:54:27Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "OpenAI funding target cut by $10 billion as AI slumps",
             "source": "BusinessLine",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-31T06:53:04Z",
             "sentiment": "Negative",
             "compound": -0.296
-          },
-          {
-            "title": "Gold, silver rates today Hyderabad 31 Oct for investors: What are latest prices per kg and per 10 gms in Charminar City?",
-            "source": "Livemint",
-            "publishedAt": "2026-10-31T06:49:10Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Netflix's Problem Isn't Profits. It's Viewing Time",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-10-31T06:35:53Z",
-            "sentiment": "Negative",
-            "compound": -0.626
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 39.77,
-  "trade_probability": 43.86,
+  "confirmation_score": 39.85,
+  "trade_probability": 43.91,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
