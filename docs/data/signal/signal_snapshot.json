@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T02:15:51.734198+00:00",
+  "generated_at": "2026-11-01T02:31:09.722818+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.0594,
+          "change_pct": -2.0622,
           "up": false
         },
         "MSFT": {
@@ -29,7 +29,7 @@
           "up": false
         },
         "AMZN": {
-          "change_pct": 6.3808,
+          "change_pct": 6.4074,
           "up": true
         }
       }
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 44.45,
+      "score": 44.87,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.111,
-        "articles_analyzed": 23,
+        "avg_compound": -0.103,
+        "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "From savings to settlement: How to set up funds for house down payment",
+            "source": "Business Standard",
+            "publishedAt": "2026-10-31T02:30:56Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Why Are We Larping as Rich People?",
+            "source": "Cosmopolitan.com",
+            "publishedAt": "2026-10-31T02:28:48Z",
+            "sentiment": "Positive",
+            "compound": 0.557
+          },
+          {
+            "title": "The Share of Solar Generation with Co-located Battery Storage Is Increasing",
+            "source": "CleanTechnica",
+            "publishedAt": "2026-10-31T02:27:19Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "Hochul helped pile $37K of debt on every New Yorker — and the bill’s coming due",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-10-31T02:21:31Z",
+            "sentiment": "Negative",
+            "compound": -0.361
+          },
           {
             "title": "French economy ‘headed straight for a wall’ – finance minister",
             "source": "Rt-english.com",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-10-31T02:15:05Z",
             "sentiment": "Positive",
             "compound": 0.202
-          },
-          {
-            "title": "'Trump betrayed us': Arizona's Latino voters sour on president",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-31T01:39:31Z",
-            "sentiment": "Negative",
-            "compound": -0.612
-          },
-          {
-            "title": "Nasdaq posts its largest one-day drop since June 5 as AI spending fears hit tech",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-10-31T01:03:31Z",
-            "sentiment": "Negative",
-            "compound": -0.599
-          },
-          {
-            "title": "Meta's AI spending has cost its rating? S&P downgrades credit outlook to AA- as ‘ability to monetize limited’",
-            "source": "Livemint",
-            "publishedAt": "2026-10-31T01:03:11Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "ANDREW NEIL: If Trump gets a bloody nose in Tuesday's midterms, he will only be MORE nasty and deranged than ever",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-10-31T01:00:52Z",
-            "sentiment": "Negative",
-            "compound": -0.819
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 39.93,
-  "trade_probability": 43.96,
+  "confirmation_score": 39.97,
+  "trade_probability": 43.98,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
