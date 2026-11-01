@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T09:45:54.263616+00:00",
+  "generated_at": "2026-11-01T10:01:21.554299+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.0622,
+          "change_pct": -2.0594,
           "up": false
         },
         "MSFT": {
@@ -29,7 +29,7 @@
           "up": false
         },
         "AMZN": {
-          "change_pct": 6.4074,
+          "change_pct": 6.3808,
           "up": true
         }
       }
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.82,
+      "score": 48.6,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.084,
+        "avg_compound": -0.028,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "‘World-Historic Levels Of Strategic Buffoonery:’ 285 Acts Of Idiocy Trump’s Cronies Hope You’ve Forgotten",
+            "source": "HuffPost",
+            "publishedAt": "2026-10-31T10:00:17Z",
+            "sentiment": "Positive",
+            "compound": 0.25
+          },
+          {
+            "title": "Welcome to the school where Gen Z learns philanthropy as billionaire wealth explodes—with a 100% job placement rate",
+            "source": "Fortune",
+            "publishedAt": "2026-10-31T10:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.735
+          },
           {
             "title": "Gold (XAUUSD), Silver, Platinum Forecasts – Gold Dives 3.5% As Traders Focus On Tech Sell-Off - FXEmpire",
             "source": "Slashdot.org",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-10-31T09:07:29Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Silver loses more than half its value from record high: What went wrong and will it recover?",
-            "source": "The Times of India",
-            "publishedAt": "2026-10-31T09:03:45Z",
-            "sentiment": "Negative",
-            "compound": -0.459
-          },
-          {
-            "title": "Down and Out in the App Store",
-            "source": "New York Magazine",
-            "publishedAt": "2026-10-31T09:00:22Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.05,
-  "trade_probability": 44.03,
+  "confirmation_score": 40.3,
+  "trade_probability": 44.18,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
