@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T19:45:53.010547+00:00",
+  "generated_at": "2026-11-01T20:01:21.090859+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.0622,
+          "change_pct": -2.0594,
           "up": false
         },
         "MSFT": {
@@ -29,7 +29,7 @@
           "up": false
         },
         "AMZN": {
-          "change_pct": 6.4074,
+          "change_pct": 6.3808,
           "up": true
         }
       }
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.4,
+      "score": 52.23,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.068,
+        "avg_compound": 0.045,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Why the biggest risk to your KiwiSaver isn’t a sharemarket crash – Diana Clement",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-10-31T20:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.586
+          },
           {
             "title": "olinool added to PyPI",
             "source": "Pypi.org",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-10-31T19:00:49Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Anthropic’s IPO and the most defining months ahead in stock market history",
-            "source": "BusinessLine",
-            "publishedAt": "2026-10-31T18:43:15Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.73,
-  "trade_probability": 44.44,
+  "confirmation_score": 40.63,
+  "trade_probability": 44.38,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
