@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T15:31:12.839680+00:00",
+  "generated_at": "2026-11-02T15:45:56.886244+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -1.4126,
+          "change_pct": -0.9403,
           "up": false
         },
         "MSFT": {
-          "change_pct": 1.1163,
+          "change_pct": 1.0742,
           "up": true
         },
         "NVDA": {
-          "change_pct": 1.9416,
+          "change_pct": 1.6907,
           "up": true
         },
         "AMZN": {
-          "change_pct": 4.8962,
+          "change_pct": 5.2725,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28705.57,
-        "sma50": 29784.24,
-        "sma200": 27943.09
+        "last_price": 28701.77,
+        "sma50": 29784.16,
+        "sma200": 27943.07
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 15.0,
+      "score": 25.0,
       "status": "red",
       "details": {
-        "current_vxn": 27.9,
-        "percentile_vs_20d": 85.0
+        "current_vxn": 27.09,
+        "percentile_vs_20d": 75.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 66.69,
-      "status": "green",
+      "score": 63.8,
+      "status": "yellow",
       "details": {
-        "current_yield_pct": 4.882,
-        "change_5d_pct": -2.086
+        "current_yield_pct": 4.9,
+        "change_5d_pct": -1.725
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.42,
+      "score": 51.91,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.65,
-        "change_5d_pct": -0.303
+        "current_dxy": 101.72,
+        "change_5d_pct": -0.239
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.11,
+      "score": 50.61,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.018,
+        "avg_compound": 0.012,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Bloom Energy And 2 More High Growth Stocks To Improve Your Portfolio",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-01T15:44:56Z",
+            "sentiment": "Positive",
+            "compound": 0.783
+          },
+          {
+            "title": "The partial demerger of UPM-Kymmene Corporation has been registered; WISA Group Plc to be listed on Nasdaq Helsinki",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-01T15:44:46Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Rate hikes unlikely to push bond yields much higher: businessline poll",
+            "source": "BusinessLine",
+            "publishedAt": "2026-11-01T15:37:05Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Record 41% of Americans Expect Their Finances To Get Worse Over the Next Year, More Than Double 2024 Levels",
             "source": "The Daily Hodl",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-01T15:20:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Why Micron Stock Looks Cheap After a Record Year",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-01T15:14:43Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "How America punishes India",
-            "source": "BusinessLine",
-            "publishedAt": "2026-11-01T15:13:48Z",
-            "sentiment": "Negative",
-            "compound": -0.477
-          },
-          {
-            "title": "Missing the point",
-            "source": "BusinessLine",
-            "publishedAt": "2026-11-01T15:12:49Z",
-            "sentiment": "Negative",
-            "compound": -0.296
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 55.99,
-  "trade_probability": 53.59,
+  "confirmation_score": 56.59,
+  "trade_probability": 53.95,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
