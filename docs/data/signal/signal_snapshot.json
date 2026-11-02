@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T15:01:28.205849+00:00",
+  "generated_at": "2026-11-02T15:16:00.477573+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -1.2547,
+          "change_pct": -1.359,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.5618,
+          "change_pct": 0.2941,
           "up": true
         },
         "NVDA": {
-          "change_pct": 1.3874,
+          "change_pct": 1.3301,
           "up": true
         },
         "AMZN": {
-          "change_pct": 3.9614,
+          "change_pct": 4.0409,
           "up": true
         }
       }
@@ -40,18 +40,18 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28561.01,
-        "sma50": 29781.35,
-        "sma200": 27942.37
+        "last_price": 28564.39,
+        "sma50": 29781.41,
+        "sma200": 27942.39
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 20.0,
+      "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 28.01,
-        "percentile_vs_20d": 80.0
+        "current_vxn": 28.07,
+        "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.53,
+      "score": 52.81,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.64,
-        "change_5d_pct": -0.316
+        "current_dxy": 101.6,
+        "change_5d_pct": -0.351
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.64,
+      "score": 51.14,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.033,
+        "avg_compound": 0.023,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Why Micron Stock Looks Cheap After a Record Year",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-01T15:14:43Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "How America punishes India",
+            "source": "BusinessLine",
+            "publishedAt": "2026-11-01T15:13:48Z",
+            "sentiment": "Negative",
+            "compound": -0.477
+          },
+          {
+            "title": "Missing the point",
+            "source": "BusinessLine",
+            "publishedAt": "2026-11-01T15:12:49Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "Crypto liquidations hit $12.5 billion in October 2026 as longs take the beating",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-01T15:12:28Z",
+            "sentiment": "Negative",
+            "compound": -0.459
+          },
+          {
+            "title": "The partial demerger of UPM-Kymmene Corporation has been registered; WISA Group Plc to be listed on Nasdaq Helsinki",
+            "source": "PR Newswire UK",
+            "publishedAt": "2026-11-01T15:05:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Inflation and investment returns: What you really earn after tax and fees",
             "source": "New Zealand Herald",
             "publishedAt": "2026-11-01T15:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "In Biden's First Halloween In Office, A 100-Piece Bag Of Candy Cost $9.91, A Study Found. This Year It's $16.96, And Government Data Shows Candy Prices Rose 7.7% In A Year, More Than Double Overall Inflation",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-01T14:56:36Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Call of Duty: Modern Warfare 4 review - a Price worth paying",
-            "source": "Pockettactics.com",
-            "publishedAt": "2026-11-01T14:49:43Z",
-            "sentiment": "Neutral",
-            "compound": -0.077
-          },
-          {
-            "title": "Apax co-CEO bets on India’s AI strengths, eyes faster investment",
-            "source": "Livemint",
-            "publishedAt": "2026-11-01T14:42:32Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "FOMO Rally: Top 5 Stocks To Buy Ahead Of 2026 Midterms",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-01T14:41:17Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "PSUs are back—but they should exercise caution when implementing artificial intelligence",
-            "source": "Livemint",
-            "publishedAt": "2026-11-01T14:30:33Z",
-            "sentiment": "Positive",
-            "compound": 0.477
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.37,
-  "trade_probability": 53.82,
+  "confirmation_score": 55.9,
+  "trade_probability": 53.54,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
