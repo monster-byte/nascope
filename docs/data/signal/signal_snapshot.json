@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T06:45:55.136755+00:00",
+  "generated_at": "2026-11-02T07:01:25.212133+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.0594,
+          "change_pct": -2.0622,
           "up": false
         },
         "MSFT": {
@@ -29,7 +29,7 @@
           "up": false
         },
         "AMZN": {
-          "change_pct": 6.3808,
+          "change_pct": 6.4074,
           "up": true
         }
       }
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.73,
+      "score": 51.1,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.87,
-        "change_5d_pct": -0.091
+        "current_dxy": 101.82,
+        "change_5d_pct": -0.137
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.44,
+      "score": 53.35,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.029,
-        "articles_analyzed": 25,
+        "avg_compound": 0.067,
+        "articles_analyzed": 20,
         "top_headlines": [
+          {
+            "title": "FPIs pull out ₹34,843 cr from equities in Oct, turn net buyers last week",
+            "source": "BusinessLine",
+            "publishedAt": "2026-11-01T07:00:48Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "How can the Irish government stop paying unsustainable rent subsidies to private landlords?",
+            "source": "TheJournal.ie",
+            "publishedAt": "2026-11-01T07:00:38Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
           {
             "title": "FPIs pull out Rs 34,843 cr from equities in Oct; turn net buyers last week",
             "source": "The Times of India",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-01T06:00:00Z",
             "sentiment": "Negative",
             "compound": -0.511
-          },
-          {
-            "title": "A review of the inequality research of Emmanuel Saez and Gabriel Zucman",
-            "source": "Vercel.app",
-            "publishedAt": "2026-11-01T05:47:01Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "IPO Calendar: Primary market cools after Jio frenzy, but 13 listings lined up",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-01T05:41:56Z",
-            "sentiment": "Neutral",
-            "compound": -0.166
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.67,
-  "trade_probability": 44.4,
+  "confirmation_score": 40.88,
+  "trade_probability": 44.53,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
