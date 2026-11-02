@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T20:31:17.493803+00:00",
+  "generated_at": "2026-11-02T20:45:55.336264+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.8444,
+          "change_pct": -1.927,
           "up": false
         },
         "MSFT": {
-          "change_pct": -2.3809,
+          "change_pct": -2.748,
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.218,
+          "change_pct": -1.4534,
           "up": false
         },
         "AMZN": {
-          "change_pct": 2.4273,
+          "change_pct": 2.446,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28068.32,
-        "sma50": 29771.49,
-        "sma200": 27939.91
+        "last_price": 28017.78,
+        "sma50": 29770.48,
+        "sma200": 27939.65
       }
     },
     "vxn": {
@@ -50,7 +50,7 @@
       "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 30.11,
+        "current_vxn": 30.28,
         "percentile_vs_20d": 95.0
       }
     },
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.47,
+      "score": 51.7,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.77,
-        "change_5d_pct": -0.183
+        "current_dxy": 101.74,
+        "change_5d_pct": -0.213
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.5,
+      "score": 54.73,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.09,
+        "avg_compound": 0.095,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Haley Stevens’ act of bravery as her party abandons Jewish voters",
+            "source": "New York Post",
+            "publishedAt": "2026-11-01T20:40:43Z",
+            "sentiment": "Positive",
+            "compound": 0.557
+          },
           {
             "title": "Asian stocks mixed as tech sector struggles to rebound from selloff",
             "source": "Digital Journal",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-01T19:31:33Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Mass brands give liquor companies a hangover",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-01T19:21:26Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.73,
-  "trade_probability": 45.04,
+  "confirmation_score": 41.77,
+  "trade_probability": 45.06,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
