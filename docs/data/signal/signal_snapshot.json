@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T14:15:58.700540+00:00",
+  "generated_at": "2026-11-02T14:31:14.075564+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 0.0,
-      "status": "red",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.0869,
+          "change_pct": -0.6303,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.2088,
+          "change_pct": -0.0769,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.2143,
-          "up": false
+          "change_pct": 1.2814,
+          "up": true
         },
         "AMZN": {
-          "change_pct": -0.162,
-          "up": false
+          "change_pct": 1.0839,
+          "up": true
         }
       }
     },
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28384.85,
-        "sma50": 29796.3,
-        "sma200": 27927.3
+        "last_price": 28544.85,
+        "sma50": 29781.02,
+        "sma200": 27942.29
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 63.16,
+      "score": 62.84,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.904,
-        "change_5d_pct": -1.645
+        "current_yield_pct": 4.906,
+        "change_5d_pct": -1.604
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.69,
+      "score": 52.53,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.62,
-        "change_5d_pct": -0.336
+        "current_dxy": 101.64,
+        "change_5d_pct": -0.317
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.58,
+      "score": 48.94,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.028,
+        "avg_compound": -0.021,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "PSUs are back—but they should exercise caution when implementing artificial intelligence",
+            "source": "Livemint",
+            "publishedAt": "2026-11-01T14:30:33Z",
+            "sentiment": "Positive",
+            "compound": 0.477
+          },
+          {
+            "title": "My New Favorite Meal at Disney’s Hollywood Studios",
+            "source": "Disneytouristblog.com",
+            "publishedAt": "2026-11-01T14:30:14Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "SoFi Just Made a Big Move Into Blockchain Payments. Here's What Investors Need to Know",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-01T14:27:35Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Weekend Roundup: Peter Schiff, Bill Gates, Inflation Debate And Kevin O’Leary’s Credit Advice",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-01T14:26:09Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "Gen X feels worse about the economy than Gen Z and millennials—and more than 70% fear running out of money more than death",
+            "source": "Fortune",
+            "publishedAt": "2026-11-01T14:19:26Z",
+            "sentiment": "Negative",
+            "compound": -0.894
+          },
           {
             "title": "Treasurer Jim Chalmers is ranked the worst-performing cabinet minister in latest Newspoll - ahead of expected Melbourne Cup Day rate hike",
             "source": "Dailymail.com",
             "publishedAt": "2026-11-01T14:10:12Z",
             "sentiment": "Neutral",
             "compound": 0.128
-          },
-          {
-            "title": "Poll: Voters demand change and a check on Trump, fueling a steep Democratic midterm advantage",
-            "source": "NBC News",
-            "publishedAt": "2026-11-01T14:00:40Z",
-            "sentiment": "Neutral",
-            "compound": 0.128
-          },
-          {
-            "title": "We Need More Aluminum. It's Sitting in Our Dumps",
-            "source": "Newser",
-            "publishedAt": "2026-11-01T14:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.402
-          },
-          {
-            "title": "Analysis: Republicans face a midterm reckoning of Trump's making",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-11-01T13:56:14Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "What to know about the Affordable Care Act's open enrollment period now underway",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-11-01T13:55:54Z",
-            "sentiment": "Positive",
-            "compound": 0.494
-          },
-          {
-            "title": "3 Growth Stocks to Buy in November, Even if the Nasdaq-100 Enters a Correction",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-01T13:55:41Z",
-            "sentiment": "Positive",
-            "compound": 0.382
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 34.34,
-  "trade_probability": 40.6,
+  "confirmation_score": 47.82,
+  "trade_probability": 48.69,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
