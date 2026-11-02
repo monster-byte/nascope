@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T16:31:28.360844+00:00",
+  "generated_at": "2026-11-02T16:45:58.001233+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -1.191,
+          "change_pct": -1.5068,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.0933,
+          "change_pct": 0.3218,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.8478,
+          "change_pct": 0.7601,
           "up": true
         },
         "AMZN": {
-          "change_pct": 4.5037,
+          "change_pct": 4.4518,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28528.25,
-        "sma50": 29780.69,
-        "sma200": 27942.21
+        "last_price": 28524.76,
+        "sma50": 29780.62,
+        "sma200": 27942.19
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 27.7,
+        "current_vxn": 27.94,
         "percentile_vs_20d": 80.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 64.44,
-      "status": "yellow",
+      "score": 66.37,
+      "status": "green",
       "details": {
-        "current_yield_pct": 4.896,
-        "change_5d_pct": -1.805
+        "current_yield_pct": 4.884,
+        "change_5d_pct": -2.046
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.93,
+      "score": 51.92,
       "status": "yellow",
       "details": {
         "current_dxy": 101.71,
-        "change_5d_pct": -0.241
+        "change_5d_pct": -0.24
       }
     },
     "macro": {
@@ -92,6 +92,13 @@
         "avg_compound": -0.016,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "'Major reason' for potential 'blue tsunami' emerges as NBC poll shows a 30-year first",
+            "source": "Raw Story",
+            "publishedAt": "2026-11-01T16:34:08Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Gen Z Lags on Key Life Milestones but Leads in Retirement Saving, Early Investing",
             "source": "Biztoc.com",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-01T16:15:29Z",
             "sentiment": "Positive",
             "compound": 0.226
-          },
-          {
-            "title": "This is the biggest threat to the AI-powered bull market",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-01T16:13:08Z",
-            "sentiment": "Negative",
-            "compound": -0.527
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.1,
-  "trade_probability": 53.66,
+  "confirmation_score": 56.36,
+  "trade_probability": 53.82,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
