@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T14:01:32.345232+00:00",
+  "generated_at": "2026-11-02T14:15:58.700540+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.0898,
+          "change_pct": -0.0869,
           "up": false
         },
         "MSFT": {
@@ -29,7 +29,7 @@
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.137,
+          "change_pct": -0.162,
           "up": false
         }
       }
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 62.52,
+      "score": 63.16,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.908,
-        "change_5d_pct": -1.564
+        "current_yield_pct": 4.904,
+        "change_5d_pct": -1.645
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.96,
+      "score": 52.69,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.58,
-        "change_5d_pct": -0.37
+        "current_dxy": 101.62,
+        "change_5d_pct": -0.336
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.38,
+      "score": 48.58,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.032,
-        "articles_analyzed": 25,
+        "avg_compound": -0.028,
+        "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Treasurer Jim Chalmers is ranked the worst-performing cabinet minister in latest Newspoll - ahead of expected Melbourne Cup Day rate hike",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-11-01T14:10:12Z",
+            "sentiment": "Neutral",
+            "compound": 0.128
+          },
           {
             "title": "Poll: Voters demand change and a check on Trump, fueling a steep Democratic midterm advantage",
             "source": "NBC News",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-01T13:55:41Z",
             "sentiment": "Positive",
             "compound": 0.382
-          },
-          {
-            "title": "AI reality check triggers $2 trillion tech stock rout",
-            "source": "Rt-english.com",
-            "publishedAt": "2026-11-01T13:52:11Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 34.26,
-  "trade_probability": 40.56,
+  "confirmation_score": 34.34,
+  "trade_probability": 40.6,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
