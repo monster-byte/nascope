@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T22:31:13.153287+00:00",
+  "generated_at": "2026-11-02T22:45:54.768704+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.7357,
+          "change_pct": -1.7299,
           "up": false
         },
         "MSFT": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.45,
+      "score": 51.4,
       "status": "yellow",
       "details": {
         "current_dxy": 101.78,
-        "change_5d_pct": -0.181
+        "change_5d_pct": -0.176
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.31,
+      "score": 46.78,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.074,
+        "avg_compound": -0.064,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "OpenAI Cuts Funding Target by $10 Billion as Investor Jitters Shake AI Markets",
+            "source": "pymnts.com",
+            "publishedAt": "2026-11-01T22:45:40Z",
+            "sentiment": "Negative",
+            "compound": -0.44
+          },
+          {
+            "title": "NBC Poll: Republicans Lead on Migration and Economy",
+            "source": "Breitbart News",
+            "publishedAt": "2026-11-01T22:43:45Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Japan Stocks Face Volatile Start to November",
+            "source": "Newsonjapan.com",
+            "publishedAt": "2026-11-01T22:40:02Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Gold price prediction: Gold rate continues to fall or will bear movement end after US midterm elections results? Experts make forecast",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-01T22:39:57Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Tech earnings prompt ‘sober questions’",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-01T22:35:21Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "How City Hall’s tax-grabbing greed jacks NYC’s electric bills sky-high",
             "source": "New York Post",
             "publishedAt": "2026-11-01T22:29:56Z",
             "sentiment": "Negative",
             "compound": -0.402
-          },
-          {
-            "title": "For the GOP, maybe Boomers aren’t so bad after all",
-            "source": "Wnd.com",
-            "publishedAt": "2026-11-01T22:09:36Z",
-            "sentiment": "Negative",
-            "compound": -0.67
-          },
-          {
-            "title": "2026 was meant to be the Philippines’ year—yet the country remains stuck in an ‘recurring cycle of underachievement’",
-            "source": "Fortune",
-            "publishedAt": "2026-11-01T22:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.25
-          },
-          {
-            "title": "1 Reason to Buy Microsoft Stock for 10 Years",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-01T21:36:54Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Anthropic’s IPO could make its founders worth up to $200 billion, and critics are watching where the money goes",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-01T21:24:34Z",
-            "sentiment": "Neutral",
-            "compound": -0.077
-          },
-          {
-            "title": "SOXX: Top Semiconductor ETF Targets $400 as AI Bubble Worries Linger",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-01T21:18:54Z",
-            "sentiment": "Negative",
-            "compound": -0.25
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.54,
-  "trade_probability": 44.32,
+  "confirmation_score": 40.58,
+  "trade_probability": 44.35,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
