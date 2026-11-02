@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T02:45:56.398411+00:00",
+  "generated_at": "2026-11-02T03:01:29.568296+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.87,
+      "score": 49.8,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.98,
-        "change_5d_pct": 0.017
+        "current_dxy": 101.99,
+        "change_5d_pct": 0.026
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 43.93,
+      "score": 43.15,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.121,
+        "avg_compound": -0.137,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Katy Gallagher rejects claims of tension between Anthony Albanese and Jim Chalmers amid spending backlash: 'Overblown'",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-11-01T02:55:09Z",
+            "sentiment": "Negative",
+            "compound": -0.67
+          },
+          {
+            "title": "Government will not promise net savings in budget update, despite inflation pressure",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-11-01T02:48:18Z",
+            "sentiment": "Neutral",
+            "compound": -0.019
+          },
           {
             "title": "Li Auto Inc. October 2026 Delivery Update",
             "source": "Biztoc.com",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-01T02:03:51Z",
             "sentiment": "Positive",
             "compound": 0.25
-          },
-          {
-            "title": "Chainalysis Finds $443B MENA Crypto Economy as UAE Growth Outpaces Region",
-            "source": "newsBTC",
-            "publishedAt": "2026-11-01T02:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "Trump’s tariff craze has derailed the GOP’s hopes to maintain their authority after the 2026 midterms",
-            "source": "New York Post",
-            "publishedAt": "2026-11-01T01:49:17Z",
-            "sentiment": "Neutral",
-            "compound": 0.026
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 39.92,
-  "trade_probability": 43.95,
+  "confirmation_score": 39.84,
+  "trade_probability": 43.9,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
