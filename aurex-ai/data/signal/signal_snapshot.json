@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T16:45:58.001233+00:00",
+  "generated_at": "2026-11-02T17:01:31.909785+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -1.5068,
+          "change_pct": -1.7647,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.3218,
+          "change_pct": 0.1363,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.7601,
+          "change_pct": 0.9807,
           "up": true
         },
         "AMZN": {
-          "change_pct": 4.4518,
+          "change_pct": 4.4581,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28524.76,
-        "sma50": 29780.62,
-        "sma200": 27942.19
+        "last_price": 28540.45,
+        "sma50": 29780.94,
+        "sma200": 27942.27
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 20.0,
+      "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 27.94,
-        "percentile_vs_20d": 80.0
+        "current_vxn": 27.89,
+        "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 66.37,
+      "score": 65.72,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.884,
-        "change_5d_pct": -2.046
+        "current_yield_pct": 4.888,
+        "change_5d_pct": -1.966
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.92,
+      "score": 52.07,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.71,
-        "change_5d_pct": -0.24
+        "current_dxy": 101.7,
+        "change_5d_pct": -0.259
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.18,
+      "score": 50.98,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.016,
-        "articles_analyzed": 24,
+        "avg_compound": 0.02,
+        "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Yes, Black Americans Overwhelmingly Back Democrats. There’s a Reason For That",
+            "source": "The Root",
+            "publishedAt": "2026-11-01T17:01:05Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "The Stock Market Is Doing Something for Only the 3rd Time in 28 Years, and History Says It's Clear What Comes Next for Stocks - The Motley Fool",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-11-01T16:53:38Z",
+            "sentiment": "Neutral",
+            "compound": -0.077
+          },
+          {
+            "title": "Q&A: Could nuclear microreactors solve the data centre power crunch?",
+            "source": "Digital Journal",
+            "publishedAt": "2026-11-01T16:52:48Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
           {
             "title": "'Major reason' for potential 'blue tsunami' emerges as NBC poll shows a 30-year first",
             "source": "Raw Story",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-01T16:30:00Z",
             "sentiment": "Positive",
             "compound": 0.759
-          },
-          {
-            "title": "Rivian Earnings Don’t Mask Stock Collapse",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-01T16:28:23Z",
-            "sentiment": "Negative",
-            "compound": -0.494
-          },
-          {
-            "title": "Victor Davis Hanson: Democrats Think They’re About to Win Big",
-            "source": "Freerepublic.com",
-            "publishedAt": "2026-11-01T16:18:58Z",
-            "sentiment": "Positive",
-            "compound": 0.586
-          },
-          {
-            "title": "These 3 AI Stocks Could Soon Enter the S&P 500. Are They Worth Buying Before the Move?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-01T16:15:29Z",
-            "sentiment": "Positive",
-            "compound": 0.226
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.36,
-  "trade_probability": 53.82,
+  "confirmation_score": 56.0,
+  "trade_probability": 53.6,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
