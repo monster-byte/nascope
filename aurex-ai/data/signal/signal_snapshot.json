@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T14:47:55.843010+00:00",
+  "generated_at": "2026-11-02T15:01:28.205849+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -1.1171,
+          "change_pct": -1.2547,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.1297,
-          "up": false
+          "change_pct": 0.5618,
+          "up": true
         },
         "NVDA": {
-          "change_pct": 1.7345,
+          "change_pct": 1.3874,
           "up": true
         },
         "AMZN": {
-          "change_pct": 3.8019,
+          "change_pct": 3.9614,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28573.8,
-        "sma50": 29781.6,
-        "sma200": 27942.43
+        "last_price": 28561.01,
+        "sma50": 29781.35,
+        "sma200": 27942.37
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 15.0,
+      "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 27.81,
-        "percentile_vs_20d": 85.0
+        "current_vxn": 28.01,
+        "percentile_vs_20d": 80.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 65.4,
-      "status": "green",
+      "score": 64.44,
+      "status": "yellow",
       "details": {
-        "current_yield_pct": 4.89,
-        "change_5d_pct": -1.925
+        "current_yield_pct": 4.896,
+        "change_5d_pct": -1.805
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.98,
+      "score": 52.53,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.58,
-        "change_5d_pct": -0.373
+        "current_dxy": 101.64,
+        "change_5d_pct": -0.316
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.2,
+      "score": 51.64,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.004,
-        "articles_analyzed": 24,
+        "avg_compound": 0.033,
+        "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Inflation and investment returns: What you really earn after tax and fees",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-11-01T15:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "In Biden's First Halloween In Office, A 100-Piece Bag Of Candy Cost $9.91, A Study Found. This Year It's $16.96, And Government Data Shows Candy Prices Rose 7.7% In A Year, More Than Double Overall Inflation",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-01T14:56:36Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Call of Duty: Modern Warfare 4 review - a Price worth paying",
+            "source": "Pockettactics.com",
+            "publishedAt": "2026-11-01T14:49:43Z",
+            "sentiment": "Neutral",
+            "compound": -0.077
+          },
           {
             "title": "Apax co-CEO bets on India’s AI strengths, eyes faster investment",
             "source": "Livemint",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-01T14:30:33Z",
             "sentiment": "Positive",
             "compound": 0.477
-          },
-          {
-            "title": "My New Favorite Meal at Disney’s Hollywood Studios",
-            "source": "Disneytouristblog.com",
-            "publishedAt": "2026-11-01T14:30:14Z",
-            "sentiment": "Positive",
-            "compound": 0.459
-          },
-          {
-            "title": "SoFi Just Made a Big Move Into Blockchain Payments. Here's What Investors Need to Know",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-01T14:27:35Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Weekend Roundup: Peter Schiff, Bill Gates, Inflation Debate And Kevin O’Leary’s Credit Advice",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-01T14:26:09Z",
-            "sentiment": "Positive",
-            "compound": 0.382
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 49.22,
-  "trade_probability": 49.53,
+  "confirmation_score": 56.37,
+  "trade_probability": 53.82,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
