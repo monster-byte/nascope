@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T18:01:23.966563+00:00",
+  "generated_at": "2026-11-02T18:16:08.783294+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -1.9733,
+          "change_pct": -2.2283,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.682,
+          "change_pct": -0.6371,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.6354,
+          "change_pct": 0.6139,
           "up": true
         },
         "AMZN": {
-          "change_pct": 3.9639,
+          "change_pct": 3.8704,
           "up": true
         }
       }
@@ -40,18 +40,18 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28410.29,
-        "sma50": 29778.33,
-        "sma200": 27941.62
+        "last_price": 28423.12,
+        "sma50": 29778.59,
+        "sma200": 27941.68
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 0.0,
+      "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 28.81,
-        "percentile_vs_20d": 100.0
+        "current_vxn": 28.76,
+        "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.48,
+      "score": 52.31,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.64,
-        "change_5d_pct": -0.31
+        "current_dxy": 101.67,
+        "change_5d_pct": -0.289
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.76,
+      "score": 53.19,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.095,
+        "avg_compound": 0.064,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Saylor Is Hinting at Another Bitcoin Buy Before MSCI Rules on Strategy. What Happens to BTC if Strategy Has to Sell Instead?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-01T18:14:48Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Disunity is death, but can the federal government rein in the blame game?",
             "source": "ABC News (AU)",
@@ -107,6 +114,13 @@
             "compound": 0.477
           },
           {
+            "title": "EVERYTHING IS GETTING SMASHED. ALL AT ONCE!",
+            "source": "Shtfplan.com",
+            "publishedAt": "2026-11-01T18:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
             "title": "The midterms will test the nation's political direction and confidence",
             "source": "NPR",
             "publishedAt": "2026-11-01T17:57:58Z",
@@ -117,20 +131,6 @@
             "title": "Warren Buffett's Apple Bet Is Still Berkshire Hathaway's Biggest Stock Holding at 22% of the Portfolio",
             "source": "Biztoc.com",
             "publishedAt": "2026-11-01T17:31:34Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "With G-sec yields rising, countries have no alternative but to increase their bullion holdings",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-01T17:31:33Z",
-            "sentiment": "Positive",
-            "compound": 0.329
-          },
-          {
-            "title": "NYSE owner ICE partners with Trade[XYZ] to bring Hyperliquid perps to U.S.",
-            "source": "ValueWalk",
-            "publishedAt": "2026-11-01T17:22:49Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 48.56,
-  "trade_probability": 49.14,
+  "confirmation_score": 48.85,
+  "trade_probability": 49.31,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
