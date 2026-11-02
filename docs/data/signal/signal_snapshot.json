@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T15:16:00.477573+00:00",
+  "generated_at": "2026-11-02T15:31:12.839680+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -1.359,
+          "change_pct": -1.4126,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.2941,
+          "change_pct": 1.1163,
           "up": true
         },
         "NVDA": {
-          "change_pct": 1.3301,
+          "change_pct": 1.9416,
           "up": true
         },
         "AMZN": {
-          "change_pct": 4.0409,
+          "change_pct": 4.8962,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28564.39,
-        "sma50": 29781.41,
-        "sma200": 27942.39
+        "last_price": 28705.57,
+        "sma50": 29784.24,
+        "sma200": 27943.09
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 28.07,
+        "current_vxn": 27.9,
         "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 64.44,
-      "status": "yellow",
+      "score": 66.69,
+      "status": "green",
       "details": {
-        "current_yield_pct": 4.896,
-        "change_5d_pct": -1.805
+        "current_yield_pct": 4.882,
+        "change_5d_pct": -2.086
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.81,
+      "score": 52.42,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.6,
-        "change_5d_pct": -0.351
+        "current_dxy": 101.65,
+        "change_5d_pct": -0.303
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.14,
+      "score": 49.11,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.023,
+        "avg_compound": -0.018,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Record 41% of Americans Expect Their Finances To Get Worse Over the Next Year, More Than Double 2024 Levels",
+            "source": "The Daily Hodl",
+            "publishedAt": "2026-11-01T15:30:22Z",
+            "sentiment": "Negative",
+            "compound": -0.477
+          },
+          {
+            "title": "Japan’s central bank will sell ETFs 2.6 times faster and could still take 43 years to exit",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-11-01T15:30:12Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "What a 1930s Man Really Spent on His Clothes",
+            "source": "Gentlemansgazette.com",
+            "publishedAt": "2026-11-01T15:20:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Why Micron Stock Looks Cheap After a Record Year",
             "source": "Biztoc.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-01T15:12:49Z",
             "sentiment": "Negative",
             "compound": -0.296
-          },
-          {
-            "title": "Crypto liquidations hit $12.5 billion in October 2026 as longs take the beating",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-01T15:12:28Z",
-            "sentiment": "Negative",
-            "compound": -0.459
-          },
-          {
-            "title": "The partial demerger of UPM-Kymmene Corporation has been registered; WISA Group Plc to be listed on Nasdaq Helsinki",
-            "source": "PR Newswire UK",
-            "publishedAt": "2026-11-01T15:05:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Inflation and investment returns: What you really earn after tax and fees",
-            "source": "New Zealand Herald",
-            "publishedAt": "2026-11-01T15:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 55.9,
-  "trade_probability": 53.54,
+  "confirmation_score": 55.99,
+  "trade_probability": 53.59,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
