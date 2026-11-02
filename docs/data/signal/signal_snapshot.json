@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T20:15:52.153086+00:00",
+  "generated_at": "2026-11-02T20:31:17.493803+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.8589,
+          "change_pct": -1.8444,
           "up": false
         },
         "MSFT": {
-          "change_pct": -1.9239,
+          "change_pct": -2.3809,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.626,
+          "change_pct": -1.218,
           "up": false
         },
         "AMZN": {
-          "change_pct": 3.0493,
+          "change_pct": 2.4273,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28149.96,
-        "sma50": 29773.13,
-        "sma200": 27940.31
+        "last_price": 28068.32,
+        "sma50": 29771.49,
+        "sma200": 27939.91
       }
     },
     "vxn": {
@@ -50,7 +50,7 @@
       "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 30.01,
+        "current_vxn": 30.11,
         "percentile_vs_20d": 95.0
       }
     },
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.78,
+      "score": 51.47,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.73,
-        "change_5d_pct": -0.223
+        "current_dxy": 101.77,
+        "change_5d_pct": -0.183
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.22,
+      "score": 54.5,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.104,
+        "avg_compound": 0.09,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Asian stocks mixed as tech sector struggles to rebound from selloff",
+            "source": "Digital Journal",
+            "publishedAt": "2026-11-01T20:27:00Z",
+            "sentiment": "Negative",
+            "compound": -0.361
+          },
           {
             "title": "What to know about the Affordable Care Act's open enrollment",
             "source": "Daily-tribune.com",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-01T19:21:26Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Will anger over corruption be the deciding factor in the US midterms?",
-            "source": "The Conversation Africa",
-            "publishedAt": "2026-11-01T19:17:35Z",
-            "sentiment": "Negative",
-            "compound": -0.572
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.82,
-  "trade_probability": 45.09,
+  "confirmation_score": 41.73,
+  "trade_probability": 45.04,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
