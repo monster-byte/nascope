@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T06:15:52.859392+00:00",
+  "generated_at": "2026-11-02T06:31:12.255385+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.0594,
+          "change_pct": -2.0622,
           "up": false
         },
         "MSFT": {
@@ -29,7 +29,7 @@
           "up": false
         },
         "AMZN": {
-          "change_pct": 6.3808,
+          "change_pct": 6.4074,
           "up": true
         }
       }
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.14,
+      "score": 50.97,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.82,
-        "change_5d_pct": -0.142
+        "current_dxy": 101.84,
+        "change_5d_pct": -0.121
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.04,
+      "score": 51.44,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.001,
+        "avg_compound": 0.029,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "FPIs pull out Rs 34,843 cr from equities in Oct; turn net buyers last week",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-01T06:25:21Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "FPIs pull out ₹34,843 cr from equities in Oct, turn net buyers last week",
             "source": "Business Standard",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-01T05:41:56Z",
             "sentiment": "Neutral",
             "compound": -0.166
-          },
-          {
-            "title": "5 money lessons from The Simple Path to Wealth by JL Collins: Harness world's most powerful wealth-building tool | List",
-            "source": "Livemint",
-            "publishedAt": "2026-11-01T05:36:31Z",
-            "sentiment": "Positive",
-            "compound": 0.743
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.58,
-  "trade_probability": 44.35,
+  "confirmation_score": 40.69,
+  "trade_probability": 44.41,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
