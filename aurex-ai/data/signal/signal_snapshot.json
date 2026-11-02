@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T07:01:25.212133+00:00",
+  "generated_at": "2026-11-02T07:15:55.744495+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.1,
+      "score": 51.18,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.82,
-        "change_5d_pct": -0.137
+        "current_dxy": 101.81,
+        "change_5d_pct": -0.148
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.35,
+      "score": 52.08,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.067,
+        "avg_compound": 0.042,
         "articles_analyzed": 20,
         "top_headlines": [
+          {
+            "title": "What would a December rate rise mean for Hong Kong family offices’ property portfolios?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-01T07:03:06Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "FPIs pull out ₹34,843 cr from equities in Oct, turn net buyers last week",
             "source": "BusinessLine",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-01T06:00:01Z",
             "sentiment": "Positive",
             "compound": 0.361
-          },
-          {
-            "title": "‘They don’t know how hard it is’: Conor Gannon on the harsh realities of professional tennis",
-            "source": "The Irish Times",
-            "publishedAt": "2026-11-01T06:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.511
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.88,
-  "trade_probability": 44.53,
+  "confirmation_score": 40.77,
+  "trade_probability": 44.46,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
