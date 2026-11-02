@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T13:31:12.427380+00:00",
+  "generated_at": "2026-11-02T13:45:58.381745+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.0869,
+          "change_pct": -0.0898,
           "up": false
         },
         "MSFT": {
@@ -29,7 +29,7 @@
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.162,
+          "change_pct": -0.137,
           "up": false
         }
       }
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 59.46,
+      "score": 61.07,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.929,
-        "change_5d_pct": -1.183
+        "current_yield_pct": 4.917,
+        "change_5d_pct": -1.384
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.74,
+      "score": 52.56,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.61,
-        "change_5d_pct": -0.342
+        "current_dxy": 101.63,
+        "change_5d_pct": -0.32
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 44.94,
+      "score": 45.09,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.101,
+        "avg_compound": -0.098,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Tech selloff may ease pressure on the Federal Reserve, says BMO economist",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-01T13:39:04Z",
+            "sentiment": "Neutral",
+            "compound": 0.077
+          },
           {
             "title": "Lula's re-election: Brazil’s public finances are already precarious—is the country on the path to a crash landing?",
             "source": "Livemint",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-01T13:19:51Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Buffalo man retired at 55. At 68, he was forced back to work to keep up with property taxes",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-01T13:11:39Z",
-            "sentiment": "Negative",
-            "compound": -0.459
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 33.52,
-  "trade_probability": 40.11,
+  "confirmation_score": 33.73,
+  "trade_probability": 40.24,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
