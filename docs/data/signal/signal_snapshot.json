@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T22:21:31.429473+00:00",
+  "generated_at": "2026-11-02T22:31:13.153287+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.7299,
+          "change_pct": -1.7357,
           "up": false
         },
         "MSFT": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.43,
+      "score": 51.45,
       "status": "yellow",
       "details": {
         "current_dxy": 101.78,
-        "change_5d_pct": -0.179
+        "change_5d_pct": -0.181
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.11,
+      "score": 46.31,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.058,
+        "avg_compound": -0.074,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "How City Hall’s tax-grabbing greed jacks NYC’s electric bills sky-high",
+            "source": "New York Post",
+            "publishedAt": "2026-11-01T22:29:56Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
           {
             "title": "For the GOP, maybe Boomers aren’t so bad after all",
             "source": "Wnd.com",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-01T21:18:54Z",
             "sentiment": "Negative",
             "compound": -0.25
-          },
-          {
-            "title": "Is Nebius Stock a Buy After Its 36% Pullback?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-01T21:05:35Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.61,
-  "trade_probability": 44.37,
+  "confirmation_score": 40.54,
+  "trade_probability": 44.32,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
