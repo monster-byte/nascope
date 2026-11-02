@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T02:01:22.336193+00:00",
+  "generated_at": "2026-11-02T02:15:55.545027+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.34,
+      "score": 50.28,
       "status": "yellow",
       "details": {
         "current_dxy": 101.92,
-        "change_5d_pct": -0.042
+        "change_5d_pct": -0.035
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 42.12,
+      "score": 43.79,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.158,
+        "avg_compound": -0.124,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Nicki Minaj Endorsed Kathy Hochul in 2018. Now She’s Telling Voters to Elect Her Republican Opponent",
+            "source": "Thoughtcatalog.com",
+            "publishedAt": "2026-11-01T02:03:51Z",
+            "sentiment": "Positive",
+            "compound": 0.25
+          },
           {
             "title": "Chainalysis Finds $443B MENA Crypto Economy as UAE Growth Outpaces Region",
             "source": "newsBTC",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-01T00:55:59Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Anthropic's path to the Nasdaq just got a lot bumpier - CNBC",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-11-01T00:33:01Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 39.8,
-  "trade_probability": 43.88,
+  "confirmation_score": 39.94,
+  "trade_probability": 43.96,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
