@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T06:01:21.455111+00:00",
+  "generated_at": "2026-11-02T06:15:52.859392+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.09,
+      "score": 51.14,
       "status": "yellow",
       "details": {
         "current_dxy": 101.82,
-        "change_5d_pct": -0.136
+        "change_5d_pct": -0.142
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.54,
+      "score": 50.04,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.011,
+        "avg_compound": 0.001,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "FPIs pull out ₹34,843 cr from equities in Oct, turn net buyers last week",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-01T06:04:58Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Companies promised AI gains— here's how the payoff showed up in earnings",
             "source": "CNBC",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-01T05:36:31Z",
             "sentiment": "Positive",
             "compound": 0.743
-          },
-          {
-            "title": "Medtronic Just Retired 55 Million Shares Without Spending Cash. Is the Stock a Buy?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-01T05:31:17Z",
-            "sentiment": "Positive",
-            "compound": 0.296
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.62,
-  "trade_probability": 44.37,
+  "confirmation_score": 40.58,
+  "trade_probability": 44.35,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
