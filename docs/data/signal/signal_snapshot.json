@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T09:17:40.185777+00:00",
+  "generated_at": "2026-11-02T09:31:12.353204+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.0898,
+          "change_pct": -0.0869,
           "up": false
         },
         "MSFT": {
@@ -29,7 +29,7 @@
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.137,
+          "change_pct": -0.162,
           "up": false
         }
       }
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.83,
+      "score": 53.86,
       "status": "yellow",
       "details": {
         "current_dxy": 101.47,
-        "change_5d_pct": -0.479
+        "change_5d_pct": -0.483
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.14,
+      "score": 52.37,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.023,
+        "avg_compound": 0.047,
         "articles_analyzed": 18,
         "top_headlines": [
+          {
+            "title": "Good intentions, unintended consequences: The cost of regulation",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-01T09:26:29Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
           {
             "title": "Stock market investors alert! Eyeing US markets? Groww starts with for Indian investors — Top 5 things you should know",
             "source": "Livemint",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-01T08:18:25Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "amar-mcp added to PyPI",
-            "source": "Pypi.org",
-            "publishedAt": "2026-11-01T08:18:20Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 34.17,
-  "trade_probability": 40.5,
+  "confirmation_score": 34.29,
+  "trade_probability": 40.57,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
