@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T16:01:28.631465+00:00",
+  "generated_at": "2026-11-02T16:15:58.858218+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -1.1098,
+          "change_pct": -1.317,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.5369,
+          "change_pct": 0.2138,
           "up": true
         },
         "NVDA": {
-          "change_pct": 1.011,
+          "change_pct": 1.1158,
           "up": true
         },
         "AMZN": {
-          "change_pct": 5.1121,
+          "change_pct": 5.0291,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28593.22,
-        "sma50": 29781.99,
-        "sma200": 27942.53
+        "last_price": 28556.47,
+        "sma50": 29781.26,
+        "sma200": 27942.35
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 27.21,
+        "current_vxn": 27.66,
         "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 62.19,
+      "score": 62.52,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.91,
-        "change_5d_pct": -1.524
+        "current_yield_pct": 4.908,
+        "change_5d_pct": -1.564
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.01,
+      "score": 51.62,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.7,
-        "change_5d_pct": -0.251
+        "current_dxy": 101.75,
+        "change_5d_pct": -0.202
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.48,
+      "score": 48.9,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.03,
+        "avg_compound": -0.022,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "These 3 AI Stocks Could Soon Enter the S&P 500. Are They Worth Buying Before the Move?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-01T16:15:29Z",
+            "sentiment": "Positive",
+            "compound": 0.226
+          },
+          {
+            "title": "This is the biggest threat to the AI-powered bull market",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-01T16:13:08Z",
+            "sentiment": "Negative",
+            "compound": -0.527
+          },
           {
             "title": "Bitcoin ETF Investors Head for the Exits After Record Binance Hack",
             "source": "Decrypt",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-01T16:00:00Z",
             "sentiment": "Negative",
             "compound": -0.44
-          },
-          {
-            "title": "Everything changed for the oil, AI and bond trades over the past month",
-            "source": "CNBC",
-            "publishedAt": "2026-11-01T15:58:24Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Why Trump’s record 60% disapproval could rattle the GOP",
-            "source": "Rolling Out",
-            "publishedAt": "2026-11-01T15:53:35Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 55.56,
-  "trade_probability": 53.34,
+  "confirmation_score": 55.34,
+  "trade_probability": 53.2,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
