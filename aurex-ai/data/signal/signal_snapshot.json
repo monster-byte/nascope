@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T17:15:53.779009+00:00",
+  "generated_at": "2026-11-02T17:31:13.804227+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -2.0356,
+          "change_pct": -2.2821,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.247,
+          "change_pct": -0.618,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.7089,
+          "change_pct": 0.5877,
           "up": true
         },
         "AMZN": {
-          "change_pct": 4.5266,
+          "change_pct": 4.0594,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28507.16,
-        "sma50": 29780.27,
-        "sma200": 27942.1
+        "last_price": 28433.43,
+        "sma50": 29778.79,
+        "sma200": 27941.73
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 15.0,
+      "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 27.91,
-        "percentile_vs_20d": 85.0
+        "current_vxn": 27.95,
+        "percentile_vs_20d": 80.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 66.69,
+      "score": 66.37,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.882,
-        "change_5d_pct": -2.086
+        "current_yield_pct": 4.884,
+        "change_5d_pct": -2.046
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.45,
+      "score": 52.44,
       "status": "yellow",
       "details": {
         "current_dxy": 101.65,
-        "change_5d_pct": -0.306
+        "change_5d_pct": -0.305
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.57,
+      "score": 52.52,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.031,
+        "avg_compound": 0.05,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "NYSE owner ICE partners with Trade[XYZ] to bring Hyperliquid perps to U.S.",
+            "source": "ValueWalk",
+            "publishedAt": "2026-11-01T17:22:49Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Westward Ho! First Trip Cross Country with Our New 2026 Tesla Model Y & Full Self Driving V14",
             "source": "CleanTechnica",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-01T16:34:08Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Gen Z Lags on Key Life Milestones but Leads in Retirement Saving, Early Investing",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-01T16:30:09Z",
-            "sentiment": "Neutral",
-            "compound": -0.19
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 49.46,
-  "trade_probability": 49.68,
+  "confirmation_score": 49.96,
+  "trade_probability": 49.98,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
