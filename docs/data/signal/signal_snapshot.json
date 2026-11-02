@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T18:45:53.329032+00:00",
+  "generated_at": "2026-11-02T19:01:30.905366+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.4949,
+          "change_pct": -2.266,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.8283,
+          "change_pct": -1.0721,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.2826,
-          "up": true
+          "change_pct": -0.0097,
+          "up": false
         },
         "AMZN": {
-          "change_pct": 3.6794,
+          "change_pct": 3.424,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28345.79,
-        "sma50": 29777.04,
-        "sma200": 27941.29
+        "last_price": 28278.13,
+        "sma50": 29775.69,
+        "sma200": 27940.96
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 10.0,
+      "score": 0.0,
       "status": "red",
       "details": {
-        "current_vxn": 28.68,
-        "percentile_vs_20d": 90.0
+        "current_vxn": 29.08,
+        "percentile_vs_20d": 100.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 66.37,
+      "score": 65.4,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.884,
-        "change_5d_pct": -2.046
+        "current_yield_pct": 4.89,
+        "change_5d_pct": -1.925
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.66,
+      "score": 51.64,
       "status": "yellow",
       "details": {
         "current_dxy": 101.75,
-        "change_5d_pct": -0.208
+        "change_5d_pct": -0.205
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.31,
+      "score": 55.62,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.126,
+        "avg_compound": 0.112,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Box Office: Zach Cregger’s ‘Resident Evil’ Reboot Hits $400 Million Globally",
+            "source": "Variety",
+            "publishedAt": "2026-11-01T18:54:37Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Here's What $6,000 Invested in Micron Could Be Worth in 2028",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-01T18:49:02Z",
+            "sentiment": "Positive",
+            "compound": 0.226
+          },
+          {
+            "title": "What Financial Experts Are Watching in the Market Heading Into 2027",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-01T18:48:17Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "72% of Americans 55 and Older Got FINRA’s Inflation Question Right. Younger Adults Gained 10 Points Since 2021. Older Ones Didn’t Move",
             "source": "Biztoc.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-01T18:35:04Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Banks are safe; AI bubble is the risk for global markets: Julius Baer CEO Stefan Bollinger",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-01T18:32:01Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "Banks are safe; AI bubble is the risk for global markets: Julius Baer CEO Stefan Bollinger",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-01T18:32:01Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "Here are 3 big things we're watching in the stock market in the week ahead",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-01T18:30:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 49.33,
-  "trade_probability": 49.6,
+  "confirmation_score": 41.48,
+  "trade_probability": 44.89,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
