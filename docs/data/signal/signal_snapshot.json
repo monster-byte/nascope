@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T14:31:14.075564+00:00",
+  "generated_at": "2026-11-02T14:47:55.843010+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.6303,
+          "change_pct": -1.1171,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.0769,
+          "change_pct": -0.1297,
           "up": false
         },
         "NVDA": {
-          "change_pct": 1.2814,
+          "change_pct": 1.7345,
           "up": true
         },
         "AMZN": {
-          "change_pct": 1.0839,
+          "change_pct": 3.8019,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28544.85,
-        "sma50": 29781.02,
-        "sma200": 27942.29
+        "last_price": 28573.8,
+        "sma50": 29781.6,
+        "sma200": 27942.43
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 5.0,
+      "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 28.51,
-        "percentile_vs_20d": 95.0
+        "current_vxn": 27.81,
+        "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 62.84,
-      "status": "yellow",
+      "score": 65.4,
+      "status": "green",
       "details": {
-        "current_yield_pct": 4.906,
-        "change_5d_pct": -1.604
+        "current_yield_pct": 4.89,
+        "change_5d_pct": -1.925
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.53,
+      "score": 52.98,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.64,
-        "change_5d_pct": -0.317
+        "current_dxy": 101.58,
+        "change_5d_pct": -0.373
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.94,
+      "score": 50.2,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.021,
+        "avg_compound": 0.004,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Apax co-CEO bets on India’s AI strengths, eyes faster investment",
+            "source": "Livemint",
+            "publishedAt": "2026-11-01T14:42:32Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "FOMO Rally: Top 5 Stocks To Buy Ahead Of 2026 Midterms",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-01T14:41:17Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
           {
             "title": "PSUs are back—but they should exercise caution when implementing artificial intelligence",
             "source": "Livemint",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-01T14:26:09Z",
             "sentiment": "Positive",
             "compound": 0.382
-          },
-          {
-            "title": "Gen X feels worse about the economy than Gen Z and millennials—and more than 70% fear running out of money more than death",
-            "source": "Fortune",
-            "publishedAt": "2026-11-01T14:19:26Z",
-            "sentiment": "Negative",
-            "compound": -0.894
-          },
-          {
-            "title": "Treasurer Jim Chalmers is ranked the worst-performing cabinet minister in latest Newspoll - ahead of expected Melbourne Cup Day rate hike",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-11-01T14:10:12Z",
-            "sentiment": "Neutral",
-            "compound": 0.128
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 47.82,
-  "trade_probability": 48.69,
+  "confirmation_score": 49.22,
+  "trade_probability": 49.53,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
