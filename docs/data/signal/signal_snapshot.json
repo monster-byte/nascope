@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T11:01:25.153559+00:00",
+  "generated_at": "2026-11-02T11:15:52.386059+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.0869,
+          "change_pct": -0.0898,
           "up": false
         },
         "MSFT": {
@@ -29,7 +29,7 @@
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.162,
+          "change_pct": -0.137,
           "up": false
         }
       }
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.99,
+      "score": 52.31,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.71,
-        "change_5d_pct": -0.248
+        "current_dxy": 101.67,
+        "change_5d_pct": -0.288
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.94,
+      "score": 50.68,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.001,
+        "avg_compound": 0.014,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Jio says tariff hikes can wait, eyes 10-15 partners for overseas play",
+            "source": "Livemint",
+            "publishedAt": "2026-11-01T11:13:04Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
+          {
+            "title": "Stock Market Forecast: Geopolitics, Oil Prices, Q2 Earnings, US Midterms",
+            "source": "Rediff.com",
+            "publishedAt": "2026-11-01T11:06:54Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "A Midterm Dominated by Concerns Over High Prices",
+            "source": "Politicalwire.com",
+            "publishedAt": "2026-11-01T11:02:22Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "This Could Be a Historic Election—and Not for the Reasons You Think",
             "source": "The New Republic",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-01T11:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "AI stocks just lost $5 trillion — but the stock market's sweetest stretch might be now",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-11-01T11:00:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.166
-          },
-          {
-            "title": "SpaceX's AI Business Is Exploding, but Is It Worth the Price?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-01T10:52:49Z",
-            "sentiment": "Positive",
-            "compound": 0.329
-          },
-          {
-            "title": "The latest update on the grocery wars is here, with Walmart and Costco gaining ground",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-01T10:52:30Z",
-            "sentiment": "Negative",
-            "compound": -0.202
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 33.9,
-  "trade_probability": 40.34,
+  "confirmation_score": 34.0,
+  "trade_probability": 40.4,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
