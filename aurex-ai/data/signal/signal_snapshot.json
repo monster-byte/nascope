@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T17:31:13.804227+00:00",
+  "generated_at": "2026-11-02T17:45:54.015210+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -2.2821,
+          "change_pct": -2.2081,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.618,
+          "change_pct": -0.6218,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.5877,
+          "change_pct": 0.2924,
           "up": true
         },
         "AMZN": {
-          "change_pct": 4.0594,
+          "change_pct": 3.8331,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28433.43,
-        "sma50": 29778.79,
-        "sma200": 27941.73
+        "last_price": 28361.35,
+        "sma50": 29777.35,
+        "sma200": 27941.37
       }
     },
     "vxn": {
@@ -50,7 +50,7 @@
       "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 27.95,
+        "current_vxn": 28.29,
         "percentile_vs_20d": 80.0
       }
     },
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.44,
+      "score": 52.25,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.65,
-        "change_5d_pct": -0.305
+        "current_dxy": 101.67,
+        "change_5d_pct": -0.281
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.52,
+      "score": 53.18,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.05,
+        "avg_compound": 0.064,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Warren Buffett's Apple Bet Is Still Berkshire Hathaway's Biggest Stock Holding at 22% of the Portfolio",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-01T17:31:34Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "With G-sec yields rising, countries have no alternative but to increase their bullion holdings",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-01T17:31:33Z",
+            "sentiment": "Positive",
+            "compound": 0.329
+          },
           {
             "title": "NYSE owner ICE partners with Trade[XYZ] to bring Hyperliquid perps to U.S.",
             "source": "ValueWalk",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-01T16:53:38Z",
             "sentiment": "Neutral",
             "compound": -0.077
-          },
-          {
-            "title": "Q&A: Could nuclear microreactors solve the data centre power crunch?",
-            "source": "Digital Journal",
-            "publishedAt": "2026-11-01T16:52:48Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "'Major reason' for potential 'blue tsunami' emerges as NBC poll shows a 30-year first",
-            "source": "Raw Story",
-            "publishedAt": "2026-11-01T16:34:08Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 49.96,
-  "trade_probability": 49.98,
+  "confirmation_score": 50.0,
+  "trade_probability": 50.0,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
