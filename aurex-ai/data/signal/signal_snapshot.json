@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T17:01:31.909785+00:00",
+  "generated_at": "2026-11-02T17:15:53.779009+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
-      "status": "green",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -1.7647,
+          "change_pct": -2.0356,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.1363,
-          "up": true
+          "change_pct": -0.247,
+          "up": false
         },
         "NVDA": {
-          "change_pct": 0.9807,
+          "change_pct": 0.7089,
           "up": true
         },
         "AMZN": {
-          "change_pct": 4.4581,
+          "change_pct": 4.5266,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28540.45,
-        "sma50": 29780.94,
-        "sma200": 27942.27
+        "last_price": 28507.16,
+        "sma50": 29780.27,
+        "sma200": 27942.1
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 27.89,
+        "current_vxn": 27.91,
         "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 65.72,
+      "score": 66.69,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.888,
-        "change_5d_pct": -1.966
+        "current_yield_pct": 4.882,
+        "change_5d_pct": -2.086
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.07,
+      "score": 52.45,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.7,
-        "change_5d_pct": -0.259
+        "current_dxy": 101.65,
+        "change_5d_pct": -0.306
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.98,
+      "score": 51.57,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.02,
+        "avg_compound": 0.031,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Westward Ho! First Trip Cross Country with Our New 2026 Tesla Model Y & Full Self Driving V14",
+            "source": "CleanTechnica",
+            "publishedAt": "2026-11-01T17:02:35Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Yes, Black Americans Overwhelmingly Back Democrats. There’s a Reason For That",
             "source": "The Root",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-01T16:30:09Z",
             "sentiment": "Neutral",
             "compound": -0.19
-          },
-          {
-            "title": "Election 2026: Labour trusted to manage almost every top issue better than National",
-            "source": "New Zealand Herald",
-            "publishedAt": "2026-11-01T16:30:00Z",
-            "sentiment": "Positive",
-            "compound": 0.759
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.0,
-  "trade_probability": 53.6,
+  "confirmation_score": 49.46,
+  "trade_probability": 49.68,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
