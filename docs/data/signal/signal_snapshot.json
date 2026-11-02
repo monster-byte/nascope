@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T19:16:06.157000+00:00",
+  "generated_at": "2026-11-02T19:31:15.751545+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.3573,
+          "change_pct": -2.4573,
           "up": false
         },
         "MSFT": {
-          "change_pct": -1.0778,
+          "change_pct": -1.2423,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.0828,
+          "change_pct": -0.5261,
           "up": false
         },
         "AMZN": {
-          "change_pct": 3.2932,
+          "change_pct": 3.2101,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28264.58,
-        "sma50": 29775.42,
-        "sma200": 27940.89
+        "last_price": 28189.68,
+        "sma50": 29773.92,
+        "sma200": 27940.51
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 0.0,
+      "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 29.38,
-        "percentile_vs_20d": 100.0
+        "current_vxn": 29.61,
+        "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 65.4,
+      "score": 65.72,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.89,
-        "change_5d_pct": -1.925
+        "current_yield_pct": 4.888,
+        "change_5d_pct": -1.966
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.83,
+      "score": 51.95,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.73,
-        "change_5d_pct": -0.229
+        "current_dxy": 101.71,
+        "change_5d_pct": -0.244
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.86,
+      "score": 53.65,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.097,
+        "avg_compound": 0.073,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Mass brands give liquor companies a hangover",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-01T19:21:26Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Will anger over corruption be the deciding factor in the US midterms?",
+            "source": "The Conversation Africa",
+            "publishedAt": "2026-11-01T19:17:35Z",
+            "sentiment": "Negative",
+            "compound": -0.572
+          },
+          {
+            "title": "Nearly all Americans believe corruption is a problem. But will it decide the midterm elections?",
+            "source": "The Conversation Africa",
+            "publishedAt": "2026-11-01T19:17:35Z",
+            "sentiment": "Negative",
+            "compound": -0.214
+          },
+          {
+            "title": "Beijing To Convene Stock Market Rescue Meeting As Plunge Protection Goes Into Overdrive",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-01T19:16:14Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
           {
             "title": "We talked to voters in six battleground states about the rising cost of living - The Washington Post",
             "source": "Slashdot.org",
@@ -103,34 +131,6 @@
             "title": "Trump’s test: A mixed report card before Midterms",
             "source": "The Times of India",
             "publishedAt": "2026-11-01T19:07:03Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "McDonald’s supersizes its north and east India bet to $80 million, even as rising costs squeeze profit",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-01T19:04:38Z",
-            "sentiment": "Positive",
-            "compound": 0.44
-          },
-          {
-            "title": "Box Office: Zach Cregger’s ‘Resident Evil’ Reboot Hits $400 Million Globally",
-            "source": "Variety",
-            "publishedAt": "2026-11-01T18:54:37Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Here's What $6,000 Invested in Micron Could Be Worth in 2028",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-01T18:49:02Z",
-            "sentiment": "Positive",
-            "compound": 0.226
-          },
-          {
-            "title": "What Financial Experts Are Watching in the Market Heading Into 2027",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-01T18:48:17Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.43,
-  "trade_probability": 44.86,
+  "confirmation_score": 41.83,
+  "trade_probability": 45.1,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
