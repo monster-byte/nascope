@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T10:31:21.014855+00:00",
+  "generated_at": "2026-11-02T10:45:53.184787+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.0869,
+          "change_pct": -0.0898,
           "up": false
         },
         "MSFT": {
@@ -29,7 +29,7 @@
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.162,
+          "change_pct": -0.137,
           "up": false
         }
       }
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.64,
+      "score": 52.11,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.62,
-        "change_5d_pct": -0.331
+        "current_dxy": 101.69,
+        "change_5d_pct": -0.264
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.91,
+      "score": 53.72,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.058,
+        "avg_compound": 0.074,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Lego Is Becoming a Brand for Adults. It’s Not Actually As Sad As You Think.",
+            "source": "Slate Magazine",
+            "publishedAt": "2026-11-01T10:45:00Z",
+            "sentiment": "Positive",
+            "compound": 0.372
+          },
           {
             "title": "What a veteran bond investor is watching as sharp interest rate moves roil markets",
             "source": "Business Insider",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-01T09:59:53Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Why your idle cash is quietly losing its value: Here's how to beat Inflation and get out of stagnant, low-interest traps",
-            "source": "Livemint",
-            "publishedAt": "2026-11-01T09:45:08Z",
-            "sentiment": "Neutral",
-            "compound": -0.052
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 34.23,
-  "trade_probability": 40.54,
+  "confirmation_score": 34.25,
+  "trade_probability": 40.55,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
