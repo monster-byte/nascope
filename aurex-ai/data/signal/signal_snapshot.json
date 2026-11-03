@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T03:31:14.607668+00:00",
+  "generated_at": "2026-11-03T03:37:43.022948+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.97,
+      "score": 51.06,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.84,
-        "change_5d_pct": -0.121
+        "current_dxy": 101.82,
+        "change_5d_pct": -0.132
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 57.41,
+      "score": 55.44,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.148,
+        "avg_compound": 0.109,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Q2 Results Today Live: ITC, Marico, UPL, Petronet LNG, NLC, DOMS, Escorts Kubota, NALCO, MobiKwik, Wockhardt, Granules to announce Q2 results, Reliance, Jio Platforms, NTPC shares in focus",
+            "source": "BusinessLine",
+            "publishedAt": "2026-11-02T03:36:59Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "ASX 200 Holds Near Seven-Week High as Investors Brace for RBA's Possible Fifth Rate Hike on Melbourne Cup Day",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-11-02T03:31:27Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Top stocks to buy: Stock recommendations for November 2, 2026 week - check list",
             "source": "The Times of India",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-02T03:16:35Z",
             "sentiment": "Positive",
             "compound": 0.402
-          },
-          {
-            "title": "India bonds poised to gain as oil slips; US midterms in focus",
-            "source": "BusinessLine",
-            "publishedAt": "2026-11-02T03:16:07Z",
-            "sentiment": "Positive",
-            "compound": 0.66
-          },
-          {
-            "title": "India's consumers are back, but its stock market is still lagging",
-            "source": "Business Standard",
-            "publishedAt": "2026-11-02T03:14:07Z",
-            "sentiment": "Negative",
-            "compound": -0.392
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.5,
-  "trade_probability": 44.9,
+  "confirmation_score": 41.33,
+  "trade_probability": 44.8,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
