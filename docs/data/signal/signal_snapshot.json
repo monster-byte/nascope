@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T18:46:10.383602+00:00",
+  "generated_at": "2026-11-03T19:01:28.161230+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.8265,
+          "change_pct": 0.8873,
           "up": true
         },
         "MSFT": {
-          "change_pct": 2.3364,
+          "change_pct": 2.366,
           "up": true
         },
         "NVDA": {
-          "change_pct": 2.1407,
+          "change_pct": 1.9331,
           "up": true
         },
         "AMZN": {
-          "change_pct": 1.7218,
+          "change_pct": 1.734,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28267.99,
-        "sma50": 29754.82,
-        "sma200": 27953.21
+        "last_price": 28243.7,
+        "sma50": 29754.33,
+        "sma200": 27953.09
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 5.0,
+      "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 30.4,
-        "percentile_vs_20d": 95.0
+        "current_vxn": 30.19,
+        "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 55.61,
+      "score": 56.89,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.958,
-        "change_5d_pct": -0.701
+        "current_yield_pct": 4.95,
+        "change_5d_pct": -0.861
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.05,
+      "score": 53.89,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.8,
-        "change_5d_pct": -0.506
+        "current_dxy": 101.82,
+        "change_5d_pct": -0.486
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.85,
+      "score": 51.55,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.077,
+        "avg_compound": 0.031,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Your guide to the 2026 midterm elections: Everything you need to know about when voting closes and when we can expect the results",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-11-02T19:00:09Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "The Thanksgiving meal deal that’s even cheaper than Walmart’s — with a catch",
+            "source": "New York Post",
+            "publishedAt": "2026-11-02T18:52:17Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Anthropic revenue jumps 1,100% ahead of IPO as AI spending commitments near $900 billion",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-02T18:51:10Z",
+            "sentiment": "Neutral",
+            "compound": 0.128
+          },
           {
             "title": "Anthropic reports $104B net loss in first nine months of 2026",
             "source": "Crypto Briefing",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-02T18:38:27Z",
             "sentiment": "Neutral",
             "compound": -0.103
-          },
-          {
-            "title": "Ed Yardeni's Midterms Prediction: Democratic Sweep Could Be a 'Cold Shower' for Stock Market",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-02T18:37:09Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "3 Midterm Outcomes & How They'd Move Stocks",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-02T18:33:38Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "US petrol prices dip ahead of midterms as voters eye costs",
-            "source": "Al Jazeera English",
-            "publishedAt": "2026-11-02T18:32:30Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 60.92,
-  "trade_probability": 56.55,
+  "confirmation_score": 61.32,
+  "trade_probability": 56.79,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
