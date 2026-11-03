@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T18:01:38.164087+00:00",
+  "generated_at": "2026-11-03T18:16:08.922808+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.5834,
+          "change_pct": 0.9724,
           "up": true
         },
         "MSFT": {
-          "change_pct": 2.1773,
+          "change_pct": 2.303,
           "up": true
         },
         "NVDA": {
-          "change_pct": 2.2586,
+          "change_pct": 2.3052,
           "up": true
         },
         "AMZN": {
-          "change_pct": 1.0655,
+          "change_pct": 1.7502,
           "up": true
         }
       }
@@ -40,18 +40,18 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28228.21,
-        "sma50": 29754.02,
-        "sma200": 27953.01
+        "last_price": 28273.46,
+        "sma50": 29754.93,
+        "sma200": 27953.24
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 10.0,
+      "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 30.62,
-        "percentile_vs_20d": 90.0
+        "current_vxn": 30.58,
+        "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.09,
+      "score": 54.17,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.8,
-        "change_5d_pct": -0.511
+        "current_dxy": 101.79,
+        "change_5d_pct": -0.521
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.83,
+      "score": 53.58,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.077,
+        "avg_compound": 0.072,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Too much spending or too little tax? Why interest rates are rising",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-11-02T18:00:00Z",
+            "title": "Options traders are getting anxious on Palantir and Apple ahead of earnings",
+            "source": "CNBC",
+            "publishedAt": "2026-11-02T18:16:02Z",
+            "sentiment": "Negative",
+            "compound": -0.25
+          },
+          {
+            "title": "Ron DeSantis Warns Ahead of Midterms: 'Do Not Give the Democrats an Inch'",
+            "source": "Breitbart News",
+            "publishedAt": "2026-11-02T18:14:47Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
+          {
+            "title": "What's Going on with Alphabet Stock? 3 Things Investors Should Know",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-02T18:05:28Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Polymarket traders bet Anthropic will outgrow Bitcoin by year-end",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-02T18:04:42Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Dow Rises 1%, Oil Sinks 7% on Iran Peace Hopes: Stock Market Today - State Street SPDR S&P 500 ETF Trust…",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-02T18:04:04Z",
             "sentiment": "Positive",
-            "compound": 0.409
+            "compound": 0.743
           },
           {
-            "title": "Reminder: Republicans, It's Time To Start Bringing Down Cost Of Living Before Midterms Get Here",
-            "source": "Babylonbee.com",
-            "publishedAt": "2026-11-02T17:58:54Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Enterprises Brush Off Wall Street Jitters and Double Down on AI Deployment",
-            "source": "pymnts.com",
-            "publishedAt": "2026-11-02T17:53:40Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Bangladesh garment factories shut again as wage protests turn violent",
-            "source": "CNA",
-            "publishedAt": "2026-11-02T17:52:52Z",
-            "sentiment": "Negative",
-            "compound": -0.7
-          },
-          {
-            "title": "Bangladesh garment factories shut again as wage protests turn violent",
-            "source": "CNA",
-            "publishedAt": "2026-11-02T17:52:00Z",
-            "sentiment": "Negative",
-            "compound": -0.7
-          },
-          {
-            "title": "US voters in a sour economic mood heading into midterm elections",
-            "source": "Business Standard",
-            "publishedAt": "2026-11-02T17:50:40Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "The $130billion winners of the Iran war: How Big Oil nearly tripled its profits in just six months while ordinary Americans paid the price",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-11-02T18:02:17Z",
+            "sentiment": "Positive",
+            "compound": 0.273
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 61.46,
-  "trade_probability": 56.88,
+  "confirmation_score": 60.99,
+  "trade_probability": 56.59,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
