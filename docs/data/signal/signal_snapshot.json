@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T20:46:00.548530+00:00",
+  "generated_at": "2026-11-03T21:01:28.408476+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.5196,
+          "change_pct": 0.8083,
           "up": true
         },
         "MSFT": {
-          "change_pct": 2.4562,
+          "change_pct": 2.303,
           "up": true
         },
         "NVDA": {
-          "change_pct": 1.7501,
+          "change_pct": 1.4239,
           "up": true
         },
         "AMZN": {
-          "change_pct": 2.1432,
+          "change_pct": 1.5841,
           "up": true
         }
       }
@@ -40,18 +40,18 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28195.23,
-        "sma50": 29753.36,
-        "sma200": 27952.84
+        "last_price": 28180.26,
+        "sma50": 29753.06,
+        "sma200": 27952.77
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 10.0,
+      "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 30.69,
-        "percentile_vs_20d": 90.0
+        "current_vxn": 30.8,
+        "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.62,
+      "score": 53.57,
       "status": "yellow",
       "details": {
         "current_dxy": 101.86,
-        "change_5d_pct": -0.452
+        "change_5d_pct": -0.446
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.5,
+      "score": 51.7,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.01,
+        "avg_compound": 0.034,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "No Inflection Point Yet: Near-Exponential Data Center Boom Sends Shockwaves to Industrial Economy, Construction Hit by 2nd Wave of Inflation",
+            "title": "The Americans changing politics for the better",
+            "source": "Www.nrc.nl",
+            "publishedAt": "2026-11-02T21:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
+          {
+            "title": "Hashdex Adds Jane Street to Crypto Index ETF Authorized Participants",
+            "source": "newsBTC",
+            "publishedAt": "2026-11-02T21:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "I bonds now pay 5.51% — but there are trade-offs. What to know before buying",
+            "source": "CNBC",
+            "publishedAt": "2026-11-02T20:57:50Z",
+            "sentiment": "Neutral",
+            "compound": -0.052
+          },
+          {
+            "title": "China Tech Stocks Get Fresh Lifeline From Beijing",
             "source": "Biztoc.com",
-            "publishedAt": "2026-11-02T20:37:14Z",
+            "publishedAt": "2026-11-02T20:52:29Z",
+            "sentiment": "Positive",
+            "compound": 0.318
+          },
+          {
+            "title": "Japan Hits 2% Inflation Goal As Prices Keep Rising",
+            "source": "Newsonjapan.com",
+            "publishedAt": "2026-11-02T20:50:57Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Albanese, as Aussies brace for another rate rise while you're overseas, stop leaving Chalmers to carry the can: PETER VAN ONSELEN",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-11-02T20:47:42Z",
             "sentiment": "Negative",
             "compound": -0.296
-          },
-          {
-            "title": "N.L. seniors making $100K or less will get a cash payout in December: N.L. government",
-            "source": "CBC News",
-            "publishedAt": "2026-11-02T20:35:07Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Naomi Klein and Illana Glaser Have a Message: Tax the Billionaires and Block Big Tech IPOs",
-            "source": "Common Dreams",
-            "publishedAt": "2026-11-02T20:28:53Z",
-            "sentiment": "Negative",
-            "compound": -0.44
-          },
-          {
-            "title": "Live: Reserve Bank tipped to hike interest rates to 18-year high",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-11-02T20:13:00Z",
-            "sentiment": "Positive",
-            "compound": 0.459
-          },
-          {
-            "title": "Merrion Square tea room contract award suspended amid construction cost concerns",
-            "source": "The Irish Times",
-            "publishedAt": "2026-11-02T20:08:10Z",
-            "sentiment": "Neutral",
-            "compound": 0.103
-          },
-          {
-            "title": "RedStone powers new Apple perpetual futures market on Hyperliquid",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-02T20:03:48Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 61.16,
-  "trade_probability": 56.7,
+  "confirmation_score": 60.81,
+  "trade_probability": 56.49,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
