@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T15:45:58.265151+00:00",
+  "generated_at": "2026-11-03T16:01:28.663435+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
+      "score": 100.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.1231,
+          "change_pct": 0.0866,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.2127,
+          "change_pct": 1.4828,
           "up": true
         },
         "NVDA": {
-          "change_pct": 2.0965,
+          "change_pct": 2.1432,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.2026,
-          "up": false
+          "change_pct": 0.1904,
+          "up": true
         }
       }
     },
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28234.09,
-        "sma50": 29754.14,
-        "sma200": 27953.04
+        "last_price": 28289.12,
+        "sma50": 29755.24,
+        "sma200": 27953.31
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 30.27,
+        "current_vxn": 30.25,
         "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 55.61,
+      "score": 56.89,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.958,
-        "change_5d_pct": -0.701
+        "current_yield_pct": 4.95,
+        "change_5d_pct": -0.861
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.18,
+      "score": 53.79,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.91,
-        "change_5d_pct": -0.398
+        "current_dxy": 101.83,
+        "change_5d_pct": -0.474
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.6,
+      "score": 45.68,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.008,
+        "avg_compound": -0.086,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Ford’s 20% Sales Forecasts Meets A 38% Stock Collapse",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-02T15:59:05Z",
+            "sentiment": "Negative",
+            "compound": -0.494
+          },
+          {
+            "title": "These Millionaires Have the Cash to Buy a Home. Here’s Why They’re Renting Instead.",
+            "source": "Entrepreneur",
+            "publishedAt": "2026-11-02T15:56:57Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "From Wall Street heirs to telecoms tycoons, at least half of major U.S. Senate candidates are millionaires—and some are worth upwards of $200 million",
+            "source": "Fortune",
+            "publishedAt": "2026-11-02T15:53:35Z",
+            "sentiment": "Positive",
+            "compound": 0.226
+          },
+          {
+            "title": "Letters to Editor",
+            "source": "BusinessLine",
+            "publishedAt": "2026-11-02T15:47:47Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Ahead of Market: 10 things that will decide stock market action on Tuesday",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-02T15:47:30Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Billionaire investor Howard Marks lays out why valuing AI companies like Anthropic is so tricky",
             "source": "Business Insider",
             "publishedAt": "2026-11-02T15:44:22Z",
             "sentiment": "Positive",
             "compound": 0.418
-          },
-          {
-            "title": "Nasdaq execs talk Texas strategy, deploying AI against financial crime",
-            "source": "The Dallas Morning News",
-            "publishedAt": "2026-11-02T15:43:10Z",
-            "sentiment": "Negative",
-            "compound": -0.542
-          },
-          {
-            "title": "ITC profit falls 17% as cigarette taxes burns a hole in ITC's profits",
-            "source": "Livemint",
-            "publishedAt": "2026-11-02T15:43:06Z",
-            "sentiment": "Positive",
-            "compound": 0.7
-          },
-          {
-            "title": "Stock market after midterm elections: What S&P 500 history shows",
-            "source": "CNBC",
-            "publishedAt": "2026-11-02T15:41:12Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "US manufacturing picks up in October; input prices stay high",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-02T15:39:12Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Bill Murray mocks Trump's grinning adviser to his face: 'I'm a little concerned'",
-            "source": "Raw Story",
-            "publishedAt": "2026-11-02T15:35:11Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.16,
-  "trade_probability": 52.5,
+  "confirmation_score": 60.78,
+  "trade_probability": 56.47,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
