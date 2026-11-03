@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T16:15:57.049385+00:00",
+  "generated_at": "2026-11-03T16:31:12.968940+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.4224,
+          "change_pct": 0.5349,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.4337,
+          "change_pct": 1.4288,
           "up": true
         },
         "NVDA": {
-          "change_pct": 2.3764,
+          "change_pct": 2.3126,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.5834,
+          "change_pct": 0.4983,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28280.03,
-        "sma50": 29755.06,
-        "sma200": 27953.27
+        "last_price": 28196.86,
+        "sma50": 29753.4,
+        "sma200": 27952.85
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 30.09,
+        "current_vxn": 30.18,
         "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 58.97,
+      "score": 59.29,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.937,
-        "change_5d_pct": -1.122
+        "current_yield_pct": 4.935,
+        "change_5d_pct": -1.162
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.99,
+      "score": 53.98,
       "status": "yellow",
       "details": {
         "current_dxy": 101.81,
-        "change_5d_pct": -0.498
+        "change_5d_pct": -0.497
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 44.25,
+      "score": 50.05,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.115,
+        "avg_compound": 0.001,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Anthropic Reports $17 Billion Quarterly Revenue Ahead of IPO",
-            "source": "pymnts.com",
-            "publishedAt": "2026-11-02T16:14:17Z",
+            "title": "Elon Musk is tightening Grok limits as the cost of AI catches up with demand",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-11-02T16:29:59Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": -0.128
           },
           {
-            "title": "Why Is Rivian Stock Surging on Monday?",
+            "title": "These 9 Words From Kevin Warsh About Interest Rates Should Worry Every Investor",
             "source": "Biztoc.com",
-            "publishedAt": "2026-11-02T16:14:11Z",
+            "publishedAt": "2026-11-02T16:29:25Z",
+            "sentiment": "Neutral",
+            "compound": 0.026
+          },
+          {
+            "title": "Letters to the Editor dated November 2, 2026",
+            "source": "BusinessLine",
+            "publishedAt": "2026-11-02T16:25:31Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
             "title": "Stock market after midterm elections: What S&P 500 history shows",
             "source": "Biztoc.com",
-            "publishedAt": "2026-11-02T16:13:49Z",
+            "publishedAt": "2026-11-02T16:24:41Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "'Oligarchy is on the Ballot': Reports Uncover Unprecedented Sums Ultrarich Spent to Buy 2026 Midterms",
-            "source": "Common Dreams",
-            "publishedAt": "2026-11-02T16:12:00Z",
+            "title": "Prediction: This Will Be Sandisk’s Stock Price After 1 Year",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-02T16:24:40Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Income Tax Returns: 'How India filed in 2026' - 5 trends that reveal how young investors, salaried earners manage money",
-            "source": "Livemint",
-            "publishedAt": "2026-11-02T16:07:41Z",
+            "title": "How to invest if you think the AI bubble is about to burst",
+            "source": "Business Insider",
+            "publishedAt": "2026-11-02T16:24:27Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Anthropic swings to a $567 million operating loss in amended IPO filing",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-02T16:06:30Z",
-            "sentiment": "Negative",
-            "compound": -0.318
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 60.95,
-  "trade_probability": 56.57,
+  "confirmation_score": 61.52,
+  "trade_probability": 56.91,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
