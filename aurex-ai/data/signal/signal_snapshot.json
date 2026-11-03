@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T03:37:43.022948+00:00",
+  "generated_at": "2026-11-03T03:45:50.316524+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.06,
+      "score": 51.21,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.82,
-        "change_5d_pct": -0.132
+        "current_dxy": 101.81,
+        "change_5d_pct": -0.151
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.44,
+      "score": 53.72,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.109,
+        "avg_compound": 0.074,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Perenti Shares Rise Nearly 3% as Mining Services Contractor Seeks Turnaround Under New CEO Vanessa Torres",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-11-02T03:44:26Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "Call of Duty: Modern Warfare 4 Review",
+            "source": "PCMag.com",
+            "publishedAt": "2026-11-02T03:43:17Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
           {
             "title": "Q2 Results Today Live: ITC, Marico, UPL, Petronet LNG, NLC, DOMS, Escorts Kubota, NALCO, MobiKwik, Wockhardt, Granules to announce Q2 results, Reliance, Jio Platforms, NTPC shares in focus",
             "source": "BusinessLine",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-02T03:18:31Z",
             "sentiment": "Positive",
             "compound": 0.44
-          },
-          {
-            "title": "ITC Q2 preview: Cigarette biz may drag PAT down up to 28%, say analysts",
-            "source": "Business Standard",
-            "publishedAt": "2026-11-02T03:17:29Z",
-            "sentiment": "Negative",
-            "compound": -0.226
-          },
-          {
-            "title": "Stock market soars in early trade: Sensex jumps over 800 points, Nifty above 23,260",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-02T03:16:35Z",
-            "sentiment": "Positive",
-            "compound": 0.402
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.33,
-  "trade_probability": 44.8,
+  "confirmation_score": 41.19,
+  "trade_probability": 44.71,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
