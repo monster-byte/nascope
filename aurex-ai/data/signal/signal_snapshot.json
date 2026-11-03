@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T18:16:08.922808+00:00",
+  "generated_at": "2026-11-03T18:31:24.219444+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.9724,
+          "change_pct": 0.9481,
           "up": true
         },
         "MSFT": {
-          "change_pct": 2.303,
+          "change_pct": 2.1439,
           "up": true
         },
         "NVDA": {
-          "change_pct": 2.3052,
+          "change_pct": 2.2217,
           "up": true
         },
         "AMZN": {
-          "change_pct": 1.7502,
+          "change_pct": 1.5719,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28273.46,
-        "sma50": 29754.93,
-        "sma200": 27953.24
+        "last_price": 28254.59,
+        "sma50": 29754.55,
+        "sma200": 27953.14
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 30.58,
+        "current_vxn": 30.47,
         "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 56.25,
+      "score": 56.57,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.954,
-        "change_5d_pct": -0.781
+        "current_yield_pct": 4.952,
+        "change_5d_pct": -0.821
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.17,
+      "score": 54.24,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.79,
-        "change_5d_pct": -0.521
+        "current_dxy": 101.78,
+        "change_5d_pct": -0.53
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.58,
+      "score": 54.21,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.072,
+        "avg_compound": 0.084,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Energy shares fall on Strait of Hormuz signals as European banking proves to be safe bet",
+            "source": "The Irish Times",
+            "publishedAt": "2026-11-02T18:28:34Z",
+            "sentiment": "Positive",
+            "compound": 0.735
+          },
+          {
+            "title": "Argentina's Economy Reels Towards Recession, Testing Milei Ahead Of 2027 Vote",
+            "source": "HuffPost",
+            "publishedAt": "2026-11-02T18:22:16Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
           {
             "title": "Options traders are getting anxious on Palantir and Apple ahead of earnings",
             "source": "CNBC",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-02T18:04:42Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Dow Rises 1%, Oil Sinks 7% on Iran Peace Hopes: Stock Market Today - State Street SPDR S&P 500 ETF Trust…",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-02T18:04:04Z",
-            "sentiment": "Positive",
-            "compound": 0.743
-          },
-          {
-            "title": "The $130billion winners of the Iran war: How Big Oil nearly tripled its profits in just six months while ordinary Americans paid the price",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-11-02T18:02:17Z",
-            "sentiment": "Positive",
-            "compound": 0.273
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 60.99,
-  "trade_probability": 56.59,
+  "confirmation_score": 61.1,
+  "trade_probability": 56.66,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
