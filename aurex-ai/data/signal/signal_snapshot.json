@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T14:16:05.712592+00:00",
+  "generated_at": "2026-11-03T14:31:18.307875+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
-      "status": "red",
+      "score": 100.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 3.1317,
+          "change_pct": 0.3312,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.2229,
-          "up": false
+          "change_pct": 0.2924,
+          "up": true
         },
         "NVDA": {
-          "change_pct": -0.8094,
-          "up": false
+          "change_pct": 1.5024,
+          "up": true
         },
         "AMZN": {
-          "change_pct": -0.3042,
-          "up": false
+          "change_pct": 0.7556,
+          "up": true
         }
       }
     },
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27989.82,
-        "sma50": 29769.92,
-        "sma200": 27939.51
+        "last_price": 28126.92,
+        "sma50": 29752.0,
+        "sma200": 27952.5
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 61.86,
+      "score": 61.54,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.919,
-        "change_5d_pct": -1.482
+        "current_yield_pct": 4.921,
+        "change_5d_pct": -1.442
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.88,
+      "score": 54.03,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.82,
-        "change_5d_pct": -0.485
+        "current_dxy": 101.81,
+        "change_5d_pct": -0.503
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.53,
+      "score": 49.68,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.031,
-        "articles_analyzed": 25,
+        "avg_compound": -0.006,
+        "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "US midterms: Donald Trump has told voters to imagine he is on the ballot – here’s why that’s a problem",
+            "source": "The Conversation Africa",
+            "publishedAt": "2026-11-02T14:28:20Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
+          {
+            "title": "CrowdStrike stock pre-market: What is driving the move",
+            "source": "Rolling Out",
+            "publishedAt": "2026-11-02T14:26:32Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Haley Stevens’ act of bravery as her party abandons Jewish voters.",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-11-02T14:25:15Z",
+            "sentiment": "Positive",
+            "compound": 0.557
+          },
+          {
+            "title": "‘Big Short’ Investor Steve Eisman Warns AI Price Cuts and Slowing Usage Could Trigger a Massive Stock Market…",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-02T14:19:46Z",
+            "sentiment": "Negative",
+            "compound": -0.382
+          },
           {
             "title": "Cipher trims grid pipeline to 3.4 GW, leans on gas for 5.9 GW total",
             "source": "Crypto Briefing",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-02T14:12:35Z",
             "sentiment": "Negative",
             "compound": -0.361
-          },
-          {
-            "title": "Methanex Shares Surge 14% as Middle East Supply Crunch Lifts Methanol Prices and Delivers Record Cash Flow",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-11-02T14:08:42Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "Midterm Election Incoherences, Misadventures, and Paradoxes",
-            "source": "Freerepublic.com",
-            "publishedAt": "2026-11-02T14:06:26Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "tZERO plans $350 million SPAC merger to list on NYSE American",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-02T14:04:49Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Gold up 1.5% as oil prices ease inflation concerns",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-02T14:03:31Z",
-            "sentiment": "Positive",
-            "compound": 0.361
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.84,
-  "trade_probability": 44.5,
+  "confirmation_score": 60.89,
+  "trade_probability": 56.53,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
