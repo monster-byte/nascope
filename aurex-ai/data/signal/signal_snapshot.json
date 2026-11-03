@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T12:15:55.081384+00:00",
+  "generated_at": "2026-11-03T12:31:17.679334+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.69,
+      "score": 53.62,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.85,
-        "change_5d_pct": -0.461
+        "current_dxy": 101.86,
+        "change_5d_pct": -0.452
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.53,
+      "score": 46.24,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.011,
+        "avg_compound": -0.075,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Dollar declines ahead of US midterms as oil falls; bitcoin steadies after crypto theft",
+            "source": "CNA",
+            "publishedAt": "2026-11-02T12:31:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "We Can’t Afford an AI Recession",
+            "source": "The Atlantic",
+            "publishedAt": "2026-11-02T12:30:00Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
+          {
+            "title": "Ryanair warns that high fuel costs will likely mean more expensive flights and frozen staff pay",
+            "source": "Business Insider",
+            "publishedAt": "2026-11-02T12:29:52Z",
+            "sentiment": "Negative",
+            "compound": -0.202
+          },
+          {
+            "title": "US midterms Senate battle: 12 states that could decide whether Democrats wrest control from Trump’s Republicans, or things stay the same",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-02T12:16:46Z",
+            "sentiment": "Negative",
+            "compound": -0.382
+          },
           {
             "title": "Why are US stock futures rising today? Dow Jones, S&P 500 and Nasdaq rebound, but will midterm elections hit Wall Street? Apple, Nvidia, Intel and AMD to watch",
             "source": "The Times of India",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-02T12:10:47Z",
             "sentiment": "Neutral",
             "compound": -0.128
-          },
-          {
-            "title": "Bec Judd lashes out ahead of Australia's fifth interest rate hike: 'The government is living too well'",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-11-02T12:10:08Z",
-            "sentiment": "Positive",
-            "compound": 0.625
-          },
-          {
-            "title": "The Blue Wave Has Arrived: How High Will It Crest?",
-            "source": "Jezebel",
-            "publishedAt": "2026-11-02T12:08:28Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Morning Bid: Apple's healthier core",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-02T12:08:23Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "CNA Financial Q3 Earnings Preview: Investors Focus on Insurance Pricing Pressure and Underwriting Margins",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-02T12:08:14Z",
-            "sentiment": "Negative",
-            "compound": -0.296
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.12,
-  "trade_probability": 44.67,
+  "confirmation_score": 40.73,
+  "trade_probability": 44.44,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
