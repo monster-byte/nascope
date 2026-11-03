@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T19:31:29.016159+00:00",
+  "generated_at": "2026-11-03T19:45:55.492662+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.9329,
+          "change_pct": 0.7551,
           "up": true
         },
         "MSFT": {
-          "change_pct": 2.3256,
+          "change_pct": 2.4238,
           "up": true
         },
         "NVDA": {
-          "change_pct": 1.4631,
+          "change_pct": 1.6104,
           "up": true
         },
         "AMZN": {
-          "change_pct": 1.7927,
+          "change_pct": 1.817,
           "up": true
         }
       }
@@ -40,18 +40,18 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28183.28,
-        "sma50": 29753.12,
-        "sma200": 27952.78
+        "last_price": 28181.37,
+        "sma50": 29753.09,
+        "sma200": 27952.77
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 10.0,
+      "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 30.29,
-        "percentile_vs_20d": 90.0
+        "current_vxn": 30.38,
+        "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.78,
+      "score": 53.6,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.84,
-        "change_5d_pct": -0.472
+        "current_dxy": 101.86,
+        "change_5d_pct": -0.45
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.96,
+      "score": 53.22,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.059,
+        "avg_compound": 0.064,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Treasury holds $1 trillion as Bitcoin faces a key liquidity test this week",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-11-02T19:40:49Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "How to Pay Yourself as a Business Owner Without Going Broke",
+            "source": "Addicted2success.com",
+            "publishedAt": "2026-11-02T19:35:06Z",
+            "sentiment": "Positive",
+            "compound": 0.234
+          },
           {
             "title": "Bitcoin risks drop below $76K as 7% oil slide fails to spark BTC price rally",
             "source": "Cointelegraph",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-02T19:17:36Z",
             "sentiment": "Positive",
             "compound": 0.459
-          },
-          {
-            "title": "Why SpaceX stock is rising today",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-02T19:08:12Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Why Oracle Stock Is Down Today",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-02T19:07:57Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 61.48,
-  "trade_probability": 56.89,
+  "confirmation_score": 61.04,
+  "trade_probability": 56.62,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
