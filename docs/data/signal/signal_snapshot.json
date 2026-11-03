@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T17:16:00.982464+00:00",
+  "generated_at": "2026-11-03T17:31:17.405822+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.7536,
+          "change_pct": 0.6807,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.5271,
+          "change_pct": 1.6007,
           "up": true
         },
         "NVDA": {
-          "change_pct": 2.4206,
+          "change_pct": 2.4205,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.6847,
+          "change_pct": 0.6401,
           "up": true
         }
       }
@@ -40,18 +40,18 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28250.35,
-        "sma50": 29754.47,
-        "sma200": 27953.12
+        "last_price": 28245.7,
+        "sma50": 29754.37,
+        "sma200": 27953.1
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 5.0,
+      "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 30.48,
-        "percentile_vs_20d": 95.0
+        "current_vxn": 30.51,
+        "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.89,
+      "score": 53.91,
       "status": "yellow",
       "details": {
         "current_dxy": 101.82,
-        "change_5d_pct": -0.486
+        "change_5d_pct": -0.489
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.38,
+      "score": 52.65,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.048,
+        "avg_compound": 0.053,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Should we expect even more interest rate rises next year?",
+            "source": "Motley Fool Australia",
+            "publishedAt": "2026-11-02T17:30:00Z",
+            "sentiment": "Positive",
+            "compound": 0.509
+          },
+          {
+            "title": "Stock Market Today: Dow Rallies As Amazon Pops; Oil Stocks Skid On These Hopes (Live Coverage)",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-02T17:22:38Z",
+            "sentiment": "Positive",
+            "compound": 0.542
+          },
+          {
+            "title": "Liam Neeson Hits All-Time Career Box Office Low With New Action Movie",
+            "source": "Screen Rant",
+            "publishedAt": "2026-11-02T17:20:34Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "California SB 923: Marketing Finds The Consumer But Deletion Does Not",
+            "source": "Legal500.com",
+            "publishedAt": "2026-11-02T17:18:18Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "S&P 500 slips 4% from its peak as AI selloff stirs recession fears",
             "source": "Crypto Briefing",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-02T17:12:49Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Centre's FY27 fiscal deficit may exceed Budget target by Rs 1.2 lakh crore: SBI Research",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-02T17:09:41Z",
-            "sentiment": "Negative",
-            "compound": -0.402
-          },
-          {
-            "title": "PRA Group Celebrates 30 Years of Business by Ringing Nasdaq Opening Bell",
-            "source": "PR Newswire UK",
-            "publishedAt": "2026-11-02T17:09:00Z",
-            "sentiment": "Positive",
-            "compound": 0.572
-          },
-          {
-            "title": "Dow pops 500 points, oil tumbles on hopes of a US-Iran peace deal",
-            "source": "New York Post",
-            "publishedAt": "2026-11-02T17:07:45Z",
-            "sentiment": "Positive",
-            "compound": 0.743
-          },
-          {
-            "title": "Reps seek real estate regulator to curb fraud, boost housing investment",
-            "source": "The Punch",
-            "publishedAt": "2026-11-02T17:05:04Z",
-            "sentiment": "Negative",
-            "compound": -0.273
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 60.77,
-  "trade_probability": 56.46,
+  "confirmation_score": 61.25,
+  "trade_probability": 56.75,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
