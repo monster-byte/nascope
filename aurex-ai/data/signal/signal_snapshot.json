@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T20:01:38.976930+00:00",
+  "generated_at": "2026-11-03T20:16:07.419532+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.0972,
+          "change_pct": 0.516,
           "up": true
         },
         "MSFT": {
-          "change_pct": 2.688,
+          "change_pct": 2.6743,
           "up": true
         },
         "NVDA": {
-          "change_pct": 1.4582,
+          "change_pct": 1.3864,
           "up": true
         },
         "AMZN": {
-          "change_pct": 1.9406,
+          "change_pct": 1.851,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28130.46,
-        "sma50": 29752.07,
-        "sma200": 27952.52
+        "last_price": 28142.66,
+        "sma50": 29752.31,
+        "sma200": 27952.58
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 10.0,
+      "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 30.51,
-        "percentile_vs_20d": 90.0
+        "current_vxn": 30.8,
+        "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 56.89,
+      "score": 56.57,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.95,
-        "change_5d_pct": -0.861
+        "current_yield_pct": 4.952,
+        "change_5d_pct": -0.821
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.65,
+      "score": 53.56,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.85,
-        "change_5d_pct": -0.456
+        "current_dxy": 101.86,
+        "change_5d_pct": -0.445
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.31,
+      "score": 52.97,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.066,
+        "avg_compound": 0.059,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Live: Reserve Bank tipped to hike interest rates to 18-year high",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-11-02T20:13:00Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "Merrion Square tea room contract award suspended amid construction cost concerns",
+            "source": "The Irish Times",
+            "publishedAt": "2026-11-02T20:08:10Z",
+            "sentiment": "Neutral",
+            "compound": 0.103
+          },
+          {
+            "title": "RedStone powers new Apple perpetual futures market on Hyperliquid",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-02T20:03:48Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "El Nino could add to US inflation pressures in 2027, San Francisco Fed paper warns",
             "source": "The Times of India",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-02T19:52:32Z",
             "sentiment": "Positive",
             "compound": 0.382
-          },
-          {
-            "title": "1 of Greg Abel's Favorite Stocks and a Top 5 Berkshire Hathaway Holding Just Suffered a Devastating Decline",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-02T19:52:23Z",
-            "sentiment": "Negative",
-            "compound": -0.572
-          },
-          {
-            "title": "Cement companies bet on price hikes to revive profitability in H2",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-02T19:52:07Z",
-            "sentiment": "Positive",
-            "compound": 0.542
-          },
-          {
-            "title": "The Last Safe Haven Reports: Everything You Need To Know Ahead Of Apple Earnings",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-02T19:50:20Z",
-            "sentiment": "Positive",
-            "compound": 0.44
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 61.46,
-  "trade_probability": 56.88,
+  "confirmation_score": 60.92,
+  "trade_probability": 56.55,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
