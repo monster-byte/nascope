@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T08:45:55.906138+00:00",
+  "generated_at": "2026-11-03T09:01:25.000604+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,20 +17,20 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.7299,
-          "up": false
+          "change_pct": 3.1377,
+          "up": true
         },
         "MSFT": {
-          "change_pct": -3.0329,
+          "change_pct": -0.2229,
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.4859,
+          "change_pct": -0.8094,
           "up": false
         },
         "AMZN": {
-          "change_pct": 2.0764,
-          "up": true
+          "change_pct": -0.3042,
+          "up": false
         }
       }
     },
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.63,
+      "score": 54.57,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.73,
-        "change_5d_pct": -0.579
+        "current_dxy": 101.74,
+        "change_5d_pct": -0.572
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.0,
+      "score": 51.85,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.12,
+        "avg_compound": 0.037,
         "articles_analyzed": 23,
         "top_headlines": [
           {
-            "title": "Concessions emerge as a key profit driver for construction groups",
-            "source": "Naftemporiki.gr",
-            "publishedAt": "2026-11-02T08:40:33Z",
+            "title": "Can Milei's Success in Argentina Be Repeated Elsewhere?",
+            "source": "Reason",
+            "publishedAt": "2026-11-02T09:00:44Z",
             "sentiment": "Positive",
-            "compound": 0.44
+            "compound": 0.572
           },
           {
-            "title": "Goldman Sachs expects Bank of England to raise rates again in February",
+            "title": "US midterm elections 2026: What they are, why they matter and when results will be out",
             "source": "The Times of India",
-            "publishedAt": "2026-11-02T08:38:00Z",
+            "publishedAt": "2026-11-02T09:00:38Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": 0.026
           },
           {
-            "title": "Vikings Week 8 Stock Market Report",
-            "source": "Daily Norseman",
-            "publishedAt": "2026-11-02T08:35:55Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "India's manufacturing PMI eases to 54.7 in October as export orders hit six-month high",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-02T08:34:58Z",
-            "sentiment": "Positive",
-            "compound": 0.318
-          },
-          {
-            "title": "Japan Stocks Fall on Monday as Yen Weakens",
-            "source": "Newsonjapan.com",
-            "publishedAt": "2026-11-02T08:34:35Z",
+            "title": "EJ ANTONI: Overseas wars put affordability on hold, but that’s only temporary",
+            "source": "Fox News",
+            "publishedAt": "2026-11-02T09:00:16Z",
             "sentiment": "Negative",
             "compound": -0.318
           },
           {
-            "title": "Ericsson brings drone detection capabilities to mobile networks",
-            "source": "PR Newswire UK",
-            "publishedAt": "2026-11-02T08:26:00Z",
+            "title": "Canada's next budget to be unveiled this week amid U.S. trade war, economic uncertainty",
+            "source": "CBC News",
+            "publishedAt": "2026-11-02T09:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.743
+          },
+          {
+            "title": "Digest: Affle to Buy Perion; DoorDash Makes $17bn Offer for Instacart",
+            "source": "ExchangeWire",
+            "publishedAt": "2026-11-02T09:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "Economic frustration set to boil over in midterm elections",
+            "source": "CBC News",
+            "publishedAt": "2026-11-02T09:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.477
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.7,
-  "trade_probability": 45.02,
+  "confirmation_score": 41.32,
+  "trade_probability": 44.79,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
