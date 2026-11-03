@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T20:31:24.870209+00:00",
+  "generated_at": "2026-11-03T20:46:00.548530+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.5895,
+          "change_pct": 0.5196,
           "up": true
         },
         "MSFT": {
-          "change_pct": 2.5653,
+          "change_pct": 2.4562,
           "up": true
         },
         "NVDA": {
-          "change_pct": 1.5663,
+          "change_pct": 1.7501,
           "up": true
         },
         "AMZN": {
-          "change_pct": 2.1371,
+          "change_pct": 2.1432,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28178.64,
-        "sma50": 29753.03,
-        "sma200": 27952.76
+        "last_price": 28195.23,
+        "sma50": 29753.36,
+        "sma200": 27952.84
       }
     },
     "vxn": {
@@ -50,7 +50,7 @@
       "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 30.7,
+        "current_vxn": 30.69,
         "percentile_vs_20d": 90.0
       }
     },
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.57,
+      "score": 53.62,
       "status": "yellow",
       "details": {
         "current_dxy": 101.86,
-        "change_5d_pct": -0.447
+        "change_5d_pct": -0.452
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.09,
+      "score": 50.5,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.042,
+        "avg_compound": 0.01,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "No Inflection Point Yet: Near-Exponential Data Center Boom Sends Shockwaves to Industrial Economy, Construction Hit by 2nd Wave of Inflation",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-02T20:37:14Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "N.L. seniors making $100K or less will get a cash payout in December: N.L. government",
+            "source": "CBC News",
+            "publishedAt": "2026-11-02T20:35:07Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Naomi Klein and Illana Glaser Have a Message: Tax the Billionaires and Block Big Tech IPOs",
             "source": "Common Dreams",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-02T20:03:48Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "El Nino could add to US inflation pressures in 2027, San Francisco Fed paper warns",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-02T20:01:04Z",
-            "sentiment": "Negative",
-            "compound": -0.402
-          },
-          {
-            "title": "Anthropic's colossal pay packages cost the company more than $100,000 a month per employee",
-            "source": "Business Insider",
-            "publishedAt": "2026-11-02T20:00:17Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 61.3,
-  "trade_probability": 56.78,
+  "confirmation_score": 61.16,
+  "trade_probability": 56.7,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
