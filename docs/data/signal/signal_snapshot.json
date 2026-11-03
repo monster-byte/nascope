@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T19:16:09.258109+00:00",
+  "generated_at": "2026-11-03T19:31:29.016159+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.9147,
+          "change_pct": 0.9329,
           "up": true
         },
         "MSFT": {
-          "change_pct": 2.4556,
+          "change_pct": 2.3256,
           "up": true
         },
         "NVDA": {
-          "change_pct": 1.7577,
+          "change_pct": 1.4631,
           "up": true
         },
         "AMZN": {
-          "change_pct": 1.655,
+          "change_pct": 1.7927,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28206.9,
-        "sma50": 29753.6,
-        "sma200": 27952.9
+        "last_price": 28183.28,
+        "sma50": 29753.12,
+        "sma200": 27952.78
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 5.0,
+      "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 30.23,
-        "percentile_vs_20d": 95.0
+        "current_vxn": 30.29,
+        "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 56.89,
+      "score": 57.21,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.95,
-        "change_5d_pct": -0.861
+        "current_yield_pct": 4.948,
+        "change_5d_pct": -0.901
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.92,
+      "score": 53.78,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.82,
-        "change_5d_pct": -0.49
+        "current_dxy": 101.84,
+        "change_5d_pct": -0.472
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.38,
+      "score": 52.96,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.008,
+        "avg_compound": 0.059,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Bitcoin risks drop below $76K as 7% oil slide fails to spark BTC price rally",
+            "source": "Cointelegraph",
+            "publishedAt": "2026-11-02T19:27:58Z",
+            "sentiment": "Negative",
+            "compound": -0.625
+          },
+          {
+            "title": "This Is Such a Bad Time for a $115 Billion Tech Deal",
+            "source": "Livemint",
+            "publishedAt": "2026-11-02T19:24:03Z",
+            "sentiment": "Negative",
+            "compound": -0.542
+          },
+          {
+            "title": "Manufacturing activity eases in Oct as new order growth drops",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-02T19:22:12Z",
+            "sentiment": "Positive",
+            "compound": 0.599
+          },
+          {
+            "title": "US manufacturing strengthens in October, input prices stay high",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-02T19:17:36Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
           {
             "title": "Why SpaceX stock is rising today",
             "source": "Biztoc.com",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-02T19:07:57Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Your guide to the 2026 midterm elections: Everything you need to know about when voting closes and when we can expect the results",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-11-02T19:00:09Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "The Thanksgiving meal deal that’s even cheaper than Walmart’s — with a catch",
-            "source": "New York Post",
-            "publishedAt": "2026-11-02T18:52:17Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Anthropic revenue jumps 1,100% ahead of IPO as AI spending commitments near $900 billion",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-02T18:51:10Z",
-            "sentiment": "Neutral",
-            "compound": 0.128
-          },
-          {
-            "title": "Anthropic reports $104B net loss in first nine months of 2026",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-02T18:41:46Z",
-            "sentiment": "Negative",
-            "compound": -0.318
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 60.77,
-  "trade_probability": 56.46,
+  "confirmation_score": 61.48,
+  "trade_probability": 56.89,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
