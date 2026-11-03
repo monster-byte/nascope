@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T09:31:09.547797+00:00",
+  "generated_at": "2026-11-03T09:45:58.300344+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.1,
+      "score": 54.54,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.8,
-        "change_5d_pct": -0.512
+        "current_dxy": 101.74,
+        "change_5d_pct": -0.568
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.22,
+      "score": 51.14,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.044,
+        "avg_compound": 0.023,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "BTC heads into US midterm showdown: Three things to know in Bitcoin this week",
+            "source": "Cointelegraph",
+            "publishedAt": "2026-11-02T09:41:36Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Lifestyle guru Martha Stewart says she 'really screwed up' with homeless Halloween costume",
+            "source": "BBC News",
+            "publishedAt": "2026-11-02T09:36:45Z",
+            "sentiment": "Negative",
+            "compound": -0.541
+          },
           {
             "title": "37% of under-25 investors lose money, but India's Gen Z keeps on trading",
             "source": "Business Standard",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-02T09:22:18Z",
             "sentiment": "Negative",
             "compound": -0.599
-          },
-          {
-            "title": "Fidelity’s Broader Nasdaq ETF Has a Surprise for QQQ Investors: Even More Apple",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-02T09:17:11Z",
-            "sentiment": "Positive",
-            "compound": 0.273
-          },
-          {
-            "title": "Heritage businesses attract new customers under NHB scheme, but challenges remain",
-            "source": "CNA",
-            "publishedAt": "2026-11-02T09:16:58Z",
-            "sentiment": "Positive",
-            "compound": 0.296
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.31,
-  "trade_probability": 44.79,
+  "confirmation_score": 41.25,
+  "trade_probability": 44.75,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
