@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T15:15:53.979197+00:00",
+  "generated_at": "2026-11-03T15:31:18.471650+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 100.0,
+      "score": 75.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.0879,
+          "change_pct": 0.3814,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.867,
+          "change_pct": 1.1047,
           "up": true
         },
         "NVDA": {
-          "change_pct": 2.099,
+          "change_pct": 2.0278,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.077,
-          "up": true
+          "change_pct": -0.077,
+          "up": false
         }
       }
     },
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28184.91,
-        "sma50": 29753.16,
-        "sma200": 27952.79
+        "last_price": 28189.42,
+        "sma50": 29753.25,
+        "sma200": 27952.82
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 10.0,
+      "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 30.5,
-        "percentile_vs_20d": 90.0
+        "current_vxn": 30.3,
+        "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 56.25,
+      "score": 54.97,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.954,
-        "change_5d_pct": -0.781
+        "current_yield_pct": 4.962,
+        "change_5d_pct": -0.621
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.03,
+      "score": 53.22,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.81,
-        "change_5d_pct": -0.503
+        "current_dxy": 101.91,
+        "change_5d_pct": -0.403
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 60.08,
+      "score": 54.21,
       "status": "yellow",
       "details": {
-        "overall_sentiment": "BULLISH",
-        "avg_compound": 0.202,
+        "overall_sentiment": "NEUTRAL",
+        "avg_compound": 0.084,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Anthropic Revenue Hits Nearly $17 Billion Before Blockbuster IPO - Bloomberg",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-11-02T15:13:29Z",
-            "sentiment": "Positive",
-            "compound": 0.599
+            "title": "Building immunity to shocks",
+            "source": "BusinessLine",
+            "publishedAt": "2026-11-02T15:30:48Z",
+            "sentiment": "Negative",
+            "compound": -0.382
           },
           {
-            "title": "Stock Market Today: Oil Slides on Mideast Hopes; Stock Futures Recover After Friday's Selloff — Live Updates - WSJ",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-11-02T15:13:07Z",
-            "sentiment": "Positive",
-            "compound": 0.421
+            "title": "Wall Street's Fear Index is doing something strange. Here's what it means for stocks",
+            "source": "CNBC",
+            "publishedAt": "2026-11-02T15:30:41Z",
+            "sentiment": "Negative",
+            "compound": -0.612
           },
           {
-            "title": "Will ‘Gina’ Break Texas’s Corporate Welfare Consensus?",
-            "source": "The American Prospect",
-            "publishedAt": "2026-11-02T15:10:55Z",
+            "title": "Lula’s Succession Race Starts Now",
+            "source": "Foreign Policy",
+            "publishedAt": "2026-11-02T15:26:23Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "Belgium faces government crisis after budget deadlock – PM De Wever to resign",
+            "source": "Protothema.gr",
+            "publishedAt": "2026-11-02T15:24:21Z",
+            "sentiment": "Negative",
+            "compound": -0.836
+          },
+          {
+            "title": "Apple stock price down: Why is AAPL share price falling ahead of earnings call, iPhone sales report?",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-02T15:23:13Z",
+            "sentiment": "Neutral",
+            "compound": 0.153
+          },
+          {
+            "title": "Iran offers to reopen Hormuz within 48 hours",
+            "source": "The Punch",
+            "publishedAt": "2026-11-02T15:22:38Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Mary Trump Drops Gag-Worthy Detail Abodt Her Uncle Amid Obsessi' Affordability Crisis?s Asss Ass",
-            "source": "Crooksandliars.com",
-            "publishedAt": "2026-11-02T15:05:14Z",
-            "sentiment": "Negative",
-            "compound": -0.542
-          },
-          {
-            "title": "IPO-bound StockGro's profit jumps 3-fold to Rs 113 cr in FY26 on strong revenue growth",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-02T15:04:47Z",
-            "sentiment": "Positive",
-            "compound": 0.832
-          },
-          {
-            "title": "Which party has a better chance of winning the midterms? What the final polls say.",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-11-02T15:03:48Z",
-            "sentiment": "Positive",
-            "compound": 0.875
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 62.01,
-  "trade_probability": 57.21,
+  "confirmation_score": 54.04,
+  "trade_probability": 52.42,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
