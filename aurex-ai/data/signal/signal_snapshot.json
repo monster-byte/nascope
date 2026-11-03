@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T15:31:18.471650+00:00",
+  "generated_at": "2026-11-03T15:45:58.265151+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.3814,
+          "change_pct": 0.1231,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.1047,
+          "change_pct": 1.2127,
           "up": true
         },
         "NVDA": {
-          "change_pct": 2.0278,
+          "change_pct": 2.0965,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.077,
+          "change_pct": -0.2026,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28189.42,
-        "sma50": 29753.25,
-        "sma200": 27952.82
+        "last_price": 28234.09,
+        "sma50": 29754.14,
+        "sma200": 27953.04
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 5.0,
+      "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 30.3,
-        "percentile_vs_20d": 95.0
+        "current_vxn": 30.27,
+        "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 54.97,
+      "score": 55.61,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.962,
-        "change_5d_pct": -0.621
+        "current_yield_pct": 4.958,
+        "change_5d_pct": -0.701
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.22,
+      "score": 53.18,
       "status": "yellow",
       "details": {
         "current_dxy": 101.91,
-        "change_5d_pct": -0.403
+        "change_5d_pct": -0.398
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.21,
+      "score": 49.6,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.084,
+        "avg_compound": -0.008,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Building immunity to shocks",
-            "source": "BusinessLine",
-            "publishedAt": "2026-11-02T15:30:48Z",
-            "sentiment": "Negative",
-            "compound": -0.382
-          },
-          {
-            "title": "Wall Street's Fear Index is doing something strange. Here's what it means for stocks",
-            "source": "CNBC",
-            "publishedAt": "2026-11-02T15:30:41Z",
-            "sentiment": "Negative",
-            "compound": -0.612
-          },
-          {
-            "title": "Lula’s Succession Race Starts Now",
-            "source": "Foreign Policy",
-            "publishedAt": "2026-11-02T15:26:23Z",
+            "title": "Billionaire investor Howard Marks lays out why valuing AI companies like Anthropic is so tricky",
+            "source": "Business Insider",
+            "publishedAt": "2026-11-02T15:44:22Z",
             "sentiment": "Positive",
-            "compound": 0.202
+            "compound": 0.418
           },
           {
-            "title": "Belgium faces government crisis after budget deadlock – PM De Wever to resign",
-            "source": "Protothema.gr",
-            "publishedAt": "2026-11-02T15:24:21Z",
+            "title": "Nasdaq execs talk Texas strategy, deploying AI against financial crime",
+            "source": "The Dallas Morning News",
+            "publishedAt": "2026-11-02T15:43:10Z",
             "sentiment": "Negative",
-            "compound": -0.836
+            "compound": -0.542
           },
           {
-            "title": "Apple stock price down: Why is AAPL share price falling ahead of earnings call, iPhone sales report?",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-02T15:23:13Z",
-            "sentiment": "Neutral",
-            "compound": 0.153
+            "title": "ITC profit falls 17% as cigarette taxes burns a hole in ITC's profits",
+            "source": "Livemint",
+            "publishedAt": "2026-11-02T15:43:06Z",
+            "sentiment": "Positive",
+            "compound": 0.7
           },
           {
-            "title": "Iran offers to reopen Hormuz within 48 hours",
-            "source": "The Punch",
-            "publishedAt": "2026-11-02T15:22:38Z",
+            "title": "Stock market after midterm elections: What S&P 500 history shows",
+            "source": "CNBC",
+            "publishedAt": "2026-11-02T15:41:12Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "US manufacturing picks up in October; input prices stay high",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-02T15:39:12Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Bill Murray mocks Trump's grinning adviser to his face: 'I'm a little concerned'",
+            "source": "Raw Story",
+            "publishedAt": "2026-11-02T15:35:11Z",
+            "sentiment": "Neutral",
+            "compound": -0.128
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.04,
-  "trade_probability": 52.42,
+  "confirmation_score": 54.16,
+  "trade_probability": 52.5,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
