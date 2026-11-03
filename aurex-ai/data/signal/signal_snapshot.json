@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T00:01:26.230697+00:00",
+  "generated_at": "2026-11-03T00:15:58.050403+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.7299,
+          "change_pct": -1.7357,
           "up": false
         },
         "MSFT": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.39,
+      "score": 48.1,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.032,
+        "avg_compound": -0.038,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Stock futures open a monster week after a $5 trillion AI wipeout",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-02T00:07:15Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Trumpflation Is Getting Worse and It Could Trigger a Wall Street Nightmare",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-02T00:06:53Z",
+            "sentiment": "Negative",
+            "compound": -0.477
+          },
           {
             "title": "GST collections jump 22.9% to Rs 2.31 lakh crore in October as festive demand beats high inflation and interest rates",
             "source": "The Times of India",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-01T23:48:55Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Australian property prices plunging at fastest rate in 40 years after seven straight months of falls as rate decision looms",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-11-01T23:43:29Z",
-            "sentiment": "Neutral",
-            "compound": 0.077
-          },
-          {
-            "title": "Personal loans hit new high N1.99tn",
-            "source": "The Punch",
-            "publishedAt": "2026-11-01T23:40:32Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.71,
-  "trade_probability": 44.43,
+  "confirmation_score": 40.69,
+  "trade_probability": 44.41,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
