@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T22:31:08.907004+00:00",
+  "generated_at": "2026-11-03T22:45:55.880870+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.53,
+      "score": 53.48,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.87,
-        "change_5d_pct": -0.442
+        "current_dxy": 101.88,
+        "change_5d_pct": -0.435
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.15,
+      "score": 50.49,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.063,
+        "avg_compound": 0.01,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "The RBA’s interest rate decision is a balancing act between Christmas, unemployment, and a lame duck Trump",
+            "source": "Crikey",
+            "publishedAt": "2026-11-02T22:42:46Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
+          {
+            "title": "Wiping his tired eyes, Trump's manic refusal to admit defeat: Inside his last-ditch attempt to stop midterm humiliation",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-11-02T22:39:11Z",
+            "sentiment": "Negative",
+            "compound": -0.875
+          },
           {
             "title": "The SEC Should Block Anthropic's IPO to Protect the Public",
             "source": "Techpolicy.press",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-02T22:29:51Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Adeia Announces Third Quarter 2026 Financial Results",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-02T22:29:45Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "U.S. tariffs cost families more than the price tags show",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-02T22:25:10Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 60.94,
-  "trade_probability": 56.56,
+  "confirmation_score": 60.69,
+  "trade_probability": 56.41,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
