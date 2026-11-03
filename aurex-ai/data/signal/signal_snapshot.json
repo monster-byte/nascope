@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T07:01:23.386537+00:00",
+  "generated_at": "2026-11-03T07:15:58.728161+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.7357,
+          "change_pct": -1.7299,
           "up": false
         },
         "MSFT": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.35,
+      "score": 54.57,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.76,
-        "change_5d_pct": -0.543
+        "current_dxy": 101.74,
+        "change_5d_pct": -0.571
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 57.9,
+      "score": 55.36,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.158,
+        "avg_compound": 0.107,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Gold rate today 2 Nov: Chennai vs Bangalore prices compared — City wise details for yellow metal buyers, investors",
+            "source": "Livemint",
+            "publishedAt": "2026-11-02T07:11:49Z",
+            "sentiment": "Positive",
+            "compound": 0.477
+          },
+          {
+            "title": "Bangladesh garment factories disrupted as protests continue for third day",
+            "source": "Al Jazeera English",
+            "publishedAt": "2026-11-02T07:08:28Z",
+            "sentiment": "Negative",
+            "compound": -0.226
+          },
+          {
+            "title": "The price of Gulf war is flashing on cement bags",
+            "source": "Livemint",
+            "publishedAt": "2026-11-02T07:05:10Z",
+            "sentiment": "Negative",
+            "compound": -0.599
+          },
           {
             "title": "Ajit Ranade: Why India shouldn't abandon capital gains tax for the sake of the rupee",
             "source": "Livemint",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-02T07:00:53Z",
             "sentiment": "Negative",
             "compound": -0.273
-          },
-          {
-            "title": "ShaMaran Announces Investor Town Hall Meeting in Stockholm",
-            "source": "PR Newswire UK",
-            "publishedAt": "2026-11-02T07:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Stocks to buy: What's the outlook for Nifty for November 2-November 6 week? Top stock recommendations",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-02T06:56:38Z",
-            "sentiment": "Positive",
-            "compound": 0.542
-          },
-          {
-            "title": "Nikkei Slips Below 63,100 as Kioxia Outlook and Wall Street Tech Rout Rattle Japan's Chip Stocks Again",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-11-02T06:52:03Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.85,
-  "trade_probability": 45.11,
+  "confirmation_score": 41.64,
+  "trade_probability": 44.98,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
