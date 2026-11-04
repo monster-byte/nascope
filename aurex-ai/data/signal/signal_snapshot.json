@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T21:01:23.207541+00:00",
+  "generated_at": "2026-11-04T21:15:53.261501+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 5.8556,
+          "change_pct": 5.8526,
           "up": true
         },
         "MSFT": {
@@ -25,7 +25,7 @@
           "up": true
         },
         "NVDA": {
-          "change_pct": -3.7624,
+          "change_pct": -3.76,
           "up": false
         },
         "AMZN": {
@@ -47,11 +47,11 @@
     },
     "vxn": {
       "factor": "vxn",
-      "score": 45.0,
+      "score": 40.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 25.31,
-        "percentile_vs_20d": 55.0
+        "current_vxn": 25.48,
+        "percentile_vs_20d": 60.0
       }
     },
     "us10y": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.26,
+      "score": 47.39,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.055,
+        "avg_compound": -0.052,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "US Stocks Waver as Election, AI Bubble Risks Weigh on Outlook - Bloomberg.com",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-11-03T21:12:50Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "Cisco Schedules Conference Call for Q1 Fiscal Year 2027 Financial Results",
+            "source": "Cisco.com",
+            "publishedAt": "2026-11-03T21:05:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "US Election Day: What to watch out for tonight as America votes",
             "source": "TheJournal.ie",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-03T20:51:43Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Chinese AI Stocks Are Slumping, Too",
-            "source": "Foreign Policy",
-            "publishedAt": "2026-11-03T20:49:19Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Morgan Stanley Warns of Stock Market Drop Amid 3 ‘Clearing Events’: ‘Much of the Damage Already Done’",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-03T20:48:43Z",
-            "sentiment": "Negative",
-            "compound": -0.691
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 59.76,
-  "trade_probability": 55.86,
+  "confirmation_score": 59.32,
+  "trade_probability": 55.59,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
