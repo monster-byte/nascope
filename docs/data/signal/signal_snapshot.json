@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T14:15:50.340141+00:00",
+  "generated_at": "2026-11-04T14:31:15.274111+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 100.0,
+      "score": 75.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.5807,
+          "change_pct": 3.4823,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.8267,
+          "change_pct": 5.5435,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.2037,
-          "up": true
+          "change_pct": -1.7659,
+          "up": false
         },
         "AMZN": {
-          "change_pct": 0.7797,
+          "change_pct": 6.9107,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28180.26,
-        "sma50": 29753.06,
-        "sma200": 27952.77
+        "last_price": 28383.36,
+        "sma50": 29736.55,
+        "sma200": 27969.75
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 70.3,
+      "score": 69.66,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.917,
-        "change_5d_pct": -2.537
+        "current_yield_pct": 4.921,
+        "change_5d_pct": -2.458
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 56.49,
+      "score": 56.72,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.36,
-        "change_5d_pct": -0.811
+        "current_dxy": 101.33,
+        "change_5d_pct": -0.841
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.0,
+      "score": 49.78,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.06,
+        "avg_compound": -0.004,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "How Did ‘The Day After Tomorrow’ Become the Top Movie on Netflix in 2026?",
-            "source": "Decider",
-            "publishedAt": "2026-11-03T14:15:00Z",
+            "title": "How Are U.S. Household Finances Doing?",
+            "source": "Awealthofcommonsense.com",
+            "publishedAt": "2026-11-03T14:30:10Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Is the stock market open on Election Day, today?",
+            "source": "Rolling Out",
+            "publishedAt": "2026-11-03T14:27:02Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Indonesia plans to boost rupiah conversion of export earnings",
+            "source": "Antaranews.com",
+            "publishedAt": "2026-11-03T14:22:28Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "Stock Market Today: Dow Futures Plunge 323 Points, Apple Sinks, and Iran Strikes Send Oil Soaring",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-03T14:19:47Z",
+            "sentiment": "Negative",
+            "compound": -0.361
+          },
+          {
+            "title": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-03T14:18:57Z",
             "sentiment": "Positive",
             "compound": 0.202
           },
           {
-            "title": "Dow futures drop 400 points on Election Day as Apple declines, oil jumps: Live updates - CNBC",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-11-03T14:13:12Z",
+            "title": "This indicator has triggered just 5 times since 2000 — and it warns of a trap for stocks",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-03T14:18:47Z",
             "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "RI's October inflation stays within target range at 3.23 percent: Govt",
-            "source": "Antaranews.com",
-            "publishedAt": "2026-11-03T14:07:56Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "If I Had $1,000 to Invest Today, Here's the Trillion-Dollar Stock I'd Buy Instead of SpaceX",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-03T14:06:51Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "XMax Announces $30 Million Share Repurchase Program",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-03T14:05:25Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "Stronger US factory activity complicates Bitcoin’s hopes for lower rates",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-11-03T14:00:45Z",
-            "sentiment": "Positive",
-            "compound": 0.494
+            "compound": -0.402
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 62.5,
-  "trade_probability": 57.5,
+  "confirmation_score": 55.94,
+  "trade_probability": 53.56,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
