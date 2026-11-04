@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T20:15:54.374275+00:00",
+  "generated_at": "2026-11-04T20:31:10.850726+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 6.7185,
+          "change_pct": 6.7806,
           "up": true
         },
         "MSFT": {
-          "change_pct": 7.9337,
+          "change_pct": 7.8863,
           "up": true
         },
         "NVDA": {
-          "change_pct": -2.7942,
+          "change_pct": -2.799,
           "up": false
         },
         "AMZN": {
-          "change_pct": 7.1149,
+          "change_pct": 7.4191,
           "up": true
         }
       }
@@ -40,18 +40,18 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28470.88,
-        "sma50": 29738.3,
-        "sma200": 27970.19
+        "last_price": 28514.0,
+        "sma50": 29739.16,
+        "sma200": 27970.4
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 45.0,
+      "score": 40.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 25.29,
-        "percentile_vs_20d": 55.0
+        "current_vxn": 25.3,
+        "percentile_vs_20d": 60.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.14,
+      "score": 55.19,
       "status": "yellow",
       "details": {
         "current_dxy": 101.53,
-        "change_5d_pct": -0.642
+        "change_5d_pct": -0.649
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.84,
+      "score": 53.19,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.077,
+        "avg_compound": 0.064,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "5 things to watch on the ASX 200 on Wednesday",
+            "source": "Motley Fool Australia",
+            "publishedAt": "2026-11-03T20:28:45Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Republicans pitch 3.5% income tax cap as an affordability fix in North Carolina—but Gov. Josh Stein says it won’t put ‘more money in anyone’s pockets’",
+            "source": "Fortune",
+            "publishedAt": "2026-11-03T20:21:12Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "3 Stocks That Did Well the Last Time the Fed Raised Rates Aggressively",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-03T20:19:54Z",
+            "sentiment": "Neutral",
+            "compound": -0.052
+          },
           {
             "title": "The Anthropic Feedback Loop: The Cost of Capital Delusion and Diversion!",
             "source": "Blogger.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-03T20:00:00Z",
             "sentiment": "Positive",
             "compound": 0.459
-          },
-          {
-            "title": "Live: US midterms in sharp focus, oil price eases",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-11-03T19:58:32Z",
-            "sentiment": "Positive",
-            "compound": 0.318
-          },
-          {
-            "title": "The Strait of Hormuz closure has cost Europe an extra $142 billion for the same energy it was already buying",
-            "source": "Fortune",
-            "publishedAt": "2026-11-03T19:55:45Z",
-            "sentiment": "Positive",
-            "compound": 0.273
-          },
-          {
-            "title": "Is Sandisk's Incredible Run About to End?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-03T19:49:19Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 60.34,
-  "trade_probability": 56.2,
+  "confirmation_score": 59.84,
+  "trade_probability": 55.9,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
