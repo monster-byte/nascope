@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T18:01:28.009960+00:00",
+  "generated_at": "2026-11-04T18:15:55.768766+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 7.1969,
+          "change_pct": 7.2544,
           "up": true
         },
         "MSFT": {
-          "change_pct": 6.8747,
+          "change_pct": 7.2941,
           "up": true
         },
         "NVDA": {
-          "change_pct": -2.3065,
+          "change_pct": -2.004,
           "up": false
         },
         "AMZN": {
-          "change_pct": 7.7234,
+          "change_pct": 7.9956,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28624.98,
-        "sma50": 29741.38,
-        "sma200": 27970.96
+        "last_price": 28580.61,
+        "sma50": 29740.49,
+        "sma200": 27970.73
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 35.0,
-      "status": "red",
+      "score": 40.0,
+      "status": "yellow",
       "details": {
-        "current_vxn": 26.05,
-        "percentile_vs_20d": 65.0
+        "current_vxn": 25.94,
+        "percentile_vs_20d": 60.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 73.63,
+      "score": 73.31,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.896,
-        "change_5d_pct": -2.953
+        "current_yield_pct": 4.898,
+        "change_5d_pct": -2.914
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.84,
+      "score": 55.79,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.44,
-        "change_5d_pct": -0.73
+        "current_dxy": 101.45,
+        "change_5d_pct": -0.724
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.7,
+      "score": 45.15,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.046,
+        "avg_compound": -0.097,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "AI is on the ballot. Data centers are a major political issue in the midterms. But the implications of today’s vote for AI go much further",
+            "source": "Fortune",
+            "publishedAt": "2026-11-03T18:15:31Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Did NASA astronaut Anil Menon vote in the US Midterm Elections 2026?",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-03T18:08:13Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "China Won’t Bail Out Trump’s Lost War",
+            "source": "Foreign Policy",
+            "publishedAt": "2026-11-03T18:04:35Z",
+            "sentiment": "Negative",
+            "compound": -0.735
+          },
+          {
+            "title": "Anthropic Debuts Tool for Your Boss to Spy on Your Claude Chats",
+            "source": "Futurism",
+            "publishedAt": "2026-11-03T18:03:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "'No need to sack the governor' and other reasons for the RBA's inflation target",
             "source": "ABC News (AU)",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-03T18:00:00Z",
             "sentiment": "Negative",
             "compound": -0.273
-          },
-          {
-            "title": "'Like they don't care': RBA's fifth rate hike a huge blow to mortgage borrowers",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-11-03T18:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.29
-          },
-          {
-            "title": "Can anything break politics out of its inflation doom loop?",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-11-03T18:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.402
-          },
-          {
-            "title": "Will the midterms live up to the hype? 6 key stories we’re watching",
-            "source": "Salon",
-            "publishedAt": "2026-11-03T17:59:44Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Here's the 1 Thing I'd Wait to See Before Buying Plug Power Stock",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-03T17:59:41Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 58.91,
-  "trade_probability": 55.35,
+  "confirmation_score": 59.08,
+  "trade_probability": 55.45,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
