@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T09:31:11.907978+00:00",
+  "generated_at": "2026-11-04T10:16:15.598894+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 56.59,
+      "score": 56.9,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.35,
-        "change_5d_pct": -0.824
+        "current_dxy": 101.31,
+        "change_5d_pct": -0.863
       }
     },
     "macro": {
@@ -85,56 +85,10 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.58,
+      "score": 50.0,
       "status": "yellow",
       "details": {
-        "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.048,
-        "articles_analyzed": 24,
-        "top_headlines": [
-          {
-            "title": "India’s consumers and its stock market are telling very different stories—here's why",
-            "source": "Livemint",
-            "publishedAt": "2026-11-03T09:30:58Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "New plans “resurrect” genuine pensions for millions of private sector workers",
-            "source": "Www.gov.uk",
-            "publishedAt": "2026-11-03T09:19:43Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "House prices in Sweden tumble in October but apartments prove resilient",
-            "source": "The Local Sweden",
-            "publishedAt": "2026-11-03T09:19:08Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "The brutal reality of Australia's interest rate nightmare: Sellers break down in tears as property prices plunge and desperate families ditch private schools to pay the mortgage - with warnings the worst is yet to come",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-11-03T09:11:27Z",
-            "sentiment": "Negative",
-            "compound": -0.9
-          },
-          {
-            "title": "Hillary Clinton Was Asked How Trump Has Changed Since 2016 And Did Not Hold Back",
-            "source": "HuffPost",
-            "publishedAt": "2026-11-03T09:10:24Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Vucic Is Leaving. His Economy Remains.",
-            "source": "Foreign Policy",
-            "publishedAt": "2026-11-03T09:00:37Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          }
-        ]
+        "error": "news_fetch_failed: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?q=Nasdaq+OR+%22Federal+Reserve%22+OR+%22stock+market%22+OR+inflation&language=en&sortBy=publishedAt&pageSize=25&apiKey=280ea038bd7e4ccb91d87f9d115484d4"
       }
     },
     "patent_momentum": {
@@ -146,8 +100,8 @@
       }
     }
   },
-  "confirmation_score": 60.71,
-  "trade_probability": 56.43,
+  "confirmation_score": 60.96,
+  "trade_probability": 56.58,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
