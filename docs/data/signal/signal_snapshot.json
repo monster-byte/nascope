@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T16:15:58.095520+00:00",
+  "generated_at": "2026-11-04T16:31:13.609849+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 6.6943,
+          "change_pct": 6.2886,
           "up": true
         },
         "MSFT": {
-          "change_pct": 6.9405,
+          "change_pct": 6.8458,
           "up": true
         },
         "NVDA": {
-          "change_pct": -2.4679,
+          "change_pct": -2.6981,
           "up": false
         },
         "AMZN": {
-          "change_pct": 6.7206,
+          "change_pct": 6.3545,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28502.35,
-        "sma50": 29738.93,
-        "sma200": 27970.34
+        "last_price": 28439.08,
+        "sma50": 29737.66,
+        "sma200": 27970.03
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 30.0,
       "status": "red",
       "details": {
-        "current_vxn": 26.83,
+        "current_vxn": 26.98,
         "percentile_vs_20d": 70.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 71.25,
+      "score": 70.3,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.911,
-        "change_5d_pct": -2.656
+        "current_yield_pct": 4.917,
+        "change_5d_pct": -2.537
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.54,
+      "score": 54.77,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.48,
-        "change_5d_pct": -0.693
+        "current_dxy": 101.58,
+        "change_5d_pct": -0.596
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.32,
+      "score": 52.34,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.026,
+        "avg_compound": 0.047,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Top Business & Market Headlines Today — BL Morning Report, November 4, 2026",
+            "source": "BusinessLine",
+            "publishedAt": "2026-11-03T16:28:17Z",
+            "sentiment": "Positive",
+            "compound": 0.703
+          },
+          {
+            "title": "This New Investment Just Delivered Retirement Savers Their Best Inflation Protection in 20 Years",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-03T16:22:50Z",
+            "sentiment": "Positive",
+            "compound": 0.637
+          },
+          {
+            "title": "Marico could reach ₹20,000 crore revenue by 2030: Saugata Gupta",
+            "source": "BusinessLine",
+            "publishedAt": "2026-11-03T16:21:58Z",
+            "sentiment": "Neutral",
+            "compound": 0.026
+          },
+          {
+            "title": "Government and trade unions apart on inflation projections around public sector pay deal",
+            "source": "The Irish Times",
+            "publishedAt": "2026-11-03T16:20:09Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
+          {
+            "title": "Ron DeSantis Gets Honest About Iran War. Why Can’t Other Republicans Do The Same?",
+            "source": "The Daily Caller",
+            "publishedAt": "2026-11-03T16:19:55Z",
+            "sentiment": "Neutral",
+            "compound": -0.153
+          },
           {
             "title": "50 bps repo hike may moderate consumption credit: CS Setty",
             "source": "BusinessLine",
             "publishedAt": "2026-11-03T16:11:48Z",
             "sentiment": "Positive",
             "compound": 0.382
-          },
-          {
-            "title": "Brussels sets tight deadline for ECB president nominations",
-            "source": "The Irish Times",
-            "publishedAt": "2026-11-03T16:08:19Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "From industrial powerhouse to uncertain future: lessons from Britain’s chemical industry",
-            "source": "The Conversation Africa",
-            "publishedAt": "2026-11-03T16:08:05Z",
-            "sentiment": "Negative",
-            "compound": -0.296
-          },
-          {
-            "title": "US elections 2026: The S&P 500 has never been lower a year after a midterm since 1950. Can 2026 break the streak?",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-03T16:07:42Z",
-            "sentiment": "Positive",
-            "compound": 0.224
-          },
-          {
-            "title": "INNIO’s order backlog jumps as AI data centers build their own power plants",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-03T16:06:32Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Trump to ax $4 billion in funding to Israel by year-end",
-            "source": "TheBlaze",
-            "publishedAt": "2026-11-03T16:05:35Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 58.44,
-  "trade_probability": 55.06,
+  "confirmation_score": 58.33,
+  "trade_probability": 55.0,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
