@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T09:01:23.311063+00:00",
+  "generated_at": "2026-11-04T09:15:57.282540+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 56.54,
+      "score": 56.4,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.36,
-        "change_5d_pct": -0.817
+        "current_dxy": 101.37,
+        "change_5d_pct": -0.8
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.87,
+      "score": 47.83,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.023,
+        "avg_compound": -0.043,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "The brutal reality of Australia's interest rate nightmare: Sellers break down in tears as property prices plunge and desperate families ditch private schools to pay the mortgage - with warnings the worst is yet to come",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-11-03T09:11:27Z",
+            "sentiment": "Negative",
+            "compound": -0.9
+          },
+          {
+            "title": "Hillary Clinton Was Asked How Trump Has Changed Since 2016 And Did Not Hold Back",
+            "source": "HuffPost",
+            "publishedAt": "2026-11-03T09:10:24Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Vucic Is Leaving. His Economy Remains.",
             "source": "Foreign Policy",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-03T08:56:45Z",
             "sentiment": "Positive",
             "compound": 0.361
-          },
-          {
-            "title": "Stock Market Today: Stocks Set for Lower Open After Apple Earnings Disappoint",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-03T08:55:18Z",
-            "sentiment": "Negative",
-            "compound": -0.599
-          },
-          {
-            "title": "Nouriel Roubini: Public debt is rising the world over—can bond vigilantes save the day?",
-            "source": "Livemint",
-            "publishedAt": "2026-11-03T08:30:37Z",
-            "sentiment": "Neutral",
-            "compound": 0.178
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 60.82,
-  "trade_probability": 56.49,
+  "confirmation_score": 60.72,
+  "trade_probability": 56.43,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
