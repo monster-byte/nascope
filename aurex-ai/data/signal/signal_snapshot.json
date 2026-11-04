@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T06:15:55.005394+00:00",
+  "generated_at": "2026-11-04T06:31:09.151058+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.69,
+      "score": 55.33,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.46,
-        "change_5d_pct": -0.711
+        "current_dxy": 101.51,
+        "change_5d_pct": -0.666
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.54,
+      "score": 48.09,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.011,
-        "articles_analyzed": 25,
+        "avg_compound": -0.038,
+        "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Chalmers promises to be 'helpful' on inflation but rejects blame for rate hike",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-11-03T06:27:30Z",
+            "sentiment": "Negative",
+            "compound": -0.691
+          },
+          {
+            "title": "Reserve Bank holds OCR at 2.75% in split decision",
+            "source": "RNZ",
+            "publishedAt": "2026-11-03T06:17:36Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "ASX 200 Rises 0.3% as RBA Hikes Rates to 18-Year High in Split Vote, With Dovish Signals Lifting Shares Late",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-11-03T06:16:18Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
           {
             "title": "Banks Start Reviewing Clients’ Loan Terms as El Niño Builds",
             "source": "Insurance Journal",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-03T06:08:45Z",
             "sentiment": "Negative",
             "compound": -0.361
-          },
-          {
-            "title": "Nifty Smallcap looks stronger vs Midcap index, can hit new high: Analysts",
-            "source": "Business Standard",
-            "publishedAt": "2026-11-03T06:07:10Z",
-            "sentiment": "Positive",
-            "compound": 0.649
-          },
-          {
-            "title": "China to expand global access to yuan assets, promote Hong Kong as offshore hub",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-03T06:04:09Z",
-            "sentiment": "Positive",
-            "compound": 0.681
-          },
-          {
-            "title": "The US votes, Trump faces a Test: The battle for Congress, the key states & three scenarios for what comes next",
-            "source": "Protothema.gr",
-            "publishedAt": "2026-11-03T06:03:00Z",
-            "sentiment": "Negative",
-            "compound": -0.382
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 60.9,
-  "trade_probability": 56.54,
+  "confirmation_score": 60.64,
+  "trade_probability": 56.38,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
