@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T11:25:38.159085+00:00",
+  "generated_at": "2026-11-04T11:31:15.495910+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.64,
+      "score": 55.73,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.47,
-        "change_5d_pct": -0.706
+        "current_dxy": 101.46,
+        "change_5d_pct": -0.716
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.17,
+      "score": 47.66,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.057,
+        "avg_compound": -0.047,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Apple margin outlook pressures tech as reported U.S. strike lifts oil",
+            "source": "CNBC",
+            "publishedAt": "2026-11-03T11:30:03Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
+          {
+            "title": "How will the 2026 midterms impact the stock market? Experts warn of ‘uniquely difficult’ year, despite history of post-election rallies",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-03T11:29:43Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
+          {
+            "title": "High-stakes midterms are test for future of Congress and Trump's presidency",
+            "source": "Abcnews.com",
+            "publishedAt": "2026-11-03T11:29:12Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "The economy is 'less K-shaped than you think' — and that's bad news for the Fed",
             "source": "Biztoc.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-03T11:17:09Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Türkiye fund crisis tied to extensive criminal network, justice minister says",
-            "source": "Hurriyet Daily News",
-            "publishedAt": "2026-11-03T11:16:59Z",
-            "sentiment": "Negative",
-            "compound": -0.625
-          },
-          {
-            "title": "CrowdStrike Announces New Native AI Security Innovations on AWS",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-03T11:16:23Z",
-            "sentiment": "Positive",
-            "compound": 0.34
-          },
-          {
-            "title": "H.C. Wainwright reiterates buy rating on Strategy with $250 price target",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-03T11:15:56Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 60.59,
-  "trade_probability": 56.35,
+  "confirmation_score": 60.64,
+  "trade_probability": 56.38,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
