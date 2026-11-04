@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T17:31:14.788352+00:00",
+  "generated_at": "2026-11-04T17:45:56.605913+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 6.8548,
+          "change_pct": 6.9487,
           "up": true
         },
         "MSFT": {
-          "change_pct": 7.3917,
+          "change_pct": 7.3231,
           "up": true
         },
         "NVDA": {
-          "change_pct": -2.3737,
+          "change_pct": -2.3689,
           "up": false
         },
         "AMZN": {
-          "change_pct": 7.4271,
+          "change_pct": 7.8475,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28604.37,
-        "sma50": 29740.97,
-        "sma200": 27970.85
+        "last_price": 28599.99,
+        "sma50": 29740.88,
+        "sma200": 27970.83
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 35.0,
-      "status": "red",
+      "score": 40.0,
+      "status": "yellow",
       "details": {
-        "current_vxn": 26.54,
-        "percentile_vs_20d": 65.0
+        "current_vxn": 26.25,
+        "percentile_vs_20d": 60.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 72.99,
+      "score": 73.31,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.9,
-        "change_5d_pct": -2.874
+        "current_yield_pct": 4.898,
+        "change_5d_pct": -2.914
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.38,
+      "score": 55.82,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.5,
-        "change_5d_pct": -0.672
+        "current_dxy": 101.45,
+        "change_5d_pct": -0.727
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.97,
+      "score": 54.85,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.079,
+        "avg_compound": 0.097,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Stop the price scam in our hospitals",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-03T17:42:30Z",
+            "sentiment": "Negative",
+            "compound": -0.71
+          },
+          {
+            "title": "Why Is Nebius Stock Surging on Tuesday?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-03T17:40:22Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "RBI starts 3 surveys to capture inflation expectations, consumer confidence",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-03T17:36:30Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
           {
             "title": "Why Palantir Technologies Stock Crashed Today",
             "source": "Biztoc.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-03T17:28:12Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Our Pick Of The Best Dividend Stocks In November 2026",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-03T17:27:52Z",
-            "sentiment": "Positive",
-            "compound": 0.637
-          },
-          {
-            "title": "QB Stock Market Week 9: Who's Been The Best Starter In The First Half Of 2026?",
-            "source": "Fox Sports",
-            "publishedAt": "2026-11-03T17:24:42Z",
-            "sentiment": "Positive",
-            "compound": 0.637
-          },
-          {
-            "title": "Markets extend gains for fourth day; FPI buying highest in a year",
-            "source": "Business Standard",
-            "publishedAt": "2026-11-03T17:20:21Z",
-            "sentiment": "Positive",
-            "compound": 0.477
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 59.35,
-  "trade_probability": 55.61,
+  "confirmation_score": 59.96,
+  "trade_probability": 55.98,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
