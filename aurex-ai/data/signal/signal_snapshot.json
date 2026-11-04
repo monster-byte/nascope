@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T19:15:55.913486+00:00",
+  "generated_at": "2026-11-04T19:31:14.648999+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 6.6991,
+          "change_pct": 6.8901,
           "up": true
         },
         "MSFT": {
-          "change_pct": 7.3173,
+          "change_pct": 7.2555,
           "up": true
         },
         "NVDA": {
-          "change_pct": -1.9677,
+          "change_pct": -2.1047,
           "up": false
         },
         "AMZN": {
-          "change_pct": 7.5793,
+          "change_pct": 7.3251,
           "up": true
         }
       }
@@ -40,18 +40,18 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28552.16,
-        "sma50": 29739.92,
-        "sma200": 27970.59
+        "last_price": 28514.56,
+        "sma50": 29739.17,
+        "sma200": 27970.4
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 35.0,
-      "status": "red",
+      "score": 40.0,
+      "status": "yellow",
       "details": {
-        "current_vxn": 25.82,
-        "percentile_vs_20d": 65.0
+        "current_vxn": 25.47,
+        "percentile_vs_20d": 60.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.71,
+      "score": 54.88,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.59,
-        "change_5d_pct": -0.588
+        "current_dxy": 101.57,
+        "change_5d_pct": -0.61
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.12,
+      "score": 51.62,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.022,
+        "avg_compound": 0.032,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "AAP to launch ‘Mhargai Mukti Yatra’ from Nov 26",
+            "title": "SAFE vs Convertible Note: Which One Costs You Less of Your Company?",
+            "source": "Addicted2success.com",
+            "publishedAt": "2026-11-03T19:30:56Z",
+            "sentiment": "Positive",
+            "compound": 0.562
+          },
+          {
+            "title": "He left his teaching job to make adhesive tapes; now Crown New Materials' 787% IPO surge has made him a billionaire",
             "source": "The Times of India",
-            "publishedAt": "2026-11-03T19:12:07Z",
+            "publishedAt": "2026-11-03T19:29:25Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "US Treasury yields climb as strong jobs data, midterm polls weigh; 10-year yield eyes 5% again",
+            "title": "Election Day could mean big things for your 401(k). Here’s what history tells us",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-03T19:28:51Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Bill Ackman says AI hyperscalers' revenue will blow past expectations even as capex jitters rise",
+            "source": "Business Insider",
+            "publishedAt": "2026-11-03T19:27:32Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Why a $50,000 401k withdrawal could spike your Medicare bill",
+            "source": "Rolling Out",
+            "publishedAt": "2026-11-03T19:22:47Z",
+            "sentiment": "Neutral",
+            "compound": 0.026
+          },
+          {
+            "title": "AAP to launch ‘Mhargai Mukti Yatra’ from Nov 26",
             "source": "The Times of India",
-            "publishedAt": "2026-11-03T19:10:49Z",
-            "sentiment": "Positive",
-            "compound": 0.625
-          },
-          {
-            "title": "US midterm elections: Senator’s office vandalised as voting disruptions hit New York and Florida",
-            "source": "Protothema.gr",
-            "publishedAt": "2026-11-03T19:10:14Z",
-            "sentiment": "Negative",
-            "compound": -0.34
-          },
-          {
-            "title": "'The office increasingly fails to deliver this benefit': Most in-office workers now describe their desk jobs as ‘remote' despite bosses promising to boost in-person teams",
-            "source": "TechRadar",
-            "publishedAt": "2026-11-03T19:05:00Z",
-            "sentiment": "Positive",
-            "compound": 0.283
-          },
-          {
-            "title": "Sullivan: What the 2026 midterms could mean for energy investors",
-            "source": "CNBC",
-            "publishedAt": "2026-11-03T19:03:06Z",
-            "sentiment": "Positive",
-            "compound": 0.273
-          },
-          {
-            "title": "Taco Bell sales fall more than expected on cyclosporiasis outbreak hit",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-03T19:02:54Z",
+            "publishedAt": "2026-11-03T19:12:07Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 59.29,
-  "trade_probability": 55.57,
+  "confirmation_score": 59.8,
+  "trade_probability": 55.88,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
