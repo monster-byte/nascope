@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T17:45:56.605913+00:00",
+  "generated_at": "2026-11-04T18:01:28.009960+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 6.9487,
+          "change_pct": 7.1969,
           "up": true
         },
         "MSFT": {
-          "change_pct": 7.3231,
+          "change_pct": 6.8747,
           "up": true
         },
         "NVDA": {
-          "change_pct": -2.3689,
+          "change_pct": -2.3065,
           "up": false
         },
         "AMZN": {
-          "change_pct": 7.8475,
+          "change_pct": 7.7234,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28599.99,
-        "sma50": 29740.88,
-        "sma200": 27970.83
+        "last_price": 28624.98,
+        "sma50": 29741.38,
+        "sma200": 27970.96
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 40.0,
-      "status": "yellow",
+      "score": 35.0,
+      "status": "red",
       "details": {
-        "current_vxn": 26.25,
-        "percentile_vs_20d": 60.0
+        "current_vxn": 26.05,
+        "percentile_vs_20d": 65.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 73.31,
+      "score": 73.63,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.898,
-        "change_5d_pct": -2.914
+        "current_yield_pct": 4.896,
+        "change_5d_pct": -2.953
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.82,
+      "score": 55.84,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.45,
-        "change_5d_pct": -0.727
+        "current_dxy": 101.44,
+        "change_5d_pct": -0.73
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.85,
+      "score": 47.7,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.097,
+        "avg_compound": -0.046,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Stop the price scam in our hospitals",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-03T17:42:30Z",
-            "sentiment": "Negative",
-            "compound": -0.71
-          },
-          {
-            "title": "Why Is Nebius Stock Surging on Tuesday?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-03T17:40:22Z",
+            "title": "'No need to sack the governor' and other reasons for the RBA's inflation target",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-11-03T18:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "RBI starts 3 surveys to capture inflation expectations, consumer confidence",
-            "source": "Business Standard",
-            "publishedAt": "2026-11-03T17:36:30Z",
+            "title": "Shake-up of specialist healthcare proposed to cut prohibitive costs",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-11-03T18:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "'Like they don't care': RBA's fifth rate hike a huge blow to mortgage borrowers",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-11-03T18:00:00Z",
             "sentiment": "Positive",
-            "compound": 0.511
+            "compound": 0.29
           },
           {
-            "title": "Why Palantir Technologies Stock Crashed Today",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-03T17:28:58Z",
+            "title": "Can anything break politics out of its inflation doom loop?",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-11-03T18:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
+          {
+            "title": "Will the midterms live up to the hype? 6 key stories we’re watching",
+            "source": "Salon",
+            "publishedAt": "2026-11-03T17:59:44Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "AI spending boom could exceed $10 trillion, raising fears of financial fallout",
+            "title": "Here's the 1 Thing I'd Wait to See Before Buying Plug Power Stock",
             "source": "Biztoc.com",
-            "publishedAt": "2026-11-03T17:28:35Z",
-            "sentiment": "Negative",
-            "compound": -0.421
-          },
-          {
-            "title": "SpaceX Just Delivered a Monster Quarter, but the Stock Is Still Down 38% From Its High. The Reasons Are Obvious",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-03T17:28:12Z",
+            "publishedAt": "2026-11-03T17:59:41Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 59.96,
-  "trade_probability": 55.98,
+  "confirmation_score": 58.91,
+  "trade_probability": 55.35,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
