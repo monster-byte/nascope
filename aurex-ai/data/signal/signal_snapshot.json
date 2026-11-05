@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T00:45:51.158755+00:00",
+  "generated_at": "2026-11-05T01:01:27.214235+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 55.61,
+      "score": 56.26,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.47,
-        "change_5d_pct": -0.701
+        "current_dxy": 101.39,
+        "change_5d_pct": -0.783
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.76,
+      "score": 50.78,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.025,
+        "avg_compound": 0.016,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Global Market Today: Asian shares retreat as US futures slide on Midterm election bets",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-04T01:00:42Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "Anti-AI Tops Hit Product Predictions",
+            "source": "Newsonjapan.com",
+            "publishedAt": "2026-11-04T00:52:22Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
           {
             "title": "US midterm exit polls: Two-thirds of voters blame Trump for high prices",
             "source": "BusinessLine",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-04T00:31:05Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "India raises a toast to premium pours, snubs budget liquor",
-            "source": "Livemint",
-            "publishedAt": "2026-11-04T00:30:32Z",
-            "sentiment": "Negative",
-            "compound": -0.477
-          },
-          {
-            "title": "Stocks in news: NSE, BSE, SBI, Happiest Minds, MCX, IEX and Minda Corp",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-04T00:30:00Z",
-            "sentiment": "Positive",
-            "compound": 0.637
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 59.48,
-  "trade_probability": 55.69,
+  "confirmation_score": 59.72,
+  "trade_probability": 55.83,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
