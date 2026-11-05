@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T14:15:53.980456+00:00",
+  "generated_at": "2026-11-05T14:31:22.169503+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.3338,
-          "up": false
+          "change_pct": 1.0229,
+          "up": true
         },
         "MSFT": {
-          "change_pct": 0.3327,
+          "change_pct": 0.1642,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.2562,
-          "up": true
+          "change_pct": -2.9381,
+          "up": false
         },
         "AMZN": {
-          "change_pct": 0.2563,
+          "change_pct": 2.1,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28437.17,
-        "sma50": 29737.62,
-        "sma200": 27970.02
+        "last_price": 27955.77,
+        "sma50": 29712.25,
+        "sma200": 27983.16
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 63.63,
+      "score": 61.87,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.904,
-        "change_5d_pct": -1.704
+        "current_yield_pct": 4.915,
+        "change_5d_pct": -1.483
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.47,
+      "score": 53.1,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.6,
-        "change_5d_pct": -0.433
+        "current_dxy": 101.64,
+        "change_5d_pct": -0.387
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.19,
+      "score": 53.15,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.084,
+        "avg_compound": 0.063,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Said on Its Q3 Earnings Call",
+            "title": "Stock Market Today: Dow Eyes 2% Jump as AMD Earnings Ease AI Spending Fears",
             "source": "Biztoc.com",
-            "publishedAt": "2026-11-04T14:13:04Z",
+            "publishedAt": "2026-11-04T14:26:02Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": -0.077
           },
           {
-            "title": "Where did it all go wrong for Trump?",
-            "source": "TheJournal.ie",
-            "publishedAt": "2026-11-04T14:12:47Z",
+            "title": "Bangladesh garment factories close as workers clash with police in pay protests",
+            "source": "Abcnews.com",
+            "publishedAt": "2026-11-04T14:24:24Z",
             "sentiment": "Negative",
-            "compound": -0.477
+            "compound": -0.318
           },
           {
-            "title": "US Stock Market Today: S&P 500 Futures Edge Higher On Strong Factory And Freight Data",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-04T14:12:44Z",
+            "title": "Trump tariff taxes Republicans: What US midterm results mean for Indian H-1B visa holders, Russian oil & trade deal",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-04T14:24:14Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "総余剰最大化金融政策",
+            "source": "Hatenablog.com",
+            "publishedAt": "2026-11-04T14:23:43Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Here’s What the Historic Blue Wave Means for Trump’s Climate Rollbacks",
+            "source": "Gizmodo.com",
+            "publishedAt": "2026-11-04T14:20:22Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Interest rates are rising in Sweden – what does that mean for your finances?",
+            "source": "The Local Sweden",
+            "publishedAt": "2026-11-04T14:19:13Z",
             "sentiment": "Positive",
-            "compound": 0.511
-          },
-          {
-            "title": "CrowdStrike Announces Date of Fiscal Third Quarter 2027 Financial Results Conference Call",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-04T14:12:34Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "NCERT adds personal finance, entrepreneurship chapters to Class 9 textbook",
-            "source": "Business Standard",
-            "publishedAt": "2026-11-04T14:08:09Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "CFTC Clears Stock Perps: What Does It Mean for Bitcoin Futures?",
-            "source": "Dcforecasts.com",
-            "publishedAt": "2026-11-04T14:01:54Z",
-            "sentiment": "Neutral",
-            "compound": 0.077
+            "compound": 0.459
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 58.38,
-  "trade_probability": 55.03,
+  "confirmation_score": 58.01,
+  "trade_probability": 54.81,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
