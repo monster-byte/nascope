@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T17:15:50.987769+00:00",
+  "generated_at": "2026-11-05T17:31:13.022528+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.3983,
+          "change_pct": -1.5883,
           "up": false
         },
         "MSFT": {
-          "change_pct": -2.2698,
+          "change_pct": -2.4466,
           "up": false
         },
         "NVDA": {
-          "change_pct": -7.7736,
+          "change_pct": -8.2476,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.5792,
+          "change_pct": -1.4683,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26973.75,
-        "sma50": 29692.61,
-        "sma200": 27978.25
+        "last_price": 26927.63,
+        "sma50": 29691.69,
+        "sma200": 27978.02
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 5.0,
+      "score": 0.0,
       "status": "red",
       "details": {
-        "current_vxn": 35.11,
-        "percentile_vs_20d": 95.0
+        "current_vxn": 35.12,
+        "percentile_vs_20d": 100.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 74.69,
+      "score": 73.41,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.835,
-        "change_5d_pct": -3.087
+        "current_yield_pct": 4.843,
+        "change_5d_pct": -2.926
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.72,
+      "score": 54.59,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.44,
-        "change_5d_pct": -0.59
+        "current_dxy": 101.46,
+        "change_5d_pct": -0.573
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.15,
+      "score": 46.79,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.017,
+        "avg_compound": -0.064,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Stocks surge after Trump’s election rout",
-            "source": "New Zealand Herald",
-            "publishedAt": "2026-11-04T17:15:13Z",
+            "title": "Fox News star hands Trump brutal label as Democrats surge",
+            "source": "Rolling Out",
+            "publishedAt": "2026-11-04T17:29:56Z",
+            "sentiment": "Negative",
+            "compound": -0.625
+          },
+          {
+            "title": "European far right distances itself from Trump, blaming Iran war for Republicans' defeat",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-04T17:29:50Z",
+            "sentiment": "Negative",
+            "compound": -0.878
+          },
+          {
+            "title": "Estate Planning for Business Owners: The Checklist That Keeps Your Company Alive Without You",
+            "source": "Addicted2success.com",
+            "publishedAt": "2026-11-04T17:29:11Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "Trump Media falls to an all-time low as Democrats take back Congress",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-11-04T17:26:31Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "Gold up 3%; experts split on whether rally can sustain in coming months",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-04T17:25:29Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Fox News Voter Poll: How Democrats took control of the Senate",
-            "source": "Fox News",
-            "publishedAt": "2026-11-04T17:13:22Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Florida homeowners can save thousands as voters approve giant new property tax break - but they need to act fast to secure the benefits",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-11-04T17:13:00Z",
-            "sentiment": "Positive",
-            "compound": 0.823
-          },
-          {
-            "title": "JD Vance's 'incredible admission' about GOP failure sends MAGA world into frenzy",
-            "source": "Raw Story",
-            "publishedAt": "2026-11-04T17:12:48Z",
+            "title": "Landslide sparks fears in Irish government that Trump could ramp up foreign policy aggression",
+            "source": "TheJournal.ie",
+            "publishedAt": "2026-11-04T17:23:42Z",
             "sentiment": "Negative",
-            "compound": -0.681
-          },
-          {
-            "title": "What’s next for US energy policy after the midterm elections?",
-            "source": "MIT Technology Review",
-            "publishedAt": "2026-11-04T17:08:00Z",
-            "sentiment": "Positive",
-            "compound": 0.273
-          },
-          {
-            "title": "Et tu, Junior? Trump's SON Don Jr joins JD Vance in attacking his father's Iran war for midterm disaster",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-11-04T17:06:27Z",
-            "sentiment": "Negative",
-            "compound": -0.9
+            "compound": -0.612
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 36.13,
-  "trade_probability": 41.68,
+  "confirmation_score": 35.28,
+  "trade_probability": 41.17,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
