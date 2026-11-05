@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T09:31:15.133167+00:00",
+  "generated_at": "2026-11-05T09:45:53.597516+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.75,
+      "score": 54.45,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.43,
-        "change_5d_pct": -0.594
+        "current_dxy": 101.47,
+        "change_5d_pct": -0.557
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.06,
+      "score": 55.99,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.041,
+        "avg_compound": 0.12,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "The Democrats’ ‘blue tsunami’ is a strong repudiation of Donald Trump. Now, they will look to replicate it in 2028",
+            "source": "The Conversation Africa",
+            "publishedAt": "2026-11-04T09:43:43Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
+          {
+            "title": "Tanishq bets on late festive pickup, wedding demand to drive growth",
+            "source": "BusinessLine",
+            "publishedAt": "2026-11-04T09:43:11Z",
+            "sentiment": "Positive",
+            "compound": 0.625
+          },
+          {
+            "title": "Credit Spreads: Calm On The Surface, Concern At The Bottom",
+            "source": "Realinvestmentadvice.com",
+            "publishedAt": "2026-11-04T09:39:00Z",
+            "sentiment": "Positive",
+            "compound": 0.599
+          },
           {
             "title": "New Zealand's central bank just made a grave error—Fed chair Kevin Warsh should learn from it",
             "source": "Livemint",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-04T09:29:16Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Political Islam, the Italian left and the battle for Italy's streets",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-04T09:28:01Z",
-            "sentiment": "Negative",
-            "compound": -0.382
-          },
-          {
-            "title": "Drought threatens India’s biofuels program targets – report",
-            "source": "Rt-english.com",
-            "publishedAt": "2026-11-04T09:26:34Z",
-            "sentiment": "Negative",
-            "compound": -0.382
-          },
-          {
-            "title": "Trump's full reaction to midterms: 'Too bad' voters were angry about fuel prices, shock that his rallies failed, and the Truth post that sums up his plan for next two years",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-11-04T09:21:38Z",
-            "sentiment": "Negative",
-            "compound": -0.886
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 59.69,
-  "trade_probability": 55.81,
+  "confirmation_score": 60.02,
+  "trade_probability": 56.01,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
