@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T11:01:27.272762+00:00",
+  "generated_at": "2026-11-05T11:15:52.482478+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.01,
+      "score": 53.95,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.53,
-        "change_5d_pct": -0.502
+        "current_dxy": 101.54,
+        "change_5d_pct": -0.494
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.81,
+      "score": 46.98,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.084,
+        "avg_compound": -0.06,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Stock markets celebrate a ‘stunning rebuke’: Trump says he will accept midterm losses—but don’t expect defeat to change him",
+            "source": "Fortune",
+            "publishedAt": "2026-11-04T11:09:47Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
+          {
+            "title": "Pillowy Steel Furniture Without a Stitch of Upholstery",
+            "source": "Yanko Design",
+            "publishedAt": "2026-11-04T11:07:08Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Chaos ahead: Democrats win big in US midterm elections, while Trump holds veto power",
+            "source": "BusinessLine",
+            "publishedAt": "2026-11-04T11:06:19Z",
+            "sentiment": "Neutral",
+            "compound": 0.026
+          },
           {
             "title": "Treasury minister Emma Reynolds humiliatingly backs off claim that employers 'are not working people' after outcry",
             "source": "Dailymail.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-04T11:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Agenda 2030 Is Rolling Out Live: The Real Two-Party System Behind The Curtain",
-            "source": "Activistpost.com",
-            "publishedAt": "2026-11-04T11:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "I Donated $50 to an Old Acquaintance’s GoFundMe. Then I Got an Outrageous Text.",
-            "source": "Slate Magazine",
-            "publishedAt": "2026-11-04T11:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.459
-          },
-          {
-            "title": "Trumpism Is Failing Because It Is Very, Very Stupid",
-            "source": "The New Republic",
-            "publishedAt": "2026-11-04T11:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.806
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 59.07,
-  "trade_probability": 55.44,
+  "confirmation_score": 59.17,
+  "trade_probability": 55.5,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
