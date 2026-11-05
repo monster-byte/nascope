@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T18:15:56.025842+00:00",
+  "generated_at": "2026-11-05T18:31:14.808497+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.6768,
+          "change_pct": -2.1554,
           "up": false
         },
         "MSFT": {
-          "change_pct": -2.8616,
+          "change_pct": -3.143,
           "up": false
         },
         "NVDA": {
-          "change_pct": -9.0082,
+          "change_pct": -9.1151,
           "up": false
         },
         "AMZN": {
-          "change_pct": -2.1962,
+          "change_pct": -2.5084,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26858.94,
-        "sma50": 29690.31,
-        "sma200": 27977.68
+        "last_price": 26787.61,
+        "sma50": 29688.88,
+        "sma200": 27977.32
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 0.0,
+      "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 37.41,
-        "percentile_vs_20d": 100.0
+        "current_vxn": 37.52,
+        "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 76.78,
+      "score": 75.34,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.822,
-        "change_5d_pct": -3.347
+        "current_yield_pct": 4.831,
+        "change_5d_pct": -3.167
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.98,
+      "score": 54.69,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.4,
-        "change_5d_pct": -0.622
+        "current_dxy": 101.44,
+        "change_5d_pct": -0.586
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.91,
+      "score": 43.8,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.082,
+        "avg_compound": -0.124,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Trump, GOP point fingers while bracing for Democratic takeover of Congress",
-            "source": "The Washington Post",
-            "publishedAt": "2026-11-04T18:14:03Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "JD Vance Throws Trump Under the Bus for Republicans’ Election Wipeout",
-            "source": "The New Republic",
-            "publishedAt": "2026-11-04T18:13:15Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Donald Trump's midterm drubbing demonstrates the power of data center opponents",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-04T18:12:52Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Apple stock price today hits record high: Why AAPL market cap surpasses $5 trillion after Democrats win midterm elections",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-04T18:09:09Z",
-            "sentiment": "Positive",
-            "compound": 0.586
-          },
-          {
-            "title": "STRC Stock Hits $100: How Could This Boost Bitcoin?",
-            "source": "Dcforecasts.com",
-            "publishedAt": "2026-11-04T18:07:12Z",
-            "sentiment": "Positive",
-            "compound": 0.481
-          },
-          {
-            "title": "Trump’s Next Trade War Could Be With Congress",
-            "source": "Foreign Policy",
-            "publishedAt": "2026-11-04T18:02:50Z",
+            "title": "Trump 'couldn't transfer the love' of his supporters to other Republicans amid historic midterm loss",
+            "source": "Fox News",
+            "publishedAt": "2026-11-04T18:30:39Z",
             "sentiment": "Negative",
-            "compound": -0.599
+            "compound": -0.415
+          },
+          {
+            "title": "Florida Voters Approve Property Tax Cuts, Raising Questions for CRE",
+            "source": "Commercial Observer",
+            "publishedAt": "2026-11-04T18:30:20Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "Silicon Valley’s Very Bad Night",
+            "source": "The Atlantic",
+            "publishedAt": "2026-11-04T18:30:19Z",
+            "sentiment": "Negative",
+            "compound": -0.585
+          },
+          {
+            "title": "U.S. stocks surge on expected two years of Washington DC gridlock; Apple jumps more than 6% to record territory",
+            "source": "Macdailynews.com",
+            "publishedAt": "2026-11-04T18:30:12Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Ada Merges With Dialpad to Forge Agentic CX Platform",
+            "source": "CMSWire",
+            "publishedAt": "2026-11-04T18:27:17Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "How Did Republicans Lose This Badly? Voters Turned Against Trump's Tariffs.",
+            "source": "Reason",
+            "publishedAt": "2026-11-04T18:25:58Z",
+            "sentiment": "Negative",
+            "compound": -0.745
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 35.7,
-  "trade_probability": 41.42,
+  "confirmation_score": 35.73,
+  "trade_probability": 41.44,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
