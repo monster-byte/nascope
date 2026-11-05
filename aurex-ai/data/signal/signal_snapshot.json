@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T01:15:51.224403+00:00",
+  "generated_at": "2026-11-05T01:31:07.144020+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 5.8556,
+          "change_pct": 5.8526,
           "up": true
         },
         "MSFT": {
@@ -25,7 +25,7 @@
           "up": true
         },
         "NVDA": {
-          "change_pct": -3.7624,
+          "change_pct": -3.76,
           "up": false
         },
         "AMZN": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 56.45,
+      "score": 57.16,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.37,
-        "change_5d_pct": -0.806
+        "current_dxy": 101.28,
+        "change_5d_pct": -0.895
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.37,
+      "score": 49.34,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.047,
+        "avg_compound": -0.013,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "The media’s favourite blame game: who caused the RBA rate rise?",
+            "source": "Crikey",
+            "publishedAt": "2026-11-04T01:30:37Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
+          {
+            "title": "Democrats’ blue wave may crash into a dead end",
+            "source": "New York Post",
+            "publishedAt": "2026-11-04T01:23:36Z",
+            "sentiment": "Negative",
+            "compound": -0.791
+          },
+          {
+            "title": "Pentagon Eyes Unprecedented 75-Year Deal to End China's Rare Earth Stranglehold",
+            "source": "OilPrice.com",
+            "publishedAt": "2026-11-04T01:22:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "QSBS Explained: The $15 Million Tax Break Most Founders Don’t Plan For",
+            "source": "Addicted2success.com",
+            "publishedAt": "2026-11-04T01:19:36Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Nasdaq 100 futures slide nearly 1.5% as Democratic sweep odds hit 95%",
             "source": "Crypto Briefing",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-04T01:10:32Z",
             "sentiment": "Positive",
             "compound": 0.361
-          },
-          {
-            "title": "US midterm elections 2026: Takeaways from the polls that will decide Trump's fate for next 2 years",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-04T01:09:21Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Election Night: Tech Futures Rise On AMD, Arista, Supermicro (Live)",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-04T01:08:45Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Global Market Today: Asian shares retreat as US futures slide on Midterm election bets",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-04T01:00:42Z",
-            "sentiment": "Positive",
-            "compound": 0.459
-          },
-          {
-            "title": "Anti-AI Tops Hit Product Predictions",
-            "source": "Newsonjapan.com",
-            "publishedAt": "2026-11-04T00:52:22Z",
-            "sentiment": "Positive",
-            "compound": 0.511
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 59.88,
-  "trade_probability": 55.93,
+  "confirmation_score": 59.67,
+  "trade_probability": 55.8,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
