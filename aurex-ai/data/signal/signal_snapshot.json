@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T19:15:56.445262+00:00",
+  "generated_at": "2026-11-05T19:31:18.499545+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.5211,
+          "change_pct": -1.794,
           "up": false
         },
         "MSFT": {
-          "change_pct": -2.6866,
+          "change_pct": -3.125,
           "up": false
         },
         "NVDA": {
-          "change_pct": -8.5285,
+          "change_pct": -9.2419,
           "up": false
         },
         "AMZN": {
-          "change_pct": -2.0344,
+          "change_pct": -2.5837,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26934.12,
-        "sma50": 29691.82,
-        "sma200": 27978.06
+        "last_price": 26786.47,
+        "sma50": 29688.86,
+        "sma200": 27977.32
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 0.0,
+      "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 37.48,
-        "percentile_vs_20d": 100.0
+        "current_vxn": 36.24,
+        "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 75.66,
+      "score": 74.69,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.829,
-        "change_5d_pct": -3.207
+        "current_yield_pct": 4.835,
+        "change_5d_pct": -3.087
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.33,
+      "score": 53.75,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.49,
-        "change_5d_pct": -0.541
+        "current_dxy": 101.56,
+        "change_5d_pct": -0.468
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 44.23,
+      "score": 45.85,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.115,
+        "avg_compound": -0.083,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "GridPoint Co-Founder Adrian De Luca Returns as CEO to Power New Battery Product",
-            "source": "Commercial Observer",
-            "publishedAt": "2026-11-04T19:13:43Z",
+            "title": "New Independent Research Names Omnicom Media a Leader in Media Management Services",
+            "source": "PR Newswire UK",
+            "publishedAt": "2026-11-04T19:30:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "A massive trade just happened in a leading mortgage lender: Watch Options Action Live",
-            "source": "CNBC",
-            "publishedAt": "2026-11-04T19:08:15Z",
+            "title": "Prop. 2: Californians vote to grow the state’s savings amid AI-driven economic boom",
+            "source": "KPBS",
+            "publishedAt": "2026-11-04T19:29:34Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Prediction: Nov. 6 Will Be a Huge Day for the Stock Market",
+            "title": "Election results AI question.",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-11-04T19:28:11Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Bitcoin Bounce After Midterms: Can BTC Reclaim $80K?",
+            "source": "Dcforecasts.com",
+            "publishedAt": "2026-11-04T19:26:36Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Microsoft Rallies as Political Risk Fades: What It Means for Your Retirement Fund",
             "source": "Biztoc.com",
-            "publishedAt": "2026-11-04T19:07:22Z",
-            "sentiment": "Positive",
-            "compound": 0.318
-          },
-          {
-            "title": "Is Broadcom Stock a Buy Now?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-04T19:07:04Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Midterms are bad for incumbents – and even worse when energy prices are high",
-            "source": "The Conversation Africa",
-            "publishedAt": "2026-11-04T19:06:28Z",
+            "publishedAt": "2026-11-04T19:18:32Z",
             "sentiment": "Negative",
-            "compound": -0.67
+            "compound": -0.273
           },
           {
-            "title": "Central Banks Just Bought Gold At Fastest Pace Since 2024, World Gold Council Says",
+            "title": "She’s Watching Inflation Hit 3.7% as Her Bills Keep Rising. Her 2027 Social Security Raise Is Already Locked at 3.6%",
             "source": "Biztoc.com",
-            "publishedAt": "2026-11-04T19:03:07Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "publishedAt": "2026-11-04T19:18:27Z",
+            "sentiment": "Positive",
+            "compound": 0.34
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 35.33,
-  "trade_probability": 41.2,
+  "confirmation_score": 35.75,
+  "trade_probability": 41.45,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
