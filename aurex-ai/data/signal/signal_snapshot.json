@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T11:31:10.036008+00:00",
+  "generated_at": "2026-11-05T11:45:55.914730+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.01,
+      "score": 53.57,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.53,
-        "change_5d_pct": -0.502
+        "current_dxy": 101.58,
+        "change_5d_pct": -0.446
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.0,
+      "score": 47.33,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.08,
-        "articles_analyzed": 23,
+        "avg_compound": -0.053,
+        "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "How Trump and Republicans lost the 2026 midterm elections, according to The AP Voter Poll",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-04T11:37:38Z",
+            "sentiment": "Negative",
+            "compound": -0.318
+          },
+          {
+            "title": "The Inflation Hot Potato",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-04T11:36:47Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "A blue wave sends futures into the green",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-04T11:36:21Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Eurostat: Energy and food push inflation to 5.6%",
+            "source": "Naftemporiki.gr",
+            "publishedAt": "2026-11-04T11:33:58Z",
+            "sentiment": "Positive",
+            "compound": 0.273
+          },
           {
             "title": "Dario Amodei envisions ‘a country of geniuses in a data center,’ Anthropic’s IPO filing reveals financial risks",
             "source": "Crypto Briefing",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-04T11:29:29Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "GTA home sales drop nearly 8% in October as buyers hesitate over economic uncertainty: real estate board",
-            "source": "CBC News",
-            "publishedAt": "2026-11-04T11:27:07Z",
-            "sentiment": "Negative",
-            "compound": -0.681
-          },
-          {
-            "title": "3 Nasdaq-100 Stocks That Can Double, According to Wall Street",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-04T11:23:40Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "India's services PMI hits four-month high in October as demand picks up",
-            "source": "Business Standard",
-            "publishedAt": "2026-11-04T11:20:48Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
-          },
-          {
-            "title": "Stock markets celebrate a ‘stunning rebuke’: Trump says he will accept midterm losses—but don’t expect defeat to change him",
-            "source": "Fortune",
-            "publishedAt": "2026-11-04T11:09:47Z",
-            "sentiment": "Positive",
-            "compound": 0.511
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 59.08,
-  "trade_probability": 55.45,
+  "confirmation_score": 59.16,
+  "trade_probability": 55.5,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
