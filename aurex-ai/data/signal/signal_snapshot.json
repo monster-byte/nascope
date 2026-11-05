@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T14:31:22.169503+00:00",
+  "generated_at": "2026-11-05T14:45:53.835892+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
-      "status": "green",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 1.0229,
+          "change_pct": 0.4373,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.1642,
-          "up": true
+          "change_pct": -1.2549,
+          "up": false
         },
         "NVDA": {
-          "change_pct": -2.9381,
+          "change_pct": -4.3948,
           "up": false
         },
         "AMZN": {
-          "change_pct": 2.1,
+          "change_pct": 0.2453,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27955.77,
-        "sma50": 29712.25,
-        "sma200": 27983.16
+        "last_price": 27602.03,
+        "sma50": 29705.17,
+        "sma200": 27981.39
       }
     },
     "vxn": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.1,
+      "score": 53.21,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.64,
-        "change_5d_pct": -0.387
+        "current_dxy": 101.63,
+        "change_5d_pct": -0.401
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.15,
+      "score": 52.69,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.063,
+        "avg_compound": 0.054,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Stock Market Today: Dow Eyes 2% Jump as AMD Earnings Ease AI Spending Fears",
+            "title": "Parabolic Technologies, Inc. Announces Pricing of $13.5 Million Underwritten Public Offering",
             "source": "Biztoc.com",
-            "publishedAt": "2026-11-04T14:26:02Z",
+            "publishedAt": "2026-11-04T14:44:33Z",
             "sentiment": "Neutral",
-            "compound": -0.077
+            "compound": 0.0
           },
           {
-            "title": "Bangladesh garment factories close as workers clash with police in pay protests",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-11-04T14:24:24Z",
-            "sentiment": "Negative",
-            "compound": -0.318
+            "title": "Mortgage Rates Today, Wednesday, November 4: Back Up",
+            "source": "NerdWallet",
+            "publishedAt": "2026-11-04T14:42:16Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Trump tariff taxes Republicans: What US midterm results mean for Indian H-1B visa holders, Russian oil & trade deal",
+            "title": "US stocks today: Dow Jones soars 1,000 points at open as Democrats win Congress; data center stocks slide",
             "source": "The Times of India",
-            "publishedAt": "2026-11-04T14:24:14Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "総余剰最大化金融政策",
-            "source": "Hatenablog.com",
-            "publishedAt": "2026-11-04T14:23:43Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Here’s What the Historic Blue Wave Means for Trump’s Climate Rollbacks",
-            "source": "Gizmodo.com",
-            "publishedAt": "2026-11-04T14:20:22Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Interest rates are rising in Sweden – what does that mean for your finances?",
-            "source": "The Local Sweden",
-            "publishedAt": "2026-11-04T14:19:13Z",
+            "publishedAt": "2026-11-04T14:41:36Z",
             "sentiment": "Positive",
-            "compound": 0.459
+            "compound": 0.586
+          },
+          {
+            "title": "Jim Cramer's top 10 things to watch in the stock market Wednesday",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-04T14:41:24Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "Circle USDC Hits $865M Revenue: What Does It Mean for Bitcoin?",
+            "source": "Dcforecasts.com",
+            "publishedAt": "2026-11-04T14:41:21Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "China steps up defence of stock market in bid to revive AI boom",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-04T14:41:01Z",
+            "sentiment": "Positive",
+            "compound": 0.421
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 58.01,
-  "trade_probability": 54.81,
+  "confirmation_score": 51.23,
+  "trade_probability": 50.74,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
