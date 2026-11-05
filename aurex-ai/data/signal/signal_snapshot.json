@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T17:45:58.138359+00:00",
+  "generated_at": "2026-11-05T18:01:28.786182+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.6425,
+          "change_pct": -1.9797,
           "up": false
         },
         "MSFT": {
-          "change_pct": -2.6234,
+          "change_pct": -2.8318,
           "up": false
         },
         "NVDA": {
-          "change_pct": -9.0579,
+          "change_pct": -9.4407,
           "up": false
         },
         "AMZN": {
-          "change_pct": -2.0269,
+          "change_pct": -2.0232,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26831.08,
-        "sma50": 29689.75,
-        "sma200": 27977.54
+        "last_price": 26746.77,
+        "sma50": 29688.07,
+        "sma200": 27977.12
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 0.0,
+      "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 35.85,
-        "percentile_vs_20d": 100.0
+        "current_vxn": 36.59,
+        "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 73.73,
+      "score": 75.34,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.841,
-        "change_5d_pct": -2.967
+        "current_yield_pct": 4.831,
+        "change_5d_pct": -3.167
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.7,
+      "score": 54.91,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.44,
-        "change_5d_pct": -0.588
+        "current_dxy": 101.41,
+        "change_5d_pct": -0.613
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 41.36,
-      "status": "yellow",
+      "score": 39.16,
+      "status": "red",
       "details": {
-        "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.173,
+        "overall_sentiment": "BEARISH",
+        "avg_compound": -0.217,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Apple Rallies as Big Tech Comes Back: What It Means for Your Index Fund",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-04T17:45:31Z",
+            "title": "The 20 percent threshold that can trigger an inflation surge",
+            "source": "Yale.edu",
+            "publishedAt": "2026-11-04T18:00:05Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Tokenized Stocks: How Could Nasdaq’s Plan Impact Bitcoin?",
-            "source": "Dcforecasts.com",
-            "publishedAt": "2026-11-04T17:44:11Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Vance: Republicans Lost Midterms Because of Iran War",
-            "source": "Breitbart News",
-            "publishedAt": "2026-11-04T17:40:08Z",
+            "title": "Will Trump's midterms wipeout hit Australia's already shaky economy?",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-11-04T18:00:00Z",
             "sentiment": "Negative",
-            "compound": -0.735
+            "compound": -0.226
           },
           {
-            "title": "Gold and silver prices jump as Democrats win Congress",
-            "source": "Rolling Out",
-            "publishedAt": "2026-11-04T17:35:09Z",
-            "sentiment": "Positive",
-            "compound": 0.586
-          },
-          {
-            "title": "European Stocks Rally in Wednesday Trading Following US Elections; Euro Area Inflation Rises",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-04T17:33:01Z",
+            "title": "These trans and nonbinary candidates just made history",
+            "source": "Out.com",
+            "publishedAt": "2026-11-04T17:59:05Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Marvell Stock Has Plunged 46% Since Jensen Huang Called It the Next $1 Trillion Company. Here's Why",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-04T17:32:40Z",
+            "title": "US midterm elections 2026: Trump is ducking blame for Republican losses. It's a familiar pattern for him",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-04T17:58:04Z",
+            "sentiment": "Negative",
+            "compound": -0.625
+          },
+          {
+            "title": "These trans and nonbinary candidates just made history",
+            "source": "Advocate.com",
+            "publishedAt": "2026-11-04T17:58:02Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "Here you go again: Blame the Jews!",
+            "source": "Israelnationalnews.com",
+            "publishedAt": "2026-11-04T17:55:00Z",
+            "sentiment": "Negative",
+            "compound": -0.4
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 34.85,
-  "trade_probability": 40.91,
+  "confirmation_score": 35.34,
+  "trade_probability": 41.2,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
