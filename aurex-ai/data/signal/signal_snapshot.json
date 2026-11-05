@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T15:45:57.915835+00:00",
+  "generated_at": "2026-11-05T16:15:55.615127+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.5498,
+          "change_pct": -0.8969,
           "up": false
         },
         "MSFT": {
-          "change_pct": -2.8544,
+          "change_pct": -2.443,
           "up": false
         },
         "NVDA": {
-          "change_pct": -8.3594,
+          "change_pct": -7.8946,
           "up": false
         },
         "AMZN": {
-          "change_pct": -3.6645,
+          "change_pct": -3.1141,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26923.05,
-        "sma50": 29691.59,
-        "sma200": 27978.0
+        "last_price": 27016.57,
+        "sma50": 29693.46,
+        "sma200": 27978.47
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 0.0,
+      "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 34.46,
-        "percentile_vs_20d": 100.0
+        "current_vxn": 36.79,
+        "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 68.12,
+      "score": 74.69,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.876,
-        "change_5d_pct": -2.265
+        "current_yield_pct": 4.835,
+        "change_5d_pct": -3.087
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.82,
+      "score": 53.68,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.55,
-        "change_5d_pct": -0.477
+        "current_dxy": 101.57,
+        "change_5d_pct": -0.46
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.68,
+      "score": 49.02,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.094,
+        "avg_compound": -0.02,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Orkla India Q2 PAT rises 19.2% to ₹91 crore, revenue up 19.4%",
-            "source": "BusinessLine",
-            "publishedAt": "2026-11-04T15:45:44Z",
+            "title": "In the name Of Don Trump",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-04T16:14:54Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Stock markets roar and Dow rallies staggering 1,100 points after resounding Democratic midterms win",
+            "title": "JD Vance hits out at Trump's war in Iran in stunning rebuke as he fights for his political future after the midterms",
             "source": "Dailymail.com",
-            "publishedAt": "2026-11-04T15:45:43Z",
+            "publishedAt": "2026-11-04T16:14:37Z",
+            "sentiment": "Negative",
+            "compound": -0.612
+          },
+          {
+            "title": "Eric Trump warns Bitcoin’s low transfer fees threaten financial institutions",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-04T16:13:38Z",
+            "sentiment": "Negative",
+            "compound": -0.625
+          },
+          {
+            "title": "Bitcoin Rises, Crypto Stocks Mixed As Midterms Dampen AI Outlook",
+            "source": "Investor's Business Daily",
+            "publishedAt": "2026-11-04T16:11:56Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Fox News Voter Poll: 2026 midterm elections usher in a blue wave as Democrats win control of Congress",
+            "source": "Fox News",
+            "publishedAt": "2026-11-04T16:10:00Z",
             "sentiment": "Positive",
             "compound": 0.586
           },
           {
-            "title": "Why the stock market is unexpectedly rallying in the wake of the Democratic blue wave",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-04T15:45:40Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Amazon Stock Fell After Earnings. Should Investors Be Worried?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-04T15:45:38Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
-          },
-          {
-            "title": "Apple, Microsoft hit all-time highs as Nasdaq surges 2% in post-election rally: AlphaCheck",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-04T15:45:36Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Stock Market Today (Nov. 4, 2026): Nasdaq climbs as Democrats take House and Senate",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-04T15:45:07Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "World stocks rally as investors expect more political certainty after Democrats' win",
+            "source": "CNA",
+            "publishedAt": "2026-11-04T16:09:45Z",
+            "sentiment": "Positive",
+            "compound": 0.725
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 35.21,
-  "trade_probability": 41.13,
+  "confirmation_score": 36.03,
+  "trade_probability": 41.62,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
