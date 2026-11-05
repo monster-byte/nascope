@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T18:01:28.786182+00:00",
+  "generated_at": "2026-11-05T18:15:56.025842+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.9797,
+          "change_pct": -1.6768,
           "up": false
         },
         "MSFT": {
-          "change_pct": -2.8318,
+          "change_pct": -2.8616,
           "up": false
         },
         "NVDA": {
-          "change_pct": -9.4407,
+          "change_pct": -9.0082,
           "up": false
         },
         "AMZN": {
-          "change_pct": -2.0232,
+          "change_pct": -2.1962,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26746.77,
-        "sma50": 29688.07,
-        "sma200": 27977.12
+        "last_price": 26858.94,
+        "sma50": 29690.31,
+        "sma200": 27977.68
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 5.0,
+      "score": 0.0,
       "status": "red",
       "details": {
-        "current_vxn": 36.59,
-        "percentile_vs_20d": 95.0
+        "current_vxn": 37.41,
+        "percentile_vs_20d": 100.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 75.34,
+      "score": 76.78,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.831,
-        "change_5d_pct": -3.167
+        "current_yield_pct": 4.822,
+        "change_5d_pct": -3.347
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.91,
+      "score": 54.98,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.41,
-        "change_5d_pct": -0.613
+        "current_dxy": 101.4,
+        "change_5d_pct": -0.622
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 39.16,
-      "status": "red",
+      "score": 45.91,
+      "status": "yellow",
       "details": {
-        "overall_sentiment": "BEARISH",
-        "avg_compound": -0.217,
+        "overall_sentiment": "NEUTRAL",
+        "avg_compound": -0.082,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "The 20 percent threshold that can trigger an inflation surge",
-            "source": "Yale.edu",
-            "publishedAt": "2026-11-04T18:00:05Z",
+            "title": "Trump, GOP point fingers while bracing for Democratic takeover of Congress",
+            "source": "The Washington Post",
+            "publishedAt": "2026-11-04T18:14:03Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Will Trump's midterms wipeout hit Australia's already shaky economy?",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-11-04T18:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.226
-          },
-          {
-            "title": "These trans and nonbinary candidates just made history",
-            "source": "Out.com",
-            "publishedAt": "2026-11-04T17:59:05Z",
+            "title": "JD Vance Throws Trump Under the Bus for Republicans’ Election Wipeout",
+            "source": "The New Republic",
+            "publishedAt": "2026-11-04T18:13:15Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "US midterm elections 2026: Trump is ducking blame for Republican losses. It's a familiar pattern for him",
+            "title": "Donald Trump's midterm drubbing demonstrates the power of data center opponents",
             "source": "The Times of India",
-            "publishedAt": "2026-11-04T17:58:04Z",
-            "sentiment": "Negative",
-            "compound": -0.625
-          },
-          {
-            "title": "These trans and nonbinary candidates just made history",
-            "source": "Advocate.com",
-            "publishedAt": "2026-11-04T17:58:02Z",
+            "publishedAt": "2026-11-04T18:12:52Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Here you go again: Blame the Jews!",
-            "source": "Israelnationalnews.com",
-            "publishedAt": "2026-11-04T17:55:00Z",
+            "title": "Apple stock price today hits record high: Why AAPL market cap surpasses $5 trillion after Democrats win midterm elections",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-04T18:09:09Z",
+            "sentiment": "Positive",
+            "compound": 0.586
+          },
+          {
+            "title": "STRC Stock Hits $100: How Could This Boost Bitcoin?",
+            "source": "Dcforecasts.com",
+            "publishedAt": "2026-11-04T18:07:12Z",
+            "sentiment": "Positive",
+            "compound": 0.481
+          },
+          {
+            "title": "Trump’s Next Trade War Could Be With Congress",
+            "source": "Foreign Policy",
+            "publishedAt": "2026-11-04T18:02:50Z",
             "sentiment": "Negative",
-            "compound": -0.4
+            "compound": -0.599
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 35.34,
-  "trade_probability": 41.2,
+  "confirmation_score": 35.7,
+  "trade_probability": 41.42,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
