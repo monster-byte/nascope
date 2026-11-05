@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T16:31:13.886720+00:00",
+  "generated_at": "2026-11-05T16:45:58.835582+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.9455,
+          "change_pct": -1.1954,
           "up": false
         },
         "MSFT": {
-          "change_pct": -2.0226,
+          "change_pct": -2.2211,
           "up": false
         },
         "NVDA": {
-          "change_pct": -7.3875,
+          "change_pct": -7.3229,
           "up": false
         },
         "AMZN": {
-          "change_pct": -2.4031,
+          "change_pct": -1.8006,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27157.13,
-        "sma50": 29696.28,
-        "sma200": 27979.17
+        "last_price": 27037.65,
+        "sma50": 29693.89,
+        "sma200": 27978.57
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 0.0,
       "status": "red",
       "details": {
-        "current_vxn": 35.53,
+        "current_vxn": 33.94,
         "percentile_vs_20d": 100.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 74.05,
+      "score": 73.09,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.839,
-        "change_5d_pct": -3.007
+        "current_yield_pct": 4.845,
+        "change_5d_pct": -2.886
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.86,
+      "score": 54.09,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.55,
-        "change_5d_pct": -0.482
+        "current_dxy": 101.52,
+        "change_5d_pct": -0.512
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.97,
+      "score": 44.41,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.001,
+        "avg_compound": -0.112,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Orkla India’s revenue rises 19.4% in Q2, but volume growth remains subdued",
-            "source": "Livemint",
-            "publishedAt": "2026-11-04T16:30:22Z",
-            "sentiment": "Positive",
-            "compound": 0.527
-          },
-          {
-            "title": "Consumer Stocks Surge As Democratic Sweep Fuels Bets On Reversing Trump's Welfare Cuts",
+            "title": "Are 6% Treasury Yields the New Normal? | Presented by CME Group",
             "source": "Biztoc.com",
-            "publishedAt": "2026-11-04T16:29:14Z",
-            "sentiment": "Negative",
-            "compound": -0.296
-          },
-          {
-            "title": "SharonAI Holdings shares plunge 52% amid funding concerns",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-04T16:28:06Z",
+            "publishedAt": "2026-11-04T16:44:36Z",
             "sentiment": "Positive",
-            "compound": 0.296
+            "compound": 0.202
           },
           {
-            "title": "JD Vance blames Israel for midterm losses",
-            "source": "Israelnationalnews.com",
-            "publishedAt": "2026-11-04T16:27:07Z",
+            "title": "Stocks Jumped After the Democratic Wave. The Bigger Tailwind Isn’t Which Party Won",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-04T16:44:18Z",
+            "sentiment": "Positive",
+            "compound": 0.751
+          },
+          {
+            "title": "Vance says the ‘real reason’ for GOP rout was anger over Iran war",
+            "source": "NBC News",
+            "publishedAt": "2026-11-04T16:42:23Z",
             "sentiment": "Negative",
-            "compound": -0.66
+            "compound": -0.823
           },
           {
-            "title": "GOP has no easy way out of corner Trump backed them into 10 years ago: analysis",
-            "source": "Raw Story",
-            "publishedAt": "2026-11-04T16:25:34Z",
+            "title": "Vance blames Iran conflict for GOP defeats: \"The reason we lost is the war\"",
+            "source": "CBS News",
+            "publishedAt": "2026-11-04T16:41:41Z",
             "sentiment": "Negative",
-            "compound": -0.32
+            "compound": -0.91
           },
           {
-            "title": "Stocks surge after Trump's election rout",
-            "source": "CNA",
-            "publishedAt": "2026-11-04T16:22:12Z",
+            "title": "オンセミ、2026年度第3四半期決算を発表",
+            "source": "Prtimes.jp",
+            "publishedAt": "2026-11-04T16:40:01Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "Wall Street rallies after Democrats win Congress, data center stocks slide",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-04T16:39:31Z",
+            "sentiment": "Positive",
+            "compound": 0.586
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 35.59,
-  "trade_probability": 41.35,
+  "confirmation_score": 34.98,
+  "trade_probability": 40.99,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
