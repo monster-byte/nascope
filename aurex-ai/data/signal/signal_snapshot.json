@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T19:31:18.499545+00:00",
+  "generated_at": "2026-11-05T19:45:59.023468+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.794,
+          "change_pct": -1.4826,
           "up": false
         },
         "MSFT": {
-          "change_pct": -3.125,
+          "change_pct": -2.5747,
           "up": false
         },
         "NVDA": {
-          "change_pct": -9.2419,
+          "change_pct": -8.2873,
           "up": false
         },
         "AMZN": {
-          "change_pct": -2.5837,
+          "change_pct": -1.7298,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26786.47,
-        "sma50": 29688.86,
-        "sma200": 27977.32
+        "last_price": 26992.13,
+        "sma50": 29692.98,
+        "sma200": 27978.35
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 5.0,
+      "score": 0.0,
       "status": "red",
       "details": {
-        "current_vxn": 36.24,
-        "percentile_vs_20d": 95.0
+        "current_vxn": 37.1,
+        "percentile_vs_20d": 100.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 74.69,
+      "score": 75.98,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.835,
-        "change_5d_pct": -3.087
+        "current_yield_pct": 4.827,
+        "change_5d_pct": -3.247
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.75,
+      "score": 53.72,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.56,
-        "change_5d_pct": -0.468
+        "current_dxy": 101.57,
+        "change_5d_pct": -0.465
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.85,
+      "score": 43.2,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.083,
+        "avg_compound": -0.136,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Early childhood educators call out Ontario after memo reveals no hourly increase in 2027",
+            "source": "CBC News",
+            "publishedAt": "2026-11-04T19:45:47Z",
+            "sentiment": "Negative",
+            "compound": -0.487
+          },
+          {
+            "title": "Dow Soars 1,200 Points, S&P 500 and Nasdaq Jump 2% as Wall Street Celebrates Midterm Results",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-04T19:37:44Z",
+            "sentiment": "Positive",
+            "compound": 0.572
+          },
+          {
+            "title": "Hyperscalers and Apple surge after election results remove investor uncertainty",
+            "source": "CNBC",
+            "publishedAt": "2026-11-04T19:37:43Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
+          {
+            "title": "Andreessen Horowitz asks whether private equity is cooked as tech buyouts shrink",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-04T19:36:01Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Vance Blames Iran War For Republican Midterm Election Defeats",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-04T19:34:17Z",
+            "sentiment": "Negative",
+            "compound": -0.836
+          },
           {
             "title": "New Independent Research Names Omnicom Media a Leader in Media Management Services",
             "source": "PR Newswire UK",
             "publishedAt": "2026-11-04T19:30:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Prop. 2: Californians vote to grow the state’s savings amid AI-driven economic boom",
-            "source": "KPBS",
-            "publishedAt": "2026-11-04T19:29:34Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Election results AI question.",
-            "source": "Freerepublic.com",
-            "publishedAt": "2026-11-04T19:28:11Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Bitcoin Bounce After Midterms: Can BTC Reclaim $80K?",
-            "source": "Dcforecasts.com",
-            "publishedAt": "2026-11-04T19:26:36Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Microsoft Rallies as Political Risk Fades: What It Means for Your Retirement Fund",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-04T19:18:32Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "She’s Watching Inflation Hit 3.7% as Her Bills Keep Rising. Her 2027 Social Security Raise Is Already Locked at 3.6%",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-04T19:18:27Z",
-            "sentiment": "Positive",
-            "compound": 0.34
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 35.75,
-  "trade_probability": 41.45,
+  "confirmation_score": 35.23,
+  "trade_probability": 41.14,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
