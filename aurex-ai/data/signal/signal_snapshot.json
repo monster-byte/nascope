@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T15:31:12.612291+00:00",
+  "generated_at": "2026-11-05T15:45:57.915835+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.0655,
+          "change_pct": -0.5498,
           "up": false
         },
         "MSFT": {
-          "change_pct": -2.1877,
+          "change_pct": -2.8544,
           "up": false
         },
         "NVDA": {
-          "change_pct": -6.9848,
+          "change_pct": -8.3594,
           "up": false
         },
         "AMZN": {
-          "change_pct": -3.2082,
+          "change_pct": -3.6645,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27145.75,
-        "sma50": 29696.05,
-        "sma200": 27979.11
+        "last_price": 26923.05,
+        "sma50": 29691.59,
+        "sma200": 27978.0
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 5.0,
+      "score": 0.0,
       "status": "red",
       "details": {
-        "current_vxn": 32.56,
-        "percentile_vs_20d": 95.0
+        "current_vxn": 34.46,
+        "percentile_vs_20d": 100.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 69.88,
+      "score": 68.12,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.865,
-        "change_5d_pct": -2.485
+        "current_yield_pct": 4.876,
+        "change_5d_pct": -2.265
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.73,
+      "score": 53.82,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.56,
-        "change_5d_pct": -0.466
+        "current_dxy": 101.55,
+        "change_5d_pct": -0.477
       }
     },
     "macro": {
@@ -85,10 +85,56 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.0,
+      "score": 54.68,
       "status": "yellow",
       "details": {
-        "error": "news_fetch_failed: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?q=Nasdaq+OR+%22Federal+Reserve%22+OR+%22stock+market%22+OR+inflation&language=en&sortBy=publishedAt&pageSize=25&apiKey=280ea038bd7e4ccb91d87f9d115484d4"
+        "overall_sentiment": "NEUTRAL",
+        "avg_compound": 0.094,
+        "articles_analyzed": 25,
+        "top_headlines": [
+          {
+            "title": "Orkla India Q2 PAT rises 19.2% to ₹91 crore, revenue up 19.4%",
+            "source": "BusinessLine",
+            "publishedAt": "2026-11-04T15:45:44Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Stock markets roar and Dow rallies staggering 1,100 points after resounding Democratic midterms win",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-11-04T15:45:43Z",
+            "sentiment": "Positive",
+            "compound": 0.586
+          },
+          {
+            "title": "Why the stock market is unexpectedly rallying in the wake of the Democratic blue wave",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-04T15:45:40Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Amazon Stock Fell After Earnings. Should Investors Be Worried?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-04T15:45:38Z",
+            "sentiment": "Neutral",
+            "compound": -0.128
+          },
+          {
+            "title": "Apple, Microsoft hit all-time highs as Nasdaq surges 2% in post-election rally: AlphaCheck",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-04T15:45:36Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Stock Market Today (Nov. 4, 2026): Nasdaq climbs as Democrats take House and Senate",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-04T15:45:07Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          }
+        ]
       }
     },
     "patent_momentum": {
@@ -100,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 35.47,
-  "trade_probability": 41.28,
+  "confirmation_score": 35.21,
+  "trade_probability": 41.13,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
