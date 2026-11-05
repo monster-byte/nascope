@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T16:15:55.615127+00:00",
+  "generated_at": "2026-11-05T16:31:13.886720+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.8969,
+          "change_pct": -0.9455,
           "up": false
         },
         "MSFT": {
-          "change_pct": -2.443,
+          "change_pct": -2.0226,
           "up": false
         },
         "NVDA": {
-          "change_pct": -7.8946,
+          "change_pct": -7.3875,
           "up": false
         },
         "AMZN": {
-          "change_pct": -3.1141,
+          "change_pct": -2.4031,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27016.57,
-        "sma50": 29693.46,
-        "sma200": 27978.47
+        "last_price": 27157.13,
+        "sma50": 29696.28,
+        "sma200": 27979.17
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 5.0,
+      "score": 0.0,
       "status": "red",
       "details": {
-        "current_vxn": 36.79,
-        "percentile_vs_20d": 95.0
+        "current_vxn": 35.53,
+        "percentile_vs_20d": 100.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 74.69,
+      "score": 74.05,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.835,
-        "change_5d_pct": -3.087
+        "current_yield_pct": 4.839,
+        "change_5d_pct": -3.007
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.68,
+      "score": 53.86,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.57,
-        "change_5d_pct": -0.46
+        "current_dxy": 101.55,
+        "change_5d_pct": -0.482
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.02,
+      "score": 49.97,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.02,
+        "avg_compound": -0.001,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "In the name Of Don Trump",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-04T16:14:54Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Orkla India’s revenue rises 19.4% in Q2, but volume growth remains subdued",
+            "source": "Livemint",
+            "publishedAt": "2026-11-04T16:30:22Z",
+            "sentiment": "Positive",
+            "compound": 0.527
           },
           {
-            "title": "JD Vance hits out at Trump's war in Iran in stunning rebuke as he fights for his political future after the midterms",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-11-04T16:14:37Z",
+            "title": "Consumer Stocks Surge As Democratic Sweep Fuels Bets On Reversing Trump's Welfare Cuts",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-04T16:29:14Z",
             "sentiment": "Negative",
-            "compound": -0.612
+            "compound": -0.296
           },
           {
-            "title": "Eric Trump warns Bitcoin’s low transfer fees threaten financial institutions",
+            "title": "SharonAI Holdings shares plunge 52% amid funding concerns",
             "source": "Crypto Briefing",
-            "publishedAt": "2026-11-04T16:13:38Z",
-            "sentiment": "Negative",
-            "compound": -0.625
+            "publishedAt": "2026-11-04T16:28:06Z",
+            "sentiment": "Positive",
+            "compound": 0.296
           },
           {
-            "title": "Bitcoin Rises, Crypto Stocks Mixed As Midterms Dampen AI Outlook",
-            "source": "Investor's Business Daily",
-            "publishedAt": "2026-11-04T16:11:56Z",
+            "title": "JD Vance blames Israel for midterm losses",
+            "source": "Israelnationalnews.com",
+            "publishedAt": "2026-11-04T16:27:07Z",
+            "sentiment": "Negative",
+            "compound": -0.66
+          },
+          {
+            "title": "GOP has no easy way out of corner Trump backed them into 10 years ago: analysis",
+            "source": "Raw Story",
+            "publishedAt": "2026-11-04T16:25:34Z",
+            "sentiment": "Negative",
+            "compound": -0.32
+          },
+          {
+            "title": "Stocks surge after Trump's election rout",
+            "source": "CNA",
+            "publishedAt": "2026-11-04T16:22:12Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Fox News Voter Poll: 2026 midterm elections usher in a blue wave as Democrats win control of Congress",
-            "source": "Fox News",
-            "publishedAt": "2026-11-04T16:10:00Z",
-            "sentiment": "Positive",
-            "compound": 0.586
-          },
-          {
-            "title": "World stocks rally as investors expect more political certainty after Democrats' win",
-            "source": "CNA",
-            "publishedAt": "2026-11-04T16:09:45Z",
-            "sentiment": "Positive",
-            "compound": 0.725
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 36.03,
-  "trade_probability": 41.62,
+  "confirmation_score": 35.59,
+  "trade_probability": 41.35,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
