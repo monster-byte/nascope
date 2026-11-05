@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T06:53:19.398367+00:00",
+  "generated_at": "2026-11-05T07:01:34.717604+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 56.11,
+      "score": 56.33,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.26,
-        "change_5d_pct": -0.763
+        "current_dxy": 101.23,
+        "change_5d_pct": -0.791
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.84,
+      "score": 51.2,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.077,
+        "avg_compound": 0.024,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "US stock futures tumble as Democrats score key midterm election wins",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-04T07:00:07Z",
+            "sentiment": "Positive",
+            "compound": 0.572
+          },
+          {
+            "title": "Allahabad University shifts classes online for November 4, 5; faculty to follow regular timetable: Check complete details here",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-04T06:59:03Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Why did voters (finally) hand Trump a historic defeat?",
+            "source": "Vox",
+            "publishedAt": "2026-11-04T06:55:28Z",
+            "sentiment": "Neutral",
+            "compound": 0.052
+          },
+          {
+            "title": "Blast damages Rajasthan railway track near Pakistan border, suspected plot to derail train under probe",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-04T06:53:37Z",
+            "sentiment": "Negative",
+            "compound": -0.718
+          },
           {
             "title": "$445m down the drain? Elon Musk's Republican gamble fails; 'guess my election-interfering space lasers didn’t work'",
             "source": "The Times of India",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-04T06:51:49Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Parag Milk Foods shares surge 13% as firm posts highest-ever revenue in Q2",
-            "source": "Business Standard",
-            "publishedAt": "2026-11-04T06:50:05Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "Haryana's air turns toxic ahead of Diwali: AQI crosses 300 in 5 cities; Bahadurgarh among worst hit",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-04T06:48:40Z",
-            "sentiment": "Negative",
-            "compound": -0.625
-          },
-          {
-            "title": "Watch: Gas cylinder explodes in Bengaluru after leaking gas catches flame from oil lamp; delivery worker escapes without injuries",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-04T06:48:02Z",
-            "sentiment": "Neutral",
-            "compound": 0.128
-          },
-          {
-            "title": "Voters were sick of incumbents. Tuesday was only the third time in 50 years a party lost control of both chambers of Congress at once",
-            "source": "Fortune",
-            "publishedAt": "2026-11-04T06:46:53Z",
-            "sentiment": "Negative",
-            "compound": -0.44
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 59.98,
-  "trade_probability": 55.99,
+  "confirmation_score": 59.76,
+  "trade_probability": 55.86,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
