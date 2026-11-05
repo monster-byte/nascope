@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T20:15:55.153243+00:00",
+  "generated_at": "2026-11-05T20:31:18.058998+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.4754,
+          "change_pct": -1.48,
           "up": false
         },
         "MSFT": {
-          "change_pct": -3.3208,
+          "change_pct": -3.6807,
           "up": false
         },
         "NVDA": {
-          "change_pct": -9.1424,
+          "change_pct": -9.3712,
           "up": false
         },
         "AMZN": {
-          "change_pct": -2.4633,
+          "change_pct": -2.6777,
           "up": false
         }
       }
@@ -40,18 +40,18 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26773.97,
-        "sma50": 29688.61,
-        "sma200": 27977.25
+        "last_price": 26698.42,
+        "sma50": 29687.1,
+        "sma200": 27976.88
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 5.0,
+      "score": 0.0,
       "status": "red",
       "details": {
-        "current_vxn": 35.27,
-        "percentile_vs_20d": 95.0
+        "current_vxn": 37.01,
+        "percentile_vs_20d": 100.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.76,
+      "score": 53.87,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.56,
-        "change_5d_pct": -0.47
+        "current_dxy": 101.55,
+        "change_5d_pct": -0.484
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.79,
+      "score": 53.27,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.036,
+        "avg_compound": 0.065,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Dow jumps over 1,500 points in response to Democrats' control of Congress",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-11-04T20:12:07Z",
+            "title": "Vance 2028 Is Here",
+            "source": "The Atlantic",
+            "publishedAt": "2026-11-04T20:30:46Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Democrat wins will slow data center construction and force tech to the negotiating table after even Republican stronghold of Texas flips",
-            "source": "Fortune",
-            "publishedAt": "2026-11-04T20:07:50Z",
-            "sentiment": "Positive",
-            "compound": 0.637
-          },
-          {
-            "title": "Megadonors Poured Fortunes Into Midterms. Here’s What Bang They Got For Their Buck.",
-            "source": "The Daily Caller",
-            "publishedAt": "2026-11-04T20:05:49Z",
+            "title": "Qualcomm braces for Q4 earnings amid a smartphone slump",
+            "source": "Rolling Out",
+            "publishedAt": "2026-11-04T20:30:33Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "MAGA Tech VCs Whine Like Babies After Democratic Sweep",
-            "source": "Gizmodo.com",
-            "publishedAt": "2026-11-04T20:05:14Z",
+            "title": "JD Vance blames Iran war for midterm thumping. Is he really blaming Trump?",
+            "source": "CBC News",
+            "publishedAt": "2026-11-04T20:27:48Z",
+            "sentiment": "Negative",
+            "compound": -0.878
+          },
+          {
+            "title": "Lululemon Stock Is Down 48% in 2026. Is It a Buy Before 2027?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-04T20:24:09Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "What investing pros see ahead for markets after the Democrats win Congress",
-            "source": "Business Insider",
-            "publishedAt": "2026-11-04T20:04:00Z",
-            "sentiment": "Positive",
-            "compound": 0.586
+            "title": "Blue Reckoning",
+            "source": "Richmondmagazine.com",
+            "publishedAt": "2026-11-04T20:24:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Don’t get drowned by the Blue Wave: Washington’s leftward lurch means it’s time to protect your wealth",
-            "source": "New York Post",
-            "publishedAt": "2026-11-04T20:02:54Z",
+            "title": "Is Kimberly-Clark the Safest Dividend Stock You Can Buy Now?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-04T20:23:44Z",
             "sentiment": "Positive",
-            "compound": 0.226
+            "compound": 0.402
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 36.24,
-  "trade_probability": 41.74,
+  "confirmation_score": 35.93,
+  "trade_probability": 41.56,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
