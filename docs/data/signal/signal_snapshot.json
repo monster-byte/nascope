@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T17:01:30.511620+00:00",
+  "generated_at": "2026-11-05T17:15:50.987769+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.414,
+          "change_pct": -1.3983,
           "up": false
         },
         "MSFT": {
-          "change_pct": -2.2429,
+          "change_pct": -2.2698,
           "up": false
         },
         "NVDA": {
-          "change_pct": -7.7107,
+          "change_pct": -7.7736,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.6564,
+          "change_pct": -1.5792,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26960.07,
-        "sma50": 29692.33,
-        "sma200": 27978.18
+        "last_price": 26973.75,
+        "sma50": 29692.61,
+        "sma200": 27978.25
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 0.0,
+      "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 34.94,
-        "percentile_vs_20d": 100.0
+        "current_vxn": 35.11,
+        "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 75.34,
+      "score": 74.69,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.831,
-        "change_5d_pct": -3.167
+        "current_yield_pct": 4.835,
+        "change_5d_pct": -3.087
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 54.56,
+      "score": 54.72,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.46,
-        "change_5d_pct": -0.57
+        "current_dxy": 101.44,
+        "change_5d_pct": -0.59
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 41.93,
+      "score": 49.15,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.161,
+        "avg_compound": -0.017,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "The 'Vibe Shift' Was Real, but It Wasn't What the GOP Thought It Was",
-            "source": "Reason",
-            "publishedAt": "2026-11-04T17:00:47Z",
+            "title": "Stocks surge after Trump’s election rout",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-11-04T17:15:13Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Are Silicon Valley Podcasts Ready for the Techlash?",
-            "source": "Vulture",
-            "publishedAt": "2026-11-04T17:00:06Z",
+            "title": "Fox News Voter Poll: How Democrats took control of the Senate",
+            "source": "Fox News",
+            "publishedAt": "2026-11-04T17:13:22Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Florida homeowners can save thousands as voters approve giant new property tax break - but they need to act fast to secure the benefits",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-11-04T17:13:00Z",
             "sentiment": "Positive",
-            "compound": 0.361
+            "compound": 0.823
           },
           {
-            "title": "Tesla’s Five Year Stock Price Turns Negative",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-04T16:59:51Z",
+            "title": "JD Vance's 'incredible admission' about GOP failure sends MAGA world into frenzy",
+            "source": "Raw Story",
+            "publishedAt": "2026-11-04T17:12:48Z",
             "sentiment": "Negative",
-            "compound": -0.572
+            "compound": -0.681
           },
           {
-            "title": "Riot Platforms Sold 79% of Its Bitcoin Last Quarter. Does Mining Bitcoin Still Pay?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-04T16:59:38Z",
+            "title": "What’s next for US energy policy after the midterm elections?",
+            "source": "MIT Technology Review",
+            "publishedAt": "2026-11-04T17:08:00Z",
+            "sentiment": "Positive",
+            "compound": 0.273
+          },
+          {
+            "title": "Et tu, Junior? Trump's SON Don Jr joins JD Vance in attacking his father's Iran war for midterm disaster",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-11-04T17:06:27Z",
             "sentiment": "Negative",
-            "compound": -0.612
-          },
-          {
-            "title": "Bitcoin Touches $81K as $380M in Shorts Are Wiped Out",
-            "source": "Bitcoinfoundation.org",
-            "publishedAt": "2026-11-04T16:56:09Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Trump avoids discussing GOP midterm losses as he tours White House ballroom",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-11-04T16:51:28Z",
-            "sentiment": "Negative",
-            "compound": -0.527
+            "compound": -0.9
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 35.11,
-  "trade_probability": 41.07,
+  "confirmation_score": 36.13,
+  "trade_probability": 41.68,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
