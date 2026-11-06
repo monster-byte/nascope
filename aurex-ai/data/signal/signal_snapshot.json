@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T07:01:25.202780+00:00",
+  "generated_at": "2026-11-06T07:15:52.085831+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.12,
+      "score": 49.6,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.86,
-        "change_5d_pct": -0.015
+        "current_dxy": 101.93,
+        "change_5d_pct": 0.05
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.86,
+      "score": 58.96,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.137,
+        "avg_compound": 0.179,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Cummins India Q2 results: Net profit falls 27% to ₹467 cr, sales rise 4%",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-05T07:12:03Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
+          {
+            "title": "US midterm outcome may bolster Türkiye’s markets",
+            "source": "Hurriyet Daily News",
+            "publishedAt": "2026-11-05T07:09:12Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Gold rallies on softer dollar, easing yields after US midterm results",
+            "source": "BusinessLine",
+            "publishedAt": "2026-11-05T07:03:54Z",
+            "sentiment": "Positive",
+            "compound": 0.25
+          },
+          {
+            "title": "Trust in the Reserve Bank is under strain, RBA deputy governor concedes",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-11-05T07:03:45Z",
+            "sentiment": "Positive",
+            "compound": 0.477
+          },
           {
             "title": "Sinch reports third quarter 2026 results - Continued profitable growth with Americas as the engine",
             "source": "PR Newswire UK",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-05T06:57:53Z",
             "sentiment": "Positive",
             "compound": 0.883
-          },
-          {
-            "title": "Yardeni finds 5% Treasury yields attractive amid market dynamics",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-05T06:56:43Z",
-            "sentiment": "Positive",
-            "compound": 0.7
-          },
-          {
-            "title": "What the Democratic midterms sweep changes for U.S.-China relations",
-            "source": "CNBC",
-            "publishedAt": "2026-11-05T06:54:52Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Stock Market: Will S&P 500 Open Up or Down Today? - State Street SPDR S&P 500 ETF Trust (ARCA:SPY)",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-05T06:51:51Z",
-            "sentiment": "Positive",
-            "compound": 0.511
-          },
-          {
-            "title": "Bitcoin Rally: Can BTC Hold Above $80,000 After Midterms?",
-            "source": "Dcforecasts.com",
-            "publishedAt": "2026-11-05T06:48:48Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 36.37,
-  "trade_probability": 41.82,
+  "confirmation_score": 36.51,
+  "trade_probability": 41.91,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
