@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T17:45:54.593214+00:00",
+  "generated_at": "2026-11-06T18:01:24.539578+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 100.0,
+      "score": 75.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.0072,
-          "up": true
+          "change_pct": -0.0865,
+          "up": false
         },
         "MSFT": {
-          "change_pct": 0.9364,
+          "change_pct": 0.6608,
           "up": true
         },
         "NVDA": {
-          "change_pct": 3.1331,
+          "change_pct": 2.9117,
           "up": true
         },
         "AMZN": {
-          "change_pct": 2.614,
+          "change_pct": 2.4338,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26983.7,
-        "sma50": 29632.57,
-        "sma200": 27983.86
+        "last_price": 26945.41,
+        "sma50": 29631.81,
+        "sma200": 27983.67
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 33.45,
+        "current_vxn": 34.63,
         "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 62.98,
+      "score": 64.61,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.849,
-        "change_5d_pct": -1.623
+        "current_yield_pct": 4.839,
+        "change_5d_pct": -1.826
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.68,
+      "score": 47.25,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.18,
-        "change_5d_pct": 0.29
+        "current_dxy": 102.23,
+        "change_5d_pct": 0.344
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.92,
+      "score": 45.51,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.062,
-        "articles_analyzed": 25,
+        "avg_compound": -0.09,
+        "articles_analyzed": 23,
         "top_headlines": [
           {
-            "title": "Two Prime CEO says Bitcoin L2 yields are drying up as risks pile on",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-05T17:44:03Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "Gold market holding solid gains even as BoE raises interest rates due to rising inflation",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-05T17:41:55Z",
-            "sentiment": "Positive",
-            "compound": 0.718
-          },
-          {
-            "title": "Anthropic reveals record $895B AI infrastructure spending plan through 2045",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-05T17:40:21Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Investors in other markets would be envious of India multiples: Rich Handler, chief executive of Jefferies",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-05T17:39:24Z",
-            "sentiment": "Positive",
-            "compound": 0.361
-          },
-          {
-            "title": "Trump Media Just Moved 4,259 Bitcoin. Is It About to Sell?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-05T17:38:43Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Democratic sweep could constrain Trump’s Fed plans as rate cuts remain uncertain, Bitunix says",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-05T17:37:28Z",
+            "title": "Revenge of the Dissidents",
+            "source": "Dailyreckoning.com",
+            "publishedAt": "2026-11-05T18:00:00Z",
             "sentiment": "Negative",
             "compound": -0.527
+          },
+          {
+            "title": "Business says inquiry into sector's struggles ignores key issue of tax",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-11-05T18:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.557
+          },
+          {
+            "title": "What matters to NZ voters? Economy, living costs, and then daylight",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-11-05T18:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.026
+          },
+          {
+            "title": "Shares in Musk's SpaceX plunge as tech and AI stocks fall",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-05T17:56:50Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "Here's the 1 Stock I'd Most Want to Buy If the Market Crashes",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-05T17:56:26Z",
+            "sentiment": "Neutral",
+            "compound": 0.151
+          },
+          {
+            "title": "AI stocks plunge after election, driving down US markets",
+            "source": "Al Jazeera English",
+            "publishedAt": "2026-11-05T17:56:17Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 61.17,
-  "trade_probability": 56.7,
+  "confirmation_score": 54.47,
+  "trade_probability": 52.68,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
