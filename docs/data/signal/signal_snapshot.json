@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T06:01:28.671512+00:00",
+  "generated_at": "2026-11-06T06:16:12.170796+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.81,
+      "score": 50.94,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.78,
-        "change_5d_pct": -0.101
+        "current_dxy": 101.76,
+        "change_5d_pct": -0.118
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.57,
+      "score": 50.5,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.009,
+        "avg_compound": 0.01,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "AIG Steps Back from NPW Growth Target on Pressure in Some Lines",
+            "source": "Insurance Journal",
+            "publishedAt": "2026-11-05T06:12:32Z",
+            "sentiment": "Neutral",
+            "compound": 0.103
+          },
+          {
+            "title": "More jobs, better pay: The budget Ghanaian workers deserve",
+            "source": "Thechronicle.com.gh",
+            "publishedAt": "2026-11-05T06:12:26Z",
+            "sentiment": "Positive",
+            "compound": 0.364
+          },
+          {
+            "title": "Bank of Japan’s 2% inflation-target victory fails to impress",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-05T06:05:37Z",
+            "sentiment": "Neutral",
+            "compound": 0.026
+          },
           {
             "title": "Is El Niño Making Storms And Flash Floods in The Southwest Worse?",
             "source": "Insurance Journal",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-05T06:00:00Z",
             "sentiment": "Negative",
             "compound": -0.691
-          },
-          {
-            "title": "$712 Billion Erased From Top 50 Mining Stocks Since February Peak, Report Says",
-            "source": "Naturalnews.com",
-            "publishedAt": "2026-11-05T06:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "India's young aren't splurging: 87% would save or invest a windfall",
-            "source": "Business Standard",
-            "publishedAt": "2026-11-05T05:54:34Z",
-            "sentiment": "Positive",
-            "compound": 0.494
-          },
-          {
-            "title": "Inflation, tariffs and a voter revolt: The midterm verdict on Trump's economy",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-05T05:54:09Z",
-            "sentiment": "Neutral",
-            "compound": 0.153
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 35.77,
-  "trade_probability": 41.46,
+  "confirmation_score": 35.87,
+  "trade_probability": 41.52,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
