@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T17:31:14.347579+00:00",
+  "generated_at": "2026-11-06T17:45:54.593214+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
+      "score": 100.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.0632,
-          "up": false
+          "change_pct": 0.0072,
+          "up": true
         },
         "MSFT": {
-          "change_pct": 0.9609,
+          "change_pct": 0.9364,
           "up": true
         },
         "NVDA": {
-          "change_pct": 4.1849,
+          "change_pct": 3.1331,
           "up": true
         },
         "AMZN": {
-          "change_pct": 2.7316,
+          "change_pct": 2.614,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27114.54,
-        "sma50": 29635.19,
-        "sma200": 27984.51
+        "last_price": 26983.7,
+        "sma50": 29632.57,
+        "sma200": 27983.86
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 33.56,
+        "current_vxn": 33.45,
         "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 62.66,
+      "score": 62.98,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.851,
-        "change_5d_pct": -1.582
+        "current_yield_pct": 4.849,
+        "change_5d_pct": -1.623
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.51,
+      "score": 47.68,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.2,
-        "change_5d_pct": 0.311
+        "current_dxy": 102.18,
+        "change_5d_pct": 0.29
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.23,
+      "score": 46.92,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.035,
+        "avg_compound": -0.062,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Nvidia's virtual GeForce 8800 GTX unboxing demo hasn't gone down well",
-            "source": "TechRadar",
-            "publishedAt": "2026-11-05T17:29:23Z",
+            "title": "Two Prime CEO says Bitcoin L2 yields are drying up as risks pile on",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-05T17:44:03Z",
             "sentiment": "Negative",
-            "compound": -0.206
+            "compound": -0.273
           },
           {
-            "title": "Farage says he is worried Trump will step up Iran war after midterm 'disaster'",
-            "source": "BBC News",
-            "publishedAt": "2026-11-05T17:23:49Z",
-            "sentiment": "Negative",
-            "compound": -0.881
-          },
-          {
-            "title": "This is fun",
-            "source": "Ncspin.com",
-            "publishedAt": "2026-11-05T17:20:00Z",
+            "title": "Gold market holding solid gains even as BoE raises interest rates due to rising inflation",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-05T17:41:55Z",
             "sentiment": "Positive",
-            "compound": 0.511
+            "compound": 0.718
           },
           {
-            "title": "DAVID ASMAN: Democrats exploit gas-price pain while ignoring their own record",
-            "source": "Fox News",
-            "publishedAt": "2026-11-05T17:15:19Z",
-            "sentiment": "Negative",
-            "compound": -0.751
-          },
-          {
-            "title": "Was Michael Burry right about the AI bubble? Wall Street loses $2 trillion as AI and chip stocks plunge: Why are Tesla, Palantir, AMD, Broadcom and SanDisk crashing?",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-05T17:15:17Z",
-            "sentiment": "Negative",
-            "compound": -0.394
-          },
-          {
-            "title": "AI Data Center Boom Set for Upheaval After US Election Rout",
-            "source": "Insurance Journal",
-            "publishedAt": "2026-11-05T17:11:21Z",
+            "title": "Anthropic reveals record $895B AI infrastructure spending plan through 2045",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-05T17:40:21Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "Investors in other markets would be envious of India multiples: Rich Handler, chief executive of Jefferies",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-05T17:39:24Z",
+            "sentiment": "Positive",
+            "compound": 0.361
+          },
+          {
+            "title": "Trump Media Just Moved 4,259 Bitcoin. Is It About to Sell?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-05T17:38:43Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Democratic sweep could constrain Trump’s Fed plans as rate cuts remain uncertain, Bitunix says",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-05T17:37:28Z",
+            "sentiment": "Negative",
+            "compound": -0.527
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.48,
-  "trade_probability": 52.69,
+  "confirmation_score": 61.17,
+  "trade_probability": 56.7,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
