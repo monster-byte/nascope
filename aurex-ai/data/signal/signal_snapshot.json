@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T16:31:15.563430+00:00",
+  "generated_at": "2026-11-06T16:42:34.423747+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.1183,
+          "change_pct": 0.1517,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.4858,
+          "change_pct": 1.3027,
           "up": true
         },
         "NVDA": {
-          "change_pct": 4.3814,
+          "change_pct": 4.4755,
           "up": true
         },
         "AMZN": {
-          "change_pct": 3.2235,
+          "change_pct": 3.2764,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27151.81,
-        "sma50": 29635.93,
-        "sma200": 27984.7
+        "last_price": 27169.28,
+        "sma50": 29636.28,
+        "sma200": 27984.79
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 5.0,
+      "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 33.92,
-        "percentile_vs_20d": 95.0
+        "current_vxn": 33.29,
+        "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 62.66,
+      "score": 61.36,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.851,
-        "change_5d_pct": -1.582
+        "current_yield_pct": 4.859,
+        "change_5d_pct": -1.42
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.6,
+      "score": 47.48,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.19,
-        "change_5d_pct": 0.3
+        "current_dxy": 102.2,
+        "change_5d_pct": 0.315
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.01,
+      "score": 53.26,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.08,
+        "avg_compound": 0.065,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Discursive Verses: Is 'Spend Dat' the best financial indicator of America's grift economy?",
-            "source": "NPR",
-            "publishedAt": "2026-11-05T16:30:00Z",
-            "sentiment": "Positive",
-            "compound": 0.637
-          },
-          {
-            "title": "Bitcoin Erases Election Rally as AI Stocks Plunge, $428 Million in Crypto Longs Get Wiped Out",
-            "source": "Decrypt",
-            "publishedAt": "2026-11-05T16:29:11Z",
+            "title": "Bitcoin tumbles below $77K as tech and crypto stocks plunge in broad market selloff",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-05T16:41:57Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Nasdaq plunges into correction territory as Dem wins threaten data centers — and AI giants rush to stem fallout",
-            "source": "New York Post",
-            "publishedAt": "2026-11-05T16:28:38Z",
+            "title": "A Sharp Pullback in Chip Stocks Meets Fresh Records in Four of Five Recent Earnings Reports",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-05T16:40:58Z",
+            "sentiment": "Positive",
+            "compound": 0.318
+          },
+          {
+            "title": "Hilton CEO: Nasdaq a 'better home' for the hospitality company",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-05T16:40:49Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
+          {
+            "title": "Intel Stock Sinks Nearly 8% as Chip Rout Deepens Days After CEO Lip-Bu Tan's $9.7 Million Vote of Confidence",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-11-05T16:40:42Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
+          {
+            "title": "Tech-stock rout accelerates retreat from the AI trade",
+            "source": "CNA",
+            "publishedAt": "2026-11-05T16:40:37Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "Cincinnati Financial’s Dividend Looks Secure with Strong Earnings and Low Debt",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-05T16:40:17Z",
             "sentiment": "Positive",
             "compound": 0.273
-          },
-          {
-            "title": "Steep losses in Tesla, Space X, data centre operators",
-            "source": "RTE",
-            "publishedAt": "2026-11-05T16:24:42Z",
-            "sentiment": "Negative",
-            "compound": -0.402
-          },
-          {
-            "title": "TECH STOCKS PLUNGE",
-            "source": "CNBC",
-            "publishedAt": "2026-11-05T16:19:36Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "TRILLIONS WIPED IN DAY!",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-11-05T16:19:36Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 61.3,
-  "trade_probability": 56.78,
+  "confirmation_score": 61.5,
+  "trade_probability": 56.9,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
