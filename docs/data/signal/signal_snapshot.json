@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T20:15:57.580364+00:00",
+  "generated_at": "2026-11-06T20:31:14.171928+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.1533,
+          "change_pct": -0.1257,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.455,
+          "change_pct": 0.4673,
           "up": true
         },
         "NVDA": {
-          "change_pct": 4.2292,
+          "change_pct": 4.124,
           "up": true
         },
         "AMZN": {
-          "change_pct": 2.5122,
+          "change_pct": 2.1986,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27099.66,
-        "sma50": 29634.89,
-        "sma200": 27984.44
+        "last_price": 27091.19,
+        "sma50": 29634.72,
+        "sma200": 27984.4
       }
     },
     "vxn": {
@@ -50,7 +50,7 @@
       "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 32.95,
+        "current_vxn": 32.7,
         "percentile_vs_20d": 90.0
       }
     },
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.65,
+      "score": 46.62,
       "status": "yellow",
       "details": {
         "current_dxy": 102.31,
-        "change_5d_pct": 0.419
+        "change_5d_pct": 0.422
       }
     },
     "macro": {
@@ -85,56 +85,10 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.54,
+      "score": 50.0,
       "status": "yellow",
       "details": {
-        "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.071,
-        "articles_analyzed": 25,
-        "top_headlines": [
-          {
-            "title": "Bitcoin erases post-election gains as Wall Street selloff hits $1B in liquidations",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-05T20:13:27Z",
-            "sentiment": "Positive",
-            "compound": 0.34
-          },
-          {
-            "title": "Erika Kirk Warns Republicans Against 'Finger-Pointing' After Midterm Defeat — as She Invokes Slain Husband Charlie in Emotional Message",
-            "source": "Radaronline.com",
-            "publishedAt": "2026-11-05T20:13:23Z",
-            "sentiment": "Negative",
-            "compound": -0.421
-          },
-          {
-            "title": "Are Investors Expecting Too Much from the Stock Market?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-05T20:13:19Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Alpha Buying: Bank Insiders Just Bought $4.1 Million in Shares",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-05T20:13:16Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "Your House vs. the Stock Market: Which Has Been a Better Investment?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-05T20:12:51Z",
-            "sentiment": "Positive",
-            "compound": 0.44
-          },
-          {
-            "title": "Binance hack prompted US regulators to check in on bank systems",
-            "source": "iTnews",
-            "publishedAt": "2026-11-05T20:11:24Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          }
-        ]
+        "error": "news_fetch_failed: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?q=Nasdaq+OR+%22Federal+Reserve%22+OR+%22stock+market%22+OR+inflation&language=en&sortBy=publishedAt&pageSize=25&apiKey=280ea038bd7e4ccb91d87f9d115484d4"
       }
     },
     "patent_momentum": {
@@ -146,8 +100,8 @@
       }
     }
   },
-  "confirmation_score": 54.7,
-  "trade_probability": 52.82,
+  "confirmation_score": 54.38,
+  "trade_probability": 52.63,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
