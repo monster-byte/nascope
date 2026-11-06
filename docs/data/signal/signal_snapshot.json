@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T20:01:25.676256+00:00",
+  "generated_at": "2026-11-06T20:15:57.580364+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.2695,
+          "change_pct": -0.1533,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.4739,
+          "change_pct": 0.455,
           "up": true
         },
         "NVDA": {
-          "change_pct": 4.124,
+          "change_pct": 4.2292,
           "up": true
         },
         "AMZN": {
-          "change_pct": 2.4788,
+          "change_pct": 2.5122,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27091.49,
-        "sma50": 29634.73,
-        "sma200": 27984.4
+        "last_price": 27099.66,
+        "sma50": 29634.89,
+        "sma200": 27984.44
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 33.09,
+        "current_vxn": 32.95,
         "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 62.01,
+      "score": 61.36,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.855,
-        "change_5d_pct": -1.501
+        "current_yield_pct": 4.859,
+        "change_5d_pct": -1.42
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.61,
+      "score": 46.65,
       "status": "yellow",
       "details": {
         "current_dxy": 102.31,
-        "change_5d_pct": 0.424
+        "change_5d_pct": 0.419
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.4,
+      "score": 53.54,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.028,
+        "avg_compound": 0.071,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Update: Nasdaq Enters Correction Territory, Dow Erases Post-Election Rally Amid Big-Tech Rout",
+            "title": "Bitcoin erases post-election gains as Wall Street selloff hits $1B in liquidations",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-05T20:13:27Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
+          {
+            "title": "Erika Kirk Warns Republicans Against 'Finger-Pointing' After Midterm Defeat — as She Invokes Slain Husband Charlie in Emotional Message",
+            "source": "Radaronline.com",
+            "publishedAt": "2026-11-05T20:13:23Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
+          {
+            "title": "Are Investors Expecting Too Much from the Stock Market?",
             "source": "Biztoc.com",
-            "publishedAt": "2026-11-05T20:01:16Z",
+            "publishedAt": "2026-11-05T20:13:19Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "$4,000 buys 2,453 shares in an impressively reliable ASX dividend stock",
-            "source": "Motley Fool Australia",
-            "publishedAt": "2026-11-05T20:00:00Z",
+            "title": "Alpha Buying: Bank Insiders Just Bought $4.1 Million in Shares",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-05T20:13:16Z",
             "sentiment": "Positive",
-            "compound": 0.637
+            "compound": 0.296
           },
           {
-            "title": "Arteba Was Rescheduled, Realigned and Refreshed—But Was It Ready?",
-            "source": "Observer",
-            "publishedAt": "2026-11-05T19:51:10Z",
+            "title": "Your House vs. the Stock Market: Which Has Been a Better Investment?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-05T20:12:51Z",
             "sentiment": "Positive",
-            "compound": 0.361
+            "compound": 0.44
           },
           {
-            "title": "Galaxy CEO Novogratz says he is buying more shares amid market slump",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-05T19:48:57Z",
-            "sentiment": "Positive",
-            "compound": 0.36
-          },
-          {
-            "title": "Calgary staff acted 'improperly' after water recommendations didn't reach council: report",
-            "source": "CBC News",
-            "publishedAt": "2026-11-05T19:48:52Z",
-            "sentiment": "Neutral",
-            "compound": -0.019
-          },
-          {
-            "title": "Michael Burry sells 25% of his semiconductor ETF puts but stays bearish on chips",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-05T19:46:26Z",
+            "title": "Binance hack prompted US regulators to check in on bank systems",
+            "source": "iTnews",
+            "publishedAt": "2026-11-05T20:11:24Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.59,
-  "trade_probability": 52.75,
+  "confirmation_score": 54.7,
+  "trade_probability": 52.82,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
