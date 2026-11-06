@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T15:45:54.638952+00:00",
+  "generated_at": "2026-11-06T16:01:28.922740+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
+      "score": 100.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.0051,
-          "up": false
+          "change_pct": 0.143,
+          "up": true
         },
         "MSFT": {
-          "change_pct": 0.9836,
+          "change_pct": 1.2687,
           "up": true
         },
         "NVDA": {
-          "change_pct": 4.6665,
+          "change_pct": 4.6471,
           "up": true
         },
         "AMZN": {
-          "change_pct": 3.2723,
+          "change_pct": 3.2156,
           "up": true
         }
       }
@@ -40,18 +40,18 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27051.82,
-        "sma50": 29633.93,
-        "sma200": 27984.2
+        "last_price": 27095.28,
+        "sma50": 29634.8,
+        "sma200": 27984.42
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 10.0,
+      "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 33.88,
-        "percentile_vs_20d": 90.0
+        "current_vxn": 33.8,
+        "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.01,
+      "score": 47.67,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.13,
-        "change_5d_pct": 0.248
+        "current_dxy": 102.18,
+        "change_5d_pct": 0.292
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.5,
+      "score": 53.24,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.07,
+        "avg_compound": 0.065,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "El Niño could delay Indonesia's rice harvest, raising Eid supply risk",
-            "source": "Antaranews.com",
-            "publishedAt": "2026-11-05T15:39:14Z",
-            "sentiment": "Negative",
-            "compound": -0.527
-          },
-          {
-            "title": "Anthropic IPO confidence wanes amid uncertainty over timing and financials",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-05T15:39:07Z",
+            "title": "Democrats Stopped Lecturing America — and Won Big",
+            "source": "Rolling Stone",
+            "publishedAt": "2026-11-05T16:00:00Z",
             "sentiment": "Positive",
-            "compound": 0.226
+            "compound": 0.421
           },
           {
-            "title": "Binance Heist Triggers Alarm Among Banking Regulators",
-            "source": "pymnts.com",
-            "publishedAt": "2026-11-05T15:33:04Z",
-            "sentiment": "Negative",
-            "compound": -0.34
+            "title": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc",
+            "source": "Federalreserve.gov",
+            "publishedAt": "2026-11-05T16:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.421
           },
           {
-            "title": "Tech stocks plunge on worries about AI and Democrats’ midterm landslide",
-            "source": "NBC News",
-            "publishedAt": "2026-11-05T15:32:58Z",
-            "sentiment": "Negative",
-            "compound": -0.421
-          },
-          {
-            "title": "Nasdaq falls at open after midterms-fueled surge as chip, data center stocks fall - Reuters",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-11-05T15:32:20Z",
+            "title": "Pulling the Funding: Trump, Israel and US Military Assistance",
+            "source": "Globalresearch.ca",
+            "publishedAt": "2026-11-05T15:59:27Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Elon Musk gambled $445 million to boost Republicans in midterms and came up short",
+            "title": "Britannia profit rises 11% to Rs 726 cr",
             "source": "The Times of India",
-            "publishedAt": "2026-11-05T15:27:55Z",
+            "publishedAt": "2026-11-05T15:57:27Z",
             "sentiment": "Positive",
-            "compound": 0.402
+            "compound": 0.44
+          },
+          {
+            "title": "NVDA stock price falls below $200: Why is Nvidia stock going down today? Here's what analysts predict next",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-05T15:55:45Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Reading the economic environment can be tricky",
+            "source": "BusinessLine",
+            "publishedAt": "2026-11-05T15:54:38Z",
+            "sentiment": "Neutral",
+            "compound": -0.153
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.12,
-  "trade_probability": 52.47,
+  "confirmation_score": 61.0,
+  "trade_probability": 56.6,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
