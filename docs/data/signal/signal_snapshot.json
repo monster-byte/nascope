@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T19:01:27.585573+00:00",
+  "generated_at": "2026-11-06T19:15:56.442562+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.143,
+          "change_pct": 0.021,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.8061,
+          "change_pct": 0.7306,
           "up": true
         },
         "NVDA": {
-          "change_pct": 3.6922,
+          "change_pct": 3.6424,
           "up": true
         },
         "AMZN": {
-          "change_pct": 2.8649,
+          "change_pct": 2.8139,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27083.64,
-        "sma50": 29634.57,
-        "sma200": 27984.36
+        "last_price": 27086.79,
+        "sma50": 29634.63,
+        "sma200": 27984.38
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 33.87,
+        "current_vxn": 33.42,
         "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 63.31,
+      "score": 62.66,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.847,
-        "change_5d_pct": -1.664
+        "current_yield_pct": 4.851,
+        "change_5d_pct": -1.582
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.17,
+      "score": 47.0,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.24,
-        "change_5d_pct": 0.354
+        "current_dxy": 102.26,
+        "change_5d_pct": 0.375
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.79,
+      "score": 47.41,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.004,
+        "avg_compound": -0.052,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "BayCare Proton Center Treats First Patient on Mevion S250 FIT™ with Leo Cancer Care's Marie® Solution",
+            "source": "PR Newswire UK",
+            "publishedAt": "2026-11-05T19:15:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.034
+          },
+          {
+            "title": "Bangladesh Labor Protests Turn Violent",
+            "source": "Human Rights Watch",
+            "publishedAt": "2026-11-05T19:02:30Z",
+            "sentiment": "Negative",
+            "compound": -0.7
+          },
           {
             "title": "WAYNE ROOT: Something Smells Rotten in Texas. And Kansas. And Mississippi. And Everywhere Else Too. Was This a 2020 Rigged Election All Over Again? Here are a Few Simple Questions About This Midterm Election.",
             "source": "Thegatewaypundit.com",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-05T18:58:48Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Deepwater's Munster: AI Is \"Different This Time\"",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-05T18:56:03Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Stocks tumble, erasing post-midterm gains as markets weigh future of AI build-out",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-05T18:55:57Z",
-            "sentiment": "Positive",
-            "compound": 0.34
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 60.97,
-  "trade_probability": 56.58,
+  "confirmation_score": 60.66,
+  "trade_probability": 56.4,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
