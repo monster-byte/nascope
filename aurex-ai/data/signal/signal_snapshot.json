@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T10:31:09.714351+00:00",
+  "generated_at": "2026-11-06T10:45:49.564398+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.88,
+      "score": 48.98,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.02,
-        "change_5d_pct": 0.14
+        "current_dxy": 102.01,
+        "change_5d_pct": 0.128
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.84,
+      "score": 45.94,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.063,
+        "avg_compound": -0.081,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Trump's Fed pressure campaign hits a new Democratic wall in the Senate",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-05T10:44:25Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "Bank of England raises interest rates to 4%, the first increase in more than three years",
+            "source": "BBC News",
+            "publishedAt": "2026-11-05T10:43:45Z",
+            "sentiment": "Positive",
+            "compound": 0.649
+          },
+          {
+            "title": "Rupee finds its footing as oil worries cool, traders watch flow momentum",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-05T10:33:02Z",
+            "sentiment": "Neutral",
+            "compound": -0.128
+          },
           {
             "title": "Falling Knives or Buying Opportunities? Canadian Stocks Down in a Strong Market",
             "source": "Thedividendguyblog.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-05T10:28:26Z",
             "sentiment": "Positive",
             "compound": 0.7
-          },
-          {
-            "title": "Christmas mortgage misery as BoE poised to hike interest rates today - wiping out Labour's cost of living help - despite oil price tumbling after Trump midterms meltdown",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-11-05T10:16:02Z",
-            "sentiment": "Positive",
-            "compound": 0.459
-          },
-          {
-            "title": "Dhanteras 2026: Is gold's 30% correction a buying opportunity for you?",
-            "source": "Business Standard",
-            "publishedAt": "2026-11-05T10:14:12Z",
-            "sentiment": "Positive",
-            "compound": 0.421
-          },
-          {
-            "title": "Young people swung left in the midterms, and it's in large part because of skyrocketing prices",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-05T10:11:52Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 55.6,
-  "trade_probability": 53.36,
+  "confirmation_score": 55.53,
+  "trade_probability": 53.32,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
