@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T19:31:10.805448+00:00",
+  "generated_at": "2026-11-06T19:45:55.255750+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.0165,
+          "change_pct": -0.0912,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.6051,
+          "change_pct": 0.5399,
           "up": true
         },
         "NVDA": {
-          "change_pct": 3.742,
+          "change_pct": 3.6562,
           "up": true
         },
         "AMZN": {
-          "change_pct": 2.5964,
+          "change_pct": 2.6376,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27070.38,
-        "sma50": 29634.31,
-        "sma200": 27984.29
+        "last_price": 27061.65,
+        "sma50": 29634.13,
+        "sma200": 27984.25
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 5.0,
+      "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 33.32,
-        "percentile_vs_20d": 95.0
+        "current_vxn": 33.36,
+        "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 61.69,
+      "score": 62.34,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.857,
-        "change_5d_pct": -1.461
+        "current_yield_pct": 4.853,
+        "change_5d_pct": -1.542
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.85,
+      "score": 46.76,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.28,
-        "change_5d_pct": 0.394
+        "current_dxy": 102.29,
+        "change_5d_pct": 0.404
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.64,
+      "score": 48.41,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.027,
+        "avg_compound": -0.032,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Investors are dumping Tesla and SpaceX stock after the blue wave election",
-            "source": "Business Insider",
-            "publishedAt": "2026-11-05T19:29:21Z",
-            "sentiment": "Negative",
-            "compound": -0.318
+            "title": "The Irish Times view on the pay talks: it is time to find the middle ground",
+            "source": "The Irish Times",
+            "publishedAt": "2026-11-05T19:45:00Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
           },
           {
-            "title": "Trump's endorsement now a political poisoned chalice after midterms",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-11-05T19:29:09Z",
-            "sentiment": "Negative",
-            "compound": -0.226
+            "title": "(PR) GlobalFoundries Reports Third Quarter 2026 Financial Results",
+            "source": "Techpowerup.com",
+            "publishedAt": "2026-11-05T19:44:34Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "IRS announces bigger estate and gift tax exemption for 2027",
-            "source": "CNBC",
-            "publishedAt": "2026-11-05T19:24:21Z",
+            "title": "Report: Apple’s planned $7 billion bond sale attracts four times as much demand",
+            "source": "9to5Mac",
+            "publishedAt": "2026-11-05T19:43:10Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "Fed's Beth Hammack and Thomas Barkin favour gradual rate hikes as inflation stays high",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-05T19:42:40Z",
             "sentiment": "Positive",
             "compound": 0.44
           },
           {
-            "title": "US yields fall in choppy session as oil rises and equities sink",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-05T19:19:17Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Harvard is trying to win back trust after years of scandal — and professors say it’s working",
-            "source": "New York Post",
-            "publishedAt": "2026-11-05T19:17:17Z",
-            "sentiment": "Positive",
-            "compound": 0.637
-          },
-          {
-            "title": "Here's what to do with your retirement savings in a market sell-off",
+            "title": "US tech selloff erases post-midterm gains",
             "source": "Biztoc.com",
-            "publishedAt": "2026-11-05T19:15:53Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "publishedAt": "2026-11-05T19:42:19Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
+          {
+            "title": "Riot Platforms’ Powered Land Lease Lowers Build Costs, But Texas Election Adds Timing Risk, Analysts Say -…",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-05T19:42:15Z",
+            "sentiment": "Negative",
+            "compound": -0.637
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 53.87,
-  "trade_probability": 52.32,
+  "confirmation_score": 54.38,
+  "trade_probability": 52.63,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
