@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T08:31:13.560903+00:00",
+  "generated_at": "2026-11-06T08:45:51.728683+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.13,
+      "score": 50.23,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.86,
-        "change_5d_pct": -0.017
+        "current_dxy": 101.85,
+        "change_5d_pct": -0.028
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.29,
+      "score": 48.45,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.006,
+        "avg_compound": -0.031,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Mahindra & Mahindra Q2 FY27 net profit rises 25% to ₹4,588 crore",
+            "source": "BusinessLine",
+            "publishedAt": "2026-11-05T08:42:38Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
+          {
+            "title": "US lawmakers to attend climate summit in southern Türkiye",
+            "source": "Hurriyet Daily News",
+            "publishedAt": "2026-11-05T08:40:56Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "UP 2027 polls extremely crucial for poor, exploited Dalits: Mayawati",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-05T08:38:57Z",
+            "sentiment": "Negative",
+            "compound": -0.748
+          },
           {
             "title": "How the work of two Nobel Prize winners can guide policy in an uncertain world",
             "source": "Livemint",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-05T08:28:33Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "From Bhutan to Zurich: Risk Map 2027 Reveals Where Travelers Are Safest",
-            "source": "PR Newswire UK",
-            "publishedAt": "2026-11-05T08:14:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.153
-          },
-          {
-            "title": "NYSE taps Broadridge to run onchain shareholder voting for tokenized stocks",
-            "source": "ValueWalk",
-            "publishedAt": "2026-11-05T08:13:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "India bonds climb in step with Treasuries as oil sinks",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-05T08:02:52Z",
-            "sentiment": "Positive",
-            "compound": 0.226
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 35.78,
-  "trade_probability": 41.47,
+  "confirmation_score": 35.62,
+  "trade_probability": 41.37,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
