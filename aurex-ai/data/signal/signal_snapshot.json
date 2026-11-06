@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T18:31:12.752324+00:00",
+  "generated_at": "2026-11-06T18:45:53.586724+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
+      "score": 100.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.011,
-          "up": false
+          "change_pct": 0.0326,
+          "up": true
         },
         "MSFT": {
-          "change_pct": 0.5305,
+          "change_pct": 0.6815,
           "up": true
         },
         "NVDA": {
-          "change_pct": 3.1883,
+          "change_pct": 3.6922,
           "up": true
         },
         "AMZN": {
-          "change_pct": 2.7982,
+          "change_pct": 3.0687,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26990.89,
-        "sma50": 29632.72,
-        "sma200": 27983.9
+        "last_price": 27052.39,
+        "sma50": 29633.95,
+        "sma200": 27984.2
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 34.42,
+        "current_vxn": 34.35,
         "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 64.28,
+      "score": 63.96,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.841,
-        "change_5d_pct": -1.785
+        "current_yield_pct": 4.843,
+        "change_5d_pct": -1.745
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.11,
+      "score": 47.17,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.25,
-        "change_5d_pct": 0.361
+        "current_dxy": 102.24,
+        "change_5d_pct": 0.353
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.32,
+      "score": 49.37,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.034,
+        "avg_compound": -0.013,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Musk’s Companies Tank as Tech Stocks Get a Post-Election Correction",
-            "source": "Gizmodo.com",
-            "publishedAt": "2026-11-05T18:30:05Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "AI stocks slide as investors worry about data centre backlash",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-11-05T18:44:32Z",
+            "sentiment": "Negative",
+            "compound": -0.44
           },
           {
-            "title": "‘The Odyssey’ Will Return to Theaters, Including Imax 70mm, in December",
-            "source": "TheWrap",
-            "publishedAt": "2026-11-05T18:30:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "American Bitcoin Corp. reports $126M Q3 profit as Bitcoin value surges",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-05T18:29:38Z",
-            "sentiment": "Positive",
-            "compound": 0.649
-          },
-          {
-            "title": "VIX Spikes 39% as AI Rout Wipes Out $2.2 Trillion: Stock Market Today",
+            "title": "Wall Street Selloff Sends Nasdaq Down 4% as Dow Plunges More Than 1,000 Points",
             "source": "Biztoc.com",
-            "publishedAt": "2026-11-05T18:25:51Z",
+            "publishedAt": "2026-11-05T18:43:42Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Trump-Backed American Bitcoin Turns a Profit as Bitcoin Rise Lifts Books",
-            "source": "Decrypt",
-            "publishedAt": "2026-11-05T18:25:31Z",
-            "sentiment": "Positive",
-            "compound": 0.44
+            "title": "Dow plunges 1,200 points, Nasdaq into correction after midterm results stock rally",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-05T18:43:38Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Treasury Bonds Now Pay 2.64% Above Inflation. Can These 6 Dividend Stocks Beat That?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-05T18:25:19Z",
+            "title": "The Girls Chat About Martha Stewart, “Cool Mom” Parenting & Plastic Surgery ft. Ainsley Earhardt",
+            "source": "Fox News",
+            "publishedAt": "2026-11-05T18:43:02Z",
             "sentiment": "Neutral",
-            "compound": 0.103
+            "compound": 0.0
+          },
+          {
+            "title": "Stock market today: Nasdaq plunges 5% amid chip stock wipeout, Dow and S&P 500 erase post-election rally gains",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-11-05T18:42:35Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
+          {
+            "title": "Nearly $2m compo paid to company over scrapped Macquarie Point power plan",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-11-05T18:41:59Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.22,
-  "trade_probability": 52.53,
+  "confirmation_score": 61.02,
+  "trade_probability": 56.61,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
