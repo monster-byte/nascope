@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T19:15:56.442562+00:00",
+  "generated_at": "2026-11-06T19:31:10.805448+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 100.0,
+      "score": 75.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.021,
-          "up": true
+          "change_pct": -0.0165,
+          "up": false
         },
         "MSFT": {
-          "change_pct": 0.7306,
+          "change_pct": 0.6051,
           "up": true
         },
         "NVDA": {
-          "change_pct": 3.6424,
+          "change_pct": 3.742,
           "up": true
         },
         "AMZN": {
-          "change_pct": 2.8139,
+          "change_pct": 2.5964,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27086.79,
-        "sma50": 29634.63,
-        "sma200": 27984.38
+        "last_price": 27070.38,
+        "sma50": 29634.31,
+        "sma200": 27984.29
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 33.42,
+        "current_vxn": 33.32,
         "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 62.66,
+      "score": 61.69,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.851,
-        "change_5d_pct": -1.582
+        "current_yield_pct": 4.857,
+        "change_5d_pct": -1.461
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.0,
+      "score": 46.85,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.26,
-        "change_5d_pct": 0.375
+        "current_dxy": 102.28,
+        "change_5d_pct": 0.394
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.41,
+      "score": 48.64,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.052,
+        "avg_compound": -0.027,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "BayCare Proton Center Treats First Patient on Mevion S250 FIT™ with Leo Cancer Care's Marie® Solution",
-            "source": "PR Newswire UK",
-            "publishedAt": "2026-11-05T19:15:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.034
-          },
-          {
-            "title": "Bangladesh Labor Protests Turn Violent",
-            "source": "Human Rights Watch",
-            "publishedAt": "2026-11-05T19:02:30Z",
+            "title": "Investors are dumping Tesla and SpaceX stock after the blue wave election",
+            "source": "Business Insider",
+            "publishedAt": "2026-11-05T19:29:21Z",
             "sentiment": "Negative",
-            "compound": -0.7
+            "compound": -0.318
           },
           {
-            "title": "WAYNE ROOT: Something Smells Rotten in Texas. And Kansas. And Mississippi. And Everywhere Else Too. Was This a 2020 Rigged Election All Over Again? Here are a Few Simple Questions About This Midterm Election.",
-            "source": "Thegatewaypundit.com",
-            "publishedAt": "2026-11-05T19:00:26Z",
+            "title": "Trump's endorsement now a political poisoned chalice after midterms",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-11-05T19:29:09Z",
             "sentiment": "Negative",
-            "compound": -0.7
+            "compound": -0.226
           },
           {
-            "title": "Stock Takes: New Zealand election takes back seat as US midterms lift sharemarkets",
-            "source": "New Zealand Herald",
-            "publishedAt": "2026-11-05T19:00:00Z",
+            "title": "IRS announces bigger estate and gift tax exemption for 2027",
+            "source": "CNBC",
+            "publishedAt": "2026-11-05T19:24:21Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
+          {
+            "title": "US yields fall in choppy session as oil rises and equities sink",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-05T19:19:17Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "The fund that created the most wealth in 10 years was a plain S&P 500 ETF: $263 billion",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-05T18:59:39Z",
+            "title": "Harvard is trying to win back trust after years of scandal — and professors say it’s working",
+            "source": "New York Post",
+            "publishedAt": "2026-11-05T19:17:17Z",
             "sentiment": "Positive",
-            "compound": 0.67
+            "compound": 0.637
           },
           {
-            "title": "CNBC's experts on whether the AI trade is ending and what investors should do next",
-            "source": "CNBC",
-            "publishedAt": "2026-11-05T18:58:48Z",
+            "title": "Here's what to do with your retirement savings in a market sell-off",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-05T19:15:53Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 60.66,
-  "trade_probability": 56.4,
+  "confirmation_score": 53.87,
+  "trade_probability": 52.32,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
