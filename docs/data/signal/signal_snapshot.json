@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T18:45:53.586724+00:00",
+  "generated_at": "2026-11-06T19:01:27.585573+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,11 +17,11 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.0326,
+          "change_pct": 0.143,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.6815,
+          "change_pct": 0.8061,
           "up": true
         },
         "NVDA": {
@@ -29,7 +29,7 @@
           "up": true
         },
         "AMZN": {
-          "change_pct": 3.0687,
+          "change_pct": 2.8649,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27052.39,
-        "sma50": 29633.95,
-        "sma200": 27984.2
+        "last_price": 27083.64,
+        "sma50": 29634.57,
+        "sma200": 27984.36
       }
     },
     "vxn": {
@@ -50,17 +50,17 @@
       "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 34.35,
+        "current_vxn": 33.87,
         "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 63.96,
+      "score": 63.31,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.843,
-        "change_5d_pct": -1.745
+        "current_yield_pct": 4.847,
+        "change_5d_pct": -1.664
       }
     },
     "dxy": {
@@ -69,7 +69,7 @@
       "status": "yellow",
       "details": {
         "current_dxy": 102.24,
-        "change_5d_pct": 0.353
+        "change_5d_pct": 0.354
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.37,
+      "score": 49.79,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.013,
+        "avg_compound": -0.004,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "AI stocks slide as investors worry about data centre backlash",
-            "source": "New Zealand Herald",
-            "publishedAt": "2026-11-05T18:44:32Z",
+            "title": "WAYNE ROOT: Something Smells Rotten in Texas. And Kansas. And Mississippi. And Everywhere Else Too. Was This a 2020 Rigged Election All Over Again? Here are a Few Simple Questions About This Midterm Election.",
+            "source": "Thegatewaypundit.com",
+            "publishedAt": "2026-11-05T19:00:26Z",
             "sentiment": "Negative",
-            "compound": -0.44
+            "compound": -0.7
           },
           {
-            "title": "Wall Street Selloff Sends Nasdaq Down 4% as Dow Plunges More Than 1,000 Points",
+            "title": "Stock Takes: New Zealand election takes back seat as US midterms lift sharemarkets",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-11-05T19:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "The fund that created the most wealth in 10 years was a plain S&P 500 ETF: $263 billion",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-05T18:59:39Z",
+            "sentiment": "Positive",
+            "compound": 0.67
+          },
+          {
+            "title": "CNBC's experts on whether the AI trade is ending and what investors should do next",
+            "source": "CNBC",
+            "publishedAt": "2026-11-05T18:58:48Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Deepwater's Munster: AI Is \"Different This Time\"",
             "source": "Biztoc.com",
-            "publishedAt": "2026-11-05T18:43:42Z",
+            "publishedAt": "2026-11-05T18:56:03Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Dow plunges 1,200 points, Nasdaq into correction after midterm results stock rally",
+            "title": "Stocks tumble, erasing post-midterm gains as markets weigh future of AI build-out",
             "source": "Biztoc.com",
-            "publishedAt": "2026-11-05T18:43:38Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "The Girls Chat About Martha Stewart, “Cool Mom” Parenting & Plastic Surgery ft. Ainsley Earhardt",
-            "source": "Fox News",
-            "publishedAt": "2026-11-05T18:43:02Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Stock market today: Nasdaq plunges 5% amid chip stock wipeout, Dow and S&P 500 erase post-election rally gains",
-            "source": "Freerepublic.com",
-            "publishedAt": "2026-11-05T18:42:35Z",
+            "publishedAt": "2026-11-05T18:55:57Z",
             "sentiment": "Positive",
             "compound": 0.34
-          },
-          {
-            "title": "Nearly $2m compo paid to company over scrapped Macquarie Point power plan",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-11-05T18:41:59Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 61.02,
-  "trade_probability": 56.61,
+  "confirmation_score": 60.97,
+  "trade_probability": 56.58,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
