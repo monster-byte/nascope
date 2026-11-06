@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T08:15:55.823236+00:00",
+  "generated_at": "2026-11-06T08:31:13.560903+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.87,
+      "score": 50.13,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.9,
-        "change_5d_pct": 0.016
+        "current_dxy": 101.86,
+        "change_5d_pct": -0.017
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.44,
+      "score": 50.29,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.029,
+        "avg_compound": 0.006,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "How the work of two Nobel Prize winners can guide policy in an uncertain world",
+            "source": "Livemint",
+            "publishedAt": "2026-11-05T08:30:53Z",
+            "sentiment": "Positive",
+            "compound": 0.637
+          },
+          {
+            "title": "Ripple-backed Evernorth faces 73.7 million-share selling overhang after brutal stock market debut",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-11-05T08:30:13Z",
+            "sentiment": "Negative",
+            "compound": -0.625
+          },
+          {
+            "title": "The art of predicting Bank of England’s main policy rate",
+            "source": "Lse.ac.uk",
+            "publishedAt": "2026-11-05T08:28:33Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "From Bhutan to Zurich: Risk Map 2027 Reveals Where Travelers Are Safest",
             "source": "PR Newswire UK",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-05T08:02:52Z",
             "sentiment": "Positive",
             "compound": 0.226
-          },
-          {
-            "title": "Isabel Schnabel: Navigating stormy waters: reflections on monetary policy",
-            "source": "Europa.eu",
-            "publishedAt": "2026-11-05T08:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "On-the-run fraudster loses £90m confiscation appeal",
-            "source": "BBC News",
-            "publishedAt": "2026-11-05T07:57:12Z",
-            "sentiment": "Negative",
-            "compound": -0.7
-          },
-          {
-            "title": "UK Stock Market Today: FTSE 100 Futures Hold Steady As Traders Await BoE Hike",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-05T07:53:46Z",
-            "sentiment": "Neutral",
-            "compound": 0.103
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 35.86,
-  "trade_probability": 41.52,
+  "confirmation_score": 35.78,
+  "trade_probability": 41.47,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
