@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T15:31:14.828374+00:00",
+  "generated_at": "2026-11-06T15:45:54.638952+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.284,
+          "change_pct": -0.0051,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.589,
+          "change_pct": 0.9836,
           "up": true
         },
         "NVDA": {
-          "change_pct": 4.7135,
+          "change_pct": 4.6665,
           "up": true
         },
         "AMZN": {
-          "change_pct": 2.9628,
+          "change_pct": 3.2723,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27019.48,
-        "sma50": 29633.29,
-        "sma200": 27984.04
+        "last_price": 27051.82,
+        "sma50": 29633.93,
+        "sma200": 27984.2
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 33.24,
+        "current_vxn": 33.88,
         "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 59.58,
+      "score": 60.87,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.87,
-        "change_5d_pct": -1.197
+        "current_yield_pct": 4.862,
+        "change_5d_pct": -1.359
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.9,
+      "score": 48.01,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.15,
-        "change_5d_pct": 0.263
+        "current_dxy": 102.13,
+        "change_5d_pct": 0.248
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.95,
+      "score": 46.5,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.041,
+        "avg_compound": -0.07,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "El Niño could delay Indonesia's rice harvest, raising Eid supply risk",
+            "source": "Antaranews.com",
+            "publishedAt": "2026-11-05T15:39:14Z",
+            "sentiment": "Negative",
+            "compound": -0.527
+          },
+          {
+            "title": "Anthropic IPO confidence wanes amid uncertainty over timing and financials",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-05T15:39:07Z",
+            "sentiment": "Positive",
+            "compound": 0.226
+          },
+          {
+            "title": "Binance Heist Triggers Alarm Among Banking Regulators",
+            "source": "pymnts.com",
+            "publishedAt": "2026-11-05T15:33:04Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
+          {
+            "title": "Tech stocks plunge on worries about AI and Democrats’ midterm landslide",
+            "source": "NBC News",
+            "publishedAt": "2026-11-05T15:32:58Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
+          {
+            "title": "Nasdaq falls at open after midterms-fueled surge as chip, data center stocks fall - Reuters",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-11-05T15:32:20Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Elon Musk gambled $445 million to boost Republicans in midterms and came up short",
             "source": "The Times of India",
             "publishedAt": "2026-11-05T15:27:55Z",
             "sentiment": "Positive",
             "compound": 0.402
-          },
-          {
-            "title": "Is Palantir Stock a Buy on the Dip as Revenue Continues to Surge?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-05T15:25:02Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "DT Appoints Daniel Lentz as Chief Financial Officer",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-05T15:24:20Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Bill Ackman Says Long-Term Investors Can Benefit From a Broken Market. Here's the Price I'd Pay for Netflix Stock",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-05T15:24:16Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
-          },
-          {
-            "title": "Dropbox bets $350 million on Tigris Data to build AI storage",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-05T15:22:02Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Chip stocks fall amid election-led tech selloff",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-05T15:22:02Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.07,
-  "trade_probability": 52.44,
+  "confirmation_score": 54.12,
+  "trade_probability": 52.47,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
