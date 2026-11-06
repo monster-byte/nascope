@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T15:01:33.455469+00:00",
+  "generated_at": "2026-11-06T15:15:55.998057+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.4525,
+          "change_pct": -0.1867,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.0359,
-          "up": false
+          "change_pct": 0.7325,
+          "up": true
         },
         "NVDA": {
-          "change_pct": 7.0855,
+          "change_pct": 6.1943,
           "up": true
         },
         "AMZN": {
-          "change_pct": 3.0334,
+          "change_pct": 3.1451,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27243.75,
-        "sma50": 29637.77,
-        "sma200": 27985.16
+        "last_price": 27185.62,
+        "sma50": 29636.61,
+        "sma200": 27984.87
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 5.0,
+      "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 32.39,
-        "percentile_vs_20d": 95.0
+        "current_vxn": 32.68,
+        "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 57.63,
+      "score": 58.6,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.882,
-        "change_5d_pct": -0.954
+        "current_yield_pct": 4.876,
+        "change_5d_pct": -1.075
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.38,
+      "score": 47.68,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.21,
-        "change_5d_pct": 0.328
+        "current_dxy": 102.18,
+        "change_5d_pct": 0.291
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.57,
+      "score": 47.19,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.029,
+        "avg_compound": -0.056,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "California-based restaurant chain operator files for bankruptcy as it blames state’s brutal wage laws",
-            "source": "New York Post",
-            "publishedAt": "2026-11-05T15:00:00Z",
+            "title": "Stock Market Today: AI Stocks Under Pressure While Dow Futures Rise — Live Updates - WSJ",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-11-05T15:14:38Z",
             "sentiment": "Negative",
-            "compound": -0.778
+            "compound": -0.296
           },
           {
-            "title": "Rent Control Makes Moderate Gains Across The Bay Area in Early Voting Returns",
-            "source": "KQED",
-            "publishedAt": "2026-11-05T15:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.34
-          },
-          {
-            "title": "U.S. Productivity Growth Accelerates to Fastest Pace in a Year",
-            "source": "Breitbart News",
-            "publishedAt": "2026-11-05T14:59:52Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "Nasdaq cai com queda de ações de chips e data centers",
-            "source": "InfoMoney",
-            "publishedAt": "2026-11-05T14:58:59Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Taming Typography: Building a Modern CSS Reset",
-            "source": "Css-tricks.com",
-            "publishedAt": "2026-11-05T14:55:31Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Fed’s Hammack says AI agents using stablecoins would mark a major shift",
+            "title": "Bitcoin, Ether drop as $370M in leveraged positions liquidated in an hour",
             "source": "Crypto Briefing",
-            "publishedAt": "2026-11-05T14:54:35Z",
+            "publishedAt": "2026-11-05T15:12:55Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "STATE OF THURSDAY: JD Vance Is Right About The War. That’s The Problem.",
+            "source": "The Daily Caller",
+            "publishedAt": "2026-11-05T15:12:47Z",
+            "sentiment": "Negative",
+            "compound": -0.765
+          },
+          {
+            "title": "Developing countries' debt hit record $9.4 trillion in 2025: World Bank",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-05T15:12:45Z",
+            "sentiment": "Negative",
+            "compound": -0.361
+          },
+          {
+            "title": "What’s up with… BT, Qualcomm, 6G",
+            "source": "TelecomTV",
+            "publishedAt": "2026-11-05T15:12:30Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "Klarna Targets Scam Calls With New Verification Tool",
+            "source": "pymnts.com",
+            "publishedAt": "2026-11-05T15:10:56Z",
+            "sentiment": "Negative",
+            "compound": -0.572
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 46.62,
-  "trade_probability": 47.97,
+  "confirmation_score": 53.85,
+  "trade_probability": 52.31,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
