@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T01:01:24.388031+00:00",
+  "generated_at": "2026-11-06T01:15:57.637231+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 53.77,
+      "score": 53.32,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.56,
-        "change_5d_pct": -0.471
+        "current_dxy": 101.62,
+        "change_5d_pct": -0.415
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.44,
+      "score": 53.98,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.049,
+        "avg_compound": 0.08,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Agility Robotics is taking humanoid robots public in a first for Wall Street",
+            "source": "Business Insider",
+            "publishedAt": "2026-11-05T01:13:56Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Why Hong Kong wealth managers want broader access to mainland China’s Nasdaq-style markets",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-05T01:13:41Z",
+            "sentiment": "Positive",
+            "compound": 0.542
+          },
+          {
+            "title": "Grayscale Bitcoin Outlook: Why Are Giants Still Bullish After Midterms?",
+            "source": "Dcforecasts.com",
+            "publishedAt": "2026-11-05T01:09:08Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Dollar edges lower as US election outcome cheers global markets",
+            "source": "CNA",
+            "publishedAt": "2026-11-05T01:08:36Z",
+            "sentiment": "Positive",
+            "compound": 0.226
+          },
           {
             "title": "Heartland Express, Inc. Announces Participation in Upcoming Conference",
             "source": "Biztoc.com",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-05T00:54:26Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Warren Poised to Lead Senate Banking as FinTechs Weigh Launch Risks",
-            "source": "pymnts.com",
-            "publishedAt": "2026-11-05T00:46:33Z",
-            "sentiment": "Neutral",
-            "compound": -0.026
-          },
-          {
-            "title": "Inflation is never coming down",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-05T00:43:20Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Nigeria should explore clay for affordable housing – Real estate expert",
-            "source": "The Punch",
-            "publishedAt": "2026-11-05T00:36:17Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Japan services activity expands for fifth month, PMI shows",
-            "source": "CNA",
-            "publishedAt": "2026-11-05T00:33:07Z",
-            "sentiment": "Neutral",
-            "compound": 0.103
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 36.3,
-  "trade_probability": 41.78,
+  "confirmation_score": 36.4,
+  "trade_probability": 41.84,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
