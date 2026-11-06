@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T17:15:55.166723+00:00",
+  "generated_at": "2026-11-06T17:31:14.347579+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.117,
+          "change_pct": -0.0632,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.9762,
+          "change_pct": 0.9609,
           "up": true
         },
         "NVDA": {
-          "change_pct": 4.1212,
+          "change_pct": 4.1849,
           "up": true
         },
         "AMZN": {
-          "change_pct": 2.7963,
+          "change_pct": 2.7316,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27108.7,
-        "sma50": 29635.07,
-        "sma200": 27984.49
+        "last_price": 27114.54,
+        "sma50": 29635.19,
+        "sma200": 27984.51
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 33.24,
+        "current_vxn": 33.56,
         "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 62.34,
+      "score": 62.66,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.853,
-        "change_5d_pct": -1.542
+        "current_yield_pct": 4.851,
+        "change_5d_pct": -1.582
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.68,
+      "score": 47.51,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.18,
-        "change_5d_pct": 0.291
+        "current_dxy": 102.2,
+        "change_5d_pct": 0.311
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.66,
+      "score": 48.23,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.007,
-        "articles_analyzed": 24,
+        "avg_compound": -0.035,
+        "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Nvidia's virtual GeForce 8800 GTX unboxing demo hasn't gone down well",
+            "source": "TechRadar",
+            "publishedAt": "2026-11-05T17:29:23Z",
+            "sentiment": "Negative",
+            "compound": -0.206
+          },
+          {
+            "title": "Farage says he is worried Trump will step up Iran war after midterm 'disaster'",
+            "source": "BBC News",
+            "publishedAt": "2026-11-05T17:23:49Z",
+            "sentiment": "Negative",
+            "compound": -0.881
+          },
+          {
+            "title": "This is fun",
+            "source": "Ncspin.com",
+            "publishedAt": "2026-11-05T17:20:00Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
           {
             "title": "DAVID ASMAN: Democrats exploit gas-price pain while ignoring their own record",
             "source": "Fox News",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-05T17:11:21Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Tesla Optimus Rival Agility Robotics Begins Trading After SPAC Merger",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-05T17:10:35Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "What Does a ‘Blue Wave’ Mean for Mortgage Rates?",
-            "source": "NerdWallet",
-            "publishedAt": "2026-11-05T17:09:33Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Canary’s Injective ETF debuts on Nasdaq with exposure to staking rewards",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-05T17:08:16Z",
-            "sentiment": "Positive",
-            "compound": 0.477
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.58,
-  "trade_probability": 52.75,
+  "confirmation_score": 54.48,
+  "trade_probability": 52.69,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
