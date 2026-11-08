@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T06:01:25.048439+00:00",
+  "generated_at": "2026-11-08T06:15:50.772064+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.87,
+      "score": 52.53,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.077,
+        "avg_compound": 0.051,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Worried about market risks? Lakshmi Iyer, Radhika Gupta and 4 others share strategies to protect portfolios",
+            "source": "Economictimes.com",
+            "publishedAt": "2026-11-07T06:08:41Z",
+            "sentiment": "Neutral",
+            "compound": 0.128
+          },
+          {
+            "title": "AI investment fears drive global stock sell-off",
+            "source": "Hurriyet Daily News",
+            "publishedAt": "2026-11-07T06:04:22Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
           {
             "title": "Wall Street grapples with $5.7 trillion rout as AI bets unwind",
             "source": "The Times of India",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-07T06:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "F&O Talk: Nifty’s bullish structure intact after best week in 5 years; Sudeep Shah on HDFC Bank strategy, picks 5 stocks this festive season",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-07T05:55:30Z",
-            "sentiment": "Positive",
-            "compound": 0.859
-          },
-          {
-            "title": "US election confirms erosion of support for Israel, with even Trump questioning military aid",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-07T05:46:42Z",
-            "sentiment": "Positive",
-            "compound": 0.318
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.73,
-  "trade_probability": 52.84,
+  "confirmation_score": 54.61,
+  "trade_probability": 52.77,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
