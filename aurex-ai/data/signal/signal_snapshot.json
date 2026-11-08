@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T13:31:11.837560+00:00",
+  "generated_at": "2026-11-08T13:45:53.116235+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.87,
+      "score": 48.62,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.003,
+        "avg_compound": -0.028,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Stocks Just Had Their Worst Second Day After a Midterm in Nearly a Century - Yahoo Finance",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-11-07T13:32:15Z",
+            "sentiment": "Negative",
+            "compound": -0.625
+          },
           {
             "title": "From high-flying AI stocks to tariff-hit alcohol companies, the midterms shook up Wall Street - Newsday",
             "source": "Newsday",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-07T13:01:01Z",
             "sentiment": "Positive",
             "compound": 0.316
-          },
-          {
-            "title": "Anthropic IPO meets AI backlash after midterms show stinging rebuke of data centers",
-            "source": "CNBC",
-            "publishedAt": "2026-11-07T13:00:01Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.37,
-  "trade_probability": 52.62,
+  "confirmation_score": 54.26,
+  "trade_probability": 52.56,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
