@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T23:31:10.010949+00:00",
+  "generated_at": "2026-11-08T23:45:54.757992+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.19,
+      "score": 46.08,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.23,
-        "change_5d_pct": 0.476
+        "current_dxy": 102.25,
+        "change_5d_pct": 0.489
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 43.42,
+      "score": 43.1,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.132,
+        "avg_compound": -0.138,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "5 Worst Dow Stocks To Buy According to Analysts",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-07T23:39:23Z",
+            "sentiment": "Negative",
+            "compound": -0.625
+          },
+          {
+            "title": "5 Best Dow Stocks to Buy for 2027",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-07T23:39:06Z",
+            "sentiment": "Positive",
+            "compound": 0.637
+          },
+          {
+            "title": "Why investors are dumping AI company stocks after Democrats’ election sweep - The Washington Post",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-11-07T23:32:49Z",
+            "sentiment": "Negative",
+            "compound": -0.318
+          },
           {
             "title": "indec-mcp 0.5.0",
             "source": "Pypi.org",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-07T23:00:00Z",
             "sentiment": "Negative",
             "compound": -0.71
-          },
-          {
-            "title": "New Zealand election: Overseas media say result leaves next government unclear",
-            "source": "New Zealand Herald",
-            "publishedAt": "2026-11-07T22:30:27Z",
-            "sentiment": "Negative",
-            "compound": -0.25
-          },
-          {
-            "title": "Banker Mark Carney Doubles Down, Adds 2.3 Million More Migrants to Shocked Canadian Economy",
-            "source": "Breitbart News",
-            "publishedAt": "2026-11-07T22:29:50Z",
-            "sentiment": "Negative",
-            "compound": -0.374
-          },
-          {
-            "title": "Kevin Warsh changed something the Fed has not touched in decades",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-07T22:07:12Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 53.75,
-  "trade_probability": 52.25,
+  "confirmation_score": 53.71,
+  "trade_probability": 52.23,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
