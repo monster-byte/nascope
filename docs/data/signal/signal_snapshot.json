@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T00:45:58.816109+00:00",
+  "generated_at": "2026-11-08T01:01:20.955140+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.22,
+      "score": 48.12,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.004,
+        "avg_compound": -0.038,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "ANDREW NEIL: We're on the brink of a new cost of living crisis. What happened to Trump should be keeping Andy Burnham awake at night",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-11-07T00:59:49Z",
+            "sentiment": "Negative",
+            "compound": -0.625
+          },
           {
             "title": "Bitcoin faces $70,000 risk as investors realize $2 billion in losses and US jobs shock deepens pressure",
             "source": "CryptoSlate",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-07T00:05:51Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Nasdaq, S&P 500, Russell 2000 jump, Dow Jones down at US Stock Market, check top performing Wall Street stocks",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-07T00:02:52Z",
-            "sentiment": "Positive",
-            "compound": 0.202
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.41,
-  "trade_probability": 52.65,
+  "confirmation_score": 54.22,
+  "trade_probability": 52.53,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
