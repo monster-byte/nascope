@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T00:15:55.879183+00:00",
+  "generated_at": "2026-11-08T00:31:10.422620+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.51,
+      "score": 51.93,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.03,
+        "avg_compound": 0.039,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "US treasury bond prices down on Friday, Yields on 10-year, 30-year, 2-year jump. Check latest rates",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-07T00:16:58Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
           {
             "title": "Moving house seven times in 18 months the reality for many renters",
             "source": "ABC News (AU)",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-06T23:52:26Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Stock Market Today: Nasdaq, S&P 500 and AI Stocks Rebound After Brutal Week - WSJ",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-11-06T23:52:06Z",
-            "sentiment": "Negative",
-            "compound": -0.625
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.52,
-  "trade_probability": 52.71,
+  "confirmation_score": 54.56,
+  "trade_probability": 52.74,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
