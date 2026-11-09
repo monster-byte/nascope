@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T14:01:24.968393+00:00",
+  "generated_at": "2026-11-09T14:15:52.705560+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 58.66,
+      "score": 58.99,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.841,
-        "change_5d_pct": -1.083
+        "current_yield_pct": 4.839,
+        "change_5d_pct": -1.124
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.25,
+      "score": 49.29,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.85,
-        "change_5d_pct": 0.094
+        "current_dxy": 101.84,
+        "change_5d_pct": 0.088
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.33,
+      "score": 52.37,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.027,
+        "avg_compound": 0.047,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "New Senators Face 2032 Social Security Deadline as Democrats Push to Raise Payroll Tax Cap on High Earners",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-11-08T14:15:36Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
+          {
+            "title": "Trump says midterm results 'giant step back' for US",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-08T14:13:14Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "ELAINE PARKER: Democrat win is a wake-up call for Republicans, not a vote for socialism",
             "source": "Fox News",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-08T13:30:56Z",
             "sentiment": "Positive",
             "compound": 0.421
-          },
-          {
-            "title": "The latest status symbol of the 1% is a third kid. ‘It has become rarer for everyone else,’ says an economist",
-            "source": "Fortune",
-            "publishedAt": "2026-11-08T13:30:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Elon Musk Says Tesla Will End Cybertruck Production -- Here's Why",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-08T13:28:16Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 34.12,
-  "trade_probability": 40.47,
+  "confirmation_score": 34.26,
+  "trade_probability": 40.56,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
