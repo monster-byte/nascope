@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T16:01:28.703743+00:00",
+  "generated_at": "2026-11-09T16:15:51.827573+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 2.3957,
+          "change_pct": 2.3782,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.9874,
+          "change_pct": 1.6084,
           "up": true
         },
         "NVDA": {
-          "change_pct": -4.6595,
+          "change_pct": -6.7208,
           "up": false
         },
         "AMZN": {
-          "change_pct": 3.5232,
+          "change_pct": 3.2807,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27883.02,
-        "sma50": 29601.69,
-        "sma200": 27995.28
+        "last_price": 27799.97,
+        "sma50": 29600.03,
+        "sma200": 27994.86
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 25.0,
       "status": "red",
       "details": {
-        "current_vxn": 29.77,
+        "current_vxn": 29.52,
         "percentile_vs_20d": 75.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 52.94,
+      "score": 51.96,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.876,
-        "change_5d_pct": -0.368
+        "current_yield_pct": 4.882,
+        "change_5d_pct": -0.245
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.75,
+      "score": 48.72,
       "status": "yellow",
       "details": {
         "current_dxy": 101.91,
-        "change_5d_pct": 0.156
+        "change_5d_pct": 0.16
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.76,
+      "score": 47.45,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.005,
+        "avg_compound": -0.051,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "AI selloff rejuvenates Asia's forgotten investment trades",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-08T16:13:41Z",
+            "sentiment": "Negative",
+            "compound": -0.226
+          },
+          {
+            "title": "Iranians Rise Up For Pahlavi - Islamists & Leftists Target Anti-IRGC Rally In Frankfurt",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-11-08T16:07:44Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Box Office: ‘Godzilla Minus Zero’ Roars With $31 Million Debut, ‘Cat in the Hat’ Fizzles With $20 Million",
+            "source": "Variety",
+            "publishedAt": "2026-11-08T16:01:33Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "The Inflation Hot Potato",
             "source": "Biztoc.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-08T15:46:07Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "AI Power Stocks Just Fell 6.3% to 9.3% on Financing Fears. SpaceX Just Said New Compute Pays Back in Under a Year",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-08T15:30:17Z",
-            "sentiment": "Negative",
-            "compound": -0.421
-          },
-          {
-            "title": "A single AI forecast inflates US power auctions by $5.7B",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-11-08T15:30:08Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Wall Street's Biggest Bubble Looks Ready to Burst, and I Don't Mean AI or Quantum Computing",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-08T15:29:39Z",
-            "sentiment": "Positive",
-            "compound": 0.361
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.76,
-  "trade_probability": 52.86,
+  "confirmation_score": 54.42,
+  "trade_probability": 52.65,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
