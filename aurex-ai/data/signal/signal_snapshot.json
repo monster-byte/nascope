@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T04:45:51.443651+00:00",
+  "generated_at": "2026-11-09T05:01:23.551893+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.89,
+      "score": 46.7,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.15,
-        "change_5d_pct": 0.389
+        "current_dxy": 102.3,
+        "change_5d_pct": 0.412
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.77,
+      "score": 47.25,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.045,
+        "avg_compound": -0.055,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Will the Democrats transition from violent, eliminationist rhetoric to action?",
+            "source": "Americanthinker.com",
+            "publishedAt": "2026-11-08T05:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.599
+          },
+          {
+            "title": "Democrats (In And Out Of The Media) Live In A Fantasy World",
+            "source": "Americanthinker.com",
+            "publishedAt": "2026-11-08T05:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "finzdata-kimi added to PyPI",
             "source": "Pypi.org",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-08T04:34:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Trump's Recent Warning Is Sending Shockwaves Through Wall Street. Here's What It Could Mean for Your Retirement Savings",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-08T04:15:21Z",
-            "sentiment": "Negative",
-            "compound": -0.34
-          },
-          {
-            "title": "'Feeling guilty': Price hikes a tough sell in Japan despite inflation",
-            "source": "CNA",
-            "publishedAt": "2026-11-08T03:33:28Z",
-            "sentiment": "Negative",
-            "compound": -0.421
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.2,
-  "trade_probability": 52.52,
+  "confirmation_score": 54.14,
+  "trade_probability": 52.48,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
