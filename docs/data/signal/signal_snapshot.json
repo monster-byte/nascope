@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T02:45:54.943574+00:00",
+  "generated_at": "2026-11-09T03:01:28.237449+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.73,
+      "score": 46.78,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.17,
-        "change_5d_pct": 0.409
+        "current_dxy": 102.16,
+        "change_5d_pct": 0.403
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.41,
+      "score": 47.62,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.032,
+        "avg_compound": -0.048,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Albanese snaps at camera operators after questions about his travel schedule as Aussies are smashed by mortgage pain: 'Stop, guys, stop'",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-11-08T02:53:54Z",
+            "sentiment": "Negative",
+            "compound": -0.772
+          },
           {
             "title": "Bank of America has unexpected advice for tech stock investors after midterms",
             "source": "Biztoc.com",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-08T01:44:28Z",
             "sentiment": "Neutral",
             "compound": 0.178
-          },
-          {
-            "title": "Muhurat trading: D-St to open for special session on Diwali; check timings",
-            "source": "Business Standard",
-            "publishedAt": "2026-11-08T01:44:18Z",
-            "sentiment": "Positive",
-            "compound": 0.402
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.25,
-  "trade_probability": 52.55,
+  "confirmation_score": 54.18,
+  "trade_probability": 52.51,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
