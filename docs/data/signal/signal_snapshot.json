@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T19:31:15.056604+00:00",
+  "generated_at": "2026-11-09T19:45:55.276200+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 2.4978,
+          "change_pct": 2.5751,
           "up": true
         },
         "MSFT": {
-          "change_pct": 2.531,
+          "change_pct": 2.9289,
           "up": true
         },
         "NVDA": {
-          "change_pct": -6.4699,
+          "change_pct": -6.1057,
           "up": false
         },
         "AMZN": {
-          "change_pct": 3.0806,
+          "change_pct": 3.2403,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27830.29,
-        "sma50": 29600.63,
-        "sma200": 27995.02
+        "last_price": 27924.25,
+        "sma50": 29602.51,
+        "sma200": 27995.49
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 52.62,
+      "score": 53.27,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.878,
-        "change_5d_pct": -0.327
+        "current_yield_pct": 4.874,
+        "change_5d_pct": -0.409
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.6,
+      "score": 49.99,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.8,
-        "change_5d_pct": 0.05
+        "current_dxy": 101.75,
+        "change_5d_pct": 0.001
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.07,
+      "score": 44.52,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.079,
+        "avg_compound": -0.11,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "$60,000 Split Across These 3 Real Estate Lenders Pays $8,554 a Year in Dividends",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-08T19:43:46Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Advertisers Flee Left Podcasters Who Cracked Up Over ‘Digging Up Charlie Kirk and Doing It Again’",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-11-08T19:40:21Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Bigger than Godzilla!",
             "source": "CleanTechnica",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-08T19:22:52Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Stocks will tumble much further as AI investment will slow next year then fall in 2028 and drag GDP down too, economist predicts",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-08T19:13:41Z",
-            "sentiment": "Negative",
-            "compound": -0.226
-          },
-          {
-            "title": "Smartbird Adds Supermicro DCBBS Racks to Its Managed Single-Tenant AI Clusters, Two Weeks After WEKA",
-            "source": "Storagereview.com",
-            "publishedAt": "2026-11-08T19:07:39Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.46,
-  "trade_probability": 52.68,
+  "confirmation_score": 54.45,
+  "trade_probability": 52.67,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
