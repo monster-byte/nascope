@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T17:31:13.870907+00:00",
+  "generated_at": "2026-11-09T17:45:59.613433+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 2.0776,
+          "change_pct": 1.8296,
           "up": true
         },
         "MSFT": {
-          "change_pct": 2.4408,
+          "change_pct": 2.2084,
           "up": true
         },
         "NVDA": {
-          "change_pct": -5.3879,
+          "change_pct": -5.5102,
           "up": false
         },
         "AMZN": {
-          "change_pct": 3.5213,
+          "change_pct": 3.3827,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27864.52,
-        "sma50": 29601.32,
-        "sma200": 27995.19
+        "last_price": 27834.79,
+        "sma50": 29600.72,
+        "sma200": 27995.04
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 25.0,
       "status": "red",
       "details": {
-        "current_vxn": 29.25,
+        "current_vxn": 29.18,
         "percentile_vs_20d": 75.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 51.96,
+      "score": 52.94,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.882,
-        "change_5d_pct": -0.245
+        "current_yield_pct": 4.876,
+        "change_5d_pct": -0.368
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.53,
+      "score": 49.6,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.81,
-        "change_5d_pct": 0.059
+        "current_dxy": 101.8,
+        "change_5d_pct": 0.05
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.23,
+      "score": 51.11,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.005,
+        "avg_compound": 0.022,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "A $57 Billion Storm May Hit Semiconductor Stocks This Week",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-08T17:45:08Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "One BlackRock fund dominates Bitcoin’s billion-dollar ETF exodus",
             "source": "CryptoSlate",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-08T17:00:20Z",
             "sentiment": "Positive",
             "compound": 0.791
-          },
-          {
-            "title": "‘Now It Can Be Told’: Van Jones Reveals the Democrats’ Coordinated Messaging Machine",
-            "source": "Legalinsurrection.com",
-            "publishedAt": "2026-11-08T17:00:04Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.74,
-  "trade_probability": 52.84,
+  "confirmation_score": 54.96,
+  "trade_probability": 52.98,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
