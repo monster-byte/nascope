@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T12:45:56.497864+00:00",
+  "generated_at": "2026-11-09T13:01:27.228843+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.97,
+      "score": 49.03,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.88,
-        "change_5d_pct": 0.129
+        "current_dxy": 101.87,
+        "change_5d_pct": 0.122
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.86,
+      "score": 51.5,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.057,
+        "avg_compound": 0.03,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "How Democrats will try to end Trump's tariffs",
+            "source": "CNBC",
+            "publishedAt": "2026-11-08T13:00:01Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "D.C. is a New York town: The president, next speaker and Senate majority leader grew up within 11 miles of each other—what it means for the Big Apple",
+            "source": "Fortune",
+            "publishedAt": "2026-11-08T13:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Fidelity, Vanguard issue the same sobering 10-year outlook — and US retirees stand to suffer most. Protect your nest egg",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-08T12:56:44Z",
+            "sentiment": "Negative",
+            "compound": -0.342
+          },
           {
             "title": "At 61, She Will Pick “Simple” Inflation Protection Because It Costs $300 a Year Less. At 86 the Policy Will Pay $270 a Day Against a $355 Nursing Home Bill, and “Compound” Would Have Paid $406",
             "source": "Biztoc.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-08T12:30:00Z",
             "sentiment": "Positive",
             "compound": 0.768
-          },
-          {
-            "title": "Stanbic raises lending rates as Uganda tightens monetary policy - NewSwift",
-            "source": "Newswift.co.ug",
-            "publishedAt": "2026-11-08T12:27:48Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "MEXC Exchange Cut Off by FinCEN: What Does It Mean for Bitcoin?",
-            "source": "Dcforecasts.com",
-            "publishedAt": "2026-11-08T12:25:27Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "Fed to cut rate-vote meetings under Warsh FOMC plan",
-            "source": "ValueWalk",
-            "publishedAt": "2026-11-08T12:11:55Z",
-            "sentiment": "Negative",
-            "compound": -0.273
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 34.6,
-  "trade_probability": 40.76,
+  "confirmation_score": 34.48,
+  "trade_probability": 40.69,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
