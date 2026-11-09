@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T17:45:59.613433+00:00",
+  "generated_at": "2026-11-09T18:01:30.656917+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.8296,
+          "change_pct": 1.9697,
           "up": true
         },
         "MSFT": {
-          "change_pct": 2.2084,
+          "change_pct": 2.3862,
           "up": true
         },
         "NVDA": {
-          "change_pct": -5.5102,
+          "change_pct": -5.9036,
           "up": false
         },
         "AMZN": {
-          "change_pct": 3.3827,
+          "change_pct": 3.35,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27834.79,
-        "sma50": 29600.72,
-        "sma200": 27995.04
+        "last_price": 27841.36,
+        "sma50": 29600.86,
+        "sma200": 27995.07
       }
     },
     "vxn": {
@@ -50,7 +50,7 @@
       "score": 25.0,
       "status": "red",
       "details": {
-        "current_vxn": 29.18,
+        "current_vxn": 29.17,
         "percentile_vs_20d": 75.0
       }
     },
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.6,
+      "score": 49.37,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.8,
-        "change_5d_pct": 0.05
+        "current_dxy": 101.83,
+        "change_5d_pct": 0.079
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.11,
+      "score": 50.55,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.022,
+        "avg_compound": 0.011,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Trump says return to war with Iran ‘highly unlikely’ as sides continue negotiations",
+            "source": "New York Post",
+            "publishedAt": "2026-11-08T18:01:20Z",
+            "sentiment": "Negative",
+            "compound": -0.599
+          },
+          {
+            "title": "Are there any (good) alternatives to interest rate hikes to cool inflation?",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-11-08T18:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.802
+          },
+          {
+            "title": "Trump says renewed attacks on Iran “highly unlikely” if talks show progress | CNN Politics",
+            "source": "CNN",
+            "publishedAt": "2026-11-08T17:59:49Z",
+            "sentiment": "Neutral",
+            "compound": -0.026
+          },
+          {
+            "title": "Battle between Congress and Trump looms as he vows political comeback",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-11-08T17:48:45Z",
+            "sentiment": "Negative",
+            "compound": -0.494
+          },
+          {
+            "title": "Japan Stocks Face Volatile Week After Historic Selloff",
+            "source": "Newsonjapan.com",
+            "publishedAt": "2026-11-08T17:46:39Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "A $57 Billion Storm May Hit Semiconductor Stocks This Week",
             "source": "Biztoc.com",
             "publishedAt": "2026-11-08T17:45:08Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "One BlackRock fund dominates Bitcoin’s billion-dollar ETF exodus",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-11-08T17:30:44Z",
-            "sentiment": "Neutral",
-            "compound": 0.052
-          },
-          {
-            "title": "2 big AI narratives wrestle with each other: What to watch this week",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-08T17:18:39Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "The Typical Family’s Vehicles Are Worth $26,000, Down 14% Since 2022",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-08T17:17:31Z",
-            "sentiment": "Positive",
-            "compound": 0.226
-          },
-          {
-            "title": "Top 5 stocks to watch this week",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-08T17:04:02Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "Disney World Fans Disagree About Our Favorite Restaurant, But Here’s Why We Still Love It",
-            "source": "Disneytouristblog.com",
-            "publishedAt": "2026-11-08T17:00:20Z",
-            "sentiment": "Positive",
-            "compound": 0.791
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.96,
-  "trade_probability": 52.98,
+  "confirmation_score": 54.89,
+  "trade_probability": 52.93,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
