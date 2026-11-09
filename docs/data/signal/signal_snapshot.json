@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T01:31:12.626705+00:00",
+  "generated_at": "2026-11-09T01:45:53.244761+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.85,
+      "score": 46.74,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.15,
-        "change_5d_pct": 0.394
+        "current_dxy": 102.17,
+        "change_5d_pct": 0.408
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.04,
+      "score": 50.2,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.019,
+        "avg_compound": 0.004,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "AI slump revives Asia’s forgotten trades from China to India",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-08T01:44:28Z",
+            "sentiment": "Neutral",
+            "compound": 0.178
+          },
+          {
+            "title": "Muhurat trading: D-St to open for special session on Diwali; check timings",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-08T01:44:18Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "Anger against Trump policies, not US stance towards India guided Desi voters in midterms",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-08T01:33:06Z",
+            "sentiment": "Negative",
+            "compound": -0.572
+          },
           {
             "title": "Brian Kilmeade Dishes Rich Republican Donors Love Marco Rubio — and Are ‘Nervous’ About JD Vance’s ‘Anti-Israel’ Slant",
             "source": "Mediaite",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-08T01:01:02Z",
             "sentiment": "Positive",
             "compound": 0.743
-          },
-          {
-            "title": "Nasdaq Lists Canary’s Staked INJ ETF, Adding Another Route to Altcoin Exposure",
-            "source": "newsBTC",
-            "publishedAt": "2026-11-08T01:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "If Stocks Tumble This Winter, History Says Investors Who Make This 1 Move Come Out Ahead",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-08T00:40:45Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Wars May Spur Faster Electrification",
-            "source": "OilPrice.com",
-            "publishedAt": "2026-11-08T00:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.557
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.31,
-  "trade_probability": 52.59,
+  "confirmation_score": 54.41,
+  "trade_probability": 52.65,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
