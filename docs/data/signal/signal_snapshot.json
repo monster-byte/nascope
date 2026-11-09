@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T14:31:11.614938+00:00",
+  "generated_at": "2026-11-09T14:45:55.976349+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.1263,
+          "change_pct": 1.9317,
           "up": true
         },
         "MSFT": {
-          "change_pct": 2.7464,
+          "change_pct": 2.374,
           "up": true
         },
         "NVDA": {
-          "change_pct": -9.1836,
+          "change_pct": -6.4566,
           "up": false
         },
         "AMZN": {
-          "change_pct": 4.5756,
+          "change_pct": 5.6686,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27234.58,
-        "sma50": 29588.72,
-        "sma200": 27992.04
+        "last_price": 27572.75,
+        "sma50": 29595.48,
+        "sma200": 27993.73
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 59.32,
+      "score": 59.64,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.837,
-        "change_5d_pct": -1.165
+        "current_yield_pct": 4.835,
+        "change_5d_pct": -1.206
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.55,
+      "score": 49.07,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.81,
-        "change_5d_pct": 0.056
+        "current_dxy": 101.87,
+        "change_5d_pct": 0.116
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.86,
+      "score": 53.35,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.057,
+        "avg_compound": 0.067,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Should You Forget IonQ and Buy These 2 Quantum Computing Stocks Instead?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-08T14:43:29Z",
+            "sentiment": "Negative",
+            "compound": -0.226
+          },
+          {
+            "title": "The hard part begins for a divided Washington: Letters to the Editor — Nov. 9, 2026",
+            "source": "New York Post",
+            "publishedAt": "2026-11-08T14:34:35Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
+          {
+            "title": "The average worker would need to save for 52 years to claw their way out of the middle class and be classified as wealthy, research reveals",
+            "source": "Fortune",
+            "publishedAt": "2026-11-08T14:31:24Z",
+            "sentiment": "Positive",
+            "compound": 0.691
+          },
           {
             "title": "Crypto Travel Rule Stays at $3,000: What Does It Mean for Bitcoin?",
             "source": "Dcforecasts.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-08T14:28:26Z",
             "sentiment": "Positive",
             "compound": 0.778
-          },
-          {
-            "title": "Leading Dem on midterms aftermath: \"We're still in the fight of our lives\"",
-            "source": "CBS News",
-            "publishedAt": "2026-11-08T14:24:06Z",
-            "sentiment": "Negative",
-            "compound": -0.382
-          },
-          {
-            "title": "Voters demanded economic relief. Trump and Democrats face tough choices on how to deliver",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-11-08T14:16:52Z",
-            "sentiment": "Neutral",
-            "compound": 0.178
-          },
-          {
-            "title": "New Senators Face 2032 Social Security Deadline as Democrats Push to Raise Payroll Tax Cap on High Earners",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-11-08T14:15:36Z",
-            "sentiment": "Positive",
-            "compound": 0.34
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.63,
-  "trade_probability": 52.78,
+  "confirmation_score": 54.67,
+  "trade_probability": 52.8,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
