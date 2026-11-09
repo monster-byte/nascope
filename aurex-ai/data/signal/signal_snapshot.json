@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T12:15:50.985253+00:00",
+  "generated_at": "2026-11-09T12:31:13.117969+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.01,
+      "score": 49.06,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.88,
-        "change_5d_pct": 0.124
+        "current_dxy": 101.87,
+        "change_5d_pct": 0.118
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.95,
+      "score": 54.97,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.001,
+        "avg_compound": 0.099,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Republicans saw Indian Americans as ‘natural conservative voters.’ But Trump’s second term undid the gains as their support for Democrats shot up",
+            "source": "Fortune",
+            "publishedAt": "2026-11-08T12:30:00Z",
+            "sentiment": "Positive",
+            "compound": 0.768
+          },
+          {
+            "title": "Stanbic raises lending rates as Uganda tightens monetary policy - NewSwift",
+            "source": "Newswift.co.ug",
+            "publishedAt": "2026-11-08T12:27:48Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "MEXC Exchange Cut Off by FinCEN: What Does It Mean for Bitcoin?",
+            "source": "Dcforecasts.com",
+            "publishedAt": "2026-11-08T12:25:27Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
           {
             "title": "Fed to cut rate-vote meetings under Warsh FOMC plan",
             "source": "ValueWalk",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-08T12:10:29Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Digital Asset Trading vs the NYSE: What Does Fidelity See for Bitcoin?",
-            "source": "Dcforecasts.com",
-            "publishedAt": "2026-11-08T12:09:27Z",
-            "sentiment": "Positive",
-            "compound": 0.361
-          },
-          {
-            "title": "Hyperliquid Strategies lifts HYPE treasury to 38.5M tokens after $785M quarter",
-            "source": "ValueWalk",
-            "publishedAt": "2026-11-08T12:09:00Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "FinCEN, Fed withdraw $250 crypto Travel Rule proposal after five-year privacy fight",
-            "source": "ValueWalk",
-            "publishedAt": "2026-11-08T12:08:32Z",
-            "sentiment": "Negative",
-            "compound": -0.382
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 34.34,
-  "trade_probability": 40.6,
+  "confirmation_score": 34.8,
+  "trade_probability": 40.88,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
