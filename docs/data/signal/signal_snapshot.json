@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T15:45:53.527357+00:00",
+  "generated_at": "2026-11-09T16:01:28.703743+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 2.4409,
+          "change_pct": 2.3957,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.883,
+          "change_pct": 1.9874,
           "up": true
         },
         "NVDA": {
-          "change_pct": -4.7845,
+          "change_pct": -4.6595,
           "up": false
         },
         "AMZN": {
-          "change_pct": 3.7387,
+          "change_pct": 3.5232,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27747.91,
-        "sma50": 29598.99,
-        "sma200": 27994.6
+        "last_price": 27883.02,
+        "sma50": 29601.69,
+        "sma200": 27995.28
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 20.0,
+      "score": 25.0,
       "status": "red",
       "details": {
-        "current_vxn": 29.99,
-        "percentile_vs_20d": 80.0
+        "current_vxn": 29.77,
+        "percentile_vs_20d": 75.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 54.58,
+      "score": 52.94,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.866,
-        "change_5d_pct": -0.572
+        "current_yield_pct": 4.876,
+        "change_5d_pct": -0.368
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.71,
+      "score": 48.75,
       "status": "yellow",
       "details": {
         "current_dxy": 101.91,
-        "change_5d_pct": 0.161
+        "change_5d_pct": 0.156
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.1,
+      "score": 49.76,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.042,
+        "avg_compound": -0.005,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "The Inflation Hot Potato",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-08T16:00:52Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "I’ve known John Fetterman for years — his new signals are terrifying",
+            "source": "Raw Story",
+            "publishedAt": "2026-11-08T16:00:02Z",
+            "sentiment": "Negative",
+            "compound": -0.572
+          },
+          {
+            "title": "Milton Friedman Was Incorrect About The Fed. November 4th Shows Why",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-08T15:46:07Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "AI Power Stocks Just Fell 6.3% to 9.3% on Financing Fears. SpaceX Just Said New Compute Pays Back in Under a Year",
             "source": "Biztoc.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-08T15:29:39Z",
             "sentiment": "Positive",
             "compound": 0.361
-          },
-          {
-            "title": "Take the guesswork out of investing with this stock research tool — now for just $20 a year",
-            "source": "Popular Science",
-            "publishedAt": "2026-11-08T15:25:08Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "‘Giant step back in history’: Trump blames Democrats’ midterm sweep for $3 trillion market loss",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-08T15:15:19Z",
-            "sentiment": "Negative",
-            "compound": -0.612
-          },
-          {
-            "title": "Bitcoin Treasury Company Chart: Will Strategy Buy More BTC?",
-            "source": "Dcforecasts.com",
-            "publishedAt": "2026-11-08T15:11:29Z",
-            "sentiment": "Positive",
-            "compound": 0.202
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.74,
-  "trade_probability": 52.84,
+  "confirmation_score": 54.76,
+  "trade_probability": 52.86,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
