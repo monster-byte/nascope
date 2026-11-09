@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T17:01:31.027684+00:00",
+  "generated_at": "2026-11-09T17:15:58.525939+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 2.2731,
+          "change_pct": 2.2439,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.9507,
+          "change_pct": 2.2818,
           "up": true
         },
         "NVDA": {
-          "change_pct": -6.2439,
+          "change_pct": -5.6006,
           "up": false
         },
         "AMZN": {
-          "change_pct": 3.275,
+          "change_pct": 3.3889,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27816.47,
-        "sma50": 29600.36,
-        "sma200": 27994.95
+        "last_price": 27873.61,
+        "sma50": 29601.5,
+        "sma200": 27995.23
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 52.94,
+      "score": 53.6,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.876,
-        "change_5d_pct": -0.368
+        "current_yield_pct": 4.872,
+        "change_5d_pct": -0.45
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.25,
+      "score": 49.5,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.85,
-        "change_5d_pct": 0.093
+        "current_dxy": 101.81,
+        "change_5d_pct": 0.062
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.15,
+      "score": 48.57,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.037,
+        "avg_compound": -0.029,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Top 5 stocks to watch this week",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-08T17:04:02Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
           {
             "title": "Disney World Fans Disagree About Our Favorite Restaurant, But Here’s Why We Still Love It",
             "source": "Disneytouristblog.com",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-08T16:48:46Z",
             "sentiment": "Positive",
             "compound": 0.572
-          },
-          {
-            "title": "Earnings Volatility Watch: CoreWeave Faces an AI Rally Test",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-08T16:21:25Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.21,
-  "trade_probability": 52.53,
+  "confirmation_score": 54.36,
+  "trade_probability": 52.62,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
