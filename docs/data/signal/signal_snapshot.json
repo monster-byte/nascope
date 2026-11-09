@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T08:01:23.706086+00:00",
+  "generated_at": "2026-11-09T08:15:53.424496+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.99,
+      "score": 48.21,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.01,
-        "change_5d_pct": 0.252
+        "current_dxy": 101.98,
+        "change_5d_pct": 0.224
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.81,
+      "score": 56.13,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.116,
+        "avg_compound": 0.123,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Muhurat Trading LIVE: GIFT Nifty signals muted open; Tata Steel, Divi's Labs shares in focus",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-08T08:02:00Z",
+            "sentiment": "Positive",
+            "compound": 0.819
+          },
           {
             "title": "‘No vote, no warning, just plain math’: Social Security is six years from an automatic 22% cut—and most Americans have no idea",
             "source": "Fortune",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-08T07:34:43Z",
             "sentiment": "Positive",
             "compound": 0.459
-          },
-          {
-            "title": "US inflation set to cool in October after two months of sharp increases",
-            "source": "Business Standard",
-            "publishedAt": "2026-11-08T07:33:27Z",
-            "sentiment": "Positive",
-            "compound": 0.318
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 55.03,
-  "trade_probability": 53.02,
+  "confirmation_score": 55.07,
+  "trade_probability": 53.04,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
