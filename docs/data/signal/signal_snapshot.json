@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T13:31:12.020750+00:00",
+  "generated_at": "2026-11-09T13:45:56.447800+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 61.36,
+      "score": 57.68,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.859,
-        "change_5d_pct": -1.42
+        "current_yield_pct": 4.847,
+        "change_5d_pct": -0.96
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.45,
+      "score": 49.39,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.82,
-        "change_5d_pct": 0.069
+        "current_dxy": 101.83,
+        "change_5d_pct": 0.076
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.61,
+      "score": 51.18,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.012,
+        "avg_compound": 0.024,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Voters demanded economic relief. Trump and Democrats face tough choices on how to deliver",
+            "source": "KSAT San Antonio",
+            "publishedAt": "2026-11-08T13:41:43Z",
+            "sentiment": "Neutral",
+            "compound": 0.178
+          },
           {
             "title": "What Beijing Hopes to Gain Following Tuesday’s Shock Elections: Tariff Relief, an End to the Iran War, and a Way Back into Latin America",
             "source": "Thegatewaypundit.com",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-08T13:19:05Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "I love my $115,000 home in rural Japan. I'd still warn most Americans against following my lead.",
-            "source": "Business Insider",
-            "publishedAt": "2026-11-08T13:18:01Z",
-            "sentiment": "Positive",
-            "compound": 0.586
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 34.44,
-  "trade_probability": 40.66,
+  "confirmation_score": 33.99,
+  "trade_probability": 40.39,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
