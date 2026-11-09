@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T03:15:54.846385+00:00",
+  "generated_at": "2026-11-09T03:31:13.834018+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.67,
+      "score": 46.71,
       "status": "yellow",
       "details": {
         "current_dxy": 102.17,
-        "change_5d_pct": 0.417
+        "change_5d_pct": 0.411
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.62,
+      "score": 49.78,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.048,
+        "avg_compound": -0.004,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "DA hike: Uttarakhand increases dearness allowance by 3% to 63% for state employees, pensioners — All we know",
+            "source": "Livemint",
+            "publishedAt": "2026-11-08T03:19:12Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "Tata Chemicals posts loss at ₹50 cr in Q2 on lower realisations, higher energy and logistics costs",
+            "source": "BusinessLine",
+            "publishedAt": "2026-11-08T03:18:33Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
           {
             "title": "Albanese snaps at camera operators after questions about his travel schedule as Aussies are smashed by mortgage pain: 'Stop, guys, stop'",
             "source": "Dailymail.com",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-08T01:55:15Z",
             "sentiment": "Neutral",
             "compound": 0.115
-          },
-          {
-            "title": "Michael Goodwin: JD Vance sold Trump out after the midterm shellacking — it’s time to cut him off",
-            "source": "New York Post",
-            "publishedAt": "2026-11-08T01:45:56Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "AI slump revives Asia’s forgotten trades from China to India",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-08T01:44:28Z",
-            "sentiment": "Neutral",
-            "compound": 0.178
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.17,
-  "trade_probability": 52.5,
+  "confirmation_score": 54.37,
+  "trade_probability": 52.62,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
