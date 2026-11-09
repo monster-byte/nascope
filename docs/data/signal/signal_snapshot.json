@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T19:01:27.627974+00:00",
+  "generated_at": "2026-11-09T19:15:56.574601+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 2.3548,
+          "change_pct": 2.6787,
           "up": true
         },
         "MSFT": {
-          "change_pct": 2.2799,
+          "change_pct": 2.5705,
           "up": true
         },
         "NVDA": {
-          "change_pct": -6.0286,
+          "change_pct": -6.4034,
           "up": false
         },
         "AMZN": {
-          "change_pct": 3.1922,
+          "change_pct": 3.198,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27862.34,
-        "sma50": 29601.28,
-        "sma200": 27995.18
+        "last_price": 27854.23,
+        "sma50": 29601.11,
+        "sma200": 27995.14
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 52.94,
+      "score": 52.29,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.876,
-        "change_5d_pct": -0.368
+        "current_yield_pct": 4.88,
+        "change_5d_pct": -0.286
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.45,
+      "score": 49.49,
       "status": "yellow",
       "details": {
         "current_dxy": 101.82,
-        "change_5d_pct": 0.069
+        "change_5d_pct": 0.064
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.5,
+      "score": 44.59,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.09,
+        "avg_compound": -0.108,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Stocks will tumble much further as AI investment will slow next year then fall in 2028 and drag GDP down too, economist predicts",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-08T19:13:41Z",
+            "sentiment": "Negative",
+            "compound": -0.226
+          },
+          {
+            "title": "Smartbird Adds Supermicro DCBBS Racks to Its Managed Single-Tenant AI Clusters, Two Weeks After WEKA",
+            "source": "Storagereview.com",
+            "publishedAt": "2026-11-08T19:07:39Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "JD Vance’s disastrous economic agenda spells GOP doom",
             "source": "New York Post",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-08T18:41:55Z",
             "sentiment": "Negative",
             "compound": -0.296
-          },
-          {
-            "title": "Trump says return to war with Iran ‘highly unlikely’ as sides continue negotiations",
-            "source": "Freerepublic.com",
-            "publishedAt": "2026-11-08T18:40:25Z",
-            "sentiment": "Negative",
-            "compound": -0.599
-          },
-          {
-            "title": "This is what a weekly shop looks like for seven households in 2026",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-11-08T18:37:02Z",
-            "sentiment": "Positive",
-            "compound": 0.361
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.44,
-  "trade_probability": 52.66,
+  "confirmation_score": 54.28,
+  "trade_probability": 52.57,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
