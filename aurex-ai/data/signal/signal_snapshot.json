@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T19:15:56.574601+00:00",
+  "generated_at": "2026-11-09T19:31:15.056604+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 2.6787,
+          "change_pct": 2.4978,
           "up": true
         },
         "MSFT": {
-          "change_pct": 2.5705,
+          "change_pct": 2.531,
           "up": true
         },
         "NVDA": {
-          "change_pct": -6.4034,
+          "change_pct": -6.4699,
           "up": false
         },
         "AMZN": {
-          "change_pct": 3.198,
+          "change_pct": 3.0806,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27854.23,
-        "sma50": 29601.11,
-        "sma200": 27995.14
+        "last_price": 27830.29,
+        "sma50": 29600.63,
+        "sma200": 27995.02
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 52.29,
+      "score": 52.62,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.88,
-        "change_5d_pct": -0.286
+        "current_yield_pct": 4.878,
+        "change_5d_pct": -0.327
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.49,
+      "score": 49.6,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.82,
-        "change_5d_pct": 0.064
+        "current_dxy": 101.8,
+        "change_5d_pct": 0.05
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 44.59,
+      "score": 46.07,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.108,
+        "avg_compound": -0.079,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Bigger than Godzilla!",
+            "source": "CleanTechnica",
+            "publishedAt": "2026-11-08T19:29:31Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "AppLovin Shares Surge as Revenue Continues to Soar. Is It Too Late to Buy the Stock?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-08T19:28:54Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "Full transcript of \"Face the Nation with Margaret Brennan,\" Nov. 8, 2026",
+            "source": "CBS News",
+            "publishedAt": "2026-11-08T19:27:07Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Transcript: Rep. French Hill on \"Face the Nation with Margaret Brennan,\" Nov. 8, 2026",
+            "source": "CBS News",
+            "publishedAt": "2026-11-08T19:22:52Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Stocks will tumble much further as AI investment will slow next year then fall in 2028 and drag GDP down too, economist predicts",
             "source": "Biztoc.com",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-08T19:07:39Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "JD Vance’s disastrous economic agenda spells GOP doom",
-            "source": "New York Post",
-            "publishedAt": "2026-11-08T19:00:33Z",
-            "sentiment": "Negative",
-            "compound": -0.765
-          },
-          {
-            "title": "Bitcoin Treasury Company Strive Adds 15,124 BTC After a $509M Quarter",
-            "source": "Dcforecasts.com",
-            "publishedAt": "2026-11-08T18:54:05Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "Bitcoin Trades $200 Above Strategy’s Average Cost of $75,451. What Happens to MSTR if BTC Closes Below It?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-08T18:43:03Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "What an uncertain election result means for households’ finances",
-            "source": "New Zealand Herald",
-            "publishedAt": "2026-11-08T18:41:55Z",
-            "sentiment": "Negative",
-            "compound": -0.296
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.28,
-  "trade_probability": 52.57,
+  "confirmation_score": 54.46,
+  "trade_probability": 52.68,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
