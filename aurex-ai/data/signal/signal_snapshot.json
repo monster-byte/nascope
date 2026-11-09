@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T20:31:15.400940+00:00",
+  "generated_at": "2026-11-09T20:45:48.307503+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 2.4161,
+          "change_pct": 2.3971,
           "up": true
         },
         "MSFT": {
-          "change_pct": 2.8875,
+          "change_pct": 2.9853,
           "up": true
         },
         "NVDA": {
-          "change_pct": -5.3028,
+          "change_pct": -5.356,
           "up": false
         },
         "AMZN": {
-          "change_pct": 3.3635,
+          "change_pct": 3.2172,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28008.43,
-        "sma50": 29604.2,
-        "sma200": 27995.91
+        "last_price": 27989.9,
+        "sma50": 29603.83,
+        "sma200": 27995.81
       }
     },
     "vxn": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.67,
+      "score": 50.6,
       "status": "yellow",
       "details": {
         "current_dxy": 101.67,
-        "change_5d_pct": -0.084
+        "change_5d_pct": -0.075
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.65,
+      "score": 48.41,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.013,
+        "avg_compound": -0.032,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Kevin Warsh’s Expected Rate Hike Is a Warning to Retirees That the Fed Won’t Rescue Stocks",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-08T20:45:02Z",
+            "sentiment": "Positive",
+            "compound": 0.226
+          },
+          {
+            "title": "What Are Trump Toadies to Do Now? Pivot Hard, Obviously.",
+            "source": "Mother Jones",
+            "publishedAt": "2026-11-08T20:43:31Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
+          {
+            "title": "Argentina's president greets Pope Leo as tensions loom over austerity and Iran",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-11-08T20:38:09Z",
+            "sentiment": "Negative",
+            "compound": -0.459
+          },
+          {
+            "title": "Trump vows comeback as bitter showdown with Congress looms",
+            "source": "CNA",
+            "publishedAt": "2026-11-08T20:37:26Z",
+            "sentiment": "Negative",
+            "compound": -0.527
+          },
+          {
+            "title": "Nasdaq rebounds but with fourth straight weekly decline",
+            "source": "PerthNow",
+            "publishedAt": "2026-11-08T20:32:24Z",
+            "sentiment": "Positive",
+            "compound": 0.329
+          },
           {
             "title": "Who Actually Pays the Estate Tax? The Eight-Figure Line Almost No One Crosses",
             "source": "Biztoc.com",
             "publishedAt": "2026-11-08T20:29:40Z",
             "sentiment": "Negative",
             "compound": -0.228
-          },
-          {
-            "title": "Not IonQ. Not D-Wave. This \"Boring\" Blue Chip Stock Is Quietly Leading in Quantum Computing",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-08T20:14:26Z",
-            "sentiment": "Negative",
-            "compound": -0.387
-          },
-          {
-            "title": "Live: Parents, experts to give evidence at Digital Duty of Care inquiry",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-11-08T20:06:15Z",
-            "sentiment": "Positive",
-            "compound": 0.494
-          },
-          {
-            "title": "Live: Wall Street lifts on AI rebound, ASX set to gain",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-11-08T20:05:17Z",
-            "sentiment": "Positive",
-            "compound": 0.527
-          },
-          {
-            "title": "PlayStation 6 Unveiling Date Leaked Ahead Of Official Confirmation",
-            "source": "Screen Rant",
-            "publishedAt": "2026-11-08T20:00:18Z",
-            "sentiment": "Negative",
-            "compound": -0.318
-          },
-          {
-            "title": "Chewy and other companies pull ads from 'I've Had It' podcast after hosts laugh at 'insensitive' Charlie Kirk joke",
-            "source": "Business Insider",
-            "publishedAt": "2026-11-08T19:59:23Z",
-            "sentiment": "Positive",
-            "compound": 0.599
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 55.28,
-  "trade_probability": 53.17,
+  "confirmation_score": 55.07,
+  "trade_probability": 53.04,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
