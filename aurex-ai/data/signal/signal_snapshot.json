@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T15:01:32.696708+00:00",
+  "generated_at": "2026-11-09T15:15:55.673407+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.6822,
+          "change_pct": 2.012,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.5228,
+          "change_pct": 1.6892,
           "up": true
         },
         "NVDA": {
-          "change_pct": -5.5873,
+          "change_pct": -4.9626,
           "up": false
         },
         "AMZN": {
-          "change_pct": 4.5815,
+          "change_pct": 4.1105,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27637.26,
-        "sma50": 29596.77,
-        "sma200": 27994.05
+        "last_price": 27718.96,
+        "sma50": 29598.41,
+        "sma200": 27994.46
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 10.0,
+      "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 30.89,
-        "percentile_vs_20d": 90.0
+        "current_vxn": 30.55,
+        "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 57.68,
+      "score": 56.38,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.847,
-        "change_5d_pct": -0.96
+        "current_yield_pct": 4.855,
+        "change_5d_pct": -0.797
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.9,
+      "score": 49.06,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.89,
-        "change_5d_pct": 0.138
+        "current_dxy": 101.87,
+        "change_5d_pct": 0.117
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.44,
+      "score": 51.41,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.089,
+        "avg_compound": 0.028,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "‘Giant step back in history’: Trump blames Democrats’ midterm sweep for $3 trillion market loss",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-08T15:15:19Z",
+            "sentiment": "Negative",
+            "compound": -0.612
+          },
+          {
+            "title": "Bitcoin Treasury Company Chart: Will Strategy Buy More BTC?",
+            "source": "Dcforecasts.com",
+            "publishedAt": "2026-11-08T15:11:29Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "Misinformation won: How divisive politics doomed Canada’s carbon tax",
+            "source": "The Conversation Africa",
+            "publishedAt": "2026-11-08T15:04:58Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
+          {
+            "title": "Canada PM Mark Carney Supercharges Banks with 2.3 Million More Migrants as Citizen’s Lack Jobs [WATCH]",
+            "source": "Lifezette.com",
+            "publishedAt": "2026-11-08T15:04:53Z",
+            "sentiment": "Negative",
+            "compound": -0.318
+          },
           {
             "title": "Baby Brands Are Selling a Strange New Fantasy",
             "source": "Slate Magazine",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-08T14:58:53Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "OpenAI Raises $11B at a $1.25T Valuation",
-            "source": "24/7 Wall St.",
-            "publishedAt": "2026-11-08T14:49:23Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Should You Forget IonQ and Buy These 2 Quantum Computing Stocks Instead?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-08T14:43:29Z",
-            "sentiment": "Negative",
-            "compound": -0.226
-          },
-          {
-            "title": "The hard part begins for a divided Washington: Letters to the Editor — Nov. 9, 2026",
-            "source": "New York Post",
-            "publishedAt": "2026-11-08T14:34:35Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
-          },
-          {
-            "title": "The average worker would need to save for 52 years to claw their way out of the middle class and be classified as wealthy, research reveals",
-            "source": "Fortune",
-            "publishedAt": "2026-11-08T14:31:24Z",
-            "sentiment": "Positive",
-            "compound": 0.691
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.49,
-  "trade_probability": 52.69,
+  "confirmation_score": 54.5,
+  "trade_probability": 52.7,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
