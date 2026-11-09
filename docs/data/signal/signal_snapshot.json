@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T15:15:55.673407+00:00",
+  "generated_at": "2026-11-09T15:31:12.151648+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 2.012,
+          "change_pct": 2.2673,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.6892,
+          "change_pct": 1.8806,
           "up": true
         },
         "NVDA": {
-          "change_pct": -4.9626,
+          "change_pct": -4.601,
           "up": false
         },
         "AMZN": {
-          "change_pct": 4.1105,
+          "change_pct": 3.9484,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27718.96,
-        "sma50": 29598.41,
-        "sma200": 27994.46
+        "last_price": 27747.4,
+        "sma50": 29598.98,
+        "sma200": 27994.6
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 15.0,
+      "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 30.55,
-        "percentile_vs_20d": 85.0
+        "current_vxn": 30.22,
+        "percentile_vs_20d": 80.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 56.38,
+      "score": 54.9,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.855,
-        "change_5d_pct": -0.797
+        "current_yield_pct": 4.864,
+        "change_5d_pct": -0.613
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.06,
+      "score": 48.68,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.87,
-        "change_5d_pct": 0.117
+        "current_dxy": 101.92,
+        "change_5d_pct": 0.165
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.41,
+      "score": 52.1,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.028,
+        "avg_compound": 0.042,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "AI Power Stocks Just Fell 6.3% to 9.3% on Financing Fears. SpaceX Just Said New Compute Pays Back in Under a Year",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-08T15:30:17Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
+          {
+            "title": "A single AI forecast inflates US power auctions by $5.7B",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-11-08T15:30:08Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Wall Street's Biggest Bubble Looks Ready to Burst, and I Don't Mean AI or Quantum Computing",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-08T15:29:39Z",
+            "sentiment": "Positive",
+            "compound": 0.361
+          },
+          {
+            "title": "Take the guesswork out of investing with this stock research tool — now for just $20 a year",
+            "source": "Popular Science",
+            "publishedAt": "2026-11-08T15:25:08Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "‘Giant step back in history’: Trump blames Democrats’ midterm sweep for $3 trillion market loss",
             "source": "The Times of India",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-08T15:11:29Z",
             "sentiment": "Positive",
             "compound": 0.202
-          },
-          {
-            "title": "Misinformation won: How divisive politics doomed Canada’s carbon tax",
-            "source": "The Conversation Africa",
-            "publishedAt": "2026-11-08T15:04:58Z",
-            "sentiment": "Negative",
-            "compound": -0.421
-          },
-          {
-            "title": "Canada PM Mark Carney Supercharges Banks with 2.3 Million More Migrants as Citizen’s Lack Jobs [WATCH]",
-            "source": "Lifezette.com",
-            "publishedAt": "2026-11-08T15:04:53Z",
-            "sentiment": "Negative",
-            "compound": -0.318
-          },
-          {
-            "title": "Baby Brands Are Selling a Strange New Fantasy",
-            "source": "Slate Magazine",
-            "publishedAt": "2026-11-08T15:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.202
-          },
-          {
-            "title": "Democrats prepare to go after Apple, Meta and Elon Musk companies",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-08T14:58:53Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.5,
-  "trade_probability": 52.7,
+  "confirmation_score": 54.78,
+  "trade_probability": 52.87,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
