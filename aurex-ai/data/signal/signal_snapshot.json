@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T18:45:53.565300+00:00",
+  "generated_at": "2026-11-09T19:01:27.627974+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 2.1681,
+          "change_pct": 2.3548,
           "up": true
         },
         "MSFT": {
-          "change_pct": 2.2903,
+          "change_pct": 2.2799,
           "up": true
         },
         "NVDA": {
-          "change_pct": -5.9036,
+          "change_pct": -6.0286,
           "up": false
         },
         "AMZN": {
-          "change_pct": 3.1306,
+          "change_pct": 3.1922,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27849.17,
-        "sma50": 29601.01,
-        "sma200": 27995.11
+        "last_price": 27862.34,
+        "sma50": 29601.28,
+        "sma200": 27995.18
       }
     },
     "vxn": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.62,
+      "score": 49.45,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.8,
-        "change_5d_pct": 0.047
+        "current_dxy": 101.82,
+        "change_5d_pct": 0.069
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.61,
+      "score": 45.5,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.028,
+        "avg_compound": -0.09,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "JD Vance’s disastrous economic agenda spells GOP doom",
+            "source": "New York Post",
+            "publishedAt": "2026-11-08T19:00:33Z",
+            "sentiment": "Negative",
+            "compound": -0.765
+          },
+          {
+            "title": "Bitcoin Treasury Company Strive Adds 15,124 BTC After a $509M Quarter",
+            "source": "Dcforecasts.com",
+            "publishedAt": "2026-11-08T18:54:05Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
           {
             "title": "Bitcoin Trades $200 Above Strategy’s Average Cost of $75,451. What Happens to MSTR if BTC Closes Below It?",
             "source": "Biztoc.com",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-08T18:37:02Z",
             "sentiment": "Positive",
             "compound": 0.361
-          },
-          {
-            "title": "Growth likely hit 2.8%",
-            "source": "The Manila Times",
-            "publishedAt": "2026-11-08T18:31:28Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "The diesel problem that could spoil Bitcoin’s hopes for cheaper money",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-11-08T18:30:39Z",
-            "sentiment": "Neutral",
-            "compound": 0.026
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.74,
-  "trade_probability": 52.84,
+  "confirmation_score": 54.44,
+  "trade_probability": 52.66,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
