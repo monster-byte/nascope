@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T16:15:51.827573+00:00",
+  "generated_at": "2026-11-09T16:31:16.564621+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 2.3782,
+          "change_pct": 2.0893,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.6084,
+          "change_pct": 1.7645,
           "up": true
         },
         "NVDA": {
-          "change_pct": -6.7208,
+          "change_pct": -6.9404,
           "up": false
         },
         "AMZN": {
-          "change_pct": 3.2807,
+          "change_pct": 3.0816,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27799.97,
-        "sma50": 29600.03,
-        "sma200": 27994.86
+        "last_price": 27750.83,
+        "sma50": 29599.05,
+        "sma200": 27994.62
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 25.0,
       "status": "red",
       "details": {
-        "current_vxn": 29.52,
+        "current_vxn": 29.78,
         "percentile_vs_20d": 75.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 51.96,
+      "score": 53.6,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.882,
-        "change_5d_pct": -0.245
+        "current_yield_pct": 4.872,
+        "change_5d_pct": -0.45
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.72,
+      "score": 49.36,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.91,
-        "change_5d_pct": 0.16
+        "current_dxy": 101.83,
+        "change_5d_pct": 0.081
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.45,
+      "score": 48.58,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.051,
+        "avg_compound": -0.028,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Earnings Volatility Watch: CoreWeave Faces an AI Rally Test",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-08T16:21:25Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Donald Trump vs MAGA: Is Make America Great Again movement dead after Democratic Party landslides in Midterm elections?",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-08T16:16:11Z",
+            "sentiment": "Positive",
+            "compound": 0.361
+          },
           {
             "title": "AI selloff rejuvenates Asia's forgotten investment trades",
             "source": "Business Standard",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-08T16:00:52Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "I’ve known John Fetterman for years — his new signals are terrifying",
-            "source": "Raw Story",
-            "publishedAt": "2026-11-08T16:00:02Z",
-            "sentiment": "Negative",
-            "compound": -0.572
-          },
-          {
-            "title": "Milton Friedman Was Incorrect About The Fed. November 4th Shows Why",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-08T15:46:07Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.42,
-  "trade_probability": 52.65,
+  "confirmation_score": 54.8,
+  "trade_probability": 52.88,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
