@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T21:01:25.797179+00:00",
+  "generated_at": "2026-11-09T21:15:53.567669+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -21,7 +21,7 @@
           "up": true
         },
         "MSFT": {
-          "change_pct": 2.5546,
+          "change_pct": 2.5527,
           "up": true
         },
         "NVDA": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.49,
+      "score": 50.61,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.69,
-        "change_5d_pct": -0.061
+        "current_dxy": 101.67,
+        "change_5d_pct": -0.077
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.68,
+      "score": 51.39,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.006,
+        "avg_compound": 0.028,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "WEEKLY PREVIEW: US inflation, WH reshuffle",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-08T21:15:42Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "ASML shares fall 12% in October despite record quarter",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-08T21:15:28Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "How a Frenchman’s book on ‘Democracy in America’ nearly 200 years ago explains the midterms, from data centers to Texas",
+            "source": "Fortune",
+            "publishedAt": "2026-11-08T21:09:19Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Sell Alert: 5 High-Profile Stocks Just Dumped by Top Analysts",
             "source": "Biztoc.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-08T20:46:04Z",
             "sentiment": "Negative",
             "compound": -0.34
-          },
-          {
-            "title": "Kevin Warsh’s Expected Rate Hike Is a Warning to Retirees That the Fed Won’t Rescue Stocks",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-08T20:45:02Z",
-            "sentiment": "Positive",
-            "compound": 0.226
-          },
-          {
-            "title": "What Are Trump Toadies to Do Now? Pivot Hard, Obviously.",
-            "source": "Mother Jones",
-            "publishedAt": "2026-11-08T20:43:31Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
-          },
-          {
-            "title": "Argentina's president greets Pope Leo as tensions loom over austerity and Iran",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-11-08T20:38:09Z",
-            "sentiment": "Negative",
-            "compound": -0.459
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 55.18,
-  "trade_probability": 53.11,
+  "confirmation_score": 55.34,
+  "trade_probability": 53.2,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
