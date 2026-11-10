@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T14:16:00.884931+00:00",
+  "generated_at": "2026-11-10T14:31:13.774678+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.0256,
+          "change_pct": 0.4448,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.2706,
-          "up": true
+          "change_pct": -0.5372,
+          "up": false
         },
         "NVDA": {
-          "change_pct": -1.0526,
+          "change_pct": -3.9543,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.015,
+          "change_pct": -0.5162,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27907.63,
-        "sma50": 29602.18,
-        "sma200": 27995.4
+        "last_price": 27600.13,
+        "sma50": 29565.04,
+        "sma200": 28004.84
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 50.0,
+      "score": 48.55,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.952,
-        "change_5d_pct": 0.0
+        "current_yield_pct": 4.961,
+        "change_5d_pct": 0.182
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.75,
+      "score": 49.11,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.03,
-        "change_5d_pct": 0.156
+        "current_dxy": 101.98,
+        "change_5d_pct": 0.111
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.75,
+      "score": 55.14,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.115,
+        "avg_compound": 0.103,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Charming Medical Nasdaq trading to be suspended after delisting determination",
-            "source": "Thefly.com",
-            "publishedAt": "2026-11-09T14:13:06Z",
+            "title": "Among the Best Materials Stocks to Invest According to Wall Street?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-09T14:23:46Z",
             "sentiment": "Positive",
-            "compound": 0.527
+            "compound": 0.637
           },
           {
-            "title": "60 Minutes Actually Lands Some Punches On Trump And His Corruption",
-            "source": "Crooksandliars.com",
-            "publishedAt": "2026-11-09T14:12:29Z",
+            "title": "GeoVax Announces 1-for-24 Reverse Stock Split to Regain Compliance With Nasdaq Minimum Bid Requirement",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-09T14:23:21Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Sebi approves 6 IPOs including Mahanadi Coalfields, Veritas Finance and Sagar Defence. Check details",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-09T14:11:56Z",
-            "sentiment": "Positive",
-            "compound": 0.477
+            "title": "Oppenheimer lifts AMD to Outperform, sees data center sales more than doubling",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-09T14:23:16Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Nvidia faces scrutiny over China ties amid spy scandal investigation",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-09T14:09:55Z",
+            "title": "Buy 5 Non-Tech Nasdaq Stocks to Enhance Your Portfolio Returns in Q4",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-09T14:22:52Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "‘I underestimated how toxic the admin brand is’: 2028 Republican race just got wide open",
+            "source": "Wnd.com",
+            "publishedAt": "2026-11-09T14:22:19Z",
             "sentiment": "Negative",
-            "compound": -0.44
+            "compound": -0.273
           },
           {
-            "title": "Bond to Report Third Quarter 2026 Financial Results and Host Quarterly Business Update Webinar",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-09T14:07:46Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Apple's Market Value Grew From $350 Billion to $4 Trillion During Tim Cook's 15 Years as CEO. Here's What That Growth Curve Means for Apple's Next Chapter Under John Ternus",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-09T14:07:22Z",
-            "sentiment": "Positive",
-            "compound": 0.612
+            "title": "Yes, the Midterms Were About the Iran War",
+            "source": "Reason",
+            "publishedAt": "2026-11-09T14:21:03Z",
+            "sentiment": "Negative",
+            "compound": -0.296
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 47.7,
-  "trade_probability": 48.62,
+  "confirmation_score": 40.74,
+  "trade_probability": 44.44,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
