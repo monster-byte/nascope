@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T07:31:15.484535+00:00",
+  "generated_at": "2026-11-10T07:45:52.536493+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.26,
+      "score": 52.11,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.58,
-        "change_5d_pct": -0.283
+        "current_dxy": 101.6,
+        "change_5d_pct": -0.264
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.29,
+      "score": 53.01,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.066,
+        "avg_compound": 0.06,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Remsons net up 25% in Q2 on better product mix",
+            "source": "BusinessLine",
+            "publishedAt": "2026-11-09T07:44:08Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
+          {
+            "title": "Trump's Recent Warning Is Sending Shockwaves Through Wall Street. Here's What It Could Mean for Your Retirement Savings",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-09T07:42:56Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
+          {
+            "title": "Trump rules out fresh war with Iran",
+            "source": "The Punch",
+            "publishedAt": "2026-11-09T07:35:03Z",
+            "sentiment": "Negative",
+            "compound": -0.382
+          },
+          {
+            "title": "Indian bonds drift with oil; inflation data in focus",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-09T07:33:21Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Trump says he was ‘too tough’ on immigrants as he floats amnesty deal",
             "source": "The Irish Times",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-09T07:04:35Z",
             "sentiment": "Positive",
             "compound": 0.459
-          },
-          {
-            "title": "SEC Publishes New Kalshi Security-Futures Filing as Perpetual Contracts Advance",
-            "source": "newsBTC",
-            "publishedAt": "2026-11-09T07:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Fox-Roku’s $22B Deal, A New Nasdaq Biotech And A $25B Chemicals Tie-Up: Deals Investors Are Watching",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-09T06:57:20Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Trump’s 60 Minutes interview: Election defeat, mass deportations, Ukraine, Iran, business interests and UFOs",
-            "source": "Protothema.gr",
-            "publishedAt": "2026-11-09T06:55:24Z",
-            "sentiment": "Negative",
-            "compound": -0.25
-          },
-          {
-            "title": "Gold, silver extend gains as softer oil prices ease inflation concerns",
-            "source": "Business Standard",
-            "publishedAt": "2026-11-09T06:40:43Z",
-            "sentiment": "Positive",
-            "compound": 0.681
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 55.21,
-  "trade_probability": 53.13,
+  "confirmation_score": 55.17,
+  "trade_probability": 53.1,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
