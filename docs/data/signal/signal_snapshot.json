@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T05:15:56.323709+00:00",
+  "generated_at": "2026-11-10T05:31:15.447262+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.79,
+      "score": 51.71,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.64,
-        "change_5d_pct": -0.224
+        "current_dxy": 101.65,
+        "change_5d_pct": -0.214
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.97,
+      "score": 50.17,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.001,
+        "avg_compound": 0.003,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Sharemarket and New Zealand dollar stay calm after undecided election – Market close",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-11-09T05:30:41Z",
+            "sentiment": "Neutral",
+            "compound": 0.103
+          },
           {
             "title": "Voltas dips 8% in two sessions post Q2 earnings; Emkay retains 'Buy' rating",
             "source": "Business Standard",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-09T05:01:28Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Iran using midterm results to press for more concessions in peace talks",
-            "source": "CNN",
-            "publishedAt": "2026-11-09T05:00:15Z",
-            "sentiment": "Positive",
-            "compound": 0.581
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.87,
-  "trade_probability": 52.92,
+  "confirmation_score": 54.88,
+  "trade_probability": 52.93,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
