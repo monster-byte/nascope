@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T02:31:13.434181+00:00",
+  "generated_at": "2026-11-10T02:45:51.627569+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -21,7 +21,7 @@
           "up": true
         },
         "MSFT": {
-          "change_pct": 2.5546,
+          "change_pct": 2.5527,
           "up": true
         },
         "NVDA": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.46,
+      "score": 50.33,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.69,
-        "change_5d_pct": -0.058
+        "current_dxy": 101.71,
+        "change_5d_pct": -0.041
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.81,
+      "score": 48.75,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.016,
+        "avg_compound": -0.025,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Stock market today: Sensex, Nifty50 open flat in first regular session of Samvat 2083",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-09T02:41:35Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Asian stocks steady as AI, Middle East jitters recede",
+            "source": "CNA",
+            "publishedAt": "2026-11-09T02:39:26Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "US midterm results may give India trade leverage, but tariff and AI risks remain",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-09T02:34:41Z",
+            "sentiment": "Negative",
+            "compound": -0.392
+          },
           {
             "title": "Gold's short-term volatility contrasts with long-term bullishness",
             "source": "The Times of India",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-09T02:22:34Z",
             "sentiment": "Neutral",
             "compound": 0.103
-          },
-          {
-            "title": "Philippine GDP grows 2.1% in Q3, dragged by high inflation",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-09T02:22:04Z",
-            "sentiment": "Neutral",
-            "compound": -0.052
-          },
-          {
-            "title": "Asian stocks steady as AI, W Asia jitters recede; dollar firm on Fed bets",
-            "source": "Business Standard",
-            "publishedAt": "2026-11-09T02:21:39Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Angel One flags Nifty hurdle at 25,150; bullish on ITC, SBI, Force Motors",
-            "source": "Business Standard",
-            "publishedAt": "2026-11-09T02:15:40Z",
-            "sentiment": "Positive",
-            "compound": 0.402
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 55.28,
-  "trade_probability": 53.17,
+  "confirmation_score": 55.08,
+  "trade_probability": 53.05,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
