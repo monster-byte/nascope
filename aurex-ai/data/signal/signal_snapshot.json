@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T06:01:23.023310+00:00",
+  "generated_at": "2026-11-10T06:15:53.423765+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -21,7 +21,7 @@
           "up": true
         },
         "MSFT": {
-          "change_pct": 2.5546,
+          "change_pct": 2.5527,
           "up": true
         },
         "NVDA": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.46,
+      "score": 51.66,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.68,
-        "change_5d_pct": -0.183
+        "current_dxy": 101.66,
+        "change_5d_pct": -0.208
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.67,
+      "score": 52.62,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.053,
+        "avg_compound": 0.052,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Global Markets: 5 key themes to watch this week",
+            "source": "Economictimes.com",
+            "publishedAt": "2026-11-09T06:14:18Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Home-Renovation Expense Keeps Rising as Companies Pass on Costs",
+            "source": "Insurance Journal",
+            "publishedAt": "2026-11-09T06:09:48Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Multibagger stock: Sai Life Sciences surges 9% to record high after Q2 nos",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-09T06:08:33Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Trump vows comeback as bitter showdown with Congress looms",
+            "source": "Hurriyet Daily News",
+            "publishedAt": "2026-11-09T06:04:00Z",
+            "sentiment": "Negative",
+            "compound": -0.527
+          },
           {
             "title": "【吉積情報株式会社】Google Workspace の移行・バックアップ・共有管理を支える AvePoint 製品の取り扱いを開始",
             "source": "Prtimes.jp",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-09T06:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.077
-          },
-          {
-            "title": "Nasdaq 100 Faces Estimated $1.8 Trillion Loss as Democratic Win Raises AI Delay Concerns",
-            "source": "Naturalnews.com",
-            "publishedAt": "2026-11-09T06:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.052
-          },
-          {
-            "title": "Bitcoin Tops $80,500 as U.S. Stocks Rally After Midterm Elections",
-            "source": "Naturalnews.com",
-            "publishedAt": "2026-11-09T06:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.511
-          },
-          {
-            "title": "WeRide to Report Third Quarter 2026 Financial Results on Friday, November 20, 2026",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-09T05:55:58Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Nvidia shares fall as CEO probe rattles investors",
-            "source": "The Straits Times",
-            "publishedAt": "2026-11-09T05:55:00Z",
-            "sentiment": "Positive",
-            "compound": 0.296
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 55.08,
-  "trade_probability": 53.05,
+  "confirmation_score": 55.1,
+  "trade_probability": 53.06,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
