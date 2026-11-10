@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T17:15:57.311245+00:00",
+  "generated_at": "2026-11-10T17:31:13.057749+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.7059,
+          "change_pct": -0.6965,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.2343,
+          "change_pct": -1.4049,
           "up": false
         },
         "NVDA": {
-          "change_pct": -7.1934,
+          "change_pct": -6.9353,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.1513,
+          "change_pct": 0.3862,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27572.17,
-        "sma50": 29564.49,
-        "sma200": 28004.7
+        "last_price": 27565.71,
+        "sma50": 29564.36,
+        "sma200": 28004.66
       }
     },
     "vxn": {
@@ -56,11 +56,11 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 40.15,
-      "status": "yellow",
+      "score": 39.82,
+      "status": "red",
       "details": {
-        "current_yield_pct": 5.013,
-        "change_5d_pct": 1.232
+        "current_yield_pct": 5.015,
+        "change_5d_pct": 1.272
       }
     },
     "dxy": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.03,
+      "score": 52.43,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.061,
+        "avg_compound": 0.049,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Bitcoin Market Outlook: Can Wall Street Help BTC Recover?",
-            "source": "Dcforecasts.com",
-            "publishedAt": "2026-11-09T17:14:51Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "Bitcoin, tech stocks brush off Nvidia nerves as analyst mulls $68K target",
-            "source": "Cointelegraph",
-            "publishedAt": "2026-11-09T17:13:25Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
-          },
-          {
-            "title": "On theCUBE Pod: Blue wave sends AI stock plunging",
-            "source": "SiliconANGLE News",
-            "publishedAt": "2026-11-09T17:13:05Z",
+            "title": "FEDS Note: A Common Pattern behind Diverging Fortunes: U.S. Tariffs and Exports from Canada and Mexico",
+            "source": "Federalreserve.gov",
+            "publishedAt": "2026-11-09T17:30:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "The Dovetail Decade",
-            "source": "Popularwoodworking.com",
-            "publishedAt": "2026-11-09T17:12:56Z",
+            "title": "FEDS Note: U.S. Private Credit Vehicles: Institutional Structure and Aggregate Balance Sheets",
+            "source": "Federalreserve.gov",
+            "publishedAt": "2026-11-09T17:30:00Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "FEDS Note: Gold Reserve Relocations: Are They Always Bad News for U.S. Dollar Reserves?",
+            "source": "Federalreserve.gov",
+            "publishedAt": "2026-11-09T17:30:00Z",
+            "sentiment": "Negative",
+            "compound": -0.542
+          },
+          {
+            "title": "Novelist reveals breathtakingly cruel way top economist lover told her that she wasn't beautiful enough to be his girlfriend after sex that hurt her back",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-11-09T17:28:00Z",
+            "sentiment": "Negative",
+            "compound": -0.695
+          },
+          {
+            "title": "US stock market stages massive rally today, adds $1.5 trillion: 5 reasons why Dow Jones, S&P 500 and Nasdaq surge as AMD and Tesla jump while Nvidia sinks",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-09T17:21:25Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Information relating to the total number of voting rights and share capital",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-09T17:12:33Z",
-            "sentiment": "Positive",
-            "compound": 0.42
-          },
-          {
-            "title": "Valmet notified of arbitration claim by Kronospan Energy S.A.",
-            "source": "PR Newswire UK",
-            "publishedAt": "2026-11-09T17:10:00Z",
-            "sentiment": "Positive",
-            "compound": 0.273
+            "title": "apiverve-globalstockmarket added to PyPI",
+            "source": "Pypi.org",
+            "publishedAt": "2026-11-09T17:18:29Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 39.15,
-  "trade_probability": 43.49,
+  "confirmation_score": 39.05,
+  "trade_probability": 43.43,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
