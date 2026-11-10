@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T07:01:27.777561+00:00",
+  "generated_at": "2026-11-10T07:15:56.926869+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.83,
+      "score": 51.91,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.64,
-        "change_5d_pct": -0.229
+        "current_dxy": 101.63,
+        "change_5d_pct": -0.239
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.34,
+      "score": 53.29,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.047,
+        "avg_compound": 0.066,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "CoreWeave faces $640M quarterly interest bill amid bankruptcy concerns",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-09T07:04:35Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
           {
             "title": "SEC Publishes New Kalshi Security-Futures Filing as Perpetual Contracts Advance",
             "source": "newsBTC",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-09T06:40:05Z",
             "sentiment": "Positive",
             "compound": 0.202
-          },
-          {
-            "title": "Binance leads Nvidia perpetual trading with $360.35 million in daily volume",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-09T06:29:48Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 55.09,
-  "trade_probability": 53.05,
+  "confirmation_score": 55.18,
+  "trade_probability": 53.11,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
