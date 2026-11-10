@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T10:01:22.005228+00:00",
+  "generated_at": "2026-11-10T10:15:56.194951+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -21,7 +21,7 @@
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.2706,
+          "change_pct": 0.2725,
           "up": true
         },
         "NVDA": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.31,
+      "score": 51.35,
       "status": "yellow",
       "details": {
         "current_dxy": 101.7,
-        "change_5d_pct": -0.164
+        "change_5d_pct": -0.169
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.02,
+      "score": 50.9,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.04,
+        "avg_compound": 0.018,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Nvidia stock falls 5% as scrutiny turns to Jensen Huang’s relationship with alleged Chinese spy - CNBC",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-11-09T10:12:50Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "HSBC upgrades Indian equities to 'overweight', downgrades Chinese stocks to 'neutral'",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-09T10:08:34Z",
+            "sentiment": "Negative",
+            "compound": -0.361
+          },
+          {
+            "title": "BTC price eyes $73K amid Nvidia volatility: Three things to know in Bitcoin this week",
+            "source": "Cointelegraph",
+            "publishedAt": "2026-11-09T10:03:40Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Democrats won big on issues like immigration. But ICE still has the money",
             "source": "NPR",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-09T09:59:57Z",
             "sentiment": "Neutral",
             "compound": 0.103
-          },
-          {
-            "title": "Trump Backs Huang Amid Alleged Spy Affair Scrutiny, Dana White To Visit White House: Live Updates",
-            "source": "HuffPost",
-            "publishedAt": "2026-11-09T09:57:47Z",
-            "sentiment": "Neutral",
-            "compound": -0.052
-          },
-          {
-            "title": "How a hedge fund's warning against Nvidia gained relevance six months later",
-            "source": "Business Standard",
-            "publishedAt": "2026-11-09T09:57:27Z",
-            "sentiment": "Neutral",
-            "compound": 0.052
-          },
-          {
-            "title": "RILEY GAINES: Voters sent two midterm messages, and Democrats will only hear one",
-            "source": "Fox News",
-            "publishedAt": "2026-11-09T09:50:33Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 48.26,
-  "trade_probability": 48.96,
+  "confirmation_score": 48.16,
+  "trade_probability": 48.9,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
