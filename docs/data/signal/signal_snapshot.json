@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T06:15:53.423765+00:00",
+  "generated_at": "2026-11-10T06:31:13.114706+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.66,
+      "score": 51.74,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.66,
-        "change_5d_pct": -0.208
+        "current_dxy": 101.65,
+        "change_5d_pct": -0.218
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.62,
+      "score": 53.23,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.052,
+        "avg_compound": 0.065,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Binance leads Nvidia perpetual trading with $360.35 million in daily volume",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-09T06:29:48Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Asia-Pacific mostly higher as China inflation cools",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-09T06:26:24Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Premier accepts big pay rise after initially saying it was 'out of step'",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-11-09T06:23:59Z",
+            "sentiment": "Positive",
+            "compound": 0.226
+          },
           {
             "title": "Global Markets: 5 key themes to watch this week",
             "source": "Economictimes.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-09T06:08:33Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Trump vows comeback as bitter showdown with Congress looms",
-            "source": "Hurriyet Daily News",
-            "publishedAt": "2026-11-09T06:04:00Z",
-            "sentiment": "Negative",
-            "compound": -0.527
-          },
-          {
-            "title": "【吉積情報株式会社】Google Workspace の移行・バックアップ・共有管理を支える AvePoint 製品の取り扱いを開始",
-            "source": "Prtimes.jp",
-            "publishedAt": "2026-11-09T06:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Fed, OCC Review U.S. Banks After Binance Hack as Experts Cite Security Risks",
-            "source": "Naturalnews.com",
-            "publishedAt": "2026-11-09T06:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.077
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 55.1,
-  "trade_probability": 53.06,
+  "confirmation_score": 55.16,
+  "trade_probability": 53.1,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
