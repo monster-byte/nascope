@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T19:31:12.827012+00:00",
+  "generated_at": "2026-11-10T19:45:56.277048+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.6047,
+          "change_pct": -0.6103,
           "up": false
         },
         "MSFT": {
-          "change_pct": -1.7671,
+          "change_pct": -1.6654,
           "up": false
         },
         "NVDA": {
-          "change_pct": -6.8742,
+          "change_pct": -7.2883,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.8281,
+          "change_pct": 1.1395,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27622.35,
-        "sma50": 29565.49,
-        "sma200": 28004.95
+        "last_price": 27630.54,
+        "sma50": 29565.65,
+        "sma200": 28004.99
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 42.89,
+      "score": 43.54,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.996,
-        "change_5d_pct": 0.889
+        "current_yield_pct": 4.992,
+        "change_5d_pct": 0.808
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.01,
+      "score": 46.91,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.25,
-        "change_5d_pct": 0.374
+        "current_dxy": 102.26,
+        "change_5d_pct": 0.386
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.06,
+      "score": 50.32,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.001,
+        "avg_compound": 0.006,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "The Blue Wave—II",
+            "source": "The New York Review of Books",
+            "publishedAt": "2026-11-09T19:42:18Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "I'd buy 3154 shares of Soul Patts stock to build a $5,000 per year second income",
             "source": "Motley Fool Australia",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-09T19:12:29Z",
             "sentiment": "Negative",
             "compound": -0.273
-          },
-          {
-            "title": "Bitcoin in Limbo as Stocks Rebound Ahead of US Inflation Report",
-            "source": "Decrypt",
-            "publishedAt": "2026-11-09T19:06:03Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 39.33,
-  "trade_probability": 43.6,
+  "confirmation_score": 39.43,
+  "trade_probability": 43.66,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
