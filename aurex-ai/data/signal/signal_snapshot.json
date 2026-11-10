@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T18:31:13.977675+00:00",
+  "generated_at": "2026-11-10T18:45:55.101204+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.7016,
+          "change_pct": -0.8256,
           "up": false
         },
         "MSFT": {
-          "change_pct": -2.2625,
+          "change_pct": -1.9641,
           "up": false
         },
         "NVDA": {
-          "change_pct": -6.7659,
+          "change_pct": -6.4692,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.2203,
+          "change_pct": 0.5279,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27545.06,
-        "sma50": 29563.94,
-        "sma200": 28004.56
+        "last_price": 27569.29,
+        "sma50": 29564.43,
+        "sma200": 28004.68
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 40.95,
+      "score": 41.6,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.008,
-        "change_5d_pct": 1.131
+        "current_yield_pct": 5.004,
+        "change_5d_pct": 1.05
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.48,
+      "score": 46.74,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.32,
-        "change_5d_pct": 0.44
+        "current_dxy": 102.29,
+        "change_5d_pct": 0.407
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.29,
+      "score": 53.82,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.046,
+        "avg_compound": 0.076,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Galaxy and Exodus Shares Are Set to Trade on Solana in 2027. What Would a Tokenized Stock Exchange Do to the SOL Price?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-09T18:42:32Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "Barkin urges Fed to balance inflation fight with job risks",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-09T18:40:47Z",
+            "sentiment": "Negative",
+            "compound": -0.572
+          },
+          {
+            "title": "Hyperliquid equities volume tops Bitcoin trading again as traders buy the stock dip",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-09T18:37:19Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
+          {
+            "title": "Inflation",
+            "source": "Futilitycloset.com",
+            "publishedAt": "2026-11-09T18:36:18Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Nvidia's $350 Billion Scare: What Happens If Jensen Huang Leaves?",
             "source": "Decrypt",
@@ -103,34 +131,6 @@
             "title": "PPG: 3 Key Takeaways for Long-Term Investors",
             "source": "Biztoc.com",
             "publishedAt": "2026-11-09T18:29:36Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "AGNC Has a New $1 Billion Buyback. It Only Kicks In If the Stock Falls to Book Value",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-09T18:28:47Z",
-            "sentiment": "Positive",
-            "compound": 0.34
-          },
-          {
-            "title": "Where Will Apple Stock Be in 5 Years?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-09T18:28:05Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "$57.2 billion Treasury cash drain hits Wall Street this week: Why semiconductor stocks and SMH ETF investors face more volatility, with a bigger liquidity test coming in 2027",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-09T18:24:24Z",
-            "sentiment": "Negative",
-            "compound": -0.303
-          },
-          {
-            "title": "Dow surges 1,000 points after last week’s historic tech rout, while Jensen Huang’s Nvidia slumps",
-            "source": "New York Post",
-            "publishedAt": "2026-11-09T18:15:24Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 39.22,
-  "trade_probability": 43.53,
+  "confirmation_score": 39.47,
+  "trade_probability": 43.68,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
