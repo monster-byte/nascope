@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T16:15:55.505798+00:00",
+  "generated_at": "2026-11-10T16:31:13.158993+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.9468,
+          "change_pct": -0.9497,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.3489,
+          "change_pct": -0.3912,
           "up": false
         },
         "NVDA": {
-          "change_pct": -5.7057,
+          "change_pct": -6.1609,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.4888,
+          "change_pct": 0.3788,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27727.53,
-        "sma50": 29567.59,
-        "sma200": 28005.47
+        "last_price": 27666.98,
+        "sma50": 29566.38,
+        "sma200": 28005.17
       }
     },
     "vxn": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.4,
+      "score": 46.24,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.33,
-        "change_5d_pct": 0.45
+        "current_dxy": 102.35,
+        "change_5d_pct": 0.47
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.04,
+      "score": 49.99,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.019,
+        "avg_compound": -0.0,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Amazon Stock Climbs 3.5% After JPMorgan Names It a Top AI Pick, Citing Faster AWS Growth and $1 Trillion Goal",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-11-09T16:22:41Z",
+            "sentiment": "Positive",
+            "compound": 0.625
+          },
+          {
+            "title": "US dollar dips as easing AI and Mideast worries limit its appeal",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-09T16:16:36Z",
+            "sentiment": "Negative",
+            "compound": -0.202
+          },
           {
             "title": "Ionis Pharmaceuticals Stock Plunges 28% to Worst Day Since 2016 as Company Halves Tryngolza Sales Forecast",
             "source": "Ibtimes.com.au",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-09T16:11:17Z",
             "sentiment": "Negative",
             "compound": -0.296
-          },
-          {
-            "title": "Nordson EFD Launches PICO Pµlse XP HV Jetting System to Meet Assembly Market Demand for Dispensing High-Viscosity Materials",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-09T16:11:08Z",
-            "sentiment": "Positive",
-            "compound": 0.428
-          },
-          {
-            "title": "US stocks extend rally, Nasdaq 100 climbs 3%",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-09T16:08:03Z",
-            "sentiment": "Neutral",
-            "compound": 0.178
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 39.27,
-  "trade_probability": 43.56,
+  "confirmation_score": 39.34,
+  "trade_probability": 43.6,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
