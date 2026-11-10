@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T08:31:19.868082+00:00",
+  "generated_at": "2026-11-10T08:45:57.342498+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 52.3,
+      "score": 52.73,
       "status": "yellow",
       "details": {
-        "current_dxy": 101.58,
-        "change_5d_pct": -0.288
+        "current_dxy": 101.52,
+        "change_5d_pct": -0.342
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.89,
+      "score": 51.86,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.058,
-        "articles_analyzed": 24,
+        "avg_compound": 0.037,
+        "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Asian markets bounce back after a recovery for AI stocks on Wall Street - Newsday",
+            "source": "Newsday",
+            "publishedAt": "2026-11-09T08:41:45Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "NVIDIA、Rebellions、SK Telecom、NVIDIA NVLink Fusion によるソブリン AI インフラの推進に向けた協業を発表",
+            "source": "Prtimes.jp",
+            "publishedAt": "2026-11-09T08:40:50Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Barings granted one-day extension to make formal €727m offer for Ires Reit",
             "source": "The Irish Times",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-09T08:21:32Z",
             "sentiment": "Positive",
             "compound": 0.477
-          },
-          {
-            "title": "Bitcoin ETFs shed $1.3B in biggest weekly outflow since late June",
-            "source": "Cointelegraph",
-            "publishedAt": "2026-11-09T08:17:35Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Why Last Week's Market Sell-Off Was a Good Thing",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-09T08:13:53Z",
-            "sentiment": "Positive",
-            "compound": 0.44
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 55.18,
-  "trade_probability": 53.11,
+  "confirmation_score": 55.12,
+  "trade_probability": 53.07,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
