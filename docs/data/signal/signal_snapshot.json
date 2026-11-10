@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T18:15:56.091797+00:00",
+  "generated_at": "2026-11-10T18:31:13.977675+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.7886,
+          "change_pct": -0.7016,
           "up": false
         },
         "MSFT": {
-          "change_pct": -2.4774,
+          "change_pct": -2.2625,
           "up": false
         },
         "NVDA": {
-          "change_pct": -6.8575,
+          "change_pct": -6.7659,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.1028,
+          "change_pct": 0.2203,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27509.51,
-        "sma50": 29563.23,
-        "sma200": 28004.38
+        "last_price": 27545.06,
+        "sma50": 29563.94,
+        "sma200": 28004.56
       }
     },
     "vxn": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.47,
+      "score": 46.48,
       "status": "yellow",
       "details": {
         "current_dxy": 102.32,
-        "change_5d_pct": 0.442
+        "change_5d_pct": 0.44
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.26,
+      "score": 52.29,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.005,
-        "articles_analyzed": 24,
+        "avg_compound": 0.046,
+        "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Nvidia's $350 Billion Scare: What Happens If Jensen Huang Leaves?",
+            "source": "Decrypt",
+            "publishedAt": "2026-11-09T18:31:03Z",
+            "sentiment": "Negative",
+            "compound": -0.494
+          },
+          {
+            "title": "PPG: 3 Key Takeaways for Long-Term Investors",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-09T18:29:36Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "AGNC Has a New $1 Billion Buyback. It Only Kicks In If the Stock Falls to Book Value",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-09T18:28:47Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
+          {
+            "title": "Where Will Apple Stock Be in 5 Years?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-09T18:28:05Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "$57.2 billion Treasury cash drain hits Wall Street this week: Why semiconductor stocks and SMH ETF investors face more volatility, with a bigger liquidity test coming in 2027",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-09T18:24:24Z",
+            "sentiment": "Negative",
+            "compound": -0.303
+          },
           {
             "title": "Dow surges 1,000 points after last week’s historic tech rout, while Jensen Huang’s Nvidia slumps",
             "source": "New York Post",
             "publishedAt": "2026-11-09T18:15:24Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "US 3-year note auction yield falls, demand slightly declines",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-09T18:08:56Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
-          },
-          {
-            "title": "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
-            "source": "BBC News",
-            "publishedAt": "2026-11-09T18:08:36Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "Super League Has Doubled Every Bitcoin Buy Since October, Reaching 16 BTC This Week",
-            "source": "Dcforecasts.com",
-            "publishedAt": "2026-11-09T18:07:14Z",
-            "sentiment": "Positive",
-            "compound": 0.691
-          },
-          {
-            "title": "Show HN: STE80 Humanizer – de-AI text by writing 80% of the way to ASD-STE100",
-            "source": "Github.com",
-            "publishedAt": "2026-11-09T18:05:44Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Why car insurance prices keep rising, and what drivers can do",
-            "source": "CBS News",
-            "publishedAt": "2026-11-09T18:02:07Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 39.03,
-  "trade_probability": 43.42,
+  "confirmation_score": 39.22,
+  "trade_probability": 43.53,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
