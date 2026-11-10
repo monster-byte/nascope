@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T17:45:52.856030+00:00",
+  "generated_at": "2026-11-10T18:01:29.315150+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 0.0,
+      "score": 25.0,
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.8784,
+          "change_pct": -0.8698,
           "up": false
         },
         "MSFT": {
-          "change_pct": -3.1673,
+          "change_pct": -2.5096,
           "up": false
         },
         "NVDA": {
-          "change_pct": -7.4191,
+          "change_pct": -6.9991,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.1799,
-          "up": false
+          "change_pct": 0.142,
+          "up": true
         }
       }
     },
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27435.0,
-        "sma50": 29561.74,
-        "sma200": 28004.01
+        "last_price": 27523.1,
+        "sma50": 29563.5,
+        "sma200": 28004.45
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 40.15,
+      "score": 41.6,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.013,
-        "change_5d_pct": 1.232
+        "current_yield_pct": 5.004,
+        "change_5d_pct": 1.05
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.08,
+      "score": 46.33,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.37,
-        "change_5d_pct": 0.49
+        "current_dxy": 102.34,
+        "change_5d_pct": 0.458
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.13,
+      "score": 46.8,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.003,
-        "articles_analyzed": 25,
+        "avg_compound": -0.064,
+        "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "U.S. Container Imports Hit 2026 High in September as Extended Peak Season Winds Down",
-            "source": "gcaptain.com",
-            "publishedAt": "2026-11-09T17:44:04Z",
+            "title": "WAYNE ROOT: I Know How Democrats Stole Texas- and Everywhere Else. It was “Foreign Interference in Our Elections.”",
+            "source": "Thegatewaypundit.com",
+            "publishedAt": "2026-11-09T18:00:44Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Bitcoin holds near $75,000 after tech stock rout, altcoins suffer steeper losses",
-            "source": "Fortune",
-            "publishedAt": "2026-11-09T17:43:56Z",
-            "sentiment": "Negative",
-            "compound": -0.735
-          },
-          {
-            "title": "Here’s Why Jefferies Upgraded Steven Madden (SHOO) Stock",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-09T17:42:41Z",
+            "title": "October retail inflation may have breached RBI's 6% upper limit: BS poll",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-09T18:00:04Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Morgan Stanley's Mike Wilson Makes Bold S&P 500 Call for 2027",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-09T17:42:33Z",
+            "title": "The Peace Trade is a Trap",
+            "source": "Dailyreckoning.com",
+            "publishedAt": "2026-11-09T18:00:00Z",
             "sentiment": "Positive",
-            "compound": 0.382
+            "compound": 0.296
           },
           {
-            "title": "Avalanche’s AVAX leads crypto gains following NYSE tokenization deal",
-            "source": "Cointelegraph",
-            "publishedAt": "2026-11-09T17:41:02Z",
-            "sentiment": "Positive",
-            "compound": 0.34
+            "title": "Why cost-of-living concerns are up-ending global politics",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-11-09T18:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "ECB contender Klaas Knot ‘will not hesitate’ to act if confronted by debt crisis",
-            "source": "The Irish Times",
-            "publishedAt": "2026-11-09T17:37:07Z",
-            "sentiment": "Negative",
-            "compound": -0.784
+            "title": "What U.S. Voters Made Clear on Election Day: No AI Data Centers",
+            "source": "WWD",
+            "publishedAt": "2026-11-09T18:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.103
+          },
+          {
+            "title": "Bank of England’s Bailey sees early signs of an AI-driven positive supply shock",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-09T17:59:36Z",
+            "sentiment": "Positive",
+            "compound": 0.25
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 32.13,
-  "trade_probability": 39.28,
+  "confirmation_score": 38.8,
+  "trade_probability": 43.28,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
