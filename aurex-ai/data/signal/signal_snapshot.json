@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T17:31:13.057749+00:00",
+  "generated_at": "2026-11-10T17:45:52.856030+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
+      "score": 0.0,
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.6965,
+          "change_pct": -0.8784,
           "up": false
         },
         "MSFT": {
-          "change_pct": -1.4049,
+          "change_pct": -3.1673,
           "up": false
         },
         "NVDA": {
-          "change_pct": -6.9353,
+          "change_pct": -7.4191,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.3862,
-          "up": true
+          "change_pct": -0.1799,
+          "up": false
         }
       }
     },
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27565.71,
-        "sma50": 29564.36,
-        "sma200": 28004.66
+        "last_price": 27435.0,
+        "sma50": 29561.74,
+        "sma200": 28004.01
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 39.82,
-      "status": "red",
+      "score": 40.15,
+      "status": "yellow",
       "details": {
-        "current_yield_pct": 5.015,
-        "change_5d_pct": 1.272
+        "current_yield_pct": 5.013,
+        "change_5d_pct": 1.232
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.19,
+      "score": 46.08,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.36,
-        "change_5d_pct": 0.476
+        "current_dxy": 102.37,
+        "change_5d_pct": 0.49
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.43,
+      "score": 50.13,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.049,
+        "avg_compound": 0.003,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "FEDS Note: A Common Pattern behind Diverging Fortunes: U.S. Tariffs and Exports from Canada and Mexico",
-            "source": "Federalreserve.gov",
-            "publishedAt": "2026-11-09T17:30:00Z",
+            "title": "U.S. Container Imports Hit 2026 High in September as Extended Peak Season Winds Down",
+            "source": "gcaptain.com",
+            "publishedAt": "2026-11-09T17:44:04Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "FEDS Note: U.S. Private Credit Vehicles: Institutional Structure and Aggregate Balance Sheets",
-            "source": "Federalreserve.gov",
-            "publishedAt": "2026-11-09T17:30:00Z",
+            "title": "Bitcoin holds near $75,000 after tech stock rout, altcoins suffer steeper losses",
+            "source": "Fortune",
+            "publishedAt": "2026-11-09T17:43:56Z",
+            "sentiment": "Negative",
+            "compound": -0.735
+          },
+          {
+            "title": "Here’s Why Jefferies Upgraded Steven Madden (SHOO) Stock",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-09T17:42:41Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Morgan Stanley's Mike Wilson Makes Bold S&P 500 Call for 2027",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-09T17:42:33Z",
             "sentiment": "Positive",
             "compound": 0.382
           },
           {
-            "title": "FEDS Note: Gold Reserve Relocations: Are They Always Bad News for U.S. Dollar Reserves?",
-            "source": "Federalreserve.gov",
-            "publishedAt": "2026-11-09T17:30:00Z",
+            "title": "Avalanche’s AVAX leads crypto gains following NYSE tokenization deal",
+            "source": "Cointelegraph",
+            "publishedAt": "2026-11-09T17:41:02Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
+          {
+            "title": "ECB contender Klaas Knot ‘will not hesitate’ to act if confronted by debt crisis",
+            "source": "The Irish Times",
+            "publishedAt": "2026-11-09T17:37:07Z",
             "sentiment": "Negative",
-            "compound": -0.542
-          },
-          {
-            "title": "Novelist reveals breathtakingly cruel way top economist lover told her that she wasn't beautiful enough to be his girlfriend after sex that hurt her back",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-11-09T17:28:00Z",
-            "sentiment": "Negative",
-            "compound": -0.695
-          },
-          {
-            "title": "US stock market stages massive rally today, adds $1.5 trillion: 5 reasons why Dow Jones, S&P 500 and Nasdaq surge as AMD and Tesla jump while Nvidia sinks",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-09T17:21:25Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "apiverve-globalstockmarket added to PyPI",
-            "source": "Pypi.org",
-            "publishedAt": "2026-11-09T17:18:29Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": -0.784
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 39.05,
-  "trade_probability": 43.43,
+  "confirmation_score": 32.13,
+  "trade_probability": 39.28,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
