@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T19:01:29.361173+00:00",
+  "generated_at": "2026-11-10T19:15:57.448430+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.6987,
+          "change_pct": -0.7568,
           "up": false
         },
         "MSFT": {
-          "change_pct": -1.9329,
+          "change_pct": -2.0036,
           "up": false
         },
         "NVDA": {
-          "change_pct": -6.746,
+          "change_pct": -6.5606,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.5764,
+          "change_pct": 0.5839,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27597.88,
-        "sma50": 29565.0,
-        "sma200": 28004.83
+        "last_price": 27593.86,
+        "sma50": 29564.92,
+        "sma200": 28004.81
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 42.57,
+      "score": 42.89,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 4.998,
-        "change_5d_pct": 0.929
+        "current_yield_pct": 4.996,
+        "change_5d_pct": 0.889
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.95,
+      "score": 47.04,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.26,
-        "change_5d_pct": 0.382
+        "current_dxy": 102.25,
+        "change_5d_pct": 0.37
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.72,
+      "score": 51.44,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.034,
+        "avg_compound": 0.029,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Mid Penn Bank Names Gregory Carlisle Market President for Central and Southern New Jersey",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-09T19:15:38Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Stock Market Today: Dow jumps 1,000 points, S&P 500 and Nasdaq surge after last week’s selloff; Nvidia stock drops as CEO probe launched: live updates",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-11-09T19:13:20Z",
+            "sentiment": "Neutral",
+            "compound": 0.128
+          },
+          {
+            "title": "Citi downgrades US stocks to 'neutral' as AI sell-off, regulatory risks mount",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-09T19:12:29Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "Bitcoin in Limbo as Stocks Rebound Ahead of US Inflation Report",
+            "source": "Decrypt",
+            "publishedAt": "2026-11-09T19:06:03Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "EXCLUSIVE: White House Scrambles After Trump Again Floats Amnesty Deal With Democrats",
+            "source": "The Daily Caller",
+            "publishedAt": "2026-11-09T19:05:14Z",
+            "sentiment": "Positive",
+            "compound": 0.303
+          },
           {
             "title": "Anthropic launches powerful new models ahead of Wall Street debut",
             "source": "Digital Journal",
             "publishedAt": "2026-11-09T19:01:00Z",
             "sentiment": "Positive",
             "compound": 0.421
-          },
-          {
-            "title": "AI selloff could push Bitcoin toward $65K before capital returns to crypto, Hilbert CIO says",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-09T18:59:24Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Hollywood’s Shredded Look Obsessions Falls Under Scrutiny After Fans Notice Odd Detail About Iconic Character",
-            "source": "Boredpanda.com",
-            "publishedAt": "2026-11-09T18:56:38Z",
-            "sentiment": "Negative",
-            "compound": -0.494
-          },
-          {
-            "title": "Hot U.S. inflation hasn’t cooled off. Rising consumer prices to keep Fed rate hike on track",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-09T18:55:19Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "AmEx Takes Page From Trading Cards With Fanatics Deal",
-            "source": "pymnts.com",
-            "publishedAt": "2026-11-09T18:53:51Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "European shares climb as banks and defence stocks lead rally",
-            "source": "The Irish Times",
-            "publishedAt": "2026-11-09T18:52:23Z",
-            "sentiment": "Positive",
-            "compound": 0.382
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 39.43,
-  "trade_probability": 43.66,
+  "confirmation_score": 39.45,
+  "trade_probability": 43.67,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
