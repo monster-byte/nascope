@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T10:15:56.300562+00:00",
+  "generated_at": "2026-11-11T10:31:14.453236+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
+      "score": 0.0,
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.579,
+          "change_pct": -0.0802,
           "up": false
         },
         "MSFT": {
-          "change_pct": -2.0385,
+          "change_pct": -0.2608,
           "up": false
         },
         "NVDA": {
-          "change_pct": -6.3024,
+          "change_pct": -0.993,
           "up": false
         },
         "AMZN": {
-          "change_pct": 1.0239,
-          "up": true
+          "change_pct": -0.3861,
+          "up": false
         }
       }
     },
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.5,
+      "score": 42.34,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.46,
-        "change_5d_pct": 0.938
+        "current_dxy": 102.48,
+        "change_5d_pct": 0.958
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.79,
+      "score": 53.52,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.024,
+        "avg_compound": 0.07,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Stock Market Today: Dow, S&P 500 Futures Rise, Nasdaq 100 Futures Fall as Trump Signals Iran War to End…",
+            "title": "Fed’s Waller puts half-point rate hike into the mix for December",
             "source": "Biztoc.com",
-            "publishedAt": "2026-11-10T10:12:46Z",
-            "sentiment": "Negative",
-            "compound": -0.599
+            "publishedAt": "2026-11-10T10:28:05Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Morgan Stanley shares a 3-part playbook for investing in AI after a Democratic blue wave",
-            "source": "Business Insider",
-            "publishedAt": "2026-11-10T10:10:01Z",
+            "title": "Treasury yields edge higher as traders await CPI inflation data",
+            "source": "CNBC",
+            "publishedAt": "2026-11-10T10:27:46Z",
             "sentiment": "Positive",
             "compound": 0.296
           },
           {
-            "title": "Bitcoin price eyes $74K as Fed rate-hike bets hit 96% after Waller speech",
-            "source": "Cointelegraph",
-            "publishedAt": "2026-11-10T10:08:22Z",
+            "title": "Nvidia and its boss Jensen Huang are sued by shareholders five minutes after shares closed 4.3% down following Chinese spy scandal",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-11-10T10:24:44Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": -0.178
           },
           {
-            "title": "World stocks rise as oil slips below $90 on hopes of US-Iran peace talks",
-            "source": "Business Standard",
-            "publishedAt": "2026-11-10T10:08:00Z",
+            "title": "Stock Market Today: Oil Prices Fall to $90 a Barrel on Trump Iran Comments; Investors Await CPI Report",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-10T10:24:03Z",
+            "sentiment": "Neutral",
+            "compound": 0.103
+          },
+          {
+            "title": "KONE among top-ranked companies on TIME & Statista's Asia-Pacific's Best Employers 2027 list",
+            "source": "Antaranews.com",
+            "publishedAt": "2026-11-10T10:22:30Z",
             "sentiment": "Positive",
-            "compound": 0.743
+            "compound": 0.637
           },
           {
-            "title": "Inflation report to provide 1st snapshot of prices since midterm elections",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-11-10T10:07:13Z",
+            "title": "Bitcoin slides toward $74K as Fed’s Waller backs a December rate hike",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-10T10:22:21Z",
             "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Industrial output rebounds in September",
-            "source": "Hurriyet Daily News",
-            "publishedAt": "2026-11-10T10:04:23Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": -0.052
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 39.09,
-  "trade_probability": 43.45,
+  "confirmation_score": 32.75,
+  "trade_probability": 39.65,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
