@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T15:15:58.474553+00:00",
+  "generated_at": "2026-11-11T15:31:26.681651+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 1.336,
+          "change_pct": 1.3589,
           "up": true
         },
         "MSFT": {
-          "change_pct": -2.0692,
+          "change_pct": -2.8364,
           "up": false
         },
         "NVDA": {
-          "change_pct": 1.4229,
+          "change_pct": 2.246,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.8686,
+          "change_pct": -1.5486,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28195.49,
-        "sma50": 29550.22,
-        "sma200": 28016.82
+        "last_price": 28260.91,
+        "sma50": 29551.53,
+        "sma200": 28017.15
       }
     },
     "vxn": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 38.86,
+      "score": 39.31,
       "status": "red",
       "details": {
-        "current_dxy": 102.92,
-        "change_5d_pct": 1.393
+        "current_dxy": 102.87,
+        "change_5d_pct": 1.337
       }
     },
     "macro": {
@@ -85,56 +85,10 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.28,
+      "score": 50.0,
       "status": "yellow",
       "details": {
-        "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.014,
-        "articles_analyzed": 25,
-        "top_headlines": [
-          {
-            "title": "Traders raise odds of 50 bps Fed rate hike as CPI rise exceeds expectations",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-10T15:15:45Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Israel's parliament sworn in as Eisenkot tries to forge a government",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-10T15:13:49Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Stock Market Today: Dow Opens Lower After Inflation Report — Live Updates - WSJ",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-11-10T15:12:49Z",
-            "sentiment": "Negative",
-            "compound": -0.296
-          },
-          {
-            "title": "Mortgage Rates Today, Tuesday, November 10: A Little Lower",
-            "source": "NerdWallet",
-            "publishedAt": "2026-11-10T15:12:15Z",
-            "sentiment": "Negative",
-            "compound": -0.228
-          },
-          {
-            "title": "Crude oil: A breather for India",
-            "source": "BusinessLine",
-            "publishedAt": "2026-11-10T15:10:37Z",
-            "sentiment": "Negative",
-            "compound": -0.572
-          },
-          {
-            "title": "Anthropic targets $1.4 trillion market value in blockbuster IPO — down from earlier reported $2 trillion",
-            "source": "New York Post",
-            "publishedAt": "2026-11-10T15:10:29Z",
-            "sentiment": "Positive",
-            "compound": 0.743
-          }
-        ]
+        "error": "news_fetch_failed: HTTPSConnectionPool(host='newsapi.org', port=443): Read timed out. (read timeout=15)"
       }
     },
     "patent_momentum": {
@@ -146,8 +100,8 @@
       }
     }
   },
-  "confirmation_score": 43.94,
-  "trade_probability": 46.36,
+  "confirmation_score": 44.04,
+  "trade_probability": 46.42,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
