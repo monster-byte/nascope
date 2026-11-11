@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T17:45:53.233581+00:00",
+  "generated_at": "2026-11-11T18:01:37.556495+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 1.5653,
+          "change_pct": 1.7144,
           "up": true
         },
         "MSFT": {
-          "change_pct": -2.4673,
+          "change_pct": -2.5664,
           "up": false
         },
         "NVDA": {
-          "change_pct": 3.8188,
+          "change_pct": 3.7923,
           "up": true
         },
         "AMZN": {
-          "change_pct": -1.8008,
+          "change_pct": -1.9117,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28537.03,
-        "sma50": 29557.05,
-        "sma200": 28018.53
+        "last_price": 28532.34,
+        "sma50": 29556.96,
+        "sma200": 28018.5
       }
     },
     "vxn": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 38.99,
+      "score": 38.88,
       "status": "red",
       "details": {
-        "current_dxy": 102.91,
-        "change_5d_pct": 1.376
+        "current_dxy": 102.92,
+        "change_5d_pct": 1.39
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.7,
+      "score": 51.09,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.074,
+        "avg_compound": 0.022,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Token Terminal expands tokenized stock dataset to 5,859 tokens across 18 chains",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-10T17:45:02Z",
+            "title": "Bitcoin Faces a Tougher Rate Outlook After US October Inflation Rises 0.4%",
+            "source": "newsBTC",
+            "publishedAt": "2026-11-10T18:00:00Z",
             "sentiment": "Neutral",
-            "compound": 0.103
+            "compound": 0.178
           },
           {
-            "title": "US petrol prices are down, but elevated inflation continues",
-            "source": "Al Jazeera English",
-            "publishedAt": "2026-11-10T17:40:35Z",
+            "title": "Nvidia’s Worst Fear is Here",
+            "source": "Dailyreckoning.com",
+            "publishedAt": "2026-11-10T18:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.807
+          },
+          {
+            "title": "(PR) AMD Showcases 6th Gen EPYC Server SP7 Processors Based on the New Zen 6 Architecture",
+            "source": "Techpowerup.com",
+            "publishedAt": "2026-11-10T17:56:44Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Apple Is Holding Strong While Big Tech Sells Off. Is It Next?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-10T17:40:18Z",
-            "sentiment": "Positive",
-            "compound": 0.511
-          },
-          {
-            "title": "AMD Stock Reverses Morning Gains, Slowly Recovers After Google AI Deal",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-10T17:38:14Z",
-            "sentiment": "Positive",
-            "compound": 0.34
-          },
-          {
-            "title": "OpenPayd Annual Recurring Revenue Reaches Over $100 Million",
-            "source": "pymnts.com",
-            "publishedAt": "2026-11-10T17:37:02Z",
+            "title": "Chinese Export Rules: The 50-Service-Node Threshold",
+            "source": "Pravda.ru",
+            "publishedAt": "2026-11-10T17:56:31Z",
             "sentiment": "Neutral",
-            "compound": 0.052
+            "compound": 0.0
           },
           {
-            "title": "Gas prices drop below $4 a gallon for first time since July, after Trump signal no Iran strikes anytime soon",
-            "source": "New York Post",
-            "publishedAt": "2026-11-10T17:36:51Z",
+            "title": "Stocks Fall as Inflation Remains Elevated",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-10T17:53:15Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "The Children’s Place is closing stores, joins list of struggling retailers to file for bankruptcy in 2026",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-10T17:52:05Z",
             "sentiment": "Negative",
-            "compound": -0.294
+            "compound": -0.421
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.35,
-  "trade_probability": 46.61,
+  "confirmation_score": 44.1,
+  "trade_probability": 46.46,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
