@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T08:45:54.725797+00:00",
+  "generated_at": "2026-11-11T09:01:27.071361+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.88,
+      "score": 43.01,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.41,
-        "change_5d_pct": 0.891
+        "current_dxy": 102.4,
+        "change_5d_pct": 0.874
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.23,
+      "score": 49.01,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.035,
-        "articles_analyzed": 22,
+        "avg_compound": -0.02,
+        "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Fed Governor Waller sees December hike likely, opens door to possible half-point increase",
+            "source": "CNBC",
+            "publishedAt": "2026-11-10T09:00:01Z",
+            "sentiment": "Positive",
+            "compound": 0.318
+          },
+          {
+            "title": "Where Trump goes now on the big 3: tariffs, Iran war, immigration",
+            "source": "CBC News",
+            "publishedAt": "2026-11-10T09:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.599
+          },
+          {
+            "title": "Hyperliquid Strategies Reports 38.5M HYPE Treasury After $802M Deployment",
+            "source": "newsBTC",
+            "publishedAt": "2026-11-10T09:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "Waller, The Economic Outlook and Some Thoughts on Labor Market Dynamism",
+            "source": "Federalreserve.gov",
+            "publishedAt": "2026-11-10T09:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
           {
             "title": "The stock market is doing some of the Fed's dirty work",
             "source": "Biztoc.com",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-10T08:41:08Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Bhai Dooj 2026 financial gift: Gold ETFs for your sibling? How it differs from mutual funds? Process, rules explained",
-            "source": "Livemint",
-            "publishedAt": "2026-11-10T08:40:20Z",
-            "sentiment": "Positive",
-            "compound": 0.504
-          },
-          {
-            "title": "Why Union Budget 2027-28 should focus on resilience and reform",
-            "source": "Livemint",
-            "publishedAt": "2026-11-10T08:31:03Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Jake Tapper Delivers Deadpan Takedown Of Trump’s Latest Attack On CNN And Kaitlan Collins",
-            "source": "HuffPost",
-            "publishedAt": "2026-11-10T08:30:01Z",
-            "sentiment": "Negative",
-            "compound": -0.477
-          },
-          {
-            "title": "Bitcoin pinned below $75k as regulatory uncertainty, ETF outflows persist",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-10T08:26:05Z",
-            "sentiment": "Negative",
-            "compound": -0.34
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 39.07,
-  "trade_probability": 43.44,
+  "confirmation_score": 39.16,
+  "trade_probability": 43.5,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
