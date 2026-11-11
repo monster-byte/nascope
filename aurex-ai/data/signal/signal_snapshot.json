@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T16:15:56.511063+00:00",
+  "generated_at": "2026-11-11T16:31:26.892028+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 1.3789,
+          "change_pct": 1.422,
           "up": true
         },
         "MSFT": {
-          "change_pct": -2.7851,
+          "change_pct": -2.9196,
           "up": false
         },
         "NVDA": {
-          "change_pct": 2.9031,
+          "change_pct": 3.5483,
           "up": true
         },
         "AMZN": {
-          "change_pct": -1.8561,
+          "change_pct": -1.7164,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28392.9,
-        "sma50": 29554.17,
-        "sma200": 28017.81
+        "last_price": 28452.38,
+        "sma50": 29555.36,
+        "sma200": 28018.1
       }
     },
     "vxn": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 39.47,
+      "score": 39.27,
       "status": "red",
       "details": {
-        "current_dxy": 102.85,
-        "change_5d_pct": 1.316
+        "current_dxy": 102.87,
+        "change_5d_pct": 1.341
       }
     },
     "macro": {
@@ -85,10 +85,56 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.0,
+      "score": 48.72,
       "status": "yellow",
       "details": {
-        "error": "news_fetch_failed: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?q=Nasdaq+OR+%22Federal+Reserve%22+OR+%22stock+market%22+OR+inflation&language=en&sortBy=publishedAt&pageSize=25&apiKey=280ea038bd7e4ccb91d87f9d115484d4"
+        "overall_sentiment": "NEUTRAL",
+        "avg_compound": -0.026,
+        "articles_analyzed": 25,
+        "top_headlines": [
+          {
+            "title": "JPMorgan says AI momentum stocks just had their worst month since 1985",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-10T16:31:13Z",
+            "sentiment": "Negative",
+            "compound": -0.625
+          },
+          {
+            "title": "U.S. gas prices fall below $4 for the first time since July",
+            "source": "CNBC",
+            "publishedAt": "2026-11-10T16:29:09Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Anthropic targets $40 trillion knowledge-work market and $2 trillion life sciences opportunity in IPO filing",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-10T16:28:53Z",
+            "sentiment": "Positive",
+            "compound": 0.421
+          },
+          {
+            "title": "Bitcoin Falls as Hot US Inflation Fuels Fears of Bigger Fed Rate Hike",
+            "source": "Decrypt",
+            "publishedAt": "2026-11-10T16:27:57Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
+          {
+            "title": "Bitcoin nears 11-week low after ‘discouraging’ US CPI inflation beat",
+            "source": "Cointelegraph",
+            "publishedAt": "2026-11-10T16:25:03Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "2027: APC unveils four-pillar manifesto for Tinubu’s second term bid",
+            "source": "The Punch",
+            "publishedAt": "2026-11-10T16:22:27Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          }
+        ]
       }
     },
     "patent_momentum": {
@@ -100,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.06,
-  "trade_probability": 46.44,
+  "confirmation_score": 43.92,
+  "trade_probability": 46.35,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
