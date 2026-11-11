@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T14:16:39.202406+00:00",
+  "generated_at": "2026-11-11T14:31:17.791132+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 0.0,
-      "status": "red",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.0802,
-          "up": false
+          "change_pct": 0.9805,
+          "up": true
         },
         "MSFT": {
-          "change_pct": -0.2608,
+          "change_pct": -0.7881,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.993,
-          "up": false
+          "change_pct": 1.952,
+          "up": true
         },
         "AMZN": {
-          "change_pct": -0.3861,
-          "up": false
+          "change_pct": 1.0389,
+          "up": true
         }
       }
     },
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27740.79,
-        "sma50": 29567.86,
-        "sma200": 28005.54
+        "last_price": 28271.33,
+        "sma50": 29551.74,
+        "sma200": 28017.2
       }
     },
     "vxn": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 39.53,
+      "score": 39.23,
       "status": "red",
       "details": {
-        "current_dxy": 102.84,
-        "change_5d_pct": 1.308
+        "current_dxy": 102.88,
+        "change_5d_pct": 1.346
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.03,
+      "score": 54.28,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.021,
-        "articles_analyzed": 25,
+        "avg_compound": 0.086,
+        "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "TSMC to invest up to $1 billion in Anthropic, OpenAI",
-            "source": "CNA",
-            "publishedAt": "2026-11-10T14:15:46Z",
+            "title": "Does anyone feel safe from layoffs right now?",
+            "source": "CNBC",
+            "publishedAt": "2026-11-10T14:30:56Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
+          {
+            "title": "Anthropic’s IPO Filing Names Crypto Miners as Rivals for Power as It Seeks Up to $64 Billion",
+            "source": "Dcforecasts.com",
+            "publishedAt": "2026-11-10T14:25:11Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "Inflation data comes in hotter than expected, even as energy inflation fades",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-11-10T14:23:23Z",
+            "sentiment": "Positive",
+            "compound": 0.273
           },
           {
             "title": "TSMC to invest up to $1 billion in Anthropic, OpenAI",
             "source": "The Times of India",
-            "publishedAt": "2026-11-10T14:14:58Z",
+            "publishedAt": "2026-11-10T14:22:30Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Anthropic seeks $1.4 trillion valuation in highly anticipated IPO amid AI boom - Yahoo Finance",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-11-10T14:12:36Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "US consumer inflation slows to 0.4% in October as energy price pressures ease",
-            "source": "BusinessLine",
-            "publishedAt": "2026-11-10T14:12:08Z",
+            "title": "October inflation data comes in hotter than expected, even as energy inflation fades",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-10T14:21:00Z",
             "sentiment": "Positive",
-            "compound": 0.318
+            "compound": 0.273
           },
           {
-            "title": "How much you can make in 2027 and still pay 0% capital gains tax",
-            "source": "CNBC",
-            "publishedAt": "2026-11-10T14:12:02Z",
-            "sentiment": "Positive",
-            "compound": 0.25
-          },
-          {
-            "title": "Inflation Ran Hotter Than Expected in October",
-            "source": "Newser",
-            "publishedAt": "2026-11-10T14:08:35Z",
+            "title": "Guidance: Planning application fees",
+            "source": "Www.gov.uk",
+            "publishedAt": "2026-11-10T14:20:31Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 30.66,
-  "trade_probability": 38.4,
+  "confirmation_score": 51.17,
+  "trade_probability": 50.7,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
