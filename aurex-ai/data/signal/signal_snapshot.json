@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T03:15:53.448855+00:00",
+  "generated_at": "2026-11-11T03:31:15.361533+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.17,
+      "score": 47.1,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.23,
-        "change_5d_pct": 0.353
+        "current_dxy": 102.24,
+        "change_5d_pct": 0.362
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.12,
+      "score": 53.63,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.082,
+        "avg_compound": 0.073,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Japan's Nikkei surges nearly 3% as AI stks extend rebound",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-10T03:22:19Z",
+            "sentiment": "Neutral",
+            "compound": 0.178
+          },
           {
             "title": "Myanmar’s El Niño threat shows why extreme heat is also a question of inequality",
             "source": "The Conversation Africa",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-10T02:45:00Z",
             "sentiment": "Neutral",
             "compound": 0.128
-          },
-          {
-            "title": "Tech leads Asian stock rally as traders track Wall St rebound",
-            "source": "Digital Journal",
-            "publishedAt": "2026-11-10T02:40:36Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 39.99,
-  "trade_probability": 43.99,
+  "confirmation_score": 39.94,
+  "trade_probability": 43.96,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
