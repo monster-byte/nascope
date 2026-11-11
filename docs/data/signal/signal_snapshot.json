@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T19:31:16.418740+00:00",
+  "generated_at": "2026-11-11T19:45:57.563645+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 1.7617,
+          "change_pct": 1.723,
           "up": true
         },
         "MSFT": {
-          "change_pct": -2.6654,
+          "change_pct": -2.6766,
           "up": false
         },
         "NVDA": {
-          "change_pct": 3.0985,
+          "change_pct": 3.2544,
           "up": true
         },
         "AMZN": {
-          "change_pct": -1.7293,
+          "change_pct": -1.7385,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28469.81,
-        "sma50": 29555.71,
-        "sma200": 28018.19
+        "last_price": 28456.49,
+        "sma50": 29555.44,
+        "sma200": 28018.12
       }
     },
     "vxn": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 38.94,
+      "score": 39.12,
       "status": "red",
       "details": {
-        "current_dxy": 102.91,
-        "change_5d_pct": 1.382
+        "current_dxy": 102.89,
+        "change_5d_pct": 1.359
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.3,
+      "score": 49.78,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.046,
+        "avg_compound": -0.004,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "After the midterm bloodbath, what is Trump ready to concede?",
+            "source": "Rt-english.com",
+            "publishedAt": "2026-11-10T19:44:53Z",
+            "sentiment": "Positive",
+            "compound": 0.361
+          },
+          {
+            "title": "Chip stocks' slide nears $5 trillion as Nvidia hits most extreme selling level since 2019",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-10T19:43:07Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Is Garnering Insider Attention at the Back of a Recent Sell-Off",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-10T19:43:06Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Nvidia Pulled Strings to Shut Down a US Government Investigation Into Chip Smuggling",
+            "source": "Futurism",
+            "publishedAt": "2026-11-10T19:39:06Z",
+            "sentiment": "Negative",
+            "compound": -0.477
+          },
+          {
+            "title": "IRS raises 2027 standard deduction and child tax credit in its annual inflation adjustments",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-10T19:38:38Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
           {
             "title": "Homeowners tap equity as HELOC balances post biggest jump since 2005: New York Fed report",
             "source": "CNBC",
             "publishedAt": "2026-11-10T19:30:12Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Nvidia-backed AI cloud firm Nscale considers delaying $35 billion listing, the Telegraph reports",
-            "source": "CNA",
-            "publishedAt": "2026-11-10T19:28:50Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Anthropic sets aside up to 20% of IPO shares for retail investors",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-10T19:25:49Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "10-Year Treasury Yield Spikes as Inflation Spreads across Economy, Driven by Ugly Core Services CPI",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-10T19:24:09Z",
-            "sentiment": "Negative",
-            "compound": -0.361
-          },
-          {
-            "title": "Treasuries Now Offer 2.66% Above Inflation. Are Dividend Stocks in Trouble?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-10T19:23:41Z",
-            "sentiment": "Negative",
-            "compound": -0.202
-          },
-          {
-            "title": "There’s Never a New Middle East",
-            "source": "Foreign Policy",
-            "publishedAt": "2026-11-10T19:21:20Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.22,
-  "trade_probability": 46.53,
+  "confirmation_score": 44.01,
+  "trade_probability": 46.41,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
