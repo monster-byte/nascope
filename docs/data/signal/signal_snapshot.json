@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T20:01:46.805068+00:00",
+  "generated_at": "2026-11-11T20:15:57.236541+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 1.6313,
+          "change_pct": 1.756,
           "up": true
         },
         "MSFT": {
-          "change_pct": -2.772,
+          "change_pct": -2.8607,
           "up": false
         },
         "NVDA": {
-          "change_pct": 3.2739,
+          "change_pct": 2.9868,
           "up": true
         },
         "AMZN": {
-          "change_pct": -1.7845,
+          "change_pct": -1.8361,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28458.48,
-        "sma50": 29555.48,
-        "sma200": 28018.13
+        "last_price": 28429.3,
+        "sma50": 29554.9,
+        "sma200": 28017.99
       }
     },
     "vxn": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 38.97,
+      "score": 39.06,
       "status": "red",
       "details": {
-        "current_dxy": 102.91,
-        "change_5d_pct": 1.379
+        "current_dxy": 102.9,
+        "change_5d_pct": 1.367
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.68,
+      "score": 51.06,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.014,
-        "articles_analyzed": 24,
+        "avg_compound": 0.021,
+        "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Live: Wall Street retreats as hot inflation shortens odds of a rate hike, ASX set to slide",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-11-10T20:11:41Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Hot CPI Pushes 10-Year Yield to 5%, Nvidia Sinks: Stock Market Today",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-10T20:09:26Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "24% of Americans with a credit record are behind on their debts",
+            "source": "CBS News",
+            "publishedAt": "2026-11-10T20:05:40Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "Dallas Fed’s Logan calls for two more 25-basis-point rate hikes",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-10T20:02:01Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Strong Jobs Data Keeps the Fed Focused on Inflation | Presented by CME Group",
             "source": "Biztoc.com",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-10T19:54:14Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Bitcoin Treasury Firm Strive’s Preferred Shares Yield Up to 15.9%. What Is the Catch?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-10T19:54:02Z",
-            "sentiment": "Positive",
-            "compound": 0.459
-          },
-          {
-            "title": "Is Jensen Huang’s Affair a Crisis for the A.I. Boom?",
-            "source": "The New Yorker",
-            "publishedAt": "2026-11-10T19:49:27Z",
-            "sentiment": "Negative",
-            "compound": -0.625
-          },
-          {
-            "title": "What Jensen Huang’s Affair Means for Nvidia",
-            "source": "The New Yorker",
-            "publishedAt": "2026-11-10T19:49:27Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "TON Strategy reports $13.1M in Q3 revenue from GRAM staking as net loss hits $24M",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-10T19:47:00Z",
-            "sentiment": "Negative",
-            "compound": -0.318
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.07,
-  "trade_probability": 46.44,
+  "confirmation_score": 44.12,
+  "trade_probability": 46.47,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
