@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T14:31:17.791132+00:00",
+  "generated_at": "2026-11-11T14:45:56.863485+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
-      "status": "green",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.9805,
+          "change_pct": 1.5309,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.7881,
+          "change_pct": -0.8019,
           "up": false
         },
         "NVDA": {
-          "change_pct": 1.952,
+          "change_pct": 0.8902,
           "up": true
         },
         "AMZN": {
-          "change_pct": 1.0389,
-          "up": true
+          "change_pct": -0.6769,
+          "up": false
         }
       }
     },
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28271.33,
-        "sma50": 29551.74,
-        "sma200": 28017.2
+        "last_price": 28158.7,
+        "sma50": 29549.49,
+        "sma200": 28016.64
       }
     },
     "vxn": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 39.23,
+      "score": 39.1,
       "status": "red",
       "details": {
-        "current_dxy": 102.88,
-        "change_5d_pct": 1.346
+        "current_dxy": 102.89,
+        "change_5d_pct": 1.362
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.28,
+      "score": 54.33,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.086,
+        "avg_compound": 0.087,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Does anyone feel safe from layoffs right now?",
-            "source": "CNBC",
-            "publishedAt": "2026-11-10T14:30:56Z",
+            "title": "Anthropic targets $1.4 trillion IPO valuation as AI enthusiasm cools",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-10T14:44:26Z",
             "sentiment": "Positive",
             "compound": 0.44
           },
           {
-            "title": "Anthropic’s IPO Filing Names Crypto Miners as Rivals for Power as It Seeks Up to $64 Billion",
-            "source": "Dcforecasts.com",
-            "publishedAt": "2026-11-10T14:25:11Z",
+            "title": "US stocks fall after worse-than-expected report on inflation",
+            "source": "Medianewsgroup.com",
+            "publishedAt": "2026-11-10T14:41:38Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Inflation data comes in hotter than expected, even as energy inflation fades",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-11-10T14:23:23Z",
-            "sentiment": "Positive",
-            "compound": 0.273
+            "title": "Sales pipeline visibility problems (and how to fix them)",
+            "source": "Hubspot.com",
+            "publishedAt": "2026-11-10T14:40:06Z",
+            "sentiment": "Negative",
+            "compound": -0.402
           },
           {
-            "title": "TSMC to invest up to $1 billion in Anthropic, OpenAI",
+            "title": "Anthropic IPO: $81 billion revenue run rate looks impressive, but can a $900 billion computing bill justify its trillion-dollar valuation? What ANT stock investors need to know",
             "source": "The Times of India",
-            "publishedAt": "2026-11-10T14:22:30Z",
+            "publishedAt": "2026-11-10T14:39:58Z",
+            "sentiment": "Positive",
+            "compound": 0.285
+          },
+          {
+            "title": "US consumer prices rise above expectations in October",
+            "source": "RTE",
+            "publishedAt": "2026-11-10T14:38:12Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "October inflation data comes in hotter than expected, even as energy inflation fades",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-10T14:21:00Z",
-            "sentiment": "Positive",
-            "compound": 0.273
-          },
-          {
-            "title": "Guidance: Planning application fees",
-            "source": "Www.gov.uk",
-            "publishedAt": "2026-11-10T14:20:31Z",
+            "title": "Anthropic sets IPO price range of $70 to $78, eyes Nov. 19 Nasdaq debut",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-10T14:36:54Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 51.17,
-  "trade_probability": 50.7,
+  "confirmation_score": 44.41,
+  "trade_probability": 46.65,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
