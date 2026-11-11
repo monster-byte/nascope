@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T01:31:08.021860+00:00",
+  "generated_at": "2026-11-11T01:45:46.484499+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.74,
+      "score": 47.09,
       "status": "yellow",
       "details": {
-        "current_dxy": 102.29,
-        "change_5d_pct": 0.407
+        "current_dxy": 102.24,
+        "change_5d_pct": 0.363
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 57.75,
+      "score": 55.72,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.155,
+        "avg_compound": 0.114,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Young Men Abandon Republicans in Stunning Midterm Revolt as Trump's 2024 Coalition Collapses",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-11-10T01:41:14Z",
+            "sentiment": "Negative",
+            "compound": -0.361
+          },
           {
             "title": "Stock Market Holiday 2026: Are NSE, BSE closed today on account of Diwali-Balipratipada? Check remaining holidays for the year",
             "source": "The Times of India",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-10T01:19:47Z",
             "sentiment": "Positive",
             "compound": 0.649
-          },
-          {
-            "title": "Japan’s household spending slumps most since pandemic",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-10T01:18:50Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.28,
-  "trade_probability": 44.17,
+  "confirmation_score": 40.13,
+  "trade_probability": 44.08,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
