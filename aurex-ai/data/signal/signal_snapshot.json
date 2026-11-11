@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T18:01:37.556495+00:00",
+  "generated_at": "2026-11-11T18:15:58.158182+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -21,15 +21,15 @@
           "up": true
         },
         "MSFT": {
-          "change_pct": -2.5664,
+          "change_pct": -2.486,
           "up": false
         },
         "NVDA": {
-          "change_pct": 3.7923,
+          "change_pct": 3.8746,
           "up": true
         },
         "AMZN": {
-          "change_pct": -1.9117,
+          "change_pct": -1.6998,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28532.34,
-        "sma50": 29556.96,
-        "sma200": 28018.5
+        "last_price": 28544.57,
+        "sma50": 29557.2,
+        "sma200": 28018.56
       }
     },
     "vxn": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 38.88,
+      "score": 38.94,
       "status": "red",
       "details": {
-        "current_dxy": 102.92,
-        "change_5d_pct": 1.39
+        "current_dxy": 102.91,
+        "change_5d_pct": 1.383
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.09,
+      "score": 51.13,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.022,
+        "avg_compound": 0.023,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Bitcoin Faces a Tougher Rate Outlook After US October Inflation Rises 0.4%",
-            "source": "newsBTC",
-            "publishedAt": "2026-11-10T18:00:00Z",
+            "title": "U.S. gas prices fall below $4 for the first time since July - CNBC",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-11-10T18:12:57Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Fed’s Christopher Waller opens door to 50-basis-point December rate hike after hot CPI",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-10T18:12:40Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "US Treasury sets 5% coupon on 10-year notes, highest since 2006",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-10T18:11:08Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "A 50-Basis-Point Fed Hike Was Unthinkable – After CPI, Economists Can't Rule It Out",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-10T18:10:38Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "The American Dream Is Being Crushed: The Cost Of Living Is Spiraling Out Of Control And Millions Of Americans Can No Longer Afford The Basics Of Everyday Life",
+            "source": "Theeconomiccollapseblog.com",
+            "publishedAt": "2026-11-10T18:09:55Z",
+            "sentiment": "Negative",
+            "compound": -0.459
+          },
+          {
+            "title": "Inflation runs hotter than expected as higher prices extend beyond the gas station",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-10T18:07:01Z",
             "sentiment": "Neutral",
             "compound": 0.178
-          },
-          {
-            "title": "Nvidia’s Worst Fear is Here",
-            "source": "Dailyreckoning.com",
-            "publishedAt": "2026-11-10T18:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.807
-          },
-          {
-            "title": "(PR) AMD Showcases 6th Gen EPYC Server SP7 Processors Based on the New Zen 6 Architecture",
-            "source": "Techpowerup.com",
-            "publishedAt": "2026-11-10T17:56:44Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Chinese Export Rules: The 50-Service-Node Threshold",
-            "source": "Pravda.ru",
-            "publishedAt": "2026-11-10T17:56:31Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Stocks Fall as Inflation Remains Elevated",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-10T17:53:15Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "The Children’s Place is closing stores, joins list of struggling retailers to file for bankruptcy in 2026",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-10T17:52:05Z",
-            "sentiment": "Negative",
-            "compound": -0.421
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.1,
-  "trade_probability": 46.46,
+  "confirmation_score": 44.11,
+  "trade_probability": 46.47,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
