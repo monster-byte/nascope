@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T22:01:20.829979+00:00",
+  "generated_at": "2026-11-11T22:16:40.598075+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -29,7 +29,7 @@
           "up": true
         },
         "AMZN": {
-          "change_pct": -1.8841,
+          "change_pct": -1.873,
           "up": false
         }
       }
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 38.91,
+      "score": 39.05,
       "status": "red",
       "details": {
-        "current_dxy": 102.92,
-        "change_5d_pct": 1.386
+        "current_dxy": 102.9,
+        "change_5d_pct": 1.368
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.23,
+      "score": 45.71,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.055,
+        "avg_compound": -0.086,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Pete Hegseth Bet on the Wrong Side of History",
+            "source": "Slate Magazine",
+            "publishedAt": "2026-11-10T22:01:52Z",
+            "sentiment": "Negative",
+            "compound": -0.477
+          },
           {
             "title": "How major US stock indexes fared Tuesday 11/10/2026",
             "source": "Biztoc.com",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-10T21:58:36Z",
             "sentiment": "Negative",
             "compound": -0.658
-          },
-          {
-            "title": "Eric Schmidt allegedly promised ex a slice of his Anthropic jackpot — but she’s still waiting for it: sources",
-            "source": "New York Post",
-            "publishedAt": "2026-11-10T21:56:23Z",
-            "sentiment": "Neutral",
-            "compound": 0.19
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 43.76,
-  "trade_probability": 46.26,
+  "confirmation_score": 43.63,
+  "trade_probability": 46.18,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
