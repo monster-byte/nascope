@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T19:01:21.378215+00:00",
+  "generated_at": "2026-11-11T19:15:52.561678+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 1.7789,
+          "change_pct": 1.6915,
           "up": true
         },
         "MSFT": {
-          "change_pct": -2.557,
+          "change_pct": -2.7383,
           "up": false
         },
         "NVDA": {
-          "change_pct": 3.9276,
+          "change_pct": 3.4278,
           "up": true
         },
         "AMZN": {
-          "change_pct": -1.7514,
+          "change_pct": -2.0057,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28546.95,
-        "sma50": 29557.25,
-        "sma200": 28018.58
+        "last_price": 28458.21,
+        "sma50": 29555.48,
+        "sma200": 28018.13
       }
     },
     "vxn": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 38.81,
+      "score": 38.79,
       "status": "red",
       "details": {
         "current_dxy": 102.93,
-        "change_5d_pct": 1.399
+        "change_5d_pct": 1.402
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.59,
+      "score": 51.72,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.032,
+        "avg_compound": 0.034,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Inflation is proving more stubborn in Australia than elsewhere, making the RBA’s job harder",
+            "source": "The Conversation Africa",
+            "publishedAt": "2026-11-10T19:14:08Z",
+            "sentiment": "Negative",
+            "compound": -0.458
+          },
+          {
+            "title": "Microsoft stock drops after Anthropic unveils tools to rival Office",
+            "source": "Business Insider",
+            "publishedAt": "2026-11-10T19:13:36Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "How much did the ASUS ROG Zephyrus G14 cost in 2020 vs 2026?",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-11-10T19:12:14Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "How El Niño Could Impact US, Global Economy",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-10T19:09:38Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Fed’s Schmid says instant payments will outpace digital assets",
             "source": "Crypto Briefing",
@@ -103,34 +131,6 @@
             "title": "Stock Market Midday, Nov. 10: Stocks Slide on Hot Inflation Data",
             "source": "Biztoc.com",
             "publishedAt": "2026-11-10T18:55:48Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "US stocks: Five things to know about Anthropic",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-10T18:53:44Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Would you push a neighbour into unemployment to reduce inflation?",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-11-10T18:52:55Z",
-            "sentiment": "Negative",
-            "compound": -0.44
-          },
-          {
-            "title": "Democrats urged to resist ‘progressive’ pull after midterm success",
-            "source": "The Irish Times",
-            "publishedAt": "2026-11-10T18:51:29Z",
-            "sentiment": "Positive",
-            "compound": 0.572
-          },
-          {
-            "title": "Buyers ditch backyards for balconies as rates rise",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-11-10T18:51:06Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.14,
-  "trade_probability": 46.48,
+  "confirmation_score": 44.15,
+  "trade_probability": 46.49,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
