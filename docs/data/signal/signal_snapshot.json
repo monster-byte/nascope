@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T15:01:27.147245+00:00",
+  "generated_at": "2026-11-12T15:15:48.446621+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.8889,
+          "change_pct": 0.4613,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.0236,
+          "change_pct": 0.8755,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.7732,
+          "change_pct": 1.5152,
           "up": true
         },
         "AMZN": {
-          "change_pct": 2.1702,
+          "change_pct": 1.7279,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28211.93,
-        "sma50": 29535.17,
-        "sma200": 28028.66
+        "last_price": 28183.58,
+        "sma50": 29534.6,
+        "sma200": 28028.52
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 50.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 28.18,
+        "current_vxn": 27.86,
         "percentile_vs_20d": 50.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 14.77,
+      "score": 11.79,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.05,
-        "change_5d_pct": 4.404
+        "current_yield_pct": 5.068,
+        "change_5d_pct": 4.776
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 38.46,
+      "score": 38.01,
       "status": "red",
       "details": {
-        "current_dxy": 103.01,
-        "change_5d_pct": 1.443
+        "current_dxy": 103.07,
+        "change_5d_pct": 1.499
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.21,
+      "score": 50.04,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.016,
+        "avg_compound": 0.001,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "A fake Einstein quote actually explains the affordability crisis",
-            "source": "Medium",
-            "publishedAt": "2026-11-11T15:01:06Z",
-            "sentiment": "Negative",
-            "compound": -0.802
-          },
-          {
-            "title": "US stocks: US market opens higher as CoreWeave lifts AI trade",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-11T14:56:26Z",
+            "title": "Market Trading Guide: Astra Microwave among 3 stock recommendations for Thursday",
+            "source": "Economictimes.com",
+            "publishedAt": "2026-11-11T15:14:07Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Derive options traders price 31% odds of Bitcoin falling below $70,000 by Christmas",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-11T14:53:14Z",
+            "title": "More work than it looks: the new jobs coming from AI adoption",
+            "source": "Lse.ac.uk",
+            "publishedAt": "2026-11-11T15:07:37Z",
             "sentiment": "Neutral",
-            "compound": -0.153
+            "compound": 0.0
           },
           {
-            "title": "Midterm Elections Knocked The Smug Smile Off Kevin Hassett's Face",
-            "source": "Crooksandliars.com",
-            "publishedAt": "2026-11-11T14:52:18Z",
-            "sentiment": "Positive",
-            "compound": 0.511
-          },
-          {
-            "title": "Petrobras Results Disappoint",
-            "source": "Rigzone",
-            "publishedAt": "2026-11-11T14:50:54Z",
-            "sentiment": "Negative",
-            "compound": -0.402
-          },
-          {
-            "title": "Nvidia stock gets its first boost of the Jensen Huang scandal era. What’s driving shares higher today?",
+            "title": "1 Unstoppable Stock-Split Stock to Buy Before It Joins the $1 Trillion Club",
             "source": "Biztoc.com",
-            "publishedAt": "2026-11-11T14:47:24Z",
+            "publishedAt": "2026-11-11T15:05:30Z",
+            "sentiment": "Negative",
+            "compound": -0.202
+          },
+          {
+            "title": "Wall Street Futures Rise as CoreWeave Earnings Support Technology Stocks Ahead of US Market Open: Dow Jones, S&P, Nasdaq",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-11T15:05:08Z",
             "sentiment": "Positive",
-            "compound": 0.25
+            "compound": 0.402
+          },
+          {
+            "title": "Odds Jensen Huang Will Be Out At Nvidia Hit 16 %",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-11T15:03:05Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "CoreWeave just breathed new life into the AI trade",
+            "source": "Business Insider",
+            "publishedAt": "2026-11-11T15:02:16Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.63,
-  "trade_probability": 54.58,
+  "confirmation_score": 57.27,
+  "trade_probability": 54.36,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
