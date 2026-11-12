@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T20:15:54.537965+00:00",
+  "generated_at": "2026-11-12T20:31:06.883600+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 100.0,
+      "score": 75.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.0295,
-          "up": true
+          "change_pct": -0.0338,
+          "up": false
         },
         "MSFT": {
-          "change_pct": 0.1821,
+          "change_pct": 0.3754,
           "up": true
         },
         "NVDA": {
-          "change_pct": 2.0484,
+          "change_pct": 2.0047,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.3769,
+          "change_pct": 0.4106,
           "up": true
         }
       }
@@ -40,18 +40,18 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28228.39,
-        "sma50": 29535.5,
-        "sma200": 28028.74
+        "last_price": 28225.29,
+        "sma50": 29535.44,
+        "sma200": 28028.73
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 40.0,
+      "score": 45.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 28.32,
-        "percentile_vs_20d": 60.0
+        "current_vxn": 28.42,
+        "percentile_vs_20d": 55.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 37.21,
+      "score": 37.28,
       "status": "red",
       "details": {
         "current_dxy": 103.17,
-        "change_5d_pct": 1.598
+        "change_5d_pct": 1.59
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.99,
+      "score": 45.64,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.0,
+        "avg_compound": -0.087,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "amar-mcp 0.2.1",
-            "source": "Pypi.org",
-            "publishedAt": "2026-11-11T20:10:45Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "OMG, WATCH: Investigating Gen Z’s ‘sex recession’",
-            "source": "Omg.blog",
-            "publishedAt": "2026-11-11T20:09:41Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Tens of thousands take to the streets of Spain in first national strike in over a decade",
+            "title": "Here's What Happened Today: Wednesday",
             "source": "TheJournal.ie",
-            "publishedAt": "2026-11-11T20:08:47Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
-          },
-          {
-            "title": "Canada’s ambassador warns Trump tariffs are driving up costs, threatening U.S. investment",
-            "source": "CNBC",
-            "publishedAt": "2026-11-11T20:02:12Z",
-            "sentiment": "Negative",
-            "compound": -0.586
-          },
-          {
-            "title": "The San Francisco Giants are the model for MLB’s salary cap",
-            "source": "McCovey Chronicles",
-            "publishedAt": "2026-11-11T20:00:00Z",
+            "publishedAt": "2026-11-11T20:30:12Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "3 Possible Paths Forward for AI Stocks (Bull Case, Bear Case, Base Case) -- and How to Invest for Each",
+            "title": "Two major Social Security changes are coming in 2027: Retirees get a 3.6% raise, but some workers will pay $484 more in taxes — who will be affected?",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-11T20:28:33Z",
+            "sentiment": "Neutral",
+            "compound": -0.168
+          },
+          {
+            "title": "Why Oracle Stock Is Up Today",
             "source": "Biztoc.com",
-            "publishedAt": "2026-11-11T19:58:12Z",
+            "publishedAt": "2026-11-11T20:27:55Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Stocks Had Their Best Day in 3 Months and Worst in 19 Months Last Week. Here’s What the Data Says About Selling Right Now",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-11T20:27:21Z",
+            "sentiment": "Neutral",
+            "compound": 0.026
+          },
+          {
+            "title": "Hut 8 details strategy shift to AI data center leases in Q3 call",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-11T20:25:52Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "TeraWulf Stock Rises With AI Infrastructure Stocks After CoreWeave Earnings",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-11T20:24:22Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 55.51,
-  "trade_probability": 53.31,
+  "confirmation_score": 48.82,
+  "trade_probability": 49.29,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
