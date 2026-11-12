@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T01:31:05.475991+00:00",
+  "generated_at": "2026-11-12T01:45:55.377006+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -29,7 +29,7 @@
           "up": true
         },
         "AMZN": {
-          "change_pct": -1.8841,
+          "change_pct": -1.873,
           "up": false
         }
       }
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 39.35,
+      "score": 39.05,
       "status": "red",
       "details": {
-        "current_dxy": 102.86,
-        "change_5d_pct": 1.331
+        "current_dxy": 102.9,
+        "change_5d_pct": 1.368
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.67,
+      "score": 51.23,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.007,
-        "articles_analyzed": 23,
+        "avg_compound": 0.025,
+        "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Wage earners near top and at bottom hardest hit by bracket creep",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-11-11T01:36:27Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "Weak local job gains likely in 2026 and 2027, UTC economist forecasts - Chattanooga Times Free Press",
+            "source": "Chattanooga Times Free Press",
+            "publishedAt": "2026-11-11T01:32:58Z",
+            "sentiment": "Positive",
+            "compound": 0.421
+          },
+          {
+            "title": "Faraday Future Announces Third Quarter 2026 Earnings Release Date and Conference Call Details to be Held on November 16, 2026",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-11T01:32:26Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Gold holds near one-week low as hot US inflation boosts Fed hike bets",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-11T01:31:41Z",
+            "sentiment": "Neutral",
+            "compound": 0.052
+          },
           {
             "title": "Anthopic opens Australian retail IPO offering as AI scrutiny intensifies",
             "source": "Biztoc.com",
@@ -103,34 +131,6 @@
             "title": "Anthopic opens Australian retail IPO offering as AI scrutiny intensifies",
             "source": "CNBC",
             "publishedAt": "2026-11-11T01:26:01Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Dollar gains traction as Fed speakers warn of risks from inflation",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-11T01:25:13Z",
-            "sentiment": "Neutral",
-            "compound": -0.026
-          },
-          {
-            "title": "Futures Rise, CoreWeave Jumps Late In Whipsaw Trade",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-11T01:17:29Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Gas prices fall below $4 a gallon for first time since July - Fox Business",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-11-11T01:12:15Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Disney & Universal Crowd Calendar Updates: Mid-November through January, 2027",
-            "source": "Touringplans.com",
-            "publishedAt": "2026-11-11T01:00:16Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.02,
-  "trade_probability": 46.41,
+  "confirmation_score": 44.13,
+  "trade_probability": 46.48,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
