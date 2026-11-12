@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T20:45:49.649435+00:00",
+  "generated_at": "2026-11-12T21:01:22.474240+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.1252,
+          "change_pct": -0.166,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.3658,
+          "change_pct": 0.6101,
           "up": true
         },
         "NVDA": {
-          "change_pct": 2.4467,
+          "change_pct": 3.5356,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.2625,
+          "change_pct": 0.24,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28247.04,
-        "sma50": 29535.87,
-        "sma200": 28028.83
+        "last_price": 28289.19,
+        "sma50": 29536.72,
+        "sma200": 28029.04
       }
     },
     "vxn": {
@@ -50,7 +50,7 @@
       "score": 40.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 28.32,
+        "current_vxn": 28.46,
         "percentile_vs_20d": 60.0
       }
     },
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 43.81,
+      "score": 45.71,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.124,
+        "avg_compound": -0.086,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Inflation remained elevated in October, CPI report shows, upping odds of Fed interest rate hike",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-11T20:56:44Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "4 Industrial Tech Stocks Riding the AI Boom and Paying Dividends Along the Way",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-11T20:54:35Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Nasdaq 100 Advances 3% as Easing AI Anxiety Draws Dip Buyers In - Bloomberg.com",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-11-11T20:52:55Z",
+            "sentiment": "Neutral",
+            "compound": 0.077
+          },
+          {
+            "title": "Public pay deal will be reviewed if economy deteriorates, Government and unions insist",
+            "source": "The Irish Times",
+            "publishedAt": "2026-11-11T20:48:54Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
           {
             "title": "Oil production nears pre-Iran war levels, OPEC says",
             "source": "Al Jazeera English",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-11T20:42:16Z",
             "sentiment": "Negative",
             "compound": -0.402
-          },
-          {
-            "title": "Stock Market Today: Nasdaq and S&P 500 rally as CoreWeave earnings fuel a tech rebound, but Dow turns lower— live updates - MarketWatch",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-11-11T20:34:01Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Here's What Happened Today: Wednesday",
-            "source": "TheJournal.ie",
-            "publishedAt": "2026-11-11T20:30:12Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Two major Social Security changes are coming in 2027: Retirees get a 3.6% raise, but some workers will pay $484 more in taxes — who will be affected?",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-11T20:28:33Z",
-            "sentiment": "Neutral",
-            "compound": -0.168
-          },
-          {
-            "title": "Why Oracle Stock Is Up Today",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-11T20:27:55Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 48.2,
-  "trade_probability": 48.92,
+  "confirmation_score": 48.37,
+  "trade_probability": 49.02,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
