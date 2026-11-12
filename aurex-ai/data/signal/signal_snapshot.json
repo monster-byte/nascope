@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T10:01:20.123876+00:00",
+  "generated_at": "2026-11-12T10:15:49.970723+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 39.57,
+      "score": 39.55,
       "status": "red",
       "details": {
-        "current_dxy": 102.87,
-        "change_5d_pct": 1.304
+        "current_dxy": 102.88,
+        "change_5d_pct": 1.306
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.3,
+      "score": 51.49,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.026,
-        "articles_analyzed": 25,
+        "avg_compound": 0.03,
+        "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Public sector pay deal: everyone gets just about enough as Government buys industrial peace",
+            "source": "The Irish Times",
+            "publishedAt": "2026-11-11T10:15:07Z",
+            "sentiment": "Positive",
+            "compound": 0.477
+          },
+          {
+            "title": "Fed chair needs friends in Congress as inflation fight drags on",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-11T10:11:28Z",
+            "sentiment": "Neutral",
+            "compound": -0.052
+          },
+          {
+            "title": "3 reasons a top stock strategist sees a major year-end rally brewing for the S&P 500",
+            "source": "Business Insider",
+            "publishedAt": "2026-11-11T10:10:01Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
           {
             "title": "CoreWeave outlook; OpenAI’s revenue reportedly spikes",
             "source": "Biztoc.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-11T09:56:38Z",
             "sentiment": "Negative",
             "compound": -0.67
-          },
-          {
-            "title": "‘Fed Is Fighting the Wrong Inflation’: Strategist Warns Kevin Warsh Against ‘Reckless’ 50-Basis-Point Rate…",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-11T09:56:33Z",
-            "sentiment": "Negative",
-            "compound": -0.718
-          },
-          {
-            "title": "Nasdaq futures jump as CoreWeave earnings beat drives global tech rebound: Live updates - CNBC",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-11-11T09:52:12Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Indonesia sees opportunity to sustain growth as global oil prices ease",
-            "source": "Antaranews.com",
-            "publishedAt": "2026-11-11T09:45:36Z",
-            "sentiment": "Positive",
-            "compound": 0.784
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.18,
-  "trade_probability": 46.51,
+  "confirmation_score": 44.2,
+  "trade_probability": 46.52,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
