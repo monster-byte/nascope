@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T16:45:56.022184+00:00",
+  "generated_at": "2026-11-12T17:01:26.231628+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.4947,
+          "change_pct": 0.4726,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.566,
+          "change_pct": 1.5717,
           "up": true
         },
         "NVDA": {
-          "change_pct": 2.2386,
+          "change_pct": 2.912,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.9237,
+          "change_pct": 1.2445,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28351.99,
-        "sma50": 29537.97,
-        "sma200": 28029.36
+        "last_price": 28430.13,
+        "sma50": 29539.53,
+        "sma200": 28029.75
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 55.0,
+      "score": 50.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 27.04,
-        "percentile_vs_20d": 45.0
+        "current_vxn": 27.27,
+        "percentile_vs_20d": 50.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 9.81,
+      "score": 8.82,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.08,
-        "change_5d_pct": 5.024
+        "current_yield_pct": 5.086,
+        "change_5d_pct": 5.148
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 37.2,
+      "score": 37.43,
       "status": "red",
       "details": {
-        "current_dxy": 103.18,
-        "change_5d_pct": 1.6
+        "current_dxy": 103.14,
+        "change_5d_pct": 1.571
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.91,
+      "score": 50.68,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.078,
+        "avg_compound": 0.014,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "A useful policy primer, but limited analysis leaves major policy gaps",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-11T16:59:23Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
+          {
+            "title": "Russia Bitcoin Trading Opens November 22 as Moscow Exchange Targets December 1",
+            "source": "Bitcoinfoundation.org",
+            "publishedAt": "2026-11-11T16:58:34Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "The Federal Reserve sees something changing in the oil market",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-11T16:49:44Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Rice stock safe at 4.5 million tons for year-end: Agriculture Minister",
+            "source": "Antaranews.com",
+            "publishedAt": "2026-11-11T16:46:55Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
           {
             "title": "Indonesia's vice president resigns amid signs ruling alliance is fraying",
             "source": "BBC News",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-11T16:37:41Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Evercore defends Sandisk stock after selloff",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-11T16:37:32Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "San Diego Customers Pack Hearings To Fight $270-A-Year Utility Hike",
-            "source": "The Daily Caller",
-            "publishedAt": "2026-11-11T16:32:33Z",
-            "sentiment": "Negative",
-            "compound": -0.382
-          },
-          {
-            "title": "Texas Democrats Take Aim at Data Centers, Flock Cameras and Immigration Enforcement",
-            "source": "The Texas Tribune",
-            "publishedAt": "2026-11-11T16:31:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Aging Americans drive demand for US corporate bonds amid rising yields",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-11T16:26:48Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.72,
-  "trade_probability": 54.63,
+  "confirmation_score": 56.87,
+  "trade_probability": 54.12,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
