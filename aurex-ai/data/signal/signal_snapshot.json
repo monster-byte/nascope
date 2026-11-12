@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T17:01:26.231628+00:00",
+  "generated_at": "2026-11-12T17:15:55.204081+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.4726,
+          "change_pct": 0.3713,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.5717,
+          "change_pct": 1.6362,
           "up": true
         },
         "NVDA": {
-          "change_pct": 2.912,
+          "change_pct": 2.6498,
           "up": true
         },
         "AMZN": {
-          "change_pct": 1.2445,
+          "change_pct": 1.0927,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28430.13,
-        "sma50": 29539.53,
-        "sma200": 28029.75
+        "last_price": 28382.19,
+        "sma50": 29538.58,
+        "sma200": 28029.51
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 50.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 27.27,
+        "current_vxn": 27.19,
         "percentile_vs_20d": 50.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 8.82,
+      "score": 6.34,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.086,
-        "change_5d_pct": 5.148
+        "current_yield_pct": 5.101,
+        "change_5d_pct": 5.458
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 37.43,
+      "score": 37.47,
       "status": "red",
       "details": {
         "current_dxy": 103.14,
-        "change_5d_pct": 1.571
+        "change_5d_pct": 1.566
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.68,
+      "score": 46.39,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.014,
+        "avg_compound": -0.072,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "A useful policy primer, but limited analysis leaves major policy gaps",
-            "source": "Business Standard",
-            "publishedAt": "2026-11-11T16:59:23Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
-          },
-          {
-            "title": "Russia Bitcoin Trading Opens November 22 as Moscow Exchange Targets December 1",
-            "source": "Bitcoinfoundation.org",
-            "publishedAt": "2026-11-11T16:58:34Z",
+            "title": "Half of your clients’ health plan spend may be fixable",
+            "source": "Insurance Business UK",
+            "publishedAt": "2026-11-11T17:15:44Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "The Federal Reserve sees something changing in the oil market",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-11T16:49:44Z",
+            "title": "As higher prices seep into broader economy, Fed officials consider faster hikes - AP News",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-11-11T17:13:30Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Rice stock safe at 4.5 million tons for year-end: Agriculture Minister",
-            "source": "Antaranews.com",
-            "publishedAt": "2026-11-11T16:46:55Z",
-            "sentiment": "Positive",
-            "compound": 0.44
-          },
-          {
-            "title": "Indonesia's vice president resigns amid signs ruling alliance is fraying",
-            "source": "BBC News",
-            "publishedAt": "2026-11-11T16:38:07Z",
+            "title": "US household debt highest ever",
+            "source": "Rt-english.com",
+            "publishedAt": "2026-11-11T17:12:03Z",
             "sentiment": "Negative",
-            "compound": -0.318
+            "compound": -0.361
           },
           {
-            "title": "Trading Statement Q3 2026",
+            "title": "Smoke flavouring used in ham, rashers and crisps to be phased out as challenge fails",
+            "source": "The Irish Times",
+            "publishedAt": "2026-11-11T17:11:46Z",
+            "sentiment": "Negative",
+            "compound": -0.361
+          },
+          {
+            "title": "Americans Now Being Strangled By Highest Amount Of Credit Card Debt In History",
+            "source": "The Daily Caller",
+            "publishedAt": "2026-11-11T17:05:42Z",
+            "sentiment": "Negative",
+            "compound": -0.527
+          },
+          {
+            "title": "Jim Cramer's plan for our Intel position. Plus, a rotation loser to buy here",
             "source": "Biztoc.com",
-            "publishedAt": "2026-11-11T16:37:41Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "publishedAt": "2026-11-11T17:05:10Z",
+            "sentiment": "Negative",
+            "compound": -0.527
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.87,
-  "trade_probability": 54.12,
+  "confirmation_score": 56.15,
+  "trade_probability": 53.69,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
