@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T07:01:18.777977+00:00",
+  "generated_at": "2026-11-12T07:15:51.763908+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -29,7 +29,7 @@
           "up": true
         },
         "AMZN": {
-          "change_pct": -1.8841,
+          "change_pct": -1.873,
           "up": false
         }
       }
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 38.4,
+      "score": 38.58,
       "status": "red",
       "details": {
-        "current_dxy": 103.02,
-        "change_5d_pct": 1.451
+        "current_dxy": 103.0,
+        "change_5d_pct": 1.427
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.69,
+      "score": 54.1,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.034,
+        "avg_compound": 0.082,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Anthropic IPO valuation calculator: How much is it really worth? - Financial Times",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-11-11T07:12:27Z",
+            "sentiment": "Positive",
+            "compound": 0.294
+          },
+          {
+            "title": "Europe up in premarket ahead of German CPI data",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-11T07:09:10Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "German inflation confirmed at 2.8% in October",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-11T07:09:05Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Bitdeer Mined 3,855 BTC in Q3 but Held Just 47 as Its AI Backlog Hit $2.9 Billion",
+            "source": "Dcforecasts.com",
+            "publishedAt": "2026-11-11T07:02:06Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Whirlpool gains 3% even as Q2 PAT sinks 40%; ICICI Sec maintains 'Reduce'",
             "source": "Business Standard",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-11T06:57:29Z",
             "sentiment": "Positive",
             "compound": 0.557
-          },
-          {
-            "title": "Anthropic expands Claude into spreadsheets, dashboards and collaborative workplace tools | Business",
-            "source": "Devdiscourse",
-            "publishedAt": "2026-11-11T06:43:25Z",
-            "sentiment": "Neutral",
-            "compound": 0.103
-          },
-          {
-            "title": "Canaan Now Earns More Mining Bitcoin Than Selling Rigs, With 1,875 BTC in Reserve",
-            "source": "Dcforecasts.com",
-            "publishedAt": "2026-11-11T06:40:30Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-11T06:39:53Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "COP31 targets 35% global electrification by 2035",
-            "source": "The Punch",
-            "publishedAt": "2026-11-11T06:39:42Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.11,
-  "trade_probability": 46.47,
+  "confirmation_score": 44.35,
+  "trade_probability": 46.61,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
