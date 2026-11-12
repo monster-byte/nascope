@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T23:15:57.898514+00:00",
+  "generated_at": "2026-11-12T23:31:08.983388+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.34,
+      "score": 50.91,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.067,
+        "avg_compound": 0.018,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Jim Cramer: This is the bet you're making if you buy the Anthropic IPO",
+            "source": "CNBC",
+            "publishedAt": "2026-11-11T23:30:48Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "The rates-cap trap is set, but we can avoid it – Nick Clark",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-11-11T23:25:52Z",
+            "sentiment": "Negative",
+            "compound": -0.535
+          },
           {
             "title": "Nasdaq Jumps After CoreWeave Re-Energizes AI Trade - WSJ",
             "source": "Slashdot.org",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-11T23:11:46Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Falling oil prices are no longer enough to bring down borrowing costs in the world’s most important bond market",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-11T23:11:42Z",
-            "sentiment": "Neutral",
-            "compound": -0.18
-          },
-          {
-            "title": "Stocks rise on tech gains; Nvidia falls after hours",
-            "source": "CNA",
-            "publishedAt": "2026-11-11T23:11:23Z",
-            "sentiment": "Positive",
-            "compound": 0.34
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 48.16,
-  "trade_probability": 48.9,
+  "confirmation_score": 47.94,
+  "trade_probability": 48.76,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
