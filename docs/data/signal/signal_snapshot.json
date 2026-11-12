@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T19:09:43.064166+00:00",
+  "generated_at": "2026-11-12T19:15:59.372465+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.1969,
+          "change_pct": 0.1238,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.0697,
+          "change_pct": 0.9697,
           "up": true
         },
         "NVDA": {
-          "change_pct": 2.276,
+          "change_pct": 2.541,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.9446,
+          "change_pct": 0.9859,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28321.63,
-        "sma50": 29537.36,
-        "sma200": 28029.21
+        "last_price": 28332.75,
+        "sma50": 29537.59,
+        "sma200": 28029.26
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 50.0,
+      "score": 45.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 27.87,
-        "percentile_vs_20d": 50.0
+        "current_vxn": 27.81,
+        "percentile_vs_20d": 55.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 5.01,
+      "score": 4.68,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.109,
-        "change_5d_pct": 5.623
+        "current_yield_pct": 5.111,
+        "change_5d_pct": 5.665
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 36.94,
+      "score": 36.88,
       "status": "red",
       "details": {
-        "current_dxy": 103.21,
-        "change_5d_pct": 1.633
+        "current_dxy": 103.22,
+        "change_5d_pct": 1.641
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.13,
+      "score": 55.13,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.083,
+        "avg_compound": 0.103,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Is the Micron Sell-Off a Buying Opportunity or a Falling Knife?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-11T19:11:28Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
           {
             "title": "The Irish Times view on Nvidia: chips are down for the company boss",
             "source": "The Irish Times",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-11T18:42:09Z",
             "sentiment": "Positive",
             "compound": 0.66
-          },
-          {
-            "title": "BofA Raised Its Earnings Estimates but Cut Its Target on AMD (AMD), Here’s Why",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-11T18:40:59Z",
-            "sentiment": "Negative",
-            "compound": -0.392
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.62,
-  "trade_probability": 53.97,
+  "confirmation_score": 56.21,
+  "trade_probability": 53.73,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
