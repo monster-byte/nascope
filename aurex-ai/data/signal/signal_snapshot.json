@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T06:15:55.975587+00:00",
+  "generated_at": "2026-11-12T06:31:10.854520+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -29,7 +29,7 @@
           "up": true
         },
         "AMZN": {
-          "change_pct": -1.8841,
+          "change_pct": -1.873,
           "up": false
         }
       }
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 38.66,
+      "score": 38.59,
       "status": "red",
       "details": {
-        "current_dxy": 102.99,
-        "change_5d_pct": 1.417
+        "current_dxy": 103.0,
+        "change_5d_pct": 1.426
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.46,
+      "score": 51.66,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.051,
+        "avg_compound": 0.033,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "MRF shares gain after Q2 results; Centrum bullish, sees margin recovery",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-11T06:27:59Z",
+            "sentiment": "Positive",
+            "compound": 0.681
+          },
+          {
+            "title": "TikTok Shop Made Fold’s Bitcoin Gift Card Its Top Growth Channel, Lifting Custody Revenue 269%",
+            "source": "Dcforecasts.com",
+            "publishedAt": "2026-11-11T06:24:55Z",
+            "sentiment": "Positive",
+            "compound": 0.743
+          },
+          {
+            "title": "Inside Anthropic’s blockbuster IPO: What we know about the AI giant’s plans",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-11T06:23:49Z",
+            "sentiment": "Positive",
+            "compound": 0.599
+          },
+          {
+            "title": "US Bond Yield Crosses 5% As Inflation Surges, December Fed Rate Hike Fears Rattle Global Markets",
+            "source": "Free Press Journal",
+            "publishedAt": "2026-11-11T06:23:25Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
+          {
+            "title": "Inflation was up in October. A Fed rate hike is likely coming in December",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-11T06:22:36Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "2021 Capitol riot should follow Trump ‘to his grave’ — Biden",
             "source": "The Punch",
             "publishedAt": "2026-11-11T06:06:26Z",
             "sentiment": "Negative",
             "compound": -0.557
-          },
-          {
-            "title": "Mitsotakis’ political signals, PASOK and the parties to his right, the latest Maximos Mansion poll, Dendias’ letter to Travlos and Odysseas Athanasiou’s business plans",
-            "source": "Protothema.gr",
-            "publishedAt": "2026-11-11T06:01:42Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "Indonesia’s Wiretap Scandal Heralds a Political Showdown",
-            "source": "Foreign Policy",
-            "publishedAt": "2026-11-11T06:00:42Z",
-            "sentiment": "Negative",
-            "compound": -0.44
-          },
-          {
-            "title": "Investors pivot to defensive stocks as markets enter a ‘state of alert’",
-            "source": "CNBC",
-            "publishedAt": "2026-11-11T06:00:01Z",
-            "sentiment": "Neutral",
-            "compound": 0.026
-          },
-          {
-            "title": "National Average Gas Price Falls Below $4 a Gallon for First Time Since July",
-            "source": "Naturalnews.com",
-            "publishedAt": "2026-11-11T06:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "How Nvidia CEO Jensen Huang's extramarital affair could cause collateral damage in Washington",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-11-11T05:59:00Z",
-            "sentiment": "Negative",
-            "compound": -0.494
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 43.76,
-  "trade_probability": 46.26,
+  "confirmation_score": 44.13,
+  "trade_probability": 46.48,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
