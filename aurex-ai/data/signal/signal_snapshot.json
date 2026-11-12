@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T11:31:11.868360+00:00",
+  "generated_at": "2026-11-12T11:41:44.909933+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -29,7 +29,7 @@
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.4152,
+          "change_pct": -0.4264,
           "up": false
         }
       }
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 39.5,
+      "score": 39.36,
       "status": "red",
       "details": {
-        "current_dxy": 102.88,
-        "change_5d_pct": 1.313
+        "current_dxy": 102.9,
+        "change_5d_pct": 1.33
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.6,
+      "score": 53.23,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.052,
-        "articles_analyzed": 25,
+        "avg_compound": 0.065,
+        "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Brexit and consumer food prices: May 2023 update",
+            "source": "Lse.ac.uk",
+            "publishedAt": "2026-11-11T11:36:01Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Irish inflation hits three-year high of 4.3%",
+            "source": "The Irish Times",
+            "publishedAt": "2026-11-11T11:35:35Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Higher energy prices push inflation to 4.3% in October",
+            "source": "RTE",
+            "publishedAt": "2026-11-11T11:34:39Z",
+            "sentiment": "Positive",
+            "compound": 0.273
+          },
           {
             "title": "GDS to Report Third Quarter 2026 Financial Results Before the Open of the U.S. Market on November 25, 2026",
             "source": "Biztoc.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-11T11:30:37Z",
             "sentiment": "Positive",
             "compound": 0.599
-          },
-          {
-            "title": "The Stock Market Is Repeating a Pattern Not Seen in Decades, but History Says Investors Who Make This 1 Move Will Win Out",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-11T11:30:15Z",
-            "sentiment": "Positive",
-            "compound": 0.735
-          },
-          {
-            "title": "xStocks Now Covers Every DAX 40 and FTSE 100 Company, but UK Investors Still Can’t Buy Them",
-            "source": "Dcforecasts.com",
-            "publishedAt": "2026-11-11T11:25:36Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Solana could dip to $74 as Fed rate-hike odds hit 99%",
-            "source": "Coinjournal.net",
-            "publishedAt": "2026-11-11T11:22:37Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.29,
-  "trade_probability": 46.57,
+  "confirmation_score": 44.34,
+  "trade_probability": 46.6,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
