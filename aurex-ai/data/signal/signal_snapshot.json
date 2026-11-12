@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T07:31:08.045735+00:00",
+  "generated_at": "2026-11-12T07:45:53.296677+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 38.52,
+      "score": 38.59,
       "status": "red",
       "details": {
-        "current_dxy": 103.01,
-        "change_5d_pct": 1.435
+        "current_dxy": 103.0,
+        "change_5d_pct": 1.426
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.6,
+      "score": 55.08,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.112,
+        "avg_compound": 0.102,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Moody's raises India's FY27 growth estimate to 7% on broad-based momentum",
+            "source": "BusinessLine",
+            "publishedAt": "2026-11-11T07:41:36Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "Moody's raises India's FY27 growth forecast to 7% on broad-based momentum",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-11T07:32:36Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "Gold faces inflation headwinds on hawkish Fed tilt; $4,150 stays key hurdle",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-11T07:32:17Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "After the 2026 Republican meltdown, where now for the GOP and Israel?",
             "source": "Christiantoday.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-11T07:24:30Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Bitcoin’s Link to the Dollar Index Hit Its Most Inverse Level Since 2020",
-            "source": "Dcforecasts.com",
-            "publishedAt": "2026-11-11T07:24:28Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Inflation jitters throw a wrench into US Treasury auction as Fed official flags jumbo hike",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-11T07:24:13Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "Anthropic IPO valuation calculator: How much is it really worth? - Financial Times",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-11-11T07:12:27Z",
-            "sentiment": "Positive",
-            "compound": 0.294
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.48,
-  "trade_probability": 46.69,
+  "confirmation_score": 44.44,
+  "trade_probability": 46.66,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
