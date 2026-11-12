@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T19:31:09.529187+00:00",
+  "generated_at": "2026-11-12T19:45:53.906181+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.0366,
+          "change_pct": 0.0197,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.6735,
+          "change_pct": 0.5634,
           "up": true
         },
         "NVDA": {
-          "change_pct": 2.3446,
+          "change_pct": 2.2323,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.7872,
+          "change_pct": 0.3656,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28295.71,
-        "sma50": 29536.85,
-        "sma200": 28029.08
+        "last_price": 28274.26,
+        "sma50": 29536.42,
+        "sma200": 28028.97
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 45.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 27.88,
+        "current_vxn": 27.99,
         "percentile_vs_20d": 55.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 5.67,
+      "score": 5.34,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.105,
-        "change_5d_pct": 5.541
+        "current_yield_pct": 5.107,
+        "change_5d_pct": 5.582
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 37.19,
+      "score": 37.12,
       "status": "red",
       "details": {
         "current_dxy": 103.18,
-        "change_5d_pct": 1.601
+        "change_5d_pct": 1.61
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.29,
+      "score": 53.97,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.126,
-        "articles_analyzed": 25,
+        "avg_compound": 0.079,
+        "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "aurasync-engine added to PyPI",
-            "source": "Pypi.org",
-            "publishedAt": "2026-11-11T19:30:49Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "PNC lets businesses accept USDC without keeping the crypto",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-11-11T19:30:07Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "Average New Car Price Hits New Record High (And Even The Good News Doesn't Sound So Good)",
-            "source": "Jalopnik",
-            "publishedAt": "2026-11-11T19:25:00Z",
-            "sentiment": "Positive",
-            "compound": 0.768
-          },
-          {
-            "title": "Is the Micron Sell-Off a Buying Opportunity or a Falling Knife?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-11T19:11:28Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "The Irish Times view on Nvidia: chips are down for the company boss",
+            "title": "The Irish Times view on the public pay deal: the Government pays up for peace",
             "source": "The Irish Times",
-            "publishedAt": "2026-11-11T19:00:00Z",
+            "publishedAt": "2026-11-11T19:45:00Z",
+            "sentiment": "Positive",
+            "compound": 0.477
+          },
+          {
+            "title": "Republicans struggle without the suburbs",
+            "source": "Ncspin.com",
+            "publishedAt": "2026-11-11T19:45:00Z",
+            "sentiment": "Negative",
+            "compound": -0.318
+          },
+          {
+            "title": "Prediction: Nvidia Stock Will Be Worth This Much by Year-End 2027",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-11T19:42:17Z",
+            "sentiment": "Positive",
+            "compound": 0.226
+          },
+          {
+            "title": "Wall Street sees 282% upside for Archer stock, but cuts targets",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-11T19:41:53Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
+          {
+            "title": "Democrat Lawmakers Move To End Mandated Participation in Immigration Enforcement Program [In Texas]",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-11-11T19:36:10Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "The ‘Mona Lisa of pink diamonds’ is one of the rarest on Earth — and just sold for $14.6M",
-            "source": "New York Post",
-            "publishedAt": "2026-11-11T18:59:35Z",
+            "title": "Owning a pet now means having a financial plan. Here's what to consider in 2026.",
+            "source": "CBS News",
+            "publishedAt": "2026-11-11T19:31:40Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.48,
-  "trade_probability": 53.89,
+  "confirmation_score": 56.22,
+  "trade_probability": 53.73,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
