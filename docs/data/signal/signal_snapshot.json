@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T02:01:18.665748+00:00",
+  "generated_at": "2026-11-12T02:15:51.387866+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 39.27,
+      "score": 39.4,
       "status": "red",
       "details": {
-        "current_dxy": 102.87,
-        "change_5d_pct": 1.341
+        "current_dxy": 102.86,
+        "change_5d_pct": 1.325
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.06,
+      "score": 50.36,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.041,
+        "avg_compound": 0.007,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Australia may make knowingly selling unsafe AI a crime",
+            "source": "Theregister.com",
+            "publishedAt": "2026-11-11T02:14:13Z",
+            "sentiment": "Negative",
+            "compound": -0.542
+          },
+          {
+            "title": "Behind Bangladesh's garment boom, workers cut food, healthcare as wages fall short",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-11T02:11:50Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
           {
             "title": "オンセミのEliteSiC M4、増大するエネルギー需要に対応し 電力密度のさらなる向上を実現",
             "source": "Prtimes.jp",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-11T01:50:03Z",
             "sentiment": "Negative",
             "compound": -0.494
-          },
-          {
-            "title": "U.S. stock futures tick higher after Wall St slips on hot CPI, Nvidia losses",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-11T01:49:13Z",
-            "sentiment": "Negative",
-            "compound": -0.402
-          },
-          {
-            "title": "Rivian's Deliveries Jumped 58%. Why Didn't Gross Profit Follow?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-11T01:48:55Z",
-            "sentiment": "Neutral",
-            "compound": 0.038
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.22,
-  "trade_probability": 46.53,
+  "confirmation_score": 44.08,
+  "trade_probability": 46.45,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
