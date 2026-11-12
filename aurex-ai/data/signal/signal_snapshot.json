@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T17:45:48.453319+00:00",
+  "generated_at": "2026-11-12T18:01:24.195732+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
+      "score": 100.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.0225,
-          "up": false
+          "change_pct": 0.007,
+          "up": true
         },
         "MSFT": {
-          "change_pct": 1.7044,
+          "change_pct": 1.6371,
           "up": true
         },
         "NVDA": {
-          "change_pct": 3.3298,
+          "change_pct": 2.8122,
           "up": true
         },
         "AMZN": {
-          "change_pct": 1.0796,
+          "change_pct": 0.8922,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28440.42,
-        "sma50": 29539.74,
-        "sma200": 28029.8
+        "last_price": 28396.71,
+        "sma50": 29538.87,
+        "sma200": 28029.58
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 45.0,
+      "score": 50.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 27.3,
-        "percentile_vs_20d": 55.0
+        "current_vxn": 27.17,
+        "percentile_vs_20d": 50.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 6.34,
+      "score": 5.34,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.101,
-        "change_5d_pct": 5.458
+        "current_yield_pct": 5.107,
+        "change_5d_pct": 5.582
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 37.22,
+      "score": 36.86,
       "status": "red",
       "details": {
-        "current_dxy": 103.17,
-        "change_5d_pct": 1.597
+        "current_dxy": 103.22,
+        "change_5d_pct": 1.643
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 42.44,
+      "score": 44.41,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.151,
-        "articles_analyzed": 25,
+        "avg_compound": -0.112,
+        "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Democrats Won. When Do Hollywood Crews Get Back to Work?",
+            "source": "IndieWire",
+            "publishedAt": "2026-11-11T18:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.572
+          },
+          {
+            "title": "Solemn Claptrap, Soothing Lies",
+            "source": "Dailyreckoning.com",
+            "publishedAt": "2026-11-11T18:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.202
+          },
+          {
+            "title": "Can Republicans Quit Trump?",
+            "source": "The Atlantic",
+            "publishedAt": "2026-11-11T18:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "What is in the new public sector pay deal?",
+            "source": "RTE",
+            "publishedAt": "2026-11-11T17:52:52Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
+          {
+            "title": "Guardant Health Introduces New Epigenomic Applications Providing Deeper Insights for Treatment Selection with Guardant360® Liquid",
+            "source": "Investing News Network",
+            "publishedAt": "2026-11-11T17:50:17Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Vanguard Down? Investors Report Login Problems With Brokerage Accounts During Volatile Wednesday Trading",
             "source": "Ibtimes.com.au",
             "publishedAt": "2026-11-11T17:41:56Z",
             "sentiment": "Negative",
             "compound": -0.402
-          },
-          {
-            "title": "What a Hormuz Endgame Could Actually Look Like",
-            "source": "Foreign Policy",
-            "publishedAt": "2026-11-11T17:32:23Z",
-            "sentiment": "Positive",
-            "compound": 0.361
-          },
-          {
-            "title": "BrightSpring Health, IBD Stock Of The Day, Is A Force In Care For The Elderly",
-            "source": "Investor's Business Daily",
-            "publishedAt": "2026-11-11T17:32:03Z",
-            "sentiment": "Positive",
-            "compound": 0.494
-          },
-          {
-            "title": "Lest We Forget the Horrors: An Unending Catalog of Trump’s Cruelties, Collusions, Corruptions, and Crimes: October 2026: Atrocities 1354-1437",
-            "source": "Mcsweeneys.net",
-            "publishedAt": "2026-11-11T17:30:00Z",
-            "sentiment": "Negative",
-            "compound": -0.836
-          },
-          {
-            "title": "XRP investors have a new reason to worry: Ripple’s David Schwartz sells 23 million XRP tokens, cuts holdings by 88% — Why he exited as XRP price struggles near $1",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-11T17:29:19Z",
-            "sentiment": "Negative",
-            "compound": -0.765
-          },
-          {
-            "title": "Australia’s $4.8 trillion super system has become a political football. A new book explains why",
-            "source": "The Conversation Africa",
-            "publishedAt": "2026-11-11T17:29:16Z",
-            "sentiment": "Positive",
-            "compound": 0.599
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 48.58,
-  "trade_probability": 49.15,
+  "confirmation_score": 55.79,
+  "trade_probability": 53.47,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
