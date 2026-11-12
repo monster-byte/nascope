@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T12:15:52.165523+00:00",
+  "generated_at": "2026-11-12T12:31:12.369570+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -29,7 +29,7 @@
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.4264,
+          "change_pct": -0.4152,
           "up": false
         }
       }
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 39.53,
+      "score": 39.27,
       "status": "red",
       "details": {
-        "current_dxy": 102.88,
-        "change_5d_pct": 1.309
+        "current_dxy": 102.91,
+        "change_5d_pct": 1.341
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.3,
+      "score": 49.15,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.034,
-        "articles_analyzed": 24,
+        "avg_compound": -0.017,
+        "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Consumers are showing signs of strain even as they keep spending, CNBC/NRF Retail Monitor shows",
+            "source": "CNBC",
+            "publishedAt": "2026-11-11T12:27:47Z",
+            "sentiment": "Neutral",
+            "compound": -0.052
+          },
+          {
+            "title": "Anthropic adds over $10 billion in compute commitments to Microsoft and Google ahead of IPO",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-11T12:21:52Z",
+            "sentiment": "Neutral",
+            "compound": 0.128
+          },
+          {
+            "title": "Will the Democrats Embrace the Class Politics That Powered Their Midterm Victory?",
+            "source": "Common Dreams",
+            "publishedAt": "2026-11-11T12:18:03Z",
+            "sentiment": "Positive",
+            "compound": 0.318
+          },
           {
             "title": "Faster, bigger, cheaper: how AI can improve UK price data",
             "source": "Lse.ac.uk",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-11T12:14:02Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "The Fed Has to Raise Rates. How Fast To Go Has Officials Divided",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-11T12:13:51Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Coincheck outlines three-phase plan to enhance trading platform",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-11T12:08:26Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "EasyJet shareholders approve £5.7 billion Apollo deal",
-            "source": "RTE",
-            "publishedAt": "2026-11-11T12:08:12Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 43.91,
-  "trade_probability": 46.35,
+  "confirmation_score": 43.96,
+  "trade_probability": 46.38,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
