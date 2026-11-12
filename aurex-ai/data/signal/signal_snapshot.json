@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T19:45:53.906181+00:00",
+  "generated_at": "2026-11-12T20:01:22.887478+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 100.0,
+      "score": 75.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.0197,
-          "up": true
+          "change_pct": -0.0239,
+          "up": false
         },
         "MSFT": {
-          "change_pct": 0.5634,
+          "change_pct": 0.3468,
           "up": true
         },
         "NVDA": {
-          "change_pct": 2.2323,
+          "change_pct": 2.3103,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.3656,
+          "change_pct": 0.4499,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28274.26,
-        "sma50": 29536.42,
-        "sma200": 28028.97
+        "last_price": 28252.03,
+        "sma50": 29535.97,
+        "sma200": 28028.86
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 45.0,
+      "score": 50.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 27.99,
-        "percentile_vs_20d": 55.0
+        "current_vxn": 28.25,
+        "percentile_vs_20d": 50.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 5.34,
+      "score": 5.67,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.107,
-        "change_5d_pct": 5.582
+        "current_yield_pct": 5.105,
+        "change_5d_pct": 5.541
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 37.12,
+      "score": 37.1,
       "status": "red",
       "details": {
-        "current_dxy": 103.18,
-        "change_5d_pct": 1.61
+        "current_dxy": 103.19,
+        "change_5d_pct": 1.612
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.97,
+      "score": 51.72,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.079,
+        "avg_compound": 0.034,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "The Irish Times view on the public pay deal: the Government pays up for peace",
-            "source": "The Irish Times",
-            "publishedAt": "2026-11-11T19:45:00Z",
-            "sentiment": "Positive",
-            "compound": 0.477
-          },
-          {
-            "title": "Republicans struggle without the suburbs",
-            "source": "Ncspin.com",
-            "publishedAt": "2026-11-11T19:45:00Z",
-            "sentiment": "Negative",
-            "compound": -0.318
-          },
-          {
-            "title": "Prediction: Nvidia Stock Will Be Worth This Much by Year-End 2027",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-11T19:42:17Z",
-            "sentiment": "Positive",
-            "compound": 0.226
-          },
-          {
-            "title": "Wall Street sees 282% upside for Archer stock, but cuts targets",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-11T19:41:53Z",
-            "sentiment": "Negative",
-            "compound": -0.421
-          },
-          {
-            "title": "Democrat Lawmakers Move To End Mandated Participation in Immigration Enforcement Program [In Texas]",
-            "source": "Freerepublic.com",
-            "publishedAt": "2026-11-11T19:36:10Z",
+            "title": "The San Francisco Giants are the model for MLB’s salary cap",
+            "source": "McCovey Chronicles",
+            "publishedAt": "2026-11-11T20:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Owning a pet now means having a financial plan. Here's what to consider in 2026.",
-            "source": "CBS News",
-            "publishedAt": "2026-11-11T19:31:40Z",
+            "title": "3 Possible Paths Forward for AI Stocks (Bull Case, Bear Case, Base Case) -- and How to Invest for Each",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-11T19:58:12Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Social Security could pay full benefits until 2059 if taxable payroll kept pace with GDP: AARP report",
+            "source": "CNBC",
+            "publishedAt": "2026-11-11T19:54:27Z",
+            "sentiment": "Positive",
+            "compound": 0.557
+          },
+          {
+            "title": "Heating costs will surge this winter due to Iran war — with heating oil prices spiking as much as 70%",
+            "source": "New York Post",
+            "publishedAt": "2026-11-11T19:50:15Z",
+            "sentiment": "Negative",
+            "compound": -0.599
+          },
+          {
+            "title": "Wall Street is worried the Fed could go overboard in fighting inflation after hot October CPI",
+            "source": "Business Insider",
+            "publishedAt": "2026-11-11T19:47:50Z",
+            "sentiment": "Negative",
+            "compound": -0.572
+          },
+          {
+            "title": "18k-Mile 2001 Ferrari 360 Spider 6-Speed Conversion",
+            "source": "Bringatrailer.com",
+            "publishedAt": "2026-11-11T19:46:56Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.22,
-  "trade_probability": 53.73,
+  "confirmation_score": 49.76,
+  "trade_probability": 49.86,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
