@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T14:16:00.591047+00:00",
+  "generated_at": "2026-11-12T14:31:07.220367+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -0.1564,
-          "up": false
+          "change_pct": 0.6133,
+          "up": true
         },
         "MSFT": {
-          "change_pct": 0.2038,
+          "change_pct": 0.5956,
           "up": true
         },
         "NVDA": {
-          "change_pct": 9.4911,
-          "up": true
+          "change_pct": -6.4289,
+          "up": false
         },
         "AMZN": {
-          "change_pct": -0.4264,
-          "up": false
+          "change_pct": 0.836,
+          "up": true
         }
       }
     },
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28374.25,
-        "sma50": 29553.8,
-        "sma200": 28017.71
+        "last_price": 27980.09,
+        "sma50": 29530.53,
+        "sma200": 28027.5
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 17.75,
+      "score": 19.73,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.032,
-        "change_5d_pct": 4.031
+        "current_yield_pct": 5.02,
+        "change_5d_pct": 3.783
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 39.38,
+      "score": 39.71,
       "status": "red",
       "details": {
-        "current_dxy": 102.9,
-        "change_5d_pct": 1.327
+        "current_dxy": 102.86,
+        "change_5d_pct": 1.286
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.96,
+      "score": 51.65,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.059,
+        "avg_compound": 0.033,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "A Jailed Comedian, a Mall Mob and the Enemies Erdoğan Needs",
-            "source": "Fair Observer",
-            "publishedAt": "2026-11-11T14:10:30Z",
+            "title": "Rate Hike?",
+            "source": "Reason",
+            "publishedAt": "2026-11-11T14:30:05Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "FMCG firms may face volume pressure in H2 as inflation drives price hikes",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-11T14:26:38Z",
             "sentiment": "Negative",
-            "compound": -0.586
+            "compound": -0.296
           },
           {
-            "title": "Bitcoin price set for another bull run? Analyst spots 2023 pattern as ETF outflows plunge to $95 million, flags key BTC USD levels",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-11T14:08:19Z",
+            "title": "Would California home prices tumble if tech stocks crashed?",
+            "source": "Medianewsgroup.com",
+            "publishedAt": "2026-11-11T14:25:41Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Anthropic IPO Range Values FTX’s Sold Stake at Up to $34.7 Billion, Four Years After Its Collapse",
-            "source": "Dcforecasts.com",
-            "publishedAt": "2026-11-11T14:07:11Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
-          },
-          {
-            "title": "Nebius faces growth risks as Microsoft rethinks neocloud partnerships",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-11T14:06:48Z",
-            "sentiment": "Neutral",
-            "compound": 0.128
-          },
-          {
-            "title": "Server CPU strength persists as AMD and Arm gain share: UBS",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-11T14:03:52Z",
+            "title": "Inflation has hit a three-year high at 4.3% due to high energy prices",
+            "source": "TheJournal.ie",
+            "publishedAt": "2026-11-11T14:24:50Z",
             "sentiment": "Positive",
-            "compound": 0.832
+            "compound": 0.273
           },
           {
-            "title": "Canadian Stock Market Today: TSX Futures Edge Up As Hot US Inflation Fuels Hike Bets",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-11T14:03:30Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Anthropic Cut Its IPO Target by Hundreds of Billions — Here’s How Much Its Founders Will Now Likely Pocket",
+            "source": "Entrepreneur",
+            "publishedAt": "2026-11-11T14:22:00Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "'No reason for us to exist': 3-time Trump voting manufacturer struggling to stay afloat",
+            "source": "Raw Story",
+            "publishedAt": "2026-11-11T14:17:45Z",
+            "sentiment": "Negative",
+            "compound": -0.421
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 42.26,
-  "trade_probability": 45.36,
+  "confirmation_score": 49.19,
+  "trade_probability": 49.51,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
