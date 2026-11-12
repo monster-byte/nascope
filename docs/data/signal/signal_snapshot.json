@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T19:15:59.372465+00:00",
+  "generated_at": "2026-11-12T19:31:09.529187+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.1238,
+          "change_pct": 0.0366,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.9697,
+          "change_pct": 0.6735,
           "up": true
         },
         "NVDA": {
-          "change_pct": 2.541,
+          "change_pct": 2.3446,
           "up": true
         },
         "AMZN": {
-          "change_pct": 0.9859,
+          "change_pct": 0.7872,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28332.75,
-        "sma50": 29537.59,
-        "sma200": 28029.26
+        "last_price": 28295.71,
+        "sma50": 29536.85,
+        "sma200": 28029.08
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 45.0,
       "status": "yellow",
       "details": {
-        "current_vxn": 27.81,
+        "current_vxn": 27.88,
         "percentile_vs_20d": 55.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 4.68,
+      "score": 5.67,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.111,
-        "change_5d_pct": 5.665
+        "current_yield_pct": 5.105,
+        "change_5d_pct": 5.541
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 36.88,
+      "score": 37.19,
       "status": "red",
       "details": {
-        "current_dxy": 103.22,
-        "change_5d_pct": 1.641
+        "current_dxy": 103.18,
+        "change_5d_pct": 1.601
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.13,
+      "score": 56.29,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.103,
+        "avg_compound": 0.126,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "aurasync-engine added to PyPI",
+            "source": "Pypi.org",
+            "publishedAt": "2026-11-11T19:30:49Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "PNC lets businesses accept USDC without keeping the crypto",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-11-11T19:30:07Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "Average New Car Price Hits New Record High (And Even The Good News Doesn't Sound So Good)",
+            "source": "Jalopnik",
+            "publishedAt": "2026-11-11T19:25:00Z",
+            "sentiment": "Positive",
+            "compound": 0.768
+          },
           {
             "title": "Is the Micron Sell-Off a Buying Opportunity or a Falling Knife?",
             "source": "Biztoc.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-11T18:59:35Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Rising costs hurt South Australia's regional high streets",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-11-11T18:58:04Z",
-            "sentiment": "Negative",
-            "compound": -0.527
-          },
-          {
-            "title": "US extends gains, Nasdaq surges 3%",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-11T18:52:46Z",
-            "sentiment": "Positive",
-            "compound": 0.44
-          },
-          {
-            "title": "Are AI Bulls Back? Looks Like It Thanks To Anthropic, CoreWeave, Nvidia",
-            "source": "Investor's Business Daily",
-            "publishedAt": "2026-11-11T18:42:09Z",
-            "sentiment": "Positive",
-            "compound": 0.66
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.21,
-  "trade_probability": 53.73,
+  "confirmation_score": 56.48,
+  "trade_probability": 53.89,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
