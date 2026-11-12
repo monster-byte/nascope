@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T03:31:07.076478+00:00",
+  "generated_at": "2026-11-12T03:45:58.513683+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 37.66,
+      "score": 38.06,
       "status": "red",
       "details": {
-        "current_dxy": 103.08,
-        "change_5d_pct": 1.543
+        "current_dxy": 103.03,
+        "change_5d_pct": 1.492
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 58.5,
+      "score": 58.99,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.17,
+        "avg_compound": 0.18,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Traders Who Rushed to Safety of Bonds Get Rattled in Reversal - Bloomberg.com",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-11-11T03:32:56Z",
+            "sentiment": "Positive",
+            "compound": 0.421
+          },
           {
             "title": "Hidden pain! Why did investors lose money in 750 smallcaps when Nifty rallied 2500 points?",
             "source": "The Times of India",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-11T03:17:52Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "India's wealthy pivot to real estate as stock market returns cool off",
-            "source": "Business Standard",
-            "publishedAt": "2026-11-11T03:08:52Z",
-            "sentiment": "Positive",
-            "compound": 0.586
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.66,
-  "trade_probability": 46.8,
+  "confirmation_score": 44.74,
+  "trade_probability": 46.84,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
