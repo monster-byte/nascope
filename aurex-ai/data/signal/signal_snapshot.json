@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T21:01:22.474240+00:00",
+  "generated_at": "2026-11-12T21:15:51.303613+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -47,11 +47,11 @@
     },
     "vxn": {
       "factor": "vxn",
-      "score": 40.0,
-      "status": "yellow",
+      "score": 35.0,
+      "status": "red",
       "details": {
-        "current_vxn": 28.46,
-        "percentile_vs_20d": 60.0
+        "current_vxn": 28.58,
+        "percentile_vs_20d": 65.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 37.21,
+      "score": 37.19,
       "status": "red",
       "details": {
-        "current_dxy": 103.17,
-        "change_5d_pct": 1.598
+        "current_dxy": 103.18,
+        "change_5d_pct": 1.601
       }
     },
     "macro": {
@@ -85,56 +85,10 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.71,
+      "score": 50.0,
       "status": "yellow",
       "details": {
-        "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.086,
-        "articles_analyzed": 25,
-        "top_headlines": [
-          {
-            "title": "Inflation remained elevated in October, CPI report shows, upping odds of Fed interest rate hike",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-11T20:56:44Z",
-            "sentiment": "Positive",
-            "compound": 0.459
-          },
-          {
-            "title": "4 Industrial Tech Stocks Riding the AI Boom and Paying Dividends Along the Way",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-11T20:54:35Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Nasdaq 100 Advances 3% as Easing AI Anxiety Draws Dip Buyers In - Bloomberg.com",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-11-11T20:52:55Z",
-            "sentiment": "Neutral",
-            "compound": 0.077
-          },
-          {
-            "title": "Public pay deal will be reviewed if economy deteriorates, Government and unions insist",
-            "source": "The Irish Times",
-            "publishedAt": "2026-11-11T20:48:54Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
-          },
-          {
-            "title": "Oil production nears pre-Iran war levels, OPEC says",
-            "source": "Al Jazeera English",
-            "publishedAt": "2026-11-11T20:45:30Z",
-            "sentiment": "Negative",
-            "compound": -0.599
-          },
-          {
-            "title": "SNAP proposal would increase food insecurity, critics say",
-            "source": "CBS News",
-            "publishedAt": "2026-11-11T20:42:16Z",
-            "sentiment": "Negative",
-            "compound": -0.402
-          }
-        ]
+        "error": "news_fetch_failed: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?q=Nasdaq+OR+%22Federal+Reserve%22+OR+%22stock+market%22+OR+inflation&language=en&sortBy=publishedAt&pageSize=25&apiKey=280ea038bd7e4ccb91d87f9d115484d4"
       }
     },
     "patent_momentum": {
@@ -146,8 +100,8 @@
       }
     }
   },
-  "confirmation_score": 48.37,
-  "trade_probability": 49.02,
+  "confirmation_score": 48.31,
+  "trade_probability": 48.99,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
