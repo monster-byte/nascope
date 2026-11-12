@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T13:31:10.381991+00:00",
+  "generated_at": "2026-11-12T13:45:52.371495+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -29,7 +29,7 @@
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.4264,
+          "change_pct": -0.4152,
           "up": false
         }
       }
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 33.0,
+      "score": 15.1,
       "status": "red",
       "details": {
-        "current_yield_pct": 4.998,
-        "change_5d_pct": 2.125
+        "current_yield_pct": 5.048,
+        "change_5d_pct": 4.362
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 39.03,
+      "score": 39.2,
       "status": "red",
       "details": {
-        "current_dxy": 102.94,
-        "change_5d_pct": 1.371
+        "current_dxy": 102.92,
+        "change_5d_pct": 1.35
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.8,
+      "score": 45.59,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.084,
+        "avg_compound": -0.088,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Moody's retains India's FY27 growth forecast at 7% on resilient demand",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-11T13:41:16Z",
+            "sentiment": "Positive",
+            "compound": 0.273
+          },
+          {
+            "title": "Bitcoin holds $73,000 as odds of a December 50 bps rate hike jump",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-11-11T13:40:04Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Bitcoin price today: Why is BTC down to lowest in 2 months? Ethereum price crashes too",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-11T13:32:58Z",
+            "sentiment": "Negative",
+            "compound": -0.382
+          },
           {
             "title": "Fed's Goolsbee calls inflation report 'borderline disturbing' as central bank weighs more hikes",
             "source": "Biztoc.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-11T13:29:25Z",
             "sentiment": "Positive",
             "compound": 0.402
-          },
-          {
-            "title": "The Only Thing Driving Truth Social’s Revenue Will Make You Close Your Eyes and Wish for Better Days",
-            "source": "Futurism",
-            "publishedAt": "2026-11-11T13:28:06Z",
-            "sentiment": "Positive",
-            "compound": 0.784
-          },
-          {
-            "title": "Rupee closes at seven-month high of 93.69 as FPI inflows, lower crude prices boost sentiment",
-            "source": "BusinessLine",
-            "publishedAt": "2026-11-11T13:26:13Z",
-            "sentiment": "Negative",
-            "compound": -0.494
-          },
-          {
-            "title": "4,200-Kilometer 1999 Ferrari 360 Modena",
-            "source": "Bringatrailer.com",
-            "publishedAt": "2026-11-11T13:25:15Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 43.64,
-  "trade_probability": 46.18,
+  "confirmation_score": 41.22,
+  "trade_probability": 44.73,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
