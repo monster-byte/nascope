@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T14:15:54.625408+00:00",
+  "generated_at": "2026-11-13T14:31:10.791474+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
-      "status": "red",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.0255,
-          "up": false
-        },
-        "MSFT": {
-          "change_pct": 0.3878,
+          "change_pct": 0.9792,
           "up": true
         },
+        "MSFT": {
+          "change_pct": -0.8937,
+          "up": false
+        },
         "NVDA": {
-          "change_pct": -1.0696,
+          "change_pct": -0.488,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.3047,
-          "up": false
+          "change_pct": 0.0301,
+          "up": true
         }
       }
     },
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 28289.19,
-        "sma50": 29536.72,
-        "sma200": 28029.04
+        "last_price": 28237.3,
+        "sma50": 29511.82,
+        "sma200": 28040.81
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 2.91,
+      "score": 2.25,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.145,
-        "change_5d_pct": 5.886
+        "current_yield_pct": 5.149,
+        "change_5d_pct": 5.968
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.92,
+      "score": 42.61,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.21,
-        "change_5d_pct": 0.885
+        "current_dxy": 103.25,
+        "change_5d_pct": 0.924
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.92,
+      "score": 47.53,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.062,
+        "avg_compound": -0.049,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "PDD Holdings to Report Third Quarter 2026 Unaudited Financial Results on November 19, 2026",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-12T14:15:38Z",
+            "title": "NVIDIA announce Jensen Huang has resigned as CEO following scandal",
+            "source": "Gamingonlinux.com",
+            "publishedAt": "2026-11-12T14:30:20Z",
+            "sentiment": "Negative",
+            "compound": -0.599
+          },
+          {
+            "title": "Retail inflation crosses 6% in October, one more rate hike imminent",
+            "source": "BusinessLine",
+            "publishedAt": "2026-11-12T14:30:19Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Nvidia CEO Jensen Huang resigns as new affair allegations emerge",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-11-12T14:14:06Z",
-            "sentiment": "Negative",
-            "compound": -0.318
+            "title": "The Nvidia Affairs",
+            "source": "Reason",
+            "publishedAt": "2026-11-12T14:30:06Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Nvidia CEO Jensen Huang resigns as CEO in the wake of multiple affairs, Chinese spy allegations",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-11-12T14:13:48Z",
-            "sentiment": "Negative",
-            "compound": -0.318
+            "title": "Nvidia's CEO was the rock star of AI before his dramatic unravelling",
+            "source": "BBC News",
+            "publishedAt": "2026-11-12T14:18:33Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "“Diva Down:” Nvidia CEO Jensen Huang Resigns",
-            "source": "Futurism",
-            "publishedAt": "2026-11-12T14:12:37Z",
-            "sentiment": "Negative",
-            "compound": -0.318
+            "title": "Apple assembler Foxconn bullish on outlook",
+            "source": "Macdailynews.com",
+            "publishedAt": "2026-11-12T14:18:29Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Fed's Hammack: Demand pressures aid high inflation",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-12T14:11:47Z",
-            "sentiment": "Negative",
-            "compound": -0.421
-          },
-          {
-            "title": "Jensen Huang, an architect of the AI boom, resigns as Nvidia CEO",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-12T14:11:28Z",
-            "sentiment": "Negative",
-            "compound": -0.318
+            "title": "Bit Digital swings to $28.5 million Q3 profit as revenue falls 11%",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-12T14:16:40Z",
+            "sentiment": "Positive",
+            "compound": 0.44
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 34.18,
-  "trade_probability": 40.51,
+  "confirmation_score": 40.87,
+  "trade_probability": 44.52,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
