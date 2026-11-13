@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T04:31:37.906489+00:00",
+  "generated_at": "2026-11-13T04:45:55.088634+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 37.11,
+      "score": 37.25,
       "status": "red",
       "details": {
-        "current_dxy": 103.19,
-        "change_5d_pct": 1.611
+        "current_dxy": 103.17,
+        "change_5d_pct": 1.594
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.14,
+      "score": 53.74,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.043,
+        "avg_compound": 0.075,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Nvidia Corporation stock falls 13% in five days amid Jensen Huang controversy: Which equity mutual funds are exposed?",
+            "source": "Livemint",
+            "publishedAt": "2026-11-12T04:40:56Z",
+            "sentiment": "Neutral",
+            "compound": -0.077
+          },
+          {
+            "title": "Bajaj Finance share price rallies 3%, nears 52-week high on QIP launch",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-12T04:36:19Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "Why is Nvidia so powerful in the AI world, and what could Jensen Huang's scandal really cost?",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-12T04:31:43Z",
+            "sentiment": "Neutral",
+            "compound": 0.182
+          },
           {
             "title": "7 ASX 200 shares in the buy zone as optimism returns to the market: experts",
             "source": "Motley Fool Australia",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-12T04:25:56Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Kalyan Jewellers shares jump 15% in 2 days as target prices go up to Rs 900. Should you buy?",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-12T04:24:00Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "ANZ boss warns global markets in 'dangerous situation' as interest rates rise",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-11-12T04:09:34Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
-          },
-          {
-            "title": "India bonds to stay hemmed in by oil, Treasury moves ahead of inflation data",
-            "source": "BusinessLine",
-            "publishedAt": "2026-11-12T04:02:06Z",
-            "sentiment": "Positive",
-            "compound": 0.202
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 48.04,
-  "trade_probability": 48.82,
+  "confirmation_score": 48.2,
+  "trade_probability": 48.92,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
