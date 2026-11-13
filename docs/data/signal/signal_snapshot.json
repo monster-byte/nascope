@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T15:24:12.966168+00:00",
+  "generated_at": "2026-11-13T15:31:14.722194+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.6481,
+          "change_pct": 0.7007,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.4339,
+          "change_pct": -0.1475,
           "up": false
         },
         "NVDA": {
-          "change_pct": -4.7194,
+          "change_pct": -4.523,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.8677,
+          "change_pct": -0.9203,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27704.17,
-        "sma50": 29501.15,
-        "sma200": 28038.14
+        "last_price": 27732.72,
+        "sma50": 29501.72,
+        "sma200": 28038.29
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 29.73,
+        "current_vxn": 30.39,
         "percentile_vs_20d": 80.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 1.92,
+      "score": 4.89,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.151,
-        "change_5d_pct": 6.009
+        "current_yield_pct": 5.133,
+        "change_5d_pct": 5.639
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.06,
+      "score": 42.94,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.19,
-        "change_5d_pct": 0.867
+        "current_dxy": 103.2,
+        "change_5d_pct": 0.883
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.53,
+      "score": 45.65,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.049,
+        "avg_compound": -0.087,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Jensen Huang Just Resigned From Nvidia. If You Have $5,000, These Are the 3 Tech Stocks to Buy",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-12T15:27:12Z",
+            "sentiment": "Negative",
+            "compound": -0.25
+          },
+          {
+            "title": "SBI economists halve December RBI rate hike forecast to 25 bps on easing rupee pressure, foreign inflows",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-12T15:24:13Z",
+            "sentiment": "Neutral",
+            "compound": -0.052
+          },
+          {
+            "title": "The Downfall of Jensen Huang and What’s Next for Nvidia",
+            "source": "New York Magazine",
+            "publishedAt": "2026-11-12T15:24:07Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Stocks drop as Jensen Huang's resignation drags Nvidia and rattles AI bulls",
             "source": "Business Insider",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-12T15:20:33Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Fed’s Barr says AI’s economic payoff hinges on competition versus concentration",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-12T15:14:47Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Investors brace for tighter US monetary policy amid inflation concerns",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-12T15:14:11Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "The Digital-Currency Divide",
-            "source": "Project Syndicate",
-            "publishedAt": "2026-11-12T15:13:42Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 33.21,
-  "trade_probability": 39.93,
+  "confirmation_score": 33.43,
+  "trade_probability": 40.06,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
