@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T17:46:06.680897+00:00",
+  "generated_at": "2026-11-13T18:01:23.358219+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.7373,
+          "change_pct": 0.7176,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.3678,
+          "change_pct": 0.3889,
           "up": true
         },
         "NVDA": {
-          "change_pct": -4.3683,
+          "change_pct": -4.151,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.0432,
+          "change_pct": -1.0332,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27821.92,
-        "sma50": 29503.51,
-        "sma200": 28038.73
+        "last_price": 27815.51,
+        "sma50": 29503.38,
+        "sma200": 28038.7
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 29.96,
+        "current_vxn": 29.91,
         "percentile_vs_20d": 80.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 4.23,
+      "score": 5.55,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.137,
-        "change_5d_pct": 5.721
+        "current_yield_pct": 5.129,
+        "change_5d_pct": 5.557
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.47,
+      "score": 41.44,
       "status": "yellow",
       "details": {
         "current_dxy": 103.39,
-        "change_5d_pct": 1.066
+        "change_5d_pct": 1.069
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.02,
+      "score": 46.72,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.06,
+        "avg_compound": -0.066,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Risky Future Summit to Explore Emerging Threats, Technology and Risk Management Strategies for Insurance Industry",
-            "source": "Insurance Journal",
-            "publishedAt": "2026-11-12T17:45:37Z",
-            "sentiment": "Negative",
-            "compound": -0.691
+            "title": "In a policy switch, the Fed says its October 2027 meeting will not see a vote on interest rates",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-12T18:00:15Z",
+            "sentiment": "Positive",
+            "compound": 0.459
           },
           {
-            "title": "Zcash loses $1,000 as dormant wallets send ZEC coins to exchanges",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-11-12T17:45:18Z",
+            "title": "The government is in trouble — does Albanese have the skills to fix it?",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-11-12T18:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
+          {
+            "title": "Sticker Shocked",
+            "source": "Dailyreckoning.com",
+            "publishedAt": "2026-11-12T18:00:00Z",
             "sentiment": "Negative",
             "compound": -0.318
           },
           {
-            "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
-            "source": "Federalreserve.gov",
-            "publishedAt": "2026-11-12T17:45:00Z",
+            "title": "Hotel prices surge for Garth Brooks concerts as gigs selling fast on Thursday",
+            "source": "The Irish Times",
+            "publishedAt": "2026-11-12T17:56:32Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Home sales hit 16-year low in October amid record-high mortgage rates",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-12T17:44:53Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "The €323m bill: How the fuel protests helped public sector unions secure a bigger pay deal",
-            "source": "TheJournal.ie",
-            "publishedAt": "2026-11-12T17:40:12Z",
-            "sentiment": "Neutral",
-            "compound": 0.026
-          },
-          {
-            "title": "World leaders set out clashing priorities as COP31 turns to negotiations",
-            "source": "CNA",
-            "publishedAt": "2026-11-12T17:36:13Z",
+            "title": "Retail investors buy $111M in Nvidia shares in 30 minutes amid stock pressure",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-12T17:54:07Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "Alex Karp Wants to Be Friends With Democrats Again",
+            "source": "Mother Jones",
+            "publishedAt": "2026-11-12T17:49:21Z",
+            "sentiment": "Positive",
+            "compound": 0.477
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.09,
-  "trade_probability": 44.05,
+  "confirmation_score": 40.23,
+  "trade_probability": 44.14,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
