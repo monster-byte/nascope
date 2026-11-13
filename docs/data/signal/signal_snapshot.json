@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T16:31:26.087179+00:00",
+  "generated_at": "2026-11-13T16:45:57.692644+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.8667,
+          "change_pct": 0.6824,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.2902,
+          "change_pct": 0.158,
           "up": true
         },
         "NVDA": {
-          "change_pct": -4.6183,
+          "change_pct": -5.0021,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.3954,
+          "change_pct": -1.5948,
           "up": false
         }
       }
@@ -40,18 +40,18 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27752.22,
-        "sma50": 29502.11,
-        "sma200": 28038.38
+        "last_price": 27691.32,
+        "sma50": 29500.9,
+        "sma200": 28038.08
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 15.0,
+      "score": 25.0,
       "status": "red",
       "details": {
-        "current_vxn": 30.88,
-        "percentile_vs_20d": 85.0
+        "current_vxn": 30.52,
+        "percentile_vs_20d": 75.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.87,
+      "score": 41.9,
       "status": "yellow",
       "details": {
         "current_dxy": 103.34,
-        "change_5d_pct": 1.017
+        "change_5d_pct": 1.013
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.52,
+      "score": 44.76,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.07,
+        "avg_compound": -0.105,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Who owns Nvidia? Jensen Huang built the AI giant but holds just 3.58%: Who are the powerful investors with bigger stakes in the chipmaker?",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-12T16:30:43Z",
-            "sentiment": "Positive",
-            "compound": 0.62
-          },
-          {
-            "title": "Trump Again Freely Admits the U.S. Has Zero Plan of How to End the Iran War",
-            "source": "Jezebel",
-            "publishedAt": "2026-11-12T16:27:52Z",
+            "title": "Felix Nikolas Prehn: US money stock after the pandemic surge",
+            "source": "Digital Journal",
+            "publishedAt": "2026-11-12T16:43:14Z",
             "sentiment": "Neutral",
-            "compound": 0.052
+            "compound": 0.0
           },
           {
-            "title": "Wall Street edges up, Nvidia drops after CEO resigns",
-            "source": "CNA",
-            "publishedAt": "2026-11-12T16:26:37Z",
+            "title": "Global AI stocks sink, Nvidia CEO's exit deepens concerns",
+            "source": "RTE",
+            "publishedAt": "2026-11-12T16:37:16Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Anthropic pre-IPO contract closes 33% above range at $103.93",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-12T16:37:13Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Jensen Huang Resigns as Nvidia CEO",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-11-12T16:37:11Z",
             "sentiment": "Negative",
             "compound": -0.318
           },
           {
-            "title": "Fundamentals first: Here is how HSBC expects global markets to perform in 2027",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-12T16:17:13Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "IMF backs Fed’s inflation control measures, supports price stability focus",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-12T16:34:14Z",
+            "sentiment": "Positive",
+            "compound": 0.318
           },
           {
-            "title": "Mentari Therapeutics (MTRI) Stock Looks Hard To Pin Down Despite Its 100% 5 Year Fall",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-12T16:16:51Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
-          },
-          {
-            "title": "How weight-loss drugs are reshaping wardrobe spending",
-            "source": "Fashionunited.nz",
-            "publishedAt": "2026-11-12T16:15:20Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "IMF urges Fed to maintain restrictive policy to combat inflation",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-12T16:34:11Z",
+            "sentiment": "Negative",
+            "compound": -0.34
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 39.8,
-  "trade_probability": 43.88,
+  "confirmation_score": 40.55,
+  "trade_probability": 44.33,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
