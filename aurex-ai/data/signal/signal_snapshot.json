@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T15:31:14.722194+00:00",
+  "generated_at": "2026-11-13T15:45:56.956921+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
-      "status": "red",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.7007,
+          "change_pct": 0.8893,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.1475,
-          "up": false
+          "change_pct": 0.2816,
+          "up": true
         },
         "NVDA": {
-          "change_pct": -4.523,
+          "change_pct": -4.7045,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.9203,
+          "change_pct": -1.1457,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27732.72,
-        "sma50": 29501.72,
-        "sma200": 28038.29
+        "last_price": 27725.58,
+        "sma50": 29501.58,
+        "sma200": 28038.25
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 30.39,
+        "current_vxn": 30.6,
         "percentile_vs_20d": 80.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 4.89,
+      "score": 4.23,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.133,
-        "change_5d_pct": 5.639
+        "current_yield_pct": 5.137,
+        "change_5d_pct": 5.721
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.94,
+      "score": 42.34,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.2,
-        "change_5d_pct": 0.883
+        "current_dxy": 103.28,
+        "change_5d_pct": 0.958
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.65,
+      "score": 45.82,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.087,
+        "avg_compound": -0.084,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Jensen Huang Just Resigned From Nvidia. If You Have $5,000, These Are the 3 Tech Stocks to Buy",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-12T15:27:12Z",
+            "title": "Bitcoin’s spot-demand signal is improving. A bigger futures slump is drowning it out",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-11-12T15:45:21Z",
+            "sentiment": "Positive",
+            "compound": 0.421
+          },
+          {
+            "title": "Nvidia CEO Jensen Huang resigns after his affair raises national security concerns",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-11-12T15:44:47Z",
+            "sentiment": "Neutral",
+            "compound": 0.026
+          },
+          {
+            "title": "Fed’s Barr: AI boosting US investment, GDP, impacting prices",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-12T15:42:47Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
+          {
+            "title": "Jensen Huang Quits Nvidia After Allegations Of Multiple Affairs",
+            "source": "Jalopnik",
+            "publishedAt": "2026-11-12T15:42:02Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "FTSE 100 emerges as a hedge against AI volatility, says Polar Capital",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-12T15:41:27Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Nvidia live updates: Jensen Huang resigns, CFO Colette Kress to serve as interim CEO",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-11-12T15:40:09Z",
             "sentiment": "Negative",
-            "compound": -0.25
-          },
-          {
-            "title": "SBI economists halve December RBI rate hike forecast to 25 bps on easing rupee pressure, foreign inflows",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-12T15:24:13Z",
-            "sentiment": "Neutral",
-            "compound": -0.052
-          },
-          {
-            "title": "The Downfall of Jensen Huang and What’s Next for Nvidia",
-            "source": "New York Magazine",
-            "publishedAt": "2026-11-12T15:24:07Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Stocks drop as Jensen Huang's resignation drags Nvidia and rattles AI bulls",
-            "source": "Business Insider",
-            "publishedAt": "2026-11-12T15:23:00Z",
-            "sentiment": "Negative",
-            "compound": -0.612
-          },
-          {
-            "title": "EIA Raises 2026, 2027 Oil Price Forecasts Yet Again",
-            "source": "Rigzone",
-            "publishedAt": "2026-11-12T15:22:14Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Mike Pence and Conservatism Inc. Are Reclaiming the GOP",
-            "source": "Lewrockwell.com",
-            "publishedAt": "2026-11-12T15:20:33Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": -0.318
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 33.43,
-  "trade_probability": 40.06,
+  "confirmation_score": 40.06,
+  "trade_probability": 44.04,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
