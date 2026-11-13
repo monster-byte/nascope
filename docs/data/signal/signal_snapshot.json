@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T16:45:57.692644+00:00",
+  "generated_at": "2026-11-13T17:01:27.806405+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.6824,
+          "change_pct": 0.6388,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.158,
+          "change_pct": 0.0115,
           "up": true
         },
         "NVDA": {
-          "change_pct": -5.0021,
+          "change_pct": -4.8741,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.5948,
+          "change_pct": -1.5165,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27691.32,
-        "sma50": 29500.9,
-        "sma200": 28038.08
+        "last_price": 27722.19,
+        "sma50": 29501.51,
+        "sma200": 28038.23
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 25.0,
       "status": "red",
       "details": {
-        "current_vxn": 30.52,
+        "current_vxn": 30.53,
         "percentile_vs_20d": 75.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 5.55,
+      "score": 4.89,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.129,
-        "change_5d_pct": 5.557
+        "current_yield_pct": 5.133,
+        "change_5d_pct": 5.639
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.9,
+      "score": 41.56,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.34,
-        "change_5d_pct": 1.013
+        "current_dxy": 103.38,
+        "change_5d_pct": 1.055
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 44.76,
+      "score": 45.27,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.105,
+        "avg_compound": -0.095,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Sunil Mittal renews global ambitions, eyes overseas telecom acquisitions",
+            "source": "BusinessLine",
+            "publishedAt": "2026-11-12T16:59:21Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Nvidia Reports Earnings Tuesday Without Jensen Huang for the First Time. It Promised $108 Billion, and the Stock Fell After 3 of Its Last 4 Reports",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-12T16:59:05Z",
+            "sentiment": "Positive",
+            "compound": 0.361
+          },
+          {
+            "title": "Week 10 NFL Fantasy Football Start 'Em, Sit 'Em: Stefon Diggs vs. Jameson Williams",
+            "source": "Sports Illustrated",
+            "publishedAt": "2026-11-12T16:48:51Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "My Forever Portfolio: 5 Dividend-Paying Value Stocks That Are Too Cheap to Ignore",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-12T16:47:55Z",
+            "sentiment": "Neutral",
+            "compound": -0.026
+          },
           {
             "title": "Felix Nikolas Prehn: US money stock after the pandemic surge",
             "source": "Digital Journal",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-12T16:37:16Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Anthropic pre-IPO contract closes 33% above range at $103.93",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-12T16:37:13Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Jensen Huang Resigns as Nvidia CEO",
-            "source": "Freerepublic.com",
-            "publishedAt": "2026-11-12T16:37:11Z",
-            "sentiment": "Negative",
-            "compound": -0.318
-          },
-          {
-            "title": "IMF backs Fed’s inflation control measures, supports price stability focus",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-12T16:34:14Z",
-            "sentiment": "Positive",
-            "compound": 0.318
-          },
-          {
-            "title": "IMF urges Fed to maintain restrictive policy to combat inflation",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-12T16:34:11Z",
-            "sentiment": "Negative",
-            "compound": -0.34
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.55,
-  "trade_probability": 44.33,
+  "confirmation_score": 40.47,
+  "trade_probability": 44.28,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
