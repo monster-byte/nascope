@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T11:15:59.787537+00:00",
+  "generated_at": "2026-11-13T11:31:12.704995+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.48,
+      "score": 42.68,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.26,
-        "change_5d_pct": 0.939
+        "current_dxy": 103.24,
+        "change_5d_pct": 0.915
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 40.33,
-      "status": "yellow",
+      "score": 39.6,
+      "status": "red",
       "details": {
-        "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.193,
+        "overall_sentiment": "BEARISH",
+        "avg_compound": -0.208,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Deploy divers, mark danger zones near Chhath ghats, Ramgarh SDO tells officials",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-12T11:24:42Z",
+            "sentiment": "Negative",
+            "compound": -0.527
+          },
+          {
+            "title": "Bitcoin ETFs Bleed $1.4B in Five Days as Investors Cut Risk",
+            "source": "Decrypt",
+            "publishedAt": "2026-11-12T11:24:19Z",
+            "sentiment": "Negative",
+            "compound": -0.494
+          },
           {
             "title": "India’s retail inflation rises to 6.09% in October, breaches RBI’s upper tolerance limit",
             "source": "BusinessLine",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-12T11:07:44Z",
             "sentiment": "Negative",
             "compound": -0.67
-          },
-          {
-            "title": "Nerves around Nvidia as investors await the outcome of Board's crisis CEO meeting",
-            "source": "CNBC",
-            "publishedAt": "2026-11-12T11:06:41Z",
-            "sentiment": "Negative",
-            "compound": -0.625
-          },
-          {
-            "title": "Bitcoin retreats as Nvidia turmoil weighs on risk appetite",
-            "source": "BusinessLine",
-            "publishedAt": "2026-11-12T11:05:55Z",
-            "sentiment": "Negative",
-            "compound": -0.557
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 33.96,
-  "trade_probability": 40.38,
+  "confirmation_score": 33.92,
+  "trade_probability": 40.35,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
