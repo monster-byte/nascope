@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T18:01:23.358219+00:00",
+  "generated_at": "2026-11-13T18:15:53.437834+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.7176,
+          "change_pct": 0.757,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.3889,
+          "change_pct": 0.5651,
           "up": true
         },
         "NVDA": {
-          "change_pct": -4.151,
+          "change_pct": -4.1731,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.0332,
+          "change_pct": -1.0507,
           "up": false
         }
       }
@@ -40,7 +40,7 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27815.51,
+        "last_price": 27815.56,
         "sma50": 29503.38,
         "sma200": 28038.7
       }
@@ -50,26 +50,26 @@
       "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 29.91,
+        "current_vxn": 29.9,
         "percentile_vs_20d": 80.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 5.55,
+      "score": 3.57,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.129,
-        "change_5d_pct": 5.557
+        "current_yield_pct": 5.141,
+        "change_5d_pct": 5.804
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.44,
+      "score": 41.41,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.39,
-        "change_5d_pct": 1.069
+        "current_dxy": 103.4,
+        "change_5d_pct": 1.074
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.72,
+      "score": 51.35,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.066,
+        "avg_compound": 0.027,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "In a policy switch, the Fed says its October 2027 meeting will not see a vote on interest rates",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-12T18:15:27Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "On Poets And Reputations",
+            "source": "Hudsonreview.com",
+            "publishedAt": "2026-11-12T18:15:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Global shares trade slightly higher despite market-moving Nvidia resignation",
+            "source": "The Irish Times",
+            "publishedAt": "2026-11-12T18:08:46Z",
+            "sentiment": "Positive",
+            "compound": 0.474
+          },
+          {
+            "title": "World leaders clash over climate change talks at COP31",
+            "source": "RTE",
+            "publishedAt": "2026-11-12T18:02:29Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "In a policy switch, the Fed says its October 2027 meeting will not see a vote on interest rates",
+            "source": "CNBC",
+            "publishedAt": "2026-11-12T18:02:27Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
           {
             "title": "In a policy switch, the Fed says its October 2027 meeting will not see a vote on interest rates",
             "source": "Biztoc.com",
             "publishedAt": "2026-11-12T18:00:15Z",
             "sentiment": "Positive",
             "compound": 0.459
-          },
-          {
-            "title": "The government is in trouble — does Albanese have the skills to fix it?",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-11-12T18:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.402
-          },
-          {
-            "title": "Sticker Shocked",
-            "source": "Dailyreckoning.com",
-            "publishedAt": "2026-11-12T18:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.318
-          },
-          {
-            "title": "Hotel prices surge for Garth Brooks concerts as gigs selling fast on Thursday",
-            "source": "The Irish Times",
-            "publishedAt": "2026-11-12T17:56:32Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Retail investors buy $111M in Nvidia shares in 30 minutes amid stock pressure",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-12T17:54:07Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Alex Karp Wants to Be Friends With Democrats Again",
-            "source": "Mother Jones",
-            "publishedAt": "2026-11-12T17:49:21Z",
-            "sentiment": "Positive",
-            "compound": 0.477
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.23,
-  "trade_probability": 44.14,
+  "confirmation_score": 40.38,
+  "trade_probability": 44.23,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
