@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T04:01:19.540203+00:00",
+  "generated_at": "2026-11-13T04:15:56.107548+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 37.38,
+      "score": 37.44,
       "status": "red",
       "details": {
-        "current_dxy": 103.15,
-        "change_5d_pct": 1.578
+        "current_dxy": 103.14,
+        "change_5d_pct": 1.57
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.78,
+      "score": 50.12,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.016,
+        "avg_compound": 0.002,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "ANZ boss warns global markets in 'dangerous situation' as interest rates rise",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-11-12T04:09:34Z",
+            "sentiment": "Neutral",
+            "compound": -0.128
+          },
+          {
+            "title": "India bonds to stay hemmed in by oil, Treasury moves ahead of inflation data",
+            "source": "BusinessLine",
+            "publishedAt": "2026-11-12T04:02:06Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "Businesses could lose $590 million in R&D tax breaks under changes before the Senate. What’s the plan?",
+            "source": "The Conversation Africa",
+            "publishedAt": "2026-11-12T04:01:25Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
           {
             "title": "Which are the top stocks to buy on November 12, 2026?",
             "source": "The Times of India",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-12T03:48:29Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Dow, S&P 500, Nasdaq Futures Mixed As Tech Rebounds Despite Nvidia CEO Crisis: AMD, CSCO, AMAT In Focus",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-12T03:47:24Z",
-            "sentiment": "Positive",
-            "compound": 0.51
-          },
-          {
-            "title": "The world's super-rich are piling into alternative investments. Here's why",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-12T03:45:22Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "FIIs net buy ₹27,612 cr index futures in 7 days; long-short ratio nears 50%",
-            "source": "Business Standard",
-            "publishedAt": "2026-11-12T03:40:34Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 47.95,
-  "trade_probability": 48.77,
+  "confirmation_score": 47.89,
+  "trade_probability": 48.73,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
