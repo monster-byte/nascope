@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T15:01:30.694822+00:00",
+  "generated_at": "2026-11-13T15:16:11.217627+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 1.2945,
+          "change_pct": 0.757,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.0651,
+          "change_pct": -0.433,
           "up": false
         },
         "NVDA": {
-          "change_pct": -3.4637,
+          "change_pct": -4.3504,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.1176,
-          "up": true
+          "change_pct": -0.7414,
+          "up": false
         }
       }
     },
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27974.86,
-        "sma50": 29506.57,
-        "sma200": 28039.5
+        "last_price": 27778.05,
+        "sma50": 29502.63,
+        "sma200": 28038.51
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 25.0,
+      "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 28.96,
-        "percentile_vs_20d": 75.0
+        "current_vxn": 29.3,
+        "percentile_vs_20d": 80.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 0.11,
+      "score": 1.43,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.162,
-        "change_5d_pct": 6.236
+        "current_yield_pct": 5.154,
+        "change_5d_pct": 6.071
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.48,
+      "score": 43.1,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.13,
-        "change_5d_pct": 0.815
+        "current_dxy": 103.18,
+        "change_5d_pct": 0.862
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.41,
+      "score": 47.22,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.052,
+        "avg_compound": -0.056,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "SpaceX Stock Defies Tech Selloff, Rising 3% as Nvidia Plunges on Jensen Huang Resignation After Musk's Praise",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-11-12T15:01:18Z",
-            "sentiment": "Positive",
-            "compound": 0.34
-          },
-          {
-            "title": "Canadian Value Stocks To Watch In November 2026",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-12T15:00:56Z",
-            "sentiment": "Positive",
-            "compound": 0.34
-          },
-          {
-            "title": "Who Owns the World? The Concentration of Corporate and Financial Power",
-            "source": "Globalresearch.ca",
-            "publishedAt": "2026-11-12T15:00:54Z",
+            "title": "Fed’s Barr says AI’s economic payoff hinges on competition versus concentration",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-12T15:14:47Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Bain Capital’s Head of Real Estate uses this strategy to counter the economy’s ‘cocktail of disruption'",
-            "source": "CNBC",
-            "publishedAt": "2026-11-12T15:00:48Z",
-            "sentiment": "Negative",
-            "compound": -0.361
+            "title": "Investors brace for tighter US monetary policy amid inflation concerns",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-12T15:14:11Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "US stocks: US market opens lower after Nvidia CEO steps down",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-12T15:00:31Z",
-            "sentiment": "Negative",
-            "compound": -0.296
+            "title": "The Digital-Currency Divide",
+            "source": "Project Syndicate",
+            "publishedAt": "2026-11-12T15:13:42Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Nvidia stock falls after Huang resigns, weighing on broader market",
-            "source": "NBC News",
-            "publishedAt": "2026-11-12T15:00:31Z",
+            "title": "Strategy Sinks As MSCI Axes Bitcoin Whale; Is Nasdaq 100 Next?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-12T15:12:15Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Advocacy groups sue AI giants to freeze new models, warning of 'catastrophic' risks",
+            "source": "WDIV ClickOnDetroit",
+            "publishedAt": "2026-11-12T15:12:15Z",
             "sentiment": "Negative",
-            "compound": -0.318
+            "compound": -0.758
+          },
+          {
+            "title": "Trump’s “Blue Tsunami”: Israel Alliance in Crisis After Midterms, but Latin America Still Under Target",
+            "source": "Globalresearch.ca",
+            "publishedAt": "2026-11-12T15:09:29Z",
+            "sentiment": "Negative",
+            "compound": -0.372
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.19,
-  "trade_probability": 44.11,
+  "confirmation_score": 33.12,
+  "trade_probability": 39.87,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
