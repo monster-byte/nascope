@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T16:15:53.379766+00:00",
+  "generated_at": "2026-11-13T16:31:26.087179+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.6613,
+          "change_pct": 0.8667,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.1236,
+          "change_pct": 0.2902,
           "up": true
         },
         "NVDA": {
-          "change_pct": -5.4395,
+          "change_pct": -4.6183,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.1877,
+          "change_pct": -1.3954,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27657.24,
-        "sma50": 29500.21,
-        "sma200": 28037.91
+        "last_price": 27752.22,
+        "sma50": 29502.11,
+        "sma200": 28038.38
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 20.0,
+      "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 30.68,
-        "percentile_vs_20d": 80.0
+        "current_vxn": 30.88,
+        "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 4.56,
+      "score": 5.55,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.135,
-        "change_5d_pct": 5.68
+        "current_yield_pct": 5.129,
+        "change_5d_pct": 5.557
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.88,
+      "score": 41.87,
       "status": "yellow",
       "details": {
         "current_dxy": 103.34,
-        "change_5d_pct": 1.015
+        "change_5d_pct": 1.017
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.68,
+      "score": 46.52,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.086,
+        "avg_compound": -0.07,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Who owns Nvidia? Jensen Huang built the AI giant but holds just 3.58%: Who are the powerful investors with bigger stakes in the chipmaker?",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-12T16:30:43Z",
+            "sentiment": "Positive",
+            "compound": 0.62
+          },
+          {
+            "title": "Trump Again Freely Admits the U.S. Has Zero Plan of How to End the Iran War",
+            "source": "Jezebel",
+            "publishedAt": "2026-11-12T16:27:52Z",
+            "sentiment": "Neutral",
+            "compound": 0.052
+          },
+          {
+            "title": "Wall Street edges up, Nvidia drops after CEO resigns",
+            "source": "CNA",
+            "publishedAt": "2026-11-12T16:26:37Z",
+            "sentiment": "Negative",
+            "compound": -0.318
+          },
+          {
+            "title": "Fundamentals first: Here is how HSBC expects global markets to perform in 2027",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-12T16:17:13Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Mentari Therapeutics (MTRI) Stock Looks Hard To Pin Down Despite Its 100% 5 Year Fall",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-12T16:16:51Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
           {
             "title": "How weight-loss drugs are reshaping wardrobe spending",
             "source": "Fashionunited.nz",
             "publishedAt": "2026-11-12T16:15:20Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "BMO says silver’s solar boom is fading, investment demand unlikely to compensate",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-12T16:13:30Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
-          },
-          {
-            "title": "Lessons from the US midterm election",
-            "source": "The Manila Times",
-            "publishedAt": "2026-11-12T16:13:16Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "‘I Just Cannot Get Ahead’: Why Americans Are Under Extreme Financial Pressure, According to a New Report",
-            "source": "Entrepreneur",
-            "publishedAt": "2026-11-12T16:11:50Z",
-            "sentiment": "Negative",
-            "compound": -0.357
-          },
-          {
-            "title": "Home sales plunge to 16-year low as mortgage rates stay high: ‘Just a tough market’",
-            "source": "New York Post",
-            "publishedAt": "2026-11-12T16:10:38Z",
-            "sentiment": "Negative",
-            "compound": -0.382
-          },
-          {
-            "title": "October retail inflation surge may weigh on housing demand, raise rate hike concerns: Knight Frank, PHDCCI",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-12T16:09:52Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.05,
-  "trade_probability": 44.03,
+  "confirmation_score": 39.8,
+  "trade_probability": 43.88,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
