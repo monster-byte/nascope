@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T09:01:26.509969+00:00",
+  "generated_at": "2026-11-13T09:15:48.443682+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.29,
+      "score": 43.42,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.16,
-        "change_5d_pct": 0.839
+        "current_dxy": 103.14,
+        "change_5d_pct": 0.823
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.5,
+      "score": 49.95,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.03,
+        "avg_compound": -0.001,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Who could run Nvidia after Jensen Huang? - Financial Times",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-11-12T09:13:47Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "The world's super-rich are piling into alternative investments. Here's why",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-12T09:06:02Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "AST SpaceMobile sends strong signal to SpaceX investors",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-12T09:05:53Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
           {
             "title": "Anthropic IPO to test the first 'pure play' AI stock in a choppy market",
             "source": "CBC News",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-12T08:54:21Z",
             "sentiment": "Negative",
             "compound": -0.202
-          },
-          {
-            "title": "Stock Market Today: Nvidia Shares Tumble Over Leadership Crisis",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-12T08:50:40Z",
-            "sentiment": "Negative",
-            "compound": -0.44
-          },
-          {
-            "title": "2027 Budget Speech Live Text",
-            "source": "Gossiplankanews.com",
-            "publishedAt": "2026-11-12T08:50:17Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Stock Market News for Nov 12, 2026",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-12T08:36:40Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 35.04,
-  "trade_probability": 41.02,
+  "confirmation_score": 34.91,
+  "trade_probability": 40.95,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
