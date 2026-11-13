@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T18:15:53.437834+00:00",
+  "generated_at": "2026-11-13T18:31:12.856272+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.757,
+          "change_pct": 0.7092,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.5651,
+          "change_pct": 0.4684,
           "up": true
         },
         "NVDA": {
-          "change_pct": -4.1731,
+          "change_pct": -3.9159,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.0507,
+          "change_pct": -0.9799,
           "up": false
         }
       }
@@ -40,18 +40,18 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27815.56,
-        "sma50": 29503.38,
-        "sma200": 28038.7
+        "last_price": 27852.46,
+        "sma50": 29504.12,
+        "sma200": 28038.89
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 20.0,
+      "score": 25.0,
       "status": "red",
       "details": {
-        "current_vxn": 29.9,
-        "percentile_vs_20d": 80.0
+        "current_vxn": 29.93,
+        "percentile_vs_20d": 75.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.41,
+      "score": 41.84,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.4,
-        "change_5d_pct": 1.074
+        "current_dxy": 103.34,
+        "change_5d_pct": 1.021
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.35,
+      "score": 52.04,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.027,
+        "avg_compound": 0.041,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "In a policy switch, the Fed says its October 2027 meeting will not see a vote on interest rates",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-12T18:15:27Z",
+            "title": "Federal Reserve Board announces pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provide to banks and credit unions, and changes to streamline and adjust their check services",
+            "source": "Federalreserve.gov",
+            "publishedAt": "2026-11-12T18:30:00Z",
             "sentiment": "Positive",
-            "compound": 0.459
+            "compound": 0.691
           },
           {
-            "title": "On Poets And Reputations",
-            "source": "Hudsonreview.com",
-            "publishedAt": "2026-11-12T18:15:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Jensen Huang built Nvidia into a $4 trillion AI giant but owned less than 4% of it, leaving him without the super-voting power to protect his CEO role",
+            "source": "Fortune",
+            "publishedAt": "2026-11-12T18:28:04Z",
+            "sentiment": "Positive",
+            "compound": 0.527
           },
           {
-            "title": "Global shares trade slightly higher despite market-moving Nvidia resignation",
+            "title": "Home sales in the US are at their lowest level since 2016",
+            "source": "Al Jazeera English",
+            "publishedAt": "2026-11-12T18:26:28Z",
+            "sentiment": "Negative",
+            "compound": -0.382
+          },
+          {
+            "title": "Goodbody client portal down for more than two days after cybersecurity incident",
             "source": "The Irish Times",
-            "publishedAt": "2026-11-12T18:08:46Z",
-            "sentiment": "Positive",
-            "compound": 0.474
-          },
-          {
-            "title": "World leaders clash over climate change talks at COP31",
-            "source": "RTE",
-            "publishedAt": "2026-11-12T18:02:29Z",
+            "publishedAt": "2026-11-12T18:23:09Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "In a policy switch, the Fed says its October 2027 meeting will not see a vote on interest rates",
-            "source": "CNBC",
-            "publishedAt": "2026-11-12T18:02:27Z",
-            "sentiment": "Positive",
-            "compound": 0.459
+            "title": "$19,100,000,000,000: Americans Are Drowning In The Largest Ocean Of Consumer Debt In The History Of The World",
+            "source": "Theeconomiccollapseblog.com",
+            "publishedAt": "2026-11-12T18:21:41Z",
+            "sentiment": "Negative",
+            "compound": -0.361
           },
           {
-            "title": "In a policy switch, the Fed says its October 2027 meeting will not see a vote on interest rates",
+            "title": "Nine Listings Transfer to the NYSE in 2026 Amounting to $500B in Market Cap",
             "source": "Biztoc.com",
-            "publishedAt": "2026-11-12T18:00:15Z",
-            "sentiment": "Positive",
-            "compound": 0.459
+            "publishedAt": "2026-11-12T18:20:34Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.38,
-  "trade_probability": 44.23,
+  "confirmation_score": 40.93,
+  "trade_probability": 44.56,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
