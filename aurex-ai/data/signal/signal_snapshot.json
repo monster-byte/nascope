@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T19:01:21.667347+00:00",
+  "generated_at": "2026-11-13T19:15:56.056837+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.8034,
+          "change_pct": 0.8202,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.3582,
+          "change_pct": 0.523,
           "up": true
         },
         "NVDA": {
-          "change_pct": -3.3565,
+          "change_pct": -3.184,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.0283,
+          "change_pct": -0.9687,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27890.61,
-        "sma50": 29504.88,
-        "sma200": 28039.08
+        "last_price": 27934.96,
+        "sma50": 29505.77,
+        "sma200": 28039.3
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 20.0,
+      "score": 25.0,
       "status": "red",
       "details": {
-        "current_vxn": 29.66,
-        "percentile_vs_20d": 80.0
+        "current_vxn": 29.61,
+        "percentile_vs_20d": 75.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 3.9,
+      "score": 2.91,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.139,
-        "change_5d_pct": 5.762
+        "current_yield_pct": 5.145,
+        "change_5d_pct": 5.886
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.59,
+      "score": 41.47,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.38,
-        "change_5d_pct": 1.051
+        "current_dxy": 103.39,
+        "change_5d_pct": 1.066
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.98,
+      "score": 45.02,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.0,
+        "avg_compound": -0.1,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "I'm a millionaire in California who supports taxing the rich. I'm disappointed Prop. 40 was rejected — people will suffer.",
+            "source": "Business Insider",
+            "publishedAt": "2026-11-12T19:13:32Z",
+            "sentiment": "Negative",
+            "compound": -0.586
+          },
+          {
+            "title": "Sony Removes PlayStation Plus Feature 10 Years After Adding It",
+            "source": "ComicBook.com",
+            "publishedAt": "2026-11-12T19:13:12Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Fed releases meeting schedule for 2027, will not hold policy meeting next October",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-12T19:05:26Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Legence Stock Trades Lower Despite Strong Q3 Earnings, Higher 2026 Outlook",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-12T19:03:53Z",
+            "sentiment": "Negative",
+            "compound": -0.6
+          },
+          {
+            "title": "U.S. inflation is already bad enough. It might get worse",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-12T19:01:50Z",
+            "sentiment": "Negative",
+            "compound": -0.765
+          },
           {
             "title": "Record Car Prices Are Pushing American Drivers Deeper Into Debt",
             "source": "OilPrice.com",
             "publishedAt": "2026-11-12T19:00:00Z",
             "sentiment": "Negative",
             "compound": -0.361
-          },
-          {
-            "title": "SPCX overtakes CRCL in tracked tokenized stock value",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-12T18:57:09Z",
-            "sentiment": "Positive",
-            "compound": 0.34
-          },
-          {
-            "title": "Nasdaq Trading Services investigates email system issues",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-12T18:50:28Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "APEI: Its Biggest Funder, the Military, Is Reviewing Tuition Assistance. Marketing Costs Rose 16%.",
-            "source": "Effa.io",
-            "publishedAt": "2026-11-12T18:48:18Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Fed’s Daly signals potential for more rate hikes amid rising inflation pressures",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-12T18:46:49Z",
-            "sentiment": "Negative",
-            "compound": -0.318
-          },
-          {
-            "title": "Fed's Daly: AI had limited impact on labor market",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-12T18:46:37Z",
-            "sentiment": "Negative",
-            "compound": -0.226
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.32,
-  "trade_probability": 44.19,
+  "confirmation_score": 40.18,
+  "trade_probability": 44.11,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
