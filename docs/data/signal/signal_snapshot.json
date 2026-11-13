@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T05:01:28.837727+00:00",
+  "generated_at": "2026-11-13T05:15:51.970643+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 37.24,
-      "status": "red",
+      "score": 43.24,
+      "status": "yellow",
       "details": {
-        "current_dxy": 103.17,
-        "change_5d_pct": 1.595
+        "current_dxy": 103.16,
+        "change_5d_pct": 0.845
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.54,
+      "score": 48.04,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.011,
+        "avg_compound": -0.039,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Analysis:From SpaceX to Anthropic, markets have a new playbook for mega-share debuts",
+            "source": "CNA",
+            "publishedAt": "2026-11-12T05:11:41Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "GET OUT: E-Bike Battery Fires are a Crisis We Can No Longer Ignore",
+            "source": "Streetsblog.org",
+            "publishedAt": "2026-11-12T05:04:00Z",
+            "sentiment": "Negative",
+            "compound": -0.636
+          },
+          {
+            "title": "Indonesia rupiah hits record low on strong dollar",
+            "source": "The Straits Times",
+            "publishedAt": "2026-11-12T05:03:26Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "Tech Stocks Just Sent a Signal They Have Sent 27 Times Since 1999. Three Times It Was a Crash. History Says One Move Covers What Comes Next",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-12T05:01:50Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
           {
             "title": "Gold falls to over one-week low on firm dollar, Fed rate hike bets",
             "source": "BusinessLine",
@@ -100,39 +128,11 @@
             "compound": -0.273
           },
           {
-            "title": "It Was A Coup",
-            "source": "Americanthinker.com",
-            "publishedAt": "2026-11-12T05:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
             "title": "Why southern Italy’s economic “miracle” risks disappearing",
             "source": "La Repubblica",
             "publishedAt": "2026-11-12T05:00:00Z",
             "sentiment": "Negative",
             "compound": -0.273
-          },
-          {
-            "title": "Wedding budget calculator: These hidden costs could push your budget up by over 30%",
-            "source": "Economictimes.com",
-            "publishedAt": "2026-11-12T04:58:23Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Rs 80,000 crore FII buying sparks explosive rally on Dalal Street. Will RBI rate hike worries kill the party?",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-12T04:56:28Z",
-            "sentiment": "Negative",
-            "compound": -0.7
-          },
-          {
-            "title": "AI stocks rebound, and Wall Street nearly returns to where it was before last week’s sell-off - AP News",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-11-12T04:53:02Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 47.91,
-  "trade_probability": 48.75,
+  "confirmation_score": 48.23,
+  "trade_probability": 48.94,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
