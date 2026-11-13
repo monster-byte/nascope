@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T20:45:53.996097+00:00",
+  "generated_at": "2026-11-13T21:01:20.869085+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.1643,
+          "change_pct": 0.2955,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.3659,
+          "change_pct": 0.4445,
           "up": true
         },
         "NVDA": {
-          "change_pct": -3.5112,
+          "change_pct": -3.1006,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.7991,
+          "change_pct": -0.6407,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27903.67,
-        "sma50": 29505.14,
-        "sma200": 28039.14
+        "last_price": 27943.74,
+        "sma50": 29505.94,
+        "sma200": 28039.34
       }
     },
     "vxn": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.34,
+      "score": 41.17,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.41,
-        "change_5d_pct": 1.083
+        "current_dxy": 103.43,
+        "change_5d_pct": 1.104
       }
     },
     "macro": {
@@ -85,19 +85,33 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 44.7,
+      "score": 42.65,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.106,
+        "avg_compound": -0.147,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "IMF says it’s too early to call a long-term reversal in AI stocks",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-12T20:54:17Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Jensen Huang’s Nvidia exit raises fears over the future of AI financing",
             "source": "The Times of India",
             "publishedAt": "2026-11-12T20:43:15Z",
             "sentiment": "Negative",
             "compound": -0.421
+          },
+          {
+            "title": "HUGE NEW Catalysts! Silver & Tungsten: Trade War Is Coming Back!",
+            "source": "Shtfplan.com",
+            "publishedAt": "2026-11-12T20:40:00Z",
+            "sentiment": "Negative",
+            "compound": -0.351
           },
           {
             "title": "US stocks: Retail buyers limit Nvidia stock rout",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-12T20:32:00Z",
             "sentiment": "Positive",
             "compound": 0.202
-          },
-          {
-            "title": "TV's highest paid stars: Sylvester Stallone, Zendaya, Chris Pratt and more earn millions an episode as their jaw-dropping salaries are revealed",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-11-12T20:16:03Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "“Gen Z Regulates” : A New Wave of Unrest in Germany?",
-            "source": "Crimethinc.com",
-            "publishedAt": "2026-11-12T20:14:55Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 39.49,
-  "trade_probability": 43.69,
+  "confirmation_score": 39.29,
+  "trade_probability": 43.57,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
