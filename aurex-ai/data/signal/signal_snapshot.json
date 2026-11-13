@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T21:01:20.869085+00:00",
+  "generated_at": "2026-11-13T21:15:57.489643+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -47,11 +47,11 @@
     },
     "vxn": {
       "factor": "vxn",
-      "score": 20.0,
+      "score": 30.0,
       "status": "red",
       "details": {
-        "current_vxn": 29.13,
-        "percentile_vs_20d": 80.0
+        "current_vxn": 28.87,
+        "percentile_vs_20d": 70.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.17,
+      "score": 41.53,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.43,
-        "change_5d_pct": 1.104
+        "current_dxy": 103.38,
+        "change_5d_pct": 1.059
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 42.65,
+      "score": 45.38,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.147,
+        "avg_compound": -0.092,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "US stocks: US market closes lower as Nvidia slide outweighs energy rally",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-12T21:15:07Z",
+            "sentiment": "Neutral",
+            "compound": -0.026
+          },
+          {
+            "title": "Cerebras revenue jumps 55% to $211M as AI cloud demand surges",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-12T21:11:02Z",
+            "sentiment": "Neutral",
+            "compound": -0.128
+          },
+          {
+            "title": "Applied Materials posts $10.41 billion fourth quarter as revenue jumps 53%",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-12T21:08:55Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Bombshell new allegations in Nvidia CEO affairs surface as stocks dive",
+            "source": "Raw Story",
+            "publishedAt": "2026-11-12T21:07:27Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Cisco Reports First Quarter Earnings",
+            "source": "Cisco.com",
+            "publishedAt": "2026-11-12T21:05:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "IMF says it’s too early to call a long-term reversal in AI stocks",
             "source": "Crypto Briefing",
             "publishedAt": "2026-11-12T20:54:17Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Jensen Huang’s Nvidia exit raises fears over the future of AI financing",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-12T20:43:15Z",
-            "sentiment": "Negative",
-            "compound": -0.421
-          },
-          {
-            "title": "HUGE NEW Catalysts! Silver & Tungsten: Trade War Is Coming Back!",
-            "source": "Shtfplan.com",
-            "publishedAt": "2026-11-12T20:40:00Z",
-            "sentiment": "Negative",
-            "compound": -0.351
-          },
-          {
-            "title": "US stocks: Retail buyers limit Nvidia stock rout",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-12T20:36:34Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "AI industry execs brace for future without leading hype man, Nvidia’s Jensen Huang",
-            "source": "Fortune",
-            "publishedAt": "2026-11-12T20:33:21Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "The Irish Times view on Cop31: fine words are not enough",
-            "source": "The Irish Times",
-            "publishedAt": "2026-11-12T20:32:00Z",
-            "sentiment": "Positive",
-            "compound": 0.202
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 39.29,
-  "trade_probability": 43.57,
+  "confirmation_score": 40.46,
+  "trade_probability": 44.28,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
