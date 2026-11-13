@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T20:31:06.838555+00:00",
+  "generated_at": "2026-11-13T20:45:53.996097+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.3011,
+          "change_pct": 0.1643,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.5173,
+          "change_pct": 0.3659,
           "up": true
         },
         "NVDA": {
-          "change_pct": -3.5053,
+          "change_pct": -3.5112,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.9426,
+          "change_pct": -0.7991,
           "up": false
         }
       }
@@ -40,18 +40,18 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27903.41,
+        "last_price": 27903.67,
         "sma50": 29505.14,
         "sma200": 28039.14
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 25.0,
+      "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 29.2,
-        "percentile_vs_20d": 75.0
+        "current_vxn": 29.13,
+        "percentile_vs_20d": 80.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.27,
+      "score": 41.34,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.42,
-        "change_5d_pct": 1.091
+        "current_dxy": 103.41,
+        "change_5d_pct": 1.083
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 44.2,
+      "score": 44.7,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.116,
+        "avg_compound": -0.106,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Jensen Huang’s Nvidia exit raises fears over the future of AI financing",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-12T20:43:15Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
+          {
+            "title": "US stocks: Retail buyers limit Nvidia stock rout",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-12T20:36:34Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "AI industry execs brace for future without leading hype man, Nvidia’s Jensen Huang",
+            "source": "Fortune",
+            "publishedAt": "2026-11-12T20:33:21Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "The Irish Times view on Cop31: fine words are not enough",
+            "source": "The Irish Times",
+            "publishedAt": "2026-11-12T20:32:00Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
           {
             "title": "TV's highest paid stars: Sylvester Stallone, Zendaya, Chris Pratt and more earn millions an episode as their jaw-dropping salaries are revealed",
             "source": "Dailymail.com",
@@ -103,34 +131,6 @@
             "title": "“Gen Z Regulates” : A New Wave of Unrest in Germany?",
             "source": "Crimethinc.com",
             "publishedAt": "2026-11-12T20:14:55Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "US Fed sets new meeting schedule for 2027, as foretold by Chairman Kevin Warsh",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-12T20:12:45Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "What a $1,000 Investment in SpaceX Could Be Worth in 5 Years",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-12T20:06:45Z",
-            "sentiment": "Positive",
-            "compound": 0.226
-          },
-          {
-            "title": "Jensen Huang Allegedly Had Multiple Affairs. Did It Make Him More Vulnerable to Espionage?",
-            "source": "Rolling Stone",
-            "publishedAt": "2026-11-12T20:01:48Z",
-            "sentiment": "Negative",
-            "compound": -0.294
-          },
-          {
-            "title": "Jensen Huang is out and Nvidia stock is down—what market pros say about buying dips",
-            "source": "CNBC",
-            "publishedAt": "2026-11-12T20:01:29Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 39.89,
-  "trade_probability": 43.93,
+  "confirmation_score": 39.49,
+  "trade_probability": 43.69,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
