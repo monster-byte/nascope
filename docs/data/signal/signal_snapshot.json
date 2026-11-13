@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T17:15:55.787303+00:00",
+  "generated_at": "2026-11-13T17:31:11.020860+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.8119,
+          "change_pct": 0.6838,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.319,
+          "change_pct": 0.3429,
           "up": true
         },
         "NVDA": {
-          "change_pct": -4.648,
+          "change_pct": -4.0409,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.2929,
+          "change_pct": -1.1498,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27777.91,
-        "sma50": 29502.63,
-        "sma200": 28038.51
+        "last_price": 27816.82,
+        "sma50": 29503.41,
+        "sma200": 28038.71
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 25.0,
       "status": "red",
       "details": {
-        "current_vxn": 30.42,
+        "current_vxn": 29.93,
         "percentile_vs_20d": 75.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 4.23,
+      "score": 4.56,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.137,
-        "change_5d_pct": 5.721
+        "current_yield_pct": 5.135,
+        "change_5d_pct": 5.68
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.78,
+      "score": 41.73,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.35,
-        "change_5d_pct": 1.027
+        "current_dxy": 103.36,
+        "change_5d_pct": 1.034
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.38,
+      "score": 47.13,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.052,
+        "avg_compound": -0.057,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Fed's Goolsbee: We are way above inflation target",
+            "title": "Fed removes October meeting from 2027 calendar",
             "source": "Biztoc.com",
-            "publishedAt": "2026-11-12T17:14:54Z",
+            "publishedAt": "2026-11-12T17:30:03Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Stock Market Today: Futures Fall On Trump Oil Remarks; Nvidia Plunges As Jensen Huang Resigns (Live Coverage)",
+            "title": "Seniors Get a $900 Social Security Raise in 2027. Inflation Could Take $1,039",
             "source": "Biztoc.com",
-            "publishedAt": "2026-11-12T17:14:48Z",
+            "publishedAt": "2026-11-12T17:29:37Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
+          {
+            "title": "Build Clean: Accelerating Affordable Energy While Advancing Community and Environmental Stewardship",
+            "source": "CleanTechnica",
+            "publishedAt": "2026-11-12T17:28:11Z",
+            "sentiment": "Positive",
+            "compound": 0.586
+          },
+          {
+            "title": "Violent riots break out across Spain ahead of elections",
+            "source": "News.com.au",
+            "publishedAt": "2026-11-12T17:25:03Z",
             "sentiment": "Negative",
-            "compound": -0.318
+            "compound": -0.802
           },
           {
-            "title": "Fed faces tougher inflation fight as pressure builds for more rate hikes",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-12T17:14:27Z",
-            "sentiment": "Negative",
-            "compound": -0.477
-          },
-          {
-            "title": "'Spiderweb of Complexity': Top Analysts Comment on Nvidia Dumping Jensen Huang",
-            "source": "Breitbart News",
-            "publishedAt": "2026-11-12T17:11:25Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
-          },
-          {
-            "title": "From Tariffs to $4.15 Gas: How Republicans Earned Their Midterm Shellacking",
-            "source": "Reason",
-            "publishedAt": "2026-11-12T17:10:10Z",
+            "title": "IRS announces 2027 401(k) contribution limits, raises savings cap: What it means for your money",
+            "source": "CNBC",
+            "publishedAt": "2026-11-12T17:23:14Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Show HN: GraphsWithStraightLines.com – 126 trends extended to 2050",
-            "source": "Graphswithstraightlines.com",
-            "publishedAt": "2026-11-12T17:03:53Z",
+            "title": "Small-Business Lending Shifts to Fewer, Bigger Loans",
+            "source": "pymnts.com",
+            "publishedAt": "2026-11-12T17:18:15Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.6,
-  "trade_probability": 44.36,
+  "confirmation_score": 40.61,
+  "trade_probability": 44.37,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
