@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T02:01:26.412250+00:00",
+  "generated_at": "2026-11-13T02:15:57.265506+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 37.57,
+      "score": 37.47,
       "status": "red",
       "details": {
-        "current_dxy": 103.13,
-        "change_5d_pct": 1.554
+        "current_dxy": 103.14,
+        "change_5d_pct": 1.566
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.68,
+      "score": 56.84,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.074,
+        "avg_compound": 0.137,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "SpaceX Starship Flight 15 live updates: T-2 days to SpaceX's 1st-ever double Starship landing attempt - Space",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-11-12T02:13:34Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Nifty could move to 25,500-25,750; Paytm among 3 stock ideas: Ajit Mishra",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-12T02:13:01Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "Blue states elect Democrats who supported permanent cash handout policy as part of mayors coalition",
+            "source": "Fox News",
+            "publishedAt": "2026-11-12T02:06:20Z",
+            "sentiment": "Positive",
+            "compound": 0.318
+          },
           {
             "title": "クラウドストライク、Dreadnodeを買収へ。AIに対する信頼を高め、エージェンティックエンタープライズ向けのAIの自動セキュリティテストを提供",
             "source": "Prtimes.jp",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-12T01:58:26Z",
             "sentiment": "Positive",
             "compound": 0.421
-          },
-          {
-            "title": "Sensex Today | Nifty 50 | Stock Market Live Updates: GIFT Nifty signals a muted start; Asian shares trade mixed",
-            "source": "Economictimes.com",
-            "publishedAt": "2026-11-12T01:56:51Z",
-            "sentiment": "Positive",
-            "compound": 0.882
-          },
-          {
-            "title": "Wall Street gains as CoreWeave calms AI jitters",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-12T01:52:23Z",
-            "sentiment": "Positive",
-            "compound": 0.572
-          },
-          {
-            "title": "Show HN: Receipts, agent skills that make PRDs and metrics cite their evidence",
-            "source": "Github.com",
-            "publishedAt": "2026-11-12T01:51:05Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 48.22,
-  "trade_probability": 48.93,
+  "confirmation_score": 48.5,
+  "trade_probability": 49.1,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
