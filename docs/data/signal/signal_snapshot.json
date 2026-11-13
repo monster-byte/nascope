@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T19:15:56.056837+00:00",
+  "generated_at": "2026-11-13T19:31:14.634328+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.8202,
+          "change_pct": 0.7246,
           "up": true
         },
         "MSFT": {
@@ -25,11 +25,11 @@
           "up": true
         },
         "NVDA": {
-          "change_pct": -3.184,
+          "change_pct": -3.4458,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.9687,
+          "change_pct": -1.0451,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27934.96,
-        "sma50": 29505.77,
-        "sma200": 28039.3
+        "last_price": 27915.14,
+        "sma50": 29505.37,
+        "sma200": 28039.2
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 25.0,
+      "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 29.61,
-        "percentile_vs_20d": 75.0
+        "current_vxn": 29.46,
+        "percentile_vs_20d": 80.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 2.91,
+      "score": 2.25,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.145,
-        "change_5d_pct": 5.886
+        "current_yield_pct": 5.149,
+        "change_5d_pct": 5.968
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.47,
+      "score": 41.5,
       "status": "yellow",
       "details": {
         "current_dxy": 103.39,
-        "change_5d_pct": 1.066
+        "change_5d_pct": 1.063
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.02,
+      "score": 46.42,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.1,
+        "avg_compound": -0.072,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Despite one monumental scandal, Nvidia isn’t on track for a record stock market tumble. Here’s who didn’t fare so well",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-12T19:20:57Z",
+            "sentiment": "Positive",
+            "compound": 0.631
+          },
+          {
+            "title": "Berkshire Hathaway stock beats the S&P 500 by 19.2 points despite Wall Street volatility: How Warren Buffett’s company staged its biggest monthly comeback since 2010",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-12T19:20:21Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Why Is Qualcomm Stock Surging on Thursday?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-12T19:18:18Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "SoFi Launched a Dollar Stablecoin on Polygon for Its 17 Million Members. What Can You Do With It That a Bank Account Can’t?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-12T19:16:40Z",
+            "sentiment": "Neutral",
+            "compound": 0.128
+          },
           {
             "title": "I'm a millionaire in California who supports taxing the rich. I'm disappointed Prop. 40 was rejected — people will suffer.",
             "source": "Business Insider",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-12T19:13:12Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Fed releases meeting schedule for 2027, will not hold policy meeting next October",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-12T19:05:26Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Legence Stock Trades Lower Despite Strong Q3 Earnings, Higher 2026 Outlook",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-12T19:03:53Z",
-            "sentiment": "Negative",
-            "compound": -0.6
-          },
-          {
-            "title": "U.S. inflation is already bad enough. It might get worse",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-12T19:01:50Z",
-            "sentiment": "Negative",
-            "compound": -0.765
-          },
-          {
-            "title": "Record Car Prices Are Pushing American Drivers Deeper Into Debt",
-            "source": "OilPrice.com",
-            "publishedAt": "2026-11-12T19:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.361
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.18,
-  "trade_probability": 44.11,
+  "confirmation_score": 39.77,
+  "trade_probability": 43.86,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
