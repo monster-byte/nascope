@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T06:15:54.641634+00:00",
+  "generated_at": "2026-11-13T06:31:06.916460+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.06,
+      "score": 43.05,
       "status": "yellow",
       "details": {
         "current_dxy": 103.19,
-        "change_5d_pct": 0.868
+        "change_5d_pct": 0.869
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.14,
+      "score": 55.11,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.043,
+        "avg_compound": 0.102,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Anthropic IPO reportedly oversubscribed as demand may push valuation past initial estimates",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-12T06:20:09Z",
+            "sentiment": "Neutral",
+            "compound": -0.128
+          },
+          {
+            "title": "Stock Market: Will S&P 500 Open Up or Down Today? - State Street SPDR S&P 500 ETF Trust (ARCA:SPY)",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-12T06:17:56Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
+          {
+            "title": "Indian bonds drift as US debt rout saps oil relief before CPI",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-12T06:16:58Z",
+            "sentiment": "Neutral",
+            "compound": 0.153
+          },
           {
             "title": "Marsh Says Fed Should Ease Up on Banks That Insure AI Loans",
             "source": "Insurance Journal",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-12T06:06:48Z",
             "sentiment": "Neutral",
             "compound": 0.182
-          },
-          {
-            "title": "G-Sec yields nudge up a tad in trades so far",
-            "source": "BusinessLine",
-            "publishedAt": "2026-11-12T06:04:11Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Australian Companies Face ‘AI Washing’ Claims After Wave of Job Cuts, Offshoring",
-            "source": "Insurance Journal",
-            "publishedAt": "2026-11-12T06:00:54Z",
-            "sentiment": "Negative",
-            "compound": -0.296
-          },
-          {
-            "title": "Basketball phones and the surprises they may reveal, mayors up in arms over building rules, and a decisive day for Tsavdaridis",
-            "source": "Protothema.gr",
-            "publishedAt": "2026-11-12T06:00:46Z",
-            "sentiment": "Positive",
-            "compound": 0.421
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 48.58,
-  "trade_probability": 49.15,
+  "confirmation_score": 48.85,
+  "trade_probability": 49.31,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
