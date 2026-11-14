@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T06:31:08.549287+00:00",
+  "generated_at": "2026-11-14T06:45:54.665444+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.64,
+      "score": 50.23,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.007,
+        "avg_compound": 0.005,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Food inflation to remain high for next few months, RBI may raise 25 bps in Dec: ICICI Bank",
+            "source": "BusinessLine",
+            "publishedAt": "2026-11-13T06:41:14Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Sprout Social Launches AI Sentiment Analysis in NewsWhip to Measure the Real Reputational Impact of News Coverage",
             "source": "Customer Think",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-13T06:08:07Z",
             "sentiment": "Positive",
             "compound": 0.226
-          },
-          {
-            "title": "Wildfires Causing $1 Billion in Damage Have Jumped in Frequency in US",
-            "source": "Insurance Journal",
-            "publishedAt": "2026-11-13T06:00:30Z",
-            "sentiment": "Negative",
-            "compound": -0.494
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.83,
-  "trade_probability": 44.5,
+  "confirmation_score": 40.88,
+  "trade_probability": 44.53,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
