@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T08:15:52.613612+00:00",
+  "generated_at": "2026-11-14T08:31:07.486551+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.28,
+      "score": 48.39,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.006,
+        "avg_compound": -0.032,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Japan core inflation seen above BOJ target for second month in October: Reuters poll",
+            "source": "CNA",
+            "publishedAt": "2026-11-13T08:21:50Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "1 Reason to Still Avoid Wendy's Stock, Even Though It's 10% Below Its 52-Week High",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-13T08:16:37Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
           {
             "title": "Europe opens lower amid economic data",
             "source": "Biztoc.com",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-13T08:01:36Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Why Is Bitcoin Dropping? ETF Outflows Pressure BTC Below $70K",
-            "source": "Bitcoinfoundation.org",
-            "publishedAt": "2026-11-13T08:01:21Z",
-            "sentiment": "Negative",
-            "compound": -0.296
-          },
-          {
-            "title": "French inflation confirmed at 3.4% in October, up from 3.1%",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-13T08:01:11Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.89,
-  "trade_probability": 44.53,
+  "confirmation_score": 40.72,
+  "trade_probability": 44.43,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
