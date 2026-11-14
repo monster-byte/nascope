@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T23:01:23.800631+00:00",
+  "generated_at": "2026-11-14T23:15:53.621590+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.29,
+      "score": 52.38,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.086,
+        "avg_compound": 0.048,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Stock Market Today: Indexes Trim Losses, Manage To Score Weekly Gains Despite Strong Volatility - Investor's Business Daily",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-11-13T23:12:50Z",
+            "sentiment": "Negative",
+            "compound": -0.459
+          },
+          {
+            "title": "Saver’s Match Overview (Replaces the Saver’s Credit in 2027)",
+            "source": "20somethingfinance.com",
+            "publishedAt": "2026-11-13T23:07:56Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "On the Line: What’s Going on in Bangladesh?",
+            "source": "WWD",
+            "publishedAt": "2026-11-13T23:01:42Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "The Guy Benson Show Live From The Hoover Institution",
             "source": "Fox News",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-13T23:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Fed says it's monitoring the data center build-out for risks to the financial system",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-13T22:55:14Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "Stock Market Today, Nov. 13: Cerebras Surges Over 11% on Record Q3 Revenue and Raised 2026 Guidance",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-13T22:55:05Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Stock Market Today, Nov. 13: Nvidia Slides After HSBC Downgrades Stock to Hold on CEO Uncertainty",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-13T22:55:04Z",
-            "sentiment": "Negative",
-            "compound": -0.34
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.25,
-  "trade_probability": 44.75,
+  "confirmation_score": 41.08,
+  "trade_probability": 44.65,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
