@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T06:15:50.806260+00:00",
+  "generated_at": "2026-11-14T06:31:08.549287+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.56,
+      "score": 49.64,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.011,
+        "avg_compound": -0.007,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Sprout Social Launches AI Sentiment Analysis in NewsWhip to Measure the Real Reputational Impact of News Coverage",
+            "source": "Customer Think",
+            "publishedAt": "2026-11-13T06:25:27Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "From gaming chips to AI dominance: How Nvidia became a tech powerhouse",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-13T06:17:28Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
           {
             "title": "Despite NVDA Rout, Investors Have Poured In $37.5B In US Stock ETFs In 5 Days – Here’s Where The Money Went",
             "source": "Biztoc.com",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-13T06:00:30Z",
             "sentiment": "Negative",
             "compound": -0.494
-          },
-          {
-            "title": "Bitcoin slides below $70K amid thin liquidity, ETF outflows",
-            "source": "Cointelegraph",
-            "publishedAt": "2026-11-13T06:00:15Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Dutch courage: Colm Keena on people you meet while cycling in Amsterdam",
-            "source": "The Irish Times",
-            "publishedAt": "2026-11-13T06:00:01Z",
-            "sentiment": "Positive",
-            "compound": 0.494
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.91,
-  "trade_probability": 44.55,
+  "confirmation_score": 40.83,
+  "trade_probability": 44.5,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
