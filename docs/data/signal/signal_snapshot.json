@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T16:45:56.338254+00:00",
+  "generated_at": "2026-11-15T17:01:23.523983+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.05,
+      "score": 49.63,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.019,
+        "avg_compound": -0.007,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Troubles mount for Argentine President",
+            "source": "Israelnationalnews.com",
+            "publishedAt": "2026-11-14T16:52:24Z",
+            "sentiment": "Negative",
+            "compound": -0.459
+          },
           {
             "title": "ICICI Life Insurance stock: Is it a good investment now?",
             "source": "BusinessLine",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-14T16:21:05Z",
             "sentiment": "Positive",
             "compound": 0.459
-          },
-          {
-            "title": "Bitcoin’s $67,000 crash puts $57 billion holder cluster at risk as ETF investors flee",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-11-14T16:20:11Z",
-            "sentiment": "Negative",
-            "compound": -0.586
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.78,
-  "trade_probability": 44.47,
+  "confirmation_score": 40.83,
+  "trade_probability": 44.5,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
