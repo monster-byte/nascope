@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T10:15:58.608760+00:00",
+  "generated_at": "2026-11-15T10:31:12.882510+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.1,
+      "score": 47.82,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.058,
+        "avg_compound": -0.044,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "NYC is spending $70 million on 5 city-run grocery stores that will price essentials 30% below retail — and bodegas are fighting back",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-14T10:30:42Z",
+            "sentiment": "Negative",
+            "compound": -0.361
+          },
+          {
+            "title": "jquants-mcp 1.6.0",
+            "source": "Pypi.org",
+            "publishedAt": "2026-11-14T10:19:52Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Inflation is pushing consumers to trade down and hunt for value",
             "source": "Biztoc.com",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-14T10:00:01Z",
             "sentiment": "Positive",
             "compound": 0.34
-          },
-          {
-            "title": "NYC is spending $70 million on 5 city-run grocery stores that will price essentials 30% below retail — and bodegas are fighting back",
-            "source": "Fortune",
-            "publishedAt": "2026-11-14T10:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.361
-          },
-          {
-            "title": "India's consumption story remains strong, but rural demand faces inflation risks: Report",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-14T09:55:00Z",
-            "sentiment": "Negative",
-            "compound": -0.307
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.6,
-  "trade_probability": 44.36,
+  "confirmation_score": 40.67,
+  "trade_probability": 44.4,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
