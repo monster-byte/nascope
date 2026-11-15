@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T02:31:12.674494+00:00",
+  "generated_at": "2026-11-15T02:46:10.113111+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.12,
+      "score": 52.89,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.082,
+        "avg_compound": 0.058,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "12-Month Wholesale Inflation Reaches 4-Year High Despite October Slowdown",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-14T02:40:23Z",
+            "sentiment": "Neutral",
+            "compound": 0.052
+          },
           {
             "title": "Sensex, Nifty snap 3-day rally as oil, inflation worries weigh",
             "source": "The Times of India",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-14T02:22:45Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Nvidia director sold nearly $1B in stock weeks before the Jensen Huang scandal",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-11-14T02:21:36Z",
-            "sentiment": "Negative",
-            "compound": -0.44
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 41.23,
-  "trade_probability": 44.74,
+  "confirmation_score": 41.12,
+  "trade_probability": 44.67,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
