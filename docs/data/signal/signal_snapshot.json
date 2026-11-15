@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T22:31:08.972282+00:00",
+  "generated_at": "2026-11-15T22:45:49.536940+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.63,
+      "score": 54.7,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.073,
+        "avg_compound": 0.094,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "$180 million Van Gogh tests the art market and collector confidence",
+            "source": "CNBC",
+            "publishedAt": "2026-11-14T22:34:07Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
           {
             "title": "Nvidia Without Huang: What a Pause in AI Deals Means for Metals",
             "source": "OilPrice.com",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-14T20:41:28Z",
             "sentiment": "Positive",
             "compound": 0.202
-          },
-          {
-            "title": "Evernorth’s $35 million fundraising could buy 35 million XRP, but there’s a catch",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-11-14T20:40:16Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.72,
-  "trade_probability": 44.43,
+  "confirmation_score": 40.82,
+  "trade_probability": 44.49,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
