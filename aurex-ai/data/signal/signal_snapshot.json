@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T23:15:54.028257+00:00",
+  "generated_at": "2026-11-16T23:31:07.040197+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.7204,
+          "change_pct": -0.7513,
           "up": false
         },
         "MSFT": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.74,
+      "score": 46.96,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.085,
+        "avg_compound": -0.061,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "ET Poll: India growth seen at 7.7% in Q2; on track for 7.3% in FY2",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-15T23:30:00Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "Popular organic toddler snack recall could cost celebrity-backed food brand $30 million",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-15T23:23:50Z",
+            "sentiment": "Positive",
+            "compound": 0.421
+          },
+          {
+            "title": "Americans fear the worst after Pentagon doomsday prepping, ‘Black October’ cyberattacks, stock crash, spy scandal, Microsoft outage, and airport chaos",
+            "source": "Fortune",
+            "publishedAt": "2026-11-15T23:21:09Z",
+            "sentiment": "Negative",
+            "compound": -0.966
+          },
           {
             "title": "Fed’s Schmid signals potential rate hikes as inflation exceeds target",
             "source": "Crypto Briefing",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-15T22:50:59Z",
             "sentiment": "Negative",
             "compound": -0.402
-          },
-          {
-            "title": "AGNC Sold About $1 Billion of New Stock Last Quarter at $10 a Share. Is Today's Lower Price a Better Deal?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-15T22:23:13Z",
-            "sentiment": "Positive",
-            "compound": 0.44
-          },
-          {
-            "title": "SoFi Planned for 2 Rate Cuts This Year and Got a Rate Hike. It Raised Its Guidance Anyway",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-15T22:22:49Z",
-            "sentiment": "Negative",
-            "compound": -0.296
-          },
-          {
-            "title": "The Stock Market Is Sending a Rare Warning. Here's Warren Buffett's Best Bear Market Advice",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-15T22:07:16Z",
-            "sentiment": "Positive",
-            "compound": 0.421
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 25.44,
-  "trade_probability": 35.26,
+  "confirmation_score": 25.55,
+  "trade_probability": 35.33,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "REJECT",
