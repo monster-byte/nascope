@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T17:01:32.279503+00:00",
+  "generated_at": "2026-11-16T17:16:00.155313+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.5206,
+          "change_pct": -0.5065,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.6637,
+          "change_pct": 0.5878,
           "up": true
         },
         "NVDA": {
-          "change_pct": -1.2276,
+          "change_pct": -1.7746,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.5696,
+          "change_pct": -2.0354,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27447.91,
-        "sma50": 29464.02,
-        "sma200": 28048.82
+        "last_price": 27402.27,
+        "sma50": 29463.11,
+        "sma200": 28048.59
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 15.0,
+      "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 31.62,
-        "percentile_vs_20d": 85.0
+        "current_vxn": 31.63,
+        "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 3.78,
+      "score": 4.11,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.145,
-        "change_5d_pct": 5.777
+        "current_yield_pct": 5.143,
+        "change_5d_pct": 5.736
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 35.16,
+      "score": 35.01,
       "status": "red",
       "details": {
-        "current_dxy": 103.54,
-        "change_5d_pct": 1.855
+        "current_dxy": 103.56,
+        "change_5d_pct": 1.874
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.58,
+      "score": 55.95,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.132,
+        "avg_compound": 0.119,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Short covering and foreign inflows are fuelling Indian stock market rebound",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-15T17:13:32Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Stocks Have Risen a Year After Every Midterm Since 1950. Here’s What That Does and Doesn’t Tell You",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-15T17:01:44Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Rural California Utility Asks To Raise Power Rates By More Than Half As Wildfire Costs Pile Up In Newsom’s State",
             "source": "The Daily Caller",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-15T16:53:00Z",
             "sentiment": "Negative",
             "compound": -0.751
-          },
-          {
-            "title": "Kevin Warsh Wants to Know If AI Can Transform the Economy. The Answer Could Change Interest Rates",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-15T16:46:12Z",
-            "sentiment": "Positive",
-            "compound": 0.459
-          },
-          {
-            "title": "Jensen Huang's exit won't make your next GPU cheaper, but it might change how Nvidia treats gamers",
-            "source": "How-To Geek",
-            "publishedAt": "2026-11-15T16:44:52Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 33.12,
-  "trade_probability": 39.87,
+  "confirmation_score": 32.64,
+  "trade_probability": 39.58,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
