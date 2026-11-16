@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T15:31:13.760958+00:00",
+  "generated_at": "2026-11-16T15:45:56.866259+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 0.0,
+      "score": 25.0,
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.3602,
+          "change_pct": -0.1829,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.2564,
-          "up": false
+          "change_pct": 0.1738,
+          "up": true
         },
         "NVDA": {
-          "change_pct": -0.5905,
+          "change_pct": -1.0286,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.6495,
+          "change_pct": -1.2069,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27330.35,
-        "sma50": 29461.67,
-        "sma200": 28048.23
+        "last_price": 27390.02,
+        "sma50": 29462.86,
+        "sma200": 28048.53
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 32.03,
+        "current_vxn": 31.9,
         "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 9.05,
+      "score": 8.39,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.113,
-        "change_5d_pct": 5.119
+        "current_yield_pct": 5.117,
+        "change_5d_pct": 5.201
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 35.69,
+      "score": 35.19,
       "status": "red",
       "details": {
-        "current_dxy": 103.47,
-        "change_5d_pct": 1.788
+        "current_dxy": 103.53,
+        "change_5d_pct": 1.851
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.95,
+      "score": 53.67,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.039,
+        "avg_compound": 0.073,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "3 big things we're watching in the stock market in the week ahead",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-15T15:44:39Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Liquor makers push for price increases across states amid cost pressures",
+            "source": "BusinessLine",
+            "publishedAt": "2026-11-15T15:41:57Z",
+            "sentiment": "Negative",
+            "compound": -0.318
+          },
+          {
+            "title": "Noel Tata reveals his idea of Tata way of life: ‘Charity precedes commerce, charity owns commerce; not other way around’",
+            "source": "Livemint",
+            "publishedAt": "2026-11-15T15:33:20Z",
+            "sentiment": "Positive",
+            "compound": 0.421
+          },
           {
             "title": "Czech National Bank Issues Its First Blockchain Bonds, a Year After Its Bitcoin Test",
             "source": "Dcforecasts.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-15T15:26:58Z",
             "sentiment": "Positive",
             "compound": 0.318
-          },
-          {
-            "title": "attar added to PyPI",
-            "source": "Pypi.org",
-            "publishedAt": "2026-11-15T15:24:43Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Women veterans increase their ranks in Congress, including ousted admiral",
-            "source": "Freerepublic.com",
-            "publishedAt": "2026-11-15T15:16:08Z",
-            "sentiment": "Positive",
-            "compound": 0.557
-          },
-          {
-            "title": "FD returns: Your bank offers 6.35% interest, but how much do you actually earn after tax? Check returns across top banks",
-            "source": "Livemint",
-            "publishedAt": "2026-11-15T15:10:31Z",
-            "sentiment": "Positive",
-            "compound": 0.494
           }
         ]
       }
@@ -146,11 +146,11 @@
       }
     }
   },
-  "confirmation_score": 26.26,
-  "trade_probability": 35.76,
+  "confirmation_score": 33.03,
+  "trade_probability": 39.82,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
-    "ai_status": "REJECT",
-    "directional_bias": "AVOID"
+    "ai_status": "HOLD / MONITOR",
+    "directional_bias": "NEUTRAL"
   }
 }
