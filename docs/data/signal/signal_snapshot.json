@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T14:15:54.368596+00:00",
+  "generated_at": "2026-11-16T14:31:14.951720+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 100.0,
-      "status": "green",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.2856,
+          "change_pct": 0.1745,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.431,
+          "change_pct": 0.4457,
           "up": true
         },
         "NVDA": {
-          "change_pct": 1.1242,
-          "up": true
+          "change_pct": -0.9042,
+          "up": false
         },
         "AMZN": {
-          "change_pct": 0.8626,
-          "up": true
+          "change_pct": -1.1199,
+          "up": false
         }
       }
     },
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27943.74,
-        "sma50": 29505.94,
-        "sma200": 28039.34
+        "last_price": 27466.0,
+        "sma50": 29464.38,
+        "sma200": 28048.91
       }
     },
     "vxn": {
@@ -56,11 +56,11 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 4.77,
+      "score": 6.09,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.139,
-        "change_5d_pct": 5.654
+        "current_yield_pct": 5.131,
+        "change_5d_pct": 5.489
       }
     },
     "dxy": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.99,
+      "score": 48.17,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.02,
+        "avg_compound": -0.037,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "RBI's 'jinx' rate has dogged it for 10 years—What's causing it?",
+            "source": "Livemint",
+            "publishedAt": "2026-11-15T14:30:31Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Is the AI job apocalypse finally here? The evidence suggests otherwise | John Quiggin",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-15T14:28:24Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "KPSC gazetted probationers prelims held smoothly in Belagavi",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-15T14:20:30Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Gold and silver are supposed to protect against inflation. So why are both metals tumbling instead?",
             "source": "Biztoc.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-15T14:01:02Z",
             "sentiment": "Negative",
             "compound": -0.402
-          },
-          {
-            "title": "These 4 Waste and Services Stocks Collect Recurring Revenue",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-15T13:58:28Z",
-            "sentiment": "Negative",
-            "compound": -0.421
-          },
-          {
-            "title": "5th encounter since BJP came to power in West Bengal: Man accused of firing at cop killed",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-15T13:53:10Z",
-            "sentiment": "Negative",
-            "compound": -0.844
-          },
-          {
-            "title": "Stocks to buy: What's the outlook for Nifty for November 16-November 20 week? Top stock recommendations",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-15T13:45:45Z",
-            "sentiment": "Positive",
-            "compound": 0.542
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.2,
-  "trade_probability": 52.52,
+  "confirmation_score": 40.81,
+  "trade_probability": 44.49,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
