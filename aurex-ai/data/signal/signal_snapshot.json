@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T08:45:55.554401+00:00",
+  "generated_at": "2026-11-16T09:01:42.695331+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 100.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.2955,
+          "change_pct": 0.2856,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.4445,
+          "change_pct": 0.431,
           "up": true
         },
         "NVDA": {
-          "change_pct": -3.1006,
-          "up": false
+          "change_pct": 1.1242,
+          "up": true
         },
         "AMZN": {
-          "change_pct": -0.6407,
-          "up": false
+          "change_pct": 0.8626,
+          "up": true
         }
       }
     },
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 35.92,
+      "score": 36.51,
       "status": "red",
       "details": {
-        "current_dxy": 103.44,
-        "change_5d_pct": 1.76
+        "current_dxy": 103.36,
+        "change_5d_pct": 1.686
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.89,
+      "score": 50.72,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.018,
-        "articles_analyzed": 21,
+        "avg_compound": 0.014,
+        "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Canada is spending more than ever on health care. Are we getting our money's worth?",
+            "source": "CBC News",
+            "publishedAt": "2026-11-15T09:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.625
+          },
+          {
+            "title": "French protesters chant against inflation and police",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-15T08:53:54Z",
+            "sentiment": "Negative",
+            "compound": -0.226
+          },
+          {
+            "title": "WPI inflation, oil, FII trading activity may guide stock markets this week",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-15T08:52:49Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Crypto free fall: Lost 7% in 24 hours, $1.5 billion wiped out",
+            "source": "The Jerusalem Post",
+            "publishedAt": "2026-11-15T08:52:31Z",
+            "sentiment": "Positive",
+            "compound": 0.25
+          },
+          {
+            "title": "A Solana Treasury’s Own Stress Test Shows Strategy’s STRC Holding Up Best in a 50% Crash",
+            "source": "Dcforecasts.com",
+            "publishedAt": "2026-11-15T08:48:39Z",
+            "sentiment": "Neutral",
+            "compound": -0.077
+          },
           {
             "title": "Is Intel Stock Still a Buy After Its Historic Crash? CEO Bets $9.7 Million as Shares Sit Far Below Record High",
             "source": "Ibtimes.com.au",
             "publishedAt": "2026-11-15T08:44:44Z",
             "sentiment": "Neutral",
             "compound": -0.128
-          },
-          {
-            "title": "PM’S Sunday address: Heating allowance raised to €1,560, new cancer treatment, 23 trains and investment in satellite production",
-            "source": "Protothema.gr",
-            "publishedAt": "2026-11-15T08:39:01Z",
-            "sentiment": "Negative",
-            "compound": -0.66
-          },
-          {
-            "title": "Crypto Market Downturn Leaves Ether, XRP and Solana Down 22%",
-            "source": "Bitcoinfoundation.org",
-            "publishedAt": "2026-11-15T08:37:16Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "US Bitcoin Funds Shed $1.9B as BTC Drops 5% Below $64K",
-            "source": "Bitcoinfoundation.org",
-            "publishedAt": "2026-11-15T08:36:56Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Cineverse Announces Fresh Anime Classics Coming to RetroCrush as Part of its Fall Lineup",
-            "source": "Anime News Network",
-            "publishedAt": "2026-11-15T08:33:48Z",
-            "sentiment": "Positive",
-            "compound": 0.318
-          },
-          {
-            "title": "Jordi Visser Sees December Fed Decision As Bitcoin’s Next Catalyst, Questions Wall Street’s Nvidia Downgrades",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-15T08:23:12Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.46,
-  "trade_probability": 44.28,
+  "confirmation_score": 53.99,
+  "trade_probability": 52.39,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
