@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T16:15:54.025923+00:00",
+  "generated_at": "2026-11-16T16:31:16.658976+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.2842,
+          "change_pct": -0.1745,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.5638,
+          "change_pct": 0.9931,
           "up": true
         },
         "NVDA": {
-          "change_pct": -1.2369,
+          "change_pct": -0.5315,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.0971,
+          "change_pct": -0.9761,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27414.1,
-        "sma50": 29463.34,
-        "sma200": 28048.65
+        "last_price": 27518.29,
+        "sma50": 29465.43,
+        "sma200": 28049.17
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 15.0,
+      "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 31.54,
-        "percentile_vs_20d": 85.0
+        "current_vxn": 31.82,
+        "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 7.07,
+      "score": 5.76,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.125,
-        "change_5d_pct": 5.366
+        "current_yield_pct": 5.133,
+        "change_5d_pct": 5.53
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 35.25,
+      "score": 35.07,
       "status": "red",
       "details": {
-        "current_dxy": 103.52,
-        "change_5d_pct": 1.844
+        "current_dxy": 103.55,
+        "change_5d_pct": 1.866
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.05,
+      "score": 57.95,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.101,
+        "avg_compound": 0.159,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "‘SNL’ parodies Jensen Huang and other tech billionaires: ‘May I pleasure you in an industry secret?’",
+            "source": "Business Insider",
+            "publishedAt": "2026-11-15T16:30:43Z",
+            "sentiment": "Positive",
+            "compound": 0.572
+          },
+          {
+            "title": "Street signs: Youngest on the Street, IPOs warm up again, and more",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-15T16:19:21Z",
+            "sentiment": "Positive",
+            "compound": 0.226
+          },
+          {
+            "title": "Your annuity is guaranteed, but is your money safe? What MYGA buyers need to know before investing",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-15T16:15:52Z",
+            "sentiment": "Positive",
+            "compound": 0.593
+          },
           {
             "title": "History Says This Dividend Stock Can Protect Your Portfolio if a Stock Market Slump Is Coming",
             "source": "Biztoc.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-15T16:00:46Z",
             "sentiment": "Neutral",
             "compound": -0.103
-          },
-          {
-            "title": "3 Indian Consumer Staples Stocks With Pricing Power When Inflation Stays High",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-15T16:00:31Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "A Larger-Than-Normal Fed Rate Hike in December Now Looks More Likely. Here's Why",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-15T16:00:21Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "3 big things we're watching in the stock market in the week ahead",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-15T15:44:39Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 33.43,
-  "trade_probability": 40.06,
+  "confirmation_score": 33.05,
+  "trade_probability": 39.83,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
