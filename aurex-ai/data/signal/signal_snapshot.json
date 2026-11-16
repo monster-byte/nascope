@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T14:31:14.951720+00:00",
+  "generated_at": "2026-11-16T14:45:59.853504+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.1745,
-          "up": true
+          "change_pct": -0.0113,
+          "up": false
         },
         "MSFT": {
-          "change_pct": 0.4457,
+          "change_pct": 0.194,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.9042,
-          "up": false
+          "change_pct": 0.3056,
+          "up": true
         },
         "AMZN": {
-          "change_pct": -1.1199,
+          "change_pct": -0.8664,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27466.0,
-        "sma50": 29464.38,
-        "sma200": 28048.91
+        "last_price": 27568.98,
+        "sma50": 29466.44,
+        "sma200": 28049.43
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 6.09,
+      "score": 6.74,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.131,
-        "change_5d_pct": 5.489
+        "current_yield_pct": 5.127,
+        "change_5d_pct": 5.407
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 35.55,
+      "score": 35.54,
       "status": "red",
       "details": {
         "current_dxy": 103.49,
-        "change_5d_pct": 1.806
+        "change_5d_pct": 1.807
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.17,
+      "score": 47.68,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.037,
+        "avg_compound": -0.046,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "My Near-Perfect Retirement Stocks For An Inflation Decade",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-15T14:44:12Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Holding The Price Line",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-15T14:34:41Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "RBI's 'jinx' rate has dogged it for 10 years—What's causing it?",
             "source": "Livemint",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-15T14:13:03Z",
             "sentiment": "Positive",
             "compound": 0.382
-          },
-          {
-            "title": "Anthropic targets $1.4T valuation in NASDAQ IPO, eyes AI market impact",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-15T14:04:35Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Bitcoin ETFs Lose $2.1 Billion in November as Outflow Streak Hits Seven Days",
-            "source": "Decrypt",
-            "publishedAt": "2026-11-15T14:01:02Z",
-            "sentiment": "Negative",
-            "compound": -0.402
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.81,
-  "trade_probability": 44.49,
+  "confirmation_score": 40.85,
+  "trade_probability": 44.51,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
