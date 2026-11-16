@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T07:15:52.617376+00:00",
+  "generated_at": "2026-11-16T07:31:09.601801+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 35.93,
+      "score": 36.02,
       "status": "red",
       "details": {
-        "current_dxy": 103.44,
-        "change_5d_pct": 1.759
+        "current_dxy": 103.43,
+        "change_5d_pct": 1.747
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.89,
+      "score": 49.68,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.018,
+        "avg_compound": -0.006,
         "articles_analyzed": 21,
         "top_headlines": [
+          {
+            "title": "Meet Hussain Sajwani, the Dubai investor who made more money from Anthropic in 2 years than his 30 years of investments",
+            "source": "Livemint",
+            "publishedAt": "2026-11-15T07:17:42Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Bowen Yang returns to ‘SNL’ to play ex-Nvidia CEO Jensen Huang",
             "source": "NBC News",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-15T07:01:11Z",
             "sentiment": "Negative",
             "compound": -0.458
-          },
-          {
-            "title": "3 US Bank Stocks Worth Watching As Higher Interest Rates Reshape Earnings",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-15T06:52:19Z",
-            "sentiment": "Positive",
-            "compound": 0.599
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.46,
-  "trade_probability": 44.28,
+  "confirmation_score": 40.36,
+  "trade_probability": 44.22,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
