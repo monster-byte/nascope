@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T18:01:29.090161+00:00",
+  "generated_at": "2026-11-16T18:16:01.351366+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.6261,
+          "change_pct": -0.4784,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.0432,
+          "change_pct": 0.2132,
           "up": true
         },
         "NVDA": {
-          "change_pct": -3.1078,
+          "change_pct": -3.0674,
           "up": false
         },
         "AMZN": {
-          "change_pct": -2.2397,
+          "change_pct": -2.1451,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27286.41,
-        "sma50": 29460.79,
-        "sma200": 28048.01
+        "last_price": 27294.04,
+        "sma50": 29460.94,
+        "sma200": 28048.05
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 10.0,
+      "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 32.07,
-        "percentile_vs_20d": 90.0
+        "current_vxn": 32.27,
+        "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 5.43,
+      "score": 6.41,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.135,
-        "change_5d_pct": 5.572
+        "current_yield_pct": 5.129,
+        "change_5d_pct": 5.448
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 35.08,
+      "score": 34.95,
       "status": "red",
       "details": {
-        "current_dxy": 103.55,
-        "change_5d_pct": 1.865
+        "current_dxy": 103.56,
+        "change_5d_pct": 1.881
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 59.6,
+      "score": 58.7,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.192,
+        "avg_compound": 0.174,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "AI Boom Is Far From Over as Analysts Predict Stronger Recovery in 2027",
+            "source": "Newsonjapan.com",
+            "publishedAt": "2026-11-15T18:14:10Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "WPI inflation, FII flows, crude oil prices to guide markets this week",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-15T18:12:25Z",
+            "sentiment": "Negative",
+            "compound": -0.572
+          },
+          {
+            "title": "Rubicon Research And 2 Indian Growth Stocks To Own",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-15T18:03:45Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
           {
             "title": "WOLFBOX 2000A 12V 10000mAh Portable Car Jump Starter w/ 150PSI Air Compressor $41 + Free S&H",
             "source": "Slickdeals.net",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-15T17:47:22Z",
             "sentiment": "Positive",
             "compound": 0.44
-          },
-          {
-            "title": "'Love thy neighbor' is not a socialist manifesto",
-            "source": "TheBlaze",
-            "publishedAt": "2026-11-15T17:30:00Z",
-            "sentiment": "Positive",
-            "compound": 0.637
-          },
-          {
-            "title": "7 Fuel Sipping Classic Cars For Thrifty Driving Enthusiasts",
-            "source": "Jalopnik",
-            "publishedAt": "2026-11-15T17:25:00Z",
-            "sentiment": "Positive",
-            "compound": 0.34
-          },
-          {
-            "title": "Transcript: Sen. Bill Cassidy on \"Face the Nation with Margaret Brennan,\" Nov. 15, 2026",
-            "source": "CBS News",
-            "publishedAt": "2026-11-15T17:16:48Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 33.15,
-  "trade_probability": 39.89,
+  "confirmation_score": 33.64,
+  "trade_probability": 40.18,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
