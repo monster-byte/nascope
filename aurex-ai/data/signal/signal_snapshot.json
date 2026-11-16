@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T10:15:57.758749+00:00",
+  "generated_at": "2026-11-16T10:31:16.613377+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 35.31,
+      "score": 35.58,
       "status": "red",
       "details": {
-        "current_dxy": 103.52,
-        "change_5d_pct": 1.837
+        "current_dxy": 103.48,
+        "change_5d_pct": 1.802
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.38,
+      "score": 52.28,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.008,
+        "avg_compound": 0.046,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Bigg Boss 20 fame Rhiti Tiwari seeks Chhathi Maiyya's blessings with a heartfelt musical prayer",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-15T10:28:12Z",
+            "sentiment": "Positive",
+            "compound": 0.872
+          },
+          {
+            "title": "‘It feels like a game of Jenga’: Why activists are protesting Anthropic’s mega-IPO",
+            "source": "Business Insider",
+            "publishedAt": "2026-11-15T10:25:01Z",
+            "sentiment": "Neutral",
+            "compound": -0.077
+          },
+          {
+            "title": "Fresh unrest shuts garment factories in Bangladesh ahead of wage board meet",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-15T10:21:18Z",
+            "sentiment": "Positive",
+            "compound": 0.318
+          },
+          {
+            "title": "Maureen Dowd: At this perilous moment, Donald Trump and Jensen Huang are letting us down",
+            "source": "The Irish Times",
+            "publishedAt": "2026-11-15T10:20:49Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "President Donald Trump Claims, \"Tariffs Don't Cause Inflation, They Cause Wealth\" -- but Economic Data Says Otherwise",
             "source": "Biztoc.com",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-15T10:03:53Z",
             "sentiment": "Negative",
             "compound": -0.625
-          },
-          {
-            "title": "Confusion about causation",
-            "source": "Seths.blog",
-            "publishedAt": "2026-11-15T10:03:00Z",
-            "sentiment": "Negative",
-            "compound": -0.296
-          },
-          {
-            "title": "Market veteran Steve Hanke says his best investment is a Patek Philippe watch he bought at 16 — and shares his biggest regret",
-            "source": "Business Insider",
-            "publishedAt": "2026-11-15T10:00:01Z",
-            "sentiment": "Positive",
-            "compound": 0.557
-          },
-          {
-            "title": "Tinubu hasn’t kept all 2023 promises, but economy has improved — Edo commissioner",
-            "source": "The Punch",
-            "publishedAt": "2026-11-15T09:51:14Z",
-            "sentiment": "Positive",
-            "compound": 0.714
-          },
-          {
-            "title": "WPI inflation, crude oil prices and FII activity to steer stock markets this week",
-            "source": "BusinessLine",
-            "publishedAt": "2026-11-15T09:36:02Z",
-            "sentiment": "Negative",
-            "compound": -0.572
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 53.86,
-  "trade_probability": 52.32,
+  "confirmation_score": 54.05,
+  "trade_probability": 52.43,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
