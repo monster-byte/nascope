@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T00:01:28.526470+00:00",
+  "generated_at": "2026-11-16T00:15:51.702559+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 36.22,
+      "score": 36.36,
       "status": "red",
       "details": {
-        "current_dxy": 103.4,
-        "change_5d_pct": 1.723
+        "current_dxy": 103.38,
+        "change_5d_pct": 1.705
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.64,
+      "score": 51.37,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.013,
+        "avg_compound": 0.027,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Top 3 British Biotech Stocks To Watch In November 2026",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-15T00:15:36Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
           {
             "title": "Lambie suggests change to childcare subsidies to cut spending",
             "source": "ABC News (AU)",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-14T23:31:14Z",
             "sentiment": "Neutral",
             "compound": -0.052
-          },
-          {
-            "title": "Every Car Brand That's Made A V10-Powered Sedan",
-            "source": "Jalopnik",
-            "publishedAt": "2026-11-14T23:25:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.46,
-  "trade_probability": 44.28,
+  "confirmation_score": 40.54,
+  "trade_probability": 44.32,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
