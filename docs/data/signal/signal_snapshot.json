@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T04:46:03.828539+00:00",
+  "generated_at": "2026-11-16T05:01:27.719324+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 35.76,
-      "status": "red",
+      "score": 41.32,
+      "status": "yellow",
       "details": {
-        "current_dxy": 103.46,
-        "change_5d_pct": 1.78
+        "current_dxy": 103.41,
+        "change_5d_pct": 1.085
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.28,
+      "score": 49.73,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.034,
+        "avg_compound": -0.005,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "The Self-Importance of Being Earnest",
+            "source": "The American Conservative",
+            "publishedAt": "2026-11-15T05:01:00Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
+          {
+            "title": "Bowen Yang Returns To ‘Saturday Night Live’ As Jensen Huang In Cold Open That Skewers Tech Billionaires’ Susceptibility To Honey Pot Plots",
+            "source": "Deadline",
+            "publishedAt": "2026-11-15T04:51:46Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Wall Street’s wild Nvidia ride delivers big paydays and even bigger bruises",
             "source": "The Sydney Morning Herald",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-15T03:47:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Medicare Doctors Face a 2.31% Pay Cut in January as Physician Groups Warn Seniors Could Lose Access",
-            "source": "Medical Daily",
-            "publishedAt": "2026-11-15T03:46:16Z",
-            "sentiment": "Negative",
-            "compound": -0.681
-          },
-          {
-            "title": "Gold, silver prices today, 15 November: Check retail rates of 24K, 22K, 18K gold, 999 silver in Delhi, Mumbai, Bangalore",
-            "source": "Livemint",
-            "publishedAt": "2026-11-15T03:34:53Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.21,
-  "trade_probability": 44.13,
+  "confirmation_score": 40.84,
+  "trade_probability": 44.5,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
