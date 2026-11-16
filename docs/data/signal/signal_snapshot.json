@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T15:01:27.280795+00:00",
+  "generated_at": "2026-11-16T15:16:07.363802+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
+      "score": 0.0,
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.4446,
+          "change_pct": -0.3532,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.1546,
-          "up": true
+          "change_pct": -0.4265,
+          "up": false
         },
         "NVDA": {
-          "change_pct": -0.6869,
+          "change_pct": -0.634,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.1331,
+          "change_pct": -1.8235,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27391.8,
-        "sma50": 29462.9,
-        "sma200": 28048.54
+        "last_price": 27343.56,
+        "sma50": 29461.93,
+        "sma200": 28048.3
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 10.0,
+      "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 31.16,
-        "percentile_vs_20d": 90.0
+        "current_vxn": 31.75,
+        "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 5.43,
+      "score": 7.73,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.135,
-        "change_5d_pct": 5.572
+        "current_yield_pct": 5.121,
+        "change_5d_pct": 5.284
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 35.5,
+      "score": 35.41,
       "status": "red",
       "details": {
-        "current_dxy": 103.49,
-        "change_5d_pct": 1.812
+        "current_dxy": 103.5,
+        "change_5d_pct": 1.824
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.96,
+      "score": 51.93,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.019,
-        "articles_analyzed": 25,
+        "avg_compound": 0.039,
+        "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "FD returns: Your bank offers 6.35% interest, but how much do you actually earn after tax? Check returns across top banks",
+            "source": "Livemint",
+            "publishedAt": "2026-11-15T15:10:31Z",
+            "sentiment": "Positive",
+            "compound": 0.494
+          },
+          {
+            "title": "Incredibly simple tips NYC investor, 23, used to build herself a fortune from scratch and pay herself $130k a year",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-11-15T15:03:45Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
           {
             "title": "Nvidia earnings collide with Fed's biggest AI challenge under Warsh",
             "source": "Biztoc.com",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-15T14:54:25Z",
             "sentiment": "Positive",
             "compound": 0.625
-          },
-          {
-            "title": "Is Apple Stock Still a Buy at Record Highs? Shares Rise as Investors Flee AI Turmoil, but Valuation Fears Grow",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-11-15T14:53:47Z",
-            "sentiment": "Negative",
-            "compound": -0.593
-          },
-          {
-            "title": "How Much Would It Cost To Buy A Nintendo Console In 1986 Vs. 2026?",
-            "source": "BGR",
-            "publishedAt": "2026-11-15T14:47:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,11 +146,11 @@
       }
     }
   },
-  "confirmation_score": 32.41,
-  "trade_probability": 39.45,
+  "confirmation_score": 26.5,
+  "trade_probability": 35.9,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
-    "ai_status": "HOLD / MONITOR",
-    "directional_bias": "NEUTRAL"
+    "ai_status": "REJECT",
+    "directional_bias": "AVOID"
   }
 }
