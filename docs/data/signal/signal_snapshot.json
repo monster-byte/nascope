@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T16:31:16.658976+00:00",
+  "generated_at": "2026-11-16T16:45:59.557311+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.1745,
+          "change_pct": -0.3996,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.9931,
+          "change_pct": 0.7943,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.5315,
+          "change_pct": -0.9013,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.9761,
+          "change_pct": -1.275,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27518.29,
-        "sma50": 29465.43,
-        "sma200": 28049.17
+        "last_price": 27457.11,
+        "sma50": 29464.2,
+        "sma200": 28048.87
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 10.0,
+      "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 31.82,
-        "percentile_vs_20d": 90.0
+        "current_vxn": 31.37,
+        "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 5.76,
+      "score": 5.1,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.133,
-        "change_5d_pct": 5.53
+        "current_yield_pct": 5.137,
+        "change_5d_pct": 5.613
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 35.07,
+      "score": 35.09,
       "status": "red",
       "details": {
-        "current_dxy": 103.55,
-        "change_5d_pct": 1.866
+        "current_dxy": 103.54,
+        "change_5d_pct": 1.863
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 57.95,
+      "score": 58.38,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.159,
+        "avg_compound": 0.168,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Jensen Huang's exit won't make your next GPU cheaper, but it might change how Nvidia treats gamers",
+            "source": "How-To Geek",
+            "publishedAt": "2026-11-15T16:44:52Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "AMCON’s proposed shutdown and the danger of a hasty exit –  Ifeanyi ONUBA",
+            "source": "The Punch",
+            "publishedAt": "2026-11-15T16:39:59Z",
+            "sentiment": "Negative",
+            "compound": -0.527
+          },
+          {
+            "title": "See how YOUR net worth stacks up to the wealthiest as the richest 1% and America's seniors grab a record share of the nation's wealth",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-11-15T16:39:54Z",
+            "sentiment": "Positive",
+            "compound": 0.917
+          },
+          {
+            "title": "As inflation stays elevated, RBI's Dec repo rate increase appears certain",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-15T16:39:41Z",
+            "sentiment": "Positive",
+            "compound": 0.527
+          },
+          {
+            "title": "Wholesale wheat prices show no signs of cooling despite FCI selling 2 lakh tonnes past few weeks",
+            "source": "BusinessLine",
+            "publishedAt": "2026-11-15T16:35:47Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
           {
             "title": "‘SNL’ parodies Jensen Huang and other tech billionaires: ‘May I pleasure you in an industry secret?’",
             "source": "Business Insider",
             "publishedAt": "2026-11-15T16:30:43Z",
             "sentiment": "Positive",
             "compound": 0.572
-          },
-          {
-            "title": "Street signs: Youngest on the Street, IPOs warm up again, and more",
-            "source": "Business Standard",
-            "publishedAt": "2026-11-15T16:19:21Z",
-            "sentiment": "Positive",
-            "compound": 0.226
-          },
-          {
-            "title": "Your annuity is guaranteed, but is your money safe? What MYGA buyers need to know before investing",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-15T16:15:52Z",
-            "sentiment": "Positive",
-            "compound": 0.593
-          },
-          {
-            "title": "History Says This Dividend Stock Can Protect Your Portfolio if a Stock Market Slump Is Coming",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-15T16:00:52Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "How These 6 Natural Gas Stocks Make Money",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-15T16:00:48Z",
-            "sentiment": "Positive",
-            "compound": 0.361
-          },
-          {
-            "title": "Pastor who advised three US presidents warns Christ's return is 'right around the corner' as he reveals signs of the Antichrist",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-11-15T16:00:46Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 33.05,
-  "trade_probability": 39.83,
+  "confirmation_score": 33.45,
+  "trade_probability": 40.07,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
