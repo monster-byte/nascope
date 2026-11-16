@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T14:01:29.728748+00:00",
+  "generated_at": "2026-11-16T14:15:54.368596+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 5.43,
+      "score": 4.77,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.135,
-        "change_5d_pct": 5.572
+        "current_yield_pct": 5.139,
+        "change_5d_pct": 5.654
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 35.35,
+      "score": 35.55,
       "status": "red",
       "details": {
-        "current_dxy": 103.51,
-        "change_5d_pct": 1.831
+        "current_dxy": 103.49,
+        "change_5d_pct": 1.806
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.23,
+      "score": 48.99,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.035,
+        "avg_compound": -0.02,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Gold and silver are supposed to protect against inflation. So why are both metals tumbling instead?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-15T14:13:03Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "Anthropic targets $1.4T valuation in NASDAQ IPO, eyes AI market impact",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-15T14:04:35Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Bitcoin ETFs Lose $2.1 Billion in November as Outflow Streak Hits Seven Days",
             "source": "Decrypt",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-15T13:45:45Z",
             "sentiment": "Positive",
             "compound": 0.542
-          },
-          {
-            "title": "Credo Technology outpaces Broadcom in AI networking growth",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-15T13:42:02Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "Gold falls to Rs 1.36 lakh, silver down 5% on MCX this week; what’s the outlook?",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-15T13:34:21Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.21,
-  "trade_probability": 52.53,
+  "confirmation_score": 54.2,
+  "trade_probability": 52.52,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
