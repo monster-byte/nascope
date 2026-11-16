@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T14:45:59.853504+00:00",
+  "generated_at": "2026-11-16T15:01:27.280795+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.0113,
+          "change_pct": -0.4446,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.194,
+          "change_pct": 0.1546,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.3056,
-          "up": true
+          "change_pct": -0.6869,
+          "up": false
         },
         "AMZN": {
-          "change_pct": -0.8664,
+          "change_pct": -1.1331,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27568.98,
-        "sma50": 29466.44,
-        "sma200": 28049.43
+        "last_price": 27391.8,
+        "sma50": 29462.9,
+        "sma200": 28048.54
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 30.0,
+      "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 28.87,
-        "percentile_vs_20d": 70.0
+        "current_vxn": 31.16,
+        "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 6.74,
+      "score": 5.43,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.127,
-        "change_5d_pct": 5.407
+        "current_yield_pct": 5.135,
+        "change_5d_pct": 5.572
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 35.54,
+      "score": 35.5,
       "status": "red",
       "details": {
         "current_dxy": 103.49,
-        "change_5d_pct": 1.807
+        "change_5d_pct": 1.812
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.68,
+      "score": 50.96,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.046,
+        "avg_compound": 0.019,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "My Near-Perfect Retirement Stocks For An Inflation Decade",
+            "title": "Nvidia earnings collide with Fed's biggest AI challenge under Warsh",
             "source": "Biztoc.com",
-            "publishedAt": "2026-11-15T14:44:12Z",
+            "publishedAt": "2026-11-15T15:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Holding The Price Line",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-15T14:34:41Z",
+            "title": "US midterms: What history says about sharemarket returns in 2027",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-11-15T15:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "RBI's 'jinx' rate has dogged it for 10 years—What's causing it?",
-            "source": "Livemint",
-            "publishedAt": "2026-11-15T14:30:31Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Is the AI job apocalypse finally here? The evidence suggests otherwise | John Quiggin",
+            "title": "The Stock Market Is Doing Something for Only the 6th Time in 156 Years, and History Says It's Clear What Comes Next for Stocks",
             "source": "Biztoc.com",
-            "publishedAt": "2026-11-15T14:28:24Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "KPSC gazetted probationers prelims held smoothly in Belagavi",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-15T14:20:30Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Gold and silver are supposed to protect against inflation. So why are both metals tumbling instead?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-15T14:13:03Z",
+            "publishedAt": "2026-11-15T14:59:35Z",
             "sentiment": "Positive",
             "compound": 0.382
+          },
+          {
+            "title": "Good Time to Buy SpaceX Stock? Shares Hover Near IPO Price After Historic Starship Catch and Tesla Merger Buzz",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-11-15T14:54:25Z",
+            "sentiment": "Positive",
+            "compound": 0.625
+          },
+          {
+            "title": "Is Apple Stock Still a Buy at Record Highs? Shares Rise as Investors Flee AI Turmoil, but Valuation Fears Grow",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-11-15T14:53:47Z",
+            "sentiment": "Negative",
+            "compound": -0.593
+          },
+          {
+            "title": "How Much Would It Cost To Buy A Nintendo Console In 1986 Vs. 2026?",
+            "source": "BGR",
+            "publishedAt": "2026-11-15T14:47:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.85,
-  "trade_probability": 44.51,
+  "confirmation_score": 32.41,
+  "trade_probability": 39.45,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
