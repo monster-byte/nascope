@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T03:01:29.210289+00:00",
+  "generated_at": "2026-11-16T03:31:10.436576+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 36.02,
+      "score": 35.85,
       "status": "red",
       "details": {
-        "current_dxy": 103.43,
-        "change_5d_pct": 1.747
+        "current_dxy": 103.45,
+        "change_5d_pct": 1.769
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.27,
+      "score": 48.51,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.005,
+        "avg_compound": -0.03,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "LA’s restaurant and bar apocalypse as 300-plus spots close this year over red tape and insane bills",
+            "source": "New York Post",
+            "publishedAt": "2026-11-15T03:22:17Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
           {
             "title": "US corporate bonds attract investors as stock market turbulence grows",
             "source": "Business Standard",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-15T02:32:55Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "US diesel prices fall below $6 a gallon on easing tensions, weaker demand",
-            "source": "Business Standard",
-            "publishedAt": "2026-11-15T02:30:32Z",
-            "sentiment": "Negative",
-            "compound": -0.625
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.41,
-  "trade_probability": 44.25,
+  "confirmation_score": 40.24,
+  "trade_probability": 44.14,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
