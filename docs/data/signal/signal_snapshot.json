@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T11:31:10.864778+00:00",
+  "generated_at": "2026-11-16T11:45:54.029358+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 35.05,
+      "score": 35.3,
       "status": "red",
       "details": {
-        "current_dxy": 103.55,
-        "change_5d_pct": 1.868
+        "current_dxy": 103.52,
+        "change_5d_pct": 1.838
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.02,
+      "score": 54.51,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.08,
+        "avg_compound": 0.09,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Democrats could raise the minimum wage next year. How high should they go?",
+            "source": "Vox",
+            "publishedAt": "2026-11-15T11:44:18Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "CNCK Stock Slips Below $1 Even as Coincheck Adds 243,686 Users in a Quarter",
+            "source": "Dcforecasts.com",
+            "publishedAt": "2026-11-15T11:32:46Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Best CD rates today, Sunday, November 15, 2026: Earn up to 5% APY",
             "source": "Biztoc.com",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-15T11:00:32Z",
             "sentiment": "Negative",
             "compound": -0.226
-          },
-          {
-            "title": "Brown Forman And 2 Other Dividend Stocks To Watch",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-15T10:55:34Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "3 UK Brokerage Stocks In Focus As Anthropic IPO Nears",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-15T10:40:33Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.16,
-  "trade_probability": 52.5,
+  "confirmation_score": 54.23,
+  "trade_probability": 52.54,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
