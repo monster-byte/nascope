@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T23:45:58.112682+00:00",
+  "generated_at": "2026-11-16T00:01:28.526470+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 35.98,
+      "score": 36.22,
       "status": "red",
       "details": {
-        "current_dxy": 103.43,
-        "change_5d_pct": 1.752
+        "current_dxy": 103.4,
+        "change_5d_pct": 1.723
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.53,
+      "score": 50.64,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.051,
+        "avg_compound": 0.013,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Lambie suggests change to childcare subsidies to cut spending",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-11-14T23:56:32Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
           {
             "title": "How Canadian stocks could be big winners of U.S. midterms",
             "source": "Biztoc.com",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-14T23:25:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Tinubu, Aregbesola met three times despite rift – APC chieftain, Prof Adeyeye",
-            "source": "The Punch",
-            "publishedAt": "2026-11-14T23:24:12Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.61,
-  "trade_probability": 44.37,
+  "confirmation_score": 40.46,
+  "trade_probability": 44.28,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
