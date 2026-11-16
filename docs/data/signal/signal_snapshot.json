@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T13:45:54.245577+00:00",
+  "generated_at": "2026-11-16T13:55:06.008646+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 4.44,
+      "score": 3.78,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.141,
-        "change_5d_pct": 5.695
+        "current_yield_pct": 5.145,
+        "change_5d_pct": 5.777
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 35.6,
+      "score": 35.67,
       "status": "red",
       "details": {
-        "current_dxy": 103.48,
-        "change_5d_pct": 1.8
+        "current_dxy": 103.47,
+        "change_5d_pct": 1.791
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.84,
+      "score": 51.15,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.057,
+        "avg_compound": 0.023,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "5th encounter since BJP came to power in West Bengal: Man accused of firing at cop killed",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-15T13:53:10Z",
+            "sentiment": "Negative",
+            "compound": -0.844
+          },
           {
             "title": "Stocks to buy: What's the outlook for Nifty for November 16-November 20 week? Top stock recommendations",
             "source": "The Times of India",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-15T13:30:39Z",
             "sentiment": "Positive",
             "compound": 0.303
-          },
-          {
-            "title": "Sunday Morning Talk Show Thread 15 November 2026",
-            "source": "Freerepublic.com",
-            "publishedAt": "2026-11-15T13:01:02Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 54.51,
-  "trade_probability": 52.71,
+  "confirmation_score": 54.27,
+  "trade_probability": 52.56,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
