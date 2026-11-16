@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T13:15:53.302141+00:00",
+  "generated_at": "2026-11-16T13:31:24.021521+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 35.63,
+      "score": 35.7,
       "status": "red",
       "details": {
-        "current_dxy": 103.48,
-        "change_5d_pct": 1.796
+        "current_dxy": 103.47,
+        "change_5d_pct": 1.788
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.54,
+      "score": 50.2,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.009,
+        "avg_compound": 0.004,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "EXCLUSIVE | Rep. Tim Burchett: ‘The People We’re Electing Are Gutless’",
+            "source": "Thegatewaypundit.com",
+            "publishedAt": "2026-11-15T13:30:39Z",
+            "sentiment": "Positive",
+            "compound": 0.303
+          },
           {
             "title": "Sunday Morning Talk Show Thread 15 November 2026",
             "source": "Freerepublic.com",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-15T12:42:39Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Anthony Albanese baffles Aussies as the Prime Minister plugs the opening of new fast food chain in slick promotional video: 'Is this even real'",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-11-15T12:42:25Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 53.81,
-  "trade_probability": 52.29,
+  "confirmation_score": 53.87,
+  "trade_probability": 52.32,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
