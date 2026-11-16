@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T17:16:00.155313+00:00",
+  "generated_at": "2026-11-16T17:31:16.528158+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.5065,
+          "change_pct": -0.7105,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.5878,
+          "change_pct": 0.3419,
           "up": true
         },
         "NVDA": {
-          "change_pct": -1.7746,
+          "change_pct": -2.4241,
           "up": false
         },
         "AMZN": {
-          "change_pct": -2.0354,
+          "change_pct": -2.2832,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27402.27,
-        "sma50": 29463.11,
-        "sma200": 28048.59
+        "last_price": 27328.69,
+        "sma50": 29461.63,
+        "sma200": 28048.22
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 10.0,
+      "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 31.63,
-        "percentile_vs_20d": 90.0
+        "current_vxn": 31.61,
+        "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 4.11,
+      "score": 4.77,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.143,
-        "change_5d_pct": 5.736
+        "current_yield_pct": 5.139,
+        "change_5d_pct": 5.654
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 35.01,
+      "score": 35.4,
       "status": "red",
       "details": {
-        "current_dxy": 103.56,
-        "change_5d_pct": 1.874
+        "current_dxy": 103.5,
+        "change_5d_pct": 1.825
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.95,
+      "score": 57.7,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.119,
+        "avg_compound": 0.154,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "'Love thy neighbor' is not a socialist manifesto",
+            "source": "TheBlaze",
+            "publishedAt": "2026-11-15T17:30:00Z",
+            "sentiment": "Positive",
+            "compound": 0.637
+          },
+          {
+            "title": "7 Fuel Sipping Classic Cars For Thrifty Driving Enthusiasts",
+            "source": "Jalopnik",
+            "publishedAt": "2026-11-15T17:25:00Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
+          {
+            "title": "Transcript: Sen. Bill Cassidy on \"Face the Nation with Margaret Brennan,\" Nov. 15, 2026",
+            "source": "CBS News",
+            "publishedAt": "2026-11-15T17:16:48Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "4 Dividend Stocks Retirees Can Buy Before They Go Ex-Dividend in the Week Ahead",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-15T17:16:46Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Short covering and foreign inflows are fuelling Indian stock market rebound",
             "source": "Business Standard",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-15T17:01:44Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Rural California Utility Asks To Raise Power Rates By More Than Half As Wildfire Costs Pile Up In Newsom’s State",
-            "source": "The Daily Caller",
-            "publishedAt": "2026-11-15T17:00:18Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Nvidia RTX 5090 stock returns to Newegg with 21 models",
-            "source": "Tom's Hardware UK",
-            "publishedAt": "2026-11-15T17:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Bitcoin Slides Toward $63,000 as Weekend Selling Tests Market Confidence",
-            "source": "newsBTC",
-            "publishedAt": "2026-11-15T17:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.511
-          },
-          {
-            "title": "Death is driving Americans into debt - USA Today",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-11-15T16:53:00Z",
-            "sentiment": "Negative",
-            "compound": -0.751
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 32.64,
-  "trade_probability": 39.58,
+  "confirmation_score": 33.37,
+  "trade_probability": 40.02,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
