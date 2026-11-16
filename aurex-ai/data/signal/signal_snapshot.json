@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T19:15:58.109947+00:00",
+  "generated_at": "2026-11-16T19:31:14.948325+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.8864,
+          "change_pct": -0.9511,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.072,
+          "change_pct": -0.3064,
           "up": false
         },
         "NVDA": {
-          "change_pct": -3.0735,
+          "change_pct": -2.9244,
           "up": false
         },
         "AMZN": {
-          "change_pct": -2.2851,
+          "change_pct": -2.4799,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27276.33,
-        "sma50": 29460.59,
-        "sma200": 28047.96
+        "last_price": 27256.76,
+        "sma50": 29460.2,
+        "sma200": 28047.86
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 15.0,
+      "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 33.34,
-        "percentile_vs_20d": 85.0
+        "current_vxn": 33.37,
+        "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 8.06,
+      "score": 8.39,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.119,
-        "change_5d_pct": 5.243
+        "current_yield_pct": 5.117,
+        "change_5d_pct": 5.201
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 34.83,
+      "score": 34.91,
       "status": "red",
       "details": {
-        "current_dxy": 103.58,
-        "change_5d_pct": 1.897
+        "current_dxy": 103.57,
+        "change_5d_pct": 1.886
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.68,
+      "score": 52.18,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.014,
+        "avg_compound": 0.044,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Fed 'has some work to do on inflation,' KC Fed chief says",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-15T19:19:59Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Two passengers caught drinking on Goa-bound flight",
             "source": "The Times of India",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-15T19:00:02Z",
             "sentiment": "Negative",
             "compound": -0.296
-          },
-          {
-            "title": "ChatGPT Wallet Brings Agentic Commerce to Card Rails, With a Fingerprint for Every Buy",
-            "source": "Dcforecasts.com",
-            "publishedAt": "2026-11-15T18:59:42Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 26.38,
-  "trade_probability": 35.83,
+  "confirmation_score": 26.12,
+  "trade_probability": 35.67,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "REJECT",
