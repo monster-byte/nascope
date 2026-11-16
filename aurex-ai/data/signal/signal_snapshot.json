@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T19:01:29.453344+00:00",
+  "generated_at": "2026-11-16T19:15:58.109947+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.7035,
+          "change_pct": -0.8864,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.073,
+          "change_pct": -0.072,
           "up": false
         },
         "NVDA": {
-          "change_pct": -2.9213,
+          "change_pct": -3.0735,
           "up": false
         },
         "AMZN": {
-          "change_pct": -2.3948,
+          "change_pct": -2.2851,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27290.78,
-        "sma50": 29460.88,
-        "sma200": 28048.03
+        "last_price": 27276.33,
+        "sma50": 29460.59,
+        "sma200": 28047.96
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 33.88,
+        "current_vxn": 33.34,
         "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 8.39,
+      "score": 8.06,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.117,
-        "change_5d_pct": 5.201
+        "current_yield_pct": 5.119,
+        "change_5d_pct": 5.243
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 34.7,
+      "score": 34.83,
       "status": "red",
       "details": {
-        "current_dxy": 103.59,
-        "change_5d_pct": 1.912
+        "current_dxy": 103.58,
+        "change_5d_pct": 1.897
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.75,
+      "score": 50.68,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.055,
+        "avg_compound": 0.014,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Two passengers caught drinking on Goa-bound flight",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-15T19:15:28Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Rs3 lakh stolen from farmer’s parked car in Chinchwad; driver suspected",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-15T19:13:40Z",
+            "sentiment": "Negative",
+            "compound": -0.625
+          },
+          {
+            "title": "Man arrested with leopard claws in Sathyamangalam",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-15T19:11:34Z",
+            "sentiment": "Negative",
+            "compound": -0.477
+          },
           {
             "title": "Full transcript of \"Face the Nation with Margaret Brennan,\" Nov. 15, 2026",
             "source": "CBS News",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-15T18:59:42Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "T’s inflation breaches 7% mark in Oct, zooms past national avg",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-15T18:59:14Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Is Interactive Brokers (IBKR) Stock a Buy After a 71% Dividend Increase?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-15T18:49:20Z",
-            "sentiment": "Positive",
-            "compound": 0.318
-          },
-          {
-            "title": "Soaring cost of essentials is severely testing democracies, economist says",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-11-15T18:48:38Z",
-            "sentiment": "Negative",
-            "compound": -0.459
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 26.6,
-  "trade_probability": 35.96,
+  "confirmation_score": 26.38,
+  "trade_probability": 35.83,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "REJECT",
