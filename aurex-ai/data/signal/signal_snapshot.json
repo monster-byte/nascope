@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T00:45:51.782144+00:00",
+  "generated_at": "2026-11-16T01:01:22.371195+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 36.08,
+      "score": 36.11,
       "status": "red",
       "details": {
         "current_dxy": 103.42,
-        "change_5d_pct": 1.74
+        "change_5d_pct": 1.736
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.16,
+      "score": 51.29,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.003,
+        "avg_compound": 0.026,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "What The US Midterm Elections Mean For Climate Progress",
+            "source": "CleanTechnica",
+            "publishedAt": "2026-11-15T00:52:25Z",
+            "sentiment": "Positive",
+            "compound": 0.421
+          },
+          {
+            "title": "Bitcoin Plummets 24% in 46 Days as Crypto Falls on Rising Inflation",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-11-15T00:52:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "$3.4 Billion — Anthropic Order for Gas Power Plants!",
             "source": "CleanTechnica",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-15T00:19:37Z",
             "sentiment": "Neutral",
             "compound": 0.026
-          },
-          {
-            "title": "Crypto liquidations surge past $1.9 billion as Bitcoin nears $63,000",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-15T00:17:26Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Top 3 British Biotech Stocks To Watch In November 2026",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-15T00:15:36Z",
-            "sentiment": "Positive",
-            "compound": 0.202
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 40.4,
-  "trade_probability": 44.24,
+  "confirmation_score": 40.51,
+  "trade_probability": 44.31,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
