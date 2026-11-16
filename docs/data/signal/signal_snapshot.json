@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T16:45:59.557311+00:00",
+  "generated_at": "2026-11-16T17:01:32.279503+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.3996,
+          "change_pct": -0.5206,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.7943,
+          "change_pct": 0.6637,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.9013,
+          "change_pct": -1.2276,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.275,
+          "change_pct": -1.5696,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27457.11,
-        "sma50": 29464.2,
-        "sma200": 28048.87
+        "last_price": 27447.91,
+        "sma50": 29464.02,
+        "sma200": 28048.82
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 31.37,
+        "current_vxn": 31.62,
         "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 5.1,
+      "score": 3.78,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.137,
-        "change_5d_pct": 5.613
+        "current_yield_pct": 5.145,
+        "change_5d_pct": 5.777
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 35.09,
+      "score": 35.16,
       "status": "red",
       "details": {
         "current_dxy": 103.54,
-        "change_5d_pct": 1.863
+        "change_5d_pct": 1.855
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 58.38,
+      "score": 56.58,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.168,
-        "articles_analyzed": 24,
+        "avg_compound": 0.132,
+        "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Rural California Utility Asks To Raise Power Rates By More Than Half As Wildfire Costs Pile Up In Newsom’s State",
+            "source": "The Daily Caller",
+            "publishedAt": "2026-11-15T17:00:18Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Nvidia RTX 5090 stock returns to Newegg with 21 models",
+            "source": "Tom's Hardware UK",
+            "publishedAt": "2026-11-15T17:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Bitcoin Slides Toward $63,000 as Weekend Selling Tests Market Confidence",
+            "source": "newsBTC",
+            "publishedAt": "2026-11-15T17:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
+          {
+            "title": "Death is driving Americans into debt - USA Today",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-11-15T16:53:00Z",
+            "sentiment": "Negative",
+            "compound": -0.751
+          },
+          {
+            "title": "Kevin Warsh Wants to Know If AI Can Transform the Economy. The Answer Could Change Interest Rates",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-15T16:46:12Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
           {
             "title": "Jensen Huang's exit won't make your next GPU cheaper, but it might change how Nvidia treats gamers",
             "source": "How-To Geek",
             "publishedAt": "2026-11-15T16:44:52Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "AMCON’s proposed shutdown and the danger of a hasty exit –  Ifeanyi ONUBA",
-            "source": "The Punch",
-            "publishedAt": "2026-11-15T16:39:59Z",
-            "sentiment": "Negative",
-            "compound": -0.527
-          },
-          {
-            "title": "See how YOUR net worth stacks up to the wealthiest as the richest 1% and America's seniors grab a record share of the nation's wealth",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-11-15T16:39:54Z",
-            "sentiment": "Positive",
-            "compound": 0.917
-          },
-          {
-            "title": "As inflation stays elevated, RBI's Dec repo rate increase appears certain",
-            "source": "Business Standard",
-            "publishedAt": "2026-11-15T16:39:41Z",
-            "sentiment": "Positive",
-            "compound": 0.527
-          },
-          {
-            "title": "Wholesale wheat prices show no signs of cooling despite FCI selling 2 lakh tonnes past few weeks",
-            "source": "BusinessLine",
-            "publishedAt": "2026-11-15T16:35:47Z",
-            "sentiment": "Negative",
-            "compound": -0.296
-          },
-          {
-            "title": "‘SNL’ parodies Jensen Huang and other tech billionaires: ‘May I pleasure you in an industry secret?’",
-            "source": "Business Insider",
-            "publishedAt": "2026-11-15T16:30:43Z",
-            "sentiment": "Positive",
-            "compound": 0.572
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 33.45,
-  "trade_probability": 40.07,
+  "confirmation_score": 33.12,
+  "trade_probability": 39.87,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
