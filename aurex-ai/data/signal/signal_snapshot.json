@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T19:31:14.948325+00:00",
+  "generated_at": "2026-11-16T19:45:57.580982+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.9511,
+          "change_pct": -1.0468,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.3064,
+          "change_pct": -0.4841,
           "up": false
         },
         "NVDA": {
-          "change_pct": -2.9244,
+          "change_pct": -3.2793,
           "up": false
         },
         "AMZN": {
-          "change_pct": -2.4799,
+          "change_pct": -2.8167,
           "up": false
         }
       }
@@ -40,18 +40,18 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27256.76,
-        "sma50": 29460.2,
-        "sma200": 28047.86
+        "last_price": 27193.25,
+        "sma50": 29458.93,
+        "sma200": 28047.55
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 10.0,
+      "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 33.37,
-        "percentile_vs_20d": 90.0
+        "current_vxn": 33.29,
+        "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 34.91,
+      "score": 35.39,
       "status": "red",
       "details": {
-        "current_dxy": 103.57,
-        "change_5d_pct": 1.886
+        "current_dxy": 103.51,
+        "change_5d_pct": 1.826
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.18,
+      "score": 50.48,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.044,
+        "avg_compound": 0.01,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "‘Extreme’: Blue state utility wants to raise power rates by more than half, puts blame in one place",
+            "source": "Wnd.com",
+            "publishedAt": "2026-11-15T19:41:47Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
           {
             "title": "Fed 'has some work to do on inflation,' KC Fed chief says",
             "source": "Biztoc.com",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-15T19:00:22Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Peak repo rate pegged lower at 6%, December hike on",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-15T19:00:02Z",
-            "sentiment": "Negative",
-            "compound": -0.296
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 26.12,
-  "trade_probability": 35.67,
+  "confirmation_score": 26.46,
+  "trade_probability": 35.88,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "REJECT",
