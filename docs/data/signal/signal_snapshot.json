@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T15:31:16.635286+00:00",
+  "generated_at": "2026-11-17T15:46:03.593278+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
+      "score": 0.0,
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.0977,
-          "up": true
+          "change_pct": -0.547,
+          "up": false
         },
         "MSFT": {
-          "change_pct": -2.5096,
+          "change_pct": -3.4712,
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.7611,
+          "change_pct": -3.2405,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.1225,
+          "change_pct": -1.1772,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27021.25,
-        "sma50": 29409.28,
-        "sma200": 28053.98
+        "last_price": 26752.01,
+        "sma50": 29403.89,
+        "sma200": 28052.63
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 20.0,
+      "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 32.45,
-        "percentile_vs_20d": 80.0
+        "current_vxn": 32.46,
+        "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 24.31,
+      "score": 25.6,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.143,
-        "change_5d_pct": 3.211
+        "current_yield_pct": 5.135,
+        "change_5d_pct": 3.05
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 39.15,
+      "score": 39.56,
       "status": "red",
       "details": {
-        "current_dxy": 103.62,
-        "change_5d_pct": 1.356
+        "current_dxy": 103.56,
+        "change_5d_pct": 1.305
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.59,
+      "score": 46.65,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.072,
-        "articles_analyzed": 24,
+        "avg_compound": -0.067,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "What’s up with… Millicom, MTN, AI investments",
-            "source": "TelecomTV",
-            "publishedAt": "2026-11-16T15:26:29Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Stock a Buy After Its 8-for-1 Split?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-16T15:25:28Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "If a Stock Market Crash Is Coming in 2027, Warren Buffett’s Advice Makes My Next Move Clear",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-16T15:25:11Z",
-            "sentiment": "Neutral",
-            "compound": -0.026
-          },
-          {
-            "title": "PepsiCo announces progress toward deforestation-free sourcing goal",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-16T15:24:54Z",
-            "sentiment": "Positive",
-            "compound": 0.421
-          },
-          {
-            "title": "GTA VI Comes Out Thursday. She Bought 588 Take-Two Shares the Day GTA V Launched. They’re Worth $131,994",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-16T15:23:08Z",
-            "sentiment": "Positive",
-            "compound": 0.557
-          },
-          {
-            "title": "CG Oncology Stock Soars After Bladder Cancer Drug Cuts Recurrence Risk by 68% in Pivotal Phase 3 Trial Win",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-11-16T15:18:35Z",
+            "title": "Michael Burry says he won't buy Nvidia stock 'at any price' now — as he predicts 'real problems' beyond Jensen Huang",
+            "source": "Business Insider",
+            "publishedAt": "2026-11-16T15:45:22Z",
             "sentiment": "Negative",
-            "compound": -0.599
+            "compound": -0.402
+          },
+          {
+            "title": "Bank of Canada governor Tiff Macklem to step down in 2027",
+            "source": "CBC News",
+            "publishedAt": "2026-11-16T15:44:46Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Bitcoin bounces off weekend lows, but the weekly losses keep piling up",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-16T15:43:30Z",
+            "sentiment": "Negative",
+            "compound": -0.606
+          },
+          {
+            "title": "Prediction: A Stock Market Crash Is Coming Eventually. Here's What Investors Should Do Based on What Happened in the Last 3 Crashes",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-16T15:41:13Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
+          {
+            "title": "Death is unaffordable as cost of burying a loved one pushes millions of Americans into debt and the price of funerals soar 310%",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-11-16T15:37:12Z",
+            "sentiment": "Negative",
+            "compound": -0.625
+          },
+          {
+            "title": "US stocks: Nasdaq falls 1% at open as Nvidia woes weigh on sentiment ahead of earnings",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-16T15:34:11Z",
+            "sentiment": "Negative",
+            "compound": -0.44
           }
         ]
       }
@@ -146,11 +146,11 @@
       }
     }
   },
-  "confirmation_score": 36.43,
-  "trade_probability": 41.86,
+  "confirmation_score": 28.81,
+  "trade_probability": 37.29,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
-    "ai_status": "HOLD / MONITOR",
-    "directional_bias": "NEUTRAL"
+    "ai_status": "REJECT",
+    "directional_bias": "AVOID"
   }
 }
