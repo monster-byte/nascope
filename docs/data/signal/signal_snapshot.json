@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T17:45:54.738680+00:00",
+  "generated_at": "2026-11-17T18:01:37.190077+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.6997,
+          "change_pct": -0.9584,
           "up": false
         },
         "MSFT": {
-          "change_pct": -3.6635,
+          "change_pct": -3.7019,
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.5178,
+          "change_pct": -1.5562,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.7445,
+          "change_pct": -0.6827,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26900.54,
-        "sma50": 29406.86,
-        "sma200": 28053.38
+        "last_price": 26854.16,
+        "sma50": 29405.93,
+        "sma200": 28053.14
       }
     },
     "vxn": {
@@ -50,7 +50,7 @@
       "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 34.51,
+        "current_vxn": 35.23,
         "percentile_vs_20d": 95.0
       }
     },
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 40.82,
+      "score": 40.84,
       "status": "yellow",
       "details": {
         "current_dxy": 103.4,
-        "change_5d_pct": 1.147
+        "change_5d_pct": 1.144
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.7,
+      "score": 48.55,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.046,
+        "avg_compound": -0.029,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Civil engineer from Navi Mumbai loses Rs 1.1 crore in online stock market trading fraud, police freezes Rs 39 lakh in bank accounts",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-16T17:42:09Z",
+            "title": "Why the wheels are falling off the AI investment boom",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-11-16T18:00:00Z",
+            "sentiment": "Neutral",
+            "compound": -0.153
+          },
+          {
+            "title": "Retail Sales and Fed Minutes Put Bitcoin’s Rate Outlook Back in Focus",
+            "source": "newsBTC",
+            "publishedAt": "2026-11-16T18:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Rudd-era mining tax could have boosted budget by $135b",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-11-16T18:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.361
+          },
+          {
+            "title": "Mumbai airport row: Airlines send another reminder to govt, flag uncertainty over network planning - CNBC TV18",
+            "source": "CNBCTV18",
+            "publishedAt": "2026-11-16T17:58:44Z",
             "sentiment": "Negative",
-            "compound": -0.735
+            "compound": -0.34
           },
           {
-            "title": "Warsh: AI could lift growth, disrupt jobs",
+            "title": "Global Mofy Stock Nearly Triples as Investors Eye Its Latest AI Investment",
             "source": "Biztoc.com",
-            "publishedAt": "2026-11-16T17:40:03Z",
-            "sentiment": "Positive",
-            "compound": 0.382
+            "publishedAt": "2026-11-16T17:55:45Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           },
           {
-            "title": "Wheat prices spike 20% in a week, adding to inflation burden",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-16T17:36:39Z",
-            "sentiment": "Negative",
-            "compound": -0.44
-          },
-          {
-            "title": "Kin in the Game: How the Rise of Family Office Investors Is Reshaping Media, Entertainment and Sports",
-            "source": "Variety",
-            "publishedAt": "2026-11-16T17:33:08Z",
-            "sentiment": "Positive",
-            "compound": 0.421
-          },
-          {
-            "title": "Opinion Poll: New Democracy leads by 14.4 points, with nine parties entering parliament",
-            "source": "Protothema.gr",
-            "publishedAt": "2026-11-16T17:32:09Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "Why AMD Stock Was Sliding Today",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-16T17:28:57Z",
+            "title": "Federal Reserve considers AI’s impact on economy, potential rate hikes",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-16T17:55:42Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 29.03,
-  "trade_probability": 37.42,
+  "confirmation_score": 29.11,
+  "trade_probability": 37.47,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "REJECT",
