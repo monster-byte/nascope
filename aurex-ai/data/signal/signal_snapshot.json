@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T19:01:28.932949+00:00",
+  "generated_at": "2026-11-17T19:15:55.683595+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.0884,
+          "change_pct": -0.899,
           "up": false
         },
         "MSFT": {
-          "change_pct": -3.026,
+          "change_pct": -2.5865,
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.7003,
+          "change_pct": -1.0567,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.9366,
+          "change_pct": -0.7059,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26875.94,
-        "sma50": 29406.37,
-        "sma200": 28053.25
+        "last_price": 26941.62,
+        "sma50": 29407.68,
+        "sma200": 28053.58
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 35.49,
+        "current_vxn": 35.88,
         "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 31.7,
+      "score": 30.73,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.097,
-        "change_5d_pct": 2.288
+        "current_yield_pct": 5.103,
+        "change_5d_pct": 2.408
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 40.62,
+      "score": 40.43,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.43,
-        "change_5d_pct": 1.173
+        "current_dxy": 103.45,
+        "change_5d_pct": 1.196
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.08,
+      "score": 51.64,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.002,
+        "avg_compound": 0.033,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Why Marvell Stock Is Down Today",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-16T19:15:49Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Nasdaq Stock Market Correction: These 6 Words From Warren Buffett Are More Relevant Than Ever",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-16T19:15:29Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Tyson, Starbucks Lead The S&P 500, Nasdaq 100 As Investors Play Defense",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-16T19:11:51Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
+          {
+            "title": "Business investment: Why confident firms are still holding back spending",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-11-16T19:07:36Z",
+            "sentiment": "Positive",
+            "compound": 0.494
+          },
+          {
+            "title": "This Anthropic proxy play is getting traders' attention – here's where they see it going",
+            "source": "CNBC",
+            "publishedAt": "2026-11-16T19:06:11Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
           {
             "title": "Godzilla Minus Zero Earns US$8 Million in 73% Drop at U.S. Box Office, Passes US$100 Million Worldwide",
             "source": "Anime News Network",
             "publishedAt": "2026-11-16T19:00:00Z",
             "sentiment": "Negative",
             "compound": -0.273
-          },
-          {
-            "title": "XRP Breaks Below $1 as Spot ETF Outflows and Market-Wide Selling Deepen",
-            "source": "ZyCrypto",
-            "publishedAt": "2026-11-16T18:56:30Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Supreme Court Leaves Custodia Bank Locked Out of Federal Reserve Payment System",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-16T18:56:15Z",
-            "sentiment": "Positive",
-            "compound": 0.557
-          },
-          {
-            "title": "Cypherpunk Technologies buys the ZEC dip as its mining arm turns a profit",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-16T18:46:52Z",
-            "sentiment": "Positive",
-            "compound": 0.44
-          },
-          {
-            "title": "The Oil Market Is Brimming With Crude Despite Tanker Attacks",
-            "source": "gcaptain.com",
-            "publishedAt": "2026-11-16T18:45:55Z",
-            "sentiment": "Negative",
-            "compound": -0.317
-          },
-          {
-            "title": "Bitwise CIO Warns Crypto Could Face a 2018-Style Bear Market",
-            "source": "ZyCrypto",
-            "publishedAt": "2026-11-16T18:45:32Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
           }
         ]
       }
@@ -146,7 +146,7 @@
       }
     }
   },
-  "confirmation_score": 29.59,
+  "confirmation_score": 29.58,
   "trade_probability": 37.75,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
