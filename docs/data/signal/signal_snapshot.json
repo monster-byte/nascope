@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T16:15:58.802725+00:00",
+  "generated_at": "2026-11-17T16:31:16.565392+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.5003,
+          "change_pct": -0.4551,
           "up": false
         },
         "MSFT": {
-          "change_pct": -3.7904,
+          "change_pct": -4.1615,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.6148,
+          "change_pct": -1.3833,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.0787,
+          "change_pct": -1.6328,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26902.22,
-        "sma50": 29406.89,
-        "sma200": 28053.38
+        "last_price": 26819.19,
+        "sma50": 29405.23,
+        "sma200": 28052.97
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 34.29,
+        "current_vxn": 34.68,
         "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 28.49,
+      "score": 28.81,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.117,
-        "change_5d_pct": 2.689
+        "current_yield_pct": 5.115,
+        "change_5d_pct": 2.649
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 39.9,
-      "status": "red",
+      "score": 40.3,
+      "status": "yellow",
       "details": {
-        "current_dxy": 103.52,
-        "change_5d_pct": 1.263
+        "current_dxy": 103.47,
+        "change_5d_pct": 1.212
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.16,
+      "score": 46.76,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.003,
+        "avg_compound": -0.065,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Micron Stock Sinks Below $740 as AI Chip Selloff, DRAM Price-Fixing Lawsuit Hammer Memory Giant on Monday",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-11-16T16:15:39Z",
+            "title": "Regulators Extend Comment Window for Bank Partner Guidance",
+            "source": "pymnts.com",
+            "publishedAt": "2026-11-16T16:27:46Z",
+            "sentiment": "Neutral",
+            "compound": 0.178
+          },
+          {
+            "title": "Bitcoin price fails to hold $65K as US stocks drop further on AI nerves",
+            "source": "Cointelegraph",
+            "publishedAt": "2026-11-16T16:26:52Z",
             "sentiment": "Negative",
-            "compound": -0.226
+            "compound": -0.649
           },
           {
-            "title": "Iceland's Blue Lagoon raised $115.6 million in its IPO — but volcanic eruptions and stiff competition loom for investors",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-16T16:12:49Z",
-            "sentiment": "Negative",
-            "compound": -0.329
-          },
-          {
-            "title": "The Verge’s guide to the best gifts under $100",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-16T16:09:04Z",
-            "sentiment": "Positive",
-            "compound": 0.637
-          },
-          {
-            "title": "H World Stock Climbs Nearly 8% as Chinese Hotel Giant Beats Forecasts, Raises Full-Year Revenue Outlook",
+            "title": "Chip Stocks Bleed as Nvidia Crisis Drags Nasdaq Lower, Micron, SK Hynix and Broadcom Lead Semiconductor Rout",
             "source": "Ibtimes.com.au",
-            "publishedAt": "2026-11-16T16:08:24Z",
+            "publishedAt": "2026-11-16T16:19:16Z",
+            "sentiment": "Negative",
+            "compound": -0.791
+          },
+          {
+            "title": "Broadcom Drops for Second Day as Rothschild Downgrade, Nvidia Turmoil Deepen AI Chip Selloff on Wall Street",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-11-16T16:18:16Z",
+            "sentiment": "Negative",
+            "compound": -0.361
+          },
+          {
+            "title": "SK Hynix ADR Tumbles 5.5% as Nvidia Turmoil and DRAM Price-Fixing Lawsuit Hit Korean Memory Chip Giant",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-11-16T16:17:33Z",
+            "sentiment": "Negative",
+            "compound": -0.527
+          },
+          {
+            "title": "Anthropic's Mega IPO Faces Mixed Market Signals Amid Tech Sector Volatility - www.lokmattimes.com",
+            "source": "Lokmattimes.com",
+            "publishedAt": "2026-11-16T16:16:56Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Anthropic’s Wall Street whisperer: Meet CFO Krishna Rao",
-            "source": "CNBC",
-            "publishedAt": "2026-11-16T16:08:16Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "UniCredit wins EU, Fed greenlight for €45B Commerzbank takeover - Türkiye Today",
-            "source": "Turkiyetoday.com",
-            "publishedAt": "2026-11-16T16:04:25Z",
-            "sentiment": "Positive",
-            "compound": 0.572
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 29.1,
-  "trade_probability": 37.46,
+  "confirmation_score": 28.87,
+  "trade_probability": 37.32,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "REJECT",
