@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T12:01:37.206464+00:00",
+  "generated_at": "2026-11-17T12:15:52.797240+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.2265,
+          "change_pct": -0.2576,
           "up": false
         },
         "MSFT": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 39.5,
+      "score": 39.33,
       "status": "red",
       "details": {
-        "current_dxy": 103.57,
-        "change_5d_pct": 1.313
+        "current_dxy": 103.59,
+        "change_5d_pct": 1.334
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.39,
+      "score": 55.02,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.128,
+        "avg_compound": 0.1,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "What to know about Super Micro Computer as Singapore probes alleged diversion of Nvidia AI servers to China",
+            "source": "Livemint",
+            "publishedAt": "2026-11-16T12:07:30Z",
+            "sentiment": "Positive",
+            "compound": 0.599
+          },
+          {
+            "title": "DEFSEC TECHNOLOGIES INC. ANNOUNCES COMPLETION OF SHARE CONSOLIDATION",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-16T12:07:15Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "Nvidia Earnings, Anthropic IPO and Federal Reserve Outlook Among Five Key Market Events This Week",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-16T12:07:02Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Trump's tariffs are unpopular -- but they''ll be tough to repeal despite Democrats' landslide win",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-16T12:01:42Z",
+            "sentiment": "Negative",
+            "compound": -0.706
+          },
           {
             "title": "India bonds dip as elevated inflation fuels rate hike expectations",
             "source": "The Times of India",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-16T12:00:13Z",
             "sentiment": "Positive",
             "compound": 0.361
-          },
-          {
-            "title": "Big-ticket holiday items may be harder to find as shipping costs rise",
-            "source": "CNBC",
-            "publishedAt": "2026-11-16T12:00:01Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "The Hypocrisy of Anthropic’s IPO",
-            "source": "The Atlantic",
-            "publishedAt": "2026-11-16T12:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Morgan Stanley raises global equities to 'maximum overweight' on cheap valuations, earnings strength",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-16T11:57:08Z",
-            "sentiment": "Neutral",
-            "compound": 0.178
-          },
-          {
-            "title": "Nifty rises 147 points despite Asian sell-off; Banks, FMCG support Sensex",
-            "source": "BusinessLine",
-            "publishedAt": "2026-11-16T11:56:27Z",
-            "sentiment": "Positive",
-            "compound": 0.66
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 33.57,
-  "trade_probability": 40.14,
+  "confirmation_score": 33.44,
+  "trade_probability": 40.06,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
