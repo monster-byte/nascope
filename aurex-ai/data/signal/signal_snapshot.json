@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T20:01:27.439694+00:00",
+  "generated_at": "2026-11-17T20:16:08.217132+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.0969,
+          "change_pct": -0.9697,
           "up": false
         },
         "MSFT": {
-          "change_pct": -2.7548,
+          "change_pct": -2.7827,
           "up": false
         },
         "NVDA": {
-          "change_pct": -2.5774,
+          "change_pct": -2.1582,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.1115,
+          "change_pct": -0.76,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26762.66,
-        "sma50": 29404.1,
-        "sma200": 28052.69
+        "last_price": 26797.9,
+        "sma50": 29404.81,
+        "sma200": 28052.86
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 5.0,
+      "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 36.32,
-        "percentile_vs_20d": 95.0
+        "current_vxn": 36.86,
+        "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 31.7,
+      "score": 30.73,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.097,
-        "change_5d_pct": 2.288
+        "current_yield_pct": 5.103,
+        "change_5d_pct": 2.408
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 40.3,
+      "score": 40.08,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.47,
-        "change_5d_pct": 1.212
+        "current_dxy": 103.5,
+        "change_5d_pct": 1.24
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.74,
+      "score": 50.76,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.005,
-        "articles_analyzed": 25,
+        "avg_compound": 0.015,
+        "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Starling Founder Launches Agentic AI-Focused Bank Lockwood",
+            "source": "pymnts.com",
+            "publishedAt": "2026-11-16T20:02:41Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "1 ASX dividend stock down 21% I'd buy right now",
             "source": "Motley Fool Australia",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-16T19:32:50Z",
             "sentiment": "Negative",
             "compound": -0.637
-          },
-          {
-            "title": "2kg opium seized, 2 arrested",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-16T19:27:12Z",
-            "sentiment": "Negative",
-            "compound": -0.477
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 29.08,
-  "trade_probability": 37.45,
+  "confirmation_score": 29.47,
+  "trade_probability": 37.68,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "REJECT",
