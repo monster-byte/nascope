@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T23:01:35.687246+00:00",
+  "generated_at": "2026-11-17T23:15:59.943880+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.5032,
+          "change_pct": -0.4975,
           "up": false
         },
         "MSFT": {
@@ -25,11 +25,11 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.4451,
+          "change_pct": -0.4355,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.3852,
+          "change_pct": -0.3814,
           "up": false
         }
       }
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 39.57,
+      "score": 39.29,
       "status": "red",
       "details": {
-        "current_dxy": 103.56,
-        "change_5d_pct": 1.304
+        "current_dxy": 103.6,
+        "change_5d_pct": 1.338
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.53,
+      "score": 50.23,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.029,
+        "avg_compound": 0.005,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Stock market today: Live updates",
+            "source": "CNBC",
+            "publishedAt": "2026-11-16T23:14:42Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Stock Market Today, Nov. 16: Amazon Falls on New AI Chip Export Rule and Leo Satellite Launch Failure",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-16T23:04:04Z",
+            "sentiment": "Negative",
+            "compound": -0.382
+          },
+          {
+            "title": "Stock Market Today, Nov. 16: Tech Selloff Deepens as AI Leadership Crisis Rattles Nasdaq",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-16T23:04:03Z",
+            "sentiment": "Negative",
+            "compound": -0.625
+          },
+          {
+            "title": "Nervous About the Stock Market? Here's Warren Buffett's Best Advice",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-16T23:03:33Z",
+            "sentiment": "Positive",
+            "compound": 0.477
+          },
+          {
+            "title": "Agora, Inc. Reports Third Quarter 2026 Financial Results",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-16T23:03:13Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "‘Spider-Man: Brand New Day’ Returns to Theaters With Rosario Dawson’s Cut Cameo as the Night Nurse",
             "source": "TheWrap",
             "publishedAt": "2026-11-16T23:00:00Z",
             "sentiment": "Negative",
             "compound": -0.273
-          },
-          {
-            "title": "California consumer watchdog chief says AI companies that violate state rules will be taken to court",
-            "source": "CNA",
-            "publishedAt": "2026-11-16T22:57:07Z",
-            "sentiment": "Negative",
-            "compound": -0.494
-          },
-          {
-            "title": "Custodia Bank loses Supreme Court bid for direct Fed payment access",
-            "source": "Cointelegraph",
-            "publishedAt": "2026-11-16T22:54:57Z",
-            "sentiment": "Positive",
-            "compound": 0.318
-          },
-          {
-            "title": "Stock market drops amid continued Nvidia fallout",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-16T22:45:56Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Chalmers says spending will be cut in mid-year update 'but not too much'",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-11-16T22:42:53Z",
-            "sentiment": "Neutral",
-            "compound": -0.141
-          },
-          {
-            "title": "Berkshire Hathaway raised its stake in Delta in the third quarter. It also trimmed a key bank holding",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-16T22:30:38Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 28.78,
-  "trade_probability": 37.27,
+  "confirmation_score": 28.91,
+  "trade_probability": 37.35,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "REJECT",
