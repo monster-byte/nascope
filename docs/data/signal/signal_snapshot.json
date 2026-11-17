@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T03:31:11.331290+00:00",
+  "generated_at": "2026-11-17T03:45:54.092928+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.7513,
+          "change_pct": -0.7204,
           "up": false
         },
         "MSFT": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 35.35,
+      "score": 35.38,
       "status": "red",
       "details": {
         "current_dxy": 103.51,
-        "change_5d_pct": 1.831
+        "change_5d_pct": 1.828
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.91,
+      "score": 54.76,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.118,
+        "avg_compound": 0.095,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "ASX 200 Slips for Third Straight Session as Miners Sink and Nvidia Turmoil Keeps Australian Investors on Edge",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-11-16T03:44:07Z",
+            "sentiment": "Neutral",
+            "compound": -0.153
+          },
+          {
+            "title": "Eicher Motors shares jump 4% as Q2 profit rises 15% YoY. Why CLSA hiked target but cut earnings estimates",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-16T03:39:32Z",
+            "sentiment": "Neutral",
+            "compound": -0.026
+          },
+          {
+            "title": "Japan's economy unexpectedly contracts in third-quarter as elevated energy costs bite - CNBC",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-11-16T03:32:37Z",
+            "sentiment": "Positive",
+            "compound": 0.273
+          },
           {
             "title": "‘The Gilded Age’ Episode-Three Recap: Peggy’s Wedding",
             "source": "Vulture",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-16T03:24:46Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Losing Streak May Continue For Malaysia Stock Market",
-            "source": "Rttnews.com",
-            "publishedAt": "2026-11-16T03:06:01Z",
-            "sentiment": "Negative",
-            "compound": -0.382
-          },
-          {
-            "title": "Priced in Turkish Lira, Bitcoin Is 36% Off Its Peak, Not 47%, and Up 146% Since 2024",
-            "source": "Dcforecasts.com",
-            "publishedAt": "2026-11-16T03:05:11Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Steady Start Seen For Malaysia Stock Market",
-            "source": "Rttnews.com",
-            "publishedAt": "2026-11-16T03:04:08Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 26.41,
-  "trade_probability": 35.85,
+  "confirmation_score": 26.31,
+  "trade_probability": 35.79,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "REJECT",
