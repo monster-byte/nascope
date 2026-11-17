@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T23:15:59.943880+00:00",
+  "generated_at": "2026-11-17T23:31:12.428213+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.4975,
+          "change_pct": -0.5032,
           "up": false
         },
         "MSFT": {
@@ -25,11 +25,11 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.4355,
+          "change_pct": -0.4451,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.3814,
+          "change_pct": -0.3852,
           "up": false
         }
       }
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.23,
+      "score": 52.84,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.005,
+        "avg_compound": 0.057,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Inflation drops to 14.05% – NBS report",
+            "source": "The Punch",
+            "publishedAt": "2026-11-16T23:21:45Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Turning Financial Data Into a Growth Strategy",
+            "source": "Addicted2success.com",
+            "publishedAt": "2026-11-16T23:18:36Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "India raises export duty on diesel and aviation turbine fuel",
+            "source": "BusinessLine",
+            "publishedAt": "2026-11-16T23:16:18Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Stock market today: Live updates",
             "source": "CNBC",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-16T23:04:03Z",
             "sentiment": "Negative",
             "compound": -0.625
-          },
-          {
-            "title": "Nervous About the Stock Market? Here's Warren Buffett's Best Advice",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-16T23:03:33Z",
-            "sentiment": "Positive",
-            "compound": 0.477
-          },
-          {
-            "title": "Agora, Inc. Reports Third Quarter 2026 Financial Results",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-16T23:03:13Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "‘Spider-Man: Brand New Day’ Returns to Theaters With Rosario Dawson’s Cut Cameo as the Night Nurse",
-            "source": "TheWrap",
-            "publishedAt": "2026-11-16T23:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.273
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 28.91,
-  "trade_probability": 37.35,
+  "confirmation_score": 29.14,
+  "trade_probability": 37.48,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "REJECT",
