@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T15:46:03.593278+00:00",
+  "generated_at": "2026-11-17T16:01:30.535745+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.547,
+          "change_pct": -0.4706,
           "up": false
         },
         "MSFT": {
-          "change_pct": -3.4712,
+          "change_pct": -3.6788,
           "up": false
         },
         "NVDA": {
-          "change_pct": -3.2405,
+          "change_pct": -1.452,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.1772,
+          "change_pct": -1.1154,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26752.01,
-        "sma50": 29403.89,
-        "sma200": 28052.63
+        "last_price": 26866.03,
+        "sma50": 29406.17,
+        "sma200": 28053.2
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 15.0,
+      "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 32.46,
-        "percentile_vs_20d": 85.0
+        "current_vxn": 34.89,
+        "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 25.6,
+      "score": 29.77,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.135,
-        "change_5d_pct": 3.05
+        "current_yield_pct": 5.109,
+        "change_5d_pct": 2.529
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 39.56,
-      "status": "red",
+      "score": 40.16,
+      "status": "yellow",
       "details": {
-        "current_dxy": 103.56,
-        "change_5d_pct": 1.305
+        "current_dxy": 103.49,
+        "change_5d_pct": 1.231
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.65,
+      "score": 48.77,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.067,
+        "avg_compound": -0.025,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Michael Burry says he won't buy Nvidia stock 'at any price' now — as he predicts 'real problems' beyond Jensen Huang",
-            "source": "Business Insider",
-            "publishedAt": "2026-11-16T15:45:22Z",
-            "sentiment": "Negative",
-            "compound": -0.402
+            "title": "Cash Panic at America’s Richest Companies?",
+            "source": "Thegatewaypundit.com",
+            "publishedAt": "2026-11-16T16:00:22Z",
+            "sentiment": "Neutral",
+            "compound": 0.026
           },
           {
-            "title": "Bank of Canada governor Tiff Macklem to step down in 2027",
-            "source": "CBC News",
-            "publishedAt": "2026-11-16T15:44:46Z",
+            "title": "The Verge’s guide to the best gifts under $100",
+            "source": "The Verge",
+            "publishedAt": "2026-11-16T16:00:14Z",
+            "sentiment": "Positive",
+            "compound": 0.637
+          },
+          {
+            "title": "Relief teacher costs soar as schools struggle to find cover",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-11-16T16:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "Diesel prices dip below $6 a gallon for first time since September",
+            "source": "CBS News",
+            "publishedAt": "2026-11-16T15:58:25Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Bitcoin bounces off weekend lows, but the weekly losses keep piling up",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-16T15:43:30Z",
-            "sentiment": "Negative",
-            "compound": -0.606
+            "title": "The AI boom hits its ‘final stages’ as Anthropic goes public and the jobless-growth economy delivers neither jobs nor growth",
+            "source": "Fortune",
+            "publishedAt": "2026-11-16T15:56:18Z",
+            "sentiment": "Positive",
+            "compound": 0.221
           },
           {
-            "title": "Prediction: A Stock Market Crash Is Coming Eventually. Here's What Investors Should Do Based on What Happened in the Last 3 Crashes",
+            "title": "Bloom Energy Shares Drop: What’s Going On With the AI Power Stock Monday?",
             "source": "Biztoc.com",
-            "publishedAt": "2026-11-16T15:41:13Z",
-            "sentiment": "Negative",
-            "compound": -0.402
-          },
-          {
-            "title": "Death is unaffordable as cost of burying a loved one pushes millions of Americans into debt and the price of funerals soar 310%",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-11-16T15:37:12Z",
-            "sentiment": "Negative",
-            "compound": -0.625
-          },
-          {
-            "title": "US stocks: Nasdaq falls 1% at open as Nvidia woes weigh on sentiment ahead of earnings",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-16T15:34:11Z",
-            "sentiment": "Negative",
-            "compound": -0.44
+            "publishedAt": "2026-11-16T15:53:45Z",
+            "sentiment": "Positive",
+            "compound": 0.296
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 28.81,
-  "trade_probability": 37.29,
+  "confirmation_score": 28.72,
+  "trade_probability": 37.23,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "REJECT",
