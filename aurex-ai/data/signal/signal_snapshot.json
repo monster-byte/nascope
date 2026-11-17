@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T18:16:03.104048+00:00",
+  "generated_at": "2026-11-17T18:31:15.832085+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.9075,
+          "change_pct": -0.6898,
           "up": false
         },
         "MSFT": {
-          "change_pct": -3.4692,
+          "change_pct": -3.1493,
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.6633,
+          "change_pct": -1.4025,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.8797,
+          "change_pct": -0.6788,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26865.52,
-        "sma50": 29406.16,
-        "sma200": 28053.2
+        "last_price": 26976.02,
+        "sma50": 29408.37,
+        "sma200": 28053.75
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 5.0,
+      "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 35.28,
-        "percentile_vs_20d": 95.0
+        "current_vxn": 35.43,
+        "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 32.34,
+      "score": 32.66,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.093,
-        "change_5d_pct": 2.208
+        "current_yield_pct": 5.091,
+        "change_5d_pct": 2.167
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.07,
+      "score": 41.0,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.37,
-        "change_5d_pct": 1.116
+        "current_dxy": 103.38,
+        "change_5d_pct": 1.125
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.56,
+      "score": 49.02,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.011,
-        "articles_analyzed": 24,
+        "avg_compound": -0.02,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Former NBA Player Carlos Boozer of Impeccable: 5 Questions",
-            "source": "Commercial Observer",
-            "publishedAt": "2026-11-16T18:15:37Z",
+            "title": "LA’s trendiest kabob joint in the hot seat over $42 combo plate: ‘So deflating’",
+            "source": "New York Post",
+            "publishedAt": "2026-11-16T18:30:25Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Fed Chairman Kevin Warsh stresses importance of AI to economy, but says it could ‘disappoint’",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-16T18:14:03Z",
-            "sentiment": "Neutral",
-            "compound": -0.064
-          },
-          {
-            "title": "Sam Bankman-Fried’s former employer Jane Street poised for $35 billion windfall from purchase of Anthropic shares in FTX bankruptcy",
-            "source": "Fortune",
-            "publishedAt": "2026-11-16T18:10:50Z",
-            "sentiment": "Positive",
-            "compound": 0.494
-          },
-          {
-            "title": "Global shares decline as AI and Nvidia jitters send shock waves",
-            "source": "The Irish Times",
-            "publishedAt": "2026-11-16T18:08:04Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
-          },
-          {
-            "title": "India's consumption story has a missing middle: The widening gap between growth and purchasing power",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-16T18:07:56Z",
-            "sentiment": "Neutral",
-            "compound": 0.103
-          },
-          {
-            "title": "Fed Chair Kevin Warsh lays out best-case scenario from AI, while also warning about ‘costly’ risks",
-            "source": "New York Post",
-            "publishedAt": "2026-11-16T18:07:15Z",
+            "title": "Binance Founder Denies Selling as Bitcoin Breaks Below $63K",
+            "source": "ZyCrypto",
+            "publishedAt": "2026-11-16T18:30:13Z",
             "sentiment": "Negative",
-            "compound": -0.542
+            "compound": -0.421
+          },
+          {
+            "title": "Stock Market Midday, Nov. 16: Nasdaq Tumbles as Wall Street Braces for Nvidia Earnings and Bitcoin Slides",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-16T18:30:02Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Marvell Technology stock falls 6% as chip selloff deepens after Nvidia CEO exit",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-16T18:26:49Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "If Australians don’t trust the RBA on inflation, the interest rate pain may have to get worse",
+            "source": "The Conversation Africa",
+            "publishedAt": "2026-11-16T18:23:03Z",
+            "sentiment": "Neutral",
+            "compound": -0.026
+          },
+          {
+            "title": "Supreme Court Leaves Custodia Bank Locked Out of Federal Reserve Payment System",
+            "source": "pymnts.com",
+            "publishedAt": "2026-11-16T18:21:54Z",
+            "sentiment": "Positive",
+            "compound": 0.557
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 29.31,
-  "trade_probability": 37.59,
+  "confirmation_score": 29.66,
+  "trade_probability": 37.8,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "REJECT",
