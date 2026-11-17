@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T16:31:16.565392+00:00",
+  "generated_at": "2026-11-17T16:45:57.563500+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.4551,
+          "change_pct": -0.7786,
           "up": false
         },
         "MSFT": {
-          "change_pct": -4.1615,
+          "change_pct": -4.4692,
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.3833,
+          "change_pct": -1.7803,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.6328,
+          "change_pct": -1.72,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26819.19,
-        "sma50": 29405.23,
-        "sma200": 28052.97
+        "last_price": 26761.75,
+        "sma50": 29404.08,
+        "sma200": 28052.68
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 34.68,
+        "current_vxn": 35.18,
         "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 28.81,
+      "score": 31.06,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.115,
-        "change_5d_pct": 2.649
+        "current_yield_pct": 5.101,
+        "change_5d_pct": 2.368
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 40.3,
+      "score": 40.71,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.47,
-        "change_5d_pct": 1.212
+        "current_dxy": 103.42,
+        "change_5d_pct": 1.161
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.76,
+      "score": 47.82,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.065,
+        "avg_compound": -0.044,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Goodbody reports cyber attack to DPC as up to 20 client email addresses accessed",
+            "source": "The Irish Times",
+            "publishedAt": "2026-11-16T16:43:13Z",
+            "sentiment": "Negative",
+            "compound": -0.477
+          },
+          {
+            "title": "QQQI Ex-Dividend Date Is Nov 18. Here’s The Math For A 32-Year-Old Who Wants $1,000 A Month",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-16T16:39:05Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "RBI reiterates listing mandate for Tata Sons, seeks compliance with norms",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-16T16:38:53Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Regulators Extend Comment Window for Bank Partner Guidance",
             "source": "pymnts.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-16T16:19:16Z",
             "sentiment": "Negative",
             "compound": -0.791
-          },
-          {
-            "title": "Broadcom Drops for Second Day as Rothschild Downgrade, Nvidia Turmoil Deepen AI Chip Selloff on Wall Street",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-11-16T16:18:16Z",
-            "sentiment": "Negative",
-            "compound": -0.361
-          },
-          {
-            "title": "SK Hynix ADR Tumbles 5.5% as Nvidia Turmoil and DRAM Price-Fixing Lawsuit Hit Korean Memory Chip Giant",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-11-16T16:17:33Z",
-            "sentiment": "Negative",
-            "compound": -0.527
-          },
-          {
-            "title": "Anthropic's Mega IPO Faces Mixed Market Signals Amid Tech Sector Volatility - www.lokmattimes.com",
-            "source": "Lokmattimes.com",
-            "publishedAt": "2026-11-16T16:16:56Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 28.87,
-  "trade_probability": 37.32,
+  "confirmation_score": 29.31,
+  "trade_probability": 37.59,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "REJECT",
