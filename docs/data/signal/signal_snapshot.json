@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T14:45:58.402974+00:00",
+  "generated_at": "2026-11-17T15:01:32.229698+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 0.0,
-      "status": "red",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.0352,
-          "up": false
+          "change_pct": 0.3281,
+          "up": true
         },
         "MSFT": {
-          "change_pct": -1.4462,
+          "change_pct": -1.6846,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.4355,
+          "change_pct": -0.4995,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.25,
-          "up": false
+          "change_pct": 0.1016,
+          "up": true
         }
       }
     },
@@ -40,18 +40,18 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27141.37,
-        "sma50": 29411.68,
-        "sma200": 28054.58
+        "last_price": 27193.05,
+        "sma50": 29412.71,
+        "sma200": 28054.84
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 10.0,
+      "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 33.48,
-        "percentile_vs_20d": 90.0
+        "current_vxn": 32.53,
+        "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 39.25,
+      "score": 39.12,
       "status": "red",
       "details": {
-        "current_dxy": 103.6,
-        "change_5d_pct": 1.344
+        "current_dxy": 103.62,
+        "change_5d_pct": 1.36
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 61.85,
+      "score": 61.56,
       "status": "yellow",
       "details": {
         "overall_sentiment": "BULLISH",
-        "avg_compound": 0.237,
+        "avg_compound": 0.231,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "21 Side Hustle Ideas You Can Run While Working Full Time (Hours, Pay and Rules)",
-            "source": "Addicted2success.com",
-            "publishedAt": "2026-11-16T14:44:43Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
-          },
-          {
-            "title": "IQSTEL Reports $313.0 Million in Nine-Month Revenue, Up 34.5% on Organic Growth",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-16T14:39:04Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "Nasdaq 100 sinks over 1.5% at open with Nvidia in focus",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-16T14:37:27Z",
+            "title": "Accredited official statistics: Consumer price inflation, UK: December 2026",
+            "source": "Www.gov.uk",
+            "publishedAt": "2026-11-16T15:01:03Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Supreme Court rejects Custodia Bank’s bid for Fed payment access",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-16T14:36:27Z",
-            "sentiment": "Neutral",
-            "compound": 0.103
-          },
-          {
-            "title": "Cypherpunk reports $306M Q3 profit as ZEC price surge lifts its books",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-16T14:34:41Z",
+            "title": "Top Business & Market Headlines Today — BL Morning Report, November 17, 2026",
+            "source": "BusinessLine",
+            "publishedAt": "2026-11-16T14:58:09Z",
             "sentiment": "Positive",
-            "compound": 0.44
+            "compound": 0.703
           },
           {
-            "title": "Bitcoin slides to $62,000 following liquidation cascade, then rebounds slightly",
+            "title": "Michael Hudson: US Wars on Russia and Iran Are Pushing the World Into a Great Depression",
+            "source": "Nakedcapitalism.com",
+            "publishedAt": "2026-11-16T14:55:35Z",
+            "sentiment": "Negative",
+            "compound": -0.494
+          },
+          {
+            "title": "Anthropic IPO guide: Everything you need to know",
             "source": "CNBC",
-            "publishedAt": "2026-11-16T14:29:19Z",
+            "publishedAt": "2026-11-16T14:55:17Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Is Plug Power Stock a Millionaire Maker or a Money Pit?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-16T14:54:29Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Mortgage Rates Today, Monday, November 16: A Little Higher",
+            "source": "NerdWallet",
+            "publishedAt": "2026-11-16T14:46:28Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,11 +146,11 @@
       }
     }
   },
-  "confirmation_score": 29.49,
-  "trade_probability": 37.69,
+  "confirmation_score": 43.4,
+  "trade_probability": 46.04,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
-    "ai_status": "REJECT",
-    "directional_bias": "AVOID"
+    "ai_status": "HOLD / MONITOR",
+    "directional_bias": "NEUTRAL"
   }
 }
