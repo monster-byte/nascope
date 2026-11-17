@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T19:31:27.373367+00:00",
+  "generated_at": "2026-11-17T19:46:00.836143+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.9259,
+          "change_pct": -0.8057,
           "up": false
         },
         "MSFT": {
-          "change_pct": -2.6346,
+          "change_pct": -2.4981,
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.7419,
+          "change_pct": -1.6042,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.8875,
+          "change_pct": -0.8759,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26880.26,
-        "sma50": 29406.46,
-        "sma200": 28053.27
+        "last_price": 26883.76,
+        "sma50": 29406.53,
+        "sma200": 28053.29
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 5.0,
+      "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 35.78,
-        "percentile_vs_20d": 95.0
+        "current_vxn": 36.09,
+        "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 30.41,
+      "score": 31.06,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.105,
-        "change_5d_pct": 2.448
+        "current_yield_pct": 5.101,
+        "change_5d_pct": 2.368
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 40.41,
+      "score": 40.32,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.46,
-        "change_5d_pct": 1.199
+        "current_dxy": 103.47,
+        "change_5d_pct": 1.21
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.88,
+      "score": 50.2,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.038,
+        "avg_compound": 0.004,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Claude AI Predicts What a December Fed Hike Could Do to Bitcoin",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-16T19:42:22Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "5 minors allege sexual abuse at orphanage",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-16T19:32:50Z",
+            "sentiment": "Negative",
+            "compound": -0.637
+          },
           {
             "title": "2kg opium seized, 2 arrested",
             "source": "The Times of India",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-16T19:19:46Z",
             "sentiment": "Positive",
             "compound": 0.25
-          },
-          {
-            "title": "Why Marvell Stock Is Down Today",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-16T19:15:49Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Nasdaq Stock Market Correction: These 6 Words From Warren Buffett Are More Relevant Than Ever",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-16T19:15:29Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 29.11,
-  "trade_probability": 37.47,
+  "confirmation_score": 29.49,
+  "trade_probability": 37.69,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "REJECT",
