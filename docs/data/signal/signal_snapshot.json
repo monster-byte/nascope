@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T17:15:56.611906+00:00",
+  "generated_at": "2026-11-17T17:31:21.800223+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.6417,
+          "change_pct": -0.571,
           "up": false
         },
         "MSFT": {
-          "change_pct": -3.6192,
+          "change_pct": -3.3125,
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.2932,
+          "change_pct": -1.2128,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.1212,
+          "change_pct": -0.8106,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26893.56,
-        "sma50": 29406.72,
-        "sma200": 28053.34
+        "last_price": 26952.34,
+        "sma50": 29407.9,
+        "sma200": 28053.63
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 35.72,
+        "current_vxn": 35.29,
         "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 31.06,
+      "score": 31.38,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.101,
-        "change_5d_pct": 2.368
+        "current_yield_pct": 5.099,
+        "change_5d_pct": 2.328
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 40.55,
+      "score": 40.79,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.44,
-        "change_5d_pct": 1.181
+        "current_dxy": 103.41,
+        "change_5d_pct": 1.151
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 41.74,
+      "score": 47.01,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.165,
-        "articles_analyzed": 25,
+        "avg_compound": -0.06,
+        "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "OCC Flags Extra Payment Checks as AI Aids Impersonators",
+            "title": "Why AMD Stock Was Sliding Today",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-16T17:28:57Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "The Nasdaq Just Entered a Correction. Are Your ETFs All Making the Same Bet?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-16T17:28:54Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Supreme Court rejects Custodia Bank’s bid for Fed master account",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-16T17:25:25Z",
+            "sentiment": "Neutral",
+            "compound": 0.103
+          },
+          {
+            "title": "Fed Chairman Kevin Warsh stresses importance of AI to economy, but says it could ‘disappoint’",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-16T17:24:50Z",
+            "sentiment": "Neutral",
+            "compound": -0.064
+          },
+          {
+            "title": "ECB Warns Rapid AI Expansion Threatens EU Financial Stability",
             "source": "pymnts.com",
-            "publishedAt": "2026-11-16T17:13:24Z",
+            "publishedAt": "2026-11-16T17:24:44Z",
+            "sentiment": "Negative",
+            "compound": -0.459
+          },
+          {
+            "title": "Fed Chairman Kevin Warsh stresses importance of AI to economy, but says it could ‘disappoint’",
+            "source": "CNBC",
+            "publishedAt": "2026-11-16T17:18:53Z",
             "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Global electrification push stalls at COP31 amid opposition from nations",
-            "source": "Business Standard",
-            "publishedAt": "2026-11-16T17:13:18Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Fed Chair Warsh warns superintelligence could bring major disruption and economic costs",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-16T17:09:48Z",
-            "sentiment": "Negative",
-            "compound": -0.493
-          },
-          {
-            "title": "New York Factories Step Up Hiring and Investment Plans as Growth Slows",
-            "source": "Breitbart News",
-            "publishedAt": "2026-11-16T17:03:04Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "Fed's Warsh says emerging technologies will have 'significant impact,' but risks need to be watched",
-            "source": "CNA",
-            "publishedAt": "2026-11-16T17:02:47Z",
-            "sentiment": "Negative",
-            "compound": -0.307
-          },
-          {
-            "title": "Fed's Warsh says emerging technologies to have 'significant impact,' but there are risks",
-            "source": "CNA",
-            "publishedAt": "2026-11-16T17:02:47Z",
-            "sentiment": "Negative",
-            "compound": -0.307
+            "compound": -0.064
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 28.75,
-  "trade_probability": 37.25,
+  "confirmation_score": 29.29,
+  "trade_probability": 37.57,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "REJECT",
