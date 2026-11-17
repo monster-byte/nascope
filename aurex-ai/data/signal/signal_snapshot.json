@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T20:16:08.217132+00:00",
+  "generated_at": "2026-11-17T20:31:14.106402+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.9697,
+          "change_pct": -0.9358,
           "up": false
         },
         "MSFT": {
-          "change_pct": -2.7827,
+          "change_pct": -2.799,
           "up": false
         },
         "NVDA": {
-          "change_pct": -2.1582,
+          "change_pct": -1.7035,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.76,
+          "change_pct": -0.6479,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26797.9,
-        "sma50": 29404.81,
-        "sma200": 28052.86
+        "last_price": 26876.79,
+        "sma50": 29406.39,
+        "sma200": 28053.26
       }
     },
     "vxn": {
@@ -50,7 +50,7 @@
       "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 36.86,
+        "current_vxn": 36.9,
         "percentile_vs_20d": 90.0
       }
     },
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 40.08,
-      "status": "yellow",
+      "score": 39.95,
+      "status": "red",
       "details": {
-        "current_dxy": 103.5,
-        "change_5d_pct": 1.24
+        "current_dxy": 103.51,
+        "change_5d_pct": 1.256
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.76,
+      "score": 48.08,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.015,
+        "avg_compound": -0.038,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Starling Founder Launches Agentic AI-Focused Bank Lockwood",
-            "source": "pymnts.com",
-            "publishedAt": "2026-11-16T20:02:41Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "1 ASX dividend stock down 21% I'd buy right now",
-            "source": "Motley Fool Australia",
-            "publishedAt": "2026-11-16T20:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Monday assorted links",
+            "title": "Plug Power Has About $134 Million in Cash and Is Burning $28 Million a Quarter. Here's Why That Matters",
             "source": "Biztoc.com",
-            "publishedAt": "2026-11-16T19:57:54Z",
+            "publishedAt": "2026-11-16T20:30:55Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": 0.026
           },
           {
-            "title": "Jim Cramer says J&J is a 'metaphor for what's working' in the stock market",
+            "title": "Mattel City Expands With New Barbie Hotel, Masters Of The Universe Interconnected Rides And More",
+            "source": "Toynewsi.net",
+            "publishedAt": "2026-11-16T20:28:58Z",
+            "sentiment": "Neutral",
+            "compound": 0.103
+          },
+          {
+            "title": "Coinbase Stock Slides as Bitcoin Hits August Lows",
             "source": "Biztoc.com",
-            "publishedAt": "2026-11-16T19:57:23Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Claude AI Predicts What a December Fed Hike Could Do to Bitcoin",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-16T19:42:22Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "5 minors allege sexual abuse at orphanage",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-16T19:32:50Z",
+            "publishedAt": "2026-11-16T20:28:07Z",
             "sentiment": "Negative",
-            "compound": -0.637
+            "compound": -0.202
+          },
+          {
+            "title": "No Bro?",
+            "source": "Lawyersgunsmoneyblog.com",
+            "publishedAt": "2026-11-16T20:27:16Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "Has America turned away from decency?",
+            "source": "Israelnationalnews.com",
+            "publishedAt": "2026-11-16T20:27:15Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Warsh stresses importance of AI to economy, but says it could 'disappoint'",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-16T20:23:09Z",
+            "sentiment": "Negative",
+            "compound": -0.586
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 29.47,
-  "trade_probability": 37.68,
+  "confirmation_score": 29.22,
+  "trade_probability": 37.53,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "REJECT",
