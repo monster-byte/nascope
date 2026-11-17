@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T05:07:23.532862+00:00",
+  "generated_at": "2026-11-17T05:15:55.540604+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 35.05,
-      "status": "red",
+      "score": 40.08,
+      "status": "yellow",
       "details": {
-        "current_dxy": 103.55,
-        "change_5d_pct": 1.869
+        "current_dxy": 103.5,
+        "change_5d_pct": 1.24
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 58.22,
+      "score": 58.52,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.164,
+        "avg_compound": 0.17,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Weekly policy watch: PM Modi's Asean visit and WPI inflation in focus",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-16T05:11:34Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Anthropic IPO: Why Google’s 13% stake and Big Tech’s $900-billion AI bet hinge on Claude maker’s success | Decoded",
             "source": "Livemint",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-16T05:01:24Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "₹50 lakh retirement savings: Calculate your monthly income at 7%, 7.5%, 8% and 8.5% without dipping into your corpus",
-            "source": "Livemint",
-            "publishedAt": "2026-11-16T05:00:06Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 26.59,
-  "trade_probability": 35.95,
+  "confirmation_score": 27.07,
+  "trade_probability": 36.24,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "REJECT",
