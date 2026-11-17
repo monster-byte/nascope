@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T15:15:55.455405+00:00",
+  "generated_at": "2026-11-17T15:31:16.635286+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.3451,
+          "change_pct": 0.0977,
           "up": true
         },
         "MSFT": {
-          "change_pct": -1.5731,
+          "change_pct": -2.5096,
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.3449,
+          "change_pct": -1.7611,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.2291,
-          "up": true
+          "change_pct": -0.1225,
+          "up": false
         }
       }
     },
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27092.06,
-        "sma50": 29410.69,
-        "sma200": 28054.33
+        "last_price": 27021.25,
+        "sma50": 29409.28,
+        "sma200": 28053.98
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 31.85,
+        "current_vxn": 32.45,
         "percentile_vs_20d": 80.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 23.35,
+      "score": 24.31,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.149,
-        "change_5d_pct": 3.331
+        "current_yield_pct": 5.143,
+        "change_5d_pct": 3.211
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 39.25,
+      "score": 39.15,
       "status": "red",
       "details": {
-        "current_dxy": 103.6,
-        "change_5d_pct": 1.344
+        "current_dxy": 103.62,
+        "change_5d_pct": 1.356
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 57.32,
+      "score": 53.59,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.146,
+        "avg_compound": 0.072,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Nasdaq 100 sinks 1.5% at open with Nvidia in focus",
+            "title": "What’s up with… Millicom, MTN, AI investments",
+            "source": "TelecomTV",
+            "publishedAt": "2026-11-16T15:26:29Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Stock a Buy After Its 8-for-1 Split?",
             "source": "Biztoc.com",
-            "publishedAt": "2026-11-16T15:08:07Z",
+            "publishedAt": "2026-11-16T15:25:28Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Stock Market Today: Nasdaq-100 Sinks 1% as Nvidia Faces Its First Earnings Without Jensen Huang",
+            "title": "If a Stock Market Crash Is Coming in 2027, Warren Buffett’s Advice Makes My Next Move Clear",
             "source": "Biztoc.com",
-            "publishedAt": "2026-11-16T15:07:35Z",
+            "publishedAt": "2026-11-16T15:25:11Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": -0.026
           },
           {
-            "title": "Robert Pattinson Is the Next James Bond: Denis Villeneuve Finds Star for His 007 Movie",
-            "source": "IndieWire",
-            "publishedAt": "2026-11-16T15:06:17Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "PepsiCo announces progress toward deforestation-free sourcing goal",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-16T15:24:54Z",
+            "sentiment": "Positive",
+            "compound": 0.421
           },
           {
-            "title": "Construction industry calls for extension to development levy waiver system",
-            "source": "The Irish Times",
-            "publishedAt": "2026-11-16T15:06:04Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "GTA VI Comes Out Thursday. She Bought 588 Take-Two Shares the Day GTA V Launched. They’re Worth $131,994",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-16T15:23:08Z",
+            "sentiment": "Positive",
+            "compound": 0.557
           },
           {
-            "title": "Nvidia Faces $108B Earnings Test in First Report Under Kress",
-            "source": "Bitcoinfoundation.org",
-            "publishedAt": "2026-11-16T15:03:42Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Accredited official statistics: Consumer price inflation, UK: December 2026",
-            "source": "Www.gov.uk",
-            "publishedAt": "2026-11-16T15:01:03Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "CG Oncology Stock Soars After Bladder Cancer Drug Cuts Recurrence Risk by 68% in Pivotal Phase 3 Trial Win",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-11-16T15:18:35Z",
+            "sentiment": "Negative",
+            "compound": -0.599
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 43.39,
-  "trade_probability": 46.03,
+  "confirmation_score": 36.43,
+  "trade_probability": 41.86,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
