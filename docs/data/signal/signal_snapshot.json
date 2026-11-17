@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T01:15:48.920516+00:00",
+  "generated_at": "2026-11-17T01:31:16.178392+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 34.4,
+      "score": 34.06,
       "status": "red",
       "details": {
-        "current_dxy": 103.63,
-        "change_5d_pct": 1.95
+        "current_dxy": 103.68,
+        "change_5d_pct": 1.992
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.73,
+      "score": 52.78,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.035,
+        "avg_compound": 0.056,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Bitcoin falls below $62,000 for first time since July, then recovers to $65,000",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-16T01:28:27Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Corporate India posts 26% profit growth as revenue hits 16-quarter high",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-16T01:20:44Z",
+            "sentiment": "Positive",
+            "compound": 0.67
+          },
           {
             "title": "Sensex today | Stock Market Live Updates: Index Outlook: Staying firmly bullish",
             "source": "BusinessLine",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-16T00:57:35Z",
             "sentiment": "Positive",
             "compound": 0.527
-          },
-          {
-            "title": "Tata Motors PV's domestic business shines, but JLR weakness clouds growth outlook",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-16T00:55:34Z",
-            "sentiment": "Neutral",
-            "compound": -0.077
-          },
-          {
-            "title": "Fed rate hikes could stretch into 2027 as darker threats loom",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-16T00:24:18Z",
-            "sentiment": "Negative",
-            "compound": -0.572
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 25.95,
-  "trade_probability": 35.57,
+  "confirmation_score": 26.01,
+  "trade_probability": 35.61,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "REJECT",
