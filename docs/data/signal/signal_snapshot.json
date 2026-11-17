@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T18:01:37.190077+00:00",
+  "generated_at": "2026-11-17T18:16:03.104048+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.9584,
+          "change_pct": -0.9075,
           "up": false
         },
         "MSFT": {
-          "change_pct": -3.7019,
+          "change_pct": -3.4692,
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.5562,
+          "change_pct": -1.6633,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.6827,
+          "change_pct": -0.8797,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26854.16,
-        "sma50": 29405.93,
-        "sma200": 28053.14
+        "last_price": 26865.52,
+        "sma50": 29406.16,
+        "sma200": 28053.2
       }
     },
     "vxn": {
@@ -50,7 +50,7 @@
       "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 35.23,
+        "current_vxn": 35.28,
         "percentile_vs_20d": 95.0
       }
     },
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 40.84,
+      "score": 41.07,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.4,
-        "change_5d_pct": 1.144
+        "current_dxy": 103.37,
+        "change_5d_pct": 1.116
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.55,
+      "score": 50.56,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.029,
+        "avg_compound": 0.011,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Why the wheels are falling off the AI investment boom",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-11-16T18:00:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.153
-          },
-          {
-            "title": "Retail Sales and Fed Minutes Put Bitcoin’s Rate Outlook Back in Focus",
-            "source": "newsBTC",
-            "publishedAt": "2026-11-16T18:00:00Z",
+            "title": "Former NBA Player Carlos Boozer of Impeccable: 5 Questions",
+            "source": "Commercial Observer",
+            "publishedAt": "2026-11-16T18:15:37Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Rudd-era mining tax could have boosted budget by $135b",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-11-16T18:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.361
-          },
-          {
-            "title": "Mumbai airport row: Airlines send another reminder to govt, flag uncertainty over network planning - CNBC TV18",
-            "source": "CNBCTV18",
-            "publishedAt": "2026-11-16T17:58:44Z",
-            "sentiment": "Negative",
-            "compound": -0.34
-          },
-          {
-            "title": "Global Mofy Stock Nearly Triples as Investors Eye Its Latest AI Investment",
+            "title": "Fed Chairman Kevin Warsh stresses importance of AI to economy, but says it could ‘disappoint’",
             "source": "Biztoc.com",
-            "publishedAt": "2026-11-16T17:55:45Z",
+            "publishedAt": "2026-11-16T18:14:03Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": -0.064
           },
           {
-            "title": "Federal Reserve considers AI’s impact on economy, potential rate hikes",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-16T17:55:42Z",
+            "title": "Sam Bankman-Fried’s former employer Jane Street poised for $35 billion windfall from purchase of Anthropic shares in FTX bankruptcy",
+            "source": "Fortune",
+            "publishedAt": "2026-11-16T18:10:50Z",
+            "sentiment": "Positive",
+            "compound": 0.494
+          },
+          {
+            "title": "Global shares decline as AI and Nvidia jitters send shock waves",
+            "source": "The Irish Times",
+            "publishedAt": "2026-11-16T18:08:04Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": -0.103
+          },
+          {
+            "title": "India's consumption story has a missing middle: The widening gap between growth and purchasing power",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-16T18:07:56Z",
+            "sentiment": "Neutral",
+            "compound": 0.103
+          },
+          {
+            "title": "Fed Chair Kevin Warsh lays out best-case scenario from AI, while also warning about ‘costly’ risks",
+            "source": "New York Post",
+            "publishedAt": "2026-11-16T18:07:15Z",
+            "sentiment": "Negative",
+            "compound": -0.542
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 29.11,
-  "trade_probability": 37.47,
+  "confirmation_score": 29.31,
+  "trade_probability": 37.59,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "REJECT",
