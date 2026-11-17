@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T19:15:55.683595+00:00",
+  "generated_at": "2026-11-17T19:31:27.373367+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.899,
+          "change_pct": -0.9259,
           "up": false
         },
         "MSFT": {
-          "change_pct": -2.5865,
+          "change_pct": -2.6346,
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.0567,
+          "change_pct": -1.7419,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.7059,
+          "change_pct": -0.8875,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26941.62,
-        "sma50": 29407.68,
-        "sma200": 28053.58
+        "last_price": 26880.26,
+        "sma50": 29406.46,
+        "sma200": 28053.27
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 10.0,
+      "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 35.88,
-        "percentile_vs_20d": 90.0
+        "current_vxn": 35.78,
+        "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 30.73,
+      "score": 30.41,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.103,
-        "change_5d_pct": 2.408
+        "current_yield_pct": 5.105,
+        "change_5d_pct": 2.448
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 40.43,
+      "score": 40.41,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.45,
-        "change_5d_pct": 1.196
+        "current_dxy": 103.46,
+        "change_5d_pct": 1.199
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.64,
+      "score": 51.88,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.033,
+        "avg_compound": 0.038,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "2kg opium seized, 2 arrested",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-16T19:27:12Z",
+            "sentiment": "Negative",
+            "compound": -0.477
+          },
+          {
+            "title": "(PR) AMD-Powered Lux Supercomputer Opens to Scientific Users at Oak Ridge",
+            "source": "Techpowerup.com",
+            "publishedAt": "2026-11-16T19:23:59Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Spanberger Wants Power Giants To Pay Customers $6.5 Billion Before They Can Merge",
+            "source": "The Daily Caller",
+            "publishedAt": "2026-11-16T19:20:05Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
+          {
+            "title": "Fed’s Hammack favors gradual rate hikes amid inflation concerns",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-16T19:19:46Z",
+            "sentiment": "Positive",
+            "compound": 0.25
+          },
           {
             "title": "Why Marvell Stock Is Down Today",
             "source": "Biztoc.com",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-16T19:15:29Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Tyson, Starbucks Lead The S&P 500, Nasdaq 100 As Investors Play Defense",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-16T19:11:51Z",
-            "sentiment": "Positive",
-            "compound": 0.44
-          },
-          {
-            "title": "Business investment: Why confident firms are still holding back spending",
-            "source": "New Zealand Herald",
-            "publishedAt": "2026-11-16T19:07:36Z",
-            "sentiment": "Positive",
-            "compound": 0.494
-          },
-          {
-            "title": "This Anthropic proxy play is getting traders' attention – here's where they see it going",
-            "source": "CNBC",
-            "publishedAt": "2026-11-16T19:06:11Z",
-            "sentiment": "Positive",
-            "compound": 0.34
-          },
-          {
-            "title": "Godzilla Minus Zero Earns US$8 Million in 73% Drop at U.S. Box Office, Passes US$100 Million Worldwide",
-            "source": "Anime News Network",
-            "publishedAt": "2026-11-16T19:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.273
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 29.58,
-  "trade_probability": 37.75,
+  "confirmation_score": 29.11,
+  "trade_probability": 37.47,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "REJECT",
