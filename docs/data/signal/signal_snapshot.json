@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T17:01:30.058435+00:00",
+  "generated_at": "2026-11-17T17:15:56.611906+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.5541,
+          "change_pct": -0.6417,
           "up": false
         },
         "MSFT": {
-          "change_pct": -3.8663,
+          "change_pct": -3.6192,
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.7483,
+          "change_pct": -1.2932,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.4013,
+          "change_pct": -1.1212,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26795.01,
-        "sma50": 29404.75,
-        "sma200": 28052.85
+        "last_price": 26893.56,
+        "sma50": 29406.72,
+        "sma200": 28053.34
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 36.27,
+        "current_vxn": 35.72,
         "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 31.7,
+      "score": 31.06,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.097,
-        "change_5d_pct": 2.288
+        "current_yield_pct": 5.101,
+        "change_5d_pct": 2.368
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 40.63,
+      "score": 40.55,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.43,
-        "change_5d_pct": 1.172
+        "current_dxy": 103.44,
+        "change_5d_pct": 1.181
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.01,
+      "score": 41.74,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.1,
+        "avg_compound": -0.165,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Nvidia Stock: Focus Shifts To China Chip Smuggling",
-            "source": "Investor's Business Daily",
-            "publishedAt": "2026-11-16T17:00:51Z",
-            "sentiment": "Negative",
-            "compound": -0.477
-          },
-          {
-            "title": "TINA BROWN: When the Chips are Down...",
-            "source": "Substack.com",
-            "publishedAt": "2026-11-16T17:00:15Z",
+            "title": "OCC Flags Extra Payment Checks as AI Aids Impersonators",
+            "source": "pymnts.com",
+            "publishedAt": "2026-11-16T17:13:24Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Warsh, Opening Remarks",
-            "source": "Federalreserve.gov",
-            "publishedAt": "2026-11-16T17:00:00Z",
+            "title": "Global electrification push stalls at COP31 amid opposition from nations",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-16T17:13:18Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Iran braces for natural gas shortages during winter energy imbalance",
-            "source": "Al Jazeera English",
-            "publishedAt": "2026-11-16T16:58:46Z",
-            "sentiment": "Positive",
-            "compound": 0.459
-          },
-          {
-            "title": "Bitcoin’s drop to $62,000 driven by futures capitulation, Hilbert Group says",
+            "title": "Fed Chair Warsh warns superintelligence could bring major disruption and economic costs",
             "source": "Crypto Briefing",
-            "publishedAt": "2026-11-16T16:56:48Z",
+            "publishedAt": "2026-11-16T17:09:48Z",
             "sentiment": "Negative",
-            "compound": -0.273
+            "compound": -0.493
           },
           {
-            "title": "The Social Security Timing Decision That Could Cost You $100,000 - State Street SPDR S&P 500 ETF Trust…",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-16T16:54:53Z",
+            "title": "New York Factories Step Up Hiring and Investment Plans as Growth Slows",
+            "source": "Breitbart News",
+            "publishedAt": "2026-11-16T17:03:04Z",
             "sentiment": "Positive",
-            "compound": 0.34
+            "compound": 0.382
+          },
+          {
+            "title": "Fed's Warsh says emerging technologies will have 'significant impact,' but risks need to be watched",
+            "source": "CNA",
+            "publishedAt": "2026-11-16T17:02:47Z",
+            "sentiment": "Negative",
+            "compound": -0.307
+          },
+          {
+            "title": "Fed's Warsh says emerging technologies to have 'significant impact,' but there are risks",
+            "source": "CNA",
+            "publishedAt": "2026-11-16T17:02:47Z",
+            "sentiment": "Negative",
+            "compound": -0.307
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 29.14,
-  "trade_probability": 37.48,
+  "confirmation_score": 28.75,
+  "trade_probability": 37.25,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "REJECT",
