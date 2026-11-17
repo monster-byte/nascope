@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T14:31:17.258778+00:00",
+  "generated_at": "2026-11-17T14:45:58.402974+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
+      "score": 0.0,
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.3618,
+          "change_pct": -0.0352,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.9125,
+          "change_pct": -1.4462,
           "up": false
         },
         "NVDA": {
-          "change_pct": 0.4118,
-          "up": true
+          "change_pct": -0.4355,
+          "up": false
         },
         "AMZN": {
-          "change_pct": -0.0993,
+          "change_pct": -0.25,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27204.66,
-        "sma50": 29412.94,
-        "sma200": 28054.9
+        "last_price": 27141.37,
+        "sma50": 29411.68,
+        "sma200": 28054.58
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 23.35,
+      "score": 23.99,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.149,
-        "change_5d_pct": 3.331
+        "current_yield_pct": 5.145,
+        "change_5d_pct": 3.251
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 39.19,
+      "score": 39.25,
       "status": "red",
       "details": {
-        "current_dxy": 103.61,
-        "change_5d_pct": 1.352
+        "current_dxy": 103.6,
+        "change_5d_pct": 1.344
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 58.07,
+      "score": 61.85,
       "status": "yellow",
       "details": {
-        "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.161,
-        "articles_analyzed": 25,
+        "overall_sentiment": "BULLISH",
+        "avg_compound": 0.237,
+        "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "21 Side Hustle Ideas You Can Run While Working Full Time (Hours, Pay and Rules)",
+            "source": "Addicted2success.com",
+            "publishedAt": "2026-11-16T14:44:43Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
+          {
+            "title": "IQSTEL Reports $313.0 Million in Nine-Month Revenue, Up 34.5% on Organic Growth",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-16T14:39:04Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "Nasdaq 100 sinks over 1.5% at open with Nvidia in focus",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-16T14:37:27Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Supreme Court rejects Custodia Bank’s bid for Fed payment access",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-16T14:36:27Z",
+            "sentiment": "Neutral",
+            "compound": 0.103
+          },
+          {
+            "title": "Cypherpunk reports $306M Q3 profit as ZEC price surge lifts its books",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-16T14:34:41Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
           {
             "title": "Bitcoin slides to $62,000 following liquidation cascade, then rebounds slightly",
             "source": "CNBC",
             "publishedAt": "2026-11-16T14:29:19Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "How much interest will a $10,000 CD account earn by November 2027?",
-            "source": "CBS News",
-            "publishedAt": "2026-11-16T14:23:01Z",
-            "sentiment": "Positive",
-            "compound": 0.459
-          },
-          {
-            "title": "Gen Z and millennials will make up half of holiday spending just in time for the great consumer tradedown",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-16T14:22:11Z",
-            "sentiment": "Positive",
-            "compound": 0.778
-          },
-          {
-            "title": "Jim Cramer's top 10 things to watch in the stock market Monday",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-16T14:21:46Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "(PR) Penguin Solutions Unveils Industry's First Photonics-Based HBM-Class Memory Appliance",
-            "source": "Techpowerup.com",
-            "publishedAt": "2026-11-16T14:21:39Z",
-            "sentiment": "Neutral",
-            "compound": 0.178
-          },
-          {
-            "title": "Brave AI: What Specific Monetary Reforms Does Richard C. Cook Advocate?",
-            "source": "Globalresearch.ca",
-            "publishedAt": "2026-11-16T14:16:12Z",
-            "sentiment": "Positive",
-            "compound": 0.527
           }
         ]
       }
@@ -146,11 +146,11 @@
       }
     }
   },
-  "confirmation_score": 35.81,
-  "trade_probability": 41.49,
+  "confirmation_score": 29.49,
+  "trade_probability": 37.69,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
-    "ai_status": "HOLD / MONITOR",
-    "directional_bias": "NEUTRAL"
+    "ai_status": "REJECT",
+    "directional_bias": "AVOID"
   }
 }
