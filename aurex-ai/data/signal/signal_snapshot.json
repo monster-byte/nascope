@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T19:46:00.836143+00:00",
+  "generated_at": "2026-11-17T20:01:27.439694+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.8057,
+          "change_pct": -1.0969,
           "up": false
         },
         "MSFT": {
-          "change_pct": -2.4981,
+          "change_pct": -2.7548,
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.6042,
+          "change_pct": -2.5774,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.8759,
+          "change_pct": -1.1115,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26883.76,
-        "sma50": 29406.53,
-        "sma200": 28053.29
+        "last_price": 26762.66,
+        "sma50": 29404.1,
+        "sma200": 28052.69
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 10.0,
+      "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 36.09,
-        "percentile_vs_20d": 90.0
+        "current_vxn": 36.32,
+        "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 31.06,
+      "score": 31.7,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.101,
-        "change_5d_pct": 2.368
+        "current_yield_pct": 5.097,
+        "change_5d_pct": 2.288
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 40.32,
+      "score": 40.3,
       "status": "yellow",
       "details": {
         "current_dxy": 103.47,
-        "change_5d_pct": 1.21
+        "change_5d_pct": 1.212
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.2,
+      "score": 49.74,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.004,
+        "avg_compound": -0.005,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "1 ASX dividend stock down 21% I'd buy right now",
+            "source": "Motley Fool Australia",
+            "publishedAt": "2026-11-16T20:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Monday assorted links",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-16T19:57:54Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Jim Cramer says J&J is a 'metaphor for what's working' in the stock market",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-16T19:57:23Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Claude AI Predicts What a December Fed Hike Could Do to Bitcoin",
             "source": "Biztoc.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-16T19:27:12Z",
             "sentiment": "Negative",
             "compound": -0.477
-          },
-          {
-            "title": "(PR) AMD-Powered Lux Supercomputer Opens to Scientific Users at Oak Ridge",
-            "source": "Techpowerup.com",
-            "publishedAt": "2026-11-16T19:23:59Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Spanberger Wants Power Giants To Pay Customers $6.5 Billion Before They Can Merge",
-            "source": "The Daily Caller",
-            "publishedAt": "2026-11-16T19:20:05Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
-          },
-          {
-            "title": "Fed’s Hammack favors gradual rate hikes amid inflation concerns",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-16T19:19:46Z",
-            "sentiment": "Positive",
-            "compound": 0.25
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 29.49,
-  "trade_probability": 37.69,
+  "confirmation_score": 29.08,
+  "trade_probability": 37.45,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "REJECT",
