@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T20:31:14.106402+00:00",
+  "generated_at": "2026-11-17T20:45:57.127200+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.9358,
+          "change_pct": -0.7916,
           "up": false
         },
         "MSFT": {
-          "change_pct": -2.799,
+          "change_pct": -2.751,
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.7035,
+          "change_pct": -1.553,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.6479,
+          "change_pct": -0.5398,
           "up": false
         }
       }
@@ -40,18 +40,18 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26876.79,
-        "sma50": 29406.39,
-        "sma200": 28053.26
+        "last_price": 26901.62,
+        "sma50": 29406.88,
+        "sma200": 28053.38
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 10.0,
+      "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 36.9,
-        "percentile_vs_20d": 90.0
+        "current_vxn": 36.41,
+        "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 39.95,
-      "status": "red",
+      "score": 40.09,
+      "status": "yellow",
       "details": {
-        "current_dxy": 103.51,
-        "change_5d_pct": 1.256
+        "current_dxy": 103.5,
+        "change_5d_pct": 1.239
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.08,
+      "score": 47.46,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.038,
+        "avg_compound": -0.051,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Trump Says “I Don’t Take Any Responsibility” for Ground Stop That Stranded 1.5M",
+            "source": "Truthout",
+            "publishedAt": "2026-11-16T20:45:46Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
           {
             "title": "Plug Power Has About $134 Million in Cash and Is Burning $28 Million a Quarter. Here's Why That Matters",
             "source": "Biztoc.com",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-16T20:27:15Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Warsh stresses importance of AI to economy, but says it could 'disappoint'",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-16T20:23:09Z",
-            "sentiment": "Negative",
-            "compound": -0.586
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 29.22,
-  "trade_probability": 37.53,
+  "confirmation_score": 28.73,
+  "trade_probability": 37.24,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "REJECT",
