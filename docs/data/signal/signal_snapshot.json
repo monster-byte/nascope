@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T05:15:55.540604+00:00",
+  "generated_at": "2026-11-17T05:31:14.968863+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.7204,
+          "change_pct": -0.7513,
           "up": false
         },
         "MSFT": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 40.08,
+      "score": 40.13,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.5,
-        "change_5d_pct": 1.24
+        "current_dxy": 103.49,
+        "change_5d_pct": 1.233
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 58.52,
+      "score": 60.0,
       "status": "yellow",
       "details": {
-        "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.17,
+        "overall_sentiment": "BULLISH",
+        "avg_compound": 0.2,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "3 Canadian Penny Stocks With Up To 28% Earnings Growth",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-16T05:28:49Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "India to benefit from unwinding of AI trade, says CEA Anantha Nageswaran",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-16T05:18:10Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
           {
             "title": "Weekly policy watch: PM Modi's Asean visit and WPI inflation in focus",
             "source": "Business Standard",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-16T05:04:06Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Lessons From the Watergate Babies for the ‘No Kings’ Congress",
-            "source": "Foreign Policy",
-            "publishedAt": "2026-11-16T05:01:24Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Lessons From the Watergate Babies for the ‘No Kings’ Congress",
-            "source": "Foreign Policy",
-            "publishedAt": "2026-11-16T05:01:24Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 27.07,
-  "trade_probability": 36.24,
+  "confirmation_score": 27.21,
+  "trade_probability": 36.33,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "REJECT",
