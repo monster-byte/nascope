@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T07:31:09.363088+00:00",
+  "generated_at": "2026-11-17T07:45:57.572987+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.7513,
+          "change_pct": -0.7204,
           "up": false
         },
         "MSFT": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 40.02,
+      "score": 40.0,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.5,
-        "change_5d_pct": 1.247
+        "current_dxy": 103.51,
+        "change_5d_pct": 1.25
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.05,
+      "score": 51.75,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.019,
+        "avg_compound": 0.035,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Pre-budget consultation with stakeholder begins, economists project growth around 7.5%",
+            "source": "BusinessLine",
+            "publishedAt": "2026-11-16T07:37:58Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "Global banks set to enter 2027 on strong footing, says Moody's report",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-16T07:37:35Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
           {
             "title": "Mahanadi IPO explained: Valuation, reserves, risks and Coal India strategy",
             "source": "Business Standard",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-16T07:14:53Z",
             "sentiment": "Negative",
             "compound": -0.69
-          },
-          {
-            "title": "Lakefront Initiates New €50 Million Share Repurchase Program Following Completion of Initial Share Repurchase Program",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-16T07:14:50Z",
-            "sentiment": "Positive",
-            "compound": 0.527
-          },
-          {
-            "title": "Global banks set to enter 2027 on strong footing, Moody's report says",
-            "source": "CNA",
-            "publishedAt": "2026-11-16T07:12:40Z",
-            "sentiment": "Positive",
-            "compound": 0.511
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 26.21,
-  "trade_probability": 35.73,
+  "confirmation_score": 26.45,
+  "trade_probability": 35.87,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "REJECT",
