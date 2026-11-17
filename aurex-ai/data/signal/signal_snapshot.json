@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T11:15:55.876523+00:00",
+  "generated_at": "2026-11-17T11:31:10.663007+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 39.22,
+      "score": 39.43,
       "status": "red",
       "details": {
-        "current_dxy": 103.61,
-        "change_5d_pct": 1.348
+        "current_dxy": 103.58,
+        "change_5d_pct": 1.322
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.2,
+      "score": 54.34,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.124,
+        "avg_compound": 0.087,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Only 14 states pay pensions regularly – PenCom",
+            "source": "The Punch",
+            "publishedAt": "2026-11-16T11:30:52Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
+          {
+            "title": "How the Fannie Mae and Freddie Mac Privatization Fell Apart",
+            "source": "Commercial Observer",
+            "publishedAt": "2026-11-16T11:30:45Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "The ‘war room’ fighting to reinstate Jensen Huang at Nvidia will have to overcome congressional probes and opposition from the treasury secretary",
+            "source": "Fortune",
+            "publishedAt": "2026-11-16T11:29:21Z",
+            "sentiment": "Neutral",
+            "compound": -0.178
+          },
+          {
+            "title": "N52,500 minimum pension: PenCom seeks private sector funding",
+            "source": "The Punch",
+            "publishedAt": "2026-11-16T11:22:43Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Superdry eyes return to London stock market in 2027",
             "source": "Fashionunited.com",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-16T11:06:24Z",
             "sentiment": "Positive",
             "compound": 0.637
-          },
-          {
-            "title": "Grocery inflation rises to 6% in 12 weeks to November",
-            "source": "RTE",
-            "publishedAt": "2026-11-16T11:01:32Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "How Milei Won",
-            "source": "Reason",
-            "publishedAt": "2026-11-16T11:00:11Z",
-            "sentiment": "Positive",
-            "compound": 0.572
-          },
-          {
-            "title": "Britain Has Committed £35 Billion to Ukraine While Its Own Economy Deteriorates",
-            "source": "Activistpost.com",
-            "publishedAt": "2026-11-16T11:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.273
-          },
-          {
-            "title": "Corporations Are Using Trump’s Tariff Refunds on Bonuses Rather Than Reimbursing Consumers",
-            "source": "ProPublica",
-            "publishedAt": "2026-11-16T11:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.557
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 33.53,
-  "trade_probability": 40.12,
+  "confirmation_score": 33.38,
+  "trade_probability": 40.03,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
