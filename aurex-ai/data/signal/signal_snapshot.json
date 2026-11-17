@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T11:01:28.597729+00:00",
+  "generated_at": "2026-11-17T11:15:55.876523+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 39.37,
+      "score": 39.22,
       "status": "red",
       "details": {
-        "current_dxy": 103.59,
-        "change_5d_pct": 1.328
+        "current_dxy": 103.61,
+        "change_5d_pct": 1.348
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.9,
+      "score": 56.2,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.118,
+        "avg_compound": 0.124,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Superdry eyes return to London stock market in 2027",
+            "source": "Fashionunited.com",
+            "publishedAt": "2026-11-16T11:08:28Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "If the Stock Market Crashes, Warren Buffett Says This is the Best Move Investors Can Make",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-16T11:06:24Z",
+            "sentiment": "Positive",
+            "compound": 0.637
+          },
+          {
+            "title": "Grocery inflation rises to 6% in 12 weeks to November",
+            "source": "RTE",
+            "publishedAt": "2026-11-16T11:01:32Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "How Milei Won",
             "source": "Reason",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-16T11:00:00Z",
             "sentiment": "Positive",
             "compound": 0.557
-          },
-          {
-            "title": "My Sister Is Doing Gig Work for the “Freedom.” But I’m the One Being Tied Down.",
-            "source": "Slate Magazine",
-            "publishedAt": "2026-11-16T11:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Tech Stocks Slide as Nvidia, Anthropic Tests Await: Markets Wrap - Bloomberg.com",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-11-16T10:52:16Z",
-            "sentiment": "Neutral",
-            "compound": 0.103
-          },
-          {
-            "title": "The AI boom is headed into a pressure cooker of a week",
-            "source": "Business Insider",
-            "publishedAt": "2026-11-16T10:50:01Z",
-            "sentiment": "Negative",
-            "compound": -0.296
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 33.52,
-  "trade_probability": 40.11,
+  "confirmation_score": 33.53,
+  "trade_probability": 40.12,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
