@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T04:31:17.511763+00:00",
+  "generated_at": "2026-11-17T04:45:57.200156+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.7204,
+          "change_pct": -0.7513,
           "up": false
         },
         "MSFT": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 35.44,
+      "score": 35.36,
       "status": "red",
       "details": {
-        "current_dxy": 103.5,
-        "change_5d_pct": 1.82
+        "current_dxy": 103.51,
+        "change_5d_pct": 1.83
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.22,
+      "score": 55.63,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.124,
+        "avg_compound": 0.113,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "India deserves re-rating; Sensex may hit 95,000 by Dec 2027: Morgan Stanley",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-16T04:41:26Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "BOJ's Takata calls for swift hike in rates to 'good' position",
             "source": "CNA",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-16T04:19:18Z",
             "sentiment": "Positive",
             "compound": 0.681
-          },
-          {
-            "title": "Nifty, Sensex open higher despite Wall Street selloff; TMPV leads losses",
-            "source": "BusinessLine",
-            "publishedAt": "2026-11-16T04:14:55Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 26.44,
-  "trade_probability": 35.86,
+  "confirmation_score": 26.38,
+  "trade_probability": 35.83,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "REJECT",
