@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T02:45:57.941656+00:00",
+  "generated_at": "2026-11-18T03:01:29.655467+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.4975,
+          "change_pct": -0.5032,
           "up": false
         },
         "MSFT": {
@@ -25,11 +25,11 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.4355,
+          "change_pct": -0.4451,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.3814,
+          "change_pct": -0.3852,
           "up": false
         }
       }
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 39.18,
+      "score": 39.29,
       "status": "red",
       "details": {
-        "current_dxy": 103.61,
-        "change_5d_pct": 1.353
+        "current_dxy": 103.6,
+        "change_5d_pct": 1.338
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.85,
+      "score": 51.45,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.057,
+        "avg_compound": 0.029,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "US moves to block China’s remote access to AI chips amid Nvidia scandal",
+            "source": "Al Jazeera English",
+            "publishedAt": "2026-11-17T02:52:56Z",
+            "sentiment": "Negative",
+            "compound": -0.7
+          },
           {
             "title": "Hide and seek",
             "source": "The Times of India",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-17T02:25:17Z",
             "sentiment": "Positive",
             "compound": 0.746
-          },
-          {
-            "title": "ASEAN social security meets on ageing and digitalisation",
-            "source": "The Straits Times",
-            "publishedAt": "2026-11-17T02:25:00Z",
-            "sentiment": "Positive",
-            "compound": 0.34
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 29.13,
-  "trade_probability": 37.48,
+  "confirmation_score": 29.02,
+  "trade_probability": 37.41,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "REJECT",
