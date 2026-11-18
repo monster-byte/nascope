@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T07:31:08.850110+00:00",
+  "generated_at": "2026-11-18T07:45:49.815393+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.5032,
+          "change_pct": -0.4975,
           "up": false
         },
         "MSFT": {
@@ -25,11 +25,11 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.4451,
+          "change_pct": -0.4355,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.3852,
+          "change_pct": -0.3814,
           "up": false
         }
       }
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.88,
+      "score": 43.63,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.7,
-        "change_5d_pct": 0.765
+        "current_dxy": 103.73,
+        "change_5d_pct": 0.796
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.33,
+      "score": 51.22,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.027,
-        "articles_analyzed": 23,
+        "avg_compound": 0.024,
+        "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Nvidia rules out Huang comeback amid return campaign",
+            "source": "RTE",
+            "publishedAt": "2026-11-17T07:39:48Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Bitcoin’s Next Big Move Depends on Macro Conditions, Says Jordi Visser: Wall Street Investor ‘Surprised’ BTC…",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-17T07:39:44Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Japan Stocks Extend Sharp Selloff as Nikkei Falls Below 59,000",
+            "source": "Newsonjapan.com",
+            "publishedAt": "2026-11-17T07:37:09Z",
+            "sentiment": "Neutral",
+            "compound": 0.178
+          },
+          {
+            "title": "Sensex zooms 800 pts intraday, Nifty tops 25,500: 5 factors behind bull run",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-17T07:34:41Z",
+            "sentiment": "Positive",
+            "compound": 0.718
+          },
+          {
+            "title": "Gold lingers near more-than-one-year low on Fed hike bets",
+            "source": "BusinessLine",
+            "publishedAt": "2026-11-17T07:32:35Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
           {
             "title": "Happily Ever After Needs a Plan: Setting Financial Goals as a Newly Married Couple",
             "source": "Rocknrollbride.com",
             "publishedAt": "2026-11-17T07:30:00Z",
             "sentiment": "Positive",
             "compound": 0.557
-          },
-          {
-            "title": "UK wage growth slows to 3.5% in three months to September",
-            "source": "RTE",
-            "publishedAt": "2026-11-17T07:25:44Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "Jobs market stabilises as unemployment eases... but wages struggle against rising inflation",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-11-17T07:19:31Z",
-            "sentiment": "Negative",
-            "compound": -0.502
-          },
-          {
-            "title": "Anthropic debuts to skeptics and dogged believers: Mike Dolan",
-            "source": "Economictimes.com",
-            "publishedAt": "2026-11-17T07:11:19Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
-          },
-          {
-            "title": "Europe set to open down ahead of economic reports",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-17T07:09:32Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-17T07:09:10Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 29.42,
-  "trade_probability": 37.65,
+  "confirmation_score": 29.39,
+  "trade_probability": 37.63,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "REJECT",
