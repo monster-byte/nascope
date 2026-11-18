@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T13:01:29.605683+00:00",
+  "generated_at": "2026-11-18T13:16:01.825783+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.41,
+      "score": 42.98,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.89,
-        "change_5d_pct": 0.949
+        "current_dxy": 103.81,
+        "change_5d_pct": 0.877
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.12,
+      "score": 49.31,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.002,
+        "avg_compound": -0.014,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Investors look to Nvidia's earnings and Anthropic's IPO to refresh the tech rally",
+            "source": "CNBC",
+            "publishedAt": "2026-11-17T13:11:40Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Nasdaq futures rise as tech stocks firm up ahead of Nvidia results, Anthropic IPO: Stock Market Live Updates",
+            "source": "Economictimes.com",
+            "publishedAt": "2026-11-17T13:07:43Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Moment shoppers battle for bottled water with sales up 67% after 'Be Ready' campaign launch",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-11-17T13:05:59Z",
+            "sentiment": "Neutral",
+            "compound": -0.026
+          },
           {
             "title": "CNET Survey: $75 Billion in Holiday Packages Could Be Vulnerable to Lurking Porch Pirates",
             "source": "CNET",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-17T12:59:34Z",
             "sentiment": "Negative",
             "compound": -0.625
-          },
-          {
-            "title": "David Tepper Sold Every Broadcom Share Last Quarter and Bought More Micron and Nvidia. Broadcom Has Held Up Better Since",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-17T12:59:30Z",
-            "sentiment": "Positive",
-            "compound": 0.625
-          },
-          {
-            "title": "JPMorgan upgrades Turkish stocks to ‘overweight’",
-            "source": "Hurriyet Daily News",
-            "publishedAt": "2026-11-17T12:58:13Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Morning Minute: The CFTC Officially Greenlights Perps in the US, Starting with Backpack",
-            "source": "Decrypt",
-            "publishedAt": "2026-11-17T12:56:24Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 35.93,
-  "trade_probability": 41.56,
+  "confirmation_score": 35.9,
+  "trade_probability": 41.54,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
