@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T20:01:34.577411+00:00",
+  "generated_at": "2026-11-18T20:15:59.565871+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.4989,
+          "change_pct": 0.5046,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.3982,
+          "change_pct": -0.412,
           "up": false
         },
         "NVDA": {
-          "change_pct": -6.6289,
+          "change_pct": -6.5234,
           "up": false
         },
         "AMZN": {
-          "change_pct": 3.0704,
+          "change_pct": 2.9914,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27057.88,
-        "sma50": 29361.61,
-        "sma200": 28062.48
+        "last_price": 27086.89,
+        "sma50": 29362.19,
+        "sma200": 28062.62
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 20.0,
+      "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 33.69,
-        "percentile_vs_20d": 80.0
+        "current_vxn": 33.71,
+        "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 39.44,
+      "score": 39.12,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.064,
-        "change_5d_pct": 1.321
+        "current_yield_pct": 5.066,
+        "change_5d_pct": 1.361
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.42,
+      "score": 42.68,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.89,
-        "change_5d_pct": 0.947
+        "current_dxy": 103.85,
+        "change_5d_pct": 0.914
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.42,
+      "score": 46.1,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.012,
+        "avg_compound": -0.078,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Live: Nvidia set to announce earning as Jensen Huang speaks",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-11-17T19:56:42Z",
+            "title": "Anthropic's IPO set for blastoff this week in key test for AI boom",
+            "source": "CBS News",
+            "publishedAt": "2026-11-17T20:15:48Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Fed Says Tokenization Still Needs Traditional Payments",
-            "source": "pymnts.com",
-            "publishedAt": "2026-11-17T19:55:59Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Gemini cuts expenses for a third straight quarter as revenue slides",
+            "title": "Dow drops sharply as Wall Street braces for Nvidia earnings",
             "source": "Crypto Briefing",
-            "publishedAt": "2026-11-17T19:53:41Z",
-            "sentiment": "Neutral",
-            "compound": -0.077
-          },
-          {
-            "title": "Suspected Chinese spy Alice Huang’s husband Kang Wei ran state-backed AI empire: report",
-            "source": "New York Post",
-            "publishedAt": "2026-11-17T19:52:30Z",
-            "sentiment": "Negative",
-            "compound": -0.226
-          },
-          {
-            "title": "Federal Reserve's Cook refuses to participate in White House hearing - ABC News",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-17T19:52:28Z",
+            "publishedAt": "2026-11-17T20:10:08Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Vance’s midterm blame game hits snag as Trump’s own Israel ambassador disputes key claim",
-            "source": "Fox News",
-            "publishedAt": "2026-11-17T19:52:03Z",
+            "title": "Strive CEO Matt Cole says SATS preferred stock keeps Bitcoin buys going during selloff",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-17T20:09:14Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Reuters Journalists Overwhelmingly Authorize Strike After Year of Contract Negotiations",
+            "source": "TheWrap",
+            "publishedAt": "2026-11-17T20:08:40Z",
             "sentiment": "Negative",
-            "compound": -0.542
+            "compound": -0.25
+          },
+          {
+            "title": "Joe Biden says talking to the press ‘for nearly an hour’ showed he could still run",
+            "source": "New York Post",
+            "publishedAt": "2026-11-17T20:02:24Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Fed’s Williams sees no AI financial stability risk, but cybersecurity worries him",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-17T20:01:45Z",
+            "sentiment": "Negative",
+            "compound": -0.705
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 45.14,
-  "trade_probability": 47.08,
+  "confirmation_score": 44.37,
+  "trade_probability": 46.62,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
