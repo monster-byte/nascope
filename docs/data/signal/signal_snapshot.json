@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T22:01:22.071556+00:00",
+  "generated_at": "2026-11-18T22:15:53.806527+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.11,
+      "score": 43.13,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.8,
-        "change_5d_pct": 0.861
+        "current_dxy": 103.79,
+        "change_5d_pct": 0.859
       }
     },
     "macro": {
@@ -85,56 +85,10 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.56,
+      "score": 50.0,
       "status": "yellow",
       "details": {
-        "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.029,
-        "articles_analyzed": 24,
-        "top_headlines": [
-          {
-            "title": "Secretive hedge fund RenTech dodges Nvidia bloodbath that hits other big funds, NY teachers’ pension",
-            "source": "New York Post",
-            "publishedAt": "2026-11-17T22:00:49Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Dow Drops Nearly 860 Points as Stock Market Selloff Deepens Ahead of Nvidia Earnings",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-17T21:57:32Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "GitLab To Announce Third Quarter Fiscal 2027 Financial Results",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-17T21:57:09Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Petco to Host Third Quarter 2026 Earnings Conference Call on December 8, 2026",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-17T21:57:06Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Chemung Financial Corporation Announces Quarterly Dividend",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-17T21:57:06Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Guerrilla RF Announces Uplisting to The Nasdaq Stock Market",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-17T21:57:02Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          }
-        ]
+        "error": "news_fetch_failed: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?q=Nasdaq+OR+%22Federal+Reserve%22+OR+%22stock+market%22+OR+inflation&language=en&sortBy=publishedAt&pageSize=25&apiKey=280ea038bd7e4ccb91d87f9d115484d4"
       }
     },
     "patent_momentum": {
@@ -146,8 +100,8 @@
       }
     }
   },
-  "confirmation_score": 44.63,
-  "trade_probability": 46.78,
+  "confirmation_score": 44.76,
+  "trade_probability": 46.86,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
