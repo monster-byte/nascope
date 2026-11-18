@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T19:31:19.326445+00:00",
+  "generated_at": "2026-11-18T19:45:56.425643+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.5044,
+          "change_pct": 0.489,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.3914,
+          "change_pct": -0.4316,
           "up": false
         },
         "NVDA": {
-          "change_pct": -6.1054,
+          "change_pct": -6.6411,
           "up": false
         },
         "AMZN": {
-          "change_pct": 3.0589,
+          "change_pct": 3.0145,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27105.73,
-        "sma50": 29362.57,
-        "sma200": 28062.72
+        "last_price": 27057.92,
+        "sma50": 29361.61,
+        "sma200": 28062.48
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 15.0,
+      "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 33.46,
-        "percentile_vs_20d": 85.0
+        "current_vxn": 33.49,
+        "percentile_vs_20d": 80.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 40.08,
-      "status": "yellow",
+      "score": 39.44,
+      "status": "red",
       "details": {
-        "current_yield_pct": 5.06,
-        "change_5d_pct": 1.24
+        "current_yield_pct": 5.064,
+        "change_5d_pct": 1.321
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.83,
+      "score": 42.5,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.83,
-        "change_5d_pct": 0.896
+        "current_dxy": 103.88,
+        "change_5d_pct": 0.938
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.06,
+      "score": 47.97,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.099,
-        "articles_analyzed": 25,
+        "avg_compound": -0.041,
+        "articles_analyzed": 24,
         "top_headlines": [
           {
+            "title": "A Strange Year in the Stock Market",
+            "source": "Awealthofcommonsense.com",
+            "publishedAt": "2026-11-17T19:42:56Z",
+            "sentiment": "Negative",
+            "compound": -0.202
+          },
+          {
+            "title": "Anthropic will likely price mammoth IPO above current $70- to $78-per-share range: report",
+            "source": "New York Post",
+            "publishedAt": "2026-11-17T19:41:27Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Emancipatory Taxation",
+            "source": "Nplusonemag.com",
+            "publishedAt": "2026-11-17T19:38:56Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
             "title": "Fed's Lisa Cook rebuffs White House hearing without changes",
-            "source": "CBS News",
-            "publishedAt": "2026-11-17T19:30:08Z",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-17T19:36:07Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "FingerMotion Provides Update on Review of Trading Activity",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-17T19:24:41Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "We’re watching Cramer’s favorite market indicator for a signal to buy stocks",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-17T19:21:06Z",
-            "sentiment": "Positive",
-            "compound": 0.459
-          },
-          {
-            "title": "Nvidia Sold a Quarter of Its Intel Shares and More Than Half Its Nokia Stake. SpaceX Is Now Its Biggest Investment",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-17T19:20:50Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "Anthropic targets November 19 Nasdaq debut at valuation above $1 trillion",
+            "title": "Injective crosses $1 billion in tokenized assets as its regulated toolkit grows",
             "source": "Crypto Briefing",
-            "publishedAt": "2026-11-17T19:14:43Z",
+            "publishedAt": "2026-11-17T19:35:52Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": 0.178
           },
           {
-            "title": "The Irish Times view on the ECB: big countries carve up the top jobs",
-            "source": "The Irish Times",
-            "publishedAt": "2026-11-17T19:10:00Z",
+            "title": "Is Erewhon’s $750 Thanksgiving ‘Feast’ Worth The Money?",
+            "source": "BroBible",
+            "publishedAt": "2026-11-17T19:34:32Z",
             "sentiment": "Positive",
-            "compound": 0.202
+            "compound": 0.226
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.42,
-  "trade_probability": 46.65,
+  "confirmation_score": 45.02,
+  "trade_probability": 47.01,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
