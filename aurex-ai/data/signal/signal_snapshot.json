@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T03:01:29.655467+00:00",
+  "generated_at": "2026-11-18T03:15:51.651113+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.5032,
+          "change_pct": -0.4975,
           "up": false
         },
         "MSFT": {
@@ -25,11 +25,11 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.4451,
+          "change_pct": -0.4355,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.3852,
+          "change_pct": -0.3814,
           "up": false
         }
       }
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 39.29,
+      "score": 39.03,
       "status": "red",
       "details": {
-        "current_dxy": 103.6,
-        "change_5d_pct": 1.338
+        "current_dxy": 103.63,
+        "change_5d_pct": 1.371
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.45,
+      "score": 52.0,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.029,
+        "avg_compound": 0.04,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Nifty IT rebounds 21% in over 4 months: Dead-cat bounce or trend reversal?",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-17T03:14:25Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "Asian shares fall as US tightens curbs on China's access to AI chips",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-17T03:13:36Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "US Fed Chair Warsh's true test begins now",
+            "source": "Economictimes.com",
+            "publishedAt": "2026-11-17T03:10:52Z",
+            "sentiment": "Positive",
+            "compound": 0.421
+          },
           {
             "title": "US moves to block China’s remote access to AI chips amid Nvidia scandal",
             "source": "Al Jazeera English",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-17T02:41:19Z",
             "sentiment": "Positive",
             "compound": 0.532
-          },
-          {
-            "title": "Asian stocks sink as scandal-hit Nvidia prepares for earnings",
-            "source": "Digital Journal",
-            "publishedAt": "2026-11-17T02:40:11Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Global stocks fall as Nvidia earnings, Anthropic debut put AI rally to test",
-            "source": "Business Standard",
-            "publishedAt": "2026-11-17T02:27:58Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Stock Market LIVE: GIFT Nifty signals muted open; Asian markets decline on tech selloff",
-            "source": "Business Standard",
-            "publishedAt": "2026-11-17T02:25:17Z",
-            "sentiment": "Positive",
-            "compound": 0.746
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 29.02,
-  "trade_probability": 37.41,
+  "confirmation_score": 29.04,
+  "trade_probability": 37.42,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "REJECT",
