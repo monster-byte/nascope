@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T18:45:56.134908+00:00",
+  "generated_at": "2026-11-18T19:01:25.362826+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.9209,
+          "change_pct": 0.8026,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.0255,
+          "change_pct": -0.0863,
           "up": false
         },
         "NVDA": {
-          "change_pct": -5.7647,
+          "change_pct": -5.7517,
           "up": false
         },
         "AMZN": {
-          "change_pct": 3.1148,
+          "change_pct": 2.9374,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27191.65,
-        "sma50": 29364.29,
-        "sma200": 28063.15
+        "last_price": 27155.85,
+        "sma50": 29363.57,
+        "sma200": 28062.97
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 15.0,
+      "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 33.3,
-        "percentile_vs_20d": 85.0
+        "current_vxn": 32.93,
+        "percentile_vs_20d": 80.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 40.4,
-      "status": "yellow",
+      "score": 39.44,
+      "status": "red",
       "details": {
-        "current_yield_pct": 5.058,
-        "change_5d_pct": 1.2
+        "current_yield_pct": 5.064,
+        "change_5d_pct": 1.321
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.4,
+      "score": 43.31,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.76,
-        "change_5d_pct": 0.825
+        "current_dxy": 103.77,
+        "change_5d_pct": 0.836
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 44.51,
+      "score": 43.47,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.11,
-        "articles_analyzed": 23,
+        "avg_compound": -0.131,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Anthropic plans to raise IPO price as investor demand outruns supply",
+            "title": "The Elvis Catalogue Could Enter Heartbreak Hotel",
+            "source": "Vulture",
+            "publishedAt": "2026-11-17T19:00:11Z",
+            "sentiment": "Negative",
+            "compound": -0.572
+          },
+          {
+            "title": "Retirement village costs: What to negotiate when your house won’t sell – Hannah McQueen",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-11-17T19:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Forward Industries chairman Kyle Samani hints the Solana treasury firm could sell SOL",
             "source": "Crypto Briefing",
-            "publishedAt": "2026-11-17T18:41:12Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
+            "publishedAt": "2026-11-17T18:57:37Z",
+            "sentiment": "Positive",
+            "compound": 0.202
           },
           {
-            "title": "Vivek Ramaswamy's Strive jumps 33 places on the Roundtable 100",
+            "title": "Nvidia Has Fallen 18% Since the Jensen Huang Scandal Broke and the Biggest Chip ETF Barely Moved. Here’s What Tonight’s Report Does to SMH, SOXX, SOXL and NVDL",
             "source": "Biztoc.com",
-            "publishedAt": "2026-11-17T18:38:06Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Netflix Stock Hits New 52-Week Low: Here's What Investors Need to Know",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-17T18:35:28Z",
+            "publishedAt": "2026-11-17T18:50:46Z",
             "sentiment": "Negative",
-            "compound": -0.273
+            "compound": -0.882
           },
           {
-            "title": "Salesforce Sinks Ahead of Anthropic IPO: Stock Market Today",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-17T18:35:19Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Former Apple Chairman Arthur Levinson files to sell $31.8 million in Apple stock",
-            "source": "Macdailynews.com",
-            "publishedAt": "2026-11-17T18:30:50Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "We Are Sleepwalking Into A Systemic Collapse — With Zero Plan For What Comes Next",
-            "source": "Theeconomiccollapseblog.com",
-            "publishedAt": "2026-11-17T18:30:27Z",
+            "title": "Democrat Ro Khanna Proposes $1,700 Refund Check to Americans to 'Make Them Whole for the War in Iran'",
+            "source": "Breitbart News",
+            "publishedAt": "2026-11-17T18:50:03Z",
             "sentiment": "Negative",
-            "compound": -0.494
+            "compound": -0.599
+          },
+          {
+            "title": "Puducherry records India’s highest retail inflation at 7.96%",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-17T18:49:58Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.47,
-  "trade_probability": 46.68,
+  "confirmation_score": 44.68,
+  "trade_probability": 46.81,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
