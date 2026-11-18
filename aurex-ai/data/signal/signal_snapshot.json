@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T15:31:13.985247+00:00",
+  "generated_at": "2026-11-18T15:45:57.613722+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.6543,
+          "change_pct": 0.5885,
           "up": true
         },
         "MSFT": {
-          "change_pct": -1.1221,
+          "change_pct": -1.6557,
           "up": false
         },
         "NVDA": {
-          "change_pct": -4.749,
+          "change_pct": -5.6502,
           "up": false
         },
         "AMZN": {
-          "change_pct": 1.9487,
+          "change_pct": 1.4032,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27089.72,
-        "sma50": 29362.25,
-        "sma200": 28062.64
+        "last_price": 26945.24,
+        "sma50": 29359.36,
+        "sma200": 28061.91
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 33.16,
+        "current_vxn": 33.44,
         "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 34.47,
+      "score": 36.87,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.095,
-        "change_5d_pct": 1.941
+        "current_yield_pct": 5.08,
+        "change_5d_pct": 1.641
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.85,
+      "score": 42.8,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.83,
-        "change_5d_pct": 0.894
+        "current_dxy": 103.84,
+        "change_5d_pct": 0.9
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.83,
+      "score": 51.92,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.117,
+        "avg_compound": 0.038,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Standard Life Chair Wants Tokenized Gilts to Open UK Government Bonds to Retail Savers",
-            "source": "Decrypt",
-            "publishedAt": "2026-11-17T15:30:37Z",
+            "title": "Banking reform is long overdue",
+            "source": "BusinessLine",
+            "publishedAt": "2026-11-17T15:45:43Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Federal Reserve's Cook refuses to participate in White House hearing",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-11-17T15:30:20Z",
+            "title": "Who Will Be Anthropicked?",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-17T15:42:38Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Fed’s Lisa Cook Rebuffs White House Hearing",
-            "source": "Politicalwire.com",
-            "publishedAt": "2026-11-17T15:29:26Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Anthropic IPO expected to price above $78 as Hyperliquid traders value shares near $99",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-17T15:38:50Z",
+            "sentiment": "Positive",
+            "compound": 0.557
           },
           {
-            "title": "SELLAS Stock More Than Doubles After Cancer Vaccine Cuts Leukemia Death Risk by 41% in Pivotal Phase 3 Trial",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-11-17T15:20:42Z",
+            "title": "Homebuilder sentiment hits 14-year low amid poor affordability",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-17T15:35:34Z",
             "sentiment": "Negative",
-            "compound": -0.912
+            "compound": -0.637
           },
           {
-            "title": "Why Did Take-Two Stock Fall 6% Before GTA VI?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-17T15:20:02Z",
+            "title": "Kalshi moves into a new kind of gambling: the stock market",
+            "source": "The Verge",
+            "publishedAt": "2026-11-17T15:35:32Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Fed should prepare for possible future bond-market interventions, Cleveland Fed President says",
+            "title": "Cathie Wood’s ARK Invest Sells $85 Million of Nvidia, Adds Block, Circle and Coinbase",
             "source": "Biztoc.com",
-            "publishedAt": "2026-11-17T15:17:29Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "publishedAt": "2026-11-17T15:34:54Z",
+            "sentiment": "Negative",
+            "compound": -0.44
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.63,
-  "trade_probability": 46.78,
+  "confirmation_score": 44.6,
+  "trade_probability": 46.76,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
