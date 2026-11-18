@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T06:45:51.732991+00:00",
+  "generated_at": "2026-11-18T07:01:26.051001+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.83,
+      "score": 43.84,
       "status": "yellow",
       "details": {
         "current_dxy": 103.7,
-        "change_5d_pct": 0.772
+        "change_5d_pct": 0.771
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.48,
+      "score": 49.99,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.05,
-        "articles_analyzed": 24,
+        "avg_compound": -0.0,
+        "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Why India's rupee defence needs a rethink",
+            "source": "Livemint",
+            "publishedAt": "2026-11-17T07:00:52Z",
+            "sentiment": "Neutral",
+            "compound": 0.103
+          },
+          {
+            "title": "Tata group stocks rally up to 9% after RBI nudges Tata Sons to comply with listing norms",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-17T06:50:31Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "US dollar hits 19-month peak on Fed hike bets",
             "source": "New York Post",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-17T06:15:46Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Delhi minister says no froth in 52-km Yamuna stretch, blames AAP for politicising Chhath",
-            "source": "Economictimes.com",
-            "publishedAt": "2026-11-17T06:15:20Z",
-            "sentiment": "Negative",
-            "compound": -0.599
-          },
-          {
-            "title": "Head of China's Baidu warns of AI 'bubble' ahead of APEC talks",
-            "source": "CNA",
-            "publishedAt": "2026-11-17T06:09:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 29.07,
-  "trade_probability": 37.44,
+  "confirmation_score": 29.29,
+  "trade_probability": 37.57,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "REJECT",
