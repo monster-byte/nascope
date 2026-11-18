@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T16:45:57.302054+00:00",
+  "generated_at": "2026-11-18T17:01:30.069553+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.3585,
+          "change_pct": 0.4162,
           "up": true
         },
         "MSFT": {
-          "change_pct": -1.427,
+          "change_pct": -1.1545,
           "up": false
         },
         "NVDA": {
-          "change_pct": -6.0744,
+          "change_pct": -5.9414,
           "up": false
         },
         "AMZN": {
-          "change_pct": 1.5277,
+          "change_pct": 1.9622,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26910.51,
-        "sma50": 29358.66,
-        "sma200": 28061.74
+        "last_price": 26995.46,
+        "sma50": 29360.36,
+        "sma200": 28062.17
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 15.0,
+      "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 34.15,
-        "percentile_vs_20d": 85.0
+        "current_vxn": 34.21,
+        "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 38.16,
+      "score": 38.48,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.072,
-        "change_5d_pct": 1.481
+        "current_yield_pct": 5.07,
+        "change_5d_pct": 1.441
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.58,
+      "score": 42.62,
       "status": "yellow",
       "details": {
         "current_dxy": 103.86,
-        "change_5d_pct": 0.927
+        "change_5d_pct": 0.922
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.46,
+      "score": 48.37,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.011,
+        "avg_compound": -0.033,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "India world's best long-term investment destination, FDI rises 20% in April-September: ITPO Chairman",
-            "source": "BusinessLine",
-            "publishedAt": "2026-11-17T16:44:43Z",
+            "title": "Astral Foods stands firm on 'no work, no pay' as Festive Chicken strike gains momentum | The Citizen",
+            "source": "Auburn Citizen",
+            "publishedAt": "2026-11-17T17:00:51Z",
             "sentiment": "Positive",
-            "compound": 0.637
+            "compound": 0.636
           },
           {
-            "title": "Lisa Cook Won't Be Appearing at Hearing on Fate of Her Job",
-            "source": "Newser",
-            "publishedAt": "2026-11-17T16:44:00Z",
+            "title": "The Games Industry Said Black Lives Matter, Then It Disappeared",
+            "source": "Kotaku",
+            "publishedAt": "2026-11-17T17:00:18Z",
+            "sentiment": "Negative",
+            "compound": -0.202
+          },
+          {
+            "title": "SOLD CHINA LOTS OF CHIPS?",
+            "source": "Substack.com",
+            "publishedAt": "2026-11-17T17:00:16Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Tech sell-off drags Bitcoin below $64,000 ahead of Nvidia earnings",
+            "title": "Inside Economics: Is a short sharp crash better than a slow correction?",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-11-17T17:00:01Z",
+            "sentiment": "Neutral",
+            "compound": 0.052
+          },
+          {
+            "title": "Today's news and jokes",
+            "source": "Superpunch.net",
+            "publishedAt": "2026-11-17T17:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.25
+          },
+          {
+            "title": "Bitcoin holds near $64,800 as ETF outflow streak ends",
             "source": "Crypto Briefing",
-            "publishedAt": "2026-11-17T16:43:56Z",
-            "sentiment": "Neutral",
-            "compound": -0.178
-          },
-          {
-            "title": "Aristocrat steps back from acquisitions after $1.9bn shareholder payout",
-            "source": "ValueWalk",
-            "publishedAt": "2026-11-17T16:37:41Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Regulators Converge on Twin Compliance Challenges From AI Agents",
-            "source": "pymnts.com",
-            "publishedAt": "2026-11-17T16:34:20Z",
-            "sentiment": "Neutral",
-            "compound": 0.077
-          },
-          {
-            "title": "Dow plunges 700 pts as Nasdaq 100 sinks 1.6%",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-17T16:33:27Z",
+            "publishedAt": "2026-11-17T16:59:23Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.54,
-  "trade_probability": 46.72,
+  "confirmation_score": 44.03,
+  "trade_probability": 46.42,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
