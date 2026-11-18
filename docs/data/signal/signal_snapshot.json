@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T19:15:56.972296+00:00",
+  "generated_at": "2026-11-18T19:31:19.326445+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.6586,
+          "change_pct": 0.5044,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.2727,
+          "change_pct": -0.3914,
           "up": false
         },
         "NVDA": {
-          "change_pct": -6.0651,
+          "change_pct": -6.1054,
           "up": false
         },
         "AMZN": {
-          "change_pct": 3.242,
+          "change_pct": 3.0589,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27102.27,
-        "sma50": 29362.5,
-        "sma200": 28062.7
+        "last_price": 27105.73,
+        "sma50": 29362.57,
+        "sma200": 28062.72
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 20.0,
+      "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 33.18,
-        "percentile_vs_20d": 80.0
+        "current_vxn": 33.46,
+        "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 39.12,
-      "status": "red",
+      "score": 40.08,
+      "status": "yellow",
       "details": {
-        "current_yield_pct": 5.066,
-        "change_5d_pct": 1.361
+        "current_yield_pct": 5.06,
+        "change_5d_pct": 1.24
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.89,
+      "score": 42.83,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.82,
-        "change_5d_pct": 0.889
+        "current_dxy": 103.83,
+        "change_5d_pct": 0.896
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 42.28,
+      "score": 45.06,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.154,
+        "avg_compound": -0.099,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Fed's Lisa Cook rebuffs White House hearing without changes",
+            "source": "CBS News",
+            "publishedAt": "2026-11-17T19:30:08Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "FingerMotion Provides Update on Review of Trading Activity",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-17T19:24:41Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "We’re watching Cramer’s favorite market indicator for a signal to buy stocks",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-17T19:21:06Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "Nvidia Sold a Quarter of Its Intel Shares and More Than Half Its Nokia Stake. SpaceX Is Now Its Biggest Investment",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-17T19:20:50Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
           {
             "title": "Anthropic targets November 19 Nasdaq debut at valuation above $1 trillion",
             "source": "Crypto Briefing",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-17T19:10:00Z",
             "sentiment": "Positive",
             "compound": 0.202
-          },
-          {
-            "title": "More than 100,000 take part in France pay protests",
-            "source": "Al Jazeera English",
-            "publishedAt": "2026-11-17T19:09:49Z",
-            "sentiment": "Negative",
-            "compound": -0.318
-          },
-          {
-            "title": "Has Chalmers really made $180 billion in budget savings? It depends where you start from",
-            "source": "The Conversation Africa",
-            "publishedAt": "2026-11-17T19:08:25Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "As Tokenized Payments Bring Risks, Fed Official Sees Familiar Safeguards",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-17T19:06:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.077
-          },
-          {
-            "title": "Anthropic forges ahead with its IPO even as AI fears mount and markets wobble",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-11-17T19:04:38Z",
-            "sentiment": "Negative",
-            "compound": -0.421
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.5,
-  "trade_probability": 46.7,
+  "confirmation_score": 44.42,
+  "trade_probability": 46.65,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
