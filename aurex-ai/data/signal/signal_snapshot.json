@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T20:45:58.404166+00:00",
+  "generated_at": "2026-11-18T20:55:39.443024+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.4875,
+          "change_pct": 0.6187,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.5042,
+          "change_pct": -0.3413,
           "up": false
         },
         "NVDA": {
-          "change_pct": -6.3717,
+          "change_pct": -6.6133,
           "up": false
         },
         "AMZN": {
-          "change_pct": 2.8295,
+          "change_pct": 3.1263,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27091.29,
-        "sma50": 29362.28,
-        "sma200": 28062.65
+        "last_price": 27124.66,
+        "sma50": 29362.95,
+        "sma200": 28062.81
       }
     },
     "vxn": {
@@ -50,7 +50,7 @@
       "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 33.65,
+        "current_vxn": 33.5,
         "percentile_vs_20d": 80.0
       }
     },
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.28,
+      "score": 43.14,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.78,
-        "change_5d_pct": 0.841
+        "current_dxy": 103.79,
+        "change_5d_pct": 0.857
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.24,
+      "score": 43.74,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.095,
+        "avg_compound": -0.125,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Oil Prices Swing as Gulf Attacks Continue",
+            "source": "Rigzone",
+            "publishedAt": "2026-11-17T20:53:14Z",
+            "sentiment": "Negative",
+            "compound": -0.44
+          },
+          {
+            "title": "Debt problems of the richest countries are trickling down to the poorest",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-11-17T20:52:49Z",
+            "sentiment": "Negative",
+            "compound": -0.67
+          },
+          {
+            "title": "US consumer health resilient despite inflation pressures, Wells Fargo says",
+            "source": "Dukecountry.fm",
+            "publishedAt": "2026-11-17T20:49:47Z",
+            "sentiment": "Neutral",
+            "compound": 0.057
+          },
           {
             "title": "Dave Submits Bank Charter Application",
             "source": "Finovate.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-17T20:38:01Z",
             "sentiment": "Negative",
             "compound": -0.296
-          },
-          {
-            "title": "5 High-Yield Muni ETFs to Load Up on Now for 2027 for Tax-Free Income",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-17T20:37:04Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Bitcoin Investors Are Capitulating—That’s Historically Been a Bottom Signal",
-            "source": "Decrypt",
-            "publishedAt": "2026-11-17T20:36:03Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Fashola dares opposition to promise NELFUND scrapping",
-            "source": "The Punch",
-            "publishedAt": "2026-11-17T20:35:32Z",
-            "sentiment": "Positive",
-            "compound": 0.318
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.8,
-  "trade_probability": 46.88,
+  "confirmation_score": 44.65,
+  "trade_probability": 46.79,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
