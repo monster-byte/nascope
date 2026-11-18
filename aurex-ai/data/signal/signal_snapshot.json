@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T14:45:56.782830+00:00",
+  "generated_at": "2026-11-18T15:01:33.910218+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 1.206,
+          "change_pct": 1.32,
           "up": true
         },
         "MSFT": {
-          "change_pct": -1.4046,
+          "change_pct": -0.7867,
           "up": false
         },
         "NVDA": {
-          "change_pct": -4.4827,
+          "change_pct": -4.0925,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.956,
+          "change_pct": 1.7964,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26918.43,
-        "sma50": 29358.82,
-        "sma200": 28061.78
+        "last_price": 27169.48,
+        "sma50": 29363.84,
+        "sma200": 28063.04
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 5.0,
+      "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 35.32,
-        "percentile_vs_20d": 95.0
+        "current_vxn": 34.28,
+        "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 34.47,
+      "score": 39.44,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.095,
-        "change_5d_pct": 1.941
+        "current_yield_pct": 5.064,
+        "change_5d_pct": 1.321
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.12,
+      "score": 43.7,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.79,
-        "change_5d_pct": 0.86
+        "current_dxy": 103.72,
+        "change_5d_pct": 0.787
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.45,
+      "score": 56.15,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.009,
+        "avg_compound": 0.123,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Stock Market Today: Nvidia’s 26% Plunge Puts Wall Street on Edge Ahead of Earnings Tonight",
+            "title": "Fed Governor Cook Won’t Attend White House Hearing Without Changes",
             "source": "Biztoc.com",
-            "publishedAt": "2026-11-17T14:31:31Z",
+            "publishedAt": "2026-11-17T15:01:09Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Lucid Stock Collapses",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-17T14:31:14Z",
-            "sentiment": "Negative",
-            "compound": -0.296
-          },
-          {
-            "title": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-17T14:31:07Z",
+            "title": "How Fast Do You Really Have to Be Growing to Raise Venture Capital Today? $1M to $100M ARR in 5 Years, Max. But VCs Are Hoping for 2-3 Years",
+            "source": "Saastr.com",
+            "publishedAt": "2026-11-17T15:00:49Z",
             "sentiment": "Positive",
-            "compound": 0.202
+            "compound": 0.619
           },
           {
-            "title": "Rs 20-60 lakh humanoids turn heads at Bengaluru Tech Summit",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-17T14:25:09Z",
+            "title": "Wells Fargo’s Steven Caldwell On Suddenly Fashionable Large Loan CMBS",
+            "source": "Commercial Observer",
+            "publishedAt": "2026-11-17T15:00:18Z",
+            "sentiment": "Positive",
+            "compound": 0.25
+          },
+          {
+            "title": "Pantera-backed Codex raises $30 million to link Asia to global markets with stablecoins",
+            "source": "Fortune",
+            "publishedAt": "2026-11-17T15:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Mortgage Rates Today, Tuesday, November 17: A Little Higher",
-            "source": "NerdWallet",
-            "publishedAt": "2026-11-17T14:24:35Z",
+            "title": "SEI opens 1,200-seat GCC in Hyderabad",
+            "source": "BusinessLine",
+            "publishedAt": "2026-11-17T14:58:22Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Anthropic likely to price IPO above the current range of $70 to $78, sources tell CNBC",
-            "source": "CNBC",
-            "publishedAt": "2026-11-17T14:21:47Z",
+            "title": "Toyota defends approach over GR GT3 after Stephane Ratel voiced concerns",
+            "source": "Motorsport.com",
+            "publishedAt": "2026-11-17T14:57:41Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 43.27,
-  "trade_probability": 45.96,
+  "confirmation_score": 45.41,
+  "trade_probability": 47.25,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
