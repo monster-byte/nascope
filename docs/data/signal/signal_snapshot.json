@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T14:15:54.920661+00:00",
+  "generated_at": "2026-11-18T14:31:15.264343+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
-      "status": "red",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.4798,
+          "change_pct": 0.7071,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.8272,
+          "change_pct": -0.3198,
           "up": false
         },
         "NVDA": {
-          "change_pct": -4.5937,
+          "change_pct": -1.9371,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.907,
-          "up": false
+          "change_pct": 0.8481,
+          "up": true
         }
       }
     },
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27001.78,
-        "sma50": 29408.89,
-        "sma200": 28053.88
+        "last_price": 27188.82,
+        "sma50": 29364.23,
+        "sma200": 28063.13
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 33.51,
+      "score": 34.79,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.101,
-        "change_5d_pct": 2.061
+        "current_yield_pct": 5.093,
+        "change_5d_pct": 1.901
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.04,
+      "score": 42.97,
       "status": "yellow",
       "details": {
         "current_dxy": 103.81,
-        "change_5d_pct": 0.87
+        "change_5d_pct": 0.878
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.71,
+      "score": 49.52,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.054,
+        "avg_compound": -0.01,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Fed Governor Cook Won’t Attend White House Hearing Without Changes",
+            "title": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
             "source": "Biztoc.com",
-            "publishedAt": "2026-11-17T14:15:23Z",
+            "publishedAt": "2026-11-17T14:31:07Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "Rs 20-60 lakh humanoids turn heads at Bengaluru Tech Summit",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-17T14:25:09Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Viatris completes Pacira acquisition",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-17T14:12:48Z",
+            "title": "Mortgage Rates Today, Tuesday, November 17: A Little Higher",
+            "source": "NerdWallet",
+            "publishedAt": "2026-11-17T14:24:35Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Typical income of first-time buyer rises to €82,600 and over €130,000 in parts of Dublin",
-            "source": "The Irish Times",
-            "publishedAt": "2026-11-17T14:12:02Z",
+            "title": "Anthropic likely to price IPO above the current range of $70 to $78, sources tell CNBC",
+            "source": "CNBC",
+            "publishedAt": "2026-11-17T14:21:47Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Waller, Considerations at the Intersection of Payments and Tokenized Markets",
-            "source": "Federalreserve.gov",
-            "publishedAt": "2026-11-17T14:10:00Z",
+            "title": "Why you should invest in gold for 2027",
+            "source": "CBS News",
+            "publishedAt": "2026-11-17T14:21:44Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Why goods remain expensive despite falling inflation — Oyedele",
-            "source": "The Punch",
-            "publishedAt": "2026-11-17T14:08:44Z",
-            "sentiment": "Neutral",
-            "compound": 0.114
-          },
-          {
-            "title": "Shoppers slowed spending in October with high prices leading to caution",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-11-17T14:03:57Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Walmart Has Raised Its Dividend 53 Straight Years. Why I'd Buy It Before December and Never Sell",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-17T14:20:18Z",
+            "sentiment": "Positive",
+            "compound": 0.226
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 36.59,
-  "trade_probability": 41.95,
+  "confirmation_score": 43.22,
+  "trade_probability": 45.93,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
