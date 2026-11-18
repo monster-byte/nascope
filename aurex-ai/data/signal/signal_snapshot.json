@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T17:45:54.717853+00:00",
+  "generated_at": "2026-11-18T18:01:23.241986+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.7555,
+          "change_pct": 0.7413,
           "up": true
         },
         "MSFT": {
-          "change_pct": -1.0829,
+          "change_pct": -0.9907,
           "up": false
         },
         "NVDA": {
-          "change_pct": -5.8931,
+          "change_pct": -6.0664,
           "up": false
         },
         "AMZN": {
-          "change_pct": 2.5789,
+          "change_pct": 2.7061,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27085.23,
-        "sma50": 29362.16,
-        "sma200": 28062.61
+        "last_price": 27064.17,
+        "sma50": 29361.74,
+        "sma200": 28062.51
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 15.0,
+      "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 33.16,
-        "percentile_vs_20d": 85.0
+        "current_vxn": 33.4,
+        "percentile_vs_20d": 80.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 38.8,
-      "status": "red",
+      "score": 40.08,
+      "status": "yellow",
       "details": {
-        "current_yield_pct": 5.068,
-        "change_5d_pct": 1.401
+        "current_yield_pct": 5.06,
+        "change_5d_pct": 1.24
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.1,
+      "score": 43.07,
       "status": "yellow",
       "details": {
         "current_dxy": 103.8,
-        "change_5d_pct": 0.862
+        "change_5d_pct": 0.867
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 41.44,
-      "status": "yellow",
+      "score": 37.96,
+      "status": "red",
       "details": {
-        "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.171,
-        "articles_analyzed": 24,
+        "overall_sentiment": "BEARISH",
+        "avg_compound": -0.241,
+        "articles_analyzed": 23,
         "top_headlines": [
           {
-            "title": "More layoffs loom over Disney despite surging profits as CEO Josh D’Amaro readies major spending push: ‘Not easy’",
-            "source": "New York Post",
-            "publishedAt": "2026-11-17T17:40:26Z",
+            "title": "The Fed’s first close look at the AI buildout finds $3 trillion of AI commitments that aren’t on big tech’s balance sheet as debt",
+            "source": "Fortune",
+            "publishedAt": "2026-11-17T18:00:00Z",
             "sentiment": "Negative",
-            "compound": -0.555
+            "compound": -0.25
           },
           {
-            "title": "Trump target threatens to blow off 'unfair' White House hearing on her firing",
-            "source": "Raw Story",
-            "publishedAt": "2026-11-17T17:39:54Z",
+            "title": "Outage math at the airport: When a four-hour Uber beats waiting out a ground stop",
+            "source": "Abcnews.com",
+            "publishedAt": "2026-11-17T17:57:57Z",
             "sentiment": "Negative",
-            "compound": -0.796
+            "compound": -0.296
           },
           {
-            "title": "Fed’s Waller cites Binance hack in warning over tokenized finance",
-            "source": "Cointelegraph",
-            "publishedAt": "2026-11-17T17:39:41Z",
-            "sentiment": "Negative",
-            "compound": -0.34
-          },
-          {
-            "title": "PrimeXBT Launches Anthropic Pre-IPO Crypto Futures, Opening New AI Trading Opportunities",
-            "source": "ZyCrypto",
-            "publishedAt": "2026-11-17T17:37:26Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "Wall St slips ahead of Nvidia results, Anthropic IPO - Reuters",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-11-17T17:33:51Z",
+            "title": "WATCH — Leftist Rep. Ayanna Pressley Declares 'It's Time Democrats Deliver' for Black Citizens: 'Reparations Now!'",
+            "source": "Breitbart News",
+            "publishedAt": "2026-11-17T17:57:12Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "₹2 cr fraud accused held at IGI airport on return from Dubai",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-17T17:27:24Z",
+            "title": "Bank of America survey: 52% of fund managers expect an AI hyperscaler to cut spending",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-17T17:53:48Z",
             "sentiment": "Negative",
-            "compound": -0.718
+            "compound": -0.273
+          },
+          {
+            "title": "Defense contractor at center of FAA grounding recently ousted CEO over sex harassment claims",
+            "source": "New York Post",
+            "publishedAt": "2026-11-17T17:53:29Z",
+            "sentiment": "Negative",
+            "compound": -0.459
+          },
+          {
+            "title": "Anthropic IPO order book reportedly closes at 4 p.m. ET",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-17T17:52:41Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 43.95,
-  "trade_probability": 46.37,
+  "confirmation_score": 44.25,
+  "trade_probability": 46.55,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
