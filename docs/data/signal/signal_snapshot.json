@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T20:15:59.565871+00:00",
+  "generated_at": "2026-11-18T20:31:12.540620+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.5046,
+          "change_pct": 0.2979,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.412,
+          "change_pct": -0.6493,
           "up": false
         },
         "NVDA": {
-          "change_pct": -6.5234,
+          "change_pct": -6.7681,
           "up": false
         },
         "AMZN": {
-          "change_pct": 2.9914,
+          "change_pct": 2.5404,
           "up": true
         }
       }
@@ -40,18 +40,18 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27086.89,
-        "sma50": 29362.19,
-        "sma200": 28062.62
+        "last_price": 27032.15,
+        "sma50": 29361.1,
+        "sma200": 28062.35
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 15.0,
+      "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 33.71,
-        "percentile_vs_20d": 85.0
+        "current_vxn": 33.59,
+        "percentile_vs_20d": 80.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.68,
+      "score": 43.03,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.85,
-        "change_5d_pct": 0.914
+        "current_dxy": 103.81,
+        "change_5d_pct": 0.871
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.1,
+      "score": 44.5,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.078,
-        "articles_analyzed": 24,
+        "avg_compound": -0.11,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Anthropic's IPO set for blastoff this week in key test for AI boom",
-            "source": "CBS News",
-            "publishedAt": "2026-11-17T20:15:48Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Dow drops sharply as Wall Street braces for Nvidia earnings",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-17T20:10:08Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Strive CEO Matt Cole says SATS preferred stock keeps Bitcoin buys going during selloff",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-17T20:09:14Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Reuters Journalists Overwhelmingly Authorize Strike After Year of Contract Negotiations",
-            "source": "TheWrap",
-            "publishedAt": "2026-11-17T20:08:40Z",
+            "title": "Wall Street's fear gauge is surging again and this time it's not just about AI jitters",
+            "source": "CNBC",
+            "publishedAt": "2026-11-17T20:28:07Z",
             "sentiment": "Negative",
-            "compound": -0.25
+            "compound": -0.494
           },
           {
-            "title": "Joe Biden says talking to the press ‘for nearly an hour’ showed he could still run",
-            "source": "New York Post",
-            "publishedAt": "2026-11-17T20:02:24Z",
+            "title": "Model ML Raises $250 Million for AI Banking Tools",
+            "source": "pymnts.com",
+            "publishedAt": "2026-11-17T20:25:24Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Fed’s Williams sees no AI financial stability risk, but cybersecurity worries him",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-17T20:01:45Z",
-            "sentiment": "Negative",
-            "compound": -0.705
+            "title": "Fed Says Tokenization Still Needs Traditional Payments",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-17T20:22:30Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Jensen Huang Offered to Come Back and Nvidia Gained $90 Billion in 10 Minutes. Here’s What the Stock Did the Last Four Times a Board Took the Boss Back",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-17T20:22:15Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "Nvidia Reports in About an Hour. Options Price an 8.5% Move, Twice What the Stock Has Averaged After Its Last 8 Reports",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-17T20:22:10Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Exclusive-AppLovin among firms in talks to acquire Criteo, sources say",
+            "source": "CNA",
+            "publishedAt": "2026-11-17T20:21:33Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.37,
-  "trade_probability": 46.62,
+  "confirmation_score": 44.71,
+  "trade_probability": 46.83,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
