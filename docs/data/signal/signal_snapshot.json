@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T03:53:11.135622+00:00",
+  "generated_at": "2026-11-18T04:01:25.379827+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 39.07,
+      "score": 39.12,
       "status": "red",
       "details": {
-        "current_dxy": 103.63,
-        "change_5d_pct": 1.367
+        "current_dxy": 103.62,
+        "change_5d_pct": 1.36
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.28,
+      "score": 52.27,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.026,
+        "avg_compound": 0.045,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Greens offer government a path to pass trusts and capital gains tax changes",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-11-17T03:58:05Z",
+            "sentiment": "Positive",
+            "compound": 0.67
+          },
+          {
+            "title": "Accounts Receivable Turnover: The Ratio That Shows How Fast Customers Really Pay You",
+            "source": "Addicted2success.com",
+            "publishedAt": "2026-11-17T03:57:42Z",
+            "sentiment": "Neutral",
+            "compound": -0.176
+          },
+          {
+            "title": "Wholesale inflation may average around 11% in FY27: UBI",
+            "source": "BusinessLine",
+            "publishedAt": "2026-11-17T03:55:23Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "IndiGo flight to Bengaluru aborts take-off at Mangaluru Airport",
             "source": "The Times of India",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-17T03:39:19Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Stock futures are little changed after Nvidia pressures tech to start the week: Live updates",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-17T03:36:28Z",
-            "sentiment": "Negative",
-            "compound": -0.318
-          },
-          {
-            "title": "Cathie Wood’s $2.2 Billion Bet on Elon Musk Could Soon Become One Giant Stock",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-17T03:36:05Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Nikkei 225 Sinks Below 59,000 as Japan GDP Contraction, Weak Yen Near 160 and Tech Rout Pile Pressure on Tokyo",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-11-17T03:20:42Z",
-            "sentiment": "Negative",
-            "compound": -0.625
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 28.98,
-  "trade_probability": 37.39,
+  "confirmation_score": 29.07,
+  "trade_probability": 37.44,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "REJECT",
