@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T20:55:39.443024+00:00",
+  "generated_at": "2026-11-18T21:01:29.564246+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.6187,
+          "change_pct": 0.4391,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.3413,
+          "change_pct": -0.2786,
           "up": false
         },
         "NVDA": {
-          "change_pct": -6.6133,
+          "change_pct": -6.5575,
           "up": false
         },
         "AMZN": {
-          "change_pct": 3.1263,
+          "change_pct": 3.1842,
           "up": true
         }
       }
@@ -40,18 +40,18 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27124.66,
-        "sma50": 29362.95,
-        "sma200": 28062.81
+        "last_price": 27116.26,
+        "sma50": 29362.78,
+        "sma200": 28062.77
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 20.0,
+      "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 33.5,
-        "percentile_vs_20d": 80.0
+        "current_vxn": 33.51,
+        "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 43.74,
+      "score": 46.1,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.125,
+        "avg_compound": -0.078,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Anthropic is about to have the biggest IPO of all time: Is it too late to buy in?",
+            "source": "New York Post",
+            "publishedAt": "2026-11-17T21:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Prediction: SpaceX Stock Could Go Parabolic After Anthropic's IPO. Here's Why",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-17T20:56:38Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Anthropic Stock Price Could Top $80 Ahead of IPO. Is It Too High?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-17T20:55:54Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "Cleveland Fed’s Hammack supports gradual rate hikes, warns of larger increases if needed",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-17T20:55:42Z",
+            "sentiment": "Positive",
+            "compound": 0.273
+          },
           {
             "title": "Oil Prices Swing as Gulf Attacks Continue",
             "source": "Rigzone",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-17T20:52:49Z",
             "sentiment": "Negative",
             "compound": -0.67
-          },
-          {
-            "title": "US consumer health resilient despite inflation pressures, Wells Fargo says",
-            "source": "Dukecountry.fm",
-            "publishedAt": "2026-11-17T20:49:47Z",
-            "sentiment": "Neutral",
-            "compound": 0.057
-          },
-          {
-            "title": "Dave Submits Bank Charter Application",
-            "source": "Finovate.com",
-            "publishedAt": "2026-11-17T20:45:26Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "5 things to watch on the ASX 200 on Wednesday",
-            "source": "Motley Fool Australia",
-            "publishedAt": "2026-11-17T20:38:17Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Nvidia earnings live updates: No plan to reinstate Jensen Huang",
-            "source": "NBC News",
-            "publishedAt": "2026-11-17T20:38:01Z",
-            "sentiment": "Negative",
-            "compound": -0.296
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.65,
-  "trade_probability": 46.79,
+  "confirmation_score": 44.41,
+  "trade_probability": 46.65,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
