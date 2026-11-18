@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T07:15:53.212530+00:00",
+  "generated_at": "2026-11-18T07:31:08.850110+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.56,
+      "score": 43.88,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.74,
-        "change_5d_pct": 0.805
+        "current_dxy": 103.7,
+        "change_5d_pct": 0.765
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.41,
+      "score": 51.33,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.008,
+        "avg_compound": 0.027,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Happily Ever After Needs a Plan: Setting Financial Goals as a Newly Married Couple",
+            "source": "Rocknrollbride.com",
+            "publishedAt": "2026-11-17T07:30:00Z",
+            "sentiment": "Positive",
+            "compound": 0.557
+          },
+          {
+            "title": "UK wage growth slows to 3.5% in three months to September",
+            "source": "RTE",
+            "publishedAt": "2026-11-17T07:25:44Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "Jobs market stabilises as unemployment eases... but wages struggle against rising inflation",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-11-17T07:19:31Z",
+            "sentiment": "Negative",
+            "compound": -0.502
+          },
           {
             "title": "Anthropic debuts to skeptics and dogged believers: Mike Dolan",
             "source": "Economictimes.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-17T07:09:10Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Roku Set to Premiere \"Harlem Globetrotters 100th Anniversary Special\" from Fulwell Entertainment's Uninterrupted",
-            "source": "Thefutoncritic.com",
-            "publishedAt": "2026-11-17T07:08:00Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "K.M. and the mayors who want (…just a little) more building density, the government’s clash with Doukas over the Metro, PASOK’s “unforgettable” figures, the Turks and Greek real estate, and the shipping industry’s challenges",
-            "source": "Protothema.gr",
-            "publishedAt": "2026-11-17T07:04:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.153
-          },
-          {
-            "title": "Why India's rupee defence needs a rethink",
-            "source": "Livemint",
-            "publishedAt": "2026-11-17T07:00:52Z",
-            "sentiment": "Neutral",
-            "compound": 0.103
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 29.31,
-  "trade_probability": 37.59,
+  "confirmation_score": 29.42,
+  "trade_probability": 37.65,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "REJECT",
