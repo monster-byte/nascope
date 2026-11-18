@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T17:31:17.707767+00:00",
+  "generated_at": "2026-11-18T17:45:54.717853+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.8125,
+          "change_pct": 0.7555,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.9456,
+          "change_pct": -1.0829,
           "up": false
         },
         "NVDA": {
-          "change_pct": -5.2661,
+          "change_pct": -5.8931,
           "up": false
         },
         "AMZN": {
-          "change_pct": 2.736,
+          "change_pct": 2.5789,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27208.2,
-        "sma50": 29364.62,
-        "sma200": 28063.23
+        "last_price": 27085.23,
+        "sma50": 29362.16,
+        "sma200": 28062.61
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 33.98,
+        "current_vxn": 33.16,
         "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 40.72,
-      "status": "yellow",
+      "score": 38.8,
+      "status": "red",
       "details": {
-        "current_yield_pct": 5.056,
-        "change_5d_pct": 1.16
+        "current_yield_pct": 5.068,
+        "change_5d_pct": 1.401
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.12,
+      "score": 43.1,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.79,
-        "change_5d_pct": 0.86
+        "current_dxy": 103.8,
+        "change_5d_pct": 0.862
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 44.47,
+      "score": 41.44,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.111,
+        "avg_compound": -0.171,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "More layoffs loom over Disney despite surging profits as CEO Josh D’Amaro readies major spending push: ‘Not easy’",
+            "source": "New York Post",
+            "publishedAt": "2026-11-17T17:40:26Z",
+            "sentiment": "Negative",
+            "compound": -0.555
+          },
+          {
+            "title": "Trump target threatens to blow off 'unfair' White House hearing on her firing",
+            "source": "Raw Story",
+            "publishedAt": "2026-11-17T17:39:54Z",
+            "sentiment": "Negative",
+            "compound": -0.796
+          },
+          {
+            "title": "Fed’s Waller cites Binance hack in warning over tokenized finance",
+            "source": "Cointelegraph",
+            "publishedAt": "2026-11-17T17:39:41Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
+          {
+            "title": "PrimeXBT Launches Anthropic Pre-IPO Crypto Futures, Opening New AI Trading Opportunities",
+            "source": "ZyCrypto",
+            "publishedAt": "2026-11-17T17:37:26Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "Wall St slips ahead of Nvidia results, Anthropic IPO - Reuters",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-11-17T17:33:51Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "₹2 cr fraud accused held at IGI airport on return from Dubai",
             "source": "The Times of India",
             "publishedAt": "2026-11-17T17:27:24Z",
             "sentiment": "Negative",
             "compound": -0.718
-          },
-          {
-            "title": "Gold’s drop below $4,000 is largely psychological, American Hartford Gold president says",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-17T17:25:51Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "Chinese man used 14 old apartments to achieve financial independence by age 30, now plans to invest in dividend stocks",
-            "source": "Livemint",
-            "publishedAt": "2026-11-17T17:25:44Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Home Depot names new CEO after Ted Decker’s medical leave of absence",
-            "source": "New York Post",
-            "publishedAt": "2026-11-17T17:23:14Z",
-            "sentiment": "Neutral",
-            "compound": -0.052
-          },
-          {
-            "title": "Jensen Huang Offered to Come Back. Bettors Still Pick Arm’s CEO Over Him to Run Nvidia",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-17T17:19:21Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "DAX closes 2% lower amid Wall Street losses",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-17T17:19:12Z",
-            "sentiment": "Negative",
-            "compound": -0.599
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.48,
-  "trade_probability": 46.69,
+  "confirmation_score": 43.95,
+  "trade_probability": 46.37,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
