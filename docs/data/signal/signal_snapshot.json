@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T09:31:08.545848+00:00",
+  "generated_at": "2026-11-18T09:45:54.515650+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.4798,
+          "change_pct": 0.4855,
           "up": true
         },
         "MSFT": {
@@ -25,11 +25,11 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -4.5937,
+          "change_pct": -4.5845,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.907,
+          "change_pct": -0.9031,
           "up": false
         }
       }
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.73,
+      "score": 43.19,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.85,
-        "change_5d_pct": 0.909
+        "current_dxy": 103.79,
+        "change_5d_pct": 0.851
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.09,
+      "score": 50.81,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.018,
+        "avg_compound": 0.016,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Tribes push back as Congress moves to fast-track energy projects",
+            "source": "Grist",
+            "publishedAt": "2026-11-17T09:45:00Z",
+            "sentiment": "Positive",
+            "compound": 0.273
+          },
+          {
+            "title": "Ghana’s Economy Could Face ‘Turbulence’ In 2027 – Fitch",
+            "source": "Thechronicle.com.gh",
+            "publishedAt": "2026-11-17T09:40:30Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Government Of The People, For The Few, By The Few",
             "source": "Thechronicle.com.gh",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-17T09:10:51Z",
             "sentiment": "Negative",
             "compound": -0.586
-          },
-          {
-            "title": "India’s GDP growth seen at 7.5% in Q2 FY27, full-year outlook trimmed to 7.1%: ICRA",
-            "source": "BusinessLine",
-            "publishedAt": "2026-11-17T09:03:57Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "The 9 at 9: Tuesday",
-            "source": "TheJournal.ie",
-            "publishedAt": "2026-11-17T08:53:34Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 35.86,
-  "trade_probability": 41.52,
+  "confirmation_score": 36.06,
+  "trade_probability": 41.64,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
