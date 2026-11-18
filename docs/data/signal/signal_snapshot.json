@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T16:15:55.642857+00:00",
+  "generated_at": "2026-11-18T16:31:10.324933+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.6415,
+          "change_pct": 0.5702,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.9475,
+          "change_pct": -1.385,
           "up": false
         },
         "NVDA": {
-          "change_pct": -5.5066,
+          "change_pct": -6.1178,
           "up": false
         },
         "AMZN": {
-          "change_pct": 1.6349,
+          "change_pct": 1.6113,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26978.47,
-        "sma50": 29360.02,
-        "sma200": 28062.08
+        "last_price": 26919.67,
+        "sma50": 29358.85,
+        "sma200": 28061.79
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 15.0,
+      "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 33.78,
-        "percentile_vs_20d": 85.0
+        "current_vxn": 33.97,
+        "percentile_vs_20d": 80.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 37.52,
+      "score": 39.12,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.076,
-        "change_5d_pct": 1.561
+        "current_yield_pct": 5.066,
+        "change_5d_pct": 1.361
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.68,
+      "score": 42.56,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.85,
-        "change_5d_pct": 0.914
+        "current_dxy": 103.87,
+        "change_5d_pct": 0.93
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.41,
+      "score": 49.8,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.068,
+        "avg_compound": -0.004,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Bank of America survey shows fund managers cut tech exposure at fastest pace since 2006",
+            "title": "Cantor Fitzgerald nearly triples its stake in Bitcoin treasury company Strategy",
             "source": "Crypto Briefing",
-            "publishedAt": "2026-11-17T16:10:53Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "For Bank Lenders in Commercial Real Estate, Higher-for-Longer Rates Are a Test",
-            "source": "Commercial Observer",
-            "publishedAt": "2026-11-17T16:09:02Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Is the bubble popping? Fund managers just cut tech by the most since 2006 as Goldman sees AI having pumped profits 25% above trend",
-            "source": "Fortune",
-            "publishedAt": "2026-11-17T16:07:33Z",
+            "publishedAt": "2026-11-17T16:27:53Z",
             "sentiment": "Positive",
             "compound": 0.202
           },
           {
-            "title": "Jensen Huang holds 3.6% of Nvidia’s votes, so his board could show him the door. Musk and Zuckerberg have a shield",
+            "title": "Fed Governor Lisa Cook threatens to skip ‘unfair’ hearing in scathing letter to White House",
+            "source": "New York Post",
+            "publishedAt": "2026-11-17T16:24:24Z",
+            "sentiment": "Negative",
+            "compound": -0.382
+          },
+          {
+            "title": "Anthropic IPO may pose a disturbing problem for retirement accounts",
             "source": "Biztoc.com",
-            "publishedAt": "2026-11-17T16:05:14Z",
+            "publishedAt": "2026-11-17T16:18:36Z",
+            "sentiment": "Negative",
+            "compound": -0.718
+          },
+          {
+            "title": "BofA warns new Fed rate-hike cycle packs a very nasty twist",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-17T16:18:25Z",
+            "sentiment": "Negative",
+            "compound": -0.648
+          },
+          {
+            "title": "Jensen Huang Breaks His Silence: ‘I Would Be Honored’ to Return as Nvidia CEO If the Board Asks",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-17T16:18:17Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Shoppers slowed spending in October with high prices leading to caution (Bogus Headline Alert!)",
-            "source": "Freerepublic.com",
-            "publishedAt": "2026-11-17T16:02:57Z",
-            "sentiment": "Positive",
-            "compound": 0.359
-          },
-          {
-            "title": "Kalshi moves into a new kind of gambling: the stock market",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-17T16:02:21Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Home Alone Sequel Video Brings Back Macaulay Culkin After 34 Years",
+            "source": "ComicBook.com",
+            "publishedAt": "2026-11-17T16:17:07Z",
+            "sentiment": "Negative",
+            "compound": -0.25
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.81,
-  "trade_probability": 46.89,
+  "confirmation_score": 45.14,
+  "trade_probability": 47.08,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
