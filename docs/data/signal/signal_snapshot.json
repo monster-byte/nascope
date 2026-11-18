@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T16:31:10.324933+00:00",
+  "generated_at": "2026-11-18T16:45:57.302054+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.5702,
+          "change_pct": 0.3585,
           "up": true
         },
         "MSFT": {
-          "change_pct": -1.385,
+          "change_pct": -1.427,
           "up": false
         },
         "NVDA": {
-          "change_pct": -6.1178,
+          "change_pct": -6.0744,
           "up": false
         },
         "AMZN": {
-          "change_pct": 1.6113,
+          "change_pct": 1.5277,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26919.67,
-        "sma50": 29358.85,
-        "sma200": 28061.79
+        "last_price": 26910.51,
+        "sma50": 29358.66,
+        "sma200": 28061.74
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 20.0,
+      "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 33.97,
-        "percentile_vs_20d": 80.0
+        "current_vxn": 34.15,
+        "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 39.12,
+      "score": 38.16,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.066,
-        "change_5d_pct": 1.361
+        "current_yield_pct": 5.072,
+        "change_5d_pct": 1.481
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.56,
+      "score": 42.58,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.87,
-        "change_5d_pct": 0.93
+        "current_dxy": 103.86,
+        "change_5d_pct": 0.927
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.8,
+      "score": 49.46,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.004,
+        "avg_compound": -0.011,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Cantor Fitzgerald nearly triples its stake in Bitcoin treasury company Strategy",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-17T16:27:53Z",
+            "title": "India world's best long-term investment destination, FDI rises 20% in April-September: ITPO Chairman",
+            "source": "BusinessLine",
+            "publishedAt": "2026-11-17T16:44:43Z",
             "sentiment": "Positive",
-            "compound": 0.202
+            "compound": 0.637
           },
           {
-            "title": "Fed Governor Lisa Cook threatens to skip ‘unfair’ hearing in scathing letter to White House",
-            "source": "New York Post",
-            "publishedAt": "2026-11-17T16:24:24Z",
-            "sentiment": "Negative",
-            "compound": -0.382
-          },
-          {
-            "title": "Anthropic IPO may pose a disturbing problem for retirement accounts",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-17T16:18:36Z",
-            "sentiment": "Negative",
-            "compound": -0.718
-          },
-          {
-            "title": "BofA warns new Fed rate-hike cycle packs a very nasty twist",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-17T16:18:25Z",
-            "sentiment": "Negative",
-            "compound": -0.648
-          },
-          {
-            "title": "Jensen Huang Breaks His Silence: ‘I Would Be Honored’ to Return as Nvidia CEO If the Board Asks",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-17T16:18:17Z",
+            "title": "Lisa Cook Won't Be Appearing at Hearing on Fate of Her Job",
+            "source": "Newser",
+            "publishedAt": "2026-11-17T16:44:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Home Alone Sequel Video Brings Back Macaulay Culkin After 34 Years",
-            "source": "ComicBook.com",
-            "publishedAt": "2026-11-17T16:17:07Z",
-            "sentiment": "Negative",
-            "compound": -0.25
+            "title": "Tech sell-off drags Bitcoin below $64,000 ahead of Nvidia earnings",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-17T16:43:56Z",
+            "sentiment": "Neutral",
+            "compound": -0.178
+          },
+          {
+            "title": "Aristocrat steps back from acquisitions after $1.9bn shareholder payout",
+            "source": "ValueWalk",
+            "publishedAt": "2026-11-17T16:37:41Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Regulators Converge on Twin Compliance Challenges From AI Agents",
+            "source": "pymnts.com",
+            "publishedAt": "2026-11-17T16:34:20Z",
+            "sentiment": "Neutral",
+            "compound": 0.077
+          },
+          {
+            "title": "Dow plunges 700 pts as Nasdaq 100 sinks 1.6%",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-17T16:33:27Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 45.14,
-  "trade_probability": 47.08,
+  "confirmation_score": 44.54,
+  "trade_probability": 46.72,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
