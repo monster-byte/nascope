@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T21:31:13.049347+00:00",
+  "generated_at": "2026-11-18T21:46:00.997586+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.09,
+      "score": 43.0,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.8,
-        "change_5d_pct": 0.864
+        "current_dxy": 103.81,
+        "change_5d_pct": 0.875
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.85,
+      "score": 45.83,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.043,
+        "avg_compound": -0.083,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Interface Declares Regular Quarterly Dividend",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-17T21:41:08Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Nvidia’s First Report Without Jensen Huang: $115.8 Billion in Revenue, a $130 Billion Forecast, and the Stock Is Up 2.3% After Hours",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-17T21:38:19Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Home Depot Drops Despite Strong Profits",
+            "source": "Newser",
+            "publishedAt": "2026-11-17T21:37:12Z",
+            "sentiment": "Negative",
+            "compound": -0.626
+          },
+          {
+            "title": "Thanksgiving Prices Jump 11% Under Trump, Gobbling Up More of Families’ Budgets",
+            "source": "Common Dreams",
+            "publishedAt": "2026-11-17T21:34:44Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "US Business Cycle Indicators: Industrial, Mfg. Production, Retail Sales",
             "source": "Econbrowser.com",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-17T21:20:02Z",
             "sentiment": "Neutral",
             "compound": 0.153
-          },
-          {
-            "title": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2027",
-            "source": "Nvidia.com",
-            "publishedAt": "2026-11-17T21:20:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Professional misconduct complaints against DOJ officials are rising",
-            "source": "CBS News",
-            "publishedAt": "2026-11-17T21:19:34Z",
-            "sentiment": "Negative",
-            "compound": -0.402
-          },
-          {
-            "title": "Muddy Waters shorts Nvidia, raises questions about possible executive connection",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-17T21:11:25Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Medical practice squeezed as business confidence slumps in SA",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-11-17T21:08:39Z",
-            "sentiment": "Positive",
-            "compound": 0.511
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.57,
-  "trade_probability": 46.74,
+  "confirmation_score": 44.38,
+  "trade_probability": 46.63,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
