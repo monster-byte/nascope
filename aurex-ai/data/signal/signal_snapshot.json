@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T21:16:01.027338+00:00",
+  "generated_at": "2026-11-18T21:31:13.049347+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -47,11 +47,11 @@
     },
     "vxn": {
       "factor": "vxn",
-      "score": 20.0,
+      "score": 15.0,
       "status": "red",
       "details": {
         "current_vxn": 33.26,
-        "percentile_vs_20d": 80.0
+        "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.32,
+      "score": 43.09,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.77,
-        "change_5d_pct": 0.835
+        "current_dxy": 103.8,
+        "change_5d_pct": 0.864
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.62,
+      "score": 47.85,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.048,
+        "avg_compound": -0.043,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "US Business Cycle Indicators: Industrial, Mfg. Production, Retail Sales",
+            "source": "Econbrowser.com",
+            "publishedAt": "2026-11-17T21:20:51Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "BlackRock holds 123,056 Strategy shares ahead of MSCI exit, but how much must it sell?",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-11-17T21:20:02Z",
+            "sentiment": "Neutral",
+            "compound": 0.153
+          },
+          {
+            "title": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2027",
+            "source": "Nvidia.com",
+            "publishedAt": "2026-11-17T21:20:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Professional misconduct complaints against DOJ officials are rising",
+            "source": "CBS News",
+            "publishedAt": "2026-11-17T21:19:34Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
           {
             "title": "Muddy Waters shorts Nvidia, raises questions about possible executive connection",
             "source": "Biztoc.com",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-17T21:08:39Z",
             "sentiment": "Positive",
             "compound": 0.511
-          },
-          {
-            "title": "Anthropic is about to have the biggest IPO of all time: Is it too late to buy in?",
-            "source": "New York Post",
-            "publishedAt": "2026-11-17T21:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Prediction: SpaceX Stock Could Go Parabolic After Anthropic's IPO. Here's Why",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-17T20:56:38Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Anthropic Stock Price Could Top $80 Ahead of IPO. Is It Too High?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-17T20:55:54Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "Cleveland Fed’s Hammack supports gradual rate hikes, warns of larger increases if needed",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-17T20:55:42Z",
-            "sentiment": "Positive",
-            "compound": 0.273
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 45.02,
-  "trade_probability": 47.01,
+  "confirmation_score": 44.57,
+  "trade_probability": 46.74,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
