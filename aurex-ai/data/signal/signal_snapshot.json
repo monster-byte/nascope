@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T15:45:57.613722+00:00",
+  "generated_at": "2026-11-18T16:01:33.473773+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.5885,
+          "change_pct": 0.6073,
           "up": true
         },
         "MSFT": {
-          "change_pct": -1.6557,
+          "change_pct": -0.9161,
           "up": false
         },
         "NVDA": {
-          "change_pct": -5.6502,
+          "change_pct": -5.4489,
           "up": false
         },
         "AMZN": {
-          "change_pct": 1.4032,
+          "change_pct": 1.5458,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26945.24,
-        "sma50": 29359.36,
-        "sma200": 28061.91
+        "last_price": 27029.71,
+        "sma50": 29361.05,
+        "sma200": 28062.34
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 33.44,
+        "current_vxn": 34.08,
         "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 36.87,
+      "score": 38.48,
       "status": "red",
       "details": {
-        "current_yield_pct": 5.08,
-        "change_5d_pct": 1.641
+        "current_yield_pct": 5.07,
+        "change_5d_pct": 1.441
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.8,
+      "score": 42.83,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.84,
-        "change_5d_pct": 0.9
+        "current_dxy": 103.83,
+        "change_5d_pct": 0.896
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.92,
+      "score": 51.01,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.038,
+        "avg_compound": 0.02,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Banking reform is long overdue",
-            "source": "BusinessLine",
-            "publishedAt": "2026-11-17T15:45:43Z",
+            "title": "Chase Home Lending CEO says he plans to 'go on offense' against non-bank lenders",
+            "source": "CNBC",
+            "publishedAt": "2026-11-17T16:00:01Z",
+            "sentiment": "Negative",
+            "compound": -0.25
+          },
+          {
+            "title": "Nvidia after Jensen Huang departure: What investors should watch – Greg Smith",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-11-17T16:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Who Will Be Anthropicked?",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-17T15:42:38Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Anthropic IPO expected to price above $78 as Hyperliquid traders value shares near $99",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-17T15:38:50Z",
+            "title": "US Supreme Court Turns Down Custodia Bank Appeal Over Federal Reserve Master Account",
+            "source": "newsBTC",
+            "publishedAt": "2026-11-17T16:00:00Z",
             "sentiment": "Positive",
             "compound": 0.557
           },
           {
-            "title": "Homebuilder sentiment hits 14-year low amid poor affordability",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-17T15:35:34Z",
-            "sentiment": "Negative",
-            "compound": -0.637
+            "title": "Free Payroll Software for Small Business: What’s Actually Free (and When to Pay)",
+            "source": "Addicted2success.com",
+            "publishedAt": "2026-11-17T15:58:35Z",
+            "sentiment": "Positive",
+            "compound": 0.735
           },
           {
-            "title": "Kalshi moves into a new kind of gambling: the stock market",
-            "source": "The Verge",
-            "publishedAt": "2026-11-17T15:35:32Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Charles Schwab Down? Investors Hit With Login Errors and Server Glitches as Outage Strikes During Market Hours",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-11-17T15:57:00Z",
+            "sentiment": "Negative",
+            "compound": -0.599
           },
           {
-            "title": "Cathie Wood’s ARK Invest Sells $85 Million of Nvidia, Adds Block, Circle and Coinbase",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-17T15:34:54Z",
-            "sentiment": "Negative",
-            "compound": -0.44
+            "title": "Chipotle Wants To Help Americans Sneak Burritos Into Movie Theaters — And The Plot Involves Selling Special Hoodies",
+            "source": "The Daily Caller",
+            "publishedAt": "2026-11-17T15:53:21Z",
+            "sentiment": "Positive",
+            "compound": 0.66
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.6,
-  "trade_probability": 46.76,
+  "confirmation_score": 44.74,
+  "trade_probability": 46.84,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
