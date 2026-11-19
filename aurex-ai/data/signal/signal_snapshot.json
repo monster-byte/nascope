@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T04:01:27.360896+00:00",
+  "generated_at": "2026-11-19T04:15:52.995262+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 41.83,
+      "score": 41.94,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.96,
-        "change_5d_pct": 1.021
+        "current_dxy": 103.95,
+        "change_5d_pct": 1.008
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.58,
+      "score": 52.93,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.072,
+        "avg_compound": 0.059,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Gold, silver prices today 18 Nov Wednesday: Check 24K, 22K yellow metal and 999 silver rates in Delhi, Mumbai, Kolkata",
+            "source": "Livemint",
+            "publishedAt": "2026-11-18T04:05:01Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "South Korea offers $75,000 bounties to catch AI-assisted exam cheats",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-18T04:04:42Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
+          {
+            "title": "Flat opening as Nvidia earnings beat softens Wall Street’s blow; Bank Nifty holds near record high",
+            "source": "BusinessLine",
+            "publishedAt": "2026-11-18T04:04:24Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
           {
             "title": "Solidigm's 2026 profit on track to exceed its shelved US$10B IPO target",
             "source": "Digitimes",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-18T03:44:19Z",
             "sentiment": "Positive",
             "compound": 0.7
-          },
-          {
-            "title": "Charlie Munger Said He’d ‘Never Sell a Share’ of Costco. $10,000 From 1997 Is Now Worth $833,000 and Gets a $22,535 Check on Dec. 4",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-18T03:43:59Z",
-            "sentiment": "Positive",
-            "compound": 0.226
-          },
-          {
-            "title": "Five minutes after voters told them to beat it, the wealth-tax sharks are back — and they want your money",
-            "source": "New York Post",
-            "publishedAt": "2026-11-18T03:40:10Z",
-            "sentiment": "Neutral",
-            "compound": 0.077
-          },
-          {
-            "title": "BMW’s iX5 Factory Is Worth $36.1 Billion A Year To South Carolina. We Went Inside To See How It Works",
-            "source": "BMWBLOG",
-            "publishedAt": "2026-11-18T03:38:57Z",
-            "sentiment": "Positive",
-            "compound": 0.226
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.97,
-  "trade_probability": 46.98,
+  "confirmation_score": 44.92,
+  "trade_probability": 46.95,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
