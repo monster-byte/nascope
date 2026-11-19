@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T21:15:55.960135+00:00",
+  "generated_at": "2026-11-19T21:31:14.135310+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.3388,
+          "change_pct": -1.336,
           "up": false
         },
         "MSFT": {
@@ -47,11 +47,11 @@
     },
     "vxn": {
       "factor": "vxn",
-      "score": 10.0,
+      "score": 5.0,
       "status": "red",
       "details": {
         "current_vxn": 36.55,
-        "percentile_vs_20d": 90.0
+        "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.26,
+      "score": 44.06,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.91,
-        "change_5d_pct": 0.717
+        "current_dxy": 103.94,
+        "change_5d_pct": 0.742
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.59,
+      "score": 47.83,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.028,
+        "avg_compound": -0.043,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Anthropic's valuation rockets to $1.5 trillion with Wall Street gold rush set to create thousands of millionaires and seven mega-billionaires",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-11-18T21:28:06Z",
+            "sentiment": "Positive",
+            "compound": 0.273
+          },
+          {
+            "title": "US lawmakers push to raise minimum wage to $25, end tipped pay system",
+            "source": "Al Jazeera English",
+            "publishedAt": "2026-11-18T21:24:19Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
+          {
+            "title": "Stock Market Today: Dow Drops As Nvidia Probe Deepens; Fed Minutes Loom (Live Coverage)",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-18T21:21:04Z",
+            "sentiment": "Negative",
+            "compound": -0.226
+          },
+          {
+            "title": "Anthropic IPO: AI company's listing on Nasdaq to turn thousands of staff into millionaires",
+            "source": "Economictimes.com",
+            "publishedAt": "2026-11-18T21:21:03Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "What makes Americans feel financially ready to have kids? It’s complicated.",
+            "source": "Vox",
+            "publishedAt": "2026-11-18T21:18:40Z",
+            "sentiment": "Positive",
+            "compound": 0.361
+          },
           {
             "title": "Anthropic prices IPO at $83, with Nasdaq trading set to begin Thursday",
             "source": "Crypto Briefing",
             "publishedAt": "2026-11-18T21:15:26Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "America’s AI Chip War Is Heating Up in the Dumbest Possible Ways",
-            "source": "Wired",
-            "publishedAt": "2026-11-18T21:15:00Z",
-            "sentiment": "Negative",
-            "compound": -0.802
-          },
-          {
-            "title": "Oil Falls 3% Despite Middle East Attacks",
-            "source": "Rigzone",
-            "publishedAt": "2026-11-18T21:14:37Z",
-            "sentiment": "Positive",
-            "compound": 0.341
-          },
-          {
-            "title": "Retail investors now own 40% of US equity market value, data shows",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-18T21:13:49Z",
-            "sentiment": "Positive",
-            "compound": 0.34
-          },
-          {
-            "title": "Anthropic is about to be worth more than $1 trillion. What that means for the rest of us",
-            "source": "NBC News",
-            "publishedAt": "2026-11-18T21:13:31Z",
-            "sentiment": "Positive",
-            "compound": 0.226
-          },
-          {
-            "title": "Dow slumps over 500 pts as Fed minutes revive rate-hike fears",
-            "source": "Economictimes.com",
-            "publishedAt": "2026-11-18T21:12:38Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 33.34,
-  "trade_probability": 40.0,
+  "confirmation_score": 32.8,
+  "trade_probability": 39.68,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
