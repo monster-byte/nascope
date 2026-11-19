@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T15:45:57.247727+00:00",
+  "generated_at": "2026-11-19T16:01:29.866996+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -1.3671,
+          "change_pct": -1.288,
           "up": false
         },
         "MSFT": {
-          "change_pct": 1.4129,
+          "change_pct": 1.4589,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.2239,
+          "change_pct": 0.8495,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.4782,
+          "change_pct": -0.3114,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27076.54,
-        "sma50": 29322.24,
-        "sma200": 28073.7
+        "last_price": 27154.89,
+        "sma50": 29323.81,
+        "sma200": 28074.09
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 20.0,
+      "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 33.03,
-        "percentile_vs_20d": 80.0
+        "current_vxn": 34.1,
+        "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 54.55,
+      "score": 56.11,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.074,
-        "change_5d_pct": -0.568
+        "current_yield_pct": 5.064,
+        "change_5d_pct": -0.764
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.03,
+      "score": 45.2,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.81,
-        "change_5d_pct": 0.621
+        "current_dxy": 103.79,
+        "change_5d_pct": 0.6
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 57.55,
+      "score": 55.66,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.151,
+        "avg_compound": 0.113,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Anthropic IPO: How to Buy ANT Stock Before Thursday's Nasdaq Debut as Claude Maker Eyes $1.4 Trillion Value",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-11-18T15:42:48Z",
+            "title": "Can Javier Milei Make Argentina Rich Again?",
+            "source": "Reason",
+            "publishedAt": "2026-11-18T16:00:13Z",
             "sentiment": "Positive",
-            "compound": 0.34
+            "compound": 0.557
           },
           {
-            "title": "Morgan Stanley boosts stake in Strive, adding an estimated $32 million in Bitcoin-linked exposure",
+            "title": "Dan Rather Explains the Nvidia Scandal",
+            "source": "Dianeravitch.net",
+            "publishedAt": "2026-11-18T16:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.44
+          },
+          {
+            "title": "Disney Data Dump November 18 2026",
+            "source": "Touringplans.com",
+            "publishedAt": "2026-11-18T16:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.382
+          },
+          {
+            "title": "Anthropic IPO demand tops SpaceX as investor orders approach $500B",
             "source": "Crypto Briefing",
-            "publishedAt": "2026-11-18T15:40:35Z",
-            "sentiment": "Positive",
-            "compound": 0.318
-          },
-          {
-            "title": "Editorial. Food for thought",
-            "source": "BusinessLine",
-            "publishedAt": "2026-11-18T15:39:59Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Jensen Huang and Nvidia is not a honeypot story. It is a national security story",
-            "source": "Fortune",
-            "publishedAt": "2026-11-18T15:36:19Z",
-            "sentiment": "Positive",
-            "compound": 0.34
-          },
-          {
-            "title": "The Reluctant Winner of the AI Race",
-            "source": "The Atlantic",
-            "publishedAt": "2026-11-18T15:32:17Z",
+            "publishedAt": "2026-11-18T15:58:08Z",
             "sentiment": "Positive",
             "compound": 0.421
           },
           {
-            "title": "Fed’s Waller says interest-rate hikes may be needed to ‘shock’ inflation out of the system",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-18T15:29:21Z",
+            "title": "Target Earnings Spotlight Changing Role of Physical Stores in Retail",
+            "source": "pymnts.com",
+            "publishedAt": "2026-11-18T15:57:58Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "SouthState Bank Down? Customers Report App and Login Outage as Mobile Banking Problems Hit Southeast Users",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-11-18T15:46:07Z",
+            "sentiment": "Negative",
+            "compound": -0.402
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 48.15,
-  "trade_probability": 48.89,
+  "confirmation_score": 47.3,
+  "trade_probability": 48.38,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
