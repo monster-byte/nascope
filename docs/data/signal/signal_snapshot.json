@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T09:15:55.114265+00:00",
+  "generated_at": "2026-11-19T09:31:14.862715+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.08,
+      "score": 46.13,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.68,
-        "change_5d_pct": 0.49
+        "current_dxy": 103.67,
+        "change_5d_pct": 0.484
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.39,
+      "score": 49.45,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.012,
+        "avg_compound": -0.011,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Goldman Sachs upgrades India to overweight; Dec.'27 Nifty target at 28,500",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-18T09:29:48Z",
+            "sentiment": "Neutral",
+            "compound": 0.052
+          },
           {
             "title": "Gold Price Drop Reaches a 14-Month Low, 29% Below January’s Record",
             "source": "Dcforecasts.com",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-18T08:55:15Z",
             "sentiment": "Negative",
             "compound": -0.511
-          },
-          {
-            "title": "Anthropic IPO: A Brother-Sister Duo Behind A Trillion-Dollar AI Giant",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-18T08:49:55Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 31.47,
-  "trade_probability": 38.88,
+  "confirmation_score": 31.48,
+  "trade_probability": 38.89,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
