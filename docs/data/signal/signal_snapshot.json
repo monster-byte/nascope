@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T16:16:08.681593+00:00",
+  "generated_at": "2026-11-19T16:31:17.523993+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -1.2173,
+          "change_pct": -1.2116,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.6986,
+          "change_pct": 0.5147,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.665,
+          "change_pct": 0.7903,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.278,
+          "change_pct": -0.4782,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27162.26,
-        "sma50": 29323.95,
-        "sma200": 28074.13
+        "last_price": 27204.02,
+        "sma50": 29324.79,
+        "sma200": 28074.33
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 10.0,
+      "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 34.1,
-        "percentile_vs_20d": 90.0
+        "current_vxn": 33.75,
+        "percentile_vs_20d": 80.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 55.17,
+      "score": 55.49,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.07,
-        "change_5d_pct": -0.647
+        "current_yield_pct": 5.068,
+        "change_5d_pct": -0.686
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.9,
+      "score": 44.81,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.83,
-        "change_5d_pct": 0.638
+        "current_dxy": 103.84,
+        "change_5d_pct": 0.648
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.81,
+      "score": 55.4,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.076,
+        "avg_compound": 0.108,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "What Would Democrats Look Like Under Van Hollen’s Leadership?",
+            "source": "The New Republic",
+            "publishedAt": "2026-11-18T16:26:20Z",
+            "sentiment": "Positive",
+            "compound": 0.361
+          },
+          {
+            "title": "What Marvell’s (MRVL) Lumentum Deal Adds to Its Anthropic Growth Story",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-18T16:17:21Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "How Broadcom’s (AVGO) Anthropic Equipment Leases Link AI Growth to Financing",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-18T16:17:13Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "Demolition begins on seaside home teetering on cliff edge before it topples into the sea",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-11-18T16:17:07Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "What Riot’s (RIOT) Anthropic Leases Mean for Its Data Center Buildout",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-18T16:16:59Z",
+            "sentiment": "Negative",
+            "compound": -0.652
+          },
           {
             "title": "Lower crude oil prices could bring huge windfall for India in FY28: CEA",
             "source": "Business Standard",
             "publishedAt": "2026-11-18T16:14:50Z",
             "sentiment": "Negative",
             "compound": -0.557
-          },
-          {
-            "title": "The beneficiaries of Anthropic's IPO",
-            "source": "Marketplace.org",
-            "publishedAt": "2026-11-18T16:13:00Z",
-            "sentiment": "Positive",
-            "compound": 0.421
-          },
-          {
-            "title": "Show HN: Ambient Alpha: A stock market display for Apple TV",
-            "source": "Ambientalpha.com",
-            "publishedAt": "2026-11-18T16:11:08Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "RON HART: Of Spies And Men",
-            "source": "The Daily Caller",
-            "publishedAt": "2026-11-18T16:06:45Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "COP31: India, developing nations challenge EU on climate finance",
-            "source": "Business Standard",
-            "publishedAt": "2026-11-18T16:06:14Z",
-            "sentiment": "Neutral",
-            "compound": 0.077
-          },
-          {
-            "title": "BoE's Bailey: Inflation to peak at 5% by mid-2027",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-18T16:03:03Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 46.98,
-  "trade_probability": 48.19,
+  "confirmation_score": 48.06,
+  "trade_probability": 48.84,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
