@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T19:31:20.795864+00:00",
+  "generated_at": "2026-11-19T19:45:59.227800+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.1579,
+          "change_pct": -1.1551,
           "up": false
         },
         "MSFT": {
-          "change_pct": -1.6341,
+          "change_pct": -1.6203,
           "up": false
         },
         "NVDA": {
-          "change_pct": -2.16,
+          "change_pct": -2.2983,
           "up": false
         },
         "AMZN": {
-          "change_pct": -3.9444,
+          "change_pct": -3.9296,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26716.29,
-        "sma50": 29315.04,
-        "sma200": 28071.9
+        "last_price": 26735.42,
+        "sma50": 29315.42,
+        "sma200": 28071.99
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 5.0,
+      "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 36.18,
-        "percentile_vs_20d": 95.0
+        "current_vxn": 35.65,
+        "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 56.74,
+      "score": 57.37,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.06,
-        "change_5d_pct": -0.843
+        "current_yield_pct": 5.056,
+        "change_5d_pct": -0.921
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.41,
+      "score": 44.55,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.89,
-        "change_5d_pct": 0.699
+        "current_dxy": 103.87,
+        "change_5d_pct": 0.681
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.24,
+      "score": 48.63,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.055,
+        "avg_compound": -0.027,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Not Micron, Not Sandisk. This Is My Top Memory Stock for 2027",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-18T19:38:03Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "How high is UK inflation and how will you be affected?",
+            "source": "BBC News",
+            "publishedAt": "2026-11-18T19:37:27Z",
+            "sentiment": "Neutral",
+            "compound": -0.153
+          },
+          {
+            "title": "Fed officials focus on inflation risks in October as some see need for further rate hikes",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-18T19:34:34Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "What to know about Anthropic’s blockbuster IPO",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-18T19:33:19Z",
+            "sentiment": "Positive",
+            "compound": 0.599
+          },
           {
             "title": "Hourly workers are living with 7.86% inflation. No wonder they voted against the AI boom",
             "source": "Fortune",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-18T19:25:40Z",
             "sentiment": "Neutral",
             "compound": 0.128
-          },
-          {
-            "title": "FG plans release of stored grains to stabilise food prices",
-            "source": "The Punch",
-            "publishedAt": "2026-11-18T19:22:12Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Fed officials divided on December rate hike amid inflation concerns",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-18T19:21:55Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Anthropic IPO Has Billions of Shares Waiting to be Unlocked",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-18T19:21:19Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "Barr: Further rate hikes appropriate to curb inflation",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-18T19:19:27Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 32.61,
-  "trade_probability": 39.57,
+  "confirmation_score": 33.28,
+  "trade_probability": 39.97,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
