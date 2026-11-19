@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T02:45:58.568366+00:00",
+  "generated_at": "2026-11-19T03:01:23.513065+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.5,
+      "score": 42.48,
       "status": "yellow",
       "details": {
         "current_dxy": 103.88,
-        "change_5d_pct": 0.938
+        "change_5d_pct": 0.94
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.54,
+      "score": 53.67,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.051,
+        "avg_compound": 0.073,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "The Nasdaq-100 Is Doing Something It Did Only in 2000 and 2018. Here’s What Happened Next Both Times",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-18T02:58:01Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Anthropic forges ahead with its IPO even as AI fears mount and markets wobble",
+            "source": "Economictimes.com",
+            "publishedAt": "2026-11-18T02:50:41Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
           {
             "title": "Ionic Digital sells 737 BTC to fund its data center buildout",
             "source": "Crypto Briefing",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-18T02:33:27Z",
             "sentiment": "Negative",
             "compound": -0.802
-          },
-          {
-            "title": "Stock Market LIVE: GIFT Nifty down over 100 pts; Asian markets mixed post Nvidia's Q3 beat",
-            "source": "Business Standard",
-            "publishedAt": "2026-11-18T02:31:56Z",
-            "sentiment": "Positive",
-            "compound": 0.746
-          },
-          {
-            "title": "Dollar holds near 19-month high as data supports case for US rate hikes",
-            "source": "Economictimes.com",
-            "publishedAt": "2026-11-18T02:10:25Z",
-            "sentiment": "Positive",
-            "compound": 0.361
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.93,
-  "trade_probability": 46.96,
+  "confirmation_score": 45.03,
+  "trade_probability": 47.02,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
