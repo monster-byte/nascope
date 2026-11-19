@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T19:15:58.874185+00:00",
+  "generated_at": "2026-11-19T19:31:20.795864+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.4462,
+          "change_pct": -1.1579,
           "up": false
         },
         "MSFT": {
-          "change_pct": -1.6986,
+          "change_pct": -1.6341,
           "up": false
         },
         "NVDA": {
-          "change_pct": -2.3247,
+          "change_pct": -2.16,
           "up": false
         },
         "AMZN": {
-          "change_pct": -4.0315,
+          "change_pct": -3.9444,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26649.72,
-        "sma50": 29313.7,
-        "sma200": 28071.56
+        "last_price": 26716.29,
+        "sma50": 29315.04,
+        "sma200": 28071.9
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 10.0,
+      "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 35.93,
-        "percentile_vs_20d": 90.0
+        "current_vxn": 36.18,
+        "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 57.68,
+      "score": 56.74,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.054,
-        "change_5d_pct": -0.96
+        "current_yield_pct": 5.06,
+        "change_5d_pct": -0.843
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.45,
+      "score": 44.41,
       "status": "yellow",
       "details": {
         "current_dxy": 103.89,
-        "change_5d_pct": 0.694
+        "change_5d_pct": 0.699
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.56,
+      "score": 47.24,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.011,
+        "avg_compound": -0.055,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Fed minutes reveal AI’s impact on financial stability, productivity discussed",
+            "title": "Hourly workers are living with 7.86% inflation. No wonder they voted against the AI boom",
+            "source": "Fortune",
+            "publishedAt": "2026-11-18T19:30:00Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "Fed policymakers focused on inflation risks in October, with some seeing need for bigger rate hike",
+            "source": "Economictimes.com",
+            "publishedAt": "2026-11-18T19:25:40Z",
+            "sentiment": "Neutral",
+            "compound": 0.128
+          },
+          {
+            "title": "FG plans release of stored grains to stabilise food prices",
+            "source": "The Punch",
+            "publishedAt": "2026-11-18T19:22:12Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Fed officials divided on December rate hike amid inflation concerns",
             "source": "Crypto Briefing",
-            "publishedAt": "2026-11-18T19:12:30Z",
+            "publishedAt": "2026-11-18T19:21:55Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "From cooked breakfast to their own TV, aged care residents need to watch for extra fees",
-            "source": "The Conversation Africa",
-            "publishedAt": "2026-11-18T19:10:34Z",
-            "sentiment": "Positive",
-            "compound": 0.494
-          },
-          {
-            "title": "Biden library campaign loses serious money in 2025 before ‘several’ gifts in 2026",
-            "source": "Wnd.com",
-            "publishedAt": "2026-11-18T19:09:42Z",
-            "sentiment": "Negative",
-            "compound": -0.382
-          },
-          {
-            "title": "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show",
-            "source": "CNBC",
-            "publishedAt": "2026-11-18T19:08:44Z",
-            "sentiment": "Negative",
-            "compound": -0.488
-          },
-          {
-            "title": "Ondo to launch tokenized Anthropic stock on IPO day",
+            "title": "Anthropic IPO Has Billions of Shares Waiting to be Unlocked",
             "source": "Biztoc.com",
-            "publishedAt": "2026-11-18T19:03:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "publishedAt": "2026-11-18T19:21:19Z",
+            "sentiment": "Positive",
+            "compound": 0.296
           },
           {
-            "title": "Fears housing build costs will soar in response to Chinese timber crackdown",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-11-18T19:01:42Z",
-            "sentiment": "Negative",
-            "compound": -0.421
+            "title": "Barr: Further rate hikes appropriate to curb inflation",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-18T19:19:27Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 33.49,
-  "trade_probability": 40.09,
+  "confirmation_score": 32.61,
+  "trade_probability": 39.57,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
