@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T11:31:15.777405+00:00",
+  "generated_at": "2026-11-19T11:45:52.584166+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.27,
+      "score": 46.25,
       "status": "yellow",
       "details": {
         "current_dxy": 103.65,
-        "change_5d_pct": 0.466
+        "change_5d_pct": 0.469
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.62,
+      "score": 48.18,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.028,
-        "articles_analyzed": 23,
+        "avg_compound": -0.036,
+        "articles_analyzed": 22,
         "top_headlines": [
+          {
+            "title": "M&S launches first new Champagne range in eight years - including a 'secret ingredient' vintage at £45",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-11-18T11:37:39Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
           {
             "title": "BI raises rate to 6 percent to defend rupiah against Fed moves",
             "source": "Antaranews.com",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-18T11:13:52Z",
             "sentiment": "Negative",
             "compound": -0.421
-          },
-          {
-            "title": "AI stocks rally as Nvidia outlook calms demand fears",
-            "source": "CNA",
-            "publishedAt": "2026-11-18T11:12:09Z",
-            "sentiment": "Negative",
-            "compound": -0.25
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 31.42,
-  "trade_probability": 38.85,
+  "confirmation_score": 31.38,
+  "trade_probability": 38.83,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
