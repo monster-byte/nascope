@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T19:01:28.887432+00:00",
+  "generated_at": "2026-11-19T19:10:08.611803+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.2992,
+          "change_pct": -1.4179,
           "up": false
         },
         "MSFT": {
-          "change_pct": -1.5587,
+          "change_pct": -1.6272,
           "up": false
         },
         "NVDA": {
-          "change_pct": -2.3971,
+          "change_pct": -2.2193,
           "up": false
         },
         "AMZN": {
-          "change_pct": -4.0074,
+          "change_pct": -3.9147,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26670.98,
-        "sma50": 29314.13,
-        "sma200": 28071.67
+        "last_price": 26660.44,
+        "sma50": 29313.92,
+        "sma200": 28071.62
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 35.71,
+        "current_vxn": 36.01,
         "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 58.0,
+      "score": 57.68,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.052,
-        "change_5d_pct": -0.999
+        "current_yield_pct": 5.054,
+        "change_5d_pct": -0.96
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.75,
+      "score": 44.71,
       "status": "yellow",
       "details": {
         "current_dxy": 103.85,
-        "change_5d_pct": 0.656
+        "change_5d_pct": 0.661
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.84,
+      "score": 51.04,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.097,
+        "avg_compound": 0.021,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Biden library campaign loses serious money in 2025 before ‘several’ gifts in 2026",
+            "source": "Wnd.com",
+            "publishedAt": "2026-11-18T19:09:42Z",
+            "sentiment": "Negative",
+            "compound": -0.382
+          },
+          {
+            "title": "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show",
+            "source": "CNBC",
+            "publishedAt": "2026-11-18T19:08:44Z",
+            "sentiment": "Negative",
+            "compound": -0.488
+          },
+          {
+            "title": "Ondo to launch tokenized Anthropic stock on IPO day",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-18T19:03:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Fears housing build costs will soar in response to Chinese timber crackdown",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-11-18T19:01:42Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
           {
             "title": "After the Blue Wave, What Comes Next?",
             "source": "The Atlantic",
@@ -103,34 +131,6 @@
             "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
             "source": "Federalreserve.gov",
             "publishedAt": "2026-11-18T19:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Sydney to lead Australia's housing price recovery, analysis predicts",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-11-18T18:59:04Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Fidelity gives Anthropic IPO investors a same-night deadline to confirm share requests",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-18T18:53:51Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "If You'd Invested $1,000 in an S&P 500 ETF Ahead of the Dot-Com Bubble, Here's What You'd Have Today",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-18T18:50:41Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Nvidia earnings beat lifts Bitcoin mining stocks",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-18T18:50:39Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 33.49,
-  "trade_probability": 40.09,
+  "confirmation_score": 33.1,
+  "trade_probability": 39.86,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
