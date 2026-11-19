@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T17:31:13.380539+00:00",
+  "generated_at": "2026-11-19T17:46:00.122165+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.9827,
+          "change_pct": -1.1141,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.2153,
+          "change_pct": -0.4883,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.9911,
+          "change_pct": -1.6694,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.5181,
+          "change_pct": -2.2855,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26999.68,
-        "sma50": 29320.7,
-        "sma200": 28073.31
+        "last_price": 26833.79,
+        "sma50": 29317.39,
+        "sma200": 28072.48
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 5.0,
+      "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 36.82,
-        "percentile_vs_20d": 95.0
+        "current_vxn": 34.63,
+        "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 57.68,
+      "score": 55.49,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.054,
-        "change_5d_pct": -0.96
+        "current_yield_pct": 5.068,
+        "change_5d_pct": -0.686
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.87,
+      "score": 44.89,
       "status": "yellow",
       "details": {
         "current_dxy": 103.83,
-        "change_5d_pct": 0.641
+        "change_5d_pct": 0.639
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.34,
+      "score": 51.6,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.027,
+        "avg_compound": 0.032,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "How much will Anthropic be worth at IPO? New platforms like Polymarket offer early clues",
-            "source": "Fortune",
-            "publishedAt": "2026-11-18T17:29:09Z",
-            "sentiment": "Positive",
-            "compound": 0.527
-          },
-          {
-            "title": "Anthropic options could begin trading on Monday, expected to draw strong demand",
-            "source": "CNA",
-            "publishedAt": "2026-11-18T17:14:09Z",
-            "sentiment": "Positive",
-            "compound": 0.421
-          },
-          {
-            "title": "Economic optimism plunges to lowest level since Great Recession",
-            "source": "CFO Dive",
-            "publishedAt": "2026-11-18T17:12:00Z",
-            "sentiment": "Positive",
-            "compound": 0.494
-          },
-          {
-            "title": "What investors should know about Anthropic's unusual IPO",
-            "source": "WDIV ClickOnDetroit",
-            "publishedAt": "2026-11-18T17:08:21Z",
+            "title": "Bank of Canada April analysis hinted at potential rate hike",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-18T17:43:59Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "SCHD Is Having Its Best Year Since 2013. What Happens Next Year?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-18T17:03:21Z",
+            "title": "Chipotle, Macy’s, and Ally CEOs on why loyalty perks matter more as shoppers balk at high prices",
+            "source": "Fortune",
+            "publishedAt": "2026-11-18T17:43:09Z",
             "sentiment": "Positive",
-            "compound": 0.637
+            "compound": 0.557
           },
           {
-            "title": "Anthropic in your 401(k) or IRA? How you could get exposure after its IPO",
+            "title": "Nvidia interim CEO Colette Kress tells staff not to worry about their pay",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-18T17:41:43Z",
+            "sentiment": "Positive",
+            "compound": 0.251
+          },
+          {
+            "title": "Global shares dragged down by fall off in AI and oil stock",
+            "source": "The Irish Times",
+            "publishedAt": "2026-11-18T17:40:22Z",
+            "sentiment": "Positive",
+            "compound": 0.25
+          },
+          {
+            "title": "Wall Street preps for Anthropic IPO frenzy as AI sentiment cools",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-18T17:40:08Z",
+            "sentiment": "Negative",
+            "compound": -0.318
+          },
+          {
+            "title": "What investors should know about Anthropic's unusual IPO",
             "source": "Biztoc.com",
-            "publishedAt": "2026-11-18T17:03:15Z",
+            "publishedAt": "2026-11-18T17:34:37Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 33.15,
-  "trade_probability": 39.89,
+  "confirmation_score": 33.33,
+  "trade_probability": 40.0,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
