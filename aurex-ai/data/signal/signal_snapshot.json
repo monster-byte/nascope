@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T16:31:17.523993+00:00",
+  "generated_at": "2026-11-19T16:46:01.786376+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": -1.2116,
+          "change_pct": -1.1353,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.5147,
+          "change_pct": 0.5049,
           "up": true
         },
         "NVDA": {
-          "change_pct": 0.7903,
+          "change_pct": 0.6454,
           "up": true
         },
         "AMZN": {
-          "change_pct": -0.4782,
-          "up": false
+          "change_pct": 0.0463,
+          "up": true
         }
       }
     },
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27204.02,
-        "sma50": 29324.79,
-        "sma200": 28074.33
+        "last_price": 27241.21,
+        "sma50": 29325.53,
+        "sma200": 28074.52
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 20.0,
+      "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 33.75,
-        "percentile_vs_20d": 80.0
+        "current_vxn": 33.42,
+        "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 55.49,
+      "score": 53.61,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.068,
-        "change_5d_pct": -0.686
+        "current_yield_pct": 5.08,
+        "change_5d_pct": -0.451
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.81,
+      "score": 44.7,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.84,
-        "change_5d_pct": 0.648
+        "current_dxy": 103.85,
+        "change_5d_pct": 0.662
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.4,
+      "score": 50.97,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.108,
+        "avg_compound": 0.019,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "170 Years of Market History Just Flashed a 97% Bubble Warning — the Last Time It Was This High Was 2007",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-18T16:45:39Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
+          {
+            "title": "Students face being 'turned away from college' over budget gap",
+            "source": "BBC News",
+            "publishedAt": "2026-11-18T16:40:08Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Anthropic Eyes November 19 Nasdaq Debut After IPO Pricing",
+            "source": "Bitcoinfoundation.org",
+            "publishedAt": "2026-11-18T16:35:14Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Bitcoin, stocks wobble as Fed’s Waller talks of ‘shock’ 50-point rate hike",
+            "source": "Cointelegraph",
+            "publishedAt": "2026-11-18T16:34:20Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Alfa-Bank Becomes the 31st Name on Russia’s Crypto Exchange Register",
+            "source": "Dcforecasts.com",
+            "publishedAt": "2026-11-18T16:34:17Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "What Would Democrats Look Like Under Van Hollen’s Leadership?",
             "source": "The New Republic",
             "publishedAt": "2026-11-18T16:26:20Z",
             "sentiment": "Positive",
             "compound": 0.361
-          },
-          {
-            "title": "What Marvell’s (MRVL) Lumentum Deal Adds to Its Anthropic Growth Story",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-18T16:17:21Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "How Broadcom’s (AVGO) Anthropic Equipment Leases Link AI Growth to Financing",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-18T16:17:13Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "Demolition begins on seaside home teetering on cliff edge before it topples into the sea",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-11-18T16:17:07Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "What Riot’s (RIOT) Anthropic Leases Mean for Its Data Center Buildout",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-18T16:16:59Z",
-            "sentiment": "Negative",
-            "compound": -0.652
-          },
-          {
-            "title": "Lower crude oil prices could bring huge windfall for India in FY28: CEA",
-            "source": "Business Standard",
-            "publishedAt": "2026-11-18T16:14:50Z",
-            "sentiment": "Negative",
-            "compound": -0.557
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 48.06,
-  "trade_probability": 48.84,
+  "confirmation_score": 53.7,
+  "trade_probability": 52.22,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
