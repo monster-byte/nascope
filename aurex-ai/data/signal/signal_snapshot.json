@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T03:01:23.513065+00:00",
+  "generated_at": "2026-11-19T03:16:06.072204+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.48,
+      "score": 42.09,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.88,
-        "change_5d_pct": 0.94
+        "current_dxy": 103.93,
+        "change_5d_pct": 0.988
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.67,
+      "score": 51.84,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.073,
+        "avg_compound": 0.037,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Stock market today: Sensex plunges over 200 points, NSE Nifty50 opens near 25,350",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-18T03:09:06Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Asia stocks set to snap losing streak on Nvidia beat as Anthropic looms",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-18T03:08:34Z",
+            "sentiment": "Negative",
+            "compound": -0.494
+          },
+          {
+            "title": "ASX 200 Slips to 8,850 as Hot Wage Data and Lendlease Plunge Outweigh Miners' Rebound After Nvidia Beat",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-11-18T03:03:27Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "The Nasdaq-100 Is Doing Something It Did Only in 2000 and 2018. Here’s What Happened Next Both Times",
             "source": "Biztoc.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-18T02:45:50Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Stocks to watch: IIFL Finance, Grasim, Axis Bank, HCL Tech, RITES, Airtel",
-            "source": "Business Standard",
-            "publishedAt": "2026-11-18T02:44:07Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Trump heads to China, betting on unscripted diplomacy with Xi and Putin",
-            "source": "Economictimes.com",
-            "publishedAt": "2026-11-18T02:41:17Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Cell Phone Ban in Schools and AI Cheating: New Research",
-            "source": "Coolcatteacher.com",
-            "publishedAt": "2026-11-18T02:33:27Z",
-            "sentiment": "Negative",
-            "compound": -0.802
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 45.03,
-  "trade_probability": 47.02,
+  "confirmation_score": 44.83,
+  "trade_probability": 46.9,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
