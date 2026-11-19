@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T18:16:00.733521+00:00",
+  "generated_at": "2026-11-19T18:31:14.444680+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.6836,
+          "change_pct": -1.1777,
           "up": false
         },
         "MSFT": {
-          "change_pct": -1.454,
+          "change_pct": -1.5274,
           "up": false
         },
         "NVDA": {
-          "change_pct": -2.1798,
+          "change_pct": -1.5904,
           "up": false
         },
         "AMZN": {
-          "change_pct": -3.5403,
+          "change_pct": -3.3883,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26678.12,
-        "sma50": 29314.27,
-        "sma200": 28071.7
+        "last_price": 26788.52,
+        "sma50": 29316.48,
+        "sma200": 28072.26
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 10.0,
+      "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 35.54,
-        "percentile_vs_20d": 90.0
+        "current_vxn": 36.19,
+        "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 56.11,
+      "score": 58.62,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.064,
-        "change_5d_pct": -0.764
+        "current_yield_pct": 5.048,
+        "change_5d_pct": -1.078
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.6,
+      "score": 44.59,
       "status": "yellow",
       "details": {
         "current_dxy": 103.87,
-        "change_5d_pct": 0.675
+        "change_5d_pct": 0.677
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 57.33,
+      "score": 55.92,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.147,
+        "avg_compound": 0.118,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Hollywood's canniest investor Ashton Kutcher set to become a billionaire if AI giant Anthropic goes public",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-11-18T18:30:41Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "What investors should know about Anthropic's unusual IPO",
+            "source": "Abcnews.com",
+            "publishedAt": "2026-11-18T18:21:58Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "The Nasdaq Is in a Correction and Traders Are Pricing in a December Fed Funds Rate Hike. 3 AI Infrastructure Stocks Down 25% or More I’d Buy When Anthropic Starts Trading",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-18T18:20:44Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Fed's Waller Calls for 50-Basis-Point Rate Hike, Says Tokenized Finance Still Needs Traditional Banks",
+            "source": "Decrypt",
+            "publishedAt": "2026-11-18T18:16:02Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Inside Grand Theft Auto's multibillion-dollar empire as GTA 6 sparks extraordinary $1.7 billion spending frenzy ahead of release",
             "source": "Dailymail.com",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-18T18:06:19Z",
             "sentiment": "Positive",
             "compound": 0.557
-          },
-          {
-            "title": "What the Next Fed Rate Move Means for Utility Stocks -- and 2 Worth Owning",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-18T18:05:41Z",
-            "sentiment": "Positive",
-            "compound": 0.226
-          },
-          {
-            "title": "Stock Market Midday, Nov. 18: Nvidia Doubles Revenue, but Wall Street's Sell-Off Continues",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-18T18:05:30Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Midera Sustains Double-Digit Organic Order Growth, Raises FY Outlook",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-18T18:05:25Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "Home Depot’s incoming CEO says homeowners are ‘feeling pressure.’ A quarter can’t cover a $5,000 repair",
-            "source": "Fortune",
-            "publishedAt": "2026-11-18T18:04:32Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 33.9,
-  "trade_probability": 40.34,
+  "confirmation_score": 33.66,
+  "trade_probability": 40.2,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
