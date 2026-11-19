@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T05:01:27.962294+00:00",
+  "generated_at": "2026-11-19T05:15:50.668482+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.61,
+      "score": 44.32,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.86,
-        "change_5d_pct": 0.923
+        "current_dxy": 103.9,
+        "change_5d_pct": 0.71
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 58.93,
+      "score": 57.34,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.179,
+        "avg_compound": 0.147,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Copper falls to near five-month low as firm dollar, AI concerns weigh",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-18T05:08:33Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "Gold financiers under pressure; Muthoot, Manappuram fall 5%; here's why",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-18T05:08:07Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "Hindustan Copper shares fall 3% as copper prices hit 5-month low",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-18T05:06:34Z",
+            "sentiment": "Neutral",
+            "compound": 0.026
+          },
+          {
+            "title": "Bitwise Wants Its Zcash ETF on the Texas Stock Exchange, Under the Ticker ZEC",
+            "source": "Dcforecasts.com",
+            "publishedAt": "2026-11-18T05:04:06Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Target is set to report earnings before the bell. Here's what to expect",
             "source": "CNBC",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-18T05:00:00Z",
             "sentiment": "Positive",
             "compound": 0.637
-          },
-          {
-            "title": "Failing upward: David Malpass",
-            "source": "Americanthinker.com",
-            "publishedAt": "2026-11-18T05:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.511
-          },
-          {
-            "title": "Dollar Near 19-Month High: Strong US data lifts December rate-hike bets; traders await housing starts",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-18T04:56:30Z",
-            "sentiment": "Positive",
-            "compound": 0.572
-          },
-          {
-            "title": "Malaysia's economy grows 5.5% in Q3, propelled by tech boom",
-            "source": "CNA",
-            "publishedAt": "2026-11-18T04:49:23Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Malaysia sees AI boom driving 2027 growth after Q3 GDP tops forecasts",
-            "source": "CNA",
-            "publishedAt": "2026-11-18T04:49:00Z",
-            "sentiment": "Positive",
-            "compound": 0.71
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 45.52,
-  "trade_probability": 47.31,
+  "confirmation_score": 45.53,
+  "trade_probability": 47.32,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
