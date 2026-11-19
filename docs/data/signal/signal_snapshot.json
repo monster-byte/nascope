@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T09:01:27.150782+00:00",
+  "generated_at": "2026-11-19T09:15:55.114265+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.4,
+      "score": 46.08,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.76,
-        "change_5d_pct": 0.575
+        "current_dxy": 103.68,
+        "change_5d_pct": 0.49
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.13,
+      "score": 49.39,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.003,
+        "avg_compound": -0.012,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Gold Price Drop Reaches a 14-Month Low, 29% Below January’s Record",
+            "source": "Dcforecasts.com",
+            "publishedAt": "2026-11-18T09:06:06Z",
+            "sentiment": "Negative",
+            "compound": -0.459
+          },
+          {
+            "title": "TD Cowen keeps Buy rating on Sharplink with $13 price target",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-18T09:05:16Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Finastra Says Banks Should Modernize Payments One Step at a Time",
+            "source": "pymnts.com",
+            "publishedAt": "2026-11-18T09:03:49Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "IPO-bound Aragen plans to spend Rs 15 billion over 3 years for expansion, MD says",
             "source": "Economictimes.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-18T08:49:55Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Gold drops 2% amid Fed hike expectations",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-18T08:49:27Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Workday Announces Intent to Acquire Honeydew, a Semantic Layer for AI and Business Intelligence",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-18T08:49:23Z",
-            "sentiment": "Positive",
-            "compound": 0.477
-          },
-          {
-            "title": "Workday Advances EU Sovereign Cloud with New EU-Based Operating Company and Added Safeguards for Customer Data and Services",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-18T08:49:11Z",
-            "sentiment": "Positive",
-            "compound": 0.34
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 31.48,
-  "trade_probability": 38.89,
+  "confirmation_score": 31.47,
+  "trade_probability": 38.88,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
