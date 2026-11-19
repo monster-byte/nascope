@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T17:01:31.368862+00:00",
+  "generated_at": "2026-11-19T17:15:58.517324+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.6073,
+          "change_pct": -1.8659,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.5988,
+          "change_pct": -1.0352,
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.2051,
+          "change_pct": -2.0119,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.4204,
+          "change_pct": -2.5561,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26866.64,
-        "sma50": 29318.04,
-        "sma200": 28072.65
+        "last_price": 26700.69,
+        "sma50": 29314.72,
+        "sma200": 28071.82
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 20.0,
+      "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 33.29,
-        "percentile_vs_20d": 80.0
+        "current_vxn": 34.7,
+        "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 52.19,
+      "score": 55.8,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.089,
-        "change_5d_pct": -0.274
+        "current_yield_pct": 5.066,
+        "change_5d_pct": -0.725
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.97,
+      "score": 44.45,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.82,
-        "change_5d_pct": 0.629
+        "current_dxy": 103.89,
+        "change_5d_pct": 0.694
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.6,
+      "score": 50.28,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.088,
+        "avg_compound": 0.006,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Anthropic options could begin trading on Monday, expected to draw strong demand",
+            "source": "CNA",
+            "publishedAt": "2026-11-18T17:14:09Z",
+            "sentiment": "Positive",
+            "compound": 0.421
+          },
+          {
+            "title": "Economic optimism plunges to lowest level since Great Recession",
+            "source": "CFO Dive",
+            "publishedAt": "2026-11-18T17:12:00Z",
+            "sentiment": "Positive",
+            "compound": 0.494
+          },
+          {
+            "title": "What investors should know about Anthropic's unusual IPO",
+            "source": "WDIV ClickOnDetroit",
+            "publishedAt": "2026-11-18T17:08:21Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "SCHD Is Having Its Best Year Since 2013. What Happens Next Year?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-18T17:03:21Z",
+            "sentiment": "Positive",
+            "compound": 0.637
+          },
+          {
+            "title": "Anthropic in your 401(k) or IRA? How you could get exposure after its IPO",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-18T17:03:15Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Western governors gather in Santa Fe for mental health symposium",
             "source": "Santa Fe New Mexican",
             "publishedAt": "2026-11-18T17:00:54Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Heather Cox Richardson: The Nvidia Scandal and the Pols Who Put Profit Over Country",
-            "source": "Dianeravitch.net",
-            "publishedAt": "2026-11-18T17:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Fox News' Brian Kilmeade Says JD Vance 'Never Should Have Been Vice President' in Iran War Rebuke",
-            "source": "Radaronline.com",
-            "publishedAt": "2026-11-18T16:56:54Z",
-            "sentiment": "Negative",
-            "compound": -0.599
-          },
-          {
-            "title": "Bitcoin options flash warning as downside premiums surge ahead of Fed minutes",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-11-18T16:55:14Z",
-            "sentiment": "Negative",
-            "compound": -0.527
-          },
-          {
-            "title": "Markets decline over 0.6% as metals, consumer durables fall behind",
-            "source": "Business Standard",
-            "publishedAt": "2026-11-18T16:52:19Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "indiasim added to PyPI",
-            "source": "Pypi.org",
-            "publishedAt": "2026-11-18T16:52:10Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 33.25,
-  "trade_probability": 39.95,
+  "confirmation_score": 33.21,
+  "trade_probability": 39.93,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
