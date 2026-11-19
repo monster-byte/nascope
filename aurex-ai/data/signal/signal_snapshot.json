@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T17:15:58.517324+00:00",
+  "generated_at": "2026-11-19T17:31:13.380539+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.8659,
+          "change_pct": -0.9827,
           "up": false
         },
         "MSFT": {
-          "change_pct": -1.0352,
+          "change_pct": -0.2153,
           "up": false
         },
         "NVDA": {
-          "change_pct": -2.0119,
+          "change_pct": -0.9911,
           "up": false
         },
         "AMZN": {
-          "change_pct": -2.5561,
+          "change_pct": -1.5181,
           "up": false
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26700.69,
-        "sma50": 29314.72,
-        "sma200": 28071.82
+        "last_price": 26999.68,
+        "sma50": 29320.7,
+        "sma200": 28073.31
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 10.0,
+      "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 34.7,
-        "percentile_vs_20d": 90.0
+        "current_vxn": 36.82,
+        "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 55.8,
+      "score": 57.68,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.066,
-        "change_5d_pct": -0.725
+        "current_yield_pct": 5.054,
+        "change_5d_pct": -0.96
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.45,
+      "score": 44.87,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.89,
-        "change_5d_pct": 0.694
+        "current_dxy": 103.83,
+        "change_5d_pct": 0.641
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.28,
+      "score": 51.34,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.006,
+        "avg_compound": 0.027,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "How much will Anthropic be worth at IPO? New platforms like Polymarket offer early clues",
+            "source": "Fortune",
+            "publishedAt": "2026-11-18T17:29:09Z",
+            "sentiment": "Positive",
+            "compound": 0.527
+          },
           {
             "title": "Anthropic options could begin trading on Monday, expected to draw strong demand",
             "source": "CNA",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-18T17:03:15Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Western governors gather in Santa Fe for mental health symposium",
-            "source": "Santa Fe New Mexican",
-            "publishedAt": "2026-11-18T17:00:54Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 33.21,
-  "trade_probability": 39.93,
+  "confirmation_score": 33.15,
+  "trade_probability": 39.89,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
