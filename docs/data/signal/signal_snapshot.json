@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T18:31:14.444680+00:00",
+  "generated_at": "2026-11-19T18:45:58.947570+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.1777,
+          "change_pct": -1.1579,
           "up": false
         },
         "MSFT": {
-          "change_pct": -1.5274,
+          "change_pct": -1.7534,
           "up": false
         },
         "NVDA": {
-          "change_pct": -1.5904,
+          "change_pct": -1.9629,
           "up": false
         },
         "AMZN": {
-          "change_pct": -3.3883,
+          "change_pct": -3.5348,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26788.52,
-        "sma50": 29316.48,
-        "sma200": 28072.26
+        "last_price": 26738.83,
+        "sma50": 29315.49,
+        "sma200": 28072.01
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 36.19,
+        "current_vxn": 35.46,
         "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 58.62,
+      "score": 57.37,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.048,
-        "change_5d_pct": -1.078
+        "current_yield_pct": 5.056,
+        "change_5d_pct": -0.921
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.59,
+      "score": 44.77,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.87,
-        "change_5d_pct": 0.677
+        "current_dxy": 103.85,
+        "change_5d_pct": 0.654
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.92,
+      "score": 53.8,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.118,
+        "avg_compound": 0.076,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Hollywood's canniest investor Ashton Kutcher set to become a billionaire if AI giant Anthropic goes public",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-11-18T18:30:41Z",
+            "title": "One of AI's most notorious 'doomers' stands to make billions in Anthropic's IPO",
+            "source": "CNBC",
+            "publishedAt": "2026-11-18T18:43:26Z",
+            "sentiment": "Negative",
+            "compound": -0.493
+          },
+          {
+            "title": "Sam Altman On ‘Artificial’ Movie About Him — Not Among “Ten Weirdest Things In My Life” Right Now",
+            "source": "Deadline",
+            "publishedAt": "2026-11-18T18:37:05Z",
+            "sentiment": "Neutral",
+            "compound": 0.17
+          },
+          {
+            "title": "Barr, Investing in America’s Underserved Communities",
+            "source": "Federalreserve.gov",
+            "publishedAt": "2026-11-18T18:35:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "What investors should know about Anthropic's unusual IPO",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-11-18T18:21:58Z",
+            "title": "The Progressives Out Campaigned the Far-Right; Now Comes the Challenge of Leadership",
+            "source": "Fpif.org",
+            "publishedAt": "2026-11-18T18:34:38Z",
+            "sentiment": "Neutral",
+            "compound": 0.077
+          },
+          {
+            "title": "What is Nvidia without AI’s sugar daddy in charge?",
+            "source": "The Verge",
+            "publishedAt": "2026-11-18T18:34:15Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "The Nasdaq Is in a Correction and Traders Are Pricing in a December Fed Funds Rate Hike. 3 AI Infrastructure Stocks Down 25% or More I’d Buy When Anthropic Starts Trading",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-18T18:20:44Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Fed's Waller Calls for 50-Basis-Point Rate Hike, Says Tokenized Finance Still Needs Traditional Banks",
-            "source": "Decrypt",
-            "publishedAt": "2026-11-18T18:16:02Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Inside Grand Theft Auto's multibillion-dollar empire as GTA 6 sparks extraordinary $1.7 billion spending frenzy ahead of release",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-11-18T18:07:12Z",
-            "sentiment": "Neutral",
-            "compound": 0.178
-          },
-          {
-            "title": "Companies are spending Trump’s tariff refunds on bonuses – not reimbursing shoppers: report",
-            "source": "New York Post",
-            "publishedAt": "2026-11-18T18:06:19Z",
-            "sentiment": "Positive",
-            "compound": 0.557
+            "title": "Stock Market Today: Dow Falls as Nvidia Earnings Fail to Soothe Investors' Nerves - WSJ",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-11-18T18:33:20Z",
+            "sentiment": "Negative",
+            "compound": -0.34
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 33.66,
-  "trade_probability": 40.2,
+  "confirmation_score": 33.32,
+  "trade_probability": 39.99,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
