@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T14:31:14.647340+00:00",
+  "generated_at": "2026-11-19T14:45:55.897587+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 100.0,
+      "score": 75.0,
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.2721,
-          "up": true
+          "change_pct": -1.2371,
+          "up": false
         },
         "MSFT": {
-          "change_pct": 1.931,
+          "change_pct": 2.3072,
           "up": true
         },
         "NVDA": {
-          "change_pct": 1.9548,
+          "change_pct": 3.7932,
           "up": true
         },
         "AMZN": {
-          "change_pct": 1.0506,
+          "change_pct": 0.9713,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27604.5,
-        "sma50": 29332.8,
-        "sma200": 28076.34
+        "last_price": 27659.36,
+        "sma50": 29333.9,
+        "sma200": 28076.61
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 51.57,
+      "score": 52.82,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.093,
-        "change_5d_pct": -0.196
+        "current_yield_pct": 5.085,
+        "change_5d_pct": -0.353
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.4,
+      "score": 46.18,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.63,
-        "change_5d_pct": 0.45
+        "current_dxy": 103.66,
+        "change_5d_pct": 0.478
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 44.06,
+      "score": 47.62,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.119,
+        "avg_compound": -0.048,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "The 3 Best AI Stocks to Buy Now (Yes, Nvidia Is One of Them)",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-18T14:30:30Z",
+            "title": "Nvidia shares fall despite beating Q3 expectations, down 36% from peak",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-18T14:44:55Z",
             "sentiment": "Positive",
-            "compound": 0.784
+            "compound": 0.569
           },
           {
-            "title": "SAIC Schedules Third Quarter Fiscal Year 2027 Earnings Conference Call for December 3 at 10 A.M. ET",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-18T14:29:46Z",
+            "title": "Commercial Property Premium Decreases of 6.2% Drive Overall Soft Q3: CIAB",
+            "source": "Insurance Journal",
+            "publishedAt": "2026-11-18T14:43:15Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "A December Rate Hike Looks Likely: Buy These 3 Dividend Stocks That Earn More When Rates Rise",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-18T14:29:05Z",
+            "title": "Mortgage Rates Today, Wednesday, November 18: Moving Lower",
+            "source": "NerdWallet",
+            "publishedAt": "2026-11-18T14:43:07Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "Bitcoin lags tech stocks as Fed’s Waller renews call for 50-basis-point hike",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-18T14:41:05Z",
+            "sentiment": "Negative",
+            "compound": -0.361
+          },
+          {
+            "title": "Goldman Sachs sees RBI repo rate rising by 75 bps to 6.25% by mid-2027",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-18T14:35:57Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Waller Wants To \"Shock\" People: Fed Hawk Reprises 50bps Call As Market Refuses To Price It",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-18T14:28:40Z",
-            "sentiment": "Negative",
-            "compound": -0.382
-          },
-          {
-            "title": "Stock Market Today: Nvidia Earnings Are Driving the Market, but Uncertainty Still Reigns",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-18T14:28:25Z",
-            "sentiment": "Negative",
-            "compound": -0.477
-          },
-          {
-            "title": "Quantum computing drops its decade-away tag as error rates fall 200-fold in two years",
-            "source": "SiliconANGLE News",
-            "publishedAt": "2026-11-18T14:28:21Z",
-            "sentiment": "Negative",
-            "compound": -0.402
+            "title": "Ondo Finance to launch ANTon token tracking Anthropic shares on Nasdaq debut day",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-18T14:34:32Z",
+            "sentiment": "Positive",
+            "compound": 0.296
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 59.7,
-  "trade_probability": 55.82,
+  "confirmation_score": 53.42,
+  "trade_probability": 52.05,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
