@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T10:38:22.434932+00:00",
+  "generated_at": "2026-11-19T10:45:54.002213+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.16,
+      "score": 46.37,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.67,
-        "change_5d_pct": 0.48
+        "current_dxy": 103.64,
+        "change_5d_pct": 0.454
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 44.67,
+      "score": 45.49,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.107,
-        "articles_analyzed": 23,
+        "avg_compound": -0.09,
+        "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "RBI may hike interest rates by 75 basis points by Q2 of next year: Goldman Sachs",
+            "source": "Economictimes.com",
+            "publishedAt": "2026-11-18T10:41:25Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "Gold prices fall in Bangalore, 24-carat rate drops by Rs 278 per gram; silver declines too",
+            "source": "Fact.net.in",
+            "publishedAt": "2026-11-18T10:40:44Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Nvidia’s massive Q3 (and ‘ongoing investigation’) definitively shut the door on Huang’s return as the company nears largest annual profit in history",
+            "source": "Fortune",
+            "publishedAt": "2026-11-18T10:39:18Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
           {
             "title": "UK gilt yields fall as rate hike bets fade on inflation data",
             "source": "Biztoc.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-18T10:35:05Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "U.S. export controls and Nvidia’s leadership transition remain key watchpoints for the Gulf",
-            "source": "Fortune",
-            "publishedAt": "2026-11-18T10:34:17Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Civil Rights and Women’s Groups Unite to Condemn Trump’s Treatment of Black Women Leaders",
-            "source": "The Root",
-            "publishedAt": "2026-11-18T10:33:31Z",
-            "sentiment": "Negative",
-            "compound": -0.382
-          },
-          {
-            "title": "50 Groups Fight to Protect Black Women From Trump Attacks",
-            "source": "The Root",
-            "publishedAt": "2026-11-18T10:33:31Z",
-            "sentiment": "Negative",
-            "compound": -0.44
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 31.06,
-  "trade_probability": 38.64,
+  "confirmation_score": 31.15,
+  "trade_probability": 38.69,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
