@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T09:31:14.862715+00:00",
+  "generated_at": "2026-11-19T09:45:53.062025+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.13,
+      "score": 45.89,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.67,
-        "change_5d_pct": 0.484
+        "current_dxy": 103.7,
+        "change_5d_pct": 0.514
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.45,
+      "score": 48.07,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.011,
-        "articles_analyzed": 24,
+        "avg_compound": -0.039,
+        "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Kawalan Harga Makanan di Malaysia: Pengajaran Kejayaan Menstabilkan Harga Barangan Strategik",
+            "source": "Fazlisyam.com",
+            "publishedAt": "2026-11-18T09:44:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "FPIs smash monthly investment record in Indian stocks with Rs 99k-crore buy",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-18T09:42:10Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "The Stock Market Is Flashing a Warning Sign Seen Only Once Before. History Is Clear About What Comes Next",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-18T09:34:59Z",
+            "sentiment": "Neutral",
+            "compound": 0.052
+          },
           {
             "title": "Goldman Sachs upgrades India to overweight; Dec.'27 Nifty target at 28,500",
             "source": "Business Standard",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-18T09:05:16Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Finastra Says Banks Should Modernize Payments One Step at a Time",
-            "source": "pymnts.com",
-            "publishedAt": "2026-11-18T09:03:49Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "IPO-bound Aragen plans to spend Rs 15 billion over 3 years for expansion, MD says",
-            "source": "Economictimes.com",
-            "publishedAt": "2026-11-18T08:58:06Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "No 24x7 trading in immediate future, Sebi chief flags cyber risks, liquidity concerns",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-18T08:55:15Z",
-            "sentiment": "Negative",
-            "compound": -0.511
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 31.48,
-  "trade_probability": 38.89,
+  "confirmation_score": 31.34,
+  "trade_probability": 38.8,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
