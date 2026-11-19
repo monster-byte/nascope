@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T16:46:01.786376+00:00",
+  "generated_at": "2026-11-19T17:01:31.368862+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
-      "status": "green",
+      "score": 0.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.1353,
+          "change_pct": -1.6073,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.5049,
-          "up": true
+          "change_pct": -0.5988,
+          "up": false
         },
         "NVDA": {
-          "change_pct": 0.6454,
-          "up": true
+          "change_pct": -1.2051,
+          "up": false
         },
         "AMZN": {
-          "change_pct": 0.0463,
-          "up": true
+          "change_pct": -1.4204,
+          "up": false
         }
       }
     },
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 27241.21,
-        "sma50": 29325.53,
-        "sma200": 28074.52
+        "last_price": 26866.64,
+        "sma50": 29318.04,
+        "sma200": 28072.65
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 15.0,
+      "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 33.42,
-        "percentile_vs_20d": 85.0
+        "current_vxn": 33.29,
+        "percentile_vs_20d": 80.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 53.61,
+      "score": 52.19,
       "status": "yellow",
       "details": {
-        "current_yield_pct": 5.08,
-        "change_5d_pct": -0.451
+        "current_yield_pct": 5.089,
+        "change_5d_pct": -0.274
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.7,
+      "score": 44.97,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.85,
-        "change_5d_pct": 0.662
+        "current_dxy": 103.82,
+        "change_5d_pct": 0.629
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.97,
+      "score": 45.6,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.019,
+        "avg_compound": -0.088,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "170 Years of Market History Just Flashed a 97% Bubble Warning — the Last Time It Was This High Was 2007",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-18T16:45:39Z",
+            "title": "Western governors gather in Santa Fe for mental health symposium",
+            "source": "Santa Fe New Mexican",
+            "publishedAt": "2026-11-18T17:00:54Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Heather Cox Richardson: The Nvidia Scandal and the Pols Who Put Profit Over Country",
+            "source": "Dianeravitch.net",
+            "publishedAt": "2026-11-18T17:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Fox News' Brian Kilmeade Says JD Vance 'Never Should Have Been Vice President' in Iran War Rebuke",
+            "source": "Radaronline.com",
+            "publishedAt": "2026-11-18T16:56:54Z",
             "sentiment": "Negative",
-            "compound": -0.34
+            "compound": -0.599
           },
           {
-            "title": "Students face being 'turned away from college' over budget gap",
-            "source": "BBC News",
-            "publishedAt": "2026-11-18T16:40:08Z",
+            "title": "Bitcoin options flash warning as downside premiums surge ahead of Fed minutes",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-11-18T16:55:14Z",
+            "sentiment": "Negative",
+            "compound": -0.527
+          },
+          {
+            "title": "Markets decline over 0.6% as metals, consumer durables fall behind",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-18T16:52:19Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Anthropic Eyes November 19 Nasdaq Debut After IPO Pricing",
-            "source": "Bitcoinfoundation.org",
-            "publishedAt": "2026-11-18T16:35:14Z",
+            "title": "indiasim added to PyPI",
+            "source": "Pypi.org",
+            "publishedAt": "2026-11-18T16:52:10Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Bitcoin, stocks wobble as Fed’s Waller talks of ‘shock’ 50-point rate hike",
-            "source": "Cointelegraph",
-            "publishedAt": "2026-11-18T16:34:20Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Alfa-Bank Becomes the 31st Name on Russia’s Crypto Exchange Register",
-            "source": "Dcforecasts.com",
-            "publishedAt": "2026-11-18T16:34:17Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "What Would Democrats Look Like Under Van Hollen’s Leadership?",
-            "source": "The New Republic",
-            "publishedAt": "2026-11-18T16:26:20Z",
-            "sentiment": "Positive",
-            "compound": 0.361
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 53.7,
-  "trade_probability": 52.22,
+  "confirmation_score": 33.25,
+  "trade_probability": 39.95,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
