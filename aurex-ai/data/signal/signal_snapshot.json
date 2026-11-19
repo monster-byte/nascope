@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T02:01:37.342610+00:00",
+  "generated_at": "2026-11-19T02:15:59.605423+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.89,
+      "score": 42.66,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.82,
-        "change_5d_pct": 0.889
+        "current_dxy": 103.85,
+        "change_5d_pct": 0.917
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.57,
+      "score": 53.71,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.071,
+        "avg_compound": 0.074,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Dollar holds near 19-month high as data supports case for US rate hikes",
+            "source": "Economictimes.com",
+            "publishedAt": "2026-11-18T02:10:25Z",
+            "sentiment": "Positive",
+            "compound": 0.361
+          },
+          {
+            "title": "Gold hits over one-year low ahead of Fed minutes",
+            "source": "Economictimes.com",
+            "publishedAt": "2026-11-18T02:08:58Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "The $128 Trillion Global Economy: Every Country’s GDP Ranked",
+            "source": "Activistpost.com",
+            "publishedAt": "2026-11-18T02:07:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Sensex today | Stock Market Live Updates: Stock to buy today: Cemindia Projects (₹1,353) – BUY",
+            "source": "BusinessLine",
+            "publishedAt": "2026-11-18T02:04:39Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Sensex Today | Nifty 50 | Stock Market Live Updates: GIFT Nifty signals a negative start; Asian shares trade higher",
             "source": "Economictimes.com",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-18T02:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.128
-          },
-          {
-            "title": "Should You Buy Anthropic Stock on Day 1 or Wait?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-18T01:59:44Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Is a yellow box fish a puffer fish?",
-            "source": "Lifesciencesworld.com",
-            "publishedAt": "2026-11-18T01:57:59Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Bitcoin could benefit if AI downturn prompts Fed policy reversal, CoinShares’ portfolio manager says",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-18T01:50:02Z",
-            "sentiment": "Positive",
-            "compound": 0.459
-          },
-          {
-            "title": "OpenAI bugging case defendant Alfozan set for trial in January",
-            "source": "CNBC",
-            "publishedAt": "2026-11-18T01:31:37Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 45.06,
-  "trade_probability": 47.04,
+  "confirmation_score": 45.05,
+  "trade_probability": 47.03,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
