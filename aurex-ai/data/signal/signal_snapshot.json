@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T08:45:48.810093+00:00",
+  "generated_at": "2026-11-19T09:01:27.150782+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 0.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.4391,
-          "up": true
+          "change_pct": -0.6581,
+          "up": false
         },
         "MSFT": {
-          "change_pct": -0.2786,
+          "change_pct": -1.1031,
           "up": false
         },
         "NVDA": {
-          "change_pct": -6.5575,
+          "change_pct": -0.7173,
           "up": false
         },
         "AMZN": {
-          "change_pct": 3.1842,
-          "up": true
+          "change_pct": -1.3453,
+          "up": false
         }
       }
     },
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.43,
+      "score": 45.4,
       "status": "yellow",
       "details": {
         "current_dxy": 103.76,
-        "change_5d_pct": 0.571
+        "change_5d_pct": 0.575
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.25,
+      "score": 50.13,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.005,
+        "avg_compound": 0.003,
         "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "BJP's Gaurav Bhatia calls Rahul Gandhi 'Mir Jafar' of India, accuses him of defaming India abroad",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-18T08:43:19Z",
-            "sentiment": "Negative",
-            "compound": -0.34
-          },
-          {
-            "title": "Brent's war premium fades, but lingering risks keep $90 intact: Kotak Neo",
-            "source": "Business Standard",
-            "publishedAt": "2026-11-18T08:37:55Z",
-            "sentiment": "Negative",
-            "compound": -0.44
-          },
-          {
-            "title": "Nvidia hires Heidrick & Struggles as it intensifies search for next CEO | All you need to know about the firm",
-            "source": "Livemint",
-            "publishedAt": "2026-11-18T08:35:10Z",
-            "sentiment": "Negative",
-            "compound": -0.361
-          },
-          {
-            "title": "Anthropic set to price IPO in key test for AI boom",
-            "source": "RTE",
-            "publishedAt": "2026-11-18T08:34:41Z",
+            "title": "IPO-bound Aragen plans to spend Rs 15 billion over 3 years for expansion, MD says",
+            "source": "Economictimes.com",
+            "publishedAt": "2026-11-18T08:58:06Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Energy bills in Great Britain forecast to rise to £2,166 a year from January",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-18T08:34:00Z",
-            "sentiment": "Positive",
-            "compound": 0.735
+            "title": "No 24x7 trading in immediate future, Sebi chief flags cyber risks, liquidity concerns",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-18T08:55:15Z",
+            "sentiment": "Negative",
+            "compound": -0.511
           },
           {
-            "title": "No plan for 24x7 stock trading, SEBI chief Tuhin Kanta Pandey says",
-            "source": "BusinessLine",
-            "publishedAt": "2026-11-18T08:31:29Z",
-            "sentiment": "Negative",
-            "compound": -0.296
+            "title": "Anthropic IPO: A Brother-Sister Duo Behind A Trillion-Dollar AI Giant",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-18T08:49:55Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Gold drops 2% amid Fed hike expectations",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-18T08:49:27Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Workday Announces Intent to Acquire Honeydew, a Semantic Layer for AI and Business Intelligence",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-18T08:49:23Z",
+            "sentiment": "Positive",
+            "compound": 0.477
+          },
+          {
+            "title": "Workday Advances EU Sovereign Cloud with New EU-Based Operating Company and Added Safeguards for Customer Data and Services",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-18T08:49:11Z",
+            "sentiment": "Positive",
+            "compound": 0.34
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.99,
-  "trade_probability": 46.99,
+  "confirmation_score": 31.48,
+  "trade_probability": 38.89,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
