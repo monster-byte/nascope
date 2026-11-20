@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T02:45:56.311931+00:00",
+  "generated_at": "2026-11-20T03:01:26.321247+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.3388,
+          "change_pct": -1.336,
           "up": false
         },
         "MSFT": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.55,
+      "score": 44.53,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.87,
-        "change_5d_pct": 0.681
+        "current_dxy": 103.88,
+        "change_5d_pct": 0.683
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.94,
+      "score": 58.78,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.119,
+        "avg_compound": 0.176,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "County Physical Inactivity Strongly Links to Youth Obesity Rates Across",
+            "source": "Scienmag.com",
+            "publishedAt": "2026-11-19T02:57:09Z",
+            "sentiment": "Positive",
+            "compound": 0.273
+          },
+          {
+            "title": "Anthropic prices record IPO at US$83 per share ahead of Nasdaq debut",
+            "source": "Digitimes",
+            "publishedAt": "2026-11-19T02:52:17Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "Live blog: Anthropic’s nearly $1.5 trillion IPO is today",
+            "source": "Sfstandard.com",
+            "publishedAt": "2026-11-19T02:51:20Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Stocks to watch: Dalmia Bharat, Equitas SFB, PSBs, Tata Motors, SBI Funds",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-19T02:46:07Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Anthropic IPO: Who gains the most from the biggest offering ever?",
             "source": "Bloomberg",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-19T02:37:16Z",
             "sentiment": "Positive",
             "compound": 0.296
-          },
-          {
-            "title": "Anthropic prices its IPO at $83 per share, valuing the artificial intelligence giant at 1.5 trillion",
-            "source": "Economictimes.com",
-            "publishedAt": "2026-11-19T02:32:49Z",
-            "sentiment": "Positive",
-            "compound": 0.772
-          },
-          {
-            "title": "Stock Market LIVE: GIFT Nifty signals negative open; most Asian markets fall; Brent crude tops $92",
-            "source": "Business Standard",
-            "publishedAt": "2026-11-19T02:29:37Z",
-            "sentiment": "Positive",
-            "compound": 0.303
-          },
-          {
-            "title": "Anthropic Prices IPO at $83 a Share, Raising $81.3 Billion in Largest Listing on Record",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-19T02:24:48Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "Anthropic boom is worth celebrating — but it comes with a serious warning",
-            "source": "New York Post",
-            "publishedAt": "2026-11-19T02:19:06Z",
-            "sentiment": "Neutral",
-            "compound": -0.19
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 33.57,
-  "trade_probability": 40.14,
+  "confirmation_score": 33.83,
+  "trade_probability": 40.3,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
