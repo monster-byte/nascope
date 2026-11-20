@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T17:38:54.072759+00:00",
+  "generated_at": "2026-11-20T17:45:51.499835+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.4856,
+          "change_pct": -1.4707,
           "up": false
         },
         "MSFT": {
-          "change_pct": -1.9504,
+          "change_pct": -1.7614,
           "up": false
         },
         "NVDA": {
-          "change_pct": -7.282,
+          "change_pct": -7.1654,
           "up": false
         },
         "AMZN": {
-          "change_pct": -2.7865,
+          "change_pct": -2.4869,
           "up": false
         }
       }
@@ -40,18 +40,18 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 25471.43,
-        "sma50": 29233.11,
-        "sma200": 28075.51
+        "last_price": 25516.79,
+        "sma50": 29234.02,
+        "sma200": 28075.74
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 0.0,
+      "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 40.85,
-        "percentile_vs_20d": 100.0
+        "current_vxn": 40.81,
+        "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.36,
+      "score": 47.18,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.75,
-        "change_5d_pct": 0.33
+        "current_dxy": 103.78,
+        "change_5d_pct": 0.353
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 61.11,
+      "score": 58.94,
       "status": "yellow",
       "details": {
-        "overall_sentiment": "BULLISH",
-        "avg_compound": 0.222,
-        "articles_analyzed": 23,
+        "overall_sentiment": "NEUTRAL",
+        "avg_compound": 0.179,
+        "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Anthropic stock soars over 20% in Nasdaq debut",
-            "source": "CBC News",
-            "publishedAt": "2026-11-19T17:37:14Z",
+            "title": "Wolfbox 150-PSI Dual-Cylinder Portable Tire Inflator for $37 + free shipping",
+            "source": "Dealnews.com",
+            "publishedAt": "2026-11-19T17:45:05Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
+          {
+            "title": "Average US 30-year mortgage rate rises to 7.28% this week, ending a four-week slide",
+            "source": "Abcnews.com",
+            "publishedAt": "2026-11-19T17:42:04Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "3 Celebrities Stand to Gain From Anthropic’s Stock-Market Debut. 1 Invested After an NBA Dinner",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-19T17:36:00Z",
-            "sentiment": "Positive",
-            "compound": 0.527
+            "title": "Crypto platform’s plan to offer tokenized shares for Anthropic IPO comes up short, following similar SpaceX flop",
+            "source": "Fortune",
+            "publishedAt": "2026-11-19T17:41:39Z",
+            "sentiment": "Neutral",
+            "compound": -0.052
           },
           {
-            "title": "Anthropic shares open 34% above IPO price in Nasdaq debut after record listing",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-19T17:35:34Z",
+            "title": "Anthropic a intrat în tranzacționarea la bursă și, la scurt timp, valoarea sa de piață a depășit 2.000 de miliarde de dolari. Compania de inteligență artificială care a creat Claude devine astfel a șasea cea mai valoroasă firmă din lume, depășind SpaceX, dar încă la mare distanță de Google, Apple și Microsoft.",
+            "source": "Biziday.ro",
+            "publishedAt": "2026-11-19T17:41:35Z",
             "sentiment": "Positive",
-            "compound": 0.296
+            "compound": 0.494
           },
           {
-            "title": "Chapter 5. General Considerations on Inflation",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-19T17:35:33Z",
+            "title": "Ripple’s Brad Garlinghouse Says Crypto Markets Could Rebound After Anthropic Goes Public",
+            "source": "ZyCrypto",
+            "publishedAt": "2026-11-19T17:41:04Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Anthropic raises $81 bn, set to secure $1.8 trn valuation in Nasdaq debut",
-            "source": "Business Standard",
-            "publishedAt": "2026-11-19T17:35:33Z",
-            "sentiment": "Positive",
-            "compound": 0.34
-          },
-          {
-            "title": "Anthropic hits NASDAQ exchanges at $111, 33% above IPO price",
+            "title": "Why Intel Stock Is Gaining Today",
             "source": "Biztoc.com",
-            "publishedAt": "2026-11-19T17:35:29Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "publishedAt": "2026-11-19T17:39:37Z",
+            "sentiment": "Positive",
+            "compound": 0.421
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 37.33,
-  "trade_probability": 42.4,
+  "confirmation_score": 37.57,
+  "trade_probability": 42.54,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
