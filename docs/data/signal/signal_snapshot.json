@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T02:31:12.504403+00:00",
+  "generated_at": "2026-11-20T02:45:56.311931+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.29,
+      "score": 44.55,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.91,
-        "change_5d_pct": 0.713
+        "current_dxy": 103.87,
+        "change_5d_pct": 0.681
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.84,
+      "score": 55.94,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.057,
+        "avg_compound": 0.119,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Anthropic IPO: Who gains the most from the biggest offering ever?",
+            "source": "Bloomberg",
+            "publishedAt": "2026-11-19T02:41:46Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
+          {
+            "title": "Anthropic Sets Record With $81.3 Billion Share Sale Before Nasdaq Debut",
+            "source": "pymnts.com",
+            "publishedAt": "2026-11-19T02:37:16Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "Anthropic prices its IPO at $83 per share, valuing the artificial intelligence giant at 1.5 trillion",
+            "source": "Economictimes.com",
+            "publishedAt": "2026-11-19T02:32:49Z",
+            "sentiment": "Positive",
+            "compound": 0.772
+          },
           {
             "title": "Stock Market LIVE: GIFT Nifty signals negative open; most Asian markets fall; Brent crude tops $92",
             "source": "Business Standard",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-19T02:19:06Z",
             "sentiment": "Neutral",
             "compound": -0.19
-          },
-          {
-            "title": "US dollar hovers near 19-month high, Aussie falls after soft jobs data",
-            "source": "Economictimes.com",
-            "publishedAt": "2026-11-19T02:16:47Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "ANTHROPIC IPO to mint thousands of new millionaires... Developing...",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-11-19T02:00:17Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Inside the Army’s 75 Year Plan to Escape China’s Rare Earth Dominance",
-            "source": "OilPrice.com",
-            "publishedAt": "2026-11-19T02:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.361
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 33.27,
-  "trade_probability": 39.96,
+  "confirmation_score": 33.57,
+  "trade_probability": 40.14,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
