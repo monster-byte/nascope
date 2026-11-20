@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T08:46:00.751472+00:00",
+  "generated_at": "2026-11-20T08:56:08.137334+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.3388,
+          "change_pct": -1.336,
           "up": false
         },
         "MSFT": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.9,
+      "score": 46.58,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.81,
-        "change_5d_pct": 0.388
+        "current_dxy": 103.85,
+        "change_5d_pct": 0.427
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.55,
+      "score": 54.19,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.111,
+        "avg_compound": 0.084,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Almost all Fed policymakers see more rate hikes as likely",
+            "source": "RTE",
+            "publishedAt": "2026-11-19T08:55:46Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Michael Hudson on Europe’s Fight Against Democracy, Financial versus Industrial Capitalism, and the AI Bubble Endgamr",
+            "source": "Nakedcapitalism.com",
+            "publishedAt": "2026-11-19T08:50:28Z",
+            "sentiment": "Negative",
+            "compound": -0.382
+          },
+          {
+            "title": "Anthropic IPO Listing: How Indian investors can buy ANT shares and what it will really cost",
+            "source": "Livemint",
+            "publishedAt": "2026-11-19T08:47:40Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
           {
             "title": "FPIs buy ₹45,960 crore in a week, surpassing October’s total equity outflows",
             "source": "BusinessLine",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-19T08:15:42Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Europe opens higher with all eyes on APEC, Anthropic",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-19T08:12:42Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Anthropic to float on the stock market today as it raises $81bn in record IPO – business live",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-19T08:12:10Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Anthropic @ $1.5 trillion: A 5-year-old AI company is now worth more than India Inc’s top 10 combined",
-            "source": "Economictimes.com",
-            "publishedAt": "2026-11-19T08:11:46Z",
-            "sentiment": "Positive",
-            "compound": 0.402
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 33.75,
-  "trade_probability": 40.25,
+  "confirmation_score": 33.6,
+  "trade_probability": 40.16,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
