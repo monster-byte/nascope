@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T18:15:59.059374+00:00",
+  "generated_at": "2026-11-20T18:31:16.778205+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.6175,
+          "change_pct": -1.7542,
           "up": false
         },
         "MSFT": {
-          "change_pct": -1.8358,
+          "change_pct": -1.6408,
           "up": false
         },
         "NVDA": {
-          "change_pct": -7.2417,
+          "change_pct": -7.1037,
           "up": false
         },
         "AMZN": {
-          "change_pct": -2.8488,
+          "change_pct": -2.7904,
           "up": false
         }
       }
@@ -40,7 +40,7 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 25464.99,
+        "last_price": 25465.02,
         "sma50": 29232.98,
         "sma200": 28075.48
       }
@@ -50,17 +50,17 @@
       "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 40.22,
+        "current_vxn": 40.49,
         "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 84.15,
+      "score": 83.84,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.934,
-        "change_5d_pct": -4.269
+        "current_yield_pct": 4.936,
+        "change_5d_pct": -4.23
       }
     },
     "dxy": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.25,
+      "score": 58.58,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.085,
+        "avg_compound": 0.172,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Binance Wallet fails to secure shares for Anthropic tokenized IPO",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-19T18:15:31Z",
+            "title": "Serbian Cultural Institutions Have Lost Independence",
+            "source": "Eurozine.com",
+            "publishedAt": "2026-11-19T18:31:00Z",
+            "sentiment": "Negative",
+            "compound": -0.318
+          },
+          {
+            "title": "Guest post: Do Leicas really hold their value?",
+            "source": "Leicarumors.com",
+            "publishedAt": "2026-11-19T18:30:30Z",
             "sentiment": "Positive",
-            "compound": 0.202
+            "compound": 0.395
           },
           {
-            "title": "AMD shares slide 8% as report says China links could invite US scrutiny",
-            "source": "Economictimes.com",
-            "publishedAt": "2026-11-19T18:13:12Z",
-            "sentiment": "Positive",
-            "compound": 0.421
-          },
-          {
-            "title": "Anthropic’s $81 Billion IPO Tops SpaceX as the Biggest on Record",
-            "source": "iPhone in Canada",
-            "publishedAt": "2026-11-19T18:13:07Z",
-            "sentiment": "Positive",
-            "compound": 0.511
-          },
-          {
-            "title": "Buying an AI IPO like Anthropic could be a leap of faith",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-19T18:09:31Z",
-            "sentiment": "Positive",
-            "compound": 0.649
-          },
-          {
-            "title": "Bitcoin price ignores Anthropic debut as ANT share price dips below $100",
-            "source": "Cointelegraph",
-            "publishedAt": "2026-11-19T18:06:50Z",
-            "sentiment": "Neutral",
-            "compound": 0.026
-          },
-          {
-            "title": "Goolsbee: Fed independence key to curbing inflation",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-19T18:06:35Z",
+            "title": "With Mortgage Rates Rising, Should You Hibernate Until Spring?",
+            "source": "NerdWallet",
+            "publishedAt": "2026-11-19T18:29:08Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "Anthropic Begins Trading on Nasdaq at $111.50",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-19T18:27:18Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "The Stocks That Win From Anthropic's IPO",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-19T18:25:04Z",
+            "sentiment": "Positive",
+            "compound": 0.586
+          },
+          {
+            "title": "More Than 20,000 Small Businesses Use His Technology. Here’s His Data-Driven Advice—And AI Shortcuts—for Capitalizing On a $1 Trillion Holiday Season.",
+            "source": "Entrepreneur",
+            "publishedAt": "2026-11-19T18:24:45Z",
+            "sentiment": "Positive",
+            "compound": 0.402
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 37.16,
-  "trade_probability": 42.3,
+  "confirmation_score": 37.5,
+  "trade_probability": 42.5,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
