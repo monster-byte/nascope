@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T20:16:05.047487+00:00",
+  "generated_at": "2026-11-20T20:31:18.385828+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.9195,
+          "change_pct": -2.3697,
           "up": false
         },
         "MSFT": {
-          "change_pct": -2.1705,
+          "change_pct": -2.9095,
           "up": false
         },
         "NVDA": {
-          "change_pct": -12.7263,
+          "change_pct": -12.686,
           "up": false
         },
         "AMZN": {
-          "change_pct": -3.3392,
+          "change_pct": -3.9696,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 25201.06,
-        "sma50": 29227.7,
-        "sma200": 28074.16
+        "last_price": 25071.48,
+        "sma50": 29225.11,
+        "sma200": 28073.51
       }
     },
     "vxn": {
@@ -50,7 +50,7 @@
       "score": 0.0,
       "status": "red",
       "details": {
-        "current_vxn": 42.46,
+        "current_vxn": 43.8,
         "percentile_vs_20d": 100.0
       }
     },
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.8,
+      "score": 46.86,
       "status": "yellow",
       "details": {
         "current_dxy": 103.82,
-        "change_5d_pct": 0.399
+        "change_5d_pct": 0.393
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.08,
+      "score": 46.71,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.098,
+        "avg_compound": -0.066,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "ADP Acquires ZenBusiness",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-19T20:25:54Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Sound Ventures turned $435 million into a $7 billion Anthropic stake. Ashton Kutcher left months before the IPO",
+            "source": "Fortune",
+            "publishedAt": "2026-11-19T20:22:56Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Netflix Stock Hits Multi-Year Low: What's Happening?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-19T20:22:41Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "Digi Power X adds 42 BTC, lifting its Bitcoin treasury to 259 BTC",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-19T20:18:11Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "Live: Anthropic's record-breaking listing hits Nasdaq, ASX set to drop",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-11-19T20:16:21Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
           {
             "title": "US mortgage rates rise for the first time in five weeks | CNN Business - CNN",
             "source": "Slashdot.org",
             "publishedAt": "2026-11-19T20:13:08Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Live: Minister plays down recession concerns despite economist warnings",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-11-19T20:12:30Z",
-            "sentiment": "Neutral",
-            "compound": 0.023
-          },
-          {
-            "title": "Anthropic Soars 16% in Record $107 Billion IPO Debut: “A Really Big Coming-of-Age Story”",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-19T20:11:50Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Why SpaceX Stock Is Down Today",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-19T20:11:47Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Methanex Corporation",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-19T20:07:48Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Anthropic makes stock market debut: Who stands to gain from the blockbuster IPO?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-19T20:07:38Z",
-            "sentiment": "Positive",
-            "compound": 0.807
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 36.34,
-  "trade_probability": 41.8,
+  "confirmation_score": 36.49,
+  "trade_probability": 41.89,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
