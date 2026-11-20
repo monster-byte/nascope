@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T14:31:17.679185+00:00",
+  "generated_at": "2026-11-20T14:46:03.545573+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
+      "score": 0.0,
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.1519,
-          "up": true
+          "change_pct": -0.1173,
+          "up": false
         },
         "MSFT": {
-          "change_pct": -0.9913,
+          "change_pct": -0.0804,
           "up": false
         },
         "NVDA": {
-          "change_pct": -2.5576,
+          "change_pct": -4.1279,
           "up": false
         },
         "AMZN": {
-          "change_pct": -2.121,
+          "change_pct": -0.8465,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26171.52,
-        "sma50": 29247.11,
-        "sma200": 28079.01
+        "last_price": 26140.56,
+        "sma50": 29246.49,
+        "sma200": 28078.86
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 76.08,
+      "score": 76.39,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.986,
-        "change_5d_pct": -3.26
+        "current_yield_pct": 4.984,
+        "change_5d_pct": -3.298
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.8,
+      "score": 47.66,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.69,
-        "change_5d_pct": 0.276
+        "current_dxy": 103.71,
+        "change_5d_pct": 0.292
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.06,
+      "score": 52.91,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.061,
+        "avg_compound": 0.058,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Airtel ranked as India’s Most Valuable Brand : Kantar BrandZ India 2026",
-            "source": "BusinessLine",
-            "publishedAt": "2026-11-19T14:30:05Z",
+            "title": "Gen Z Holds Crypto at 7 Times the Boomer Rate and Wants It Inside the Bank",
+            "source": "Dcforecasts.com",
+            "publishedAt": "2026-11-19T14:45:34Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Anthropic’s crypto futures traded 25% above its $81 billion IPO price as Bitcoin slumped 22%",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-11-19T14:45:19Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Should You Introduce Bitcoin to a Portfolio that Already Dominates Gold?",
+            "source": "Bitcoinfoundation.org",
+            "publishedAt": "2026-11-19T14:44:46Z",
+            "sentiment": "Neutral",
+            "compound": 0.052
+          },
+          {
+            "title": "Anthropic IPO: Here’s the 1 Thing That's Keeping Me From Buying",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-19T14:37:24Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "If the Fed Raises Rates Again in December, Here's the 1 ETF I'm Buying Without Any Hesitation",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-19T14:37:00Z",
             "sentiment": "Positive",
-            "compound": 0.526
+            "compound": 0.206
           },
           {
-            "title": "Mortgage Rates Today, Thursday, November 19: Kind of a Big Jump",
-            "source": "NerdWallet",
-            "publishedAt": "2026-11-19T14:29:41Z",
+            "title": "Binance Offers Tokenized Anthropic Stock To Investors",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-19T14:36:59Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Anthropic IPO: AI firm about to make US stock market debut with valuation of $1.5tn",
-            "source": "BBC News",
-            "publishedAt": "2026-11-19T14:28:16Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Fed's Jefferson says AI boosting inflation, productivity impact possible 'in the future'",
-            "source": "CNA",
-            "publishedAt": "2026-11-19T14:26:45Z",
-            "sentiment": "Positive",
-            "compound": 0.34
-          },
-          {
-            "title": "Walmart delivers Q3 beat, raises FY27 outlook",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-19T14:25:57Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Jefferson, Monetary Policy amid Frequent and Complex Shocks",
-            "source": "Federalreserve.gov",
-            "publishedAt": "2026-11-19T14:25:00Z",
-            "sentiment": "Negative",
-            "compound": -0.382
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 42.8,
-  "trade_probability": 45.68,
+  "confirmation_score": 36.06,
+  "trade_probability": 41.64,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
