@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T21:01:29.556208+00:00",
+  "generated_at": "2026-11-20T21:15:57.355100+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.5777,
+          "change_pct": -2.3611,
           "up": false
         },
         "MSFT": {
-          "change_pct": -2.9055,
+          "change_pct": -2.4792,
           "up": false
         },
         "NVDA": {
-          "change_pct": -14.0291,
+          "change_pct": -13.7479,
           "up": false
         },
         "AMZN": {
-          "change_pct": -4.063,
+          "change_pct": -3.814,
           "up": false
         }
       }
@@ -40,18 +40,18 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 25044.82,
-        "sma50": 29224.58,
-        "sma200": 28073.38
+        "last_price": 25028.98,
+        "sma50": 29224.26,
+        "sma200": 28073.3
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 5.0,
+      "score": 0.0,
       "status": "red",
       "details": {
-        "current_vxn": 46.69,
-        "percentile_vs_20d": 95.0
+        "current_vxn": 48.38,
+        "percentile_vs_20d": 100.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.41,
+      "score": 46.34,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.87,
-        "change_5d_pct": 0.449
+        "current_dxy": 103.88,
+        "change_5d_pct": 0.457
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.2,
+      "score": 48.58,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.056,
+        "avg_compound": -0.028,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Three arrested during Anthropic IPO protest outside Nasdaq",
-            "source": "Al Jazeera English",
-            "publishedAt": "2026-11-19T20:59:20Z",
+            "title": "Social Security has less than 6 years before a 22% cut. A Senate chairman’s fix is to borrow $190 trillion and call it the ‘Stop Scaring Seniors Act’",
+            "source": "Fortune",
+            "publishedAt": "2026-11-19T21:15:41Z",
             "sentiment": "Negative",
-            "compound": -0.625
+            "compound": -0.382
           },
           {
-            "title": "Op-ed: Will voters blame Pete Buttigieg for what happens at the airport on Trump’s watch?",
-            "source": "Advocate.com",
-            "publishedAt": "2026-11-19T20:59:16Z",
+            "title": "Fed’s Goolsbee says Anthropic IPO raises questions about where the new wealth goes",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-19T21:13:07Z",
+            "sentiment": "Positive",
+            "compound": 0.494
+          },
+          {
+            "title": "Nvidia, AMD, Micron Sink as Anthropic Closes 17% Above IPO Price",
+            "source": "Decrypt",
+            "publishedAt": "2026-11-19T21:12:06Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Kushner’s Firm Left $32M in Defense Contractor Shares Off SEC Report. He Added Them After the Midterms",
+            "source": "Military.com",
+            "publishedAt": "2026-11-19T21:11:33Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "Turns Out Voters Did Blame Iran War For Driving Up Their Costs Afterall",
+            "source": "The Daily Caller",
+            "publishedAt": "2026-11-19T21:10:34Z",
             "sentiment": "Negative",
-            "compound": -0.34
+            "compound": -0.743
           },
           {
-            "title": "Anthropic IPO",
-            "source": "Mjtsai.com",
-            "publishedAt": "2026-11-19T20:58:51Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Dow sinks 1,100 pts, Nasdaq 100 falls 2.3%",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-19T20:53:48Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Anthropic Is Public. Make Its Economics Work For You",
-            "source": "Forrester.com",
-            "publishedAt": "2026-11-19T20:48:56Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Prompt vs loop engineering: Why the next AI skill is designing systems, not just writing instructions",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-19T20:45:06Z",
+            "title": "Largest ever: Anthropic raises record $81 billion going public, topping Elon Musk’s SpaceX",
+            "source": "Wnd.com",
+            "publishedAt": "2026-11-19T21:04:56Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 36.95,
-  "trade_probability": 42.17,
+  "confirmation_score": 36.61,
+  "trade_probability": 41.97,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
