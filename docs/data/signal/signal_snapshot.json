@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T20:31:18.385828+00:00",
+  "generated_at": "2026-11-20T20:45:55.603642+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.3697,
+          "change_pct": -2.0058,
           "up": false
         },
         "MSFT": {
-          "change_pct": -2.9095,
+          "change_pct": -2.435,
           "up": false
         },
         "NVDA": {
-          "change_pct": -12.686,
+          "change_pct": -11.8232,
           "up": false
         },
         "AMZN": {
-          "change_pct": -3.9696,
+          "change_pct": -3.7758,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 25071.48,
-        "sma50": 29225.11,
-        "sma200": 28073.51
+        "last_price": 25176.15,
+        "sma50": 29227.2,
+        "sma200": 28074.04
       }
     },
     "vxn": {
@@ -50,7 +50,7 @@
       "score": 0.0,
       "status": "red",
       "details": {
-        "current_vxn": 43.8,
+        "current_vxn": 44.92,
         "percentile_vs_20d": 100.0
       }
     },
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.86,
+      "score": 46.51,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.82,
-        "change_5d_pct": 0.393
+        "current_dxy": 103.86,
+        "change_5d_pct": 0.436
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.71,
+      "score": 48.45,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.066,
+        "avg_compound": -0.031,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Prompt vs loop engineering: Why the next AI skill is designing systems, not just writing instructions",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-19T20:45:06Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Hyperliquid Anthropic futures priced within 1% of Nasdaq opening price",
+            "source": "Cointelegraph",
+            "publishedAt": "2026-11-19T20:33:24Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "ADP Acquires ZenBusiness",
             "source": "Biztoc.com",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-19T20:18:11Z",
             "sentiment": "Positive",
             "compound": 0.202
-          },
-          {
-            "title": "Live: Anthropic's record-breaking listing hits Nasdaq, ASX set to drop",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-11-19T20:16:21Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "US mortgage rates rise for the first time in five weeks | CNN Business - CNN",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-11-19T20:13:08Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 36.49,
-  "trade_probability": 41.89,
+  "confirmation_score": 36.62,
+  "trade_probability": 41.97,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
