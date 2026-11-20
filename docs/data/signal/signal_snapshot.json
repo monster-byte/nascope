@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T20:45:55.603642+00:00",
+  "generated_at": "2026-11-20T21:01:29.556208+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -2.0058,
+          "change_pct": -2.5777,
           "up": false
         },
         "MSFT": {
-          "change_pct": -2.435,
+          "change_pct": -2.9055,
           "up": false
         },
         "NVDA": {
-          "change_pct": -11.8232,
+          "change_pct": -14.0291,
           "up": false
         },
         "AMZN": {
-          "change_pct": -3.7758,
+          "change_pct": -4.063,
           "up": false
         }
       }
@@ -40,18 +40,18 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 25176.15,
-        "sma50": 29227.2,
-        "sma200": 28074.04
+        "last_price": 25044.82,
+        "sma50": 29224.58,
+        "sma200": 28073.38
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 0.0,
+      "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 44.92,
-        "percentile_vs_20d": 100.0
+        "current_vxn": 46.69,
+        "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.51,
+      "score": 46.41,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.86,
-        "change_5d_pct": 0.436
+        "current_dxy": 103.87,
+        "change_5d_pct": 0.449
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.45,
+      "score": 47.2,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.031,
+        "avg_compound": -0.056,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Three arrested during Anthropic IPO protest outside Nasdaq",
+            "source": "Al Jazeera English",
+            "publishedAt": "2026-11-19T20:59:20Z",
+            "sentiment": "Negative",
+            "compound": -0.625
+          },
+          {
+            "title": "Op-ed: Will voters blame Pete Buttigieg for what happens at the airport on Trump’s watch?",
+            "source": "Advocate.com",
+            "publishedAt": "2026-11-19T20:59:16Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
+          {
+            "title": "Anthropic IPO",
+            "source": "Mjtsai.com",
+            "publishedAt": "2026-11-19T20:58:51Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Dow sinks 1,100 pts, Nasdaq 100 falls 2.3%",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-19T20:53:48Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Anthropic Is Public. Make Its Economics Work For You",
+            "source": "Forrester.com",
+            "publishedAt": "2026-11-19T20:48:56Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Prompt vs loop engineering: Why the next AI skill is designing systems, not just writing instructions",
             "source": "The Times of India",
             "publishedAt": "2026-11-19T20:45:06Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Hyperliquid Anthropic futures priced within 1% of Nasdaq opening price",
-            "source": "Cointelegraph",
-            "publishedAt": "2026-11-19T20:33:24Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "ADP Acquires ZenBusiness",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-19T20:25:54Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Sound Ventures turned $435 million into a $7 billion Anthropic stake. Ashton Kutcher left months before the IPO",
-            "source": "Fortune",
-            "publishedAt": "2026-11-19T20:22:56Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Netflix Stock Hits Multi-Year Low: What's Happening?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-19T20:22:41Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "Digi Power X adds 42 BTC, lifting its Bitcoin treasury to 259 BTC",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-19T20:18:11Z",
-            "sentiment": "Positive",
-            "compound": 0.202
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 36.62,
-  "trade_probability": 41.97,
+  "confirmation_score": 36.95,
+  "trade_probability": 42.17,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
