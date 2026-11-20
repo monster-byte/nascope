@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T15:01:37.920314+00:00",
+  "generated_at": "2026-11-20T15:15:56.053546+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 25.0,
+      "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.1287,
+          "change_pct": -0.378,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.9852,
+          "change_pct": 0.5429,
           "up": true
         },
         "NVDA": {
-          "change_pct": -2.9759,
+          "change_pct": -3.9798,
           "up": false
         },
         "AMZN": {
-          "change_pct": 0.8834,
-          "up": true
+          "change_pct": -0.4164,
+          "up": false
         }
       }
     },
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26309.18,
-        "sma50": 29249.87,
-        "sma200": 28079.7
+        "last_price": 26152.09,
+        "sma50": 29246.72,
+        "sma200": 28078.92
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 5.0,
+      "score": 10.0,
       "status": "red",
       "details": {
-        "current_vxn": 37.38,
-        "percentile_vs_20d": 95.0
+        "current_vxn": 35.6,
+        "percentile_vs_20d": 90.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 77.01,
+      "score": 74.52,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.98,
-        "change_5d_pct": -3.376
+        "current_yield_pct": 4.996,
+        "change_5d_pct": -3.066
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.56,
+      "score": 47.17,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.72,
-        "change_5d_pct": 0.305
+        "current_dxy": 103.78,
+        "change_5d_pct": 0.354
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.74,
+      "score": 55.91,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.095,
+        "avg_compound": 0.118,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Weak rural indicators clouds second half outlook: BNP Paribas India",
-            "source": "BusinessLine",
-            "publishedAt": "2026-11-19T15:01:12Z",
-            "sentiment": "Negative",
-            "compound": -0.44
-          },
-          {
-            "title": "What’s up with… Deutsche Telekom & Mistral, ISAC testing, Iridium",
-            "source": "TelecomTV",
-            "publishedAt": "2026-11-19T15:00:54Z",
+            "title": "Anthropic Executive Team Rings Nasdaq Opening Bell",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-19T15:13:38Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Op-Ed: International Buyers Must Commit to Living Wages for Bangladeshi Garment Workers",
-            "source": "WWD",
-            "publishedAt": "2026-11-19T15:00:00Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "Anthropic Launches Largest IPO of All Time, With at Least One Celebrity Investor Earning Billions",
-            "source": "Variety",
-            "publishedAt": "2026-11-19T14:56:21Z",
+            "title": "Nasdaq rises over 1% at open as Anthropic IPO pricing bolsters AI trade",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-19T15:07:52Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Anthropic Set To Secure $1.8 Trillion Valuation In Strong Nasdaq Debut",
-            "source": "HuffPost",
-            "publishedAt": "2026-11-19T14:55:53Z",
-            "sentiment": "Positive",
-            "compound": 0.691
+            "title": "Billionaire Stanley Druckenmiller’s New AI Warning and Top 5 Stock Picks",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-19T15:07:42Z",
+            "sentiment": "Neutral",
+            "compound": -0.153
           },
           {
-            "title": "Anthropic shares indicated to open at $100 after record $83 IPO",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-19T14:55:48Z",
+            "title": "Anthropic Perpetual Futures On Hyperliquid Signals 25% Pop Above $83 IPO Price Before Nasdaq Debut",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-19T15:07:39Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Lisata Therapeutics, Inc. Announces Reverse Stock Split Effective November 23, 2026",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-19T15:07:23Z",
             "sentiment": "Positive",
-            "compound": 0.296
+            "compound": 0.477
+          },
+          {
+            "title": "Trump wants the Supreme Court to let his EPA cancel billions in Biden-era climate grants",
+            "source": "Abcnews.com",
+            "publishedAt": "2026-11-19T15:06:34Z",
+            "sentiment": "Positive",
+            "compound": 0.542
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 49.8,
-  "trade_probability": 49.88,
+  "confirmation_score": 43.24,
+  "trade_probability": 45.94,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
