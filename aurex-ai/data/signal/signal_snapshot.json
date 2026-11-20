@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T14:46:03.545573+00:00",
+  "generated_at": "2026-11-20T15:01:37.920314+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 0.0,
-      "status": "red",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.1173,
+          "change_pct": -0.1287,
           "up": false
         },
         "MSFT": {
-          "change_pct": -0.0804,
-          "up": false
+          "change_pct": 0.9852,
+          "up": true
         },
         "NVDA": {
-          "change_pct": -4.1279,
+          "change_pct": -2.9759,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.8465,
-          "up": false
+          "change_pct": 0.8834,
+          "up": true
         }
       }
     },
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26140.56,
-        "sma50": 29246.49,
-        "sma200": 28078.86
+        "last_price": 26309.18,
+        "sma50": 29249.87,
+        "sma200": 28079.7
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 5.0,
       "status": "red",
       "details": {
-        "current_vxn": 36.55,
+        "current_vxn": 37.38,
         "percentile_vs_20d": 95.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 76.39,
+      "score": 77.01,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.984,
-        "change_5d_pct": -3.298
+        "current_yield_pct": 4.98,
+        "change_5d_pct": -3.376
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.66,
+      "score": 47.56,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.71,
-        "change_5d_pct": 0.292
+        "current_dxy": 103.72,
+        "change_5d_pct": 0.305
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.91,
+      "score": 54.74,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.058,
+        "avg_compound": 0.095,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Gen Z Holds Crypto at 7 Times the Boomer Rate and Wants It Inside the Bank",
-            "source": "Dcforecasts.com",
-            "publishedAt": "2026-11-19T14:45:34Z",
+            "title": "Weak rural indicators clouds second half outlook: BNP Paribas India",
+            "source": "BusinessLine",
+            "publishedAt": "2026-11-19T15:01:12Z",
+            "sentiment": "Negative",
+            "compound": -0.44
+          },
+          {
+            "title": "What’s up with… Deutsche Telekom & Mistral, ISAC testing, Iridium",
+            "source": "TelecomTV",
+            "publishedAt": "2026-11-19T15:00:54Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Anthropic’s crypto futures traded 25% above its $81 billion IPO price as Bitcoin slumped 22%",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-11-19T14:45:19Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Should You Introduce Bitcoin to a Portfolio that Already Dominates Gold?",
-            "source": "Bitcoinfoundation.org",
-            "publishedAt": "2026-11-19T14:44:46Z",
-            "sentiment": "Neutral",
-            "compound": 0.052
-          },
-          {
-            "title": "Anthropic IPO: Here’s the 1 Thing That's Keeping Me From Buying",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-19T14:37:24Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "If the Fed Raises Rates Again in December, Here's the 1 ETF I'm Buying Without Any Hesitation",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-19T14:37:00Z",
+            "title": "Op-Ed: International Buyers Must Commit to Living Wages for Bangladeshi Garment Workers",
+            "source": "WWD",
+            "publishedAt": "2026-11-19T15:00:00Z",
             "sentiment": "Positive",
-            "compound": 0.206
+            "compound": 0.296
           },
           {
-            "title": "Binance Offers Tokenized Anthropic Stock To Investors",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-19T14:36:59Z",
+            "title": "Anthropic Launches Largest IPO of All Time, With at Least One Celebrity Investor Earning Billions",
+            "source": "Variety",
+            "publishedAt": "2026-11-19T14:56:21Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "Anthropic Set To Secure $1.8 Trillion Valuation In Strong Nasdaq Debut",
+            "source": "HuffPost",
+            "publishedAt": "2026-11-19T14:55:53Z",
+            "sentiment": "Positive",
+            "compound": 0.691
+          },
+          {
+            "title": "Anthropic shares indicated to open at $100 after record $83 IPO",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-19T14:55:48Z",
+            "sentiment": "Positive",
+            "compound": 0.296
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 36.06,
-  "trade_probability": 41.64,
+  "confirmation_score": 49.8,
+  "trade_probability": 49.88,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
