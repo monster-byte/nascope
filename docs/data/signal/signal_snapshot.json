@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T05:15:52.795962+00:00",
+  "generated_at": "2026-11-20T05:31:18.521848+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.3388,
+          "change_pct": -1.336,
           "up": false
         },
         "MSFT": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.14,
+      "score": 47.15,
       "status": "yellow",
       "details": {
         "current_dxy": 103.78,
-        "change_5d_pct": 0.358
+        "change_5d_pct": 0.356
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 44.72,
+      "score": 46.96,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.106,
+        "avg_compound": -0.061,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Gold, silver fall as strong dollar, Fed rate outlook weigh on bullion",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-19T05:28:19Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
+          {
+            "title": "Asian stocks are mixed and US futures climb ahead of Anthropic's blockbuster IPO",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-19T05:26:16Z",
+            "sentiment": "Positive",
+            "compound": 0.599
+          },
+          {
+            "title": "SBC Medical Group Reports Cybersecurity Incidents in Japan",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-19T05:24:47Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Red metal feels the blues! Voltas, Blue Star, other AC stocks jump up to 6% as copper prices hit 7-month lows",
             "source": "Economictimes.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-19T05:11:05Z",
             "sentiment": "Neutral",
             "compound": -0.103
-          },
-          {
-            "title": "FOMC minutes reveal Fed officials expect more rate hikes despite October pause",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-19T05:03:19Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Gozasoro’s amazingly cheap Imagawayaki are one of Japan’s sweetest sweets deals",
-            "source": "SoraNews24",
-            "publishedAt": "2026-11-19T05:00:54Z",
-            "sentiment": "Positive",
-            "compound": 0.494
-          },
-          {
-            "title": "Anthropic Raises A Whopping $81 Billion In Record IPO",
-            "source": "HuffPost",
-            "publishedAt": "2026-11-19T05:00:34Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 32.8,
-  "trade_probability": 39.68,
+  "confirmation_score": 33.0,
+  "trade_probability": 39.8,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
