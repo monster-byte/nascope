@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T07:31:15.331002+00:00",
+  "generated_at": "2026-11-21T07:45:57.106648+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,56 +85,10 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.65,
+      "score": 50.0,
       "status": "yellow",
       "details": {
-        "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.027,
-        "articles_analyzed": 24,
-        "top_headlines": [
-          {
-            "title": "Show HN: Synapse Shield (v0.11) – Self-hosted behavioral alternative to CAPTCHAs",
-            "source": "Github.com",
-            "publishedAt": "2026-11-20T07:31:15Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Anthropic shares jump 17% after record Wall Street listing",
-            "source": "The Irish Times",
-            "publishedAt": "2026-11-20T07:29:50Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "Months after his 'misanthropic and evil' post, a $120.5 billion compute deal, Elon Musk made new revelation about Anthropic; just hours before its IPO",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-20T07:29:46Z",
-            "sentiment": "Negative",
-            "compound": -0.66
-          },
-          {
-            "title": "JD Vance Hit With A Flood Of Mockery After Turning 'GTA VI' Into Trump Propaganda",
-            "source": "HuffPost",
-            "publishedAt": "2026-11-20T07:21:33Z",
-            "sentiment": "Negative",
-            "compound": -0.511
-          },
-          {
-            "title": "Anthropic's debut tests Wall Street's faith in AI boom",
-            "source": "RTE",
-            "publishedAt": "2026-11-20T07:21:20Z",
-            "sentiment": "Positive",
-            "compound": 0.421
-          },
-          {
-            "title": "Gold, Silver slide to 14-month lows as Dollar, Fed fears bite",
-            "source": "BusinessLine",
-            "publishedAt": "2026-11-20T07:18:36Z",
-            "sentiment": "Negative",
-            "compound": -0.557
-          }
-        ]
+        "error": "news_fetch_failed: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?q=Nasdaq+OR+%22Federal+Reserve%22+OR+%22stock+market%22+OR+inflation&language=en&sortBy=publishedAt&pageSize=25&apiKey=280ea038bd7e4ccb91d87f9d115484d4"
       }
     },
     "patent_momentum": {
@@ -146,8 +100,8 @@
       }
     }
   },
-  "confirmation_score": 36.67,
-  "trade_probability": 42.0,
+  "confirmation_score": 36.79,
+  "trade_probability": 42.07,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
