@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T04:10:25.754236+00:00",
+  "generated_at": "2026-11-21T04:15:54.788769+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.67,
+      "score": 46.91,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.84,
-        "change_5d_pct": 0.416
+        "current_dxy": 103.81,
+        "change_5d_pct": 0.387
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.28,
+      "score": 48.3,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.054,
+        "avg_compound": -0.034,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "SoftBank plunges over 16% as AI sell-off hits Asian tech stocks following Anthropic debut - CNBC",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-11-20T04:13:04Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Sensex, Nifty plunge in the red in early trade: Check major gainers and laggards",
             "source": "News9live.com",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-20T03:56:55Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Gold, silver prices today, 20 November: Check retail rates of 24K, 22K gold, 999 silver in Delhi, Mumbai and Kolkata",
-            "source": "Livemint",
-            "publishedAt": "2026-11-20T03:56:18Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 36.53,
-  "trade_probability": 41.92,
+  "confirmation_score": 36.64,
+  "trade_probability": 41.98,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
