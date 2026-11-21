@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T01:15:57.736570+00:00",
+  "generated_at": "2026-11-21T01:31:08.025375+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.61,
+      "score": 49.2,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.028,
+        "avg_compound": -0.016,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Anthropic shares jump 21% after $107.3 billion IPO breaks record",
+            "source": "Livemint",
+            "publishedAt": "2026-11-20T01:23:24Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
           {
             "title": "Anthropic Stock Closes Day At $97—Up More Than 17%",
             "source": "Biztoc.com",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-20T01:04:07Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Global Market Today: Asian stocks slide as AI fears trigger selloff",
-            "source": "Economictimes.com",
-            "publishedAt": "2026-11-20T01:02:17Z",
-            "sentiment": "Negative",
-            "compound": -0.421
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 36.65,
-  "trade_probability": 41.99,
+  "confirmation_score": 36.7,
+  "trade_probability": 42.02,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
