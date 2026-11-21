@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T08:31:12.520026+00:00",
+  "generated_at": "2026-11-21T08:45:53.853570+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.64,
+      "score": 49.04,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.007,
+        "avg_compound": -0.019,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "India VIX up 9%, tops 17-mark; analysts say FII flows keep bulls in control",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-20T08:41:38Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
+          {
+            "title": "Japan Stocks Suffer 3,000-Point Crash as AI Selloff Deepens",
+            "source": "Newsonjapan.com",
+            "publishedAt": "2026-11-20T08:31:48Z",
+            "sentiment": "Negative",
+            "compound": -0.735
+          },
           {
             "title": "Forward Industries Pledges Its Solana for a $50M Loan From Erebor Bank",
             "source": "Dcforecasts.com",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-20T08:25:29Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "View from The Hill: Jobless numbers highlight that the Reserve Bank’s credibility is on the line",
-            "source": "The Conversation Africa",
-            "publishedAt": "2026-11-20T08:22:21Z",
-            "sentiment": "Positive",
-            "compound": 0.34
-          },
-          {
-            "title": "AstroAI Airun H 12V Portable Tire Inflator for $26 + free shipping w/ Prime",
-            "source": "Dealnews.com",
-            "publishedAt": "2026-11-20T08:19:10Z",
-            "sentiment": "Positive",
-            "compound": 0.511
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 36.76,
-  "trade_probability": 42.06,
+  "confirmation_score": 36.71,
+  "trade_probability": 42.03,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
