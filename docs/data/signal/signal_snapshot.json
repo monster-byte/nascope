@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T08:15:59.542342+00:00",
+  "generated_at": "2026-11-21T08:31:12.520026+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,10 +85,56 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.0,
+      "score": 49.64,
       "status": "yellow",
       "details": {
-        "error": "news_fetch_failed: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?q=Nasdaq+OR+%22Federal+Reserve%22+OR+%22stock+market%22+OR+inflation&language=en&sortBy=publishedAt&pageSize=25&apiKey=280ea038bd7e4ccb91d87f9d115484d4"
+        "overall_sentiment": "NEUTRAL",
+        "avg_compound": -0.007,
+        "articles_analyzed": 25,
+        "top_headlines": [
+          {
+            "title": "Forward Industries Pledges Its Solana for a $50M Loan From Erebor Bank",
+            "source": "Dcforecasts.com",
+            "publishedAt": "2026-11-20T08:31:01Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "'I told Jack Clark not to go into AI!': How Brit's previous boss told the 'anti-tech bro' he was making the wrong move changing careers - and he's now made 27 BILLION dollars in one day",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-11-20T08:30:12Z",
+            "sentiment": "Negative",
+            "compound": -0.525
+          },
+          {
+            "title": "Christine Lagarde: Acting in time",
+            "source": "Europa.eu",
+            "publishedAt": "2026-11-20T08:30:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Sensex zooms 1790 pts in 2 days; ₹6.9 trn added to m-cap: 5 key reasons",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-20T08:25:29Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "View from The Hill: Jobless numbers highlight that the Reserve Bank’s credibility is on the line",
+            "source": "The Conversation Africa",
+            "publishedAt": "2026-11-20T08:22:21Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
+          {
+            "title": "AstroAI Airun H 12V Portable Tire Inflator for $26 + free shipping w/ Prime",
+            "source": "Dealnews.com",
+            "publishedAt": "2026-11-20T08:19:10Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          }
+        ]
       }
     },
     "patent_momentum": {
@@ -100,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 36.79,
-  "trade_probability": 42.07,
+  "confirmation_score": 36.76,
+  "trade_probability": 42.06,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
