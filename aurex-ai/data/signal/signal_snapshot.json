@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T07:31:16.986110+00:00",
+  "generated_at": "2026-11-22T07:45:59.266867+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.28,
+      "score": 51.44,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.046,
+        "avg_compound": 0.029,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Supermarkets on alert over cyberattacks on refrigeration systems, risking overnight food losses",
+            "source": "Protothema.gr",
+            "publishedAt": "2026-11-21T07:32:45Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
           {
             "title": "Anthropic's post-IPO slide shows hype not enough to ease AI investor fears | The National",
             "source": "Thenationalnews.com",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-21T07:03:40Z",
             "sentiment": "Neutral",
             "compound": -0.077
-          },
-          {
-            "title": "Has AI’s honeymoon ended on Wall Street?",
-            "source": "Digital Journal",
-            "publishedAt": "2026-11-21T07:03:15Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 37.0,
-  "trade_probability": 42.2,
+  "confirmation_score": 36.92,
+  "trade_probability": 42.15,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
