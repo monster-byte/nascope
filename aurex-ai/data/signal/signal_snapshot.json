@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T04:31:13.540590+00:00",
+  "generated_at": "2026-11-22T04:45:51.950869+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.47,
+      "score": 53.06,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.049,
+        "avg_compound": 0.061,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Wall Street selloff deepens as Dow, S&P 500 enter correction; Nasdaq plunges 5.28%",
+            "source": "BusinessLine",
+            "publishedAt": "2026-11-21T04:41:31Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "India's traders cannot be reduced to a subject of political rhetoric through tweets from Rahul Gandhi: CAIT",
+            "source": "Economictimes.com",
+            "publishedAt": "2026-11-21T04:40:52Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Nasdaq 100 Ends Worst Week Since 2020, S&P 500 In Correction Territory As AI Rout Sours Sentiment — ANT, NVDA, TTWO, ZS, CRWD In Focus - Yahoo Finance",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-11-21T04:33:18Z",
+            "sentiment": "Negative",
+            "compound": -0.625
+          },
           {
             "title": "Databricks in early talks to raise funds at $225 billion valuation: WSJ",
             "source": "Economictimes.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-21T04:14:35Z",
             "sentiment": "Positive",
             "compound": 0.625
-          },
-          {
-            "title": "JPMorgan Bitcoin Notes Offer 30% if IBIT Just Holds Its Price for a Year",
-            "source": "Dcforecasts.com",
-            "publishedAt": "2026-11-21T04:12:16Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Anthropic's 5 Biggest Rivals: How the Blockbuster IPO Could Reshape OpenAI, Google, xAI, Meta and Microsoft",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-11-21T04:11:26Z",
-            "sentiment": "Positive",
-            "compound": 0.599
-          },
-          {
-            "title": "Gold, silver prices today, 21 November: Check retail rates of 24K, 22K, 18K gold, 999 silver in Delhi, Mumbai, Bangalore",
-            "source": "Livemint",
-            "publishedAt": "2026-11-21T04:11:01Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 37.01,
-  "trade_probability": 42.21,
+  "confirmation_score": 37.07,
+  "trade_probability": 42.24,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
