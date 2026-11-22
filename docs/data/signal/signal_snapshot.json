@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T21:01:20.774171+00:00",
+  "generated_at": "2026-11-22T21:15:56.658107+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.91,
+      "score": 49.77,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.018,
+        "avg_compound": -0.005,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "CFOs Face Rising Costs, Reluctant Consumers",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-21T21:14:38Z",
+            "sentiment": "Negative",
+            "compound": -0.25
+          },
           {
             "title": "3 Cash ETFs Investors Are Turning To As Higher Rates Keep Biting",
             "source": "Biztoc.com",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-21T20:13:30Z",
             "sentiment": "Positive",
             "compound": 0.226
-          },
-          {
-            "title": "Here's how much a Sony Walkman cost in 1980 vs. 2026",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-11-21T20:12:05Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 36.87,
-  "trade_probability": 42.12,
+  "confirmation_score": 36.77,
+  "trade_probability": 42.06,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
