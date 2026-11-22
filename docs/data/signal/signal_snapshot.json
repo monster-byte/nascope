@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T08:16:00.363138+00:00",
+  "generated_at": "2026-11-22T08:31:11.194378+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.29,
+      "score": 48.02,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.006,
+        "avg_compound": -0.04,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "CBI recovers Rs 1.86 crore in cash, gold, silver from arrested CGST superintendent's house",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-21T08:19:31Z",
+            "sentiment": "Negative",
+            "compound": -0.477
+          },
           {
             "title": "WOLFBOX Compressed Air Duster DF60 Gray 110000RPM Electric Air Duster 3-Gear Rechargeable Cordless Air Blower $30.99",
             "source": "Slickdeals.net",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-21T07:20:58Z",
             "sentiment": "Negative",
             "compound": -0.601
-          },
-          {
-            "title": "Silver rate today in India: Latest prices in Delhi, Mumbai, Chennai and other cities after a sharp bullion market crash",
-            "source": "Livemint",
-            "publishedAt": "2026-11-21T07:19:52Z",
-            "sentiment": "Negative",
-            "compound": -0.402
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 36.82,
-  "trade_probability": 42.09,
+  "confirmation_score": 36.61,
+  "trade_probability": 41.97,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
