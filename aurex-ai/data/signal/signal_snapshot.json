@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T23:31:11.940203+00:00",
+  "generated_at": "2026-11-22T23:45:56.650632+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.95,
+      "score": 47.74,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.82,
-        "change_5d_pct": 0.256
+        "current_dxy": 103.84,
+        "change_5d_pct": 0.282
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.3,
+      "score": 53.97,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.046,
+        "avg_compound": 0.079,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "If There’s Generative AI in ‘The Mis-Adventures of Cliff Booth,’ It’s Not the First Time David Fincher’s Used It",
+            "source": "IndieWire",
+            "publishedAt": "2026-11-21T23:45:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Nvidia Falls 48% From Peak as AI Selloff Spreads to Bitcoin and Crypto",
             "source": "Biztoc.com",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-21T22:48:05Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "RUM Group posts $96.6 million Q3 revenue as AI hosting overtakes video",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-21T22:36:52Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 37.09,
-  "trade_probability": 42.25,
+  "confirmation_score": 37.22,
+  "trade_probability": 42.33,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
