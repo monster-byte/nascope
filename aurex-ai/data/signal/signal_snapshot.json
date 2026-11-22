@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T12:31:13.437869+00:00",
+  "generated_at": "2026-11-22T12:45:53.657667+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.5,
+      "score": 51.15,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.01,
+        "avg_compound": 0.023,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "The sudden reversal in the stock market, and what comes next",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-21T12:37:09Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "BTCS warns SEC its $54 million Aave loan could face liquidation",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-21T12:33:46Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
           {
             "title": "Anthropic worker claims to have solved a Holy Grail of math problems with the help of AI",
             "source": "NPR",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-21T12:22:44Z",
             "sentiment": "Positive",
             "compound": 0.382
-          },
-          {
-            "title": "D.C. May Abolish the Tip Credit—Again. This Time, the Minimum Wage Would Be $25.",
-            "source": "Reason",
-            "publishedAt": "2026-11-21T12:00:26Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "The Cozy Radicalism of DIY Repair Cafés",
-            "source": "Mother Jones",
-            "publishedAt": "2026-11-21T12:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 36.84,
-  "trade_probability": 42.1,
+  "confirmation_score": 36.9,
+  "trade_probability": 42.14,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
