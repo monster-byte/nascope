@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T06:45:48.536153+00:00",
+  "generated_at": "2026-11-22T07:01:28.851025+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.67,
+      "score": 48.32,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.047,
+        "avg_compound": -0.034,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "'Biggest economic issue': Why should you care about AI?",
+            "source": "RTE",
+            "publishedAt": "2026-11-21T07:00:25Z",
+            "sentiment": "Positive",
+            "compound": 0.494
+          },
+          {
+            "title": "Biden’s book a plea that his presidency will not be lost to posterity amid Trump chaos",
+            "source": "The Irish Times",
+            "publishedAt": "2026-11-21T07:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.409
+          },
           {
             "title": "Anthropic worker claims to have solved a Holy Grail of math problems with AI's help",
             "source": "Abcnews.com",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-21T06:30:53Z",
             "sentiment": "Positive",
             "compound": 0.336
-          },
-          {
-            "title": "Nearly $2.4B Liquidated as Bitcoin Falls 10% Below $60K",
-            "source": "Bitcoinfoundation.org",
-            "publishedAt": "2026-11-21T06:23:59Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Bitcoin Falls 10% Below $57,000 as Crypto Liquidations Top $2.4B",
-            "source": "Bitcoinfoundation.org",
-            "publishedAt": "2026-11-21T06:19:53Z",
-            "sentiment": "Positive",
-            "compound": 0.202
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 36.58,
-  "trade_probability": 41.95,
+  "confirmation_score": 36.64,
+  "trade_probability": 41.98,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
