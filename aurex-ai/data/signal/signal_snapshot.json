@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T22:01:24.083933+00:00",
+  "generated_at": "2026-11-22T22:15:55.875677+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.91,
+      "score": 47.76,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.81,
-        "change_5d_pct": 0.387
+        "current_dxy": 103.84,
+        "change_5d_pct": 0.28
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.49,
+      "score": 51.92,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.01,
+        "avg_compound": 0.038,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "The AI sell-off now has Taiwan taking emergency steps to calm its chip-heavy market",
+            "source": "Business Insider",
+            "publishedAt": "2026-11-21T22:02:52Z",
+            "sentiment": "Neutral",
+            "compound": -0.077
+          },
           {
             "title": "Trump Looks To Democrats To Fulfill Campaign Promise GOP Congress Couldn’t Deliver",
             "source": "The Daily Caller",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-21T21:39:52Z",
             "sentiment": "Positive",
             "compound": 0.421
-          },
-          {
-            "title": "Trump vows to work with Democrats to cap credit card interest rates at 10%",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-21T21:29:45Z",
-            "sentiment": "Positive",
-            "compound": 0.681
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 36.84,
-  "trade_probability": 42.1,
+  "confirmation_score": 37.04,
+  "trade_probability": 42.22,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
