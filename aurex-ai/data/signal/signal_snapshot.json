@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T12:01:28.181903+00:00",
+  "generated_at": "2026-11-23T12:15:56.250989+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.02,
+      "score": 47.19,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.94,
-        "change_5d_pct": 0.373
+        "current_dxy": 103.91,
+        "change_5d_pct": 0.352
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.02,
+      "score": 50.03,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.02,
+        "avg_compound": 0.001,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "The Nasdaq is in freefall. Here's one stock to look at",
+            "source": "CNBC",
+            "publishedAt": "2026-11-22T12:10:39Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Bitcoin’s $60,000 breakdown puts December Fed decision under the spotlight",
             "source": "CryptoSlate",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-22T11:46:09Z",
             "sentiment": "Neutral",
             "compound": -0.128
-          },
-          {
-            "title": "Dow, S&P 500 and Nasdaq hit record highs in 2026 before AI-fueled selloff",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-22T11:42:17Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 36.89,
-  "trade_probability": 42.13,
+  "confirmation_score": 36.82,
+  "trade_probability": 42.09,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
