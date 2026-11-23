@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T15:01:31.648462+00:00",
+  "generated_at": "2026-11-23T15:16:05.682111+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.1759,
+          "change_pct": 1.2557,
           "up": true
         },
         "MSFT": {
-          "change_pct": 3.5136,
+          "change_pct": 3.4696,
           "up": true
         },
         "NVDA": {
-          "change_pct": 28.3136,
+          "change_pct": 28.9049,
           "up": true
         },
         "AMZN": {
-          "change_pct": 2.5666,
+          "change_pct": 3.0321,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26712.88,
-        "sma50": 29175.98,
-        "sma200": 28081.49
+        "last_price": 26811.14,
+        "sma50": 29177.94,
+        "sma200": 28081.98
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 55.0,
-      "status": "yellow",
+      "score": 15.0,
+      "status": "red",
       "details": {
-        "current_vxn": 28.82,
-        "percentile_vs_20d": 45.0
+        "current_vxn": 35.3,
+        "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 76.71,
+      "score": 77.03,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.95,
-        "change_5d_pct": -3.339
+        "current_yield_pct": 4.948,
+        "change_5d_pct": -3.378
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.31,
+      "score": 44.48,
       "status": "yellow",
       "details": {
-        "current_dxy": 104.16,
-        "change_5d_pct": 0.586
+        "current_dxy": 104.26,
+        "change_5d_pct": 0.69
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.96,
+      "score": 58.31,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.119,
+        "avg_compound": 0.166,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "10-Year TIPS Pay 2.77% Above Inflation. Here’s How Dividend Stocks Compare",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-22T15:10:31Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
+          {
+            "title": "Letters to Editor",
+            "source": "BusinessLine",
+            "publishedAt": "2026-11-22T15:08:09Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Retiring with less than $1 million? 8 ways to make your savings last",
+            "source": "OCRegister",
+            "publishedAt": "2026-11-22T15:02:20Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "CNN Numbers Guy Says Blue Tsunami Was a ‘Loveless Landslide,’ Not a Democratic Mandate",
             "source": "Legalinsurrection.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-22T14:58:02Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Profits tripled, pay didn't: Numbers behind PM's question to India Inc",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-22T14:57:15Z",
-            "sentiment": "Positive",
-            "compound": 0.361
-          },
-          {
-            "title": "Why Broadcom Stock Could Double by 2030",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-22T14:56:51Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "5 Best American Stocks to Buy for 2027",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-22T14:56:45Z",
-            "sentiment": "Positive",
-            "compound": 0.637
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 67.67,
-  "trade_probability": 60.6,
+  "confirmation_score": 64.25,
+  "trade_probability": 58.55,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
