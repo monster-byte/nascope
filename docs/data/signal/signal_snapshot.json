@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T18:45:58.792870+00:00",
+  "generated_at": "2026-11-23T19:01:25.026468+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.1657,
+          "change_pct": 1.3108,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.7697,
+          "change_pct": 1.7646,
           "up": true
         },
         "NVDA": {
-          "change_pct": 26.8916,
+          "change_pct": 27.081,
           "up": true
         },
         "AMZN": {
-          "change_pct": 3.5141,
+          "change_pct": 3.5743,
           "up": true
         }
       }
@@ -40,18 +40,18 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26695.94,
-        "sma50": 29175.64,
-        "sma200": 28081.4
+        "last_price": 26709.98,
+        "sma50": 29175.92,
+        "sma200": 28081.47
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 20.0,
+      "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 34.9,
-        "percentile_vs_20d": 80.0
+        "current_vxn": 35.23,
+        "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.91,
+      "score": 43.15,
       "status": "yellow",
       "details": {
-        "current_dxy": 104.47,
-        "change_5d_pct": 0.887
+        "current_dxy": 104.44,
+        "change_5d_pct": 0.857
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 44.37,
+      "score": 44.15,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.113,
+        "avg_compound": -0.117,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Here Are the 4 Investing Rules I'm Never Breaking, No Matter How Scary the Stock Market Gets",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-22T18:59:17Z",
+            "sentiment": "Negative",
+            "compound": -0.484
+          },
+          {
+            "title": "Investors Brave Stock Market ‘Fragility’ as AI Trade Falters - Bloomberg.com",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-11-22T18:52:26Z",
+            "sentiment": "Positive",
+            "compound": 0.527
+          },
+          {
+            "title": "Democrats Sabotage 'Affordability' Pledges with Amnesty Promises",
+            "source": "Breitbart News",
+            "publishedAt": "2026-11-22T18:48:48Z",
+            "sentiment": "Negative",
+            "compound": -0.202
+          },
           {
             "title": "Lost money on a gold fund this year? The tax rule most gold investors don't know, and the December 31 deadline",
             "source": "Economictimes.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-22T18:36:24Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Haryana Congress to launch ‘Samvidhan Raksha March’ from Panchkula on Nov 26",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-22T18:35:03Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Wait, walk, or pay more: How Mumbai’s shrunken BEST fleet is draining commuters",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-22T18:33:44Z",
-            "sentiment": "Positive",
-            "compound": 0.674
-          },
-          {
-            "title": "The S&P 500 and Dow Jones Are Dangerously Close to Joining the Nasdaq in a Correction. Here’s the Level That Would Put the Nasdaq in a Bear Market, and What History Says Investors Should Do During a Stock Market Crash",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-22T18:29:21Z",
-            "sentiment": "Negative",
-            "compound": -0.691
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 63.47,
-  "trade_probability": 58.08,
+  "confirmation_score": 63.02,
+  "trade_probability": 57.81,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
