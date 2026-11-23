@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T22:31:14.585978+00:00",
+  "generated_at": "2026-11-23T22:45:53.607557+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.9,
+      "score": 44.0,
       "status": "yellow",
       "details": {
-        "current_dxy": 104.34,
-        "change_5d_pct": 0.763
+        "current_dxy": 104.33,
+        "change_5d_pct": 0.749
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 44.58,
+      "score": 44.04,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.108,
+        "avg_compound": -0.119,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "How to Kill a Bull Market",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-11-22T22:43:28Z",
+            "sentiment": "Negative",
+            "compound": -0.691
+          },
+          {
+            "title": "Indian retail investors show strong interest in Anthropic",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-22T22:34:08Z",
+            "sentiment": "Positive",
+            "compound": 0.743
+          },
           {
             "title": "Bessent warns on Fed hike as AI bubble fears mount",
             "source": "Biztoc.com",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-22T21:32:39Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Charlie Bilello Flags the Nasdaq 100’s First Bear Market Since April 2025",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-22T21:29:34Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Americans Are Cutting Back This Christmas",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-22T21:29:32Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 63.14,
-  "trade_probability": 57.88,
+  "confirmation_score": 63.1,
+  "trade_probability": 57.86,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
