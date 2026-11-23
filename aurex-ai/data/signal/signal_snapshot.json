@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T13:31:15.618970+00:00",
+  "generated_at": "2026-11-23T13:45:58.111229+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 87.56,
+      "score": 80.15,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.912,
-        "change_5d_pct": -4.695
+        "current_yield_pct": 4.928,
+        "change_5d_pct": -3.769
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.38,
+      "score": 46.16,
       "status": "yellow",
       "details": {
-        "current_dxy": 104.02,
-        "change_5d_pct": 0.453
+        "current_dxy": 104.05,
+        "change_5d_pct": 0.48
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.22,
+      "score": 51.78,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.044,
+        "avg_compound": 0.036,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Copper Prices Are Plunging and Sending a Warning for the US Economy - Business Insider",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-11-22T13:32:27Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
+          {
+            "title": "Invesco Galaxy Bitcoin ETF Trades Its 2024 SEC Order for Generic Listing Rules",
+            "source": "Dcforecasts.com",
+            "publishedAt": "2026-11-22T13:31:52Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Anthropic's record IPO raises hopes for a charitable windfall that has nonprofits preparing to scale",
             "source": "Abcnews.com",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-22T13:00:03Z",
             "sentiment": "Negative",
             "compound": -0.296
-          },
-          {
-            "title": "100 years of wonder: The most iconic moments in Macy’s Thanksgiving Day Parade history",
-            "source": "New York Post",
-            "publishedAt": "2026-11-22T13:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Stocks enter correction territory, driven by a deepening tech rout",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-22T12:54:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 36.94,
-  "trade_probability": 42.16,
+  "confirmation_score": 35.88,
+  "trade_probability": 41.53,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
