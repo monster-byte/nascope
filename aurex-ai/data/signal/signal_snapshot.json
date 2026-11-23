@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T18:38:29.043528+00:00",
+  "generated_at": "2026-11-23T18:45:58.792870+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.2833,
+          "change_pct": 1.1657,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.9214,
+          "change_pct": 1.7697,
           "up": true
         },
         "NVDA": {
-          "change_pct": 27.2123,
+          "change_pct": 26.8916,
           "up": true
         },
         "AMZN": {
-          "change_pct": 3.7209,
+          "change_pct": 3.5141,
           "up": true
         }
       }
@@ -40,18 +40,18 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26737.16,
-        "sma50": 29176.46,
-        "sma200": 28081.61
+        "last_price": 26695.94,
+        "sma50": 29175.64,
+        "sma200": 28081.4
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 15.0,
+      "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 35.17,
-        "percentile_vs_20d": 85.0
+        "current_vxn": 34.9,
+        "percentile_vs_20d": 80.0
       }
     },
     "us10y": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 43.99,
+      "score": 44.37,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.12,
+        "avg_compound": -0.113,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Lost money on a gold fund this year? The tax rule most gold investors don't know, and the December 31 deadline",
+            "source": "Economictimes.com",
+            "publishedAt": "2026-11-22T18:44:28Z",
+            "sentiment": "Negative",
+            "compound": -0.318
+          },
           {
             "title": "It’s the corruption",
             "source": "Wnd.com",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-22T18:29:21Z",
             "sentiment": "Negative",
             "compound": -0.691
-          },
-          {
-            "title": "Everyday Economics: The stock selloff could hit spending",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-22T18:29:10Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 62.99,
-  "trade_probability": 57.79,
+  "confirmation_score": 63.47,
+  "trade_probability": 58.08,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
