@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T08:15:53.869886+00:00",
+  "generated_at": "2026-11-23T08:31:17.463028+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -69,7 +69,7 @@
       "status": "yellow",
       "details": {
         "current_dxy": 103.7,
-        "change_5d_pct": 0.142
+        "change_5d_pct": 0.143
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.82,
+      "score": 49.27,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.036,
+        "avg_compound": -0.015,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Cosmos Health Reports Record Nine-Month Revenue of $53.6 Million, Up 18%; Q3 Gross Margin Up 465 Basis Points Sequentially; Total Debt Down 34% and Stockholders' Equity Up 21% Since Year-End",
+            "source": "Newswire.com",
+            "publishedAt": "2026-11-22T08:29:50Z",
+            "sentiment": "Negative",
+            "compound": -0.709
+          },
+          {
+            "title": "Why gold’s five-year winning streak is under threat after dramatic selloff",
+            "source": "Economictimes.com",
+            "publishedAt": "2026-11-22T08:21:09Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Black Lung Activists Hope That ‘Reforms Are Imminent’",
             "source": "The Good Men Project",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-22T07:52:05Z",
             "sentiment": "Negative",
             "compound": -0.273
-          },
-          {
-            "title": "The Claude payday: How Anthropic’s IPO could make thousands of staff millionaires",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-22T07:46:45Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "3 Korea AI Chip Stocks Investors Are Watching As Rates Rise",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-22T07:36:09Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 37.13,
-  "trade_probability": 42.28,
+  "confirmation_score": 36.9,
+  "trade_probability": 42.14,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
