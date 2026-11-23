@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T17:46:02.254782+00:00",
+  "generated_at": "2026-11-23T18:01:29.032225+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.9974,
+          "change_pct": 1.2137,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.6692,
+          "change_pct": 2.0916,
           "up": true
         },
         "NVDA": {
-          "change_pct": 26.8027,
+          "change_pct": 26.9495,
           "up": true
         },
         "AMZN": {
-          "change_pct": 3.1386,
+          "change_pct": 3.7638,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26656.13,
-        "sma50": 29174.84,
-        "sma200": 28081.2
+        "last_price": 26759.03,
+        "sma50": 29176.9,
+        "sma200": 28081.72
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 35.98,
+        "current_vxn": 36.44,
         "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 77.03,
+      "score": 78.28,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.948,
-        "change_5d_pct": -3.378
+        "current_yield_pct": 4.94,
+        "change_5d_pct": -3.534
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.85,
+      "score": 42.51,
       "status": "yellow",
       "details": {
-        "current_dxy": 104.47,
-        "change_5d_pct": 0.893
+        "current_dxy": 104.52,
+        "change_5d_pct": 0.937
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 43.53,
+      "score": 42.84,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.129,
+        "avg_compound": -0.143,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "From small-town hospital to a major in healthcare",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-22T18:01:03Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Creator of 'Sahm rule' says recession ‘entirely possible’ in Australia",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-11-22T18:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.421
+          },
+          {
+            "title": "PCE Inflation Gets One Last Update Before the Fed’s December Hike Debate",
+            "source": "Dcforecasts.com",
+            "publishedAt": "2026-11-22T17:55:18Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Elon Musk Blames Memory And Storage Price Hikes For Doubling Tesla’s AI4 Computer Costs, Says It “Costs Twice As Much”",
+            "source": "Wccftech",
+            "publishedAt": "2026-11-22T17:54:23Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
           {
             "title": "Gold price, silver rate predictions: Bullion investors may experience another tough Monday",
             "source": "Economictimes.com",
@@ -103,34 +131,6 @@
             "title": "The Bull Market As We Know It Is Over Without Nvidia",
             "source": "Biztoc.com",
             "publishedAt": "2026-11-22T17:39:36Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Nasdaq slides deeper as Nvidia rout drags S&P 500 and Dow into correction",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-22T17:36:13Z",
-            "sentiment": "Neutral",
-            "compound": -0.178
-          },
-          {
-            "title": "'It will only get worse': Trump drops grim financial warning about Dems' 'strange' victory",
-            "source": "Raw Story",
-            "publishedAt": "2026-11-22T17:35:49Z",
-            "sentiment": "Negative",
-            "compound": -0.875
-          },
-          {
-            "title": "CBN seeks greater Nigerian role in ECOWAS monetary union",
-            "source": "The Punch",
-            "publishedAt": "2026-11-22T17:35:43Z",
-            "sentiment": "Positive",
-            "compound": 0.361
-          },
-          {
-            "title": "台股血崩想搭反彈列車？分析師押寶「5檔ETF」逢低卡位",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-11-22T17:32:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 62.77,
-  "trade_probability": 57.66,
+  "confirmation_score": 62.85,
+  "trade_probability": 57.71,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
