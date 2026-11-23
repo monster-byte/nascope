@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T16:01:35.568889+00:00",
+  "generated_at": "2026-11-23T16:15:58.919305+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.3341,
+          "change_pct": 1.1599,
           "up": true
         },
         "MSFT": {
-          "change_pct": 2.554,
+          "change_pct": 2.349,
           "up": true
         },
         "NVDA": {
-          "change_pct": 29.8555,
+          "change_pct": 29.044,
           "up": true
         },
         "AMZN": {
-          "change_pct": 3.4966,
+          "change_pct": 3.2531,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26788.96,
-        "sma50": 29177.5,
-        "sma200": 28081.87
+        "last_price": 26781.71,
+        "sma50": 29177.35,
+        "sma200": 28081.83
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 20.0,
+      "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 35.72,
-        "percentile_vs_20d": 80.0
+        "current_vxn": 35.46,
+        "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 77.34,
+      "score": 77.03,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.946,
-        "change_5d_pct": -3.417
+        "current_yield_pct": 4.948,
+        "change_5d_pct": -3.378
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.82,
+      "score": 43.22,
       "status": "yellow",
       "details": {
-        "current_dxy": 104.35,
-        "change_5d_pct": 0.773
+        "current_dxy": 104.43,
+        "change_5d_pct": 0.847
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.63,
+      "score": 49.62,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.033,
+        "avg_compound": -0.008,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "From Squeezes to Meltdown, a Week of Mayhem Rocks Metals Markets - Bloomberg.com",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-11-22T16:13:24Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "DoorDash Just Dropped 11% in a Week. Is It Time to Sell, or Load Up?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-22T16:12:49Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "The Calm After the Storm—or Before the Next One?",
+            "source": "Freerepublic.com",
+            "publishedAt": "2026-11-22T16:10:06Z",
+            "sentiment": "Positive",
+            "compound": 0.318
+          },
+          {
+            "title": "Ahead of Thanksgiving, Southern Californians feel pinch of high food prices",
+            "source": "OCRegister",
+            "publishedAt": "2026-11-22T16:03:14Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "“Buy Stocks… A Crash is Coming” – Sounds Crazy, But Here’s Why…",
             "source": "Thegatewaypundit.com",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-22T16:00:00Z",
             "sentiment": "Negative",
             "compound": -0.827
-          },
-          {
-            "title": "Progressives unveil $25 minimum wage push to solve affordability crisis despite economist inflation warning",
-            "source": "Fox News",
-            "publishedAt": "2026-11-22T15:57:48Z",
-            "sentiment": "Negative",
-            "compound": -0.31
-          },
-          {
-            "title": "Dow Jones and S&P 500 Outlook: Top Stock Market Headlines and Data This Week",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-22T15:56:05Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "Gold slides to lowest level since September 2025, silver crashes nearly 4%: What's driving the selloff?",
-            "source": "Livemint",
-            "publishedAt": "2026-11-22T15:46:10Z",
-            "sentiment": "Negative",
-            "compound": -0.382
-          },
-          {
-            "title": "Letters to the Editor dated November 22, 2026",
-            "source": "BusinessLine",
-            "publishedAt": "2026-11-22T15:31:38Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 64.08,
-  "trade_probability": 58.45,
+  "confirmation_score": 63.35,
+  "trade_probability": 58.01,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
