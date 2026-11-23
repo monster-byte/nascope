@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T22:16:00.061472+00:00",
+  "generated_at": "2026-11-23T22:31:14.585978+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.4559,
+          "change_pct": 1.4763,
           "up": true
         },
         "MSFT": {
@@ -69,7 +69,7 @@
       "status": "yellow",
       "details": {
         "current_dxy": 104.34,
-        "change_5d_pct": 0.762
+        "change_5d_pct": 0.763
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 44.93,
+      "score": 44.58,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.101,
+        "avg_compound": -0.108,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Bessent warns on Fed hike as AI bubble fears mount",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-22T22:30:59Z",
+            "sentiment": "Negative",
+            "compound": -0.494
+          },
           {
             "title": "Trump: Iranian attacks have increased following Democrats' midterm victory",
             "source": "Israelnationalnews.com",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-22T21:29:32Z",
             "sentiment": "Neutral",
             "compound": -0.128
-          },
-          {
-            "title": "Defiance 2X Long and 2X Short Daily Anthropic ETFs, ANTC and ANTQ, Begin Trading Monday, Nov. 23",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-22T21:14:17Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 63.18,
-  "trade_probability": 57.91,
+  "confirmation_score": 63.14,
+  "trade_probability": 57.88,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
