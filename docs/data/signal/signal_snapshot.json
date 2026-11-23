@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T04:31:13.535845+00:00",
+  "generated_at": "2026-11-23T04:45:53.488787+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.14,
+      "score": 48.18,
       "status": "yellow",
       "details": {
         "current_dxy": 103.79,
-        "change_5d_pct": 0.233
+        "change_5d_pct": 0.228
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.82,
+      "score": 55.17,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.076,
+        "avg_compound": 0.103,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Wall Street asks what can save AI trade after Anthropic wipeout",
+            "source": "Economictimes.com",
+            "publishedAt": "2026-11-22T04:43:54Z",
+            "sentiment": "Positive",
+            "compound": 0.494
+          },
+          {
+            "title": "'Really bad signs' ahead of inflation data release",
+            "source": "PerthNow",
+            "publishedAt": "2026-11-22T04:34:09Z",
+            "sentiment": "Negative",
+            "compound": -0.585
+          },
           {
             "title": "How Interest Rates Affect Your Stocks, Mortgage and Savings as the Fed Holds Steady After Its First Hike",
             "source": "Ibtimes.com.au",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-22T04:00:18Z",
             "sentiment": "Negative",
             "compound": -0.631
-          },
-          {
-            "title": "Anthropic’s record IPO is a vote of confidence in AI, but not a verdict on its future – Anish Lal",
-            "source": "New Zealand Herald",
-            "publishedAt": "2026-11-22T04:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.124
-          },
-          {
-            "title": "Anthropic IPO Makes Most of Its Workers Millionaires, With About 600 Staffers Now Worth Over $100 Million",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-11-22T03:55:32Z",
-            "sentiment": "Positive",
-            "compound": 0.226
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 37.25,
-  "trade_probability": 42.35,
+  "confirmation_score": 37.37,
+  "trade_probability": 42.42,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
