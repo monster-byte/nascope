@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T18:01:29.032225+00:00",
+  "generated_at": "2026-11-23T18:16:02.450899+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.2137,
+          "change_pct": 1.395,
           "up": true
         },
         "MSFT": {
-          "change_pct": 2.0916,
+          "change_pct": 2.0178,
           "up": true
         },
         "NVDA": {
-          "change_pct": 26.9495,
+          "change_pct": 27.1273,
           "up": true
         },
         "AMZN": {
-          "change_pct": 3.7638,
+          "change_pct": 4.0743,
           "up": true
         }
       }
@@ -40,18 +40,18 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26759.03,
-        "sma50": 29176.9,
-        "sma200": 28081.72
+        "last_price": 26760.89,
+        "sma50": 29176.94,
+        "sma200": 28081.73
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 15.0,
+      "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 36.44,
-        "percentile_vs_20d": 85.0
+        "current_vxn": 35.93,
+        "percentile_vs_20d": 80.0
       }
     },
     "us10y": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.51,
+      "score": 42.78,
       "status": "yellow",
       "details": {
-        "current_dxy": 104.52,
-        "change_5d_pct": 0.937
+        "current_dxy": 104.48,
+        "change_5d_pct": 0.902
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 42.84,
+      "score": 44.0,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.143,
+        "avg_compound": -0.12,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "One AI Stock to Buy for Life After Nvidia",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-22T18:13:03Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Crude oil outlook: OPEC+ meeting, supply glut concerns to drive prices next week",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-22T18:12:34Z",
+            "sentiment": "Negative",
+            "compound": -0.572
+          },
           {
             "title": "From small-town hospital to a major in healthcare",
             "source": "The Times of India",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-22T17:54:23Z",
             "sentiment": "Negative",
             "compound": -0.402
-          },
-          {
-            "title": "Gold price, silver rate predictions: Bullion investors may experience another tough Monday",
-            "source": "Economictimes.com",
-            "publishedAt": "2026-11-22T17:41:48Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
-          },
-          {
-            "title": "The Bull Market As We Know It Is Over Without Nvidia",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-22T17:39:36Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 62.85,
-  "trade_probability": 57.71,
+  "confirmation_score": 63.43,
+  "trade_probability": 58.06,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
