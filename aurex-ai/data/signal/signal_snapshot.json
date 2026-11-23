@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T21:15:53.948342+00:00",
+  "generated_at": "2026-11-23T21:31:13.831899+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.11,
+      "score": 44.0,
       "status": "yellow",
       "details": {
-        "current_dxy": 104.31,
-        "change_5d_pct": 0.737
+        "current_dxy": 104.33,
+        "change_5d_pct": 0.749
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.51,
+      "score": 45.28,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.09,
+        "avg_compound": -0.094,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Charlie Bilello Flags the Nasdaq 100’s First Bear Market Since April 2025",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-22T21:29:34Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Americans Are Cutting Back This Christmas",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-22T21:29:32Z",
+            "sentiment": "Neutral",
+            "compound": -0.128
+          },
           {
             "title": "Defiance 2X Long and 2X Short Daily Anthropic ETFs, ANTC and ANTQ, Begin Trading Monday, Nov. 23",
             "source": "Biztoc.com",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-22T20:26:24Z",
             "sentiment": "Positive",
             "compound": 0.586
-          },
-          {
-            "title": "Trump Issues Ominous $6Trillion Stock Market Warning After Democrats' 'Strange' Election Victory as Financial Fears Mount",
-            "source": "Radaronline.com",
-            "publishedAt": "2026-11-22T20:06:08Z",
-            "sentiment": "Negative",
-            "compound": -0.813
-          },
-          {
-            "title": "US small business bankruptcies up 46% in 2026 amid economic pressures",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-22T20:02:54Z",
-            "sentiment": "Negative",
-            "compound": -0.318
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 63.25,
-  "trade_probability": 57.95,
+  "confirmation_score": 63.22,
+  "trade_probability": 57.93,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
