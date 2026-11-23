@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T20:15:56.671864+00:00",
+  "generated_at": "2026-11-23T20:31:18.492258+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.7374,
+          "change_pct": 1.8579,
           "up": true
         },
         "MSFT": {
-          "change_pct": 2.1449,
+          "change_pct": 1.9399,
           "up": true
         },
         "NVDA": {
-          "change_pct": 28.0277,
+          "change_pct": 28.4566,
           "up": true
         },
         "AMZN": {
-          "change_pct": 2.9438,
+          "change_pct": 3.1827,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26776.9,
-        "sma50": 29177.26,
-        "sma200": 28081.81
+        "last_price": 26816.29,
+        "sma50": 29178.04,
+        "sma200": 28082.0
       }
     },
     "vxn": {
@@ -50,7 +50,7 @@
       "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 35.63,
+        "current_vxn": 35.59,
         "percentile_vs_20d": 80.0
       }
     },
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.09,
+      "score": 44.02,
       "status": "yellow",
       "details": {
         "current_dxy": 104.32,
-        "change_5d_pct": 0.739
+        "change_5d_pct": 0.747
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 42.56,
+      "score": 44.76,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.149,
+        "avg_compound": -0.105,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Democrats win largest House majority since 1992 after flipping North Carolina seat",
+            "source": "BBC News",
+            "publishedAt": "2026-11-22T20:26:24Z",
+            "sentiment": "Positive",
+            "compound": 0.586
+          },
           {
             "title": "Trump Issues Ominous $6Trillion Stock Market Warning After Democrats' 'Strange' Election Victory as Financial Fears Mount",
             "source": "Radaronline.com",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-22T19:44:00Z",
             "sentiment": "Negative",
             "compound": -0.557
-          },
-          {
-            "title": "Stocks are 'on fire sale' as Anthropic IPO fails to calm AI trade jitters",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-22T19:43:47Z",
-            "sentiment": "Negative",
-            "compound": -0.44
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 63.88,
-  "trade_probability": 58.33,
+  "confirmation_score": 64.07,
+  "trade_probability": 58.44,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
