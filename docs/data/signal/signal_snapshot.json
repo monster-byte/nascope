@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T15:31:17.293587+00:00",
+  "generated_at": "2026-11-23T15:46:06.924933+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 2.0915,
+          "change_pct": 1.9115,
           "up": true
         },
         "MSFT": {
-          "change_pct": 3.4766,
+          "change_pct": 2.673,
           "up": true
         },
         "NVDA": {
-          "change_pct": 31.6361,
+          "change_pct": 29.6275,
           "up": true
         },
         "AMZN": {
-          "change_pct": 3.4799,
+          "change_pct": 3.1024,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26997.85,
-        "sma50": 29181.68,
-        "sma200": 28082.91
+        "last_price": 26812.83,
+        "sma50": 29177.97,
+        "sma200": 28081.99
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 35.12,
+        "current_vxn": 34.44,
         "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 76.4,
+      "score": 75.15,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.952,
-        "change_5d_pct": -3.3
+        "current_yield_pct": 4.96,
+        "change_5d_pct": -3.144
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.92,
+      "score": 44.37,
       "status": "yellow",
       "details": {
-        "current_dxy": 104.34,
-        "change_5d_pct": 0.76
+        "current_dxy": 104.28,
+        "change_5d_pct": 0.704
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 57.98,
+      "score": 57.75,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.16,
+        "avg_compound": 0.155,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Letters to the Editor dated November 22, 2026",
+            "source": "BusinessLine",
+            "publishedAt": "2026-11-22T15:31:38Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Editorial. GiANT move",
             "source": "BusinessLine",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-22T15:00:43Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "What's Open on Thanksgiving? Banks, Stores, and Businesses That Are Closed",
-            "source": "Mental Floss",
-            "publishedAt": "2026-11-22T15:00:02Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 64.08,
-  "trade_probability": 58.45,
+  "confirmation_score": 63.94,
+  "trade_probability": 58.36,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
