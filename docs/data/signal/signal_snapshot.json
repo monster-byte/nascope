@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T02:31:09.208598+00:00",
+  "generated_at": "2026-11-23T02:45:55.316941+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.61,
+      "score": 48.64,
       "status": "yellow",
       "details": {
         "current_dxy": 103.73,
-        "change_5d_pct": 0.174
+        "change_5d_pct": 0.17
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.83,
+      "score": 50.03,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.003,
+        "avg_compound": 0.001,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Why Canadian billionaire Kevin O’Leary thinks Anthropic could be the next Amazon",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-22T02:38:53Z",
+            "sentiment": "Neutral",
+            "compound": 0.178
+          },
           {
             "title": "Paint companies eye stronger Q3 demand on festival shift, weddings",
             "source": "Business Standard",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-22T01:47:38Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "If a Stock Market Crash Is Coming, Warren Buffett Says This Is the No. 1 Move All Investors Should Make",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-22T01:47:24Z",
-            "sentiment": "Negative",
-            "compound": -0.402
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 36.93,
-  "trade_probability": 42.16,
+  "confirmation_score": 36.95,
+  "trade_probability": 42.17,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
