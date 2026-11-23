@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T23:01:30.148115+00:00",
+  "generated_at": "2026-11-23T23:15:56.067866+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.4559,
+          "change_pct": 1.4763,
           "up": true
         },
         "MSFT": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.92,
+      "score": 44.07,
       "status": "yellow",
       "details": {
-        "current_dxy": 104.34,
-        "change_5d_pct": 0.76
+        "current_dxy": 104.32,
+        "change_5d_pct": 0.741
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 44.82,
+      "score": 45.01,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.104,
+        "avg_compound": -0.1,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "David Tepper's Micron bet raises a $32 billion question",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-22T23:15:40Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Hit $900,000 Before the Market Crash, Enough to Retire at 64. A 19.8% Slide in His Nasdaq 100 Fund Erased $178,200 Weeks Before His Last Day",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-22T23:15:32Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
+          {
+            "title": "On food inflation and agriculture",
+            "source": "The Punch",
+            "publishedAt": "2026-11-22T23:11:17Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Stock market today: Live updates",
+            "source": "CNBC",
+            "publishedAt": "2026-11-22T23:01:37Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Joins The NASDAQ Composite, Is The Stock Still Undervalued?",
             "source": "Biztoc.com",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-22T22:57:50Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Will Bitcoin’s big rebound hold? More tampered Ledgers found: Hodler’s Digest",
-            "source": "Cointelegraph",
-            "publishedAt": "2026-11-22T22:47:09Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Scott Bessent: Don't Blame NVIDIA For Market Downturn, Blame Blue Tsunami",
-            "source": "Crooksandliars.com",
-            "publishedAt": "2026-11-22T22:47:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.094
-          },
-          {
-            "title": "How to Kill a Bull Market",
-            "source": "Freerepublic.com",
-            "publishedAt": "2026-11-22T22:43:28Z",
-            "sentiment": "Negative",
-            "compound": -0.691
-          },
-          {
-            "title": "Indian retail investors show strong interest in Anthropic",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-22T22:34:08Z",
-            "sentiment": "Positive",
-            "compound": 0.743
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 63.17,
-  "trade_probability": 57.9,
+  "confirmation_score": 63.2,
+  "trade_probability": 57.92,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
