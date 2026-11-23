@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T20:01:33.276077+00:00",
+  "generated_at": "2026-11-23T20:15:56.671864+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.7287,
+          "change_pct": 1.7374,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.8968,
+          "change_pct": 2.1449,
           "up": true
         },
         "NVDA": {
-          "change_pct": 28.4104,
+          "change_pct": 28.0277,
           "up": true
         },
         "AMZN": {
-          "change_pct": 3.0161,
+          "change_pct": 2.9438,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26766.29,
-        "sma50": 29177.04,
-        "sma200": 28081.75
+        "last_price": 26776.9,
+        "sma50": 29177.26,
+        "sma200": 28081.81
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 36.04,
+        "current_vxn": 35.63,
         "percentile_vs_20d": 80.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 80.46,
+      "score": 81.71,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.926,
-        "change_5d_pct": -3.808
+        "current_yield_pct": 4.918,
+        "change_5d_pct": -3.964
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.8,
+      "score": 44.09,
       "status": "yellow",
       "details": {
-        "current_dxy": 104.35,
-        "change_5d_pct": 0.775
+        "current_dxy": 104.32,
+        "change_5d_pct": 0.739
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 43.68,
+      "score": 42.56,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.126,
+        "avg_compound": -0.149,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Trump Issues Ominous $6Trillion Stock Market Warning After Democrats' 'Strange' Election Victory as Financial Fears Mount",
+            "source": "Radaronline.com",
+            "publishedAt": "2026-11-22T20:06:08Z",
+            "sentiment": "Negative",
+            "compound": -0.813
+          },
+          {
+            "title": "US small business bankruptcies up 46% in 2026 amid economic pressures",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-22T20:02:54Z",
+            "sentiment": "Negative",
+            "compound": -0.318
+          },
           {
             "title": "The S&P 500 has dropped over 11% since October. Is the IVV ETF a buy?",
             "source": "Motley Fool Australia",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-22T19:43:47Z",
             "sentiment": "Negative",
             "compound": -0.44
-          },
-          {
-            "title": "5 Investments That Have Been Beating Inflation",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-22T19:43:35Z",
-            "sentiment": "Negative",
-            "compound": -0.459
-          },
-          {
-            "title": "Live: Wall Street crashes to correction territory and ASX set to fall",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-11-22T19:43:19Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 63.79,
-  "trade_probability": 58.27,
+  "confirmation_score": 63.88,
+  "trade_probability": 58.33,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
