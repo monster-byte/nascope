@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T19:31:14.161074+00:00",
+  "generated_at": "2026-11-23T19:45:56.779652+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.6039,
+          "change_pct": 1.4559,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.7646,
+          "change_pct": 1.4826,
           "up": true
         },
         "NVDA": {
-          "change_pct": 27.6915,
+          "change_pct": 26.8954,
           "up": true
         },
         "AMZN": {
-          "change_pct": 3.1948,
+          "change_pct": 2.5944,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26759.31,
-        "sma50": 29176.9,
-        "sma200": 28081.72
+        "last_price": 26648.37,
+        "sma50": 29174.69,
+        "sma200": 28081.16
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 15.0,
+      "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 35.21,
-        "percentile_vs_20d": 85.0
+        "current_vxn": 35.34,
+        "percentile_vs_20d": 80.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 79.53,
+      "score": 79.84,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.932,
-        "change_5d_pct": -3.691
+        "current_yield_pct": 4.93,
+        "change_5d_pct": -3.73
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.7,
+      "score": 43.68,
       "status": "yellow",
       "details": {
-        "current_dxy": 104.36,
-        "change_5d_pct": 0.787
+        "current_dxy": 104.37,
+        "change_5d_pct": 0.79
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 44.15,
+      "score": 44.48,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.117,
+        "avg_compound": -0.11,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Financial literacy begins with pocket money: CA Daga",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-22T19:04:09Z",
+            "title": "11-term House rep who mocked a kid’s letter about EVs has lost her seat (Upd.)",
+            "source": "Electrek",
+            "publishedAt": "2026-11-22T19:44:00Z",
+            "sentiment": "Negative",
+            "compound": -0.557
+          },
+          {
+            "title": "Stocks are 'on fire sale' as Anthropic IPO fails to calm AI trade jitters",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-22T19:43:47Z",
+            "sentiment": "Negative",
+            "compound": -0.44
+          },
+          {
+            "title": "5 Investments That Have Been Beating Inflation",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-22T19:43:35Z",
+            "sentiment": "Negative",
+            "compound": -0.459
+          },
+          {
+            "title": "Live: Wall Street crashes to correction territory and ASX set to fall",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-11-22T19:43:19Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Here Are the 4 Investing Rules I'm Never Breaking, No Matter How Scary the Stock Market Gets",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-22T18:59:17Z",
-            "sentiment": "Negative",
-            "compound": -0.484
-          },
-          {
-            "title": "Investors Brave Stock Market ‘Fragility’ as AI Trade Falters - Bloomberg.com",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-11-22T18:52:26Z",
+            "title": "NSW renters' bonds could generate $200m a year to help tenants, union says",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-11-22T19:35:38Z",
             "sentiment": "Positive",
-            "compound": 0.527
+            "compound": 0.402
           },
           {
-            "title": "Democrats Sabotage 'Affordability' Pledges with Amnesty Promises",
-            "source": "Breitbart News",
-            "publishedAt": "2026-11-22T18:48:48Z",
-            "sentiment": "Negative",
-            "compound": -0.202
-          },
-          {
-            "title": "Lost money on a gold fund this year? The tax rule most gold investors don't know, and the December 31 deadline",
-            "source": "Economictimes.com",
-            "publishedAt": "2026-11-22T18:44:28Z",
-            "sentiment": "Negative",
-            "compound": -0.318
-          },
-          {
-            "title": "It’s the corruption",
-            "source": "Wnd.com",
-            "publishedAt": "2026-11-22T18:38:06Z",
+            "title": "Full transcript of \"Face the Nation with Margaret Brennan,\" Nov. 22, 2026",
+            "source": "CBS News",
+            "publishedAt": "2026-11-22T19:32:22Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 63.24,
-  "trade_probability": 57.94,
+  "confirmation_score": 63.76,
+  "trade_probability": 58.26,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
