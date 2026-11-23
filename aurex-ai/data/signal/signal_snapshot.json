@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T18:31:14.028788+00:00",
+  "generated_at": "2026-11-23T18:38:29.043528+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.3954,
+          "change_pct": 1.2833,
           "up": true
         },
         "MSFT": {
-          "change_pct": 2.1142,
+          "change_pct": 1.9214,
           "up": true
         },
         "NVDA": {
-          "change_pct": 27.6992,
+          "change_pct": 27.2123,
           "up": true
         },
         "AMZN": {
-          "change_pct": 3.9116,
+          "change_pct": 3.7209,
           "up": true
         }
       }
@@ -40,36 +40,36 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26792.55,
-        "sma50": 29177.57,
-        "sma200": 28081.88
+        "last_price": 26737.16,
+        "sma50": 29176.46,
+        "sma200": 28081.61
       }
     },
     "vxn": {
       "factor": "vxn",
-      "score": 20.0,
+      "score": 15.0,
       "status": "red",
       "details": {
-        "current_vxn": 35.47,
-        "percentile_vs_20d": 80.0
+        "current_vxn": 35.17,
+        "percentile_vs_20d": 85.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 78.9,
+      "score": 78.28,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.936,
-        "change_5d_pct": -3.613
+        "current_yield_pct": 4.94,
+        "change_5d_pct": -3.534
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.96,
+      "score": 42.91,
       "status": "yellow",
       "details": {
-        "current_dxy": 104.46,
-        "change_5d_pct": 0.88
+        "current_dxy": 104.47,
+        "change_5d_pct": 0.887
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 43.81,
+      "score": 43.99,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.124,
+        "avg_compound": -0.12,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "It’s the corruption",
+            "source": "Wnd.com",
+            "publishedAt": "2026-11-22T18:38:06Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Space labs tethered to floating balloons",
+            "source": "BusinessLine",
+            "publishedAt": "2026-11-22T18:36:24Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Haryana Congress to launch ‘Samvidhan Raksha March’ from Panchkula on Nov 26",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-22T18:35:03Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Wait, walk, or pay more: How Mumbai’s shrunken BEST fleet is draining commuters",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-22T18:33:44Z",
+            "sentiment": "Positive",
+            "compound": 0.674
+          },
           {
             "title": "The S&P 500 and Dow Jones Are Dangerously Close to Joining the Nasdaq in a Correction. Here’s the Level That Would Put the Nasdaq in a Bear Market, and What History Says Investors Should Do During a Stock Market Crash",
             "source": "Biztoc.com",
@@ -103,34 +131,6 @@
             "title": "Everyday Economics: The stock selloff could hit spending",
             "source": "Biztoc.com",
             "publishedAt": "2026-11-22T18:29:10Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Texas Bitcoin Reserve Turns One, Still Parked in 197,844 IBIT Shares",
-            "source": "Dcforecasts.com",
-            "publishedAt": "2026-11-22T18:28:40Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "Rajasthan panchayat polls signal changing political mood: Ajay Chautala",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-22T18:23:51Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Trump Responds to Massive Stock Market Plunge, Suggests Election Was Rigged Citing “Democrats’ Rather Strange ‘Win’ on November 3rd”",
-            "source": "Thegatewaypundit.com",
-            "publishedAt": "2026-11-22T18:20:22Z",
-            "sentiment": "Negative",
-            "compound": -0.511
-          },
-          {
-            "title": "One AI Stock to Buy for Life After Nvidia",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-22T18:13:03Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 63.51,
-  "trade_probability": 58.11,
+  "confirmation_score": 62.99,
+  "trade_probability": 57.79,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
