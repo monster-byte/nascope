@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T20:31:18.492258+00:00",
+  "generated_at": "2026-11-23T20:45:55.918426+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.8579,
+          "change_pct": 1.9654,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.9399,
+          "change_pct": 2.0414,
           "up": true
         },
         "NVDA": {
-          "change_pct": 28.4566,
+          "change_pct": 28.0431,
           "up": true
         },
         "AMZN": {
-          "change_pct": 3.1827,
+          "change_pct": 3.3594,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26816.29,
-        "sma50": 29178.04,
-        "sma200": 28082.0
+        "last_price": 26849.63,
+        "sma50": 29178.71,
+        "sma200": 28082.17
       }
     },
     "vxn": {
@@ -50,7 +50,7 @@
       "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 35.59,
+        "current_vxn": 35.65,
         "percentile_vs_20d": 80.0
       }
     },
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.02,
+      "score": 43.93,
       "status": "yellow",
       "details": {
-        "current_dxy": 104.32,
-        "change_5d_pct": 0.747
+        "current_dxy": 104.34,
+        "change_5d_pct": 0.759
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 44.76,
+      "score": 45.51,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.105,
+        "avg_compound": -0.09,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Anthropic’s Record IPO Raises Hopes for a Charitable Windfall That Has Nonprofits Preparing to Scale",
+            "source": "KQED",
+            "publishedAt": "2026-11-22T20:45:08Z",
+            "sentiment": "Positive",
+            "compound": 0.67
+          },
+          {
+            "title": "Anthropic prices the largest IPO in history as AI rivals close in",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-22T20:33:49Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Democrats win largest House majority since 1992 after flipping North Carolina seat",
             "source": "BBC News",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-22T20:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Taiwan stocks suffer worst week since 1990 as AI rout drains emerging Asia",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-22T19:58:55Z",
-            "sentiment": "Negative",
-            "compound": -0.823
-          },
-          {
-            "title": "11-term House rep who mocked a kid’s letter about EVs has lost her seat (Upd.)",
-            "source": "Electrek",
-            "publishedAt": "2026-11-22T19:44:00Z",
-            "sentiment": "Negative",
-            "compound": -0.557
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 64.07,
-  "trade_probability": 58.44,
+  "confirmation_score": 64.13,
+  "trade_probability": 58.48,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
