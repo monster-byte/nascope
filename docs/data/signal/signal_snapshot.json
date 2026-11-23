@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T19:45:56.779652+00:00",
+  "generated_at": "2026-11-23T20:01:33.276077+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.4559,
+          "change_pct": 1.7287,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.4826,
+          "change_pct": 1.8968,
           "up": true
         },
         "NVDA": {
-          "change_pct": 26.8954,
+          "change_pct": 28.4104,
           "up": true
         },
         "AMZN": {
-          "change_pct": 2.5944,
+          "change_pct": 3.0161,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26648.37,
-        "sma50": 29174.69,
-        "sma200": 28081.16
+        "last_price": 26766.29,
+        "sma50": 29177.04,
+        "sma200": 28081.75
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 35.34,
+        "current_vxn": 36.04,
         "percentile_vs_20d": 80.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 79.84,
+      "score": 80.46,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.93,
-        "change_5d_pct": -3.73
+        "current_yield_pct": 4.926,
+        "change_5d_pct": -3.808
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.68,
+      "score": 43.8,
       "status": "yellow",
       "details": {
-        "current_dxy": 104.37,
-        "change_5d_pct": 0.79
+        "current_dxy": 104.35,
+        "change_5d_pct": 0.775
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 44.48,
+      "score": 43.68,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.11,
+        "avg_compound": -0.126,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "The S&P 500 has dropped over 11% since October. Is the IVV ETF a buy?",
+            "source": "Motley Fool Australia",
+            "publishedAt": "2026-11-22T20:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Taiwan stocks suffer worst week since 1990 as AI rout drains emerging Asia",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-22T19:58:55Z",
+            "sentiment": "Negative",
+            "compound": -0.823
+          },
           {
             "title": "11-term House rep who mocked a kid’s letter about EVs has lost her seat (Upd.)",
             "source": "Electrek",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-22T19:43:19Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "NSW renters' bonds could generate $200m a year to help tenants, union says",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-11-22T19:35:38Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "Full transcript of \"Face the Nation with Margaret Brennan,\" Nov. 22, 2026",
-            "source": "CBS News",
-            "publishedAt": "2026-11-22T19:32:22Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 63.76,
-  "trade_probability": 58.26,
+  "confirmation_score": 63.79,
+  "trade_probability": 58.27,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
