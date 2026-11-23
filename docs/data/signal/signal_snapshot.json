@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T16:31:18.505898+00:00",
+  "generated_at": "2026-11-23T16:45:56.996602+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.07,
+          "change_pct": 0.8552,
           "up": true
         },
         "MSFT": {
-          "change_pct": 2.3059,
+          "change_pct": 1.9407,
           "up": true
         },
         "NVDA": {
-          "change_pct": 28.5107,
+          "change_pct": 26.9727,
           "up": true
         },
         "AMZN": {
-          "change_pct": 3.3052,
+          "change_pct": 2.3394,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26804.4,
-        "sma50": 29177.81,
-        "sma200": 28081.94
+        "last_price": 26627.56,
+        "sma50": 29174.27,
+        "sma200": 28081.06
       }
     },
     "vxn": {
@@ -50,26 +50,26 @@
       "score": 20.0,
       "status": "red",
       "details": {
-        "current_vxn": 35.96,
+        "current_vxn": 35.93,
         "percentile_vs_20d": 80.0
       }
     },
     "us10y": {
       "factor": "us10y",
-      "score": 79.53,
+      "score": 78.9,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.932,
-        "change_5d_pct": -3.691
+        "current_yield_pct": 4.936,
+        "change_5d_pct": -3.613
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 42.91,
+      "score": 43.56,
       "status": "yellow",
       "details": {
-        "current_dxy": 104.47,
-        "change_5d_pct": 0.887
+        "current_dxy": 104.38,
+        "change_5d_pct": 0.804
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.22,
+      "score": 49.87,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.024,
+        "avg_compound": -0.003,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Risk is a Four Letter Word",
+            "source": "Awealthofcommonsense.com",
+            "publishedAt": "2026-11-22T16:43:35Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "Fed decision, Broadcom earnings and a Micron deadline all converge in one trading session",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-22T16:39:03Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Prediction: These Will Be AMD’s and Nvidia’s Stock Prices by 2028",
             "source": "Biztoc.com",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-22T16:12:49Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "The Calm After the Storm—or Before the Next One?",
-            "source": "Freerepublic.com",
-            "publishedAt": "2026-11-22T16:10:06Z",
-            "sentiment": "Positive",
-            "compound": 0.318
-          },
-          {
-            "title": "Ahead of Thanksgiving, Southern Californians feel pinch of high food prices",
-            "source": "OCRegister",
-            "publishedAt": "2026-11-22T16:03:14Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 64.26,
-  "trade_probability": 58.56,
+  "confirmation_score": 64.11,
+  "trade_probability": 58.47,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
