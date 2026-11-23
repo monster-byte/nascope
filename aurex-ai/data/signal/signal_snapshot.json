@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T05:15:53.761258+00:00",
+  "generated_at": "2026-11-23T05:31:11.879249+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.32,
+      "score": 48.56,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.77,
-        "change_5d_pct": 0.21
+        "current_dxy": 103.74,
+        "change_5d_pct": 0.18
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 56.63,
+      "score": 58.47,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.133,
+        "avg_compound": 0.169,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "CTI writes to PM Modi, thanks him for appeal to curb gold purchases",
+            "source": "Economictimes.com",
+            "publishedAt": "2026-11-22T05:21:04Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
+          {
+            "title": "Here's why we want to buy the sharp decline in this chip stock",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-22T05:19:38Z",
+            "sentiment": "Neutral",
+            "compound": 0.077
+          },
           {
             "title": "Ronald Reagan Changed His Chief of Staff After a Midterm Trouncing, Too",
             "source": "Foreign Policy",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-22T04:49:24Z",
             "sentiment": "Positive",
             "compound": 0.202
-          },
-          {
-            "title": "Wall Street asks what can save AI trade after Anthropic wipeout",
-            "source": "Economictimes.com",
-            "publishedAt": "2026-11-22T04:43:54Z",
-            "sentiment": "Positive",
-            "compound": 0.494
-          },
-          {
-            "title": "'Really bad signs' ahead of inflation data release",
-            "source": "PerthNow",
-            "publishedAt": "2026-11-22T04:34:09Z",
-            "sentiment": "Negative",
-            "compound": -0.585
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 37.52,
-  "trade_probability": 42.51,
+  "confirmation_score": 37.7,
+  "trade_probability": 42.62,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
