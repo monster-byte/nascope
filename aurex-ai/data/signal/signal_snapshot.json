@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T16:01:21.902876+00:00",
+  "generated_at": "2026-11-24T16:15:53.271288+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.4127,
+          "change_pct": 0.6319,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.7294,
+          "change_pct": 0.4717,
           "up": true
         },
         "NVDA": {
-          "change_pct": -8.2534,
+          "change_pct": -8.6286,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.0338,
+          "change_pct": -1.6313,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26023.71,
-        "sma50": 29118.36,
-        "sma200": 28085.43
+        "last_price": 25947.65,
+        "sma50": 29116.84,
+        "sma200": 28085.05
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 83.08,
+      "score": 84.02,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.892,
-        "change_5d_pct": -4.135
+        "current_yield_pct": 4.886,
+        "change_5d_pct": -4.252
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.31,
+      "score": 47.27,
       "status": "yellow",
       "details": {
         "current_dxy": 103.84,
-        "change_5d_pct": 0.336
+        "change_5d_pct": 0.341
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.89,
+      "score": 47.81,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.018,
+        "avg_compound": -0.044,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Job hugging: Two in three Kiwi workers hanging on to roles they want to leave",
-            "source": "New Zealand Herald",
-            "publishedAt": "2026-11-23T16:00:00Z",
+            "title": "Donald Trump Joined an Nvidia Board Meeting and Chastised Them to Reinstate Jensen Huang",
+            "source": "Futurism",
+            "publishedAt": "2026-11-23T16:15:20Z",
+            "sentiment": "Negative",
+            "compound": -0.494
+          },
+          {
+            "title": "Bitcoin rebound remains fragile despite Nvidia-fueled risk appetite: Bitget Wallet analyst",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-23T16:14:45Z",
             "sentiment": "Positive",
-            "compound": 0.44
+            "compound": 0.206
           },
           {
-            "title": "Nvidia Reinstates Jensen Huang As CEO",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-11-23T16:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Tech leaders are celebrating Jensen Huang’s return",
+            "source": "The Verge",
+            "publishedAt": "2026-11-23T16:14:04Z",
+            "sentiment": "Positive",
+            "compound": 0.572
           },
           {
-            "title": "What’s up with… Nvidia, US-Sino relations, cybersecurity M&A",
-            "source": "TelecomTV",
-            "publishedAt": "2026-11-23T15:59:33Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Jensen Huang Just Got His Job Back and Nvidia Soared 30% at the Open. Here’s What It Costs a Retiree to Sell $100,000 of the Stock in a Brokerage Account and in an IRA",
+            "title": "Nvidia Is Soaring on Jensen Huang’s Return. History Says the Biggest Rallies of the Dot-Com Crash Came on the Way Down, and Cisco Fell 79% After Its 24% Day",
             "source": "Biztoc.com",
-            "publishedAt": "2026-11-23T15:58:11Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "publishedAt": "2026-11-23T16:13:54Z",
+            "sentiment": "Negative",
+            "compound": -0.402
           },
           {
-            "title": "Why Is American Airlines Stock Soaring on Monday?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-23T15:57:45Z",
+            "title": "How to strike the right balance between stocks, bonds and cash",
+            "source": "OCRegister",
+            "publishedAt": "2026-11-23T16:13:37Z",
             "sentiment": "Neutral",
-            "compound": 0.0
+            "compound": -0.128
           },
           {
-            "title": "Nasdaq Jumps, Nvidia Surges After Huang Returns as CEO",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-23T15:57:42Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Market correction or a bad mutual fund? 5 checks you must make before deciding whether to exit or stay invested",
+            "source": "Livemint",
+            "publishedAt": "2026-11-23T16:05:22Z",
+            "sentiment": "Negative",
+            "compound": -0.542
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 50.7,
-  "trade_probability": 50.42,
+  "confirmation_score": 50.55,
+  "trade_probability": 50.33,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
