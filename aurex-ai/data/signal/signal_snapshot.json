@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T19:31:12.844599+00:00",
+  "generated_at": "2026-11-24T19:45:54.780292+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 1.0489,
+          "change_pct": 1.1979,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.6764,
+          "change_pct": 0.6591,
           "up": true
         },
         "NVDA": {
-          "change_pct": -7.3821,
+          "change_pct": -7.612,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.071,
+          "change_pct": -1.2924,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26230.47,
-        "sma50": 29122.49,
-        "sma200": 28086.46
+        "last_price": 26205.59,
+        "sma50": 29122.0,
+        "sma200": 28086.34
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 80.88,
+      "score": 79.94,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.906,
-        "change_5d_pct": -3.86
+        "current_yield_pct": 4.912,
+        "change_5d_pct": -3.743
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.54,
+      "score": 47.55,
       "status": "yellow",
       "details": {
         "current_dxy": 103.81,
-        "change_5d_pct": 0.307
+        "change_5d_pct": 0.306
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.61,
+      "score": 48.4,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.008,
+        "avg_compound": -0.032,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Why Jensen Huang’s Comeback Is Such a Bad Sign for the Economy",
+            "source": "Slate Magazine",
+            "publishedAt": "2026-11-23T19:40:15Z",
+            "sentiment": "Negative",
+            "compound": -0.542
+          },
+          {
+            "title": "BTCS offloads $44M in ETH to reduce DeFi debt amid market downturn",
+            "source": "Cointelegraph",
+            "publishedAt": "2026-11-23T19:35:06Z",
+            "sentiment": "Negative",
+            "compound": -0.361
+          },
+          {
+            "title": "Why Oracle Stock Is Rising Today",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-23T19:33:32Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "'Outrageous,' 'reckless,' 'wow': Here's what politicians are saying about Jensen Huang's return to Nvidia | TechCrunch",
+            "source": "TechCrunch",
+            "publishedAt": "2026-11-23T19:33:29Z",
+            "sentiment": "Negative",
+            "compound": -0.226
+          },
           {
             "title": "Insiders tell me the real reason Nvidia has reinstated Jensen Huang as CEO... and the secret China plot everyone in national security circles is talking about: MELISSA FRANCIS",
             "source": "Dailymail.com",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-23T19:22:46Z",
             "sentiment": "Negative",
             "compound": -0.477
-          },
-          {
-            "title": "US business activity expands at slowest pace in 4 months",
-            "source": "Economictimes.com",
-            "publishedAt": "2026-11-23T19:19:32Z",
-            "sentiment": "Neutral",
-            "compound": 0.103
-          },
-          {
-            "title": "Jensen Huang Just Returned to Nvidia and the Stock Soared 31%. A Retiree Who Moved Shares to a Roth IRA on Friday Got the Best Deal in 18 Months. Here’s What the Same Move Costs Now",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-23T19:18:45Z",
-            "sentiment": "Positive",
-            "compound": 0.751
-          },
-          {
-            "title": "Cassidy’s Social Security Plan Is a Dodge of Fiscal Reality",
-            "source": "National Review",
-            "publishedAt": "2026-11-23T19:18:33Z",
-            "sentiment": "Positive",
-            "compound": 0.34
-          },
-          {
-            "title": "How Low Can Bitcoin Fall Before Michael Saylor’s Strategy Has to Sell?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-23T19:18:27Z",
-            "sentiment": "Negative",
-            "compound": -0.273
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 50.31,
-  "trade_probability": 50.19,
+  "confirmation_score": 50.08,
+  "trade_probability": 50.05,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
