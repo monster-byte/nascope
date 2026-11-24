@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T00:31:22.549138+00:00",
+  "generated_at": "2026-11-24T00:45:55.855514+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.4559,
+          "change_pct": 1.4763,
           "up": true
         },
         "MSFT": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.05,
+      "score": 47.48,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.059,
+        "avg_compound": -0.05,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Dow futures rise 684 points as stocks try to bounce after a brutal week",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-23T00:37:56Z",
+            "sentiment": "Negative",
+            "compound": -0.625
+          },
           {
             "title": "Sensex surges 20% in dollar terms as foreign money chases India",
             "source": "Economictimes.com",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-23T00:18:57Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "South Korea’s stock market tumbles as AI bubble fears mount",
-            "source": "Al Jazeera English",
-            "publishedAt": "2026-11-23T00:18:03Z",
-            "sentiment": "Negative",
-            "compound": -0.421
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 63.38,
-  "trade_probability": 58.03,
+  "confirmation_score": 63.42,
+  "trade_probability": 58.05,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
