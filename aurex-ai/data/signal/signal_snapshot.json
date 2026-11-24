@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T08:31:14.657753+00:00",
+  "generated_at": "2026-11-24T08:45:53.864987+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.51,
+      "score": 44.2,
       "status": "yellow",
       "details": {
-        "current_dxy": 104.33,
-        "change_5d_pct": 0.811
+        "current_dxy": 104.24,
+        "change_5d_pct": 0.725
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.81,
+      "score": 51.41,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.016,
+        "avg_compound": 0.028,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Noida families feel the squeeze as rising prices of milk, vegetables, pulses and cooking oils hit kitchen budgets",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-23T08:40:28Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Ukraine Crypto Bill Clears Committee 22-0 as Regulators End Their Standoff",
+            "source": "Dcforecasts.com",
+            "publishedAt": "2026-11-23T08:31:37Z",
+            "sentiment": "Neutral",
+            "compound": 0.077
+          },
           {
             "title": "Trump suggests Iran strikes could resume next year if peace talks fail",
             "source": "Business Standard",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-23T08:09:11Z",
             "sentiment": "Neutral",
             "compound": 0.128
-          },
-          {
-            "title": "AMC Global Media's December Streaming Highlights Include \"Mayfair Witches: Salem Coven,\" \"Mix Tape,\" \"Art Detectives,\" \"A Remarkable Place to Die\" and More",
-            "source": "Thefutoncritic.com",
-            "publishedAt": "2026-11-23T08:00:00Z",
-            "sentiment": "Neutral",
-            "compound": -0.077
-          },
-          {
-            "title": "Manpower minister urges constructive dialogue on 2027 minimum wages",
-            "source": "Antaranews.com",
-            "publishedAt": "2026-11-23T07:58:31Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 63.67,
-  "trade_probability": 58.2,
+  "confirmation_score": 63.79,
+  "trade_probability": 58.27,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
