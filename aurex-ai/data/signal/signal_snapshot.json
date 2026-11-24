@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T06:16:03.083965+00:00",
+  "generated_at": "2026-11-24T06:31:11.098458+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.4559,
+          "change_pct": 1.4763,
           "up": true
         },
         "MSFT": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.65,
+      "score": 43.77,
       "status": "yellow",
       "details": {
-        "current_dxy": 104.31,
-        "change_5d_pct": 0.794
+        "current_dxy": 104.3,
+        "change_5d_pct": 0.779
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.21,
+      "score": 41.29,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.096,
+        "avg_compound": -0.174,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Wind energy reforms could cut electricity prices by almost 25%, report finds",
+            "source": "TheJournal.ie",
+            "publishedAt": "2026-11-23T06:30:34Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "India factory demand offsets weaker services growth in November, PMI shows",
+            "source": "Economictimes.com",
+            "publishedAt": "2026-11-23T06:21:39Z",
+            "sentiment": "Negative",
+            "compound": -0.202
+          },
+          {
+            "title": "US Treasury Secretary Scott Bessent warns on Fed hike as AI bubble fears mount",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-23T06:20:29Z",
+            "sentiment": "Negative",
+            "compound": -0.34
+          },
+          {
+            "title": "Asia-Pacific mixed after sharp US market losses",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-23T06:20:06Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
+          {
+            "title": "Low P/E investing alone is a bad strategy: Harini Dedhia explains why",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-23T06:18:19Z",
+            "sentiment": "Negative",
+            "compound": -0.765
+          },
           {
             "title": "Fed may expand balance sheet amid money market stress: FT",
             "source": "Crypto Briefing",
             "publishedAt": "2026-11-23T06:15:50Z",
             "sentiment": "Neutral",
             "compound": -0.128
-          },
-          {
-            "title": "Quantitative Tightening Ended a Year Ago, and Fed Liquidity Is Up $228 Billion",
-            "source": "Dcforecasts.com",
-            "publishedAt": "2026-11-23T06:15:10Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Gold price prediction today: What's the gold outlook for November 23, 2026 week?",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-23T06:08:46Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Tech back in the firing line as traders track Wall Street rout",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-23T06:05:22Z",
-            "sentiment": "Negative",
-            "compound": -0.34
-          },
-          {
-            "title": "BlackRock’s staked Ethereum ETF can delay redemptions if unstaked ETH runs short",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-11-23T06:05:20Z",
-            "sentiment": "Negative",
-            "compound": -0.318
-          },
-          {
-            "title": "The AI data center boom is driving billions into private infrastructure",
-            "source": "CNBC",
-            "publishedAt": "2026-11-23T06:00:01Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 63.18,
-  "trade_probability": 57.91,
+  "confirmation_score": 62.84,
+  "trade_probability": 57.7,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
