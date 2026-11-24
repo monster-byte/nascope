@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T08:15:53.875599+00:00",
+  "generated_at": "2026-11-24T08:31:14.657753+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 43.64,
+      "score": 43.51,
       "status": "yellow",
       "details": {
-        "current_dxy": 104.31,
-        "change_5d_pct": 0.795
+        "current_dxy": 104.33,
+        "change_5d_pct": 0.811
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.53,
+      "score": 50.81,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.031,
+        "avg_compound": 0.016,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Trump suggests Iran strikes could resume next year if peace talks fail",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-23T08:24:36Z",
+            "sentiment": "Negative",
+            "compound": -0.361
+          },
           {
             "title": "Robert Kiyosaki loads up on gold, silver, Bitcoin amid crash fears. Here’s why",
             "source": "Economictimes.com",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-23T07:58:31Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "The Red Turban Rebellion",
-            "source": "Everything-everywhere.com",
-            "publishedAt": "2026-11-23T07:54:37Z",
-            "sentiment": "Neutral",
-            "compound": -0.128
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 63.75,
-  "trade_probability": 58.25,
+  "confirmation_score": 63.67,
+  "trade_probability": 58.2,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
