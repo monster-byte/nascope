@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T03:15:56.067811+00:00",
+  "generated_at": "2026-11-24T03:31:11.221093+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.45,
+      "score": 44.53,
       "status": "yellow",
       "details": {
-        "current_dxy": 104.27,
-        "change_5d_pct": 0.694
+        "current_dxy": 104.26,
+        "change_5d_pct": 0.684
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.5,
+      "score": 49.34,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.03,
+        "avg_compound": -0.013,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Oil prices fall as global market selloff weighs on sentiment; Gulf attacks limit losses",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-23T03:28:53Z",
+            "sentiment": "Negative",
+            "compound": -0.681
+          },
+          {
+            "title": "How much does the average person spend on a funeral?",
+            "source": "Lifesciencesworld.com",
+            "publishedAt": "2026-11-23T03:23:22Z",
+            "sentiment": "Negative",
+            "compound": -0.361
+          },
+          {
+            "title": "Rupee could rise to 91.50/$ on equity inflows, says HDFC Bank's treasury head",
+            "source": "Economictimes.com",
+            "publishedAt": "2026-11-23T03:20:47Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
           {
             "title": "Asian tech back in the firing line as traders track Wall St rout",
             "source": "Biztoc.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-23T02:52:56Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Oil prices fall amid equity selloff though Iran war attacks limit losses",
-            "source": "Business Standard",
-            "publishedAt": "2026-11-23T02:50:56Z",
-            "sentiment": "Negative",
-            "compound": -0.859
-          },
-          {
-            "title": "3 big things we're watching in the market this Thanksgiving week",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-23T02:48:22Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Billionaire Bill Ackman warns Fed will make a rate ‘mistake’ in December",
-            "source": "Cointelegraph",
-            "publishedAt": "2026-11-23T02:47:39Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 63.55,
-  "trade_probability": 58.13,
+  "confirmation_score": 63.63,
+  "trade_probability": 58.18,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
