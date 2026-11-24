@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T09:31:17.569458+00:00",
+  "generated_at": "2026-11-24T09:45:56.860228+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.06,
+      "score": 44.27,
       "status": "yellow",
       "details": {
-        "current_dxy": 104.26,
-        "change_5d_pct": 0.743
+        "current_dxy": 104.23,
+        "change_5d_pct": 0.716
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 44.6,
+      "score": 46.64,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.108,
+        "avg_compound": -0.067,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "RBI plans to tap broker apps to boost retail trading in government bonds, sources say",
+            "source": "BusinessLine",
+            "publishedAt": "2026-11-23T09:43:56Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "Milky Mist gains 5% on JM Financial's bullish call, up 140% from IPO price",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-23T09:36:05Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
+          {
+            "title": "Consultation launched on proposals to update fees for statutory Maritime and Coastguard Agency services",
+            "source": "Www.gov.uk",
+            "publishedAt": "2026-11-23T09:35:04Z",
+            "sentiment": "Neutral",
+            "compound": 0.128
+          },
+          {
+            "title": "Gold price forecast: Goldman Sachs sees $4,650 by 2027 despite US rate pressures — what investors should do",
+            "source": "Livemint",
+            "publishedAt": "2026-11-23T09:31:47Z",
+            "sentiment": "Positive",
+            "compound": 0.241
+          },
           {
             "title": "US monetary policy: Why aggressive rate hikes are a bad idea in this economy",
             "source": "Livemint",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-23T09:25:17Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Anthropic, Nvidia shares rise in premarket trading after major tech selloff",
-            "source": "CNBC",
-            "publishedAt": "2026-11-23T09:24:21Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "The stock market faces a worrying scenario: a sell-off with no flight to safety",
-            "source": "Fortune",
-            "publishedAt": "2026-11-23T09:23:06Z",
-            "sentiment": "Negative",
-            "compound": -0.202
-          },
-          {
-            "title": "Stock-market slides this steep and fast trigger a rebound 91% of the time over the last decade",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-23T09:22:05Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Data center debts and Nvidia crisis impact Anthropic’s IPO ambitions",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-23T09:17:42Z",
-            "sentiment": "Negative",
-            "compound": -0.625
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 42.91,
-  "trade_probability": 45.75,
+  "confirmation_score": 43.11,
+  "trade_probability": 45.87,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
