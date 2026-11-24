@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T03:31:11.221093+00:00",
+  "generated_at": "2026-11-24T03:45:56.495382+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 44.53,
+      "score": 44.48,
       "status": "yellow",
       "details": {
         "current_dxy": 104.26,
-        "change_5d_pct": 0.684
+        "change_5d_pct": 0.69
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.34,
+      "score": 47.63,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.013,
+        "avg_compound": -0.047,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Gold Silver Rates Live Updates: Gold rebounds from 14-month low as US inflation data, Fed rate outlook take centre stage",
+            "source": "Economictimes.com",
+            "publishedAt": "2026-11-23T03:38:19Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "Nasdaq, Dow, S&P 500 Futures Jump Nearly 2% After Brutal Tech Selloff Last Week: GME, JNJ, ALNY, GAP In Focus",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-23T03:34:19Z",
+            "sentiment": "Negative",
+            "compound": -0.625
+          },
+          {
+            "title": "ASX 200 Slips in Choppy Trade as Wall Street AI Rout Rattles Investors and Banks Extend Losing Streak",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-11-23T03:32:21Z",
+            "sentiment": "Negative",
+            "compound": -0.226
+          },
           {
             "title": "Oil prices fall as global market selloff weighs on sentiment; Gulf attacks limit losses",
             "source": "The Times of India",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-23T03:20:47Z",
             "sentiment": "Positive",
             "compound": 0.202
-          },
-          {
-            "title": "Asian tech back in the firing line as traders track Wall St rout",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-23T03:04:40Z",
-            "sentiment": "Negative",
-            "compound": -0.34
-          },
-          {
-            "title": "Food Unaffordability Experienced by 30% of Black Adults",
-            "source": "Gallup.com",
-            "publishedAt": "2026-11-23T03:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "S&P 500 futures rebound sharply to rise 2%, kick-starting shortened week after tech rout: Live updates - CNBC",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-11-23T02:52:56Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 63.63,
-  "trade_probability": 58.18,
+  "confirmation_score": 63.47,
+  "trade_probability": 58.08,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
