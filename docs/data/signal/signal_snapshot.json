@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T11:31:16.618193+00:00",
+  "generated_at": "2026-11-24T11:45:57.887151+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.0028,
+          "change_pct": -0.0228,
           "up": false
         },
         "MSFT": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 45.9,
+      "score": 45.85,
       "status": "yellow",
       "details": {
-        "current_dxy": 104.02,
-        "change_5d_pct": 0.513
+        "current_dxy": 104.03,
+        "change_5d_pct": 0.519
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.87,
+      "score": 54.49,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.037,
+        "avg_compound": 0.09,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Is the stock market open on Thanksgiving, Black Friday?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-23T11:41:28Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Bitcoin Rebounds to $61K After Weekend Plunge to Two-Year Low",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-23T11:41:23Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "HighPeak Energy, Inc. Completes Comprehensive Refinancing",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-23T11:41:18Z",
+            "sentiment": "Positive",
+            "compound": 0.477
+          },
+          {
+            "title": "Stocks Poised for Strong Rebound After Bloodbath",
+            "source": "Newser",
+            "publishedAt": "2026-11-23T11:33:55Z",
+            "sentiment": "Positive",
+            "compound": 0.649
+          },
+          {
+            "title": "Bitcoin rebounds above $61,000 as Wall Street futures rise",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-23T11:33:16Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "REITs & Retail: James Corl of Cohen & Steers Shares His Investment Secrets",
             "source": "Commercial Observer",
             "publishedAt": "2026-11-23T11:30:57Z",
             "sentiment": "Positive",
             "compound": 0.296
-          },
-          {
-            "title": "New Co Cavan garda station 'milestone' for policing",
-            "source": "RTE",
-            "publishedAt": "2026-11-23T11:28:55Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "President Trump wants Jensen Huang back at Nvidia despite widening China spy probe",
-            "source": "Fortune",
-            "publishedAt": "2026-11-23T11:27:42Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Zscaler agrees to CrowdStrike deal as revenue rises 20%",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-23T11:26:15Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "BTC price gains 12% from $55K: Three things to know in Bitcoin this week",
-            "source": "Cointelegraph",
-            "publishedAt": "2026-11-23T11:20:57Z",
-            "sentiment": "Positive",
-            "compound": 0.34
-          },
-          {
-            "title": "Bitcoin Rebounds to $61K After Weekend Plunge to Two-Year Low",
-            "source": "Decrypt",
-            "publishedAt": "2026-11-23T11:14:22Z",
-            "sentiment": "Negative",
-            "compound": -0.273
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 43.73,
-  "trade_probability": 46.24,
+  "confirmation_score": 43.96,
+  "trade_probability": 46.38,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
