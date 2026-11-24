@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T20:31:11.815601+00:00",
+  "generated_at": "2026-11-24T20:45:59.258246+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.94,
+          "change_pct": 1.0317,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.706,
+          "change_pct": 0.6774,
           "up": true
         },
         "NVDA": {
-          "change_pct": -7.3881,
+          "change_pct": -7.2792,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.5392,
+          "change_pct": -1.5118,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26130.97,
-        "sma50": 29120.5,
-        "sma200": 28085.97
+        "last_price": 26145.72,
+        "sma50": 29120.8,
+        "sma200": 28086.04
       }
     },
     "vxn": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.58,
+      "score": 47.63,
       "status": "yellow",
       "details": {
         "current_dxy": 103.8,
-        "change_5d_pct": 0.302
+        "change_5d_pct": 0.296
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.39,
+      "score": 49.87,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.008,
+        "avg_compound": -0.003,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Black Friday, Cyber Monday shopping projected to slip",
+            "source": "Retail Dive",
+            "publishedAt": "2026-11-23T20:39:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "5 things to watch on the ASX 200 on Tuesday",
+            "source": "Motley Fool Australia",
+            "publishedAt": "2026-11-23T20:38:55Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Nvidia live updates: Jensen Huang reinstated as CEO; Trump says he 'convinced' board - Yahoo Finance",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-11-23T20:32:29Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "NFL refs continue to be shockingly bad, Tom Jackson was our childhood & has fantasy football lost its luster?",
+            "source": "Fox News",
+            "publishedAt": "2026-11-23T20:31:25Z",
+            "sentiment": "Negative",
+            "compound": -0.758
+          },
+          {
+            "title": "Elon Musk’s 2027 warning stokes stock market crash fears",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-23T20:31:16Z",
+            "sentiment": "Negative",
+            "compound": -0.784
+          },
           {
             "title": "The Economy Is a Hostage Situation",
             "source": "The Atlantic",
             "publishedAt": "2026-11-23T20:30:51Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Bitcoin’s supply squeeze narrative faces scrutiny after 11,000 BTC moves to Kraken",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-11-23T20:30:38Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Trump wanted to rescue the stock market with Huang return — but the long-term pain will be worse",
-            "source": "New York Post",
-            "publishedAt": "2026-11-23T20:30:24Z",
-            "sentiment": "Negative",
-            "compound": -0.815
-          },
-          {
-            "title": "Jensen Huang's extraordinary return, and why it isn't the end of the Nvidia saga",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-11-23T20:23:31Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Donald Trump Brags He ‘Ended Transgender Insanity’ in List of Presidential Wins",
-            "source": "The Hollywood Gossip",
-            "publishedAt": "2026-11-23T20:20:23Z",
-            "sentiment": "Positive",
-            "compound": 0.572
-          },
-          {
-            "title": "Jensen Huang’s Return Just Added About $500 Billion to Micron, Dell, TSMC and the AI Stocks That Depend on Nvidia",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-23T20:18:50Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 50.43,
-  "trade_probability": 50.26,
+  "confirmation_score": 50.39,
+  "trade_probability": 50.23,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
