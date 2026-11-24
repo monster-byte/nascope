@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T18:01:24.601290+00:00",
+  "generated_at": "2026-11-24T18:15:54.398615+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 1.3441,
+          "change_pct": 1.2151,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.5603,
+          "change_pct": 1.4381,
           "up": true
         },
         "NVDA": {
-          "change_pct": -7.1884,
+          "change_pct": -7.3639,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.9045,
+          "change_pct": -1.069,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26280.76,
-        "sma50": 29123.5,
-        "sma200": 28086.72
+        "last_price": 26234.38,
+        "sma50": 29122.57,
+        "sma200": 28086.48
       }
     },
     "vxn": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.76,
+      "score": 47.86,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.78,
-        "change_5d_pct": 0.28
+        "current_dxy": 103.77,
+        "change_5d_pct": 0.268
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.78,
+      "score": 49.98,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.036,
+        "avg_compound": -0.0,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "CleanSpark Stock Rebounds 15%: What's Happening?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-23T18:14:59Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Cizzle Brands Corporation Announces Closing of US$15,150,000 Public Offering",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-23T18:14:57Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Trump administration proposes rule that could curb ESG investing in 401(k)s",
+            "source": "CNBC",
+            "publishedAt": "2026-11-23T18:14:18Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Southern California home sales crash to 21-year low",
+            "source": "OCRegister",
+            "publishedAt": "2026-11-23T18:12:46Z",
+            "sentiment": "Negative",
+            "compound": -0.586
+          },
+          {
+            "title": "Top supermarket Thanksgiving dinner deals to feed your family on a budget",
+            "source": "New York Post",
+            "publishedAt": "2026-11-23T18:12:03Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
           {
             "title": "The AI bubble hasn't burst, but it has significantly deflated",
             "source": "ABC News (AU)",
             "publishedAt": "2026-11-23T18:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Whiplashed",
-            "source": "Dailyreckoning.com",
-            "publishedAt": "2026-11-23T18:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Crude Oil Down 4%; Nvidia Shares Spike Higher , Kymera Therapeutics (NASDAQ:KYMR)",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-23T17:59:29Z",
-            "sentiment": "Negative",
-            "compound": -0.361
-          },
-          {
-            "title": "Why Is Galaxy Digital Stock Surging on Monday?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-23T17:59:26Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Jensen Huang’s return proves Trump and the tech right still call the shots",
-            "source": "Vox",
-            "publishedAt": "2026-11-23T17:53:34Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Jensen Huang Is Back and So Is Nvidia’s Stock",
-            "source": "Wired",
-            "publishedAt": "2026-11-23T17:52:56Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 50.53,
-  "trade_probability": 50.32,
+  "confirmation_score": 50.37,
+  "trade_probability": 50.22,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
