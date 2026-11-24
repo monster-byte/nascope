@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T14:15:54.492225+00:00",
+  "generated_at": "2026-11-24T14:31:21.349569+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
+      "score": 0.0,
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.0028,
+          "change_pct": -0.6319,
           "up": false
         },
         "MSFT": {
-          "change_pct": 0.0751,
-          "up": true
+          "change_pct": -0.0385,
+          "up": false
         },
         "NVDA": {
-          "change_pct": -0.9623,
+          "change_pct": -4.2582,
           "up": false
         },
         "AMZN": {
-          "change_pct": -0.6148,
+          "change_pct": -1.3727,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26746.1,
-        "sma50": 29176.64,
-        "sma200": 28081.65
+        "last_price": 26261.75,
+        "sma50": 29123.12,
+        "sma200": 28086.62
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 84.65,
+      "score": 82.45,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.882,
-        "change_5d_pct": -4.331
+        "current_yield_pct": 4.896,
+        "change_5d_pct": -4.056
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.23,
+      "score": 47.55,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.85,
-        "change_5d_pct": 0.346
+        "current_dxy": 103.81,
+        "change_5d_pct": 0.306
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.68,
+      "score": 49.73,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.026,
+        "avg_compound": -0.005,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Wall Street stages a comeback after 7 straight days of losses",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-11-23T14:15:11Z",
-            "sentiment": "Negative",
-            "compound": -0.202
-          },
-          {
-            "title": "EU hit by new gas price shock",
-            "source": "Rt-english.com",
-            "publishedAt": "2026-11-23T14:15:04Z",
-            "sentiment": "Negative",
-            "compound": -0.382
-          },
-          {
-            "title": "Wall Street's 'Fear Gauge' just flashed a buy sign",
-            "source": "CNBC",
-            "publishedAt": "2026-11-23T14:14:28Z",
-            "sentiment": "Negative",
-            "compound": -0.494
-          },
-          {
-            "title": "Jensen Huang reinstated as Nvidia CEO",
-            "source": "Ctvnews.ca",
-            "publishedAt": "2026-11-23T14:13:50Z",
+            "title": "Nasdaq trading halted after circuit breaker trips amid a volatile stretch",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-23T14:29:31Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Gold climbs more than 2% as dollar rally pauses",
+            "title": "Jensen Huang returns to NVIDIA as President, CEO and Board Director",
+            "source": "Gamingonlinux.com",
+            "publishedAt": "2026-11-23T14:27:04Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Nvidia Stock Soars 27% Before the Bell After Its Board Reinstated Jensen Huang as CEO. It Still Needs 50% to Get Back to Its Record",
             "source": "Biztoc.com",
-            "publishedAt": "2026-11-23T14:13:22Z",
+            "publishedAt": "2026-11-23T14:26:09Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Nocera Signs Binding Letter of Intent to Invest $22 Million for an Approximately 44% Stake in BitRock, a Self-Powered AI Data Center Developer in Alberta",
+            "title": "Stock Market Today: Dow, S&P 500, and Nasdaq Surge as Nvidia Leads a Major AI Rebound",
             "source": "Biztoc.com",
-            "publishedAt": "2026-11-23T14:13:02Z",
+            "publishedAt": "2026-11-23T14:26:08Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "Jim Cramer's top 10 things to watch in the stock market Monday",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-23T14:26:07Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "Action will be taken in Kallakurichi incident, Tamil Nadu CM Vijay assures legislators of alliance and friendly parties",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-23T14:25:15Z",
+            "sentiment": "Positive",
+            "compound": 0.802
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 43.96,
-  "trade_probability": 46.38,
+  "confirmation_score": 37.04,
+  "trade_probability": 42.22,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
