@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T14:31:21.349569+00:00",
+  "generated_at": "2026-11-24T14:45:57.051797+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 0.0,
-      "status": "red",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": -0.6319,
-          "up": false
+          "change_pct": 0.8899,
+          "up": true
         },
         "MSFT": {
-          "change_pct": -0.0385,
-          "up": false
+          "change_pct": 0.6499,
+          "up": true
         },
         "NVDA": {
-          "change_pct": -4.2582,
+          "change_pct": -6.1601,
           "up": false
         },
         "AMZN": {
-          "change_pct": -1.3727,
+          "change_pct": -0.6341,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26261.75,
-        "sma50": 29123.12,
-        "sma200": 28086.62
+        "last_price": 26307.95,
+        "sma50": 29124.04,
+        "sma200": 28086.85
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 82.45,
+      "score": 80.57,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.896,
-        "change_5d_pct": -4.056
+        "current_yield_pct": 4.908,
+        "change_5d_pct": -3.821
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.55,
+      "score": 47.9,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.81,
-        "change_5d_pct": 0.306
+        "current_dxy": 103.76,
+        "change_5d_pct": 0.263
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.73,
+      "score": 49.8,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.005,
+        "avg_compound": -0.004,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Nasdaq trading halted after circuit breaker trips amid a volatile stretch",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-23T14:29:31Z",
+            "title": "Nvidia brings back Jensen Huang as CEO amid China ‘spy’ affair row | Read full statement",
+            "source": "Livemint",
+            "publishedAt": "2026-11-23T14:45:19Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Jensen Huang returns to NVIDIA as President, CEO and Board Director",
-            "source": "Gamingonlinux.com",
-            "publishedAt": "2026-11-23T14:27:04Z",
+            "title": "New inflation series will reduce volatility in headline CPI: Poonam Gupta",
+            "source": "BusinessLine",
+            "publishedAt": "2026-11-23T14:43:47Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Nvidia Stock Soars 27% Before the Bell After Its Board Reinstated Jensen Huang as CEO. It Still Needs 50% to Get Back to Its Record",
+            "title": "NVIDIA Board reinstates Jensen Huang as President, CEO and Board Director",
+            "source": "Macdailynews.com",
+            "publishedAt": "2026-11-23T14:43:32Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "JPMorgan’s JEPQ has a rival exposing a painful income gap",
             "source": "Biztoc.com",
-            "publishedAt": "2026-11-23T14:26:09Z",
+            "publishedAt": "2026-11-23T14:41:55Z",
+            "sentiment": "Negative",
+            "compound": -0.612
+          },
+          {
+            "title": "U.S. futures climb as technology recovers from brutal sell-off last week",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-23T14:41:37Z",
+            "sentiment": "Negative",
+            "compound": -0.625
+          },
+          {
+            "title": "Jensen Huang Has Used the Phrase ’30 Days From Going Out of Business’ for 33 Years. Today Nvidia Gave Him His Job Back",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-23T14:41:32Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Stock Market Today: Dow, S&P 500, and Nasdaq Surge as Nvidia Leads a Major AI Rebound",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-23T14:26:08Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Jim Cramer's top 10 things to watch in the stock market Monday",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-23T14:26:07Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "Action will be taken in Kallakurichi incident, Tamil Nadu CM Vijay assures legislators of alliance and friendly parties",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-23T14:25:15Z",
-            "sentiment": "Positive",
-            "compound": 0.802
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 37.04,
-  "trade_probability": 42.22,
+  "confirmation_score": 50.32,
+  "trade_probability": 50.19,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
