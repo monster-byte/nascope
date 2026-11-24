@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T12:15:57.958402+00:00",
+  "generated_at": "2026-11-24T12:31:19.391064+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.0028,
+          "change_pct": -0.0228,
           "up": false
         },
         "MSFT": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.17,
+      "score": 46.44,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.99,
-        "change_5d_pct": 0.478
+        "current_dxy": 103.95,
+        "change_5d_pct": 0.445
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.74,
+      "score": 50.86,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.015,
-        "articles_analyzed": 23,
+        "avg_compound": 0.017,
+        "articles_analyzed": 22,
         "top_headlines": [
+          {
+            "title": "Air Is Easing Out of the AI Bubble",
+            "source": "The Atlantic",
+            "publishedAt": "2026-11-23T12:30:00Z",
+            "sentiment": "Positive",
+            "compound": 0.25
+          },
+          {
+            "title": "Top economist on the ‘psychological tax’ you pay at the grocery store: It’s ‘on steroids’ compared with the Great Recession",
+            "source": "Fortune",
+            "publishedAt": "2026-11-23T12:30:00Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "Why Did Robinhood Markets Stock Fall Again?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-23T12:27:28Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Recap: Anthropic IPO, tech rout, Nvidia, and outage aftermath",
+            "source": "Fortune",
+            "publishedAt": "2026-11-23T12:25:07Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Catering giant Compass Group to shift stock market listing to US in further blow to UK - BBC",
             "source": "Slashdot.org",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-23T12:11:36Z",
             "sentiment": "Positive",
             "compound": 0.459
-          },
-          {
-            "title": "Morning Bid: Wall Street reprieve or recovery?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-23T12:11:14Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "US stocks poised for a bounce back, though fears abound",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-23T12:09:20Z",
-            "sentiment": "Negative",
-            "compound": -0.202
-          },
-          {
-            "title": "Tokenized stocks face pushback as NYSE, Nasdaq pivot for a new market",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-23T12:09:14Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "ABTC Stock Adds a $150M Bitcoin-Backed Credit Line, and Nothing Is Drawn Yet",
-            "source": "Dcforecasts.com",
-            "publishedAt": "2026-11-23T12:09:06Z",
-            "sentiment": "Positive",
-            "compound": 0.382
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 43.65,
-  "trade_probability": 46.19,
+  "confirmation_score": 43.69,
+  "trade_probability": 46.21,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
