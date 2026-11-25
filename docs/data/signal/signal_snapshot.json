@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T14:45:53.748014+00:00",
+  "generated_at": "2026-11-25T15:01:37.806846+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.333,
+          "change_pct": -0.6877,
           "up": false
         },
         "MSFT": {
-          "change_pct": -3.2072,
+          "change_pct": -2.3149,
           "up": false
         },
         "NVDA": {
-          "change_pct": -6.9211,
+          "change_pct": -4.6551,
           "up": false
         },
         "AMZN": {
-          "change_pct": -5.5098,
+          "change_pct": -4.465,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 25034.86,
-        "sma50": 29043.96,
-        "sma200": 28085.92
+        "last_price": 25378.37,
+        "sma50": 29050.83,
+        "sma200": 28087.64
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 87.58,
+      "score": 89.16,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.828,
-        "change_5d_pct": -4.698
+        "current_yield_pct": 4.818,
+        "change_5d_pct": -4.895
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.44,
+      "score": 49.49,
       "status": "yellow",
       "details": {
         "current_dxy": 103.93,
-        "change_5d_pct": 0.07
+        "change_5d_pct": 0.064
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.28,
+      "score": 51.81,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.046,
-        "articles_analyzed": 25,
+        "avg_compound": 0.036,
+        "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Congress shreds Nvidia’s ‘outrageous’ decision to bring back Huang: ‘Failure of character’",
-            "source": "Freerepublic.com",
-            "publishedAt": "2026-11-24T14:44:22Z",
+            "title": "OpenAI’s Roadmap To Making Cyber Bigger Than Coding Remains Blurry",
+            "source": "The Information",
+            "publishedAt": "2026-11-24T15:01:30Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
+          {
+            "title": "Letters to the Editor dated November 24, 2026",
+            "source": "BusinessLine",
+            "publishedAt": "2026-11-24T15:01:04Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Medtronic Stock Slumps As Tricky Questions Weigh On Its Quarterly Beat",
-            "source": "Investor's Business Daily",
-            "publishedAt": "2026-11-24T14:42:00Z",
+            "title": "Getting Started With Hobbyist-Level 3D Scanning Technologies",
+            "source": "Hackaday",
+            "publishedAt": "2026-11-24T15:00:13Z",
             "sentiment": "Neutral",
-            "compound": -0.153
+            "compound": 0.0
           },
           {
-            "title": "Amazon Publication Reveals Explosive Downside to Stock Market Euphoria",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-24T14:35:45Z",
-            "sentiment": "Positive",
-            "compound": 0.612
-          },
-          {
-            "title": "The best graphics card 2026",
-            "source": "TechRadar",
-            "publishedAt": "2026-11-24T14:34:09Z",
-            "sentiment": "Positive",
-            "compound": 0.637
-          },
-          {
-            "title": "Anthropic shares fall 6%, near IPO price amid tech sector selloff",
+            "title": "BNB Chain adds $128.9 million in tokenized stocks in a single week",
             "source": "Crypto Briefing",
-            "publishedAt": "2026-11-24T14:33:33Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "Stock market today: Dow, S&P 500, Nasdaq futures fall as chip stocks fall, investors test Nvidia-fueled rally - Yahoo Finance",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-11-24T14:33:07Z",
+            "publishedAt": "2026-11-24T14:59:20Z",
             "sentiment": "Neutral",
             "compound": 0.0
+          },
+          {
+            "title": "Bill Ackman says the U.S. economy could be headed for another recession—and is blaming Kevin Warsh’s Fed",
+            "source": "Fortune",
+            "publishedAt": "2026-11-24T14:59:06Z",
+            "sentiment": "Negative",
+            "compound": -0.494
+          },
+          {
+            "title": "US stocks open lower as Nvidia falls 4% and Anthropic drops 5%",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-24T14:57:08Z",
+            "sentiment": "Negative",
+            "compound": -0.296
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 38.13,
-  "trade_probability": 42.88,
+  "confirmation_score": 38.3,
+  "trade_probability": 42.98,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
