@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T16:45:58.078009+00:00",
+  "generated_at": "2026-11-25T17:01:31.863987+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.4207,
+          "change_pct": -1.2141,
           "up": false
         },
         "MSFT": {
-          "change_pct": -2.7176,
+          "change_pct": -2.3675,
           "up": false
         },
         "NVDA": {
-          "change_pct": -7.1012,
+          "change_pct": -6.9042,
           "up": false
         },
         "AMZN": {
-          "change_pct": -5.2714,
+          "change_pct": -4.5365,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 25095.9,
-        "sma50": 29045.18,
-        "sma200": 28086.22
+        "last_price": 25212.86,
+        "sma50": 29047.52,
+        "sma200": 28086.81
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 89.48,
+      "score": 89.95,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.816,
-        "change_5d_pct": -4.935
+        "current_yield_pct": 4.813,
+        "change_5d_pct": -4.994
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.05,
+      "score": 50.8,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.85,
-        "change_5d_pct": -0.006
+        "current_dxy": 103.76,
+        "change_5d_pct": -0.1
       }
     },
     "macro": {
@@ -85,52 +85,52 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.35,
+      "score": 53.75,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.087,
-        "articles_analyzed": 24,
+        "avg_compound": 0.075,
+        "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Inside Economics: NZ economic growth set to overtake Aussies in 2027",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-11-24T17:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "US markets slide, Asian markets rebound as Nvidia rally fizzles out",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-24T16:58:55Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "‘Too Big to Fail’? Trump’s Jensen Huang Rescue Seen as First Government Bailout of AI Industry",
+            "source": "Common Dreams",
+            "publishedAt": "2026-11-24T16:57:14Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
+          {
+            "title": "Little-noticed Trump rule could kick millions off food stamps",
+            "source": "Raw Story",
+            "publishedAt": "2026-11-24T16:54:36Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Nvidia live updates: Nvidia stock falls as exuberance fades after Jensen Huang's return as CEO - Yahoo Finance",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-11-24T16:54:06Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Long Live the Chip King",
             "source": "The New Yorker",
             "publishedAt": "2026-11-24T16:45:06Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Are the World’s Top Literary Scholars Being Targeted by a Chinese Spy Op?",
-            "source": "Vanity Fair",
-            "publishedAt": "2026-11-24T16:41:21Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "Cerebras CEO says more than 1,000 employees became millionaires after IPO",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-24T16:41:19Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "The India growth story to remain intact amid challenges",
-            "source": "BusinessLine",
-            "publishedAt": "2026-11-24T16:35:15Z",
-            "sentiment": "Positive",
-            "compound": 0.572
-          },
-          {
-            "title": "Dollar Tree predicts holiday shoppers will ‘buy closer to need’",
-            "source": "Retail Dive",
-            "publishedAt": "2026-11-24T16:26:00Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "Jensen Huang back as Nvidia CEO: What his return means for Colette Kress after her 11-day stint as interim CEO",
-            "source": "Livemint",
-            "publishedAt": "2026-11-24T16:19:54Z",
             "sentiment": "Neutral",
             "compound": 0.0
           }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 38.63,
-  "trade_probability": 43.18,
+  "confirmation_score": 38.7,
+  "trade_probability": 43.22,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
