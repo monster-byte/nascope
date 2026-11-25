@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T10:15:57.709926+00:00",
+  "generated_at": "2026-11-25T10:31:10.672637+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": true
         },
         "NVDA": {
-          "change_pct": 2.321,
+          "change_pct": 2.3145,
           "up": true
         },
         "AMZN": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.68,
+      "score": 48.9,
       "status": "yellow",
       "details": {
-        "current_dxy": 104.03,
-        "change_5d_pct": 0.165
+        "current_dxy": 104.0,
+        "change_5d_pct": 0.138
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.79,
+      "score": 49.84,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.016,
+        "avg_compound": -0.003,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "The Jensen Huang Bailout",
+            "source": "The American Prospect",
+            "publishedAt": "2026-11-24T10:30:00Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
+          {
+            "title": "3 things investors will look out for on Tuesday",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-24T10:27:49Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Jensen Huang Returns to Nvidia: What We Know | Tech Today",
+            "source": "CNET",
+            "publishedAt": "2026-11-24T10:21:56Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Jensen Huang returns to Nvidia as CEO after scandal",
             "source": "Biztoc.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-24T10:12:50Z",
             "sentiment": "Neutral",
             "compound": -0.052
-          },
-          {
-            "title": "UP Fintech: Q3 Net Income Rises 16.4% QoQ, Client Assets Reach Record US$64.8 Billion",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-24T10:12:45Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "Nvidia loses $2.7T in 45 days, faces hurdles for quick rebound",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-24T10:10:17Z",
-            "sentiment": "Negative",
-            "compound": -0.318
-          },
-          {
-            "title": "Treasury yields steady after inflation warning from New York Fed's Williams, investors await 5-year auction",
-            "source": "CNBC",
-            "publishedAt": "2026-11-24T10:04:17Z",
-            "sentiment": "Neutral",
-            "compound": -0.052
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 64.06,
-  "trade_probability": 58.44,
+  "confirmation_score": 64.0,
+  "trade_probability": 58.4,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
