@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T17:45:57.210450+00:00",
+  "generated_at": "2026-11-25T18:01:26.310811+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 0.0,
+      "score": 25.0,
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -0.2434,
-          "up": false
+          "change_pct": 0.0156,
+          "up": true
         },
         "MSFT": {
-          "change_pct": -1.2961,
+          "change_pct": -1.2263,
           "up": false
         },
         "NVDA": {
-          "change_pct": -5.405,
+          "change_pct": -4.5896,
           "up": false
         },
         "AMZN": {
-          "change_pct": -3.1182,
+          "change_pct": -2.9911,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 25607.09,
-        "sma50": 29055.41,
-        "sma200": 28088.78
+        "last_price": 25666.22,
+        "sma50": 29056.59,
+        "sma200": 28089.08
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 87.58,
+      "score": 86.32,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.828,
-        "change_5d_pct": -4.698
+        "current_yield_pct": 4.836,
+        "change_5d_pct": -4.54
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.9,
+      "score": 51.86,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.61,
-        "change_5d_pct": -0.238
+        "current_dxy": 103.62,
+        "change_5d_pct": -0.233
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.45,
+      "score": 57.72,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.031,
-        "articles_analyzed": 25,
+        "avg_compound": 0.154,
+        "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Threads comes to iPad and takes a page from X's playbook with cashtags | TechCrunch",
-            "source": "TechCrunch",
-            "publishedAt": "2026-11-24T17:45:29Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Jensen Huang’s allies knew exactly how to con Trump",
-            "source": "Dailykos.com",
-            "publishedAt": "2026-11-24T17:45:07Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Tire Wear Emissions: A Science Still in Motion",
-            "source": "Triplepundit.com",
-            "publishedAt": "2026-11-24T17:41:26Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Bernie Sanders Says America Has the Highest Child Poverty Rate of Any Major Country. Here's What He's Leaving Out.",
-            "source": "Reason",
-            "publishedAt": "2026-11-24T17:40:33Z",
+            "title": "Halvad LIC agent loses ₹25L to fake platform investment scam",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-24T18:01:02Z",
             "sentiment": "Negative",
-            "compound": -0.511
+            "compound": -0.844
           },
           {
-            "title": "Jim Cramer says ‘the time is now’ to put sidelined cash to work",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-24T17:34:25Z",
+            "title": "The Trump Administration’s Megaspeed Blacklisting Comes With a Glaring Loophole",
+            "source": "Gizmodo.com",
+            "publishedAt": "2026-11-24T18:00:16Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Nvidia shares slide as Trump's role in Jensen Huang's comeback questioned by US politicians",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-24T17:34:10Z",
+            "title": "Dow 70,000",
+            "source": "Dailyreckoning.com",
+            "publishedAt": "2026-11-24T18:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Anthropic’s $83 IPO price looked bold. Then the stock slipped below it",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-24T17:59:38Z",
             "sentiment": "Positive",
-            "compound": 0.202
+            "compound": 0.382
+          },
+          {
+            "title": "Trump Account contributions from friends and family pass $1 billion mark, Treasury says",
+            "source": "CNBC",
+            "publishedAt": "2026-11-24T17:59:12Z",
+            "sentiment": "Positive",
+            "compound": 0.599
+          },
+          {
+            "title": "Protein inflation spikes due to rising feed and fodder costs, shows data",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-24T17:58:27Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 38.0,
-  "trade_probability": 42.8,
+  "confirmation_score": 45.42,
+  "trade_probability": 47.25,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
