@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T07:31:08.879648+00:00",
+  "generated_at": "2026-11-25T07:45:58.091966+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": true
         },
         "NVDA": {
-          "change_pct": -5.9238,
+          "change_pct": -5.9177,
           "up": false
         },
         "AMZN": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.78,
+      "score": 48.67,
       "status": "yellow",
       "details": {
-        "current_dxy": 104.02,
-        "change_5d_pct": 0.153
+        "current_dxy": 104.03,
+        "change_5d_pct": 0.167
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.99,
+      "score": 57.17,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.04,
+        "avg_compound": 0.143,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "26-mile traffic jam exposes growing economic toll of US blockade on Iran",
+            "source": "Israelnationalnews.com",
+            "publishedAt": "2026-11-24T07:42:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.052
+          },
+          {
+            "title": "Bitcoin ETFs keep bleeding as BlackRock’s IBIT shares gain nearly 5%",
+            "source": "Cointelegraph",
+            "publishedAt": "2026-11-24T07:41:50Z",
+            "sentiment": "Positive",
+            "compound": 0.681
+          },
+          {
+            "title": "Hyundai Motor India to raise prices by up to ₹8,000 from December 1",
+            "source": "BusinessLine",
+            "publishedAt": "2026-11-24T07:40:59Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Jensen Huang's Nvidia return sparks relief for battered AI trade, but questions remain",
+            "source": "Economictimes.com",
+            "publishedAt": "2026-11-24T07:39:52Z",
+            "sentiment": "Positive",
+            "compound": 0.262
+          },
           {
             "title": "AI infrastructure spending set to jump 53% to $2.4 trn in 2027: Gartner",
             "source": "Business Standard",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-24T07:13:17Z",
             "sentiment": "Positive",
             "compound": 0.47
-          },
-          {
-            "title": "Stock Market: Will S&P 500 Open Up or Down Today? - State Street SPDR S&P 500 ETF Trust (ARCA:SPY)",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-24T07:10:16Z",
-            "sentiment": "Positive",
-            "compound": 0.511
-          },
-          {
-            "title": "The Z-Scaler story: From JRD Tata’s ‘Go, good luck’ to the cybersecurity deal of the century",
-            "source": "BusinessLine",
-            "publishedAt": "2026-11-24T07:10:07Z",
-            "sentiment": "Positive",
-            "compound": 0.44
-          },
-          {
-            "title": "Huang return keeps China hawks at bay",
-            "source": "The Irish Times",
-            "publishedAt": "2026-11-24T07:02:41Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Why France is at risk of recession — and what could keep it out of one",
-            "source": "CNBC",
-            "publishedAt": "2026-11-24T06:55:36Z",
-            "sentiment": "Negative",
-            "compound": -0.599
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 50.68,
-  "trade_probability": 50.41,
+  "confirmation_score": 51.14,
+  "trade_probability": 50.68,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
