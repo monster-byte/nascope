@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T05:15:57.856456+00:00",
+  "generated_at": "2026-11-25T05:31:09.283502+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": true
         },
         "NVDA": {
-          "change_pct": -5.9177,
+          "change_pct": -5.9238,
           "up": false
         },
         "AMZN": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.87,
+      "score": 48.98,
       "status": "yellow",
       "details": {
-        "current_dxy": 104.01,
-        "change_5d_pct": 0.142
+        "current_dxy": 103.99,
+        "change_5d_pct": 0.127
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 45.23,
+      "score": 45.45,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.095,
+        "avg_compound": -0.091,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Summerset and Delegat help NZ sharemarket flip Monday’s loss, ends day up 1.7% – Market close",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-11-24T05:17:54Z",
+            "sentiment": "Neutral",
+            "compound": 0.103
+          },
+          {
+            "title": "Michael Burry closes 75% of Nvidia puts, buys long-dated calls",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-24T05:17:48Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Asia Markets Jump as Nvidia Boss Jensen Huang Reinstated After Spy Scandal, Taiwan Soars 9% on TSMC Rally",
             "source": "Ibtimes.com.au",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-24T05:00:00Z",
             "sentiment": "Negative",
             "compound": -0.758
-          },
-          {
-            "title": "Sing of God’s Judgment: Ezekiel’s Song of Lament for Tyre",
-            "source": "Shereadstruth.com",
-            "publishedAt": "2026-11-24T05:00:00Z",
-            "sentiment": "Negative",
-            "compound": -0.459
-          },
-          {
-            "title": "Data centers -- not government projects --fulfill job promises",
-            "source": "Americanthinker.com",
-            "publishedAt": "2026-11-24T05:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.05
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 50.08,
-  "trade_probability": 50.05,
+  "confirmation_score": 50.11,
+  "trade_probability": 50.07,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
