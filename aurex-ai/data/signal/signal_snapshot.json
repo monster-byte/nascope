@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T00:45:53.016240+00:00",
+  "generated_at": "2026-11-25T01:01:20.409491+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": true
         },
         "NVDA": {
-          "change_pct": -5.9177,
+          "change_pct": -5.9238,
           "up": false
         },
         "AMZN": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 47.23,
+      "score": 47.06,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.85,
-        "change_5d_pct": 0.346
+        "current_dxy": 103.87,
+        "change_5d_pct": 0.367
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.84,
+      "score": 50.27,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.003,
+        "avg_compound": 0.005,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Wall Street soars on Huang's return to Nvidia, Treasury yields rise",
+            "source": "Economictimes.com",
+            "publishedAt": "2026-11-24T00:54:33Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "Benefits review to suggest quicker payment for some disabled people",
+            "source": "BBC News",
+            "publishedAt": "2026-11-24T00:53:31Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "Bill Ackman uses SpaceX to expose the Fed’s ‘golden’ inflation rule",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-24T00:52:42Z",
+            "sentiment": "Neutral",
+            "compound": -0.153
+          },
+          {
+            "title": "CCSC Technology International Hldngs Ltd trading halted, news pending",
+            "source": "Thefly.com",
+            "publishedAt": "2026-11-24T00:50:03Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "A selloff, a POTUS, or a recession: What really made Nvidia bring Jensen Huang back as CEO?",
             "source": "Fortune",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-24T00:40:13Z",
             "sentiment": "Positive",
             "compound": 0.527
-          },
-          {
-            "title": "Commerce Department blacklists Megaspeed after Nvidia reinstates Jensen Huang as CEO",
-            "source": "New York Post",
-            "publishedAt": "2026-11-24T00:39:51Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Japan's factory activity expands in November, PMI shows",
-            "source": "CNA",
-            "publishedAt": "2026-11-24T00:35:24Z",
-            "sentiment": "Neutral",
-            "compound": 0.103
-          },
-          {
-            "title": "Stock Market Today: Nvidia Stock Surges as Investors Cheer Jensen Huang's Return as CEO - WSJ",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-11-24T00:33:31Z",
-            "sentiment": "Positive",
-            "compound": 0.511
-          },
-          {
-            "title": "Jensen Huang net worth: Nvidia CEO adds $35 billion in a day after dramatic comeback; inside his $145 billion fortune",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-24T00:31:11Z",
-            "sentiment": "Positive",
-            "compound": 0.226
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 50.35,
-  "trade_probability": 50.21,
+  "confirmation_score": 50.37,
+  "trade_probability": 50.22,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
