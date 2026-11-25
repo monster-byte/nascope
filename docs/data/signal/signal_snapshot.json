@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T07:01:20.679156+00:00",
+  "generated_at": "2026-11-25T07:15:58.674807+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": true
         },
         "NVDA": {
-          "change_pct": -5.9238,
+          "change_pct": -5.9177,
           "up": false
         },
         "AMZN": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.73,
+      "score": 48.64,
       "status": "yellow",
       "details": {
-        "current_dxy": 104.03,
-        "change_5d_pct": 0.159
+        "current_dxy": 104.04,
+        "change_5d_pct": 0.169
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.13,
+      "score": 52.64,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.017,
+        "avg_compound": 0.053,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Stock market holiday today: Are BSE, NSE closed on November 24? What to expect when markets reopen?",
+            "source": "BusinessLine",
+            "publishedAt": "2026-11-24T07:13:17Z",
+            "sentiment": "Positive",
+            "compound": 0.47
+          },
+          {
+            "title": "Stock Market: Will S&P 500 Open Up or Down Today? - State Street SPDR S&P 500 ETF Trust (ARCA:SPY)",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-24T07:10:16Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
+          {
+            "title": "The Z-Scaler story: From JRD Tata’s ‘Go, good luck’ to the cybersecurity deal of the century",
+            "source": "BusinessLine",
+            "publishedAt": "2026-11-24T07:10:07Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
+          {
+            "title": "Huang return keeps China hawks at bay",
+            "source": "The Irish Times",
+            "publishedAt": "2026-11-24T07:02:41Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Why France is at risk of recession — and what could keep it out of one",
             "source": "CNBC",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-24T06:54:54Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "€9bn benefits package by 2030: Pay rises, tax cuts and pensioner support in multi-year fiscal plan",
-            "source": "Protothema.gr",
-            "publishedAt": "2026-11-24T06:50:35Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "Asian stocks rally as Huang's return to Nvidia revives AI trade",
-            "source": "The Irish Times",
-            "publishedAt": "2026-11-24T06:44:58Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "Why Trump wanted Jensen Huang back as Nvidia CEO",
-            "source": "Hurriyet Daily News",
-            "publishedAt": "2026-11-24T06:36:28Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Trump touts 'right' decision on Nvidia and brushes off concerns from Congress as company's shares soar following Jensen Huang's return as CEO: 'The public has spoken'",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-11-24T06:36:13Z",
-            "sentiment": "Positive",
-            "compound": 0.273
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 50.42,
-  "trade_probability": 50.25,
+  "confirmation_score": 50.73,
+  "trade_probability": 50.44,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
