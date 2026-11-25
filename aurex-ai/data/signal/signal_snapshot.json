@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T20:45:56.153420+00:00",
+  "generated_at": "2026-11-25T21:01:25.625463+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,7 +17,7 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.3835,
+          "change_pct": 0.5929,
           "up": true
         },
         "MSFT": {
@@ -25,11 +25,11 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -3.2241,
+          "change_pct": -2.2418,
           "up": false
         },
         "AMZN": {
-          "change_pct": -2.578,
+          "change_pct": -2.9724,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 25957.71,
-        "sma50": 29062.42,
-        "sma200": 28090.53
+        "last_price": 26046.9,
+        "sma50": 29064.2,
+        "sma200": 28090.98
       }
     },
     "vxn": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.42,
+      "score": 51.31,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.68,
-        "change_5d_pct": -0.178
+        "current_dxy": 103.69,
+        "change_5d_pct": -0.164
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 58.1,
+      "score": 56.27,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.162,
+        "avg_compound": 0.125,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Drops For Nvidia, Anthropic And Other AI Stocks Drag The U.S. Market Back Down",
+            "source": "HuffPost",
+            "publishedAt": "2026-11-24T20:58:00Z",
+            "sentiment": "Negative",
+            "compound": -0.226
+          },
+          {
+            "title": "Thanksgiving dinner prices hit an all-time high – and one staple is driving the surge",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-24T20:53:37Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Tech Giants Are Effectively Ungovernable. Here’s How to Change That.",
+            "source": "Foreign Policy",
+            "publishedAt": "2026-11-24T20:52:13Z",
+            "sentiment": "Positive",
+            "compound": 0.44
+          },
           {
             "title": "Halifax to look for cost saving options to bring forecasted property tax increase below CPI",
             "source": "CBC News",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-24T20:41:54Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Keep Growing Past 143 Million Customers?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-24T20:41:53Z",
-            "sentiment": "Positive",
-            "compound": 0.71
-          },
-          {
-            "title": "Anthropic falls below $83 IPO price in swift reversal after record listing",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-24T20:38:49Z",
-            "sentiment": "Positive",
-            "compound": 0.202
-          },
-          {
-            "title": "The Indispensable People",
-            "source": "Lawyersgunsmoneyblog.com",
-            "publishedAt": "2026-11-24T20:38:20Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 45.15,
-  "trade_probability": 47.09,
+  "confirmation_score": 44.98,
+  "trade_probability": 46.99,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
