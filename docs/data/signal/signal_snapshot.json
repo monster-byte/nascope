@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T03:31:14.815897+00:00",
+  "generated_at": "2026-11-25T03:45:57.289943+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 46.75,
+      "score": 46.61,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.91,
-        "change_5d_pct": 0.406
+        "current_dxy": 103.93,
+        "change_5d_pct": 0.424
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 57.41,
+      "score": 56.82,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.148,
+        "avg_compound": 0.136,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Stock market holiday today: Are BSE, NSE closed on November 24 for Guru Nanak Jayanti?",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-24T03:44:44Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "Victor Davis Hanson Discusses the ‘Mysterious’ Drop in Gas Prices Right After the Midterms (VIDEO)",
+            "source": "Thegatewaypundit.com",
+            "publishedAt": "2026-11-24T03:40:13Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "Gold ticks up on bargain buying; US inflation data awaited",
+            "source": "BusinessLine",
+            "publishedAt": "2026-11-24T03:37:22Z",
+            "sentiment": "Neutral",
+            "compound": 0.178
+          },
           {
             "title": "Tech firms soar as Huang's return reinvigorates AI trade",
             "source": "RTE",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-24T03:23:40Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Guru Nanak Jayanti: Banks to stay closed in these cities on November 24",
-            "source": "Business Standard",
-            "publishedAt": "2026-11-24T03:23:02Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Pop! Goes the Bubble",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-24T03:21:43Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Mamdani flags US economy's dependence on AI Stocks, cites $81 billion divorce settlement",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-24T03:18:18Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 50.99,
-  "trade_probability": 50.59,
+  "confirmation_score": 50.92,
+  "trade_probability": 50.55,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
