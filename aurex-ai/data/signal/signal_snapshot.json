@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T07:15:58.674807+00:00",
+  "generated_at": "2026-11-25T07:29:47.859037+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": true
         },
         "NVDA": {
-          "change_pct": -5.9177,
+          "change_pct": -5.9238,
           "up": false
         },
         "AMZN": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.64,
+      "score": 48.8,
       "status": "yellow",
       "details": {
-        "current_dxy": 104.04,
-        "change_5d_pct": 0.169
+        "current_dxy": 104.02,
+        "change_5d_pct": 0.15
       }
     },
     "macro": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.64,
+      "score": 51.99,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.053,
+        "avg_compound": 0.04,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "AI infrastructure spending set to jump 53% to $2.4 trn in 2027: Gartner",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-24T07:25:08Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Stock market holiday today: Are BSE, NSE closed on November 24? What to expect when markets reopen?",
             "source": "BusinessLine",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-24T06:55:36Z",
             "sentiment": "Negative",
             "compound": -0.599
-          },
-          {
-            "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-24T06:54:54Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 50.73,
-  "trade_probability": 50.44,
+  "confirmation_score": 50.68,
+  "trade_probability": 50.41,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
