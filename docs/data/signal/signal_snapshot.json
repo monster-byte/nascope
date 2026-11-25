@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T19:45:58.249091+00:00",
+  "generated_at": "2026-11-25T20:01:28.258308+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.4358,
+          "change_pct": 0.3934,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.6982,
+          "change_pct": -0.7549,
           "up": false
         },
         "NVDA": {
-          "change_pct": -2.9785,
+          "change_pct": -2.972,
           "up": false
         },
         "AMZN": {
-          "change_pct": -2.3436,
+          "change_pct": -2.3078,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 25977.09,
-        "sma50": 29062.81,
-        "sma200": 28090.63
+        "last_price": 26009.46,
+        "sma50": 29063.45,
+        "sma200": 28090.79
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 86.32,
+      "score": 85.06,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.836,
-        "change_5d_pct": -4.54
+        "current_yield_pct": 4.844,
+        "change_5d_pct": -4.382
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.79,
+      "score": 51.63,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.63,
-        "change_5d_pct": -0.224
+        "current_dxy": 103.65,
+        "change_5d_pct": -0.203
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.41,
+      "score": 53.06,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.032,
+        "avg_compound": 0.061,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "5 Best Affordable Growth Stocks to Buy for 2027",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-24T19:55:34Z",
+            "sentiment": "Positive",
+            "compound": 0.778
+          },
+          {
+            "title": "Anthropic Shares Fall Below IPO Price Days After Nasdaq Debut",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-24T19:55:00Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "Trump rages about midterms at Thanksgiving turkey pardon, sneers at birds' names... but saves kind words for Melania",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-11-24T19:53:48Z",
+            "sentiment": "Positive",
+            "compound": 0.637
+          },
+          {
+            "title": "Smart meters, switching suppliers and shift to renewables: new energy action plan launched",
+            "source": "The Irish Times",
+            "publishedAt": "2026-11-24T19:48:16Z",
+            "sentiment": "Positive",
+            "compound": 0.649
+          },
           {
             "title": "Bitcoin sell-off driven by weak demand, forced liquidations: 21Shares",
             "source": "Cointelegraph",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-24T19:43:53Z",
             "sentiment": "Negative",
             "compound": -0.477
-          },
-          {
-            "title": "Poetry, patriotism take centre stage at LU foundation day eve",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-24T19:43:41Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Birds & bees, nature trail and more in proposed bio park",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-24T19:43:30Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Mamdani: Rumored Huang Divorce Deal Could Fund Year of Universal Child Care",
-            "source": "Truthout",
-            "publishedAt": "2026-11-24T19:40:57Z",
-            "sentiment": "Positive",
-            "compound": 0.494
-          },
-          {
-            "title": "Who has the best market forecast? You do",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-24T19:37:49Z",
-            "sentiment": "Positive",
-            "compound": 0.637
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.57,
-  "trade_probability": 46.74,
+  "confirmation_score": 44.81,
+  "trade_probability": 46.89,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
