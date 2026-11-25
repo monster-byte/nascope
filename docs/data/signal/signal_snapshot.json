@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T19:31:15.392217+00:00",
+  "generated_at": "2026-11-25T19:45:58.249091+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.542,
+          "change_pct": 0.4358,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.3411,
+          "change_pct": -0.6982,
           "up": false
         },
         "NVDA": {
-          "change_pct": -3.0997,
+          "change_pct": -2.9785,
           "up": false
         },
         "AMZN": {
-          "change_pct": -2.2681,
+          "change_pct": -2.3436,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26030.19,
-        "sma50": 29063.87,
-        "sma200": 28090.9
+        "last_price": 25977.09,
+        "sma50": 29062.81,
+        "sma200": 28090.63
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 86.0,
+      "score": 86.32,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.838,
-        "change_5d_pct": -4.501
+        "current_yield_pct": 4.836,
+        "change_5d_pct": -4.54
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.92,
+      "score": 51.79,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.61,
-        "change_5d_pct": -0.24
+        "current_dxy": 103.63,
+        "change_5d_pct": -0.224
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.22,
+      "score": 48.41,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.036,
+        "avg_compound": -0.032,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "How much do I need to retire on $70,000 a year at 50?",
-            "source": "Motley Fool Australia",
-            "publishedAt": "2026-11-24T19:30:00Z",
+            "title": "Bitcoin sell-off driven by weak demand, forced liquidations: 21Shares",
+            "source": "Cointelegraph",
+            "publishedAt": "2026-11-24T19:44:23Z",
+            "sentiment": "Negative",
+            "compound": -0.751
+          },
+          {
+            "title": "Class 6 girl dragged into park, molested in Jankipuram",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-24T19:43:53Z",
+            "sentiment": "Negative",
+            "compound": -0.477
+          },
+          {
+            "title": "Poetry, patriotism take centre stage at LU foundation day eve",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-24T19:43:41Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Jensen Huang tells staff that Nvidia doesn't need a succession plan",
-            "source": "CNBC",
-            "publishedAt": "2026-11-24T19:26:20Z",
+            "title": "Birds & bees, nature trail and more in proposed bio park",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-24T19:43:30Z",
             "sentiment": "Neutral",
-            "compound": -0.151
+            "compound": 0.0
           },
           {
-            "title": "Gold is doing something strange. Here's one way to play it",
-            "source": "CNBC",
-            "publishedAt": "2026-11-24T19:25:13Z",
-            "sentiment": "Neutral",
-            "compound": 0.153
+            "title": "Mamdani: Rumored Huang Divorce Deal Could Fund Year of Universal Child Care",
+            "source": "Truthout",
+            "publishedAt": "2026-11-24T19:40:57Z",
+            "sentiment": "Positive",
+            "compound": 0.494
           },
           {
-            "title": "Rocket Lab Stock Drops 6%: What's Happening?",
+            "title": "Who has the best market forecast? You do",
             "source": "Biztoc.com",
-            "publishedAt": "2026-11-24T19:22:34Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "How SoftBank Group Chairman and CEO Masayoshi Son Paid for a $30 Billion OpenAI Deal",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-24T19:22:20Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Anthropic Drops Below IPO Price, Nvidia Sinks 7%: Stock Market Today",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-24T19:22:09Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "publishedAt": "2026-11-24T19:37:49Z",
+            "sentiment": "Positive",
+            "compound": 0.637
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.52,
-  "trade_probability": 46.71,
+  "confirmation_score": 44.57,
+  "trade_probability": 46.74,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
