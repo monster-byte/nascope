@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T20:15:53.893941+00:00",
+  "generated_at": "2026-11-25T20:31:13.502680+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.4147,
+          "change_pct": 0.1373,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.9552,
+          "change_pct": -0.9987,
           "up": false
         },
         "NVDA": {
-          "change_pct": -3.0702,
+          "change_pct": -3.3977,
           "up": false
         },
         "AMZN": {
-          "change_pct": -2.5819,
+          "change_pct": -2.7766,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 25975.52,
-        "sma50": 29062.78,
-        "sma200": 28090.62
+        "last_price": 25895.52,
+        "sma50": 29061.18,
+        "sma200": 28090.22
       }
     },
     "vxn": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.41,
+      "score": 51.43,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.68,
-        "change_5d_pct": -0.176
+        "current_dxy": 103.67,
+        "change_5d_pct": -0.179
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.21,
+      "score": 56.54,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.104,
+        "avg_compound": 0.131,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Widowed twice, she never gave up on love",
+            "source": "Israelnationalnews.com",
+            "publishedAt": "2026-11-24T20:25:22Z",
+            "sentiment": "Positive",
+            "compound": 0.273
+          },
+          {
+            "title": "Suze Orman warns retirees against one costly stock market mistake",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-24T20:23:23Z",
+            "sentiment": "Negative",
+            "compound": -0.494
+          },
+          {
+            "title": "Bengal to adopt 1999 central law to dodge urban land ceiling rules. Move already vetted by state’s legal team. Proposal to be soon placed in assembly, say sources",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-24T20:21:43Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
           {
             "title": "The Most Powerful Force on Earth",
             "source": "Awealthofcommonsense.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-24T20:02:20Z",
             "sentiment": "Negative",
             "compound": -0.402
-          },
-          {
-            "title": "Bahraich researcher wins energy award at US supercomputing meet",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-24T20:01:40Z",
-            "sentiment": "Positive",
-            "compound": 0.852
-          },
-          {
-            "title": "5 Best Affordable Growth Stocks to Buy for 2027",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-24T19:55:34Z",
-            "sentiment": "Positive",
-            "compound": 0.778
-          },
-          {
-            "title": "Anthropic Shares Fall Below IPO Price Days After Nasdaq Debut",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-24T19:55:00Z",
-            "sentiment": "Positive",
-            "compound": 0.296
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.89,
-  "trade_probability": 46.93,
+  "confirmation_score": 45.02,
+  "trade_probability": 47.01,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
