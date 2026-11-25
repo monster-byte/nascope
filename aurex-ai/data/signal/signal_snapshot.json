@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T13:15:57.874410+00:00",
+  "generated_at": "2026-11-25T13:31:13.534681+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": true
         },
         "NVDA": {
-          "change_pct": 2.321,
+          "change_pct": 2.3145,
           "up": true
         },
         "AMZN": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.91,
+      "score": 49.0,
       "status": "yellow",
       "details": {
-        "current_dxy": 104.0,
-        "change_5d_pct": 0.136
+        "current_dxy": 103.99,
+        "change_5d_pct": 0.125
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.83,
+      "score": 46.39,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.063,
+        "avg_compound": -0.072,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Philandering Nvidia CEO Jensen Huang disclosed even more affairs to board before his stunning return in wake of Chinese spy mistress scandal",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-11-24T13:23:25Z",
+            "sentiment": "Neutral",
+            "compound": -0.077
+          },
+          {
+            "title": "Bitcoin Loses $60,000 And Gold Offers No Protection During Its Worst Selloff Since 1982",
+            "source": "newsBTC",
+            "publishedAt": "2026-11-24T13:21:58Z",
+            "sentiment": "Negative",
+            "compound": -0.823
+          },
+          {
+            "title": "How much interest can a $40,000 CD account earn in 2027?",
+            "source": "CBS News",
+            "publishedAt": "2026-11-24T13:19:09Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
+          {
+            "title": "American credit card debt hits record $1.29 trillion before the holidays",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-24T13:17:55Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
           {
             "title": "When will the Red Sox pay someone $400M?",
             "source": "Over The Monster",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-24T13:15:15Z",
             "sentiment": "Negative",
             "compound": -0.511
-          },
-          {
-            "title": "At 65 He Locked In $3,000 a Month for Life. The Check Will Never Shrink. At 3% Inflation, by 85 It Buys What $1,661 Gets You Today",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-24T13:14:56Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Mizuho starts SpaceX coverage at Outperform with a $205 price target",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-24T13:13:10Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "If You Thought The Cybertruck Was Ugly, Get A Load Of This EV On Rails",
-            "source": "CleanTechnica",
-            "publishedAt": "2026-11-24T13:12:42Z",
-            "sentiment": "Negative",
-            "compound": -0.511
-          },
-          {
-            "title": "What the junk bond market can tell Bitcoin traders after Monday’s rebound",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-11-24T13:10:18Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 63.73,
-  "trade_probability": 58.24,
+  "confirmation_score": 63.7,
+  "trade_probability": 58.22,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
