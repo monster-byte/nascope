@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T08:31:09.002071+00:00",
+  "generated_at": "2026-11-25T08:46:01.718936+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": true
         },
         "NVDA": {
-          "change_pct": -5.9238,
+          "change_pct": -5.9177,
           "up": false
         },
         "AMZN": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.67,
+      "score": 48.47,
       "status": "yellow",
       "details": {
-        "current_dxy": 104.03,
-        "change_5d_pct": 0.167
+        "current_dxy": 104.06,
+        "change_5d_pct": 0.191
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.13,
+      "score": 54.41,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.063,
-        "articles_analyzed": 23,
+        "avg_compound": 0.088,
+        "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "ValuEngine Weekly Market Commentary: Bear Market For Nasdaq-100 Headlines Historic Weekly Meltdown",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-24T08:44:51Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Jimmy Kimmel Criticizes Trump’s ‘Fishy’ Support of Nvidia CEO Jensen Huang",
+            "source": "Rolling Stone",
+            "publishedAt": "2026-11-24T08:43:08Z",
+            "sentiment": "Neutral",
+            "compound": 0.077
+          },
           {
             "title": "The Stock Market Just Had Its Worst Week in 19 Months. A Sell-Off This Bad Usually Gets Worse, and Here's What Happened to $500,000 After the 8 Weeks That Were Worse",
             "source": "Biztoc.com",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-24T08:16:00Z",
             "sentiment": "Negative",
             "compound": -0.599
-          },
-          {
-            "title": "Investors get richer by ₹34.61 lakh crore this month as Sensex posts 11% rally",
-            "source": "BusinessLine",
-            "publishedAt": "2026-11-24T08:11:03Z",
-            "sentiment": "Positive",
-            "compound": 0.527
-          },
-          {
-            "title": "Hyundai Motor to raise prices of select models by up to ₹8,000 from Dec 1",
-            "source": "Business Standard",
-            "publishedAt": "2026-11-24T08:07:05Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 50.77,
-  "trade_probability": 50.46,
+  "confirmation_score": 50.87,
+  "trade_probability": 50.52,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
