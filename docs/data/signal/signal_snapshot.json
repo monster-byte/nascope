@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T20:01:28.258308+00:00",
+  "generated_at": "2026-11-25T20:15:53.893941+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.3934,
+          "change_pct": 0.4147,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.7549,
+          "change_pct": -0.9552,
           "up": false
         },
         "NVDA": {
-          "change_pct": -2.972,
+          "change_pct": -3.0702,
           "up": false
         },
         "AMZN": {
-          "change_pct": -2.3078,
+          "change_pct": -2.5819,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26009.46,
-        "sma50": 29063.45,
-        "sma200": 28090.79
+        "last_price": 25975.52,
+        "sma50": 29062.78,
+        "sma200": 28090.62
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 85.06,
+      "score": 84.43,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.844,
-        "change_5d_pct": -4.382
+        "current_yield_pct": 4.848,
+        "change_5d_pct": -4.303
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.63,
+      "score": 51.41,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.65,
-        "change_5d_pct": -0.203
+        "current_dxy": 103.68,
+        "change_5d_pct": -0.176
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.06,
+      "score": 55.21,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.061,
+        "avg_compound": 0.104,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "The Most Powerful Force on Earth",
+            "source": "Awealthofcommonsense.com",
+            "publishedAt": "2026-11-24T20:10:40Z",
+            "sentiment": "Positive",
+            "compound": 0.475
+          },
+          {
+            "title": "Wells Fargo Tells Customers They Are Responsible for AI Agents",
+            "source": "pymnts.com",
+            "publishedAt": "2026-11-24T20:04:45Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
+          {
+            "title": "Live: Wall Street retreats again as AI stocks dumped, ASX set to fall",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-11-24T20:02:20Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
+          {
+            "title": "Bahraich researcher wins energy award at US supercomputing meet",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-24T20:01:40Z",
+            "sentiment": "Positive",
+            "compound": 0.852
+          },
           {
             "title": "5 Best Affordable Growth Stocks to Buy for 2027",
             "source": "Biztoc.com",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-24T19:55:00Z",
             "sentiment": "Positive",
             "compound": 0.296
-          },
-          {
-            "title": "Trump rages about midterms at Thanksgiving turkey pardon, sneers at birds' names... but saves kind words for Melania",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-11-24T19:53:48Z",
-            "sentiment": "Positive",
-            "compound": 0.637
-          },
-          {
-            "title": "Smart meters, switching suppliers and shift to renewables: new energy action plan launched",
-            "source": "The Irish Times",
-            "publishedAt": "2026-11-24T19:48:16Z",
-            "sentiment": "Positive",
-            "compound": 0.649
-          },
-          {
-            "title": "Bitcoin sell-off driven by weak demand, forced liquidations: 21Shares",
-            "source": "Cointelegraph",
-            "publishedAt": "2026-11-24T19:44:23Z",
-            "sentiment": "Negative",
-            "compound": -0.751
-          },
-          {
-            "title": "Class 6 girl dragged into park, molested in Jankipuram",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-24T19:43:53Z",
-            "sentiment": "Negative",
-            "compound": -0.477
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.81,
-  "trade_probability": 46.89,
+  "confirmation_score": 44.89,
+  "trade_probability": 46.93,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
