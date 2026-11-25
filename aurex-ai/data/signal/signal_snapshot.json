@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T06:45:54.036562+00:00",
+  "generated_at": "2026-11-25T07:01:20.679156+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.5,
+      "score": 48.73,
       "status": "yellow",
       "details": {
-        "current_dxy": 104.06,
-        "change_5d_pct": 0.188
+        "current_dxy": 104.03,
+        "change_5d_pct": 0.159
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.87,
+      "score": 49.13,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.023,
-        "articles_analyzed": 24,
+        "avg_compound": -0.017,
+        "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Why France is at risk of recession — and what could keep it out of one",
+            "source": "CNBC",
+            "publishedAt": "2026-11-24T06:55:36Z",
+            "sentiment": "Negative",
+            "compound": -0.599
+          },
+          {
+            "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-24T06:54:54Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "€9bn benefits package by 2030: Pay rises, tax cuts and pensioner support in multi-year fiscal plan",
+            "source": "Protothema.gr",
+            "publishedAt": "2026-11-24T06:50:35Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
           {
             "title": "Asian stocks rally as Huang's return to Nvidia revives AI trade",
             "source": "The Irish Times",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-24T06:36:13Z",
             "sentiment": "Positive",
             "compound": 0.273
-          },
-          {
-            "title": "Gold edges higher after steep weekly losses",
-            "source": "Hurriyet Daily News",
-            "publishedAt": "2026-11-24T06:34:56Z",
-            "sentiment": "Negative",
-            "compound": -0.402
-          },
-          {
-            "title": "Gold holds gain after Nvidia’s rehiring of Huang sparks rally",
-            "source": "Bloomberg",
-            "publishedAt": "2026-11-24T06:32:38Z",
-            "sentiment": "Positive",
-            "compound": 0.527
-          },
-          {
-            "title": "Global banking sector retains stable outlook for 2027, but risks to credit quality persist: Moody's",
-            "source": "Economictimes.com",
-            "publishedAt": "2026-11-24T06:31:49Z",
-            "sentiment": "Positive",
-            "compound": 0.329
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 50.38,
-  "trade_probability": 50.23,
+  "confirmation_score": 50.42,
+  "trade_probability": 50.25,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
