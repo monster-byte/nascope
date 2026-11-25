@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T18:01:26.310811+00:00",
+  "generated_at": "2026-11-25T18:08:46.630862+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": 0.0156,
+          "change_pct": 0.0566,
           "up": true
         },
         "MSFT": {
-          "change_pct": -1.2263,
+          "change_pct": -1.4823,
           "up": false
         },
         "NVDA": {
-          "change_pct": -4.5896,
+          "change_pct": -4.4357,
           "up": false
         },
         "AMZN": {
-          "change_pct": -2.9911,
+          "change_pct": -3.1202,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 25666.22,
-        "sma50": 29056.59,
-        "sma200": 28089.08
+        "last_price": 25663.33,
+        "sma50": 29056.53,
+        "sma200": 28089.06
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 86.32,
+      "score": 86.64,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.836,
-        "change_5d_pct": -4.54
+        "current_yield_pct": 4.834,
+        "change_5d_pct": -4.58
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.86,
+      "score": 51.71,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.62,
-        "change_5d_pct": -0.233
+        "current_dxy": 103.64,
+        "change_5d_pct": -0.214
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 57.72,
+      "score": 56.6,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.154,
+        "avg_compound": 0.132,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Op-Ed: Trump Sees Himself, Huang as Indispensable",
+            "source": "Newser",
+            "publishedAt": "2026-11-24T18:06:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Pistons Rebounding Plummets Without Jalen Duren",
+            "source": "Sportswiremiami.com",
+            "publishedAt": "2026-11-24T18:06:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Has Trump's America now reached a post-government era, ruled by tech oligarchs?",
+            "source": "TheJournal.ie",
+            "publishedAt": "2026-11-24T18:01:56Z",
+            "sentiment": "Neutral",
+            "compound": 0.103
+          },
           {
             "title": "Halvad LIC agent loses ₹25L to fake platform investment scam",
             "source": "The Times of India",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-24T18:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Anthropic’s $83 IPO price looked bold. Then the stock slipped below it",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-24T17:59:38Z",
-            "sentiment": "Positive",
-            "compound": 0.382
-          },
-          {
-            "title": "Trump Account contributions from friends and family pass $1 billion mark, Treasury says",
-            "source": "CNBC",
-            "publishedAt": "2026-11-24T17:59:12Z",
-            "sentiment": "Positive",
-            "compound": 0.599
-          },
-          {
-            "title": "Protein inflation spikes due to rising feed and fodder costs, shows data",
-            "source": "Business Standard",
-            "publishedAt": "2026-11-24T17:58:27Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 45.42,
-  "trade_probability": 47.25,
+  "confirmation_score": 45.34,
+  "trade_probability": 47.2,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
