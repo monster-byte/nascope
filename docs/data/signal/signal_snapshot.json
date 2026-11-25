@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T16:31:15.819005+00:00",
+  "generated_at": "2026-11-25T16:45:58.078009+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "red",
       "details": {
         "AAPL": {
-          "change_pct": -1.5254,
+          "change_pct": -1.4207,
           "up": false
         },
         "MSFT": {
-          "change_pct": -2.7489,
+          "change_pct": -2.7176,
           "up": false
         },
         "NVDA": {
-          "change_pct": -7.075,
+          "change_pct": -7.1012,
           "up": false
         },
         "AMZN": {
-          "change_pct": -5.3946,
+          "change_pct": -5.2714,
           "up": false
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 25101.21,
-        "sma50": 29045.29,
-        "sma200": 28086.25
+        "last_price": 25095.9,
+        "sma50": 29045.18,
+        "sma200": 28086.22
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 90.9,
+      "score": 89.48,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.807,
-        "change_5d_pct": -5.113
+        "current_yield_pct": 4.816,
+        "change_5d_pct": -4.935
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.41,
+      "score": 50.05,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.94,
-        "change_5d_pct": 0.074
+        "current_dxy": 103.85,
+        "change_5d_pct": -0.006
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.96,
+      "score": 54.35,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.019,
+        "avg_compound": 0.087,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Long Live the Chip King",
+            "source": "The New Yorker",
+            "publishedAt": "2026-11-24T16:45:06Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Are the World’s Top Literary Scholars Being Targeted by a Chinese Spy Op?",
+            "source": "Vanity Fair",
+            "publishedAt": "2026-11-24T16:41:21Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
+          {
+            "title": "Cerebras CEO says more than 1,000 employees became millionaires after IPO",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-24T16:41:19Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "The India growth story to remain intact amid challenges",
+            "source": "BusinessLine",
+            "publishedAt": "2026-11-24T16:35:15Z",
+            "sentiment": "Positive",
+            "compound": 0.572
+          },
           {
             "title": "Dollar Tree predicts holiday shoppers will ‘buy closer to need’",
             "source": "Retail Dive",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-24T16:19:54Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Abercrombie & Fitch Posts Strong Q3 Results, Joins Insmed, Kohls And Other Big Stocks Moving Higher On…",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-24T16:18:55Z",
-            "sentiment": "Positive",
-            "compound": 0.511
-          },
-          {
-            "title": "Why Is SMCI Stock Falling on Tuesday?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-24T16:18:39Z",
-            "sentiment": "Neutral",
-            "compound": -0.153
-          },
-          {
-            "title": "Smartphone shipments set for record 12pc drop in 2026: Omdia",
-            "source": "Sylhetmirror.com",
-            "publishedAt": "2026-11-24T16:17:10Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "CEO of $21 billion Cerebras says it’s minted 1,000 employees into millionaires—but warns that drastic changes in fortunes can be ‘really stressful’",
-            "source": "Fortune",
-            "publishedAt": "2026-11-24T16:15:25Z",
-            "sentiment": "Neutral",
-            "compound": -0.103
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 38.45,
-  "trade_probability": 43.07,
+  "confirmation_score": 38.63,
+  "trade_probability": 43.18,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
