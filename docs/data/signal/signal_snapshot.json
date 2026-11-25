@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T08:15:53.035632+00:00",
+  "generated_at": "2026-11-25T08:31:09.002071+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.51,
+      "score": 48.67,
       "status": "yellow",
       "details": {
-        "current_dxy": 104.05,
-        "change_5d_pct": 0.187
+        "current_dxy": 104.03,
+        "change_5d_pct": 0.167
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 58.92,
+      "score": 53.13,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.178,
+        "avg_compound": 0.063,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "The Stock Market Just Had Its Worst Week in 19 Months. A Sell-Off This Bad Usually Gets Worse, and Here's What Happened to $500,000 After the 8 Weeks That Were Worse",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-24T08:25:47Z",
+            "sentiment": "Negative",
+            "compound": -0.937
+          },
+          {
+            "title": "Elon Musk's $3.5 Trillion SpaceX-Tesla Merger Gets a Five-Director Team — But They Face a Tough Test: Report…",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-24T08:25:36Z",
+            "sentiment": "Neutral",
+            "compound": -0.19
+          },
+          {
+            "title": "Sofia has gone silent (over schools) as parliamentary questions rain down, Samaras, Velopoulos and Kasidiaris (an awkward trio), the K-K goldmine",
+            "source": "Protothema.gr",
+            "publishedAt": "2026-11-24T08:19:11Z",
+            "sentiment": "Neutral",
+            "compound": -0.153
+          },
+          {
+            "title": "War Reveals a Global Food System Dependent on Fossil Fuels",
+            "source": "Yale.edu",
+            "publishedAt": "2026-11-24T08:16:00Z",
+            "sentiment": "Negative",
+            "compound": -0.599
+          },
           {
             "title": "Investors get richer by ₹34.61 lakh crore this month as Sensex posts 11% rally",
             "source": "BusinessLine",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-24T08:07:05Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Compass Group Plans to Move Primary Listing to U.S",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-24T08:02:27Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "On a $1,000 Social Security check, Medicare’s 2027 premium hike eats 18% of the COLA raise—and hits small checks the hardest",
-            "source": "Fortune",
-            "publishedAt": "2026-11-24T08:02:00Z",
-            "sentiment": "Positive",
-            "compound": 0.34
-          },
-          {
-            "title": "BOJ to keep hiking rates but soft spending muddies path, ex-central bank policymaker says",
-            "source": "CNA",
-            "publishedAt": "2026-11-24T08:01:09Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Rupiah gains on hopes MSCI keeps Indonesia's market status: Analyst",
-            "source": "Antaranews.com",
-            "publishedAt": "2026-11-24T08:00:29Z",
-            "sentiment": "Positive",
-            "compound": 0.637
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 51.28,
-  "trade_probability": 50.77,
+  "confirmation_score": 50.77,
+  "trade_probability": 50.46,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
