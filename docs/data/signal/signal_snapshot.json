@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T08:46:01.718936+00:00",
+  "generated_at": "2026-11-25T09:01:23.584919+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 50.0,
-      "status": "yellow",
+      "score": 100.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 1.5075,
+          "change_pct": 0.1012,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.1153,
+          "change_pct": 0.2727,
           "up": true
         },
         "NVDA": {
-          "change_pct": -5.9177,
-          "up": false
+          "change_pct": 2.321,
+          "up": true
         },
         "AMZN": {
-          "change_pct": -1.1435,
-          "up": false
+          "change_pct": 0.338,
+          "up": true
         }
       }
     },
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.47,
+      "score": 48.96,
       "status": "yellow",
       "details": {
-        "current_dxy": 104.06,
-        "change_5d_pct": 0.191
+        "current_dxy": 104.0,
+        "change_5d_pct": 0.13
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.41,
+      "score": 52.31,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.088,
-        "articles_analyzed": 24,
+        "avg_compound": 0.046,
+        "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "ValuEngine Weekly Market Commentary: Bear Market For Nasdaq-100 Headlines Historic Weekly Meltdown",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-24T08:44:51Z",
+            "title": "Trump says Jensen Huang 'did nothing wrong.' The investigations aren't over",
+            "source": "CBC News",
+            "publishedAt": "2026-11-24T09:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.372
+          },
+          {
+            "title": "Montreal mayor to table her administration's 2nd budget today",
+            "source": "CBC News",
+            "publishedAt": "2026-11-24T09:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Jimmy Kimmel Criticizes Trump’s ‘Fishy’ Support of Nvidia CEO Jensen Huang",
-            "source": "Rolling Stone",
-            "publishedAt": "2026-11-24T08:43:08Z",
+            "title": "How a Bengaluru couple explored Egypt in 8 days for ₹3.2 lakh",
+            "source": "Livemint",
+            "publishedAt": "2026-11-24T08:58:58Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "MPF members hitting ‘panic switch’ to ditch US stocks amid volatility: Manulife",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-24T08:56:25Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Trump shrugs off GOP concerns that Jensen Huang is a national security risk, hails his return as Nvidia CEO: ‘The public has spoken’",
+            "source": "New York Post",
+            "publishedAt": "2026-11-24T08:52:18Z",
             "sentiment": "Neutral",
             "compound": 0.077
           },
           {
-            "title": "The Stock Market Just Had Its Worst Week in 19 Months. A Sell-Off This Bad Usually Gets Worse, and Here's What Happened to $500,000 After the 8 Weeks That Were Worse",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-24T08:25:47Z",
-            "sentiment": "Negative",
-            "compound": -0.937
-          },
-          {
-            "title": "Elon Musk's $3.5 Trillion SpaceX-Tesla Merger Gets a Five-Director Team — But They Face a Tough Test: Report…",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-24T08:25:36Z",
-            "sentiment": "Neutral",
-            "compound": -0.19
-          },
-          {
-            "title": "Sofia has gone silent (over schools) as parliamentary questions rain down, Samaras, Velopoulos and Kasidiaris (an awkward trio), the K-K goldmine",
-            "source": "Protothema.gr",
-            "publishedAt": "2026-11-24T08:19:11Z",
-            "sentiment": "Neutral",
-            "compound": -0.153
-          },
-          {
-            "title": "War Reveals a Global Food System Dependent on Fossil Fuels",
-            "source": "Yale.edu",
-            "publishedAt": "2026-11-24T08:16:00Z",
-            "sentiment": "Negative",
-            "compound": -0.599
+            "title": "US stocks surge after surprise return of Jensen Huang as Nvidia’s chief executive",
+            "source": "TheJournal.ie",
+            "publishedAt": "2026-11-24T08:52:09Z",
+            "sentiment": "Positive",
+            "compound": 0.273
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 50.87,
-  "trade_probability": 50.52,
+  "confirmation_score": 64.23,
+  "trade_probability": 58.54,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
