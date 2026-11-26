@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T06:45:53.169465+00:00",
+  "generated_at": "2026-11-26T07:01:26.683306+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -2.2418,
+          "change_pct": -2.2287,
           "up": false
         },
         "AMZN": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.69,
+      "score": 50.75,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.81,
-        "change_5d_pct": -0.087
+        "current_dxy": 103.8,
+        "change_5d_pct": -0.093
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.02,
+      "score": 48.96,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.04,
-        "articles_analyzed": 23,
+        "avg_compound": -0.021,
+        "articles_analyzed": 22,
         "top_headlines": [
+          {
+            "title": "Door not closed on capital gains carve-out for businesses as inquiry confirmed",
+            "source": "ABC News (AU)",
+            "publishedAt": "2026-11-25T06:52:03Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
+          {
+            "title": "Gone with the Russian visas",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-25T06:47:47Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "‘Row’ between retailers and property owners over the 3% cap on commercial rent hikes, who risks paying more",
             "source": "Protothema.gr",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-25T06:29:46Z",
             "sentiment": "Negative",
             "compound": -0.649
-          },
-          {
-            "title": "Monero Crypto Upgrade Clears 32 of 42 Fork Items as Its Audit Hits Phase 2",
-            "source": "Dcforecasts.com",
-            "publishedAt": "2026-11-25T06:27:50Z",
-            "sentiment": "Neutral",
-            "compound": 0.077
-          },
-          {
-            "title": "Memory surge weighs on Japan's mobile market outlook through 2027",
-            "source": "Digitimes",
-            "publishedAt": "2026-11-25T06:20:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.63,
-  "trade_probability": 46.78,
+  "confirmation_score": 44.72,
+  "trade_probability": 46.83,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
