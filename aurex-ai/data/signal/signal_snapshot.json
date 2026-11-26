@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T05:01:30.489168+00:00",
+  "generated_at": "2026-11-26T05:15:57.193303+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -2.2418,
+          "change_pct": -2.2287,
           "up": false
         },
         "AMZN": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.5,
+      "score": 50.63,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.79,
-        "change_5d_pct": -0.063
+        "current_dxy": 103.82,
+        "change_5d_pct": -0.079
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.72,
+      "score": 50.31,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.006,
+        "avg_compound": 0.006,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Railway stock: Jupiter Wagons climbs 12% after 8-day fall on JV with Woojin",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-25T05:07:17Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Huang's Return To Nvidia Brings Open-Weight AI Debate To Forefront In Washington",
+            "source": "HuffPost",
+            "publishedAt": "2026-11-25T05:03:59Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Why Nvidia is the quintessential Trump scandal",
             "source": "CNN",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-25T05:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Gold rates today Andhra Pradesh 25 November: Check price of 24K, 22K, 18K gold as yellow metal rates decline",
-            "source": "Livemint",
-            "publishedAt": "2026-11-25T04:56:54Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Asian stocks tumble as AI rebound stumbles, US tariff threats loom",
-            "source": "Business Standard",
-            "publishedAt": "2026-11-25T04:54:58Z",
-            "sentiment": "Negative",
-            "compound": -0.572
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.77,
-  "trade_probability": 46.86,
+  "confirmation_score": 44.83,
+  "trade_probability": 46.9,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
