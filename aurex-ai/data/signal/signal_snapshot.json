@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T08:15:59.745180+00:00",
+  "generated_at": "2026-11-26T08:31:19.149982+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -2.2287,
+          "change_pct": -2.2418,
           "up": false
         },
         "AMZN": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.6,
+      "score": 51.03,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.69,
-        "change_5d_pct": -0.2
+        "current_dxy": 103.77,
+        "change_5d_pct": -0.129
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 48.53,
+      "score": 53.92,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.029,
+        "avg_compound": 0.078,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Europe has spent $15.9 billion trying to win the quantum race. Is it enough?",
+            "source": "Fortune",
+            "publishedAt": "2026-11-25T08:29:01Z",
+            "sentiment": "Positive",
+            "compound": 0.586
+          },
+          {
+            "title": "Countries that thrive on global cooperation must help sustain it",
+            "source": "Al Jazeera English",
+            "publishedAt": "2026-11-25T08:23:01Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "Fitch sets neutral global sovereign outlook for 2027",
+            "source": "Hurriyet Daily News",
+            "publishedAt": "2026-11-25T08:18:20Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Asian stocks mostly decline as AI shares tumble after a retreat on Wall Street",
+            "source": "Abcnews.com",
+            "publishedAt": "2026-11-25T08:17:40Z",
+            "sentiment": "Positive",
+            "compound": 0.459
+          },
           {
             "title": "Central Bank of Nigeria loses grip on naira as exchange rate fluctuates",
             "source": "Thechronicle.com.gh",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-25T08:15:27Z",
             "sentiment": "Negative",
             "compound": -0.226
-          },
-          {
-            "title": "Fears for Aussie mortgage holders with a sixth interest rate hike back on the table as inflation nears 5 per cent",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-11-25T08:14:45Z",
-            "sentiment": "Neutral",
-            "compound": 0.052
-          },
-          {
-            "title": "Walmart-owned Flipkart CEO Kalyan Krishnamurthy to step down",
-            "source": "CNA",
-            "publishedAt": "2026-11-25T08:12:31Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "OKX’s 24/7 stock trading launch saw just 7% of first-day volume come from customers",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-11-25T08:10:42Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Nikkei Plunges 1,633 Points on Wednesday as AI Stocks Tumble",
-            "source": "Newsonjapan.com",
-            "publishedAt": "2026-11-25T08:09:50Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.76,
-  "trade_probability": 46.86,
+  "confirmation_score": 45.19,
+  "trade_probability": 47.11,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
