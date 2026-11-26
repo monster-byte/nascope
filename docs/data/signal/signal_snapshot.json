@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T21:01:27.655184+00:00",
+  "generated_at": "2026-11-26T21:15:54.007858+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -2.2287,
+          "change_pct": -2.2418,
           "up": false
         },
         "AMZN": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.98,
+      "score": 50.94,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.77,
-        "change_5d_pct": -0.122
+        "current_dxy": 103.78,
+        "change_5d_pct": -0.117
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 46.43,
+      "score": 43.39,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.071,
+        "avg_compound": -0.132,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "AI infrastructure stocks continue their slide, but Anthropic closes higher",
+            "source": "SiliconANGLE News",
+            "publishedAt": "2026-11-25T21:15:32Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Final Avengers: Doomsday trailer racks up over 500 million views in 1st day",
+            "source": "CBC News",
+            "publishedAt": "2026-11-25T21:14:39Z",
+            "sentiment": "Negative",
+            "compound": -0.586
+          },
+          {
+            "title": "US closes this week's last session mostly lower",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-25T21:13:18Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
           {
             "title": "NYC postpones Thanksgiving parade to Saturday as wind gusts threaten disaster",
             "source": "Gothamist",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-25T20:55:15Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Macy's Thanksgiving Day Parade postponed until Saturday due to storm, sources say",
-            "source": "CBS News",
-            "publishedAt": "2026-11-25T20:55:07Z",
-            "sentiment": "Negative",
-            "compound": -0.202
-          },
-          {
-            "title": "Stock market bottom: 2026 or 2027? Year-end rally or another leg lower? Nvidia or Applied Materials?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-25T20:55:03Z",
-            "sentiment": "Negative",
-            "compound": -0.41
-          },
-          {
-            "title": "Market sell-off eases up, but AI doubts, tariffs and inflation still weigh down stocks - NBC News",
-            "source": "Slashdot.org",
-            "publishedAt": "2026-11-25T20:52:28Z",
-            "sentiment": "Negative",
-            "compound": -0.285
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.51,
-  "trade_probability": 46.71,
+  "confirmation_score": 44.24,
+  "trade_probability": 46.54,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
