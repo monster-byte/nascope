@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T01:15:58.239536+00:00",
+  "generated_at": "2026-11-26T01:31:10.625366+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -2.2287,
+          "change_pct": -2.2418,
           "up": false
         },
         "AMZN": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.25,
+      "score": 50.94,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.7,
-        "change_5d_pct": -0.156
+        "current_dxy": 103.74,
+        "change_5d_pct": -0.117
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.27,
+      "score": 48.97,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.015,
-        "articles_analyzed": 24,
+        "avg_compound": -0.021,
+        "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Nasdaq falls as Nvidia, Anthropic get hammered",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-25T01:28:40Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Delhi woman gang-raped by colleagues at Preet Vihar cafe after late-night party; 3 held",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-25T01:24:56Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "Dollar takes breather ahead of US data on Fed path; Aussie jumps on CPI",
+            "source": "CNA",
+            "publishedAt": "2026-11-25T01:19:16Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Another Wall Street analyst revamps stock market outlook as volatility surges",
             "source": "Biztoc.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-25T01:09:11Z",
             "sentiment": "Negative",
             "compound": -0.273
-          },
-          {
-            "title": "Sensex today | Stock Market Live: Stock to buy today: Chalet Hotels (₹868.75) – BUY",
-            "source": "BusinessLine",
-            "publishedAt": "2026-11-25T01:04:26Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "US ready to slap tariffs on China, EU and others over subsidized production, AP sources say",
-            "source": "WDIV ClickOnDetroit",
-            "publishedAt": "2026-11-25T01:03:36Z",
-            "sentiment": "Positive",
-            "compound": 0.477
-          },
-          {
-            "title": "Trump's Nvidia intervention ties his political fortunes to the AI boom",
-            "source": "BBC News",
-            "publishedAt": "2026-11-25T01:03:05Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.34,
-  "trade_probability": 46.6,
+  "confirmation_score": 44.29,
+  "trade_probability": 46.57,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
