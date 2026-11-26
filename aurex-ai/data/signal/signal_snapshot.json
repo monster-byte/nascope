@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T10:01:25.048072+00:00",
+  "generated_at": "2026-11-26T10:16:02.492077+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -2.2287,
+          "change_pct": -2.2418,
           "up": false
         },
         "AMZN": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.26,
+      "score": 51.1,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.74,
-        "change_5d_pct": -0.158
+        "current_dxy": 103.76,
+        "change_5d_pct": -0.138
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.76,
+      "score": 53.26,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.015,
+        "avg_compound": 0.065,
         "articles_analyzed": 23,
         "top_headlines": [
+          {
+            "title": "Solana’s Tokenized Stock Market Surpasses $600M as Equities Gain Traction as DeFi Collateral",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-25T10:05:54Z",
+            "sentiment": "Positive",
+            "compound": 0.527
+          },
+          {
+            "title": "European shares rise on consumer boost; markets await US tariffs, inflation",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-25T10:05:48Z",
+            "sentiment": "Positive",
+            "compound": 0.649
+          },
+          {
+            "title": "Stock Market Today: Tech-Led Slide Continues as Confidence in AI Trade Weakens",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-25T10:05:10Z",
+            "sentiment": "Positive",
+            "compound": 0.25
+          },
           {
             "title": "Iran rations electricity: How deeply are US sanctions, blockade biting?",
             "source": "Al Jazeera English",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-25T09:52:22Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Trump’s Pro-Hunger Hag is Back to Advertise Another $3 Meal for Struggling Americans for Thanksgiving",
-            "source": "Jezebel",
-            "publishedAt": "2026-11-25T09:45:36Z",
-            "sentiment": "Negative",
-            "compound": -0.421
-          },
-          {
-            "title": "Nifty FMCG index soars 3%; Dabur, Godrej Consumer, HUL rally up to 8%",
-            "source": "Business Standard",
-            "publishedAt": "2026-11-25T09:45:04Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "Indian markets defy global meltdown",
-            "source": "Forbesindia.com",
-            "publishedAt": "2026-11-25T09:41:10Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.93,
-  "trade_probability": 46.96,
+  "confirmation_score": 45.14,
+  "trade_probability": 47.08,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
