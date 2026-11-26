@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T07:31:13.495446+00:00",
+  "generated_at": "2026-11-26T07:45:52.945674+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -2.2418,
+          "change_pct": -2.2287,
           "up": false
         },
         "AMZN": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.13,
+      "score": 51.45,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.75,
-        "change_5d_pct": -0.141
+        "current_dxy": 103.71,
+        "change_5d_pct": -0.181
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.79,
+      "score": 53.51,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.036,
+        "avg_compound": 0.07,
         "articles_analyzed": 22,
         "top_headlines": [
+          {
+            "title": "Treasury yields fall as investors await key inflation signal",
+            "source": "CNBC",
+            "publishedAt": "2026-11-25T07:44:24Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
+          {
+            "title": "PL Capital raises Nifty target to 28,561, sees potential for double-digit returns",
+            "source": "BusinessLine",
+            "publishedAt": "2026-11-25T07:41:29Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
+          {
+            "title": "Strong economic growth, policies to sustain NBFC credit demand: Fitch",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-25T07:36:16Z",
+            "sentiment": "Positive",
+            "compound": 0.791
+          },
+          {
+            "title": "Europe set to open mostly higher ahead of Trump, Rutte talks",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-25T07:33:22Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Bangladesh raises minimum wage for garment workers after weeks of protests",
+            "source": "WDIV ClickOnDetroit",
+            "publishedAt": "2026-11-25T07:32:28Z",
+            "sentiment": "Negative",
+            "compound": -0.226
+          },
           {
             "title": "Last-minute appeal for SNP to drop controversial price cap plans as consultation closes",
             "source": "Dailymail.com",
             "publishedAt": "2026-11-25T07:21:41Z",
             "sentiment": "Negative",
             "compound": -0.44
-          },
-          {
-            "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-25T07:19:02Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Sharp November run-up dims mkt's risk-reward ratio; volatility likely: KIE",
-            "source": "Business Standard",
-            "publishedAt": "2026-11-25T07:16:02Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Bangladesh raises garment workers' minimum wage by 36% after violent protests",
-            "source": "BusinessLine",
-            "publishedAt": "2026-11-25T07:15:10Z",
-            "sentiment": "Negative",
-            "compound": -0.7
-          },
-          {
-            "title": "Pro Medicus Shares Rise 3.6% After FDA Clears Visage 7 AI Mammography Tool as FY27 Runs Ahead of Budget",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-11-25T07:06:41Z",
-            "sentiment": "Positive",
-            "compound": 0.361
-          },
-          {
-            "title": "Genesis Energy Shares Rise 3.6% on ASX as New Zealand Power Company Gains in Thin Trade Despite Weak Market",
-            "source": "Ibtimes.com.au",
-            "publishedAt": "2026-11-25T07:06:04Z",
-            "sentiment": "Positive",
-            "compound": 0.797
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 45.01,
-  "trade_probability": 47.01,
+  "confirmation_score": 45.19,
+  "trade_probability": 47.11,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
