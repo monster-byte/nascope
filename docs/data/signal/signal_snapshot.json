@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T03:15:55.490553+00:00",
+  "generated_at": "2026-11-26T03:31:13.107457+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.55,
+      "score": 50.45,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.79,
-        "change_5d_pct": -0.069
+        "current_dxy": 103.8,
+        "change_5d_pct": -0.057
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.78,
+      "score": 50.53,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.044,
+        "avg_compound": 0.011,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Market trades in green: BSE Sensex jumps over 1500 points; Nifty50 tops 25,700",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-25T03:30:12Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
+          {
+            "title": "Australian inflation heats up, core hits two-year high",
+            "source": "The Straits Times",
+            "publishedAt": "2026-11-25T03:20:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Wall Street jitters: Nasdaq retreats after Nvidia-fuelled rally; Anthropic slips below IPO price",
+            "source": "The Times of India",
+            "publishedAt": "2026-11-25T03:18:02Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "EU budget set to shrink amid inflation surge",
             "source": "Biztoc.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-25T03:00:00Z",
             "sentiment": "Negative",
             "compound": -0.382
-          },
-          {
-            "title": "Tesla & SpaceX Merger Nears With Big Moves From The Boards",
-            "source": "CleanTechnica",
-            "publishedAt": "2026-11-25T02:57:42Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Inflation jumps to 4.9% as fuel prices surge, but the RBA should hold rates steady",
-            "source": "The Conversation Africa",
-            "publishedAt": "2026-11-25T02:46:02Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Rupee to resume rally on positive flow backdrop, turn in market sentiment",
-            "source": "BusinessLine",
-            "publishedAt": "2026-11-25T02:45:30Z",
-            "sentiment": "Positive",
-            "compound": 0.557
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.6,
-  "trade_probability": 46.76,
+  "confirmation_score": 44.84,
+  "trade_probability": 46.9,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
