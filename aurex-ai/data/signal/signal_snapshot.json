@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T11:15:57.821305+00:00",
+  "generated_at": "2026-11-27T11:26:37.212045+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -2.2418,
+          "change_pct": -2.2287,
           "up": false
         },
         "AMZN": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.88,
+      "score": 50.59,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.79,
-        "change_5d_pct": -0.11
+        "current_dxy": 103.82,
+        "change_5d_pct": -0.074
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.88,
+      "score": 49.23,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.002,
+        "avg_compound": -0.015,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Risk to jobs at Dealz being monitored 'very closely', says minister",
+            "source": "TheJournal.ie",
+            "publishedAt": "2026-11-26T11:25:36Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "Bitcoin price eyes $61K as Talos warns of thin Thanksgiving liquidity",
+            "source": "Cointelegraph",
+            "publishedAt": "2026-11-26T11:22:59Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
+          {
+            "title": "Stock Market Trading Hours For Thanksgiving And Black Friday",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-26T11:21:12Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "There’s one proven way not to lose during a market downturn. Ignore it and risk blowing up your entire financial future",
             "source": "Biztoc.com",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-26T11:03:34Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Crypto bridge hacks can spread losses far beyond the assets they compromise",
-            "source": "CryptoSlate",
-            "publishedAt": "2026-11-26T11:00:57Z",
-            "sentiment": "Negative",
-            "compound": -0.25
-          },
-          {
-            "title": "What's open and closed today on Thanksgiving Day 2026?",
-            "source": "CBS News",
-            "publishedAt": "2026-11-26T11:00:21Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "The Price of an Iranian Life",
-            "source": "The New Yorker",
-            "publishedAt": "2026-11-26T11:00:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.82,
-  "trade_probability": 46.89,
+  "confirmation_score": 44.73,
+  "trade_probability": 46.84,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
