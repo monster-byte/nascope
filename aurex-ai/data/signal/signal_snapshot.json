@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T15:01:26.003371+00:00",
+  "generated_at": "2026-11-27T15:16:03.162647+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.4507,
+          "change_pct": 0.8221,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.4694,
+          "change_pct": -0.2073,
           "up": false
         },
         "NVDA": {
-          "change_pct": -2.9033,
+          "change_pct": -2.4164,
           "up": false
         },
         "AMZN": {
-          "change_pct": 1.4762,
+          "change_pct": 2.2042,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26210.48,
-        "sma50": 28999.47,
-        "sma200": 28096.02
+        "last_price": 26332.52,
+        "sma50": 29001.91,
+        "sma200": 28096.63
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 75.97,
+      "score": 74.7,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.888,
-        "change_5d_pct": -3.246
+        "current_yield_pct": 4.896,
+        "change_5d_pct": -3.088
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.96,
+      "score": 49.65,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.9,
-        "change_5d_pct": 0.005
+        "current_dxy": 103.95,
+        "change_5d_pct": 0.044
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 51.74,
+      "score": 54.07,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.035,
+        "avg_compound": 0.081,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "5 Best Small Cap AI Stocks to Buy for 2027",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-26T15:11:10Z",
+            "sentiment": "Positive",
+            "compound": 0.637
+          },
+          {
+            "title": "Inflation component spillovers and the limits of monetary sovereignty in inflation-targeting Europe",
+            "source": "Lse.ac.uk",
+            "publishedAt": "2026-11-26T15:10:01Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Top 10 Conversation Starters to Ragebait and Trigger Your Family at Thanksgiving Dinner",
+            "source": "Egotastic.com",
+            "publishedAt": "2026-11-26T15:05:50Z",
+            "sentiment": "Positive",
+            "compound": 0.202
+          },
           {
             "title": "Is The Stock Market Open On Thanksgiving? NYSE And Nasdaq Closed Today, Reopen For Black Friday Half Day",
             "source": "Ibtimes.com.au",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-26T14:53:40Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Investigators release new details on death of rock legend’s son at celebrity-packed high rise in West Hollywood",
-            "source": "New York Post",
-            "publishedAt": "2026-11-26T14:53:12Z",
-            "sentiment": "Negative",
-            "compound": -0.599
-          },
-          {
-            "title": "Americans set to go into major debt for holiday shopping",
-            "source": "Wnd.com",
-            "publishedAt": "2026-11-26T14:52:48Z",
-            "sentiment": "Neutral",
-            "compound": 0.044
-          },
-          {
-            "title": "More than 16,000 NYC storefronts sit empty as businesses struggle",
-            "source": "New York Post",
-            "publishedAt": "2026-11-26T14:43:09Z",
-            "sentiment": "Negative",
-            "compound": -0.477
           }
         ]
       }
@@ -146,7 +146,7 @@
       }
     }
   },
-  "confirmation_score": 50.51,
+  "confirmation_score": 50.52,
   "trade_probability": 50.31,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
