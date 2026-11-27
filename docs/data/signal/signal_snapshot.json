@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T16:45:56.822849+00:00",
+  "generated_at": "2026-11-27T17:01:27.317460+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.6831,
+          "change_pct": 0.8366,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.2926,
+          "change_pct": -0.2053,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.8969,
+          "change_pct": -1.0497,
           "up": false
         },
         "AMZN": {
-          "change_pct": 3.2534,
+          "change_pct": 3.1765,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26588.04,
-        "sma50": 29007.02,
-        "sma200": 28097.91
+        "last_price": 26574.4,
+        "sma50": 29006.75,
+        "sma200": 28097.84
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 69.64,
+      "score": 69.0,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.928,
-        "change_5d_pct": -2.454
+        "current_yield_pct": 4.932,
+        "change_5d_pct": -2.375
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.17,
+      "score": 49.19,
       "status": "yellow",
       "details": {
-        "current_dxy": 104.01,
-        "change_5d_pct": 0.104
+        "current_dxy": 104.0,
+        "change_5d_pct": 0.101
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.52,
+      "score": 55.92,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.07,
+        "avg_compound": 0.118,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Unwrap a new wardrobe: 50 best Black Friday clothing deals to stack their wishlist",
+            "source": "New York Post",
+            "publishedAt": "2026-11-26T17:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.637
+          },
+          {
+            "title": "Spain's former central bank head chosen as next European Central Bank president",
+            "source": "Abcnews.com",
+            "publishedAt": "2026-11-26T16:48:04Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Global stocks move upward despite shock warning from Panmure Liberum analyst who sold all equities in his personal portfolio",
+            "source": "Fortune",
+            "publishedAt": "2026-11-26T16:47:23Z",
+            "sentiment": "Positive",
+            "compound": 0.497
+          },
+          {
+            "title": "Trump orders investigation into ‘fake’ GDP figures changed after midterms, alleges ‘purposeful’ error",
+            "source": "New York Post",
+            "publishedAt": "2026-11-26T16:47:18Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
           {
             "title": "Trump calls GDP figures 'fake' and demands an investigation of Commerce Department",
             "source": "Abcnews.com",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-26T16:44:09Z",
             "sentiment": "Positive",
             "compound": 0.641
-          },
-          {
-            "title": "A Retiree Who Bought 1,000 Nvidia Shares at $122 Just Watched Jensen Huang Get a ‘Second Chance.’ Here’s What Theirs Looks Like After a $117,000 Gain Nearly Vanished",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-26T16:39:21Z",
-            "sentiment": "Positive",
-            "compound": 0.796
-          },
-          {
-            "title": "Bank of England sees growing financial risks!",
-            "source": "Yahoo Entertainment",
-            "publishedAt": "2026-11-26T16:34:36Z",
-            "sentiment": "Neutral",
-            "compound": -0.176
-          },
-          {
-            "title": "Can charity money be used to fight Tata Sons listing? Vijay Singh seeks urgent probe",
-            "source": "Livemint",
-            "publishedAt": "2026-11-26T16:34:25Z",
-            "sentiment": "Positive",
-            "compound": 0.25
-          },
-          {
-            "title": "How Pentagon considered using Cold War law to bring Jensen Huang back",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-26T16:32:07Z",
-            "sentiment": "Negative",
-            "compound": -0.599
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 49.74,
-  "trade_probability": 49.84,
+  "confirmation_score": 49.87,
+  "trade_probability": 49.92,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
