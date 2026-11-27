@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T16:01:34.825492+00:00",
+  "generated_at": "2026-11-27T16:15:57.867224+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 1.1916,
+          "change_pct": 0.8578,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.1646,
+          "change_pct": -0.6218,
           "up": false
         },
         "NVDA": {
-          "change_pct": -2.0529,
+          "change_pct": -1.6775,
           "up": false
         },
         "AMZN": {
-          "change_pct": 3.3835,
+          "change_pct": 3.05,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26498.91,
-        "sma50": 29005.24,
-        "sma200": 28097.47
+        "last_price": 26468.54,
+        "sma50": 29004.63,
+        "sma200": 28097.31
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 72.17,
+      "score": 71.85,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.912,
-        "change_5d_pct": -2.771
+        "current_yield_pct": 4.914,
+        "change_5d_pct": -2.732
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.07,
+      "score": 48.95,
       "status": "yellow",
       "details": {
-        "current_dxy": 104.02,
-        "change_5d_pct": 0.116
+        "current_dxy": 104.04,
+        "change_5d_pct": 0.132
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.74,
+      "score": 55.59,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.075,
+        "avg_compound": 0.112,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Testing time for MPC",
+            "title": "KDgate for Montreal mayor continues with website mocking Kraft Dinner comments",
+            "source": "CBC News",
+            "publishedAt": "2026-11-26T16:12:14Z",
+            "sentiment": "Negative",
+            "compound": -0.402
+          },
+          {
+            "title": "‘Naar alle maatstaven gaat het best goed met de Amerikaanse economie’",
+            "source": "Omny.fm",
+            "publishedAt": "2026-11-26T16:08:31Z",
+            "sentiment": "Positive",
+            "compound": 0.637
+          },
+          {
+            "title": "Trump calls GDP figures 'fake' and demands investigation of Commerce Department",
+            "source": "Yahoo Entertainment",
+            "publishedAt": "2026-11-26T16:08:13Z",
+            "sentiment": "Negative",
+            "compound": -0.477
+          },
+          {
+            "title": "Editorial. Red herring",
             "source": "BusinessLine",
-            "publishedAt": "2026-11-26T16:00:54Z",
+            "publishedAt": "2026-11-26T16:02:24Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "PlayStation 5 Black Friday deals are finally here, with games up to 60% off and a rare surprise",
-            "source": "New York Post",
-            "publishedAt": "2026-11-26T16:00:00Z",
+            "title": "As Anthropic IPOs, Grand Theft Auto VI proves why efficiency isn't a virtue | TechCrunch",
+            "source": "TechCrunch",
+            "publishedAt": "2026-11-26T16:02:23Z",
             "sentiment": "Positive",
-            "compound": 0.273
+            "compound": 0.488
           },
           {
-            "title": "Could Be 3% Above Fair Value Following Mercedes F1 Partnership Renewal",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-26T15:55:55Z",
+            "title": "New billionaire Ashton Kutcher has a lot to be thankful for as he enjoys rare Thanksgiving outing with twin brother Michael and family",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-11-26T16:01:35Z",
             "sentiment": "Positive",
-            "compound": 0.572
-          },
-          {
-            "title": "Venezuelan Socialists Reveal Country Is $237 Billion in Debt",
-            "source": "Breitbart News",
-            "publishedAt": "2026-11-26T15:55:33Z",
-            "sentiment": "Negative",
-            "compound": -0.361
-          },
-          {
-            "title": "How Americans Respond to the Cost-of-Living Crisis",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-26T15:54:17Z",
-            "sentiment": "Negative",
-            "compound": -0.625
-          },
-          {
-            "title": "British SMEs hail government's EU food deal",
-            "source": "Www.gov.uk",
-            "publishedAt": "2026-11-26T15:43:29Z",
-            "sentiment": "Neutral",
-            "compound": 0.077
+            "compound": 0.791
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 50.1,
-  "trade_probability": 50.06,
+  "confirmation_score": 50.21,
+  "trade_probability": 50.13,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
