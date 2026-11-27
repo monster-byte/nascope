@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T19:15:56.075743+00:00",
+  "generated_at": "2026-11-27T19:31:15.134480+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.88,
+      "score": 48.84,
       "status": "yellow",
       "details": {
-        "current_dxy": 104.04,
-        "change_5d_pct": 0.14
+        "current_dxy": 104.05,
+        "change_5d_pct": 0.145
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.52,
+      "score": 52.9,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.07,
+        "avg_compound": 0.058,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Bitcoin’s $60,000 recovery masks a growing threat that could push its price as low as $29,000",
+            "source": "CryptoSlate",
+            "publishedAt": "2026-11-26T19:30:23Z",
+            "sentiment": "Negative",
+            "compound": -0.586
+          },
+          {
+            "title": "Ripple’s $900 Million Revenue Target Raises Questions About XRP’s Stagnant Price",
+            "source": "ZyCrypto",
+            "publishedAt": "2026-11-26T19:28:41Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Residential aged care can cost $100,000 a year. Here’s why – and how to ‘try before you buy’",
             "source": "The Conversation Africa",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-26T19:05:52Z",
             "sentiment": "Positive",
             "compound": 0.25
-          },
-          {
-            "title": "Experts foresee food inflation cloud over wedding & festive season retail gains",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-26T19:02:00Z",
-            "sentiment": "Positive",
-            "compound": 0.66
-          },
-          {
-            "title": "Before the Sell-Off, AI Stocks Showed Dot-Com-Level Bubble Signals: Study",
-            "source": "Decrypt",
-            "publishedAt": "2026-11-26T19:01:02Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 63.05,
-  "trade_probability": 57.83,
+  "confirmation_score": 62.99,
+  "trade_probability": 57.79,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
