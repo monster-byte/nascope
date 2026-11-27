@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T18:01:25.030420+00:00",
+  "generated_at": "2026-11-27T18:15:54.053486+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 69.95,
+      "score": 69.48,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.926,
-        "change_5d_pct": -2.494
+        "current_yield_pct": 4.929,
+        "change_5d_pct": -2.435
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.01,
+      "score": 49.05,
       "status": "yellow",
       "details": {
-        "current_dxy": 104.03,
-        "change_5d_pct": 0.123
+        "current_dxy": 104.02,
+        "change_5d_pct": 0.118
       }
     },
     "macro": {
@@ -85,23 +85,37 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.1,
+      "score": 48.21,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.062,
-        "articles_analyzed": 25,
+        "avg_compound": -0.036,
+        "articles_analyzed": 24,
         "top_headlines": [
           {
-            "title": "Can Albanese hold onto leadership until the next election?",
-            "source": "ABC News (AU)",
-            "publishedAt": "2026-11-26T18:00:00Z",
+            "title": "Bitcoin Holds Above $60K as Death Cross Clouds Thanksgiving Recovery",
+            "source": "Decrypt",
+            "publishedAt": "2026-11-26T18:15:29Z",
+            "sentiment": "Negative",
+            "compound": -0.599
+          },
+          {
+            "title": "Up 25.3% in a month, HDFC Bank regains No.2 spot by market capitalisation",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-26T18:14:03Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "It’s game on for Black Friday: Nintendo Switch deals include a must-have Mario Kart bundle",
-            "source": "New York Post",
+            "title": "Farmers rally in Brussels against proposed EU budget cuts (PHOTOS, VIDEOS)",
+            "source": "Rt-english.com",
+            "publishedAt": "2026-11-26T18:10:04Z",
+            "sentiment": "Negative",
+            "compound": -0.296
+          },
+          {
+            "title": "Can Albanese hold onto leadership until the next election?",
+            "source": "ABC News (AU)",
             "publishedAt": "2026-11-26T18:00:00Z",
             "sentiment": "Neutral",
             "compound": 0.0
@@ -114,25 +128,11 @@
             "compound": 0.0
           },
           {
-            "title": "Goldman's Panic Index Hit 9 Out of 10 — But the Bank Says It's 'Too Early to Buy'",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-26T17:54:57Z",
-            "sentiment": "Negative",
-            "compound": -0.285
-          },
-          {
-            "title": "Crypto on notice as hawkish Fed risks December ‘meltdown’",
-            "source": "Cointelegraph",
-            "publishedAt": "2026-11-26T17:39:53Z",
-            "sentiment": "Negative",
-            "compound": -0.273
-          },
-          {
-            "title": "Trump's Thanksgiving Morning Tirade Targets NYT Reporter With 'Lowlife' Insult After Brutal Stock Market Questions",
-            "source": "Radaronline.com",
-            "publishedAt": "2026-11-26T17:39:29Z",
-            "sentiment": "Negative",
-            "compound": -0.872
+            "title": "It’s game on for Black Friday: Nintendo Switch deals include a must-have Mario Kart bundle",
+            "source": "New York Post",
+            "publishedAt": "2026-11-26T18:00:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 63.23,
-  "trade_probability": 57.94,
+  "confirmation_score": 62.73,
+  "trade_probability": 57.64,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
