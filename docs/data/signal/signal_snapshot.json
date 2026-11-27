@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T01:45:54.513473+00:00",
+  "generated_at": "2026-11-27T02:01:24.998315+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -2.2287,
+          "change_pct": -2.2418,
           "up": false
         },
         "AMZN": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.84,
+      "score": 50.96,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.79,
-        "change_5d_pct": -0.105
+        "current_dxy": 103.78,
+        "change_5d_pct": -0.12
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 49.81,
+      "score": 51.39,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.004,
+        "avg_compound": 0.028,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "All Blacks: David Kirk and New Zealand Rugby’s mission to secure sponsorships – Inside Rugby",
+            "source": "New Zealand Herald",
+            "publishedAt": "2026-11-26T02:01:00Z",
+            "sentiment": "Positive",
+            "compound": 0.34
+          },
+          {
+            "title": "Will SIP momentum continue? Does AI call for change in investment strategy?",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-26T02:00:01Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Mizuho extends global banking push to India with Avendus deal",
+            "source": "Economictimes.com",
+            "publishedAt": "2026-11-26T01:57:57Z",
+            "sentiment": "Neutral",
+            "compound": 0.128
+          },
+          {
+            "title": "Live Updates: Macy’s Thanksgiving Day Parade Postponed as NYC Faces Storm - The New York Times",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-11-26T01:52:42Z",
+            "sentiment": "Negative",
+            "compound": -0.202
+          },
           {
             "title": "Crude oil prices rise as Middle East tensions threaten supply",
             "source": "Crypto Briefing",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-26T01:40:55Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "What if the AI bubble bursts? Fears of a crash worse than 2000, a global domino effect and $2 trillion in losses",
-            "source": "Protothema.gr",
-            "publishedAt": "2026-11-26T01:35:58Z",
-            "sentiment": "Negative",
-            "compound": -0.883
-          },
-          {
-            "title": "Bank of Korea hikes rate to 3.25% against backdrop of strong economy",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-26T01:29:53Z",
-            "sentiment": "Positive",
-            "compound": 0.511
-          },
-          {
-            "title": "Trump blames volatile stock market on midterm election results",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-26T01:29:51Z",
-            "sentiment": "Negative",
-            "compound": -0.402
-          },
-          {
-            "title": "Nvidia’s China link revealed? Investigation claims two US-based firms with Chinese owners are buying most advanced chips",
-            "source": "Livemint",
-            "publishedAt": "2026-11-26T01:24:59Z",
-            "sentiment": "Positive",
-            "compound": 0.317
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.81,
-  "trade_probability": 46.89,
+  "confirmation_score": 44.96,
+  "trade_probability": 46.98,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
