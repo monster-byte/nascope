@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T14:31:22.142816+00:00",
+  "generated_at": "2026-11-27T14:45:54.832975+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.9908,
+          "change_pct": 0.5197,
           "up": true
         },
         "MSFT": {
-          "change_pct": 1.3818,
+          "change_pct": 0.3922,
           "up": true
         },
         "NVDA": {
-          "change_pct": -0.6777,
+          "change_pct": -2.1924,
           "up": false
         },
         "AMZN": {
-          "change_pct": 1.2883,
+          "change_pct": 2.0435,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26465.47,
-        "sma50": 29004.57,
-        "sma200": 28097.3
+        "last_price": 26286.73,
+        "sma50": 29001.0,
+        "sma200": 28096.41
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 73.44,
+      "score": 75.34,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.904,
-        "change_5d_pct": -2.93
+        "current_yield_pct": 4.892,
+        "change_5d_pct": -3.167
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.78,
+      "score": 49.92,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.93,
-        "change_5d_pct": 0.027
+        "current_dxy": 103.91,
+        "change_5d_pct": 0.011
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.39,
+      "score": 53.76,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.068,
+        "avg_compound": 0.075,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "More than 16,000 NYC storefronts sit empty as businesses struggle",
+            "source": "New York Post",
+            "publishedAt": "2026-11-26T14:43:09Z",
+            "sentiment": "Negative",
+            "compound": -0.477
+          },
+          {
+            "title": "Ophanie 160-PSI Cordless Tire Inflator for $22 + free shipping w/ $35",
+            "source": "Dealnews.com",
+            "publishedAt": "2026-11-26T14:36:37Z",
+            "sentiment": "Positive",
+            "compound": 0.511
+          },
           {
             "title": "Books For New Investors",
             "source": "Awealthofcommonsense.com",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-26T14:23:00Z",
             "sentiment": "Negative",
             "compound": -0.202
-          },
-          {
-            "title": "Spain’s Pablo Hernández de Cos set to lead European Central Bank",
-            "source": "CNBC",
-            "publishedAt": "2026-11-26T14:20:44Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Scope Ratings: Greece among the winners in the European economy – The three major challenges of 2027",
-            "source": "Protothema.gr",
-            "publishedAt": "2026-11-26T14:19:00Z",
-            "sentiment": "Positive",
-            "compound": 0.571
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.05,
-  "trade_probability": 54.23,
+  "confirmation_score": 57.35,
+  "trade_probability": 54.41,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
