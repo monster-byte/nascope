@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T15:45:57.355023+00:00",
+  "generated_at": "2026-11-27T16:01:34.825492+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
-      "status": "green",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 1.1606,
+          "change_pct": 1.1916,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.0569,
-          "up": true
+          "change_pct": -0.1646,
+          "up": false
         },
         "NVDA": {
-          "change_pct": -1.5749,
+          "change_pct": -2.0529,
           "up": false
         },
         "AMZN": {
-          "change_pct": 3.1425,
+          "change_pct": 3.3835,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26529.44,
-        "sma50": 29005.85,
-        "sma200": 28097.62
+        "last_price": 26498.91,
+        "sma50": 29005.24,
+        "sma200": 28097.47
       }
     },
     "vxn": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.19,
+      "score": 49.07,
       "status": "yellow",
       "details": {
-        "current_dxy": 104.0,
-        "change_5d_pct": 0.101
+        "current_dxy": 104.02,
+        "change_5d_pct": 0.116
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.0,
+      "score": 53.74,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.08,
+        "avg_compound": 0.075,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Testing time for MPC",
+            "source": "BusinessLine",
+            "publishedAt": "2026-11-26T16:00:54Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "PlayStation 5 Black Friday deals are finally here, with games up to 60% off and a rare surprise",
+            "source": "New York Post",
+            "publishedAt": "2026-11-26T16:00:00Z",
+            "sentiment": "Positive",
+            "compound": 0.273
+          },
+          {
+            "title": "Could Be 3% Above Fair Value Following Mercedes F1 Partnership Renewal",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-26T15:55:55Z",
+            "sentiment": "Positive",
+            "compound": 0.572
+          },
+          {
+            "title": "Venezuelan Socialists Reveal Country Is $237 Billion in Debt",
+            "source": "Breitbart News",
+            "publishedAt": "2026-11-26T15:55:33Z",
+            "sentiment": "Negative",
+            "compound": -0.361
+          },
+          {
+            "title": "How Americans Respond to the Cost-of-Living Crisis",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-26T15:54:17Z",
+            "sentiment": "Negative",
+            "compound": -0.625
+          },
           {
             "title": "British SMEs hail government's EU food deal",
             "source": "Www.gov.uk",
             "publishedAt": "2026-11-26T15:43:29Z",
             "sentiment": "Neutral",
             "compound": 0.077
-          },
-          {
-            "title": "Want to bet on banks, realty, growth stocks? Motilal Oswal launches 5 ETFs",
-            "source": "Business Standard",
-            "publishedAt": "2026-11-26T15:37:55Z",
-            "sentiment": "Positive",
-            "compound": 0.44
-          },
-          {
-            "title": "‘Cutting Costs’ (European Partnership) Bill: Frequently Asked Questions",
-            "source": "Www.gov.uk",
-            "publishedAt": "2026-11-26T15:26:09Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Fed rate-hike bets deliver fresh blow to your holiday budget",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-26T15:23:33Z",
-            "sentiment": "Positive",
-            "compound": 0.612
-          },
-          {
-            "title": "Trump Blames the Midterm Election Results for the Stock Market Selloff",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-26T15:23:30Z",
-            "sentiment": "Negative",
-            "compound": -0.402
-          },
-          {
-            "title": "Meria Finance joins Jupiter’s JupSOL validator set with a compliance pitch",
-            "source": "Crypto Briefing",
-            "publishedAt": "2026-11-26T15:21:43Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 56.88,
-  "trade_probability": 54.13,
+  "confirmation_score": 50.1,
+  "trade_probability": 50.06,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
