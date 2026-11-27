@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T17:31:14.598616+00:00",
+  "generated_at": "2026-11-27T17:45:57.682848+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -17,19 +17,19 @@
       "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.7972,
+          "change_pct": 0.9296,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.2303,
+          "change_pct": -0.2378,
           "up": false
         },
         "NVDA": {
-          "change_pct": -0.9168,
+          "change_pct": -1.0431,
           "up": false
         },
         "AMZN": {
-          "change_pct": 3.5929,
+          "change_pct": 3.5828,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26562.24,
-        "sma50": 29006.51,
-        "sma200": 28097.78
+        "last_price": 26543.46,
+        "sma50": 29006.13,
+        "sma200": 28097.69
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 69.0,
+      "score": 69.64,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.932,
-        "change_5d_pct": -2.375
+        "current_yield_pct": 4.928,
+        "change_5d_pct": -2.454
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.34,
+      "score": 49.28,
       "status": "yellow",
       "details": {
         "current_dxy": 103.99,
-        "change_5d_pct": 0.083
+        "change_5d_pct": 0.09
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.69,
+      "score": 52.58,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.094,
+        "avg_compound": 0.052,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Crypto on notice as hawkish Fed risks December ‘meltdown’",
+            "source": "Cointelegraph",
+            "publishedAt": "2026-11-26T17:39:53Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
+          {
+            "title": "Trump's Thanksgiving Morning Tirade Targets NYT Reporter With 'Lowlife' Insult After Brutal Stock Market Questions",
+            "source": "Radaronline.com",
+            "publishedAt": "2026-11-26T17:39:29Z",
+            "sentiment": "Negative",
+            "compound": -0.872
+          },
+          {
+            "title": "Rock legend's son was battling secret family chaos before falling from celeb-packed condo building",
+            "source": "Dailymail.com",
+            "publishedAt": "2026-11-26T17:37:14Z",
+            "sentiment": "Negative",
+            "compound": -0.751
+          },
+          {
+            "title": "Global stocks rise and tech shares rebound as US closes for Thanksgiving - AP News",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-11-26T17:33:06Z",
+            "sentiment": "Positive",
+            "compound": 0.296
+          },
           {
             "title": "Bank of America issues blunt 2027 hard-landing warning on S&P 500",
             "source": "Biztoc.com",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-26T17:27:10Z",
             "sentiment": "Positive",
             "compound": 0.296
-          },
-          {
-            "title": "Stock Could Be 18% Overvalued Following Record Recurring Revenue",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-26T17:26:58Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "S&P 500 Sell-Off: Here's Why I'm Not Panicking -- and What I'm Doing Instead",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-26T17:26:55Z",
-            "sentiment": "Positive",
-            "compound": 0.341
-          },
-          {
-            "title": "Elon Musk Says Every Child in America Will Be Getting Two SpaceX Shares in Their Trump Accounts, One from the Company and One From Him Personally",
-            "source": "Thegatewaypundit.com",
-            "publishedAt": "2026-11-26T17:20:41Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "Spain's former central bank head to succeed Lagarde as ECB chief",
-            "source": "Daily Sabah",
-            "publishedAt": "2026-11-26T17:15:36Z",
-            "sentiment": "Positive",
-            "compound": 0.494
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 49.78,
-  "trade_probability": 49.87,
+  "confirmation_score": 49.67,
+  "trade_probability": 49.8,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
