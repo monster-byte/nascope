@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T02:45:53.844990+00:00",
+  "generated_at": "2026-11-27T03:01:32.169371+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -2.2418,
+          "change_pct": -2.2287,
           "up": false
         },
         "AMZN": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 51.73,
+      "score": 51.87,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.68,
-        "change_5d_pct": -0.217
+        "current_dxy": 103.66,
+        "change_5d_pct": -0.234
       }
     },
     "macro": {
@@ -85,13 +85,41 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.62,
+      "score": 53.65,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.012,
+        "avg_compound": 0.073,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Bitcoin, Ethereum, XRP, Dogecoin Climb Even as Core Inflation Stays Hot: Analyst Warns Investors to 'Prepare…",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-26T02:45:50Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
+          {
+            "title": "Gold prices fall below $3,500, silver rises 0.7% as Fed rate hike bets weigh on bullion: Gold Silver Rates Live Updates",
+            "source": "Economictimes.com",
+            "publishedAt": "2026-11-26T02:44:21Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Data centre rush drives biggest rise in Australian business investment since mining boom",
+            "source": "Economictimes.com",
+            "publishedAt": "2026-11-26T02:43:25Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Asian shares bounce as AI concerns, fresh US tariffs lurk in background",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-26T02:42:48Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
           {
             "title": "WSJ editors torch Trump’s post-midterm tariff gambit: ‘Talk about not getting the message’",
             "source": "Raw Story",
@@ -105,34 +133,6 @@
             "publishedAt": "2026-11-26T02:38:36Z",
             "sentiment": "Positive",
             "compound": 0.382
-          },
-          {
-            "title": "Stocks to watch: LG Electronics, Siemens Energy, Wipro, sugar stocks",
-            "source": "Business Standard",
-            "publishedAt": "2026-11-26T02:33:01Z",
-            "sentiment": "Positive",
-            "compound": 0.273
-          },
-          {
-            "title": "Stock Market LIVE: GIFT Nifty signals gap-up open; Asia mkts rebound as dip-buyers return to tech",
-            "source": "Business Standard",
-            "publishedAt": "2026-11-26T02:31:33Z",
-            "sentiment": "Positive",
-            "compound": 0.746
-          },
-          {
-            "title": "Data centre rush drives biggest rise in Australian business investment since mining boom",
-            "source": "CNA",
-            "publishedAt": "2026-11-26T02:29:56Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Malaysia sues Google over ‘harmful’ content",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-26T02:29:27Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.96,
-  "trade_probability": 46.98,
+  "confirmation_score": 45.24,
+  "trade_probability": 47.14,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
