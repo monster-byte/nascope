@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T21:31:15.189840+00:00",
+  "generated_at": "2026-11-27T21:45:53.117509+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 48.88,
+      "score": 49.12,
       "status": "yellow",
       "details": {
-        "current_dxy": 104.04,
-        "change_5d_pct": 0.14
+        "current_dxy": 104.01,
+        "change_5d_pct": 0.11
       }
     },
     "macro": {
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.89,
+      "score": 54.99,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.058,
+        "avg_compound": 0.1,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "AbCellera to Present at the Piper Sandler Healthcare Conference on December 1, 2026",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-26T21:42:28Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Thank You, Capitalism",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-26T21:42:24Z",
+            "sentiment": "Positive",
+            "compound": 0.361
+          },
           {
             "title": "Why I think Macquarie shares could outperform the big four banks in 2027",
             "source": "Motley Fool Australia",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-26T20:56:53Z",
             "sentiment": "Neutral",
             "compound": -0.059
-          },
-          {
-            "title": "Iran imposes electricity rationing, rolling blackouts as regime buckles under US economic pressure",
-            "source": "New York Post",
-            "publishedAt": "2026-11-26T20:44:39Z",
-            "sentiment": "Negative",
-            "compound": -0.382
-          },
-          {
-            "title": "Trump’s “Noisy Name-Calling” Mocked By NYT After Bored POTUS Starts Thanksgiving Ranting Against Reporter’s Nvidia Dispatch",
-            "source": "Deadline",
-            "publishedAt": "2026-11-26T20:44:34Z",
-            "sentiment": "Negative",
-            "compound": -0.527
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 62.99,
-  "trade_probability": 57.79,
+  "confirmation_score": 63.2,
+  "trade_probability": 57.92,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
