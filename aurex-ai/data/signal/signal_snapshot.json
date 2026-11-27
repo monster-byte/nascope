@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T09:31:13.100533+00:00",
+  "generated_at": "2026-11-27T09:45:55.821443+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -2.2418,
+          "change_pct": -2.2287,
           "up": false
         },
         "AMZN": {
@@ -65,11 +65,11 @@
     },
     "dxy": {
       "factor": "dxy",
-      "score": 50.22,
+      "score": 50.64,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.87,
-        "change_5d_pct": -0.028
+        "current_dxy": 103.82,
+        "change_5d_pct": -0.08
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 58.26,
+      "score": 56.15,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.165,
-        "articles_analyzed": 24,
+        "avg_compound": 0.123,
+        "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Watchdog warns of several concerns in private dentistry market",
+            "source": "BBC News",
+            "publishedAt": "2026-11-26T09:42:29Z",
+            "sentiment": "Neutral",
+            "compound": -0.103
+          },
+          {
+            "title": "Luigi Pirandello and Maximos Mansion, the Liakos and Chatzigiannakis affairs, the FBI in Athens and the rumour merchants, and the outlook for property",
+            "source": "Protothema.gr",
+            "publishedAt": "2026-11-26T09:34:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Stocks, Nasdaq Futures Climb as AI Trade Rebounds: Markets Wrap - Bloomberg.com",
+            "source": "Slashdot.org",
+            "publishedAt": "2026-11-26T09:33:06Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Oil prices fall as supply concerns linger after Iran claims mine strikes on ships",
             "source": "CNA",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-26T09:30:01Z",
             "sentiment": "Negative",
             "compound": -0.361
-          },
-          {
-            "title": "Oil prices edge up after mine strikes on ships revive supply concerns",
-            "source": "CNA",
-            "publishedAt": "2026-11-26T09:30:01Z",
-            "sentiment": "Neutral",
-            "compound": -0.026
-          },
-          {
-            "title": "TOI Bharat Abroad: AI riches, visa traps and a desi dilemma",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-26T09:25:09Z",
-            "sentiment": "Positive",
-            "compound": 0.402
-          },
-          {
-            "title": "Kumar Sanu says he never expected ‘Aashiqui’ to become a blockbuster; calls the album’s success a ‘miracle’ that changed his life",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-26T09:11:59Z",
-            "sentiment": "Positive",
-            "compound": 0.823
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 45.51,
-  "trade_probability": 47.31,
+  "confirmation_score": 45.36,
+  "trade_probability": 47.22,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
