@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T00:15:49.222365+00:00",
+  "generated_at": "2026-11-27T00:31:13.229676+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -2.2418,
+          "change_pct": -2.2287,
           "up": false
         },
         "AMZN": {
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 54.0,
+      "score": 54.83,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.08,
+        "avg_compound": 0.097,
         "articles_analyzed": 24,
         "top_headlines": [
+          {
+            "title": "Mayor Zohran Mamdani Says Famed Balloons Will Soar Again At Rescheduled Macy’s Parade: “It’s The Only Inflation We Support In New York City”",
+            "source": "Deadline",
+            "publishedAt": "2026-11-26T00:29:14Z",
+            "sentiment": "Positive",
+            "compound": 0.402
+          },
           {
             "title": "Markets News, Nov. 25, 2026: Nasdaq, S&P 500 Close Lower as AI Trade Remains Under Pressure; Nvidia Falls 4% - Investopedia",
             "source": "Slashdot.org",
@@ -107,13 +114,6 @@
             "compound": -0.402
           },
           {
-            "title": "‘Govs must take responsibility for power crisis’",
-            "source": "The Punch",
-            "publishedAt": "2026-11-26T00:06:06Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
             "title": "CBN raises T-bill yields as investors favour one-year debt",
             "source": "The Punch",
             "publishedAt": "2026-11-26T00:06:06Z",
@@ -121,18 +121,18 @@
             "compound": 0.103
           },
           {
+            "title": "‘Govs must take responsibility for power crisis’",
+            "source": "The Punch",
+            "publishedAt": "2026-11-26T00:06:06Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
             "title": "Grade inflation at university is blamed on 'soft' subject degrees... just as Labour pushes for more in schools",
             "source": "Dailymail.com",
             "publishedAt": "2026-11-26T00:02:02Z",
             "sentiment": "Negative",
             "compound": -0.477
-          },
-          {
-            "title": "NHS braced for busiest winter on record with health leaders 'scared' by soaring number of elderly patients expected to need care",
-            "source": "Dailymail.com",
-            "publishedAt": "2026-11-26T00:01:46Z",
-            "sentiment": "Neutral",
-            "compound": 0.153
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 45.19,
-  "trade_probability": 47.11,
+  "confirmation_score": 45.27,
+  "trade_probability": 47.16,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
