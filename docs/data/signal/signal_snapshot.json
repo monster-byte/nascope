@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T14:15:50.749275+00:00",
+  "generated_at": "2026-11-27T14:31:22.142816+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,24 +13,24 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 25.0,
-      "status": "red",
+      "score": 75.0,
+      "status": "green",
       "details": {
         "AAPL": {
-          "change_pct": 0.5929,
+          "change_pct": 0.9908,
           "up": true
         },
         "MSFT": {
-          "change_pct": -0.9046,
-          "up": false
+          "change_pct": 1.3818,
+          "up": true
         },
         "NVDA": {
-          "change_pct": -2.2418,
+          "change_pct": -0.6777,
           "up": false
         },
         "AMZN": {
-          "change_pct": -2.9724,
-          "up": false
+          "change_pct": 1.2883,
+          "up": true
         }
       }
     },
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26046.9,
-        "sma50": 29064.2,
-        "sma200": 28090.98
+        "last_price": 26465.47,
+        "sma50": 29004.57,
+        "sma200": 28097.3
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 74.07,
+      "score": 73.44,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.9,
-        "change_5d_pct": -3.009
+        "current_yield_pct": 4.904,
+        "change_5d_pct": -2.93
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.96,
+      "score": 49.78,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.9,
-        "change_5d_pct": 0.005
+        "current_dxy": 103.93,
+        "change_5d_pct": 0.027
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 47.56,
+      "score": 53.39,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": -0.049,
+        "avg_compound": 0.068,
         "articles_analyzed": 25,
         "top_headlines": [
           {
-            "title": "Two North Dakota brothers bought land in 1974, but one kept his half-share after selling a business; a company used the site without paying rent, and a court reopened how a $2.125 million auction price was divided",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-26T14:09:55Z",
+            "title": "Books For New Investors",
+            "source": "Awealthofcommonsense.com",
+            "publishedAt": "2026-11-26T14:30:03Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "Rupee falls as oil climbs above $96/barrel; 10-year bond yield rises 7 bps",
-            "source": "Business Standard",
-            "publishedAt": "2026-11-26T14:08:27Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
+            "title": "Black Friday has the best Apple deals of the year: Up to 30% off AirPods, iPads, more",
+            "source": "New York Post",
+            "publishedAt": "2026-11-26T14:30:00Z",
+            "sentiment": "Positive",
+            "compound": 0.637
           },
           {
-            "title": "Bank of America issues blunt 2027 hard-landing warning on S&P 500",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-26T14:08:02Z",
+            "title": "The 8 US cities dying before our eyes as workers flee and entire neighborhoods sit abandoned",
+            "source": "New York Post",
+            "publishedAt": "2026-11-26T14:29:00Z",
             "sentiment": "Negative",
-            "compound": -0.34
+            "compound": -0.459
           },
           {
-            "title": "What XRP Did After Its First ETF and What Chainlink Could Do After Fidelity’s",
+            "title": "Futures Extend Thanksgiving Turnaround As Nasdaq Dodges Bear Market, Oil Climbs On Houthi Strikes",
             "source": "Biztoc.com",
-            "publishedAt": "2026-11-26T14:07:52Z",
+            "publishedAt": "2026-11-26T14:23:00Z",
+            "sentiment": "Negative",
+            "compound": -0.202
+          },
+          {
+            "title": "Spain’s Pablo Hernández de Cos set to lead European Central Bank",
+            "source": "CNBC",
+            "publishedAt": "2026-11-26T14:20:44Z",
             "sentiment": "Neutral",
             "compound": 0.0
           },
           {
-            "title": "When will Poundland close? Five questions about its future",
-            "source": "BBC News",
-            "publishedAt": "2026-11-26T14:05:27Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "The Nvidia saga and the AI bubble really matter for your pension fund",
-            "source": "The Irish Times",
-            "publishedAt": "2026-11-26T14:04:11Z",
-            "sentiment": "Neutral",
-            "compound": 0.101
+            "title": "Scope Ratings: Greece among the winners in the European economy – The three major challenges of 2027",
+            "source": "Protothema.gr",
+            "publishedAt": "2026-11-26T14:19:00Z",
+            "sentiment": "Positive",
+            "compound": 0.571
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 43.13,
-  "trade_probability": 45.88,
+  "confirmation_score": 57.05,
+  "trade_probability": 54.23,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
