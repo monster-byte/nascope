@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T14:45:54.832975+00:00",
+  "generated_at": "2026-11-27T15:01:26.003371+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -13,23 +13,23 @@
   "factors": {
     "mega_cap_alignment": {
       "factor": "mega_cap_alignment",
-      "score": 75.0,
-      "status": "green",
+      "score": 50.0,
+      "status": "yellow",
       "details": {
         "AAPL": {
-          "change_pct": 0.5197,
+          "change_pct": 0.4507,
           "up": true
         },
         "MSFT": {
-          "change_pct": 0.3922,
-          "up": true
+          "change_pct": -0.4694,
+          "up": false
         },
         "NVDA": {
-          "change_pct": -2.1924,
+          "change_pct": -2.9033,
           "up": false
         },
         "AMZN": {
-          "change_pct": 2.0435,
+          "change_pct": 1.4762,
           "up": true
         }
       }
@@ -40,9 +40,9 @@
       "status": "yellow",
       "details": {
         "regime": "NEUTRAL / TRANSITIONAL",
-        "last_price": 26286.73,
-        "sma50": 29001.0,
-        "sma200": 28096.41
+        "last_price": 26210.48,
+        "sma50": 28999.47,
+        "sma200": 28096.02
       }
     },
     "vxn": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 75.34,
+      "score": 75.97,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.892,
-        "change_5d_pct": -3.167
+        "current_yield_pct": 4.888,
+        "change_5d_pct": -3.246
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.92,
+      "score": 49.96,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.91,
-        "change_5d_pct": 0.011
+        "current_dxy": 103.9,
+        "change_5d_pct": 0.005
       }
     },
     "macro": {
@@ -85,54 +85,54 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 53.76,
+      "score": 51.74,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.075,
+        "avg_compound": 0.035,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Is The Stock Market Open On Thanksgiving? NYSE And Nasdaq Closed Today, Reopen For Black Friday Half Day",
+            "source": "Ibtimes.com.au",
+            "publishedAt": "2026-11-26T14:57:41Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "EU leaders clear path for Spain’s Pablo Hernández de Cos to lead ECB",
+            "source": "POLITICO.eu",
+            "publishedAt": "2026-11-26T14:57:34Z",
+            "sentiment": "Positive",
+            "compound": 0.382
+          },
+          {
+            "title": "PCE Inflation Rises to Highest Level Since 2023",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-26T14:53:40Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "Investigators release new details on death of rock legend’s son at celebrity-packed high rise in West Hollywood",
+            "source": "New York Post",
+            "publishedAt": "2026-11-26T14:53:12Z",
+            "sentiment": "Negative",
+            "compound": -0.599
+          },
+          {
+            "title": "Americans set to go into major debt for holiday shopping",
+            "source": "Wnd.com",
+            "publishedAt": "2026-11-26T14:52:48Z",
+            "sentiment": "Neutral",
+            "compound": 0.044
+          },
           {
             "title": "More than 16,000 NYC storefronts sit empty as businesses struggle",
             "source": "New York Post",
             "publishedAt": "2026-11-26T14:43:09Z",
             "sentiment": "Negative",
             "compound": -0.477
-          },
-          {
-            "title": "Ophanie 160-PSI Cordless Tire Inflator for $22 + free shipping w/ $35",
-            "source": "Dealnews.com",
-            "publishedAt": "2026-11-26T14:36:37Z",
-            "sentiment": "Positive",
-            "compound": 0.511
-          },
-          {
-            "title": "Books For New Investors",
-            "source": "Awealthofcommonsense.com",
-            "publishedAt": "2026-11-26T14:30:03Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Black Friday has the best Apple deals of the year: Up to 30% off AirPods, iPads, more",
-            "source": "New York Post",
-            "publishedAt": "2026-11-26T14:30:00Z",
-            "sentiment": "Positive",
-            "compound": 0.637
-          },
-          {
-            "title": "The 8 US cities dying before our eyes as workers flee and entire neighborhoods sit abandoned",
-            "source": "New York Post",
-            "publishedAt": "2026-11-26T14:29:00Z",
-            "sentiment": "Negative",
-            "compound": -0.459
-          },
-          {
-            "title": "Futures Extend Thanksgiving Turnaround As Nasdaq Dodges Bear Market, Oil Climbs On Houthi Strikes",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-26T14:23:00Z",
-            "sentiment": "Negative",
-            "compound": -0.202
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 57.35,
-  "trade_probability": 54.41,
+  "confirmation_score": 50.51,
+  "trade_probability": 50.31,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
