@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T13:31:16.835254+00:00",
+  "generated_at": "2026-11-27T13:45:54.310957+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -25,7 +25,7 @@
           "up": false
         },
         "NVDA": {
-          "change_pct": -2.2418,
+          "change_pct": -2.2287,
           "up": false
         },
         "AMZN": {
@@ -56,20 +56,20 @@
     },
     "us10y": {
       "factor": "us10y",
-      "score": 84.43,
+      "score": 73.75,
       "status": "green",
       "details": {
-        "current_yield_pct": 4.848,
-        "change_5d_pct": -4.303
+        "current_yield_pct": 4.902,
+        "change_5d_pct": -2.969
       }
     },
     "dxy": {
       "factor": "dxy",
-      "score": 49.51,
+      "score": 49.38,
       "status": "yellow",
       "details": {
-        "current_dxy": 103.96,
-        "change_5d_pct": 0.061
+        "current_dxy": 103.98,
+        "change_5d_pct": 0.077
       }
     },
     "macro": {
@@ -85,13 +85,34 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.31,
+      "score": 50.51,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.006,
+        "avg_compound": 0.01,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Stoxx 600 rises 1.7% as global stocks rebound on AI trade",
+            "source": "Crypto Briefing",
+            "publishedAt": "2026-11-26T13:42:48Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
+          {
+            "title": "How Much Is Jensen Huang Worth to Nvidia? The Stock Market Just Gave a Clear Answer",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-26T13:40:02Z",
+            "sentiment": "Positive",
+            "compound": 0.542
+          },
+          {
+            "title": "3 Dividend Kings Retirees Can Own for the Rest of Their Lives",
+            "source": "Biztoc.com",
+            "publishedAt": "2026-11-26T13:37:22Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Black Friday TV deals are jaw-dropping, with smart TVs under $100 and Samsung steals",
             "source": "New York Post",
@@ -112,27 +133,6 @@
             "publishedAt": "2026-11-26T13:20:10Z",
             "sentiment": "Negative",
             "compound": -0.318
-          },
-          {
-            "title": "China and other U.S. trading partners hit back at Trump's new tariff plans",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-11-26T13:19:40Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Necessities join gifts in Black Friday shopping carts as AI and higher costs steer spending",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-11-26T13:19:39Z",
-            "sentiment": "Positive",
-            "compound": 0.296
-          },
-          {
-            "title": "Global stocks rise and tech shares rebound as US closes for Thanksgiving",
-            "source": "Abcnews.com",
-            "publishedAt": "2026-11-26T13:19:37Z",
-            "sentiment": "Positive",
-            "compound": 0.296
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 44.73,
-  "trade_probability": 46.84,
+  "confirmation_score": 43.3,
+  "trade_probability": 45.98,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
