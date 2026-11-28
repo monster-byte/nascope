@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T23:45:57.443398+00:00",
+  "generated_at": "2026-11-28T00:01:29.952484+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.25,
+      "score": 49.82,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.005,
+        "avg_compound": -0.004,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "The haunting loveliness of boglands: Books in brief",
+            "source": "Nature.com",
+            "publishedAt": "2026-11-27T00:00:00Z",
+            "sentiment": "Negative",
+            "compound": -0.273
+          },
           {
             "title": "Tokyo's inflation unchanged at 2.8% in November",
             "source": "Biztoc.com",
@@ -121,13 +128,6 @@
             "compound": 0.0
           },
           {
-            "title": "Tokyo core inflation at 16-month high, bolsters case for BOJ hike",
-            "source": "CNA",
-            "publishedAt": "2026-11-26T23:42:00Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
             "title": "Debt, crime, taxes: Victoria’s leaders answer Crikey’s questions about their policies",
             "source": "Crikey",
             "publishedAt": "2026-11-26T23:42:00Z",
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 62.77,
-  "trade_probability": 57.66,
+  "confirmation_score": 62.73,
+  "trade_probability": 57.64,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
