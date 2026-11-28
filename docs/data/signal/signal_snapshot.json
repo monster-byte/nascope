@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T00:15:57.227278+00:00",
+  "generated_at": "2026-11-28T00:31:16.814512+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 50.42,
+      "score": 48.08,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.008,
+        "avg_compound": -0.038,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Cautious consumers gear up for Black Friday as inflation woes bite",
+            "source": "Free Malaysia Today",
+            "publishedAt": "2026-11-27T00:23:24Z",
+            "sentiment": "Negative",
+            "compound": -0.511
+          },
+          {
+            "title": "How Much Would It Cost To Buy A Webcam In 1994 Vs. 2026?",
+            "source": "BGR",
+            "publishedAt": "2026-11-27T00:17:00Z",
+            "sentiment": "Neutral",
+            "compound": 0.0
+          },
           {
             "title": "Argentina bars Central Bank from printing money to fund government spending",
             "source": "Al Jazeera English",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-26T23:43:46Z",
             "sentiment": "Neutral",
             "compound": 0.0
-          },
-          {
-            "title": "Core inflation in Tokyo hits 16-month high, bolsters case for BOJ hike",
-            "source": "CNA",
-            "publishedAt": "2026-11-26T23:42:40Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
-          },
-          {
-            "title": "Core inflation in Japan's capital accelerates in November",
-            "source": "CNA",
-            "publishedAt": "2026-11-26T23:42:40Z",
-            "sentiment": "Neutral",
-            "compound": 0.0
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 62.79,
-  "trade_probability": 57.67,
+  "confirmation_score": 62.58,
+  "trade_probability": 57.55,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
