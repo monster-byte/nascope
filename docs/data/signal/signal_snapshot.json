@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T02:15:56.139141+00:00",
+  "generated_at": "2026-11-28T02:31:09.745625+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,27 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 52.09,
+      "score": 52.51,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.042,
+        "avg_compound": 0.05,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Stock Market LIVE: GIFT Nifty signals negative open; Asia markets advance as tech shares rise",
+            "source": "Business Standard",
+            "publishedAt": "2026-11-27T02:30:37Z",
+            "sentiment": "Positive",
+            "compound": 0.59
+          },
+          {
+            "title": "Blocking foreign workers akin to scoring an own goal",
+            "source": "Free Malaysia Today",
+            "publishedAt": "2026-11-27T02:30:00Z",
+            "sentiment": "Negative",
+            "compound": -0.382
+          },
           {
             "title": "New Zealand ruling coalition misses majority as election results announced",
             "source": "Biztoc.com",
@@ -119,20 +133,6 @@
             "publishedAt": "2026-11-27T02:06:22Z",
             "sentiment": "Negative",
             "compound": -0.421
-          },
-          {
-            "title": "Gold steady, heads for weekly gain as markets await Fed signals",
-            "source": "Economictimes.com",
-            "publishedAt": "2026-11-27T02:05:41Z",
-            "sentiment": "Positive",
-            "compound": 0.586
-          },
-          {
-            "title": "MISSION SUCCESS: Rocket Lab Launches 101st Electron Mission",
-            "source": "Biztoc.com",
-            "publishedAt": "2026-11-27T01:59:54Z",
-            "sentiment": "Positive",
-            "compound": 0.663
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 62.94,
-  "trade_probability": 57.76,
+  "confirmation_score": 62.98,
+  "trade_probability": 57.79,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
