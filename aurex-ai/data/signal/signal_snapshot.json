@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T03:45:57.773392+00:00",
+  "generated_at": "2026-11-28T04:01:23.267202+00:00",
   "weights": {
     "mega_cap_alignment": 0.27,
     "market_regime": 0.135,
@@ -85,13 +85,20 @@
     },
     "news_sentiment": {
       "factor": "news_sentiment",
-      "score": 55.7,
+      "score": 58.0,
       "status": "yellow",
       "details": {
         "overall_sentiment": "NEUTRAL",
-        "avg_compound": 0.114,
+        "avg_compound": 0.16,
         "articles_analyzed": 25,
         "top_headlines": [
+          {
+            "title": "Sensex slips, Nifty flat as IT stocks fall; metals, Titan gain",
+            "source": "BusinessLine",
+            "publishedAt": "2026-11-27T03:59:31Z",
+            "sentiment": "Positive",
+            "compound": 0.727
+          },
           {
             "title": "ASX 200 Closes Higher at 8,833 as Tech Stocks Power Weekly Rebound on AI Optimism",
             "source": "Ibtimes.com.au",
@@ -126,13 +133,6 @@
             "publishedAt": "2026-11-27T03:30:25Z",
             "sentiment": "Neutral",
             "compound": 0.153
-          },
-          {
-            "title": "Stock market today: Sensex falls over 600 points, Nifty slips below 25,750 after 2-day rally",
-            "source": "The Times of India",
-            "publishedAt": "2026-11-27T03:30:19Z",
-            "sentiment": "Positive",
-            "compound": 0.402
           }
         ]
       }
@@ -146,8 +146,8 @@
       }
     }
   },
-  "confirmation_score": 63.26,
-  "trade_probability": 57.96,
+  "confirmation_score": 63.47,
+  "trade_probability": 58.08,
   "market_regime": "NEUTRAL / TRANSITIONAL",
   "final_decision": {
     "ai_status": "HOLD / MONITOR",
